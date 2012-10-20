@@ -1,0 +1,1283 @@
+{
+	"DataRevision": 3,
+	"Event": "FACULTY2011",
+	"Name": "Faculty Summit 2011",
+	"TwitterKeywords": "life,student",
+	"FlickrKeywords": "faculty,buildings",
+	"HawaiiGroup": "FacultySummit2011",
+	"VenueInfo" : {
+		"Name": "Microsoft Conference Center, Building 33, Redmond, WA",
+		"GPS": {"Latitude": 47.642859, "Longitude": -122.125548}   
+	},
+	"InfoPage": {
+		"xaml": "foo",
+		"Elements": [
+			{
+				"XamlName": "LicenseButton",
+				"Type": "WebLink",
+				"URL": "http://research.microsoft.com/en-us/UM/legal/MSR-License-wp.htm"
+			},
+			{
+				"XamlName": "PrivacyButton",
+				"Type": "WebLink",
+				"URL": "http://research.microsoft.com/en-us/UM/legal/privacy-wp.htm"
+			}
+		]
+	},
+	"SessionPriorities" : [
+                    "Plenary", "Award", "Technical", "Panel", "Tutorial", "Other"],
+	"Items": [
+{
+  "Title": "Beyond the Interface: Computing Transformed",
+  "Type": "Keynote",
+  "Key": "BeyondtheInterfaceComputingTransformed",
+  "Authors": ["Craig Mundie"],
+  "Affiliations": ["Chief Research and Strategy Officer, Microsoft"],
+  "Abstract": "The NUI revolution is well underway, and exciting new technologies are transforming how we interact with computers, what they can do for us, and who can use them. Craig Mundie, chief research and strategy officer of Microsoft, explores the technologies Microsoft is investing in and how they are changing the way we live."
+},
+{
+  "Title": "Putting the Cloud in the Palm of your Hand",
+  "Type": "Talk",
+  "Key": "PuttingtheCloudinthePalmofyourHand",
+  "Authors": ["Victor Bahl"],
+  "Affiliations": ["Microsoft Research"]
+},
+{
+  "Title": "Participatory mHealth—An Opportunity for Innovation in Healthcare, Wellness, and Research",
+  "Type": "Talk",
+  "Key": "ParticipatorymHealthAnOpportunityforInnovationinHealthcareWellnessandResearch",
+  "Authors": ["Deborah Estrin"],
+  "Affiliations": ["University of California, Los Angeles"]
+},
+{
+  "Title": "Innovating for Society: Realizing the Promise and Potential of Computing",
+  "Type": "Panel",
+  "Key": "InnovatingforSocietyRealizingthePromiseandPotentialofComputing",
+  "Authors": ["Farnam Jahanian"],
+  "Affiliations": ["National Science Foundation"]
+},
+{
+  "Title": "Building Secure and Resilient Systems for the Future",
+  "Type": "Panel",
+  "Key": "BuildingSecureandResilientSystemsfortheFuture",
+  "Authors": ["Howard Shrobe"],
+  "Affiliations": ["Defense Advanced Research Projects Agency"]
+},
+{
+  "Title": "Transforming Electricity",
+  "Type": "Panel",
+  "Key": "TransformingElectricity",
+  "Authors": ["Rajeev Ram"],
+  "Affiliations": ["Advanced Research Projects Agency – Energy"]
+},
+{
+  "Title": "An Overview of Microsoft Environmental Informatics Framework (EIF)",
+  "Type": "Talk",
+  "Key": "AnOverviewofMicrosoftEnvironmentalInformaticsFrameworkEIF",
+  "Authors": ["Yan Xu"],
+  "Affiliations": ["Microsoft Research"]
+},
+{
+  "Title": "Data Sharing Made Easy using Odata",
+  "Type": "Talk",
+  "Key": "DataSharingMadeEasyusingOdata",
+  "Authors": ["Alex James"],
+  "Affiliations": ["Microsoft"]
+},
+{
+  "Title": "Data Challenges in Environmental Research",
+  "Type": "Talk",
+  "Key": "DataChallengesinEnvironmentalResearch",
+  "Authors": ["John McGee"],
+  "Affiliations": ["Renaissance Computing Institute"]
+},
+{
+  "Title": "Cryptographic Cloud Storage and Services",
+  "Type": "Talk",
+  "Key": "CryptographicCloudStorageandServices",
+  "Authors": ["Kristin Lauter"],
+  "Affiliations": ["Microsoft Research"]
+},
+{
+  "Title": "Encryption as Access Control for Cloud Security",
+  "Type": "Talk",
+  "Key": "EncryptionasAccessControlforCloudSecurity",
+  "Authors": ["Carl Gunter"],
+  "Affiliations": ["University of Illinois"]
+},
+{
+  "Title": "The Economics of Cloud Computing: Why a Brooklyn Latte Buys a Million Unforgeable Signatures",
+  "Type": "Talk",
+  "Key": "TheEconomicsofCloudComputingWhyaBrooklynLatteBuysaMillionUnforgeableSignatures",
+  "Authors": ["Radu Sion"],
+  "Affiliations": ["Stony Brook University"]
+},
+{
+  "Title": "Making Discovery Visible: A Participatory Approach to Developing Games for Broadening Participation In Science",
+  "Type": "Talk",
+  "Key": "MakingDiscoveryVisibleAParticipatoryApproachtoDevelopingGamesforBroadeningParticipationInScience",
+  "Authors": ["Kurt Squire"],
+  "Affiliations": ["University of Wisconsin at Madison"]
+},
+{
+  "Title": "Unlike Broccoli For Chocolate: Foldit, Refraction, and How Embedded Assessment is Changing the Game of Education",
+  "Type": "Talk",
+  "Key": "UnlikeBroccoliForChocolateFolditRefractionandHowEmbeddedAssessmentisChangingtheGameofEducation",
+  "Authors": ["Seth Cooper"],
+  "Affiliations": ["University of Washington"]
+},
+{
+  "Title": "Assessment? #%&! Why Traditional Assessment Takes the Fun out of Game Design",
+  "Type": "Talk",
+  "Key": "AssessmentWhyTraditionalAssessmentTakestheFunoutofGameDesign",
+  "Authors": ["Tracy Fullerton"],
+  "Affiliations": ["University of Southern California"]
+},
+{
+  "Title": "DemoFest Introduction",
+  "Type": "Plenary",
+  "Key": "DemoFestIntroduction",
+  "Authors": ["Peter Lee"],
+  "Affiliations": ["Distinguished Scientist and Managing Director, Microsoft Research"]
+},
+{
+  "Title": "Project Roslyn: Exposing the VB and C# Compiler’s Code Analysis",
+  "Type": "Talk",
+  "Key": "ProjectRoslynExposingtheVBandCCompilersCodeAnalysis",
+  "Authors": ["Karen Ng"],
+  "Affiliations": ["Microsoft"]
+},
+{
+  "Title": "Beyond Behavior Preservation",
+  "Type": "Talk",
+  "Key": "BeyondBehaviorPreservation",
+  "Authors": ["Ralph Johnson"],
+  "Affiliations": ["University of Illinois, Urbana Champaign"]
+},
+{
+  "Title": "How Are Developers Using Refactoring Tools?",
+  "Type": "Talk",
+  "Key": "HowAreDevelopersUsingRefactoringTools",
+  "Authors": ["Emerson Murphy-Hill"],
+  "Affiliations": ["North Carolina State University"]
+},
+{
+  "Title": "Kinect for Windows SDK – Getting Started (Part 1)",
+  "Type": "Tutorial",
+  "Key": "KinectforWindowsSDKGettingStartedPart1",
+  "Authors": ["John Lefor"],
+  "Affiliations": ["Microsoft Research"]
+},
+{
+  "Title": "Kinect for Windows SDK – Getting Started (Part 2)",
+  "Type": "Tutorial",
+  "Key": "KinectforWindowsSDKGettingStartedPart2",
+  "Authors": ["John Lefor"],
+  "Affiliations": ["Microsoft Research"]
+},
+{
+  "Title": "Cosmos: a Petabyte-Scale Store and Computation Platform",
+  "Type": "Talk",
+  "Key": "CosmosaPetabyteScaleStoreandComputationPlatform",
+  "Authors": ["Pat Helland"],
+  "Affiliations": ["Microsoft"]
+},
+{
+  "Title": "The Many Facets of Big Data, a Closer Look",
+  "Type": "Talk",
+  "Key": "TheManyFacetsofBigDataaCloserLook",
+  "Authors": ["Balan Sethu Raman"],
+  "Affiliations": ["Microsoft"]
+},
+{
+  "Title": "Scientific Data Analysis Today: From Terabytes to Petabytes",
+  "Type": "Talk",
+  "Key": "ScientificDataAnalysisTodayFromTerabytestoPetabytes",
+  "Authors": ["Alex Szalay"],
+  "Affiliations": ["Johns Hopkins University"]
+},
+{
+  "Title": "Semantic Knowledge for Commodity Computing—Overview",
+  "Type": "Talk",
+  "Key": "SemanticKnowledgeforCommodityComputingOverview",
+  "Authors": ["Evelyne Viegas"],
+  "Affiliations": ["Microsoft Research"]
+},
+{
+  "Title": "Ontologies for Real World",
+  "Type": "Talk",
+  "Key": "OntologiesforRealWorld",
+  "Authors": ["Deborah McGuinness"],
+  "Affiliations": ["Rensselaer Polytechnic Institute"]
+},
+{
+  "Title": "A Probabilistic Knowledgebase for Text Understanding",
+  "Type": "Talk",
+  "Key": "AProbabilisticKnowledgebaseforTextUnderstanding",
+  "Authors": ["Haixun Wang"],
+  "Affiliations": ["Microsoft Research"]
+},
+{
+  "Title": "Data Challenges in the Real World",
+  "Type": "Talk",
+  "Key": "DataChallengesintheRealWorld",
+  "Authors": ["Shoshanna Budzianowski"],
+  "Affiliations": ["Microsoft"]
+},
+{
+  "Title": "An Overview of Dynamic Languages: How They’re Different, Why They’re Popular, and Where They’re Being Used",
+  "Type": "Talk",
+  "Key": "AnOverviewofDynamicLanguagesHowTheyreDifferentWhyTheyrePopularandWhereTheyreBeingUsed",
+  "Authors": ["Sumit Basu"],
+  "Affiliations": ["Microsoft Research"]
+},
+{
+  "Title": "Recent Advances in Dynamic Languages",
+  "Type": "Talk",
+  "Key": "RecentAdvancesinDynamicLanguages",
+  "Authors": ["Jan Vitek"],
+  "Affiliations": ["Purdue University"]
+},
+{
+  "Title": "What YOU can Do to Recruit and Retain Undergraduate Women for Your Computing Programs",
+  "Type": "Talk",
+  "Key": "WhatYOUcanDotoRecruitandRetainUndergraduateWomenforYourComputingPrograms",
+  "Authors": ["Maureen Biggers", "Ann Quiroz Gates", "Ed Lazowska", "Bobby Schnabel"],
+  "Affiliations": ["Indiana University", "University of Texas at El Paso", "University of Washington"]
+},
+{
+  "Title": "Text and Context: Using Context to Better Understand Searcher’s Intentions",
+  "Type": "Talk",
+  "Key": "TextandContextUsingContexttoBetterUnderstandSearchersIntentions",
+  "Authors": ["Susan Dumais"],
+  "Affiliations": ["Microsoft Research"]
+},
+{
+  "Title": "Learning to Map Sentences to Meaning",
+  "Type": "Talk",
+  "Key": "LearningtoMapSentencestoMeaning",
+  "Authors": ["Luke Zettlemoyer"],
+  "Affiliations": ["University of Washington"]
+},
+{
+  "Title": "Citizen Sensing—Opportunities and Challenges in Mining Social Signals and Perceptions",
+  "Type": "Talk",
+  "Key": "CitizenSensingOpportunitiesandChallengesinMiningSocialSignalsandPerceptions",
+  "Authors": ["Amit Sheth"],
+  "Affiliations": ["Wright University"]
+},
+{
+  "Title": "Semantics and Knowledge-Enabled Experiences for Search and Discovery",
+  "Type": "Talk",
+  "Key": "SemanticsandKnowledgeEnabledExperiencesforSearchandDiscovery",
+  "Authors": ["M. Srikanth"],
+  "Affiliations": ["Microsoft"]
+},
+{
+  "Title": "NUI—The Road Ahead",
+  "Type": "Panel",
+  "Key": "NUITheRoadAhead",
+  "Authors": ["Mark Bolas", "Justine Cassell", "Mary Czerwinski", "Daniel Wigdor"],
+  "Affiliations": ["University of Southern California", "Carnegie Mellon University", "Microsoft Research", "University of Toronto"]
+},
+{
+  "Title": "Sho — Scientific Computing on .NET Steroids",
+  "Type": "Tutorial",
+  "Key": "ShoScientificComputingonNETSteroids",
+  "Authors": ["Sumit Basu"],
+  "Affiliations": ["Microsoft Research"]
+},
+{
+  "Title": "Presentation of Awards",
+  "Type": "Plenary",
+  "Key": "PresentationofAwards",
+  "Authors": ["Rick Rashid"],
+  "Affiliations": ["Microsoft Research"]
+},
+{
+  "Title": "Vision-based Natural User Interfaces",
+  "Type": "Keynote",
+  "Key": "VisionbasedNaturalUserInterfaces",
+  "Authors": ["Rick Szeliski"],
+  "Affiliations": ["Microsoft Research"],
+  "Abstract": "Even though computer vision remains one of the great unsolved Grand Challenges of computing, vision techniques are maturing at a rapid pace and finding their way into a large number of applications. Among these are natural user interfaces based on a visual understanding of scenes, actions, and three-dimensional data. \n\nIn this talk, I survey a number of computer vision technologies that were developed at Microsoft Research over the last decade, including:\n * Recognizing human poses and actions for range data (Kinect)\n * Segmenting and recognizing organs in three-dimensional (3-D) medical images \n * Stitching together dozens to hundreds of photographs for seamless navigation of panoramas, street side images, and 3-D object movies \n * Recognizing manufactured objects with your cell phone for quick comparison shopping \n\nI will also discuss some of the challenging open problems in our field."
+},
+{
+  "Title": "A Tour of Dafny",
+  "Type": "Talk",
+  "Key": "ATourofDafny",
+  "Authors": ["Rustan Leino"],
+  "Affiliations": ["Microsoft Research"]
+},
+{
+  "Title": "Experience with Using Dafny for Teaching an Introductory Course on Program Reasoning",
+  "Type": "Talk",
+  "Key": "ExperiencewithUsingDafnyforTeachinganIntroductoryCourseonProgramReasoning",
+  "Authors": ["Rajeev Joshi"],
+  "Affiliations": ["NASA JPL"]
+},
+{
+  "Title": "Teaching Using Spec# in Europe: A Experience Report from University Teaching and Various Verification Tutorials",
+  "Type": "Talk",
+  "Key": "TeachingUsingSpecinEuropeAExperienceReportfromUniversityTeachingandVariousVerificationTutorials",
+  "Authors": ["Rosemary Monahan"],
+  "Affiliations": ["National University of Ireland, Maynooth"]
+},
+{
+  "Title": "Advanced Medical Imaging Research at Microsoft and its Applications on Product Groups",
+  "Type": "Talk",
+  "Key": "AdvancedMedicalImagingResearchatMicrosoftanditsApplicationsonProductGroups",
+  "Authors": ["Khan Siddiqui"],
+  "Affiliations": ["Microsoft"]
+},
+{
+  "Title": "Inner Eye: Toward a Computational Platform for Imaging Metadata",
+  "Type": "Talk",
+  "Key": "InnerEyeTowardaComputationalPlatformforImagingMetadata",
+  "Authors": ["Steve White"],
+  "Affiliations": ["Microsoft"]
+},
+{
+  "Title": "Applications of Advanced Semantic Tagging in Clinical Settings",
+  "Type": "Talk",
+  "Key": "ApplicationsofAdvancedSemanticTagginginClinicalSettings",
+  "Authors": ["David Haynor"],
+  "Affiliations": ["University of Washington"]
+},
+{
+  "Title": "Under the Hood of Microsoft Academic Search",
+  "Type": "Talk",
+  "Key": "UndertheHoodofMicrosoftAcademicSearch",
+  "Authors": ["Xin Zou"],
+  "Affiliations": ["Microsoft Research"]
+},
+{
+  "Title": "Eigenfactor Metrics: A Network Approach to Assessing Scholarly Journals / Eigenfactor: Ranking and Mapping Scientific Knowledge",
+  "Type": "Talk",
+  "Key": "EigenfactorMetricsANetworkApproachtoAssessingScholarlyJournalsEigenfactorRankingandMappingScientificKnowledge",
+  "Authors": ["Jevin West"],
+  "Affiliations": ["University of Washington"]
+},
+{
+  "Title": "What's Next for Microsoft Academic Search",
+  "Type": "Talk",
+  "Key": "WhatsNextforMicrosoftAcademicSearch",
+  "Authors": ["Adnan Mahmud"],
+  "Affiliations": ["Microsoft Research"]
+},
+{
+  "Title": "Live Andes (Advanced Network for the Distribution of Endangered Species): A New Tool for Wildlife",
+  "Type": "Talk",
+  "Key": "LiveAndesAdvancedNetworkfortheDistributionofEndangeredSpeciesANewToolforWildlife",
+  "Authors": ["Cristian Bonacic"],
+  "Affiliations": ["Catholic University of Chile"]
+},
+{
+  "Title": "The FAPESP-Microsoft Virtual Research Institute in São Paulo, Brazil",
+  "Type": "Talk",
+  "Key": "TheFAPESPMicrosoftVirtualResearchInstituteinSãoPauloBrazil",
+  "Authors": ["Carlos Henrique de Brito Cruz"],
+  "Affiliations": ["FAPESP"]
+},
+{
+  "Title": "The Brazilian Biodiversity Database and Information System: SinBIOTA",
+  "Type": "Talk",
+  "Key": "TheBrazilianBiodiversityDatabaseandInformationSystemSinBIOTA",
+  "Authors": ["Tiago Duque Estrada"],
+  "Affiliations": ["UNICAMP"]
+},
+{
+  "Title": "LACCIR Federation: Building Research Capacity and Collaboration for ICT Innovation in Latin America and the Caribbean",
+  "Type": "Talk",
+  "Key": "LACCIRFederationBuildingResearchCapacityandCollaborationforICTInnovationinLatinAmericaandtheCaribbean",
+  "Authors": ["Domingo Mery"],
+  "Affiliations": ["Catholic University of Chile"]
+},
+{
+  "Title": "Future Social Experiences",
+  "Type": "Keynote",
+  "Key": "FutureSocialExperiences",
+  "Authors": ["Lili Cheng"],
+  "Affiliations": ["Microsoft Research"],
+  "Abstract": "Today, social software, which was initially embraced by youth who were interested in self-expression, meeting new people, and staying in touch with friends, influences a broad set of people—including traditional companies, governments, and people of all ages. It has changed the way people socialize online, making words such as: \"liking,\" \"friending,\" \"status,\" and \"tweeting\" commonplace. \n\nIn designing future social experience, we explore:\nWhere is social software trending? \nHow does research and innovation in this fast-paced area differ from other traditional areas in computer science? \nHow might we use lessons learned from social software to influence learning and education in the area of science and technology? \n\nWhat we see today, the Internet and social networks connecting people via status messaging, is just a beginning. It is our hope that social software can deliver in its promise to motivate people to action, improve the quality of life and social wellbeing, and help us solve meaningful problems and create amazing things together."
+},
+{
+  "Title": "Closing Remarks",
+  "Type": "Plenary",
+  "Key": "ClosingRemarks",
+  "Authors": ["Judith Bishop", "Dennis Gannon"],
+  "Affiliations": ["Microsoft Research"]
+},
+{
+  "Title": "Origin",
+  "Type": "Expo",
+  "Key": "Origin",
+  "Authors": ["Daniya Ulgen", "Vu Chu", "Jason Wong", "Ben Mabry", "Nicholas Smith"],
+  "Affiliations": ["University of Washington, Seattle, WA, United States"],
+  "Abstract": "In recognition of the shortcomings of current file management systems, Origin seeks to improve the way in which data is tagged, making its operation far more organic (or brain-like) than any typical system. By tagging data with contextual markers, it delivers users what they want, when they want it without degrading opportunities to search for other data."
+},
+{
+  "Title": "Voglia",
+  "Type": "Expo",
+  "Key": "Voglia",
+  "Authors": ["Fei Yu", "Martina Maitan", "Domiano Gui"],
+  "Affiliations": ["Istituto Universitario di Architettura di Venezia, Venice, Italy"],
+  "Abstract": "Voglia is a connected device that allows for communication and interaction between couples who are separated but want to maintain close communications and awareness."
+},
+{
+  "Title": "In-NEED",
+  "Type": "Expo",
+  "Key": "InNEED",
+  "Authors": ["Nermin Moufti", "Fareena Chanda"],
+  "Affiliations": ["The Ontario College of Art and Design University, Toronto, Canada"],
+  "Abstract": "In-NEED is a system for managing the community’s response to natural disasters through the use of mobile technologies. In-NEED addresses the humanitarian need of pre-emptive “survivor” systems/networks that engage and mobilize people within the community to act and share existing resources to mitigate the impact of natural disasters in the all-important hours directly preceding the event. By using existing technologies, localized platforms, and developing low-cost community nodes, In-NEED serves as a virtual survival kit."
+},
+{
+  "Title": "Walk.It",
+  "Type": "Expo",
+  "Key": "WalkIt",
+  "Authors": ["Jennifer Ho", "Doug Thistlewaite", "Jihyun Moon", "Miguel Bermudez"],
+  "Affiliations": ["New York University, Interactive Telecommunications Program, New York City, NY
+, United States"],
+  "Abstract": "Walk.It is an online platform that allows anyone to create and share neighborhood maps that mimic the same personality and charm of a hand-drawn map from a friend. Believing that the form of the map breeds comfort and familiarity, along with the connected power of community and curation, Walk.It is designed to foster exploration and investigation."
+},
+{
+  "Title": "PortaVox",
+  "Type": "Expo",
+  "Key": "PortaVox",
+  "Authors": ["Fer Diez", "Mariana Pintado", "Julio Palomino"],
+  "Affiliations": ["Ibero Universidad de México, Mexico City, Mexico"],
+  "Abstract": "It is well known that in many urban centers crime of any kind—but particularly those of a violent nature—are seldom reported. Porta Vox is a system that creates a community-reporting tool that helps track and reduce incidents of crime in urban areas. The belief is that by making the means of reporting present, simple, and connected, it can reduce the stigma and fear that is associated with reporting. The intended outcome is to reduce crime and the fear of crime, thus making cities eminently more livable."
+},
+{
+  "Title": "Apart",
+  "Type": "Expo",
+  "Key": "Apart",
+  "Affiliations": ["Together Tongji University, Shanghai, China"],
+  "Abstract": "The Tongji University project team of interdisciplinary students has focused on the growing trend of parents leaving behind their children in second and third tier cities for the large 1st tier cities in hopes of finding better economic opportunities. This trend is growing quickly, currently effecting more than 130 million parents and more than 50 million children who are now being raised by their grandparents. This separation between parent and children has a huge emotional impact and introduces some unique challenges of Chinese society today. The Apart – Together team has focused on a solution to improve the emotional bond between children and parents that are currently living in this situation."
+},
+{
+  "Title": "Games for Learning in the 21st Century",
+  "Type": "Talk",
+  "Key": "GamesforLearninginthe21stCentury",
+  "Authors": ["Ken Perlin"],
+  "Affiliations": ["New York University"],
+  "Abstract": "With their vast popularity and singular ability to engage young people, digital games have been hailed as a new paradigm for education in the 21st century. But researchers know surprisingly little about how successful games work. What are the key design elements that make certain games compelling, playable, and fun? How do game genres differ in their educational effectiveness for specific topics and for specific learners? How do kids learn when they play games? Does the setting (classroom vs. casual) matter? How can games be used to prepare future learning, introduce new material, or strengthen and expand existing knowledge? How are games designed to best facilitate the transfer of learning to everyday lives? And how can we use all of this knowledge to guide future game design? \n\nThe Games for Learning Institute (G4LI) seeks to answer these questions, pointing the way to a new era of game use in education, by applying a scientifically rigorous approach. Researchers study existing games, identify key design elements and learning patterns, develop prototype mini-games based on these elements and patterns, and evaluate them in classroom and informal learning settings. This talk will provide a peek inside how the G4LI does all this."
+}
+	],
+	"Sessions": [
+{
+  "Title": "Breakfast10",
+  "Type": "Break",
+  "ShortType": "Break",
+  "Key": "Breakfast",
+  "Day": "7/18/2011",
+  "Time": "8:00 am - 9:00 am"
+},
+{
+  "Title": "Welcome and Introduction",
+  "Type": "Plenary",
+  "ShortType": "Plenary",
+  "Key": "WelcomeandIntroduction",
+  "Day": "7/18/2011",
+  "Time": "9:00 am - 9:30 am",
+  "Location": "Kodiak"
+},
+{
+  "Title": "Opening Keynote — Craig Mundie",
+  "Type": "Plenary",
+  "ShortType": "Plenary",
+  "Key": "OpeningKeynoteCraigMundie",
+  "Day": "7/18/2011",
+  "Time": "9:30 am - 10:30 am",
+  "Location": "Kodiak",
+  "Items": ["BeyondtheInterfaceComputingTransformed"]
+},
+{
+  "Title": "Break",
+  "Type": "Break",
+  "ShortType": "Break",
+  "Key": "Break",
+  "Day": "7/18/2011",
+  "Time": "10:30 am - 11:00 am"
+},
+{
+  "Title": "Mobile Computing — Challenges and Opportunities",
+  "ShortTitle": "Mobile Computing",
+  "Type": "Technical",
+  "ShortType": "Technical",
+  "Key": "MobileComputingChallengesandOpportunities",
+  "Day": "7/18/2011",
+  "Time": "11:00 am - 12:30 pm",
+  "Location": "Cascade",
+  "Abstract": "Mobile computing is the fastest growing segment of computing today. It is envisioned that in the next 10 years there will be more mobile devices sold than fixed computers. For this explosive grown to happen, a number of technical challenges need to be addressed. In this session, researchers from Microsoft Research and the academic community will explore challenges faced in the mobile computing space and outline opportunities for innovation. ",
+  "Items": ["PuttingtheCloudinthePalmofyourHand", "ParticipatorymHealthAnOpportunityforInnovationinHealthcareWellnessandResearch"],
+  "Chair": "Arjmand Samuel"
+},
+{
+  "Title": "Federal Worlds Meet Future Worlds",
+  "Type": "Panel",
+  "ShortType": "Panel",
+  "Key": "FederalWorldsMeetFutureWorlds",
+  "Day": "7/18/2011",
+  "Time": "11:00 am - 12:30 pm",
+  "Location": "Rainier",
+  "Abstract": "Societal Opportunities and Challenges for Information Technology and the Role of the Federal Government \n\nRepresentatives from federal agencies will discuss how they see information technology enabling the future in various areas relevant to their agencies’ missions—for example, science, education, health, energy, national security—and the associated federal programs and policy issues. ",
+  "Items": ["InnovatingforSocietyRealizingthePromiseandPotentialofComputing", "BuildingSecureandResilientSystemsfortheFuture", "TransformingElectricity"],
+  "Chair": "Elizabeth Grossman"
+},
+{
+  "Title": "Open Data for Open Science",
+  "Type": "Technical",
+  "ShortType": "Technical",
+  "Key": "OpenDataforOpenScience",
+  "Day": "7/18/2011",
+  "Time": "11:00 am - 12:30 pm",
+  "Location": "St. Helens",
+  "Abstract": "The Microsoft Environmental Informatics Framework (EIF) \n\nEnvironmental Informatics aims to utilize computing technologies to help solving environmental problems. This emerging interdisciplinary paradigm accelerates the transformation from environmental data to information, to knowledge, and ultimately to social impact. The Environmental Informatics Framework (EIF) is the strategy and research solution we are developing to engage Microsoft technologies with Environmental Informatics. Focusing on data discoverability, accessibility, and consumablility, EIF enables environmental researchers to solve the interoperability problem among vast amount of heterogeneous data. EIF is built on the cutting-edge Microsoft products and innovations that support the Open Data Protocol (OData). ",
+  "Items": ["AnOverviewofMicrosoftEnvironmentalInformaticsFrameworkEIF", "DataSharingMadeEasyusingOdata", "DataChallengesinEnvironmentalResearch"],
+  "Chair": "Yan Xu"
+},
+{
+  "Title": "Design Expo",
+  "Type": "Expo",
+  "ShortType": "Expo",
+  "Key": "DesignExpo",
+  "Day": "7/18/2011",
+  "Time": "12:00 pm - 3:00 pm",
+  "Location": "Kodiak",
+  "Abstract": "The Microsoft Research Design Expo is a forum where student teams from top design institutions showcase their prototype interaction-design ideas. This year's theme, \"Get Connected, Stay Connected,\" focuses on the merging of exceptional process with ideas. ",
+  "Items": ["Origin", "Voglia", "InNEED", "WalkIt", "PortaVox", "Apart"],
+  "Chair": "Curtis Wong"
+},
+{
+  "Title": "Lunch",
+  "Type": "Break",
+  "ShortType": "Break",
+  "Key": "Lunch",
+  "Day": "7/18/2011",
+  "Time": "12:30 pm - 1:30 pm"
+},
+{
+  "Title": "Games for Learning in the 21st Century",
+  "Type": "Lunchtime Session",
+  "ShortType": "Lunchtime Session",
+  "Key": "GamesforLearninginthe21stCentury",
+  "Day": "7/18/2011",
+  "Time": "12:30 pm - 1:30 pm",
+  "Location": "St. Helens",
+  "Abstract": "With their vast popularity and singular ability to engage young people, digital games have been hailed as a new paradigm for education in the 21st century. But researchers know surprisingly little about how successful games work. What are the key design elements that make certain games compelling, playable, and fun? How do game genres differ in their educational effectiveness for specific topics and for specific learners? How do kids learn when they play games? Does the setting (classroom vs. casual) matter? How can games be used to prepare future learning, introduce new material, or strengthen and expand existing knowledge? How are games designed to best facilitate the transfer of learning to everyday lives? And how can we use all of this knowledge to guide future game design? \n\nThe Games for Learning Institute (G4LI) seeks to answer these questions, pointing the way to a new era of game use in education, by applying a scientifically rigorous approach. Researchers study existing games, identify key design elements and learning patterns, develop prototype mini-games based on these elements and patterns, and evaluate them in classroom and informal learning settings. This talk will provide a peek inside how the G4LI does all this. ",
+  "Items": ["GamesforLearninginthe21stCentury"]
+},
+{
+  "Title": "Cloud Security and Privacy",
+  "Type": "Technical",
+  "ShortType": "Technical",
+  "Key": "CloudSecurityandPrivacy",
+  "Day": "7/18/2011",
+  "Time": "1:30 pm - 3:00 pm",
+  "Location": "Rainier",
+  "Abstract": "New and emerging cryptographic techniques allow outsourcing of private and sensitive data to cloud operators running in big data centers. Medical data is particularly sensitive and privacy can have tremendous value in this space. Some recent projects and solutions focus on protecting patients’ privacy in several different ways, while maintaining the ability to use data flexibly for medical research and regional cost-saving efforts. Examples include protecting patients’ records through encryption and anonymizing interactions with insurance companies. Many of these same techniques are more broadly applicable to Cloud Security and Privacy issues. ",
+  "Items": ["CryptographicCloudStorageandServices", "EncryptionasAccessControlforCloudSecurity", "TheEconomicsofCloudComputingWhyaBrooklynLatteBuysaMillionUnforgeableSignatures"],
+  "Chair": "Kristin Lauter"
+},
+{
+  "Title": "Kinect for Windows SDK",
+  "Type": "Technical",
+  "ShortType": "Technical",
+  "Key": "KinectforWindowsSDK",
+  "Day": "7/18/2011",
+  "Time": "1:30 pm - 3:00 pm",
+  "Location": "Cascade",
+  "Abstract": "Community Update and Next Steps \n\nIn spring this year, Microsoft Research plans to release the Kinect for Windows SDK. This session reviews the contents of the release, provides an overview of its functionality and applications, introduces how you can get started developing on the platform yourself, and highlights how the research community has received the SDK in NUI research and beyond. We will wrap with a discussion of future requirements and directions. ",
+  "Chair": "Stewart Tansley"
+},
+{
+  "Title": "Reinventing Education",
+  "Type": "Technical",
+  "ShortType": "Technical",
+  "Key": "ReinventingEducation",
+  "Day": "7/18/2011",
+  "Time": "1:30 pm - 3:00 pm",
+  "Location": "St. Helens",
+  "Items": ["MakingDiscoveryVisibleAParticipatoryApproachtoDevelopingGamesforBroadeningParticipationInScience", "UnlikeBroccoliForChocolateFolditRefractionandHowEmbeddedAssessmentisChangingtheGameofEducation", "AssessmentWhyTraditionalAssessmentTakestheFunoutofGameDesign"],
+  "Chair": "Donald Brinkman"
+},
+{
+  "Title": "Break",
+  "Type": "Break",
+  "ShortType": "Break",
+  "Key": "Break-1",
+  "Day": "7/18/2011",
+  "Time": "3:00 pm - 3:30 pm"
+},
+{
+  "Title": "DemoFest Introduction",
+  "Type": "Plenary",
+  "ShortType": "Plenary",
+  "Key": "DemoFestIntroduction",
+  "Day": "7/18/2011",
+  "Time": "3:30 pm - 4:30 pm",
+  "Location": "Kodiak",
+  "Items": ["DemoFestIntroduction"]
+},
+{
+  "Title": "DemoFest and Appetizers",
+  "Type": "Demos",
+  "ShortType": "Demos",
+  "Key": "DemoFestandAppetizers",
+  "Day": "7/18/2011",
+  "Time": "4:30 pm - 7:30 pm",
+  "Chair": "Dean Guo; Michael Zyskowski"
+},
+{
+  "Title": "Breakfast",
+  "Type": "Break",
+  "ShortType": "Break",
+  "Key": "Breakfast-1",
+  "Day": "7/19/2011",
+  "Time": "8:00 am - 9:00 am"
+},
+{
+  "Title": "Refactoring with Roslyn Circus Comes to Town",
+  "Type": "Technical",
+  "ShortType": "Technical",
+  "Key": "RefactoringwithRoslynCircusComestoTown",
+  "Day": "7/19/2011",
+  "Time": "9:00 am - 10:30 am",
+  "Location": "St. Helens",
+  "Abstract": "The moment we’ve been waiting for has finally arrived! The Microsoft .NET compilers are going to give access to the internals of the compilation pipeline, with handy IDE integration too! Language research on .NET will become easier than ever, permitting new kinds of refactoring and compiler/runtime research. In this talk, you’ll see how to use the new APIs to do all sorts of fancy tricks. See automatic parallelization! Thrill to cross-language cut-and-paste! Be amazed at deep semantic analyses! ",
+  "Items": ["ProjectRoslynExposingtheVBandCCompilersCodeAnalysis", "BeyondBehaviorPreservation", "HowAreDevelopersUsingRefactoringTools"],
+  "Chair": "Mike Barnett"
+},
+{
+  "Title": "Kinect for Windows SDK – Getting Started (Part 1)",
+  "Type": "Tutorial",
+  "ShortType": "Tutorial",
+  "Key": "KinectforWindowsSDKGettingStartedPart1",
+  "Day": "7/19/2011",
+  "Time": "9:00 am - 10:30 am",
+  "Location": "Cascade",
+  "Abstract": "In spring this year, Microsoft Research plans to release the Kinect for Windows SDK. This session reviews the contents of the release, provides an overview of its functionality and applications, introduces how you can get started developing on the platform yourself, and highlights how the research community has received the SDK in NUI research and beyond. We will wrap with a discussion of future requirements and directions. ",
+  "Items": ["KinectforWindowsSDKGettingStartedPart1"],
+  "Chair": "Stewart Tansley"
+},
+{
+  "Title": "The Many Facets of Big Data",
+  "Type": "Technical",
+  "ShortType": "Technical",
+  "Key": "TheManyFacetsofBigData",
+  "Day": "7/19/2011",
+  "Time": "9:00 am - 10:30 am",
+  "Location": "Rainier",
+  "Abstract": "Today there are at least three distinct lines of research and development that have blossomed in Big Data, each with its own unique set of challenges and opportunities: (1) Big-data storage: systems that store really big (as in hundreds of Petabytes) amounts of data; (2) Big-data analytics: systems that use new information models and analytics processes to crunch really big amounts of data from multiple sources and deliver information in real or near real time; (3) Big-data hardware architectures, the networking, storage subsystems and compute runtimes that support both data storage and big-data analytics. This session starts off with talks from three leaders in the area of Big Data, specifically a talk from OSD on how BING processes petabytes of data nightly, the failure rates and issues they encounter, followed by a talk from SQL Server outlining new information processing patterns emerging in how we extract insight from data closer to the actual source, and we close with a talk from an external researcher detailing efforts to build a data analytics appliance to support data intensive research. As host I will have prepared questions to ensure the final 30 minutes of discussion is lively/productive. ",
+  "Items": ["CosmosaPetabyteScaleStoreandComputationPlatform", "TheManyFacetsofBigDataaCloserLook", "ScientificDataAnalysisTodayFromTerabytestoPetabytes"],
+  "Chair": "Roger Barga"
+},
+{
+  "Title": "Break",
+  "Type": "Break",
+  "ShortType": "Break",
+  "Key": "Break-2",
+  "Day": "7/19/2011",
+  "Time": "10:30 am - 11:00 am"
+},
+{
+  "Title": "Semantic Knowledge for Commodity Computing (Part 1)",
+  "Type": "Technical",
+  "ShortType": "Technical",
+  "Key": "SemanticKnowledgeforCommodityComputingPart1",
+  "Day": "7/19/2011",
+  "Time": "11:00 am - 12:30 pm",
+  "Location": "Rainier",
+  "Abstract": "Myth or Reality? Information and Knowledge Acquisition: has the problem been solved? \n\nSemantic knowledge constitutes one of the building blocks to human understanding. For computers to become more intelligent, we need to find ways to first produce knowledge in reliable and scalable manner, and then, to use that information to derive new knowledge. This comes with several challenges, acquisition bottleneck, and inference complexity. This Faculty Summit session will discuss these challenges and investigates answers via affinity groups created over the two sessions to get semantic knowledge close to a commodity computing resource. Session 1 explores steps to acquiring semantic knowledge at scale from terabytes of data, following approaches where training data have been successfully applied to several applications such as machine translation information extraction and question answering. These resources are contrasted with richer hand crafted knowledge sources. The discussion will explore the need for a hybrid approach making usage of automation and collective intelligence to bypass the acquisition bottleneck. ",
+  "Items": ["SemanticKnowledgeforCommodityComputingOverview", "OntologiesforRealWorld", "AProbabilisticKnowledgebaseforTextUnderstanding", "DataChallengesintheRealWorld"],
+  "Chair": "Evelyne Viegas"
+},
+{
+  "Title": "Kinect for Windows SDK – Getting Started (Part 2)",
+  "Type": "Tutorial",
+  "ShortType": "Tutorial",
+  "Key": "KinectforWindowsSDKGettingStartedPart2",
+  "Day": "7/19/2011",
+  "Time": "11:00 am - 12:30 pm",
+  "Location": "Cascade",
+  "Abstract": "In spring this year, Microsoft Research plans to release the Kinect for Windows SDK. This session reviews the contents of the release, provides an overview of its functionality and applications, introduces how you can get started developing on the platform yourself, and highlights how the research community has received the SDK in NUI research and beyond. We will wrap with a discussion of future requirements and directions. ",
+  "Items": ["KinectforWindowsSDKGettingStartedPart2"],
+  "Chair": "Stewart Tansley"
+},
+{
+  "Title": "The Rise of Dynamic Languages for Scientific Computing",
+  "Type": "Technical",
+  "ShortType": "Technical",
+  "Key": "TheRiseofDynamicLanguagesforScientificComputing",
+  "Day": "7/19/2011",
+  "Time": "11:00 am - 12:30 pm",
+  "Location": "St. Helens",
+  "Abstract": "Dynamic programming environments—like Python, R, and Matlab—are the new paradigm of scientific computing, particularly for data-intensive work, due to their ease of use, instant feedback, flexible visualization capabilities, and large set of available libraries. In this session, we will describe the what, where, why, and how of this trend: what dynamic languages are and how they are different, where they are being used, why the shift is happening, how it improves productivity, the perceived versus real differences in performance, and much more. ",
+  "Items": ["AnOverviewofDynamicLanguagesHowTheyreDifferentWhyTheyrePopularandWhereTheyreBeingUsed", "RecentAdvancesinDynamicLanguages"],
+  "Chair": "Jan Vitek"
+},
+{
+  "Title": "Diversity in Undergrad Programs",
+  "Type": "Lunchtime Session",
+  "ShortType": "Lunchtime Session",
+  "Key": "DiversityinUndergradPrograms",
+  "Day": "7/19/2011",
+  "Time": "12:30 pm - 1:30 pm",
+  "Location": "St. Helens",
+  "Abstract": "What YOU can Do to Recruit and Retain Undergraduate Women for Your Computing Programs \n\nDo you want to learn some simple, straightforward tactics to use to increase the gender diversity within your computing program? Do you want to learn how to share some tips and tricks with your colleagues? This session will provide practical how-to information and practices. Panelists will share results from programs that implemented research-based recruiting and retention strategic initiatives to successfully increase the number of undergraduate women the program. Participants will receive supporting resources, including workbooks, promising practice sheets, and cards with talking points. Participating faculty will be able to return to their institutions with immediately actionable activities and a framework for long-term sustainability. ",
+  "Items": ["WhatYOUcanDotoRecruitandRetainUndergraduateWomenforYourComputingPrograms"],
+  "Chair": "Jane Prey"
+},
+{
+  "Title": "Semantic Knowledge for Commodity Computing (Part 2)",
+  "Type": "Technical",
+  "ShortType": "Technical",
+  "Key": "SemanticKnowledgeforCommodityComputingPart2",
+  "Day": "7/19/2011",
+  "Time": "1:30 pm - 3:00 pm",
+  "Location": "Rainier",
+  "Abstract": "Following on from the previous session, this one will look into the use of such semantic knowledge (domain small knowledge bases) as opposed to larger scale, domain independent knowledge bases in the context of tasks such as, for instance, information mining of text, images, or videos. The discussion will contrast the amount of inference needed in each case. ",
+  "Items": ["TextandContextUsingContexttoBetterUnderstandSearchersIntentions", "LearningtoMapSentencestoMeaning", "CitizenSensingOpportunitiesandChallengesinMiningSocialSignalsandPerceptions", "SemanticsandKnowledgeEnabledExperiencesforSearchandDiscovery"],
+  "Chair": "Evelyne Viegas"
+},
+{
+  "Title": "NUI — The Road Ahead",
+  "Type": "Panel",
+  "ShortType": "Panel",
+  "Key": "NUITheRoadAhead",
+  "Day": "7/19/2011",
+  "Time": "1:30 pm - 3:00 pm",
+  "Location": "Cascade",
+  "Abstract": "Last year, we presented a slice through a representative sample of NUI research at Microsoft Research and some of our key research partnerships with academia. This year we convene a single panel to discuss the state of the art in NUI, key trends, and where we go from here as a combined research community. ",
+  "Items": ["NUITheRoadAhead"],
+  "Chair": "Kristin Tolle"
+},
+{
+  "Title": "Sho — Scientific Computing on .NET Steroids",
+  "Type": "Technical",
+  "ShortType": "Technical",
+  "Key": "ShoScientificComputingonNETSteroids",
+  "Day": "7/19/2011",
+  "Time": "1:30 pm - 3:00 pm",
+  "Location": "St. Helens",
+  "Abstract": "Sho, based on Microsoft’s IronPython, is a dynamic programming environment that connects seamlessly to Microsoft .NET, making a broad set of languages, libraries, and computing resources instantly available to your scripts. It also gives you all of the math and visualization libraries you have come to expect from other computing environments. In this tutorial, we will explain what Sho is and what it can do for you, and also guide you through a series of programming exercises to get you up and running in Sho. We will start with simple plots and matrix computations and lead up to complex connections to custom code, running code on clusters and the cloud, and even making websites that run your algorithms so that you can make your work easily accessible to the world. If you would like to participate in the workshop, please bring your laptop; it would be very helpful if you install the latest version of Sho (http://research.microsoft.com/sho) before you arrive. \n\nThe tutorial will be divided into: (1) An overview of Sho: architecture, features, and capabilities; (2) A workshop: group programming exercises to get you up and running ",
+  "Items": ["ShoScientificComputingonNETSteroids"]
+},
+{
+  "Title": "Break",
+  "Type": "Break",
+  "ShortType": "Break",
+  "Key": "Break-3",
+  "Day": "7/19/2011",
+  "Time": "3:00 pm - 3:30 pm"
+},
+{
+  "Title": "Presentation of Awards",
+  "Type": "Plenary",
+  "ShortType": "Plenary",
+  "Key": "PresentationofAwards",
+  "Day": "7/19/2011",
+  "Time": "3:30 pm - 4:00 pm",
+  "Location": "Kodiak",
+  "Items": ["PresentationofAwards"]
+},
+{
+  "Title": "Keynote — Rick Szeliski",
+  "Type": "Plenary",
+  "ShortType": "Plenary",
+  "Key": "KeynoteRickSzeliski",
+  "Day": "7/19/2011",
+  "Time": "4:00 pm - 5:00 pm",
+  "Location": "Kodiak",
+  "Abstract": "Even though computer vision remains one of the great unsolved Grand Challenges of computing, vision techniques are maturing at a rapid pace and finding their way into a large number of applications. Among these are natural user interfaces based on a visual understanding of scenes, actions, and three-dimensional data. \n\nIn this talk, I survey a number of computer vision technologies that were developed at Microsoft Research over the last decade, including:\n * Recognizing human poses and actions for range data (Kinect)\n * Segmenting and recognizing organs in three-dimensional (3-D) medical images \n * Stitching together dozens to hundreds of photographs for seamless navigation of panoramas, street side images, and 3-D object movies \n * Recognizing manufactured objects with your cell phone for quick comparison shopping \n\nI will also discuss some of the challenging open problems in our field. ",
+  "Items": ["VisionbasedNaturalUserInterfaces"],
+  "Chair": "Kristin Tolle"
+},
+{
+  "Title": "Argosy Cruise on Lake Washington",
+  "Type": "Social",
+  "ShortType": "Social",
+  "Key": "ArgosyCruiseonLakeWashington",
+  "Day": "7/19/2011",
+  "Time": "5:30 pm - 10:00 pm",
+  "Abstract": "Buses depart for Argosy Cruise on Lake Washington "
+},
+{
+  "Title": "Breakfast",
+  "Type": "Break",
+  "ShortType": "Break",
+  "Key": "Breakfast-2",
+  "Day": "7/20/2011",
+  "Time": "8:00 am - 9:00 am"
+},
+{
+  "Title": "Using Program Verification Tools in Teaching",
+  "Type": "Technical",
+  "ShortType": "Technical",
+  "Key": "UsingProgramVerificationToolsinTeaching",
+  "Day": "7/20/2011",
+  "Time": "9:00 am - 10:30 am",
+  "Location": "St. Helens",
+  "Abstract": "This session will start with a tutorial on the language and program verifier Dafny. The language is object-based and including constructs for writing contracts like pre- and postconditions and loop invariants. The verifier runs in the background of the Visual Studio IDE and guides the programmer toward correct programs. One of the most promising uses of Dafny lies in teaching the concepts of program correctness to students. This session then continues with an experience report from using Spec# and Dafny at NUIM, Caltech, Nancy, and other schools and tutorials, as well as a discussion on how to share in teaching material used to teach programming using tools. ",
+  "Items": ["ATourofDafny", "ExperiencewithUsingDafnyforTeachinganIntroductoryCourseonProgramReasoning", "TeachingUsingSpecinEuropeAExperienceReportfromUniversityTeachingandVariousVerificationTutorials"],
+  "Chair": "Rustan Leino"
+},
+{
+  "Title": "Medical Visualization",
+  "Type": "Technical",
+  "ShortType": "Technical",
+  "Key": "MedicalVisualization",
+  "Day": "7/20/2011",
+  "Time": "9:00 am - 10:30 am",
+  "Location": "Rainier",
+  "Abstract": "Analysis and metadata extraction and from medical image data represent significant computational challenges, but current open source efforts in the field of medical imaging focus on sharing code rather than sharing information. A common platform enabling researchers to benchmark and integrate very different analysis techniques in a common environment, and exchange both data and analyses on the web, would greatly accelerate research in this area. In this session, the speakers will present three different aspects of how Microsoft and its partners are addressing these challenges in terms of research, development, and real-world deployment. ",
+  "Items": ["AdvancedMedicalImagingResearchatMicrosoftanditsApplicationsonProductGroups", "InnerEyeTowardaComputationalPlatformforImagingMetadata", "ApplicationsofAdvancedSemanticTagginginClinicalSettings"],
+  "Chair": "Rick Benge"
+},
+{
+  "Title": "Microsoft Academic Search: Next-Generation Scholarly Discovery",
+  "ShortTitle": "Microsoft Academic Search",
+  "Type": "Technical",
+  "ShortType": "Technical",
+  "Key": "MicrosoftAcademicSearchNextGenerationScholarlyDiscovery",
+  "Day": "7/20/2011",
+  "Time": "9:00 am - 10:30 am",
+  "Location": "Cascade",
+  "Abstract": "Based on the original research work and prototype that was produced at Microsoft Research Asia, Microsoft Academic Search (MAS) is becoming the \"go-to\" search engine that researchers use to conduct in-depth searches for relevant research papers, trends, conferences, and colleagues. To help the academic community further advance their work, Microsoft Research has opened up MAS and made it a cloud-based, knowledge service platform with intelligent data inside. At this session, Dr. Wei-Ying Ma and his team members provide an overview of MAS and related research work. The session will also demonstrate how to build user-defined applications that are based on MAS and how to take advantage of the power of the community to improve the experience of academic search. ",
+  "Items": ["UndertheHoodofMicrosoftAcademicSearch", "EigenfactorMetricsANetworkApproachtoAssessingScholarlyJournalsEigenfactorRankingandMappingScientificKnowledge", "WhatsNextforMicrosoftAcademicSearch"],
+  "Chair": "Alex Wade"
+},
+{
+  "Title": "Computational Science Research in Latin America",
+  "Type": "Technical",
+  "ShortType": "Technical",
+  "Key": "ComputationalScienceResearchinLatinAmerica",
+  "Day": "7/20/2011",
+  "Time": "9:00 am - 10:30 am",
+  "Location": "TBD",
+  "Abstract": "This session will provide a brief background about the organization and infrastructure of two virtual research institutes that Microsoft Research has established in Latin American and the Caribbean. One, in the State of São Paulo, Brazil, partnering with its research foundation (FAPESP), is called MSR-FAPESP Institute for ICT Research. The other is called LACCIR (Latin American and Caribbean Collaborative ICT Research Federation) and covers the entire region in partnership with top-tier research universities, the Inter-American Development Bank (IDB), and the Organization of American States (OAS). The goal of these two virtual research institutes is to foster ICT research capacity building by exploring the application of computer science to fundamental research challenges in education, healthcare, energy, and the various disciplines that are associated with environmental sciences. During this session, projects conducted by the MSR-FAPESP and LACCIR will be discussed as examples of research from this emerging region. ",
+  "Items": ["LiveAndesAdvancedNetworkfortheDistributionofEndangeredSpeciesANewToolforWildlife", "TheFAPESPMicrosoftVirtualResearchInstituteinSãoPauloBrazil", "TheBrazilianBiodiversityDatabaseandInformationSystemSinBIOTA", "LACCIRFederationBuildingResearchCapacityandCollaborationforICTInnovationinLatinAmericaandtheCaribbean"],
+  "Chair": "Jaime Puente"
+},
+{
+  "Title": "Break",
+  "Type": "Break",
+  "ShortType": "Break",
+  "Key": "Break-4",
+  "Day": "7/20/2011",
+  "Time": "10:30 am - 11:00 am"
+},
+{
+  "Title": "Closing Keynote — Lili Cheng",
+  "Type": "Plenary",
+  "ShortType": "Plenary",
+  "Key": "ClosingKeynoteLiliCheng",
+  "Day": "7/20/2011",
+  "Time": "11:00 am - 12:00 pm",
+  "Location": "Kodiak",
+  "Abstract": "Today, social software, which was initially embraced by youth who were interested in self-expression, meeting new people, and staying in touch with friends, influences a broad set of people—including traditional companies, governments, and people of all ages. It has changed the way people socialize online, making words such as: \"liking,\" \"friending,\" \"status,\" and \"tweeting\" commonplace. \n\nIn designing future social experience, we explore:\nWhere is social software trending? \nHow does research and innovation in this fast-paced area differ from other traditional areas in computer science? \nHow might we use lessons learned from social software to influence learning and education in the area of science and technology? \n\nWhat we see today, the Internet and social networks connecting people via status messaging, is just a beginning. It is our hope that social software can deliver in its promise to motivate people to action, improve the quality of life and social wellbeing, and help us solve meaningful problems and create amazing things together. ",
+  "Items": ["FutureSocialExperiences"],
+  "Chair": "Dennis Gannon"
+},
+{
+  "Title": "Closing Remarks",
+  "Type": "Plenary",
+  "ShortType": "Plenary",
+  "Key": "ClosingRemarks",
+  "Day": "7/20/2011",
+  "Time": "12:00 pm - 12:30 pm",
+  "Location": "Kodiak",
+  "Items": ["ClosingRemarks"]
+},
+{
+  "Title": "Lunch",
+  "Type": "Break",
+  "ShortType": "Break",
+  "Key": "Lunch-1",
+  "Day": "7/20/2011",
+  "Time": "12:30 pm - 1:30 pm"
+}
+	],
+	"People": [
+{
+    "Name": "Adnan Mahmud",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Alex James",
+    "Affiliation": "Microsoft"
+},
+{
+    "Name": "Alex Szalay",
+    "Affiliation": "Johns Hopkins University"
+},
+{
+    "Name": "Alex Wade",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Amit Sheth",
+    "Affiliation": "Wright University"
+},
+{
+    "Name": "Ann Quiroz Gates",
+    "Affiliation": "University of Texas at El Paso"
+},
+{
+    "Name": "Arjmand Samuel",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Balan Sethu Raman",
+    "Affiliation": "Microsoft"
+},
+{
+    "Name": "Ben Mabry",
+    "Affiliation": "University of Washington"
+},
+{
+    "Name": "Bobby Schnabel",
+    "Affiliation": "Indiana University"
+},
+{
+    "Name": "Carl Gunter",
+    "Affiliation": "University of Illinois"
+},
+{
+    "Name": "Carlos Henrique de Brito Cruz",
+    "Affiliation": "FAPESP"
+},
+{
+    "Name": "Craig Mundie",
+    "Affiliation": "Chief Research and Strategy Officer, Microsoft",
+    "Bio": "Craig Mundie is chief research and strategy officer of Microsoft Corp., reporting to CEO Steve Ballmer. In this role, he oversees Microsoft Research, one of the world's largest computer-science research organizations, and is responsible for Microsoft's long-term technology strategy. Mundie also directs a number of technology incubations, and works with government and business leaders around the world on technology policy, regulation and standards. \n\nMundie has spent much of his career building startups in various fields, including supercomputing, consumer electronics, education, healthcare and robotics. He joined Microsoft in 1992 to create and run the Consumer Platforms Division, which developed non-PC platforms such as the Windows CE operating system; software for the Handheld PC, Pocket PC and Auto PC; and early console-gaming products. Mundie also started Microsoft's digital-TV efforts, acquiring and managing its WebTV Networks subsidiary, and built its fast-growing healthcare solutions business. \n\nPrior to his current role, Mundie served as Microsoft's chief technical officer for advanced strategies and policy, working with Microsoft Chairman Bill Gates to develop the company's global strategies around technical, business and policy issues. Another long-standing focus for Mundie is privacy, security and cyber-security. He initiated Microsoft's Trustworthy Computing initiative, which has leveraged new software-development practices to significantly improve the security of the company's products. For more than a decade, Mundie has also been Microsoft's principal technology-policy liaison to the U.S. and foreign governments, with an emphasis on China, India and Russia. He has served on the U.S. National Security Telecommunications Advisory Committee and the Markle Foundation Task Force on National Security in the Information Age. In April 2009 Mundie was appointed by President Barack Obama to the President's Council of Advisors on Science and Technology. \n\nMundie started his career in 1970, working on operating-system development for the Data General NOVA at Systems Equipment Corp. (SEC) while still studying at Georgia Tech. SEC was subsequently acquired by Data General Corp., where Mundie went on to develop the INFOS data-management system. In 1977 Mundie moved to Data General's advanced development facility in Research Triangle Park, N.C., ultimately becoming its director. In 1982, Mundie was one of three co-founders of Alliant Computer Systems Corp., which developed vector-parallel mini-supercomputers. He held a variety of positions at Alliant before becoming CEO. The company shut down in 1992. \n\nMundie holds a bachelor's degree in electrical engineering and a master's degree in information theory and computer science from Georgia Tech. Mundie enjoys traveling and spending time on his boat. He is married, with one married daughter. \n",
+    "Image": "craigmundie_90x130.jpg"
+},
+{
+    "Name": "Cristian Bonacic",
+    "Affiliation": "Catholic University of Chile"
+},
+{
+    "Name": "Curtis Wong",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Daniel Wigdor",
+    "Affiliation": "University of Toronto"
+},
+{
+    "Name": "Daniya Ulgen",
+    "Affiliation": "University of Washington"
+},
+{
+    "Name": "David Haynor",
+    "Affiliation": "University of Washington"
+},
+{
+    "Name": "Dean Guo",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Deborah Estrin",
+    "Affiliation": "University of California, Los Angeles"
+},
+{
+    "Name": "Deborah McGuinness",
+    "Affiliation": "Rensselaer Polytechnic Institute"
+},
+{
+    "Name": "Dennis Gannon",
+    "Affiliation": "Director, eXtreme Computing Group, Cloud Engagement, Microsoft Research",
+    "Bio": "Dr. Dennis Gannon is Director of Engagements for the eXtreme Computing Group in Microsoft Research. Prior to coming to Microsoft, Dr. Gannon was a professor of Computer Science at Indiana University and the Science Director for the Indiana Pervasive Technology Labs. Dr. Gannon's research interests include cloud computing, large-scale cyberinfrastructure, programming systems and tools, distributed computing, computer networks, parallel programming, computational science, problem solving environments and performance analysis of supercomputing and distributed systems. He led several software projects for Defense Advanced Research Projects Agency (DARPA) and the Department of Energy related to programming massively parallel systems. He has worked extensively with NSF sponsored, interdisciplinary scientific teams on applications ranging from Computational Cosmology to predicting tornadoes and hurricanes. . Dr. Gannon was the Program Chair for the IEEE 2002 High Performance Distributed Computing Conference, the 1997 ACM International Conference on Supercomputing, the 1995 IEEE Frontiers of Massively Parallel Processing and the International Grid Conference in Barcelona, 2006. He also served as General Chair of the 1998 International Symposium on Scientific Object Oriented Programming Environments, the 2000 ACM Java Grande Conference, the ACM Principles and Practices of Parallel Programming Conference and the ACM International Conference on Supercomputing. While he was Chair of the Computer Science Department at Indiana University he led the team that designed the University’s new School of Informatics. For that effort he was given the School’s Hermes Award in 2006. He has published over 100 refereed articles and he has co-edited 3 books. Dr. Gannon received his Ph.D. in Computer Science from the University of Illinois Urbana-Champaign in 1980 after receiving a Ph.D. in Mathematics from the University of California, Davis. \n",
+    "Image": "dennisgannon_90x130.jpg"
+},
+{
+    "Name": "Domiano Gui",
+    "Affiliation": "Istituto Universitario di Architettura di Venezia"
+},
+{
+    "Name": "Domingo Mery",
+    "Affiliation": "Catholic University of Chile"
+},
+{
+    "Name": "Donald Brinkman",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Doug Thistlewaite",
+    "Affiliation": "New York University, Interactive Telecommunications Program"
+},
+{
+    "Name": "Ed Lazowska",
+    "Affiliation": "University of Washington"
+},
+{
+    "Name": "Elizabeth Grossman",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Emerson Murphy-Hill",
+    "Affiliation": "North Carolina State University"
+},
+{
+    "Name": "Evelyne Viegas",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Fareena Chanda",
+    "Affiliation": "The Ontario College of Art and Design University"
+},
+{
+    "Name": "Farnam Jahanian",
+    "Affiliation": "National Science Foundation"
+},
+{
+    "Name": "Fei Yu",
+    "Affiliation": "Istituto Universitario di Architettura di Venezia"
+},
+{
+    "Name": "Fer Diez",
+    "Affiliation": "Ibero Universidad de México"
+},
+{
+    "Name": "Haixun Wang",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Howard Shrobe",
+    "Affiliation": "Defense Advanced Research Projects Agency"
+},
+{
+    "Name": "Jaime Puente",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Jan Vitek",
+    "Affiliation": "Purdue University"
+},
+{
+    "Name": "Jane Prey",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Jason Wong",
+    "Affiliation": "University of Washington"
+},
+{
+    "Name": "Jennifer Ho",
+    "Affiliation": "New York University, Interactive Telecommunications Program"
+},
+{
+    "Name": "Jevin West",
+    "Affiliation": "University of Washington"
+},
+{
+    "Name": "Jihyun Moon",
+    "Affiliation": "New York University, Interactive Telecommunications Program"
+},
+{
+    "Name": "John Lefor",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "John McGee",
+    "Affiliation": "Renaissance Computing Institute"
+},
+{
+    "Name": "Judith Bishop",
+    "Affiliation": "Director, Computer Science, Microsoft Research",
+    "Bio": "Judith Bishop is Director of Computer Science at Microsoft Research, based in Redmond, USA. Her role is to create strong links between Microsoft’s research groups and universities globally, through encouraging projects, supporting conferences and engaging directly in research. Her expertise is in programming languages and distributed systems, with a strong practical bias and an interest in compilers and design patterns. She initiated the Software Engineering Innovation Foundation (SEIF) and is currently working on a new way of running programs in browsers (especially F#). \n\nJudith received her PhD from the University of Southampton and has a distinguished background in academia, having been a professor at the Universities of Witwatersrand and Pretoria, with visiting positions in the UK, Germany, Canada, Italy and the USA. She has over 95 publications including 15 books on programming languages that are available in six languages and read worldwide. She has presented many keynotes, tutorials and special lectures. She is currently an Honorary Professor at the University of Cape Town. Judith serves frequently on international editorial, program and award committees. She was co-chair of ICSE 2010, and is currently co-chair of TOOLS 2011. She will also lead the Microsoft Research Faculty Summit in July. Currently, she is active in IFIP WG2.4, the ACM and the CRA. \n\nJudith has received numerous awards and distinctions, in particular the IFIP Outstanding Service Award in 2009 and the IFIP Silver Core Award 2006 for service to the worldwide computer science community, the Computer Society Fellowship Award in 2008, the South African DTI Award for Distinguished Woman Scientist of the Year for Innovation 2005 and one of 100 Leading Mind Awards from her University in its Centenary Year 2008. She is a Fellow of the British Computer Society and the Royal Society of South Africa. \n",
+    "Image": "judithbishop_90x130.jpg"
+},
+{
+    "Name": "Julio Palomino",
+    "Affiliation": "Ibero Universidad de México"
+},
+{
+    "Name": "Justine Cassell",
+    "Affiliation": "Carnegie Mellon University"
+},
+{
+    "Name": "Karen Ng",
+    "Affiliation": "Microsoft"
+},
+{
+    "Name": "Ken Perlin",
+    "Affiliation": "New York University"
+},
+{
+    "Name": "Khan Siddiqui",
+    "Affiliation": "Microsoft"
+},
+{
+    "Name": "Kristin Lauter",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Kristin Tolle",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Kurt Squire",
+    "Affiliation": "University of Wisconsin at Madison"
+},
+{
+    "Name": "Lili Cheng",
+    "Affiliation": "General Manager, FUSE Labs, Microsoft Research",
+    "Bio": "Lili Cheng is General Manager of the Future Social Experiences (FUSE) Labs in Microsoft Research, focused on delivering new social, real-time, and media rich experiences for home and work, including projects such as: Kodu- tools to teach kids programming and creativity, Montage- visual albums of social data, Docs for Facebook,- and social productivity tools. \n\nAt Microsoft since 1995, Lili was also Director of User Experience for Microsoft Windows, where from 2004 to 2006 she oversaw design, user research, user assistance and advanced development for Windows Vista. Prior to Microsoft, Lili worked in Apple Computer’s Advanced Technology Group, on the User Interface research team, where she focused on Quicktime Conferencing and Quicktime VR. \n\nLili is also a registered architect; she worked in Tokyo and Los Angeles for Nihon Sekkei and Skidmore Owings and Merrill on commercial urban design and large-scale building projects. Lili was born in Tokyo, is married with three boys. \n",
+    "Image": "lilicheng_90x130.jpg"
+},
+{
+    "Name": "Luke Zettlemoyer",
+    "Affiliation": "University of Washington"
+},
+{
+    "Name": "M. Srikanth",
+    "Affiliation": "Microsoft"
+},
+{
+    "Name": "Mariana Pintado",
+    "Affiliation": "Ibero Universidad de México"
+},
+{
+    "Name": "Mark Bolas",
+    "Affiliation": "University of Southern California"
+},
+{
+    "Name": "Martina Maitan",
+    "Affiliation": "Istituto Universitario di Architettura di Venezia"
+},
+{
+    "Name": "Mary Czerwinski",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Maureen Biggers",
+    "Affiliation": "Indiana University"
+},
+{
+    "Name": "Michael Zyskowski",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Miguel Bermudez",
+    "Affiliation": "New York University, Interactive Telecommunications Program"
+},
+{
+    "Name": "Mike Barnett",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Nermin Moufti",
+    "Affiliation": "The Ontario College of Art and Design University"
+},
+{
+    "Name": "Nicholas Smith",
+    "Affiliation": "University of Washington"
+},
+{
+    "Name": "Pat Helland",
+    "Affiliation": "Microsoft"
+},
+{
+    "Name": "Peter Lee",
+    "Affiliation": "Distinguished Scientist and Managing Director, Microsoft Research",
+    "Bio": "Peter Lee recently joined Microsoft as Distinguished Scientist and Managing Director of Microsoft Research Redmond (MSR-R). MSR-R’s mission is to make fundamental advances in computer science and engineering, and then use those advances to help drive innovations in new and existing products and services. Prior to Microsoft, Peter was an office director at the Defense Advanced Research Projects Agency (DARPA), where he was responsible for developing and implementing the strategic vision and technical plans for a new office that conducted high-risk, high-payoff research projects spanning computer security, social networking, supercomputing, and many other areas of computer science. Peter was formerly a professor and head of the Computer Science Department at Carnegie Mellon University (CMU), having also served briefly as the Vice Provost for Research. He joined the CMU faculty in 1987, after completing his doctoral studies at the University of Michigan. Peter is an active researcher, educator, administrator, and servant to the academic community. His research contributions lie mainly in areas related to the foundations of software reliability, program analysis, security, and language design. He is an ACM Fellow, member of the National Research Council’s Computer Science and Telecommunications Board, and former Chair of the Board of Directors of the Computing Research Association and its Government Affairs Committee. Peter is the author of two books, has authored or co-authored more than 50 refereed papers, and has advised or co-advised 14 completed Ph.Ds. \n",
+    "Image": "peterlee_90x130.jpg"
+},
+{
+    "Name": "Radu Sion",
+    "Affiliation": "Stony Brook University"
+},
+{
+    "Name": "Rajeev Joshi",
+    "Affiliation": "NASA JPL"
+},
+{
+    "Name": "Rajeev Ram",
+    "Affiliation": "Advanced Research Projects Agency – Energy"
+},
+{
+    "Name": "Ralph Johnson",
+    "Affiliation": "University of Illinois, Urbana Champaign"
+},
+{
+    "Name": "Rick Benge",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Rick Rashid",
+    "Affiliation": "Senior Vice President, Research, Microsoft Research",
+    "Bio": "As senior vice president, Richard (Rick) F. Rashid oversees worldwide operations for Microsoft Research, an organization encompassing more than 850 researchers across six labs worldwide. Under Rashid's leadership, Microsoft Research conducts both basic and applied research across disciplines that include algorithms and theory; human-computer interaction; machine learning; multimedia and graphics; search; security; social computing; and systems, architecture, mobility and networking. His team collaborates with the world's foremost researchers in academia, industry and government on initiatives to advance the state-of-the-art of computing and to help ensure the future of Microsoft's products. \n\nAfter joining Microsoft in September 1991, Rashid served as director and vice president of the Microsoft Research division and was promoted to his current role in 2000. In his earlier roles, Rashid led research efforts on operating systems, networking and multiprocessors, and authored patents in such areas as data compression, networking and operating systems. He managed projects that catalyzed the development of Microsoft's interactive TV system and also directed Microsoft's first e-commerce group. Rashid was the driving force behind the creation of the team that later developed into Microsoft's Digital Media Division. \n",
+    "Image": "rashid_90x130.jpg"
+},
+{
+    "Name": "Rick Szeliski",
+    "Affiliation": "Principal Researcher, Microsoft Research",
+    "Bio": "Richard Szeliski is a Principal Researcher at Microsoft Research, where he leads the Interactive Visual Media Group. He is also an Affiliate Professor at the University of Washington, and is a Fellow of the ACM and IEEE. Dr. Szeliski pioneered the field of Bayesian methods for computer vision, as well as image-based modeling, image-based rendering, and computational photography, which lie at the intersection of computer vision and computer graphics. His most recent research on Photo Tourism and Photosynth is an exciting example of the promise of large-scale image-based rendering. \n\nDr. Szeliski received his Ph.D. degree in Computer Science from Carnegie Mellon University, Pittsburgh, in 1988 and joined Microsoft Research in 1995. He has published over 150 research papers in computer vision, computer graphics, medical imaging, neural nets, and numerical analysis, as well as the books Bayesian Modeling of Uncertainty in Low-Level Vision and Computer Vision: Algorithms and Applications. \n",
+    "Image": "rickszeliski_90x130.jpg"
+},
+{
+    "Name": "Roger Barga",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Rosemary Monahan",
+    "Affiliation": "National University of Ireland, Maynooth"
+},
+{
+    "Name": "Rustan Leino",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Seth Cooper",
+    "Affiliation": "University of Washington"
+},
+{
+    "Name": "Shoshanna Budzianowski",
+    "Affiliation": "Microsoft"
+},
+{
+    "Name": "Steve White",
+    "Affiliation": "Microsoft"
+},
+{
+    "Name": "Stewart Tansley",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Sumit Basu",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Susan Dumais",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Tiago Duque Estrada",
+    "Affiliation": "UNICAMP"
+},
+{
+    "Name": "Tracy Fullerton",
+    "Affiliation": "University of Southern California"
+},
+{
+    "Name": "Victor Bahl",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Vu Chu",
+    "Affiliation": "University of Washington"
+},
+{
+    "Name": "Xin Zou",
+    "Affiliation": "Microsoft Research"
+},
+{
+    "Name": "Yan Xu",
+    "Affiliation": "Microsoft Research"
+}
+	]
+}

@@ -1,0 +1,682 @@
+{
+	"DataRevision": 3,
+	"Event": "MSR2011",
+	"Name": "MSR 2011",
+	"TwitterKeywords": "",
+	"FlickrKeywords": "",
+	"HawaiiGroup": "MicrosoftResearch2011",
+	"VenueInfo" : {
+		"Name": "Hilton Hawaiian Village",
+		"GPS": {"Latitude": 21.283726, "Longitude": -157.836714}
+	},
+	"HotelInfo": {
+		"Telephone": "+118089494321"
+	},
+	"SessionPriorities" : [
+                    "Plenary", "Award", "Technical/Research Track", "Panel",
+                    "Software Engineering in Practice Track", "New Ideas and Emerging Results Track", "Student Competition", 
+                    "Demonstrations Track", "Posters", "Impact Project Focus Area", "Other"],
+	"Items": [
+{
+  "Title": "Fantasy, Farms, and Freemium: What Game Data Mining Teaches Us About Retention, Conversion, and Virality",
+  "Type": "Full Paper",
+  "Key": "ea9b26e54a111369371853ee44e797",
+  "Authors": ["Jim Whitehead"],
+  "Affiliations": ["UC Santa Cruz, USA"],
+  "Abstract": "In December of 2010, the new game CityVille achieved 6 million daily active users in just 8 days. Clearly the success of CityVille owes something to the fun gameplay experience it provides. That said, it was far from the best game released in 2010. Why did it grow so fast? In this talk the key factors behind the dramatic success of social network games are explained. Social network games build word-of-mouth player acquisition directly into the gameplay experience via friend invitations and game mechanics that require contributions by friends to succeed. Software analytics (mined data about player sessions) yield detailed models of factors that affect player retention and engagement. Player engagement is directly related to conversion, shifting a free player into a paying player, the critical move in a freemium business model. Analytics also permit tracking of player virality, the degree to which one player invites other players into the game. \nSocial network games offer multiple lessons for software engineers in general, and software mining researchers in particular. Since software is in competition for people’s attention along with a wide range of other media and software, it is important to design software for high engagement and retention. Retention engineering requires constant attention to mined user experience data, and this data is easiest to acquire with web-based software. Building user acquisition directly into software provides powerful benefits, especially when it is integrated deeply into the experience delivered by the software. Since retention engineering and viral user acquisition are much easier with web-based software, the trend of software applications migrating to the web will accelerate."
+},
+{
+  "Title": "Connecting Technology with Real-world Problems - From Copy-paste Detection to Detecting Known Bugs",
+  "Type": "Full Paper",
+  "Key": "f5181393804e53d4e86a95bea4c0bc",
+  "Authors": ["Yuanyuan Zhou"],
+  "Affiliations": ["UC San Diego, USA"],
+  "Abstract": "In my talk, I will share with you our experience in applying and deploying our source code mining technology in industry. In particular, the most valuable lesson we have learned is that sometimes there is a bigger problem in the real world that can really benefit from our technology but unfortunately we do not know about it until we closely work with industry. In 2004, motivated from some previous research work that pointed out copy-pasting as a major reason for majority of the bugs in device driver code, my students and I applied data mining technology (specifically frequent subsequence mining algorithms) in identifying copy-pasted code and also detecting forget-to-change bugs introduced during copy-pasting. The benefit of using data mining is that it is highly scalable (20 minutes for 4-5 millions lines of code), and can tolerate changes such as statement insertion/deletion/modification as well as variable name changes. When we released our tool called CP-Miner to the open source community, it attracted some inquiries from industry. These inquiries have motivated us to start a company to commercialize our tools."
+},
+{
+  "Title": "Java Generics Adoption: How New Features are Introduced, Championed, or Ignored",
+  "Type": "Full Paper",
+  "Key": "f6d09aab78aedbfa7f19a562b7c302",
+  "Authors": ["Chris Parnin", "Christian Bird", "Emerson Murphy-Hill"],
+  "Affiliations": ["Georgia Institute of Technology, USA", "Microsoft Research, USA", "North Carolina State University, USA"],
+  "Abstract": "Support for generic programming was added to the Java language in 2004, representing perhaps the most significant change to one of the most widely used programming languages today. Researchers and language designers anticipated this addition would relieve many long-standing problems plaguing developers, but surprisingly, no one has yet measured whether generics actually provide such relief. In this paper, we report on the first empirical investigation into how Java generics have been integrated into open source software by automatically mining the history of 20 popular open source Java programs, traversing more than 500 million lines of code in the process. We evaluate five hypotheses, each based on assertions made by prior researchers, about how Java developers use generics. For example, our results suggest that generics do not significantly reduce the number of type casts and that generics are usually adopted by a single champion in a project, rather than all committers."
+},
+{
+  "Title": "A Study of Language Usage Evolution in Open Source Software",
+  "Type": "Full Paper",
+  "Key": "abadf565c709a63bc4eb5726b7f8da",
+  "Authors": ["Siim Karus", "Harald Gall"],
+  "Affiliations": ["University of Tartu, Estonia", "University of Zurich, Switzerland"],
+  "Abstract": "The use of programming languages such as Java and C in Open Source Software (OSS) has been well studied. However, many other popular languages such as XSL or XML have received minor attention. In this paper, we discuss some trends in OSS development that we observed when considering multiple programming language evolution of OSS. Based on the revision data of 22 OSS projects, we tracked the evolution of language usage and other artefacts such as documentation files, binaries and graphics files. In these systems several different languages and artefact types including C/C++, Java, XML, XSL, Makefile, Groovy, HTML, Shell scripts, CSS, Graphics files, JavaScript, JSP, Ruby, Phyton, XQuery, OpenDocument files, PHP, etc. have been used. We found that the amount of code written in different languages differs substantially. Some of our findings can be summarized as follows: (1) JavaScript and CSS files most often co-evolve with XSL; (2) Most Java developers but only every second C/C++ developer work with XML; (3) and more generally, we observed a significant increase of usage of XML and XSL during recent years and found that Java or C are hardly ever the only language used by a developer. In fact, a developer works with more than 5 different artefact types (or 4 different languages) in a project on average."
+},
+{
+  "Title": "How Developers Use the Dynamic Features of Programming Languages: The Case of Smalltalk",
+  "Type": "Full Paper",
+  "Key": "4451316fee89ab420446e477b981b8",
+  "Authors": ["Oscar Callaú", "Romain Robbes", "Éric Tanter", "David Röthlisberger"],
+  "Affiliations": ["University of Chile, Chile", "University of Bern, Switzerland"],
+  "Abstract": "The dynamic and reflective features of programming languages are powerful constructs that programmers often mention as extremely useful. However, the ability to modify a program at runtime can be both a boon---in terms of flexibility---, and a curse---in terms of tool support. For instance, usage of these features hampers the design of type systems, the accuracy of static analysis techniques, or the introduction of optimizations by compilers. In this paper, we perform an empirical study of a large Smalltalk codebase---often regarded as the poster-child in terms of availability of these features---, in order to assess how much these features are actually used in practice, whether some are used more than others, and in which kinds of projects. These results are useful to make informed decisions about which features to consider when designing language extensions or tool support."
+},
+{
+  "Title": "An Exploratory Study of Identifier Renamings",
+  "Type": "Full Paper",
+  "Key": "a0b6faccacc255ba1c12eb8676747e",
+  "Authors": ["Laleh M. Eshkevari", "Venera Arnaoudova", "Massimiliano Di Penta", "Rocco Oliveto", "Yann-Gaël Guéhéneuc", "Giuliano Antoniol"],
+  "Affiliations": ["École Polytechnique de Montréal, Canada", "University of Sannio, Italy", "University of Molise, Italy"],
+  "Abstract": "Identifiers play an important role in source code understandability, maintainability, and fault-proneness. This paper reports a study of identifier renamings in software systems, studying how terms (identifier atomic components) change in source code identifiers. Specifically, the paper (i) proposes a term renaming taxonomy, (ii) presents an approximate lightweight code analysis approach to detect and classify term renamings automatically into the taxonomy dimensions, and (iii) reports an exploratory study of term renamings in two open-source systems, Eclipse-JDT and Tomcat. We thus report evidence that not only synonyms are involved in renamings but also (in a small fraction) more unexpected changes occur: surprisingly, we detected hypernym (a more abstract term, e.g., size vs. length) and hyponym (a more concrete term, e.g., restriction vs. rule) renamings, and antonym renamings (a term replaced with one having the opposite meaning, e.g., closing vs. opening). Despite being only a fraction of all renamings, synonym, hyponym, hypernym, and antonym renamings may hint at some program understanding issues and, thus, could be used in a renaming-recommendation system to improve code quality."
+},
+{
+  "Title": "Retrieval from Software Libraries for Bug Localization: A Comparative Study of Generic and Composite Text Models",
+  "Type": "Full Paper",
+  "Key": "10790789b2ba4ae11d0c6a2df2fb79",
+  "Authors": ["Shivani Rao", "Avinash Kak"],
+  "Affiliations": ["Purdue University, USA"],
+  "Abstract": "From the standpoint of retrieval from large software libraries for the purpose of bug localization, we compare five generic text models and certain composite variations thereof. The generic models are: the Unigram Model (UM), the Vector Space Model (VSM), the Latent Semantic Analysis Model (LSA), the Latent Dirichlet Allocation Model (LDA), and the Cluster Based Document Model (CBDM). The task is to locate the files that are relevant to a bug reported in the form of a textual description by a software user/developer. We use for our study iBUGS, a benchmarked bug localization dataset with 75 KLOC and a large number of bugs (291). A major conclusion of our comparative study is that simple text models such as UM and VSM are more effective at correctly retrieving the relevant files from a library as compared to the more sophisticated models such as LDA. The retrieval effectiveness for the various models was measured using the following two metrics: (1) Mean Average Precision; and (2) Rank-based metrics. Using the SCORE metric, we also compare the retrieval effectiveness of the models in our study with some other bug localization tools."
+},
+{
+  "Title": "Comparison of Similarity Metrics for Refactoring Detection",
+  "Type": "Full Paper",
+  "Key": "d2c86ee9c342c091604067a0fe96a3",
+  "Authors": ["Benjamin Biegel", "Quinten David Soetens", "Willi Hornig", "Stephan Diehl", "Serge Demeyer"],
+  "Affiliations": ["University of Trier, Germany", "University of Antwerp, Belgium"],
+  "Abstract": "Identifying refactorings in software archives has been an active research topic in the last decade, mainly because it is a prerequisite for various software evolution analyses (e.g., error detection, capturing intent of change, capturing and replaying changes, and relating refactorings and software metrics). Many of these techniques rely on similarity measures to identify structurally equivalent code, however, up until now the effect of this similarity measure on the performance of the refactoring identification algorithm is largely unexplored. In this paper we replicate a well-known experiment from Weissgerber and Diehl, plugging in three different similarity measures (text-based, AST-based, token-based). We look at the overlap of the results obtained by the different metrics, and we compare the results using recall and the computation time. We conclude that the different result sets have a large overlap and that the three metrics perform with a comparable quality."
+},
+{
+  "Title": "Finding Software License Violations Through Binary Code Clone Detection",
+  "Type": "Full Paper",
+  "Key": "cb44a5df494900e50e37847e7340b7",
+  "Authors": ["Armijn Hemel", "Karl Trygve Kalleberg", "Rob Vermaas", "Eelco Dolstra"],
+  "Affiliations": ["gpl-violations.org, Netherlands", "KolibriFX, Norway", "Delft University of Technology, Netherlands"],
+  "Abstract": "Software released in binary form frequently uses third-party packages without respecting their licensing terms. For instance, many consumer devices have firmware containing the Linux kernel, without the suppliers following the requirements of the GNU General Public License. Such license violations are often accidental, e.g., when vendors receive binary code from their suppliers with no indication of its provenance. To help find such violations, we have developed the Binary Analysis Tool (BAT), a system for code clone detection in binaries. Given a binary, such as a firmware image, it attempts to detect cloning of code from repositories of packages in source and binary form. We evaluate and compare the effectiveness of three of BAT's clone detection techniques: scanning for string literals, detecting similarity through data compression, and detecting similarity by computing binary deltas."
+},
+{
+  "Title": "A Simpler Model of Software Readability",
+  "Type": "Full Paper",
+  "Key": "aad811fb5ef508a86a27d77693c545",
+  "Authors": ["Daryl Posnett", "Abram Hindle", "Premkumar Devanbu"],
+  "Affiliations": ["UC Davis, USA"],
+  "Abstract": "Software readability is a property that influences how easily a given piece of code can be read and understood. Since readability can affect maintainability, quality, etc., programmers are very concerned about the readability of code. If automatic readability checkers could be built, they could be integrated into development tool-chains, and thus continually inform developers about the readability level of the code. Unfortunately, readability is a subjective code property, and not amenable to direct automated measurement. In a recently published study, Buse et al. asked 100 participants to rate code snippets by readability, yielding arguably reliable mean readability scores of each snippet; they then built a fairly complex predictive model for these mean scores using a large, diverse set of directly measurable source code properties. We build on this work: we present a simple, intuitive theory of readability, based on size and code entropy, and show how this theory leads to a much sparser, yet statistically significant, model of the mean readability scores produced in Buse's studies. Our model uses well-known size metrics and Halstead metrics, which are easily extracted using a variety of tools. We argue that this approach provides a more theoretically well-founded, practically usable, approach to readability measurement."
+},
+{
+  "Title": "Comparing Fine-Grained Source Code Changes And Code Churn For Bug Prediction",
+  "Type": "Full Paper",
+  "Key": "ded086338a3a0e20604d669b25467d",
+  "Authors": ["Emanuel Giger", "Martin Pinzger", "Harald Gall"],
+  "Affiliations": ["University of Zurich, Switzerland", "Delft University of Technology, Netherlands"],
+  "Abstract": "A significant amount of research effort has been dedicated to learning prediction models that allow project managers to efficiently allocate resources to those parts of a software system that most likely are bug-prone and therefore critical. Prominent measures for building bug prediction models are product measures, e.g., complexity or process measures, such as code churn. Code churn in terms of lines modified (LM) and past changes turned out to be significant indicators of bugs. However, these measures are rather imprecise and do not reflect all the detailed changes of particular source code entities during maintenance activities. In this paper, we explore the advantage of using fine-grained source code changes (SCC) for bug prediction. SCC captures the exact code changes and their semantics down to statement level. We present a series of experiments using different machine learning algorithms with a dataset from the Eclipse platform to empirically evaluate the performance of SCC and LM. The results show that SCC outperforms LM for learning bug prediction models."
+},
+{
+  "Title": "Security Versus Performance Bugs: A Case Study on Firefox",
+  "Type": "Full Paper",
+  "Key": "a8a3d367d3d362055493f4254ca7a8",
+  "Authors": ["Shahed Zaman", "Bram Adams", "Ahmed E. Hassan"],
+  "Affiliations": ["Queen's University, Canada"],
+  "Abstract": "A good understanding of the impact of different types of bugs on various project aspects is essential to improve software quality research and practice. For instance, we would expect that security bugs are fixed faster than other types of bugs due to their critical nature. However, prior research has often treated all bugs as similar when studying various aspects of software quality (e.g., predicting the time to fix a bug), or has focused on one particular type of bug (e.g., security bugs) with little comparison to other types. In this paper, we study how different types of bugs (performance and security bugs) differ from each other and from the rest of the bugs in a software project. Through a case study on the Firefox project, we find that security bugs are fixed and triaged much faster, but are reopened and tossed more frequently. Furthermore, we also find that security bugs involve more developers and impact more files in a project. Our work is the first work to ever empirically study performance bugs and compare it to frequently-studied security bugs. Our findings highlight the importance of considering the different types of bugs in software quality research and practice."
+},
+{
+  "Title": "Empirical Evaluation of Reliability Improvement in an Evolving Software Product Line",
+  "Type": "Full Paper",
+  "Key": "37cf47ae19d2b85537af8ce0e249ab",
+  "Authors": ["Sandeep Krishnan", "Robyn R. Lutz", "Katerina Goševa-Popstojanova"],
+  "Affiliations": ["Iowa State University, USA", "West Virginia University, USA"],
+  "Abstract": "Reliability is important to software product-line developers since many product lines require reliable operation. It is typically assumed that as a software product line matures, its reliability improves. Since post-deployment failures impact reliability, we study this claim on an open-source software product line, Eclipse. We investigate the failure trend of common components (reused across all products), high-reuse variation components (reused in five or six products) and low-reuse variation components (reused in one or two products) as Eclipse evolves. We also study how much the common and variation components change over time both in terms of addition of new files and modification of existing files. Quantitative results from mining and analysis of the Eclipse bug and release repositories show that as the product line evolves, fewer serious failures occur in components implementing commonality, and that these components also exhibit less change over time. These results were roughly as expected. However, contrary to expectation, components implementing variations, even when reused in five or more products, continue to evolve fairly rapidly. Perhaps as a result, the number of severe failures in variation components shows no uniform pattern of decrease over time. The paper describes and discusses this and related results."
+},
+{
+  "Title": "Implementing Quality Metrics and Goals at the Corporate Level",
+  "Type": "Full Paper",
+  "Key": "3880d0db5bbe27535e9a8e9ef2b674",
+  "Authors": ["Pete Rotella", "Sunita Chulani"],
+  "Affiliations": ["Cisco Systems Inc., USA"],
+  "Abstract": "Over the past eight years, Cisco Systems, Inc., has implemented software quality goals for most groups engaged in software development, including development for both customer and internal use. This corporate implementation has proven to be a long and difficult process for many reasons, including opposition from many groups, uncertainties as to how to proceed with key aspects of the goaling, and the many unanticipated modifications needed to adapt the program to a large and diverse development and test environment. This paper describes what has worked, what has not work so well, and what levels of improvement the Engineering organization has experienced in part as a result of these efforts. Key customer experience metrics have improved 30% to 70% over the past six years, partly as a result of metrics and process standardization, dashboarding, and goaling. As one would expect with such a large endeavor, some of the results shown are not statistically provable, but are nevertheless generally accepted within the corporation as valid. Other important results do have strong statistical substantiation, and we will also describe these. But whether or not the results are statistically provable, Cisco has in fact improved its software quality substantially over the past eight years, and the corporate goaling mechanism is generally recognized as having been a necessary (but of course not sufficient) part of this improvement effort."
+},
+{
+  "Title": "How Do Developers Blog? An Exploratory Study",
+  "Type": "Full Paper",
+  "Key": "54413c4325db3bbff985025f083e0d",
+  "Authors": ["Dennis Pagano", "Walid Maalej"],
+  "Affiliations": ["Technische Universität München, Germany"],
+  "Abstract": "We report on an exploratory study, which aims at understanding how software developers use social media compared to conventional development infrastructures. We analyzed the blogging and the committing behavior of 1,100 developers in four large open source communities. We observed that these communities intensively use blogs with one new entry about every 8 hours. A blog entry includes 14 times more words than a commit message. When analyzing the content of the blogs, we found that most popular topics represent high-level concepts such as functional requirements and domain concepts. Source code related topics are covered in less than 15% of the posts. Our results also show that developers are more likely to blog after corrective engineering and management activities than after forward engineering and re-engineering activities. Our findings call for a hypothesis-driven research to further understand the role of social media in software engineering and integrate it into development processes and tools."
+},
+{
+  "Title": "Entering the Circle of Trust: Developer Initiation as Committers in Open-Source Projects",
+  "Type": "Full Paper",
+  "Key": "c735abee252b205ec18d86c53d36ef",
+  "Authors": ["Vibha Singhal Sinha", "Senthil Mani", "Saurabh Sinha"],
+  "Affiliations": ["IBM Research, India"],
+  "Abstract": "The success of an open-source project depends to a large degree on the proactive and constructive participation by the developer community. An important role that developers play in a project is that of a code committer. However, code-commit privilege is typically restricted to the core group of a project. In this paper, we study the phenomenon of the induction of external developers as code committers. The trustworthiness of an external developer is one of the key factors that determines the granting of commit privileges. Therefore, we formulate different hypotheses to explain how the trust is established in practice. To investigate our hypotheses, we developed an automated approach based on mining code repositories and bug-tracking systems. We implemented the approach and performed an empirical study, using the Eclipse projects, to test the hypotheses. Our results indicate that, most frequently, developers establish trust and credibility in a project by contributing to the project in a non-committer role. Moreover, the employing organization of a developer is another factor—although a less significant one—that influences trust."
+},
+{
+  "Title": "Social Interactions around Cross-System Bug Fixings: The Case of FreeBSD and OpenBSD",
+  "Type": "Full Paper",
+  "Key": "85e0b3681470e06c9c27a6adac9210",
+  "Authors": ["Gerardo Canfora", "Luigi Cerulo", "Marta Cimitile", "Massimiliano Di Penta"],
+  "Affiliations": ["University of Sannio, Italy", "Unitelma Sapienza, Italy"],
+  "Abstract": "Cross-system bug fixing propagation is frequent among systems having similar characteristics, using a common framework, or, in general, systems with cloned source code fragments. While previous studies showed that clones tend to be properly maintained within a single system, very little is known about cross-system bug management. \nThis paper describes an approach to mine explicitly documented cross-system bug fixings, and to relate their occurrences to social characteristics of contributors discussing through the project mailing lists-e.g., degree, betweenness, and brokerage-as well as to the contributors' activity on source code. \nThe paper reports results of an empirical study carried out on FreeBSD and OpenBSD kernels. The study shows that the phenomenon of cross-system bug fixing between these two projects occurs often, despite the limited overlap of contributors. The study also shows that cross-system bug fixings mainly involve contributors with the highest degree, betweenness and brokerage level, as well as contributors that change the source code more than others."
+},
+{
+  "Title": "Do Time of Day and Developer Experience Affect Commit Bugginess?",
+  "Type": "Full Paper",
+  "Key": "915cf7a613a6ce74c9b6fc8919aa7f",
+  "Authors": ["Jon Eyolfson", "Lin Tan", "Patrick Lam"],
+  "Affiliations": ["University of Waterloo, Canada"],
+  "Abstract": "Modern software is often developed over many years with hundreds of thousands of commits. Commit metadata is a rich source of social characteristics, including the commit's time of day and the experience and commit frequency of its author. The \"bugginess\" of a commit is also a critical property of that commit. In this paper, we investigate the correlation between a commit's social characteristics and its \"bugginess\"; such results can be very useful for software developers and software engineering researchers. For instance, developers or code reviewers might be well-advised to thoroughly verify commits that are more likely to be buggy. \nIn this paper, we study the correlation between a commit's bugginess and the time of day of the commit, the day of week of the commit, and the experience and commit frequency of the commit authors. We survey two widely-used open source projects: the Linux kernel and PostgreSQL. \nOur main findings include: (1) commits submitted between midnight and 4 AM (referred to as late-night commits) are significantly buggier and commits between 7 AM and noon are less buggy, implying that developers may want to double-check their own late-night commits; (2) daily-committing developers produce less-buggy commits, indicating that we may want to promote the practice of daily-committing developers reviewing other developers' commits; and (3) the bugginess of commits versus day-of-week varies for different software projects."
+},
+{
+  "Title": "Automated Topic Naming to Support Cross-project Analysis of Software Maintenance Activities",
+  "Type": "Full Paper",
+  "Key": "02acda2f9c794fef376c3d9aca4176",
+  "Authors": ["Abram Hindle", "Neil A. Ernst", "Michael W. Godfrey", "John Mylopoulos"],
+  "Affiliations": ["UC Davis, USA", "University of Toronto, Canada", "University of Waterloo, Canada", "University of Trento, Italy"],
+  "Abstract": "Researchers have employed a variety of techniques to extract underlying topics that relate to software development artifacts. Typically, these techniques use semi-unsupervised machine-learning algorithms to suggest candidate word-lists. However, word-lists are difficult to interpret in the absence of meaningful summary labels. Current topic modeling techniques assume manual labelling and do not use domain-specific knowledge to improve, contextualize, or describe results for the developers. We propose a solution: automated labelled topic extraction. Topics are extracted using Latent Dirichlet Allocation (LDA) from commit-log comments recovered from source control systems such as CVS and BitKeeper. These topics are given labels from a generalizable cross-project taxonomy, consisting of non-functional requirements. Our approach was evaluated with experiments and case studies on two large-scale RDBMS projects: MySQL and MaxDB. The case studies show that labelled topic extraction can produce appropriate, context-sensitive labels relevant to these projects, which provides fresh insight into their evolving software development activities."
+},
+{
+  "Title": "Modeling the Evolution of Topics in Source Code Histories",
+  "Type": "Full Paper",
+  "Key": "f47b2ea7cea93b3d17e13b7ed39dfc",
+  "Authors": ["Stephen W. Thomas", "Bram Adams", "Ahmed E. Hassan", "Dorothea Blostein"],
+  "Affiliations": ["Queen's University, Canada"],
+  "Abstract": "Studying the evolution of topics (collections of co-occurring words) in a software project is an emerging technique to automatically shed light on how the project is changing over time: which topics are becoming more actively developed, which ones are dying down, or which topics are lately more error-prone and hence require more testing. Existing techniques for modeling the evolution of topics in software projects suffer from issues of data duplication, i.e., when the repository contains multiple copies of the same document, as is the case in source code histories. To address this issue, we propose the Diff model, which applies a topic model only to the changes of the documents in each version instead of to the whole document at each version. A comparative study with a state-of-the-art topic evolution model shows that the Diff model can detect more distinct topics as well as more sensitive and accurate topic evolutions, which are both useful for analyzing source code histories."
+},
+{
+  "Title": "Software Bertillonage: Finding the Provenance of an Entity",
+  "Type": "Full Paper",
+  "Key": "2beaf37e02a37242e52f852f825dc2",
+  "Authors": ["Julius Davies", "Daniel M. German", "Michael W. Godfrey", "Abram Hindle"],
+  "Affiliations": ["University of Victoria, Canada", "University of Waterloo, Canada", "UC Davis, USA"],
+  "Abstract": "Deployed software systems are typically composed of many pieces, not all of which may have been created by the main development team. Often, the provenance of included components --- such as external libraries or cloned source code --- is not clearly stated, and this uncertainty can introduce technical and ethical concerns that make it difficult for system owners and other stakeholders to manage their software assets. In this work, we motivate the need for the recovery of the provenance of software entities by a broad set of techniques that could include signature matching, source code fact extraction, software clone detection, call flow graph matching, string matching, historical analyses, and other techniques. We liken our provenance goals to that of Bertillonage, a simple and approximate forensic analysis technique based on bio-metrics that was developed in 19th century France before the advent of fingerprints. As an example, we have developed a fast, simple, and approximate technique called anchored signature matching for identifying library version information within a given Java application. This technique involves a type of structured signature matching performed against a database of candidates drawn from the Maven2 repository, a 150GB collection of open source Java libraries. An exploratory case study using a proprietary e-commerce Java application illustrates that the approach is both feasible and effective."
+},
+{
+  "Title": "Supporting Software History Exploration",
+  "Type": "Full Paper",
+  "Key": "2834c29fdb43d0ac2a18425b989df1",
+  "Authors": ["Alexander W. J. Bradley", "Gail C. Murphy"],
+  "Affiliations": ["University of British Columbia, Canada"],
+  "Abstract": "Software developers often confront questions such as \"Why was the code implemented this way\"? To answer such questions, developers make use of information in a software system's bug and source repositories. In this paper, we consider two user interfaces for helping a developer explore information from such repositories. One user interface, from Holmes and Begel's Deep Intellisense tool, exposes historical information across several integrated views, favouring exploration from a single code element to all of that element's historical information. The second user interface, in a tool called Rationalizer that we introduce in this paper, integrates historical information into the source code editor, favouring exploration from a particular code line to its immediate history. We introduce a model to express how software repository information is connected and use this model to compare the two interfaces. Through a lab experiment, we found that our model can help predict which interface is helpful for a particular kind of historical question. We also found deficiencies in the interfaces that hindered users in the exploration of historical information. These results can help inform tool developers who are presenting historical information either directly from or mined from software repositories."
+},
+{
+  "Title": "Improving Identifier Informativeness Using Part of Speech Information",
+  "Type": "Short Paper",
+  "Key": "65027048902f4bc025b5373bd34613",
+  "Authors": ["David Binkley", "Matthew Hearn", "Dawn Lawrie"],
+  "Affiliations": ["Loyola University Maryland, USA"],
+  "Abstract": "Recent software development tools have exploited the mining of natural language information found within software and its supporting documentation. To make the most of this information, researchers have drawn upon the work of the natural language processing community for tools and techniques. One such tool provides part-of-speech information, which finds application in improving the searching of software repositories and extracting domain information found in identifiers. \nUnfortunately, the natural language found is software differs from that found in standard prose. This difference potentially limits the effectiveness of off-the-shelf tools. An empirical investigation finds that with minimal guidance an existing tagger was correct 88% of the time when tagging the words found in source code identifiers. The investigation then uses the improved part-of-speech information to tag a large corpus of over 145,000 structure-field names. From patterns in the tags several rules emerge that seek to understand past usage and to improve future naming."
+},
+{
+  "Title": "Bug-fix Time Prediction Models: Can We Do Better?",
+  "Type": "Short Paper",
+  "Key": "caed91ab726d05539b6e83722e257c",
+  "Authors": ["Pamela Bhattacharya", "Iulian Neamtiu"],
+  "Affiliations": ["UC Riverside, USA"],
+  "Abstract": "Predicting bug-fix time is useful in several areas of software evolution, such as predicting software quality or coordinating development effort during bug triaging. Prior work has proposed bug-fix time prediction models that use various bug report attributes (e.g., number of developers who participated in fixing the bug, bug severity, number of patches, bug-opener's reputation) for estimating the time it will take to fix a newly-reported bug. In this paper we take a step towards constructing more accurate and more general bug-fix time prediction models by showing how existing models fail to validate on large projects widely-used in bug studies. In particular, we used multivariate and univariate regression testing to test the prediction significance of existing models on 512,474 bug reports from five open source projects: Eclipse, Chrome and three products from the Mozilla project (Firefox, Seamonkey and Thunderbird). The results of our regression testing indicate that the predictive power of existing models is between 30% and 49% and that there is a need for more independent variables (attributes) when constructing a prediction model. Additionally, we found that, unlike in prior recent studies on commercial software, in the projects we examined there is no correlation between bug-fix likelihood, bug-opener's reputation and the time it takes to fix a bug. These findings indicate three open research problems: (1) assessing whether prioritizing bugs using bug-opener's reputation is beneficial, (2) identifying attributes which are effective in predicting bug-fix time, and (3) constructing bug-fix time prediction models which can be validated on multiple projects."
+},
+{
+  "Title": "Integrating Software Engineering Data Using Semantic Web Technologies",
+  "Type": "Short Paper",
+  "Key": "51c032bc0fc1ce223cea653ebe8256",
+  "Authors": ["Yuan-Fang Li", "Hongyu Zhang"],
+  "Affiliations": ["Monash University, Australia", "Tsinghua University, China"],
+  "Abstract": "A plethora of software engineering data have been produced by different organizations and tools over time. These data may come from different sources, and are often disparate and distributed. The integration of these data may open up the possibility of conducting systemic, holistic study of software projects in ways previously unexplored. Semantic Web technologies have been used successfully in a wide array of domains such as health care and life sciences as a platform for information integration and knowledge management. The success is largely due to the open and extensible nature of ontology languages as well as growing tool support. We believe that Semantic Web technologies represent an ideal platform for the integration of software engineering data in a semantic repository. By querying and analyzing such a repository, researchers and practitioners can better understand and control software engineering activities and processes. In this paper, we describe how we apply Semantic Web techniques to integrate object-oriented software engineering data from different sources. We also show how the integrated data can help us answer complex queries about large-scale software projects through a case study on the Eclipse system."
+},
+{
+  "Title": "Improving Efficiency in Software Maintenance",
+  "Type": "Short Paper",
+  "Key": "31bd543e45b70020309102f1b556ba",
+  "Authors": ["Sergey Zeltyn", "Peri Tarr", "Murray Cantor", "Robert Delmonico", "Sateesh Kannegala", "Mila Keren", "Ashok Pon Kumar", "Segev Wasserkrug"],
+  "Affiliations": ["IBM Haifa Research Laboratory, Israel", "IBM Watson Research, USA", "IBM Rational Software, USA", "IBM India Software Laboratory, India"],
+  "Abstract": "Efficiency is critical to the profitability of software maintenance and support organizations. Managing such organizations effectively requires suitable measures of efficiency that are sensitive enough to detect significant changes, and accurate and timely in detecting them. Mean time to close problem reports is the most commonly used efficiency measure, but its suitability has not been evaluated carefully. We performed such an evaluation by mining and analyzing many years of support data on multiple IBM products. Our preliminary results suggest that the mean is less sensitive and accurate than another measure, percentiles, in cases that are particularly important in the maintenance and support domain. Using percentiles, we also identified statistical techniques to detect efficiency trends and evaluated their accuracy. Although preliminary, these results may have significant ramifications for effectively measuring and improving software maintenance and support processes."
+},
+{
+  "Title": "An Empirical Analysis of the FixCache Algorithm",
+  "Type": "Short Paper",
+  "Key": "e3a7aa57ace54a0badbcad812ff524",
+  "Authors": ["Caitlin Sadowski", "Chris Lewis", "Zhongpeng Lin", "Xiaoyan Zhu", "Jim Whitehead"],
+  "Affiliations": ["UC Santa Cruz, USA", "Xi’an Jiaotong University, China"],
+  "Abstract": "The FixCache algorithm, introduced in 2007, effectively identifies files or methods which are likely to contain bugs by analyzing source control repository history. However, many open questions remain about the behaviour of this algorithm. What is the variation in the hit rate over time? How long do files stay in the cache? Do buggy files tend to stay buggy, or can they be redeemed? This paper analyzes the behaviour of the FixCache algorithm on four open source projects. FixCache hit rate is found to generally increase over time for three of the four projects; file duration in cache follows a Zipf distribution; and topmost bug-fixed files go through periods of greater and lesser stability over a project’s history."
+},
+{
+  "Title": "Visualizing Collaboration and Influence in the Open-Source Software Community",
+  "Type": "Short Paper",
+  "Key": "d4225a710b8e40a05829db62db94c2",
+  "Authors": ["Brandon Heller", "Eli Marschner", "Evan Rosenfeld", "Jeffrey Heer"],
+  "Affiliations": ["Stanford University, USA"],
+  "Abstract": "We apply visualization techniques to user profiles and repository metadata from the GitHub source code hosting service. Our motivation is to identify patterns within this development community that might otherwise remain obscured. Such patterns include the effect of geographic distance on developer relationships, social connectivity and influence among cities, and variation in project-specific contribution styles (e.g., centralized vs. distributed). Our analysis examines directed graphs in which nodes represent users' geographic locations and edges represent (a) follower relationships, (b) successive commits, or (c) contributions to the same project. We inspect this data using a set of visualization techniques: geo-scatter maps, small multiple displays, and matrix diagrams. Using these representations, and tools based on them, we develop hypotheses about the larger GitHub community that would be difficult to discern using traditional lists, tables, or descriptive statistics. These methods are not intended to provide conclusive answers; instead, they provide a way for researchers to explore the question space and communicate initial insights."
+},
+{
+  "Title": "MSR Challenge 2011: Eclipse, Netbeans, Firefox, and Chrome",
+  "Type": "Mining Challenge Report",
+  "Key": "d2349f6eb56c8c70ee784ca38d292f",
+  "Authors": ["Adrian Schröter"],
+  "Affiliations": ["University of Victoria, Canada"],
+  "Abstract": "The MSR Challenge aims at offering researchers and practitioners in the area of Mining Software Repositories a shared set of software repositories, enabling them to compare their tools and approaches. This year, the main theme of the challenge was on the comparison of projects. We selected four open source projects, and challenged participants to use their brains, tools, computational power, and magic to compare them and uncover interesting similarities and differences. The projects were Eclipse and Netbeans, two popular IDEs written in Java (Group 1) and Firefox and Chrome, two web browsers written in C/C++ (Group 2). We encouraged participants to analyze more than one project, ideally in the same group but allowed them to analyze a single project."
+},
+{
+  "Title": "Operating System Compatibility Analysis of Eclipse and Netbeans Based on Bug Data",
+  "Type": "Mining Challenge Report",
+  "Key": "0edb49f8a9e130d9d19fb38fb6873f",
+  "Authors": ["Xinlei (Oscar) Wang", "Eilwoo Baik", "Premkumar Devanbu"],
+  "Affiliations": ["UC Davis, USA"],
+  "Abstract": "Eclipse and Netbeans are two top of the line Integrated Development Environments (IDEs) for Java development. Both of them provide support for a wide variety of development tasks and have a large user base. This paper provides an analysis and comparison for the compatibility and stability of Eclipse and Netbeans on the three most commonly used operating systems, Windows, Linux and Mac OS. Both IDEs are programmed in Java and use a Bugzilla issue tracker to track reported bugs and feature requests. We looked into the Bugzilla repository databases of these two IDEs, which contains the bug records and histories of these two IDEs. We used some basic data mining techniques to analyze some historical statistics of the bug data. Based on the analysis, we try to answer certain stability-comparison oriented questions in the paper, so that users can have a better idea which of these two IDEs is designed better to work on different platforms."
+},
+{
+  "Title": "What Topics do Firefox and Chrome Contributors Discuss?",
+  "Type": "Mining Challenge Report",
+  "Key": "2dea5a798c4409f1734928f4cbcbd4",
+  "Authors": ["Mario Luca Bernardi", "Carmine Sementa", "Quirino Zagarese", "Damiano Distante", "Massimiliano Di Penta"],
+  "Affiliations": ["University of Sannio, Italy", "Unitelma Sapienza University, Italy"],
+  "Abstract": "Firefox and Chrome are two very popular open source Web browsers, implemented in C/C++. This paper analyzes what topics were discussed in Firefox and Chrome bug reports over time. To this aim, we indexed the text contained in bug reports submitted each semester of the project history, and identified topics using Latent Dirichlet Allocation (LDA). Then, we investigated to what extent Firefox and Chrome developers/contributors discussed similar topics, either in different periods, or over the same period. Results indicate a non-negligible overlap of topics, mainly on issues related to page layouting, user interaction, and multimedia contents."
+},
+{
+  "Title": "A Tale of Two Browsers",
+  "Type": "Mining Challenge Report",
+  "Key": "2db6ac202894c8e09f8aacc2c3c817",
+  "Authors": ["Olga Baysal", "Ian Davis", "Michael W. Godfrey"],
+  "Affiliations": ["University of Waterloo, Canada"],
+  "Abstract": "We explore the space of open source systems and their user communities by examining the development artifact histories of two popular web browsers - Firefox and Chrome - as well as usage data. By examining the data and addressing a number of research questions, two very different profiles emerge: Firefox, as the older and established system, with long product version cycles but short bug fix cycles, and a user base that is slow to adopt newer versions; and Chrome, as the new and fast evolving system, with short version cycles, longer bug fix cycles, and a user base that very quickly adopts new versions as they become available (due largely to Chrome's mandatory automatic updates)."
+},
+{
+  "Title": "Do Comments Explain Codes Adequately? Investigation by Text Filtering",
+  "Type": "Mining Challenge Report",
+  "Key": "40a185ef8a1264ee05fd846d48172a",
+  "Authors": ["Yukinao Hirata", "Osamu Mizuno"],
+  "Affiliations": ["Kyoto Institute of Technology, Japan"],
+  "Abstract": "Comment lines in the software source code include descriptions of codes, usage of codes, copyrights, unused codes, comments, and so on. It is required for comments to explain the content of written code adequately, since the wrong description in the comment may causes further bug and confusion in maintenance. \nIn this paper, we try to clarify a research question: ``In which projects do comments describe the code adequately?'' To answer this question, we selected the group 1 of mining challenge and used data obtained from Eclipse and Netbeans. Since it is difficult to answer the above question directly, we define the distance between codes and comments. By utilizing the fault-prone module prediction technique, we can answer the alternative question from the data of two projects. The result shows that Eclipse project has relatively adequate comments."
+},
+{
+  "Title": "Apples vs. Oranges? An Exploration of the Challenges of Comparing the Source Code of Two Software Systems",
+  "Type": "Mining Challenge Report",
+  "Key": "1606d2b9439a969883da0292c0ac64",
+  "Authors": ["Daniel M. German", "Julius Davies"],
+  "Affiliations": ["University of Victoria, Canada"],
+  "Abstract": "We attempt to compare the source code of two Java IDE systems: Netbeans and Eclipse. The result of this experiment shows that many factors, if ignored, could risk a bias in the results, and we posit various observations that should be taken into consideration to minimize such risk."
+}
+	],
+	"Sessions": [
+{
+  "Title": "Conference Dinner",
+  "Type": "Social Event",
+  "Key": "the-dinner",
+  "Day": "5-21-2011",
+  "Time": "5:45 pm - 8:00 pm",
+  "Location": "Benihana Restaurant",
+  "Abstract": "Each meal is served with Benihana Onion Soup, Benihana Salad, Shrimp Appetizer, Hibachi Vegetables, Dipping sauces, steamed rice and Japanese hot green tea. Menu \"C\" comes with their \"famous\" garlic fried rice.\n\nMenu \"A\": Hibachi Steak 7 (oz) and Chicken 3.5 (oz) Combo with choice of Fountain soda (Pepsi Products) or Ice Tea. Rainbow Sherbet.\n\nMenu \"B\": Hibachi Jumbo Shrimp (7pc) with choice of Fountain soda (Pepsi Products) or Ice Tea. Rainbow Sherbet.\n\nMenu \"C\": Seafood Diablo (assorted seafood with udon noodles and spicy sauce) with choice of Fountain soda (Pepsi Products) or Ice Tea. Garlic Fried Rice and Rainbow Sherbet.\n\nVegetarian and Vegan Menus: They can accommodate vegetarians with options like Tofu steak, Miso soup, and Fresh Vegetables. For vegans they can cook in soybean oil."
+},
+{
+  "Title": "Keynote Jim Whitehead",
+  "Type": "Keynote",
+  "Key": "Keynotes",
+  "Day": "5-21-2011",
+  "Time": "8:30 am - 10:00 am",
+  "Location": "South Pacific 1",
+  "Items": ["ea9b26e54a111369371853ee44e797"],
+  "Chair": "Thomas Zimmermann"  
+},
+{
+  "Title": "Keynote Yuanyuan Zhou",
+  "Type": "Keynote",
+  "Key": "Keynotes-2",
+  "Day": "5-22-2011",
+  "Time": "8:30 am - 10:00 am",
+  "Location": "South Pacific 1",
+  "Items": ["f5181393804e53d4e86a95bea4c0bc"],
+  "Chair": "Tao Xie"  
+},
+{
+  "Title": "Language Evolution",
+  "Type": "Full Papers",
+  "Key": "LanguageEvolution",
+  "Day": "5-21-2011",
+  "Time": "10:30 am - 12:00 pm",
+  "Location": "South Pacific 1",
+  "Items": ["f6d09aab78aedbfa7f19a562b7c302", "abadf565c709a63bc4eb5726b7f8da", "4451316fee89ab420446e477b981b8", "a0b6faccacc255ba1c12eb8676747e"],
+  "Chair": "Michael W. Godfrey"  
+},
+{
+  "Title": "Retrieval, Refactoring, Clones, Readability",
+  "ShortTitle": "Retrieval, Refactoring, Clones",
+  "Type": "Full Papers",
+  "Key": "RetrievalRefactoringClonesReadability",
+  "Day": "5-21-2011",
+  "Time": "1:30 pm - 3:00 pm",
+  "Location": "South Pacific 1",
+  "Items": ["10790789b2ba4ae11d0c6a2df2fb79", "d2c86ee9c342c091604067a0fe96a3", "cb44a5df494900e50e37847e7340b7", "aad811fb5ef508a86a27d77693c545"],
+  "Chair": "Ahmed E. Hassan"
+},
+{
+  "Title": "Software Quality",
+  "Type": "Full Papers",
+  "Key": "SoftwareQuality",
+  "Day": "5-22-2011",
+  "Time": "10:30 am - 12:00 pm",
+  "Location": "South Pacific 1",
+  "Items": ["ded086338a3a0e20604d669b25467d", "a8a3d367d3d362055493f4254ca7a8", "37cf47ae19d2b85537af8ce0e249ab", "3880d0db5bbe27535e9a8e9ef2b674"],
+  "Chair": "Christian Bird"
+},
+{
+  "Title": "Developers",
+  "Type": "Full Papers",
+  "Key": "Developers",
+  "Day": "5-22-2011",
+  "Time": "1:30 pm - 3:00 pm",
+  "Location": "South Pacific 1",
+  "Items": ["54413c4325db3bbff985025f083e0d", "c735abee252b205ec18d86c53d36ef", "85e0b3681470e06c9c27a6adac9210", "915cf7a613a6ce74c9b6fc8919aa7f"],
+  "Chair": "Sunghun Kim"
+},
+{
+  "Title": "Development Support",
+  "Type": "Full Papers",
+  "Key": "DevelopmentSupport",
+  "Day": "5-22-2011",
+  "Time": "3:30 pm - 5:00 pm",
+  "Location": "South Pacific 1",
+  "Items": ["02acda2f9c794fef376c3d9aca4176", "f47b2ea7cea93b3d17e13b7ed39dfc", "2beaf37e02a37242e52f852f825dc2", "2834c29fdb43d0ac2a18425b989df1"],
+  "Chair": "Martin Pinzger"
+},
+{
+  "Title": "Short Papers",
+  "Type": "Short Papers",
+  "Key": "ShortPapers",
+  "Day": "5-21-2011",
+  "Time": "4:10 pm - 5:00 pm",
+  "Location": "South Pacific 1",
+  "Items": ["65027048902f4bc025b5373bd34613", "caed91ab726d05539b6e83722e257c", "51c032bc0fc1ce223cea653ebe8256", "31bd543e45b70020309102f1b556ba", "e3a7aa57ace54a0badbcad812ff524", "d4225a710b8e40a05829db62db94c2"],
+  "Chair": "Romain Robbes"
+},
+{
+  "Title": "Mining Challenge",
+  "Type": "Mining Challenge",
+  "Key": "MiningChallenge",
+  "Day": "5-21-2011",
+  "Time": "3:30 pm - 4:10 pm",
+  "Location": "South Pacific 1",
+  "Items": ["d2349f6eb56c8c70ee784ca38d292f", "0edb49f8a9e130d9d19fb38fb6873f", "2dea5a798c4409f1734928f4cbcbd4", "2db6ac202894c8e09f8aacc2c3c817", "40a185ef8a1264ee05fd846d48172a", "1606d2b9439a969883da0292c0ac64"],
+  "Chair": "Adrian Schröter"
+}
+	],
+	"People": [
+{
+    "Name": "Abram Hindle"
+},
+{
+    "Name": "Adrian Schröter"
+},
+{
+    "Name": "Ahmed E. Hassan"
+},
+{
+    "Name": "Alexander W. J. Bradley"
+},
+{
+    "Name": "Armijn Hemel"
+},
+{
+    "Name": "Ashok Pon Kumar"
+},
+{
+    "Name": "Avinash Kak"
+},
+{
+    "Name": "Benjamin Biegel"
+},
+{
+    "Name": "Bram Adams"
+},
+{
+    "Name": "Brandon Heller"
+},
+{
+    "Name": "Caitlin Sadowski"
+},
+{
+    "Name": "Carmine Sementa"
+},
+{
+    "Name": "Chris Lewis"
+},
+{
+    "Name": "Chris Parnin"
+},
+{
+    "Name": "Christian Bird"
+},
+{
+    "Name": "Damiano Distante"
+},
+{
+    "Name": "Daniel M. German"
+},
+{
+    "Name": "Daryl Posnett"
+},
+{
+    "Name": "David Binkley"
+},
+{
+    "Name": "David Röthlisberger"
+},
+{
+    "Name": "Dawn Lawrie"
+},
+{
+    "Name": "Dennis Pagano"
+},
+{
+    "Name": "Dorothea Blostein"
+},
+{
+    "Name": "Eelco Dolstra"
+},
+{
+    "Name": "Eilwoo Baik"
+},
+{
+    "Name": "Eli Marschner"
+},
+{
+    "Name": "Emanuel Giger"
+},
+{
+    "Name": "Emerson Murphy-Hill"
+},
+{
+    "Name": "Éric Tanter"
+},
+{
+    "Name": "Evan Rosenfeld"
+},
+{
+    "Name": "Gail C. Murphy"
+},
+{
+    "Name": "Gerardo Canfora"
+},
+{
+    "Name": "Giuliano Antoniol"
+},
+{
+    "Name": "Harald Gall"
+},
+{
+    "Name": "Hongyu Zhang"
+},
+{
+    "Name": "Ian Davis"
+},
+{
+    "Name": "Iulian Neamtiu"
+},
+{
+    "Name": "Jeffrey Heer"
+},
+{
+    "Name": "Jim Whitehead"
+},
+{
+    "Name": "John Mylopoulos"
+},
+{
+    "Name": "Jon Eyolfson"
+},
+{
+    "Name": "Julius Davies"
+},
+{
+    "Name": "Karl Trygve Kalleberg"
+},
+{
+    "Name": "Katerina Goševa-Popstojanova"
+},
+{
+    "Name": "Laleh M. Eshkevari"
+},
+{
+    "Name": "Lin Tan"
+},
+{
+    "Name": "Luigi Cerulo"
+},
+{
+    "Name": "Mario Luca Bernardi"
+},
+{
+    "Name": "Marta Cimitile"
+},
+{
+    "Name": "Martin Pinzger"
+},
+{
+    "Name": "Massimiliano Di Penta"
+},
+{
+    "Name": "Matthew Hearn"
+},
+{
+    "Name": "Michael W. Godfrey"
+},
+{
+    "Name": "Mila Keren"
+},
+{
+    "Name": "Murray Cantor"
+},
+{
+    "Name": "Neil A. Ernst"
+},
+{
+    "Name": "Olga Baysal"
+},
+{
+    "Name": "Osamu Mizuno"
+},
+{
+    "Name": "Oscar Callaú"
+},
+{
+    "Name": "Pamela Bhattacharya"
+},
+{
+    "Name": "Patrick Lam"
+},
+{
+    "Name": "Peri Tarr"
+},
+{
+    "Name": "Pete Rotella"
+},
+{
+    "Name": "Premkumar Devanbu"
+},
+{
+    "Name": "Quinten David Soetens"
+},
+{
+    "Name": "Quirino Zagarese"
+},
+{
+    "Name": "Rob Vermaas"
+},
+{
+    "Name": "Robert Delmonico"
+},
+{
+    "Name": "Robyn R. Lutz"
+},
+{
+    "Name": "Rocco Oliveto"
+},
+{
+    "Name": "Romain Robbes"
+},
+{
+    "Name": "Sandeep Krishnan"
+},
+{
+    "Name": "Sateesh Kannegala"
+},
+{
+    "Name": "Saurabh Sinha"
+},
+{
+    "Name": "Segev Wasserkrug"
+},
+{
+    "Name": "Senthil Mani"
+},
+{
+    "Name": "Serge Demeyer"
+},
+{
+    "Name": "Sergey Zeltyn"
+},
+{
+    "Name": "Shahed Zaman"
+},
+{
+    "Name": "Shivani Rao"
+},
+{
+    "Name": "Siim Karus"
+},
+{
+    "Name": "Stephan Diehl"
+},
+{
+    "Name": "Stephen W. Thomas"
+},
+{
+    "Name": "Sunita Chulani"
+},
+{
+    "Name": "Venera Arnaoudova"
+},
+{
+    "Name": "Vibha Singhal Sinha"
+},
+{
+    "Name": "Walid Maalej"
+},
+{
+    "Name": "Willi Hornig"
+},
+{
+    "Name": "Xiaoyan Zhu"
+},
+{
+    "Name": "Xinlei (Oscar) Wang"
+},
+{
+    "Name": "Yann-Gaël Guéhéneuc"
+},
+{
+    "Name": "Yuan-Fang Li"
+},
+{
+    "Name": "Yuanyuan Zhou"
+},
+{
+    "Name": "Yukinao Hirata"
+},
+{
+    "Name": "Zhongpeng Lin"
+}
+	]
+}
