@@ -3,6 +3,18 @@
     
 "Events": [
 	{
+	    "Id" : "ICSE2013",
+	    "Name" : "ICSE 2013",
+	    "Version" : 1,
+	    "File" : "2013ICSE.json",
+	    "StartDate" : "18/05/2013",
+	    "EndDate" : "26/05/2013",
+	    "Description" : "Program for the International Conference on Software Engineering 2013",
+		"Icon" : "2013ICSE.png",
+		"Image" : "2013ICSE.png"
+	},
+
+	{
         "Id" : "Grace Hopper 2012",
         "Name" : "Grace Hopper 2012",
         "Version" : 5,
