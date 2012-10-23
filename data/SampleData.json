@@ -1,0 +1,59 @@
+{
+	"DataRevision": 1,
+	"Event": "event_key",
+	"Name": "Descriptive name 2013",
+	"Items": [
+				{
+				  "Title": "Paper Title",
+				  "Type": "Paper, Demo, etc.",
+				  "Key": "paper-key-1",
+				  "Authors": ["John Doe", "Jane Doe"],
+				  "Affiliations": ["University of Foo"],
+				  "Abstract": "Abstract text."
+				},
+				{
+				  "Title": "Paper Title2",
+				  "Type": "Paper, Demo, etc.",
+				  "Key": "paper-key-2",
+				  "Authors": ["John Doe", "Jane Doe"],
+				  "Affiliations": ["University of Foo"],
+				  "Abstract": "Abstract text."
+				}
+	],
+	"Sessions": [
+		{
+		  "Title": "Session Title",
+		  "Type": "Research Track, Industry Track, etc.",
+		  "Key": "session-key",
+		  "Day": "5/18/2013",
+		  "Time": "8:30 am - 10:00 am",
+		  "Location": "Room name/number",
+		  "Abstract": "Session abstract (can be blank)",
+		  "Items": ["paper-key-1"]
+		},
+		{
+		  "Title": "WORK: workshop",
+		  "ShortTitle": "WORK 2012",
+		  "Type": "Workshop / Co-located Event",
+		  "ShortType": "Workshop / Co-located Event",
+		  "Key": "work-unique-key",
+		  "Day": "6/2/2012",
+		  "Time": "9:00 am - 5:30 pm",
+		  "Location": "Room name/number",
+		  "Abstract": "Abstract text",
+		  "Workshop": true,
+		  "Chairs": ["Chair 1", "Chair 2"],
+		  "Items": ["paper-key-1", "paper-key-2"],
+		}
+	],
+	"People": [
+		{
+		    "Name": "John Doe",
+		    "Affiliation": "University of XXX, Canada"
+		},
+		{
+		    "Name": "Jane Doe",
+		    "Affiliation": "University of XXX, USA"
+		}
+	]
+}
