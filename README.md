@@ -16,3 +16,5 @@ Notes
 -----
 
 Apps should try to pull the metadata as infrequently as possible. ``IndexVersion.json`` is only 37 bytes and by comparing its time field you will always know if your cached copy is up to date. The date can be generated with ``date +%s``.
+
+``data/SampleData.json`` contains a sample data file that can be used as a template for creating new event data files.
