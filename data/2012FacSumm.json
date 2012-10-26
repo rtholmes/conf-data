@@ -1,985 +1,1250 @@
 {
-"Event": "Faculty Summit 2012",
-"Name": "Faculty Summit 2012",
-"DataRevision": 2,
-"VenueInfo": { "Name": "Microsoft Conference Center", "GPS": 
-{ "Latitude": 47.642911, "Longitude": -122.124968} },
-"TwitterKeywords": "FacSumm",
-
-	"Items": [
-{
-  "Title": "Welcome and Introduction",
-  "Type": "Talk",
-  "Key": "WelcomeandIntroduction",
-  "Authors": ["Tony Hey"],
-  "Affiliations": ["Microsoft Research"],
-  "Abstract": "In the 13th year of the Microsoft Research Faculty Summit, we seek to share insights and create an open discussion on two broad themes. how computing is blending physical and virtual reality, and generating new insights from big data. Breakout sessions will include such diverse topics as the potential of the digital home and natural user interfaces, harnessing the power of data for analysis and insights, algorithms managing election data and detecting malware, and the changing landscape of parallel computing. Tony Hey opens the event with an overview of this year’s program."
-},
-{
-  "Title": "Predictions, Decisions, and Intelligence in the Open World",
-  "Type": "Keynote",
-  "Key": "PredictionsDecisionsandIntelligenceintheOpenWorld",
-  "Authors": ["Eric Horvitz"],
-  "Affiliations": ["Microsoft Research"],
-  "Abstract": "Representations of probability and utility lie at the heart of a two-decade rolling revolution in machine learning and intelligence. A confluence of advances has led to an inflection in our ability to collect, store, and harness large amounts of data for generating insights and guiding decision making in the open world. Beyond study and refinement of principles, fielding real-world systems is critical for testing the sufficiency of algorithms and implications of assumptions—and exploring the human dimension of computational solutions and services. Horvitz will discuss efforts on learning and inference, highlighting key ideas in the context of projects in transportation, health care, and citizen science. Next, he will describe the composition of integrative solutions that draw upon a symphony of skills and that operate over extended periods of time."
-},
-{
-  "Title": "Social Media: Analysis and Applications",
-  "Type": "Talk",
-  "Key": "SocialMediaAnalysisandApplications",
-  "Authors": ["Sharad Goel", "Jamie Pennebaker", "Zeynep Tufekci"],
-  "Affiliations": ["Microsoft Research", "University of Texas", "University of North Carolina"],
-  "Abstract": "This session addresses the study and use of social media. Social media have massively democratized the production and distribution of information, and as such are impacting virtually every aspect of our world, from politics and the economy to news and even crisis management. For scientists who want to study this phenomenon, social media represent a body of information that is real-time, largely text-based, semi-structured, highly diverse, and embedded in social structures. Thus, social media are of interest to a tremendous range of scientists, including ethnographers, sociologists, computer scientists, and computational linguists. This session will focus on techniques, application areas, and research opportunities in the social media domain."
-},
-{
-  "Title": "Internet Service Security",
-  "Type": "Talk",
-  "Key": "InternetServiceSecurity",
-  "Authors": ["Michael Reiter", "Robert Sim", "XioaFeng Wang"],
-  "Affiliations": ["University of North Carolina", "Microsoft", "Indiana University"],
-  "Abstract": "Due to the increasing trend of moving user data and applications to the cloud, Internet service security is more critical than ever to the end user and large-scale services. This session examines various threats that target online services, ranging from user creation and hijacking attacks to those that abuse web and online advertising infrastructure, as well as sophisticated side-channel attacks in cloud-computing environments. We also discuss new directions and opportunities for attack detection and defense."
-},
-{
-  "Title": "Unlocking the Potential of Digital Home Infrastructure",
-  "Type": "Talk",
-  "Key": "UnlockingthePotentialofDigitalHomeInfrastructure",
-  "Authors": ["Nilanjan Banerjee", "George Demiris", "Ratul Mahajan"],
-  "Affiliations": ["University of Arkansas", "University of Washington", "Microsoft Research"],
-  "Abstract": "Homes contain an ever-increasing number of new devices and sensors, such as set-top boxes, game consoles, wireless routers, home automation devices, tablets, smartphones, and security cameras. The heterogeneity and complexity of technical innovations frustrate even technically savvy users and make it difficult for the home-computing infrastructure to meet its full potential. Join researchers from Microsoft Research and the academic community as they discuss technical challenges and research approaches for novel sensing in homes, as well as how to simplify the management and deployment of interesting new applications and devices in homes."
-},
-{
-  "Title": "Faculty Fellows Inspiring the Next Generation of Computer Scientists",
-  "Type": "Panel",
-  "Key": "FacultyFellowsInspiringtheNextGenerationofComputerScientists",
-  "Authors": ["Magdalena Balazinska", "Emma Brunskill", "Miriah Meyer", "Wei Wang"],
-  "Affiliations": ["University of Washington", "Carnegie Mellon University", "University of Utah", "University of North Carolina"],
-  "Abstract": "Microsoft Research has recognized innovative, promising new faculty members from a number of research institutions as Microsoft Research Faculty Fellows. More than 40 academic researchers whose exceptional talent for research and innovation identifies them as emerging leaders in their fields have joined the ranks of Faculty Fellows. The selected professors are exploring cutting-edge, high-impact research that has the potential to help solve some of the most challenging problems facing society today. In this session, three of the women Faculty Fellows discuss what they are doing to change computer science research and inspire the next generation of computer scientists. Hear how their universities helped them become successful and what more is needed to grow the next generation of women to become emerging leaders in computer science. Learn about possible keys to success and what all professors, researchers, and deans in computer science can do to help women become successful computer science faculty and researchers."
-},
-{
-  "Title": "NUI Research Snapshots",
-  "Type": "Talk",
-  "Key": "NUIResearchSnapshots",
-  "Authors": ["Patrick Baudisch", "Gabe Cohn", "Gerardo Gonzalez", "Joseph LaViola"],
-  "Affiliations": ["Hasso Plattner Institute", "University of Washington", "Lancaster University", "University of Central Florida"],
-  "Abstract": "This session presents a view into Microsoft Research’s natural user interface (NUI) research portfolio by showcasing four partnerships, two in Europe and two in the United States. The presentations will highlight collaborative work on the following projects. \n\n • Recent work toward scaling multitouch at whole room scales\n\n • Research on using the human body as an antenna, exemplifying how touchless gesture interfaces could become ubiquitous\n\n • A specific application of touchless gesture interfaces in surgical settings\n\n •A pen-based prototype diagramming tool that uses constraint inference and a novel beautification algorithm to enable the drawing of precise geometric diagrams\n\nWhile just a sampling of research in NUI today, this session aims to illustrate the diversity of the field and to inspire attendees by the fascinating opportunities and challenges in this field of research."
-},
-{
-  "Title": "Malware Detection and Protection",
-  "Type": "Talk",
-  "Key": "MalwareDetectionandProtection",
-  "Authors": ["Ben Livshits", "Dawn Song"],
-  "Affiliations": ["Microsoft Research", "University of California, Berkeley"],
-  "Abstract": "Malware detection and analysis remains a rich topic of research as well as a significant challenge to consumers worldwide. This session focuses on detection and analysis as well as counter-measures to protect against malware."
-},
-{
-  "Title": "Human Computation and Crowdsourcing",
-  "Type": "Talk",
-  "Key": "HumanComputationandCrowdsourcing",
-  "Authors": ["Luis Von Ahn", "Yiling Chen", "Eric Horvitz", "Rajesh Patel"],
-  "Affiliations": ["Carnegie Mellon University", "Harvard University", "Microsoft Research", "Microsoft"],
-  "Abstract": "In recent years, human computation and crowdsourcing have emerged as an important research area in computer science. Crowdsourcing uses human intelligence to solve tasks that computers cannot easily do alone. The work in this area encompasses investigations on different applications of crowdsourcing, best practices for crowdsourcing, and formal approaches for building more efficient and reliable crowdsourcing systems. Crowdsourcing research, which could result in easy and programmatic access to human intelligence, is of interest to a wide audience from different areas of computer science. In this session, leading researchers in crowdsourcing exchange information about recent developments and best practices, and discuss opportunities for future research."
-},
-{
-  "Title": "Custom Devices for Research",
-  "Type": "Talk",
-  "Key": "CustomDevicesforResearch",
-  "Authors": ["Bill Gaver", "Albrecht Schmidt", "James Scott"],
-  "Affiliations": ["University of London - Goldsmiths", "University of Stuttgart", "Microsoft Research"],
-  "Abstract": "\"People who are really serious about software should make their own hardware\" – Alan Kay \n This session will look at the importance of custom devices for research in domains such as ubiquitous computing, human-computer interaction, and the Internet of things. Recent advances have made it increasingly possible for researchers to build complex devices easily and rapidly. By using platforms such as Microsoft .NET Gadgeteer and taking advantage of physical prototyping machines (such as 3-D printing), one can now make fully custom devices (hardware, software, and physical form factor) rapidly and without expert domain knowledge. This enables researchers to deploy and evaluate systems more easily \"in the wild.\""
-},
-{
-  "Title": "Augmented Reality: Perspectives from Industry and Academia",
-  "Type": "Talk",
-  "Key": "AugmentedRealityPerspectivesfromIndustryandAcademia",
-  "Authors": ["Mark Bolas", "Steven Feiner", "Jaron Lanier"],
-  "Affiliations": ["University of Southern California", "Columbia University", "Microsoft Research"],
-  "Abstract": "Overlaying computer-generated graphics on top of the real world to create a seamless spatially registered environment is a core vision behind augmented reality (AR) research. While AR research exploded in the ‘90s with the promise of rich interfaces with head-worn displays, much of it never materialized beyond military uses. However, in the last five years, we have finally started to see AR technologies in consumers' hands, albeit in a completely different form. smartphones equipped with cameras. Furthermore, Microsoft Kinect has opened up a whole range of AR experiences by simplifying camera-based tracking and gesturing. This session will share perspective on the current state of AR and offer insights of where AR might be going in the future."
-},
-{
-  "Title": "Election Technologies—Today and Tomorrow",
-  "Type": "Talk",
-  "Key": "ElectionTechnologiesTodayandTomorrow",
-  "Authors": ["Josh Benaloh", "Lillie Coney", "Alex Halderman"],
-  "Affiliations": ["Microsoft", "Electronic Privacy Information Centre", "University of Michigan"]
-},
-{
-  "Title": "Next-Generation Information Experiences",
-  "Type": "Panel",
-  "Key": "NextGenerationInformationExperiences",
-  "Authors": ["Marti Hearst", "Larry Heck", "David Karger", "Deborah McGuiness"],
-  "Affiliations": ["University of California, Berkeley", "Microsoft", "Massachusetts Institute of Technology", "Rensselaer Polytechnic Institute"],
-  "Abstract": "Next-generation information experiences dictate that the future embrace structured content and semantic inferences with increasingly interoperable data, services, and end-user personalization. This panel session of experts and thought leaders will explore the latest efforts in this direction and the research challenges to turn the vision into reality."
-},
-{
-  "Title": "End-User Programming for Mobile Devices",
-  "Type": "Talk",
-  "Key": "EndUserProgrammingforMobileDevices",
-  "Authors": ["Christoph Csallner", "Suresh Lodha"],
-  "Affiliations": ["University of Texas at Arlington", "University of California, Santa Cruz"],
-  "Abstract": "In 2012, we are in the middle of a technology shift. instead of using PCs and laptops, mobile devices are becoming more prevalent for most everyday computing tasks. In fact, never before in human history were incredibly powerful and versatile computing devices such as smartphones available and adopted so broadly. In this session, we will discuss whether and how end-users can program mobile computing devices for fun and to automate tasks and implications for teaching computer science in today’s classrooms. Microsoft Research created the novel application creation environment TouchDevelop, which enables end users to author programs on smartphones—without a PC. This session will compare the traditional approach of using established programming languages to write mobile applications on a PC to novel programming approaches that enable creating applications on mobile devices directly. By mining existing mobile programming environments, we can infer what kind of applications end-users want to create and what challenges they face."
-},
-{
-  "Title": "Technology Policy: Shifting Sands in Internet Governance",
-  "Type": "Talk",
-  "Key": "TechnologyPolicyShiftingSandsinInternetGovernance",
-  "Authors": ["Mary Saunders", "Sally Shipman Wentworth"],
-  "Affiliations": ["National Institute of Standards and Technology", "The Internet Society"],
-  "Abstract": "How the Internet should be governed has become a hot topic in recent months. Some say that the current model of governance is unsustainable and should be changed. Others vigorously defend the current model as the enabling ingredient for unbounded innovation. Today, governments, academics, civil society organizations, and technologists are all engaged in the discussion. One thing they all agree on. \"It is important to get it right!\" But what is right? This session will examine the landscape and prospects for the next chapter in Internet history."
-},
-{
-  "Title": "Blending of Physical and Virtual Worlds: From Research to Reality",
-  "Type": "Keynote",
-  "Key": "BlendingofPhysicalandVirtualWorldsFromResearchtoReality",
-  "Authors": ["Rick Rashid"],
-  "Affiliations": ["Microsoft Research"],
-  "Abstract": "Breaking down the barrier between the real world and the virtual world is a staple of science fiction, but technology is coming closer to actually blurring the line. Rick Rashid, Microsoft chief research officer and head of Microsoft Research, will present new, exciting hardware and software advances that are contributing to a simpler, more natural integration of the physical and virtual worlds."
-},
-{
-  "Title": "Fostering the Next Generation of Computer Scientists",
-  "Type": "Keynote",
-  "Key": "FosteringtheNextGenerationofComputerScientists",
-  "Authors": ["Harold Javid"],
-  "Affiliations": ["Microsoft Research"],
-  "Abstract": "Computing increasingly enables the introduction of new products and new ways to work together, resulting in a growing requirement for skills, knowledge, and research capabilities that are the domain of post-doctoral computer scientists. Universities are the primary catalysts for encouraging and developing a new generation of computer scientists; companies also have a role to play. This short presentation examines some Microsoft programs and discusses features that can help graduate students and early-career academics advance their research capabilities and careers."
-},
-{
-  "Title": "Big Heritage, Big Quilts, and Big Canvases",
-  "Type": "Talk",
-  "Key": "BigHeritageBigQuiltsandBigCanvases",
-  "Authors": ["Anne Balsamo", "Andries van Dam", "Ethan Watrall"],
-  "Affiliations": ["University of Southern California", "Brown University", "Michigan State University"],
-  "Abstract": "Increasingly, being able to visualize large collections of data is absolutely vital in the domain of cultural heritage—both for scholarly work and public consumption. Recent work explores novel and engaging ways to visualize and explore cultural heritage data collections. See demos of applications built on Microsoft PixelSense and tablets that demonstrate the advantages of pen and touch computing for enhancing the user experience of specific applications. These range from handwriting mathematics with pen or finger as input, to mathematical solvers, to using multitouch interaction for exploring large-format artworks in their rich context of related artworks, annotations, and guided tours. We will also explore the technological and social challenges of creating interactive exhibits around the AIDS Memorial Quilt, the largest community-created piece of folk art in the world. These applications are a beachhead on the untouched shores of big humanities research. They are what we can actually expect today and in the near future and are also first steps towards what might define an ideal user interface."
-},
-{
-  "Title": "Software Development Analytics",
-  "Type": "Talk",
-  "Key": "SoftwareDevelopmentAnalytics",
-  "Authors": ["Ahmed Hassan", "Robin Moeur", "Ranga Narasimhan", "Cameron Turner"],
-  "Affiliations": ["Queens University", "Microsoft Research", "Microsoft", "Microsoft"],
-  "Abstract": "Software development generates an inordinate amount of data. For example, check-ins, work items, and test executions are recorded in software repositories such as CVS, Subversion, GIT, and Bugzilla. Telemetry data reflects how customers experience software, which includes application and feature usage and exposes reliability. The sheer amount is impressive. for the 10,000 projects monitored by the web-page CIA.vc, every 17 seconds a commit takes place. The open-source platform SourceForge.net hosts more than 300,000 projects, and according to Github.com, 1 million people host 2.9 million GIT repositories. The bug database of the Mozilla Firefox projects now contains almost 700,000 reports, according to Ohloh.net. Microsoft has many sources of development data at similar scale. But how can this data be used to improve software projects? Software development analytics takes this data and turns it into insight to inform better development decisions. Analytics is commonly used in many businesses—notably in marketing, to better reach and understand customers. The application of analytics to software development is becoming more popular. In this session, we present successful efforts from Microsoft and academia that turn software development data into actionable insight."
-},
-{
-  "Title": "The Role of Technology in Human Trafficking",
-  "Type": "Talk",
-  "Key": "TheRoleofTechnologyinHumanTrafficking",
-  "Authors": ["danah boyd", "Eduard Hovy", "Mark Latonero", "Mary G. Leary", "Janis Wolak"],
-  "Affiliations": ["Microsoft Research", "University of Southern California", "University of Southern California", "Catholic University Law School", "University of New Hampshire"],
-  "Abstract": "Networked technologies—including the Internet, mobile phones, and social media—alter how information flows and how people communicate. There is little doubt that technology is increasingly playing a role in the practices and processes surrounding human trafficking. the illegal trade of people for commercial sexual exploitation, forced labor, and other forms of modern-day slavery. Human trafficking has many facets to it and technology’s role varies as a result. Yet, little is known about costs and benefits of technology’s role. We do not know if there are more human trafficking victims as a result of technology, nor do we know if law enforcement can identify perpetrators better as a result of the traces that they leave. We do know that technology makes many aspects of human trafficking more visible and more traceable, for better and for worse. Focusing on whether technology is good or bad misses the point; it is here to stay, and it is imperative that we understand its role. More importantly, we need to develop innovative ways of using technology to address the horrors of human trafficking. This panel will explore ways in which technologists can use data traces to help address challenges in the human trafficking arena, paying particular attention to the commercial sexual exploitation of children. We will discuss ways in which technology can help identify perpetrators or victims, empower law enforcement, and disrupt organized crime. We will also examine the complex tensions involved in balancing the need to combat child victimization with the importance of civil liberties and privacy. Finally, we will discuss the possibilities of—and need for—technical innovation that can counter human trafficking abuses."
-},
-{
-  "Title": "Metro: Microsoft’s New Design Language",
-  "Type": "Talk",
-  "Key": "MetroMicrosoftsNewDesignLanguage",
-  "Authors": ["Surya Vanka"],
-  "Affiliations": ["Microsoft"],
-  "Abstract": "The tile-based user interface (UI) first showcased for Windows Phone has become the basis of the new look and feel of the experience of most of Microsoft’s products. But Metro is more than a UI language. It is a set of design principles that have been adopted across the company. What’s the background to Metro? In this presentation, Vanka will talk about the user experience revolution at Microsoft and the emergence of Metro. He will describe why Metro represents a significant shift away from the stylistic UI approaches that are prevalent across the software industry, and will discuss implications of increased attention that Metro is receiving from the academic research community."
-},
-{
-  "Title": "The Changing Landscape of Parallel Computing – I",
-  "Type": "Talk",
-  "Key": "TheChangingLandscapeofParallelComputingI",
-  "Authors": ["Krste Asanović", "Tim Mattson", "Josep Torrellas"],
-  "Affiliations": ["University of California, Berkeley", "Intel", "University of Illinois at Urbana-Champaign"],
-  "Abstract": "For decades, the microprocessor industry improved the performance of on-chip processors by increasing the number of operations executed per CPU cycle. By 2007, it was clear that heat and power would limit further increases in clock rates. Today, it is widely accepted that performance gains can only be obtained by putting more than one processor in a single chip. Multicore parallelism represents a paradigm shift that breaks the 50-year tradition of conventional sequential programming models and software development. Knowing that research in this area would have deep implications, Microsoft and Intel launched in 2008 the Universal Parallel Computing Research Centers (UPCRC) at the University of Illinois at Urbana-Champaign (UIUC) and UC Berkeley. Through this unique collaboration, Microsoft, Intel, UIUC, and UC Berkeley have joined forces to conduct research into all aspects of parallelism at the client, including architectures, operating systems, run-time middleware, programming tools and libraries, and applications. During this session, researchers from Microsoft, Intel, UC Berkeley, and UIUC will share the outcomes of their three-year efforts and will present their insights about new directions in the changing landscape of parallel computing."
-},
-{
-  "Title": "Engaging with Microsoft Research",
-  "Type": "Talk",
-  "Key": "EngagingwithMicrosoftResearch",
-  "Abstract": "Microsoft Research has numerous programs for supporting students and academics. During this breakout session, the people who run the programs—from internships to faculty fellowships, innovation funds to woman’s scholarships—will be on hand to discuss how the programs work and how you can participate."
-},
-{
-  "Title": "Social Search",
-  "Type": "Panel",
-  "Key": "SocialSearch",
-  "Authors": ["Lili Cheng", "Cliff Lampe", "Meredith Ringel Morris"],
-  "Affiliations": ["Microsoft Research", "University of Michigan", "Microsoft Research"],
-  "Abstract": "Social search is an emerging research area that explores how social interactions and social data can enhance existing information-seeking experiences, as well as enable new information retrieval scenarios. This session will showcase different models of social search, including 1) the use of social data to augment search, 2) social data as new information to be searched, and 3) social interaction and collaboration as part of the search process."
-},
-{
-  "Title": "Functional Programming in the Wild",
-  "Type": "Talk",
-  "Key": "FunctionalProgrammingintheWild",
-  "Authors": ["Manuel Chakravarty", "Antonio Cisternino", "Don Syme"],
-  "Affiliations": ["University of New South Wales", "University of Pisa", "Microsoft Research"],
-  "Abstract": "This session highlights some of the latest developments and applications of functional programming. Information-rich programming is changing how we think about language design, with F# type providers bringing information to developers over the web. Discover how Haskell is being extended into parallel and cloud computing. And learn how functional programming is being used in the wild, from bioengineering and chemistry to engineering and finance. This session will show how functional programming can transform business, science, and engineering in the real world, for today and tomorrow."
-},
-{
-  "Title": "ChronoZoom: Bridging the Gap Between the Humanities and Sciences",
-  "Type": "Talk",
-  "Key": "ChronoZoomBridgingtheGapBetweentheHumanitiesandSciences",
-  "Authors": ["Walter Alvarez", "Sergey Berezin"],
-  "Affiliations": ["University of California, Berkeley", "Moscow State University"],
-  "Abstract": "Imagine a world where scientists, researchers, students, and teachers collaborate to share historical information through images, videos, documents, charts, interactive tours, and more. Imagine a world where leading academics publish their findings to the world in a manner that can easily be accessed and compared. ChronoZoom is an open-source community project dedicated to visualizing the history of everything and supporting the emerging field of Big History. Big History is the attempt to understand, in a unified, interdisciplinary way, the history of the cosmos, Earth, life, and humanity. ChronoZoom seeks to bridge the gap between the humanities and sciences by enabling all kinds of information to be visually presented and organized. In this session, learn about the challenges of teaching a course on Big History, and what it is like to work on a multi-disciplinary project with humanistic, scientific, and computer science researchers. Understand what ChronoZoom hopes to accomplish with the research community and how computer scientists can better work with scientists and humanists. Get a behind-the-scenes look at how we brought ChronoZoom to life through HTML5 and Windows Azure. We will address the various visualization challenges, data management issues, and user interface questions solved in this project and the complex algorithms created. We will also discuss what we hope to accomplish in the next phases of ChronoZoom development and how other computer science researchers can work with the team."
-},
-{
-  "Title": "The Changing Landscape of Parallel Computing – II",
-  "Type": "Talk",
-  "Key": "TheChangingLandscapeofParallelComputingII",
-  "Authors": ["James Demmel", "David Padua", "David Patterson", "Burton Smith"],
-  "Affiliations": ["University of California, Berkeley", "University of Illinois at Urbana-Champaign", "University of California, Berkeley", "Microsoft"],
-  "Abstract": "In this session, Microsoft Technical Fellow Burton Smith will present \"Operating System Architecture for Parallel and Distributed Computing.\" In addition, a panel will discuss the educational impact of the Universal Parallel Computing Research Centers (UPCRC) and deliver the following presentations."
-},
-{
-  "Title": "Rivers of Ice: Vanishing Glaciers of the Greater Himalaya",
-  "Type": "Keynote",
-  "Key": "RiversofIceVanishingGlaciersoftheGreaterHimalaya",
-  "Authors": ["David Breashears"],
-  "Affiliations": ["GlacierWorks"],
-  "Abstract": "The Himalaya Mountains are home to the world’s most magnificent peaks and thousands of high-altitude glaciers. These important glaciers supply crucial seasonal flows to rivers across Asia, yet many are disappearing at an increasing rate. In this session, mountaineer and photographer David Breashears presents his recent photographs of the world’s least studied glaciers. By comparing them to archival photographs taken over the past century by the world’s greatest alpine photographers, the alarming loss of ice is starkly revealed. \n \nSince 2007, GlacierWorks has embarked upon 11 expeditions to the greater Himalayas. Breashears will describe the increasingly sophisticated imaging technology that the GlacierWorks team has employed to capture high-resolution photography of a wide range of glaciers and their surrounding geography—resulting in terabytes of high-resolution images from hundreds of strategic locations throughout the greater Himalayan region. These images, along with terabytes of images captured during a series of helicopter flights around Mount Everest, are being built into the highest resolution 3-D point cloud ever created of the Himalayan region. \n \nGlacierWorks’ extensive imagery, along with archival media, is currently being incorporated into an immersive Internet experience, which uses Rich Interactive Narratives technology from Microsoft Research. GlacierWorks hopes, through interactive and engaging educational experiences such as this, to interest students in gaining a better understanding of climate change’s impact on the glaciers and river systems of Asia."
-}
-	],
-	"Sessions": [
-{
-  "Title": "Continental Breakfast",
-  "ShortTitle": "Breakfast",
-  "Type": "Meal",
-  "ShortType": "Meal",
-  "Key": "ContinentalBreakfast",
-  "Day": "7/16/2012",
-  "Time": "8:00 am - 9:00 am"
-},
-{
-  "Title": "Welcome and Introduction",
-  "ShortTitle": "Welcome",
-  "Type": "Plenary Session",
-  "ShortType": "Plenary Session",
-  "Key": "welcome",
-  "Day": "7/16/2012",
-  "Time": "9:00 am - 9:30 am",
-  "Location": "Kodiak",
-  "Items": ["WelcomeandIntroduction"]
-},
-{
-  "Title": "Predictions, Decisions, and Intelligence in the Open World",
-  "ShortTitle": "Predictions and Decisions",
-  "Type": "Keynote",
-  "ShortType": "Keynote",
-  "Key": "keynote-horvitz",
-  "Day": "7/16/2012",
-  "Time": "9:30 am - 10:30 am",
-  "Location": "Kodiak",
-  "Items": ["PredictionsDecisionsandIntelligenceintheOpenWorld"]
-},
-{
-  "Title": "Social Media: Analysis and Application",
-  "ShortTitle": "Social Media",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "social-media",
-  "Day": "7/16/2012",
-  "Time": "10:45 am - 12:00 pm",
-  "Location": "Cascade",
-  "Items": ["SocialMediaAnalysisandApplications"],
-  "Chair": "Scott Counts"
-},
-{
-  "Title": "Internet Service Security",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "iss",
-  "Day": "7/16/2012",
-  "Time": "10:45 am - 12:00 pm",
-  "Location": "St. Helens",
-  "Items": ["InternetServiceSecurity"],
-  "Chair": "Yinglian Xie"
-},
-{
-  "Title": "Unlocking the Potential of Digital Home Infrastructure",
-  "ShortTitle": "Digital Home",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "digital-home",
-  "Day": "7/16/2012",
-  "Time": "10:45 am - 12:00 pm",
-  "Location": "Rainier",
-  "Items": ["UnlockingthePotentialofDigitalHomeInfrastructure"],
-  "Chair": "A.J. Brush"
-},
-{
-  "Title": "Faculty Fellows Inspiring the Next Generation of Computer Scientists",
-  "ShortTitle": "Faculty Fellows",
-  "Type": "Panel",
-  "ShortType": "Panel",
-  "Key": "faculty-fellows",
-  "Day": "7/16/2012",
-  "Time": "10:45 am - 12:00 pm",
-  "Location": "Baker",
-  "Items": ["FacultyFellowsInspiringtheNextGenerationofComputerScientists"],
-  "Chairs": ["Rane Johnson", "Lucy Sanders"]
-},
-{
-  "Title": "Lunch",
-  "Type": "Meal",
-  "ShortType": "Meal",
-  "Key": "Lunch",
-  "Day": "7/16/2012",
-  "Time": "12:00 pm - 1:00 pm"
-},
-{
-  "Title": "NUI Research Snapshots",
-  "ShortTitle": "NUI Research",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "nui-research",
-  "Day": "7/16/2012",
-  "Time": "1:00 pm - 2:30 pm",
-  "Location": "Cascade",
-  "Items": ["NUIResearchSnapshots"],
-  "Chair": "Stewart Tansley"
-},
-{
-  "Title": "Malware Detection and Protection",
-  "ShortTitle": "Malware",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "malware",
-  "Day": "7/16/2012",
-  "Time": "1:00 pm - 2:30 pm",
-  "Location": "St. Helens",
-  "Items": ["MalwareDetectionandProtection"],
-  "Chair": "Patrice Godefroid"
-},
-{
-  "Title": "Human Computation and Crowdsourcing",
-  "ShortTitle": "Crowdsourcing",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "crowdsourcing",
-  "Day": "7/16/2012",
-  "Time": "1:00 pm - 2:30 pm",
-  "Location": "Rainier",
-  "Items": ["HumanComputationandCrowdsourcing"],
-  "Chair": "Ece Kamar"
-},
-{
-  "Title": "Custom Devices for Research",
-  "ShortTitle": "Custom Devices",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "devices",
-  "Day": "7/16/2012",
-  "Time": "1:00 pm - 2:30 pm",
-  "Location": "Baker",
-  "Items": ["CustomDevicesforResearch"],
-  "Chair": "Scarlet Schwiderski-Grosche"
-},
-{
-  "Title": "Break",
-  "Type": "Break",
-  "ShortType": "Break",
-  "Key": "Break",
-  "Day": "7/16/2012",
-  "Time": "2:30 pm - 2:45 pm"
-},
-{
-  "Title": "Augmented Reality: Perspectives from Industry and Academia",
-  "ShortTitle": "Augmented Reality",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "augmented-reality",
-  "Day": "7/16/2012",
-  "Time": "2:45 pm - 4:15 pm",
-  "Location": "Cascade",
-  "Items": ["AugmentedRealityPerspectivesfromIndustryandAcademia"],
-  "Chair": "Hrvoje Benko"
-},
-{
-  "Title": "Election Technologies—Today and Tomorrow",
-  "ShortTitle": "Election Technologies",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "election",
-  "Day": "7/16/2012",
-  "Time": "2:45 pm - 4:15 pm",
-  "Location": "St. Helens",
-  "Items": ["ElectionTechnologiesTodayandTomorrow"],
-  "Chair": "Josh Benaloh"
-},
-{
-  "Title": "Next-Generation Information Experiences",
-  "ShortTitle": "NG Information Experiences",
-  "Type": "Panel",
-  "ShortType": "Panel",
-  "Key": "information-exp",
-  "Day": "7/16/2012",
-  "Time": "2:45 pm - 4:15 pm",
-  "Location": "Rainier",
-  "Items": ["NextGenerationInformationExperiences"],
-  "Chair": "Evelyne Viegas"
-},
-{
-  "Title": "End-User Programming for Mobile Devices",
-  "ShortTitle": "Programming for Mobile",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "programming-mobile",
-  "Day": "7/16/2012",
-  "Time": "2:45 pm - 4:15 pm",
-  "Location": "Baker",
-  "Items": ["EndUserProgrammingforMobileDevices"],
-  "Chair": "Nikolai Tillman"
-},
-{
-  "Title": "Technology Policy: Shifting Sands in Internet Governance",
-  "ShortTitle": "Technology Policy",
-  "Type": "Plenary Session",
-  "ShortType": "Plenary Session",
-  "Key": "tech-policy",
-  "Day": "7/16/2012",
-  "Time": "4:15 pm - 5:30 pm",
-  "Location": "Kodiak",
-  "Items": ["TechnologyPolicyShiftingSandsinInternetGovernance"],
-  "Chair": "Paul Mitchell"
-},
-{
-  "Title": "Argosy Cruise through the Hiram M. Chittenden Locks at Elliott Bay",
-  "Type": "Dinner Event",
-  "ShortType": "Dinner Event",
-  "Key": "argosy",
-  "Day": "7/16/2012",
-  "Time": "6:00 pm - 9:00 pm",
-  "Location": "Kirkland"
-},
-{
-  "Title": "Continental Breakfast",
-  "ShortTitle": "Breakfast",
-  "Type": "Meal",
-  "ShortType": "Meal",
-  "Key": "ContinentalBreakfast-1",
-  "Day": "7/17/2012",
-  "Time": "8:00 am - 9:00 am"
-},
-{
-  "Title": "Keynote",
-  "Type": "Plenary Session",
-  "ShortType": "Plenary Session",
-  "Key": "plenary2",
-  "Day": "7/17/2012",
-  "Time": "9:00 am - 10:30 am",
-  "Location": "Kodiak",
-  "Items": ["BlendingofPhysicalandVirtualWorldsFromResearchtoReality", "FosteringtheNextGenerationofComputerScientists"]
-},
-{
-  "Title": "DemoFest",
-  "Type": "Demos",
-  "ShortType": "Demos",
-  "Key": "demofest",
-  "Day": "7/17/2012",
-  "Time": "10:30 am - 11:30 am",
-  "Location": "McKinley"
-},
-{
-  "Title": "Lunch",
-  "Type": "Meal",
-  "ShortType": "Meal",
-  "Key": "Lunch-1",
-  "Day": "7/17/2012",
-  "Time": "11:30 am - 12:30 pm"
-},
-{
-  "Title": "Big Heritage, Big Quilts, Big Canvas",
-  "ShortTitle": "Big Heritage",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "big-heritage",
-  "Day": "7/17/2012",
-  "Time": "12:30 pm - 2:00 pm",
-  "Location": "Cascade",
-  "Items": ["BigHeritageBigQuiltsandBigCanvases"],
-  "Chair": "Donald Brinkman"
-},
-{
-  "Title": "Software Development Analytics",
-  "ShortTitle": "Software Analytics",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "analytics",
-  "Day": "7/17/2012",
-  "Time": "12:30 pm - 2:00 pm",
-  "Location": "St. Helens",
-  "Items": ["SoftwareDevelopmentAnalytics"],
-  "Chairs": ["Christian Bird", "Thomas Zimmermann"]
-},
-{
-  "Title": "The Role of Technology in Human Trafficking",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "trafficking",
-  "Day": "7/17/2012",
-  "Time": "12:30 pm - 2:00 pm",
-  "Location": "Rainier",
-  "Items": ["TheRoleofTechnologyinHumanTrafficking"],
-  "Chair": "danah boyd"
-},
-{
-  "Title": "Metro: Microsoft's New Design Language",
-  "ShortTitle": "Metro",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "metro",
-  "Day": "7/17/2012",
-  "Time": "12:30 pm - 2:00 pm",
-  "Location": "Lassen",
-  "Items": ["MetroMicrosoftsNewDesignLanguage"],
-  "Chair": "Stewart Tansley"
-},
-{
-  "Title": "The Changing Landscape of Parallel Computing - I",
-  "ShortTitle": "Parallel Computing 1",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "parallel-1",
-  "Day": "7/17/2012",
-  "Time": "12:30 pm - 2:00 pm",
-  "Location": "Baker",
-  "Items": ["TheChangingLandscapeofParallelComputingI"],
-  "Chair": "Juan Vargas"
-},
-{
-  "Title": "Engaging with Microsoft Research",
-  "Type": "Information Session",
-  "ShortType": "Information Session",
-  "Key": "engaging",
-  "Day": "7/17/2012",
-  "Time": "2:00 pm - 2:45 pm",
-  "Location": "Hood",
-  "Items": ["EngagingwithMicrosoftResearch"]
-},
-{
-  "Title": "Social Search",
-  "Type": "Panel",
-  "ShortType": "Panel",
-  "Key": "social-search",
-  "Day": "7/17/2012",
-  "Time": "2:45 pm - 4:30 pm",
-  "Location": "Cascade",
-  "Items": ["SocialSearch"],
-  "Chair": "Jaime Teevan"
-},
-{
-  "Title": "Functional Programming in the Wild",
-  "ShortTitle": "Functional Programming",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "functional",
-  "Day": "7/17/2012",
-  "Time": "2:45 pm - 4:30 pm",
-  "Location": "St. Helens",
-  "Items": ["FunctionalProgrammingintheWild"],
-  "Chair": "Kenji Takeda"
-},
-{
-  "Title": "ChronoZoom: Bridging the Gap Between the Humanities and Sciences",
-  "ShortTitle": "ChronoZoom",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "chronozoom",
-  "Day": "7/17/2012",
-  "Time": "2:45 pm - 4:30 pm",
-  "Location": "Rainier",
-  "Items": ["ChronoZoomBridgingtheGapBetweentheHumanitiesandSciences"],
-  "Chair": "Rane Johnson"
-},
-{
-  "Title": "The Changing Landscape of Parallel Computing - II",
-  "ShortTitle": "Parallel Computing 2",
-  "Type": "Breakout Session",
-  "ShortType": "Breakout Session",
-  "Key": "parallel-2",
-  "Day": "7/17/2012",
-  "Time": "2:45 pm - 4:30 pm",
-  "Location": "Baker",
-  "Items": ["TheChangingLandscapeofParallelComputingII"],
-  "Chair": "Juan Vargas"
-},
-{
-  "Title": "Closing Session",
-  "Type": "Plenary Session",
-  "ShortType": "Plenary Session",
-  "Key": "closing",
-  "Day": "7/17/2012",
-  "Time": "4:30 pm - 5:30 pm",
-  "Location": "Kodiak",
-  "Items": ["RiversofIceVanishingGlaciersoftheGreaterHimalaya"]
-},
-{
-  "Title": "Networking Reception",
-  "Type": "Meal",
-  "ShortType": "Meal",
-  "Key": "NetworkingReception",
-  "Day": "7/17/2012",
-  "Time": "5:30 pm - 7:00 pm"
-}
-	],
-	"People": [
-{
-    "Name": "A.J. Brush",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Ahmed Hassan",
-    "Affiliation": "Queens University"
-},
-{
-    "Name": "Albrecht Schmidt",
-    "Affiliation": "University of Stuttgart"
-},
-{
-    "Name": "Alex Halderman",
-    "Affiliation": "University of Michigan"
-},
-{
-    "Name": "Andries van Dam",
-    "Affiliation": "Brown University"
-},
-{
-    "Name": "Anne Balsamo",
-    "Affiliation": "University of Southern California"
-},
-{
-    "Name": "Antonio Cisternino",
-    "Affiliation": "University of Pisa"
-},
-{
-    "Name": "Ben Livshits",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Bill Gaver",
-    "Affiliation": "University of London - Goldsmiths"
-},
-{
-    "Name": "Burton Smith",
-    "Affiliation": "Microsoft"
-},
-{
-    "Name": "Cameron Turner",
-    "Affiliation": "Microsoft"
-},
-{
-    "Name": "Christian Bird",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Christoph Csallner",
-    "Affiliation": "University of Texas at Arlington"
-},
-{
-    "Name": "Cliff Lampe",
-    "Affiliation": "University of Michigan"
-},
-{
-    "Name": "danah boyd",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "David Breashears",
-    "Affiliation": "Glacierworks"
-},
-{
-    "Name": "David Karger",
-    "Affiliation": "Massachusetts Institute of Technology"
-},
-{
-    "Name": "David Padua",
-    "Affiliation": "University of Illinois at Urbana-Champaign"
-},
-{
-    "Name": "David Patterson",
-    "Affiliation": "University of California, Berkeley"
-},
-{
-    "Name": "Dawn Song",
-    "Affiliation": "University of California, Berkeley"
-},
-{
-    "Name": "Deborah McGuiness",
-    "Affiliation": "Rensselaer Polytechnic Institute"
-},
-{
-    "Name": "Don Syme",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Donald Brinkman",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Ece Kamar",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Eduard Hovy",
-    "Affiliation": "University of Southern California"
-},
-{
-    "Name": "Emma Brunskill",
-    "Affiliation": "Carnegie Mellon University"
-},
-{
-    "Name": "Eric Horvitz",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Ethan Watrall",
-    "Affiliation": "Michigan State University"
-},
-{
-    "Name": "Evelyne Viegas",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Gabe Cohn",
-    "Affiliation": "University of Washington"
-},
-{
-    "Name": "George Demiris",
-    "Affiliation": "University of Washington"
-},
-{
-    "Name": "Gerardo Gonzalez",
-    "Affiliation": "Lancaster University"
-},
-{
-    "Name": "Harold Javid",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Hrvoje Benko",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Jaime Teevan",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "James Demmel",
-    "Affiliation": "University of California, Berkeley"
-},
-{
-    "Name": "James Scott",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Jamie Pennebaker",
-    "Affiliation": "University of Texas"
-},
-{
-    "Name": "Janis Wolak",
-    "Affiliation": "University of New Hampshire"
-},
-{
-    "Name": "Jaron Lanier",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Josep Torrellas",
-    "Affiliation": "University of Illinois at Urbana-Champaign"
-},
-{
-    "Name": "Joseph LaViola",
-    "Affiliation": "University of Central Florida"
-},
-{
-    "Name": "Josh Benaloh",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Juan Vargas",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Kenji Takeda",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Krste Asanović",
-    "Affiliation": "University of California, Berkeley"
-},
-{
-    "Name": "Kuansan Wang",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Larry Heck",
-    "Affiliation": "Microsoft"
-},
-{
-    "Name": "Lili Cheng",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Lillie Coney",
-    "Affiliation": "Electronic Privacy Information Centre"
-},
-{
-    "Name": "Lucy Sanders",
-    "Affiliation": "National Center for Women Information Technology"
-},
-{
-    "Name": "Luis Von Ahn",
-    "Affiliation": "Carnegie Mellon University"
-},
-{
-    "Name": "Magdalena Balazinska",
-    "Affiliation": "University of Washington"
-},
-{
-    "Name": "Manuel Chakravarty",
-    "Affiliation": "University of New South Wales"
-},
-{
-    "Name": "Mark Bolas",
-    "Affiliation": "University of Southern California"
-},
-{
-    "Name": "Mark Latonero",
-    "Affiliation": "University of Southern California"
-},
-{
-    "Name": "Marti Hearst",
-    "Affiliation": "University of California, Berkeley"
-},
-{
-    "Name": "Mary G. Leary",
-    "Affiliation": "Catholic University Law School"
-},
-{
-    "Name": "Mary Saunders",
-    "Affiliation": "National Institute of Standards and Technology"
-},
-{
-    "Name": "Meredith Ringel Morris",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Michael Reiter",
-    "Affiliation": "University of North Carolina"
-},
-{
-    "Name": "Miriah Meyer",
-    "Affiliation": "University of Utah"
-},
-{
-    "Name": "Nikolai Tillman",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Nilanjan Banerjee",
-    "Affiliation": "University of Arkansas"
-},
-{
-    "Name": "Patrice Godefroid",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Patrick Baudisch",
-    "Affiliation": "Hasso Plattner Institute"
-},
-{
-    "Name": "Paul Mitchell",
-    "Affiliation": "Microsoft"
-},
-{
-    "Name": "Rajesh Patel",
-    "Affiliation": "Microsoft"
-},
-{
-    "Name": "Rane Johnson",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Ranga Narasimhan",
-    "Affiliation": "Microsoft"
-},
-{
-    "Name": "Ratul Mahajan",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Rick Rashid",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Robert Sim",
-    "Affiliation": "Microsoft"
-},
-{
-    "Name": "Robin Moeur",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Sally Shipman Wentworth",
-    "Affiliation": "The Internet Society"
-},
-{
-    "Name": "Scarlet Schwiderski-Grosche",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Scott Counts",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Sergey Berezin",
-    "Affiliation": "Moscow State University"
-},
-{
-    "Name": "Sharad Goel",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Steven Feiner",
-    "Affiliation": "Columbia University"
-},
-{
-    "Name": "Stewart Tansley",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Suresh Lodha",
-    "Affiliation": "University of California, Santa Cruz"
-},
-{
-    "Name": "Surya Vanka",
-    "Affiliation": "Microsoft"
-},
-{
-    "Name": "Thomas Zimmermann",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Tim Mattson",
-    "Affiliation": "Intel"
-},
-{
-    "Name": "Tony Hey",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Walter Alvarez",
-    "Affiliation": "University of California, Berkeley"
-},
-{
-    "Name": "Wei Wang",
-    "Affiliation": "University of North Carolina"
-},
-{
-    "Name": "XioaFeng Wang",
-    "Affiliation": "Indiana University"
-},
-{
-    "Name": "Yiling Chen",
-    "Affiliation": "Harvard University"
-},
-{
-    "Name": "Yinglian Xie",
-    "Affiliation": "Microsoft Research"
-},
-{
-    "Name": "Zeynep Tufekci",
-    "Affiliation": "University of North Carolina"
-}
-	]
+    "Event": "Faculty Summit 2012",
+    "Name": "Faculty Summit 2012",
+    "DataRevision": 2,
+    "VenueInfo": {
+        "Name": "Microsoft Conference Center",
+        "GPS": {
+            "Latitude": 47.642911,
+            "Longitude": -122.124968
+        }
+    },
+    "TwitterKeywords": "FacSumm",
+    "Items": [
+        {
+            "Title": "Welcome and Introduction",
+            "Type": "Talk",
+            "Key": "WelcomeandIntroduction",
+            "Authors": [
+                "Tony Hey"
+            ],
+            "Affiliations": [
+                "Microsoft Research"
+            ],
+            "Abstract": "In the 13th year of the Microsoft Research Faculty Summit, we seek to share insights and create an open discussion on two broad themes. how computing is blending physical and virtual reality, and generating new insights from big data. Breakout sessions will include such diverse topics as the potential of the digital home and natural user interfaces, harnessing the power of data for analysis and insights, algorithms managing election data and detecting malware, and the changing landscape of parallel computing. Tony Hey opens the event with an overview of this year&#8217;s program."
+        },
+        {
+            "Title": "Predictions, Decisions, and Intelligence in the Open World",
+            "Type": "Keynote",
+            "Key": "PredictionsDecisionsandIntelligenceintheOpenWorld",
+            "Authors": [
+                "Eric Horvitz"
+            ],
+            "Affiliations": [
+                "Microsoft Research"
+            ],
+            "Abstract": "Representations of probability and utility lie at the heart of a two-decade rolling revolution in machine learning and intelligence. A confluence of advances has led to an inflection in our ability to collect, store, and harness large amounts of data for generating insights and guiding decision making in the open world. Beyond study and refinement of principles, fielding real-world systems is critical for testing the sufficiency of algorithms and implications of assumptions&#8212;and exploring the human dimension of computational solutions and services. Horvitz will discuss efforts on learning and inference, highlighting key ideas in the context of projects in transportation, health care, and citizen science. Next, he will describe the composition of integrative solutions that draw upon a symphony of skills and that operate over extended periods of time."
+        },
+        {
+            "Title": "Social Media: Analysis and Applications",
+            "Type": "Talk",
+            "Key": "SocialMediaAnalysisandApplications",
+            "Authors": [
+                "Sharad Goel",
+                "Jamie Pennebaker",
+                "Zeynep Tufekci"
+            ],
+            "Affiliations": [
+                "Microsoft Research",
+                "University of Texas",
+                "University of North Carolina"
+            ],
+            "Abstract": "This session addresses the study and use of social media. Social media have massively democratized the production and distribution of information, and as such are impacting virtually every aspect of our world, from politics and the economy to news and even crisis management. For scientists who want to study this phenomenon, social media represent a body of information that is real-time, largely text-based, semi-structured, highly diverse, and embedded in social structures. Thus, social media are of interest to a tremendous range of scientists, including ethnographers, sociologists, computer scientists, and computational linguists. This session will focus on techniques, application areas, and research opportunities in the social media domain."
+        },
+        {
+            "Title": "Internet Service Security",
+            "Type": "Talk",
+            "Key": "InternetServiceSecurity",
+            "Authors": [
+                "Michael Reiter",
+                "Robert Sim",
+                "XioaFeng Wang"
+            ],
+            "Affiliations": [
+                "University of North Carolina",
+                "Microsoft",
+                "Indiana University"
+            ],
+            "Abstract": "Due to the increasing trend of moving user data and applications to the cloud, Internet service security is more critical than ever to the end user and large-scale services. This session examines various threats that target online services, ranging from user creation and hijacking attacks to those that abuse web and online advertising infrastructure, as well as sophisticated side-channel attacks in cloud-computing environments. We also discuss new directions and opportunities for attack detection and defense."
+        },
+        {
+            "Title": "Unlocking the Potential of Digital Home Infrastructure",
+            "Type": "Talk",
+            "Key": "UnlockingthePotentialofDigitalHomeInfrastructure",
+            "Authors": [
+                "Nilanjan Banerjee",
+                "George Demiris",
+                "Ratul Mahajan"
+            ],
+            "Affiliations": [
+                "University of Arkansas",
+                "University of Washington",
+                "Microsoft Research"
+            ],
+            "Abstract": "Homes contain an ever-increasing number of new devices and sensors, such as set-top boxes, game consoles, wireless routers, home automation devices, tablets, smartphones, and security cameras. The heterogeneity and complexity of technical innovations frustrate even technically savvy users and make it difficult for the home-computing infrastructure to meet its full potential. Join researchers from Microsoft Research and the academic community as they discuss technical challenges and research approaches for novel sensing in homes, as well as how to simplify the management and deployment of interesting new applications and devices in homes."
+        },
+        {
+            "Title": "Faculty Fellows Inspiring the Next Generation of Computer Scientists",
+            "Type": "Panel",
+            "Key": "FacultyFellowsInspiringtheNextGenerationofComputerScientists",
+            "Authors": [
+                "Magdalena Balazinska",
+                "Emma Brunskill",
+                "Miriah Meyer",
+                "Wei Wang"
+            ],
+            "Affiliations": [
+                "University of Washington",
+                "Carnegie Mellon University",
+                "University of Utah",
+                "University of North Carolina"
+            ],
+            "Abstract": "Microsoft Research has recognized innovative, promising new faculty members from a number of research institutions as Microsoft Research Faculty Fellows. More than 40 academic researchers whose exceptional talent for research and innovation identifies them as emerging leaders in their fields have joined the ranks of Faculty Fellows. The selected professors are exploring cutting-edge, high-impact research that has the potential to help solve some of the most challenging problems facing society today. In this session, three of the women Faculty Fellows discuss what they are doing to change computer science research and inspire the next generation of computer scientists. Hear how their universities helped them become successful and what more is needed to grow the next generation of women to become emerging leaders in computer science. Learn about possible keys to success and what all professors, researchers, and deans in computer science can do to help women become successful computer science faculty and researchers."
+        },
+        {
+            "Title": "NUI Research Snapshots",
+            "Type": "Talk",
+            "Key": "NUIResearchSnapshots",
+            "Authors": [
+                "Patrick Baudisch",
+                "Gabe Cohn",
+                "Gerardo Gonzalez",
+                "Joseph LaViola"
+            ],
+            "Affiliations": [
+                "Hasso Plattner Institute",
+                "University of Washington",
+                "Lancaster University",
+                "University of Central Florida"
+            ],
+            "Abstract": "This session presents a view into Microsoft Research&#8217;s natural user interface (NUI) research portfolio by showcasing four partnerships, two in Europe and two in the United States. The presentations will highlight collaborative work on the following projects. \n\n &#8226; Recent work toward scaling multitouch at whole room scales\n\n &#8226; Research on using the human body as an antenna, exemplifying how touchless gesture interfaces could become ubiquitous\n\n &#8226; A specific application of touchless gesture interfaces in surgical settings\n\n &#8226;A pen-based prototype diagramming tool that uses constraint inference and a novel beautification algorithm to enable the drawing of precise geometric diagrams\n\nWhile just a sampling of research in NUI today, this session aims to illustrate the diversity of the field and to inspire attendees by the fascinating opportunities and challenges in this field of research."
+        },
+        {
+            "Title": "Malware Detection and Protection",
+            "Type": "Talk",
+            "Key": "MalwareDetectionandProtection",
+            "Authors": [
+                "Ben Livshits",
+                "Dawn Song"
+            ],
+            "Affiliations": [
+                "Microsoft Research",
+                "University of California, Berkeley"
+            ],
+            "Abstract": "Malware detection and analysis remains a rich topic of research as well as a significant challenge to consumers worldwide. This session focuses on detection and analysis as well as counter-measures to protect against malware."
+        },
+        {
+            "Title": "Human Computation and Crowdsourcing",
+            "Type": "Talk",
+            "Key": "HumanComputationandCrowdsourcing",
+            "Authors": [
+                "Luis Von Ahn",
+                "Yiling Chen",
+                "Eric Horvitz",
+                "Rajesh Patel"
+            ],
+            "Affiliations": [
+                "Carnegie Mellon University",
+                "Harvard University",
+                "Microsoft Research",
+                "Microsoft"
+            ],
+            "Abstract": "In recent years, human computation and crowdsourcing have emerged as an important research area in computer science. Crowdsourcing uses human intelligence to solve tasks that computers cannot easily do alone. The work in this area encompasses investigations on different applications of crowdsourcing, best practices for crowdsourcing, and formal approaches for building more efficient and reliable crowdsourcing systems. Crowdsourcing research, which could result in easy and programmatic access to human intelligence, is of interest to a wide audience from different areas of computer science. In this session, leading researchers in crowdsourcing exchange information about recent developments and best practices, and discuss opportunities for future research."
+        },
+        {
+            "Title": "Custom Devices for Research",
+            "Type": "Talk",
+            "Key": "CustomDevicesforResearch",
+            "Authors": [
+                "Bill Gaver",
+                "Albrecht Schmidt",
+                "James Scott"
+            ],
+            "Affiliations": [
+                "University of London - Goldsmiths",
+                "University of Stuttgart",
+                "Microsoft Research"
+            ],
+            "Abstract": "\"People who are really serious about software should make their own hardware\" &#8211; Alan Kay \n This session will look at the importance of custom devices for research in domains such as ubiquitous computing, human-computer interaction, and the Internet of things. Recent advances have made it increasingly possible for researchers to build complex devices easily and rapidly. By using platforms such as Microsoft .NET Gadgeteer and taking advantage of physical prototyping machines (such as 3-D printing), one can now make fully custom devices (hardware, software, and physical form factor) rapidly and without expert domain knowledge. This enables researchers to deploy and evaluate systems more easily \"in the wild.\""
+        },
+        {
+            "Title": "Augmented Reality: Perspectives from Industry and Academia",
+            "Type": "Talk",
+            "Key": "AugmentedRealityPerspectivesfromIndustryandAcademia",
+            "Authors": [
+                "Mark Bolas",
+                "Steven Feiner",
+                "Jaron Lanier"
+            ],
+            "Affiliations": [
+                "University of Southern California",
+                "Columbia University",
+                "Microsoft Research"
+            ],
+            "Abstract": "Overlaying computer-generated graphics on top of the real world to create a seamless spatially registered environment is a core vision behind augmented reality (AR) research. While AR research exploded in the &#8216;90s with the promise of rich interfaces with head-worn displays, much of it never materialized beyond military uses. However, in the last five years, we have finally started to see AR technologies in consumers' hands, albeit in a completely different form. smartphones equipped with cameras. Furthermore, Microsoft Kinect has opened up a whole range of AR experiences by simplifying camera-based tracking and gesturing. This session will share perspective on the current state of AR and offer insights of where AR might be going in the future."
+        },
+        {
+            "Title": "Election Technologies&#8212;Today and Tomorrow",
+            "Type": "Talk",
+            "Key": "ElectionTechnologiesTodayandTomorrow",
+            "Authors": [
+                "Josh Benaloh",
+                "Lillie Coney",
+                "Alex Halderman"
+            ],
+            "Affiliations": [
+                "Microsoft",
+                "Electronic Privacy Information Centre",
+                "University of Michigan"
+            ]
+        },
+        {
+            "Title": "Next-Generation Information Experiences",
+            "Type": "Panel",
+            "Key": "NextGenerationInformationExperiences",
+            "Authors": [
+                "Marti Hearst",
+                "Larry Heck",
+                "David Karger",
+                "Deborah McGuiness"
+            ],
+            "Affiliations": [
+                "University of California, Berkeley",
+                "Microsoft",
+                "Massachusetts Institute of Technology",
+                "Rensselaer Polytechnic Institute"
+            ],
+            "Abstract": "Next-generation information experiences dictate that the future embrace structured content and semantic inferences with increasingly interoperable data, services, and end-user personalization. This panel session of experts and thought leaders will explore the latest efforts in this direction and the research challenges to turn the vision into reality."
+        },
+        {
+            "Title": "End-User Programming for Mobile Devices",
+            "Type": "Talk",
+            "Key": "EndUserProgrammingforMobileDevices",
+            "Authors": [
+                "Christoph Csallner",
+                "Suresh Lodha"
+            ],
+            "Affiliations": [
+                "University of Texas at Arlington",
+                "University of California, Santa Cruz"
+            ],
+            "Abstract": "In 2012, we are in the middle of a technology shift. instead of using PCs and laptops, mobile devices are becoming more prevalent for most everyday computing tasks. In fact, never before in human history were incredibly powerful and versatile computing devices such as smartphones available and adopted so broadly. In this session, we will discuss whether and how end-users can program mobile computing devices for fun and to automate tasks and implications for teaching computer science in today&#8217;s classrooms. Microsoft Research created the novel application creation environment TouchDevelop, which enables end users to author programs on smartphones&#8212;without a PC. This session will compare the traditional approach of using established programming languages to write mobile applications on a PC to novel programming approaches that enable creating applications on mobile devices directly. By mining existing mobile programming environments, we can infer what kind of applications end-users want to create and what challenges they face."
+        },
+        {
+            "Title": "Technology Policy: Shifting Sands in Internet Governance",
+            "Type": "Talk",
+            "Key": "TechnologyPolicyShiftingSandsinInternetGovernance",
+            "Authors": [
+                "Mary Saunders",
+                "Sally Shipman Wentworth"
+            ],
+            "Affiliations": [
+                "National Institute of Standards and Technology",
+                "The Internet Society"
+            ],
+            "Abstract": "How the Internet should be governed has become a hot topic in recent months. Some say that the current model of governance is unsustainable and should be changed. Others vigorously defend the current model as the enabling ingredient for unbounded innovation. Today, governments, academics, civil society organizations, and technologists are all engaged in the discussion. One thing they all agree on. \"It is important to get it right!\" But what is right? This session will examine the landscape and prospects for the next chapter in Internet history."
+        },
+        {
+            "Title": "Blending of Physical and Virtual Worlds: From Research to Reality",
+            "Type": "Keynote",
+            "Key": "BlendingofPhysicalandVirtualWorldsFromResearchtoReality",
+            "Authors": [
+                "Rick Rashid"
+            ],
+            "Affiliations": [
+                "Microsoft Research"
+            ],
+            "Abstract": "Breaking down the barrier between the real world and the virtual world is a staple of science fiction, but technology is coming closer to actually blurring the line. Rick Rashid, Microsoft chief research officer and head of Microsoft Research, will present new, exciting hardware and software advances that are contributing to a simpler, more natural integration of the physical and virtual worlds."
+        },
+        {
+            "Title": "Fostering the Next Generation of Computer Scientists",
+            "Type": "Keynote",
+            "Key": "FosteringtheNextGenerationofComputerScientists",
+            "Authors": [
+                "Harold Javid"
+            ],
+            "Affiliations": [
+                "Microsoft Research"
+            ],
+            "Abstract": "Computing increasingly enables the introduction of new products and new ways to work together, resulting in a growing requirement for skills, knowledge, and research capabilities that are the domain of post-doctoral computer scientists. Universities are the primary catalysts for encouraging and developing a new generation of computer scientists; companies also have a role to play. This short presentation examines some Microsoft programs and discusses features that can help graduate students and early-career academics advance their research capabilities and careers."
+        },
+        {
+            "Title": "Big Heritage, Big Quilts, and Big Canvases",
+            "Type": "Talk",
+            "Key": "BigHeritageBigQuiltsandBigCanvases",
+            "Authors": [
+                "Anne Balsamo",
+                "Andries van Dam",
+                "Ethan Watrall"
+            ],
+            "Affiliations": [
+                "University of Southern California",
+                "Brown University",
+                "Michigan State University"
+            ],
+            "Abstract": "Increasingly, being able to visualize large collections of data is absolutely vital in the domain of cultural heritage&#8212;both for scholarly work and public consumption. Recent work explores novel and engaging ways to visualize and explore cultural heritage data collections. See demos of applications built on Microsoft PixelSense and tablets that demonstrate the advantages of pen and touch computing for enhancing the user experience of specific applications. These range from handwriting mathematics with pen or finger as input, to mathematical solvers, to using multitouch interaction for exploring large-format artworks in their rich context of related artworks, annotations, and guided tours. We will also explore the technological and social challenges of creating interactive exhibits around the AIDS Memorial Quilt, the largest community-created piece of folk art in the world. These applications are a beachhead on the untouched shores of big humanities research. They are what we can actually expect today and in the near future and are also first steps towards what might define an ideal user interface."
+        },
+        {
+            "Title": "Software Development Analytics",
+            "Type": "Talk",
+            "Key": "SoftwareDevelopmentAnalytics",
+            "Authors": [
+                "Ahmed Hassan",
+                "Robin Moeur",
+                "Ranga Narasimhan",
+                "Cameron Turner"
+            ],
+            "Affiliations": [
+                "Queens University",
+                "Microsoft Research",
+                "Microsoft",
+                "Microsoft"
+            ],
+            "Abstract": "Software development generates an inordinate amount of data. For example, check-ins, work items, and test executions are recorded in software repositories such as CVS, Subversion, GIT, and Bugzilla. Telemetry data reflects how customers experience software, which includes application and feature usage and exposes reliability. The sheer amount is impressive. for the 10,000 projects monitored by the web-page CIA.vc, every 17 seconds a commit takes place. The open-source platform SourceForge.net hosts more than 300,000 projects, and according to Github.com, 1 million people host 2.9 million GIT repositories. The bug database of the Mozilla Firefox projects now contains almost 700,000 reports, according to Ohloh.net. Microsoft has many sources of development data at similar scale. But how can this data be used to improve software projects? Software development analytics takes this data and turns it into insight to inform better development decisions. Analytics is commonly used in many businesses&#8212;notably in marketing, to better reach and understand customers. The application of analytics to software development is becoming more popular. In this session, we present successful efforts from Microsoft and academia that turn software development data into actionable insight."
+        },
+        {
+            "Title": "The Role of Technology in Human Trafficking",
+            "Type": "Talk",
+            "Key": "TheRoleofTechnologyinHumanTrafficking",
+            "Authors": [
+                "danah boyd",
+                "Eduard Hovy",
+                "Mark Latonero",
+                "Mary G. Leary",
+                "Janis Wolak"
+            ],
+            "Affiliations": [
+                "Microsoft Research",
+                "University of Southern California",
+                "University of Southern California",
+                "Catholic University Law School",
+                "University of New Hampshire"
+            ],
+            "Abstract": "Networked technologies&#8212;including the Internet, mobile phones, and social media&#8212;alter how information flows and how people communicate. There is little doubt that technology is increasingly playing a role in the practices and processes surrounding human trafficking. the illegal trade of people for commercial sexual exploitation, forced labor, and other forms of modern-day slavery. Human trafficking has many facets to it and technology&#8217;s role varies as a result. Yet, little is known about costs and benefits of technology&#8217;s role. We do not know if there are more human trafficking victims as a result of technology, nor do we know if law enforcement can identify perpetrators better as a result of the traces that they leave. We do know that technology makes many aspects of human trafficking more visible and more traceable, for better and for worse. Focusing on whether technology is good or bad misses the point; it is here to stay, and it is imperative that we understand its role. More importantly, we need to develop innovative ways of using technology to address the horrors of human trafficking. This panel will explore ways in which technologists can use data traces to help address challenges in the human trafficking arena, paying particular attention to the commercial sexual exploitation of children. We will discuss ways in which technology can help identify perpetrators or victims, empower law enforcement, and disrupt organized crime. We will also examine the complex tensions involved in balancing the need to combat child victimization with the importance of civil liberties and privacy. Finally, we will discuss the possibilities of&#8212;and need for&#8212;technical innovation that can counter human trafficking abuses."
+        },
+        {
+            "Title": "Metro: Microsoft&#8217;s New Design Language",
+            "Type": "Talk",
+            "Key": "MetroMicrosoftsNewDesignLanguage",
+            "Authors": [
+                "Surya Vanka"
+            ],
+            "Affiliations": [
+                "Microsoft"
+            ],
+            "Abstract": "The tile-based user interface (UI) first showcased for Windows Phone has become the basis of the new look and feel of the experience of most of Microsoft&#8217;s products. But Metro is more than a UI language. It is a set of design principles that have been adopted across the company. What&#8217;s the background to Metro? In this presentation, Vanka will talk about the user experience revolution at Microsoft and the emergence of Metro. He will describe why Metro represents a significant shift away from the stylistic UI approaches that are prevalent across the software industry, and will discuss implications of increased attention that Metro is receiving from the academic research community."
+        },
+        {
+            "Title": "The Changing Landscape of Parallel Computing &#8211; I",
+            "Type": "Talk",
+            "Key": "TheChangingLandscapeofParallelComputingI",
+            "Authors": [
+                "Krste Asanovi&#263;",
+                "Tim Mattson",
+                "Josep Torrellas"
+            ],
+            "Affiliations": [
+                "University of California, Berkeley",
+                "Intel",
+                "University of Illinois at Urbana-Champaign"
+            ],
+            "Abstract": "For decades, the microprocessor industry improved the performance of on-chip processors by increasing the number of operations executed per CPU cycle. By 2007, it was clear that heat and power would limit further increases in clock rates. Today, it is widely accepted that performance gains can only be obtained by putting more than one processor in a single chip. Multicore parallelism represents a paradigm shift that breaks the 50-year tradition of conventional sequential programming models and software development. Knowing that research in this area would have deep implications, Microsoft and Intel launched in 2008 the Universal Parallel Computing Research Centers (UPCRC) at the University of Illinois at Urbana-Champaign (UIUC) and UC Berkeley. Through this unique collaboration, Microsoft, Intel, UIUC, and UC Berkeley have joined forces to conduct research into all aspects of parallelism at the client, including architectures, operating systems, run-time middleware, programming tools and libraries, and applications. During this session, researchers from Microsoft, Intel, UC Berkeley, and UIUC will share the outcomes of their three-year efforts and will present their insights about new directions in the changing landscape of parallel computing."
+        },
+        {
+            "Title": "Engaging with Microsoft Research",
+            "Type": "Talk",
+            "Key": "EngagingwithMicrosoftResearch",
+            "Abstract": "Microsoft Research has numerous programs for supporting students and academics. During this breakout session, the people who run the programs&#8212;from internships to faculty fellowships, innovation funds to woman&#8217;s scholarships&#8212;will be on hand to discuss how the programs work and how you can participate."
+        },
+        {
+            "Title": "Social Search",
+            "Type": "Panel",
+            "Key": "SocialSearch",
+            "Authors": [
+                "Lili Cheng",
+                "Cliff Lampe",
+                "Meredith Ringel Morris"
+            ],
+            "Affiliations": [
+                "Microsoft Research",
+                "University of Michigan",
+                "Microsoft Research"
+            ],
+            "Abstract": "Social search is an emerging research area that explores how social interactions and social data can enhance existing information-seeking experiences, as well as enable new information retrieval scenarios. This session will showcase different models of social search, including 1) the use of social data to augment search, 2) social data as new information to be searched, and 3) social interaction and collaboration as part of the search process."
+        },
+        {
+            "Title": "Functional Programming in the Wild",
+            "Type": "Talk",
+            "Key": "FunctionalProgrammingintheWild",
+            "Authors": [
+                "Manuel Chakravarty",
+                "Antonio Cisternino",
+                "Don Syme"
+            ],
+            "Affiliations": [
+                "University of New South Wales",
+                "University of Pisa",
+                "Microsoft Research"
+            ],
+            "Abstract": "This session highlights some of the latest developments and applications of functional programming. Information-rich programming is changing how we think about language design, with F# type providers bringing information to developers over the web. Discover how Haskell is being extended into parallel and cloud computing. And learn how functional programming is being used in the wild, from bioengineering and chemistry to engineering and finance. This session will show how functional programming can transform business, science, and engineering in the real world, for today and tomorrow."
+        },
+        {
+            "Title": "ChronoZoom: Bridging the Gap Between the Humanities and Sciences",
+            "Type": "Talk",
+            "Key": "ChronoZoomBridgingtheGapBetweentheHumanitiesandSciences",
+            "Authors": [
+                "Walter Alvarez",
+                "Sergey Berezin"
+            ],
+            "Affiliations": [
+                "University of California, Berkeley",
+                "Moscow State University"
+            ],
+            "Abstract": "Imagine a world where scientists, researchers, students, and teachers collaborate to share historical information through images, videos, documents, charts, interactive tours, and more. Imagine a world where leading academics publish their findings to the world in a manner that can easily be accessed and compared. ChronoZoom is an open-source community project dedicated to visualizing the history of everything and supporting the emerging field of Big History. Big History is the attempt to understand, in a unified, interdisciplinary way, the history of the cosmos, Earth, life, and humanity. ChronoZoom seeks to bridge the gap between the humanities and sciences by enabling all kinds of information to be visually presented and organized. In this session, learn about the challenges of teaching a course on Big History, and what it is like to work on a multi-disciplinary project with humanistic, scientific, and computer science researchers. Understand what ChronoZoom hopes to accomplish with the research community and how computer scientists can better work with scientists and humanists. Get a behind-the-scenes look at how we brought ChronoZoom to life through HTML5 and Windows Azure. We will address the various visualization challenges, data management issues, and user interface questions solved in this project and the complex algorithms created. We will also discuss what we hope to accomplish in the next phases of ChronoZoom development and how other computer science researchers can work with the team."
+        },
+        {
+            "Title": "The Changing Landscape of Parallel Computing &#8211; II",
+            "Type": "Talk",
+            "Key": "TheChangingLandscapeofParallelComputingII",
+            "Authors": [
+                "James Demmel",
+                "David Padua",
+                "David Patterson",
+                "Burton Smith"
+            ],
+            "Affiliations": [
+                "University of California, Berkeley",
+                "University of Illinois at Urbana-Champaign",
+                "University of California, Berkeley",
+                "Microsoft"
+            ],
+            "Abstract": "In this session, Microsoft Technical Fellow Burton Smith will present \"Operating System Architecture for Parallel and Distributed Computing.\" In addition, a panel will discuss the educational impact of the Universal Parallel Computing Research Centers (UPCRC) and deliver the following presentations."
+        },
+        {
+            "Title": "Rivers of Ice: Vanishing Glaciers of the Greater Himalaya",
+            "Type": "Keynote",
+            "Key": "RiversofIceVanishingGlaciersoftheGreaterHimalaya",
+            "Authors": [
+                "David Breashears"
+            ],
+            "Affiliations": [
+                "GlacierWorks"
+            ],
+            "Abstract": "The Himalaya Mountains are home to the world&#8217;s most magnificent peaks and thousands of high-altitude glaciers. These important glaciers supply crucial seasonal flows to rivers across Asia, yet many are disappearing at an increasing rate. In this session, mountaineer and photographer David Breashears presents his recent photographs of the world&#8217;s least studied glaciers. By comparing them to archival photographs taken over the past century by the world&#8217;s greatest alpine photographers, the alarming loss of ice is starkly revealed. \n \nSince 2007, GlacierWorks has embarked upon 11 expeditions to the greater Himalayas. Breashears will describe the increasingly sophisticated imaging technology that the GlacierWorks team has employed to capture high-resolution photography of a wide range of glaciers and their surrounding geography&#8212;resulting in terabytes of high-resolution images from hundreds of strategic locations throughout the greater Himalayan region. These images, along with terabytes of images captured during a series of helicopter flights around Mount Everest, are being built into the highest resolution 3-D point cloud ever created of the Himalayan region. \n \nGlacierWorks&#8217; extensive imagery, along with archival media, is currently being incorporated into an immersive Internet experience, which uses Rich Interactive Narratives technology from Microsoft Research. GlacierWorks hopes, through interactive and engaging educational experiences such as this, to interest students in gaining a better understanding of climate change&#8217;s impact on the glaciers and river systems of Asia."
+        }
+    ],
+    "Sessions": [
+        {
+            "Title": "Continental Breakfast",
+            "ShortTitle": "Breakfast",
+            "Type": "Meal",
+            "ShortType": "Meal",
+            "Key": "ContinentalBreakfast",
+            "Day": "7/16/2012",
+            "Time": "8:00 am - 9:00 am"
+        },
+        {
+            "Title": "Welcome and Introduction",
+            "ShortTitle": "Welcome",
+            "Type": "Plenary Session",
+            "ShortType": "Plenary Session",
+            "Key": "welcome",
+            "Day": "7/16/2012",
+            "Time": "9:00 am - 9:30 am",
+            "Location": "Kodiak",
+            "Items": [
+                "WelcomeandIntroduction"
+            ]
+        },
+        {
+            "Title": "Predictions, Decisions, and Intelligence in the Open World",
+            "ShortTitle": "Predictions and Decisions",
+            "Type": "Keynote",
+            "ShortType": "Keynote",
+            "Key": "keynote-horvitz",
+            "Day": "7/16/2012",
+            "Time": "9:30 am - 10:30 am",
+            "Location": "Kodiak",
+            "Items": [
+                "PredictionsDecisionsandIntelligenceintheOpenWorld"
+            ]
+        },
+        {
+            "Title": "Social Media: Analysis and Application",
+            "ShortTitle": "Social Media",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "social-media",
+            "Day": "7/16/2012",
+            "Time": "10:45 am - 12:00 pm",
+            "Location": "Cascade",
+            "Items": [
+                "SocialMediaAnalysisandApplications"
+            ],
+            "Chair": "Scott Counts"
+        },
+        {
+            "Title": "Internet Service Security",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "iss",
+            "Day": "7/16/2012",
+            "Time": "10:45 am - 12:00 pm",
+            "Location": "St. Helens",
+            "Items": [
+                "InternetServiceSecurity"
+            ],
+            "Chair": "Yinglian Xie"
+        },
+        {
+            "Title": "Unlocking the Potential of Digital Home Infrastructure",
+            "ShortTitle": "Digital Home",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "digital-home",
+            "Day": "7/16/2012",
+            "Time": "10:45 am - 12:00 pm",
+            "Location": "Rainier",
+            "Items": [
+                "UnlockingthePotentialofDigitalHomeInfrastructure"
+            ],
+            "Chair": "A.J. Brush"
+        },
+        {
+            "Title": "Faculty Fellows Inspiring the Next Generation of Computer Scientists",
+            "ShortTitle": "Faculty Fellows",
+            "Type": "Panel",
+            "ShortType": "Panel",
+            "Key": "faculty-fellows",
+            "Day": "7/16/2012",
+            "Time": "10:45 am - 12:00 pm",
+            "Location": "Baker",
+            "Items": [
+                "FacultyFellowsInspiringtheNextGenerationofComputerScientists"
+            ],
+            "Chairs": [
+                "Rane Johnson",
+                "Lucy Sanders"
+            ]
+        },
+        {
+            "Title": "Lunch",
+            "Type": "Meal",
+            "ShortType": "Meal",
+            "Key": "Lunch",
+            "Day": "7/16/2012",
+            "Time": "12:00 pm - 1:00 pm"
+        },
+        {
+            "Title": "NUI Research Snapshots",
+            "ShortTitle": "NUI Research",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "nui-research",
+            "Day": "7/16/2012",
+            "Time": "1:00 pm - 2:30 pm",
+            "Location": "Cascade",
+            "Items": [
+                "NUIResearchSnapshots"
+            ],
+            "Chair": "Stewart Tansley"
+        },
+        {
+            "Title": "Malware Detection and Protection",
+            "ShortTitle": "Malware",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "malware",
+            "Day": "7/16/2012",
+            "Time": "1:00 pm - 2:30 pm",
+            "Location": "St. Helens",
+            "Items": [
+                "MalwareDetectionandProtection"
+            ],
+            "Chair": "Patrice Godefroid"
+        },
+        {
+            "Title": "Human Computation and Crowdsourcing",
+            "ShortTitle": "Crowdsourcing",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "crowdsourcing",
+            "Day": "7/16/2012",
+            "Time": "1:00 pm - 2:30 pm",
+            "Location": "Rainier",
+            "Items": [
+                "HumanComputationandCrowdsourcing"
+            ],
+            "Chair": "Ece Kamar"
+        },
+        {
+            "Title": "Custom Devices for Research",
+            "ShortTitle": "Custom Devices",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "devices",
+            "Day": "7/16/2012",
+            "Time": "1:00 pm - 2:30 pm",
+            "Location": "Baker",
+            "Items": [
+                "CustomDevicesforResearch"
+            ],
+            "Chair": "Scarlet Schwiderski-Grosche"
+        },
+        {
+            "Title": "Break",
+            "Type": "Break",
+            "ShortType": "Break",
+            "Key": "Break",
+            "Day": "7/16/2012",
+            "Time": "2:30 pm - 2:45 pm"
+        },
+        {
+            "Title": "Augmented Reality: Perspectives from Industry and Academia",
+            "ShortTitle": "Augmented Reality",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "augmented-reality",
+            "Day": "7/16/2012",
+            "Time": "2:45 pm - 4:15 pm",
+            "Location": "Cascade",
+            "Items": [
+                "AugmentedRealityPerspectivesfromIndustryandAcademia"
+            ],
+            "Chair": "Hrvoje Benko"
+        },
+        {
+            "Title": "Election Technologies&#8212;Today and Tomorrow",
+            "ShortTitle": "Election Technologies",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "election",
+            "Day": "7/16/2012",
+            "Time": "2:45 pm - 4:15 pm",
+            "Location": "St. Helens",
+            "Items": [
+                "ElectionTechnologiesTodayandTomorrow"
+            ],
+            "Chair": "Josh Benaloh"
+        },
+        {
+            "Title": "Next-Generation Information Experiences",
+            "ShortTitle": "NG Information Experiences",
+            "Type": "Panel",
+            "ShortType": "Panel",
+            "Key": "information-exp",
+            "Day": "7/16/2012",
+            "Time": "2:45 pm - 4:15 pm",
+            "Location": "Rainier",
+            "Items": [
+                "NextGenerationInformationExperiences"
+            ],
+            "Chair": "Evelyne Viegas"
+        },
+        {
+            "Title": "End-User Programming for Mobile Devices",
+            "ShortTitle": "Programming for Mobile",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "programming-mobile",
+            "Day": "7/16/2012",
+            "Time": "2:45 pm - 4:15 pm",
+            "Location": "Baker",
+            "Items": [
+                "EndUserProgrammingforMobileDevices"
+            ],
+            "Chair": "Nikolai Tillman"
+        },
+        {
+            "Title": "Technology Policy: Shifting Sands in Internet Governance",
+            "ShortTitle": "Technology Policy",
+            "Type": "Plenary Session",
+            "ShortType": "Plenary Session",
+            "Key": "tech-policy",
+            "Day": "7/16/2012",
+            "Time": "4:15 pm - 5:30 pm",
+            "Location": "Kodiak",
+            "Items": [
+                "TechnologyPolicyShiftingSandsinInternetGovernance"
+            ],
+            "Chair": "Paul Mitchell"
+        },
+        {
+            "Title": "Argosy Cruise through the Hiram M. Chittenden Locks at Elliott Bay",
+            "Type": "Dinner Event",
+            "ShortType": "Dinner Event",
+            "Key": "argosy",
+            "Day": "7/16/2012",
+            "Time": "6:00 pm - 9:00 pm",
+            "Location": "Kirkland"
+        },
+        {
+            "Title": "Continental Breakfast",
+            "ShortTitle": "Breakfast",
+            "Type": "Meal",
+            "ShortType": "Meal",
+            "Key": "ContinentalBreakfast-1",
+            "Day": "7/17/2012",
+            "Time": "8:00 am - 9:00 am"
+        },
+        {
+            "Title": "Keynote",
+            "Type": "Plenary Session",
+            "ShortType": "Plenary Session",
+            "Key": "plenary2",
+            "Day": "7/17/2012",
+            "Time": "9:00 am - 10:30 am",
+            "Location": "Kodiak",
+            "Items": [
+                "BlendingofPhysicalandVirtualWorldsFromResearchtoReality",
+                "FosteringtheNextGenerationofComputerScientists"
+            ]
+        },
+        {
+            "Title": "DemoFest",
+            "Type": "Demos",
+            "ShortType": "Demos",
+            "Key": "demofest",
+            "Day": "7/17/2012",
+            "Time": "10:30 am - 11:30 am",
+            "Location": "McKinley"
+        },
+        {
+            "Title": "Lunch",
+            "Type": "Meal",
+            "ShortType": "Meal",
+            "Key": "Lunch-1",
+            "Day": "7/17/2012",
+            "Time": "11:30 am - 12:30 pm"
+        },
+        {
+            "Title": "Big Heritage, Big Quilts, Big Canvas",
+            "ShortTitle": "Big Heritage",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "big-heritage",
+            "Day": "7/17/2012",
+            "Time": "12:30 pm - 2:00 pm",
+            "Location": "Cascade",
+            "Items": [
+                "BigHeritageBigQuiltsandBigCanvases"
+            ],
+            "Chair": "Donald Brinkman"
+        },
+        {
+            "Title": "Software Development Analytics",
+            "ShortTitle": "Software Analytics",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "analytics",
+            "Day": "7/17/2012",
+            "Time": "12:30 pm - 2:00 pm",
+            "Location": "St. Helens",
+            "Items": [
+                "SoftwareDevelopmentAnalytics"
+            ],
+            "Chairs": [
+                "Christian Bird",
+                "Thomas Zimmermann"
+            ]
+        },
+        {
+            "Title": "The Role of Technology in Human Trafficking",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "trafficking",
+            "Day": "7/17/2012",
+            "Time": "12:30 pm - 2:00 pm",
+            "Location": "Rainier",
+            "Items": [
+                "TheRoleofTechnologyinHumanTrafficking"
+            ],
+            "Chair": "danah boyd"
+        },
+        {
+            "Title": "Metro: Microsoft's New Design Language",
+            "ShortTitle": "Metro",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "metro",
+            "Day": "7/17/2012",
+            "Time": "12:30 pm - 2:00 pm",
+            "Location": "Lassen",
+            "Items": [
+                "MetroMicrosoftsNewDesignLanguage"
+            ],
+            "Chair": "Stewart Tansley"
+        },
+        {
+            "Title": "The Changing Landscape of Parallel Computing - I",
+            "ShortTitle": "Parallel Computing 1",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "parallel-1",
+            "Day": "7/17/2012",
+            "Time": "12:30 pm - 2:00 pm",
+            "Location": "Baker",
+            "Items": [
+                "TheChangingLandscapeofParallelComputingI"
+            ],
+            "Chair": "Juan Vargas"
+        },
+        {
+            "Title": "Engaging with Microsoft Research",
+            "Type": "Information Session",
+            "ShortType": "Information Session",
+            "Key": "engaging",
+            "Day": "7/17/2012",
+            "Time": "2:00 pm - 2:45 pm",
+            "Location": "Hood",
+            "Items": [
+                "EngagingwithMicrosoftResearch"
+            ]
+        },
+        {
+            "Title": "Social Search",
+            "Type": "Panel",
+            "ShortType": "Panel",
+            "Key": "social-search",
+            "Day": "7/17/2012",
+            "Time": "2:45 pm - 4:30 pm",
+            "Location": "Cascade",
+            "Items": [
+                "SocialSearch"
+            ],
+            "Chair": "Jaime Teevan"
+        },
+        {
+            "Title": "Functional Programming in the Wild",
+            "ShortTitle": "Functional Programming",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "functional",
+            "Day": "7/17/2012",
+            "Time": "2:45 pm - 4:30 pm",
+            "Location": "St. Helens",
+            "Items": [
+                "FunctionalProgrammingintheWild"
+            ],
+            "Chair": "Kenji Takeda"
+        },
+        {
+            "Title": "ChronoZoom: Bridging the Gap Between the Humanities and Sciences",
+            "ShortTitle": "ChronoZoom",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "chronozoom",
+            "Day": "7/17/2012",
+            "Time": "2:45 pm - 4:30 pm",
+            "Location": "Rainier",
+            "Items": [
+                "ChronoZoomBridgingtheGapBetweentheHumanitiesandSciences"
+            ],
+            "Chair": "Rane Johnson"
+        },
+        {
+            "Title": "The Changing Landscape of Parallel Computing - II",
+            "ShortTitle": "Parallel Computing 2",
+            "Type": "Breakout Session",
+            "ShortType": "Breakout Session",
+            "Key": "parallel-2",
+            "Day": "7/17/2012",
+            "Time": "2:45 pm - 4:30 pm",
+            "Location": "Baker",
+            "Items": [
+                "TheChangingLandscapeofParallelComputingII"
+            ],
+            "Chair": "Juan Vargas"
+        },
+        {
+            "Title": "Closing Session",
+            "Type": "Plenary Session",
+            "ShortType": "Plenary Session",
+            "Key": "closing",
+            "Day": "7/17/2012",
+            "Time": "4:30 pm - 5:30 pm",
+            "Location": "Kodiak",
+            "Items": [
+                "RiversofIceVanishingGlaciersoftheGreaterHimalaya"
+            ]
+        },
+        {
+            "Title": "Networking Reception",
+            "Type": "Meal",
+            "ShortType": "Meal",
+            "Key": "NetworkingReception",
+            "Day": "7/17/2012",
+            "Time": "5:30 pm - 7:00 pm"
+        }
+    ],
+    "People": [
+        {
+            "Name": "A.J. Brush",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Ahmed Hassan",
+            "Affiliation": "Queens University"
+        },
+        {
+            "Name": "Albrecht Schmidt",
+            "Affiliation": "University of Stuttgart"
+        },
+        {
+            "Name": "Alex Halderman",
+            "Affiliation": "University of Michigan"
+        },
+        {
+            "Name": "Andries van Dam",
+            "Affiliation": "Brown University"
+        },
+        {
+            "Name": "Anne Balsamo",
+            "Affiliation": "University of Southern California"
+        },
+        {
+            "Name": "Antonio Cisternino",
+            "Affiliation": "University of Pisa"
+        },
+        {
+            "Name": "Ben Livshits",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Bill Gaver",
+            "Affiliation": "University of London - Goldsmiths"
+        },
+        {
+            "Name": "Burton Smith",
+            "Affiliation": "Microsoft"
+        },
+        {
+            "Name": "Cameron Turner",
+            "Affiliation": "Microsoft"
+        },
+        {
+            "Name": "Christian Bird",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Christoph Csallner",
+            "Affiliation": "University of Texas at Arlington"
+        },
+        {
+            "Name": "Cliff Lampe",
+            "Affiliation": "University of Michigan"
+        },
+        {
+            "Name": "danah boyd",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "David Breashears",
+            "Affiliation": "Glacierworks"
+        },
+        {
+            "Name": "David Karger",
+            "Affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+            "Name": "David Padua",
+            "Affiliation": "University of Illinois at Urbana-Champaign"
+        },
+        {
+            "Name": "David Patterson",
+            "Affiliation": "University of California, Berkeley"
+        },
+        {
+            "Name": "Dawn Song",
+            "Affiliation": "University of California, Berkeley"
+        },
+        {
+            "Name": "Deborah McGuiness",
+            "Affiliation": "Rensselaer Polytechnic Institute"
+        },
+        {
+            "Name": "Don Syme",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Donald Brinkman",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Ece Kamar",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Eduard Hovy",
+            "Affiliation": "University of Southern California"
+        },
+        {
+            "Name": "Emma Brunskill",
+            "Affiliation": "Carnegie Mellon University"
+        },
+        {
+            "Name": "Eric Horvitz",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Ethan Watrall",
+            "Affiliation": "Michigan State University"
+        },
+        {
+            "Name": "Evelyne Viegas",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Gabe Cohn",
+            "Affiliation": "University of Washington"
+        },
+        {
+            "Name": "George Demiris",
+            "Affiliation": "University of Washington"
+        },
+        {
+            "Name": "Gerardo Gonzalez",
+            "Affiliation": "Lancaster University"
+        },
+        {
+            "Name": "Harold Javid",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Hrvoje Benko",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Jaime Teevan",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "James Demmel",
+            "Affiliation": "University of California, Berkeley"
+        },
+        {
+            "Name": "James Scott",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Jamie Pennebaker",
+            "Affiliation": "University of Texas"
+        },
+        {
+            "Name": "Janis Wolak",
+            "Affiliation": "University of New Hampshire"
+        },
+        {
+            "Name": "Jaron Lanier",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Josep Torrellas",
+            "Affiliation": "University of Illinois at Urbana-Champaign"
+        },
+        {
+            "Name": "Joseph LaViola",
+            "Affiliation": "University of Central Florida"
+        },
+        {
+            "Name": "Josh Benaloh",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Juan Vargas",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Kenji Takeda",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Krste Asanovi&#263;",
+            "Affiliation": "University of California, Berkeley"
+        },
+        {
+            "Name": "Kuansan Wang",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Larry Heck",
+            "Affiliation": "Microsoft"
+        },
+        {
+            "Name": "Lili Cheng",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Lillie Coney",
+            "Affiliation": "Electronic Privacy Information Centre"
+        },
+        {
+            "Name": "Lucy Sanders",
+            "Affiliation": "National Center for Women Information Technology"
+        },
+        {
+            "Name": "Luis Von Ahn",
+            "Affiliation": "Carnegie Mellon University"
+        },
+        {
+            "Name": "Magdalena Balazinska",
+            "Affiliation": "University of Washington"
+        },
+        {
+            "Name": "Manuel Chakravarty",
+            "Affiliation": "University of New South Wales"
+        },
+        {
+            "Name": "Mark Bolas",
+            "Affiliation": "University of Southern California"
+        },
+        {
+            "Name": "Mark Latonero",
+            "Affiliation": "University of Southern California"
+        },
+        {
+            "Name": "Marti Hearst",
+            "Affiliation": "University of California, Berkeley"
+        },
+        {
+            "Name": "Mary G. Leary",
+            "Affiliation": "Catholic University Law School"
+        },
+        {
+            "Name": "Mary Saunders",
+            "Affiliation": "National Institute of Standards and Technology"
+        },
+        {
+            "Name": "Meredith Ringel Morris",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Michael Reiter",
+            "Affiliation": "University of North Carolina"
+        },
+        {
+            "Name": "Miriah Meyer",
+            "Affiliation": "University of Utah"
+        },
+        {
+            "Name": "Nikolai Tillman",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Nilanjan Banerjee",
+            "Affiliation": "University of Arkansas"
+        },
+        {
+            "Name": "Patrice Godefroid",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Patrick Baudisch",
+            "Affiliation": "Hasso Plattner Institute"
+        },
+        {
+            "Name": "Paul Mitchell",
+            "Affiliation": "Microsoft"
+        },
+        {
+            "Name": "Rajesh Patel",
+            "Affiliation": "Microsoft"
+        },
+        {
+            "Name": "Rane Johnson",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Ranga Narasimhan",
+            "Affiliation": "Microsoft"
+        },
+        {
+            "Name": "Ratul Mahajan",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Rick Rashid",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Robert Sim",
+            "Affiliation": "Microsoft"
+        },
+        {
+            "Name": "Robin Moeur",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Sally Shipman Wentworth",
+            "Affiliation": "The Internet Society"
+        },
+        {
+            "Name": "Scarlet Schwiderski-Grosche",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Scott Counts",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Sergey Berezin",
+            "Affiliation": "Moscow State University"
+        },
+        {
+            "Name": "Sharad Goel",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Steven Feiner",
+            "Affiliation": "Columbia University"
+        },
+        {
+            "Name": "Stewart Tansley",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Suresh Lodha",
+            "Affiliation": "University of California, Santa Cruz"
+        },
+        {
+            "Name": "Surya Vanka",
+            "Affiliation": "Microsoft"
+        },
+        {
+            "Name": "Thomas Zimmermann",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Tim Mattson",
+            "Affiliation": "Intel"
+        },
+        {
+            "Name": "Tony Hey",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Walter Alvarez",
+            "Affiliation": "University of California, Berkeley"
+        },
+        {
+            "Name": "Wei Wang",
+            "Affiliation": "University of North Carolina"
+        },
+        {
+            "Name": "XioaFeng Wang",
+            "Affiliation": "Indiana University"
+        },
+        {
+            "Name": "Yiling Chen",
+            "Affiliation": "Harvard University"
+        },
+        {
+            "Name": "Yinglian Xie",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Zeynep Tufekci",
+            "Affiliation": "University of North Carolina"
+        }
+    ]
 }

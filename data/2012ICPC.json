@@ -1,912 +1,1221 @@
 {
-	"DataRevision": 2,
-	"Event": "ICPC 2012",
-	"Name": "ICPC 2012",
-	"TwitterKeywords": "",
-	"VenueInfo" : {
-		"Name": "University of Passau",
-		"GPS": {"Latitude": 48.570821, "Longitude": 13.456925}   
-	}, 	
-	"InfoPage": {
-		"xaml": "foo",
-		"Elements": [
-			{
-				"XamlName": "ConferenceCenterMap",
-				"Type": "Map", 
-				"GPS": {"Latitude": 48.570821, "Longitude": 13.456925}, 
-				"MapLabel": "niversity of Passau"
-			},
-			{
-				"XamlName": "LicenseButton",
-				"Type": "WebLink",
-				"URL": "http://research.microsoft.com/en-US/projects/confapp/terms.aspx"
-			},
-			{
-				"XamlName": "PrivacyButton",
-				"Type": "WebLink",
-				"URL": "http://privacy.microsoft.com/en-us/default.msp"
-			}
-		]
-	},
-	"SessionPriorities" : [
-                    "Award", "Invited Talk",  "Other"],	"Items": [
-{
-  "Title": "Agile Software Assessment (Invited Paper)",
-  "Type": "Keynote Paper",
-  "Key": "icpc12invited-inv01-nierstrasz",
-  "Authors": ["Oscar Nierstrasz", "Mircea Lungu"],
-  "Affiliations": ["University of Bern, Switzerland"],
-  "Abstract": "Informed decision making is a critical activity in software development, but it is poorly supported by common development environments, which focus mainly on low-level programming tasks. We posit the need for \\emph{agile software assessment}, which aims to support decision making by enabling rapid and effective construction of software models and custom analyses. Agile software assessment entails gathering and exploiting the broader context of software information related to the system at hand as well as the ecosystem of related projects, and beyond to include 'big software data'. Finally, informed decision making entails continuous assessment by monitoring the evolving system and its architecture. We identify several key research challenges in supporting agile software assessment by focusing on customization, context and continuous assessment."
-},
-{
-  "Title": "Studying Developers for Fun and Profit (Keynote Abstract)",
-  "Type": "Keynote Paper",
-  "Key": "icpc12invited-inv02-deline",
-  "Authors": ["Robert DeLine"],
-  "Affiliations": ["Microsoft Research, USA"],
-  "Abstract": "My group at Microsoft Research creates software development tools through user-centered design. This method creates a virtuous cycle. we study developers and their teams, which in turn inspires the tools we design, which we then evaluate with those developers and teams, seeking to improve the nature of their work. In this talk, we'll discuss some of the biggest problem areas we have observed, including information seeking, multitasking and disorientation, and look at some of the prototypes we have built in response. Code Canvas provides a zoomable map of a software project, allowing the programmer to zoom out to see structure and visualizations and zoom in to edit code. Debugger Canvas (a joint project with Brown University) provides a spatial representation of a programmer’s task, like a debugging session, as it unfolds. Finally, Code Space uses a combination of touch screens, Kinects and mobile devices to allow fluid sharing of digital objects at development team meetings."
-},
-{
-  "Title": "A Retrospective View on: The Role of Concepts in Program Comprehension (MIP Award Paper)",
-  "Type": "Invited Paper",
-  "Key": "icpc12invited-inv03-rajlich",
-  "Authors": ["Václav Rajlich", "Norman Wilde"],
-  "Affiliations": ["Wayne State University, USA", "University of West Florida, USA"]
-},
-{
-  "Title": "Program Complexity Metrics and Programmer Opinions",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id24-katzmarski",
-  "Authors": ["Bernhard Katzmarski", "Rainer Koschke"],
-  "Affiliations": ["University of Bremen, Germany"],
-  "Abstract": "Various program complexity measures have been proposed to assess maintainability. Only relatively few em- pirical studies have been conducted to back up these assess- ments through empirical evidence. Researchers have mostly conducted controlled experiments or correlated metrics with indirect maintainability indicators such as defects or change frequency. This paper uses a different approach. We investigate whether metrics agree with complexity as perceived by programmers. We show that, first, programmers’ opinions are quite similar and, second, only few metrics and in only few cases reproduce complexity rankings similar to human raters. Data-flow metrics seem to better match the viewpoint of programmers than control-flow metrics, but even they are only loosely correlated. Moreover we show that a foolish metric has similar or sometimes even better correlation than other evaluated metrics, which raises the question how meaningful the other metrics really are. In addition to these results, we introduce an approach and associated statistical measures for such multi-rater investiga- tions. Our approach can be used as a model for similar studies."
-},
-{
-  "Title": "Women and Men­- Different but Equal: On the Impact of Identifier Style on Source Code Reading",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id47-sharafi",
-  "Authors": ["Zohreh Sharafi", "Zéphyrin Soh", "Yann-Gaël Guéhéneuc", "Giuliano Antoniol"],
-  "Affiliations": ["École Polytechnique de Montréal, Canada", "École Polytechnique de Montréal, Canada / University of Ngaoundéré, Cameroon"],
-  "Abstract": "Program comprehension is preliminary to any program evolution task. Researchers agree that identifiers play an important role in code reading and program understanding activities. Yet, to the best of our knowledge, only one work investigated the impact of gender on the memorability of identifiers and thus, ultimately, on program comprehension. This paper reports the results of an experiment involving 15 male subjects and nine female subjects to study the impact of gender on the subjects' visual effort, required time, as well as accuracy to recall Camel Case versus Underscore identifiers in source code reading. \\n\\nWe observe no statistically-significant difference in term of accuracy, required time, and effort. However, our data supports the conjecture that male and female subjects follow different comprehension strategies. female subjects seem to carefully weight all options and spend more time to rule out wrong answers while male subjects seem to quickly set their minds on some answers, possibly the wrong ones. Indeed, we found that the effort spent on wrong answers is significantly higher for female subjects and that there is an interaction between the effort that female subjects invested on wrong answers and their higher percentages of correct answers when compared to male subjects."
-},
-{
-  "Title": "A Lightweight Visualization of Interprocedural Data-Flow Paths for Source Code Reading",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id42-ishio",
-  "Authors": ["Takashi Ishio", "Shogo Etsuda", "Katsuro Inoue"],
-  "Affiliations": ["Osaka University, Japan"],
-  "Abstract": "To understand the behavior of a program, developers must read source code fragments in various modules. For developers investigating data-flow paths among modules, a call graph is too abstract since it does not visualize how parameters of method calls are related to each other. On the other hand, a system dependence graph is too fine-grained to investigate interprocedural data-flow paths. In this research, we propose an intermediate-level of visualization; we visualize interprocedural data-flow paths among method parameters and fields with summarized intraprocedural data-flow paths. We have implemented our visualization as an Eclipse plug-in for Java. The tool comprises a lightweight data-flow analysis and an interactive graph viewer using fractal value to extract a small subgraph of data-flow related to variables specified by a developer. A case study has shown our visualization enabled developers to investigate more data-flow paths in a fixed time slot. In addition, we report our lightweight data-flow analysis can generate precise data-flow paths for 98% of Java methods."
-},
-{
-  "Title": "Is the Derivation of a Model Easier to Understand Than the Model Itself?",
-  "Type": "Short Paper (6 pages)",
-  "Key": "icpc12main-id31-feigenspan",
-  "Authors": ["Janet Feigenspan", "Don Batory", "Taylor Riché"],
-  "Affiliations": ["University of Magdeburg, Germany", "University of Texas, USA", "National Instruments, USA"],
-  "Abstract": "Software architectures can be presented by graphs with components as nodes and connectors as edges. These graphs, or models, typically encode expert domain knowledge, which makes them difficult to understand. Hence, instead of presenting a complete complex model, we can derive it from a simple, easy-to-understand model by a set of easy-to-understand transformations. In two controlled experiments, we evaluate whether a derivation of a model is easier to understand than the model itself."
-},
-{
-  "Title": "Evaluating Forum Discussions to Inform the Design of an API Critic",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id72-rupakheti",
-  "Authors": ["Chandan R. Rupakheti", "Daqing Hou"],
-  "Affiliations": ["Clarkson University, USA"],
-  "Abstract": "Learning to use a software framework and its API (Application Programming Interfaces) can be a major endeavor for novices. To help, we have built a critic to advise the use of an API based on the formal semantics of the API. Speciﬁcally, the critic offers advice when the symbolic state of the API client code triggers any API usage rules. To assess to what extent our critic can help solve practical API usage problems and what kinds of API usage rules can be formulated, we manually analyzed 150 discussion threads from the Java Swing forum. We categorize the discussion threads according to how they can be helped by the critic. We ﬁnd that API problems of the same nature appear repeatedly in the forum, and that API problems of the same nature can be addressed by implementing a new API usage rule for the critic. We characterize the set of discovered API usage rules as a whole. Unlike past empirical studies that focus on answering why frameworks and APIs are hard to learn, ours is the ﬁrst designed to produce systematic data that have been directly used to build an API support tool."
-},
-{
-  "Title": "Mining Source Code Descriptions from Developer Communications",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id54-panichella",
-  "Authors": ["Sebastiano Panichella", "Jairo Aponte", "Massimiliano Di Penta", "Andrian Marcus", "Gerardo Canfora"],
-  "Affiliations": ["University of Sannio, Italy", "Universidad Nacional de Colombia, Colombia", "Wayne State University, USA"],
-  "Abstract": "Very often, source code lacks comments that adequately describe its behavior. In such situations developers need to infer knowledge from the source code itself or to search for source code descriptions in external artifacts. \\n\\nWe argue that messages exchanged among contributors/developers, in the form of bug reports and emails, are a useful source of information to help understanding source code. However, such communications are unstructured and usually not explicitly meant to describe specific parts of the source code. Developers searching for code descriptions within communications face the challenge of filtering large amount of data to extract what pieces of information are important to them. We propose an approach to automatically extract method descriptions from communications in bug tracking systems and mailing lists. \\n\\nWe have evaluated the approach on bug reports and mailing lists from two open source systems (Lucene and Eclipse). The results indicate that mailing lists and bug reports contain relevant descriptions of about 36% of the methods from Lucene and 7% from Eclipse, and that the proposed approach is able to extract such descriptions with a precision of up to 79% for Eclipse and 87% for Lucene. The extracted method descriptions can help developers in understanding the code and could also be used as a starting point for source code re-documentation."
-},
-{
-  "Title": "Measuring Programming Experience",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id30-feigenspan",
-  "Authors": ["Janet Feigenspan", "Christian Kästner", "Jörg Liebig", "Sven Apel", "Stefan Hanenberg"],
-  "Affiliations": ["University of Magdeburg, Germany", "Philipps University of Marburg, Germany", "University of Passau, Germany", "University of Duisburg-Essen, Germany"],
-  "Abstract": "Programming experience is an important confounding parameter in controlled experiments regarding program comprehension. In literature, ways to measure or control programming experience vary. Often, researchers neglect it or do not specify how they controlled it. We set out to find a well-defined understanding of programming experience and a way to measure it. From published comprehension experiments, we extracted questions that assess programming experience. In a controlled experiment, we compare the answers of 128 students to these questions with their performance in solving program-comprehension tasks. We found that self estimation seems to be a reliable way to measure programming experience. Furthermore, we applied exploratory factor analysis to extract a model of programming experience. With our analysis, we initiate a path toward measuring programming experience with a valid and reliable tool, so that we can control its influence on program comprehension."
-},
-{
-  "Title": "High-MCC Functions in the Linux Kernel",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id15-jbara",
-  "Authors": ["Ahmad Jbara", "Adam Matan", "Dror G. Feitelson"],
-  "Affiliations": ["Hebrew University of Jerusalem, Israel"],
-  "Abstract": "McCabe’s Cyclomatic Complexity (MCC) is a widely used metric for the complexity of control flow. Common usage decrees that functions should not have an MCC above 50, and preferably much less. However, the Linux kernel includes more than 800 functions with MCC values above 50, and over the years 369 functions have had an MCC of 100 or more. Moreover, some of these functions undergo extensive evolution, indicating that developers are successful in coping with the supposed high complexity. We attempt to explain this by analyzing the structure of such functions and showing that in many cases they are in fact well-structured. At the same time, we observe cases where developers indeed refactor the code in order to reduce complexity. These observations indicate that a high MCC is not necessarily an impediment to code comprehension, and support the notion that complexity cannot be fully captured using simple syntactic code metrics."
-},
-{
-  "Title": "Understanding Registration-Based Abstractions: A Quantitative User Study",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id21-nunez",
-  "Authors": ["John-Jose Nuñez", "Gregor Kiczales"],
-  "Affiliations": ["University of British Columbia, Canada"],
-  "Abstract": "The adoption of programming language innovation is impeded because all program processing tools in the tool chain must support any new or altered language features. Registration-based abstractions (RBAs) were proposed to address this difficulty by allowing the editor to transiently superimpose new language abstractions on existing code. Individual programmers can choose where and when to see a new language abstraction, while at all times the underlying code remains written in the original language. Prior work demonstrated the feasibility of RBAs, but left important questions unanswered regarding how users would interact with such an approach. \\n\\nWe asked 50 undergraduate students to answer basic program comprehension questions with and without RBAs. Our results show that participants can quickly and easily understand new abstractions without additional training, and suggest that this will extend to the general programmer community. The results also support a comparison across RBAs, and an initial discussion of specific features that facilitate or confound understanding."
-},
-{
-  "Title": "Concern-Based Cohesion: Unveiling a Hidden Dimension of Cohesion Measurement",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id43-silva",
-  "Authors": ["Bruno Silva", "Claudio Sant'Anna", "Christina Chavez", "Alessandro Garcia"],
-  "Affiliations": ["Federal University of Bahia, Brazil", "PUC-Rio, Brazil"],
-  "Abstract": "Cohesion has been avidly recognized as a key property of software modularity. Ideally, a software module is considered to be cohesive if it represents an abstraction of a single concern of the software. Modules with several concerns may be harder to understand because developers must mentally separate the source code related to each concern. Also, modules implementing several concerns are more likely to undergo changes as much as distinct development tasks may target its different concerns. The most well-known cohesion metrics are defined in terms of the syntactical structure of a module, and as a consequence fail to capture the amount of concerns realized by the module. In this context, we investigated the potential of a new metric, called Lack of Concern-based Cohesion. This metric explicitly counts the number of concerns realized by each module. We compared this metric with other five structural cohesion metrics by applying them over six open source software systems. We studied how those metrics are associated with module changes by mining over 16,000 repository revisions. Our results pointed out that the concern-based metric captured a cohesion dimension that is not reflected by structural metrics, and, as a consequence, adds to the association of cohesion and change-proneness."
-},
-{
-  "Title": "Understanding Reuse in the Android Market",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id60-mojicaruiz",
-  "Authors": ["Israel J. Mojica Ruiz", "Meiyappan Nagappan", "Bram Adams", "Ahmed E. Hassan"],
-  "Affiliations": ["Queen's University, Canada", "École Polytechnique de Montréal, Canada"],
-  "Abstract": "Mobile apps are software products developed to run on mobile devices, and are typically distributed via app stores. The mobile app market is estimated to be worth billions of dollars, with more than hundred of thousands of apps, and still increasing in number. This explosion of mobile apps is astonishing, given the short time span that they have been around. One possible explanation for this explosion could be the practice of software reuse. Yet, no research has studied such practice in mobile app development. In this paper, we intend to analyze software reuse in the Android mobile app market along two dimensions. (a) reuse by inheritance, and (b) class reuse. Since app stores only distribute the byte code of the mobile apps, and not the source code, we used the concept of Software Bertillonage to track code across mobile apps. A case study on thousands of mobile apps across five different categories in the Android Market shows that almost 23% of the classes inherit from a base class in the Android API, and 27% of the classes inherit from a domain specific base class. Furthermore, on average 61% of all classes in each category of mobile apps occur in two or more apps, and 217 mobile apps are reused completely by another mobile app in the same category."
-},
-{
-  "Title": "Programmer Information Needs after Memory Failure",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id52-parnin",
-  "Authors": ["Chris Parnin", "Spencer Rugaber"],
-  "Affiliations": ["Georgia Tech, USA"],
-  "Abstract": "Despite its vast capacity and associative powers, the human brain does not deal well with interruptions. Particularly in situations where information density is high, such as during a programming task, recovering from an interruption requires extensive time and effort. Although modern program development environments have begun to recognize this problem, none of these tools take into account the brain's structure and limitations. In this paper, we present a conceptual framework for understanding the strengths and weaknesses of human memory, particularly with respect to it ability to deal with work interruptions. The framework explains empirical results obtained from experiments in which programmers were interrupted while working. Based on the framework, we discuss programmer information needs that development tools must satisfy and suggest several memory aids such tools could provide. We also describe our prototype implementation of these memory aids."
-},
-{
-  "Title": "Identifying Computational Phases from Inter-process Communication Traces of HPC Applications",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id67-alawneh",
-  "Authors": ["Luay Alawneh", "Abdelwahab Hamou-Lhadj"],
-  "Affiliations": ["Concordia University, Canada"],
-  "Abstract": "Understanding the behaviour of High Performance Computing (HPC) systems is a challenging task due to the large number of processes they involve as well as the complex interactions among these processes. In this paper, we present a novel approach that aims to simplify the analysis of large execution traces generated from HPC applications. We achieve this through a technique that allows semi-automatic extraction of execution phases from large traces. These phases, which characterize the main computations of the traced scenario, can be used by software engineers to browse the content of a trace at different levels of abstraction. Our approach is based on the application of information theory principles to the analysis of sequences of communication patterns found in HPC traces. The results of the proposed approach when applied to traces of a large HPC industrial system demonstrate its effectiveness in identifying the main program phases and their corresponding sub-phases."
-},
-{
-  "Title": "Tracking and Visualizing Information Flow in Component-Based Systems",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id18-yazdanshenas",
-  "Authors": ["Amir Reza Yazdanshenas", "Leon Moonen"],
-  "Affiliations": ["Simula Research Laboratory, Norway"],
-  "Abstract": "Component-based software engineering is aimed at managing the complexity of large-scale software development by composing systems from reusable parts. In order to understand or validate the behavior of a given system, one needs to acquire understanding of the components involved in combination with understanding how these components are instantiated, initialized and interconnected in the particular system. In practice, this task is often hindered by the heterogeneous nature of source and configuration artifacts and there is little to no tool support to help software engineers with such a system-wide analysis. \\n\\nThis paper contributes a method to track and visualize information flow in a component-based system at various levels of abstraction. We propose a hierarchy of 5 interconnected views to support the comprehension needs of both safety domain experts and developers from our industrial partner. We discuss the implementation of our approach in a prototype tool, and present an initial qualitative evaluation of the effectiveness and usability of the proposed views for software development and software certification. The prototype was already found to be very useful and a number of directions for further improvement were suggested. We conclude by discussing these improvements and lessons learned."
-},
-{
-  "Title": "Do Static Type Systems Improve the Maintainability of Software Systems? An Empirical Study",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id61-kleinschmager",
-  "Authors": ["Sebastian Kleinschmager", "Stefan Hanenberg", "Romain Robbes", "Éric Tanter", "Andreas Stefik"],
-  "Affiliations": ["University of Duisburg-Essen, Germany", "University of Chile, Chile", "Southern Illinois University at Edwardsville, USA"],
-  "Abstract": "Static type systems play an essential role in contemporary programming languages. Despite their importance, whether static type systems influence human software development capabilities remains an open question. One frequently mentioned argument for static type systems is that they improve the maintainability of software systems---an often used claim for which there is no empirical evidence. This paper describes an experiment which tests whether static type systems improve the maintainability of software systems. The results show rigorous empirical evidence that static type are indeed beneficial to these activities, except for fixing semantic errors."
-},
-{
-  "Title": "Professional Status and Expertise for UML Class Diagram Comprehension: An Empirical Study",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id48-soh",
-  "Authors": ["Zéphyrin Soh", "Zohreh Sharafi", "Bertrand Van den Plas", "Gerardo Cepeda Porras", "Yann-Gaël Guéhéneuc", "Giuliano Antoniol"],
-  "Affiliations": ["École Polytechnique de Montréal, Canada / University of Ngaoundéré, Cameroon", "École Polytechnique de Montréal, Canada", "University of Namur, Belgium", "Université de Montréal, Canada"],
-  "Abstract": "Professional experience is one of the most important criteria for almost any job offer in software engineering. Profes-sional experience refers both to professional status (practitioner vs. student) and expertise (expert vs. novice). We perform an experiment with 21 subjects including both practitioners and students, and experts and novices. We seek to understand the relation between the speed and accuracy of the subjects and their status and expertise in performing maintenance tasks on UML class diagrams. We also study the impact of the formulation of the maintenance task. We use an eye-tracking system to gather the fixations of the subjects when performing the task. We measure the subjects’ comprehension using their accuracy, the time spent, the search effort, the overall effort, and the question comprehension effort. We found that (1) practitioners are more accurate than students while students spend around 35 percent less time than practitioners, (2) experts are more accurate than novices while novices spending around 33 percent less time than experts, (3) expertise is the most important factor for accuracy and speed, (4) experienced students are more accurate and spend around 37 percent less time than experienced practitioners, and (5) when the description of the task is precise, the novice students can be accurate. We conclude that it is an illusion for project managers to focus on status only when recruiting a software engineer. Our result is the starting point to consider the differences between status and expertise when studying software engineers’ productivity. Thus, it can help project managers to recruit productive engineers and motivated students to acquire the experience and ability in the projects."
-},
-{
-  "Title": "Modeling the Ownership of Source Code Topics",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id4-corley",
-  "Authors": ["Christopher S. Corley", "Elizabeth A. Kammer", "Nicholas A. Kraft"],
-  "Affiliations": ["University of Alabama, USA"],
-  "Abstract": "Exploring linguistic topics in source code is a program comprehension activity that shows promise in helping a developer to become familiar with an unfamiliar software system. Examining ownership in source code can reveal complementary information, such as who to contact with questions regarding a source code entity, but the relationship between linguistic topics and ownership is an unexplored area. In this paper we combine software repository mining and topic modeling to measure the ownership of linguistic topics in source code. We conduct an exploratory study of the relationship between linguistic topics and ownership in source code using 10 open source Java systems. We find that classes that belong to the same linguistic topic tend to have similar ownership characteristics, which suggests that conceptually related classes often share the same owner(s). We also find that similar topics tend to share the same ownership characteristics, which suggests that the same developers own related topics."
-},
-{
-  "Title": "A Semantic Relatedness Approach for Traceability Link Recovery",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id41-mahmoud",
-  "Authors": ["Anas Mahmoud", "Nan Niu", "Songhua Xu"],
-  "Affiliations": ["Mississippi State University, USA", "Oak Ridge National Laboratory, USA"],
-  "Abstract": "Human analysts working with automated tracing tools need to directly vet candidate traceability links in order to determine the true traceability information. Currently, human intervention happens at the end of the traceability process, after candidate traceability links have already been generated. This often leads to a decline in the results’ accuracy. In this paper, we propose an approach, based on semantic relatedness (SR), which brings human judgment to an earlier stage of the tracing process by integrating it into the underlying retrieval mechanism. SR tries to mimic human mental model of relevance by considering a broad range of semantic relations, hence producing more semantically meaningful results. We evaluated our approach using three datasets from different application domains, and assessed the tracing results via six different performance measures concerning both result quality and browsability. The empirical evaluation results show that our SR approach achieves a significantly better performance in recovering true links than a standard Vector Space Model (VSM) in all datasets. Our approach also achieves a significantly better precision than Latent Semantic Indexing (LSI) in two of our datasets."
-},
-{
-  "Title": "Using IR Methods for Labeling Source Code Artifacts: Is It Worthwhile?",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id46-delucia",
-  "Authors": ["Andrea De Lucia", "Massimiliano Di Penta", "Rocco Oliveto", "Annibale Panichella", "Sebastiano Panichella"],
-  "Affiliations": ["University of Salerno, Italy", "University of Sannio, Italy", "University of Molise, Italy"],
-  "Abstract": "Information Retrieval (IR) techniques have been used for various software engineering tasks, including the labeling of software artifacts by extracting 'keywords'' from them. Such techniques include Vector Space Models, Latent Semantic Indexing, Latent Dirichlet Allocation, as well as customized heuristics extracting words from specific source code elements. \\n\\nThis paper investigates how source code artifact labeling performed by IR techniques would overlap (and differ) from labeling performed by humans. This has been done by asking a group of subjects to label 20 classes from two Java software systems, JHotDraw and eXVantage. Results indicate that, in most cases, automatic labeling would be more similar to human-based labeling if using simpler techniques-e.g., using words from class and method names-that better reflect how humans behave. Instead, clustering-based approaches (LSI and LDA) are much more worthwhile to be used on source code artifacts having a high verbosity, as well as for artifacts requiring more effort to be manually labeled."
-},
-{
-  "Title": "A TraceLab-Based Solution for Creating, Conducting, and Sharing Feature Location Experiments",
-  "Type": "Short Paper (6 pages)",
-  "Key": "icpc12main-id68-dit",
-  "Authors": ["Bogdan Dit", "Evan Moritz", "Denys Poshyvanyk"],
-  "Affiliations": ["College of William and Mary, USA"],
-  "Abstract": "Similarly to other fields in software engineering, the results of case studies involving feature location techniques (FLTs) are hard to reproduce, compare, and generalize, due to factors such as, incompatibility of different datasets, lack of publicly available implementation or implementation details, or the use of different metrics for evaluating FLTs. To address these issues, we propose a solution for creating, conducting, and sharing experiments in feature location based on TraceLab, a framework for conducting research. We argue that this solution would allow rapid advancements in feature location research because it will enable researchers to create new FLTs in the form of TraceLab templates or components, and compare them with existing ones using the same datasets and the same metrics. In addition, it will also allow sharing these FLTs and experiments within the research community. Our proposed solution provides (i) templates and components for creating new FLTs and instantiating existing ones, (ii) datasets that can be used as inputs for these FLTs, and (iii) metrics for comparing these FLTs. The proposed solution can be easily extended with new FLTs (in the form of easily configurable templates and components), datasets, and metrics."
-},
-{
-  "Title": "Can Clone Detection Support Test Comprehension?",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id19-hauptmann",
-  "Authors": ["Benedikt Hauptmann", "Maximilian Junker", "Sebastian Eder", "Elmar Jürgens", "Rudolf Vaas"],
-  "Affiliations": ["TU Munich, Germany", "CQSE, Germany", "Munich Re, Germany"],
-  "Abstract": "Tests are central artifacts of software systems. Therefore, understanding tests is essential for activities such as maintenance, test automation, and efficient execution. Redundancies in tests may significantly decrease their understandability. Clone detection is a technique to find similar parts in software artifacts. We suggest using this technique to gain a better understanding of tests and to provide guidance for testing activities. We show the capabilities as well as the limits of this approach by conducting a case study analyzing more than 4000 tests of seven industrial software systems."
-},
-{
-  "Title": "A Controlled Experiment on Software Clones",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id29-harder",
-  "Authors": ["Jan Harder", "Rebecca Tiarks"],
-  "Affiliations": ["University of Bremen, Germany"],
-  "Abstract": "Most software systems contain sections of duplicated source code-clones-that are believed to make maintenance more difficult. Recent studies tested this assumption by retro- spective analyses of software archives. While giving important insights, the analysis of historical data relies only on snapshots and misses the human interaction in between. We conducted a controlled experiment to investigate how clones affect the programmer’s performance in common bug-fixing tasks. While our results do not exhibit a decisive difference in the time needed to correct cloned bugs, we observed many cases in which cloned bugs were not corrected completely."
-},
-{
-  "Title": "Code Querying by UML",
-  "Type": "Full Paper (10 pages)",
-  "Key": "icpc12main-id53-noguera",
-  "Authors": ["Carlos Noguera", "Coen De Roover", "Andy Kellens", "Viviane Jonckers"],
-  "Affiliations": ["Vrije Universiteit Brussel, Belgium"],
-  "Abstract": "The need to identify source code that exhibits particular characteristics is essential to program comprehension. In this paper we introduce ARABICA, a tool for querying Java code using UML class and sequence diagrams. Our use of UML diagrams avoids the need for developers to familiarize themselves with yet another language. In contrast to tools that rely on dedicated query languages, ARABICA encodes querying semantics in a dedicated, minimal UML profile. Stereotyped class and sequence diagrams, characterizing structural and behavioral properties respectively, are translated into logic program queries. Using examples from the JHotDraw framework, we illustrate the utility of ARABICA in validating design invariants, finding design pattern implementations and exploring extension points. We present a pre/post-test quasi experiment as a preliminary assessment of our approach."
-},
-{
-  "Title": "CriticAL: A Critic for APIs and Libraries",
-  "Type": "Tool Demo (3 pages)",
-  "Key": "icpc12tools-id99-rupakheti",
-  "Authors": ["Chandan R. Rupakheti", "Daqing Hou"],
-  "Affiliations": ["Clarkson University, USA"],
-  "Abstract": "It is well-known that APIs can be hard to learn and use. Although search tools can help ﬁnd related code examples, API novices still face other signiﬁcant challenges such as evaluating the relevance of the search results. To help address the broad problems of ﬁnding, understanding, and debugging API-based solutions, we have built a critic system that offers recommendations, explanations, and criticisms for API client code. Our critic takes API usage rules as input, performs symbolic execution to check that the client code has followed these rules properly, and generates advice as output to help improve the client code. We demonstrate our critic by applying it to a real- world example derived from the Java Swing Forum."
-},
-{
-  "Title": "Supporting Comprehension Experiments with Human Subjects",
-  "Type": "Tool Demo (3 pages)",
-  "Key": "icpc12tools-id32-feigenspan",
-  "Authors": ["Janet Feigenspan", "Norbert Siegmund"],
-  "Affiliations": ["University of Magdeburg, Germany"],
-  "Abstract": "Experiments with human subjects become more and more important in software engineering. To support planning, conducting, and replicating experiments targeting program comprehension, we developed PROPHET. It allows experimenters to easily define and customize experimental settings as well as to export settings such that others can replicate their results. Furthermore, PROPHET provides extension points, which allow users to integrate additional functionality."
-},
-{
-  "Title": "SeByte: A Semantic Clone Detection Tool for Intermediate Languages",
-  "Type": "Tool Demo (3 pages)",
-  "Key": "icpc12tools-id107-keivanloo",
-  "Authors": ["Iman Keivanloo", "Chanchal K. Roy", "Juergen Rilling"],
-  "Affiliations": ["Concordia University, Canada", "University of Saskatchewan, Canada"],
-  "Abstract": "SeByte is a semantic clone detection tool which accepts Java bytecode (binary) as input. SeByte provides a complementary approach to traditional pattern-based source code level clone detection. It is capable of detecting clones missed by existing clone detection tools since it exploits both pattern and content similarity at binary level."
-},
-{
-  "Title": "CRat: A Refactoring Support Tool for Form Template Method",
-  "Type": "Tool Demo (3 pages)",
-  "Key": "icpc12tools-id91-hotta",
-  "Authors": ["Keisuke Hotta", "Yoshiki Higo", "Hiroshi Igaki", "Shinji Kusumoto"],
-  "Affiliations": ["Osaka University, Japan"],
-  "Abstract": "Refactoring is important for efficient software maintenance. However, manual operations for refactoring are complicated, and human-related errors easily occur. Tool support can help users to apply such a complicated refactoring. This paper proposes a refactoring support tool with Form Template Method pattern. The developed tool automatically identifies method pairs that can be refactored with Form Template Method, and suggests information that is required for Form Template Method application. It also has a function that metrics-based filtering for detected method pairs. The function helps users to select method pairs that should be refactored."
-},
-{
-  "Title": "Toward Structured Location of Features",
-  "Type": "Poster Paper (2 pages)",
-  "Key": "icpc12posters-id106-kazato",
-  "Authors": ["Hiroshi Kazato", "Shinpei Hayashi", "Satoshi Okada", "Shunsuke Miyata", "Takashi Hoshino", "Motoshi Saeki"],
-  "Affiliations": ["NTT, Japan", "Tokyo Institute of Technology, Japan"],
-  "Abstract": "This paper proposes structured location, a semiautomatic technique and its supporting tool both for locating features and exposing their structures in source code, using a combination of dynamic analysis, sequential pattern mining and formal concept analysis."
-},
-{
-  "Title": "Extraction and Improvement of Conditionally Compiled Product Line Code",
-  "Type": "Poster Paper (2 pages)",
-  "Key": "icpc12posters-id95-zhang",
-  "Authors": ["Bo Zhang"],
-  "Affiliations": ["University of Kaiserslautern, Germany"],
-  "Abstract": "Conditional Compilation (CC) is one of the most widely used variation mechanisms in the development of software product lines (SPLs). However, a problem in SPL maintenance is that conditionally compiled code blocks are often overly scattered, nested, and tangled, which makes the code difficult to understand. Moreover, if variant code is evolved independently of the corresponding variability model, there is a risk that the two may become inconsistent. As a countermeasure, this paper proposes a maintenance process, consisting of variability extraction, error detection, and refactoring, to improve the quality of product line implementation."
-},
-{
-  "Title": "Applying Bioinformatics in the Analysis of Software Variants",
-  "Type": "Poster Paper (2 pages)",
-  "Key": "icpc12posters-id96-tenev",
-  "Authors": ["Vasil L. Tenev", "Slawomir Duszynski"],
-  "Affiliations": ["Fraunhofer IESE, Germany"],
-  "Abstract": "Analysis of software similarity is a lively research topic, particularly in the context of software maintenance and software reuse. There exist several approaches to detecting similar code inside one software system and across many systems. While working on similarity analysis of software variants, we observed many analogies between the approaches for analyzing evolution of software and of biological organisms. Hence, we applied bioinformatics concepts used in genome similarity analysis, such as alignments and phylogenetic trees, to software variants. We present the usefulness of these concepts by applying them to a group of related systems from the BSD Unix family."
-},
-{
-  "Title": "Parallel Code Clone Detection Using MapReduce",
-  "Type": "Poster Paper (2 pages)",
-  "Key": "icpc12posters-id104-sajnani",
-  "Authors": ["Hitesh Sajnani", "Joel Ossher", "Cristina Lopes"],
-  "Affiliations": ["UC Irvine, USA"],
-  "Abstract": "Code clone detection is an established topic in software engineering research. Many detection algorithms have been proposed and refined but very few exploit the inherent parallelism present in the problem, making large scale code clone detection difficult. To alleviate this shortcoming, we present a new technique to efficiently perform clone detection using the popular MapReduce paradigm. Preliminary experimental results demonstrates speed-up and scale-up of the proposed approach."
-},
-{
-  "Title": "Automatic Software Architecture Recovery: A Machine Learning Approach",
-  "Type": "Student Paper (4 pages)",
-  "Key": "icpc12doctoral-id101-sajnani",
-  "Authors": ["Hitesh Sajnani"],
-  "Affiliations": ["UC Irvine, USA"],
-  "Abstract": "Automatically recovering functional architecture of the software can facilitate the developer's understanding of how the system works. In legacy systems, original source code is often the only available source of information about the system and it is very time consuming to understand source code. Current architecture recovery techniques either require heavy human intervention or fail to recover quality components. To alleviate these shortcomings, we propose use of machine learning techniques which use structural, runtime behavioral, domain, textual and contextual (e.g. code authorship, line co-change) features. These techniques will allow us to experiment with a large number of features of the software artifacts without having to establish a priori our own insights about what is important and what is not important. We believe this is a promising approach that may finally start to produce usable solutions to this elusive problem."
-},
-{
-  "Title": "Toward an Effective Automated Tracing Process",
-  "Type": "Student Paper (4 pages)",
-  "Key": "icpc12doctoral-id109-mahmoud",
-  "Authors": ["Anas Mahmoud"],
-  "Affiliations": ["Mississippi State University, USA"],
-  "Abstract": "The research on automated tracing has noticeably advanced in the past few years. Various methodologies and tools have been proposed in the literature to provide automatic support for establishing and maintaining traceability information in software systems. This movement is motivated by the increasing attention traceability has been receiving as a de jure standard in software quality assurance. Following that effort, in this research proposal we describe several research directions related to enhancing the effectiveness of automated tracing tools and techniques. Our main research objective is to advance the state of the art in this filed. We present our suggested contributions through a set of incremental enhancements over the conventional automated tracing process, and briefly describe a set of strategies for assessing these contributions impact on the process."
-},
-{
-  "Title": "Characterization of the Linux Configuration System",
-  "Type": "Student Paper (4 pages)",
-  "Key": "icpc12doctoral-id100-jbara",
-  "Authors": ["Ahmad Jbara"],
-  "Affiliations": ["Hebrew University of Jerusalem, Israel"],
-  "Abstract": "Variability in software systems is often expressed using the C pre-processor (CPP). However, CPP has been identified as problematic. We argue that CPP is not as bad as its reputation suggests, and indeed many large systems use it effectively. We perform a deep analysis of the Linux configuration options, and find significant inconsistencies between the source code and the configuration control system. We found that the distribution of the source code config options is heavy-tailed, with some options having more than a thousand instances in the code. Such wide use seems to imply a massive coupling between different parts of the system. However, we argue that employing a purely syntactic analysis, as is commonly done in recent work, is insufficient. By involving semantic considerations, we find that in reality the coupling induced by the very frequent options is limited. We believe that deep characterization as well as semantic consideration are a good basis for future developing of different metrics for the CPP complexity."
-},
-{
-  "Title": "Leveraging Clone Detection for Internet-Scale Source Code Search",
-  "Type": "Student Paper (4 pages)",
-  "Key": "icpc12doctoral-id110-keivanloo",
-  "Authors": ["Iman Keivanloo"],
-  "Affiliations": ["Concordia University, Canada"],
-  "Abstract": "Different approaches to search for source code on the Internet exist. In this paper, we propose techniques that support a special type of Internet-scale code search using two novel syntactical and semantic clone search and detection methods. The syntactical search focuses on providing a scalable real-time engine, while the semantic clone detection is being used to enrich our knowledge base during the offline processing step."
-}
-	],
-	"Sessions": [
-{
-  "Title": "Opening",
-  "ShortTitle": "Opening",
-  "Type": "Plenary",
-  "ShortType": "Plenary",
-  "Key": "Opening",
-  "Day": "6/11/2012",
-  "Time": "9:00 am - 9:20 am"
-},
-{
-  "Title": "Agile Software Assessment",
-  "ShortTitle": "Agile Software Assessment",
-  "Type": "Keynote Paper",
-  "ShortType": "Keynote Paper",
-  "Key": "icpc12invited-inv01-nierstrasz",
-  "Day": "6/11/2012",
-  "Time": "9:20 am - 10:30 am",
-  "Items": ["icpc12invited-inv01-nierstrasz"]
-},
-{
-  "Title": "Cognitive Processes",
-  "ShortTitle": "Cognitive Processes",
-  "Type": "Main Research Track",
-  "ShortType": "Main Research Track",
-  "Key": "CognitiveProcesses",
-  "Day": "6/11/2012",
-  "Time": "11:00 am - 12:45 pm",
-  "Items": ["icpc12main-id24-katzmarski", "icpc12main-id47-sharafi", "icpc12main-id42-ishio", "icpc12main-id31-feigenspan"]
-},
-{
-  "Title": "The Role of the Developer",
-  "ShortTitle": "The Role of the Developer",
-  "Type": "Main Research Track",
-  "ShortType": "Main Research Track",
-  "Key": "TheRoleoftheDeveloper",
-  "Day": "6/11/2012",
-  "Time": "2:15 pm - 3:45 pm",
-  "Items": ["icpc12main-id72-rupakheti", "icpc12main-id54-panichella", "icpc12main-id30-feigenspan"]
-},
-{
-  "Title": "Tool Demonstrations",
-  "ShortTitle": "Tool Demonstrations",
-  "Type": "Tool Demonstrations",
-  "ShortType": "Tool Demonstrations",
-  "Key": "ToolDemonstrations",
-  "Day": "6/12/2012",
-  "Time": "4:15 pm - 5:00 pm",
-  "Items": ["icpc12tools-id99-rupakheti", "icpc12tools-id32-feigenspan", "icpc12tools-id107-keivanloo", "icpc12tools-id91-hotta"]
-},
-{
-  "Title": "Poster Presentations",
-  "ShortTitle": "Poster Presentations",
-  "Type": "Poster Presentations",
-  "ShortType": "Poster Presentations",
-  "Key": "PosterPresentations",
-  "Day": "6/12/2012",
-  "Time": "5:00 pm - 5:45 pm",
-  "Items": ["icpc12posters-id106-kazato", "icpc12posters-id95-zhang", "icpc12posters-id96-tenev", "icpc12posters-id104-sajnani"]
-},
-{
-  "Title": "Excursion to High Ropes Course Passau",
-  "ShortTitle": "Excursion to High Ropes Course Passau",
-  "Type": "Social",
-  "ShortType": "Social",
-  "Key": "ExcursiontoHighRopesCoursePassau",
-  "Day": "6/11/2012",
-  "Time": "3:45 pm - 10:00 pm"
-},
-{
-  "Title": "Studying Developers for Fun and Profit",
-  "ShortTitle": "Studying Developers for Fun and Profit",
-  "Type": "Keynote Paper",
-  "ShortType": "Keynote Paper",
-  "Key": "icpc12invited-inv02-deline",
-  "Day": "6/12/2012",
-  "Time": "9:00 am - 10:15 am",
-  "Items": ["icpc12invited-inv02-deline"]
-},
-{
-  "Title": "Measurement",
-  "ShortTitle": "Measurement",
-  "Type": "Main Research Track",
-  "ShortType": "Main Research Track",
-  "Key": "Measurement",
-  "Day": "6/12/2012",
-  "Time": "10:45 am - 12:45 pm",
-  "Items": ["icpc12main-id15-jbara", "icpc12main-id21-nunez", "icpc12main-id43-silva", "icpc12main-id60-mojicaruiz"]
-},
-{
-  "Title": "Software Architecture",
-  "ShortTitle": "Software Architecture",
-  "Type": "Main Research Track",
-  "ShortType": "Main Research Track",
-  "Key": "SoftwareArchitecture",
-  "Day": "6/12/2012",
-  "Time": "2:15 pm - 3:45 pm",
-  "Items": ["icpc12main-id52-parnin", "icpc12main-id67-alawneh", "icpc12main-id18-yazdanshenas"]
-},
-{
-  "Title": "Open Steering Committee Meeting",
-  "ShortTitle": "Open Steering Committee Meeting",
-  "Type": "Meeting",
-  "ShortType": "Meeting",
-  "Key": "OpenSteeringCommitteeMeeting",
-  "Day": "6/12/2012",
-  "Time": "1:45 pm - 2:15 pm"
-},
-{
-  "Title": "Banquet Cruise at River Danube",
-  "ShortTitle": "Banquet Cruise at River Danube",
-  "Type": "Social",
-  "ShortType": "Social",
-  "Key": "BanquetCruiseatRiverDanube",
-  "Day": "6/12/2012",
-  "Time": "6:30 pm - 10:00 pm"
-},
-{
-  "Title": "A Retrospective View on: The Role of Concepts in Program Comprehension (MIP Award Paper)",
-  "ShortTitle": "MIP Award Paper",
-  "Type": "Invited Paper",
-  "ShortType": "Invited Paper",
-  "Key": "icpc12invited-inv03-rajlich",
-  "Day": "6/13/2012",
-  "Time": "9:00 am - 9:30 am",
-  "Items": ["icpc12invited-inv03-rajlich"]
-},
-{
-  "Title": "Empirical Studies",
-  "ShortTitle": "Empirical Studies",
-  "Type": "Main Research Track",
-  "ShortType": "Main Research Track",
-  "Key": "EmpiricalStudies",
-  "Day": "6/13/2012",
-  "Time": "9:30 am - 10:30 am",
-  "Items": ["icpc12main-id61-kleinschmager", "icpc12main-id48-soh"]
-},
-{
-  "Title": "Semantics and Traceability",
-  "ShortTitle": "Semantics and Traceability",
-  "Type": "Main Research Track",
-  "ShortType": "Main Research Track",
-  "Key": "SemanticsandTraceability",
-  "Day": "6/13/2012",
-  "Time": "11:00 am - 12:45 pm",
-  "Items": ["icpc12main-id4-corley", "icpc12main-id41-mahmoud", "icpc12main-id46-delucia", "icpc12main-id68-dit"]
-},
-{
-  "Title": "Source-Code Analysis",
-  "ShortTitle": "Source-Code Analysis",
-  "Type": "Main Research Track",
-  "ShortType": "Main Research Track",
-  "Key": "SourceCodeAnalysis",
-  "Day": "6/13/2012",
-  "Time": "2:15 pm - 3:45 pm",
-  "Items": ["icpc12main-id19-hauptmann", "icpc12main-id29-harder", "icpc12main-id53-noguera"]
-},
-{
-  "Title": "Student Research Symposium",
-  "ShortTitle": "Student Research Symposium",
-  "Type": "Student Research Symposium",
-  "ShortType": "Student Research Symposium",
-  "Key": "StudentResearchSymposium",
-  "Day": "6/13/2012",
-  "Time": "4:15 pm - 5:45 pm",
-  "Items": ["icpc12doctoral-id101-sajnani", "icpc12doctoral-id109-mahmoud", "icpc12doctoral-id100-jbara", "icpc12doctoral-id110-keivanloo"]
-},
-{
-  "Title": "Closing",
-  "ShortTitle": "Closing",
-  "Type": "Plenary",
-  "ShortType": "Plenary",
-  "Key": "Closing",
-  "Day": "6/13/2012",
-  "Time": "5:45 pm - 6:00 pm"
-}
-	],
-	"People": [
-{
-    "Name": "Abdelwahab Hamou-Lhadj",
-    "Affiliation": "Concordia University, Canada"
-},
-{
-    "Name": "Adam Matan",
-    "Affiliation": "Hebrew University of Jerusalem, Israel"
-},
-{
-    "Name": "Ahmad Jbara",
-    "Affiliation": "Hebrew University of Jerusalem, Israel"
-},
-{
-    "Name": "Ahmed E. Hassan",
-    "Affiliation": "Queen's University, Canada"
-},
-{
-    "Name": "Alessandro Garcia",
-    "Affiliation": "PUC-Rio, Brazil"
-},
-{
-    "Name": "Amir Reza Yazdanshenas",
-    "Affiliation": "Simula Research Laboratory, Norway"
-},
-{
-    "Name": "Anas Mahmoud",
-    "Affiliation": "Mississippi State University, USA"
-},
-{
-    "Name": "Andrea De Lucia",
-    "Affiliation": "University of Salerno, Italy"
-},
-{
-    "Name": "Andreas Stefik",
-    "Affiliation": "Southern Illinois University at Edwardsville, USA"
-},
-{
-    "Name": "Andrian Marcus",
-    "Affiliation": "Wayne State University, USA"
-},
-{
-    "Name": "Andy Kellens",
-    "Affiliation": "Vrije Universiteit Brussel, Belgium"
-},
-{
-    "Name": "Annibale Panichella",
-    "Affiliation": "University of Salerno, Italy"
-},
-{
-    "Name": "Arie van Deursen",
-    "Affiliation": "TU Delft, Netherlands"
-},
-{
-    "Name": "Benedikt Hauptmann",
-    "Affiliation": "TU Munich, Germany"
-},
-{
-    "Name": "Bernhard Katzmarski",
-    "Affiliation": "University of Bremen, Germany"
-},
-{
-    "Name": "Bertrand Van den Plas",
-    "Affiliation": "University of Namur, Belgium"
-},
-{
-    "Name": "Bo Zhang",
-    "Affiliation": "University of Kaiserslautern, Germany"
-},
-{
-    "Name": "Bogdan Dit",
-    "Affiliation": "College of William and Mary, USA"
-},
-{
-    "Name": "Bram Adams",
-    "Affiliation": "École Polytechnique de Montréal, Canada"
-},
-{
-    "Name": "Bruno Silva",
-    "Affiliation": "Federal University of Bahia, Brazil"
-},
-{
-    "Name": "Carlos Noguera",
-    "Affiliation": "Vrije Universiteit Brussel, Belgium"
-},
-{
-    "Name": "Chanchal K. Roy",
-    "Affiliation": "University of Saskatchewan, Canada"
-},
-{
-    "Name": "Chandan R. Rupakheti",
-    "Affiliation": "Clarkson University, USA"
-},
-{
-    "Name": "Chris Parnin",
-    "Affiliation": "Georgia Tech, USA"
-},
-{
-    "Name": "Christian Kästner",
-    "Affiliation": "Philipps University of Marburg, Germany"
-},
-{
-    "Name": "Christina Chavez",
-    "Affiliation": "Federal University of Bahia, Brazil"
-},
-{
-    "Name": "Christopher S. Corley",
-    "Affiliation": "University of Alabama, USA"
-},
-{
-    "Name": "Claudio Sant'Anna",
-    "Affiliation": "Federal University of Bahia, Brazil"
-},
-{
-    "Name": "Coen De Roover",
-    "Affiliation": "Vrije Universiteit Brussel, Belgium"
-},
-{
-    "Name": "Cristina Lopes",
-    "Affiliation": "UC Irvine, USA"
-},
-{
-    "Name": "Daqing Hou",
-    "Affiliation": "Clarkson University, USA"
-},
-{
-    "Name": "Denys Poshyvanyk",
-    "Affiliation": "College of William and Mary, USA"
-},
-{
-    "Name": "Dirk Beyer",
-    "Affiliation": "University of Passau, Germany"
-},
-{
-    "Name": "Don Batory",
-    "Affiliation": "University of Texas, USA"
-},
-{
-    "Name": "Dror G. Feitelson",
-    "Affiliation": "Hebrew University of Jerusalem, Israel"
-},
-{
-    "Name": "Elizabeth A. Kammer",
-    "Affiliation": "University of Alabama, USA"
-},
-{
-    "Name": "Elmar Jürgens",
-    "Affiliation": "CQSE, Germany"
-},
-{
-    "Name": "Éric Tanter",
-    "Affiliation": "University of Chile, Chile"
-},
-{
-    "Name": "Evan Moritz",
-    "Affiliation": "College of William and Mary, USA"
-},
-{
-    "Name": "Gerardo Canfora",
-    "Affiliation": "University of Sannio, Italy"
-},
-{
-    "Name": "Gerardo Cepeda Porras",
-    "Affiliation": "Université de Montréal, Canada"
-},
-{
-    "Name": "Giuliano Antoniol",
-    "Affiliation": "École Polytechnique de Montréal, Canada"
-},
-{
-    "Name": "Gregor Kiczales",
-    "Affiliation": "University of British Columbia, Canada"
-},
-{
-    "Name": "Hiroshi Igaki",
-    "Affiliation": "Osaka University, Japan"
-},
-{
-    "Name": "Hiroshi Kazato",
-    "Affiliation": "NTT, Japan"
-},
-{
-    "Name": "Hitesh Sajnani",
-    "Affiliation": "UC Irvine, USA"
-},
-{
-    "Name": "Iman Keivanloo",
-    "Affiliation": "Concordia University, Canada"
-},
-{
-    "Name": "Israel J. Mojica Ruiz",
-    "Affiliation": "Queen's University, Canada"
-},
-{
-    "Name": "Jairo Aponte",
-    "Affiliation": "Universidad Nacional de Colombia, Colombia"
-},
-{
-    "Name": "Jan Harder",
-    "Affiliation": "University of Bremen, Germany"
-},
-{
-    "Name": "Janet Feigenspan",
-    "Affiliation": "University of Magdeburg, Germany"
-},
-{
-    "Name": "Joel Ossher",
-    "Affiliation": "UC Irvine, USA"
-},
-{
-    "Name": "John-Jose Nuñez",
-    "Affiliation": "University of British Columbia, Canada"
-},
-{
-    "Name": "Jörg Liebig",
-    "Affiliation": "University of Passau, Germany"
-},
-{
-    "Name": "Juergen Rilling",
-    "Affiliation": "Concordia University, Canada"
-},
-{
-    "Name": "Katsuro Inoue",
-    "Affiliation": "Osaka University, Japan"
-},
-{
-    "Name": "Keisuke Hotta",
-    "Affiliation": "Osaka University, Japan"
-},
-{
-    "Name": "Leon Moonen",
-    "Affiliation": "Simula Research Laboratory, Norway"
-},
-{
-    "Name": "Luay Alawneh",
-    "Affiliation": "Concordia University, Canada"
-},
-{
-    "Name": "Massimiliano Di Penta",
-    "Affiliation": "University of Sannio, Italy"
-},
-{
-    "Name": "Maximilian Junker",
-    "Affiliation": "TU Munich, Germany"
-},
-{
-    "Name": "Meiyappan Nagappan",
-    "Affiliation": "Queen's University, Canada"
-},
-{
-    "Name": "Michael W. Godfrey",
-    "Affiliation": "University of Waterloo, Canada"
-},
-{
-    "Name": "Mircea Lungu",
-    "Affiliation": "University of Bern, Switzerland"
-},
-{
-    "Name": "Motoshi Saeki",
-    "Affiliation": "Tokyo Institute of Technology, Japan"
-},
-{
-    "Name": "Nan Niu",
-    "Affiliation": "Mississippi State University, USA"
-},
-{
-    "Name": "Nicholas A. Kraft",
-    "Affiliation": "University of Alabama, USA"
-},
-{
-    "Name": "Norbert Siegmund",
-    "Affiliation": "University of Magdeburg, Germany"
-},
-{
-    "Name": "Norman Wilde",
-    "Affiliation": "University of West Florida, USA"
-},
-{
-    "Name": "Oscar Nierstrasz",
-    "Affiliation": "University of Bern, Switzerland"
-},
-{
-    "Name": "Rainer Koschke",
-    "Affiliation": "University of Bremen, Germany"
-},
-{
-    "Name": "Rebecca Tiarks",
-    "Affiliation": "University of Bremen, Germany"
-},
-{
-    "Name": "Robert DeLine",
-    "Affiliation": "Microsoft Research, USA"
-},
-{
-    "Name": "Rocco Oliveto",
-    "Affiliation": "University of Molise, Italy"
-},
-{
-    "Name": "Romain Robbes",
-    "Affiliation": "University of Chile, Chile"
-},
-{
-    "Name": "Rudolf Vaas",
-    "Affiliation": "Munich Re, Germany"
-},
-{
-    "Name": "Satoshi Okada",
-    "Affiliation": "NTT, Japan"
-},
-{
-    "Name": "Sebastian Eder",
-    "Affiliation": "TU Munich, Germany"
-},
-{
-    "Name": "Sebastian Kleinschmager",
-    "Affiliation": "University of Duisburg-Essen, Germany"
-},
-{
-    "Name": "Sebastiano Panichella",
-    "Affiliation": "University of Sannio, Italy"
-},
-{
-    "Name": "Shinji Kusumoto",
-    "Affiliation": "Osaka University, Japan"
-},
-{
-    "Name": "Shinpei Hayashi",
-    "Affiliation": "Tokyo Institute of Technology, Japan"
-},
-{
-    "Name": "Shogo Etsuda",
-    "Affiliation": "Osaka University, Japan"
-},
-{
-    "Name": "Shunsuke Miyata",
-    "Affiliation": "NTT, Japan"
-},
-{
-    "Name": "Slawomir Duszynski",
-    "Affiliation": "Fraunhofer IESE, Germany"
-},
-{
-    "Name": "Songhua Xu",
-    "Affiliation": "Oak Ridge National Laboratory, USA"
-},
-{
-    "Name": "Spencer Rugaber",
-    "Affiliation": "Georgia Tech, USA"
-},
-{
-    "Name": "Stefan Hanenberg",
-    "Affiliation": "University of Duisburg-Essen, Germany"
-},
-{
-    "Name": "Sven Apel",
-    "Affiliation": "University of Passau, Germany"
-},
-{
-    "Name": "Takashi Hoshino",
-    "Affiliation": "NTT, Japan"
-},
-{
-    "Name": "Takashi Ishio",
-    "Affiliation": "Osaka University, Japan"
-},
-{
-    "Name": "Taylor Riché",
-    "Affiliation": "National Instruments, USA"
-},
-{
-    "Name": "Václav Rajlich",
-    "Affiliation": "Wayne State University, USA"
-},
-{
-    "Name": "Vasil L. Tenev",
-    "Affiliation": "Fraunhofer IESE, Germany"
-},
-{
-    "Name": "Viviane Jonckers",
-    "Affiliation": "Vrije Universiteit Brussel, Belgium"
-},
-{
-    "Name": "Yann-Gaël Guéhéneuc",
-    "Affiliation": "École Polytechnique de Montréal, Canada"
-},
-{
-    "Name": "Yoshiki Higo",
-    "Affiliation": "Osaka University, Japan"
-},
-{
-    "Name": "Zéphyrin Soh",
-    "Affiliation": "École Polytechnique de Montréal, Canada / University of Ngaoundéré, Cameroon"
-},
-{
-    "Name": "Zohreh Sharafi",
-    "Affiliation": "École Polytechnique de Montréal, Canada"
-}
-	]
+    "DataRevision": 2,
+    "Event": "ICPC 2012",
+    "Name": "ICPC 2012",
+    "TwitterKeywords": "",
+    "VenueInfo": {
+        "Name": "University of Passau",
+        "GPS": {
+            "Latitude": 48.570821,
+            "Longitude": 13.456925
+        }
+    },
+    "InfoPage": {
+        "xaml": "foo",
+        "Elements": [
+            {
+                "XamlName": "ConferenceCenterMap",
+                "Type": "Map",
+                "GPS": {
+                    "Latitude": 48.570821,
+                    "Longitude": 13.456925
+                },
+                "MapLabel": "niversity of Passau"
+            },
+            {
+                "XamlName": "LicenseButton",
+                "Type": "WebLink",
+                "URL": "http://research.microsoft.com/en-US/projects/confapp/terms.aspx"
+            },
+            {
+                "XamlName": "PrivacyButton",
+                "Type": "WebLink",
+                "URL": "http://privacy.microsoft.com/en-us/default.msp"
+            }
+        ]
+    },
+    "SessionPriorities": [
+        "Award",
+        "Invited Talk",
+        "Other"
+    ],
+    "Items": [
+        {
+            "Title": "Agile Software Assessment (Invited Paper)",
+            "Type": "Keynote Paper",
+            "Key": "icpc12invited-inv01-nierstrasz",
+            "Authors": [
+                "Oscar Nierstrasz",
+                "Mircea Lungu"
+            ],
+            "Affiliations": [
+                "University of Bern, Switzerland"
+            ],
+            "Abstract": "Informed decision making is a critical activity in software development, but it is poorly supported by common development environments, which focus mainly on low-level programming tasks. We posit the need for \\emph{agile software assessment}, which aims to support decision making by enabling rapid and effective construction of software models and custom analyses. Agile software assessment entails gathering and exploiting the broader context of software information related to the system at hand as well as the ecosystem of related projects, and beyond to include 'big software data'. Finally, informed decision making entails continuous assessment by monitoring the evolving system and its architecture. We identify several key research challenges in supporting agile software assessment by focusing on customization, context and continuous assessment."
+        },
+        {
+            "Title": "Studying Developers for Fun and Profit (Keynote Abstract)",
+            "Type": "Keynote Paper",
+            "Key": "icpc12invited-inv02-deline",
+            "Authors": [
+                "Robert DeLine"
+            ],
+            "Affiliations": [
+                "Microsoft Research, USA"
+            ],
+            "Abstract": "My group at Microsoft Research creates software development tools through user-centered design. This method creates a virtuous cycle. we study developers and their teams, which in turn inspires the tools we design, which we then evaluate with those developers and teams, seeking to improve the nature of their work. In this talk, we'll discuss some of the biggest problem areas we have observed, including information seeking, multitasking and disorientation, and look at some of the prototypes we have built in response. Code Canvas provides a zoomable map of a software project, allowing the programmer to zoom out to see structure and visualizations and zoom in to edit code. Debugger Canvas (a joint project with Brown University) provides a spatial representation of a programmer&#8217;s task, like a debugging session, as it unfolds. Finally, Code Space uses a combination of touch screens, Kinects and mobile devices to allow fluid sharing of digital objects at development team meetings."
+        },
+        {
+            "Title": "A Retrospective View on: The Role of Concepts in Program Comprehension (MIP Award Paper)",
+            "Type": "Invited Paper",
+            "Key": "icpc12invited-inv03-rajlich",
+            "Authors": [
+                "V&#225;clav Rajlich",
+                "Norman Wilde"
+            ],
+            "Affiliations": [
+                "Wayne State University, USA",
+                "University of West Florida, USA"
+            ]
+        },
+        {
+            "Title": "Program Complexity Metrics and Programmer Opinions",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id24-katzmarski",
+            "Authors": [
+                "Bernhard Katzmarski",
+                "Rainer Koschke"
+            ],
+            "Affiliations": [
+                "University of Bremen, Germany"
+            ],
+            "Abstract": "Various program complexity measures have been proposed to assess maintainability. Only relatively few em- pirical studies have been conducted to back up these assess- ments through empirical evidence. Researchers have mostly conducted controlled experiments or correlated metrics with indirect maintainability indicators such as defects or change frequency. This paper uses a different approach. We investigate whether metrics agree with complexity as perceived by programmers. We show that, first, programmers&#8217; opinions are quite similar and, second, only few metrics and in only few cases reproduce complexity rankings similar to human raters. Data-flow metrics seem to better match the viewpoint of programmers than control-flow metrics, but even they are only loosely correlated. Moreover we show that a foolish metric has similar or sometimes even better correlation than other evaluated metrics, which raises the question how meaningful the other metrics really are. In addition to these results, we introduce an approach and associated statistical measures for such multi-rater investiga- tions. Our approach can be used as a model for similar studies."
+        },
+        {
+            "Title": "Women and Men&#173;- Different but Equal: On the Impact of Identifier Style on Source Code Reading",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id47-sharafi",
+            "Authors": [
+                "Zohreh Sharafi",
+                "Z&#233;phyrin Soh",
+                "Yann-Ga&#235;l Gu&#233;h&#233;neuc",
+                "Giuliano Antoniol"
+            ],
+            "Affiliations": [
+                "&#201;cole Polytechnique de Montr&#233;al, Canada",
+                "&#201;cole Polytechnique de Montr&#233;al, Canada / University of Ngaound&#233;r&#233;, Cameroon"
+            ],
+            "Abstract": "Program comprehension is preliminary to any program evolution task. Researchers agree that identifiers play an important role in code reading and program understanding activities. Yet, to the best of our knowledge, only one work investigated the impact of gender on the memorability of identifiers and thus, ultimately, on program comprehension. This paper reports the results of an experiment involving 15 male subjects and nine female subjects to study the impact of gender on the subjects' visual effort, required time, as well as accuracy to recall Camel Case versus Underscore identifiers in source code reading. \\n\\nWe observe no statistically-significant difference in term of accuracy, required time, and effort. However, our data supports the conjecture that male and female subjects follow different comprehension strategies. female subjects seem to carefully weight all options and spend more time to rule out wrong answers while male subjects seem to quickly set their minds on some answers, possibly the wrong ones. Indeed, we found that the effort spent on wrong answers is significantly higher for female subjects and that there is an interaction between the effort that female subjects invested on wrong answers and their higher percentages of correct answers when compared to male subjects."
+        },
+        {
+            "Title": "A Lightweight Visualization of Interprocedural Data-Flow Paths for Source Code Reading",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id42-ishio",
+            "Authors": [
+                "Takashi Ishio",
+                "Shogo Etsuda",
+                "Katsuro Inoue"
+            ],
+            "Affiliations": [
+                "Osaka University, Japan"
+            ],
+            "Abstract": "To understand the behavior of a program, developers must read source code fragments in various modules. For developers investigating data-flow paths among modules, a call graph is too abstract since it does not visualize how parameters of method calls are related to each other. On the other hand, a system dependence graph is too fine-grained to investigate interprocedural data-flow paths. In this research, we propose an intermediate-level of visualization; we visualize interprocedural data-flow paths among method parameters and fields with summarized intraprocedural data-flow paths. We have implemented our visualization as an Eclipse plug-in for Java. The tool comprises a lightweight data-flow analysis and an interactive graph viewer using fractal value to extract a small subgraph of data-flow related to variables specified by a developer. A case study has shown our visualization enabled developers to investigate more data-flow paths in a fixed time slot. In addition, we report our lightweight data-flow analysis can generate precise data-flow paths for 98% of Java methods."
+        },
+        {
+            "Title": "Is the Derivation of a Model Easier to Understand Than the Model Itself?",
+            "Type": "Short Paper (6 pages)",
+            "Key": "icpc12main-id31-feigenspan",
+            "Authors": [
+                "Janet Feigenspan",
+                "Don Batory",
+                "Taylor Rich&#233;"
+            ],
+            "Affiliations": [
+                "University of Magdeburg, Germany",
+                "University of Texas, USA",
+                "National Instruments, USA"
+            ],
+            "Abstract": "Software architectures can be presented by graphs with components as nodes and connectors as edges. These graphs, or models, typically encode expert domain knowledge, which makes them difficult to understand. Hence, instead of presenting a complete complex model, we can derive it from a simple, easy-to-understand model by a set of easy-to-understand transformations. In two controlled experiments, we evaluate whether a derivation of a model is easier to understand than the model itself."
+        },
+        {
+            "Title": "Evaluating Forum Discussions to Inform the Design of an API Critic",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id72-rupakheti",
+            "Authors": [
+                "Chandan R. Rupakheti",
+                "Daqing Hou"
+            ],
+            "Affiliations": [
+                "Clarkson University, USA"
+            ],
+            "Abstract": "Learning to use a software framework and its API (Application Programming Interfaces) can be a major endeavor for novices. To help, we have built a critic to advise the use of an API based on the formal semantics of the API. Speci&#64257;cally, the critic offers advice when the symbolic state of the API client code triggers any API usage rules. To assess to what extent our critic can help solve practical API usage problems and what kinds of API usage rules can be formulated, we manually analyzed 150 discussion threads from the Java Swing forum. We categorize the discussion threads according to how they can be helped by the critic. We &#64257;nd that API problems of the same nature appear repeatedly in the forum, and that API problems of the same nature can be addressed by implementing a new API usage rule for the critic. We characterize the set of discovered API usage rules as a whole. Unlike past empirical studies that focus on answering why frameworks and APIs are hard to learn, ours is the &#64257;rst designed to produce systematic data that have been directly used to build an API support tool."
+        },
+        {
+            "Title": "Mining Source Code Descriptions from Developer Communications",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id54-panichella",
+            "Authors": [
+                "Sebastiano Panichella",
+                "Jairo Aponte",
+                "Massimiliano Di Penta",
+                "Andrian Marcus",
+                "Gerardo Canfora"
+            ],
+            "Affiliations": [
+                "University of Sannio, Italy",
+                "Universidad Nacional de Colombia, Colombia",
+                "Wayne State University, USA"
+            ],
+            "Abstract": "Very often, source code lacks comments that adequately describe its behavior. In such situations developers need to infer knowledge from the source code itself or to search for source code descriptions in external artifacts. \\n\\nWe argue that messages exchanged among contributors/developers, in the form of bug reports and emails, are a useful source of information to help understanding source code. However, such communications are unstructured and usually not explicitly meant to describe specific parts of the source code. Developers searching for code descriptions within communications face the challenge of filtering large amount of data to extract what pieces of information are important to them. We propose an approach to automatically extract method descriptions from communications in bug tracking systems and mailing lists. \\n\\nWe have evaluated the approach on bug reports and mailing lists from two open source systems (Lucene and Eclipse). The results indicate that mailing lists and bug reports contain relevant descriptions of about 36% of the methods from Lucene and 7% from Eclipse, and that the proposed approach is able to extract such descriptions with a precision of up to 79% for Eclipse and 87% for Lucene. The extracted method descriptions can help developers in understanding the code and could also be used as a starting point for source code re-documentation."
+        },
+        {
+            "Title": "Measuring Programming Experience",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id30-feigenspan",
+            "Authors": [
+                "Janet Feigenspan",
+                "Christian K&#228;stner",
+                "J&#246;rg Liebig",
+                "Sven Apel",
+                "Stefan Hanenberg"
+            ],
+            "Affiliations": [
+                "University of Magdeburg, Germany",
+                "Philipps University of Marburg, Germany",
+                "University of Passau, Germany",
+                "University of Duisburg-Essen, Germany"
+            ],
+            "Abstract": "Programming experience is an important confounding parameter in controlled experiments regarding program comprehension. In literature, ways to measure or control programming experience vary. Often, researchers neglect it or do not specify how they controlled it. We set out to find a well-defined understanding of programming experience and a way to measure it. From published comprehension experiments, we extracted questions that assess programming experience. In a controlled experiment, we compare the answers of 128 students to these questions with their performance in solving program-comprehension tasks. We found that self estimation seems to be a reliable way to measure programming experience. Furthermore, we applied exploratory factor analysis to extract a model of programming experience. With our analysis, we initiate a path toward measuring programming experience with a valid and reliable tool, so that we can control its influence on program comprehension."
+        },
+        {
+            "Title": "High-MCC Functions in the Linux Kernel",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id15-jbara",
+            "Authors": [
+                "Ahmad Jbara",
+                "Adam Matan",
+                "Dror G. Feitelson"
+            ],
+            "Affiliations": [
+                "Hebrew University of Jerusalem, Israel"
+            ],
+            "Abstract": "McCabe&#8217;s Cyclomatic Complexity (MCC) is a widely used metric for the complexity of control flow. Common usage decrees that functions should not have an MCC above 50, and preferably much less. However, the Linux kernel includes more than 800 functions with MCC values above 50, and over the years 369 functions have had an MCC of 100 or more. Moreover, some of these functions undergo extensive evolution, indicating that developers are successful in coping with the supposed high complexity. We attempt to explain this by analyzing the structure of such functions and showing that in many cases they are in fact well-structured. At the same time, we observe cases where developers indeed refactor the code in order to reduce complexity. These observations indicate that a high MCC is not necessarily an impediment to code comprehension, and support the notion that complexity cannot be fully captured using simple syntactic code metrics."
+        },
+        {
+            "Title": "Understanding Registration-Based Abstractions: A Quantitative User Study",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id21-nunez",
+            "Authors": [
+                "John-Jose Nu&#241;ez",
+                "Gregor Kiczales"
+            ],
+            "Affiliations": [
+                "University of British Columbia, Canada"
+            ],
+            "Abstract": "The adoption of programming language innovation is impeded because all program processing tools in the tool chain must support any new or altered language features. Registration-based abstractions (RBAs) were proposed to address this difficulty by allowing the editor to transiently superimpose new language abstractions on existing code. Individual programmers can choose where and when to see a new language abstraction, while at all times the underlying code remains written in the original language. Prior work demonstrated the feasibility of RBAs, but left important questions unanswered regarding how users would interact with such an approach. \\n\\nWe asked 50 undergraduate students to answer basic program comprehension questions with and without RBAs. Our results show that participants can quickly and easily understand new abstractions without additional training, and suggest that this will extend to the general programmer community. The results also support a comparison across RBAs, and an initial discussion of specific features that facilitate or confound understanding."
+        },
+        {
+            "Title": "Concern-Based Cohesion: Unveiling a Hidden Dimension of Cohesion Measurement",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id43-silva",
+            "Authors": [
+                "Bruno Silva",
+                "Claudio Sant'Anna",
+                "Christina Chavez",
+                "Alessandro Garcia"
+            ],
+            "Affiliations": [
+                "Federal University of Bahia, Brazil",
+                "PUC-Rio, Brazil"
+            ],
+            "Abstract": "Cohesion has been avidly recognized as a key property of software modularity. Ideally, a software module is considered to be cohesive if it represents an abstraction of a single concern of the software. Modules with several concerns may be harder to understand because developers must mentally separate the source code related to each concern. Also, modules implementing several concerns are more likely to undergo changes as much as distinct development tasks may target its different concerns. The most well-known cohesion metrics are defined in terms of the syntactical structure of a module, and as a consequence fail to capture the amount of concerns realized by the module. In this context, we investigated the potential of a new metric, called Lack of Concern-based Cohesion. This metric explicitly counts the number of concerns realized by each module. We compared this metric with other five structural cohesion metrics by applying them over six open source software systems. We studied how those metrics are associated with module changes by mining over 16,000 repository revisions. Our results pointed out that the concern-based metric captured a cohesion dimension that is not reflected by structural metrics, and, as a consequence, adds to the association of cohesion and change-proneness."
+        },
+        {
+            "Title": "Understanding Reuse in the Android Market",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id60-mojicaruiz",
+            "Authors": [
+                "Israel J. Mojica Ruiz",
+                "Meiyappan Nagappan",
+                "Bram Adams",
+                "Ahmed E. Hassan"
+            ],
+            "Affiliations": [
+                "Queen's University, Canada",
+                "&#201;cole Polytechnique de Montr&#233;al, Canada"
+            ],
+            "Abstract": "Mobile apps are software products developed to run on mobile devices, and are typically distributed via app stores. The mobile app market is estimated to be worth billions of dollars, with more than hundred of thousands of apps, and still increasing in number. This explosion of mobile apps is astonishing, given the short time span that they have been around. One possible explanation for this explosion could be the practice of software reuse. Yet, no research has studied such practice in mobile app development. In this paper, we intend to analyze software reuse in the Android mobile app market along two dimensions. (a) reuse by inheritance, and (b) class reuse. Since app stores only distribute the byte code of the mobile apps, and not the source code, we used the concept of Software Bertillonage to track code across mobile apps. A case study on thousands of mobile apps across five different categories in the Android Market shows that almost 23% of the classes inherit from a base class in the Android API, and 27% of the classes inherit from a domain specific base class. Furthermore, on average 61% of all classes in each category of mobile apps occur in two or more apps, and 217 mobile apps are reused completely by another mobile app in the same category."
+        },
+        {
+            "Title": "Programmer Information Needs after Memory Failure",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id52-parnin",
+            "Authors": [
+                "Chris Parnin",
+                "Spencer Rugaber"
+            ],
+            "Affiliations": [
+                "Georgia Tech, USA"
+            ],
+            "Abstract": "Despite its vast capacity and associative powers, the human brain does not deal well with interruptions. Particularly in situations where information density is high, such as during a programming task, recovering from an interruption requires extensive time and effort. Although modern program development environments have begun to recognize this problem, none of these tools take into account the brain's structure and limitations. In this paper, we present a conceptual framework for understanding the strengths and weaknesses of human memory, particularly with respect to it ability to deal with work interruptions. The framework explains empirical results obtained from experiments in which programmers were interrupted while working. Based on the framework, we discuss programmer information needs that development tools must satisfy and suggest several memory aids such tools could provide. We also describe our prototype implementation of these memory aids."
+        },
+        {
+            "Title": "Identifying Computational Phases from Inter-process Communication Traces of HPC Applications",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id67-alawneh",
+            "Authors": [
+                "Luay Alawneh",
+                "Abdelwahab Hamou-Lhadj"
+            ],
+            "Affiliations": [
+                "Concordia University, Canada"
+            ],
+            "Abstract": "Understanding the behaviour of High Performance Computing (HPC) systems is a challenging task due to the large number of processes they involve as well as the complex interactions among these processes. In this paper, we present a novel approach that aims to simplify the analysis of large execution traces generated from HPC applications. We achieve this through a technique that allows semi-automatic extraction of execution phases from large traces. These phases, which characterize the main computations of the traced scenario, can be used by software engineers to browse the content of a trace at different levels of abstraction. Our approach is based on the application of information theory principles to the analysis of sequences of communication patterns found in HPC traces. The results of the proposed approach when applied to traces of a large HPC industrial system demonstrate its effectiveness in identifying the main program phases and their corresponding sub-phases."
+        },
+        {
+            "Title": "Tracking and Visualizing Information Flow in Component-Based Systems",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id18-yazdanshenas",
+            "Authors": [
+                "Amir Reza Yazdanshenas",
+                "Leon Moonen"
+            ],
+            "Affiliations": [
+                "Simula Research Laboratory, Norway"
+            ],
+            "Abstract": "Component-based software engineering is aimed at managing the complexity of large-scale software development by composing systems from reusable parts. In order to understand or validate the behavior of a given system, one needs to acquire understanding of the components involved in combination with understanding how these components are instantiated, initialized and interconnected in the particular system. In practice, this task is often hindered by the heterogeneous nature of source and configuration artifacts and there is little to no tool support to help software engineers with such a system-wide analysis. \\n\\nThis paper contributes a method to track and visualize information flow in a component-based system at various levels of abstraction. We propose a hierarchy of 5 interconnected views to support the comprehension needs of both safety domain experts and developers from our industrial partner. We discuss the implementation of our approach in a prototype tool, and present an initial qualitative evaluation of the effectiveness and usability of the proposed views for software development and software certification. The prototype was already found to be very useful and a number of directions for further improvement were suggested. We conclude by discussing these improvements and lessons learned."
+        },
+        {
+            "Title": "Do Static Type Systems Improve the Maintainability of Software Systems? An Empirical Study",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id61-kleinschmager",
+            "Authors": [
+                "Sebastian Kleinschmager",
+                "Stefan Hanenberg",
+                "Romain Robbes",
+                "&#201;ric Tanter",
+                "Andreas Stefik"
+            ],
+            "Affiliations": [
+                "University of Duisburg-Essen, Germany",
+                "University of Chile, Chile",
+                "Southern Illinois University at Edwardsville, USA"
+            ],
+            "Abstract": "Static type systems play an essential role in contemporary programming languages. Despite their importance, whether static type systems influence human software development capabilities remains an open question. One frequently mentioned argument for static type systems is that they improve the maintainability of software systems---an often used claim for which there is no empirical evidence. This paper describes an experiment which tests whether static type systems improve the maintainability of software systems. The results show rigorous empirical evidence that static type are indeed beneficial to these activities, except for fixing semantic errors."
+        },
+        {
+            "Title": "Professional Status and Expertise for UML Class Diagram Comprehension: An Empirical Study",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id48-soh",
+            "Authors": [
+                "Z&#233;phyrin Soh",
+                "Zohreh Sharafi",
+                "Bertrand Van den Plas",
+                "Gerardo Cepeda Porras",
+                "Yann-Ga&#235;l Gu&#233;h&#233;neuc",
+                "Giuliano Antoniol"
+            ],
+            "Affiliations": [
+                "&#201;cole Polytechnique de Montr&#233;al, Canada / University of Ngaound&#233;r&#233;, Cameroon",
+                "&#201;cole Polytechnique de Montr&#233;al, Canada",
+                "University of Namur, Belgium",
+                "Universit&#233; de Montr&#233;al, Canada"
+            ],
+            "Abstract": "Professional experience is one of the most important criteria for almost any job offer in software engineering. Profes-sional experience refers both to professional status (practitioner vs. student) and expertise (expert vs. novice). We perform an experiment with 21 subjects including both practitioners and students, and experts and novices. We seek to understand the relation between the speed and accuracy of the subjects and their status and expertise in performing maintenance tasks on UML class diagrams. We also study the impact of the formulation of the maintenance task. We use an eye-tracking system to gather the fixations of the subjects when performing the task. We measure the subjects&#8217; comprehension using their accuracy, the time spent, the search effort, the overall effort, and the question comprehension effort. We found that (1) practitioners are more accurate than students while students spend around 35 percent less time than practitioners, (2) experts are more accurate than novices while novices spending around 33 percent less time than experts, (3) expertise is the most important factor for accuracy and speed, (4) experienced students are more accurate and spend around 37 percent less time than experienced practitioners, and (5) when the description of the task is precise, the novice students can be accurate. We conclude that it is an illusion for project managers to focus on status only when recruiting a software engineer. Our result is the starting point to consider the differences between status and expertise when studying software engineers&#8217; productivity. Thus, it can help project managers to recruit productive engineers and motivated students to acquire the experience and ability in the projects."
+        },
+        {
+            "Title": "Modeling the Ownership of Source Code Topics",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id4-corley",
+            "Authors": [
+                "Christopher S. Corley",
+                "Elizabeth A. Kammer",
+                "Nicholas A. Kraft"
+            ],
+            "Affiliations": [
+                "University of Alabama, USA"
+            ],
+            "Abstract": "Exploring linguistic topics in source code is a program comprehension activity that shows promise in helping a developer to become familiar with an unfamiliar software system. Examining ownership in source code can reveal complementary information, such as who to contact with questions regarding a source code entity, but the relationship between linguistic topics and ownership is an unexplored area. In this paper we combine software repository mining and topic modeling to measure the ownership of linguistic topics in source code. We conduct an exploratory study of the relationship between linguistic topics and ownership in source code using 10 open source Java systems. We find that classes that belong to the same linguistic topic tend to have similar ownership characteristics, which suggests that conceptually related classes often share the same owner(s). We also find that similar topics tend to share the same ownership characteristics, which suggests that the same developers own related topics."
+        },
+        {
+            "Title": "A Semantic Relatedness Approach for Traceability Link Recovery",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id41-mahmoud",
+            "Authors": [
+                "Anas Mahmoud",
+                "Nan Niu",
+                "Songhua Xu"
+            ],
+            "Affiliations": [
+                "Mississippi State University, USA",
+                "Oak Ridge National Laboratory, USA"
+            ],
+            "Abstract": "Human analysts working with automated tracing tools need to directly vet candidate traceability links in order to determine the true traceability information. Currently, human intervention happens at the end of the traceability process, after candidate traceability links have already been generated. This often leads to a decline in the results&#8217; accuracy. In this paper, we propose an approach, based on semantic relatedness (SR), which brings human judgment to an earlier stage of the tracing process by integrating it into the underlying retrieval mechanism. SR tries to mimic human mental model of relevance by considering a broad range of semantic relations, hence producing more semantically meaningful results. We evaluated our approach using three datasets from different application domains, and assessed the tracing results via six different performance measures concerning both result quality and browsability. The empirical evaluation results show that our SR approach achieves a significantly better performance in recovering true links than a standard Vector Space Model (VSM) in all datasets. Our approach also achieves a significantly better precision than Latent Semantic Indexing (LSI) in two of our datasets."
+        },
+        {
+            "Title": "Using IR Methods for Labeling Source Code Artifacts: Is It Worthwhile?",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id46-delucia",
+            "Authors": [
+                "Andrea De Lucia",
+                "Massimiliano Di Penta",
+                "Rocco Oliveto",
+                "Annibale Panichella",
+                "Sebastiano Panichella"
+            ],
+            "Affiliations": [
+                "University of Salerno, Italy",
+                "University of Sannio, Italy",
+                "University of Molise, Italy"
+            ],
+            "Abstract": "Information Retrieval (IR) techniques have been used for various software engineering tasks, including the labeling of software artifacts by extracting 'keywords'' from them. Such techniques include Vector Space Models, Latent Semantic Indexing, Latent Dirichlet Allocation, as well as customized heuristics extracting words from specific source code elements. \\n\\nThis paper investigates how source code artifact labeling performed by IR techniques would overlap (and differ) from labeling performed by humans. This has been done by asking a group of subjects to label 20 classes from two Java software systems, JHotDraw and eXVantage. Results indicate that, in most cases, automatic labeling would be more similar to human-based labeling if using simpler techniques-e.g., using words from class and method names-that better reflect how humans behave. Instead, clustering-based approaches (LSI and LDA) are much more worthwhile to be used on source code artifacts having a high verbosity, as well as for artifacts requiring more effort to be manually labeled."
+        },
+        {
+            "Title": "A TraceLab-Based Solution for Creating, Conducting, and Sharing Feature Location Experiments",
+            "Type": "Short Paper (6 pages)",
+            "Key": "icpc12main-id68-dit",
+            "Authors": [
+                "Bogdan Dit",
+                "Evan Moritz",
+                "Denys Poshyvanyk"
+            ],
+            "Affiliations": [
+                "College of William and Mary, USA"
+            ],
+            "Abstract": "Similarly to other fields in software engineering, the results of case studies involving feature location techniques (FLTs) are hard to reproduce, compare, and generalize, due to factors such as, incompatibility of different datasets, lack of publicly available implementation or implementation details, or the use of different metrics for evaluating FLTs. To address these issues, we propose a solution for creating, conducting, and sharing experiments in feature location based on TraceLab, a framework for conducting research. We argue that this solution would allow rapid advancements in feature location research because it will enable researchers to create new FLTs in the form of TraceLab templates or components, and compare them with existing ones using the same datasets and the same metrics. In addition, it will also allow sharing these FLTs and experiments within the research community. Our proposed solution provides (i) templates and components for creating new FLTs and instantiating existing ones, (ii) datasets that can be used as inputs for these FLTs, and (iii) metrics for comparing these FLTs. The proposed solution can be easily extended with new FLTs (in the form of easily configurable templates and components), datasets, and metrics."
+        },
+        {
+            "Title": "Can Clone Detection Support Test Comprehension?",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id19-hauptmann",
+            "Authors": [
+                "Benedikt Hauptmann",
+                "Maximilian Junker",
+                "Sebastian Eder",
+                "Elmar J&#252;rgens",
+                "Rudolf Vaas"
+            ],
+            "Affiliations": [
+                "TU Munich, Germany",
+                "CQSE, Germany",
+                "Munich Re, Germany"
+            ],
+            "Abstract": "Tests are central artifacts of software systems. Therefore, understanding tests is essential for activities such as maintenance, test automation, and efficient execution. Redundancies in tests may significantly decrease their understandability. Clone detection is a technique to find similar parts in software artifacts. We suggest using this technique to gain a better understanding of tests and to provide guidance for testing activities. We show the capabilities as well as the limits of this approach by conducting a case study analyzing more than 4000 tests of seven industrial software systems."
+        },
+        {
+            "Title": "A Controlled Experiment on Software Clones",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id29-harder",
+            "Authors": [
+                "Jan Harder",
+                "Rebecca Tiarks"
+            ],
+            "Affiliations": [
+                "University of Bremen, Germany"
+            ],
+            "Abstract": "Most software systems contain sections of duplicated source code-clones-that are believed to make maintenance more difficult. Recent studies tested this assumption by retro- spective analyses of software archives. While giving important insights, the analysis of historical data relies only on snapshots and misses the human interaction in between. We conducted a controlled experiment to investigate how clones affect the programmer&#8217;s performance in common bug-fixing tasks. While our results do not exhibit a decisive difference in the time needed to correct cloned bugs, we observed many cases in which cloned bugs were not corrected completely."
+        },
+        {
+            "Title": "Code Querying by UML",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc12main-id53-noguera",
+            "Authors": [
+                "Carlos Noguera",
+                "Coen De Roover",
+                "Andy Kellens",
+                "Viviane Jonckers"
+            ],
+            "Affiliations": [
+                "Vrije Universiteit Brussel, Belgium"
+            ],
+            "Abstract": "The need to identify source code that exhibits particular characteristics is essential to program comprehension. In this paper we introduce ARABICA, a tool for querying Java code using UML class and sequence diagrams. Our use of UML diagrams avoids the need for developers to familiarize themselves with yet another language. In contrast to tools that rely on dedicated query languages, ARABICA encodes querying semantics in a dedicated, minimal UML profile. Stereotyped class and sequence diagrams, characterizing structural and behavioral properties respectively, are translated into logic program queries. Using examples from the JHotDraw framework, we illustrate the utility of ARABICA in validating design invariants, finding design pattern implementations and exploring extension points. We present a pre/post-test quasi experiment as a preliminary assessment of our approach."
+        },
+        {
+            "Title": "CriticAL: A Critic for APIs and Libraries",
+            "Type": "Tool Demo (3 pages)",
+            "Key": "icpc12tools-id99-rupakheti",
+            "Authors": [
+                "Chandan R. Rupakheti",
+                "Daqing Hou"
+            ],
+            "Affiliations": [
+                "Clarkson University, USA"
+            ],
+            "Abstract": "It is well-known that APIs can be hard to learn and use. Although search tools can help &#64257;nd related code examples, API novices still face other signi&#64257;cant challenges such as evaluating the relevance of the search results. To help address the broad problems of &#64257;nding, understanding, and debugging API-based solutions, we have built a critic system that offers recommendations, explanations, and criticisms for API client code. Our critic takes API usage rules as input, performs symbolic execution to check that the client code has followed these rules properly, and generates advice as output to help improve the client code. We demonstrate our critic by applying it to a real- world example derived from the Java Swing Forum."
+        },
+        {
+            "Title": "Supporting Comprehension Experiments with Human Subjects",
+            "Type": "Tool Demo (3 pages)",
+            "Key": "icpc12tools-id32-feigenspan",
+            "Authors": [
+                "Janet Feigenspan",
+                "Norbert Siegmund"
+            ],
+            "Affiliations": [
+                "University of Magdeburg, Germany"
+            ],
+            "Abstract": "Experiments with human subjects become more and more important in software engineering. To support planning, conducting, and replicating experiments targeting program comprehension, we developed PROPHET. It allows experimenters to easily define and customize experimental settings as well as to export settings such that others can replicate their results. Furthermore, PROPHET provides extension points, which allow users to integrate additional functionality."
+        },
+        {
+            "Title": "SeByte: A Semantic Clone Detection Tool for Intermediate Languages",
+            "Type": "Tool Demo (3 pages)",
+            "Key": "icpc12tools-id107-keivanloo",
+            "Authors": [
+                "Iman Keivanloo",
+                "Chanchal K. Roy",
+                "Juergen Rilling"
+            ],
+            "Affiliations": [
+                "Concordia University, Canada",
+                "University of Saskatchewan, Canada"
+            ],
+            "Abstract": "SeByte is a semantic clone detection tool which accepts Java bytecode (binary) as input. SeByte provides a complementary approach to traditional pattern-based source code level clone detection. It is capable of detecting clones missed by existing clone detection tools since it exploits both pattern and content similarity at binary level."
+        },
+        {
+            "Title": "CRat: A Refactoring Support Tool for Form Template Method",
+            "Type": "Tool Demo (3 pages)",
+            "Key": "icpc12tools-id91-hotta",
+            "Authors": [
+                "Keisuke Hotta",
+                "Yoshiki Higo",
+                "Hiroshi Igaki",
+                "Shinji Kusumoto"
+            ],
+            "Affiliations": [
+                "Osaka University, Japan"
+            ],
+            "Abstract": "Refactoring is important for efficient software maintenance. However, manual operations for refactoring are complicated, and human-related errors easily occur. Tool support can help users to apply such a complicated refactoring. This paper proposes a refactoring support tool with Form Template Method pattern. The developed tool automatically identifies method pairs that can be refactored with Form Template Method, and suggests information that is required for Form Template Method application. It also has a function that metrics-based filtering for detected method pairs. The function helps users to select method pairs that should be refactored."
+        },
+        {
+            "Title": "Toward Structured Location of Features",
+            "Type": "Poster Paper (2 pages)",
+            "Key": "icpc12posters-id106-kazato",
+            "Authors": [
+                "Hiroshi Kazato",
+                "Shinpei Hayashi",
+                "Satoshi Okada",
+                "Shunsuke Miyata",
+                "Takashi Hoshino",
+                "Motoshi Saeki"
+            ],
+            "Affiliations": [
+                "NTT, Japan",
+                "Tokyo Institute of Technology, Japan"
+            ],
+            "Abstract": "This paper proposes structured location, a semiautomatic technique and its supporting tool both for locating features and exposing their structures in source code, using a combination of dynamic analysis, sequential pattern mining and formal concept analysis."
+        },
+        {
+            "Title": "Extraction and Improvement of Conditionally Compiled Product Line Code",
+            "Type": "Poster Paper (2 pages)",
+            "Key": "icpc12posters-id95-zhang",
+            "Authors": [
+                "Bo Zhang"
+            ],
+            "Affiliations": [
+                "University of Kaiserslautern, Germany"
+            ],
+            "Abstract": "Conditional Compilation (CC) is one of the most widely used variation mechanisms in the development of software product lines (SPLs). However, a problem in SPL maintenance is that conditionally compiled code blocks are often overly scattered, nested, and tangled, which makes the code difficult to understand. Moreover, if variant code is evolved independently of the corresponding variability model, there is a risk that the two may become inconsistent. As a countermeasure, this paper proposes a maintenance process, consisting of variability extraction, error detection, and refactoring, to improve the quality of product line implementation."
+        },
+        {
+            "Title": "Applying Bioinformatics in the Analysis of Software Variants",
+            "Type": "Poster Paper (2 pages)",
+            "Key": "icpc12posters-id96-tenev",
+            "Authors": [
+                "Vasil L. Tenev",
+                "Slawomir Duszynski"
+            ],
+            "Affiliations": [
+                "Fraunhofer IESE, Germany"
+            ],
+            "Abstract": "Analysis of software similarity is a lively research topic, particularly in the context of software maintenance and software reuse. There exist several approaches to detecting similar code inside one software system and across many systems. While working on similarity analysis of software variants, we observed many analogies between the approaches for analyzing evolution of software and of biological organisms. Hence, we applied bioinformatics concepts used in genome similarity analysis, such as alignments and phylogenetic trees, to software variants. We present the usefulness of these concepts by applying them to a group of related systems from the BSD Unix family."
+        },
+        {
+            "Title": "Parallel Code Clone Detection Using MapReduce",
+            "Type": "Poster Paper (2 pages)",
+            "Key": "icpc12posters-id104-sajnani",
+            "Authors": [
+                "Hitesh Sajnani",
+                "Joel Ossher",
+                "Cristina Lopes"
+            ],
+            "Affiliations": [
+                "UC Irvine, USA"
+            ],
+            "Abstract": "Code clone detection is an established topic in software engineering research. Many detection algorithms have been proposed and refined but very few exploit the inherent parallelism present in the problem, making large scale code clone detection difficult. To alleviate this shortcoming, we present a new technique to efficiently perform clone detection using the popular MapReduce paradigm. Preliminary experimental results demonstrates speed-up and scale-up of the proposed approach."
+        },
+        {
+            "Title": "Automatic Software Architecture Recovery: A Machine Learning Approach",
+            "Type": "Student Paper (4 pages)",
+            "Key": "icpc12doctoral-id101-sajnani",
+            "Authors": [
+                "Hitesh Sajnani"
+            ],
+            "Affiliations": [
+                "UC Irvine, USA"
+            ],
+            "Abstract": "Automatically recovering functional architecture of the software can facilitate the developer's understanding of how the system works. In legacy systems, original source code is often the only available source of information about the system and it is very time consuming to understand source code. Current architecture recovery techniques either require heavy human intervention or fail to recover quality components. To alleviate these shortcomings, we propose use of machine learning techniques which use structural, runtime behavioral, domain, textual and contextual (e.g. code authorship, line co-change) features. These techniques will allow us to experiment with a large number of features of the software artifacts without having to establish a priori our own insights about what is important and what is not important. We believe this is a promising approach that may finally start to produce usable solutions to this elusive problem."
+        },
+        {
+            "Title": "Toward an Effective Automated Tracing Process",
+            "Type": "Student Paper (4 pages)",
+            "Key": "icpc12doctoral-id109-mahmoud",
+            "Authors": [
+                "Anas Mahmoud"
+            ],
+            "Affiliations": [
+                "Mississippi State University, USA"
+            ],
+            "Abstract": "The research on automated tracing has noticeably advanced in the past few years. Various methodologies and tools have been proposed in the literature to provide automatic support for establishing and maintaining traceability information in software systems. This movement is motivated by the increasing attention traceability has been receiving as a de jure standard in software quality assurance. Following that effort, in this research proposal we describe several research directions related to enhancing the effectiveness of automated tracing tools and techniques. Our main research objective is to advance the state of the art in this filed. We present our suggested contributions through a set of incremental enhancements over the conventional automated tracing process, and briefly describe a set of strategies for assessing these contributions impact on the process."
+        },
+        {
+            "Title": "Characterization of the Linux Configuration System",
+            "Type": "Student Paper (4 pages)",
+            "Key": "icpc12doctoral-id100-jbara",
+            "Authors": [
+                "Ahmad Jbara"
+            ],
+            "Affiliations": [
+                "Hebrew University of Jerusalem, Israel"
+            ],
+            "Abstract": "Variability in software systems is often expressed using the C pre-processor (CPP). However, CPP has been identified as problematic. We argue that CPP is not as bad as its reputation suggests, and indeed many large systems use it effectively. We perform a deep analysis of the Linux configuration options, and find significant inconsistencies between the source code and the configuration control system. We found that the distribution of the source code config options is heavy-tailed, with some options having more than a thousand instances in the code. Such wide use seems to imply a massive coupling between different parts of the system. However, we argue that employing a purely syntactic analysis, as is commonly done in recent work, is insufficient. By involving semantic considerations, we find that in reality the coupling induced by the very frequent options is limited. We believe that deep characterization as well as semantic consideration are a good basis for future developing of different metrics for the CPP complexity."
+        },
+        {
+            "Title": "Leveraging Clone Detection for Internet-Scale Source Code Search",
+            "Type": "Student Paper (4 pages)",
+            "Key": "icpc12doctoral-id110-keivanloo",
+            "Authors": [
+                "Iman Keivanloo"
+            ],
+            "Affiliations": [
+                "Concordia University, Canada"
+            ],
+            "Abstract": "Different approaches to search for source code on the Internet exist. In this paper, we propose techniques that support a special type of Internet-scale code search using two novel syntactical and semantic clone search and detection methods. The syntactical search focuses on providing a scalable real-time engine, while the semantic clone detection is being used to enrich our knowledge base during the offline processing step."
+        }
+    ],
+    "Sessions": [
+        {
+            "Title": "Opening",
+            "ShortTitle": "Opening",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "Opening",
+            "Day": "6/11/2012",
+            "Time": "9:00 am - 9:20 am"
+        },
+        {
+            "Title": "Agile Software Assessment",
+            "ShortTitle": "Agile Software Assessment",
+            "Type": "Keynote Paper",
+            "ShortType": "Keynote Paper",
+            "Key": "icpc12invited-inv01-nierstrasz",
+            "Day": "6/11/2012",
+            "Time": "9:20 am - 10:30 am",
+            "Items": [
+                "icpc12invited-inv01-nierstrasz"
+            ]
+        },
+        {
+            "Title": "Cognitive Processes",
+            "ShortTitle": "Cognitive Processes",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "CognitiveProcesses",
+            "Day": "6/11/2012",
+            "Time": "11:00 am - 12:45 pm",
+            "Items": [
+                "icpc12main-id24-katzmarski",
+                "icpc12main-id47-sharafi",
+                "icpc12main-id42-ishio",
+                "icpc12main-id31-feigenspan"
+            ]
+        },
+        {
+            "Title": "The Role of the Developer",
+            "ShortTitle": "The Role of the Developer",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "TheRoleoftheDeveloper",
+            "Day": "6/11/2012",
+            "Time": "2:15 pm - 3:45 pm",
+            "Items": [
+                "icpc12main-id72-rupakheti",
+                "icpc12main-id54-panichella",
+                "icpc12main-id30-feigenspan"
+            ]
+        },
+        {
+            "Title": "Tool Demonstrations",
+            "ShortTitle": "Tool Demonstrations",
+            "Type": "Tool Demonstrations",
+            "ShortType": "Tool Demonstrations",
+            "Key": "ToolDemonstrations",
+            "Day": "6/12/2012",
+            "Time": "4:15 pm - 5:00 pm",
+            "Items": [
+                "icpc12tools-id99-rupakheti",
+                "icpc12tools-id32-feigenspan",
+                "icpc12tools-id107-keivanloo",
+                "icpc12tools-id91-hotta"
+            ]
+        },
+        {
+            "Title": "Poster Presentations",
+            "ShortTitle": "Poster Presentations",
+            "Type": "Poster Presentations",
+            "ShortType": "Poster Presentations",
+            "Key": "PosterPresentations",
+            "Day": "6/12/2012",
+            "Time": "5:00 pm - 5:45 pm",
+            "Items": [
+                "icpc12posters-id106-kazato",
+                "icpc12posters-id95-zhang",
+                "icpc12posters-id96-tenev",
+                "icpc12posters-id104-sajnani"
+            ]
+        },
+        {
+            "Title": "Excursion to High Ropes Course Passau",
+            "ShortTitle": "Excursion to High Ropes Course Passau",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "ExcursiontoHighRopesCoursePassau",
+            "Day": "6/11/2012",
+            "Time": "3:45 pm - 10:00 pm"
+        },
+        {
+            "Title": "Studying Developers for Fun and Profit",
+            "ShortTitle": "Studying Developers for Fun and Profit",
+            "Type": "Keynote Paper",
+            "ShortType": "Keynote Paper",
+            "Key": "icpc12invited-inv02-deline",
+            "Day": "6/12/2012",
+            "Time": "9:00 am - 10:15 am",
+            "Items": [
+                "icpc12invited-inv02-deline"
+            ]
+        },
+        {
+            "Title": "Measurement",
+            "ShortTitle": "Measurement",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "Measurement",
+            "Day": "6/12/2012",
+            "Time": "10:45 am - 12:45 pm",
+            "Items": [
+                "icpc12main-id15-jbara",
+                "icpc12main-id21-nunez",
+                "icpc12main-id43-silva",
+                "icpc12main-id60-mojicaruiz"
+            ]
+        },
+        {
+            "Title": "Software Architecture",
+            "ShortTitle": "Software Architecture",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "SoftwareArchitecture",
+            "Day": "6/12/2012",
+            "Time": "2:15 pm - 3:45 pm",
+            "Items": [
+                "icpc12main-id52-parnin",
+                "icpc12main-id67-alawneh",
+                "icpc12main-id18-yazdanshenas"
+            ]
+        },
+        {
+            "Title": "Open Steering Committee Meeting",
+            "ShortTitle": "Open Steering Committee Meeting",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "OpenSteeringCommitteeMeeting",
+            "Day": "6/12/2012",
+            "Time": "1:45 pm - 2:15 pm"
+        },
+        {
+            "Title": "Banquet Cruise at River Danube",
+            "ShortTitle": "Banquet Cruise at River Danube",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "BanquetCruiseatRiverDanube",
+            "Day": "6/12/2012",
+            "Time": "6:30 pm - 10:00 pm"
+        },
+        {
+            "Title": "A Retrospective View on: The Role of Concepts in Program Comprehension (MIP Award Paper)",
+            "ShortTitle": "MIP Award Paper",
+            "Type": "Invited Paper",
+            "ShortType": "Invited Paper",
+            "Key": "icpc12invited-inv03-rajlich",
+            "Day": "6/13/2012",
+            "Time": "9:00 am - 9:30 am",
+            "Items": [
+                "icpc12invited-inv03-rajlich"
+            ]
+        },
+        {
+            "Title": "Empirical Studies",
+            "ShortTitle": "Empirical Studies",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "EmpiricalStudies",
+            "Day": "6/13/2012",
+            "Time": "9:30 am - 10:30 am",
+            "Items": [
+                "icpc12main-id61-kleinschmager",
+                "icpc12main-id48-soh"
+            ]
+        },
+        {
+            "Title": "Semantics and Traceability",
+            "ShortTitle": "Semantics and Traceability",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "SemanticsandTraceability",
+            "Day": "6/13/2012",
+            "Time": "11:00 am - 12:45 pm",
+            "Items": [
+                "icpc12main-id4-corley",
+                "icpc12main-id41-mahmoud",
+                "icpc12main-id46-delucia",
+                "icpc12main-id68-dit"
+            ]
+        },
+        {
+            "Title": "Source-Code Analysis",
+            "ShortTitle": "Source-Code Analysis",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "SourceCodeAnalysis",
+            "Day": "6/13/2012",
+            "Time": "2:15 pm - 3:45 pm",
+            "Items": [
+                "icpc12main-id19-hauptmann",
+                "icpc12main-id29-harder",
+                "icpc12main-id53-noguera"
+            ]
+        },
+        {
+            "Title": "Student Research Symposium",
+            "ShortTitle": "Student Research Symposium",
+            "Type": "Student Research Symposium",
+            "ShortType": "Student Research Symposium",
+            "Key": "StudentResearchSymposium",
+            "Day": "6/13/2012",
+            "Time": "4:15 pm - 5:45 pm",
+            "Items": [
+                "icpc12doctoral-id101-sajnani",
+                "icpc12doctoral-id109-mahmoud",
+                "icpc12doctoral-id100-jbara",
+                "icpc12doctoral-id110-keivanloo"
+            ]
+        },
+        {
+            "Title": "Closing",
+            "ShortTitle": "Closing",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "Closing",
+            "Day": "6/13/2012",
+            "Time": "5:45 pm - 6:00 pm"
+        }
+    ],
+    "People": [
+        {
+            "Name": "Abdelwahab Hamou-Lhadj",
+            "Affiliation": "Concordia University, Canada"
+        },
+        {
+            "Name": "Adam Matan",
+            "Affiliation": "Hebrew University of Jerusalem, Israel"
+        },
+        {
+            "Name": "Ahmad Jbara",
+            "Affiliation": "Hebrew University of Jerusalem, Israel"
+        },
+        {
+            "Name": "Ahmed E. Hassan",
+            "Affiliation": "Queen's University, Canada"
+        },
+        {
+            "Name": "Alessandro Garcia",
+            "Affiliation": "PUC-Rio, Brazil"
+        },
+        {
+            "Name": "Amir Reza Yazdanshenas",
+            "Affiliation": "Simula Research Laboratory, Norway"
+        },
+        {
+            "Name": "Anas Mahmoud",
+            "Affiliation": "Mississippi State University, USA"
+        },
+        {
+            "Name": "Andrea De Lucia",
+            "Affiliation": "University of Salerno, Italy"
+        },
+        {
+            "Name": "Andreas Stefik",
+            "Affiliation": "Southern Illinois University at Edwardsville, USA"
+        },
+        {
+            "Name": "Andrian Marcus",
+            "Affiliation": "Wayne State University, USA"
+        },
+        {
+            "Name": "Andy Kellens",
+            "Affiliation": "Vrije Universiteit Brussel, Belgium"
+        },
+        {
+            "Name": "Annibale Panichella",
+            "Affiliation": "University of Salerno, Italy"
+        },
+        {
+            "Name": "Arie van Deursen",
+            "Affiliation": "TU Delft, Netherlands"
+        },
+        {
+            "Name": "Benedikt Hauptmann",
+            "Affiliation": "TU Munich, Germany"
+        },
+        {
+            "Name": "Bernhard Katzmarski",
+            "Affiliation": "University of Bremen, Germany"
+        },
+        {
+            "Name": "Bertrand Van den Plas",
+            "Affiliation": "University of Namur, Belgium"
+        },
+        {
+            "Name": "Bo Zhang",
+            "Affiliation": "University of Kaiserslautern, Germany"
+        },
+        {
+            "Name": "Bogdan Dit",
+            "Affiliation": "College of William and Mary, USA"
+        },
+        {
+            "Name": "Bram Adams",
+            "Affiliation": "&#201;cole Polytechnique de Montr&#233;al, Canada"
+        },
+        {
+            "Name": "Bruno Silva",
+            "Affiliation": "Federal University of Bahia, Brazil"
+        },
+        {
+            "Name": "Carlos Noguera",
+            "Affiliation": "Vrije Universiteit Brussel, Belgium"
+        },
+        {
+            "Name": "Chanchal K. Roy",
+            "Affiliation": "University of Saskatchewan, Canada"
+        },
+        {
+            "Name": "Chandan R. Rupakheti",
+            "Affiliation": "Clarkson University, USA"
+        },
+        {
+            "Name": "Chris Parnin",
+            "Affiliation": "Georgia Tech, USA"
+        },
+        {
+            "Name": "Christian K&#228;stner",
+            "Affiliation": "Philipps University of Marburg, Germany"
+        },
+        {
+            "Name": "Christina Chavez",
+            "Affiliation": "Federal University of Bahia, Brazil"
+        },
+        {
+            "Name": "Christopher S. Corley",
+            "Affiliation": "University of Alabama, USA"
+        },
+        {
+            "Name": "Claudio Sant'Anna",
+            "Affiliation": "Federal University of Bahia, Brazil"
+        },
+        {
+            "Name": "Coen De Roover",
+            "Affiliation": "Vrije Universiteit Brussel, Belgium"
+        },
+        {
+            "Name": "Cristina Lopes",
+            "Affiliation": "UC Irvine, USA"
+        },
+        {
+            "Name": "Daqing Hou",
+            "Affiliation": "Clarkson University, USA"
+        },
+        {
+            "Name": "Denys Poshyvanyk",
+            "Affiliation": "College of William and Mary, USA"
+        },
+        {
+            "Name": "Dirk Beyer",
+            "Affiliation": "University of Passau, Germany"
+        },
+        {
+            "Name": "Don Batory",
+            "Affiliation": "University of Texas, USA"
+        },
+        {
+            "Name": "Dror G. Feitelson",
+            "Affiliation": "Hebrew University of Jerusalem, Israel"
+        },
+        {
+            "Name": "Elizabeth A. Kammer",
+            "Affiliation": "University of Alabama, USA"
+        },
+        {
+            "Name": "Elmar J&#252;rgens",
+            "Affiliation": "CQSE, Germany"
+        },
+        {
+            "Name": "&#201;ric Tanter",
+            "Affiliation": "University of Chile, Chile"
+        },
+        {
+            "Name": "Evan Moritz",
+            "Affiliation": "College of William and Mary, USA"
+        },
+        {
+            "Name": "Gerardo Canfora",
+            "Affiliation": "University of Sannio, Italy"
+        },
+        {
+            "Name": "Gerardo Cepeda Porras",
+            "Affiliation": "Universit&#233; de Montr&#233;al, Canada"
+        },
+        {
+            "Name": "Giuliano Antoniol",
+            "Affiliation": "&#201;cole Polytechnique de Montr&#233;al, Canada"
+        },
+        {
+            "Name": "Gregor Kiczales",
+            "Affiliation": "University of British Columbia, Canada"
+        },
+        {
+            "Name": "Hiroshi Igaki",
+            "Affiliation": "Osaka University, Japan"
+        },
+        {
+            "Name": "Hiroshi Kazato",
+            "Affiliation": "NTT, Japan"
+        },
+        {
+            "Name": "Hitesh Sajnani",
+            "Affiliation": "UC Irvine, USA"
+        },
+        {
+            "Name": "Iman Keivanloo",
+            "Affiliation": "Concordia University, Canada"
+        },
+        {
+            "Name": "Israel J. Mojica Ruiz",
+            "Affiliation": "Queen's University, Canada"
+        },
+        {
+            "Name": "Jairo Aponte",
+            "Affiliation": "Universidad Nacional de Colombia, Colombia"
+        },
+        {
+            "Name": "Jan Harder",
+            "Affiliation": "University of Bremen, Germany"
+        },
+        {
+            "Name": "Janet Feigenspan",
+            "Affiliation": "University of Magdeburg, Germany"
+        },
+        {
+            "Name": "Joel Ossher",
+            "Affiliation": "UC Irvine, USA"
+        },
+        {
+            "Name": "John-Jose Nu&#241;ez",
+            "Affiliation": "University of British Columbia, Canada"
+        },
+        {
+            "Name": "J&#246;rg Liebig",
+            "Affiliation": "University of Passau, Germany"
+        },
+        {
+            "Name": "Juergen Rilling",
+            "Affiliation": "Concordia University, Canada"
+        },
+        {
+            "Name": "Katsuro Inoue",
+            "Affiliation": "Osaka University, Japan"
+        },
+        {
+            "Name": "Keisuke Hotta",
+            "Affiliation": "Osaka University, Japan"
+        },
+        {
+            "Name": "Leon Moonen",
+            "Affiliation": "Simula Research Laboratory, Norway"
+        },
+        {
+            "Name": "Luay Alawneh",
+            "Affiliation": "Concordia University, Canada"
+        },
+        {
+            "Name": "Massimiliano Di Penta",
+            "Affiliation": "University of Sannio, Italy"
+        },
+        {
+            "Name": "Maximilian Junker",
+            "Affiliation": "TU Munich, Germany"
+        },
+        {
+            "Name": "Meiyappan Nagappan",
+            "Affiliation": "Queen's University, Canada"
+        },
+        {
+            "Name": "Michael W. Godfrey",
+            "Affiliation": "University of Waterloo, Canada"
+        },
+        {
+            "Name": "Mircea Lungu",
+            "Affiliation": "University of Bern, Switzerland"
+        },
+        {
+            "Name": "Motoshi Saeki",
+            "Affiliation": "Tokyo Institute of Technology, Japan"
+        },
+        {
+            "Name": "Nan Niu",
+            "Affiliation": "Mississippi State University, USA"
+        },
+        {
+            "Name": "Nicholas A. Kraft",
+            "Affiliation": "University of Alabama, USA"
+        },
+        {
+            "Name": "Norbert Siegmund",
+            "Affiliation": "University of Magdeburg, Germany"
+        },
+        {
+            "Name": "Norman Wilde",
+            "Affiliation": "University of West Florida, USA"
+        },
+        {
+            "Name": "Oscar Nierstrasz",
+            "Affiliation": "University of Bern, Switzerland"
+        },
+        {
+            "Name": "Rainer Koschke",
+            "Affiliation": "University of Bremen, Germany"
+        },
+        {
+            "Name": "Rebecca Tiarks",
+            "Affiliation": "University of Bremen, Germany"
+        },
+        {
+            "Name": "Robert DeLine",
+            "Affiliation": "Microsoft Research, USA"
+        },
+        {
+            "Name": "Rocco Oliveto",
+            "Affiliation": "University of Molise, Italy"
+        },
+        {
+            "Name": "Romain Robbes",
+            "Affiliation": "University of Chile, Chile"
+        },
+        {
+            "Name": "Rudolf Vaas",
+            "Affiliation": "Munich Re, Germany"
+        },
+        {
+            "Name": "Satoshi Okada",
+            "Affiliation": "NTT, Japan"
+        },
+        {
+            "Name": "Sebastian Eder",
+            "Affiliation": "TU Munich, Germany"
+        },
+        {
+            "Name": "Sebastian Kleinschmager",
+            "Affiliation": "University of Duisburg-Essen, Germany"
+        },
+        {
+            "Name": "Sebastiano Panichella",
+            "Affiliation": "University of Sannio, Italy"
+        },
+        {
+            "Name": "Shinji Kusumoto",
+            "Affiliation": "Osaka University, Japan"
+        },
+        {
+            "Name": "Shinpei Hayashi",
+            "Affiliation": "Tokyo Institute of Technology, Japan"
+        },
+        {
+            "Name": "Shogo Etsuda",
+            "Affiliation": "Osaka University, Japan"
+        },
+        {
+            "Name": "Shunsuke Miyata",
+            "Affiliation": "NTT, Japan"
+        },
+        {
+            "Name": "Slawomir Duszynski",
+            "Affiliation": "Fraunhofer IESE, Germany"
+        },
+        {
+            "Name": "Songhua Xu",
+            "Affiliation": "Oak Ridge National Laboratory, USA"
+        },
+        {
+            "Name": "Spencer Rugaber",
+            "Affiliation": "Georgia Tech, USA"
+        },
+        {
+            "Name": "Stefan Hanenberg",
+            "Affiliation": "University of Duisburg-Essen, Germany"
+        },
+        {
+            "Name": "Sven Apel",
+            "Affiliation": "University of Passau, Germany"
+        },
+        {
+            "Name": "Takashi Hoshino",
+            "Affiliation": "NTT, Japan"
+        },
+        {
+            "Name": "Takashi Ishio",
+            "Affiliation": "Osaka University, Japan"
+        },
+        {
+            "Name": "Taylor Rich&#233;",
+            "Affiliation": "National Instruments, USA"
+        },
+        {
+            "Name": "V&#225;clav Rajlich",
+            "Affiliation": "Wayne State University, USA"
+        },
+        {
+            "Name": "Vasil L. Tenev",
+            "Affiliation": "Fraunhofer IESE, Germany"
+        },
+        {
+            "Name": "Viviane Jonckers",
+            "Affiliation": "Vrije Universiteit Brussel, Belgium"
+        },
+        {
+            "Name": "Yann-Ga&#235;l Gu&#233;h&#233;neuc",
+            "Affiliation": "&#201;cole Polytechnique de Montr&#233;al, Canada"
+        },
+        {
+            "Name": "Yoshiki Higo",
+            "Affiliation": "Osaka University, Japan"
+        },
+        {
+            "Name": "Z&#233;phyrin Soh",
+            "Affiliation": "&#201;cole Polytechnique de Montr&#233;al, Canada / University of Ngaound&#233;r&#233;, Cameroon"
+        },
+        {
+            "Name": "Zohreh Sharafi",
+            "Affiliation": "&#201;cole Polytechnique de Montr&#233;al, Canada"
+        }
+    ]
 }
