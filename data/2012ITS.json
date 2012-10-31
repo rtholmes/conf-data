@@ -1,18 +1,1347 @@
 {
-    "DataRevision": 1,
-    "Event": "ITS2012",
-    "Name": "ITS 2012",
-    "Items": [],
-    "Sessions": [
-        {
-            "Title": "Program not yet set",
-            "Type": "Academic Conference",
-            "Key": "its-conf",
-            "Day": "11/11/2012",
-            "Time": "8:30 am - 5:30 pm",
-            "Location": "Boston, MA, USA",
-            "Abstract": "The ITS program will be updated online soon."
-        }
-    ],
-    "People": []
+	"DataRevision": 5,
+	"Event": "ITS2012",
+	"Name": "ACM ITS 2012",
+	"TwitterKeywords": "its2012conf",
+	"VenueInfo": {
+		"Name": "Hyatt Regency Cambridge"
+	},
+	"SessionPriorities": [
+		"Plenary", 
+		"Paper",
+		"Note", 
+		"Keynote",
+		"Paper Session", 
+		"Workshop/Tutorial",
+		"Social",
+		"Other"
+	],
+	"Items": [		
+		{
+			"Title": "Investigating Selection above a Multi-touch Surface",
+			"Type": "Paper",
+			"Key": "selection-above-multitouch-surface",
+			"Authors": [
+				"Dimitry Pyryeskin",
+				"Mark Hancock",
+				"Jesse Hoey"
+			],
+			"Affiliations": [
+				"University of Waterloo"
+			],
+			"Abstract": "Many new technologies are emerging that make it possible to extend interaction into the three-dimensional space directly above or in front of a multitouch surface. Such techniques allow people to control these devices by performing hand gestures in the air. In this paper, we present a method of extending interactions into the space above a multitouch surface using only a standard diffused surface illumination (DSI) device, without any additional sensors. Then we focus on interaction techniques for activating graphical widgets located in this above-surface space. We have conducted a study to elicit gestures for above-table widget activation. A follow-up study was conducted to evaluate and compare these gestures based on their performance. Our results showed that there was no clear agreement on what gestures should be used to select objects in mid-air, and that performance was better when using gestures that were chosen less frequently, but predicted to be better by the designers, as opposed to those most frequently suggested by participants."
+		},
+		{
+			"Title": "Direct Manipulation and the Third Dimension: Co-Planar Dragging on 3D Displays",
+			"Type": "Paper",
+			"Key": "direct-manipulation-third-dimension",
+			"Authors": [
+				"Max M&#246;llers",
+				"Patrick Zimmer",
+				"Jan Borchers"
+			],
+			"Affiliations": [
+				"RWTH Aachen University"
+			],
+			"Abstract": "Recent advances in touch and display technologies are supporting a wide-spread use of touch-based direct manipulation techniques as well as 3D displays that give a perspectively correct view. Both techniques have consistency constraints including the following: With direct manipulation, a dragged object should stick to the finger tip. With viewer centered projection, head movement should update the scene's projection to preserve a sound 3D impression, e.g., leaning around a house should reveal its backyard. Unfortunately, these two contradict each other, making a combination, e.g., moving the head while touching or dragging an object, non-trivial. We introduce a design space of perspectively adjusted methods for direct manipulation to cope with this limitation, select nine different strategies from it, and evaluate six of them in depth. Participants dragged a box through a 3D maze with multiple, partially occluded levels. We identified one method to be among the fastest while yielding up to 32% less collisions than the other fast methods."
+		},
+		{
+			"Title": "Evaluation of Depth Perception for Touch Interaction with Stereoscopic Rendered Objects",
+			"Type": "Paper",
+			"Key": "depth-perception-stereoscopic-objects",
+			"Authors": [
+				"Dimitar Valkov",
+				"Alexander Giesler",
+				"Klaus Hinrichs"
+			],
+			"Affiliations": [
+				"Universit&#228;t M&#252;nster"
+			],
+			"Abstract": "Recent developments in the domain of Human Computer Interaction have suggested to combine stereoscopic visualization with touch interaction. Although this combination has the potential to provide more intuitive and natural interaction setups for a wide range of applications, until now interaction with such systems is mainly constrained to simple navigation, whereas manipulation of the stereoscopically displayed objects is supported only rather rudimentarily. \nIn this paper we investigate the users' ability to discriminate depth or depth motion of stereoscopically rendered objects while she is performing touch gestures and discuss implications for object selection and manipulation. Our results show that there is a usable range of imperceptible manipulation, which - if properly applied - could support interaction with objects floating in the vicinity around the display surface without noticeable impact on a user's visual or touch performance."
+		},
+		{
+			"Title": "Gradual Engagement: Facilitating Information Exchange between Digital Devices as a Function of Proximity",
+			"Type": "Paper",
+			"Key": "info-exchange-proximity",
+			"Authors": [
+				"Nicolai Marquardt",
+				"Till Ballendat",
+				"Sebastian Boring",
+				"Saul Greenberg",
+				"Ken Hinckley"
+			],
+			"Affiliations": [
+				"University of Calgary",
+				"Microsoft Research"
+			],
+			"Abstract": "The increasing number of digital devices in our environment enriches how we interact with digital content. Yet, crossdevice information transfer &#8211; which should be a common operation &#8211; is surprisingly difficult. One has to know which devices can communicate, what information they contain, and how information can be exchanged. To mitigate this problem, we formulate the gradual engagement design pattern that generalizes prior work in proxemic interactions and informs future system designs. The pattern describes how we can design device interfaces to gradually engage the user by disclosing connectivity and information exchange capabilities as a function of inter-device proximity. These capabilities flow across three stages: (1) awareness of device presence/connectivity, (2) reveal of exchangeable content, and (3) interaction methods for  transferring content between devices tuned to particular distances and device capabilities. We illustrate how we can apply this pattern to design, and show how existing and novel interaction techniques for cross-device transfers can be integrated to flow across its various stages. We explore how techniques differ between personal and semi-public devices, and how the pattern supports interaction of multiple users."
+		},
+		{
+			"Title": "Eliciting Usable Gestures for Multi-Display Environments",
+			"Type": "Paper",
+			"Key": "usable-gestures-multidisplay",
+			"Authors": [
+				"Teddy Seyed",
+				"Chris Burns",
+				"Mario Costa Sousa",
+				"Frank Maurer",
+				"Anthony Tang"
+			],
+			"Affiliations": [
+				"University of Calgary"
+			],
+			"Abstract": "Multi-display environments (MDEs) have advanced rapidly in recent years, incorporating multi-touch tabletops, tablets, wall displays and even position tracking systems. Designers have proposed a variety of interesting gestures for use in an MDE, some of which involve a user moving their hands, arms, body or even a device itself. These gestures are often used as part of interactions to move data between the various components of an MDE, which is a longstanding research problem. But designers, not users, have created most of these gestures and concerns over implementation issues such as recognition may have influenced their design. We performed a user study to elicit these gestures directly from users, but found a low level of convergence among the gestures produced. This lack of agreement is important and we discuss its possible causes and the implication it has for designers. To assist designers, we present the most prevalent gestures and some of the underlying conceptual themes behind them. We also provide analysis of how certain factors such as distance and device type impact the choice of gestures and discuss how to apply them to real-world systems."
+		},
+		{
+			"Title": "MobiSurf: Improving Co-located Collaboration through Integrating Mobile Devices and Interactive Surfaces",
+			"Type": "Paper",
+			"Key": "integrating-mobile-surfaces",
+			"Authors": [
+				"Julian Seifert",
+				"Adalberto Simeone",
+				"Dominik Schmidt",
+				"Paul Holleis",
+				"Christian Reinartz",
+				"Matthias Wagner",
+				"Hans Gellersen",
+				"Enrico Rukzio"
+			],
+			"Affiliations": [
+				"Ulm University",
+				"Lancaster University",
+				"Hasso-Plattner-Institut",
+				"University of Duisburg-Essen",
+				"DOCOMO Euro Labs"
+			],
+			"Abstract": "One of the most popular scenarios for advertising interactive surfaces in the home is their support for solving co-located collaborative tasks. Examples include joint planning of events (e.g., holidays) or deciding on a shared purchase (e.g., a present for a common friend). However, this usually implies that all interactions with information happen on the common display. This is in contrast to the current practices to use personal devices and further, most people's behavior to constantly switch between individual and group phases because people have differing search strategies, preferences, etc. We therefore investigated how the combination of personal devices and a simple way of exchanging information between these devices and an interactive surface changes the way people solve collaborative tasks compared to an existing approach of using personal devices. Our study results clearly indicate that the combination of personal and a shared device allows users to fluently switch between individual and group work phases and users take advantage of both device classes."
+		},
+		{
+			"Title": "Tabletop Games for Photo Consumption at Theme Parks",
+			"Type": "Paper",
+			"Key": "tabletop-games-photo",
+			"Authors": [
+				"Edward Anstead",
+				"Abigail Durrant",
+				"Steve Benford",
+				"David Kirk"
+			],
+			"Affiliations": [
+				"University of Nottingham",
+				"Newcastle University"
+			],
+			"Abstract": "This paper broadly explores novel tabletop interaction design opportunities for photo-souvenir consumption in a theme park context. We present the design and user evaluation of two tabletop applications for the playful triaging of photo collections within groups from a day trip to a UK theme park. Combining triaging with gameplay, the designs explore two distinct styles of user interaction, requiring either speed and dexterity or thoughtful strategy. Herein we discuss the rationale for the design process and the findings generated from our evaluation. Our study reveals the social impact of gameplay on user engagement with triaging tasks and implications for the deployment of interactive tabletop interfaces within theme parks to support photo consumption as part of the park experience."
+		},
+		{
+			"Title": "Investigating Menu Discoverability on a Digital Tabletop in a Public Setting",
+			"Type": "Paper",
+			"Key": "menu-discoverability",
+			"Authors": [
+				"Mindy Seto",
+				"Stacey Scott",
+				"Mark Hancock"
+			],
+			"Affiliations": [
+				"University of Waterloo"
+			],
+			"Abstract": "A common challenge to the design of digital tabletops for public settings is how to effectively invite and guide passersby&#8212;who often have no prior experience with such technology&#8212;to interact using unfamiliar interaction methods and interfaces. We characterize such enticement from the system interface as the system&#8217;s discoverability. A particular challenge to modern surface interfaces is the discoverability of system functionality: does the system require gestures? are there system menus? if so, how are they invoked? This research focuses on the discoverability of system menus on digital tabletops designed for public settings. An observational study of menu invocation methods in a museum setting is reported. Study findings suggest that discernible and recognizable interface elements, such as buttons, supported by the use of animation, can effectively attract and guide the discovery of menus. Design recommendations for improving menu discoverability are also presented."
+		},
+		{
+			"Title": "Re-Collision: a Collision Reconstruction Forensics Tabletop Interface",
+			"Type": "Note",
+			"Key": "collision-reconstruction",
+			"Authors": [
+				"Marcel Tozser",
+				"Nicole Sultanum",
+				"Ehud Sharlin",
+				"Ken Rutherford",
+				"Colin Foster"
+			],
+			"Affiliations": [
+				"University of Calgary",
+				"IBM Research",
+				"Calgary Police Service"
+			],
+			"Abstract": "In this paper we present the design, implementation and preliminary evaluation of Re-Collision, a prototype collision reconstruction tabletop interface. Re-Collision was developed through a participatory design process involving expert users from the Calgary Police Forensics Team and Collision Reconstruction Team. We briefly cover fundamental domain characteristics emerging from interview sessions and explain how these informed the design of Re-Collision. The paper details our current prototype implementation and discusses results of a design critique conducted with domain experts using our system, helping us assess the potential of tabletop interfaces as aids in the process of collision reconstruction, as well as delineate and discuss relevant design implications."
+		},
+		{
+			"Title": "Investigating Mid-Air Pointing Interaction for Projector Phones",
+			"Type": "Paper",
+			"Key": "mid-air-pointing",
+			"Authors": [
+				"Christian Winkler",
+				"Ken Pfeuffer",
+				"Enrico Rukzio"
+			],
+			"Affiliations": [
+				"University of Duisburg-Essen",
+				"Ulm University"
+			],
+			"Abstract": "Projector phones, mobile phones with built-in projectors, might significantly change the way we are going to use and interact with mobile phones. The potential of combining the mobile and the projected display and further the potential of the mid-air space between them have yet to be explored. In this paper we assess these potentials by reporting two user studies: First, an experimental comparison of four techniques for target selection on the projection, including interaction on the touchscreen of the projector phone as well as performing pointing gestures in mid-air around the phone. Our results indicate that interacting behind the phone yields the highest performance, albeit showing a twice as high error rate. Second, a follow-up experiment where we analyzed the performance of the two best tech-niques of the first study within realistic mobile application scenarios such as browsing and gaming. The results show that mobile applications benefit from the projection, e.g., by overcoming the fat-finger problem on touchscreens and increasing the visibility of small objects. Our findings speak for the integration of a tracking camera at the bottom of the projector phone to enable mid-air pointing interaction."
+		},
+		{
+			"Title": "Web on the Wall: Insights from a Multimodal Interaction Elicitation Study",
+			"Type": "Paper",
+			"Key": "multimodal-interaction-elicitation",
+			"Authors": [
+				"Meredith Ringel Morris"
+			],
+			"Affiliations": [
+				"Microsoft Research"
+			],
+			"Abstract": "New sensing technologies like Microsoft&#8217;s Kinect provide a low-cost way to add interactivity to large display surfaces, such as TVs. In this paper, we interview 25 participants to learn about scenarios in which they would like to use a web browser on their living room TV. We then conduct an interaction-elicitation study in which users suggested speech and gesture interactions for fifteen common web browser functions. We present the most popular suggested interactions, and supplement these findings with observational analyses of common gesture and speech conventions adopted by our participants. We also reflect on the design of multimodal, multi-user interaction-elicitation studies, and introduce new metrics for interpreting user-elicitation study findings."
+		},
+		{
+			"Title": "Kinected Browser: Depth Camera Interaction for the Web",
+			"Type": "Note",
+			"Key": "depth-camera-interaction",
+			"Authors": [
+				"Daniel Liebling",
+				"Meredith Ringel Morris"
+			],
+			"Affiliations": [
+				"Microsoft Research"
+			],
+			"Abstract": "Interest in and development of gesture interfaces has recently exploded, fueled in part by the release of Microsoft Corporation&#8217;s Kinect, a low-cost, consumer-packaged depth camera with integrated skeleton tracking. Depth-camera-based gestures can facilitate interaction with the Web on keyboard-and-mouse-free and/or multi-user technologies, such as large display walls or TV sets. We present a toolkit for bringing such gesture affordances into modern Web browsers using existing Web programming methods. Our framework is designed to enable Web programmers to incrementally add this capability with minimum effort by leveraging Web standard DOM structures and event models. We describe our framework&#8217;s design and architecture, and illustrate its usability and versatility."
+		},
+		{
+			"Title": "A Collaborative Environment for Engaging Novices in Scientific Inquiry",
+			"Type": "Paper",
+			"Key": "engaging-novices",
+			"Authors": [
+				"Consuelo Valdes",
+				"Michelle Ferreirae",
+				"Taili Feng",
+				"Heidi Wang",
+				"Kelsey Tempel",
+				"Sirui Liu",
+				"Orit Shaer"
+			],
+			"Affiliations": [
+				"Wellesley College"
+			],
+			"Abstract": "We describe the design, implementation, and evaluation of GreenTouch, a collaborative environment that enables novice users to engage in authentic scientific inquiry. GreenTouch consists of a mobile user interface for capturing data in the field, a web application for data curation in the &#8220;cloud,&#8221; and a tabletop interface for exploratory analysis of heterogeneous data. This paper contributes: 1) the design, implementation, and validation of a collaborative environment which allows novices to engage in scientific data capture, curation, and analysis; 2) empirical evidence for the feasibility and value of integrating interactive surfaces in college-level education based on an in situ study with 54 undergraduate students; and 3) insights collected through iterative design, providing concrete lessons and guidelines for designing multi-touch interfaces for collaborative inquiry of complex domains."
+		},
+		{
+			"Title": "Orchestrating a Multi-tabletop Classroom: From Activity Design to Enactment and Reflection",
+			"Type": "Paper",
+			"Key": "multi-tabletop-classroom",
+			"Authors": [
+				"Robert Martinez Maldonado",
+				"Yannis Dimitriadis",
+				"Judy Kay",
+				"Kalina Yacef",
+				"Marie-Theresa Edbauer"
+			],
+			"Affiliations": [
+				"The University of Sydney",
+				"Universidad de Valladolid"
+			],
+			"Abstract": "If multi-tabletop classrooms were available in each school, how would teachers plan and enact their activities to enhance learning and collaboration? How can they evaluate how the activities actually went compared with the plan? Teachers&#8217; effectiveness in orchestrating the classroom has a direct impact on students learning. Interactive tabletops offer the potential to support teachers by enhancing their awareness and classroom control. This paper describes our mechanisms to help a teacher orchestrate a classroom activity using multiple interactive tabletops. We analyse automatically captured interaction data to assess whether the activity design, as intended by the teacher, was actually followed during its enactment. We report on an authentic classroom study embedded in the curricula of an undergraduate Management unit. This involved 236 students across 14 sessions. The main contribution of the paper is an approach for designing a multi-tabletop classroom that can help teachers plan their learning activities; and provide data for assessment and reflection on the enactment of a series of classroom sessions."
+		},
+		{
+			"Title": "Combinatorix: a Tangible User Interface that Supports Collaborative Learning of Probabilities",
+			"Type": "Note",
+			"Key": "collaborative-learning-probabilities",
+			"Authors": [
+				"Bertrand Schneider",
+				"Paulo Blikstein",
+				"Wendy Mackay"
+			],
+			"Affiliations": [
+				"Stanford University",
+				"INRIA"
+			],
+			"Abstract": "Teaching abstract concepts is notoriously difficult, especially when we lack concrete metaphors that map to those abstractions. Combinatorix offers a novel approach that combines tangible objects with an interactive tabletop to help students explore, solve and understand probability problems. Students rearrange physical tokens to see the effects of various constraints on the problem space; a second screen displays the associated changes in an abstract representation, e.g., a probability tree. Using participatory design, college students in a combinatorics class helped iteratively refine the Combinatorix prototype, which was then tested successfully with five students. Combinatorix serves as an initial proof-of-concept that demonstrates how tangible tabletop interfaces that map tangible objects to abstract concepts can improve problem-solving skills."
+		},
+		{
+			"Title": "Tangible Paper Interfaces: Interpreting Pupils's Manipulations (Best Paper Nominee)",
+			"Type": "Paper",
+			"Key": "tangible-paper",
+			"Authors": [
+				"Quentin Bonnard",
+				"Patrick Jermann",
+				"Amanda Legge",
+				"Fr&#233;d&#233;ric Kaplan",
+				"Pierre Dillenbourg"
+			],
+			"Affiliations": [
+				"CRAFT, EPFL"
+			],
+			"Abstract": "Paper interfaces merge the advantages of the digital and physical world. They can be created using normal paper augmented by a camera+projector system. They are particularly promising for applications in education, because paper is already fully integrated in the classroom, and computers can augment them with a dynamic display. However, people mostly use paper as a document, and rarely for its characteristics as a physical body. In this article, we show how the tangible nature of paper can be used to extract information about the learning activity. We present an augmented reality activity for pupils in primary schools to explore the classification of quadrilaterals based on sheets, cards, and cardboard shapes. We present a preliminary study and an in-situ, controlled study, making use of this activity. From the detected positions of the various interface elements, we show how to extract indicators about problem solving, hesitation, difficulty levels of the exercises, and the division of labor among the groups of pupils. Finally, we discuss how such indicators can be used, and how other interfaces can be designed to extract different indicators."
+		},
+		{
+			"Title": "Empirical Evaluation of Uni- and Bimodal Pen and Touch Interaction Properties on Digital Tabletops",
+			"Type": "Paper",
+			"Key": "uni-bimodal-pen",
+			"Authors": [
+				"Fabrice Matulic",
+				"Moira Norrie"
+			],
+			"Affiliations": [
+				"ETH Zurich"
+			],
+			"Abstract": "Combined bimanual pen and touch input on digital tabletops is an appealing interaction paradigm enjoying growing popularity among many HCI researchers. Due to its relative novelty, its properties are still relatively unexplored and many hypotheses emerging from intuition and extrapolations from studies about touch and other pointing devices remain to be verified. We present an empirical evaluation consisting of three experiments aimed at investigating a few important issues of pen and touch interaction on horizontal surfaces. Specifically, we examine the compromise between speed and accuracy for the two input modalities in positioning and tracing contexts, the influence of palm-resting on pen precision and bimanual coordination for pen mode-switching via postures. We report on quantitative and qualitative results obtained from these trials and discuss their potential impact on the design of pen and touch systems."
+		},
+		{
+			"Title": "Hand-rewriting: Automatic Rewriting Similar to Natural Handwriting (Best Paper Nominee)",
+			"Type": "Paper",
+			"Key": "hand-rewriting",
+			"Authors": [
+				"Tomko Hashida",
+				"Kohei Nishimura",
+				"Takeshi Naemura"
+			],
+			"Affiliations": [
+				"The University of Tokyo"
+			],
+			"Abstract": "We have developed a hybrid writing and erasure system called Hand-rewriting in which both human users and computer systems can write and erase freely on the same piece of paper. When the user writes on a piece of paper with a pen, for example, the computer system can erase what is written on the paper, and additional content can be written on the paper in natural print-like colors. We achieved this hybrid writing and erasure on paper by localized heating combined with handwriting with thermochromic ink and localized ultraviolet-light exposure on paper coated with photochromic material. This paper describes our research motivation, design, and implementation of this interface and examples of applications."
+		},
+		{
+			"Title": "Towards the Keyboard of Oz: Learning Soft-Keyboard Models from Raw Optical Sensor Data",
+			"Type": "Paper",
+			"Key": "keyboard-of-oz",
+			"Authors": [
+				"J&#246;rg Edelmann",
+				"Philipp Mock",
+				"Andreas Schilling",
+				"Peter Gerjets",
+				"Wolfgang Rosenstiel",
+				"Wolfgang Stra&#223;er"
+			],
+			"Affiliations": [
+				"Knowledge Media Research Center",
+				"University of T&#252;bingen"
+			],
+			"Abstract": "Typing on a touchscreen display usually lacks haptic feedback which is crucial for maintaining finger to key assignment, especially for touch typists who are not looking at their keyboard. This leads to typing being substantially more error prone on these devices. We present a soft keyboard model which we developed from typing data collected from users with diverging typing behavior. For data acquisition, we used a simulated perfect classifier we refer to as The Keyboard of Oz. In order to draw near to this classifier we used the complete sensor data of each keystroke and applied supervised machine learning techniques to learn and evaluate an individual keyboard model. The model not only accounts for individual keystroke distributions but also incorporates a classifier based on the images obtained from an optical touch sensor. The resulting highly individual classifier has remarkable classification accuracy. Additionally, we present an approach to compensate for hand drift during typing utilizing a Kalman filter. We show that this filter performs significantly better with the keyboard model which takes raw sensor data into account."
+		},
+		{
+			"Title": "Finger and Hand Detection for Multi-Touch Interfaces Based on Maximally Stable Extremal Regions",
+			"Type": "Paper",
+			"Key": "hand-detection",
+			"Authors": [
+				"Philipp Ewerling",
+				"Alexander Kulik",
+				"Bernd Froehlich"
+			],
+			"Affiliations": [
+				"Bauhaus-Universit&#228;t Weimar"
+			],
+			"Abstract": "We propose a new approach for touch detection on optical multi-touch devices that exploits the fact that the camera images reveal not only the actual touch points, but also objects above the screen such as the hand or arm of a user. Our touch processing relies on the Maximally Stable Extremal Regions algorithm for finding the users&#8217; fingertips in the camera image. The hierarchical structure of the generated extremal regions serves as a starting point for agglomerative clustering of the fingertips into hands. Furthermore, we suggest a heuristic supporting the identification of individual fingers as well as the distinction between left hands and right hands if all five fingers of a hand are in contact with the touch surface. Our evaluation confirmed that the system is robust against detection errors resulting from non-uniform illumination and reliably assigns touch points to individual hands based on the implicitly tracked context information. The efficient multithreaded implementation handles two-handed input from multiple users in real-time."
+		},
+		{
+			"Title": "Measuring the Linear and Rotational User Precision in Touch Pointing (Best Paper Nominee)",
+			"Type": "Paper",
+			"Key": "linear-rotational-precision",
+			"Authors": [
+				"Fran&#231;ois B&#233;rard",
+				"Am&#233;lie Rochet-Capellan"
+			],
+			"Affiliations": [
+				"University of Grenoble",
+				"GIPSA-lab, CNRS"
+			],
+			"Abstract": "This paper addresses the limit of user precision in pointing to a target when the finger is already in contact with a touch surface. User precision was measured for linear and rotational pointing. We developed a novel experimental protocol that improves the estimation of user's precision as compare to previous protocols. Our protocol depends on high-resolution measurements of finger motions. This was achieved by the means of two optical finger trackers specially developed for this study. The trackers provide stable and precise measurements of finger translations and rotations. We used them in two user experiments that revealed that (a) user's precision for linear pointing is about 150dpi or 0.17mm, and (b) user can reliably point at sectors as narrow as 2.76 degrees in 2s in rotational pointing. Our results provide new information for the optimization of interactions and sensing devices that involve finger pointing on a surface."
+		},
+		{
+			"Title": "SnapRail: A Tabletop User Interface Widget for Addressing Occlusion by Physical Objects",
+			"Type": "Note",
+			"Key": "snaprail",
+			"Authors": [
+				"Genki Furumi",
+				"Daisuke Sakamoto",
+				"Takeo Igarashi"
+			],
+			"Affiliations": [
+				"The University of Tokyo"
+			],
+			"Abstract": "The screen of a tabletop computer is often occluded by physical objects such as coffee cups. This makes it difficult to see the virtual elements under the physical objects (visibility) and manipulate them (manipulability). Here we present a user interface widget, called &#8220;SnapRail,&#8221; to address these problems, especially occlusion of a manipulable collection of virtual discrete elements such as icons. SnapRail detects a physical object on the surface and the virtual elements under the object. It then snaps the virtual elements to a rail widget that appears around the object. The user can then manipulate the virtual elements along the rail widget. We conducted a preliminary user study to evaluate the potential of this interface and collect initial feedback. The SnapRail interface received positive feedback from participants of the user study."
+		},
+		{
+			"Title": "HandyWidgets: Local Widgets Pulled-out from Hands",
+			"Type": "Note",
+			"Key": "handywidgets",
+			"Authors": [
+				"Takuto Yoshikawa",
+				"Buntarou Shizuki",
+				"Jiro Tanaka"
+			],
+			"Affiliations": [
+				"University of Tsukuba"
+			],
+			"Abstract": "Large multi-touch tabletops are useful for collocated collaborative work involving multiple users. However, applying traditional WIMP interfaces to tabletops causes problems where users cannot reach GUI elements, such as icons or buttons, on the opposite side with their hands, and they sometimes have difficulty in reading the content of GUI elements because their view does not match the orientation of the content. To solve these problems, we present HandyWidgets that are widgets localized around users&#8217; hands. The widgets are quickly invoked by a bimanual multi-touch gesture which we call \"pull-out\". This gesture also allows users to adjust the position, orientation, and size of the widgets, in a continuous manner after invocation."
+		},
+		{
+			"Title": "Pseudo-Weight: Making Tabletop Interaction with Virtual Objects More Tangible",
+			"Type": "Note",
+			"Key": "pseudo-weight",
+			"Authors": [
+				"Chantal Keller",
+				"Renaud Blanch"
+			],
+			"Affiliations": [
+				"Laboratoire d'informatique at &#201;cole polytechnique",
+				"Laboratoire d'Informatique de Grenoble"
+			],
+			"Abstract": "In this paper we show that virtual objects manipulated on a tabletop interaction device can be augmented to provide the illusion they have a weight. This weight offers a supplemental channel to provide information about graphical objects without cluttering the visual display. To create such a pseudo-weight illusion on a passive device, the pressure applied with the fingers during the interaction has to be captured. We show that this pressure can be estimated without hardware modification on some touch sensitive tabletop setups (e.g., MERL's DiamondTouch). Two controlled experiments show that pseudo-weight is perceived effectively. The first one demonstrates that users, without training and without previous knowledge of the system, can accurately rank virtual objects according to their pseudo-weights, provided they are sufficiently distinct. The second controlled experiment investigates more formally the relation between the pseudo-weight and the actual perception of the users."
+		},
+		{
+			"Title": "Touch, Click, Navigate: Comparing Tabletop and Desktop Interaction for Map Navigation Tasks",
+			"Type": "Paper",
+			"Key": "touch-click-navigate",
+			"Authors": [
+				"Elham Beheshti",
+				"Anne Van Devender",
+				"Michael Horn"
+			],
+			"Affiliations": [
+				"Northwestern University"
+			],
+			"Abstract": "Multi-touch tabletops and desktop computers offer different affordances for interaction with digital maps. Previous research suggests that these differences may affect how a person navigates in the world. To test this idea we randomly assigned 22 participants to one of two conditions. Participants used the interfaces to complete a series of tasks in which they interacted with a digital map of a fictitious city and then attempted to navigate through a corresponding virtual world. However, based on participant performance, we find no evidence that interface type affects navigation ability. We discuss map navigation strategies across the two conditions and analyze multi-touch gestures used by participants in the tabletop condition. Finally, based on these analyses, we consider implications for the design of interactive map interfaces."
+		},
+		{
+			"Title": "Microanalysis of Active Reading Behavior to Inform Design of Interactive Desktop Workspaces",
+			"Type": "Paper",
+			"Key": "microanalysis-active-reading",
+			"Authors": [
+				"Matthew Hong",
+				"Anne Marie Piper",
+				"Nadir Weibel",
+				"Simon Olberding",
+				"James Hollan"
+			],
+			"Affiliations": [
+				"University of California, San Diego",
+				"MIT Media Lab"
+			],
+			"Abstract": "Hybrid paper-digital desktop workspaces have long been of interest in HCI, yet their design remains challenging. One continuing challenge is to support fluid interaction with both paper and digital media, while taking advantage of established practices with each. Today researchers are exploiting depth cameras and computer vision to capture activity on and above the desktop and enable direct interaction with digitally projected and physical media. One important prerequisite to augmenting desktop activity is understanding human behavior in particular contexts and tasks. Here we study active reading on the desktop. To better understand active reading practices and identify patterns that might serve as signatures for different types of related activity, we conducted a microanalysis of single users reading on and above the desktop workspace. We describe the relationship between multimodal body-based contextual cues and the interactions they signify in a physical desktop workspace. Detailed analysis of coordinated interactions with paper documents provides an empirical basis for designing digitally augmented desktop workspaces. We conclude with prototype design interactions for hybrid paper-digital desktop workspaces."
+		},
+		{
+			"Title": "\"I didn't mean that!\" Technical Challenges in Interpreting Children's Touch and Gesture Input in Mobile Contexts",
+			"Type": "Paper",
+			"Key": "children-touch-gesture-input",
+			"Authors": [
+				"Lisa Anthony",
+				"Quincy Brown",
+				"Jaye Nias",
+				"Berthel Tate",
+				"Shreya Mohan"
+			],
+			"Affiliations": [
+				"UMBC",
+				"Bowie State University"
+			],
+			"Abstract": "As mobile devices like the iPad and iPhone become increasingly commonplace, touchscreen interactions are quickly overtaking other interaction methods in terms of frequency and experience for many users. However, most of these devices have been designed for the general, typical user. Trends indicate that children are using these devices (either their parents' or their own) for entertainment or learning activities. Previous work has found key differences in how children use touch and surface gesture interaction modalities vs. adults. In this paper, we specifically examine the impact of these differences in terms of automatically and reliably understanding what kids meant to do. We present a study of children and adults performing touch and surface gesture interaction tasks on mobile devices. We identify challenges related to (a) intentional and unintentional touches outside of onscreen targets and (b) recognition of drawn gestures, that both indicate a need to design tailored interaction for children to accommodate and overcome these challenges."
+		},
+		{
+			"Title": "Branch-Explore-Merge: Facilitating Real-Time Revision Control in Collaborative Visual Exploration",
+			"Type": "Paper",
+			"Key": "branch-explore-merge",
+			"Authors": [
+				"Will McGrath",
+				"Brian Bowman",
+				"David McCallum",
+				"Juan David Hincapi&#233;-Ramos",
+				"Niklas Elmqvist",
+				"Pourang Irani"
+			],
+			"Affiliations": [
+				"Purdue University",
+				"University of Manitoba"
+			],
+			"Abstract": "Collaborative work is characterized by participants seamlessly transitioning from working together (coupled) to working alone (decoupled). Groupware should therefore facilitate smoothly varying coupling throughout the entire collaborative session. Towards achieving such transitions for collaborative exploration and search, we propose a protocol based on managing revisions for each collaborator exploring a dataset. The protocol allows participants to diverge from the shared analysis path (branch), study the data independently (explore), and then contribute back their findings onto the shared display (merge). We apply this concept to collaborative search in multidimensional data, and propose an implementation where the public view is a tabletop display and the private views are embedded in handheld tablets. We then use this implementation to perform a qualitative user study involving a real estate dataset. Results show that participants leverage the BEM protocol, spend significant time using their private views (40% to 80% of total task time), and apply public view changes for consultation with collaborators."
+		},
+		{
+			"Title": "Use Your Head: Tangible Windows for 3D Information Spaces in a Tabletop Environment (Best Paper Nominee)",
+			"Type": "Paper",
+			"Key": "use-your-head",
+			"Authors": [
+				"Martin Spindler",
+				"Wolfgang B&#252;schel",
+				"Raimund Dachselt"
+			],
+			"Affiliations": [
+				"University of Magdeburg",
+				"Technische Universit&#228;t Dresden"
+			],
+			"Abstract": "Tangible Windows are a novel concept for interacting with virtual 3D information spaces in a workbench-like multi-display environment. They allow for performing common 3D interaction tasks in a more accessible manner by combining principles of tangible interaction, head-coupled perspective, and multi-touch techniques. Tangible Windows unify the interaction and representation space in a single device. They either act as physical peepholes into a virtual 3D world or as physical containers for parts of that world and are well-suited for the collaborative exploration and manipulation of such information spaces. One important feature of Tangible Windows is that the use of obtrusive hardware, such as HMDs, is strictly avoided. Instead, lightweight paper-based displays are used. We present different techniques for canonical 3D interaction tasks such as viewport control or object selection and manipulation, based on the combination of independent input modalities. We tested these techniques on a self-developed prototype system and received promising early user feedback."
+		},
+		{
+			"Title": "TouchWave: Kinetic Multi-touch Manipulation for Hierarchical Stacked Graphs (Best Paper Nominee)",
+			"Type": "Paper",
+			"Key": "touchwave",
+			"Authors": [
+				"Dominikus Baur",
+				"Bongshin Lee",
+				"Sheelagh Carpendale"
+			],
+			"Affiliations": [
+				"University of Calgary",
+				"Microsoft Research"
+			],
+			"Abstract": "The increasing popularity of touch-based devices is driving us to rethink existing interfaces. Within this opportunity, the complexity of information visualizations offers particular challenges. We explore these challenges to bring multi-touch interactions to a specific visualization technique, stacked graphs. Stacked graphs are a visually appealing and popular method for presenting time series data, however, they come with associated problems&#8212;issues with legibility, difficulties with comparisons, and restrictions in scalability. We present TouchWave, a rethinking and extension of stacked graphs for multi-touch capable devices that provides a variety of flexible layout adjustments, interactive options for querying data values, and seamlessly switching between different visualizations. In addition to ameliorating the main issues of stacked graphs, TouchWave also integrates hierarchical data within stacked graphs. We demonstrate TouchWave capabilities with two datasets&#8212;a music listening history and movie box office revenues&#8212;and discuss the implications for weaning other visualizations off mouse and keyboard."
+		},
+		{
+			"Title": "Thinking Outside of the (Computer) Box",
+			"Type": "Keynote",
+			"Key": "keynote-1",
+			"Authors": [
+				"Patti Maes"
+			],
+			"Affiliations": [
+				"MIT Media Lab"
+			],
+			"Abstract": "Today's interfaces severely constrain our ability to access and interact naturally with digital content. My students and I try to think \"out of the box\" in designing interfaces that integrate digital content in people&#8217;s lives in more fluid and seamless ways. I will highlight some of our recent research in projected augmented reality interfaces as well as our research in tangible display blocks."
+		},
+		{
+			"Title": "Analog Interactions",
+			"Type": "Keynote",
+			"Key": "keynote-2",
+			"Authors": [
+				"Andy Wilson"
+			],
+			"Affiliations": [
+				"Microsoft Research"
+			],
+			"Abstract": "It is a curious thing that as our digital machines become more powerful, many of us are busy trying make them work as if they were analog. I will talk about how the choice of representations and algorithms has much to do with the fluid, analog nature of interactive surfaces (and other natural user interfaces), and why we find these systems so compelling."
+		}
+
+
+	],
+	"Sessions": [
+		{
+			"Title": "Interacting in 3d",
+			"ShortTitle": "Interacting in 3d",
+			"Type": "Paper Session",
+			"ShortType": "Paper Session",
+			"Key": "PS-interacting in 3d",
+			"Day": "11-12-2012",
+			"Time": "11:00 am - 12:30 pm",
+			"Location": "President's Ballroom ABC",
+			"Abstract": "",
+			"Workshop": "false",
+			"Chair": [
+				"Miguel Nacenta, University of St. Andrews"
+			],
+			"Items": [
+				"selection-above-multitouch-surface",
+				"direct-manipulation-third-dimension",
+				"depth-perception-stereoscopic-objects"
+			]
+		},
+		{
+			"Title": "Multiple Displays and Devices",
+			"ShortTitle": "Multiple Displays and Devices",
+			"Type": "Paper Session",
+			"ShortType": "Paper Session",
+			"Key": "PS-multiple-displays",
+			"Day": "11-12-2012",
+			"Time": "2:00 pm - 3:30 pm",
+			"Location": "President's Ballroom ABC",
+			"Abstract": "",
+			"Workshop": "false",
+			"Chair": [
+				"Mark Hancock, University of Waterloo"
+			],
+			"Items": [
+				"info-exhange-proximity",
+				"usable-gestures-multidisplay",
+				"integrating-mobile-surfaces"
+			]
+		},
+		{
+			"Title": "Surfaces in the Wild",
+			"ShortTitle": "Surfaces in the Wild",
+			"Type": "Paper Session",
+			"ShortType": "Paper Session",
+			"Key": "PS-surfaces-in-wild",
+			"Day": "11-12-2012",
+			"Time": "4:00 pm - 5:15 pm",
+			"Location": "President's Ballroom ABC",
+			"Abstract": "",
+			"Workshop": "false",
+			"Chair": [
+				"Anthony Tang, University of Calgary"
+			],
+			"Items": [
+				"tabletop-games-photo",
+				"menu-discoverability",
+				"collision-reconstruction"
+			]
+		},
+		{
+			"Title": "Off the Wall: Free-space Interactions with TVs and Projected Displays",
+			"ShortTitle": "Free-space Interactions",
+			"Type": "Paper Session",
+			"ShortType": "Paper Session",
+			"Key": "PS-off-the-wall",
+			"Day": "11-13-2012",
+			"Time": "9:30 am - 10:45 am",
+			"Location": "President's Ballroom ABC",
+			"Abstract": "",
+			"Workshop": "false",
+			"Chair": [
+				"Frederic Vernier, Universite Paris-Sud"
+			],
+			"Items": [
+				"mid-air-pointing",
+				"multimodal-interaction-elicitation",
+				"depth-camera-interaction"
+			]
+		},
+		{
+			"Title": "Surfaces in Education",
+			"ShortTitle": "Surfaces in Education",
+			"Type": "Paper Session",
+			"ShortType": "Paper Session",
+			"Key": "PS-surfaces-in-education",
+			"Day": "11-13-2012",
+			"Time": "11:15 am - 12:30 pm",
+			"Location": "President's Ballroom ABC",
+			"Abstract": "",
+			"Workshop": "false",
+			"Chair": [
+				"Sheelagh Carpendale, University of Calgary"
+			],
+			"Items": [
+				"engaging-novies",
+				"multi-tabletop-classroom",
+				"collaborative-learning-probabilities"
+			]
+		},
+		{
+			"Title": "Pens and Paper",
+			"ShortTitle": "Pens and Paper",
+			"Type": "Paper Session",
+			"ShortType": "Paper Session",
+			"Key": "PS-pens-and-paper",
+			"Day": "11-13-2012",
+			"Time": "2:00 pm - 3:30 pm",
+			"Location": "President's Ballroom ABC",
+			"Abstract": "",
+			"Workshop": "false",
+			"Chair": [
+				"Andrew Wilson, Microsoft Research"
+			],
+			"Items": [
+				"tangible-paper",
+				"uni-bimodal-pen",
+				"hand-rewriting"
+			]
+		},
+		{
+			"Title": "Touching with Precision",
+			"ShortTitle": "Touching with Precision",
+			"Type": "Paper Session",
+			"ShortType": "Paper Session",
+			"Key": "PS-touching-with-precision",
+			"Day": "11-13-2012",
+			"Time": "4:00 pm - 5:30 pm",
+			"Location": "President's Ballroom ABC",
+			"Abstract": "",
+			"Workshop": "false",
+			"Chair": [
+				"Alex Butler, Microsoft Research"
+			],
+			"Items": [
+				"keyboard-of-oz",
+				"hand-detection",
+				"linear-rotational-precision"
+			]
+		},
+		{
+			"Title": "Interaction Techniques and Widgets",
+			"ShortTitle": "Interaction Techniques",
+			"Type": "Paper Session",
+			"ShortType": "Paper Session",
+			"Key": "PS-interaction-techniques",
+			"Day": "11-14-2012",
+			"Time": "9:45 am - 10:30 am",
+			"Location": "President's Ballroom ABC",
+			"Abstract": "",
+			"Workshop": "false",
+			"Chair": [
+				"Raimund Dachselt, Technische Universitat Dresden"
+			],
+			"Items": [
+				"snaprail",
+				"handywidgets",
+				"pseudo-weight"
+			]
+		},
+		{
+			"Title": "Understanding Users",
+			"ShortTitle": "Understanding Users",
+			"Type": "Paper Session",
+			"ShortType": "Paper Session",
+			"Key": "PS-understanding-users",
+			"Day": "11-14-2012",
+			"Time": "11:00 am - 12:30 pm",
+			"Location": "President's Ballroom ABC",
+			"Abstract": "",
+			"Workshop": "false",
+			"Chair": [
+				"Niklas Elmqvist, Purdue University"
+			],
+			"Items": [
+				"touch-click-navigate",
+				"microanalysis-active-reading",
+				"children-touch-gesture-input"
+			]
+		},
+		{
+			"Title": "Interacting with Information Using Surfaces",
+			"ShortTitle": "Interacting with Info",
+			"Type": "Paper Session",
+			"ShortType": "Paper Session",
+			"Key": "PS-interacting-info",
+			"Day": "11-14-2012",
+			"Time": "2:30 pm - 4:00 pm",
+			"Location": "President's Ballroom ABC",
+			"Abstract": "",
+			"Workshop": "false",
+			"Chair": [
+				"J&#252;rgen Steimle, MIT Media Lab"
+			],
+			"Items": [
+				"branch-explore-merge",
+				"use-your-head",
+				"touchwave"
+			]
+		},
+		{
+			"Title": "Beyond Flat Displays: Towards Shaped and Deformable Interactive Surfaces",
+			"ShortTitle": "Beyond Flat Displays",
+			"Type": "Workshop/Tutorial",
+			"ShortType": "Workshop/Tutorial",
+			"Key": "workshop-1",
+			"Day": "11-11-2012",
+			"Time": "9:00 am - 5:00 pm",
+			"Location": "Molly Pitcher",
+			"Abstract": "Interactive tabletops and surfaces draw their success to a large part from offering natural interactions. They allow users to interact with digital resources much like they interact with objects in the real world: by touching and manipulating them with their hands and fingers. In addition, many systems leverage tangibles that can be used on top of the interactive surface, to allow for an even higher degree of real-world behavior. However, most often, the interactive surface itself is flat, rectangular, and rigid. In contrast, most physical objects are 3D shaped, curved, and/or deformable. What if the interactive surface itself incorporates these characteristics rather than just providing a scene for such tangible objects? We are interested in exploring how alternative shapes and material characteristics of interactive surfaces can enable innovative applications and novel interactions. This tutorial will provide a comprehensive overview of prior research and technologies in shaped and deformable interactive surfaces.",
+			"Workshop": "true",
+			"Chair": [
+				"J&#252;rgen Steimle",
+				"Daniel Leithinger",
+				"Pol Pla",
+				"Pattie Maes"
+			],
+			"Items": [
+				""
+			]
+		},
+		{
+			"Title": "Open Exhibits",
+			"ShortTitle": "Open Exhibits",
+			"Type": "Workshop/Tutorial",
+			"ShortType": "Workshop/Tutorial",
+			"Key": "tutorial-open-exhibits",
+			"Day": "11-11-2012",
+			"Time": "11:00 am - 12:30 pm",
+			"Location": "William Dawes B",
+			"Abstract": "Open Exhibits is a National Science Foundation (NSF) sponsored initiative that outlines a community driven approach to designing and developing multitouch applications. This initiative includes a multitouch software development kit (SDK) that has been designed to meet the new design challenges of multitouch and multiuser technologies. This workshop will introduce the Open Exhibits project, and workshop attendees will create a multitouch application using the Open Exhibits SDK. The Open Exhibits framework is currently being used by museums all over the world; many of these applications are deployed on tabletop surfaces. The museum environment is an ideal case study because museums bring in both high and low volume use-case scenarios, and because they often require universal design considerations.",
+			"Workshop": "true",
+			"Chair": [
+				"Jim Spadaccini, CEO, Ideum"
+			],
+			"Items": [
+				""
+			]
+		},
+		{
+			"Title": "Sketching the user experience: Stories, Strategies, Surfaces",
+			"ShortTitle": "Sketching the user experience",
+			"Type": "Workshop/Tutorial",
+			"ShortType": "Workshop/Tutorial",
+			"Key": "tutorial-sketching-experience",
+			"Day": "11-11-2012",
+			"Time": "1:30 pm - 3:00 pm",
+			"Location": "William Dawes B",
+			"Abstract": "When designing user experiences, hand drawn paper pencil sketches are a valuable tool for finding the right design; long before refining the work and getting the design right. Sketches are lightweight and easy to create, and by varying the fidelity of sketches they can be an integral part during all stages of interaction design. This hands-on tutorial will demonstrate how to integrate sketching into researchers' and interaction designers' everyday practice. Participants will learn essential sketching strategies, apply these in practice during various hands-on exercises, and learn the various ways of using sketches as a powerful tool when designing novel interactive systems.",
+			"Workshop": "true",
+			"Chair": [
+				"Nicolai Marquardt, University of Calgary"
+			],
+			"Items": [
+				""
+			]
+		},
+		{
+			"Title": "High Performance Interactive Surface Possibilities",
+			"ShortTitle": "HP Surface Possibilities",
+			"Type": "Workshop/Tutorial",
+			"ShortType": "Workshop/Tutorial",
+			"Key": "tutorial-surface-possibilities",
+			"Day": "11-11-2012",
+			"Time": "3:30 pm - 5:00 pm",
+			"Location": "William Dawes B",
+			"Abstract": "As the preferred touch interface for today's smart phone and tablet devices, Projected Capacitive Technology (PCT) is the most prolific and fastest growing touch technology for interactive displays in the market today. As an innovative leader in PCT development, 3M Touch Systems has brought the same speed and responsiveness of smart phones and tablets to large-format displays appropriate for tabletop configurations. Now, with the ability to work with the raw data from 3M's Project Capacitive Technology software developers can enhance the immersive user experience by interpreting finger, palm, arm and conductive objects on the touch surface. In this tutorial, we'll cover the three levels of surface interactivity important for touch tabletop development: Advanced multi- touch characteristics: simultaneous multi-touch x,y coordinates, ultra-fast response time with high-definition precision, Collaborative, multi-user touch requirements; Managing and interpreting large touch areas, such as single and multiple palms and arms; Working with raw data for advanced application development, that includes interpreting the data stream for object recognition of conductive shapes, liquid-filled containers.",
+			"Workshop": "true",
+			"Chair": [
+				"J Neal Hagermoser II, 3M Touch Systems"
+			],
+			"Items": [
+				""
+			]
+		},
+		{
+			"Title": "Opening Remarks &amp; Opening Keynote: Thinking Outside of the (Computer) Box",
+			"Type": "Plenary",
+			"Key": "opening-remarks",
+			"Day": "11-12-2012",
+			"Time": "9:00 am - 10:00 am",
+			"Location": "President's Ballroom ABC",
+			"Abstract": "",
+			"Items": [
+				"keynote-1"
+			]
+		},
+		{
+			"Title": "Closing Keynote: Analog Interactions &amp; Closing Remarks",
+			"Type": "Plenary",
+			"Key": "closing-remarks",
+			"Day": "11-14-2012",
+			"Time": "4:30 pm - 6:15 pm",
+			"Location": "President's Ballroom ABC",
+			"Abstract": "",
+			"Items": [
+				"keynote-2"
+			]
+		},
+		{
+			"Title": "Doctoral Symposium",
+			"ShortTitle": "Doctoral Symposium",
+			"Type": "Other",
+			"ShortType": "Other",
+			"Key": "doctoral-symposium",
+			"Day": "11-11-2012",
+			"Time": "9:00 am - 5:00 pm",
+			"Location": "William Dawes A",
+			"Abstract": "",
+			"Workshop": "false",
+			"Chair": [
+				"Raimund Dachselt, Technische Universit&#228;t Dresden, Germany",
+				"Mark Hancock, University of Waterloo, Canada"
+			],
+			"Items": [
+				""
+			]
+		},
+		{
+			"Title": "Demo &amp; Poster Reception",
+			"ShortTitle": "Demo &amp; Posters",
+			"Type": "Other",
+			"ShortType": "Other",
+			"Key": "demo-poster-reception",
+			"Day": "11-13-2012",
+			"Time": "7:30 pm",
+			"Location": "MIT Media Lab",
+			"Abstract": "",
+			"Workshop": "false",
+			"Chair": [
+				""
+			],
+			"Items": [
+				""
+			]
+		},
+		{
+			"Title": "Town Hall Meeting",
+			"ShortTitle": "Town Hall Meeting",
+			"Type": "Other",
+			"ShortType": "Other",
+			"Key": "town-hall",
+			"Day": "11-13-2012",
+			"Time": "5:30 pm - 6:30 pm",
+			"Location": "President's Ballroom ABC",
+			"Abstract": "",
+			"Workshop": "false",
+			"Chair": [
+				""
+			],
+			"Items": [
+				""
+			]
+		},
+		{
+			"Title": "Welcome Reception",
+			"Type": "Social",
+			"ShortType": "Social",
+			"Key": "welcome-reception",
+			"Day": "11-11-2012",
+			"Time": "5:00 pm",
+			"Location": "Charles View Ballroom"
+		},
+		
+		{
+			"Title": "Conference Dinner Banquet",
+			"Type": "Social",
+			"ShortType": "Social",
+			"Key": "conference-dinner",
+			"Day": "11-12-2012",
+			"Time": "7:30 pm",
+			"Location": "Charles View Ballroom"
+		}
+
+
+	],
+	"People": [
+		{
+			"Name": "Edward Anstead",
+			"Affiliation": "University of Nottingham"
+		},
+		{
+			"Name": "Lisa Anthony",
+			"Affiliation": "Information Systems Department, UMBC"
+		},
+		{
+			"Name": "Till Ballendat",
+			"Affiliation": "Department of Computer Science, Media Informatics, LMU Munich, University of Munich"
+		},
+		{
+			"Name": "Dominikus Baur",
+			"Affiliation": "University of Calgary"
+		},
+		{
+			"Name": "Elham Beheshti",
+			"Affiliation": "Computer Science and Learning Sciences, Northwestern University"
+		},
+		{
+			"Name": "Steve Benford",
+			"Affiliation": "University of Nottingham"
+		},
+		{
+			"Name": "Fran&#231;ois B&#233;rard",
+			"Affiliation": "LIG/IIHM, University of Grenoble - Grenoble-INP"
+		},
+		{
+			"Name": "Renaud Blanch",
+			"Affiliation": "Laboratoire d'Informatique de Grenoble, UJF"
+		},
+		{
+			"Name": "Paulo Blikstein",
+			"Affiliation": "Stanford University"
+		},
+		{
+			"Name": "Quentin Bonnard",
+			"Affiliation": "CRAFT, EPFL"
+		},
+		{
+			"Name": "Jan Borchers",
+			"Affiliation": "RWTH Aachen University"
+		},
+		{
+			"Name": "Sebastian Boring",
+			"Affiliation": "Department of Computer Science, University of Calgary"
+		},
+		{
+			"Name": "Brian Bowman",
+			"Affiliation": "School of Electrical and Computer Engineering, Purdue University"
+		},
+		{
+			"Name": "Quincy Brown",
+			"Affiliation": "Computer Science Department, Bowie State University"
+		},
+		{
+			"Name": "Chris Burns",
+			"Affiliation": "Department of Computer Science, University of Calgary"
+		},
+		{
+			"Name": "Wolfgang B&#252;schel",
+			"Affiliation": "Technische Universit&#228;t Dresden"
+		},
+		{
+			"Name": "Sheelagh Carpendale",
+			"Affiliation": "University of Calgary"
+		},
+		{
+			"Name": "Raimund Dachselt",
+			"Affiliation": "Technische Universit&#228;t Dresden"
+		},
+		{
+			"Name": "Yannis Dimitriadis",
+			"Affiliation": "Universidad de Valladolid"
+		},
+		{
+			"Name": "Abigail Durrant",
+			"Affiliation": "Newcastle University"
+		},
+		{
+			"Name": "Marie-Theresa Edbauer",
+			"Affiliation": "The University of Sydney"
+		},
+		{
+			"Name": "J&#246;rg Edelmann",
+			"Affiliation": "Knowledge Media Research Center"
+		},
+		{
+			"Name": "Niklas Elmqvist",
+			"Affiliation": "School of Electrical and Computer Engineering, Purdue University"
+		},
+		{
+			"Name": "Philipp Ewerling",
+			"Affiliation": "Bauhaus-Universit&#228;t Weimar"
+		},
+		{
+			"Name": "Taili Feng",
+			"Affiliation": "Human-Computer Interaction Lab, Wellesley College"
+		},
+		{
+			"Name": "Michelle Ferreirae",
+			"Affiliation": "Human-Computer Interaction Lab, Wellesley College"
+		},
+		{
+			"Name": "Colin Foster",
+			"Affiliation": "Calgary Police Service"
+		},
+		{
+			"Name": "Bernd Froehlich",
+			"Affiliation": "Bauhaus-Universit&#228;t Weimar"
+		},
+		{
+			"Name": "Genki Furumi",
+			"Affiliation": "The University of Tokyo"
+		},
+		{
+			"Name": "Hans Gellersen",
+			"Affiliation": "Lancaster University"
+		},
+		{
+			"Name": "Peter Gerjets",
+			"Affiliation": "Knowledge Media Research Center"
+		},
+		{
+			"Name": "Alexander Giesler",
+			"Affiliation": "Visualization & Computer Graphics Research Group, University of M&#252;nster"
+		},
+		{
+			"Name": "Saul Greenberg",
+			"Affiliation": "Department of Computer Science, University of Calgary"
+		},
+		{
+			"Name": "Mark Hancock",
+			"Affiliation": "Department of Management Sciences, University of Waterloo"
+		},
+		{
+			"Name": "Tomoko Hashida",
+			"Affiliation": "The University of Tokyo"
+		},
+		{
+			"Name": "Juan David Hincapi&#233;-Ramos",
+			"Affiliation": "Department of Computer Science, University of Manitoba"
+		},
+		{
+			"Name": "Pierre Dillenbourg",
+			"Affiliation": "CRAFT, EPFL"
+		},
+		{
+			"Name": "Ken Hinckley",
+			"Affiliation": "University of Calgary"
+		},
+		{
+			"Name": "Klaus Hinrichs",
+			"Affiliation": "Visualization & Computer Graphics Research Group, University of M&#252;nster"
+		},
+		{
+			"Name": "Jesse Hoey",
+			"Affiliation": "David R. Cheriton School of Computer Science, University of Waterloo"
+		},
+		{
+			"Name": "James Hollan",
+			"Affiliation": "University of California, San Diego"
+		},
+		{
+			"Name": "Paul Holleis",
+			"Affiliation": "DOCOMO Euro-Labs"
+		},
+		{
+			"Name": "Matthew Hong",
+			"Affiliation": "University of California, San Diego"
+		},
+		{
+			"Name": "Michael Horn",
+			"Affiliation": "Computer Science and Learning Sciences, Northwestern University"
+		},
+		{
+			"Name": "Takeo Igarashi",
+			"Affiliation": "The University of Tokyo"
+		},
+		{
+			"Name": "Pourang Irani",
+			"Affiliation": "Department of Computer Science, University of Manitoba"
+		},
+		{
+			"Name": "Patrick Jermann",
+			"Affiliation": "CRAFT, EPFL"
+		},
+		{
+			"Name": "Fr&#233;d&#233;ric Kaplan",
+			"Affiliation": "CRAFT, EPFL"
+		},
+		{
+			"Name": "Judy Kay",
+			"Affiliation": "The University of Sydney"
+		},
+		{
+			"Name": "Chantal Keller",
+			"Affiliation": "Laboratoire d'informatique at &#201;cole polytechnique (LIX), INRIA"
+		},
+		{
+			"Name": "David Kirk",
+			"Affiliation": "Newcastle University"
+		},
+		{
+			"Name": "Alexander Kulik",
+			"Affiliation": "Bauhaus-Universit&#228;t Weimar"
+		},
+		{
+			"Name": "Bongshin Lee",
+			"Affiliation": "Microsoft Research"
+		},
+		{
+			"Name": "Amanda Legge",
+			"Affiliation": "CRAFT, EPFL"
+		},
+		{
+			"Name": "Daniel Liebling",
+			"Affiliation": "Microsoft Research"
+		},
+		{
+			"Name": "Sirui Liu",
+			"Affiliation": "Human-Computer Interaction Lab, Wellesley College"
+		},
+		{
+			"Name": "Wendy Mackay",
+			"Affiliation": "Inria"
+		},
+		{
+			"Name": "Pattie Maes",
+			"Affiliation": "MIT Media Lab"
+		},
+		{
+			"Name": "Roberto Martinez Maldonado",
+			"Affiliation": "The University of Sydney"
+		},
+		{
+			"Name": "Nicolai Marquardt",
+			"Affiliation": "Department of Computer Science, University of Calgary"
+		},
+		{
+			"Name": "Fabrice Matulic",
+			"Affiliation": "ETH Zurich"
+		},
+		{
+			"Name": "Frank Maurer",
+			"Affiliation": "Department of Computer Science, University of Calgary"
+		},
+		{
+			"Name": "David McCallum",
+			"Affiliation": "Department of Computer Science, University of Manitoba"
+		},
+		{
+			"Name": "Will McGrath",
+			"Affiliation": "School of Electrical and Computer Engineering, Purdue University"
+		},
+		{
+			"Name": "Philipp Mock",
+			"Affiliation": "WSI, University of T&#252;bingen"
+		},
+		{
+			"Name": "Shreya Mohan",
+			"Affiliation": "Information Systems Department, UMBC"
+		},
+		{
+			"Name": "Max M&#246;llers",
+			"Affiliation": "RWTH Aachen University"
+		},
+		{
+			"Name": "Meredith Ringel Morris",
+			"Affiliation": "Microsoft Research"
+		},
+		{
+			"Name": "Takeshi Naemura",
+			"Affiliation": "The University of Tokyo"
+		},
+		{
+			"Name": "Jaye Nias",
+			"Affiliation": "Computer Science Department, Bowie State University"
+		},
+		{
+			"Name": "Kohei Nishimura",
+			"Affiliation": "The University of Tokyo"
+		},
+		{
+			"Name": "Moira Norrie",
+			"Affiliation": "ETH Zurich"
+		},
+		{
+			"Name": "Simon Olberding",
+			"Affiliation": "MIT Media Lab"
+		},
+		{
+			"Name": "Ken Pfeuffer",
+			"Affiliation": "University of Duisburg-Essen"
+		},
+		{
+			"Name": "Anne Marie Piper",
+			"Affiliation": "University of California, San Diego"
+		},
+		{
+			"Name": "Dmitry Pyryeskin",
+			"Affiliation": "David R. Cheriton School of Computer Science, University of Waterloo"
+		},
+		{
+			"Name": "Christian Reinartz",
+			"Affiliation": "University of Duisburg-Essen"
+		},
+		{
+			"Name": "Am&#233;lie Rochet-Capellan",
+			"Affiliation": "GIPSA-lab, CNRS"
+		},
+		{
+			"Name": "Wolfgang Rosenstiel",
+			"Affiliation": "WSI, University of T&#252;bingen"
+		},
+		{
+			"Name": "Ken Rutherfood",
+			"Affiliation": "Calgary Police Service"
+		},
+		{
+			"Name": "Enrico Rukzio",
+			"Affiliation": "Ulm University"
+		},
+		{
+			"Name": "Daisuke Sakamoto",
+			"Affiliation": "The University of Tokyo"
+		},
+		{
+			"Name": "Andreas Schilling",
+			"Affiliation": "WSI, University of T&#252;bingen"
+		},
+		{
+			"Name": "Dominik Schmidt",
+			"Affiliation": "Hasso-PLattner-Institut"
+		},
+		{
+			"Name": "Bertrand Schneider",
+			"Affiliation": "Stanford University"
+		},
+		{
+			"Name": "Stacey Scott",
+			"Affiliation": "Systems Design Engineering, University of Waterloo"
+		},
+		{
+			"Name": "Julian Seifert",
+			"Affiliation": "Ulm University"
+		},
+		{
+			"Name": "Mindy Seto",
+			"Affiliation": "Systems Design Engineering, University of Waterloo"
+		},
+		{
+			"Name": "Teddy Seyed",
+			"Affiliation": "Department of Computer Science, University of Calgary"
+		},
+		{
+			"Name": "Orit Shaer",
+			"Affiliation": "Human-Computer Interaction Lab, Wellesley College"
+		},
+		{
+			"Name": "Ehud Sharlin",
+			"Affiliation": "University of Calgary"
+		},
+		{
+			"Name": "Buntarou Shizuki",
+			"Affiliation": "University of Tsukuba"
+		},
+		{
+			"Name": "Adalberto Simeone",
+			"Affiliation": "Lancaster University"
+		},
+		{
+			"Name": "Mario Costa Sousa",
+			"Affiliation": "Department of Computer Science, University of Calgary"
+		},
+		{
+			"Name": "Martin Spindler",
+			"Affiliation": "University of Magdeburg"
+		},
+		{
+			"Name": "Wolfgang Stra&#223;er",
+			"Affiliation": "WSI, University of T&#252;bingen"
+		},
+		{
+			"Name": "Nicole Sultanum",
+			"Affiliation": "IBM Research"
+		},
+		{
+			"Name": "Jiro Tanaka",
+			"Affiliation": "University of Tsukuba"
+		},
+		{
+			"Name": "Anthony Tang",
+			"Affiliation": "Department of Computer Science, University of Calgary"
+		},
+		{
+			"Name": "Berthel Tate",
+			"Affiliation": "Computer Science Department, Bowie State University"
+		},
+		{
+			"Name": "Kelsey Tempel",
+			"Affiliation": "Human-Computer Interaction Lab, Wellesley College"
+		},
+		{
+			"Name": "Marcel Tozser",
+			"Affiliation": "Department of Computer Science, University of Calgary"
+		},
+		{
+			"Name": "Consuelo Valdes",
+			"Affiliation": "Human-Computer Interaction Lab, Wellesley College"
+		},
+		{
+			"Name": "Dimitar Valkov",
+			"Affiliation": "Visualization & Computer Graphics Research Group, University of M&#252;nster"
+		},
+		{
+			"Name": "Anne Van Devender",
+			"Affiliation": "Computer Science and Learning Sciences, Northwestern University"
+		},
+		{
+			"Name": "Matthias Wagner",
+			"Affiliation": "DOCOMO Communications Laboratories Europe GmbH"
+		},
+		{
+			"Name": "Heidi Wang",
+			"Affiliation": "Human-Computer Interaction Lab, Wellesley College"
+		},
+		{
+			"Name": "Nadir Weibel",
+			"Affiliation": "University of California, San Diego"
+		},
+		{
+			"Name": "Andy Wilson",
+			"Affiliation": "Microsoft Research"
+		},
+		{
+			"Name": "Christian Winkler",
+			"Affiliation": "University of Duisburg-Essen"
+		},
+		{
+			"Name": "Kalina Yacef",
+			"Affiliation": "The University of Sydney"
+		},
+		{
+			"Name": "Takuto Yoshikawa",
+			"Affiliation": "University of Tsukuba"
+		},
+		{
+			"Name": "Patrick Zimmer",
+			"Affiliation": "RWTH Aachen University"
+		}
+
+
+	]
+
 }
+
+
+
