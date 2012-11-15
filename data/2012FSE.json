@@ -1,5 +1,5 @@
 {
-    "DataRevision": 5,
+    "DataRevision": 6,
     "VenueInfo": {
         "Name": "Embassy Suites Raleigh-Durham/Research Triangle",
         "GPS": {
@@ -1034,11 +1034,11 @@
             "Affiliations": [
                 "University of Texas at Dallas"
             ],
-            "Abstract": "Software is dif&#64257;cult to write and maintain. Much of the challenge in developing a program lies in specifying it&#8212;understanding precisely what it should be doing. Both human-oriented tasks (like &#64257;xing a bug) and automated tasks (like mechanical veri&#64257;cation) require knowledge of a program&#8217;s intended behavior. For the vast majority of software projects, though, complete and well-documented speci&#64257;cations simply do not exist. Writing speci&#64257;cations&#8212;discovering and codifying intent&#8212;is a time-consuming and largely manual process. This dissertation presents research into easing this process through automation. The work has focused on the problem of automatically \"inferring\" speci&#64257;cations directly from programs by analyzing their behavior. This dissertation presents a family of related algorithms, frameworks, and tools for reverse engineering a speci&#64257;c (but common) class of speci&#64257;cation. temporal safety properties. It also includes a presentation of OCD, a software tool that leverages these \"inference\" techniques to both learn speci&#64257;cations and &#64257;nd bugs&#8212;simultaneously and fully automatically. Each presented algorithm and tool is practical, &#64257;nding useful speci&#64257;cations and previously unknown bugs in large, widely-used software projects like Eclipse. This dissertation concludes with a discussion of future work on this topic, including an outline of my vision of a new research area I am calling Intelligent Program Analysis."
+            "Abstract": "Software is difficult to write and maintain. Much of the challenge in developing a program lies in specifying it&#8212;understanding precisely what it should be doing. Both human-oriented tasks (like &#64257;xing a bug) and automated tasks (like mechanical veri&#64257;cation) require knowledge of a program&#8217;s intended behavior. For the vast majority of software projects, though, complete and well-documented speci&#64257;cations simply do not exist. Writing speci&#64257;cations&#8212;discovering and codifying intent&#8212;is a time-consuming and largely manual process. This dissertation presents research into easing this process through automation. The work has focused on the problem of automatically \"inferring\" speci&#64257;cations directly from programs by analyzing their behavior. This dissertation presents a family of related algorithms, frameworks, and tools for reverse engineering a speci&#64257;c (but common) class of speci&#64257;cation. temporal safety properties. It also includes a presentation of OCD, a software tool that leverages these \"inference\" techniques to both learn speci&#64257;cations and &#64257;nd bugs&#8212;simultaneously and fully automatically. Each presented algorithm and tool is practical, &#64257;nding useful speci&#64257;cations and previously unknown bugs in large, widely-used software projects like Eclipse. This dissertation concludes with a discussion of future work on this topic, including an outline of my vision of a new research area I am calling Intelligent Program Analysis."
         },
         {
             "Title": "Program Analysis: Then and Now",
-            "Type": "Award",
+            "Type": "Keynote",
             "Key": "ProgramAnalysisThenandNow",
             "Authors": [
                 "Lori A. Clarke"
@@ -1391,11 +1391,7 @@
             "Key": "27",
             "Day": "11/15/2012",
             "Time": "3:15 pm - 5:15 pm",
-            "Items": [
-                "InferringProgrammerIntentandRelatedErrorsfromSoftware",
-                "ProgramAnalysisThenandNow",
-                "TheKoratApproachtoSystematicTesting"
-            ],
+            "Items": ["ProgramAnalysisThenandNow","TheKoratApproachtoSystematicTesting"],
             "Chair": "Will Tracz"
         }
     ],
@@ -1947,10 +1943,6 @@
         {
             "Name": "Robert Walker",
             "Affiliation": "University of Calgary, Calgary, Canada"
-        },
-        {
-            "Name": "Robert Walker",
-            "Affiliation": "University of Calgary, Calgary, Alberta, Canada"
         },
         {
             "Name": "Rocco Oliveto",
