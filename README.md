@@ -26,3 +26,8 @@ Apps should try to pull the metadata as infrequently as possible. ``IndexVersion
 
 ``data/SampleData.json`` contains a sample data file that can be used as a template for creating new event data files.
 
+Dates
+------
+
+Dates are always Month/Day/Year
+

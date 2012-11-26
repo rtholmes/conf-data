@@ -3,17 +3,17 @@
     
 "Events": [
 
-{
-    "Id" : "FSE2012",
-    "Name" : "FSE 2012",
-    "Version" : 6,
-    "File" : "2012FSE.json",
-    "StartDate" : "11/11/2012",
-    "EndDate" : "16/11/2012",
-    "Description" : "Conference Program",
-	"Icon" : "2012FSE.png",
-	"Image" : "2012FSE.png"
-},
+    {
+        "Id" : "FSE2012",
+        "Name" : "FSE 2012",
+        "Version" : 6,
+        "File" : "2012FSE.json",
+        "StartDate" : "11/11/2012",
+        "EndDate" : "11/16/2012",
+        "Description" : "Conference Program",
+	    "Icon" : "2012FSE.png",
+	    "Image" : "2012FSE.png"
+    },
 
 	{
 	    "Id" : "ITS2012",
@@ -21,7 +21,7 @@
 	    "Version" : 6,
 	    "File" : "2012ITS.json",
 	    "StartDate" : "11/11/2012",
-	    "EndDate" : "14/11/2012",
+	    "EndDate" : "11/14/2012",
 	    "Description" : "Program for the Interactive Tabletops and Surfaces",
 		"Icon" : "2012ITS.png",
 		"Image" : "2012ITS.png"
@@ -32,8 +32,8 @@
 	    "Name" : "ICSE 2013",
 	    "Version" : 1,
 	    "File" : "2013ICSE.json",
-	    "StartDate" : "18/05/2013",
-	    "EndDate" : "26/05/2013",
+	    "StartDate" : "5/18/2013",
+	    "EndDate" : "5/26/2013",
 	    "Description" : "Program for the International Conference on Software Engineering 2013",
 		"Icon" : "2013ICSE.png",
 		"Image" : "2013ICSE.png"
