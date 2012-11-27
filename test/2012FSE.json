@@ -1,0 +1,2179 @@
+{
+    "DataRevision": 1,
+    "VenueInfo": {
+        "Name": "Embassy Suites Raleigh-Durham/Research Triangle",
+        "GPS": {
+            "Latitude": 35.833056,
+            "Longitude": -78.772026
+        }
+    },
+    "Items": [
+        {
+            "Title": "Program Overview / Awards",
+            "Type": "Welcome",
+            "Key": "ProgramOverviewAwards",
+            "Authors": [
+                "Martin Robillard",
+                "Tevfik Bultan"
+            ],
+            "Affiliations": [
+                "McGill University",
+                "University of California, Santa Barbara"
+            ]
+        },
+        {
+            "Title": "IBM Watson: Beyond Jeopardy!",
+            "Type": "Keynote",
+            "Key": "IBMWatsonBeyondJeopardy",
+            "Authors": [
+                "Adam Lally"
+            ],
+            "Affiliations": [
+                "IBM T. J. Watson Research Center"
+            ],
+            "Abstract": "In 2007 IBM began a quest to push the boundaries of automated open-domain question answering - that is, to get a computer to understand and answer natural language questions over a broad range of topics by analyzing and learning from large volumes of text. Four years later, IBM introduced Watson, a computer system capable of quickly and precisely answering natural language questions with accurate confidence estimation. To demonstrate this technology, IBM pitted Watson against the world's best Jeopardy! players in a formal Jeopardy! contest. Watson was victorious in an historic match that was aired on national television in February 2011. Beating the best human contestants at Jeopardy! represents a major landmark in open-domain question answering. The accomplishment marks just the beginning of a new era of computing. While deep analysis and language understanding techniques have a long way to go before computers can fluently interact and reason at human levels, Watson today offers an advanced software architecture and methodology that promises to leverage and rapidly advance decades of innovation in the field, creating opportunities in IT that we have only just imagined. Watson's public performance heralds a future where scientists and businesspeople alike can efficiently tap into the wealth of knowledge buried in text and other unstructured data sources. This talk will give an overview of how Watson was built and present our vision for the future of the technology."
+        },
+        {
+            "Title": "Testing Mined Specifications",
+            "Type": "Paper",
+            "Key": "TestingMinedSpecifications",
+            "Authors": [
+                "Mark Gabel",
+                "Zhendong Su"
+            ],
+            "Affiliations": [
+                "The University of Texas at Dallas",
+                "University of California, Davis"
+            ],
+            "Abstract": "Speciﬁcations are necessary for nearly every software engineering task, but they are often missing or incomplete. \"Speciﬁcation mining\" is a line of research promising to solve this problem through automated tools that infer speciﬁcations directly from existing programs. The standard practice is one of inductive learning. mining tools make observations about software and inductively generalize them into speciﬁcations. Inductive reasoning is unsound, however, and existing tools commonly grapple with the problem of inferring \"false\" speciﬁcations, which must be manually checked. In this work, we introduce a new technique for automatically validating mined speciﬁcations that lessens this manual burden. Our technique is not based on heuristics; it rather uses a general, semantic deﬁnition of a \"true\" speciﬁcation. We perform systematic, targeted program transformations to test a mined speciﬁcation’s necessity for overall correctness. If a \"violating\" program is correct, the speciﬁcation is false. We have implemented our technique in a prototype tool that validates temporal properties of Java programs, and we demonstrate it to be effective through a large-scale case study on the DaCapo benchmarks."
+        },
+        {
+            "Title": "Detecting and Analyzing Insecure Component Usage",
+            "Type": "Paper",
+            "Key": "DetectingandAnalyzingInsecureComponentUsage",
+            "Authors": [
+                "Taeho Kwon",
+                "Zhendong Su"
+            ],
+            "Affiliations": [
+                "University of California, Davis",
+                "University of California, Davis"
+            ],
+            "Abstract": "Software is commonly built from reusable components that provide desired functionalities. Although component reuse signiﬁcantly improves software productivity, insecure component usage can lead to security vulnerabilities in client applications. For example, we noticed that widely-used IE-based browsers, such as IE Tab, do not enable important security features that IE enables by default, even though they all use the same browser components. This insecure usage renders these IE-based browsers vulnerable to the attacks blocked by IE. To our knowledge, this important security aspect of component reuse has largely been unexplored. This paper presents the ﬁrst practical framework for detecting and analyzing vulnerabilities of insecure component usage. Its goal is to enforce and support secure component reuse. Our core approach is based on differential testing and works as follows. Suppose that component C maintains a security policy conﬁguration to block certain malicious behavior. If two clients of component C, say a reference and a test subject, handle the malicious behavior inconsistently, the test subject uses C insecurely. In particular, we model component usage related to a policy based on 1) accesses to the conﬁguration state inside the component and 2) the conditional jumps affected by the data read from the state. We utilize this model to detect inconsistent policy evaluations, which can lead to insecure component usage. We have implemented our technique for Windows applications and used it to detect and analyze insecure usage of popular software components. Our evaluation results show that 1) insecure component usage is a general concern and frequently occurs in widely-used software, and 2) our detection framework is practical and effective at detecting and analyzing insecure component usage. In particular, it detected several serious, new vulnerabilities and helped perform detailed analysis of insecure component usage. We have reported these to the affected software vendors, some of whom have already acknowledged our ﬁndings and are actively addressing them."
+        },
+        {
+            "Title": "Retargeting Android Applications to Java Bytecode",
+            "Type": "Paper",
+            "Key": "RetargetingAndroidApplicationstoJavaBytecode",
+            "Authors": [
+                "Damien Octeau",
+                "Somesh Jha",
+                "Patrick McDaniel"
+            ],
+            "Affiliations": [
+                "Pennsylvania State University",
+                "University of Wisconsin",
+                "Pennsylvania State University"
+            ],
+            "Abstract": "The Android OS has emerged as the leading platform for SmartPhone applications. However, because Android applications are compiled from Java source into platform-speciﬁc Dalvik bytecode, existing program analysis tools cannot be used to evaluate their behavior. This paper develops and evaluates algorithms for retargeting Android applications received from markets to Java class ﬁles. The resulting Dare tool uses a new intermediate representation to enable fast and accurate retargeting. Dare further applies strong constraint solving to infer typing information and translates the 257 DVM opcodes using only 9 translation rules. It also handles cases where the input Dalvik bytecode is unveriﬁable. We evaluate Dare on 1,100 of the top applications found in the free section of the Android market and successfully retarget 99.99% of the 262,110 associated classes. Further, whereas existing tools can only fully retarget about half of these applications, Dare can recover over 99% of them. In this way, we open the door to users, developers and markets to use the vast array of program analysis tools to ensure the correct operation of Android applications."
+        },
+        {
+            "Title": "SelfMotion: A Declarative Language for Adaptive Service-Oriented Mobile Apps",
+            "Type": "Paper",
+            "Key": "SelfMotionADeclarativeLanguageforAdaptiveServiceOrientedMobileApps",
+            "Authors": [
+                "Gianpaolo Cugola",
+                "Carlo Ghezzi",
+                "Leandro Sales Pinto",
+                "Giordano Tamburrelli"
+            ],
+            "Affiliations": [
+                "DEEPSE Group @ DEI, Politecnico di Milano, Italy",
+                "DEEPSE Group @ DEI, Politecnico di Milano, Italy",
+                "DEEPSE Group @ DEI, Politecnico di Milano, Italy",
+                "DEEPSE Group @ DEI, Politecnico di Milano, Italy"
+            ],
+            "Abstract": "In this demo we present SelfMotion. a declarative language and a run-time system conceived to support the development of adaptive, mobile applications, built as compositions of ad-hoc components, existing services and third party applications. The advantages of the approach and the adaptive capabilities of SelfMotion are demonstrated in the demo by designing and executing a mobile application inspired by an existing, worldwide distributed, mobile application."
+        },
+        {
+            "Title": "REPERTOIRE: A Cross-System Porting Analysis Tool for Forked Software Projects",
+            "Type": "Paper",
+            "Key": "REPERTOIREACrossSystemPortingAnalysisToolforForkedSoftwareProjects",
+            "Authors": [
+                "Baishakhi Ray",
+                "Christopher Wiley",
+                "Miryung Kim"
+            ],
+            "Affiliations": [
+                "The University of Texas at Austin",
+                "The University of Texas at Austin",
+                "The University of Texas at Austin"
+            ],
+            "Abstract": "To create a new variant of an existing project, developers often copy an existing codebase and modify it. This process is called software forking. After forking software, developers often port new features or bug fixes from peer projects. Repertoire analyzes repeated work of cross-system porting among forked projects. It takes the version histories as input and identifies ported edits by comparing the content of individual patches. It also shows users the extent of ported edits, where and when the ported edits occurred, which developers ported code from peer projects, and how long it takes for patches to be ported."
+        },
+        {
+            "Title": "Automating Adaptive Maintenance Changes with SrcML and LINQ",
+            "Type": "Paper",
+            "Key": "AutomatingAdaptiveMaintenanceChangeswithSrcMLandLINQ",
+            "Authors": [
+                "Vinay Augustine"
+            ],
+            "Affiliations": [
+                "ABB Corporate Research"
+            ],
+            "Abstract": "Automated program transformation can significantly improve the speed and accuracy of adaptive maintenance tasks. However, developers typically eschew program transformation because of the difficulty in creating, using, and maintaining transformations. They may also be unwilling to learn a new technique that will be used infrequently. We present an approach that leverages programmers’ existing knowledge of C# and LINQ to drastically reduce the learning curve associated with program transformation."
+        },
+        {
+            "Title": "Searching Connected API Subgraph via Text Phrases",
+            "Type": "Paper",
+            "Key": "SearchingConnectedAPISubgraphviaTextPhrases",
+            "Authors": [
+                "Wing-Kwan Chan",
+                "Hong Cheng",
+                "David Lo"
+            ],
+            "Affiliations": [
+                "The Chinese University of Hong Kong",
+                "The Chinese University of Hong Kong",
+                "Singapore Management University"
+            ],
+            "Abstract": "Reusing APIs of existing libraries is a common practice during software development, but searching suitable APIs and their usages can be time-consuming [6]. In this paper, we study a new and more practical approach to help users ﬁnd usages of APIs given only simple text phrases, when users have limited knowledge about an API library. We model API invocations as an API graph and aim to ﬁnd an optimum connected subgraph that meets users’ search needs. The problem is challenging since the search space in an API graph is very huge. We start with a greedy subgraph search algorithm which returns a connected subgraph containing nodes with high textual similarity to the query phrases. Two reﬁnement techniques are proposed to improve the quality of the returned subgraph. Furthermore, as the greedy subgraph search algorithm relies on online query of shortest path between two graph nodes, we propose a spaceeﬃcient compressed shortest path indexing scheme that can eﬃciently recover the exact shortest path. We conduct extensive experiments to show that the proposed subgraph search approach for API recommendation is very eﬀective in that it boosts the average F1-measure of the state-of-theart approach, Portfolio [15], on two groups of real-life queries by 64% and 36% respectively."
+        },
+        {
+            "Title": "AUSUM: Approach for Unsupervised bug report SUMmarization",
+            "Type": "Paper",
+            "Key": "AUSUMApproachforUnsupervisedbugreportSUMmarization",
+            "Authors": [
+                "Senthil Mani",
+                "Rose Catherine",
+                "Vibha Singhal Sinha",
+                "Avinava Dubey"
+            ],
+            "Affiliations": [
+                "IBM Research, India",
+                "IBM Research, India",
+                "IBM Research, India",
+                "IBM Research, India"
+            ],
+            "Abstract": "In most software projects, resolved bugs are archived for future reference. These bug reports contain valuable information on the reported problem, investigation and resolution. When bug triaging, developers look for how similar problems were resolved in the past. Search over bug repository gives the developer a set of recommended bugs to look into. However, the developer still needs to manually peruse the contents of the recommended bugs which might vary in size from a couple of lines to thousands. Automatic summarization of bug reports is one way to reduce the amount of data a developer might need to go through. Prior work has presented learning based approaches for bug summarization. These approaches have the disadvantage of requiring large training set and being biased towards the data on which the model was learnt. In fact, maximum efﬁcacy was reported when the model was trained and tested on bug reports from the same project. In this paper, we present the results of applying four unsupervised summarization techniques for bug summarization. Industrial bug reports typically contain a large amount of noise—email dump, chat transcripts, core-dump—useless sentences from the perspective of summarization. These derail the unsupervised approaches, which are optimized to work on more well-formed documents. We present an approach for noise reduction, which helps to improve the precision of summarization over the base technique (4% to 24% across subjects and base techniques). Importantly, by applying noise reduction, two of the unsupervised techniques became scalable for large sized bug reports."
+        },
+        {
+            "Title": "Automated Extraction of Security Policies from Natural-Language Software Documents",
+            "Type": "Paper",
+            "Key": "AutomatedExtractionofSecurityPoliciesfromNaturalLanguageSoftwareDocuments",
+            "Authors": [
+                "Xusheng Xiao",
+                "Amit Paradkar",
+                "Suresh Thummalapenta",
+                "Tao Xie"
+            ],
+            "Affiliations": [
+                "North Carolina State University, Raleigh",
+                "IBM T. J. Watson Research Center, Hawthorne",
+                "IBM Research , Bangalore, India",
+                "North Carolina State University, Raleigh"
+            ],
+            "Abstract": "Access Control Policies (ACP) specify which principals such as users have access to which resources. Ensuring the correctness and consistency of ACPs is crucial to prevent security vulnerabilities. However, in practice, ACPs are commonly written in Natural Language (NL) and buried in large documents such as requirements documents, not amenable for automated techniques to check for correctness and consistency. It is tedious to manually extract ACPs from these NL documents and validate NL functional requirements such as use cases against ACPs for detecting inconsistencies. To address these issues, we propose an approach, called Text2Policy, to automatically extract ACPs from NL software documents and resource-access information from NL scenario-based functional requirements. We conducted three evaluations on the collected ACP sentences from publicly available sources along with use cases from both open source and proprietary projects. The results show that Text2Policy effectively identiﬁes ACP sentences with the precision of 88.7% and the recall of 89.4%, extracts ACP rules with the accuracy of 86.3%, and extracts action steps with the accuracy of 81.9%."
+        },
+        {
+            "Title": "Practical Change Impact Analysis Based on Static Program Slicing for Industrial Software Systems",
+            "Type": "Paper",
+            "Key": "PracticalChangeImpactAnalysisBasedonStaticProgramSlicingforIndustrialSoftwareSystems",
+            "Authors": [
+                "Mithun Acharya",
+                "Brian Robinson"
+            ],
+            "Affiliations": [
+                "ABB Corporate Research",
+                "ABB Corporate Research"
+            ],
+            "Abstract": "Change impact analysis, i.e., knowing the potential consequences of a software change, is critical for the risk analysis, developer effort estimation, and regression testing of evolving software. Static program slicing is an attractive option for enabling routine change impact analysis for newly committed changesets during daily software build. However, static program slicing faces accuracy and scalability problems when applied routinely on large and evolving industrial software systems. In this paper, we present a tool called Imp, used within ABB, to address these problems. Imp transparently integrates with the version control and the daily build environments and is also available as a Visual Studio plugin for quick what-if analysis by developers for potential changes in software written in C/C++."
+        },
+        {
+            "Title": "MayPar: A May-Happen-in-Parallel Analyzer for Concurrent Objects",
+            "Type": "Paper",
+            "Key": "MayParAMayHappeninParallelAnalyzerforConcurrentObjects",
+            "Authors": [
+                "Elvira Albert",
+                "Antonio Flores-Montoya",
+                "Samir Genaim"
+            ],
+            "Affiliations": [
+                "Complutense University of Madrid",
+                "Complutense University of Madrid",
+                "Complutense University of Madrid"
+            ],
+            "Abstract": "We present the concepts, usage and prototypical implementation of MayPar, a may-happen-in-parallel (MHP) static analyzer for a distributed asynchronous language based on concurrent objects. Our tool allows analyzing an application and ﬁnding out the pairs of statements that can execute in parallel. The information can be displayed by means of a graphical representation of the MHP analysis graph or, in a textual way, as a set of pairs which identify the programpoints that may run in parallel. The information yield by MayPar can be relevant (1) to spot bugs in the program related to fragments of code which should not run in parallel and also (2) to improve the precision of other analyses which infer more complex properties (e.g., termination and cost)."
+        },
+        {
+            "Title": "Sando: An Extensible Local Code Search Framework",
+            "Type": "Paper",
+            "Key": "SandoAnExtensibleLocalCodeSearchFramework",
+            "Authors": [
+                "David Shepherd",
+                "Kostadin Damevski",
+                "Bartosz Ropski",
+                "Thomas Fritz"
+            ],
+            "Affiliations": [
+                "ABB, Inc",
+                "Virginia State Universtiy Petersburg",
+                "Autodesk, Inc. Krakow, Poland",
+                "University of Zurich Zurich, Switzerland"
+            ],
+            "Abstract": "Developers heavily rely on Local Code Search (LCS)|the execution of a text-based search on a single code base--to find starting points in software maintenance tasks. While LCS approaches commonly used by developers are based on lexical matching and often result in failed searches or irrelevant results, developers have not yet migrated to the various research approaches that have made significant advancements in LCS. We hypothesize that two of the major reasons for this lack of migration are as follows. First, developers do not know which approach is the best, due to a lack of comparative field studies and the discrepancies in the underlying LCS process that these research approaches address. Second, developers lack access to a stable implementation of most of the research approaches. To address these issues, we studied a number of LCS approaches, distilled the general component structure underlying these approaches and, based on this structure, developed a LCS tool and framework, called Sando. Currently used by developers at ABB, Inc. and elsewhere, Sando also supports the flexible extension of its components to rapidly disseminate research advancements, and allows for user-based evaluation of competing approaches."
+        },
+        {
+            "Title": "Automating Presentation Changes in Dynamic Web Applications via Collaborative Hybrid Analysis",
+            "Type": "Paper",
+            "Key": "AutomatingPresentationChangesinDynamicWebApplicationsviaCollaborativeHybridAnalysis",
+            "Authors": [
+                "Xiaoyin Wang",
+                "Lu Zhang",
+                "Tao Xie",
+                "Yingfei Xiong",
+                "Hong Mei"
+            ],
+            "Affiliations": [
+                "Peking University, MOE, China",
+                "Peking University, MOE, China",
+                "North Carolina State University, USA",
+                "Peking University, MOE, China",
+                "Peking University, MOE, China"
+            ],
+            "Abstract": "Web applications are becoming increasingly popular nowadays. During the development and evolution of a web application, a typical type of tasks is to change the presentation of the web application, such as correcting display errors, adding user-interface controls, or changing appearance styles. To change the presentation of a static web page, developers are able to modify the HTML text of the web page using a graphical web-page editor. However, to change the presentation of a dynamic web application, instead of using a graphical web-page editor to directly modify generated web pages, developers need to modify the code that generates the web pages. As manually performing presentation changes in dynamic web applications is tedious and error-prone, we propose a novel approach based on collaborative hybrid analysis that combines static analysis and dynamic analysis to facilitate developers to perform presentation changes in dynamic web applications. Our approach includes two parts. The ﬁrst part takes as input the presentation change to be performed on a generated web page (with proper runtime information), and uses dynamic string-origin analysis to locate the source-code segment that generates the changed part of the web page. The second part checks unexpected impact of directly performing the change on the source-code segment, and asks for human intervention when unexpected impact exists. We implemented our approach for the PHP language and carried out an empirical study on 39 presentation-change tasks identiﬁed from 600 bug reports of three real-world dynamic web applications (in total more than 148 KLOC). Among the 39 tasks, our approach is able to correctly locate the place to modify in each presentation-change task and correctly perform the presentation change on the source code in more than half of the tasks."
+        },
+        {
+            "Title": "T-Morph: Revealing Buggy Behaviors of Sensor Network Applications via Rule Mining and Visualization",
+            "Type": "Paper",
+            "Key": "TMorphRevealingBuggyBehaviorsofSensorNetworkApplicationsviaRuleMiningandVisualization",
+            "Authors": [
+                "Yangfan Zhou",
+                "Xinyu Chen",
+                "Michael Lyu",
+                "Jiangchuan Liu"
+            ],
+            "Affiliations": [
+                "Shenzhen Research Institute, The Chinese Univ. of Hong Kong, Shenzhen, China, Dept. of Computer Sci. & Eng., The Chinese Univ. of Hong Kong, Hong Kong, China",
+                "Shenzhen Research Institute, The Chinese Univ. of Hong Kong, Shenzhen, China",
+                "Dept. of Computer Sci. & Eng., The Chinese Univ. of Hong Kong, Hong Kong, China, National Univ. of Defense Technology, Changsha, China",
+                "Simon Fraser Univ., Burnaby, BC, Canada"
+            ],
+            "Abstract": "TinyOS applications for Wireless Sensor Networks (WSNs) typically run in a complicated concurrency model. It is diﬃcult for developers to precisely predict the dynamic execution process of a TinyOS application by its static source codes. Such a conceptual gap frequently incurs software bugs, due to unexpected system behaviors caused by unknown execution patterns. This paper presents T-Morph (TinyOS application tomography), a novel tool to mine, visualize, and verify the execution patterns of TinyOS applications. T-Morph abstracts the dynamic execution processof a TinyOS application into simple, structured application behavior models, which well reﬂect how the static source codes are executed. Furthermore, T-Morph visualizes them in a user-friendly manner. Therefore, WSN developers can readily see if their source codes run as intended by simply verifying the correctness of the models. Finally, the veriﬁed models allow T-Morph to automatically check the application behaviors during a long-term testing execution. The suggested model violations can unveil potential bugs and direct developers to suspicious locations in the source codes. We have implemented T-Morph and applied it to verify a series of representative real-life TinyOS applications and ﬁnd several bugs, including a new bug in the latest release of TinyOS. It shows T-Morph can provide substantial help to verify TinyOS applications."
+        },
+        {
+            "Title": "Mining the Execution History of a Software System to Infer the Best Time for its Adaptation",
+            "Type": "Paper",
+            "Key": "MiningtheExecutionHistoryofaSoftwareSystemtoInfertheBestTimeforitsAdaptation",
+            "Authors": [
+                "Kyle Canavera",
+                "Naeem Esfahani",
+                "Sam Malek"
+            ],
+            "Affiliations": [
+                "George Mason University",
+                "George Mason University",
+                "George Mason University"
+            ],
+            "Abstract": "An important challenge in dynamic adaptation of a software system is to prevent inconsistencies (failures) and disruptions in its operations during and after change. Several prior techniques have solved this problem with various tradeoffs. All of them, however, assume the availability of detailed component dependency models. This paper presents a complementary technique that solves this problem in settings where such models are either not available, difficult to build, or outdated due to the evolution of the software. Our approach first mines the execution history of a software system to infer a stochastic component dependency model, representing the probabilistic sequence of interactions among the system's components. We then demonstrate how this model could be used at runtime to infer the \\best time' for adaptation of the system's components. We have thoroughly evaluated this research on a multi-user real world software system and under varying conditions"
+        },
+        {
+            "Title": "SecuriTAS: a Tool for Engineering Adaptive Security",
+            "Type": "Paper",
+            "Key": "SecuriTASaToolforEngineeringAdaptiveSecurity",
+            "Authors": [
+                "Liliana Pasquale",
+                "Claudio Menghi",
+                "Mazeiar Salehie",
+                "Luca Cavallaro",
+                "Inah Omoronyi",
+                "Bashar Nuseibeh"
+            ],
+            "Affiliations": [
+                "University of Limerick, Ireland",
+                "University of Limerick, Ireland",
+                "University of Limerick, Ireland",
+                "University of Limerick, Ireland",
+                "University of Limerick, Ireland",
+                "University of Limerick, Ireland, The Open University, UK"
+            ],
+            "Abstract": "This paper presents SecuriTAS, a tool to engineer adaptive security. It allows software designers to model security concerns together with the requirements of a system. This model is then used at runtime to analyze changes in security concerns and select the best set of security controls necessary to protect the system."
+        },
+        {
+            "Title": "Dione: An Integrated Measurement and Defect Prediction",
+            "Type": "Paper",
+            "Key": "DioneAnIntegratedMeasurementandDefectPrediction",
+            "Authors": [
+                "Bora Caglayan",
+                "Ayse Tosun Misirli",
+                "Gul Calikli",
+                "Ayse Bener",
+                "Turgay Aytac",
+                "Burak Turhan"
+            ],
+            "Affiliations": [
+                "Bogazici University, Turkey",
+                "University of Oulu, Finland",
+                "Bogazici University, Turkey",
+                "Ryerson University, Toronto, CA",
+                "Prescience Inc., USA",
+                "University of Oulu, Finland"
+            ],
+            "Abstract": "We present an integrated measurement and defect prediction tool. Dione. Our tool enables organizations to measure, monitor, and control product quality through learning based defect prediction. Similar existing tools either provide data collection and analytics, or work just as a prediction engine. Therefore, companies need to deal with multiple tools with incompatible interfaces in order to deploy a complete measurement and prediction solution. Dione provides a fully integrated solution where data extraction, defect prediction and reporting steps fit seamlessly. In this paper, we present the major functionality and architectural elements of Dione followed by an overview of our demonstration."
+        },
+        {
+            "Title": "Dealing with Uncertainty in Early Software Architecture",
+            "Type": "Paper",
+            "Key": "DealingwithUncertaintyinEarlySoftwareArchitecture",
+            "Authors": [
+                "Naeem Esfahani",
+                "Kaveh Razavi",
+                "Sam Malek"
+            ],
+            "Affiliations": [
+                "George Mason University",
+                "George Mason University",
+                "George Mason University"
+            ],
+            "Abstract": "Changing early architectural decisions of a system is both difficult and costly. It is very important for the architect to get them 'right'. However, in early design, the architect is often forced to make these decisions under uncertainty, i.e., not knowing the precise impact of those decisions on system's properties (e.g., scalability) as well as stakeholder concerns (e.g., cost). In this paper, we provide an overview of GuideArch, a framework aimed at systematic exploration of the architectural solution space under uncertainty to help with making early architectural decisions."
+        },
+        {
+            "Title": "Software Change Contracts",
+            "Type": "Paper",
+            "Key": "SoftwareChangeContracts",
+            "Authors": [
+                "Dawei Qi",
+                "Jooyong Yi",
+                "Abhik Roychoudhury"
+            ],
+            "Affiliations": [
+                "National University of Singapore",
+                "National University of Singapore",
+                "National University of Singapore"
+            ],
+            "Abstract": "Incorrect program changes including regression bugs, incorrect bugﬁxes, incorrect feature updates are pervasive in software. These incorrect program changes affect software quality and are difﬁcult to detect/correct. In this paper, we propose the notion of \"change contracts\" to avoid incorrect program changes. Change contracts formally specify the intended effect of program changes. Incorrect program changes are detected when they are checked with respect to the change contracts. We design a change contract language for Java programs and a dynamic checking system for our change contract language. We conduct a preliminary user study to check the expressiveness of our change contract language and ﬁnd that the language is expressive enough to capture a wide variety of real-life changes in three large software projects (i.e., Ant, JMeter, log4j). Finally, our contract checking system detects several real-life incorrect changes in these three software projects via runtime checking of the change contracts."
+        },
+        {
+            "Title": "Semantic Fault Diagnosis: Automatic Natural-Language Fault Descriptions",
+            "Type": "Paper",
+            "Key": "SemanticFaultDiagnosisAutomaticNaturalLanguageFaultDescriptions",
+            "Authors": [
+                "Nicholas DiGiuseppe",
+                "James A. Jones"
+            ],
+            "Affiliations": [
+                "University of California, Irvine",
+                "University of California, Irvine"
+            ],
+            "Abstract": "Before a fault can be fixed, it first must be understood. However, understanding why a system fails is often a difficult and time consuming process. While current automated-debugging techniques provide assistance in knowing where a fault is, developers are left unaided in understanding what a fault is, and why the system is failing. We present Semantic Fault Diagnosis (SFD), a technique that leverages lexico-graphic and dynamic information to automatically capture natural-language fault descriptors. SFD utilizes class names, method names, variable expressions, developer comments, and keywords from the source code to describe a fault. SFD can be used immediately after observing a failing execution and requires no input from developers or bug reports. In addition we present motivating examples and results from a SFD prototype to serve as a proof of concept."
+        },
+        {
+            "Title": "Toward Measuring Program Comprehension with Functional Magnetic Resonance Imaging",
+            "Type": "Paper",
+            "Key": "TowardMeasuringProgramComprehensionwithFunctionalMagneticResonanceImaging",
+            "Authors": [
+                "Janet Siegmund",
+                "André Brechmann",
+                "Sven Apel",
+                "Christian Kaestner",
+                "Jörg Liebig",
+                "Thomas Leich",
+                "Gunter Saake"
+            ],
+            "Affiliations": [
+                "University of Magdeburg, Germany",
+                "Leibniz Inst. for Neurobiology Magdeburg, Germany",
+                "University of Passau, Germany",
+                "Philipps University Marburg, Germany",
+                "University of Passau, Germany",
+                "Metop Research Institute, Magdeburg, Germany",
+                "University of Magdeburg, Germany"
+            ],
+            "Abstract": "Program comprehension is an often evaluated, internal cognitive process. In neuroscience, functional magnetic resonance imaging (fMRI) is used to visualize such internal cognitive processes. We propose an experimental design to measure program comprehension based on fMRI. In the long run, we hope to answer questions like What distinguishes good programmers from bad programmers? or What makes a good programmer?"
+        },
+        {
+            "Title": "Toward Semantic Search via SMT Solver",
+            "Type": "Paper",
+            "Key": "TowardSemanticSearchviaSMTSolver",
+            "Authors": [
+                "Kathryn Stolee",
+                "Sebastian Elbaum"
+            ],
+            "Affiliations": [
+                "University of Nebraska – Lincoln, Lincoln, NE, U.S.A.",
+                "University of Nebraska – Lincoln, Lincoln, NE, U.S.A."
+            ],
+            "Abstract": "Searching for code is a common task among programmers, with the ultimate goal of reuse. While the process of searching for code { issuing a query and selecting a relevant match is straightforward, several costs must be balanced, including the costs of specifying the query, examining the results to find desired code, and not finding a relevant result. For syntactic searches the query cost is quite low, but the results are often irrelevant, so the examination cost is high and matches may be missed. Semantic searches may return more relevant results, but current techniques that involve writing complex specifications or executing code against test cases are costly to the developer. We propose an approach for semantic search in which developers specify lightweight specifications and an SMT solver identifies matching programs from a repository. A program repository is automatically encoded offline so the search is efficient. Programs are encoded at various abstraction levels to enable partial matches when no, or few, exact matches exist. We instantiate this approach on a subset of the Yahoo! Pipes mashup language. Preliminary results show promise for the feasibility of the approach."
+        },
+        {
+            "Title": "Inference and Checking of Pluggable Types",
+            "Type": "Paper",
+            "Key": "InferenceandCheckingofPluggableTypes",
+            "Authors": [
+                "Ana Milanova",
+                "Wei Huang"
+            ],
+            "Affiliations": [
+                "Rensselaer Polytechnic Institute, Troy NY",
+                "Rensselaer Polytechnic Institute, Troy NY"
+            ],
+            "Abstract": "Pluggable types can help find bugs such as null-pointer dereference or unwanted mutation (or they can prove the absence of such bugs). Unfortunately, pluggable types require annotations, which imposes a burden on programmers. We propose a framework for specifying, inferring and checking of context-sensitive pluggable types. Programmers can use the framework to plug existing context-sensitive type systems (e.g., Immutability, Ownership) as well as to build new systems."
+        },
+        {
+            "Title": "Scalable Malware Clustering through Coarse-Grained Behavior Modeling",
+            "Type": "Paper",
+            "Key": "ScalableMalwareClusteringthroughCoarseGrainedBehaviorModeling",
+            "Authors": [
+                "Mahinthan Chandramohan",
+                "Tan Hee Beng Kuan",
+                "Shar Lwin Khin"
+            ],
+            "Affiliations": [
+                "Nanyang Technological University, Singapore",
+                "Nanyang Technological University, Singapore",
+                "Nanyang Technological University, Singapore"
+            ],
+            "Abstract": "Anti-malware vendors receive several thousand new malware (malicious software) variants per day. Due to large volume of malware samples, it has become extremely important to group them based on their malicious characteristics. Grouping of malware variants that exhibit similar behavior helps to generate malware signatures more efficiently. Unfortunately, exponential growth of new malware variants and huge-dimensional feature space, as used in existing approaches, make the clustering task very challenging and difficult to scale. Furthermore, malware behavior modeling techniques proposed in the literature do not scale well, where malware feature space grows in proportion with the number of samples under examination. In this paper, we propose a scalable malware behavior modeling technique that models the interactions between malware and sensitive system resources in a coarse-grained manner. Coarsegrained behavior modeling enables us to generate malware feature space that does not grow in proportion with the number of samples under examination. A preliminary study shows that our approach generates 289 times less malware features and yet improves the average clustering accuracy by 6.20% comparing to a state-of-the-art malware clustering technique."
+        },
+        {
+            "Title": "Has This Bug Been Reported?",
+            "Type": "Paper",
+            "Key": "HasThisBugBeenReported",
+            "Authors": [
+                "Kaiping Liu",
+                "Hee Beng Kuan Tan",
+                "Mahinthan Chandramohan"
+            ],
+            "Affiliations": [
+                "Nanyang Technological University, Singapore",
+                "Nanyang Technological University, Singapore",
+                "Nanyang Technological University, Singapore"
+            ],
+            "Abstract": "Bug reporting is an uncoordinated process that is often the cause of redundant workload in triaging and fixing bugs due to many duplicated bug reports. Furthermore, quite often, same bugs are repeatedly reported as users or testers are unaware of whether they have been reported from the search query results. In order to reduce both the users and developers’ efforts, the quality of search in a bug tracking system is crucial. However, all existing search functions in a bug tracking system produce results with undesired relevance and ranking. Hence, it is essential to provide an effective search function to any bug tracking system. Learning to rank (LTR) is a supervised machine learning technique that is used to construct a ranking model from training data. We propose a novel approach by using LTR to search for potentially related bug reports in a bug tracking system. Our method uses a set of proposed features of bug reports and queries. A preliminary evaluation shows that our approach can enhance the quality of searching for similar bug reports, therefore, relieving the burden of developers in dealing with duplicate bug reports."
+        },
+        {
+            "Title": "Concept-Based Failure Clustering",
+            "Type": "Paper",
+            "Key": "ConceptBasedFailureClustering",
+            "Authors": [
+                "Nicholas DiGiuseppe",
+                "James A. Jones"
+            ],
+            "Affiliations": [
+                "University of California, Irvine",
+                "University of California, Irvine"
+            ],
+            "Abstract": "When attempting to determine the number and set of execution failures that are caused by particular faults, developers must perform an arduous task of investigating and diagnosing each individual failure. Researchers proposed failure-clustering techniques to automatically categorize failures, with the intention of isolating each culpable fault. The current techniques utilize dynamic control flow to characterize each failure to then cluster them. These existing techniques, however, are blind to the intent or purpose of each execution, other than what can be inferred by the control-flow profile. We hypothesize that semantically rich execution information can aid clustering effectiveness by categorizing failures according to which functionality they exhibit in the software. This paper presents a novel clustering method that utilizes latent-semantic-analysis techniques to categorize each failure by the semantic concepts that are expressed in the executed source code. We present an experiment comparing this new technique to traditional control-flow-based clustering. The results of the experiment showed that the semantic-concept clustering was more precise in the number of clusters produced than the traditional approach, without sacrificing cluster accuracy."
+        },
+        {
+            "Title": "Seeing the Forest and the Trees: Focusing Team Interaction on Value and Effort Drivers",
+            "Type": "Paper",
+            "Key": "SeeingtheForestandtheTreesFocusingTeamInteractiononValueandEffortDrivers",
+            "Authors": [
+                "Matthias Book",
+                "Simon Grapenthin",
+                "Volker Gruhn"
+            ],
+            "Affiliations": [
+                "University of Duisburg-Essen, Gerlingstr. Germany",
+                "University of Duisburg-Essen, Gerlingstr. Germany",
+                "University of Duisburg-Essen, Gerlingstr. Germany"
+            ],
+            "Abstract": "Large-scale information system development is often plagued by defects and deadline overruns that can be traced to insufficient communication within the project team, particularly between stakeholders from the business, technical and management side. Although agile process models put a strong emphasis on team communication, they provide only little support for focusing the communication on the most relevant issues. We therefore introduce the concept of so-called 'interaction rooms', where teams work with a pragmatic combination of model sketches and annotations to foster understanding of the system and its business domain, to reveal risks and uncertainties, and discuss those system aspects that are most critical for project success."
+        },
+        {
+            "Title": "From Pixels to Bytes: Evolutionary Scenario Based Design With Video",
+            "Type": "Paper",
+            "Key": "FromPixelstoBytesEvolutionaryScenarioBasedDesignWithVideo",
+            "Authors": [
+                "Han Xu",
+                "Oliver Creighton",
+                "Naoufel Boulila",
+                "Bernd Bruegge"
+            ],
+            "Affiliations": [
+                "Technische Universität München Munich, Germany",
+                "Siemens Corporate Technology, Munich, Germany",
+                "Siemens Corporate Technology, Munich, Germany",
+                "Technische Universität München Munich, Germany"
+            ],
+            "Abstract": "Change and user involvement are two major challenges in agile software projects. As change and user involvement usually arise spontaneously, reaction to change, validation and communication are thereby expected to happen in a continuous way in the project lifecycle. We propose Evolutionary Scenario Based Design, which employs video in fulfilling this goal, and present a new idea that supports video production using SecondLife-like virtual world technology."
+        },
+        {
+            "Title": "Service Selection for Happy Users: Making User-Intuitive Quality Abstractions",
+            "Type": "Paper",
+            "Key": "ServiceSelectionforHappyUsersMakingUserIntuitiveQualityAbstractions",
+            "Authors": [
+                "Dionysis Athanasopoulos",
+                "Apostolos Zarras",
+                "Panos Vassiliadis"
+            ],
+            "Affiliations": [
+                "Univ. of Ioannina Greece",
+                "Univ. of Ioannina Greece",
+                "Univ. of Ioannina Greece"
+            ],
+            "Abstract": "The state of the art service search engines allow the users to pick the services they need, based on the quality properties, offered by these services. To this end, the users should interact with the search engines based on the quality models that are imposed by the engines. This is a significant restriction towards making the service-oriented paradigm attractive to the general public. In this paper, we propose an approach that allows a user to specify his perception of quality in terms of a simple, user-defined quality model. The proposed approach automatically maps the user-defined quality model to the search engine's quality model. This mapping forms the basis for ordering, grouping and, in general manipulating, the results of the user's service discovery requests."
+        },
+        {
+            "Title": "Understanding Myths and Realities of Test-Suite Evolution",
+            "Type": "Paper",
+            "Key": "UnderstandingMythsandRealitiesofTestSuiteEvolution",
+            "Authors": [
+                "Leandro Sales Pinto",
+                "Saurabh Sinha",
+                "Alessandro Orso"
+            ],
+            "Affiliations": [
+                "Politecnico di Milano",
+                "IBM Research, India",
+                "Georgia Inst. of Technology"
+            ],
+            "Abstract": "Test suites, once created, rarely remain static. Just like the application they are testing, they evolve throughout their lifetime. Test obsolescence is probably the most known reason for test-suite evolution—test cases cease to work because of changes in the code and must be suitably repaired. Repairing existing test cases manually, however, can be extremely time consuming, especially for large test suites, which has motivated the recent development of automated test-repair techniques. We believe that, for developing effective repair techniques that are applicable in real-world scenarios, a fundamental prerequisite is a thorough understanding of how test cases evolve in practice. Without such knowledge, we risk to develop techniques that may work well for only a small number of tests or, worse, that may not work at all in most realistic cases. Unfortunately, to date there are no studies in the literature that investigate how test suites evolve. To tackle this problem, in this paper we present a technique for studying test-suite evolution, a tool that implements the technique, and an extensive empirical study in which we used our technique to study many versions of six real world programs and their unit test suites. This is the ﬁrst study of this kind, and our results reveal several interesting aspects of test-suite evolution. In particular, our ﬁndings show that test repair is just one possible reason for test-suite evolution, whereas most changes involve refactorings, deletions, and additions of test cases. Our results also show that test modiﬁcations tend to involve complex, and hard-to-automate, changes to test cases, and that existing test-repair techniques that focus exclusively on assertions may have limited practical applicability. More generally, our ﬁndings provide initial insight on how test cases are added, removed, and modiﬁed in practice, and can guide future research efforts in the area of testsuite evolution."
+        },
+        {
+            "Title": "Test Input Generation Using Dynamic Programming",
+            "Type": "Paper",
+            "Key": "TestInputGenerationUsingDynamicProgramming",
+            "Authors": [
+                "Razieh Nokhbeh Zaeem",
+                "Sarfraz Khurshid"
+            ],
+            "Affiliations": [
+                "The University of Texas at Austin, Austin, TX, USA",
+                "The University of Texas at Austin, Austin, TX, USA"
+            ],
+            "Abstract": "Constraint-based input generation is an effective technique for testing programs, such as compilers and web browsers, which have complex inputs. However, efﬁcient generation of such inputs remains a challenging problem. We present a novel input generation technique that takes constraints written as recursive predicates in the underlying programming language and uses dynamic programming to solve the constraints efﬁciently. Our key insight is to leverage the recursive structure of desired inputs and partition the problem of generating an input into several sub-problems of generating smaller inputs that exhibit the same structure, and then to use dynamic programming – a well-known problem solving methodology designed to exploit common sub-problems – to combine them. A lazy initialization strategy and symbolic execution optimize our basic technique. Our technique provides not only bounded exhaustive input generation but also enables random input generation. We show the correctness of our technique. Furthermore, we present an experimental evaluation, which shows that our technique can provide over an order of magnitude performance improvement for input generation compared to Korat (an efﬁcient solver for structural constraints) and Pex (a state-of-the-art tool for symbolic execution). Finally, we use our technique to effectively ﬁnd bugs in production versions of Google Chrome and Apple Safari web browsers."
+        },
+        {
+            "Title": "CarFast: Achieving Higher Statement Coverage Faster",
+            "Type": "Paper",
+            "Key": "CarFastAchievingHigherStatementCoverageFaster",
+            "Authors": [
+                "Sangmin Park",
+                "Ishtiaque Hussain",
+                "Christoph Csallner",
+                "Kunal Taneja",
+                "B.M. Mainul Hossain",
+                "Mark Grechanik",
+                "Chen Fu",
+                "Qing Xie"
+            ],
+            "Affiliations": [
+                "Georgia Institute of Technology, Atlanta",
+                "University of Texas at Arlington",
+                "University of Texas at Arlington",
+                "Accenture Technology Labs and North Carolina State University",
+                "University of Illinois at Chicago",
+                "University of Illinois and Accenture Technology Lab, Chicago",
+                "Accenture Technology Labs San Jose, CA",
+                "Accenture Technology Labs San Jose, CA"
+            ],
+            "Abstract": "Test coverage is an important metric of software quality, since it indicates thoroughness of testing. In industry, test coverage is often measured as statement coverage. A fundamental problem of software testing is how to achieve higher statement coverage faster, and it is a difﬁcult problem since it requires testers to cleverly ﬁnd input data that can steer execution sooner toward sections of application code that contain more statements. We created a novel fully automatic approach for aChieving higher stAtement coveRage FASTer (CarFast), which we implemented and evaluated on twelve generated Java applications whose sizes range from 300 LOC to one million LOC. We compared CarFast with several popular test case generation techniques, including pure random, adaptive random, and Directed Automated Random Testing (DART). Our results indicate with strong statistical signiﬁcance that when execution time is measured in terms of the number of runs of the application on different input test data, CarFast outperforms the evaluated competitive approaches on most subject applications."
+        },
+        {
+            "Title": "Scalable Test Data Generation from Multidimensional Models",
+            "Type": "Paper",
+            "Key": "ScalableTestDataGenerationfromMultidimensionalModels",
+            "Authors": [
+                "Emina Torlak"
+            ],
+            "Affiliations": [
+                "U.C. Berkeley"
+            ],
+            "Abstract": "Multidimensional data models form the core of modern decision support software. The need for this kind of software is significant, and it continues to grow with the size and variety of datasets being collected today. Yet real multidimensional instances are often unavailable for testing and benchmarking, and existing data generators can only produce a limited class of such structures. In this paper, we present a new framework for scalable generation of test data from a rich class of multidimensional models. The framework provides a small, expressive language for specifying such models, and a novel solver for generating sample data from them. While the satisfiability problem for the language is NP-hard, we identify a polynomially solvable fragment that captures most practical modeling patterns. Given a model and, optionally, a statistical specification of the desired test dataset, the solver detects and instantiates a maximal subset of the model within this fragment, generating data that exhibits the desired statistical properties. We use our framework to generate a variety of high-quality test datasets from real industrial models, which cannot be correctly instantiated by existing data generators, or as effectively solved by general-purpose constraint solvers."
+        },
+        {
+            "Title": "UMLtoCSP (UOST): A Tool for Efficient Verification of UML/OCL Class Diagrams Through Model Slicing",
+            "Type": "Paper",
+            "Key": "UMLtoCSPUOSTAToolforEfficientVerificationofUMLOCLClassDiagramsThroughModelSlicing",
+            "Authors": [
+                "Asadullah Shaikh",
+                "Uffe Wiil"
+            ],
+            "Affiliations": [
+                "The Maersk-McKinney Moller Institute University of Southern Denmark (Denmark) and Kulliyyah of Information and Communication Technology (KICT) International Islamic University (Malaysia)",
+                "The Maersk-McKinney Moller Institute University of Southern Denmark (Denmark)"
+            ],
+            "Abstract": "Model errors are a major concern in the paradigm of ModelDriven Development (MDD) because of model transformations and code generation. It is important to detect model errors before transformation as in the later stages it is harder to trace and ﬁx such errors. Formal veriﬁcation tools and techniques can check the correctness of a model, but their high computational complexity can limit their scalability. In this research, we present a tool named UMLtoCSP (UOST) that uses a UML/OCL Slicing Technique (UOST) to verify complex UML/OCL class diagram. The tool accepts UML class diagrams annotated with OCL constraints as input, breaks the original model m into m1, m2, m3,...,mn submodels while abstracting unnecessary model elements."
+        },
+        {
+            "Title": "ReImInfer: Method Purity Inference for Java",
+            "Type": "Paper",
+            "Key": "ReImInferMethodPurityInferenceforJava",
+            "Authors": [
+                "Wei Huang",
+                "Ana Milanova"
+            ],
+            "Affiliations": [
+                "Rensselaer Polytechnic Institute",
+                "Rensselaer Polytechnic Institute"
+            ],
+            "Abstract": "Method purity inference, also known as side-effect analysis, is an important problem. It has many applications including compiler optimization, model checking, memorization of function calls, atomicity, etc. Surprisingly, despite the long history of this problem, we know of no purity inference tool that scales to large codes and analyzes both whole programs and libraries. We build a purity inference tool called ReImInfer on top of a type inference and checking framework. ReImInfer infers method purity for Java. It is modular and compositional, produces precise results and scales to large programs."
+        },
+        {
+            "Title": "TouchDevelop — App Development on Mobile Devices",
+            "Type": "Paper",
+            "Key": "TouchDevelopAppDevelopmentonMobileDevices",
+            "Authors": [
+                "Nikolai Tillmann",
+                "Michal Moskal",
+                "Jonathan de Halleux",
+                "Manuel Fahndrich",
+                "Sebastian Burckhardt"
+            ],
+            "Affiliations": [
+                "Microsoft Research",
+                "Microsoft Research",
+                "Microsoft Research",
+                "Microsoft Research",
+                "Microsoft Research"
+            ],
+            "Abstract": "Mobile devices are becoming the prevalent computing platform for most people. TouchDevelop is a new mobile development environment that enables anyone with a Windows Phone to create new apps directly on the smartphone, without a PC or a traditional keyboard. At the core is a new mobile programming language and editor that was designed with the touchscreen as the only input device in mind. Programs written in TouchDevelop can leverage all phone sensors such as GPS, cameras, accelerometer, gyroscope, and stored personal data such as contacts, songs, pictures. Thousands of programs have already been written and published with TouchDevelop."
+        },
+        {
+            "Title": "FaultTracer: A Change Impact and Regression Fault Analysis Tool for Evolving Java Programs",
+            "Type": "Paper",
+            "Key": "FaultTracerAChangeImpactandRegressionFaultAnalysisToolforEvolvingJavaPrograms",
+            "Authors": [
+                "Lingming Zhang",
+                "Miryung Kim",
+                "Sarfraz Khurshid"
+            ],
+            "Affiliations": [
+                "The University of Texas at Austin",
+                "The University of Texas at Austin",
+                "The University of Texas at Austin"
+            ],
+            "Abstract": "Keeping evolving software fault-free is hard. In our previous work, we proposed FaultTracer, a change impact and regression fault analysis tool for evolving programs. It takes the old and new versions of a program and a regression test suite as inputs, and then identiﬁes aﬀected tests—a subset of tests relevant to the program diﬀerences between the two versions and aﬀecting changes—a subset of atomic changes relevant to each aﬀected test. It adapts spectrum-based fault localization techniques and applies them in tandem with an enhanced change impact analysis to identify and rank failure-inducing program edits. We have shown that FaultTracer, compared to existing techniques (e.g., Chianti), achieves improvement in selecting inﬂuenced tests, determining suspicious failure-inducing edits, and ranking failure-inducing program edits. In this paper, we show the design, implementation, and demonstration of our FaultTracer approach as a publicly available toolkit for testing and debugging Java programs."
+        },
+        {
+            "Title": "Efficiently Scripting Change-Resilient Tests",
+            "Type": "Paper",
+            "Key": "EfficientlyScriptingChangeResilientTests",
+            "Authors": [
+                "Suresh Thummalapenta",
+                "Nimit Singhania",
+                "Pranavadatta Devaki",
+                "Saurabh Sinha",
+                "Satish Chandra",
+                "Achin Das",
+                "Srinivas Mangipudi"
+            ],
+            "Affiliations": [
+                "IBM Research – India",
+                "IBM T. J. Watson Research Center",
+                "IBM Global Business Services",
+                "IBM Global Business Services"
+            ],
+            "Abstract": "In industrial practice, test cases often start out as steps described in natural language and are intended to be executed by a human. Since tests are executed repeatedly, they go through an automation process, in which they are converted to automated test scripts (or programs) that perform the test steps mechanically. Conventional test-automation techniques can be time-consuming, require specialized skills, and can produce fragile scripts. To address these limitations, we present a tool, called ATA, for automating the testautomation task. Using a novel combination of natural-language processing, backtracking exploration, and learning, ATA can signiﬁcantly improve tester productivity in automating manual tests. ATA also produces change-resilient scripts, which automatically adapt themselves in the presence of certain common types of userinterface changes."
+        },
+        {
+            "Title": "Improving Software Developers' Fluency by Recommending Development Environment Commands",
+            "Type": "Paper",
+            "Key": "ImprovingSoftwareDevelopersFluencybyRecommendingDevelopmentEnvironmentCommands",
+            "Authors": [
+                "Emerson Murphy-Hill",
+                "Rahul Jiresal",
+                "Gail Murphy"
+            ],
+            "Affiliations": [
+                "North Carolina State University",
+                "University of British Columbia, Vancouver, Canada",
+                "University of British Columbia, Vancouver, Canada"
+            ],
+            "Abstract": "Software developers interact with the development environments they use by issuing commands that execute various programming tools, from source code formatters to build tools. However, developers often only use a small subset of the commands offered by modern development environments, reducing their overall development fluency. In this paper, we use several existing command recommender algorithms to suggest new commands to developers based on their existing command usage history, and also introduce several new algorithms. By running these algorithms on data submitted by several thousand Eclipse users, we describe two studies that explore the feasibility of automatically recommending commands to software developers. The results suggest that, while recommendation is more difficult in development environments than in other domains, it is still feasible to automatically recommend commands to developers based on their usage history, and that using patterns of past discovery is a useful way to do so."
+        },
+        {
+            "Title": "History Slicing: Assisting Code-Evolution Tasks",
+            "Type": "Paper",
+            "Key": "HistorySlicingAssistingCodeEvolutionTasks",
+            "Authors": [
+                "Francisco Servant",
+                "James A. Jones"
+            ],
+            "Affiliations": [
+                "University of California, Irvine",
+                "University of California, Irvine"
+            ],
+            "Abstract": "Many software-engineering tasks require developers to understand the history and evolution of source code. However, today's software-development techniques and tools are not well suited for the easy and efficient procurement of such information. In this paper, we present an approach called history slicing that can automatically identify a minimal number of code modifications, across any number of revisions, for any arbitrary segment of source code at fine granularity. We also present our implementation of history slicing, Chronos, that includes a novel visualization of the entire evolution for the code of interest. We provide two experiments. one experiment automatically computes 16,000 history slices to determine the benefit brought by various levels of automation, and another experiment that assesses the practical implications of history slicing for actual developers using the technique for actual software-maintenance tasks that involve code evolution. The experiments show that history slicing offered drastic improvements over the conventional techniques in three ways. (1) the amount of information needed to be examined and traced by developers was reduced by up to three orders of magnitude; (2) the correctness of developers attempting to solve software maintenance tasks was more than doubled; and (3) the time to completion of these software-maintenance tasks was almost halved."
+        },
+        {
+            "Title": "Who is going to Mentor Newcomers in Open Source Projects?",
+            "Type": "Paper",
+            "Key": "WhoisgoingtoMentorNewcomersinOpenSourceProjects",
+            "Authors": [
+                "Gerardo Canfora",
+                "Massimiliano Di Penta",
+                "Rocco Oliveto",
+                "Sebastiano Panichella"
+            ],
+            "Affiliations": [
+                "University of Sannio, Italy",
+                "University of Sannio, Italy",
+                "University of Molise, Italy",
+                "University of Sannio, Italy"
+            ],
+            "Abstract": "When newcomers join a software project, they need to be properly trained to understand the technical and organizational aspects of the project. Inadequate training could likely lead to project delay or failure. In this paper we propose an approach, named Yoda (Young and newcOmer Developer Assistant) aimed at identifying and recommending mentors in software projects by mining data from mailing lists and versioning systems. Candidate mentors are identified among experienced developers who actively interact with newcomers. Then, when a newcomer joins the project, Yoda recommends her a mentor that, among the available ones, has already discussed topics relevant for the newcomer. Yoda has been evaluated on software repositories of five open source projects. We have also surveyed some developers of these projects to understand whether mentoring was actually performed in their projects, and asked them to evaluate the mentoring relations Yoda identified. Results indicate that top committers are not always the most appropriate mentors, and show the potential usefulness of Yoda as a recommendation system to aid project managers in supporting newcomers joining a software project."
+        },
+        {
+            "Title": "Assessing the Value of Branches with What-if Analysis",
+            "Type": "Paper",
+            "Key": "AssessingtheValueofBrancheswithWhatifAnalysis",
+            "Authors": [
+                "Christian Bird",
+                "Thomas Zimmermann"
+            ],
+            "Affiliations": [
+                "Microsoft Research",
+                "Microsoft Research"
+            ],
+            "Abstract": "Branches within source code management systems (SCMs) allow a software project to divide work among its teams for concurrent development by isolating changes. However, this benefit comes with several costs. increased time required for changes to move through the system and pain and error potential when integrating changes across branches. In this paper, we present the results of a survey to characterize how developers use branches in a large industrial project and common problems that they face. One of the major problems mentioned was the long delay that it takes changes to move from one team to another, which is often caused by having too many branches (branchmania). To monitor branch health, we introduce a novel what-if analysis to assess alternative branch structures with respect to two properties, isolation and liveness. We demonstrate with several scenarios how our what-if analysis can support branch decisions. By removing high-costlow-benefit branches in Windows based on our what-if analysis, changes would each have saved 8.9 days of delay and only introduced 0.04 additional conflicts on average."
+        },
+        {
+            "Title": "DTAM: Dynamic Taint Analysis of Multi-threaded Programs for Relevancy",
+            "Type": "Paper",
+            "Key": "DTAMDynamicTaintAnalysisofMultithreadedProgramsforRelevancy",
+            "Authors": [
+                "Malay Ganai",
+                "Dongyoon Lee",
+                "Aarti Gupta"
+            ],
+            "Affiliations": [
+                "NEC Labs America",
+                "University of Michigan",
+                "NEC Labs America"
+            ],
+            "Abstract": "Testing and debugging multi-threaded programs are notoriously difﬁcult due to non-determinism not only in inputs but also in OS schedules. In practice, dynamic analysis and failure replay systems instrument the program to record events of interest in the test execution, e.g., program inputs, accesses to shared objects, synchronization operations, context switches, etc. To reduce the overhead of logging during runtime, these testing and debugging efforts have proposed tradeoffs for sampling or selective logging, at the cost of reducing coverage or performing more expensive search ofﬂine. We propose to identify a subset of input sources and shared objects that are, in a sense, relevant for covering program behavior. We classify various types of relevancy in terms of how an input source or a shared object can affect control ﬂow (e.g., a conditional branch) or dataﬂow (e.g., state of the shared objects) in the program. Such relevancy data can be used by testing and debugging methods to reduce their recording overhead and to guide coverage. To conduct relevancy analysis, we propose a novel framework based on dynamic taint analysis for multi-threaded programs, called DTAM. It performs thread-modular taint analysis for each thread in parallel during runtime, and then aggregates the thread-modular results ofﬂine. This approach has many advantages. (a) it is faster than conducting taint analysis for serialized multi-threaded executions, (b) it can compute results for alternate thread interleavings by generalizing the observed execution, and (c) it provides a knob to tradeoff precision with coverage, depending on how thread modular results are aggregated to account for alternate interleavings. We have implemented DTAM and performed an experimental evaluation on publicly available benchmarks for relevancy analysis. Our experiments show that most shared accesses and conditional branches are dependent on some program input sources. Interestingly in our test runs, on average, only about 25% input sources and 3% shared objects affect other shared accesses through conditional branches. Thus, it is important to identify such relevant input sources and shared objects for testing and debugging."
+        },
+        {
+            "Title": "Predicting Null-Pointer Dereferences in Concurrent Programs",
+            "Type": "Paper",
+            "Key": "PredictingNullPointerDereferencesinConcurrentPrograms",
+            "Authors": [
+                "Azadeh Farzan",
+                "Madhusudan Parthasarathy",
+                "Niloofar Razavi",
+                "Francesco Sorrentino"
+            ],
+            "Affiliations": [
+                "University of Toronto",
+                "University of Illinois",
+                "University of Toronto",
+                "University of Illinois"
+            ],
+            "Abstract": "We propose null-pointer dereferences as a target for ﬁnding bugs in concurrent programs using testing. A null-pointer dereference prediction engine observes an execution of a concurrent program under test and predicts alternate interleavings that are likely to cause null-pointer dereferences. Though accurate scalable prediction is intractable, we provide a carefully chosen novel set of techniques to achieve reasonably accurate and scalable prediction. We use an abstraction to the shared-communication level, take advantage of a static lock-set based pruning, and ﬁnally, employ precise and relaxed constraint solving techniques that use an SMT solver to predict schedules. We realize our techniques in a tool, ExceptioNULL, and evaluate it over 13 benchmark programs and ﬁnd scores of nullpointer dereferences by using only a single test run as the prediction seed for each benchmark."
+        },
+        {
+            "Title": "Asynchronous Programs with Prioritized Task-Buffers",
+            "Type": "Paper",
+            "Key": "AsynchronousProgramswithPrioritizedTaskBuffers",
+            "Authors": [
+                "Michael Emmi",
+                "Akash Lal",
+                "Shaz Qadeer"
+            ],
+            "Affiliations": [
+                "LIAFA, Université Paris Diderot, France",
+                "Microsoft Research, Bangalore, India",
+                "Microsoft Research, Redmond, USA"
+            ],
+            "Abstract": "We consider the algorithmic analysis of asynchronous software systems as a means for building reliable software. A key challenge in designing such analyses is identifying a concurrency model which does not extraneously introduce behaviors infeasible in the actual system, does not extraneously exclude actual behaviors, and isolates the challenging features for analyses to focus on. Guided by real-world asynchronous software, we propose a concurrency model which enriches the existing serial task-buffer asynchrony model [29] with task-priorities and multiple task-buffers. Our model allows non-serial execution. tasks with higher priority preempt lower-priority tasks, and tasks drawn from distinct buffers freely interleave with one another. Modeling these features allows analysis algorithms to detect otherwise uncaught programming errors in asynchronous programs due to inter-buffer interleaving and task-interruption, while correctly ignoring false errors due to infeasible out-of-priority-order executions. Besides more precisely capturing real-world systems, our concurrency model inspires the design of a novel analysis algorithm. Given parameters K1; K2 2 N that restrict inter-buffer task interleaving and intra-buffer task reordering, we give a code-to-code translation to sequential programs, which can then be analyzed by off-the-shelf program analysis tools. For any given parameter values, the resulting sequential program encodes a subset of possible behaviors, and in the limit as both parameters approach inﬁnity, the sequential program encodes all behaviors. We demonstrate the viability of our technique by experimenting with a prototype implementation. Our prototype is competitive with state-of-the-art concurrent program veriﬁcation tools, and is able to correctly identify errors in simpliﬁed Windows device driver code, while ignoring infeasible executions."
+        },
+        {
+            "Title": "Do Crosscutting Concerns Cause Modularity Problems?",
+            "Type": "Paper",
+            "Key": "DoCrosscuttingConcernsCauseModularityProblems",
+            "Authors": [
+                "Robert Walker",
+                "Shreya Rawal",
+                "Jonathan Sillito"
+            ],
+            "Affiliations": [
+                "University of Calgary, Calgary, Canada",
+                "University of Calgary, Calgary, Canada",
+                "University of Calgary, Calgary, Canada"
+            ],
+            "Abstract": "It has been claimed that crosscutting concerns are pervasive and problematic, leading to difficulties in program comprehension, evolution, and long-term design degradation. To consider whether this theory bears out, we examine the patch history of the Mozilla project over a period of a decade to consider whether crosscutting concerns exist therein and whether we can see evidence of problems arising from them. Mozilla is an interesting case, due to its longevity; size; polylingual nature; and use of a patch review process, which maintains strong connections between issue reports and the patches that are intended to address each. We perform several statistical analyses of the over 200,000 patches submitted to address over 90,000 issues reported in this time period. We find that 90% of patches show little or no evidence of scattering, that the scattering of a patch tends to decrease slightly upon review on average, and that the system shows at worst a slow increase of average scattering over time."
+        },
+        {
+            "Title": "A Field Study of Refactoring Challenges and Benefits",
+            "Type": "Paper",
+            "Key": "AFieldStudyofRefactoringChallengesandBenefits",
+            "Authors": [
+                "Miryung Kim",
+                "Thomas Zimmermann",
+                "Nachiappan Nagappan"
+            ],
+            "Affiliations": [
+                "The University of Texas at Austin",
+                "Microsoft Research, Redmond, WA, USA",
+                "Microsoft Research, Redmond, WA, USA"
+            ],
+            "Abstract": "It is widely believed that refactoring improves software quality and developer productivity. However, few empirical studies quantitatively assess refactoring beneﬁts or investigate developers’ perception towards these beneﬁts. This paper presents a ﬁeld study of refactoring beneﬁts and challenges at Microsoft through three complementary study methods. a survey, semi-structured interviews with professional software engineers, and quantitative analysis of version history data. Our survey ﬁnds that the refactoring deﬁnition in practice is not conﬁned to a rigorous deﬁnition of semantics preserving code transformations and that developers perceive that refactoring involves substantial cost and risks. We also report on interviews with a designated refactoring team that has led a multi-year, centralized eﬀort on refactoring Windows. The quantitative analysis of Windows 7 version history ﬁnds that the binary modules refactored by this team experienced signiﬁcant reduction in the number of inter-module dependencies and post-release defects, indicating a visible beneﬁt of refactoring."
+        },
+        {
+            "Title": "How Do Software Engineers Understand Code Changes? An Exploratory Study in Industry",
+            "Type": "Paper",
+            "Key": "HowDoSoftwareEngineersUnderstandCodeChangesAnExploratoryStudyinIndustry",
+            "Authors": [
+                "Yida Tao",
+                "Yingnong Dang",
+                "Tao Xie",
+                "Dongmei Zhang",
+                "Sunghun Kim"
+            ],
+            "Affiliations": [
+                "The Hong Kong University of Science and Technology, Hong Kong, China",
+                "Microsoft Research Asia, Beijing, China",
+                "North Carolina State University",
+                "Microsoft Research Asia, Beijing, China",
+                "The Hong Kong University of Science and Technology, Hong Kong, China"
+            ],
+            "Abstract": "Software evolves with continuous source-code changes. These code changes usually need to be understood by software engineers when performing their daily development and maintenance tasks. However, despite its high importance, such change-understanding practice has not been systematically studied. Such lack of empirical knowledge hinders attempts to evaluate this fundamental practice and improve the corresponding tool support. To address this issue, in this paper, we present a large-scale quantitative and qualitative study at Microsoft. The study investigates the role of understanding code changes during software-development process, explores engineers’ information needs for understanding changes and their requirements for the corresponding tool support. The study results reinforce our beliefs that understanding code changes is an indispensable task performed by engineers in software-development process. A number of insufficiencies in the current practice also emerge from the study results. For example, it is difficult to acquire important information needs such as a change’s completeness, consistency, and especially the risk imposed by it on other software components. In addition, for understanding a composite change, it is valuable to decompose it into sub-changes that are aligned with individual development issues; however, currently such decomposition lacks tool support."
+        },
+        {
+            "Title": "Variability Points and Design Pattern Usage in Architectural Tactics",
+            "Type": "Paper",
+            "Key": "VariabilityPointsandDesignPatternUsageinArchitecturalTactics",
+            "Authors": [
+                "Mehdi Mirakhorli",
+                "Patrick Maeder",
+                "Jane Cleland-Huang"
+            ],
+            "Affiliations": [
+                "DePaul University Chicago",
+                "Johannes Kepler University Linz, Austria",
+                "DePaul University Chicago"
+            ],
+            "Abstract": "Architectural tactics are important building blocks of software architecture. Tactics come in many shapes and sizes, describe solutions for addressing speciﬁc quality concerns, and are prevalent across high-performance fault-tolerant systems. Once a decision is made to utilize a tactic, the developer must generate a concrete plan for realizing the tactic in the design and code. Unfortunately, the variability points found in individual tactics can make this a challenging task. To address this knowledge gap, we conducted a study to investigate how design patterns were used to implement various tactics. Data mining techniques were used to identify potential pattern instances within tactic implementations. Our manual analysis of the retrieved data identiﬁed a distinct set of variability points for each tactic, as well as corresponding design patterns used to address them. From these observations we construct tactic-level decision trees depicting variability points of a tactic and generate a reference model which provides implementation guidance."
+        },
+        {
+            "Title": "A Case Study of Cross-System Porting in Forked Projects",
+            "Type": "Paper",
+            "Key": "ACaseStudyofCrossSystemPortinginForkedProjects",
+            "Authors": [
+                "Baishakhi Ray",
+                "Miryung Kim"
+            ],
+            "Affiliations": [
+                "The University of Texas at Austin",
+                "The University of Texas at Austin"
+            ],
+            "Abstract": "Software forking--creating a variant product by copying and modifying an existing product--is often considered an adhoc, low cost alternative to principled product line development. To maintain such forked products, developers often need to port an existing feature or bug-fix from one product variant to another. As a first step towards assessing whether forking is a sustainable practice, we conduct an in-depth case study of 18 years of the BSD product family history. Our study finds that maintaining forked projects involves significant effort of porting patches from other projects. Cross-system porting happens periodically and the porting rate does not necessarily decrease over time. A significant portion of active developers participate in porting changes from peer projects. Surprisingly, ported changes are less defect prone than non-ported changes. Our work is the first to comprehensively characterize the temporal, spatial, and developer dimensions of cross-system porting in the BSD family, and our tool Repertoire is the first automated tool for detecting ported edits with high accuracy of 94% precision and 84% recall. Our study finds that the upkeep work of porting changes from peer projects is significant and currently, porting practice seems to heavily depend on developers doing their porting job on time. This result calls for new techniques to automate cross-system porting to reduce the maintenance cost of forked projects."
+        },
+        {
+            "Title": "How do developers use parallel libraries?",
+            "Type": "Paper",
+            "Key": "Howdodevelopersuseparallellibraries",
+            "Authors": [
+                "Semih Oku",
+                "Danny Dig"
+            ],
+            "Affiliations": [
+                "University of Illinois at Urbana-Champaign",
+                "University of Illinois at Urbana-Champaign"
+            ],
+            "Abstract": "Parallel programming is hard. The industry leaders hope to convert the hard problem of using parallelism into the easier problem of using a parallel library. Yet, we know little about how programmers adopt these libraries in practice. Without such knowledge, other programmers cannot educate themselves about the state of the practice, library designers are unaware of API misusage, researchers make wrong assumptions, and tool vendors do not support common usage of library constructs. We present the first study that analyzes the usage of parallel libraries in a large scale experiment. We analyzed 655 open-source applications that adopted Microsoft's new parallel libraries { Task Parallel Library (TPL) and Parallel Language Integrated Query (PLINQ) { comprising 17.6M lines of code written in C#. These applications are developed by 1609 programmers. Using this data, we answer 8 research question and we uncover some interesting facts. For example, (i) for two of the fundamental parallel constructs, in at least 10% of the cases developers misuse them so that the code runs sequentially instead of concurrently, (ii) developers make their parallel code unnecessarily complex, (iii) applications of different size have different adoption trends. The library designers confirmed that our finding are useful and will influence the future development of the libraries."
+        },
+        {
+            "Title": "Seeking the Ground Truth: A Retroactive Study on the Evolution and Migration of Software Libraries",
+            "Type": "Paper",
+            "Key": "SeekingtheGroundTruthARetroactiveStudyontheEvolutionandMigrationofSoftwareLibraries",
+            "Authors": [
+                "Bradley Cosset",
+                "Robert Walker"
+            ],
+            "Affiliations": [
+                "University of Calgary, Calgary, Alberta, Canada",
+                "University of Calgary, Calgary, Alberta, Canada"
+            ],
+            "Abstract": "Application programming interfaces (APIs) are a common and industrially-relevant means for third-party software developers to reuse external functionality. Several techniques have been proposed to help migrate client code between library versions with incompatible APIs, but it is not clear how well these perform in an absolute sense. We present a retroactive study into the presence and nature of API incompatibilities between several versions of a set of Java-based software libraries; for each, we perform a detailed, manual analysis to determine what the correct adaptations are to migrate from the older to the newer version. In addition, we investigate whether any of a set of adaptation recommender techniques is capable of identifying the correct adaptations for library migration. We find that a given API incompatibility can typically be addressed by only one or two recommender techniques, but sometimes none serve. Furthermore, those techniques give correct recommendations, on average, in only about 20% of cases."
+        },
+        {
+            "Title": "How Do Developers React to API Deprecation? The Case of a Smalltalk Ecosystem",
+            "Type": "Paper",
+            "Key": "HowDoDevelopersReacttoAPIDeprecationTheCaseofaSmalltalkEcosystem",
+            "Authors": [
+                "Romain Robbes",
+                "Mircea Lungu",
+                "David Röthlisberger"
+            ],
+            "Affiliations": [
+                "University of Chile",
+                "University of Bern",
+                "University of Chile"
+            ],
+            "Abstract": "When the Application Programming Interface (API) of a framework or library changes, its clients must be adapted. This change propagation—known as a ripple effect—is a problem that has garnered interest. several approaches have been proposed in the literature to react to these changes. Although studies of ripple effects exist at the single system level, no study has been performed on the actual extent and impact of these API changes in practice, on an entire software ecosystem associated with a community of developers. This paper reports on an empirical study of API deprecations that led to ripple effects across an entire ecosystem. Our case study subject is the development community gravitating around the Squeak and Pharo software ecosystems. seven years of evolution, more than 3,000 contributors, and more than 2,600 distinct systems. We analyzed 577 methods and 186 classes that were deprecated, and answer research questions regarding the frequency, magnitude, duration, adaptation, and consistency of the ripple effects triggered by API changes."
+        },
+        {
+            "Title": "Conditional Model Checking: A Technique to Pass Information between Verifiers",
+            "Type": "Paper",
+            "Key": "ConditionalModelCheckingATechniquetoPassInformationbetweenVerifiers",
+            "Authors": [
+                "Dirk Beyer",
+                "Thomas A. Henzinger",
+                "M. Erkan Keremoglu",
+                "Philipp Wendler"
+            ],
+            "Affiliations": [
+                "University of Passau, Germany",
+                "IST Austria",
+                "Simon Fraser University Canada",
+                "University of Passau, Germany"
+            ],
+            "Abstract": "Software model checking, as an undecidable problem, has three possible outcomes. (1) the program satisfies the specification, (2) the program does not satisfy the specification, and (3) the model checker fails. The third outcome usually manifests itself in a space-out, time-out, or one component of the verification tool giving up; in all of these failing cases, significant computation is performed by the verification tool before the failure, but no result is reported. We propose to reformulate the model-checking problem as follows, in order to have the verification tool report a summary of the performed work even in case of failure. given a program and a specification, the model checker returns a condition usually a state predicate such that the program satisfies the specification under the condition that is, as long as the program does not leave the states in which is satisfied. In our experiments, we investigated as one major application of conditional model checking the sequential combination of model checkers with information passing. We give the condition that one model checker produces, as input to a second conditional model checker, such that the verification problem for the second is restricted to the part of the state space that is not covered by the condition, i.e., the second model checker works on the problems that the first model checker could not solve. Our experiments demonstrate that repeated application of conditional model checkers, passing information from one model checker to the next, can significantly improve the verification results and performance, i.e., we can now verify programs that we could not verify before."
+        },
+        {
+            "Title": "Green Reducing, Reusing and Recycling Constraints in Program Analysis",
+            "Type": "Paper",
+            "Key": "GreenReducingReusingandRecyclingConstraintsinProgramAnalysis",
+            "Authors": [
+                "Willem Visser",
+                "Jaco Geldenhuys",
+                "Matt Dwyer"
+            ],
+            "Affiliations": [
+                "Stellenbosch University, South Africa",
+                "Stellenbosch University, South Africa",
+                "University of Nebraska -Lincoln"
+            ],
+            "Abstract": "The analysis of constraints plays an important role in many aspects of software engineering, for example constraint satisfiability checking is central to symbolic execution. However, the norm is to recompute results in each analysis. We propose a different approach where every call to the solver is wrapped in a check to see if the result is not already available. While many tools use some form of results caching, the novelty of our approach is the persistence of results across runs, across programs being analyzed, across different analyses and even across physical location. Achieving such reuse requires that constraints be distilled into their essential parts and represented in a canonical form. In this paper, we describe the key ideas of our approach and its implementation, the Green solver interface, which reduces constraints to a simple form, allows for reuse of constraint solutions within an analysis run, and allows for recycling constraint solutions produced in one analysis run for use in other analysis runs. We describe how we integrated Green into two existing symbolic execution tools and demonstrate the reuse we achieve in the different settings."
+        },
+        {
+            "Title": "Automated Concolic Testing of Smartphone Apps",
+            "Type": "Paper",
+            "Key": "AutomatedConcolicTestingofSmartphoneApps",
+            "Authors": [
+                "Saswat Anand",
+                "Mayur Naik",
+                "Hongseok Yang",
+                "Mary Jean Harrold"
+            ],
+            "Affiliations": [
+                "Georgia Tech",
+                "University of Oxford",
+                "Georgia Tech"
+            ],
+            "Abstract": "We present an algorithm and a system for generating input events to exercise smartphone apps. Our approach is based on concolic testing and generates sequences of events automatically and systematically. It alleviates the pathexplosion problem by checking a condition on program executions that identiﬁes subsumption between diﬀerent event sequences. We also describe our implementation of the approach for Android, the most popular smartphone app platform, and the results of an evaluation that demonstrates its eﬀectiveness on ﬁve Android apps."
+        },
+        {
+            "Title": "Rubicon: Bounded Verification of Web Applications",
+            "Type": "Paper",
+            "Key": "RubiconBoundedVerificationofWebApplications",
+            "Authors": [
+                "Joseph Near",
+                "Daniel Jackson"
+            ],
+            "Affiliations": [
+                "Massachusetts Institute of Technology",
+                "Massachusetts Institute of Technology"
+            ],
+            "Abstract": "Rubicon is a verifier for web applications. Specifications are written in an embedded domain-specific language and are checked fully automatically. Rubicon is designed to fit with current practices. its language is based on RSpec, a popular testing framework, and its analysis leverages the standard Ruby interpreter to perform symbolic execution (generating verification conditions that are checked by the Alloy Analyzer). Rubicon has been evaluated on five open-source applications; in one, a widely used customer relationship management system, a previously unknown security flaw was revealed."
+        },
+        {
+            "Title": "Recalling the \"Imprecision\" of Cross-Project Defect Prediction",
+            "Type": "Paper",
+            "Key": "RecallingtheImprecisionofCrossProjectDefectPrediction",
+            "Authors": [
+                "Foyzur Rahman",
+                "Daryl Posnett",
+                "Premkumar Devanbu"
+            ],
+            "Affiliations": [
+                "University of California Davis",
+                "University of California Davis",
+                "University of California Davis"
+            ],
+            "Abstract": "There has been a great deal of interest in defect prediction. using prediction models trained on historical data to help focus quality-control resources in ongoing development. Since most new projects don’t have historical data, there is interest in cross-project prediction. using data from one project to predict defects in another. Sadly, results in this area have largely been disheartening. Most experiments in cross-project defect prediction report poor performance, using the standard measures of precision, recall and F-score. We argue that these IR-based measures, while broadly applicable, are not as well suited for the quality-control settings in which defect prediction models are used. Speciﬁcally, these measures are taken at speciﬁc threshold settings (typically thresholds of the predicted probability of defectiveness returned by a logistic regression model). However, in practice, software quality control processes choose from a range of time-and-cost vs quality tradeoﬀs. how many ﬁles shall we test? how many shall we inspect? Thus, we argue that measures based on a variety of tradeoﬀs, viz., 5%, 10% or 20% of ﬁles tested/inspected would be more suitable. We study cross-project defect prediction from this perspective. We ﬁnd that cross-project prediction performance is no worse than within-project performance, and substantially better than random prediction!"
+        },
+        {
+            "Title": "An Industrial Study on the Risk of Software Changes",
+            "Type": "Paper",
+            "Key": "AnIndustrialStudyontheRiskofSoftwareChanges",
+            "Authors": [
+                "Emad Shihab",
+                "Ahmed E. Hassan",
+                "Bram Adams",
+                "Zhen Ming Jiang"
+            ],
+            "Affiliations": [
+                "Queen’s University, Canada",
+                "Queen’s University, Canada",
+                "École Polytechnique de, Montréal, Canada",
+                "Research In Motion, Waterloo, ON, Canada"
+            ],
+            "Abstract": "Modelling and understanding bugs has been the focus of much of the Software Engineering research today. However, organizations are interested in more than just bugs. In particular, they are more concerned about managing risk, i.e., the likelihood that a code or design change will cause a negative impact on their products and processes, regardless of whether or not it introduces a bug. In this paper, we conduct a year-long study involving more than 450 developers of a large enterprise, spanning more than 60 teams, to better understand risky changes, i.e., changes for which developers believe that additional attention is needed in the form of careful code or design reviewing and/or more testing. Our ﬁndings show that different developers and different teams have their own criteria for determining risky changes. Using factors extracted from the changes and the history of the ﬁles modiﬁed by the changes, we are able to accurately identify risky changes with a recall of more than 67%, and a precision improvement of 87% (using developer speciﬁc models) and 37% (using team speciﬁc models), over a random model. We ﬁnd that the number of lines and chunks of code added by the change, the bugginess of the ﬁles being changed, the number of bug reports linked to a change and the developer experience are the best indicators of change risk. In addition, we ﬁnd that when a change has many related changes, the reliability of developers in marking risky changes is negatively affected. Our ﬁndings and models are being used today in practice to manage the risk of software projects."
+        },
+        {
+            "Title": "Multi-layered Approach for Recovering Links between Bug Reports and Fixes",
+            "Type": "Paper",
+            "Key": "MultilayeredApproachforRecoveringLinksbetweenBugReportsandFixes",
+            "Authors": [
+                "Anh Nguyen",
+                "Tung Nguyen",
+                "Hoan Nguyen",
+                "Tien Nguyen"
+            ],
+            "Affiliations": [
+                "Iowa State University",
+                "Iowa State University",
+                "Iowa State University",
+                "Iowa State University"
+            ],
+            "Abstract": "The links between the bug reports in an issue-tracking system and the corresponding ﬁxing changes in a version repository are not often recorded by developers. Such linking information is crucial for research in mining software repositories in measuring software defects and maintenance efforts. However, the state-of-the-art bug-to-ﬁx link recovery approaches still rely much on textual matching between bug reports and commit/change logs and cannot handle well the cases where their contents are not textually similar. This paper introduces MLink, a multi-layered approach that takes into account not only textual features but also source code features of the changed code corresponding to the commit logs. It is also capable of learning the association relations between the terms in bug reports and the names of entities/components in the changed source code of the commits from the established bug-to-ﬁx links, and uses them for link recovery between the reports and commits that do not share much similar texts. Our empirical evaluation on realworld projects shows that MLink can improve the state-ofthe-art bug-to-ﬁx link recovery methods by 11-18%, 13-17%, and 8-17% in F-score, recall, and precision, respectively."
+        },
+        {
+            "Title": "Inferring Programmer Intent and Related Errors from Software",
+            "Type": "Award",
+            "Key": "InferringProgrammerIntentandRelatedErrorsfromSoftware",
+            "Authors": [
+                "Mark Gabel"
+            ],
+            "Affiliations": [
+                "University of Texas at Dallas"
+            ],
+            "Abstract": "Software is difﬁcult to write and maintain. Much of the challenge in developing a program lies in specifying it—understanding precisely what it should be doing. Both human-oriented tasks (like ﬁxing a bug) and automated tasks (like mechanical veriﬁcation) require knowledge of a program’s intended behavior. For the vast majority of software projects, though, complete and well-documented speciﬁcations simply do not exist. Writing speciﬁcations—discovering and codifying intent—is a time-consuming and largely manual process. This dissertation presents research into easing this process through automation. The work has focused on the problem of automatically \"inferring\" speciﬁcations directly from programs by analyzing their behavior. This dissertation presents a family of related algorithms, frameworks, and tools for reverse engineering a speciﬁc (but common) class of speciﬁcation. temporal safety properties. It also includes a presentation of OCD, a software tool that leverages these \"inference\" techniques to both learn speciﬁcations and ﬁnd bugs—simultaneously and fully automatically. Each presented algorithm and tool is practical, ﬁnding useful speciﬁcations and previously unknown bugs in large, widely-used software projects like Eclipse. This dissertation concludes with a discussion of future work on this topic, including an outline of my vision of a new research area I am calling Intelligent Program Analysis."
+        },
+        {
+            "Title": "Program Analysis: Then and Now",
+            "Type": "Award",
+            "Key": "ProgramAnalysisThenandNow",
+            "Authors": [
+                "Lori A. Clarke"
+            ],
+            "Affiliations": [
+                "U. Mass. Amherst"
+            ],
+            "Abstract": "Program analysis techniques have played an important role in improving the verification and testing of software systems. In the early days of software engineering, the research community was very naïve, expecting to find \"the solution\" to the software engineering crisis. Without the ability to conduct extensive evaluation, this often led to ideological wars. Increased computing power, open source systems, and more research maturity has led to a renaissance in program analysis research. This talk will overview some of the major accomplishments in program analysis that are feeding this revitalization, describe some of the past hurdles that researchers faced, and discuss some of the current impediments and opportunities."
+        },
+        {
+            "Title": "The Korat Approach to Systematic Testing",
+            "Type": "Award",
+            "Key": "TheKoratApproachtoSystematicTesting",
+            "Authors": [
+                "Chandrasekhar Boyapati",
+                "Sarfraz Khurshid",
+                "Darko Marinov"
+            ],
+            "Affiliations": [
+                "Google",
+                "University of Texas at Austin",
+                "University of Illinois at Urbana-Champaign"
+            ],
+            "Abstract": "At ISSTA 2002, three Ph.D. students published the paper 'Korat. Automated Testing Based on Java Predicates', which won one of the first ACM SIGSOFT Distinguished Paper awards. This year, the paper wins the ACM SIGSOFT Impact Paper Award. In this talk, we recount the motivation behind our research, the ideas presented in the paper, and some influence it had on software testing during the last ten years. We also reflect on our experience of leading a research project as Ph.D. students."
+        }
+    ],
+    "Sessions": [
+        {
+            "Title": "Welcome / Keynote",
+            "Type": "Welcome/Keynote",
+            "ShortType": "Welcome/Keynote",
+            "Key": "1",
+            "Day": "11/13/2012",
+            "Time": "8:30 am - 10:00 am",
+            "Items": [
+                "ProgramOverviewAwards",
+                "IBMWatsonBeyondJeopardy"
+            ],
+            "Chair": "Will Tracz"
+        },
+        {
+            "Title": "Break",
+            "Type": "Break",
+            "ShortType": "Break",
+            "Key": "2",
+            "Day": "11/13/2012",
+            "Time": "10:00 am - 10:30 am"
+        },
+        {
+            "Title": "Program Analysis",
+            "Type": "Paper",
+            "ShortType": "Paper",
+            "Key": "3",
+            "Day": "11/13/2012",
+            "Time": "10:30 am - 11:45 am",
+            "Items": [
+                "TestingMinedSpecifications",
+                "DetectingandAnalyzingInsecureComponentUsage",
+                "RetargetingAndroidApplicationstoJavaBytecode"
+            ],
+            "Chair": "Alessandro Orso"
+        },
+        {
+            "Title": "Tool Demo Session 1",
+            "Type": "Demo",
+            "ShortType": "Demo",
+            "Key": "4",
+            "Day": "11/13/2012",
+            "Time": "10:30 am - 11:45 am",
+            "Items": [
+                "SelfMotionADeclarativeLanguageforAdaptiveServiceOrientedMobileApps",
+                "REPERTOIREACrossSystemPortingAnalysisToolforForkedSoftwareProjects",
+                "AutomatingAdaptiveMaintenanceChangeswithSrcMLandLINQ"
+            ],
+            "Chair": "Brian Robinson"
+        },
+        {
+            "Title": "Lunch",
+            "Type": "Meal",
+            "ShortType": "Meal",
+            "Key": "5",
+            "Day": "11/13/2012",
+            "Time": "11:45 am - 1:00 pm"
+        },
+        {
+            "Title": "Text Analysis",
+            "Type": "Paper",
+            "ShortType": "Paper",
+            "Key": "6",
+            "Day": "11/13/2012",
+            "Time": "1:00 pm - 2:15 pm",
+            "Items": [
+                "SearchingConnectedAPISubgraphviaTextPhrases",
+                "AUSUMApproachforUnsupervisedbugreportSUMmarization",
+                "AutomatedExtractionofSecurityPoliciesfromNaturalLanguageSoftwareDocuments"
+            ],
+            "Chair": "Jane Cleland-Huang"
+        },
+        {
+            "Title": "Research Demos Session 2",
+            "Type": "Demo",
+            "ShortType": "Demo",
+            "Key": "7",
+            "Day": "11/13/2012",
+            "Time": "1:00 pm - 2:15 pm",
+            "Items": [
+                "PracticalChangeImpactAnalysisBasedonStaticProgramSlicingforIndustrialSoftwareSystems",
+                "MayParAMayHappeninParallelAnalyzerforConcurrentObjects",
+                "SandoAnExtensibleLocalCodeSearchFramework"
+            ],
+            "Chair": "William G.J. Halfond"
+        },
+        {
+            "Title": "Break",
+            "Type": "Break",
+            "ShortType": "Break",
+            "Key": "8",
+            "Day": "11/13/2012",
+            "Time": "2:15 pm - 2:45 pm"
+        },
+        {
+            "Title": "Dynamic Analysis",
+            "Type": "Paper",
+            "ShortType": "Paper",
+            "Key": "9",
+            "Day": "11/13/2012",
+            "Time": "2:45 pm - 4:00 pm",
+            "Items": [
+                "AutomatingPresentationChangesinDynamicWebApplicationsviaCollaborativeHybridAnalysis",
+                "TMorphRevealingBuggyBehaviorsofSensorNetworkApplicationsviaRuleMiningandVisualization",
+                "MiningtheExecutionHistoryofaSoftwareSystemtoInfertheBestTimeforitsAdaptation"
+            ],
+            "Chair": "Luciano Baresi"
+        },
+        {
+            "Title": "Research Demos Session 3",
+            "Type": "Demo",
+            "ShortType": "Demo",
+            "Key": "10",
+            "Day": "11/13/2012",
+            "Time": "2:45 pm - 4:00 pm",
+            "Items": [
+                "SecuriTASaToolforEngineeringAdaptiveSecurity",
+                "DioneAnIntegratedMeasurementandDefectPrediction"
+            ],
+            "Chair": "Denys Poshyvanyk"
+        },
+        {
+            "Title": "Break",
+            "Type": "Break",
+            "ShortType": "Break",
+            "Key": "11",
+            "Day": "11/13/2012",
+            "Time": "4:00 pm - 4:15 pm"
+        },
+        {
+            "Title": "NIER Papers",
+            "Type": "Paper",
+            "ShortType": "Paper",
+            "Key": "12",
+            "Day": "11/13/2012",
+            "Time": "4:15 pm - 5:15 pm",
+            "Items": [
+                "DealingwithUncertaintyinEarlySoftwareArchitecture",
+                "SoftwareChangeContracts",
+                "SemanticFaultDiagnosisAutomaticNaturalLanguageFaultDescriptions",
+                "TowardMeasuringProgramComprehensionwithFunctionalMagneticResonanceImaging",
+                "TowardSemanticSearchviaSMTSolver",
+                "InferenceandCheckingofPluggableTypes",
+                "ScalableMalwareClusteringthroughCoarseGrainedBehaviorModeling",
+                "HasThisBugBeenReported",
+                "ConceptBasedFailureClustering",
+                "SeeingtheForestandtheTreesFocusingTeamInteractiononValueandEffortDrivers",
+                "FromPixelstoBytesEvolutionaryScenarioBasedDesignWithVideo",
+                "ServiceSelectionforHappyUsersMakingUserIntuitiveQualityAbstractions"
+            ],
+            "Chair": "Licia Capra"
+        },
+        {
+            "Title": "Test Suites",
+            "Type": "Paper",
+            "ShortType": "Paper",
+            "Key": "13",
+            "Day": "11/14/2012",
+            "Time": "8:30 am - 10:10 am",
+            "Items": [
+                "UnderstandingMythsandRealitiesofTestSuiteEvolution",
+                "TestInputGenerationUsingDynamicProgramming",
+                "CarFastAchievingHigherStatementCoverageFaster",
+                "ScalableTestDataGenerationfromMultidimensionalModels"
+            ],
+            "Chair": "Willem Visser"
+        },
+        {
+            "Title": "Research Demos Session 4",
+            "Type": "Paper",
+            "ShortType": "Paper",
+            "Key": "14",
+            "Day": "11/14/2012",
+            "Time": "8:30 am - 10:10 am",
+            "Items": [
+                "UMLtoCSPUOSTAToolforEfficientVerificationofUMLOCLClassDiagramsThroughModelSlicing",
+                "ReImInferMethodPurityInferenceforJava",
+                "TouchDevelopAppDevelopmentonMobileDevices",
+                "FaultTracerAChangeImpactandRegressionFaultAnalysisToolforEvolvingJavaPrograms",
+                "EfficientlyScriptingChangeResilientTests"
+            ],
+            "Chair": "Miryung Kim"
+        },
+        {
+            "Title": "Break",
+            "Type": "Break",
+            "ShortType": "Break",
+            "Key": "15",
+            "Day": "11/14/2012",
+            "Time": "10:10 am - 10:40 am"
+        },
+        {
+            "Title": "Decision Support",
+            "Type": "Paper",
+            "ShortType": "Paper",
+            "Key": "16",
+            "Day": "11/14/2012",
+            "Time": "10:40 am - 12:20 pm",
+            "Items": [
+                "ImprovingSoftwareDevelopersFluencybyRecommendingDevelopmentEnvironmentCommands",
+                "HistorySlicingAssistingCodeEvolutionTasks",
+                "WhoisgoingtoMentorNewcomersinOpenSourceProjects",
+                "AssessingtheValueofBrancheswithWhatifAnalysis"
+            ],
+            "Chair": "Paul Gruenbacher"
+        },
+        {
+            "Title": "Lunch",
+            "Type": "Meal",
+            "ShortType": "Meal",
+            "Key": "17",
+            "Day": "11/14/2012",
+            "Time": "12:20 pm - 1:30 pm"
+        },
+        {
+            "Title": "Concurrency",
+            "Type": "Paper",
+            "ShortType": "Paper",
+            "Key": "18",
+            "Day": "11/14/2012",
+            "Time": "1:30 pm - 2:45 pm",
+            "Items": [
+                "DTAMDynamicTaintAnalysisofMultithreadedProgramsforRelevancy",
+                "PredictingNullPointerDereferencesinConcurrentPrograms",
+                "AsynchronousProgramswithPrioritizedTaskBuffers"
+            ],
+            "Chair": "Chao Wang"
+        },
+        {
+            "Title": "Break",
+            "Type": "Break",
+            "ShortType": "Break",
+            "Key": "19",
+            "Day": "11/14/2012",
+            "Time": "2:45 pm - 3:15 pm"
+        },
+        {
+            "Title": "Modularity",
+            "Type": "Paper",
+            "ShortType": "Paper",
+            "Key": "20",
+            "Day": "11/14/2012",
+            "Time": "3:15 pm - 4:55 pm",
+            "Items": [
+                "DoCrosscuttingConcernsCauseModularityProblems",
+                "AFieldStudyofRefactoringChallengesandBenefits",
+                "HowDoSoftwareEngineersUnderstandCodeChangesAnExploratoryStudyinIndustry",
+                "VariabilityPointsandDesignPatternUsageinArchitecturalTactics"
+            ],
+            "Chair": "Danny Dig"
+        },
+        {
+            "Title": "Empirical Studies",
+            "Type": "Paper",
+            "ShortType": "Paper",
+            "Key": "21",
+            "Day": "11/15/2012",
+            "Time": "8:30 am - 10:10 am",
+            "Items": [
+                "ACaseStudyofCrossSystemPortinginForkedProjects",
+                "Howdodevelopersuseparallellibraries",
+                "SeekingtheGroundTruthARetroactiveStudyontheEvolutionandMigrationofSoftwareLibraries",
+                "HowDoDevelopersReacttoAPIDeprecationTheCaseofaSmalltalkEcosystem"
+            ],
+            "Chair": "Massimiliano Di Penta"
+        },
+        {
+            "Title": "Break",
+            "Type": "Break",
+            "ShortType": "Break",
+            "Key": "22",
+            "Day": "11/15/2012",
+            "Time": "10:10 am - 10:40 am"
+        },
+        {
+            "Title": "Verification",
+            "Type": "Paper",
+            "ShortType": "Paper",
+            "Key": "23",
+            "Day": "11/15/2012",
+            "Time": "10:40 am - 12:20 pm",
+            "Items": [
+                "ConditionalModelCheckingATechniquetoPassInformationbetweenVerifiers",
+                "GreenReducingReusingandRecyclingConstraintsinProgramAnalysis",
+                "AutomatedConcolicTestingofSmartphoneApps",
+                "RubiconBoundedVerificationofWebApplications"
+            ],
+            "Chair": "Sarfraz Khurshid"
+        },
+        {
+            "Title": "Lunch",
+            "Type": "Meal",
+            "ShortType": "Meal",
+            "Key": "24",
+            "Day": "11/15/2012",
+            "Time": "12:20 pm - 1:30 pm"
+        },
+        {
+            "Title": "Bug Prediction",
+            "Type": "Paper",
+            "ShortType": "Paper",
+            "Key": "25",
+            "Day": "11/15/2012",
+            "Time": "1:30 pm - 2:45 pm",
+            "Items": [
+                "RecallingtheImprecisionofCrossProjectDefectPrediction",
+                "AnIndustrialStudyontheRiskofSoftwareChanges",
+                "MultilayeredApproachforRecoveringLinksbetweenBugReportsandFixes"
+            ],
+            "Chair": "Christian Bird"
+        },
+        {
+            "Title": "Break",
+            "Type": "Break",
+            "ShortType": "Break",
+            "Key": "26",
+            "Day": "11/15/2012",
+            "Time": "2:45 pm - 3:15 pm"
+        },
+        {
+            "Title": "Keynotes/Awards/Closing",
+            "Type": "Closing/Keynote",
+            "ShortType": "Closing/Keynote",
+            "Key": "27",
+            "Day": "11/15/2012",
+            "Time": "3:15 pm - 5:15 pm",
+            "Items": [
+                "InferringProgrammerIntentandRelatedErrorsfromSoftware",
+                "ProgramAnalysisThenandNow",
+                "TheKoratApproachtoSystematicTesting"
+            ],
+            "Chair": "Will Tracz"
+        }
+    ],
+    "People": [
+        {
+            "Name": "Aarti Gupta",
+            "Affiliation": "NEC Labs America"
+        },
+        {
+            "Name": "Abhik Roychoudhury",
+            "Affiliation": "National University of Singapore"
+        },
+        {
+            "Name": "Adam Lally",
+            "Affiliation": "IBM T. J. Watson Research Center"
+        },
+        {
+            "Name": "Ahmed E. Hassan",
+            "Affiliation": "Queen’s University, Canada"
+        },
+        {
+            "Name": "Akash Lal",
+            "Affiliation": "Microsoft Research, Bangalore, India"
+        },
+        {
+            "Name": "Alessandro Orso",
+            "Affiliation": "Georgia Inst. of Technology"
+        },
+        {
+            "Name": "Amit Paradkar",
+            "Affiliation": "IBM T. J. Watson Research Center, Hawthorne"
+        },
+        {
+            "Name": "Ana Milanova",
+            "Affiliation": "Rensselaer Polytechnic Institute, Troy NY"
+        },
+        {
+            "Name": "Ana Milanova",
+            "Affiliation": "Rensselaer Polytechnic Institute"
+        },
+        {
+            "Name": "André Brechmann",
+            "Affiliation": "Leibniz Inst. for Neurobiology Magdeburg, Germany"
+        },
+        {
+            "Name": "Anh Nguyen",
+            "Affiliation": "Iowa State University"
+        },
+        {
+            "Name": "Antonio Flores-Montoya",
+            "Affiliation": "Complutense University of Madrid"
+        },
+        {
+            "Name": "Apostolos Zarras",
+            "Affiliation": "Univ. of Ioannina Greece"
+        },
+        {
+            "Name": "Asadullah Shaikh",
+            "Affiliation": "The Maersk-McKinney Moller Institute University of Southern Denmark (Denmark) and Kulliyyah of Information and Communication Technology (KICT) International Islamic University (Malaysia)"
+        },
+        {
+            "Name": "Avinava Dubey",
+            "Affiliation": "IBM Research, India"
+        },
+        {
+            "Name": "Ayse Bener",
+            "Affiliation": "Ryerson University, Toronto, CA"
+        },
+        {
+            "Name": "Ayse Tosun Misirli",
+            "Affiliation": "University of Oulu, Finland"
+        },
+        {
+            "Name": "Azadeh Farzan",
+            "Affiliation": "University of Toronto"
+        },
+        {
+            "Name": "B.M. Mainul Hossain",
+            "Affiliation": "University of Illinois at Chicago"
+        },
+        {
+            "Name": "Baishakhi Ray",
+            "Affiliation": "The University of Texas at Austin"
+        },
+        {
+            "Name": "Baishakhi Ray",
+            "Affiliation": "The University of Texas at Austin"
+        },
+        {
+            "Name": "Bartosz Ropski",
+            "Affiliation": "Autodesk, Inc. Krakow, Poland"
+        },
+        {
+            "Name": "Bashar Nuseibeh",
+            "Affiliation": "University of Limerick, Ireland, The Open University, UK"
+        },
+        {
+            "Name": "Bernd Bruegge",
+            "Affiliation": "Technische Universität München Munich, Germany"
+        },
+        {
+            "Name": "Bora Caglayan",
+            "Affiliation": "Bogazici University, Turkey"
+        },
+        {
+            "Name": "Bradley Cosset",
+            "Affiliation": "University of Calgary, Calgary, Alberta, Canada"
+        },
+        {
+            "Name": "Bram Adams",
+            "Affiliation": "École Polytechnique de, Montréal, Canada"
+        },
+        {
+            "Name": "Brian Robinson",
+            "Affiliation": "ABB Corporate Research"
+        },
+        {
+            "Name": "Burak Turhan",
+            "Affiliation": "University of Oulu, Finland"
+        },
+        {
+            "Name": "Carlo Ghezzi",
+            "Affiliation": "DEEPSE Group @ DEI, Politecnico di Milano, Italy"
+        },
+        {
+            "Name": "Chandrasekhar Boyapati",
+            "Affiliation": "Google"
+        },
+        {
+            "Name": "Chen Fu",
+            "Affiliation": "Accenture Technology Labs San Jose, CA"
+        },
+        {
+            "Name": "Christian Bird",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Christian Kaestner",
+            "Affiliation": "Philipps University Marburg, Germany"
+        },
+        {
+            "Name": "Christoph Csallner",
+            "Affiliation": "University of Texas at Arlington"
+        },
+        {
+            "Name": "Christopher Wiley",
+            "Affiliation": "The University of Texas at Austin"
+        },
+        {
+            "Name": "Claudio Menghi",
+            "Affiliation": "University of Limerick, Ireland"
+        },
+        {
+            "Name": "Damien Octeau",
+            "Affiliation": "Pennsylvania State University"
+        },
+        {
+            "Name": "Daniel Jackson",
+            "Affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+            "Name": "Danny Dig",
+            "Affiliation": "University of Illinois at Urbana-Champaign"
+        },
+        {
+            "Name": "Darko Marinov",
+            "Affiliation": "University of Illinois at Urbana-Champaign"
+        },
+        {
+            "Name": "Daryl Posnett",
+            "Affiliation": "University of California Davis"
+        },
+        {
+            "Name": "David Lo",
+            "Affiliation": "Singapore Management University"
+        },
+        {
+            "Name": "David Röthlisberger",
+            "Affiliation": "University of Chile"
+        },
+        {
+            "Name": "David Shepherd",
+            "Affiliation": "ABB, Inc"
+        },
+        {
+            "Name": "Dawei Qi",
+            "Affiliation": "National University of Singapore"
+        },
+        {
+            "Name": "Dionysis Athanasopoulos",
+            "Affiliation": "Univ. of Ioannina Greece"
+        },
+        {
+            "Name": "Dirk Beyer",
+            "Affiliation": "University of Passau, Germany"
+        },
+        {
+            "Name": "Dongmei Zhang",
+            "Affiliation": "Microsoft Research Asia, Beijing, China"
+        },
+        {
+            "Name": "Dongyoon Lee",
+            "Affiliation": "University of Michigan"
+        },
+        {
+            "Name": "Elvira Albert",
+            "Affiliation": "Complutense University of Madrid"
+        },
+        {
+            "Name": "Emad Shihab",
+            "Affiliation": "Queen’s University, Canada"
+        },
+        {
+            "Name": "Emerson Murphy-Hill",
+            "Affiliation": "North Carolina State University"
+        },
+        {
+            "Name": "Emina Torlak",
+            "Affiliation": "U.C. Berkeley"
+        },
+        {
+            "Name": "Foyzur Rahman",
+            "Affiliation": "University of California Davis"
+        },
+        {
+            "Name": "Francesco Sorrentino",
+            "Affiliation": "University of Illinois"
+        },
+        {
+            "Name": "Francisco Servant",
+            "Affiliation": "University of California, Irvine"
+        },
+        {
+            "Name": "Gail Murphy",
+            "Affiliation": "University of British Columbia, Vancouver, Canada"
+        },
+        {
+            "Name": "Gerardo Canfora",
+            "Affiliation": "University of Sannio, Italy"
+        },
+        {
+            "Name": "Gianpaolo Cugola",
+            "Affiliation": "DEEPSE Group @ DEI, Politecnico di Milano, Italy"
+        },
+        {
+            "Name": "Giordano Tamburrelli",
+            "Affiliation": "DEEPSE Group @ DEI, Politecnico di Milano, Italy"
+        },
+        {
+            "Name": "Gul Calikli",
+            "Affiliation": "Bogazici University, Turkey"
+        },
+        {
+            "Name": "Gunter Saake",
+            "Affiliation": "University of Magdeburg, Germany"
+        },
+        {
+            "Name": "Han Xu",
+            "Affiliation": "Technische Universität München Munich, Germany"
+        },
+        {
+            "Name": "Hee Beng Kuan Tan",
+            "Affiliation": "Nanyang Technological University, Singapore"
+        },
+        {
+            "Name": "Hoan Nguyen",
+            "Affiliation": "Iowa State University"
+        },
+        {
+            "Name": "Hong Cheng",
+            "Affiliation": "The Chinese University of Hong Kong"
+        },
+        {
+            "Name": "Hong Mei",
+            "Affiliation": "Peking University, MOE, China"
+        },
+        {
+            "Name": "Inah Omoronyi",
+            "Affiliation": "University of Limerick, Ireland"
+        },
+        {
+            "Name": "Ishtiaque Hussain",
+            "Affiliation": "University of Texas at Arlington"
+        },
+        {
+            "Name": "Jaco Geldenhuys",
+            "Affiliation": "Stellenbosch University, South Africa"
+        },
+        {
+            "Name": "James A. Jones",
+            "Affiliation": "University of California, Irvine"
+        },
+        {
+            "Name": "James A. Jones",
+            "Affiliation": "University of California, Irvine"
+        },
+        {
+            "Name": "James A. Jones",
+            "Affiliation": "University of California, Irvine"
+        },
+        {
+            "Name": "Jane Cleland-Huang",
+            "Affiliation": "DePaul University Chicago"
+        },
+        {
+            "Name": "Janet Siegmund",
+            "Affiliation": "University of Magdeburg, Germany"
+        },
+        {
+            "Name": "Jiangchuan Liu",
+            "Affiliation": "Simon Fraser Univ., Burnaby, BC, Canada"
+        },
+        {
+            "Name": "Jonathan de Halleux",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Jonathan Sillito",
+            "Affiliation": "University of Calgary, Calgary, Canada"
+        },
+        {
+            "Name": "Jooyong Yi",
+            "Affiliation": "National University of Singapore"
+        },
+        {
+            "Name": "Jörg Liebig",
+            "Affiliation": "University of Passau, Germany"
+        },
+        {
+            "Name": "Joseph Near",
+            "Affiliation": "Massachusetts Institute of Technology"
+        },
+        {
+            "Name": "Kaiping Liu",
+            "Affiliation": "Nanyang Technological University, Singapore"
+        },
+        {
+            "Name": "Kathryn Stolee",
+            "Affiliation": "University of Nebraska – Lincoln, Lincoln, NE, U.S.A."
+        },
+        {
+            "Name": "Kaveh Razavi",
+            "Affiliation": "George Mason University"
+        },
+        {
+            "Name": "Kostadin Damevski",
+            "Affiliation": "Virginia State Universtiy Petersburg"
+        },
+        {
+            "Name": "Kunal Taneja",
+            "Affiliation": "Accenture Technology Labs and North Carolina State University"
+        },
+        {
+            "Name": "Kyle Canavera",
+            "Affiliation": "George Mason University"
+        },
+        {
+            "Name": "Leandro Sales Pinto",
+            "Affiliation": "DEEPSE Group @ DEI, Politecnico di Milano, Italy"
+        },
+        {
+            "Name": "Leandro Sales Pinto",
+            "Affiliation": "Politecnico di Milano"
+        },
+        {
+            "Name": "Liliana Pasquale",
+            "Affiliation": "University of Limerick, Ireland"
+        },
+        {
+            "Name": "Lingming Zhang",
+            "Affiliation": "The University of Texas at Austin"
+        },
+        {
+            "Name": "Lori A. Clarke",
+            "Affiliation": "U. Mass. Amherst"
+        },
+        {
+            "Name": "Lu Zhang",
+            "Affiliation": "Peking University, MOE, China"
+        },
+        {
+            "Name": "Luca Cavallaro",
+            "Affiliation": "University of Limerick, Ireland"
+        },
+        {
+            "Name": "M. Erkan Keremoglu",
+            "Affiliation": "Simon Fraser University Canada"
+        },
+        {
+            "Name": "Madhusudan Parthasarathy",
+            "Affiliation": "University of Illinois"
+        },
+        {
+            "Name": "Mahinthan Chandramohan",
+            "Affiliation": "Nanyang Technological University, Singapore"
+        },
+        {
+            "Name": "Mahinthan Chandramohan",
+            "Affiliation": "Nanyang Technological University, Singapore"
+        },
+        {
+            "Name": "Malay Ganai",
+            "Affiliation": "NEC Labs America"
+        },
+        {
+            "Name": "Manuel Fahndrich",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Mark Gabel",
+            "Affiliation": "The University of Texas at Dallas"
+        },
+        {
+            "Name": "Mark Gabel",
+            "Affiliation": "University of Texas at Dallas"
+        },
+        {
+            "Name": "Mark Grechanik",
+            "Affiliation": "University of Illinois and Accenture Technology Lab, Chicago"
+        },
+        {
+            "Name": "Martin Robillard",
+            "Affiliation": "McGill University"
+        },
+        {
+            "Name": "Massimiliano Di Penta",
+            "Affiliation": "University of Sannio, Italy"
+        },
+        {
+            "Name": "Matt Dwyer",
+            "Affiliation": "University of Nebraska -Lincoln"
+        },
+        {
+            "Name": "Matthias Book",
+            "Affiliation": "University of Duisburg-Essen, Gerlingstr. Germany"
+        },
+        {
+            "Name": "Mazeiar Salehie",
+            "Affiliation": "University of Limerick, Ireland"
+        },
+        {
+            "Name": "Mehdi Mirakhorli",
+            "Affiliation": "DePaul University Chicago"
+        },
+        {
+            "Name": "Michael Emmi",
+            "Affiliation": "LIAFA, Université Paris Diderot, France"
+        },
+        {
+            "Name": "Michael Lyu",
+            "Affiliation": "Dept. of Computer Sci. & Eng., The Chinese Univ. of Hong Kong, Hong Kong, China, National Univ. of Defense Technology, Changsha, China"
+        },
+        {
+            "Name": "Michal Moskal",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Mircea Lungu",
+            "Affiliation": "University of Bern"
+        },
+        {
+            "Name": "Miryung Kim",
+            "Affiliation": "The University of Texas at Austin"
+        },
+        {
+            "Name": "Miryung Kim",
+            "Affiliation": "The University of Texas at Austin"
+        },
+        {
+            "Name": "Miryung Kim",
+            "Affiliation": "The University of Texas at Austin"
+        },
+        {
+            "Name": "Miryung Kim",
+            "Affiliation": "The University of Texas at Austin"
+        },
+        {
+            "Name": "Mithun Acharya",
+            "Affiliation": "ABB Corporate Research"
+        },
+        {
+            "Name": "Nachiappan Nagappan",
+            "Affiliation": "Microsoft Research, Redmond, WA, USA"
+        },
+        {
+            "Name": "Naeem Esfahani",
+            "Affiliation": "George Mason University"
+        },
+        {
+            "Name": "Naeem Esfahani",
+            "Affiliation": "George Mason University"
+        },
+        {
+            "Name": "Naoufel Boulila",
+            "Affiliation": "Siemens Corporate Technology, Munich, Germany"
+        },
+        {
+            "Name": "Nicholas DiGiuseppe",
+            "Affiliation": "University of California, Irvine"
+        },
+        {
+            "Name": "Nicholas DiGiuseppe",
+            "Affiliation": "University of California, Irvine"
+        },
+        {
+            "Name": "Nikolai Tillmann",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Niloofar Razavi",
+            "Affiliation": "University of Toronto"
+        },
+        {
+            "Name": "Oliver Creighton",
+            "Affiliation": "Siemens Corporate Technology, Munich, Germany"
+        },
+        {
+            "Name": "Panos Vassiliadis",
+            "Affiliation": "Univ. of Ioannina Greece"
+        },
+        {
+            "Name": "Patrick Maeder",
+            "Affiliation": "Johannes Kepler University Linz, Austria"
+        },
+        {
+            "Name": "Patrick McDaniel",
+            "Affiliation": "Pennsylvania State University"
+        },
+        {
+            "Name": "Philipp Wendler",
+            "Affiliation": "University of Passau, Germany"
+        },
+        {
+            "Name": "Premkumar Devanbu",
+            "Affiliation": "University of California Davis"
+        },
+        {
+            "Name": "Qing Xie",
+            "Affiliation": "Accenture Technology Labs San Jose, CA"
+        },
+        {
+            "Name": "Rahul Jiresal",
+            "Affiliation": "University of British Columbia, Vancouver, Canada"
+        },
+        {
+            "Name": "Razieh Nokhbeh Zaeem",
+            "Affiliation": "The University of Texas at Austin, Austin, TX, USA"
+        },
+        {
+            "Name": "Robert Walker",
+            "Affiliation": "University of Calgary, Calgary, Canada"
+        },
+        {
+            "Name": "Robert Walker",
+            "Affiliation": "University of Calgary, Calgary, Alberta, Canada"
+        },
+        {
+            "Name": "Rocco Oliveto",
+            "Affiliation": "University of Molise, Italy"
+        },
+        {
+            "Name": "Romain Robbes",
+            "Affiliation": "University of Chile"
+        },
+        {
+            "Name": "Rose Catherine",
+            "Affiliation": "IBM Research, India"
+        },
+        {
+            "Name": "Sam Malek",
+            "Affiliation": "George Mason University"
+        },
+        {
+            "Name": "Sam Malek",
+            "Affiliation": "George Mason University"
+        },
+        {
+            "Name": "Samir Genaim",
+            "Affiliation": "Complutense University of Madrid"
+        },
+        {
+            "Name": "Sangmin Park",
+            "Affiliation": "Georgia Institute of Technology, Atlanta"
+        },
+        {
+            "Name": "Sarfraz Khurshid",
+            "Affiliation": "The University of Texas at Austin, Austin, TX, USA"
+        },
+        {
+            "Name": "Sarfraz Khurshid",
+            "Affiliation": "The University of Texas at Austin"
+        },
+        {
+            "Name": "Sarfraz Khurshid",
+            "Affiliation": "University of Texas at Austin"
+        },
+        {
+            "Name": "Saurabh Sinha",
+            "Affiliation": "IBM Research, India"
+        },
+        {
+            "Name": "Sebastian Burckhardt",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Sebastian Elbaum",
+            "Affiliation": "University of Nebraska – Lincoln, Lincoln, NE, U.S.A."
+        },
+        {
+            "Name": "Sebastiano Panichella",
+            "Affiliation": "University of Sannio, Italy"
+        },
+        {
+            "Name": "Semih Oku",
+            "Affiliation": "University of Illinois at Urbana-Champaign"
+        },
+        {
+            "Name": "Senthil Mani",
+            "Affiliation": "IBM Research, India"
+        },
+        {
+            "Name": "Shar Lwin Khin",
+            "Affiliation": "Nanyang Technological University, Singapore"
+        },
+        {
+            "Name": "Shaz Qadeer",
+            "Affiliation": "Microsoft Research, Redmond, USA"
+        },
+        {
+            "Name": "Shreya Rawal",
+            "Affiliation": "University of Calgary, Calgary, Canada"
+        },
+        {
+            "Name": "Simon Grapenthin",
+            "Affiliation": "University of Duisburg-Essen, Gerlingstr. Germany"
+        },
+        {
+            "Name": "Somesh Jha",
+            "Affiliation": "University of Wisconsin"
+        },
+        {
+            "Name": "Sunghun Kim",
+            "Affiliation": "The Hong Kong University of Science and Technology, Hong Kong, China"
+        },
+        {
+            "Name": "Suresh Thummalapenta",
+            "Affiliation": "IBM Research , Bangalore, India"
+        },
+        {
+            "Name": "Sven Apel",
+            "Affiliation": "University of Passau, Germany"
+        },
+        {
+            "Name": "Taeho Kwon",
+            "Affiliation": "University of California, Davis"
+        },
+        {
+            "Name": "Tan Hee Beng Kuan",
+            "Affiliation": "Nanyang Technological University, Singapore"
+        },
+        {
+            "Name": "Tao Xie",
+            "Affiliation": "North Carolina State University, Raleigh"
+        },
+        {
+            "Name": "Tao Xie",
+            "Affiliation": "North Carolina State University, USA"
+        },
+        {
+            "Name": "Tao Xie",
+            "Affiliation": "North Carolina State University"
+        },
+        {
+            "Name": "Tevfik Bultan",
+            "Affiliation": "University of California, Santa Barbara"
+        },
+        {
+            "Name": "Thomas A. Henzinger",
+            "Affiliation": "IST Austria"
+        },
+        {
+            "Name": "Thomas Fritz",
+            "Affiliation": "University of Zurich Zurich, Switzerland"
+        },
+        {
+            "Name": "Thomas Leich",
+            "Affiliation": "Metop Research Institute, Magdeburg, Germany"
+        },
+        {
+            "Name": "Thomas Zimmermann",
+            "Affiliation": "Microsoft Research"
+        },
+        {
+            "Name": "Thomas Zimmermann",
+            "Affiliation": "Microsoft Research, Redmond, WA, USA"
+        },
+        {
+            "Name": "Tien Nguyen",
+            "Affiliation": "Iowa State University"
+        },
+        {
+            "Name": "Tung Nguyen",
+            "Affiliation": "Iowa State University"
+        },
+        {
+            "Name": "Turgay Aytac",
+            "Affiliation": "Prescience Inc., USA"
+        },
+        {
+            "Name": "Uffe Wiil",
+            "Affiliation": "The Maersk-McKinney Moller Institute University of Southern Denmark (Denmark)"
+        },
+        {
+            "Name": "Vibha Singhal Sinha",
+            "Affiliation": "IBM Research, India"
+        },
+        {
+            "Name": "Vinay Augustine",
+            "Affiliation": "ABB Corporate Research"
+        },
+        {
+            "Name": "Volker Gruhn",
+            "Affiliation": "University of Duisburg-Essen, Gerlingstr. Germany"
+        },
+        {
+            "Name": "Wei Huang",
+            "Affiliation": "Rensselaer Polytechnic Institute, Troy NY"
+        },
+        {
+            "Name": "Wei Huang",
+            "Affiliation": "Rensselaer Polytechnic Institute"
+        },
+        {
+            "Name": "Willem Visser",
+            "Affiliation": "Stellenbosch University, South Africa"
+        },
+        {
+            "Name": "Wing-Kwan Chan",
+            "Affiliation": "The Chinese University of Hong Kong"
+        },
+        {
+            "Name": "Xiaoyin Wang",
+            "Affiliation": "Peking University, MOE, China"
+        },
+        {
+            "Name": "Xinyu Chen",
+            "Affiliation": "Shenzhen Research Institute, The Chinese Univ. of Hong Kong, Shenzhen, China"
+        },
+        {
+            "Name": "Xusheng Xiao",
+            "Affiliation": "North Carolina State University, Raleigh"
+        },
+        {
+            "Name": "Yangfan Zhou",
+            "Affiliation": "Shenzhen Research Institute, The Chinese Univ. of Hong Kong, Shenzhen, China, Dept. of Computer Sci. & Eng., The Chinese Univ. of Hong Kong, Hong Kong, China"
+        },
+        {
+            "Name": "Yida Tao",
+            "Affiliation": "The Hong Kong University of Science and Technology, Hong Kong, China"
+        },
+        {
+            "Name": "Yingfei Xiong",
+            "Affiliation": "Peking University, MOE, China"
+        },
+        {
+            "Name": "Yingnong Dang",
+            "Affiliation": "Microsoft Research Asia, Beijing, China"
+        },
+        {
+            "Name": "Zhen Ming Jiang",
+            "Affiliation": "Research In Motion, Waterloo, ON, Canada"
+        },
+        {
+            "Name": "Zhendong Su",
+            "Affiliation": "University of California, Davis"
+        },
+        {
+            "Name": "Zhendong Su",
+            "Affiliation": "University of California, Davis"
+        }
+    ]
+}
