@@ -4,6 +4,18 @@
 "Events": [
 
 	{
+	    "Id" : "ETAPS2013",
+	    "Name" : "ETAPS 2013",
+        "Version" : 1,
+	    "File" : "2013ETAPS.json",
+	    "StartDate" : "3/16/2013",
+	    "EndDate" : "3/24/2013",
+	    "Description" : "Program for the European Joint Conferences on Theory and Practice of Software 2013",
+		"Icon" : "2013ETAPS.png",
+		"Image" : "2013ETAPS.png"
+	},
+	
+	{
 	    "Id" : "ICSE2013",
 	    "Name" : "ICSE 2013",
         "Version" : 10,
