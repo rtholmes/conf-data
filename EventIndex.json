@@ -4,6 +4,18 @@
 "Events": [
 
 	{
+	    "Id" : "FORTE2013",
+	    "Name" : "FORTE 2013",
+        "Version" : 1,
+	    "File" : "2013FORTE.json",
+	    "StartDate" : "06/03/2013",
+	    "EndDate" : "06/06/2013",
+	    "Description" : "Program for the 2013 IFIP Joint International Conference on Formal Techniques for Distributed Systems (33rd FORTE / 15th FMOODS)",
+		"Icon" : "2013FORTE.png",
+		"Image" : "2013FORTE.png"
+	},
+	
+	{
 	    "Id" : "ETAPS2013",
 	    "Name" : "ETAPS 2013",
         "Version" : 1,
