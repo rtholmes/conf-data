@@ -6,7 +6,7 @@ This repository contains academic conference metadata.
 Structure
 ---------
 
-* ``EventIndex.json`` contains an overview of all stored metadata. For every metadata change be sure to update the ``Version`` attribute for the conference being updated along with the ``DataVersion`` attribute in the conference data file itself.
+* ``EventIndex.json`` contains an overview of all stored metadata. For every metadata change be sure to update the ``Version`` attribute for the conference being updated along with the ``DataRevision`` attribute in the conference data file itself.
 * ``data/`` contains the conference metadata itself.
 * ``icons62/`` contains 62x62 px imagery.
 * ``icons200/`` contains 200x200 px imagery.
