@@ -1,0 +1,1130 @@
+{
+    "DataRevision": 1363688091,
+    "Preliminary": true,
+    "Event": "FORTE/FMOODS 2013",
+    "Name": "FORTE/FMOODS 2013",
+    "Description": "",
+    "Sponsors": "",
+    "URL": "http://forte13.sosy-lab.org/",
+    "Organization": {
+        "General Chairs": [
+        ],
+        "PC Chairs": [
+        ]
+    },
+    "SocialFeeds": [
+    ],
+    "VenueInfo": {
+        "Name": "",
+        "GPS": {
+            "Latitude": 0,
+            "Longitude": 0
+        }
+    },
+    "InfoPage": {
+        "xaml": "foo",
+        "Elements": [
+            {
+                "XamlName": "ConferenceCenterMap",
+                "Type": "Map",
+                "GPS": {
+                    "Latitude": 0,
+                    "Longitude": 0
+                },
+                "MapLabel": ""
+            },
+            {
+                "XamlName": "LicenseButton",
+                "Type": "WebLink",
+                "URL": "http://research.microsoft.com/en-US/projects/confapp/terms.aspx"
+            },
+            {
+                "XamlName": "PrivacyButton",
+                "Type": "WebLink",
+                "URL": "http://privacy.microsoft.com/en-us/default.msp"
+            }
+        ]
+    },
+    "SessionPriorities": [
+        "Award",
+        "Invited Talk",
+        "Other"
+    ],
+    "Items": [
+        {
+            "Title": "Model Checking Distributed Systems against Temporal-Epistemic Specifications",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id15-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndreas+Griesmayer+and+Alessio+Lomuscio+%22Model+Checking+Distributed+Systems+against+Temporal-Epistemic+Specifications%22",
+            "URLvideo": "",
+            "PersonsString": "Andreas Griesmayer and Alessio Lomuscio",
+            "AffiliationsString": "Imperial College London, UK",
+            "Authors": [
+                "Andreas Griesmayer @ Imperial College London, UK",
+                "Alessio Lomuscio @ Imperial College London, UK"
+            ],
+            "Affiliations": [
+                "Imperial College London, UK",
+                "Imperial College London, UK"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "A Case Study in Formal Verification using Multiple Explicit Heaps",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id21-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DWojciech+Mostowski+%22A+Case+Study+in+Formal+Verification+using+Multiple+Explicit+Heaps%22",
+            "URLvideo": "",
+            "PersonsString": "Wojciech Mostowski",
+            "AffiliationsString": "University of Twente, Netherlands",
+            "Authors": [
+                "Wojciech Mostowski @ University of Twente, Netherlands"
+            ],
+            "Affiliations": [
+                "University of Twente, Netherlands"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "May-Happen-in-Parallel Based Deadlock Analysis for Concurrent Objects",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id51-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAntonio+E.+Flores-Montoya%2C+Elvira+Albert%2C+and+Samir+Genaim+%22May-Happen-in-Parallel+Based+Deadlock+Analysis+for+Concurrent+Objects%22",
+            "URLvideo": "",
+            "PersonsString": "Antonio E. Flores-Montoya, Elvira Albert, and Samir Genaim",
+            "AffiliationsString": "Technische Universität Darmstadt, Germany; Complutense University of Madrid, Spain",
+            "Authors": [
+                "Antonio E. Flores-Montoya @ Technische Universität Darmstadt, Germany",
+                "Elvira Albert @ Complutense University of Madrid, Spain",
+                "Samir Genaim @ Complutense University of Madrid, Spain"
+            ],
+            "Affiliations": [
+                "Technische Universität Darmstadt, Germany",
+                "Complutense University of Madrid, Spain",
+                "Complutense University of Madrid, Spain"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Semantic Subtyping for Objects and Classes",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id39-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DOrnela+Dardha%2C+Daniele+Gorla%2C+and+Daniele+Varacca+%22Semantic+Subtyping+for+Objects+and+Classes%22",
+            "URLvideo": "",
+            "PersonsString": "Ornela Dardha, Daniele Gorla, and Daniele Varacca",
+            "AffiliationsString": "University of Bologna, Italy; University of Rome La Sapienza, Italy; University Paris Diderot, France",
+            "Authors": [
+                "Ornela Dardha @ University of Bologna, Italy",
+                "Daniele Gorla @ University of Rome La Sapienza, Italy",
+                "Daniele Varacca @ University Paris Diderot, France"
+            ],
+            "Affiliations": [
+                "University of Bologna, Italy",
+                "University of Rome La Sapienza, Italy",
+                "University Paris Diderot, France"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "A Timed Component Algebra for Services",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id13-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBenoit+Delahaye%2C+Jos%C3%A9+Luiz+Fiadeiro%2C+Axel+Legay%2C+and+Ant%C3%B3nia+Lopes+%22A+Timed+Component+Algebra+for+Services%22",
+            "URLvideo": "",
+            "PersonsString": "Benoit Delahaye, José Luiz Fiadeiro, Axel Legay, and Antónia Lopes",
+            "AffiliationsString": "INRIA/IRISA, France; Royal Holloway, University of London, UK; University of Lisbon, Portugal",
+            "Authors": [
+                "Benoit Delahaye @ INRIA/IRISA, France",
+                "José Luiz Fiadeiro @ Royal Holloway, University of London, UK",
+                "Axel Legay @ INRIA/IRISA, France",
+                "Antónia Lopes @ University of Lisbon, Portugal"
+            ],
+            "Affiliations": [
+                "INRIA/IRISA, France",
+                "Royal Holloway, University of London, UK",
+                "INRIA/IRISA, France",
+                "University of Lisbon, Portugal"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "The Probabilistic Quality Calculus",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id3-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHanne+Riis+Nielson+and+Flemming+Nielson+%22The+Probabilistic+Quality+Calculus%22",
+            "URLvideo": "",
+            "PersonsString": "Hanne Riis Nielson and Flemming Nielson",
+            "AffiliationsString": "Technical University of Denmark, Denmark",
+            "Authors": [
+                "Hanne Riis Nielson @ Technical University of Denmark, Denmark",
+                "Flemming Nielson @ Technical University of Denmark, Denmark"
+            ],
+            "Affiliations": [
+                "Technical University of Denmark, Denmark",
+                "Technical University of Denmark, Denmark"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Asynchronously Communicating Visibly Pushdown Systems",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id11-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDomagoj+Babic+and+Zvonimir+Rakamaric+%22Asynchronously+Communicating+Visibly+Pushdown+Systems%22",
+            "URLvideo": "",
+            "PersonsString": "Domagoj Babic and Zvonimir Rakamaric",
+            "AffiliationsString": "Facebook, USA; School of Computing, University of Utah, USA",
+            "Authors": [
+                "Domagoj Babic @ Facebook, USA",
+                "Zvonimir Rakamaric @ School of Computing, University of Utah, USA"
+            ],
+            "Affiliations": [
+                "Facebook, USA",
+                "School of Computing, University of Utah, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Formal Analysis of a Distributed Algorithm for Tracking Progress",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id24-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMartin+Abadi%2C+Frank+McSherry%2C+Derek+Murray%2C+and+Thomas+Rodeheffer+%22Formal+Analysis+of+a+Distributed+Algorithm+for+Tracking+Progress%22",
+            "URLvideo": "",
+            "PersonsString": "Martin Abadi, Frank McSherry, Derek Murray, and Thomas Rodeheffer",
+            "AffiliationsString": "Microsoft Research, USA",
+            "Authors": [
+                "Martin Abadi @ Microsoft Research, USA",
+                "Frank McSherry @ Microsoft Research, USA",
+                "Derek Murray @ Microsoft Research, USA",
+                "Thomas Rodeheffer @ Microsoft Research, USA"
+            ],
+            "Affiliations": [
+                "Microsoft Research, USA",
+                "Microsoft Research, USA",
+                "Microsoft Research, USA",
+                "Microsoft Research, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Formal Verification of Distributed Branching Multiway Synchronization Protocols",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id27-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHugues+Evrard+and+Frederic+Lang+%22Formal+Verification+of+Distributed+Branching+Multiway+Synchronization+Protocols%22",
+            "URLvideo": "",
+            "PersonsString": "Hugues Evrard and Frederic Lang",
+            "AffiliationsString": "Inria, France; INRIA Rhône-Alpes, France",
+            "Authors": [
+                "Hugues Evrard @ Inria, France",
+                "Frederic Lang @ INRIA Rhône-Alpes, France"
+            ],
+            "Affiliations": [
+                "Inria, France",
+                "INRIA Rhône-Alpes, France"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Transducer-Based Algorithmic Verification of Retransmission Protocols over Noisy Channels",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id30-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJay+Thakkar%2C+Aditya+Kanade%2C+and+Rajeev+Alur+%22Transducer-Based+Algorithmic+Verification+of+Retransmission+Protocols+over+Noisy+Channels%22",
+            "URLvideo": "",
+            "PersonsString": "Jay Thakkar, Aditya Kanade, and Rajeev Alur",
+            "AffiliationsString": "Indian Institute of Science, India; University of Pennsylvania, USA",
+            "Authors": [
+                "Jay Thakkar @ Indian Institute of Science, India",
+                "Aditya Kanade @ Indian Institute of Science, India",
+                "Rajeev Alur @ University of Pennsylvania, USA"
+            ],
+            "Affiliations": [
+                "Indian Institute of Science, India",
+                "Indian Institute of Science, India",
+                "University of Pennsylvania, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Lintent: Towards Security Type-Checking of Android Applications",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id43-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMichele+Bugliesi%2C+Stefano+Calzavara%2C+and+Alvise+Span%C3%B2+%22Lintent%3A+Towards+Security+Type-Checking+of+Android+Applications%22",
+            "URLvideo": "",
+            "PersonsString": "Michele Bugliesi, Stefano Calzavara, and Alvise Spanò",
+            "AffiliationsString": "Università Ca Foscari Venezia, Italy; Ca Foscari University of Venice, Italy",
+            "Authors": [
+                "Michele Bugliesi @ Università Ca Foscari Venezia, Italy",
+                "Stefano Calzavara @ Università Ca Foscari Venezia, Italy",
+                "Alvise Spanò @ Ca Foscari University of Venice, Italy"
+            ],
+            "Affiliations": [
+                "Università Ca Foscari Venezia, Italy",
+                "Università Ca Foscari Venezia, Italy",
+                "Ca Foscari University of Venice, Italy"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Monitoring Networks through Multiparty Session Types",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id5-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRomain+Demangeon%2C+Laura+Bocchi%2C+Nobuko+Yoshida%2C+Tzu-Chun+Chen%2C+and+Kohei+Honda+%22Monitoring+Networks+through+Multiparty+Session+Types%22",
+            "URLvideo": "",
+            "PersonsString": "Romain Demangeon, Laura Bocchi, Nobuko Yoshida, Tzu-Chun Chen, and Kohei Honda",
+            "AffiliationsString": "Queen Mary, University of London, UK; University of Leicester, UK; Imperial College London, UK",
+            "Authors": [
+                "Romain Demangeon @ Queen Mary, University of London, UK",
+                "Laura Bocchi @ University of Leicester, UK",
+                "Nobuko Yoshida @ Imperial College London, UK",
+                "Tzu-Chun Chen @ Queen Mary, University of London, UK",
+                "Kohei Honda @ Queen Mary, University of London, UK"
+            ],
+            "Affiliations": [
+                "Queen Mary, University of London, UK",
+                "University of Leicester, UK",
+                "Imperial College London, UK",
+                "Queen Mary, University of London, UK",
+                "Queen Mary, University of London, UK"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Honesty by Typing",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id7-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMassimo+Bartoletti%2C+Alceste+Scalas%2C+Emilio+Tuosto%2C+and+Roberto+Zunino+%22Honesty+by+Typing%22",
+            "URLvideo": "",
+            "PersonsString": "Massimo Bartoletti, Alceste Scalas, Emilio Tuosto, and Roberto Zunino",
+            "AffiliationsString": "Universita' degli Studi di Cagliari, Italy; University of Cagliari, Italy; University of Leicester, UK; Università degli Studi di Trento, Italy",
+            "Authors": [
+                "Massimo Bartoletti @ Universita' degli Studi di Cagliari, Italy",
+                "Alceste Scalas @ University of Cagliari, Italy",
+                "Emilio Tuosto @ University of Leicester, UK",
+                "Roberto Zunino @ Università degli Studi di Trento, Italy"
+            ],
+            "Affiliations": [
+                "Universita' degli Studi di Cagliari, Italy",
+                "University of Cagliari, Italy",
+                "University of Leicester, UK",
+                "Università degli Studi di Trento, Italy"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Polymorphic Types for Copyless Messaging in a Functional Setting",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id12-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DViviana+Bono%2C+Luca+Padovani%2C+and+Andrea+Tosatto+%22Polymorphic+Types+for+Copyless+Messaging+in+a+Functional+Setting%22",
+            "URLvideo": "",
+            "PersonsString": "Viviana Bono, Luca Padovani, and Andrea Tosatto",
+            "AffiliationsString": "Università di Torino, Italy",
+            "Authors": [
+                "Viviana Bono @ Università di Torino, Italy",
+                "Luca Padovani @ Università di Torino, Italy",
+                "Andrea Tosatto @ Università di Torino, Italy"
+            ],
+            "Affiliations": [
+                "Università di Torino, Italy",
+                "Università di Torino, Italy",
+                "Università di Torino, Italy"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Passive Testing with Asynchronous Communications",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id23-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRob+Hierons%2C+Mercedes+Merayo%2C+and+Manuel+Nu%C3%B1ez+%22Passive+Testing+with+Asynchronous+Communications%22",
+            "URLvideo": "",
+            "PersonsString": "Rob Hierons, Mercedes Merayo, and Manuel Nuñez",
+            "AffiliationsString": "Brunel University, UK; Universidad Complutense de Madrid, Spain; UCM, Spain",
+            "Authors": [
+                "Rob Hierons @ Brunel University, UK",
+                "Mercedes Merayo @ Universidad Complutense de Madrid, Spain",
+                "Manuel Nuñez @ UCM, Spain"
+            ],
+            "Affiliations": [
+                "Brunel University, UK",
+                "Universidad Complutense de Madrid, Spain",
+                "UCM, Spain"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "An Abstract Framework for Deadlock Prevention in BIP",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id33-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPaul+Attie%2C+Saddek+Bensalem%2C+Marius+Bozga%2C+Mohamad+Jaber%2C+Joseph+Sifakis%2C+and+Fadi+Zaraket+%22An+Abstract+Framework+for+Deadlock+Prevention+in+BIP%22",
+            "URLvideo": "",
+            "PersonsString": "Paul Attie, Saddek Bensalem, Marius Bozga, Mohamad Jaber, Joseph Sifakis, and Fadi Zaraket",
+            "AffiliationsString": "American University of Beirut, Lebanon; VERIMAG, France; American University of beirut, Lebanon",
+            "Authors": [
+                "Paul Attie @ American University of Beirut, Lebanon",
+                "Saddek Bensalem @ VERIMAG, France",
+                "Marius Bozga @ VERIMAG, France",
+                "Mohamad Jaber @ American University of beirut, Lebanon",
+                "Joseph Sifakis @ VERIMAG, France",
+                "Fadi Zaraket @ American University of Beirut, Lebanon"
+            ],
+            "Affiliations": [
+                "American University of Beirut, Lebanon",
+                "VERIMAG, France",
+                "VERIMAG, France",
+                "American University of beirut, Lebanon",
+                "VERIMAG, France",
+                "American University of Beirut, Lebanon"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Input-Output Conformance Simulation (iocos) for Model Based Testing",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id40-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLuis+Llana%2C+Rafael+Mart%C3%ADnez-Torres%2C+and+Carlos+Gregorio-Rodr%C3%ADguez+%22Input-Output+Conformance+Simulation+%28iocos%29+for+Model+Based+Testing%22",
+            "URLvideo": "",
+            "PersonsString": "Luis Llana, Rafael Martínez-Torres, and Carlos Gregorio-Rodríguez",
+            "AffiliationsString": "Universidad Complutense de Madrid, Spain",
+            "Authors": [
+                "Luis Llana @ Universidad Complutense de Madrid, Spain",
+                "Rafael Martínez-Torres @ Universidad Complutense de Madrid, Spain",
+                "Carlos Gregorio-Rodríguez @ Universidad Complutense de Madrid, Spain"
+            ],
+            "Affiliations": [
+                "Universidad Complutense de Madrid, Spain",
+                "Universidad Complutense de Madrid, Spain",
+                "Universidad Complutense de Madrid, Spain"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Verification of Directed Acyclic Ad Hoc Networks",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id49-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DParosh+Aziz+Abdulla%2C+Mohamed+Faouzi+Atig%2C+and+Othmane+Rezine+%22Verification+of+Directed+Acyclic+Ad+Hoc+Networks%22",
+            "URLvideo": "",
+            "PersonsString": "Parosh Aziz Abdulla, Mohamed Faouzi Atig, and Othmane Rezine",
+            "AffiliationsString": "Uppsala University, Sweden",
+            "Authors": [
+                "Parosh Aziz Abdulla @ Uppsala University, Sweden",
+                "Mohamed Faouzi Atig @ Uppsala University, Sweden",
+                "Othmane Rezine @ Uppsala University, Sweden"
+            ],
+            "Affiliations": [
+                "Uppsala University, Sweden",
+                "Uppsala University, Sweden",
+                "Uppsala University, Sweden"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Parameterized Verification of Track Topology Aggregation Protocols",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSergio+Feo-Arenis+and+Bernd+Westphal+%22Parameterized+Verification+of+Track+Topology+Aggregation+Protocols%22",
+            "URLvideo": "",
+            "PersonsString": "Sergio Feo-Arenis and Bernd Westphal",
+            "AffiliationsString": "University of Freiburg, Germany",
+            "Authors": [
+                "Sergio Feo-Arenis @ University of Freiburg, Germany",
+                "Bernd Westphal @ University of Freiburg, Germany"
+            ],
+            "Affiliations": [
+                "University of Freiburg, Germany",
+                "University of Freiburg, Germany"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Bounded Modelchecking of Graph Transformation Systems via SMT Solving",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id8-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTobias+Isenberg%2C+Dominik+Steenken%2C+and+Heike+Wehrheim+%22Bounded+Modelchecking+of+Graph+Transformation+Systems+via+SMT+Solving%22",
+            "URLvideo": "",
+            "PersonsString": "Tobias Isenberg, Dominik Steenken, and Heike Wehrheim",
+            "AffiliationsString": "University of Paderborn, Germany",
+            "Authors": [
+                "Tobias Isenberg @ University of Paderborn, Germany",
+                "Dominik Steenken @ University of Paderborn, Germany",
+                "Heike Wehrheim @ University of Paderborn, Germany"
+            ],
+            "Affiliations": [
+                "University of Paderborn, Germany",
+                "University of Paderborn, Germany",
+                "University of Paderborn, Germany"
+            ],
+            "Abstract": "",
+            "Award": ""
+        }
+    ],
+    "Sessions": [
+        {
+            "Title": "Accepted Papers",
+            "ShortTitle": "Accepted Papers",
+            "Type": "",
+            "ShortType": "",
+            "Key": "AcceptedPapers",
+            "Day": "2013-06-03",
+            "Time": "00:00 - 00:00",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "forte13-id15-p",
+                "forte13-id21-p",
+                "forte13-id51-p",
+                "forte13-id39-p",
+                "forte13-id13-p",
+                "forte13-id3-p",
+                "forte13-id11-p",
+                "forte13-id24-p",
+                "forte13-id27-p",
+                "forte13-id30-p",
+                "forte13-id43-p",
+                "forte13-id5-p",
+                "forte13-id7-p",
+                "forte13-id12-p",
+                "forte13-id23-p",
+                "forte13-id33-p",
+                "forte13-id40-p",
+                "forte13-id49-p",
+                "forte13-id2-p",
+                "forte13-id8-p"
+            ]
+        }
+    ],
+    "People": [
+        {
+            "Name": "Martin Abadi",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Martin Abadi @ Microsoft Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Parosh Aziz Abdulla",
+            "Affiliation": "Uppsala University, Sweden",
+            "Key": "Parosh Aziz Abdulla @ Uppsala University, Sweden",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Elvira Albert",
+            "Affiliation": "Complutense University of Madrid, Spain",
+            "Key": "Elvira Albert @ Complutense University of Madrid, Spain",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rajeev Alur",
+            "Affiliation": "University of Pennsylvania, USA",
+            "Key": "Rajeev Alur @ University of Pennsylvania, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mohamed Faouzi Atig",
+            "Affiliation": "Uppsala University, Sweden",
+            "Key": "Mohamed Faouzi Atig @ Uppsala University, Sweden",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Paul Attie",
+            "Affiliation": "American University of Beirut, Lebanon",
+            "Key": "Paul Attie @ American University of Beirut, Lebanon",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Domagoj Babic",
+            "Affiliation": "Facebook, USA",
+            "Key": "Domagoj Babic @ Facebook, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Massimo Bartoletti",
+            "Affiliation": "Universita' degli Studi di Cagliari, Italy",
+            "Key": "Massimo Bartoletti @ Universita' degli Studi di Cagliari, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Saddek Bensalem",
+            "Affiliation": "VERIMAG, France",
+            "Key": "Saddek Bensalem @ VERIMAG, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Laura Bocchi",
+            "Affiliation": "University of Leicester, UK",
+            "Key": "Laura Bocchi @ University of Leicester, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Viviana Bono",
+            "Affiliation": "Università di Torino, Italy",
+            "Key": "Viviana Bono @ Università di Torino, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marius Bozga",
+            "Affiliation": "VERIMAG, France",
+            "Key": "Marius Bozga @ VERIMAG, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michele Bugliesi",
+            "Affiliation": "Università Ca Foscari Venezia, Italy",
+            "Key": "Michele Bugliesi @ Università Ca Foscari Venezia, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Stefano Calzavara",
+            "Affiliation": "Università Ca Foscari Venezia, Italy",
+            "Key": "Stefano Calzavara @ Università Ca Foscari Venezia, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tzu-Chun Chen",
+            "Affiliation": "Queen Mary, University of London, UK",
+            "Key": "Tzu-Chun Chen @ Queen Mary, University of London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ornela Dardha",
+            "Affiliation": "University of Bologna, Italy",
+            "Key": "Ornela Dardha @ University of Bologna, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Benoit Delahaye",
+            "Affiliation": "INRIA/IRISA, France",
+            "Key": "Benoit Delahaye @ INRIA/IRISA, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Romain Demangeon",
+            "Affiliation": "Queen Mary, University of London, UK",
+            "Key": "Romain Demangeon @ Queen Mary, University of London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hugues Evrard",
+            "Affiliation": "Inria, France",
+            "Key": "Hugues Evrard @ Inria, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sergio Feo-Arenis",
+            "Affiliation": "University of Freiburg, Germany",
+            "Key": "Sergio Feo-Arenis @ University of Freiburg, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "José Luiz Fiadeiro",
+            "Affiliation": "Royal Holloway, University of London, UK",
+            "Key": "José Luiz Fiadeiro @ Royal Holloway, University of London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Antonio E. Flores-Montoya",
+            "Affiliation": "Technische Universität Darmstadt, Germany",
+            "Key": "Antonio E. Flores-Montoya @ Technische Universität Darmstadt, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Samir Genaim",
+            "Affiliation": "Complutense University of Madrid, Spain",
+            "Key": "Samir Genaim @ Complutense University of Madrid, Spain",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Daniele Gorla",
+            "Affiliation": "University of Rome La Sapienza, Italy",
+            "Key": "Daniele Gorla @ University of Rome La Sapienza, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Carlos Gregorio-Rodríguez",
+            "Affiliation": "Universidad Complutense de Madrid, Spain",
+            "Key": "Carlos Gregorio-Rodríguez @ Universidad Complutense de Madrid, Spain",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andreas Griesmayer",
+            "Affiliation": "Imperial College London, UK",
+            "Key": "Andreas Griesmayer @ Imperial College London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rob Hierons",
+            "Affiliation": "Brunel University, UK",
+            "Key": "Rob Hierons @ Brunel University, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kohei Honda",
+            "Affiliation": "Queen Mary, University of London, UK",
+            "Key": "Kohei Honda @ Queen Mary, University of London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tobias Isenberg",
+            "Affiliation": "University of Paderborn, Germany",
+            "Key": "Tobias Isenberg @ University of Paderborn, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mohamad Jaber",
+            "Affiliation": "American University of beirut, Lebanon",
+            "Key": "Mohamad Jaber @ American University of beirut, Lebanon",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Aditya Kanade",
+            "Affiliation": "Indian Institute of Science, India",
+            "Key": "Aditya Kanade @ Indian Institute of Science, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Frederic Lang",
+            "Affiliation": "INRIA Rhône-Alpes, France",
+            "Key": "Frederic Lang @ INRIA Rhône-Alpes, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Axel Legay",
+            "Affiliation": "INRIA/IRISA, France",
+            "Key": "Axel Legay @ INRIA/IRISA, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Luis Llana",
+            "Affiliation": "Universidad Complutense de Madrid, Spain",
+            "Key": "Luis Llana @ Universidad Complutense de Madrid, Spain",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alessio Lomuscio",
+            "Affiliation": "Imperial College London, UK",
+            "Key": "Alessio Lomuscio @ Imperial College London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Antónia Lopes",
+            "Affiliation": "University of Lisbon, Portugal",
+            "Key": "Antónia Lopes @ University of Lisbon, Portugal",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rafael Martínez-Torres",
+            "Affiliation": "Universidad Complutense de Madrid, Spain",
+            "Key": "Rafael Martínez-Torres @ Universidad Complutense de Madrid, Spain",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Frank McSherry",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Frank McSherry @ Microsoft Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mercedes Merayo",
+            "Affiliation": "Universidad Complutense de Madrid, Spain",
+            "Key": "Mercedes Merayo @ Universidad Complutense de Madrid, Spain",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Wojciech Mostowski",
+            "Affiliation": "University of Twente, Netherlands",
+            "Key": "Wojciech Mostowski @ University of Twente, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Derek Murray",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Derek Murray @ Microsoft Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Flemming Nielson",
+            "Affiliation": "Technical University of Denmark, Denmark",
+            "Key": "Flemming Nielson @ Technical University of Denmark, Denmark",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hanne Riis Nielson",
+            "Affiliation": "Technical University of Denmark, Denmark",
+            "Key": "Hanne Riis Nielson @ Technical University of Denmark, Denmark",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Manuel Nuñez",
+            "Affiliation": "UCM, Spain",
+            "Key": "Manuel Nuñez @ UCM, Spain",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Luca Padovani",
+            "Affiliation": "Università di Torino, Italy",
+            "Key": "Luca Padovani @ Università di Torino, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zvonimir Rakamaric",
+            "Affiliation": "School of Computing, University of Utah, USA",
+            "Key": "Zvonimir Rakamaric @ School of Computing, University of Utah, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Othmane Rezine",
+            "Affiliation": "Uppsala University, Sweden",
+            "Key": "Othmane Rezine @ Uppsala University, Sweden",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Thomas Rodeheffer",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Thomas Rodeheffer @ Microsoft Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alceste Scalas",
+            "Affiliation": "University of Cagliari, Italy",
+            "Key": "Alceste Scalas @ University of Cagliari, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Joseph Sifakis",
+            "Affiliation": "VERIMAG, France",
+            "Key": "Joseph Sifakis @ VERIMAG, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alvise Spanò",
+            "Affiliation": "Ca Foscari University of Venice, Italy",
+            "Key": "Alvise Spanò @ Ca Foscari University of Venice, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dominik Steenken",
+            "Affiliation": "University of Paderborn, Germany",
+            "Key": "Dominik Steenken @ University of Paderborn, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jay Thakkar",
+            "Affiliation": "Indian Institute of Science, India",
+            "Key": "Jay Thakkar @ Indian Institute of Science, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrea Tosatto",
+            "Affiliation": "Università di Torino, Italy",
+            "Key": "Andrea Tosatto @ Università di Torino, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Emilio Tuosto",
+            "Affiliation": "University of Leicester, UK",
+            "Key": "Emilio Tuosto @ University of Leicester, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Daniele Varacca",
+            "Affiliation": "University Paris Diderot, France",
+            "Key": "Daniele Varacca @ University Paris Diderot, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Heike Wehrheim",
+            "Affiliation": "University of Paderborn, Germany",
+            "Key": "Heike Wehrheim @ University of Paderborn, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bernd Westphal",
+            "Affiliation": "University of Freiburg, Germany",
+            "Key": "Bernd Westphal @ University of Freiburg, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nobuko Yoshida",
+            "Affiliation": "Imperial College London, UK",
+            "Key": "Nobuko Yoshida @ Imperial College London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Fadi Zaraket",
+            "Affiliation": "American University of Beirut, Lebanon",
+            "Key": "Fadi Zaraket @ American University of Beirut, Lebanon",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Roberto Zunino",
+            "Affiliation": "Università degli Studi di Trento, Italy",
+            "Key": "Roberto Zunino @ Università degli Studi di Trento, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        }
+    ]
+}
+ 
+
