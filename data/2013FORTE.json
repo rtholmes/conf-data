@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1363688091,
+    "DataRevision": 1365292564,
     "Preliminary": true,
     "Event": "FORTE/FMOODS 2013",
     "Name": "FORTE/FMOODS 2013",
@@ -52,140 +52,18 @@
     ],
     "Items": [
         {
-            "Title": "Model Checking Distributed Systems against Temporal-Epistemic Specifications",
-            "Type": "Full Paper (15 pages)",
-            "Key": "forte13-id15-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndreas+Griesmayer+and+Alessio+Lomuscio+%22Model+Checking+Distributed+Systems+against+Temporal-Epistemic+Specifications%22",
+            "Title": "Analyzing Interactions of Asynchronously Communicating Software Components (Invited Paper)",
+            "Type": "Keynote Paper",
+            "Key": "forte13-key-01-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTevfik+Bultan+%22Analyzing+Interactions+of+Asynchronously+Communicating+Software+Components+%28Invited+Paper%29%22",
             "URLvideo": "",
-            "PersonsString": "Andreas Griesmayer and Alessio Lomuscio",
-            "AffiliationsString": "Imperial College London, UK",
+            "PersonsString": "Tevfik Bultan",
+            "AffiliationsString": "UC Santa Barbara, USA",
             "Authors": [
-                "Andreas Griesmayer @ Imperial College London, UK",
-                "Alessio Lomuscio @ Imperial College London, UK"
+                "Tevfik Bultan @ UC Santa Barbara, USA"
             ],
             "Affiliations": [
-                "Imperial College London, UK",
-                "Imperial College London, UK"
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "A Case Study in Formal Verification using Multiple Explicit Heaps",
-            "Type": "Full Paper (15 pages)",
-            "Key": "forte13-id21-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DWojciech+Mostowski+%22A+Case+Study+in+Formal+Verification+using+Multiple+Explicit+Heaps%22",
-            "URLvideo": "",
-            "PersonsString": "Wojciech Mostowski",
-            "AffiliationsString": "University of Twente, Netherlands",
-            "Authors": [
-                "Wojciech Mostowski @ University of Twente, Netherlands"
-            ],
-            "Affiliations": [
-                "University of Twente, Netherlands"
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "May-Happen-in-Parallel Based Deadlock Analysis for Concurrent Objects",
-            "Type": "Full Paper (15 pages)",
-            "Key": "forte13-id51-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAntonio+E.+Flores-Montoya%2C+Elvira+Albert%2C+and+Samir+Genaim+%22May-Happen-in-Parallel+Based+Deadlock+Analysis+for+Concurrent+Objects%22",
-            "URLvideo": "",
-            "PersonsString": "Antonio E. Flores-Montoya, Elvira Albert, and Samir Genaim",
-            "AffiliationsString": "Technische Universität Darmstadt, Germany; Complutense University of Madrid, Spain",
-            "Authors": [
-                "Antonio E. Flores-Montoya @ Technische Universität Darmstadt, Germany",
-                "Elvira Albert @ Complutense University of Madrid, Spain",
-                "Samir Genaim @ Complutense University of Madrid, Spain"
-            ],
-            "Affiliations": [
-                "Technische Universität Darmstadt, Germany",
-                "Complutense University of Madrid, Spain",
-                "Complutense University of Madrid, Spain"
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "Semantic Subtyping for Objects and Classes",
-            "Type": "Full Paper (15 pages)",
-            "Key": "forte13-id39-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DOrnela+Dardha%2C+Daniele+Gorla%2C+and+Daniele+Varacca+%22Semantic+Subtyping+for+Objects+and+Classes%22",
-            "URLvideo": "",
-            "PersonsString": "Ornela Dardha, Daniele Gorla, and Daniele Varacca",
-            "AffiliationsString": "University of Bologna, Italy; University of Rome La Sapienza, Italy; University Paris Diderot, France",
-            "Authors": [
-                "Ornela Dardha @ University of Bologna, Italy",
-                "Daniele Gorla @ University of Rome La Sapienza, Italy",
-                "Daniele Varacca @ University Paris Diderot, France"
-            ],
-            "Affiliations": [
-                "University of Bologna, Italy",
-                "University of Rome La Sapienza, Italy",
-                "University Paris Diderot, France"
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "A Timed Component Algebra for Services",
-            "Type": "Full Paper (15 pages)",
-            "Key": "forte13-id13-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBenoit+Delahaye%2C+Jos%C3%A9+Luiz+Fiadeiro%2C+Axel+Legay%2C+and+Ant%C3%B3nia+Lopes+%22A+Timed+Component+Algebra+for+Services%22",
-            "URLvideo": "",
-            "PersonsString": "Benoit Delahaye, José Luiz Fiadeiro, Axel Legay, and Antónia Lopes",
-            "AffiliationsString": "INRIA/IRISA, France; Royal Holloway, University of London, UK; University of Lisbon, Portugal",
-            "Authors": [
-                "Benoit Delahaye @ INRIA/IRISA, France",
-                "José Luiz Fiadeiro @ Royal Holloway, University of London, UK",
-                "Axel Legay @ INRIA/IRISA, France",
-                "Antónia Lopes @ University of Lisbon, Portugal"
-            ],
-            "Affiliations": [
-                "INRIA/IRISA, France",
-                "Royal Holloway, University of London, UK",
-                "INRIA/IRISA, France",
-                "University of Lisbon, Portugal"
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "The Probabilistic Quality Calculus",
-            "Type": "Full Paper (15 pages)",
-            "Key": "forte13-id3-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHanne+Riis+Nielson+and+Flemming+Nielson+%22The+Probabilistic+Quality+Calculus%22",
-            "URLvideo": "",
-            "PersonsString": "Hanne Riis Nielson and Flemming Nielson",
-            "AffiliationsString": "Technical University of Denmark, Denmark",
-            "Authors": [
-                "Hanne Riis Nielson @ Technical University of Denmark, Denmark",
-                "Flemming Nielson @ Technical University of Denmark, Denmark"
-            ],
-            "Affiliations": [
-                "Technical University of Denmark, Denmark",
-                "Technical University of Denmark, Denmark"
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "Asynchronously Communicating Visibly Pushdown Systems",
-            "Type": "Full Paper (15 pages)",
-            "Key": "forte13-id11-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDomagoj+Babic+and+Zvonimir+Rakamaric+%22Asynchronously+Communicating+Visibly+Pushdown+Systems%22",
-            "URLvideo": "",
-            "PersonsString": "Domagoj Babic and Zvonimir Rakamaric",
-            "AffiliationsString": "Facebook, USA; School of Computing, University of Utah, USA",
-            "Authors": [
-                "Domagoj Babic @ Facebook, USA",
-                "Zvonimir Rakamaric @ School of Computing, University of Utah, USA"
-            ],
-            "Affiliations": [
-                "Facebook, USA",
-                "School of Computing, University of Utah, USA"
+                "UC Santa Barbara, USA"
             ],
             "Abstract": "",
             "Award": ""
@@ -214,62 +92,37 @@
             "Award": ""
         },
         {
-            "Title": "Formal Verification of Distributed Branching Multiway Synchronization Protocols",
+            "Title": "A Case Study in Formal Verification using Multiple Explicit Heaps",
             "Type": "Full Paper (15 pages)",
-            "Key": "forte13-id27-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHugues+Evrard+and+Frederic+Lang+%22Formal+Verification+of+Distributed+Branching+Multiway+Synchronization+Protocols%22",
+            "Key": "forte13-id21-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DWojciech+Mostowski+%22A+Case+Study+in+Formal+Verification+using+Multiple+Explicit+Heaps%22",
             "URLvideo": "",
-            "PersonsString": "Hugues Evrard and Frederic Lang",
-            "AffiliationsString": "Inria, France; INRIA Rhône-Alpes, France",
+            "PersonsString": "Wojciech Mostowski",
+            "AffiliationsString": "University of Twente, Netherlands",
             "Authors": [
-                "Hugues Evrard @ Inria, France",
-                "Frederic Lang @ INRIA Rhône-Alpes, France"
+                "Wojciech Mostowski @ University of Twente, Netherlands"
             ],
             "Affiliations": [
-                "Inria, France",
-                "INRIA Rhône-Alpes, France"
+                "University of Twente, Netherlands"
             ],
             "Abstract": "",
             "Award": ""
         },
         {
-            "Title": "Transducer-Based Algorithmic Verification of Retransmission Protocols over Noisy Channels",
+            "Title": "Parameterized Verification of Track Topology Aggregation Protocols",
             "Type": "Full Paper (15 pages)",
-            "Key": "forte13-id30-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJay+Thakkar%2C+Aditya+Kanade%2C+and+Rajeev+Alur+%22Transducer-Based+Algorithmic+Verification+of+Retransmission+Protocols+over+Noisy+Channels%22",
+            "Key": "forte13-id2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSergio+Feo-Arenis+and+Bernd+Westphal+%22Parameterized+Verification+of+Track+Topology+Aggregation+Protocols%22",
             "URLvideo": "",
-            "PersonsString": "Jay Thakkar, Aditya Kanade, and Rajeev Alur",
-            "AffiliationsString": "Indian Institute of Science, India; University of Pennsylvania, USA",
+            "PersonsString": "Sergio Feo-Arenis and Bernd Westphal",
+            "AffiliationsString": "University of Freiburg, Germany",
             "Authors": [
-                "Jay Thakkar @ Indian Institute of Science, India",
-                "Aditya Kanade @ Indian Institute of Science, India",
-                "Rajeev Alur @ University of Pennsylvania, USA"
+                "Sergio Feo-Arenis @ University of Freiburg, Germany",
+                "Bernd Westphal @ University of Freiburg, Germany"
             ],
             "Affiliations": [
-                "Indian Institute of Science, India",
-                "Indian Institute of Science, India",
-                "University of Pennsylvania, USA"
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "Lintent: Towards Security Type-Checking of Android Applications",
-            "Type": "Full Paper (15 pages)",
-            "Key": "forte13-id43-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMichele+Bugliesi%2C+Stefano+Calzavara%2C+and+Alvise+Span%C3%B2+%22Lintent%3A+Towards+Security+Type-Checking+of+Android+Applications%22",
-            "URLvideo": "",
-            "PersonsString": "Michele Bugliesi, Stefano Calzavara, and Alvise Spanò",
-            "AffiliationsString": "Università Ca Foscari Venezia, Italy; Ca Foscari University of Venice, Italy",
-            "Authors": [
-                "Michele Bugliesi @ Università Ca Foscari Venezia, Italy",
-                "Stefano Calzavara @ Università Ca Foscari Venezia, Italy",
-                "Alvise Spanò @ Ca Foscari University of Venice, Italy"
-            ],
-            "Affiliations": [
-                "Università Ca Foscari Venezia, Italy",
-                "Università Ca Foscari Venezia, Italy",
-                "Ca Foscari University of Venice, Italy"
+                "University of Freiburg, Germany",
+                "University of Freiburg, Germany"
             ],
             "Abstract": "",
             "Award": ""
@@ -300,33 +153,31 @@
             "Award": ""
         },
         {
-            "Title": "Honesty by Typing",
+            "Title": "Semantic Subtyping for Objects and Classes",
             "Type": "Full Paper (15 pages)",
-            "Key": "forte13-id7-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMassimo+Bartoletti%2C+Alceste+Scalas%2C+Emilio+Tuosto%2C+and+Roberto+Zunino+%22Honesty+by+Typing%22",
+            "Key": "forte13-id39-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DOrnela+Dardha%2C+Daniele+Gorla%2C+and+Daniele+Varacca+%22Semantic+Subtyping+for+Objects+and+Classes%22",
             "URLvideo": "",
-            "PersonsString": "Massimo Bartoletti, Alceste Scalas, Emilio Tuosto, and Roberto Zunino",
-            "AffiliationsString": "Universita' degli Studi di Cagliari, Italy; University of Cagliari, Italy; University of Leicester, UK; Università degli Studi di Trento, Italy",
+            "PersonsString": "Ornela Dardha, Daniele Gorla, and Daniele Varacca",
+            "AffiliationsString": "University of Bologna, Italy; University of Rome La Sapienza, Italy; University Paris Diderot, France",
             "Authors": [
-                "Massimo Bartoletti @ Universita' degli Studi di Cagliari, Italy",
-                "Alceste Scalas @ University of Cagliari, Italy",
-                "Emilio Tuosto @ University of Leicester, UK",
-                "Roberto Zunino @ Università degli Studi di Trento, Italy"
+                "Ornela Dardha @ University of Bologna, Italy",
+                "Daniele Gorla @ University of Rome La Sapienza, Italy",
+                "Daniele Varacca @ University Paris Diderot, France"
             ],
             "Affiliations": [
-                "Universita' degli Studi di Cagliari, Italy",
-                "University of Cagliari, Italy",
-                "University of Leicester, UK",
-                "Università degli Studi di Trento, Italy"
+                "University of Bologna, Italy",
+                "University of Rome La Sapienza, Italy",
+                "University Paris Diderot, France"
             ],
             "Abstract": "",
             "Award": ""
         },
         {
-            "Title": "Polymorphic Types for Copyless Messaging in a Functional Setting",
+            "Title": "Polymorphic Types for Leak Detection in a Session-Oriented Functional Language",
             "Type": "Full Paper (15 pages)",
             "Key": "forte13-id12-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DViviana+Bono%2C+Luca+Padovani%2C+and+Andrea+Tosatto+%22Polymorphic+Types+for+Copyless+Messaging+in+a+Functional+Setting%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DViviana+Bono%2C+Luca+Padovani%2C+and+Andrea+Tosatto+%22Polymorphic+Types+for+Leak+Detection+in+a+Session-Oriented+Functional+Language%22",
             "URLvideo": "",
             "PersonsString": "Viviana Bono, Luca Padovani, and Andrea Tosatto",
             "AffiliationsString": "Università di Torino, Italy",
@@ -365,6 +216,65 @@
             "Award": ""
         },
         {
+            "Title": "Input-Output Conformance Simulation (iocos) for Model Based Testing",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id40-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLuis+Llana%2C+Rafael+Mart%C3%ADnez-Torres%2C+and+Carlos+Gregorio-Rodr%C3%ADguez+%22Input-Output+Conformance+Simulation+%28iocos%29+for+Model+Based+Testing%22",
+            "URLvideo": "",
+            "PersonsString": "Luis Llana, Rafael Martínez-Torres, and Carlos Gregorio-Rodríguez",
+            "AffiliationsString": "Universidad Complutense de Madrid, Spain",
+            "Authors": [
+                "Luis Llana @ Universidad Complutense de Madrid, Spain",
+                "Rafael Martínez-Torres @ Universidad Complutense de Madrid, Spain",
+                "Carlos Gregorio-Rodríguez @ Universidad Complutense de Madrid, Spain"
+            ],
+            "Affiliations": [
+                "Universidad Complutense de Madrid, Spain",
+                "Universidad Complutense de Madrid, Spain",
+                "Universidad Complutense de Madrid, Spain"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Model Checking Distributed Systems against Temporal-Epistemic Specifications",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id15-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndreas+Griesmayer+and+Alessio+Lomuscio+%22Model+Checking+Distributed+Systems+against+Temporal-Epistemic+Specifications%22",
+            "URLvideo": "",
+            "PersonsString": "Andreas Griesmayer and Alessio Lomuscio",
+            "AffiliationsString": "Imperial College London, UK",
+            "Authors": [
+                "Andreas Griesmayer @ Imperial College London, UK",
+                "Alessio Lomuscio @ Imperial College London, UK"
+            ],
+            "Affiliations": [
+                "Imperial College London, UK",
+                "Imperial College London, UK"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Formal Verification of Distributed Branching Multiway Synchronization Protocols",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id27-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHugues+Evrard+and+Frederic+Lang+%22Formal+Verification+of+Distributed+Branching+Multiway+Synchronization+Protocols%22",
+            "URLvideo": "",
+            "PersonsString": "Hugues Evrard and Frederic Lang",
+            "AffiliationsString": "Inria, France; INRIA Rhône-Alpes, France",
+            "Authors": [
+                "Hugues Evrard @ Inria, France",
+                "Frederic Lang @ INRIA Rhône-Alpes, France"
+            ],
+            "Affiliations": [
+                "Inria, France",
+                "INRIA Rhône-Alpes, France"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
             "Title": "An Abstract Framework for Deadlock Prevention in BIP",
             "Type": "Full Paper (15 pages)",
             "Key": "forte13-id33-p",
@@ -392,22 +302,22 @@
             "Award": ""
         },
         {
-            "Title": "Input-Output Conformance Simulation (iocos) for Model Based Testing",
+            "Title": "Bounded Model Checking of Graph Transformation Systems via SMT Solving",
             "Type": "Full Paper (15 pages)",
-            "Key": "forte13-id40-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLuis+Llana%2C+Rafael+Mart%C3%ADnez-Torres%2C+and+Carlos+Gregorio-Rodr%C3%ADguez+%22Input-Output+Conformance+Simulation+%28iocos%29+for+Model+Based+Testing%22",
+            "Key": "forte13-id8-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTobias+Isenberg%2C+Dominik+Steenken%2C+and+Heike+Wehrheim+%22Bounded+Model+Checking+of+Graph+Transformation+Systems+via+SMT+Solving%22",
             "URLvideo": "",
-            "PersonsString": "Luis Llana, Rafael Martínez-Torres, and Carlos Gregorio-Rodríguez",
-            "AffiliationsString": "Universidad Complutense de Madrid, Spain",
+            "PersonsString": "Tobias Isenberg, Dominik Steenken, and Heike Wehrheim",
+            "AffiliationsString": "University of Paderborn, Germany",
             "Authors": [
-                "Luis Llana @ Universidad Complutense de Madrid, Spain",
-                "Rafael Martínez-Torres @ Universidad Complutense de Madrid, Spain",
-                "Carlos Gregorio-Rodríguez @ Universidad Complutense de Madrid, Spain"
+                "Tobias Isenberg @ University of Paderborn, Germany",
+                "Dominik Steenken @ University of Paderborn, Germany",
+                "Heike Wehrheim @ University of Paderborn, Germany"
             ],
             "Affiliations": [
-                "Universidad Complutense de Madrid, Spain",
-                "Universidad Complutense de Madrid, Spain",
-                "Universidad Complutense de Madrid, Spain"
+                "University of Paderborn, Germany",
+                "University of Paderborn, Germany",
+                "University of Paderborn, Germany"
             ],
             "Abstract": "",
             "Award": ""
@@ -434,41 +344,148 @@
             "Award": ""
         },
         {
-            "Title": "Parameterized Verification of Track Topology Aggregation Protocols",
+            "Title": "Transducer-Based Algorithmic Verification of Retransmission Protocols over Noisy Channels",
             "Type": "Full Paper (15 pages)",
-            "Key": "forte13-id2-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSergio+Feo-Arenis+and+Bernd+Westphal+%22Parameterized+Verification+of+Track+Topology+Aggregation+Protocols%22",
+            "Key": "forte13-id30-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJay+Thakkar%2C+Aditya+Kanade%2C+and+Rajeev+Alur+%22Transducer-Based+Algorithmic+Verification+of+Retransmission+Protocols+over+Noisy+Channels%22",
             "URLvideo": "",
-            "PersonsString": "Sergio Feo-Arenis and Bernd Westphal",
-            "AffiliationsString": "University of Freiburg, Germany",
+            "PersonsString": "Jay Thakkar, Aditya Kanade, and Rajeev Alur",
+            "AffiliationsString": "Indian Institute of Science, India; University of Pennsylvania, USA",
             "Authors": [
-                "Sergio Feo-Arenis @ University of Freiburg, Germany",
-                "Bernd Westphal @ University of Freiburg, Germany"
+                "Jay Thakkar @ Indian Institute of Science, India",
+                "Aditya Kanade @ Indian Institute of Science, India",
+                "Rajeev Alur @ University of Pennsylvania, USA"
             ],
             "Affiliations": [
-                "University of Freiburg, Germany",
-                "University of Freiburg, Germany"
+                "Indian Institute of Science, India",
+                "Indian Institute of Science, India",
+                "University of Pennsylvania, USA"
             ],
             "Abstract": "",
             "Award": ""
         },
         {
-            "Title": "Bounded Modelchecking of Graph Transformation Systems via SMT Solving",
+            "Title": "Asynchronously Communicating Visibly Pushdown Systems",
             "Type": "Full Paper (15 pages)",
-            "Key": "forte13-id8-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTobias+Isenberg%2C+Dominik+Steenken%2C+and+Heike+Wehrheim+%22Bounded+Modelchecking+of+Graph+Transformation+Systems+via+SMT+Solving%22",
+            "Key": "forte13-id11-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDomagoj+Babic+and+Zvonimir+Rakamaric+%22Asynchronously+Communicating+Visibly+Pushdown+Systems%22",
             "URLvideo": "",
-            "PersonsString": "Tobias Isenberg, Dominik Steenken, and Heike Wehrheim",
-            "AffiliationsString": "University of Paderborn, Germany",
+            "PersonsString": "Domagoj Babic and Zvonimir Rakamaric",
+            "AffiliationsString": "Facebook, USA; School of Computing, University of Utah, USA",
             "Authors": [
-                "Tobias Isenberg @ University of Paderborn, Germany",
-                "Dominik Steenken @ University of Paderborn, Germany",
-                "Heike Wehrheim @ University of Paderborn, Germany"
+                "Domagoj Babic @ Facebook, USA",
+                "Zvonimir Rakamaric @ School of Computing, University of Utah, USA"
             ],
             "Affiliations": [
-                "University of Paderborn, Germany",
-                "University of Paderborn, Germany",
-                "University of Paderborn, Germany"
+                "Facebook, USA",
+                "School of Computing, University of Utah, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "A Timed Component Algebra for Services",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id13-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBenoit+Delahaye%2C+Jos%C3%A9+Luiz+Fiadeiro%2C+Axel+Legay%2C+and+Ant%C3%B3nia+Lopes+%22A+Timed+Component+Algebra+for+Services%22",
+            "URLvideo": "",
+            "PersonsString": "Benoit Delahaye, José Luiz Fiadeiro, Axel Legay, and Antónia Lopes",
+            "AffiliationsString": "INRIA/IRISA, France; Royal Holloway, University of London, UK; University of Lisbon, Portugal",
+            "Authors": [
+                "Benoit Delahaye @ INRIA/IRISA, France",
+                "José Luiz Fiadeiro @ Royal Holloway, University of London, UK",
+                "Axel Legay @ INRIA/IRISA, France",
+                "Antónia Lopes @ University of Lisbon, Portugal"
+            ],
+            "Affiliations": [
+                "INRIA/IRISA, France",
+                "Royal Holloway, University of London, UK",
+                "INRIA/IRISA, France",
+                "University of Lisbon, Portugal"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Probabilistic Analysis of the Quality Calculus",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id3-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHanne+Riis+Nielson+and+Flemming+Nielson+%22Probabilistic+Analysis+of+the+Quality+Calculus%22",
+            "URLvideo": "",
+            "PersonsString": "Hanne Riis Nielson and Flemming Nielson",
+            "AffiliationsString": "Technical University of Denmark, Denmark",
+            "Authors": [
+                "Hanne Riis Nielson @ Technical University of Denmark, Denmark",
+                "Flemming Nielson @ Technical University of Denmark, Denmark"
+            ],
+            "Affiliations": [
+                "Technical University of Denmark, Denmark",
+                "Technical University of Denmark, Denmark"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "May-Happen-in-Parallel Based Deadlock Analysis for Concurrent Objects",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id51-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAntonio+E.+Flores-Montoya%2C+Elvira+Albert%2C+and+Samir+Genaim+%22May-Happen-in-Parallel+Based+Deadlock+Analysis+for+Concurrent+Objects%22",
+            "URLvideo": "",
+            "PersonsString": "Antonio E. Flores-Montoya, Elvira Albert, and Samir Genaim",
+            "AffiliationsString": "Technische Universität Darmstadt, Germany; Complutense University of Madrid, Spain",
+            "Authors": [
+                "Antonio E. Flores-Montoya @ Technische Universität Darmstadt, Germany",
+                "Elvira Albert @ Complutense University of Madrid, Spain",
+                "Samir Genaim @ Complutense University of Madrid, Spain"
+            ],
+            "Affiliations": [
+                "Technische Universität Darmstadt, Germany",
+                "Complutense University of Madrid, Spain",
+                "Complutense University of Madrid, Spain"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Lintent: Towards Security Type-Checking of Android Applications",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id43-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMichele+Bugliesi%2C+Stefano+Calzavara%2C+and+Alvise+Span%C3%B2+%22Lintent%3A+Towards+Security+Type-Checking+of+Android+Applications%22",
+            "URLvideo": "",
+            "PersonsString": "Michele Bugliesi, Stefano Calzavara, and Alvise Spanò",
+            "AffiliationsString": "Università Ca Foscari Venezia, Italy; Ca Foscari University of Venice, Italy",
+            "Authors": [
+                "Michele Bugliesi @ Università Ca Foscari Venezia, Italy",
+                "Stefano Calzavara @ Università Ca Foscari Venezia, Italy",
+                "Alvise Spanò @ Ca Foscari University of Venice, Italy"
+            ],
+            "Affiliations": [
+                "Università Ca Foscari Venezia, Italy",
+                "Università Ca Foscari Venezia, Italy",
+                "Ca Foscari University of Venice, Italy"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Honesty by Typing",
+            "Type": "Full Paper (15 pages)",
+            "Key": "forte13-id7-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMassimo+Bartoletti%2C+Alceste+Scalas%2C+Emilio+Tuosto%2C+and+Roberto+Zunino+%22Honesty+by+Typing%22",
+            "URLvideo": "",
+            "PersonsString": "Massimo Bartoletti, Alceste Scalas, Emilio Tuosto, and Roberto Zunino",
+            "AffiliationsString": "Universita' degli Studi di Cagliari, Italy; University of Cagliari, Italy; University of Leicester, UK; Università degli Studi di Trento, Italy",
+            "Authors": [
+                "Massimo Bartoletti @ Universita' degli Studi di Cagliari, Italy",
+                "Alceste Scalas @ University of Cagliari, Italy",
+                "Emilio Tuosto @ University of Leicester, UK",
+                "Roberto Zunino @ Università degli Studi di Trento, Italy"
+            ],
+            "Affiliations": [
+                "Universita' degli Studi di Cagliari, Italy",
+                "University of Cagliari, Italy",
+                "University of Leicester, UK",
+                "Università degli Studi di Trento, Italy"
             ],
             "Abstract": "",
             "Award": ""
@@ -476,13 +493,46 @@
     ],
     "Sessions": [
         {
-            "Title": "Accepted Papers",
-            "ShortTitle": "Accepted Papers",
+            "Title": "Keynote",
+            "ShortTitle": "Keynote",
             "Type": "",
             "ShortType": "",
-            "Key": "AcceptedPapers",
+            "Key": "Keynote",
             "Day": "2013-06-03",
-            "Time": "00:00 - 00:00",
+            "Time": "09:30 - 10:30",
+            "Location": "",
+            "ChairsString": "Dirk Beyer and Michele Boreale",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "forte13-key-01-p"
+            ]
+        },
+        {
+            "Title": "Coffee Break",
+            "ShortTitle": "Coffee Break",
+            "Type": "Meetings",
+            "ShortType": "Meetings",
+            "Key": "CoffeeBreak",
+            "Day": "2013-06-03",
+            "Time": "10:30 - 11:00",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": ""
+        },
+        {
+            "Title": "Verification",
+            "ShortTitle": "Verification",
+            "Type": "",
+            "ShortType": "",
+            "Key": "Verification",
+            "Day": "2013-06-03",
+            "Time": "11:00 - 12:30",
             "Location": "",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -490,26 +540,280 @@
             "Workshop": false,
             "Abstract": "",
             "Items": [
-                "forte13-id15-p",
+                "forte13-id24-p",
                 "forte13-id21-p",
-                "forte13-id51-p",
+                "forte13-id2-p"
+            ]
+        },
+        {
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Meetings",
+            "ShortType": "Meetings",
+            "Key": "Lunch",
+            "Day": "2013-06-03",
+            "Time": "12:30 - 14:30",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": ""
+        },
+        {
+            "Title": "Types",
+            "ShortTitle": "Types",
+            "Type": "",
+            "ShortType": "",
+            "Key": "Types",
+            "Day": "2013-06-03",
+            "Time": "14:30 - 16:00",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "forte13-id5-p",
                 "forte13-id39-p",
+                "forte13-id12-p"
+            ]
+        },
+        {
+            "Title": "Coffee Break",
+            "ShortTitle": "Coffee Break",
+            "Type": "Meetings",
+            "ShortType": "Meetings",
+            "Key": "CoffeeBreak",
+            "Day": "2013-06-03",
+            "Time": "16:00 - 16:30",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": ""
+        },
+        {
+            "Title": "Testing",
+            "ShortTitle": "Testing",
+            "Type": "",
+            "ShortType": "",
+            "Key": "Testing",
+            "Day": "2013-06-03",
+            "Time": "16:30 - 17:30",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "forte13-id23-p",
+                "forte13-id40-p"
+            ]
+        },
+        {
+            "Title": "Coffee Break",
+            "ShortTitle": "Coffee Break",
+            "Type": "Meetings",
+            "ShortType": "Meetings",
+            "Key": "CoffeeBreak",
+            "Day": "2013-06-04",
+            "Time": "10:30 - 11:00",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": ""
+        },
+        {
+            "Title": "DisCoTec Joint Session",
+            "ShortTitle": "DisCoTec Joint Session",
+            "Type": "",
+            "ShortType": "",
+            "Key": "DisCoTecJointSession",
+            "Day": "2013-06-04",
+            "Time": "11:00 - 12:30",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "forte13-id15-p"
+            ]
+        },
+        {
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Meetings",
+            "ShortType": "Meetings",
+            "Key": "Lunch",
+            "Day": "2013-06-04",
+            "Time": "12:30 - 14:30",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": ""
+        },
+        {
+            "Title": "Model Checking",
+            "ShortTitle": "Model Checking",
+            "Type": "",
+            "ShortType": "",
+            "Key": "ModelChecking",
+            "Day": "2013-06-04",
+            "Time": "14:30 - 16:00",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "forte13-id27-p",
+                "forte13-id33-p",
+                "forte13-id8-p"
+            ]
+        },
+        {
+            "Title": "Coffee Break",
+            "ShortTitle": "Coffee Break",
+            "Type": "Meetings",
+            "ShortType": "Meetings",
+            "Key": "CoffeeBreak",
+            "Day": "2013-06-04",
+            "Time": "16:00 - 16:30",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": ""
+        },
+        {
+            "Title": "Social Event and Dinner",
+            "ShortTitle": "Social Event and Dinner",
+            "Type": "Meetings",
+            "ShortType": "Meetings",
+            "Key": "SocialEventandDinner",
+            "Day": "2013-06-04",
+            "Time": "16:30 - 22:00",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": ""
+        },
+        {
+            "Title": "Coffee Break",
+            "ShortTitle": "Coffee Break",
+            "Type": "Meetings",
+            "ShortType": "Meetings",
+            "Key": "CoffeeBreak",
+            "Day": "2013-06-05",
+            "Time": "10:30 - 11:00",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": ""
+        },
+        {
+            "Title": "Automata",
+            "ShortTitle": "Automata",
+            "Type": "",
+            "ShortType": "",
+            "Key": "Automata",
+            "Day": "2013-06-05",
+            "Time": "11:00 - 12:30",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "forte13-id49-p",
+                "forte13-id30-p",
+                "forte13-id11-p"
+            ]
+        },
+        {
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Meetings",
+            "ShortType": "Meetings",
+            "Key": "Lunch",
+            "Day": "2013-06-05",
+            "Time": "12:30 - 14:30",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": ""
+        },
+        {
+            "Title": "Distribution and Concurrency",
+            "ShortTitle": "Distribution and Concurrency",
+            "Type": "",
+            "ShortType": "",
+            "Key": "DistributionandConcurrency",
+            "Day": "2013-06-05",
+            "Time": "14:30 - 16:00",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
                 "forte13-id13-p",
                 "forte13-id3-p",
-                "forte13-id11-p",
-                "forte13-id24-p",
-                "forte13-id27-p",
-                "forte13-id30-p",
+                "forte13-id51-p"
+            ]
+        },
+        {
+            "Title": "Coffee Break",
+            "ShortTitle": "Coffee Break",
+            "Type": "Meetings",
+            "ShortType": "Meetings",
+            "Key": "CoffeeBreak",
+            "Day": "2013-06-05",
+            "Time": "16:00 - 16:30",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": ""
+        },
+        {
+            "Title": "Security",
+            "ShortTitle": "Security",
+            "Type": "",
+            "ShortType": "",
+            "Key": "Security",
+            "Day": "2013-06-05",
+            "Time": "16:30 - 17:30",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
                 "forte13-id43-p",
-                "forte13-id5-p",
-                "forte13-id7-p",
-                "forte13-id12-p",
-                "forte13-id23-p",
-                "forte13-id33-p",
-                "forte13-id40-p",
-                "forte13-id49-p",
-                "forte13-id2-p",
-                "forte13-id8-p"
+                "forte13-id7-p"
             ]
         }
     ],
@@ -638,6 +942,16 @@
             "Name": "Michele Bugliesi",
             "Affiliation": "Università Ca Foscari Venezia, Italy",
             "Key": "Michele Bugliesi @ Università Ca Foscari Venezia, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tevfik Bultan",
+            "Affiliation": "UC Santa Barbara, USA",
+            "Key": "Tevfik Bultan @ UC Santa Barbara, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
