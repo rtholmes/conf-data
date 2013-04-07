@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1364818663,
+    "DataRevision": 1365375193,
     "Preliminary": true,
     "Event": "ICSE 2013 All",
     "Name": "ICSE 2013 All",
@@ -1531,7 +1531,7 @@
             "Type": "Full Paper",
             "Key": "icse13main-p086-p",
             "URL": "http%3A%2F%2Fwww.sosy-lab.org%2F%7Edbeyer%2FPublications%2F2013-ICSE.Strategies_for_Product-Line_Verification.pdf",
-            "URLvideo": "",
+            "URLvideo": "http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D3O-0emD-9YE",
             "PersonsString": "Sven Apel, Alexander von Rhein, Philipp Wendler, Armin Größlinger, and Dirk Beyer",
             "AffiliationsString": "University of Passau, Germany",
             "Authors": [
@@ -3791,7 +3791,7 @@
                 "Oracle, Czech Republic",
                 "University of Illinois at Urbana-Champaign, USA"
             ],
-            "Abstract": "AbstractJava 8 introduces two functional features: lambda expressions and functional operations like map or filter that apply a lambda expression over the elements of a Collection. Refactoring existing code to use these new features enables explicit but unobtrusive parallelism and makes the code more succinct. However, refactoring is tedious (it requires changing many lines of code) and error-prone (the programmer must reason about the control-flow, data-flow, and side-effects). Fortunately, these refactorings can be automated. We present LAMBDAFICATOR, a tool which automates two refactorings. The first refactoring converts anonymous inner classes to lambda expressions. The second refactoring converts for loops that iterate over Collections to functional operations that use lambda expressions. In 9 open-source projects we have applied these two refactorings 1263 and 1595 times, respectively. The results show that LAMBDAFICATOR is useful. A video highlighting the main features can be found at: http://www.youtube.com/watch?v=EIyAflgHVpU",
+            "Abstract": "Java 8 introduces two functional features: lambda expressions and functional operations like map or filter that apply a lambda expression over the elements of a Collection. Refactoring existing code to use these new features enables explicit but unobtrusive parallelism and makes the code more succinct. However, refactoring is tedious (it requires changing many lines of code) and error-prone (the programmer must reason about the control-flow, data-flow, and side-effects). Fortunately, these refactorings can be automated. We present LAMBDAFICATOR, a tool which automates two refactorings. The first refactoring converts anonymous inner classes to lambda expressions. The second refactoring converts for loops that iterate over Collections to functional operations that use lambda expressions. In 9 open-source projects we have applied these two refactorings 1263 and 1595 times, respectively. The results show that LAMBDAFICATOR is useful. A video highlighting the main features can be found at: http://www.youtube.com/watch?v=EIyAflgHVpU",
             "Award": ""
         },
         {
@@ -4405,7 +4405,7 @@
             "ShortType": "Co-located Conferences",
             "Key": "ICSSP&#039;13Day1",
             "Day": "2013-05-18",
-            "Time": "08:30 - 17:30",
+            "Time": "08:30 - 18:00",
             "Location": "TBA",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -4420,7 +4420,7 @@
             "ShortType": "Co-located Conferences",
             "Key": "MSR&#039;13Day1",
             "Day": "2013-05-18",
-            "Time": "08:30 - 17:30",
+            "Time": "08:30 - 18:00",
             "Location": "TBA",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -4549,7 +4549,7 @@
             "Abstract": ""
         },
         {
-            "Title": "Striking Gold: Building Software Better, Together (Brian Doll, GitHub, USA)",
+            "Title": "Striking Gold: Building Software Better, Together",
             "ShortTitle": "Striking Gold: Building Software Better, Together",
             "Type": "MSR: Keynote (co-located)",
             "ShortType": "MSR: Keynote (co-located)",
@@ -4570,7 +4570,7 @@
             "ShortType": "Co-located Conferences",
             "Key": "CSEET&#039;13Day1",
             "Day": "2013-05-19",
-            "Time": "08:30 - 17:30",
+            "Time": "08:30 - 18:00",
             "Location": "TBA",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -4585,7 +4585,7 @@
             "ShortType": "Co-located Conferences",
             "Key": "ICSSP&#039;13Day2",
             "Day": "2013-05-19",
-            "Time": "08:30 - 17:30",
+            "Time": "08:30 - 18:00",
             "Location": "TBA",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -4600,7 +4600,7 @@
             "ShortType": "Co-located Conferences",
             "Key": "MSR&#039;13Day2",
             "Day": "2013-05-19",
-            "Time": "08:30 - 17:30",
+            "Time": "08:30 - 18:00",
             "Location": "TBA",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -4615,7 +4615,7 @@
             "ShortType": "Co-located Conferences",
             "Key": "TEFSE&#039;13",
             "Day": "2013-05-19",
-            "Time": "08:30 - 17:30",
+            "Time": "08:30 - 18:00",
             "Location": "TBA",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -4750,7 +4750,7 @@
             "ShortType": "Co-located Conferences",
             "Key": "CSEET&#039;13Day2",
             "Day": "2013-05-20",
-            "Time": "08:30 - 17:30",
+            "Time": "08:30 - 18:00",
             "Location": "TBA",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -4765,7 +4765,7 @@
             "ShortType": "Co-located Conferences",
             "Key": "ICPC&#039;13Day1",
             "Day": "2013-05-20",
-            "Time": "08:30 - 17:30",
+            "Time": "08:30 - 18:00",
             "Location": "TBA",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -4780,7 +4780,7 @@
             "ShortType": "Co-located Conferences",
             "Key": "SEAMS&#039;13Day1",
             "Day": "2013-05-20",
-            "Time": "08:30 - 17:30",
+            "Time": "08:30 - 18:00",
             "Location": "TBA",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -5053,7 +5053,7 @@
             "ShortType": "Co-located Conferences",
             "Key": "CSEET&#039;13Day3",
             "Day": "2013-05-21",
-            "Time": "08:30 - 17:30",
+            "Time": "08:30 - 18:00",
             "Location": "TBA",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -5068,7 +5068,7 @@
             "ShortType": "Co-located Conferences",
             "Key": "ICPC&#039;13Day2",
             "Day": "2013-05-21",
-            "Time": "08:30 - 17:30",
+            "Time": "08:30 - 18:00",
             "Location": "TBA",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -5083,7 +5083,7 @@
             "ShortType": "Co-located Conferences",
             "Key": "SEAMS&#039;13Day2",
             "Day": "2013-05-21",
-            "Time": "08:30 - 17:30",
+            "Time": "08:30 - 18:00",
             "Location": "TBA",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -5284,6 +5284,21 @@
             "Abstract": ""
         },
         {
+            "Title": "Specifying Effective Non-functional Requirements",
+            "ShortTitle": "Specifying Effective Non-functional Requirements",
+            "Type": "Tutorials",
+            "ShortType": "Tutorials",
+            "Key": "SpecifyingEffectiveNon-functionalRequirements",
+            "Day": "2013-05-21",
+            "Time": "13:30 - 17:00",
+            "Location": "",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": ""
+        },
+        {
             "Title": "Pragmatic Pricing and Collaboration in Agile Software Development Projects",
             "ShortTitle": "Pragmatic Pricing and Collaboration in Agile Software Development Projects",
             "Type": "Tutorials",
@@ -5401,66 +5416,6 @@
             "Abstract": ""
         },
         {
-            "Title": "Composition",
-            "ShortTitle": "Composition",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "Composition",
-            "Day": "2013-05-22",
-            "Time": "10:30 - 12:00",
-            "Location": "Grand Ballroom A",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p222-p",
-                "icse13main-p211-p",
-                "icse13main-p258-p"
-            ]
-        },
-        {
-            "Title": "Formal Analysis",
-            "ShortTitle": "Formal Analysis",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "FormalAnalysis",
-            "Day": "2013-05-22",
-            "Time": "10:30 - 12:00",
-            "Location": "Grand Ballroom C",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p103-p",
-                "icse13main-p350-p",
-                "icse13main-p328-p"
-            ]
-        },
-        {
-            "Title": "Testing",
-            "ShortTitle": "Testing",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "Testing",
-            "Day": "2013-05-22",
-            "Time": "10:30 - 12:00",
-            "Location": "Grand Ballroom B",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p280-p",
-                "icse13main-p355-p",
-                "icse13main-p136-p"
-            ]
-        },
-        {
             "Title": "Dependability Perspectives",
             "ShortTitle": "Dependability Perspectives",
             "Type": "New Ideas and Emerging Results",
@@ -5501,6 +5456,66 @@
             ]
         },
         {
+            "Title": "Composition",
+            "ShortTitle": "Composition",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "Composition",
+            "Day": "2013-05-22",
+            "Time": "10:30 - 12:00",
+            "Location": "Grand Ballroom A",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p222-p",
+                "icse13main-p211-p",
+                "icse13main-p258-p"
+            ]
+        },
+        {
+            "Title": "Formal Analysis",
+            "ShortTitle": "Formal Analysis",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "FormalAnalysis",
+            "Day": "2013-05-22",
+            "Time": "10:30 - 12:00",
+            "Location": "Grand Ballroom C",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p103-p",
+                "icse13main-p350-p",
+                "icse13main-p328-p"
+            ]
+        },
+        {
+            "Title": "Testing",
+            "ShortTitle": "Testing",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "Testing",
+            "Day": "2013-05-22",
+            "Time": "10:30 - 12:00",
+            "Location": "Grand Ballroom B",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p280-p",
+                "icse13main-p355-p",
+                "icse13main-p136-p"
+            ]
+        },
+        {
             "Title": "Lunch",
             "ShortTitle": "Lunch",
             "Type": "Socials",
@@ -5514,69 +5529,6 @@
             "Chairs": [],
             "Workshop": false,
             "Abstract": ""
-        },
-        {
-            "Title": "Adaptation",
-            "ShortTitle": "Adaptation",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "Adaptation",
-            "Day": "2013-05-22",
-            "Time": "13:30 - 15:30",
-            "Location": "Grand Ballroom A",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p123-p",
-                "icse13main-p213-p",
-                "icse13main-p305-p",
-                "icse13main-p215-p"
-            ]
-        },
-        {
-            "Title": "Formal Specification",
-            "ShortTitle": "Formal Specification",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "FormalSpecification",
-            "Day": "2013-05-22",
-            "Time": "13:30 - 15:30",
-            "Location": "Grand Ballroom C",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p306-p",
-                "icse13main-p039-p",
-                "icse13main-p244-p",
-                "icse13main-p257-p"
-            ]
-        },
-        {
-            "Title": "Test-Case Generation",
-            "ShortTitle": "Test-Case Generation",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "Test-CaseGeneration",
-            "Day": "2013-05-22",
-            "Time": "13:30 - 15:30",
-            "Location": "Grand Ballroom B",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p303-p",
-                "icse13main-p298-p",
-                "icse13main-p287-p",
-                "icse13main-p374-p"
-            ]
         },
         {
             "Title": "Supporting Tomorrow's Developer",
@@ -5642,6 +5594,69 @@
             ]
         },
         {
+            "Title": "Adaptation",
+            "ShortTitle": "Adaptation",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "Adaptation",
+            "Day": "2013-05-22",
+            "Time": "13:30 - 15:30",
+            "Location": "Grand Ballroom A",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p123-p",
+                "icse13main-p213-p",
+                "icse13main-p305-p",
+                "icse13main-p215-p"
+            ]
+        },
+        {
+            "Title": "Formal Specification",
+            "ShortTitle": "Formal Specification",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "FormalSpecification",
+            "Day": "2013-05-22",
+            "Time": "13:30 - 15:30",
+            "Location": "Grand Ballroom C",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p306-p",
+                "icse13main-p039-p",
+                "icse13main-p244-p",
+                "icse13main-p257-p"
+            ]
+        },
+        {
+            "Title": "Test-Case Generation",
+            "ShortTitle": "Test-Case Generation",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "Test-CaseGeneration",
+            "Day": "2013-05-22",
+            "Time": "13:30 - 15:30",
+            "Location": "Grand Ballroom B",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p303-p",
+                "icse13main-p298-p",
+                "icse13main-p287-p",
+                "icse13main-p374-p"
+            ]
+        },
+        {
             "Title": "Afternoon Break",
             "ShortTitle": "Afternoon Break",
             "Type": "Socials",
@@ -5655,66 +5670,6 @@
             "Chairs": [],
             "Workshop": false,
             "Abstract": ""
-        },
-        {
-            "Title": "Analysis",
-            "ShortTitle": "Analysis",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "Analysis",
-            "Day": "2013-05-22",
-            "Time": "16:00 - 17:30",
-            "Location": "Grand Ballroom C",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p353-p",
-                "icse13main-p101-p",
-                "icse13main-p102-p"
-            ]
-        },
-        {
-            "Title": "Apps",
-            "ShortTitle": "Apps",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "Apps",
-            "Day": "2013-05-22",
-            "Time": "16:00 - 17:30",
-            "Location": "Grand Ballroom A",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p334-p",
-                "icse13main-p184-p",
-                "icse13main-p437-p"
-            ]
-        },
-        {
-            "Title": "Test-Case Selection",
-            "ShortTitle": "Test-Case Selection",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "Test-CaseSelection",
-            "Day": "2013-05-22",
-            "Time": "16:00 - 17:30",
-            "Location": "Grand Ballroom B",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p256-p",
-                "icse13main-p118-p",
-                "icse13main-p237-p"
-            ]
         },
         {
             "Title": "Teaching Introductory Software Engineering",
@@ -5778,6 +5733,66 @@
             ]
         },
         {
+            "Title": "Analysis",
+            "ShortTitle": "Analysis",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "Analysis",
+            "Day": "2013-05-22",
+            "Time": "16:00 - 17:30",
+            "Location": "Grand Ballroom C",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p353-p",
+                "icse13main-p101-p",
+                "icse13main-p102-p"
+            ]
+        },
+        {
+            "Title": "Apps",
+            "ShortTitle": "Apps",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "Apps",
+            "Day": "2013-05-22",
+            "Time": "16:00 - 17:30",
+            "Location": "Grand Ballroom A",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p334-p",
+                "icse13main-p184-p",
+                "icse13main-p437-p"
+            ]
+        },
+        {
+            "Title": "Test-Case Selection",
+            "ShortTitle": "Test-Case Selection",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "Test-CaseSelection",
+            "Day": "2013-05-22",
+            "Time": "16:00 - 17:30",
+            "Location": "Grand Ballroom B",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p256-p",
+                "icse13main-p118-p",
+                "icse13main-p237-p"
+            ]
+        },
+        {
             "Title": "The Connection between Movie Making and Software Development (Keynote)",
             "ShortTitle": "The Connection between Movie Making and Software Development (Keynote)",
             "Type": "Keynotes",
@@ -5809,66 +5824,6 @@
             "Chairs": [],
             "Workshop": false,
             "Abstract": ""
-        },
-        {
-            "Title": "Big Data",
-            "ShortTitle": "Big Data",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "BigData",
-            "Day": "2013-05-23",
-            "Time": "10:30 - 12:00",
-            "Location": "Grand Ballroom B",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p205-p",
-                "icse13main-p030-p",
-                "icse13main-p388-p"
-            ]
-        },
-        {
-            "Title": "Code Analysis",
-            "ShortTitle": "Code Analysis",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "CodeAnalysis",
-            "Day": "2013-05-23",
-            "Time": "10:30 - 12:00",
-            "Location": "Grand Ballroom A",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p169-p",
-                "icse13main-p022-p",
-                "icse13main-p189-p"
-            ]
-        },
-        {
-            "Title": "Search-Based SE",
-            "ShortTitle": "Search-Based SE",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "Search-BasedSE",
-            "Day": "2013-05-23",
-            "Time": "10:30 - 12:00",
-            "Location": "Grand Ballroom C",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p255-p",
-                "icse13main-p232-p",
-                "icse13main-p234-p"
-            ]
         },
         {
             "Title": "Collaborative Development",
@@ -5911,6 +5866,66 @@
             ]
         },
         {
+            "Title": "Big Data",
+            "ShortTitle": "Big Data",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "BigData",
+            "Day": "2013-05-23",
+            "Time": "10:30 - 12:00",
+            "Location": "Grand Ballroom B",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p205-p",
+                "icse13main-p030-p",
+                "icse13main-p388-p"
+            ]
+        },
+        {
+            "Title": "Code Analysis",
+            "ShortTitle": "Code Analysis",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "CodeAnalysis",
+            "Day": "2013-05-23",
+            "Time": "10:30 - 12:00",
+            "Location": "Grand Ballroom A",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p169-p",
+                "icse13main-p022-p",
+                "icse13main-p189-p"
+            ]
+        },
+        {
+            "Title": "Search-Based SE",
+            "ShortTitle": "Search-Based SE",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "Search-BasedSE",
+            "Day": "2013-05-23",
+            "Time": "10:30 - 12:00",
+            "Location": "Grand Ballroom C",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p255-p",
+                "icse13main-p232-p",
+                "icse13main-p234-p"
+            ]
+        },
+        {
             "Title": "Lunch",
             "ShortTitle": "Lunch",
             "Type": "Socials",
@@ -5928,8 +5943,8 @@
         {
             "Title": "Formal Demonstrations 1",
             "ShortTitle": "Formal Demonstrations 1",
-            "Type": "Formal Tool Demonstrations",
-            "ShortType": "Formal Tool Demonstrations",
+            "Type": "Formal Demonstrations",
+            "ShortType": "Formal Demonstrations",
             "Key": "FormalDemonstrations1",
             "Day": "2013-05-23",
             "Time": "13:30 - 15:30",
@@ -5948,69 +5963,6 @@
                 "icse13tool-id40-p",
                 "icse13tool-id34-p",
                 "icse13tool-id12-p"
-            ]
-        },
-        {
-            "Title": "Debugging",
-            "ShortTitle": "Debugging",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "Debugging",
-            "Day": "2013-05-23",
-            "Time": "13:30 - 15:30",
-            "Location": "Grand Ballroom A",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p319-p",
-                "icse13main-p284-p",
-                "icse13main-p326-p",
-                "icse13main-p220-p"
-            ]
-        },
-        {
-            "Title": "Performance",
-            "ShortTitle": "Performance",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "Performance",
-            "Day": "2013-05-23",
-            "Time": "13:30 - 15:30",
-            "Location": "Grand Ballroom C",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p372-p",
-                "icse13main-p267-p",
-                "icse13main-p105-p",
-                "icse13main-p425-p"
-            ]
-        },
-        {
-            "Title": "Process",
-            "ShortTitle": "Process",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "Process",
-            "Day": "2013-05-23",
-            "Time": "13:30 - 15:30",
-            "Location": "Grand Ballroom B",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p146-p",
-                "icse13main-p038-p",
-                "icse13main-p363-p",
-                "icse13main-p061-p"
             ]
         },
         {
@@ -6075,6 +6027,69 @@
             ]
         },
         {
+            "Title": "Debugging",
+            "ShortTitle": "Debugging",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "Debugging",
+            "Day": "2013-05-23",
+            "Time": "13:30 - 15:30",
+            "Location": "Grand Ballroom A",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p319-p",
+                "icse13main-p284-p",
+                "icse13main-p326-p",
+                "icse13main-p220-p"
+            ]
+        },
+        {
+            "Title": "Performance",
+            "ShortTitle": "Performance",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "Performance",
+            "Day": "2013-05-23",
+            "Time": "13:30 - 15:30",
+            "Location": "Grand Ballroom C",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p372-p",
+                "icse13main-p267-p",
+                "icse13main-p105-p",
+                "icse13main-p425-p"
+            ]
+        },
+        {
+            "Title": "Process",
+            "ShortTitle": "Process",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "Process",
+            "Day": "2013-05-23",
+            "Time": "13:30 - 15:30",
+            "Location": "Grand Ballroom B",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p146-p",
+                "icse13main-p038-p",
+                "icse13main-p363-p",
+                "icse13main-p061-p"
+            ]
+        },
+        {
             "Title": "Afternoon Break",
             "ShortTitle": "Afternoon Break",
             "Type": "Socials",
@@ -6088,66 +6103,6 @@
             "Chairs": [],
             "Workshop": false,
             "Abstract": ""
-        },
-        {
-            "Title": "Bug Prediction",
-            "ShortTitle": "Bug Prediction",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "BugPrediction",
-            "Day": "2013-05-23",
-            "Time": "16:00 - 17:30",
-            "Location": "Grand Ballroom A",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p054-p",
-                "icse13main-p386-p",
-                "icse13main-p180-p"
-            ]
-        },
-        {
-            "Title": "Product Lines",
-            "ShortTitle": "Product Lines",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "ProductLines",
-            "Day": "2013-05-23",
-            "Time": "16:00 - 17:30",
-            "Location": "Grand Ballroom B",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p447-p",
-                "icse13main-p086-p",
-                "icse13main-p152-p"
-            ]
-        },
-        {
-            "Title": "Requirements Engineering",
-            "ShortTitle": "Requirements Engineering",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "RequirementsEngineering",
-            "Day": "2013-05-23",
-            "Time": "16:00 - 17:30",
-            "Location": "Grand Ballroom C",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p285-p",
-                "icse13main-p344-p",
-                "icse13main-p012-p"
-            ]
         },
         {
             "Title": "Advanced Software Engineering Education",
@@ -6191,6 +6146,66 @@
             ]
         },
         {
+            "Title": "Bug Prediction",
+            "ShortTitle": "Bug Prediction",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "BugPrediction",
+            "Day": "2013-05-23",
+            "Time": "16:00 - 17:30",
+            "Location": "Grand Ballroom A",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p054-p",
+                "icse13main-p386-p",
+                "icse13main-p180-p"
+            ]
+        },
+        {
+            "Title": "Product Lines",
+            "ShortTitle": "Product Lines",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "ProductLines",
+            "Day": "2013-05-23",
+            "Time": "16:00 - 17:30",
+            "Location": "Grand Ballroom B",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p447-p",
+                "icse13main-p086-p",
+                "icse13main-p152-p"
+            ]
+        },
+        {
+            "Title": "Requirements Engineering",
+            "ShortTitle": "Requirements Engineering",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "RequirementsEngineering",
+            "Day": "2013-05-23",
+            "Time": "16:00 - 17:30",
+            "Location": "Grand Ballroom C",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p285-p",
+                "icse13main-p344-p",
+                "icse13main-p012-p"
+            ]
+        },
+        {
             "Title": "Does Scale Really Matter? Ultra-Large-Scale Systems Seven Years after the Study (Keynote)",
             "ShortTitle": "Does Scale Really Matter? Ultra-Large-Scale Systems Seven Years after the Study (Keynote)",
             "Type": "Keynotes",
@@ -6222,66 +6237,6 @@
             "Chairs": [],
             "Workshop": false,
             "Abstract": ""
-        },
-        {
-            "Title": "Analysis Studies",
-            "ShortTitle": "Analysis Studies",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "AnalysisStudies",
-            "Day": "2013-05-24",
-            "Time": "10:30 - 12:00",
-            "Location": "Grand Ballroom B",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p132-p",
-                "icse13main-p106-p",
-                "icse13main-p231-p"
-            ]
-        },
-        {
-            "Title": "Programming Support",
-            "ShortTitle": "Programming Support",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "ProgrammingSupport",
-            "Day": "2013-05-24",
-            "Time": "10:30 - 12:00",
-            "Location": "Grand Ballroom C",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p129-p",
-                "icse13main-p125-p",
-                "icse13main-p312-p"
-            ]
-        },
-        {
-            "Title": "Reliability",
-            "ShortTitle": "Reliability",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
-            "Key": "Reliability",
-            "Day": "2013-05-24",
-            "Time": "10:30 - 12:00",
-            "Location": "Grand Ballroom A",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13main-p275-p",
-                "icse13main-p218-p",
-                "icse13main-p376-p"
-            ]
         },
         {
             "Title": "Invited Talk by Mary Poppendieck",
@@ -6319,6 +6274,66 @@
             ]
         },
         {
+            "Title": "Analysis Studies",
+            "ShortTitle": "Analysis Studies",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "AnalysisStudies",
+            "Day": "2013-05-24",
+            "Time": "10:30 - 12:00",
+            "Location": "Grand Ballroom B",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p132-p",
+                "icse13main-p106-p",
+                "icse13main-p231-p"
+            ]
+        },
+        {
+            "Title": "Programming Support",
+            "ShortTitle": "Programming Support",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "ProgrammingSupport",
+            "Day": "2013-05-24",
+            "Time": "10:30 - 12:00",
+            "Location": "Grand Ballroom C",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p129-p",
+                "icse13main-p125-p",
+                "icse13main-p312-p"
+            ]
+        },
+        {
+            "Title": "Reliability",
+            "ShortTitle": "Reliability",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "Reliability",
+            "Day": "2013-05-24",
+            "Time": "10:30 - 12:00",
+            "Location": "Grand Ballroom A",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13main-p275-p",
+                "icse13main-p218-p",
+                "icse13main-p376-p"
+            ]
+        },
+        {
             "Title": "Lunch",
             "ShortTitle": "Lunch",
             "Type": "Socials",
@@ -6336,8 +6351,8 @@
         {
             "Title": "Formal Demonstrations 2",
             "ShortTitle": "Formal Demonstrations 2",
-            "Type": "Formal Tool Demonstrations",
-            "ShortType": "Formal Tool Demonstrations",
+            "Type": "Formal Demonstrations",
+            "ShortType": "Formal Demonstrations",
             "Key": "FormalDemonstrations2",
             "Day": "2013-05-24",
             "Time": "13:30 - 15:30",
@@ -6361,8 +6376,8 @@
         {
             "Title": "Empirical Studies",
             "ShortTitle": "Empirical Studies",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
             "Key": "EmpiricalStudies",
             "Day": "2013-05-24",
             "Time": "13:30 - 15:30",
@@ -6382,8 +6397,8 @@
         {
             "Title": "Program Repair",
             "ShortTitle": "Program Repair",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
             "Key": "ProgramRepair",
             "Day": "2013-05-24",
             "Time": "13:30 - 15:30",
@@ -6403,8 +6418,8 @@
         {
             "Title": "Security and Privacy",
             "ShortTitle": "Security and Privacy",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
             "Key": "SecurityandPrivacy",
             "Day": "2013-05-24",
             "Time": "13:30 - 15:30",
@@ -6424,8 +6439,8 @@
         {
             "Title": "Tools",
             "ShortTitle": "Tools",
-            "Type": "Main Research Track",
-            "ShortType": "Main Research Track",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
             "Key": "Tools",
             "Day": "2013-05-24",
             "Time": "13:30 - 15:30",
