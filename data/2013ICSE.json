@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1365375193,
+    "DataRevision": 1365758353,
     "Preliminary": true,
     "Event": "ICSE 2013 All",
     "Name": "ICSE 2013 All",
@@ -2756,6 +2756,273 @@
             "Award": ""
         },
         {
+            "Title": "On Extracting Unit Tests from Interactive Live Programming Sessions",
+            "Type": "Regular (4 pages)",
+            "Key": "icse13nier-id162-p",
+            "URL": "http%3A%2F%2Farxiv.org%2Fabs%2F1212.1796",
+            "URLvideo": "",
+            "PersonsString": "Adrian Kuhn",
+            "AffiliationsString": "University of British Columbia, Canada",
+            "Authors": [
+                "Adrian Kuhn @ University of British Columbia, Canada"
+            ],
+            "Affiliations": [
+                "University of British Columbia, Canada"
+            ],
+            "Abstract": "Software engineering methodologies, such as unit testing, propose that any effort made to ensuring that programs run correctly should be captured in repeatable and automated artifacts. However, when looking at developer activities on a spectrum from exploratory testing to scripted testing we find that many engineering activities include bursts of exploratory testing. In this paper we propose to leverage these exploratory testing bursts by automatically extracting scripted tests from a recording of live programming sessions. In order to do so, we wiretap the development environment so we can record all program input, all user-issued functions calls, and all program output of an exploratory testing session. We propose to then use clustering to extract scripted test cases from these recordings. We outline two early-stage prototypes, one for a static and one for a dynamic language. And we outline how this idea fits into the bigger research direction of live programming.",
+            "Award": ""
+        },
+        {
+            "Title": "Towards Automated Testing and Fixing of Re-engineered Feature Models",
+            "Type": "Regular (4 pages)",
+            "Key": "icse13nier-id30-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChristopher+Henard%2C+Mike+Papadakis%2C+Gilles+Perrouin%2C+Jacques+Klein%2C+and+Yves+Le+Traon+%22Towards+Automated+Testing+and+Fixing+of+Re-engineered+Feature+Models%22",
+            "URLvideo": "",
+            "PersonsString": "Christopher Henard, Mike Papadakis, Gilles Perrouin, Jacques Klein, and Yves Le Traon",
+            "AffiliationsString": "University of Luxembourg, Luxembourg; University of Namur, Belgium",
+            "Authors": [
+                "Christopher Henard @ University of Luxembourg, Luxembourg",
+                "Mike Papadakis @ University of Luxembourg, Luxembourg",
+                "Gilles Perrouin @ University of Namur, Belgium",
+                "Jacques Klein @ University of Luxembourg, Luxembourg",
+                "Yves Le Traon @ University of Luxembourg, Luxembourg"
+            ],
+            "Affiliations": [
+                "University of Luxembourg, Luxembourg",
+                "University of Luxembourg, Luxembourg",
+                "University of Namur, Belgium",
+                "University of Luxembourg, Luxembourg",
+                "University of Luxembourg, Luxembourg"
+            ],
+            "Abstract": "Mass customization of software products requires their efficient tailoring performed through combination of features. Such features and the constraints linking them can be represented by Feature Models (FMs), allowing formal analysis, derivation of specific variants and interactive configuration. Since they are seldom present in existing systems, techniques to re-engineer FMs have been proposed. There are nevertheless error-prone and require human intervention. This paper introduces an automated search-based process to test and fix FMs so that they adequately represent actual products. Preliminary evaluation on the Linux kernel FM exhibit erroneous FM constraints and significant reduction of the inconsistencies.",
+            "Award": ""
+        },
+        {
+            "Title": "Computational Alignment of Goals and Scenarios for Complex Systems",
+            "Type": "Regular (4 pages)",
+            "Key": "icse13nier-id77-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDalal+Alrajeh%2C+Alessandra+Russo%2C+James+Lockerbie%2C+Neil+Maiden%2C+Alistair+Mavin%2C+and+Mark+Novak+%22Computational+Alignment+of+Goals+and+Scenarios+for+Complex+Systems%22",
+            "URLvideo": "",
+            "PersonsString": "Dalal Alrajeh, Alessandra Russo, James Lockerbie, Neil Maiden, Alistair Mavin, and Mark Novak",
+            "AffiliationsString": "Imperial College London, UK; City University London, UK; Rolls Royce, UK; Aero Engine Controls, UK",
+            "Authors": [
+                "Dalal Alrajeh @ Imperial College London, UK",
+                "Alessandra Russo @ Imperial College London, UK",
+                "James Lockerbie @ City University London, UK",
+                "Neil Maiden @ City University London, UK",
+                "Alistair Mavin @ Rolls Royce, UK",
+                "Mark Novak @ Aero Engine Controls, UK"
+            ],
+            "Affiliations": [
+                "Imperial College London, UK",
+                "Imperial College London, UK",
+                "City University London, UK",
+                "City University London, UK",
+                "Rolls Royce, UK",
+                "Aero Engine Controls, UK"
+            ],
+            "Abstract": "The purpose of requirements validation is to determine whether a large requirements set will lead to the achievement of system-related goals under different conditions – a task that needs automation if it is to be performed quickly and accurately. One reason for the current lack of software tools to undertake such validation is the absence of the computational mechanisms needed to associate scenario, system specification and goal analysis tools. Therefore, in this paper, we report first research experiments in developing these new capabilities, and demonstrate them with a non-trivial example associated with a Rolls Royce aircraft engine software component.",
+            "Award": ""
+        },
+        {
+            "Title": "Service Networks for Development Communities",
+            "Type": "Regular (4 pages)",
+            "Key": "icse13nier-id72-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDamian+A.+Tamburri%2C+Patricia+Lago%2C+and+Hans+Van+Vliet+%22Service+Networks+for+Development+Communities%22",
+            "URLvideo": "",
+            "PersonsString": "Damian A. Tamburri, Patricia Lago, and Hans Van Vliet",
+            "AffiliationsString": "VU University Amsterdam, Netherlands",
+            "Authors": [
+                "Damian A. Tamburri @ VU University Amsterdam, Netherlands",
+                "Patricia Lago @ VU University Amsterdam, Netherlands",
+                "Hans Van Vliet @ VU University Amsterdam, Netherlands"
+            ],
+            "Affiliations": [
+                "VU University Amsterdam, Netherlands",
+                "VU University Amsterdam, Netherlands",
+                "VU University Amsterdam, Netherlands"
+            ],
+            "Abstract": "ommunities of developers have rapidly become global, encompassing multiple timezones and cultures alike. In previous work we investigated the possible shapes of communities for software development. In addition, we explored mechanisms to uncover communities emerging during development. However, we barely scratched the surface. We found that development communities yield properties of dynamic change and organic evolution. Much work is still needed to support such commu- nities with mechanisms able to proactively react to community dynamism. We argue that service-networks can be used to deliver this support. Service-networks are sets of people and information brought together by the internet. This paper is a first attempt at studying this research area by means of a real-life case-study in a large global software development organisation.",
+            "Award": ""
+        },
+        {
+            "Title": "Formal Specifications Better Than Function Points for Code Sizing",
+            "Type": "Regular (4 pages)",
+            "Key": "icse13nier-id27-p",
+            "URL": "http%3A%2F%2Fwww.nicta.com.au%2Fpub%3Fid%3D6416",
+            "URLvideo": "",
+            "PersonsString": "Mark Staples, Rafal Kolanski, Gerwin Klein, Corey Lewis, June Andronick, Toby Murray, Ross Jeffery, and Len Bass",
+            "AffiliationsString": "NICTA, Australia",
+            "Authors": [
+                "Mark Staples @ NICTA, Australia",
+                "Rafal Kolanski @ NICTA, Australia",
+                "Gerwin Klein @ NICTA, Australia",
+                "Corey Lewis @ NICTA, Australia",
+                "June Andronick @ NICTA, Australia",
+                "Toby Murray @ NICTA, Australia",
+                "Ross Jeffery @ NICTA, Australia",
+                "Len Bass @ NICTA, Australia"
+            ],
+            "Affiliations": [
+                "NICTA, Australia",
+                "NICTA, Australia",
+                "NICTA, Australia",
+                "NICTA, Australia",
+                "NICTA, Australia",
+                "NICTA, Australia",
+                "NICTA, Australia",
+                "NICTA, Australia"
+            ],
+            "Abstract": "Size and effort estimation is a significant challenge for the management of large-scale formal verification projects. We report on an initial study of relationships between the sizes of artefacts from the development of seL4, a formally-verified embedded systems microkernel. For each API function we first determined its COSMIC Function Point (CFP) count (based on the seL4 user manual), then sliced the formal specifications and source code, and performed a normalised line count on these artefact slices. We found strong and significant relationships between the sizes of the artefact slices, but no significant relationships between them and the CFP counts. Our finding that CFP is poorly correlated with lines of code is based on just one system, but is largely consistent with prior literature. We find CFP is also poorly correlated with the size of formal specifications. Nonetheless, lines of formal specification correlate with lines of source code, and this may provide a basis for size prediction in future formal verification projects. In future work we will investigate proof sizing.",
+            "Award": ""
+        },
+        {
+            "Title": "Using Mutation Analysis for a Model-Clone Detector Comparison Framework",
+            "Type": "Regular (4 pages)",
+            "Key": "icse13nier-id141-p",
+            "URL": "http%3A%2F%2Fcs.queensu.ca%2F%7Estephan%2Fpapers%2Fnier2013.pdf",
+            "URLvideo": "",
+            "PersonsString": "Matthew Stephan, Manar H. Alalfi, Andrew Stevenson, and James R. Cordy",
+            "AffiliationsString": "Queen's University, Canada",
+            "Authors": [
+                "Matthew Stephan @ Queen's University, Canada",
+                "Manar H. Alalfi @ Queen's University, Canada",
+                "Andrew Stevenson @ Queen's University, Canada",
+                "James R. Cordy @ Queen's University, Canada"
+            ],
+            "Affiliations": [
+                "Queen's University, Canada",
+                "Queen's University, Canada",
+                "Queen's University, Canada",
+                "Queen's University, Canada"
+            ],
+            "Abstract": "Model-clone detection is a relatively new area and there are a number of different approaches in the literature. As the area continues to mature, it becomes necessary to evaluate and compare these approaches and validate new ones that are introduced. We present a mutation-analysis based model-clone detection framework that attempts to automate and standardize the process of comparing multiple Simulink model-clone detection tools or variations of the same tool. By having such a framework, new research directions in the area of model-clone detection can be facilitated as the framework can be used to validate new techniques as they arise. We begin by presenting challenges unique to model-clone tool comparison including recall calculation, the nature of the clones, and the clone report representation. We propose our framework, which we believe addresses these challenges. This is followed by a presentation of the mutation operators that we plan to inject into our Simulink models that will introduce variations of all the different model clone types that can then be searched for by each respective model-clone detector.",
+            "Award": ""
+        },
+        {
+            "Title": "On the Relationships between Domain-Based Coupling and Code Clones: An Exploratory Study",
+            "Type": "Regular (4 pages)",
+            "Key": "icse13nier-id134-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMd+Saidur+Rahman%2C+Amir+Aryani%2C+Chanchal+K.+Roy%2C+and+Fabrizio+Perin+%22On+the+Relationships+between+Domain-Based+Coupling+and+Code+Clones%3A+An+Exploratory+Study%22",
+            "URLvideo": "",
+            "PersonsString": "Md Saidur Rahman, Amir Aryani, Chanchal K. Roy, and Fabrizio Perin",
+            "AffiliationsString": "University of Saskatchewan, Canada; Australian National University, Australia; University of Bern, Switzerland",
+            "Authors": [
+                "Md Saidur Rahman @ University of Saskatchewan, Canada",
+                "Amir Aryani @ Australian National University, Australia",
+                "Chanchal K. Roy @ University of Saskatchewan, Canada",
+                "Fabrizio Perin @ University of Bern, Switzerland"
+            ],
+            "Affiliations": [
+                "University of Saskatchewan, Canada",
+                "Australian National University, Australia",
+                "University of Saskatchewan, Canada",
+                "University of Bern, Switzerland"
+            ],
+            "Abstract": "Knowledge of similar code fragments, also known as code clones, is important to many software maintenance activities including bug fixing, refactoring, impact analysis and program comprehension. While a great deal of research has been conducted for finding techniques and implementing tools to identify code clones, little research has been done to analyze the relationships between code clones and other aspects of software. In this paper, we attempt to uncover the relationships between code clones and coupling among domain-level components. We report on a case study of a large-scale open source enterprise system, where we demonstrate that the probability of finding code clones among components with domain-based coupling is more than 90%. While such a probabilistic view does not replace a clone detection tool per se, it certainly has the potential to complement the existing tools by providing the probability of having code clones between software components. For example, it can both reduce the clone search space and provide a flexible and language independent way of focusing only on a specific part of the system. It can also provide a higher level of abstraction to look at the cloning relationships among software components.",
+            "Award": ""
+        },
+        {
+            "Title": "Quantitative Program Slicing: Separating Statements by Relevance",
+            "Type": "Regular (4 pages)",
+            "Key": "icse13nier-id112-p",
+            "URL": "http%3A%2F%2Fwww3.nd.edu%2F%7Ersanteli%2Fpubs%2Fqslicing-TR-2012-04.pdf",
+            "URLvideo": "",
+            "PersonsString": "Raul Santelices, Yiji Zhang, Siyuan Jiang, Haipeng Cai, and Ying-Jie Zhang",
+            "AffiliationsString": "University of Notre Dame, USA; Tsinghua University, China",
+            "Authors": [
+                "Raul Santelices @ University of Notre Dame, USA",
+                "Yiji Zhang @ University of Notre Dame, USA",
+                "Siyuan Jiang @ University of Notre Dame, USA",
+                "Haipeng Cai @ University of Notre Dame, USA",
+                "Ying-Jie Zhang @ Tsinghua University, China"
+            ],
+            "Affiliations": [
+                "University of Notre Dame, USA",
+                "University of Notre Dame, USA",
+                "University of Notre Dame, USA",
+                "University of Notre Dame, USA",
+                "Tsinghua University, China"
+            ],
+            "Abstract": "Program slicing is a popular but imprecise technique for identifying which parts of a program affect or are affected by a particular value. A major reason for this imprecision is that slicing reports all program statements possibly affected by a value, regardless of how relevant to that value they really are. In this paper, we introduce quantitative slicing (q-slicing), a novel approach that quantifies the relevance of each statement in a slice. Q-slicing helps users and tools focus their attention first on the parts of slices that matter the most. We present two methods for quantifying slices and we show the promise of q-slicing for a particular application: predicting the impacts of changes.",
+            "Award": ""
+        },
+        {
+            "Title": "Example-Driven Modeling: Model = Abstractions + Examples",
+            "Type": "Regular (4 pages)",
+            "Key": "icse13nier-id41-p",
+            "URL": "http%3A%2F%2Fgsd.uwaterloo.ca%2Fnode%2F503",
+            "URLvideo": "",
+            "PersonsString": "Kacper Bąk, Dina Zayan, Krzysztof Czarnecki, Michał Antkiewicz, Zinovy Diskin, Andrzej Wąsowski, and Derek Rayside",
+            "AffiliationsString": "University of Waterloo, Canada; IT University of Copenhagen, Denmark",
+            "Authors": [
+                "Kacper Bąk @ University of Waterloo, Canada",
+                "Dina Zayan @ University of Waterloo, Canada",
+                "Krzysztof Czarnecki @ University of Waterloo, Canada",
+                "Michał Antkiewicz @ University of Waterloo, Canada",
+                "Zinovy Diskin @ University of Waterloo, Canada",
+                "Andrzej Wąsowski @ IT University of Copenhagen, Denmark",
+                "Derek Rayside @ University of Waterloo, Canada"
+            ],
+            "Affiliations": [
+                "University of Waterloo, Canada",
+                "University of Waterloo, Canada",
+                "University of Waterloo, Canada",
+                "University of Waterloo, Canada",
+                "University of Waterloo, Canada",
+                "IT University of Copenhagen, Denmark",
+                "University of Waterloo, Canada"
+            ],
+            "Abstract": "We propose Example-Driven Modeling (EDM), an approach that systematically uses explicit examples for eliciting, modeling, verifying, and validating complex business knowledge. It emphasizes the use of explicit examples together with abstractions, both for presenting information and when exchanging models. We formulate hypotheses as to why modeling should include explicit examples, discuss how to use the examples, and the required tool support. Building upon results from cognitive psychology and software engineering, we challenge mainstream practices in structural modeling and suggest future directions.",
+            "Award": ""
+        },
+        {
+            "Title": "Towards Recognizing and Rewarding Efficient Developer Work Patterns",
+            "Type": "Regular (4 pages)",
+            "Key": "icse13nier-id34-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DWill+Snipes%2C+Vinay+Augustine%2C+Anil+R.+Nair%2C+and+Emerson+Murphy-Hill+%22Towards+Recognizing+and+Rewarding+Efficient+Developer+Work+Patterns%22",
+            "URLvideo": "",
+            "PersonsString": "Will Snipes, Vinay Augustine, Anil R. Nair, and Emerson Murphy-Hill",
+            "AffiliationsString": "ABB Research, USA; ABB Research, India; North Carolina State University, USA",
+            "Authors": [
+                "Will Snipes @ ABB Research, USA",
+                "Vinay Augustine @ ABB Research, USA",
+                "Anil R. Nair @ ABB Research, India",
+                "Emerson Murphy-Hill @ North Carolina State University, USA"
+            ],
+            "Affiliations": [
+                "ABB Research, USA",
+                "ABB Research, USA",
+                "ABB Research, India",
+                "North Carolina State University, USA"
+            ],
+            "Abstract": "Software engineering researchers develop great tech- niques consisting of practices and tools that improve efciency and quality of software development. Prior work evaluates developers use of techniques such as Test-Driven-Development and refactoring by measuring actions in the development environ- ment. What we still lack is a method to communicate effectively and motivate developers to adopt best practices and tools. This work proposes a game-like system to motivate adoption while continuously measuring developers use of more efcient development techniques.",
+            "Award": ""
+        },
+        {
+            "Title": "Selecting Checkpoints along the Time Line: A Novel Temporal Checkpoint Selection Strategy for Monitoring a Batch of Parallel Business Processes",
+            "Type": "Regular (4 pages)",
+            "Key": "icse13nier-id117-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DXiao+Liu%2C+Yun+Yang%2C+Dahai+Cao%2C+and+Dong+Yuan+%22Selecting+Checkpoints+along+the+Time+Line%3A+A+Novel+Temporal+Checkpoint+Selection+Strategy+for+Monitoring+a+Batch+of+Parallel+Business+Processes%22",
+            "URLvideo": "",
+            "PersonsString": "Xiao Liu, Yun Yang, Dahai Cao, and Dong Yuan",
+            "AffiliationsString": "East China Normal University, China; Swinburne University of Technology, Australia",
+            "Authors": [
+                "Xiao Liu @ East China Normal University, China / Swinburne University of Technology, Australia",
+                "Yun Yang @ Swinburne University of Technology, Australia",
+                "Dahai Cao @ Swinburne University of Technology, Australia",
+                "Dong Yuan @ Swinburne University of Technology, Australia"
+            ],
+            "Affiliations": [
+                "East China Normal University, China / Swinburne University of Technology, Australia",
+                "Swinburne University of Technology, Australia",
+                "Swinburne University of Technology, Australia",
+                "Swinburne University of Technology, Australia"
+            ],
+            "Abstract": "Nowadays, most business processes are running in a parallel, distributed and time-constrained manner. How to guarantee their on-time completion is a challenging issue. In the past few years, temporal checkpoint selection which selects a subset of workflow activities for verification of temporal consistency has been proved to be very successful in monitoring single, complex and large size scientific workflows. An intuitive approach is to apply those strategies to individual business processes. However, in such a case, the total number of checkpoints will be enormous, namely the cost for system monitoring and exception handling could be excessive. To address such an issue, we propose a brand new idea which selects time points along the workflow execution time line as checkpoints to monitor a batch of parallel business processes simultaneously instead of individually. Based on such an idea, a set of new definitions as well as a time-point based checkpoint selection strategy are presented in this paper. Our preliminary results demonstrate that it can achieve an order of magnitude reduction in the number of checkpoints while maintaining satisfactory on-time completion rates compared with the state-of-the-art activity-point based checkpoint selection strategy.",
+            "Award": ""
+        },
+        {
             "Title": "Authentic Assessment in Software Engineering Education Based on PBL Principles: A Case Study in the Telecom Market",
             "Type": "Long Paper (10 pages)",
             "Key": "icse13see-id12-p",
@@ -4414,21 +4681,6 @@
             "Abstract": ""
         },
         {
-            "Title": "MSR&#039;13 Day 1",
-            "ShortTitle": "MSR&#039;13 Day 1",
-            "Type": "Co-located Conferences",
-            "ShortType": "Co-located Conferences",
-            "Key": "MSR&#039;13Day1",
-            "Day": "2013-05-18",
-            "Time": "08:30 - 18:00",
-            "Location": "TBA",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": ""
-        },
-        {
             "Title": "AST&#039;13 Day 1",
             "ShortTitle": "AST&#039;13 Day 1",
             "Type": "Co-located Workshops",
@@ -4549,21 +4801,6 @@
             "Abstract": ""
         },
         {
-            "Title": "Striking Gold: Building Software Better, Together",
-            "ShortTitle": "Striking Gold: Building Software Better, Together",
-            "Type": "MSR: Keynote (co-located)",
-            "ShortType": "MSR: Keynote (co-located)",
-            "Key": "StrikingGold:BuildingSoftwareBetter,Together",
-            "Day": "2013-05-19",
-            "Time": "00:00 - 00:00",
-            "Location": "",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": ""
-        },
-        {
             "Title": "CSEET&#039;13 Day 1",
             "ShortTitle": "CSEET&#039;13 Day 1",
             "Type": "Co-located Conferences",
@@ -4584,21 +4821,6 @@
             "Type": "Co-located Conferences",
             "ShortType": "Co-located Conferences",
             "Key": "ICSSP&#039;13Day2",
-            "Day": "2013-05-19",
-            "Time": "08:30 - 18:00",
-            "Location": "TBA",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": ""
-        },
-        {
-            "Title": "MSR&#039;13 Day 2",
-            "ShortTitle": "MSR&#039;13 Day 2",
-            "Type": "Co-located Conferences",
-            "ShortType": "Co-located Conferences",
-            "Key": "MSR&#039;13Day2",
             "Day": "2013-05-19",
             "Time": "08:30 - 18:00",
             "Location": "TBA",
@@ -5332,6 +5554,34 @@
             "Abstract": ""
         },
         {
+            "Title": "Posters",
+            "ShortTitle": "Posters",
+            "Type": "New Ideas and Emerging Results",
+            "ShortType": "New Ideas and Emerging Results",
+            "Key": "Posters",
+            "Day": "2013-05-22",
+            "Time": "00:00 - 00:00",
+            "Location": "TBA",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Abstract": "",
+            "Items": [
+                "icse13nier-id162-p",
+                "icse13nier-id30-p",
+                "icse13nier-id77-p",
+                "icse13nier-id72-p",
+                "icse13nier-id27-p",
+                "icse13nier-id141-p",
+                "icse13nier-id134-p",
+                "icse13nier-id112-p",
+                "icse13nier-id41-p",
+                "icse13nier-id34-p",
+                "icse13nier-id117-p"
+            ]
+        },
+        {
             "Title": "ACM Student Research Competition",
             "ShortTitle": "ACM Student Research Competition",
             "Type": "Not Yet Scheduled",
@@ -5559,7 +5809,7 @@
             "ShortType": "Software Engineering in Education",
             "Key": "Problem-BasedandStudioLearning",
             "Day": "2013-05-22",
-            "Time": "13:30 - 15:00",
+            "Time": "13:30 - 15:30",
             "Location": "TBA",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -5678,7 +5928,7 @@
             "ShortType": "Software Engineering in Education",
             "Key": "TeachingIntroductorySoftwareEngineering",
             "Day": "2013-05-22",
-            "Time": "16:00 - 17:30",
+            "Time": "16:00 - 18:00",
             "Location": "TBA",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -6111,7 +6361,7 @@
             "ShortType": "Software Engineering in Education",
             "Key": "AdvancedSoftwareEngineeringEducation",
             "Day": "2013-05-23",
-            "Time": "16:00 - 17:30",
+            "Time": "16:00 - 17:45",
             "Location": "TBA",
             "ChairsString": "",
             "ChairsKeys": [],
@@ -6822,6 +7072,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Manar H. Alalfi",
+            "Affiliation": "Queen's University, Canada",
+            "Key": "Manar H. Alalfi @ Queen's University, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Nour Ali",
             "Affiliation": "University of Brighton, UK",
             "Key": "Nour Ali @ University of Brighton, UK",
@@ -6835,6 +7095,16 @@
             "Name": "Mohamed Almorsy",
             "Affiliation": "Swinburne University of Technology, Australia",
             "Key": "Mohamed Almorsy @ Swinburne University of Technology, Australia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dalal Alrajeh",
+            "Affiliation": "Imperial College London, UK",
+            "Key": "Dalal Alrajeh @ Imperial College London, UK",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -6892,6 +7162,26 @@
             "URLgs": ""
         },
         {
+            "Name": "June Andronick",
+            "Affiliation": "NICTA, Australia",
+            "Key": "June Andronick @ NICTA, Australia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michał Antkiewicz",
+            "Affiliation": "University of Waterloo, Canada",
+            "Key": "Michał Antkiewicz @ University of Waterloo, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Sven Apel",
             "Affiliation": "University of Passau, Germany",
             "Key": "Sven Apel @ University of Passau, Germany",
@@ -6915,6 +7205,26 @@
             "Name": "Luca Ardito",
             "Affiliation": "Politecnico di Torino, Italy",
             "Key": "Luca Ardito @ Politecnico di Torino, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Amir Aryani",
+            "Affiliation": "Australian National University, Australia",
+            "Key": "Amir Aryani @ Australian National University, Australia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Vinay Augustine",
+            "Affiliation": "ABB Research, USA",
+            "Key": "Vinay Augustine @ ABB Research, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -6962,6 +7272,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Kacper Bąk",
+            "Affiliation": "University of Waterloo, Canada",
+            "Key": "Kacper Bąk @ University of Waterloo, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Vipin Balachandran",
             "Affiliation": "VMware, India",
             "Key": "Vipin Balachandran @ VMware, India",
@@ -6995,6 +7315,16 @@
             "Name": "Thomas W. Bartenstein",
             "Affiliation": "SUNY Binghamton, USA",
             "Key": "Thomas W. Bartenstein @ SUNY Binghamton, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Len Bass",
+            "Affiliation": "NICTA, Australia",
+            "Key": "Len Bass @ NICTA, Australia",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -7352,6 +7682,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Haipeng Cai",
+            "Affiliation": "University of Notre Dame, USA",
+            "Key": "Haipeng Cai @ University of Notre Dame, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Yuanfang Cai",
             "Affiliation": "Drexel University, USA",
             "Key": "Yuanfang Cai @ Drexel University, USA",
@@ -7375,6 +7715,16 @@
             "Name": "Gerardo Canfora",
             "Affiliation": "University of Sannio, Italy",
             "Key": "Gerardo Canfora @ University of Sannio, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dahai Cao",
+            "Affiliation": "Swinburne University of Technology, Australia",
+            "Key": "Dahai Cao @ Swinburne University of Technology, Australia",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -7592,6 +7942,16 @@
             "URLgs": ""
         },
         {
+            "Name": "James R. Cordy",
+            "Affiliation": "Queen's University, Canada",
+            "Key": "James R. Cordy @ Queen's University, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Maxime Cordy",
             "Affiliation": "University of Namur, Belgium",
             "Key": "Maxime Cordy @ University of Namur, Belgium",
@@ -7625,6 +7985,16 @@
             "Name": "Christoph Csallner",
             "Affiliation": "University of Texas at Arlington, USA",
             "Key": "Christoph Csallner @ University of Texas at Arlington, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Krzysztof Czarnecki",
+            "Affiliation": "University of Waterloo, Canada",
+            "Key": "Krzysztof Czarnecki @ University of Waterloo, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -7785,6 +8155,16 @@
             "Name": "Nicolas D'Ippolito",
             "Affiliation": "Imperial College London, UK",
             "Key": "Nicolas D'Ippolito @ Imperial College London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zinovy Diskin",
+            "Affiliation": "University of Waterloo, Canada",
+            "Key": "Zinovy Diskin @ University of Waterloo, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -8652,6 +9032,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Christopher Henard",
+            "Affiliation": "University of Luxembourg, Luxembourg",
+            "Key": "Christopher Henard @ University of Luxembourg, Luxembourg",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Felienne Hermans",
             "Affiliation": "TU Delft, Netherlands",
             "Key": "Felienne Hermans @ TU Delft, Netherlands",
@@ -8825,6 +9215,26 @@
             "Name": "Stan Jarzabek",
             "Affiliation": "National University of Singapore, Singapore",
             "Key": "Stan Jarzabek @ National University of Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ross Jeffery",
+            "Affiliation": "NICTA, Australia",
+            "Key": "Ross Jeffery @ NICTA, Australia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Siyuan Jiang",
+            "Affiliation": "University of Notre Dame, USA",
+            "Key": "Siyuan Jiang @ University of Notre Dame, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9062,6 +9472,26 @@
             "URLgs": ""
         },
         {
+            "Name": "Gerwin Klein",
+            "Affiliation": "NICTA, Australia",
+            "Key": "Gerwin Klein @ NICTA, Australia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jacques Klein",
+            "Affiliation": "University of Luxembourg, Luxembourg",
+            "Key": "Jacques Klein @ University of Luxembourg, Luxembourg",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Eric Knauss",
             "Affiliation": "University of Victoria, Canada",
             "Key": "Eric Knauss @ University of Victoria, Canada",
@@ -9085,6 +9515,16 @@
             "Name": "Benjamin Koelewijn",
             "Affiliation": "Utrecht University, Netherlands",
             "Key": "Benjamin Koelewijn @ Utrecht University, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rafal Kolanski",
+            "Affiliation": "NICTA, Australia",
+            "Key": "Rafal Kolanski @ NICTA, Australia",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9152,6 +9592,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Adrian Kuhn",
+            "Affiliation": "University of British Columbia, Canada",
+            "Key": "Adrian Kuhn @ University of British Columbia, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Marco Kuhrmann",
             "Affiliation": "TU Munich, Germany",
             "Key": "Marco Kuhrmann @ TU Munich, Germany",
@@ -9185,6 +9635,16 @@
             "Name": "Irwin Kwan",
             "Affiliation": "Oregon State University, USA",
             "Key": "Irwin Kwan @ Oregon State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Patricia Lago",
+            "Affiliation": "VU University Amsterdam, Netherlands",
+            "Key": "Patricia Lago @ VU University Amsterdam, Netherlands",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9332,9 +9792,29 @@
             "URLgs": ""
         },
         {
+            "Name": "Yves Le Traon",
+            "Affiliation": "University of Luxembourg, Luxembourg",
+            "Key": "Yves Le Traon @ University of Luxembourg, Luxembourg",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Chris Lewis",
             "Affiliation": "UC Santa Cruz, USA",
             "Key": "Chris Lewis @ UC Santa Cruz, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Corey Lewis",
+            "Affiliation": "NICTA, Australia",
+            "Key": "Corey Lewis @ NICTA, Australia",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9462,6 +9942,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Xiao Liu",
+            "Affiliation": "East China Normal University, China / Swinburne University of Technology, Australia",
+            "Key": "Xiao Liu @ East China Normal University, China / Swinburne University of Technology, Australia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Yang Liu",
             "Affiliation": "Nanyang Technological University, Singapore",
             "Key": "Yang Liu @ Nanyang Technological University, Singapore",
@@ -9475,6 +9965,16 @@
             "Name": "Yu David Liu",
             "Affiliation": "SUNY Binghamton, USA",
             "Key": "Yu David Liu @ SUNY Binghamton, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "James Lockerbie",
+            "Affiliation": "City University London, UK",
+            "Key": "James Lockerbie @ City University London, UK",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9535,6 +10035,16 @@
             "Name": "Anas Mahmoud",
             "Affiliation": "Mississippi State University, USA",
             "Key": "Anas Mahmoud @ Mississippi State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Neil Maiden",
+            "Affiliation": "City University London, UK",
+            "Key": "Neil Maiden @ City University London, UK",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9665,6 +10175,16 @@
             "Name": "Chris Mattmann",
             "Affiliation": "University of Southern California, USA / Jet Propulsion Laboratory, USA",
             "Key": "Chris Mattmann @ University of Southern California, USA / Jet Propulsion Laboratory, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alistair Mavin",
+            "Affiliation": "Rolls Royce, UK",
+            "Key": "Alistair Mavin @ Rolls Royce, UK",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9892,6 +10412,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Toby Murray",
+            "Affiliation": "NICTA, Australia",
+            "Key": "Toby Murray @ NICTA, Australia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Kıvanç Muşlu",
             "Affiliation": "University of Washington, USA",
             "Key": "Kıvanç Muşlu @ University of Washington, USA",
@@ -9925,6 +10455,16 @@
             "Name": "Deepa D. Nagaraj",
             "Affiliation": "IBM, India",
             "Key": "Deepa D. Nagaraj @ IBM, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Anil R. Nair",
+            "Affiliation": "ABB Research, India",
+            "Key": "Anil R. Nair @ ABB Research, India",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10112,6 +10652,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Mark Novak",
+            "Affiliation": "Aero Engine Controls, UK",
+            "Key": "Mark Novak @ Aero Engine Controls, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Bashar Nuseibeh",
             "Affiliation": "Open University, UK / Lero, Ireland / University of Limerick, Ireland",
             "Key": "Bashar Nuseibeh @ Open University, UK / Lero, Ireland / University of Limerick, Ireland",
@@ -10292,6 +10842,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Mike Papadakis",
+            "Affiliation": "University of Luxembourg, Luxembourg",
+            "Key": "Mike Papadakis @ University of Luxembourg, Luxembourg",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Sangmin Park",
             "Affiliation": "Georgia Tech, USA",
             "Key": "Sangmin Park @ Georgia Tech, USA",
@@ -10362,9 +10922,29 @@
             "URLgs": ""
         },
         {
+            "Name": "Fabrizio Perin",
+            "Affiliation": "University of Bern, Switzerland",
+            "Key": "Fabrizio Perin @ University of Bern, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Nicolò Perino",
             "Affiliation": "University of Lugano, Switzerland",
             "Key": "Nicolò Perino @ University of Lugano, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gilles Perrouin",
+            "Affiliation": "University of Namur, Belgium",
+            "Key": "Gilles Perrouin @ University of Namur, Belgium",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10602,6 +11182,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Md Saidur Rahman",
+            "Affiliation": "University of Saskatchewan, Canada",
+            "Key": "Md Saidur Rahman @ University of Saskatchewan, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Hridesh Rajan",
             "Affiliation": "Iowa State University, USA",
             "Key": "Hridesh Rajan @ Iowa State University, USA",
@@ -10625,6 +11215,16 @@
             "Name": "Sarah Rastkar",
             "Affiliation": "University of British Columbia, Canada",
             "Key": "Sarah Rastkar @ University of British Columbia, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Derek Rayside",
+            "Affiliation": "University of Waterloo, Canada",
+            "Key": "Derek Rayside @ University of Waterloo, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10725,6 +11325,16 @@
             "Name": "Gregg Rothermel",
             "Affiliation": "University of Nebraska-Lincoln, USA",
             "Key": "Gregg Rothermel @ University of Nebraska-Lincoln, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Chanchal K. Roy",
+            "Affiliation": "University of Saskatchewan, Canada",
+            "Key": "Chanchal K. Roy @ University of Saskatchewan, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10885,6 +11495,16 @@
             "Name": "Sriram Sankaranarayanan",
             "Affiliation": "University of Colorado at Boulder, USA",
             "Key": "Sriram Sankaranarayanan @ University of Colorado at Boulder, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Raul Santelices",
+            "Affiliation": "University of Notre Dame, USA",
+            "Key": "Raul Santelices @ University of Notre Dame, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -11212,6 +11832,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Will Snipes",
+            "Affiliation": "ABB Research, USA",
+            "Key": "Will Snipes @ ABB Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Felipe S. F. Soares",
             "Affiliation": "Recife Center of Advanced Studies and Systems, Brazil / UFPE, Brazil",
             "Key": "Felipe S. F. Soares @ Recife Center of Advanced Studies and Systems, Brazil / UFPE, Brazil",
@@ -11285,6 +11915,36 @@
             "Name": "Matt Staats",
             "Affiliation": "KAIST, South Korea",
             "Key": "Matt Staats @ KAIST, South Korea",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mark Staples",
+            "Affiliation": "NICTA, Australia",
+            "Key": "Mark Staples @ NICTA, Australia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Matthew Stephan",
+            "Affiliation": "Queen's University, Canada",
+            "Key": "Matthew Stephan @ Queen's University, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrew Stevenson",
+            "Affiliation": "Queen's University, Canada",
+            "Key": "Andrew Stevenson @ Queen's University, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -11385,6 +12045,16 @@
             "Name": "Giordano Tamburrelli",
             "Affiliation": "Politecnico di Milano, Italy",
             "Key": "Giordano Tamburrelli @ Politecnico di Milano, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Damian A. Tamburri",
+            "Affiliation": "VU University Amsterdam, Netherlands",
+            "Key": "Damian A. Tamburri @ VU University Amsterdam, Netherlands",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -11552,6 +12222,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Hans Van Vliet",
+            "Affiliation": "VU University Amsterdam, Netherlands",
+            "Key": "Hans Van Vliet @ VU University Amsterdam, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Mandana Vaziri",
             "Affiliation": "IBM Research, USA",
             "Key": "Mandana Vaziri @ IBM Research, USA",
@@ -11615,6 +12295,16 @@
             "Name": "Jinshui Wang",
             "Affiliation": "Fudan University, China",
             "Key": "Jinshui Wang @ Fudan University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrzej Wąsowski",
+            "Affiliation": "IT University of Copenhagen, Denmark",
+            "Key": "Andrzej Wąsowski @ IT University of Copenhagen, Denmark",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -11792,6 +12482,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Yun Yang",
+            "Affiliation": "Swinburne University of Technology, Australia",
+            "Key": "Yun Yang @ Swinburne University of Technology, Australia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Tom Yeh",
             "Affiliation": "University of Colorado at Boulder, USA",
             "Key": "Tom Yeh @ University of Colorado at Boulder, USA",
@@ -11822,9 +12522,29 @@
             "URLgs": ""
         },
         {
+            "Name": "Dong Yuan",
+            "Affiliation": "Swinburne University of Technology, Australia",
+            "Key": "Dong Yuan @ Swinburne University of Technology, Australia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Marcelo Serrano Zanetti",
             "Affiliation": "ETH Zurich, Switzerland",
             "Key": "Marcelo Serrano Zanetti @ ETH Zurich, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dina Zayan",
+            "Affiliation": "University of Waterloo, Canada",
+            "Key": "Dina Zayan @ University of Waterloo, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -11905,6 +12625,26 @@
             "Name": "Xiangyu Zhang",
             "Affiliation": "Purdue University, USA",
             "Key": "Xiangyu Zhang @ Purdue University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yiji Zhang",
+            "Affiliation": "University of Notre Dame, USA",
+            "Key": "Yiji Zhang @ University of Notre Dame, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ying-Jie Zhang",
+            "Affiliation": "Tsinghua University, China",
+            "Key": "Ying-Jie Zhang @ Tsinghua University, China",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
