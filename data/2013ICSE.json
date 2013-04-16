@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1366098857,
+    "DataRevision": 1366104414,
     "Preliminary": true,
     "Event": "ICSE 2013 All",
     "Name": "ICSE 2013 All",
@@ -4517,29 +4517,6 @@
             "Award": ""
         },
         {
-            "Title": "Software Engineering in the Age of Data Privacy: What and How the Global IT Community Can Share and Learn",
-            "Type": "Tutorial Summary (3 pages)",
-            "Key": "icse13tutorials-id17-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMark+Grechanik%2C+Fayola+Peters%2C+Denys+Poshyvanyk%2C+and+Tim+Menzies+%22Software+Engineering+in+the+Age+of+Data+Privacy%3A+What+and+How+the+Global+IT+Community+Can+Share+and+Learn%22",
-            "URLvideo": "",
-            "PersonsString": "Mark Grechanik, Fayola Peters, Denys Poshyvanyk, and Tim Menzies",
-            "AffiliationsString": "University of Illinois at Chicago, USA; West Virginia University, USA; College of William and Mary, USA",
-            "Authors": [
-                "Mark Grechanik @ University of Illinois at Chicago, USA",
-                "Fayola Peters @ West Virginia University, USA",
-                "Denys Poshyvanyk @ College of William and Mary, USA",
-                "Tim Menzies @ West Virginia University, USA"
-            ],
-            "Affiliations": [
-                "University of Illinois at Chicago, USA",
-                "West Virginia University, USA",
-                "College of William and Mary, USA",
-                "West Virginia University, USA"
-            ],
-            "Abstract": "It is notoriously difficult to both protect the confidentiality of private data and make the data available for different software engineering and maintenance tasks. While there are often several options that achieve an equivalent level of data protection, each option may have a unique impact on software engineering tasks. The goal of this technical briefing is to provide state-of-the-art overview of the research agenda, solutions, and questions related to data privacy issues in software engineering. One example of such a fundamental question of software engineering is how can a data owner protect private information so that the data subjects (e.g., persons, equipment) cannot be re-identified while the data retains their efficacy for software engineering tasks?",
-            "Award": ""
-        },
-        {
             "Title": "Software Metrics: Pitfalls and Best Practices",
             "Type": "Tutorial Summary (3 pages)",
             "Key": "icse13tutorials-id27-p",
@@ -4582,27 +4559,6 @@
             "Award": ""
         },
         {
-            "Title": "Pragmatic Pricing and Collaboration in Agile Software Development Projects",
-            "Type": "Tutorial Summary (3 pages)",
-            "Key": "icse13tutorials-id36-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMatthias+Book%2C+Simon+Grapenthin%2C+and+Volker+Gruhn+%22Pragmatic+Pricing+and+Collaboration+in+Agile+Software+Development+Projects%22",
-            "URLvideo": "",
-            "PersonsString": "Matthias Book, Simon Grapenthin, and Volker Gruhn",
-            "AffiliationsString": "University of Duisburg-Essen, Germany",
-            "Authors": [
-                "Matthias Book @ University of Duisburg-Essen, Germany",
-                "Simon Grapenthin @ University of Duisburg-Essen, Germany",
-                "Volker Gruhn @ University of Duisburg-Essen, Germany"
-            ],
-            "Affiliations": [
-                "University of Duisburg-Essen, Germany",
-                "University of Duisburg-Essen, Germany",
-                "University of Duisburg-Essen, Germany"
-            ],
-            "Abstract": "Agile software development is facing two challenges that hinder its adoption in large commercial projects: Firstly, even though customers increasingly demand agile project management, commercial software developers have difficulty reconciling agile principles with traditional contract and pricing models. Secondly, while agile methods encourage frequent communication between customers and developers to bridge the gap between business and technology, they do not provide means to focus that communication on understanding those aspects that are crucial for a project's success. Consequently, customers and developers remain exposed to the risk of running expensive projects that do not deliver the expected solutions. In this tutorial, we present an industrially proven approach to address both problems, which relies on two pillars: The first, economic pillar is a pricing model for commercial software development that closely reflects agile practices and incentivizes customers and suppliers for efficient collaboration. The second, constructive pillar is an approach for focusing team interaction on those project aspects that provide the most value, and those that introduce the most risk - i.e. aspects that are typically not visible in system models and thus not discussed until time and resources are too limited to address them properly. Participants will learn how to employ both pillars of this approach to achieve higher levels of cooperation and understanding in their relationships with customers or suppliers, and thus how to run their agile software projects more effectively and at lower risk.",
-            "Award": ""
-        },
-        {
             "Title": "Efficient Quality Assurance of Variability-Intensive Systems",
             "Type": "Tutorial Summary (3 pages)",
             "Key": "icse13tutorials-id43-p",
@@ -4624,23 +4580,6 @@
             "Award": ""
         },
         {
-            "Title": "The Company Approach to Teaching Software Engineering Project Courses",
-            "Type": "Tutorial Summary (3 pages)",
-            "Key": "icse13tutorials-id37-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDavid+Broman+%22The+Company+Approach+to+Teaching+Software+Engineering+Project+Courses%22",
-            "URLvideo": "",
-            "PersonsString": "David Broman",
-            "AffiliationsString": "UC Berkeley, USA; Linköping University, Sweden",
-            "Authors": [
-                "David Broman @ UC Berkeley, USA / Linköping University, Sweden"
-            ],
-            "Affiliations": [
-                "UC Berkeley, USA / Linköping University, Sweden"
-            ],
-            "Abstract": "Incorporating well-defined software engineering projects within a computing curriculum is currently common practice. In particular, conducting a larger capstone project at the end of a curriculum is an effective way of learning how to apply, for example, design methods, testing theory, and configuration management. Such courses are, however, often performed in smaller teams, giving only a limited perspective of how it is to work in real industrial software projects. This tutorial demonstrates a practical approach to teaching software engineering courses. The aim is to give students a broader and more realistic view of software engineering projects, thus preparing them better for a transition to industry. We call this teaching methodology the company approach to software engineering projects. Key components are: i) students are organized in simulated companies, ii) the simulated companies face an organizational transition from project management to agile development, and iii) students are exposed to constrained time budgets. We have used this approach for teaching Master's students for several years, with very good course evaluations. The approach has also been scientifically studied by conducting closed questionnaire-based surveys during the course and open question surveys seventeen months after the course ended. If you are a teacher or a software engineer who is interested in how software engineering should be taught at the university level, this tutorial offers insights to a new and different approach to teaching software engineering projects. The tutorial is highly interactive; presentations of basic ideas of the approach are interleaved with discussions. There are no formal prerequisites for the tutorial--only a strong interest in teaching and learning software engineering practices.",
-            "Award": ""
-        },
-        {
             "Title": "Software Requirement Patterns",
             "Type": "Tutorial Summary (3 pages)",
             "Key": "icse13tutorials-id20-p",
@@ -4655,31 +4594,6 @@
                 "Universitat Politècnica de Catalunya, Spain"
             ],
             "Abstract": "Software requirements reuse becomes a fundamental activity for those IT organizations that conduct requirements engineering processes in similar settings. One strategy to implement this reuse is by exploiting a catalogue of software requirement patterns (SRPs). In this tutorial, we provide an introduction to the concept of SRP, summarise several existing approaches, and reflect on the consequences on several requirements engineering processes and activities. We take one of these approaches, the PABRE framework, as exemplar for the tutorial and analyse in more depth the catalogue of SRP that is proposed. We apply the concepts given on a practical exercise.",
-            "Award": ""
-        },
-        {
-            "Title": "Essence: Kernel and Language for Software Engineering Practices",
-            "Type": "Tutorial Summary (3 pages)",
-            "Key": "icse13tutorials-id45-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShihong+Huang%2C+Ivar+Jacobson%2C+Pan-Wei+Ng%2C+Arne+J.+Berre%2C+and+Mira+Kajko-Mattsson+%22Essence%3A+Kernel+and+Language+for+Software+Engineering+Practices%22",
-            "URLvideo": "",
-            "PersonsString": "Shihong Huang, Ivar Jacobson, Pan-Wei Ng, Arne J. Berre, and Mira Kajko-Mattsson",
-            "AffiliationsString": "Florida Atlantic University, USA; Ivar Jacobson Int., Sweden; SINTEF, Norway; KTH, Sweden",
-            "Authors": [
-                "Shihong Huang @ Florida Atlantic University, USA",
-                "Ivar Jacobson @ Ivar Jacobson Int., Sweden",
-                "Pan-Wei Ng @ Ivar Jacobson Int., Sweden",
-                "Arne J. Berre @ SINTEF, Norway",
-                "Mira Kajko-Mattsson @ KTH, Sweden"
-            ],
-            "Affiliations": [
-                "Florida Atlantic University, USA",
-                "Ivar Jacobson Int., Sweden",
-                "Ivar Jacobson Int., Sweden",
-                "SINTEF, Norway",
-                "KTH, Sweden"
-            ],
-            "Abstract": "Although software development endeavors are different, they all share a set of common and timeless concepts and principles. Such concepts and principles are hidden in existing methods. Hence, it would be valuable to unveil them and put them into a common ground. The SEMAT initiative has explicitly identified such a common ground called Essence, which includes a language and a kernel. Essence presents the kernel through an innovative approach that is practical, actionable and extensible. It represents a paradigm shift implying a change in our ways of working, by shifting the focus from describing to doing. Recently technical groups in OMG have endorsed Essence to become a standard. Essence can be used as a basis for planning and enacting software practices, and for defining and evaluating the progress and health of a software development project. This tutorial introduces the ideas behind Essence and shows its practical usage through examples and case studies. It targets software professionals and executives in industry as well as instructors and researchers in academia.",
             "Award": ""
         }
     ],
@@ -5292,25 +5206,6 @@
             ]
         },
         {
-            "Title": "Software Engineering in the Age of Data Privacy: What and How the Global IT Community Can Share and Learn",
-            "ShortTitle": "Software Engineering in the Age of Data Privacy: What and How the Global IT Community Can Share and Learn",
-            "Type": "Tutorials",
-            "ShortType": "Tutorials",
-            "Key": "icse13tutorials-id17-p",
-            "Day": "2013-05-20",
-            "Time": "14:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "16",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13tutorials-id17-p"
-            ]
-        },
-        {
             "Title": "Afternoon Break",
             "ShortTitle": "Afternoon Break",
             "Type": "Co-located Social",
@@ -5592,25 +5487,6 @@
             "Chairs": [],
             "Workshop": false,
             "Abstract": ""
-        },
-        {
-            "Title": "Pragmatic Pricing and Collaboration in Agile Software Development Projects",
-            "ShortTitle": "Pragmatic Pricing and Collaboration in Agile Software Development Projects",
-            "Type": "Tutorials",
-            "ShortType": "Tutorials",
-            "Key": "icse13tutorials-id36-p",
-            "Day": "2013-05-21",
-            "Time": "14:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "16",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13tutorials-id36-p"
-            ]
         },
         {
             "Title": "Specifying Effective Non-functional Requirements",
@@ -7007,25 +6883,6 @@
             ]
         },
         {
-            "Title": "The Company Approach to Teaching Software Engineering Project Courses",
-            "ShortTitle": "The Company Approach to Teaching Software Engineering Project Courses",
-            "Type": "Tutorials",
-            "ShortType": "Tutorials",
-            "Key": "icse13tutorials-id37-p",
-            "Day": "2013-05-25",
-            "Time": "08:30 - 12:30",
-            "Location": "",
-            "LocationIndex": "16",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13tutorials-id37-p"
-            ]
-        },
-        {
             "Title": "Morning Break",
             "ShortTitle": "Morning Break",
             "Type": "Co-located Social",
@@ -7056,25 +6913,6 @@
             "Chairs": [],
             "Workshop": false,
             "Abstract": ""
-        },
-        {
-            "Title": "Essence: Kernel and Language for Software Engineering Practices",
-            "ShortTitle": "Essence: Kernel and Language for Software Engineering Practices",
-            "Type": "Tutorials",
-            "ShortType": "Tutorials",
-            "Key": "icse13tutorials-id45-p",
-            "Day": "2013-05-25",
-            "Time": "14:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "16",
-            "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
-            "Workshop": false,
-            "Abstract": "",
-            "Items": [
-                "icse13tutorials-id45-p"
-            ]
         },
         {
             "Title": "Software Requirement Patterns",
@@ -7576,16 +7414,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Arne J. Berre",
-            "Affiliation": "SINTEF, Norway",
-            "Key": "Arne J. Berre @ SINTEF, Norway",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Ivan Beschastnikh",
             "Affiliation": "University of Washington, USA",
             "Key": "Ivan Beschastnikh @ University of Washington, USA",
@@ -7659,16 +7487,6 @@
             "Name": "Marcel Böhme",
             "Affiliation": "National University of Singapore, Singapore",
             "Key": "Marcel Böhme @ National University of Singapore, Singapore",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Matthias Book",
-            "Affiliation": "University of Duisburg-Essen, Germany",
-            "Key": "Matthias Book @ University of Duisburg-Essen, Germany",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -7769,16 +7587,6 @@
             "Name": "Lionel C. Briand",
             "Affiliation": "University of Luxembourg, Luxembourg",
             "Key": "Lionel C. Briand @ University of Luxembourg, Luxembourg",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "David Broman",
-            "Affiliation": "UC Berkeley, USA / Linköping University, Sweden",
-            "Key": "David Broman @ UC Berkeley, USA / Linköping University, Sweden",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -8846,26 +8654,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Simon Grapenthin",
-            "Affiliation": "University of Duisburg-Essen, Germany",
-            "Key": "Simon Grapenthin @ University of Duisburg-Essen, Germany",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Mark Grechanik",
-            "Affiliation": "University of Illinois at Chicago, USA",
-            "Key": "Mark Grechanik @ University of Illinois at Chicago, USA",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Armin Größlinger",
             "Affiliation": "University of Passau, Germany",
             "Key": "Armin Größlinger @ University of Passau, Germany",
@@ -8889,16 +8677,6 @@
             "Name": "Olivier Gruber",
             "Affiliation": "Université Joseph Fourier, France",
             "Key": "Olivier Gruber @ Université Joseph Fourier, France",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Volker Gruhn",
-            "Affiliation": "University of Duisburg-Essen, Germany",
-            "Key": "Volker Gruhn @ University of Duisburg-Essen, Germany",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9306,16 +9084,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Shihong Huang",
-            "Affiliation": "Florida Atlantic University, USA",
-            "Key": "Shihong Huang @ Florida Atlantic University, USA",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Amani S. Ibrahim",
             "Affiliation": "Swinburne University of Technology, Australia",
             "Key": "Amani S. Ibrahim @ Swinburne University of Technology, Australia",
@@ -9359,16 +9127,6 @@
             "Name": "John Jacobellis",
             "Affiliation": "University of Texas at Austin, USA",
             "Key": "John Jacobellis @ University of Texas at Austin, USA",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Ivar Jacobson",
-            "Affiliation": "Ivar Jacobson Int., Sweden",
-            "Key": "Ivar Jacobson @ Ivar Jacobson Int., Sweden",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9519,16 +9277,6 @@
             "Name": "Gail Kaiser",
             "Affiliation": "Columbia University, USA",
             "Key": "Gail Kaiser @ Columbia University, USA",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Mira Kajko-Mattsson",
-            "Affiliation": "KTH, Sweden",
-            "Key": "Mira Kajko-Mattsson @ KTH, Sweden",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10679,16 +10427,6 @@
             "Name": "Vicente Lustosa Neto",
             "Affiliation": "UFRN, Brazil",
             "Key": "Vicente Lustosa Neto @ UFRN, Brazil",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Pan-Wei Ng",
-            "Affiliation": "Ivar Jacobson Int., Sweden",
-            "Key": "Pan-Wei Ng @ Ivar Jacobson Int., Sweden",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
