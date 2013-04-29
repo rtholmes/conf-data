@@ -1,0 +1,2081 @@
+{
+    "DataRevision": 1367270201,
+    "Preliminary": true,
+    "Event": "ICPC 2013",
+    "Name": "ICPC 2013",
+    "Description": "",
+    "Location": "San Francisco, CA, USA",
+    "Sponsors": "",
+    "URL": "http://www.ing.unisannio.it/icpc2013/",
+    "MultiTrack": "false",
+    "Organization": {
+        "General Chairs": [
+                "Huzefa Kagdi"
+        ],
+        "PC Chairs": [
+                "Denys Poshyvanyk",
+                "Massimiliano Di Penta"
+        ]
+    },
+    "SocialFeeds": [
+    ],
+    "VenueInfo": {
+        "Name": "",
+        "GPS": {
+            "Latitude": 0,
+            "Longitude": 0
+        }
+    },
+    "InfoPage": {
+        "xaml": "foo",
+        "Elements": [
+            {
+                "XamlName": "ConferenceCenterMap",
+                "Type": "Map",
+                "GPS": {
+                    "Latitude": 0,
+                    "Longitude": 0
+                },
+                "MapLabel": ""
+            },
+            {
+                "XamlName": "LicenseButton",
+                "Type": "WebLink",
+                "URL": "http://research.microsoft.com/en-US/projects/confapp/terms.aspx"
+            },
+            {
+                "XamlName": "PrivacyButton",
+                "Type": "WebLink",
+                "URL": "http://privacy.microsoft.com/en-us/default.msp"
+            }
+        ]
+    },
+    "SessionPriorities": [
+        "Award",
+        "Invited Talk",
+        "Other"
+    ],
+    "Items": [
+        {
+            "Title": "Improving Program Comprehension by Answering Questions (Keynote)",
+            "Type": "Keynote Paper",
+            "Key": "icpc13keynotes-key-1-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBrad+A.+Myers+%22Improving+Program+Comprehension+by+Answering+Questions+%28Keynote%29%22",
+            "URLvideo": "",
+            "PersonsString": "Brad A. Myers",
+            "AffiliationsString": "CMU, USA",
+            "Authors": [
+                "Brad A. Myers @ CMU, USA"
+            ],
+            "Affiliations": [
+                "CMU, USA"
+            ],
+            "Abstract": "My Natural Programming Project is working on making software development easier to learn, more effective, and less error prone. An important focus over the last few years has been to discover what are the hard-to-answer questions that developers ask while they are trying to comprehend their programs, and then to develop tools to help answer those questions. For example, when studying programmers working on everyday bugs, we found that they continuously ask “Why” and “Why Not” questions as they try to comprehend what happened. We developed the “Whyline” debugging tool, which allows programmers to directly ask these questions of their programs and get a visualization of the answers. In a small lab study, Whyline increased productivity by a factor of about two. We studied professional programmers trying to understand unfamiliar code and identified over 100 questions they identified as hard-to-answer. In particular, we saw that programmers frequently had specific questions about the feasible execution paths, so we developed a new visualization tool to directly present this information. When trying to use unfamiliar APIs, such as the Java SDK and the SAP eSOA APIs, we discovered some common patterns that make programmers up to 10 times slower in finding and understanding how to use the appropriate methods, so we developed new tools to assist them. This talk will provide an overview of our studies and resulting tools that address program comprehension issues.",
+            "Award": ""
+        },
+        {
+            "Title": "Part-of-Speech Tagging of Program Identifiers for Improved Text-Based Software Engineering Tools",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id55-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSamir+Gupta%2C+Sana+Malik%2C+Lori+Pollock%2C+and+K.+Vijay-Shanker+%22Part-of-Speech+Tagging+of+Program+Identifiers+for+Improved+Text-Based+Software+Engineering+Tools%22",
+            "URLvideo": "",
+            "PersonsString": "Samir Gupta, Sana Malik, Lori Pollock, and K. Vijay-Shanker",
+            "AffiliationsString": "University of Delaware, USA; University of Maryland, USA",
+            "Authors": [
+                "Samir Gupta @ University of Delaware, USA",
+                "Sana Malik @ University of Maryland, USA",
+                "Lori Pollock @ University of Delaware, USA",
+                "K. Vijay-Shanker @ University of Delaware, USA"
+            ],
+            "Affiliations": [
+                "University of Delaware, USA",
+                "University of Maryland, USA",
+                "University of Delaware, USA",
+                "University of Delaware, USA"
+            ],
+            "Abstract": "To aid program comprehension, programmers choose identifiers for methods, classes, fields and other program elements primarily by following naming conventions in software. These software “naming conventions” follow systematic patterns which can convey deep natural language clues that can be leveraged by software engineering tools. For example, they can be used to increase the accuracy of software search tools, improve the ability of program navigation tools to recommend related methods, and raise the accuracy of other program analyses. After splitting multi-word names into their component words, the next step to extracting accurate natural language information is tagging each word with its part of speech (POS) and then chunking the name into natural language phrases. State-of-the- art approaches, most of which rely on “traditional POS taggers” trained on natural language documents, do not capture the syntactic structure of program elements. In this paper, we present a POS tagger and syntactic chunker for source code names that takes into account programmers’ naming conventions to understand the regular, systematic ways a program element is named. We studied the naming conventions used in Object Oriented Programming and identified different grammatical constructions that characterize a large number of program identifiers. This study then informed the design of our POS tagger and chunker. Our evaluation results show a significant improvement in accuracy(11%-20%) of POS tagging of identifiers, over the current approaches. With this improved accuracy, both automated software engineering tools and developers will be able to better capture and understand the information available in code.",
+            "Award": ""
+        },
+        {
+            "Title": "Evaluating Source Code Summarization Techniques: Replication and Expansion",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id43-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBrian+P.+Eddy%2C+Jeffrey+A.+Robinson%2C+Nicholas+A.+Kraft%2C+and+Jeffrey+C.+Carver+%22Evaluating+Source+Code+Summarization+Techniques%3A+Replication+and+Expansion%22",
+            "URLvideo": "",
+            "PersonsString": "Brian P. Eddy, Jeffrey A. Robinson, Nicholas A. Kraft, and Jeffrey C. Carver",
+            "AffiliationsString": "University of Alabama, USA",
+            "Authors": [
+                "Brian P. Eddy @ University of Alabama, USA",
+                "Jeffrey A. Robinson @ University of Alabama, USA",
+                "Nicholas A. Kraft @ University of Alabama, USA",
+                "Jeffrey C. Carver @ University of Alabama, USA"
+            ],
+            "Affiliations": [
+                "University of Alabama, USA",
+                "University of Alabama, USA",
+                "University of Alabama, USA",
+                "University of Alabama, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Automatic Generation of Natural Language Summaries for Java Classes",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id74-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLaura+Moreno%2C+Jairo+Aponte%2C+Giriprasad+Sridhara%2C+Andrian+Marcus%2C+Lori+Pollock%2C+and+K.+Vijay-Shanker+%22Automatic+Generation+of+Natural+Language+Summaries+for+Java+Classes%22",
+            "URLvideo": "",
+            "PersonsString": "Laura Moreno, Jairo Aponte, Giriprasad Sridhara, Andrian Marcus, Lori Pollock, and K. Vijay-Shanker",
+            "AffiliationsString": "Wayne State University, USA; Universidad Nacional de Colombia, Colombia; University of Delaware, USA",
+            "Authors": [
+                "Laura Moreno @ Wayne State University, USA",
+                "Jairo Aponte @ Universidad Nacional de Colombia, Colombia",
+                "Giriprasad Sridhara @ University of Delaware, USA",
+                "Andrian Marcus @ Wayne State University, USA",
+                "Lori Pollock @ University of Delaware, USA",
+                "K. Vijay-Shanker @ University of Delaware, USA"
+            ],
+            "Affiliations": [
+                "Wayne State University, USA",
+                "Universidad Nacional de Colombia, Colombia",
+                "University of Delaware, USA",
+                "Wayne State University, USA",
+                "University of Delaware, USA",
+                "University of Delaware, USA"
+            ],
+            "Abstract": "Most software engineering tasks require developers to understand parts of the source code. When faced with unfamiliar code, developers often rely on (internal or external) documentation to gain an overall understanding of the code and determine whether it is relevant for the current task. Unfortunately, the documentation is often absent or outdated. This paper presents a technique to automatically generate human readable summaries for Java classes, assuming no documentation exists. The summaries allow developers to understand the main goal and structure of the class. The focus of the summaries is on the content and responsibilities of the classes, rather than their relationships with other classes. The summarization tool determines the class and method stereotypes and uses them, in conjunction with heuristics, to select the information to be included in the summaries. Then it generates the summaries using existing lexicalization tools. A group of programmers judged a set of generated summaries for Java classes and determined that they are readable and understandable, they do not include extraneous information, and, in most cases, they are not missing essential information.",
+            "Award": ""
+        },
+        {
+            "Title": "An Empirical Study on the Efficiency of Graphical vs. Textual Representations in Requirements Comprehension",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id18-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DZohreh+Sharafi%2C+Alessandro+Marchetto%2C+Angelo+Susi%2C+Giuliano+Antoniol%2C+and+Yann-Ga%C3%ABl+Gu%C3%A9h%C3%A9neuc+%22An+Empirical+Study+on+the+Efficiency+of+Graphical+vs.+Textual+Representations+in+Requirements+Comprehension%22",
+            "URLvideo": "",
+            "PersonsString": "Zohreh Sharafi, Alessandro Marchetto, Angelo Susi, Giuliano Antoniol, and Yann-Gaël Guéhéneuc",
+            "AffiliationsString": "Polytechnique Montréal, Canada; Fondazione Bruno Kessler, Italy",
+            "Authors": [
+                "Zohreh Sharafi @ Polytechnique Montréal, Canada",
+                "Alessandro Marchetto @ Fondazione Bruno Kessler, Italy",
+                "Angelo Susi @ Fondazione Bruno Kessler, Italy",
+                "Giuliano Antoniol @ Polytechnique Montréal, Canada",
+                "Yann-Gaël Guéhéneuc @ Polytechnique Montréal, Canada"
+            ],
+            "Affiliations": [
+                "Polytechnique Montréal, Canada",
+                "Fondazione Bruno Kessler, Italy",
+                "Fondazione Bruno Kessler, Italy",
+                "Polytechnique Montréal, Canada",
+                "Polytechnique Montréal, Canada"
+            ],
+            "Abstract": "Graphical representations are used to visualise, specify, and document software artifacts in all stages of software development process. In contrast with text, graphical representations are presented in two-dimensional form, which seems easy to process. However, few empirical studies investigated the efficiency of graphical representations vs. textual ones in modelling and presenting software requirements. Therefore, in this paper, we report the results of an eye-tracking experiment involving 28 participants to study the impact of structured textual vs. graphical representations on subjects' efficiency while performing requirement comprehension tasks. We measure subjects' efficiency in terms of the percentage of correct answers (accuracy) and of the time and effort spend to perform the tasks.  We observe no statistically-significant difference in term of accuracy. However, our subjects spent more time and effort while working with the graphical representation although this extra time and effort does not affect accuracy. Our findings challenge the general assumption that graphical representations are more efficient than the textual ones at least in the case of developers not familiar with the graphical representation. Indeed, our results emphasise that training can significantly improve the efficiency of our subjects working with graphical representations. Moreover, by comparing the visual paths of our subjects, we observe that the spatial structure of the graphical representation leads our subjects to follow two different strategies (top-down vs. bottom-up) and subsequently this hierarchical structure helps developers to ease the difficulty of model comprehension tasks.",
+            "Award": ""
+        },
+        {
+            "Title": "SArF Map: Visualizing Software Architecture from Feature and Layer Viewpoints",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id32-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKenichi+Kobayashi%2C+Manabu+Kamimura%2C+Keisuke+Yano%2C+Koki+Kato%2C+and+Akihiko+Matsuo+%22SArF+Map%3A+Visualizing+Software+Architecture+from+Feature+and+Layer+Viewpoints%22",
+            "URLvideo": "",
+            "PersonsString": "Kenichi Kobayashi, Manabu Kamimura, Keisuke Yano, Koki Kato, and Akihiko Matsuo",
+            "AffiliationsString": "Fujitsu Labs, Japan",
+            "Authors": [
+                "Kenichi Kobayashi @ Fujitsu Labs, Japan",
+                "Manabu Kamimura @ Fujitsu Labs, Japan",
+                "Keisuke Yano @ Fujitsu Labs, Japan",
+                "Koki Kato @ Fujitsu Labs, Japan",
+                "Akihiko Matsuo @ Fujitsu Labs, Japan"
+            ],
+            "Affiliations": [
+                "Fujitsu Labs, Japan",
+                "Fujitsu Labs, Japan",
+                "Fujitsu Labs, Japan",
+                "Fujitsu Labs, Japan",
+                "Fujitsu Labs, Japan"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Multiscale Visual Comparison of Execution Traces",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id27-p",
+            "URL": "http%3A%2F%2Fwww.hpi.uni-potsdam.de%2Fdoellner%2Fpublications%2Fyear%2F2013%2F2272%2FTDT2013.html",
+            "URLvideo": "http%3A%2F%2Fyoutu.be%2F9x2mOsf_fjU",
+            "PersonsString": "Jonas Trümper, Juergen Doellner, and Alexandru Telea",
+            "AffiliationsString": "HPI, Germany; University of Groningen, Netherlands",
+            "Authors": [
+                "Jonas Trümper @ HPI, Germany",
+                "Juergen Doellner @ HPI, Germany",
+                "Alexandru Telea @ University of Groningen, Netherlands"
+            ],
+            "Affiliations": [
+                "HPI, Germany",
+                "HPI, Germany",
+                "University of Groningen, Netherlands"
+            ],
+            "Abstract": "Understanding the execution of programs by means of program traces is a key strategy in software comprehension. An important task in this context is comparing two traces in order to find similarities and differences in terms of executed code, execution order, and execution duration. For large and complex program traces, this is a difficult task due to the cardinality of the trace data. In this paper, we propose a new visualization method based on icicle plots and edge bundles. We address visual scalability by several multiscale visualization metaphors, which help users navigating from the main differences between two traces to intermediate structural-difference levels, and, finally fine-grained function call levels. We show how our approach, implemented in a tool called TraceDiff, is applicable in several scenarios for trace difference comprehension on real-world trace datasets.",
+            "Award": ""
+        },
+        {
+            "Title": "In Situ Understanding of Performance Bottlenecks through Visually Augmented Code",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id7-p",
+            "URL": "http%3A%2F%2Fwww.visus.uni-stuttgart.de%2Fuploads%2Ftx_vispublications%2Ficpc13-beck.pdf",
+            "URLvideo": "",
+            "PersonsString": "Fabian Beck, Oliver Moseler, Stephan Diehl, and Günter Daniel Rey",
+            "AffiliationsString": "University of Stuttgart, Germany; University of Trier, Germany; Fernuniversität in Hagen, Germany",
+            "Authors": [
+                "Fabian Beck @ University of Stuttgart, Germany",
+                "Oliver Moseler @ University of Trier, Germany",
+                "Stephan Diehl @ University of Trier, Germany",
+                "Günter Daniel Rey @ Fernuniversität in Hagen, Germany"
+            ],
+            "Affiliations": [
+                "University of Stuttgart, Germany",
+                "University of Trier, Germany",
+                "University of Trier, Germany",
+                "Fernuniversität in Hagen, Germany"
+            ],
+            "Abstract": "Finding and fixing performance bottlenecks requires sound knowledge of the program that is to be optimized. In this paper, we propose an approach for presenting performance-related information to software engineers by visually augmenting source code shown in an editor. Small diagrams at each method declaration and method call visualize the propagation of runtime consumption through the program as well as the interplay of threads in parallelized programs. Advantages of in situ visualization like this over traditional representations, where code and profiling information are shown in different places, promise to be the prevention of a split-attention effect caused by multiple views; information is presented where required, which supports understanding and navigation. We implemented the approach as an IDE plug-in and tested it in a user study with four developers improving the performance of their own programs. The user study provides insights into the process of understanding performance bottlenecks with our approach.",
+            "Award": ""
+        },
+        {
+            "Title": "Monitoring User Interactions for Supporting Failure Reproduction",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id35-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTobias+Roehm%2C+Nigar+Gurbanova%2C+Bernd+Bruegge%2C+Christophe+Joubert%2C+and+Walid+Maalej+%22Monitoring+User+Interactions+for+Supporting+Failure+Reproduction%22",
+            "URLvideo": "",
+            "PersonsString": "Tobias Roehm, Nigar Gurbanova, Bernd Bruegge, Christophe Joubert, and Walid Maalej",
+            "AffiliationsString": "TU Munich, Germany; Prodevelop, Spain; University of Hamburg, Germany",
+            "Authors": [
+                "Tobias Roehm @ TU Munich, Germany",
+                "Nigar Gurbanova @ TU Munich, Germany",
+                "Bernd Bruegge @ TU Munich, Germany",
+                "Christophe Joubert @ Prodevelop, Spain",
+                "Walid Maalej @ University of Hamburg, Germany"
+            ],
+            "Affiliations": [
+                "TU Munich, Germany",
+                "TU Munich, Germany",
+                "TU Munich, Germany",
+                "Prodevelop, Spain",
+                "University of Hamburg, Germany"
+            ],
+            "Abstract": "The first step to comprehend and fix a software bug is usually to reproduce the corresponding failure. Reproducing a failure requires information about steps to reproduce, i.e. the steps necessary to make a failure occur in the development environment. In case of an application with a user interface, steps to reproduce consist of the interactions between a user and the application that precede the failure. Unfortunately, bug reports typically lack this information. Users are either unaware of its importance to developers, are unable to describe it, or simply do not have time to report it. In this paper, we present a simple but effective and resource efficient approach to monitor interactions between users and their applications selectively at a high level of abstraction, e.g. editing operations and commands. This minimizes the monitoring overhead and enables developers to analyze user interaction traces. We map monitored interactions to a taxonomy of user interactions to help developers comprehend user behavior. Further, we present the Timeline Tool that visualizes monitored interaction traces preceding failures. To evaluate our approach we conducted an experiment with 12 participants and asked them to reproduce bug reports from an open-source project. We found that developers are able to derive steps to reproduce from monitored interaction traces. In particular, inexperienced developers profit from the Timeline Tool, as they are able to reproduce failures that they cannot reproduce without it. The monitoring overhead is rather small (approx. 5 % CPU and 2-5% memory) and users feel it does not influence their work in a negative way.",
+            "Award": ""
+        },
+        {
+            "Title": "Quality Analysis of Source Code Comments",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDaniela+Steidl%2C+Benjamin+Hummel%2C+and+Elmar+Juergens+%22Quality+Analysis+of+Source+Code+Comments%22",
+            "URLvideo": "",
+            "PersonsString": "Daniela Steidl, Benjamin Hummel, and Elmar Juergens",
+            "AffiliationsString": "CQSE, Germany",
+            "Authors": [
+                "Daniela Steidl @ CQSE, Germany",
+                "Benjamin Hummel @ CQSE, Germany",
+                "Elmar Juergens @ CQSE, Germany"
+            ],
+            "Affiliations": [
+                "CQSE, Germany",
+                "CQSE, Germany",
+                "CQSE, Germany"
+            ],
+            "Abstract": "A significant amount of source code in software systems consists of comments, i. e., parts of the code which are ignored by the compiler. Comments in code represent a main source for system documentation and are hence key for source code understanding with respect to development and mainte- nance. Although many software developers consider comments to be crucial for program understanding, existing approaches for software quality analysis ignore system commenting or make only quantitative claims. Hence, current quality analyzes do not take a significant part of the software into account. In this work, we present a first detailed approach for quality analysis and assessment of code comments. The approach provides a model for comment quality which is based on different comment categories. To categorize comments, we use machine learning on Java and C/C++ programs. The model comprises different quality aspects: by providing metrics tailored to suit specific categories, we show how quality aspects of the model can be assessed. The validity of the metrics is evaluated with a survey among 16 experienced software developers, a case study demonstrates the relevance of the metrics in practice.",
+            "Award": ""
+        },
+        {
+            "Title": "Gapped Code Clone Detection with Lightweight Source Code Analysis",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id24-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHiroaki+Murakami%2C+Keisuke+Hotta%2C+Yoshiki+Higo%2C+Hiroshi+Igaki%2C+and+Shinji+Kusumoto+%22Gapped+Code+Clone+Detection+with+Lightweight+Source+Code+Analysis%22",
+            "URLvideo": "",
+            "PersonsString": "Hiroaki Murakami, Keisuke Hotta, Yoshiki Higo, Hiroshi Igaki, and Shinji Kusumoto",
+            "AffiliationsString": "Osaka University, Japan",
+            "Authors": [
+                "Hiroaki Murakami @ Osaka University, Japan",
+                "Keisuke Hotta @ Osaka University, Japan",
+                "Yoshiki Higo @ Osaka University, Japan",
+                "Hiroshi Igaki @ Osaka University, Japan",
+                "Shinji Kusumoto @ Osaka University, Japan"
+            ],
+            "Affiliations": [
+                "Osaka University, Japan",
+                "Osaka University, Japan",
+                "Osaka University, Japan",
+                "Osaka University, Japan",
+                "Osaka University, Japan"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "An Insight into Method Co-changeability: A Genealogy Based Empirical Study",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id54-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DManishankar+Mondal%2C+Chanchal+K.+Roy%2C+and+Kevin+A.+Schneider+%22An+Insight+into+Method+Co-changeability%3A+A+Genealogy+Based+Empirical+Study%22",
+            "URLvideo": "",
+            "PersonsString": "Manishankar Mondal, Chanchal K. Roy, and Kevin A. Schneider",
+            "AffiliationsString": "University of Saskatchewan, Canada",
+            "Authors": [
+                "Manishankar Mondal @ University of Saskatchewan, Canada",
+                "Chanchal K. Roy @ University of Saskatchewan, Canada",
+                "Kevin A. Schneider @ University of Saskatchewan, Canada"
+            ],
+            "Affiliations": [
+                "University of Saskatchewan, Canada",
+                "University of Saskatchewan, Canada",
+                "University of Saskatchewan, Canada"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Patterns of Cross-Language Linking in Java Frameworks",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id4-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPhilip+Mayer+and+Andreas+Schroeder+%22Patterns+of+Cross-Language+Linking+in+Java+Frameworks%22",
+            "URLvideo": "",
+            "PersonsString": "Philip Mayer and Andreas Schroeder",
+            "AffiliationsString": "LMU Munich, Germany",
+            "Authors": [
+                "Philip Mayer @ LMU Munich, Germany",
+                "Andreas Schroeder @ LMU Munich, Germany"
+            ],
+            "Affiliations": [
+                "LMU Munich, Germany",
+                "LMU Munich, Germany"
+            ],
+            "Abstract": "The term Cross-Language Linking refers to the ability to specify, locate, navigate, and keep intact the connections between artifacts defined in different programming languages used for building one software application. Although understanding cross-language links and keeping them intact during development and maintenance activities is an important productivity issue, there has been little research on understanding the characteristics of such connections. We have thus built a theory from case studies, specifically, three theory-selected Java cross-language frameworks, each of which links artifacts written in the Java programming language to artifacts written in a declarative, framework-specific domain specific language. Our main contribution is to identify, from these experiences, common patterns of cross-language linking in the domain of Java frameworks with DSLs, which besides their informative nature can also be seen as requirements for designing and building a linking language and tooling infrastructure.",
+            "Award": ""
+        },
+        {
+            "Title": "Using Code Ownership to Improve IR-Based Traceability Link Recovery",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id46-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDiana+Diaz%2C+Gabriele+Bavota%2C+Andrian+Marcus%2C+Rocco+Oliveto%2C+Silvia+Takahashi%2C+and+Andrea+De+Lucia+%22Using+Code+Ownership+to+Improve+IR-Based+Traceability+Link+Recovery%22",
+            "URLvideo": "",
+            "PersonsString": "Diana Diaz, Gabriele Bavota, Andrian Marcus, Rocco Oliveto, Silvia Takahashi, and Andrea De Lucia",
+            "AffiliationsString": "Universidad de los Andes, Colombia; University of Sannio, Italy; Wayne State University, USA; University of Molise, Italy; University of Salerno, Italy",
+            "Authors": [
+                "Diana Diaz @ Universidad de los Andes, Colombia",
+                "Gabriele Bavota @ University of Sannio, Italy",
+                "Andrian Marcus @ Wayne State University, USA",
+                "Rocco Oliveto @ University of Molise, Italy",
+                "Silvia Takahashi @ Universidad de los Andes, Colombia",
+                "Andrea De Lucia @ University of Salerno, Italy"
+            ],
+            "Affiliations": [
+                "Universidad de los Andes, Colombia",
+                "University of Sannio, Italy",
+                "Wayne State University, USA",
+                "University of Molise, Italy",
+                "Universidad de los Andes, Colombia",
+                "University of Salerno, Italy"
+            ],
+            "Abstract": "Information Retrieval (IR) techniques have gained wide-spread acceptance as a method for automating traceability recovery. These techniques recover links between software artifacts based on their textual similarity, i.e., the higher the similarity, the higher the likelihood that there is a link between the two artifacts. A common problem with all IR-based techniques is filtering out noise from the list of candidate links, in order to improve the recovery accuracy. Indeed, software artifacts may be related in many ways and the textual information captures only one aspect of their relationships. In this paper we propose to leverage code ownership information to capture relationships between source code artifacts for improving the recovery of traceability links between documentation and source code. Specifically, we extract the author of each source code component and for each author we identify the “context” she worked on. Thus, for a given query from the external documentation we compute the similarity between it and the context of the authors. When retrieving classes that relate to a specific query using a standard IR-based approach we reward all the classes developed by the authors having their context most similar to the query, by boosting their similarity to the query. The proposed approach, named TYRION (TraceabilitY link Recovery using Information retrieval and code OwNership), has been instantiated for the recovery of traceability links between use cases and Java classes of two software systems. The results indicate that code ownership information can be used to improve the accuracy of an IR-based traceability link recovery technique.",
+            "Award": ""
+        },
+        {
+            "Title": "Structural Information Based Term Weighting in Text Retrieval for Feature Location",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id78-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBlake+Bassett+and+Nicholas+A.+Kraft+%22Structural+Information+Based+Term+Weighting+in+Text+Retrieval+for+Feature+Location%22",
+            "URLvideo": "",
+            "PersonsString": "Blake Bassett and Nicholas A. Kraft",
+            "AffiliationsString": "University of Alabama, USA",
+            "Authors": [
+                "Blake Bassett @ University of Alabama, USA",
+                "Nicholas A. Kraft @ University of Alabama, USA"
+            ],
+            "Affiliations": [
+                "University of Alabama, USA",
+                "University of Alabama, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Extracting Problematic API Features from Forum Discussions",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id47-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYingying+Zhang+and+Daqing+Hou+%22Extracting+Problematic+API+Features+from+Forum+Discussions%22",
+            "URLvideo": "",
+            "PersonsString": "Yingying Zhang and Daqing Hou",
+            "AffiliationsString": "Clarkson University, USA",
+            "Authors": [
+                "Yingying Zhang @ Clarkson University, USA",
+                "Daqing Hou @ Clarkson University, USA"
+            ],
+            "Affiliations": [
+                "Clarkson University, USA",
+                "Clarkson University, USA"
+            ],
+            "Abstract": "Software engineering activities often produce large amounts of unstructured data. Useful information can be extracted from such data to facilitate software development activities, such as bug reports management and documentation provision. Online forums, in particular, contain extensive valuable information that can aid in software development. However, no work has been done to extract {problematic API features} from online forums. In this paper, we investigate ways to extract problematic API features that are discussed as a source of difficulty in each thread, using natural language processing and sentiment analysis techniques. Based on a preliminary manual analysis of the content of a discussion thread and a categorization of the role of each sentence therein, we decide to focus on a negative sentiment sentence and its close neighbors as a unit for extracting API features. We evaluate a set of candidate solutions by comparing tool-extracted problematic API design features with manually produced golden test data. Our best solution yields a precision of 89%. We have also investigated three potential applications for our feature extraction solution: (i) highlighting the negative sentence and its neighbors to help illustrate the main API feature; (ii) searching helpful online information using the extracted API feature as a query; (iii) summarizing the problematic features to reveal the ``hot topics'' in a forum.",
+            "Award": ""
+        },
+        {
+            "Title": "Multi-dimensional Exploration of API Usage",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id53-p",
+            "URL": "http%3A%2F%2Fsoft.vub.ac.be%2FPublications%2F2013%2Fvub-soft-tr-13-04.pdf",
+            "URLvideo": "",
+            "PersonsString": "Coen De Roover, Ralf Laemmel, and Ekaterina Pek",
+            "AffiliationsString": "Vrije Universiteit Brussel, Belgium; University of Koblenz-Landau, Germany",
+            "Authors": [
+                "Coen De Roover @ Vrije Universiteit Brussel, Belgium",
+                "Ralf Laemmel @ University of Koblenz-Landau, Germany",
+                "Ekaterina Pek @ University of Koblenz-Landau, Germany"
+            ],
+            "Affiliations": [
+                "Vrije Universiteit Brussel, Belgium",
+                "University of Koblenz-Landau, Germany",
+                "University of Koblenz-Landau, Germany"
+            ],
+            "Abstract": "This paper is concerned with understanding API usage in a systematic, explorative manner for the benefit of both API developers and API users. There exist complementary, less explorative methods, e.g., based on code search, code completion, or API documentation. In contrast, our approach is highly interactive and can be seen as an extension of what IDEs readily provide today. Exploration is based on multiple dimensions: i) the hierarchically organized scopes of projects and APIs; ii) metrics of API usage (e.g., number of project classes extending API classes); iii) metadata for APIs; iv) project- versus API-centric views. We also provide the QUAATLAS corpus of Java projects which enhances the existing QUALITAS corpus to enable API-usage analysis. We implemented the exploration approach in an open-source, IDE-like, Web-enabled tool EXAPUS.",
+            "Award": ""
+        },
+        {
+            "Title": "Evaluating Software Clustering Algorithms in the Context of Program Comprehension",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id59-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAnas+Mahmoud+and+Nan+Niu+%22Evaluating+Software+Clustering+Algorithms+in+the+Context+of+Program+Comprehension%22",
+            "URLvideo": "",
+            "PersonsString": "Anas Mahmoud and Nan Niu",
+            "AffiliationsString": "Mississippi State University, USA",
+            "Authors": [
+                "Anas Mahmoud @ Mississippi State University, USA",
+                "Nan Niu @ Mississippi State University, USA"
+            ],
+            "Affiliations": [
+                "Mississippi State University, USA",
+                "Mississippi State University, USA"
+            ],
+            "Abstract": "We propose a novel approach for evaluating software clustering algorithms in the context of program comprehension. Based on the assumption that program comprehension is a task-driven activity, our approach utilizes interaction logs from previous maintenance sessions to automatically devise multiple comprehension-aware and task-sensitive decompositions of software systems. These decompositions are then used as authoritative figures to evaluate the effectiveness of various clustering algorithms. Our approach addresses several challenges associated with evaluating clustering algorithms externally using expert-driven authoritative decompositions. Such limitations include the subjectivity of human experts, the availability of such authoritative figures, and the decaying structure of software systems. We conduct an experimental analysis using two datasets, including an open-source system and a proprietary system, to test the applicability of our approach and validate our research claims.",
+            "Award": ""
+        },
+        {
+            "Title": "On the Accuracy of Architecture Compliance Checking Support: Accuracy of Dependency Analysis and Violation Reporting",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id67-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLeo+Pruijt%2C+Christian+K%C3%B6ppe%2C+and+Sjaak+Brinkkemper+%22On+the+Accuracy+of+Architecture+Compliance+Checking+Support%3A+Accuracy+of+Dependency+Analysis+and+Violation+Reporting%22",
+            "URLvideo": "",
+            "PersonsString": "Leo Pruijt, Christian Köppe, and Sjaak Brinkkemper",
+            "AffiliationsString": "Hogeschool Utrecht, Netherlands; Utrecht University, Netherlands",
+            "Authors": [
+                "Leo Pruijt @ Hogeschool Utrecht, Netherlands",
+                "Christian Köppe @ Hogeschool Utrecht, Netherlands",
+                "Sjaak Brinkkemper @ Utrecht University, Netherlands"
+            ],
+            "Affiliations": [
+                "Hogeschool Utrecht, Netherlands",
+                "Hogeschool Utrecht, Netherlands",
+                "Utrecht University, Netherlands"
+            ],
+            "Abstract": "Architecture Compliance Checking (ACC) is useful to bridge the gap between architecture and implementation. ACC is an approach to verify conformance of implemented program code to high-level models of architectural design. Static ACC focuses on the modular software architecture and on the existence of rule violating dependencies between modules. Accurate tool support is essential for effective and efficient ACC. This paper presents a study on the accuracy of ACC tools regarding dependency analysis and violation reporting. Seven tools were tested and compared by means of a custom-made test application. In addition, the code of open source system Freemind was used to compare the tools on the number and precision of reported violation and dependency messages. On the average, 74 percent of 34 dependency types in our custom-made test software were reported, while 69 percent of 109 violating dependencies within a module of Freemind were reported. The test results show large differences between the tools, but all tools could improve the accuracy of the reported dependencies and violations.",
+            "Award": ""
+        },
+        {
+            "Title": "Building Extensions for Applications: Towards the Understanding of Extension Possibilities",
+            "Type": "Full Paper (10 pages)",
+            "Key": "icpc13main-id41-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMohamed+Aly%2C+Anis+Charfi%2C+and+Mira+Mezini+%22Building+Extensions+for+Applications%3A+Towards+the+Understanding+of+Extension+Possibilities%22",
+            "URLvideo": "",
+            "PersonsString": "Mohamed Aly, Anis Charfi, and Mira Mezini",
+            "AffiliationsString": "SAP, Germany; TU Darmstadt, Germany",
+            "Authors": [
+                "Mohamed Aly @ SAP, Germany / TU Darmstadt, Germany",
+                "Anis Charfi @ SAP, Germany",
+                "Mira Mezini @ TU Darmstadt, Germany"
+            ],
+            "Affiliations": [
+                "SAP, Germany / TU Darmstadt, Germany",
+                "SAP, Germany",
+                "TU Darmstadt, Germany"
+            ],
+            "Abstract": "Software extensions enable developers to introduce new features to a software system for supporting new requirements. In order for a developer to build an extension for a certain software system, the developer has to understand what extension possibilities exist, which software artifacts provide these possibilities, the constraints and dependencies between the extensible software artifacts, and how to correctly implement an extension. Building extensions for multilayered applications can be very challenging. For example, a simple user interface extension in a business application can require a developer to consider extensible artifacts from underlying user interfaces, business processes, databases, and code. In commercial applications, extension developers can depend on classical means like APIs, frameworks, documentation, tutorials, and example code provided by the software provider to understand the extension possibilities and how to successfully implement, run, and deploy an extension.  For complex multilayered applications, relying on such classical means can be very hard and time-consuming for the extension developers. In IDEs, various program comprehension tools and approaches have helped developers in carrying out development tasks. However, most of the tools focus on the code level, lack the support for multilayered applications, and do not particularly focus on extensibility. In this paper we investigate the resources and methods that extension developers currently depend on for implementing extensions and we evaluate their effectiveness in a study of extension developers performing extension development tasks for a complex business application. Based on the results of our study, we identify the problems and challenges that face extension developers and we propose requirements that program comprehension tools should support to aid extension developers.",
+            "Award": ""
+        },
+        {
+            "Title": "On the Understanding of Programs with Continuous Code Reviews",
+            "Type": "Industry (8 pages)",
+            "Key": "icpc13industry-t21-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMario+Bernhart+and+Thomas+Grechenig+%22On+the+Understanding+of+Programs+with+Continuous+Code+Reviews%22",
+            "URLvideo": "",
+            "PersonsString": "Mario Bernhart and Thomas Grechenig",
+            "AffiliationsString": "TU Vienna, Austria",
+            "Authors": [
+                "Mario Bernhart @ TU Vienna, Austria",
+                "Thomas Grechenig @ TU Vienna, Austria"
+            ],
+            "Affiliations": [
+                "TU Vienna, Austria",
+                "TU Vienna, Austria"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Applying Clone Change Notification System into an Industrial Development Process",
+            "Type": "Industry (8 pages)",
+            "Key": "icpc13industry-t22-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYuki+Yamanaka%2C+Eunjong+Choi%2C+Norihiro+Yoshida%2C+Katsuro+Inoue%2C+and+Tateki+Sano+%22Applying+Clone+Change+Notification+System+into+an+Industrial+Development+Process%22",
+            "URLvideo": "",
+            "PersonsString": "Yuki Yamanaka, Eunjong Choi, Norihiro Yoshida, Katsuro Inoue, and Tateki Sano",
+            "AffiliationsString": "Osaka University, Japan; NEC, Japan",
+            "Authors": [
+                "Yuki Yamanaka @ Osaka University, Japan",
+                "Eunjong Choi @ Osaka University, Japan",
+                "Norihiro Yoshida @ Osaka University, Japan",
+                "Katsuro Inoue @ Osaka University, Japan",
+                "Tateki Sano @ NEC, Japan"
+            ],
+            "Affiliations": [
+                "Osaka University, Japan",
+                "Osaka University, Japan",
+                "Osaka University, Japan",
+                "Osaka University, Japan",
+                "NEC, Japan"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Manhattan: Supporting Real-Time Visual Team Activity Awareness",
+            "Type": "ERA (4 pages)",
+            "Key": "icpc13era-t2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMichele+Lanza%2C+Marco+D%27Ambros%2C+Alberto+Bacchelli%2C+Lile+Hattori%2C+and+Francesco+Rigotti+%22Manhattan%3A+Supporting+Real-Time+Visual+Team+Activity+Awareness%22",
+            "URLvideo": "",
+            "PersonsString": "Michele Lanza, Marco D'Ambros, Alberto Bacchelli, Lile Hattori, and Francesco Rigotti",
+            "AffiliationsString": "University of Lugano, Switzerland; Microsoft, Canada",
+            "Authors": [
+                "Michele Lanza @ University of Lugano, Switzerland",
+                "Marco D'Ambros @ University of Lugano, Switzerland",
+                "Alberto Bacchelli @ University of Lugano, Switzerland",
+                "Lile Hattori @ Microsoft, Canada",
+                "Francesco Rigotti @ University of Lugano, Switzerland"
+            ],
+            "Affiliations": [
+                "University of Lugano, Switzerland",
+                "University of Lugano, Switzerland",
+                "University of Lugano, Switzerland",
+                "Microsoft, Canada",
+                "University of Lugano, Switzerland"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Blogging Developer Knowledge: Motivations, Challenges, and Future Directions",
+            "Type": "ERA (4 pages)",
+            "Key": "icpc13era-t3-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChris+Parnin%2C+Christoph+Treude%2C+and+Margaret-Anne+Storey+%22Blogging+Developer+Knowledge%3A+Motivations%2C+Challenges%2C+and+Future+Directions%22",
+            "URLvideo": "",
+            "PersonsString": "Chris Parnin, Christoph Treude, and Margaret-Anne Storey",
+            "AffiliationsString": "Georgia Tech, USA; McGill University, Canada; University of Victoria, Canada",
+            "Authors": [
+                "Chris Parnin @ Georgia Tech, USA",
+                "Christoph Treude @ McGill University, Canada",
+                "Margaret-Anne Storey @ University of Victoria, Canada"
+            ],
+            "Affiliations": [
+                "Georgia Tech, USA",
+                "McGill University, Canada",
+                "University of Victoria, Canada"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Towards Generating Human-Oriented Summaries of Unit Test Cases",
+            "Type": "ERA (4 pages)",
+            "Key": "icpc13era-t9-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DManabu+Kamimura+and+Gail+C.+Murphy+%22Towards+Generating+Human-Oriented+Summaries+of+Unit+Test+Cases%22",
+            "URLvideo": "",
+            "PersonsString": "Manabu Kamimura and Gail C. Murphy",
+            "AffiliationsString": "Fujitsu Labs, Japan; University of British Columbia, Canada",
+            "Authors": [
+                "Manabu Kamimura @ Fujitsu Labs, Japan",
+                "Gail C. Murphy @ University of British Columbia, Canada"
+            ],
+            "Affiliations": [
+                "Fujitsu Labs, Japan",
+                "University of British Columbia, Canada"
+            ],
+            "Abstract": "The emergence of usable unit testing frameworks (e.g., JUnit for Java code) and unit test generators (e.g., CodePro for Java code) make it easier to create more comprehensive unit testing suites for applications. Unfortunately, test code, especially generated test code, can be difficult to comprehend. In this paper, we propose generating human-oriented summaries of test cases. We suggest an initial approach based on a static analysis of the source code of the test cases. Our goal is to help improve a human’s ability to quickly comprehend unit test cases so that appropriate decisions can be made about where to place effort when dealing with large unit test suites.",
+            "Award": ""
+        },
+        {
+            "Title": "Towards a Unified Software Attack Model to Assess Software Protections",
+            "Type": "ERA (4 pages)",
+            "Key": "icpc13era-t12-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCataldo+Basile+and+Mariano+Ceccato+%22Towards+a+Unified+Software+Attack+Model+to+Assess+Software+Protections%22",
+            "URLvideo": "",
+            "PersonsString": "Cataldo Basile and Mariano Ceccato",
+            "AffiliationsString": "Politecnico di Torino, Italy; Fondazione Bruno Kessler, Italy",
+            "Authors": [
+                "Cataldo Basile @ Politecnico di Torino, Italy",
+                "Mariano Ceccato @ Fondazione Bruno Kessler, Italy"
+            ],
+            "Affiliations": [
+                "Politecnico di Torino, Italy",
+                "Fondazione Bruno Kessler, Italy"
+            ],
+            "Abstract": "Attackers can tamper with programs to break usage conditions. Different software protection techniques have been proposed to limit the possibility of tampering. Some of them just limit the possibility to understand the (binary) code, others react more actively when a change attempt is detected. However, the validation of the software protection techniques has been always conducted without taking into consideration a unified process adopted by attackers to tamper with programs.  In this paper we present an extension of the mini-cycle of change, initially proposed to model the process of changing program for maintenance, to describe the process faced by an attacker to defeat software protections. This paper also shows how this new model should support a developer when considering what are the most appropriate protections to deploy.",
+            "Award": ""
+        },
+        {
+            "Title": "Improving the Detection Accuracy of Evolutionary Coupling",
+            "Type": "ERA (4 pages)",
+            "Key": "icpc13era-t16-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DManishankar+Mondal%2C+Chanchal+K.+Roy%2C+and+Kevin+A.+Schneider+%22Improving+the+Detection+Accuracy+of+Evolutionary+Coupling%22",
+            "URLvideo": "",
+            "PersonsString": "Manishankar Mondal, Chanchal K. Roy, and Kevin A. Schneider",
+            "AffiliationsString": "University of Saskatchewan, Canada",
+            "Authors": [
+                "Manishankar Mondal @ University of Saskatchewan, Canada",
+                "Chanchal K. Roy @ University of Saskatchewan, Canada",
+                "Kevin A. Schneider @ University of Saskatchewan, Canada"
+            ],
+            "Affiliations": [
+                "University of Saskatchewan, Canada",
+                "University of Saskatchewan, Canada",
+                "University of Saskatchewan, Canada"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Agec: An Execution-Semantic Clone Detection Tool",
+            "Type": "Tool Demo (4 pages)",
+            "Key": "icpc13tool-t24-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DToshihiro+Kamiya+%22Agec%3A+An+Execution-Semantic+Clone+Detection+Tool%22",
+            "URLvideo": "",
+            "PersonsString": "Toshihiro Kamiya",
+            "AffiliationsString": "Future University Hakodate, Japan",
+            "Authors": [
+                "Toshihiro Kamiya @ Future University Hakodate, Japan"
+            ],
+            "Affiliations": [
+                "Future University Hakodate, Japan"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "JSummarizer: An Automatic Generator of Natural Language Summaries for Java Classes",
+            "Type": "Tool Demo (4 pages)",
+            "Key": "icpc13tool-t25-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLaura+Moreno%2C+Andrian+Marcus%2C+Lori+Pollock%2C+and+K.+Vijay-Shanker+%22JSummarizer%3A+An+Automatic+Generator+of+Natural+Language+Summaries+for+Java+Classes%22",
+            "URLvideo": "",
+            "PersonsString": "Laura Moreno, Andrian Marcus, Lori Pollock, and K. Vijay-Shanker",
+            "AffiliationsString": "Wayne State University, USA; University of Delaware, USA",
+            "Authors": [
+                "Laura Moreno @ Wayne State University, USA",
+                "Andrian Marcus @ Wayne State University, USA",
+                "Lori Pollock @ University of Delaware, USA",
+                "K. Vijay-Shanker @ University of Delaware, USA"
+            ],
+            "Affiliations": [
+                "Wayne State University, USA",
+                "Wayne State University, USA",
+                "University of Delaware, USA",
+                "University of Delaware, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "OnionUML: An Eclipse Plug-In for Visualizing UML Class Diagrams in Onion Graph Notation",
+            "Type": "Tool Demo (4 pages)",
+            "Key": "icpc13tool-t26-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMichael+Falcone+and+Bonita+Sharif+%22OnionUML%3A+An+Eclipse+Plug-In+for+Visualizing+UML+Class+Diagrams+in+Onion+Graph+Notation%22",
+            "URLvideo": "",
+            "PersonsString": "Michael Falcone and Bonita Sharif",
+            "AffiliationsString": "Youngstown State University, USA",
+            "Authors": [
+                "Michael Falcone @ Youngstown State University, USA",
+                "Bonita Sharif @ Youngstown State University, USA"
+            ],
+            "Affiliations": [
+                "Youngstown State University, USA",
+                "Youngstown State University, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "SimCad : An Extensible and Faster Clone Detection Tool for Large Scale Software Systems",
+            "Type": "Tool Demo (4 pages)",
+            "Key": "icpc13tool-t29-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSharif+Uddin%2C+Chanchal+K.+Roy%2C+and+Kevin+Schneider+%22SimCad+%3A+An+Extensible+and+Faster+Clone+Detection+Tool+for+Large+Scale+Software+Systems%22",
+            "URLvideo": "",
+            "PersonsString": "Sharif Uddin, Chanchal K. Roy, and Kevin Schneider",
+            "AffiliationsString": "University of Saskatchewan, Canada",
+            "Authors": [
+                "Sharif Uddin @ University of Saskatchewan, Canada",
+                "Chanchal K. Roy @ University of Saskatchewan, Canada",
+                "Kevin Schneider @ University of Saskatchewan, Canada"
+            ],
+            "Affiliations": [
+                "University of Saskatchewan, Canada",
+                "University of Saskatchewan, Canada",
+                "University of Saskatchewan, Canada"
+            ],
+            "Abstract": "",
+            "Award": ""
+        }
+    ],
+    "Sessions": [
+        {
+            "Title": "Opening",
+            "ShortTitle": "Opening",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "Opening",
+            "Day": "2013-05-20",
+            "Time": "08:45 - 09:00",
+            "Location": "Regency A",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13",
+            "Abstract": ""
+        },
+        {
+            "Title": "Improving Program Comprehension by Answering Questions (Keynote)",
+            "ShortTitle": "Improving Program Comprehension by Answering Questions (Keynote)",
+            "Type": "Keynote",
+            "ShortType": "Keynote",
+            "Key": "icpc13keynotes-key-1-p",
+            "Day": "2013-05-20",
+            "Time": "09:00 - 10:30",
+            "Location": "Regency A",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13KEYNOTES",
+            "Abstract": "",
+            "Items": [
+                "icpc13keynotes-key-1-p"
+            ]
+        },
+        {
+            "Title": "Morning Break",
+            "ShortTitle": "Morning Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "MorningBreak",
+            "Day": "2013-05-20",
+            "Time": "10:30 - 11:00",
+            "Location": "Grand Ballroom and Foyers",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13",
+            "Abstract": ""
+        },
+        {
+            "Title": "Textual Analysis",
+            "ShortTitle": "Textual Analysis",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "TextualAnalysis",
+            "Day": "2013-05-20",
+            "Time": "11:00 - 12:30",
+            "Location": "Regency A",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13MAIN",
+            "Abstract": "",
+            "Items": [
+                "icpc13main-id55-p",
+                "icpc13main-id43-p",
+                "icpc13main-id74-p"
+            ]
+        },
+        {
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "Lunch",
+            "Day": "2013-05-20",
+            "Time": "12:30 - 14:00",
+            "Location": "Grand Ballroom and Foyers",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13",
+            "Abstract": ""
+        },
+        {
+            "Title": "The Role of Visualization in Program Comprehension",
+            "ShortTitle": "The Role of Visualization in Program Comprehension",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "TheRoleofVisualizationinProgramComprehension",
+            "Day": "2013-05-20",
+            "Time": "14:00 - 16:00",
+            "Location": "Regency A",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13MAIN",
+            "Abstract": "",
+            "Items": [
+                "icpc13main-id18-p",
+                "icpc13main-id32-p",
+                "icpc13main-id27-p",
+                "icpc13main-id7-p"
+            ]
+        },
+        {
+            "Title": "Afternoon Break",
+            "ShortTitle": "Afternoon Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "AfternoonBreak",
+            "Day": "2013-05-20",
+            "Time": "16:00 - 16:30",
+            "Location": "Grand Ballroom and Foyers",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13",
+            "Abstract": ""
+        },
+        {
+            "Title": "Software Quality",
+            "ShortTitle": "Software Quality",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "SoftwareQuality",
+            "Day": "2013-05-20",
+            "Time": "16:30 - 17:30",
+            "Location": "Regency A",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13MAIN",
+            "Abstract": "",
+            "Items": [
+                "icpc13main-id35-p",
+                "icpc13main-id2-p"
+            ]
+        },
+        {
+            "Title": "Industry Track",
+            "ShortTitle": "Industry Track",
+            "Type": "Industry Track",
+            "ShortType": "Industry Track",
+            "Key": "IndustryTrack",
+            "Day": "2013-05-20",
+            "Time": "16:30 - 17:30",
+            "Location": "Regency B",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13INDUSTRY",
+            "Abstract": "",
+            "Items": [
+                "icpc13industry-t21-p",
+                "icpc13industry-t22-p"
+            ]
+        },
+        {
+            "Title": "Open SC Meeting",
+            "ShortTitle": "Open SC Meeting",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "OpenSCMeeting",
+            "Day": "2013-05-20",
+            "Time": "17:30 - 18:00",
+            "Location": "Regency A",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13",
+            "Abstract": ""
+        },
+        {
+            "Title": "Dinner",
+            "ShortTitle": "Dinner",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "Dinner",
+            "Day": "2013-05-20",
+            "Time": "19:00 - 23:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13",
+            "Abstract": ""
+        },
+        {
+            "Title": "Most Influential Paper",
+            "ShortTitle": "Most Influential Paper",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "MostInfluentialPaper",
+            "Day": "2013-05-21",
+            "Time": "09:00 - 10:30",
+            "Location": "Regency A",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13",
+            "Abstract": ""
+        },
+        {
+            "Title": "Morning Break",
+            "ShortTitle": "Morning Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "MorningBreak",
+            "Day": "2013-05-21",
+            "Time": "10:30 - 11:00",
+            "Location": "Grand Ballroom and Foyers",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13",
+            "Abstract": ""
+        },
+        {
+            "Title": "Source Code Comprehension",
+            "ShortTitle": "Source Code Comprehension",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "SourceCodeComprehension",
+            "Day": "2013-05-21",
+            "Time": "11:00 - 12:30",
+            "Location": "Regency A",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13MAIN",
+            "Abstract": "",
+            "Items": [
+                "icpc13main-id24-p",
+                "icpc13main-id54-p",
+                "icpc13main-id4-p"
+            ]
+        },
+        {
+            "Title": "Tool Demonstrations",
+            "ShortTitle": "Tool Demonstrations",
+            "Type": "Tool Demonstrations",
+            "ShortType": "Tool Demonstrations",
+            "Key": "ToolDemonstrations",
+            "Day": "2013-05-21",
+            "Time": "11:00 - 12:30",
+            "Location": "Regency B",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13TOOL",
+            "Abstract": "",
+            "Items": [
+                "icpc13tool-t24-p",
+                "icpc13tool-t25-p",
+                "icpc13tool-t26-p",
+                "icpc13tool-t29-p"
+            ]
+        },
+        {
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "Lunch",
+            "Day": "2013-05-21",
+            "Time": "12:30 - 14:00",
+            "Location": "Grand Ballroom and Foyers",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13",
+            "Abstract": ""
+        },
+        {
+            "Title": "Student Symposium",
+            "ShortTitle": "Student Symposium",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "StudentSymposium",
+            "Day": "2013-05-21",
+            "Time": "14:00 - 16:00",
+            "Location": "Regency B",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13",
+            "Abstract": ""
+        },
+        {
+            "Title": "Traceability and Feature Location",
+            "ShortTitle": "Traceability and Feature Location",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "TraceabilityandFeatureLocation",
+            "Day": "2013-05-21",
+            "Time": "14:00 - 15:00",
+            "Location": "Regency A",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13MAIN",
+            "Abstract": "",
+            "Items": [
+                "icpc13main-id46-p",
+                "icpc13main-id78-p"
+            ]
+        },
+        {
+            "Title": "Comprehending API",
+            "ShortTitle": "Comprehending API",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "ComprehendingAPI",
+            "Day": "2013-05-21",
+            "Time": "15:00 - 16:00",
+            "Location": "Regency A",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13MAIN",
+            "Abstract": "",
+            "Items": [
+                "icpc13main-id47-p",
+                "icpc13main-id53-p"
+            ]
+        },
+        {
+            "Title": "Afternoon Break",
+            "ShortTitle": "Afternoon Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "AfternoonBreak",
+            "Day": "2013-05-21",
+            "Time": "16:00 - 16:30",
+            "Location": "Grand Ballroom and Foyers",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13",
+            "Abstract": ""
+        },
+        {
+            "Title": "Comprehending Software Architectures",
+            "ShortTitle": "Comprehending Software Architectures",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "ComprehendingSoftwareArchitectures",
+            "Day": "2013-05-21",
+            "Time": "16:30 - 18:00",
+            "Location": "Regency A",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13MAIN",
+            "Abstract": "",
+            "Items": [
+                "icpc13main-id59-p",
+                "icpc13main-id67-p",
+                "icpc13main-id41-p"
+            ]
+        },
+        {
+            "Title": "Early Research Achievements Track",
+            "ShortTitle": "Early Research Achievements Track",
+            "Type": "Early Research Achievements Track",
+            "ShortType": "Early Research Achievements Track",
+            "Key": "EarlyResearchAchievementsTrack",
+            "Day": "2013-05-21",
+            "Time": "16:30 - 18:00",
+            "Location": "Regency B",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13ERA",
+            "Abstract": "",
+            "Items": [
+                "icpc13era-t2-p",
+                "icpc13era-t3-p",
+                "icpc13era-t9-p",
+                "icpc13era-t12-p",
+                "icpc13era-t16-p"
+            ]
+        },
+        {
+            "Title": "Wrap Up",
+            "ShortTitle": "Wrap Up",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "WrapUp",
+            "Day": "2013-05-21",
+            "Time": "18:00 - 18:15",
+            "Location": "Regency A",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "ChairsKeys": [],
+            "Chairs": [],
+            "Workshop": false,
+            "Comment": "ICPC13",
+            "Abstract": ""
+        }
+    ],
+    "People": [
+        {
+            "Name": "Mohamed Aly",
+            "Affiliation": "SAP, Germany / TU Darmstadt, Germany",
+            "Key": "Mohamed Aly @ SAP, Germany / TU Darmstadt, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Giuliano Antoniol",
+            "Affiliation": "Polytechnique Montréal, Canada",
+            "Key": "Giuliano Antoniol @ Polytechnique Montréal, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jairo Aponte",
+            "Affiliation": "Universidad Nacional de Colombia, Colombia",
+            "Key": "Jairo Aponte @ Universidad Nacional de Colombia, Colombia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alberto Bacchelli",
+            "Affiliation": "University of Lugano, Switzerland",
+            "Key": "Alberto Bacchelli @ University of Lugano, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Cataldo Basile",
+            "Affiliation": "Politecnico di Torino, Italy",
+            "Key": "Cataldo Basile @ Politecnico di Torino, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Blake Bassett",
+            "Affiliation": "University of Alabama, USA",
+            "Key": "Blake Bassett @ University of Alabama, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gabriele Bavota",
+            "Affiliation": "University of Sannio, Italy",
+            "Key": "Gabriele Bavota @ University of Sannio, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Fabian Beck",
+            "Affiliation": "University of Stuttgart, Germany",
+            "Key": "Fabian Beck @ University of Stuttgart, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mario Bernhart",
+            "Affiliation": "TU Vienna, Austria",
+            "Key": "Mario Bernhart @ TU Vienna, Austria",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sjaak Brinkkemper",
+            "Affiliation": "Utrecht University, Netherlands",
+            "Key": "Sjaak Brinkkemper @ Utrecht University, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bernd Bruegge",
+            "Affiliation": "TU Munich, Germany",
+            "Key": "Bernd Bruegge @ TU Munich, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jeffrey C. Carver",
+            "Affiliation": "University of Alabama, USA",
+            "Key": "Jeffrey C. Carver @ University of Alabama, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mariano Ceccato",
+            "Affiliation": "Fondazione Bruno Kessler, Italy",
+            "Key": "Mariano Ceccato @ Fondazione Bruno Kessler, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Anis Charfi",
+            "Affiliation": "SAP, Germany",
+            "Key": "Anis Charfi @ SAP, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Eunjong Choi",
+            "Affiliation": "Osaka University, Japan",
+            "Key": "Eunjong Choi @ Osaka University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marco D'Ambros",
+            "Affiliation": "University of Lugano, Switzerland",
+            "Key": "Marco D'Ambros @ University of Lugano, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrea De Lucia",
+            "Affiliation": "University of Salerno, Italy",
+            "Key": "Andrea De Lucia @ University of Salerno, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Coen De Roover",
+            "Affiliation": "Vrije Universiteit Brussel, Belgium",
+            "Key": "Coen De Roover @ Vrije Universiteit Brussel, Belgium",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Diana Diaz",
+            "Affiliation": "Universidad de los Andes, Colombia",
+            "Key": "Diana Diaz @ Universidad de los Andes, Colombia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Stephan Diehl",
+            "Affiliation": "University of Trier, Germany",
+            "Key": "Stephan Diehl @ University of Trier, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Juergen Doellner",
+            "Affiliation": "HPI, Germany",
+            "Key": "Juergen Doellner @ HPI, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Brian P. Eddy",
+            "Affiliation": "University of Alabama, USA",
+            "Key": "Brian P. Eddy @ University of Alabama, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michael Falcone",
+            "Affiliation": "Youngstown State University, USA",
+            "Key": "Michael Falcone @ Youngstown State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Thomas Grechenig",
+            "Affiliation": "TU Vienna, Austria",
+            "Key": "Thomas Grechenig @ TU Vienna, Austria",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yann-Gaël Guéhéneuc",
+            "Affiliation": "Polytechnique Montréal, Canada",
+            "Key": "Yann-Gaël Guéhéneuc @ Polytechnique Montréal, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Samir Gupta",
+            "Affiliation": "University of Delaware, USA",
+            "Key": "Samir Gupta @ University of Delaware, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nigar Gurbanova",
+            "Affiliation": "TU Munich, Germany",
+            "Key": "Nigar Gurbanova @ TU Munich, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lile Hattori",
+            "Affiliation": "Microsoft, Canada",
+            "Key": "Lile Hattori @ Microsoft, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yoshiki Higo",
+            "Affiliation": "Osaka University, Japan",
+            "Key": "Yoshiki Higo @ Osaka University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Keisuke Hotta",
+            "Affiliation": "Osaka University, Japan",
+            "Key": "Keisuke Hotta @ Osaka University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Daqing Hou",
+            "Affiliation": "Clarkson University, USA",
+            "Key": "Daqing Hou @ Clarkson University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Benjamin Hummel",
+            "Affiliation": "CQSE, Germany",
+            "Key": "Benjamin Hummel @ CQSE, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hiroshi Igaki",
+            "Affiliation": "Osaka University, Japan",
+            "Key": "Hiroshi Igaki @ Osaka University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Katsuro Inoue",
+            "Affiliation": "Osaka University, Japan",
+            "Key": "Katsuro Inoue @ Osaka University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christophe Joubert",
+            "Affiliation": "Prodevelop, Spain",
+            "Key": "Christophe Joubert @ Prodevelop, Spain",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Elmar Juergens",
+            "Affiliation": "CQSE, Germany",
+            "Key": "Elmar Juergens @ CQSE, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Manabu Kamimura",
+            "Affiliation": "Fujitsu Labs, Japan",
+            "Key": "Manabu Kamimura @ Fujitsu Labs, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Toshihiro Kamiya",
+            "Affiliation": "Future University Hakodate, Japan",
+            "Key": "Toshihiro Kamiya @ Future University Hakodate, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Koki Kato",
+            "Affiliation": "Fujitsu Labs, Japan",
+            "Key": "Koki Kato @ Fujitsu Labs, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kenichi Kobayashi",
+            "Affiliation": "Fujitsu Labs, Japan",
+            "Key": "Kenichi Kobayashi @ Fujitsu Labs, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christian Köppe",
+            "Affiliation": "Hogeschool Utrecht, Netherlands",
+            "Key": "Christian Köppe @ Hogeschool Utrecht, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nicholas A. Kraft",
+            "Affiliation": "University of Alabama, USA",
+            "Key": "Nicholas A. Kraft @ University of Alabama, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shinji Kusumoto",
+            "Affiliation": "Osaka University, Japan",
+            "Key": "Shinji Kusumoto @ Osaka University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ralf Laemmel",
+            "Affiliation": "University of Koblenz-Landau, Germany",
+            "Key": "Ralf Laemmel @ University of Koblenz-Landau, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michele Lanza",
+            "Affiliation": "University of Lugano, Switzerland",
+            "Key": "Michele Lanza @ University of Lugano, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Walid Maalej",
+            "Affiliation": "University of Hamburg, Germany",
+            "Key": "Walid Maalej @ University of Hamburg, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Anas Mahmoud",
+            "Affiliation": "Mississippi State University, USA",
+            "Key": "Anas Mahmoud @ Mississippi State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sana Malik",
+            "Affiliation": "University of Maryland, USA",
+            "Key": "Sana Malik @ University of Maryland, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alessandro Marchetto",
+            "Affiliation": "Fondazione Bruno Kessler, Italy",
+            "Key": "Alessandro Marchetto @ Fondazione Bruno Kessler, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrian Marcus",
+            "Affiliation": "Wayne State University, USA",
+            "Key": "Andrian Marcus @ Wayne State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Akihiko Matsuo",
+            "Affiliation": "Fujitsu Labs, Japan",
+            "Key": "Akihiko Matsuo @ Fujitsu Labs, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Philip Mayer",
+            "Affiliation": "LMU Munich, Germany",
+            "Key": "Philip Mayer @ LMU Munich, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mira Mezini",
+            "Affiliation": "TU Darmstadt, Germany",
+            "Key": "Mira Mezini @ TU Darmstadt, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Manishankar Mondal",
+            "Affiliation": "University of Saskatchewan, Canada",
+            "Key": "Manishankar Mondal @ University of Saskatchewan, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Laura Moreno",
+            "Affiliation": "Wayne State University, USA",
+            "Key": "Laura Moreno @ Wayne State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Oliver Moseler",
+            "Affiliation": "University of Trier, Germany",
+            "Key": "Oliver Moseler @ University of Trier, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hiroaki Murakami",
+            "Affiliation": "Osaka University, Japan",
+            "Key": "Hiroaki Murakami @ Osaka University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gail C. Murphy",
+            "Affiliation": "University of British Columbia, Canada",
+            "Key": "Gail C. Murphy @ University of British Columbia, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Brad A. Myers",
+            "Affiliation": "CMU, USA",
+            "Key": "Brad A. Myers @ CMU, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nan Niu",
+            "Affiliation": "Mississippi State University, USA",
+            "Key": "Nan Niu @ Mississippi State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rocco Oliveto",
+            "Affiliation": "University of Molise, Italy",
+            "Key": "Rocco Oliveto @ University of Molise, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Chris Parnin",
+            "Affiliation": "Georgia Tech, USA",
+            "Key": "Chris Parnin @ Georgia Tech, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ekaterina Pek",
+            "Affiliation": "University of Koblenz-Landau, Germany",
+            "Key": "Ekaterina Pek @ University of Koblenz-Landau, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lori Pollock",
+            "Affiliation": "University of Delaware, USA",
+            "Key": "Lori Pollock @ University of Delaware, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Leo Pruijt",
+            "Affiliation": "Hogeschool Utrecht, Netherlands",
+            "Key": "Leo Pruijt @ Hogeschool Utrecht, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Günter Daniel Rey",
+            "Affiliation": "Fernuniversität in Hagen, Germany",
+            "Key": "Günter Daniel Rey @ Fernuniversität in Hagen, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Francesco Rigotti",
+            "Affiliation": "University of Lugano, Switzerland",
+            "Key": "Francesco Rigotti @ University of Lugano, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jeffrey A. Robinson",
+            "Affiliation": "University of Alabama, USA",
+            "Key": "Jeffrey A. Robinson @ University of Alabama, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tobias Roehm",
+            "Affiliation": "TU Munich, Germany",
+            "Key": "Tobias Roehm @ TU Munich, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Chanchal K. Roy",
+            "Affiliation": "University of Saskatchewan, Canada",
+            "Key": "Chanchal K. Roy @ University of Saskatchewan, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tateki Sano",
+            "Affiliation": "NEC, Japan",
+            "Key": "Tateki Sano @ NEC, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kevin Schneider",
+            "Affiliation": "University of Saskatchewan, Canada",
+            "Key": "Kevin Schneider @ University of Saskatchewan, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kevin A. Schneider",
+            "Affiliation": "University of Saskatchewan, Canada",
+            "Key": "Kevin A. Schneider @ University of Saskatchewan, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andreas Schroeder",
+            "Affiliation": "LMU Munich, Germany",
+            "Key": "Andreas Schroeder @ LMU Munich, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zohreh Sharafi",
+            "Affiliation": "Polytechnique Montréal, Canada",
+            "Key": "Zohreh Sharafi @ Polytechnique Montréal, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bonita Sharif",
+            "Affiliation": "Youngstown State University, USA",
+            "Key": "Bonita Sharif @ Youngstown State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Giriprasad Sridhara",
+            "Affiliation": "University of Delaware, USA",
+            "Key": "Giriprasad Sridhara @ University of Delaware, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Daniela Steidl",
+            "Affiliation": "CQSE, Germany",
+            "Key": "Daniela Steidl @ CQSE, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Margaret-Anne Storey",
+            "Affiliation": "University of Victoria, Canada",
+            "Key": "Margaret-Anne Storey @ University of Victoria, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Angelo Susi",
+            "Affiliation": "Fondazione Bruno Kessler, Italy",
+            "Key": "Angelo Susi @ Fondazione Bruno Kessler, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Silvia Takahashi",
+            "Affiliation": "Universidad de los Andes, Colombia",
+            "Key": "Silvia Takahashi @ Universidad de los Andes, Colombia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alexandru Telea",
+            "Affiliation": "University of Groningen, Netherlands",
+            "Key": "Alexandru Telea @ University of Groningen, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christoph Treude",
+            "Affiliation": "McGill University, Canada",
+            "Key": "Christoph Treude @ McGill University, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jonas Trümper",
+            "Affiliation": "HPI, Germany",
+            "Key": "Jonas Trümper @ HPI, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sharif Uddin",
+            "Affiliation": "University of Saskatchewan, Canada",
+            "Key": "Sharif Uddin @ University of Saskatchewan, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "K. Vijay-Shanker",
+            "Affiliation": "University of Delaware, USA",
+            "Key": "K. Vijay-Shanker @ University of Delaware, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yuki Yamanaka",
+            "Affiliation": "Osaka University, Japan",
+            "Key": "Yuki Yamanaka @ Osaka University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Keisuke Yano",
+            "Affiliation": "Fujitsu Labs, Japan",
+            "Key": "Keisuke Yano @ Fujitsu Labs, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Norihiro Yoshida",
+            "Affiliation": "Osaka University, Japan",
+            "Key": "Norihiro Yoshida @ Osaka University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yingying Zhang",
+            "Affiliation": "Clarkson University, USA",
+            "Key": "Yingying Zhang @ Clarkson University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        }
+    ]
+}
+ 
+
