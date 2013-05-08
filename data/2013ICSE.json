@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1368029508,
+    "DataRevision": 1368047259,
     "Preliminary": false,
     "Event": "ICSE 2013 All",
     "Name": "ICSE 2013 All",
@@ -5685,6 +5685,24 @@
             "Abstract": ""
         },
         {
+            "Title": "DS/NFS Lunch",
+            "ShortTitle": "DS/NFS Lunch",
+            "Type": "Co-located Social",
+            "ShortType": "Co-located Social",
+            "Key": "2013-05-21 12:15 DS/NFS Lunch",
+            "Day": "2013-05-21",
+            "Time": "12:15 - 13:30",
+            "Location": "Seacliff C",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE13ALL",
+            "Abstract": ""
+        },
+        {
             "Title": "SEAMS Steering Committee Meeting",
             "ShortTitle": "SEAMS Steering Committee Meeting",
             "Type": "Meeting",
@@ -5748,24 +5766,6 @@
             "Time": "12:30 - 14:00",
             "Location": "Grand Ballroom C",
             "LocationIndex": "7",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSE13ALL",
-            "Abstract": ""
-        },
-        {
-            "Title": "DS/NFS Lunch",
-            "ShortTitle": "DS/NFS Lunch",
-            "Type": "Co-located Social",
-            "ShortType": "Co-located Social",
-            "Key": "2013-05-21 12:30 DS/NFS Lunch",
-            "Day": "2013-05-21",
-            "Time": "12:30 - 14:00",
-            "Location": "Seacliff C",
-            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6012,6 +6012,24 @@
             ]
         },
         {
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-05-22 12:00 Lunch",
+            "Day": "2013-05-22",
+            "Time": "12:00 - 13:30",
+            "Location": "Atrium",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "Intel",
+            "Workshop": false,
+            "Comment": "ICSE13MISC",
+            "Abstract": ""
+        },
+        {
             "Title": "ICSE 2014 Program Board Meeting",
             "ShortTitle": "ICSE 2014 Program Board Meeting",
             "Type": "Meeting",
@@ -6043,24 +6061,6 @@
             "Chairs": [
             ],
             "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSE13MISC",
-            "Abstract": ""
-        },
-        {
-            "Title": "Lunch",
-            "ShortTitle": "Lunch",
-            "Type": "Social",
-            "ShortType": "Social",
-            "Key": "2013-05-22 12:00 Lunch",
-            "Day": "2013-05-22",
-            "Time": "12:00 - 13:30",
-            "Location": "Pacific Concourse",
-            "LocationIndex": "0",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "Intel",
             "Workshop": false,
             "Comment": "ICSE13MISC",
             "Abstract": ""
@@ -6479,9 +6479,9 @@
             "Time": "18:30 - 20:00",
             "Location": "Bayview A",
             "LocationIndex": "10",
-            "ChairsString": "William Griswold and Hausi Müller",
+            "ChairsString": "Will Tracz and Hausi Müller",
             "Chairs": [
-                "William Griswold @",
+                "Will Tracz @",
                 "Hausi Müller @"
             ],
             "SponsoredBy": "",
@@ -7505,11 +7505,11 @@
             "Abstract": ""
         },
         {
-            "Title": "Awards, SRC, MIP, SCORE, ACM Distinguished Papers, Closing Remarks, ICSE 2014",
-            "ShortTitle": "Awards, SRC, MIP, SCORE, ACM Distinguished Papers, Closing Remarks, ICSE 2014",
+            "Title": "Awards, SRC, SCORE, ACM Distinguished Papers, MIP, Closing Remarks, ICSE 2014",
+            "ShortTitle": "Awards, SRC, SCORE, ACM Distinguished Papers, MIP, Closing Remarks, ICSE 2014",
             "Type": "Plenary",
             "ShortType": "Plenary",
-            "Key": "2013-05-24 16:00 Awards, SRC, MIP, SCORE, ACM Distinguished Papers, Closing Remarks, ICSE 2014",
+            "Key": "2013-05-24 16:00 Awards, SRC, SCORE, ACM Distinguished Papers, MIP, Closing Remarks, ICSE 2014",
             "Day": "2013-05-24",
             "Time": "16:00 - 17:30",
             "Location": "Grand Ballroom",
