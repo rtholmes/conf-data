@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1367270201,
+    "DataRevision": 1368198583,
     "Preliminary": true,
     "Event": "ICPC 2013",
     "Name": "ICPC 2013",
@@ -116,7 +116,7 @@
                 "University of Alabama, USA",
                 "University of Alabama, USA"
             ],
-            "Abstract": "",
+            "Abstract": "During software evolution a developer must investigate source code to locate then understand the entities that must be modified to complete a change task. To help developers in this task, Haiduc et al. proposed text summarization based approaches to the automatic generation of class and method summaries, and via a study of four developers, they evaluated source code summaries generated using their techniques. In this paper we propose a new topic modeling based approach to source code summarization, and via a study of 14 developers, we evaluate source code summaries generated using the proposed technique. Our study partially replicates the original study by Haiduc et al. in that it uses the objects, the instruments, and a subset of the summaries from the original study, but it also expands the original study in that it includes more subjects and new summaries. The results of our study both support the findings of the original and provide new insights into the processes and criteria that developers use to evaluate source code summaries. Based on our results, we suggest future directions for research on source code summarization.",
             "Award": ""
         },
         {
@@ -126,11 +126,11 @@
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLaura+Moreno%2C+Jairo+Aponte%2C+Giriprasad+Sridhara%2C+Andrian+Marcus%2C+Lori+Pollock%2C+and+K.+Vijay-Shanker+%22Automatic+Generation+of+Natural+Language+Summaries+for+Java+Classes%22",
             "URLvideo": "",
             "PersonsString": "Laura Moreno, Jairo Aponte, Giriprasad Sridhara, Andrian Marcus, Lori Pollock, and K. Vijay-Shanker",
-            "AffiliationsString": "Wayne State University, USA; Universidad Nacional de Colombia, Colombia; University of Delaware, USA",
+            "AffiliationsString": "Wayne State University, USA; Universidad Nacional de Colombia, Colombia; IBM Research, India; University of Delaware, USA",
             "Authors": [
                 "Laura Moreno @ Wayne State University, USA",
                 "Jairo Aponte @ Universidad Nacional de Colombia, Colombia",
-                "Giriprasad Sridhara @ University of Delaware, USA",
+                "Giriprasad Sridhara @ IBM Research, India",
                 "Andrian Marcus @ Wayne State University, USA",
                 "Lori Pollock @ University of Delaware, USA",
                 "K. Vijay-Shanker @ University of Delaware, USA"
@@ -138,7 +138,7 @@
             "Affiliations": [
                 "Wayne State University, USA",
                 "Universidad Nacional de Colombia, Colombia",
-                "University of Delaware, USA",
+                "IBM Research, India",
                 "Wayne State University, USA",
                 "University of Delaware, USA",
                 "University of Delaware, USA"
@@ -193,7 +193,7 @@
                 "Fujitsu Labs, Japan",
                 "Fujitsu Labs, Japan"
             ],
-            "Abstract": "",
+            "Abstract": "To facilitate understanding the architecture of a software system, we developed SArF Map technique that visualizes software architecture from feature and layer viewpoints using a city metaphor. SArF Map visualizes implicit software features using our previous study, SArF dependency-based software clustering algorithm. Since features are high-level abstraction units of software, a generated map can be directly used for high-level decision making such as reuse and also for communications between developers and non-developer stakeholders. In SArF Map, each feature is visualized as a city block, and classes in the feature are laid out as buildings reflecting their software layer. Relevance between features is represented as streets. Dependency links are visualized lucidly. Through open source and industrial case studies, we show that the architecture of the target systems can be easily overviewed and that the quality of their packaging designs can be quickly assessed.",
             "Award": ""
         },
         {
@@ -202,11 +202,11 @@
             "Key": "icpc13main-id27-p",
             "URL": "http%3A%2F%2Fwww.hpi.uni-potsdam.de%2Fdoellner%2Fpublications%2Fyear%2F2013%2F2272%2FTDT2013.html",
             "URLvideo": "http%3A%2F%2Fyoutu.be%2F9x2mOsf_fjU",
-            "PersonsString": "Jonas Trümper, Juergen Doellner, and Alexandru Telea",
+            "PersonsString": "Jonas Trümper, Jürgen Döllner, and Alexandru Telea",
             "AffiliationsString": "HPI, Germany; University of Groningen, Netherlands",
             "Authors": [
                 "Jonas Trümper @ HPI, Germany",
-                "Juergen Doellner @ HPI, Germany",
+                "Jürgen Döllner @ HPI, Germany",
                 "Alexandru Telea @ University of Groningen, Netherlands"
             ],
             "Affiliations": [
@@ -308,14 +308,14 @@
                 "Osaka University, Japan",
                 "Osaka University, Japan"
             ],
-            "Abstract": "",
+            "Abstract": "A variety of methods detecting code clones has been proposed before. In order to detect gapped code clones, AST-based technique, PDG-based technique, metric-based technique and text-based technique using the LCS algorithm have been proposed. However, each of those techniques has limitations. For example, existing AST-based techniques and PDG-based techniques require costs for transforming source files into intermediate representations such as ASTs or PDGs and comparing them. Existing metric-based techniques and text-based techniques using the LCS algorithm cannot detect code clones if methods or blocks are partially duplicated. This paper proposes a new method that detects gapped code clones using the Smith-Waterman algorithm to resolve those limitations. The Smith-Waterman algorithm is an algorithm for identifying similar alignments between two sequences even if they include some gaps. The authors developed the proposed method as a software tool named CDSW, and confirmed that the proposed method could resolve the limitations by conducting a quantitative evaluation with Bellon's benchmark.",
             "Award": ""
         },
         {
-            "Title": "An Insight into Method Co-changeability: A Genealogy Based Empirical Study",
+            "Title": "Insight into a Method Co-change Pattern to Identify Highly Coupled Methods: An Empirical Study",
             "Type": "Full Paper (10 pages)",
             "Key": "icpc13main-id54-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DManishankar+Mondal%2C+Chanchal+K.+Roy%2C+and+Kevin+A.+Schneider+%22An+Insight+into+Method+Co-changeability%3A+A+Genealogy+Based+Empirical+Study%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DManishankar+Mondal%2C+Chanchal+K.+Roy%2C+and+Kevin+A.+Schneider+%22Insight+into+a+Method+Co-change+Pattern+to+Identify+Highly+Coupled+Methods%3A+An+Empirical+Study%22",
             "URLvideo": "",
             "PersonsString": "Manishankar Mondal, Chanchal K. Roy, and Kevin A. Schneider",
             "AffiliationsString": "University of Saskatchewan, Canada",
@@ -329,7 +329,7 @@
                 "University of Saskatchewan, Canada",
                 "University of Saskatchewan, Canada"
             ],
-            "Abstract": "",
+            "Abstract": "In this paper, we describe an empirical study of a unique method co-change pattern that has the potential to pinpoint design deficiency in a software system. We automatically identify this pattern by inspecting the method co-change history using reasonable constraints on method association rules. We also investigate the effect of code clones on the method co-changes identified according to the pattern, because there is a common intuition that clone fragments from the same clone class often require corresponding changes to ensure they remain consistent with each other.  According to our in-depth investigation on hundreds of revisions of seven open-source software systems considering three types of clones (Type 1, Type 2, Type 3), our identified pattern helps us detect methods that are logically coupled with multiple other methods and that exhibit a significantly higher modification frequency than other methods. We call the methods detected by the pattern MMCGs (Methods appearing in Multiple Commit Groups) considering the pattern semantic. MMCGs can be considered as the candidates for restructuring in order to minimize coupling as well as to reduce the change-proneness of a software system. According to our observation, code clones have a significant effect on method co-changes as well as on MMCGs. We believe that clone refactoring can help us minimize evolutionary coupling among methods.",
             "Award": ""
         },
         {
@@ -394,14 +394,14 @@
                 "University of Alabama, USA",
                 "University of Alabama, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Many recent feature location techniques (FLTs) apply text retrieval (TR) techniques to corpora built from text embedded in source code. Term weighting is a standard preprocessing step in TR and is used to adjust the importance of a term within a document or corpus. Common term weighting schemes such as tf-idf may not be optimal for use with source code, because they originate from a natural language context and were designed for use with unstructured documents. In this paper we propose a new approach to term weighting in which term weights are assigned using the structural information from the source code. We then evaluate the proposed approach by conducting an empirical study of a TR-based FLT. In all, we study over 400 bugs and features from five open source Java systems and find that structural term weighting can cause a statistically significant improvement in the accuracy of the FLT.",
             "Award": ""
         },
         {
             "Title": "Extracting Problematic API Features from Forum Discussions",
             "Type": "Full Paper (10 pages)",
             "Key": "icpc13main-id47-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYingying+Zhang+and+Daqing+Hou+%22Extracting+Problematic+API+Features+from+Forum+Discussions%22",
+            "URL": "http%3A%2F%2Fserl.clarkson.edu%2Fsite%2Fwp-content%2Fuploads%2F2013%2F04%2Ficpc2013.pdf",
             "URLvideo": "",
             "PersonsString": "Yingying Zhang and Daqing Hou",
             "AffiliationsString": "Clarkson University, USA",
@@ -422,11 +422,11 @@
             "Key": "icpc13main-id53-p",
             "URL": "http%3A%2F%2Fsoft.vub.ac.be%2FPublications%2F2013%2Fvub-soft-tr-13-04.pdf",
             "URLvideo": "",
-            "PersonsString": "Coen De Roover, Ralf Laemmel, and Ekaterina Pek",
+            "PersonsString": "Coen De Roover, Ralf Lämmel, and Ekaterina Pek",
             "AffiliationsString": "Vrije Universiteit Brussel, Belgium; University of Koblenz-Landau, Germany",
             "Authors": [
                 "Coen De Roover @ Vrije Universiteit Brussel, Belgium",
-                "Ralf Laemmel @ University of Koblenz-Landau, Germany",
+                "Ralf Lämmel @ University of Koblenz-Landau, Germany",
                 "Ekaterina Pek @ University of Koblenz-Landau, Germany"
             ],
             "Affiliations": [
@@ -514,7 +514,7 @@
                 "TU Vienna, Austria",
                 "TU Vienna, Austria"
             ],
-            "Abstract": "",
+            "Abstract": "Code reviews are a very effective, but effortful quality assurance technique. A major problem is to read and understand source-code that was produced by someone else. With different programming styles and complex interactions, understanding the code under review is the most expensive sub- task of a code review. As with many other modern software engineering practices, code reviews may be applied as a continuous process to reduce the effort and support the concept of collective ownership. This study evaluates the effect of a continuous code review process on the understandability and collective ownership of the code base. A group of 8 subjects performed a total of 114 code reviews within 18 months in an industrial context and conducted an expert evaluation according to this research question. This study concludes that there is a clear positive effect on the understandability and collective ownership of the code base with continuous code reviews, but also limiting factors and drawbacks for complex review tasks.",
             "Award": ""
         },
         {
@@ -524,47 +524,47 @@
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYuki+Yamanaka%2C+Eunjong+Choi%2C+Norihiro+Yoshida%2C+Katsuro+Inoue%2C+and+Tateki+Sano+%22Applying+Clone+Change+Notification+System+into+an+Industrial+Development+Process%22",
             "URLvideo": "",
             "PersonsString": "Yuki Yamanaka, Eunjong Choi, Norihiro Yoshida, Katsuro Inoue, and Tateki Sano",
-            "AffiliationsString": "Osaka University, Japan; NEC, Japan",
+            "AffiliationsString": "Osaka University, Japan; Nara Institute of Science and Technology, Japan; NEC, Japan",
             "Authors": [
                 "Yuki Yamanaka @ Osaka University, Japan",
                 "Eunjong Choi @ Osaka University, Japan",
-                "Norihiro Yoshida @ Osaka University, Japan",
+                "Norihiro Yoshida @ Nara Institute of Science and Technology, Japan",
                 "Katsuro Inoue @ Osaka University, Japan",
                 "Tateki Sano @ NEC, Japan"
             ],
             "Affiliations": [
                 "Osaka University, Japan",
                 "Osaka University, Japan",
-                "Osaka University, Japan",
+                "Nara Institute of Science and Technology, Japan",
                 "Osaka University, Japan",
                 "NEC, Japan"
             ],
-            "Abstract": "",
+            "Abstract": "Programmers tend to write code clones unintentionally even in the case that they can easily avoid them. Clone change management is one of crucial issues in open source software (OSS) development as well as in industrial software development (e.g., development of social infrastructure, financial system, and medical equipment). When an industrial developer fixes a defect, he/she has to find the code clones corresponding to the code fragment including it. So far, several studies performed on the analysis of clone evolution in OSS. However, to our knowledge, a few researches have been reported on an application of a clone change notification system to industrial development process. In this paper, we introduce a system for notifying creation and change of code clones, and then report on the experience with 40-days application of it into a development process in NEC Corporation. In the industrial application, a developer successfully identified ten unintentionally-developed clones that should be refactored.",
             "Award": ""
         },
         {
             "Title": "Manhattan: Supporting Real-Time Visual Team Activity Awareness",
             "Type": "ERA (4 pages)",
             "Key": "icpc13era-t2-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMichele+Lanza%2C+Marco+D%27Ambros%2C+Alberto+Bacchelli%2C+Lile+Hattori%2C+and+Francesco+Rigotti+%22Manhattan%3A+Supporting+Real-Time+Visual+Team+Activity+Awareness%22",
+            "URL": "http%3A%2F%2Fwww.inf.usi.ch%2Fphd%2Fbacchelli%2Fpublications%2Ficpc-era2013.pdf",
             "URLvideo": "",
             "PersonsString": "Michele Lanza, Marco D'Ambros, Alberto Bacchelli, Lile Hattori, and Francesco Rigotti",
-            "AffiliationsString": "University of Lugano, Switzerland; Microsoft, Canada",
+            "AffiliationsString": "University of Lugano, Switzerland",
             "Authors": [
                 "Michele Lanza @ University of Lugano, Switzerland",
                 "Marco D'Ambros @ University of Lugano, Switzerland",
                 "Alberto Bacchelli @ University of Lugano, Switzerland",
-                "Lile Hattori @ Microsoft, Canada",
+                "Lile Hattori @ University of Lugano, Switzerland",
                 "Francesco Rigotti @ University of Lugano, Switzerland"
             ],
             "Affiliations": [
                 "University of Lugano, Switzerland",
                 "University of Lugano, Switzerland",
                 "University of Lugano, Switzerland",
-                "Microsoft, Canada",
+                "University of Lugano, Switzerland",
                 "University of Lugano, Switzerland"
             ],
-            "Abstract": "",
+            "Abstract": "Collaboration is essential for the development of complex software systems. An important aspect of collaboration is team awareness: The understanding of the activity of others that provides a context for one’s activity. We claim that the current IDE support for awareness is inadequate: The typical setting is to rely on software configuration management systems (SCMs), which are based on an explicit check-out/check-in model. If developers rely only on SCMs information, they become aware of concurrent changes only when they commit their code to the repository. This generates problems such as complex merging and redundant work. Most tools to raise awareness notify developers of emerging conflicts in the form of textual notifications. We propose to improve the notification by using real-time visualization integrated in the IDE to notify developers of team activity. Our approach, implemented in a tool called Manhattan, eases team activity comprehension by relying on a city metaphor. Manhattan depicts a software system as a live city that changes as the underlying system evolves. Within the city, Manhattan renders team activity information, updating developers in real-time about changes implemented by the entire development team. Further, Manhattan provides programmers with immediate feedback about emerging conflicts in which they are involved.",
             "Award": ""
         },
         {
@@ -585,7 +585,7 @@
                 "McGill University, Canada",
                 "University of Victoria, Canada"
             ],
-            "Abstract": "",
+            "Abstract": "Why do software developers place so much effort into writing public blog posts about their knowledge, experiences, and opinions on software development? What are the benefits, problems, and tools needed--what can the research community do to help? In this paper, we describe a research agenda aimed at understanding the motivations and issues of software development blogging. We interviewed developers as well as mined and analyzed their blog posts. For this initial study, we selected developers from various backgrounds: IDE plugin development, mobile development, and web development. We found that developers used blogging for a variety of functions such as documentation, technology discussion, and announcing progress. They were motivated by a variety of reasons such as personal branding, knowledge retention, and feedback. Among the challenges for blog authors identified in our initial study, we found primitive tool support, difficulty recreating and recalling recent development experiences, and management of blog comments. Finally, many developers expressed that the motivations and benefits they received for blogging in public did not directly translate to corporate settings.",
             "Award": ""
         },
         {
@@ -644,7 +644,7 @@
                 "University of Saskatchewan, Canada",
                 "University of Saskatchewan, Canada"
             ],
-            "Abstract": "",
+            "Abstract": "If two or more program entities (e.g., files, classes, methods) co-change frequently during software evolution, these entities are said to have evolutionary coupling. The entities that frequently co-change (i.e., exhibit evolutionary coupling) are likely to have logical coupling (or dependencies) among them. Association rules and two related measurements, Support and Confidence, have been used to predict whether two or more co-changing entities are logically coupled. In this paper, we propose and investigate a new measurement, Significance, that has the potential to improve the detection accuracy of association rule mining techniques. Our preliminary investigation on four open-source subject systems implies that our proposed measurement is capable of extracting coupling relationships even from infrequently co-changed entity sets that might seem insignificant while considering only Support and Confidence. Our proposed measurement, Significance (in association with Support and Confidence), has the potential to predict logical coupling with higher precision and recall.",
             "Award": ""
         },
         {
@@ -661,7 +661,7 @@
             "Affiliations": [
                 "Future University Hakodate, Japan"
             ],
-            "Abstract": "",
+            "Abstract": "Agec is a semantic code-clone detection tool from Java bytecode, which (1) applies a kind of abstract interpretation to bytecode as a static analysis, in order to generate n-grams of possible execution traces, (2) detects the same n-grams from distinct places of the bytecode, and (3) then reports these n- grams as code clones. The strengths of the tool are: static analysis (no need for test cases), detection of clones of deeply nested invocations, and Map-Reduce ready detection algorithms for scalability.",
             "Award": ""
         },
         {
@@ -684,7 +684,7 @@
                 "University of Delaware, USA",
                 "University of Delaware, USA"
             ],
-            "Abstract": "",
+            "Abstract": "JSummarizer is an Eclipse plug-in for automatically generating natural language summaries of Java classes. The summary is based on the stereotype of the class, which implicitly encodes the design intent of the class and is automatically inferred by JSummarizer. The tool uses a set of predefined heuristics to determine what information will be reflected in the summary, and it uses natural language processing and generation techniques to form the summary. The generated summaries can be used to re-document the code and to help developers to easier understand large and complex classes.",
             "Award": ""
         },
         {
@@ -703,28 +703,28 @@
                 "Youngstown State University, USA",
                 "Youngstown State University, USA"
             ],
-            "Abstract": "",
+            "Abstract": "This paper presents OnionUML, an Eclipse plug-in that reduces the number of visible classes in a UML class diagram while preserving structure and semantics of the UML elements. Compaction of class elements is done using onion graph notation. The goal is that developers will be able to view and understand subsystems of a large software system while being able to visualize how that subsystem fits into the whole system.",
             "Award": ""
         },
         {
-            "Title": "SimCad : An Extensible and Faster Clone Detection Tool for Large Scale Software Systems",
+            "Title": "SimCad: An Extensible and Faster Clone Detection Tool for Large Scale Software Systems",
             "Type": "Tool Demo (4 pages)",
             "Key": "icpc13tool-t29-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSharif+Uddin%2C+Chanchal+K.+Roy%2C+and+Kevin+Schneider+%22SimCad+%3A+An+Extensible+and+Faster+Clone+Detection+Tool+for+Large+Scale+Software+Systems%22",
+            "URL": "http%3A%2F%2Fhomepage.usask.ca%2F%7Emdu535%2Ftools.html",
             "URLvideo": "",
-            "PersonsString": "Sharif Uddin, Chanchal K. Roy, and Kevin Schneider",
+            "PersonsString": "Md. Sharif Uddin, Chanchal K. Roy, and Kevin A. Schneider",
             "AffiliationsString": "University of Saskatchewan, Canada",
             "Authors": [
-                "Sharif Uddin @ University of Saskatchewan, Canada",
+                "Md. Sharif Uddin @ University of Saskatchewan, Canada",
                 "Chanchal K. Roy @ University of Saskatchewan, Canada",
-                "Kevin Schneider @ University of Saskatchewan, Canada"
+                "Kevin A. Schneider @ University of Saskatchewan, Canada"
             ],
             "Affiliations": [
                 "University of Saskatchewan, Canada",
                 "University of Saskatchewan, Canada",
                 "University of Saskatchewan, Canada"
             ],
-            "Abstract": "",
+            "Abstract": "Code cloning is an inevitable phenomenon in evolution of software systems. To reduce the harmful effects of clones in software evolution, they need to be identified correctly as well in a time efficient way. There might be various types of clones in a software system. Earlier research shows detection of near-miss clones in large datasets appears to be costly in terms of time and memory. Among the clone detection tools available in practice, not very many of them are found effective in that regard. In this paper we present a standalone clone detection tool SimCad. It is based on a highly scalable and faster clone detection algorithm designed to detect both exact and near-miss clones in large-scale software systems. One of the potential aspects of SimCad is that its clone detection function is made more portable by packaging it into a library called SimLib. Thus, SimLib now can be used as an off-the-shelf clone detection library that can be easily integrated into other applications that are designed to work based on detected clones. For example, a standalone tool or an Integrated Development Environment (IDE) plugin can use SimLib for realtime clone detection while providing its own services like clone visualization and/or clone management functionalities. We hope that both researchers and developers would enjoy and utilize the benefit of using these tools in different aspects of detection and management of clones in software.",
             "Award": ""
         }
     ],
@@ -734,14 +734,15 @@
             "ShortTitle": "Opening",
             "Type": "Plenary",
             "ShortType": "Plenary",
-            "Key": "Opening",
+            "Key": "2013-05-20 08:45 Opening",
             "Day": "2013-05-20",
             "Time": "08:45 - 09:00",
-            "Location": "Regency A",
+            "Location": "Bayview A",
             "LocationIndex": "1",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13",
             "Abstract": ""
@@ -754,11 +755,12 @@
             "Key": "icpc13keynotes-key-1-p",
             "Day": "2013-05-20",
             "Time": "09:00 - 10:30",
-            "Location": "Regency A",
+            "Location": "Bayview A",
             "LocationIndex": "1",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13KEYNOTES",
             "Abstract": "",
@@ -771,14 +773,15 @@
             "ShortTitle": "Morning Break",
             "Type": "Social",
             "ShortType": "Social",
-            "Key": "MorningBreak",
+            "Key": "2013-05-20 10:30 Morning Break",
             "Day": "2013-05-20",
             "Time": "10:30 - 11:00",
             "Location": "Grand Ballroom and Foyers",
             "LocationIndex": "0",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13",
             "Abstract": ""
@@ -788,14 +791,15 @@
             "ShortTitle": "Textual Analysis",
             "Type": "Technical Research",
             "ShortType": "Technical Research",
-            "Key": "TextualAnalysis",
+            "Key": "2013-05-20 11:00 Textual Analysis",
             "Day": "2013-05-20",
             "Time": "11:00 - 12:30",
-            "Location": "Regency A",
+            "Location": "Bayview A",
             "LocationIndex": "1",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13MAIN",
             "Abstract": "",
@@ -810,14 +814,15 @@
             "ShortTitle": "Lunch",
             "Type": "Social",
             "ShortType": "Social",
-            "Key": "Lunch",
+            "Key": "2013-05-20 12:30 Lunch",
             "Day": "2013-05-20",
             "Time": "12:30 - 14:00",
             "Location": "Grand Ballroom and Foyers",
             "LocationIndex": "0",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13",
             "Abstract": ""
@@ -827,14 +832,15 @@
             "ShortTitle": "The Role of Visualization in Program Comprehension",
             "Type": "Technical Research",
             "ShortType": "Technical Research",
-            "Key": "TheRoleofVisualizationinProgramComprehension",
+            "Key": "2013-05-20 14:00 The Role of Visualization in Program Comprehension",
             "Day": "2013-05-20",
             "Time": "14:00 - 16:00",
-            "Location": "Regency A",
+            "Location": "Bayview A",
             "LocationIndex": "1",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13MAIN",
             "Abstract": "",
@@ -850,14 +856,15 @@
             "ShortTitle": "Afternoon Break",
             "Type": "Social",
             "ShortType": "Social",
-            "Key": "AfternoonBreak",
+            "Key": "2013-05-20 16:00 Afternoon Break",
             "Day": "2013-05-20",
             "Time": "16:00 - 16:30",
             "Location": "Grand Ballroom and Foyers",
             "LocationIndex": "0",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13",
             "Abstract": ""
@@ -867,14 +874,15 @@
             "ShortTitle": "Software Quality",
             "Type": "Technical Research",
             "ShortType": "Technical Research",
-            "Key": "SoftwareQuality",
+            "Key": "2013-05-20 16:30 Software Quality",
             "Day": "2013-05-20",
             "Time": "16:30 - 17:30",
-            "Location": "Regency A",
+            "Location": "Bayview A",
             "LocationIndex": "1",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13MAIN",
             "Abstract": "",
@@ -888,14 +896,15 @@
             "ShortTitle": "Industry Track",
             "Type": "Industry Track",
             "ShortType": "Industry Track",
-            "Key": "IndustryTrack",
+            "Key": "2013-05-20 16:30 Industry Track",
             "Day": "2013-05-20",
             "Time": "16:30 - 17:30",
-            "Location": "Regency B",
+            "Location": "Bayview B",
             "LocationIndex": "3",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13INDUSTRY",
             "Abstract": "",
@@ -909,14 +918,15 @@
             "ShortTitle": "Open SC Meeting",
             "Type": "Plenary",
             "ShortType": "Plenary",
-            "Key": "OpenSCMeeting",
+            "Key": "2013-05-20 17:30 Open SC Meeting",
             "Day": "2013-05-20",
             "Time": "17:30 - 18:00",
-            "Location": "Regency A",
+            "Location": "Bayview A",
             "LocationIndex": "1",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13",
             "Abstract": ""
@@ -926,14 +936,15 @@
             "ShortTitle": "Dinner",
             "Type": "Social",
             "ShortType": "Social",
-            "Key": "Dinner",
+            "Key": "2013-05-20 19:00 Dinner",
             "Day": "2013-05-20",
             "Time": "19:00 - 23:00",
             "Location": "",
             "LocationIndex": "2",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13",
             "Abstract": ""
@@ -943,14 +954,15 @@
             "ShortTitle": "Most Influential Paper",
             "Type": "Plenary",
             "ShortType": "Plenary",
-            "Key": "MostInfluentialPaper",
+            "Key": "2013-05-21 09:00 Most Influential Paper",
             "Day": "2013-05-21",
             "Time": "09:00 - 10:30",
-            "Location": "Regency A",
+            "Location": "Bayview A",
             "LocationIndex": "1",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13",
             "Abstract": ""
@@ -960,14 +972,15 @@
             "ShortTitle": "Morning Break",
             "Type": "Social",
             "ShortType": "Social",
-            "Key": "MorningBreak",
+            "Key": "2013-05-21 10:30 Morning Break",
             "Day": "2013-05-21",
             "Time": "10:30 - 11:00",
             "Location": "Grand Ballroom and Foyers",
             "LocationIndex": "0",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13",
             "Abstract": ""
@@ -977,14 +990,15 @@
             "ShortTitle": "Source Code Comprehension",
             "Type": "Technical Research",
             "ShortType": "Technical Research",
-            "Key": "SourceCodeComprehension",
+            "Key": "2013-05-21 11:00 Source Code Comprehension",
             "Day": "2013-05-21",
             "Time": "11:00 - 12:30",
-            "Location": "Regency A",
+            "Location": "Bayview A",
             "LocationIndex": "1",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13MAIN",
             "Abstract": "",
@@ -999,14 +1013,15 @@
             "ShortTitle": "Tool Demonstrations",
             "Type": "Tool Demonstrations",
             "ShortType": "Tool Demonstrations",
-            "Key": "ToolDemonstrations",
+            "Key": "2013-05-21 11:00 Tool Demonstrations",
             "Day": "2013-05-21",
             "Time": "11:00 - 12:30",
-            "Location": "Regency B",
+            "Location": "Bayview B",
             "LocationIndex": "3",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13TOOL",
             "Abstract": "",
@@ -1022,14 +1037,15 @@
             "ShortTitle": "Lunch",
             "Type": "Social",
             "ShortType": "Social",
-            "Key": "Lunch",
+            "Key": "2013-05-21 12:30 Lunch",
             "Day": "2013-05-21",
             "Time": "12:30 - 14:00",
             "Location": "Grand Ballroom and Foyers",
             "LocationIndex": "0",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13",
             "Abstract": ""
@@ -1039,14 +1055,15 @@
             "ShortTitle": "Student Symposium",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "StudentSymposium",
+            "Key": "2013-05-21 14:00 Student Symposium",
             "Day": "2013-05-21",
             "Time": "14:00 - 16:00",
-            "Location": "Regency B",
+            "Location": "Bayview B",
             "LocationIndex": "3",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13",
             "Abstract": ""
@@ -1056,14 +1073,15 @@
             "ShortTitle": "Traceability and Feature Location",
             "Type": "Technical Research",
             "ShortType": "Technical Research",
-            "Key": "TraceabilityandFeatureLocation",
+            "Key": "2013-05-21 14:00 Traceability and Feature Location",
             "Day": "2013-05-21",
             "Time": "14:00 - 15:00",
-            "Location": "Regency A",
+            "Location": "Bayview A",
             "LocationIndex": "1",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13MAIN",
             "Abstract": "",
@@ -1077,14 +1095,15 @@
             "ShortTitle": "Comprehending API",
             "Type": "Technical Research",
             "ShortType": "Technical Research",
-            "Key": "ComprehendingAPI",
+            "Key": "2013-05-21 15:00 Comprehending API",
             "Day": "2013-05-21",
             "Time": "15:00 - 16:00",
-            "Location": "Regency A",
+            "Location": "Bayview A",
             "LocationIndex": "1",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13MAIN",
             "Abstract": "",
@@ -1098,14 +1117,15 @@
             "ShortTitle": "Afternoon Break",
             "Type": "Social",
             "ShortType": "Social",
-            "Key": "AfternoonBreak",
+            "Key": "2013-05-21 16:00 Afternoon Break",
             "Day": "2013-05-21",
             "Time": "16:00 - 16:30",
             "Location": "Grand Ballroom and Foyers",
             "LocationIndex": "0",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13",
             "Abstract": ""
@@ -1115,14 +1135,15 @@
             "ShortTitle": "Comprehending Software Architectures",
             "Type": "Technical Research",
             "ShortType": "Technical Research",
-            "Key": "ComprehendingSoftwareArchitectures",
+            "Key": "2013-05-21 16:30 Comprehending Software Architectures",
             "Day": "2013-05-21",
             "Time": "16:30 - 18:00",
-            "Location": "Regency A",
+            "Location": "Bayview A",
             "LocationIndex": "1",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13MAIN",
             "Abstract": "",
@@ -1137,14 +1158,15 @@
             "ShortTitle": "Early Research Achievements Track",
             "Type": "Early Research Achievements Track",
             "ShortType": "Early Research Achievements Track",
-            "Key": "EarlyResearchAchievementsTrack",
+            "Key": "2013-05-21 16:30 Early Research Achievements Track",
             "Day": "2013-05-21",
             "Time": "16:30 - 18:00",
-            "Location": "Regency B",
+            "Location": "Bayview B",
             "LocationIndex": "3",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13ERA",
             "Abstract": "",
@@ -1161,14 +1183,15 @@
             "ShortTitle": "Wrap Up",
             "Type": "Plenary",
             "ShortType": "Plenary",
-            "Key": "WrapUp",
+            "Key": "2013-05-21 18:00 Wrap Up",
             "Day": "2013-05-21",
             "Time": "18:00 - 18:15",
-            "Location": "Regency A",
+            "Location": "Bayview A",
             "LocationIndex": "1",
             "ChairsString": "",
-            "ChairsKeys": [],
-            "Chairs": [],
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC13",
             "Abstract": ""
@@ -1376,9 +1399,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Juergen Doellner",
+            "Name": "Jürgen Döllner",
             "Affiliation": "HPI, Germany",
-            "Key": "Juergen Doellner @ HPI, Germany",
+            "Key": "Jürgen Döllner @ HPI, Germany",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -1447,8 +1470,8 @@
         },
         {
             "Name": "Lile Hattori",
-            "Affiliation": "Microsoft, Canada",
-            "Key": "Lile Hattori @ Microsoft, Canada",
+            "Affiliation": "University of Lugano, Switzerland",
+            "Key": "Lile Hattori @ University of Lugano, Switzerland",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -1606,9 +1629,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Ralf Laemmel",
+            "Name": "Ralf Lämmel",
             "Affiliation": "University of Koblenz-Landau, Germany",
-            "Key": "Ralf Laemmel @ University of Koblenz-Landau, Germany",
+            "Key": "Ralf Lämmel @ University of Koblenz-Landau, Germany",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -1886,16 +1909,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Kevin Schneider",
-            "Affiliation": "University of Saskatchewan, Canada",
-            "Key": "Kevin Schneider @ University of Saskatchewan, Canada",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Kevin A. Schneider",
             "Affiliation": "University of Saskatchewan, Canada",
             "Key": "Kevin A. Schneider @ University of Saskatchewan, Canada",
@@ -1937,8 +1950,8 @@
         },
         {
             "Name": "Giriprasad Sridhara",
-            "Affiliation": "University of Delaware, USA",
-            "Key": "Giriprasad Sridhara @ University of Delaware, USA",
+            "Affiliation": "IBM Research, India",
+            "Key": "Giriprasad Sridhara @ IBM Research, India",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2016,9 +2029,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Sharif Uddin",
+            "Name": "Md. Sharif Uddin",
             "Affiliation": "University of Saskatchewan, Canada",
-            "Key": "Sharif Uddin @ University of Saskatchewan, Canada",
+            "Key": "Md. Sharif Uddin @ University of Saskatchewan, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2057,8 +2070,8 @@
         },
         {
             "Name": "Norihiro Yoshida",
-            "Affiliation": "Osaka University, Japan",
-            "Key": "Norihiro Yoshida @ Osaka University, Japan",
+            "Affiliation": "Nara Institute of Science and Technology, Japan",
+            "Key": "Norihiro Yoshida @ Nara Institute of Science and Technology, Japan",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
