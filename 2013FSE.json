@@ -1,0 +1,3008 @@
+{
+    "DataRevision": 1370067996,
+    "Preliminary": true,
+    "Event": "ESEC/FSE 2013",
+    "Name": "ESEC/FSE 2013",
+    "Description": "",
+    "Location": "Saint Petersburg, Russia",
+    "Sponsors": "",
+    "URL": "http://esec-fse.inf.ethz.ch/",
+    "MultiTrack": "false",
+    "Organization": {
+        "General Chairs": [
+                "Bertrand Meyer"
+        ],
+        "PC Chairs": [
+                "Luciano Baresi",
+                "Mira Mezini"
+        ]
+    },
+    "SocialFeeds": [
+    ],
+    "VenueInfo": {
+        "Name": "",
+        "GPS": {
+            "Latitude": 0,
+            "Longitude": 0
+        }
+    },
+    "InfoPage": {
+        "xaml": "foo",
+        "Elements": [
+            {
+                "XamlName": "ConferenceCenterMap",
+                "Type": "Map",
+                "GPS": {
+                    "Latitude": 0,
+                    "Longitude": 0
+                },
+                "MapLabel": ""
+            },
+            {
+                "XamlName": "LicenseButton",
+                "Type": "WebLink",
+                "URL": "http://research.microsoft.com/en-US/projects/confapp/terms.aspx"
+            },
+            {
+                "XamlName": "PrivacyButton",
+                "Type": "WebLink",
+                "URL": "http://privacy.microsoft.com/en-us/default.msp"
+            }
+        ]
+    },
+    "SessionPriorities": [
+        "Award",
+        "Invited Talk",
+        "Other"
+    ],
+    "Items": [
+        {
+            "Title": "Preventing Database Deadlocks in Applications",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMark+Grechanik%2C+B.+M.+Mainul+Hossain%2C+Ugo+Buy%2C+and+Haisheng+Wang+%22Preventing+Database+Deadlocks+in+Applications%22",
+            "URLvideo": "",
+            "PersonsString": "Mark Grechanik, B. M. Mainul Hossain, Ugo Buy, and Haisheng Wang",
+            "AffiliationsString": "University of Illinois at Chicago, USA; Oracle Corp, USA",
+            "Authors": [
+                "Mark Grechanik @ University of Illinois at Chicago, USA",
+                "B. M. Mainul Hossain @ University of Illinois at Chicago, USA",
+                "Ugo Buy @ University of Illinois at Chicago, USA",
+                "Haisheng Wang @ Oracle Corp, USA"
+            ],
+            "Affiliations": [
+                "University of Illinois at Chicago, USA",
+                "University of Illinois at Chicago, USA",
+                "University of Illinois at Chicago, USA",
+                "Oracle Corp, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Termination Proofs from Tests",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id9-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAditya+Nori+and+Rahul+Sharma+%22Termination+Proofs+from+Tests%22",
+            "URLvideo": "",
+            "PersonsString": "Aditya Nori and Rahul Sharma",
+            "AffiliationsString": "Microsoft Research, India; Stanford University, USA",
+            "Authors": [
+                "Aditya Nori @ Microsoft Research, India",
+                "Rahul Sharma @ Stanford University, USA"
+            ],
+            "Affiliations": [
+                "Microsoft Research, India",
+                "Stanford University, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Synthesis of Component and Connector Models from Crosscutting Structural Views",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id16-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShahar+Maoz%2C+Jan+Oliver+Ringert%2C+and+Bernhard+Rumpe+%22Synthesis+of+Component+and+Connector+Models+from+Crosscutting+Structural+Views%22",
+            "URLvideo": "",
+            "PersonsString": "Shahar Maoz, Jan Oliver Ringert, and Bernhard Rumpe",
+            "AffiliationsString": "Tel Aviv University, Israel; RWTH Aachen University, Germany",
+            "Authors": [
+                "Shahar Maoz @ Tel Aviv University, Israel",
+                "Jan Oliver Ringert @ RWTH Aachen University, Germany",
+                "Bernhard Rumpe @ RWTH Aachen University, Germany"
+            ],
+            "Affiliations": [
+                "Tel Aviv University, Israel",
+                "RWTH Aachen University, Germany",
+                "RWTH Aachen University, Germany"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Diversity in Software Engineering Research",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id19-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMeiyappan+Nagappan%2C+Thomas+Zimmermann%2C+and+Christian+Bird+%22Diversity+in+Software+Engineering+Research%22",
+            "URLvideo": "",
+            "PersonsString": "Meiyappan Nagappan, Thomas Zimmermann, and Christian Bird",
+            "AffiliationsString": "Queen’s University, Canada; Microsoft Research, USA",
+            "Authors": [
+                "Meiyappan Nagappan @ Queen’s University, Canada",
+                "Thomas Zimmermann @ Microsoft Research, USA",
+                "Christian Bird @ Microsoft Research, USA"
+            ],
+            "Affiliations": [
+                "Queen’s University, Canada",
+                "Microsoft Research, USA",
+                "Microsoft Research, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Detecting Cacheable Data to Remove Bloat",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id35-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKhanh+Nguyen+and+Guoqing+Xu+%22Detecting+Cacheable+Data+to+Remove+Bloat%22",
+            "URLvideo": "",
+            "PersonsString": "Khanh Nguyen and Guoqing Xu",
+            "AffiliationsString": "UC Irvine, USA",
+            "Authors": [
+                "Khanh Nguyen @ UC Irvine, USA",
+                "Guoqing Xu @ UC Irvine, USA"
+            ],
+            "Affiliations": [
+                "UC Irvine, USA",
+                "UC Irvine, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Practical Static Analysis of JavaScript Applications in the Presence of Frameworks and Libraries",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id43-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMagnus+Madsen%2C+Benjamin+Livshits%2C+and+Michael+Fanning+%22Practical+Static+Analysis+of+JavaScript+Applications+in+the+Presence+of+Frameworks+and+Libraries%22",
+            "URLvideo": "",
+            "PersonsString": "Magnus Madsen, Benjamin Livshits, and Michael Fanning",
+            "AffiliationsString": "Aarhus University, Denmark; Microsoft Research, USA; Microsoft, USA",
+            "Authors": [
+                "Magnus Madsen @ Aarhus University, Denmark",
+                "Benjamin Livshits @ Microsoft Research, USA",
+                "Michael Fanning @ Microsoft, USA"
+            ],
+            "Affiliations": [
+                "Aarhus University, Denmark",
+                "Microsoft Research, USA",
+                "Microsoft, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Sample Size vs. Bias in Defect Prediction",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id50-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFoyzur+Rahman%2C+Daryl+Posnett%2C+Israel+Herraiz%2C+and+Premkumar+Devanbu+%22Sample+Size+vs.+Bias+in+Defect+Prediction%22",
+            "URLvideo": "",
+            "PersonsString": "Foyzur Rahman, Daryl Posnett, Israel Herraiz, and Premkumar Devanbu",
+            "AffiliationsString": "UC Davis, USA; Universidad Politécnica de Madrid, Spain",
+            "Authors": [
+                "Foyzur Rahman @ UC Davis, USA",
+                "Daryl Posnett @ UC Davis, USA",
+                "Israel Herraiz @ Universidad Politécnica de Madrid, Spain",
+                "Premkumar Devanbu @ UC Davis, USA"
+            ],
+            "Affiliations": [
+                "UC Davis, USA",
+                "UC Davis, USA",
+                "Universidad Politécnica de Madrid, Spain",
+                "UC Davis, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Scalable and Incremental Software Bug Detection",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id51-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DScott+McPeak%2C+Charles-Henri+Gros%2C+and+Murali+Krishna+Ramanathan+%22Scalable+and+Incremental+Software+Bug+Detection%22",
+            "URLvideo": "",
+            "PersonsString": "Scott McPeak, Charles-Henri Gros, and Murali Krishna Ramanathan",
+            "AffiliationsString": "Coverity, USA; Indian Institute of Science, India",
+            "Authors": [
+                "Scott McPeak @ Coverity, USA",
+                "Charles-Henri Gros @ Coverity, USA",
+                "Murali Krishna Ramanathan @ Indian Institute of Science, India"
+            ],
+            "Affiliations": [
+                "Coverity, USA",
+                "Coverity, USA",
+                "Indian Institute of Science, India"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "A Rigorous Approach to Clone Evaluation",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id53-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTiantian+Wang%2C+Mark+Harman%2C+Yue+Jia%2C+and+Jens+Krinke+%22A+Rigorous+Approach+to+Clone+Evaluation%22",
+            "URLvideo": "",
+            "PersonsString": "Tiantian Wang, Mark Harman, Yue Jia, and Jens Krinke",
+            "AffiliationsString": "Harbin Institute of Technology, China; University College London, UK",
+            "Authors": [
+                "Tiantian Wang @ Harbin Institute of Technology, China",
+                "Mark Harman @ University College London, UK",
+                "Yue Jia @ University College London, UK",
+                "Jens Krinke @ University College London, UK"
+            ],
+            "Affiliations": [
+                "Harbin Institute of Technology, China",
+                "University College London, UK",
+                "University College London, UK",
+                "University College London, UK"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Server Interface Descriptions for Automated Testing of JavaScript Web Applications",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id54-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCasper+S.+Jensen%2C+Anders+M%C3%B8ller%2C+and+Zhendong+Su+%22Server+Interface+Descriptions+for+Automated+Testing+of+JavaScript+Web+Applications%22",
+            "URLvideo": "",
+            "PersonsString": "Casper S. Jensen, Anders Møller, and Zhendong Su",
+            "AffiliationsString": "Aarhus University, Denmark; UC Davis, USA",
+            "Authors": [
+                "Casper S. Jensen @ Aarhus University, Denmark",
+                "Anders Møller @ Aarhus University, Denmark",
+                "Zhendong Su @ UC Davis, USA"
+            ],
+            "Affiliations": [
+                "Aarhus University, Denmark",
+                "Aarhus University, Denmark",
+                "UC Davis, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Inferring Project-Specific Bug Patterns for Detecting Sibling Bugs",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id57-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DGuangtai+Liang%2C+Qianxiang+Wang%2C+Tao+Xie%2C+and+Hong+Mei+%22Inferring+Project-Specific+Bug+Patterns+for+Detecting+Sibling+Bugs%22",
+            "URLvideo": "",
+            "PersonsString": "Guangtai Liang, Qianxiang Wang, Tao Xie, and Hong Mei",
+            "AffiliationsString": "Peking University, China; North Carolina State University, USA",
+            "Authors": [
+                "Guangtai Liang @ Peking University, China",
+                "Qianxiang Wang @ Peking University, China",
+                "Tao Xie @ North Carolina State University, USA",
+                "Hong Mei @ Peking University, China"
+            ],
+            "Affiliations": [
+                "Peking University, China",
+                "Peking University, China",
+                "North Carolina State University, USA",
+                "Peking University, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Bayesian Inference using Data Flow Analysis",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id78-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DGuillaume+Claret%2C+Sriram+Rajamani%2C+Aditya+Nori%2C+Andrew+Gordon%2C+and+Johannes+Borgstrom+%22Bayesian+Inference+using+Data+Flow+Analysis%22",
+            "URLvideo": "",
+            "PersonsString": "Guillaume Claret, Sriram Rajamani, Aditya Nori, Andrew Gordon, and Johannes Borgstrom",
+            "AffiliationsString": "INRIA, France; Microsoft Research, India; Microsoft Research, UK; Uppsala University, Sweden",
+            "Authors": [
+                "Guillaume Claret @ INRIA, France",
+                "Sriram Rajamani @ Microsoft Research, India",
+                "Aditya Nori @ Microsoft Research, India",
+                "Andrew Gordon @ Microsoft Research, UK",
+                "Johannes Borgstrom @ Uppsala University, Sweden"
+            ],
+            "Affiliations": [
+                "INRIA, France",
+                "Microsoft Research, India",
+                "Microsoft Research, India",
+                "Microsoft Research, UK",
+                "Uppsala University, Sweden"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Prediction of Atomic Web Services Reliability Based on K-Means Clustering",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id87-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMarin+Silic%2C+Goran+Delac%2C+and+Sinisa+Srbljic+%22Prediction+of+Atomic+Web+Services+Reliability+Based+on+K-Means+Clustering%22",
+            "URLvideo": "",
+            "PersonsString": "Marin Silic, Goran Delac, and Sinisa Srbljic",
+            "AffiliationsString": "University of Zagreb, Croatia",
+            "Authors": [
+                "Marin Silic @ University of Zagreb, Croatia",
+                "Goran Delac @ University of Zagreb, Croatia",
+                "Sinisa Srbljic @ University of Zagreb, Croatia"
+            ],
+            "Affiliations": [
+                "University of Zagreb, Croatia",
+                "University of Zagreb, Croatia",
+                "University of Zagreb, Croatia"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Boosting Concolic Testing via Interpolation",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id95-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJoxan+Jaffar%2C+Vijayaraghavan+Murali%2C+and+Jorge+A.+Navas+%22Boosting+Concolic+Testing+via+Interpolation%22",
+            "URLvideo": "",
+            "PersonsString": "Joxan Jaffar, Vijayaraghavan Murali, and Jorge A. Navas",
+            "AffiliationsString": "National University of Singapore, Singapore; University of Melbourne, Australia",
+            "Authors": [
+                "Joxan Jaffar @ National University of Singapore, Singapore",
+                "Vijayaraghavan Murali @ National University of Singapore, Singapore",
+                "Jorge A. Navas @ University of Melbourne, Australia"
+            ],
+            "Affiliations": [
+                "National University of Singapore, Singapore",
+                "National University of Singapore, Singapore",
+                "University of Melbourne, Australia"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Mining Behavior Models from Enterprise Web Applications",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id102-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMatthias+Schur%2C+Andreas+Roth%2C+and+Andreas+Zeller+%22Mining+Behavior+Models+from+Enterprise+Web+Applications%22",
+            "URLvideo": "",
+            "PersonsString": "Matthias Schur, Andreas Roth, and Andreas Zeller",
+            "AffiliationsString": "SAP, Germany; Saarland University, Germany",
+            "Authors": [
+                "Matthias Schur @ SAP, Germany",
+                "Andreas Roth @ SAP, Germany",
+                "Andreas Zeller @ Saarland University, Germany"
+            ],
+            "Affiliations": [
+                "SAP, Germany",
+                "SAP, Germany",
+                "Saarland University, Germany"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Compiling Mockups to Flexible UIs",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id108-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNishant+Sinha+and+Rezwana+Karim+%22Compiling+Mockups+to+Flexible+UIs%22",
+            "URLvideo": "",
+            "PersonsString": "Nishant Sinha and Rezwana Karim",
+            "AffiliationsString": "IBM Research, India; Rutgers University, USA",
+            "Authors": [
+                "Nishant Sinha @ IBM Research, India",
+                "Rezwana Karim @ Rutgers University, USA"
+            ],
+            "Affiliations": [
+                "IBM Research, India",
+                "Rutgers University, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "API Change and Fault Proneness: A Threat to Commercial Success of Android Apps",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id110-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMario+Linares-V%C3%A1squez%2C+Gabriele+Bavota%2C+Carlos+Bernal-C%C3%A1rdenas%2C+Massimiliano+Di+Penta%2C+Rocco+Oliveto%2C+and+Denys+Poshyvanyk+%22API+Change+and+Fault+Proneness%3A+A+Threat+to+Commercial+Success+of+Android+Apps%22",
+            "URLvideo": "",
+            "PersonsString": "Mario Linares-Vásquez, Gabriele Bavota, Carlos Bernal-Cárdenas, Massimiliano Di Penta, Rocco Oliveto, and Denys Poshyvanyk",
+            "AffiliationsString": "College of William and Mary, USA; University of Sannio, Italy; Universidad Nacional de Colombia, Colombia; University of Molise, Italy",
+            "Authors": [
+                "Mario Linares-Vásquez @ College of William and Mary, USA",
+                "Gabriele Bavota @ University of Sannio, Italy",
+                "Carlos Bernal-Cárdenas @ Universidad Nacional de Colombia, Colombia",
+                "Massimiliano Di Penta @ University of Sannio, Italy",
+                "Rocco Oliveto @ University of Molise, Italy",
+                "Denys Poshyvanyk @ College of William and Mary, USA"
+            ],
+            "Affiliations": [
+                "College of William and Mary, USA",
+                "University of Sannio, Italy",
+                "Universidad Nacional de Colombia, Colombia",
+                "University of Sannio, Italy",
+                "University of Molise, Italy",
+                "College of William and Mary, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Reusing Precisions for Efficient Regression Verification",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id113-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDirk+Beyer%2C+Stefan+L%C3%B6we%2C+Evgeny+Novikov%2C+Andreas+Stahlbauer%2C+and+Philipp+Wendler+%22Reusing+Precisions+for+Efficient+Regression+Verification%22",
+            "URLvideo": "",
+            "PersonsString": "Dirk Beyer, Stefan Löwe, Evgeny Novikov, Andreas Stahlbauer, and Philipp Wendler",
+            "AffiliationsString": "University of Passau, Germany; ISP RAS, Russia",
+            "Authors": [
+                "Dirk Beyer @ University of Passau, Germany",
+                "Stefan Löwe @ University of Passau, Germany",
+                "Evgeny Novikov @ ISP RAS, Russia",
+                "Andreas Stahlbauer @ University of Passau, Germany",
+                "Philipp Wendler @ University of Passau, Germany"
+            ],
+            "Affiliations": [
+                "University of Passau, Germany",
+                "University of Passau, Germany",
+                "ISP RAS, Russia",
+                "University of Passau, Germany",
+                "University of Passau, Germany"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Regression Tests to Expose Change Interaction Errors",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id116-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMarcel+B%C3%B6hme%2C+Bruno+C.+d.+S.+Oliveira%2C+and+Abhik+Roychoudhury+%22Regression+Tests+to+Expose+Change+Interaction+Errors%22",
+            "URLvideo": "",
+            "PersonsString": "Marcel Böhme, Bruno C. d. S. Oliveira, and Abhik Roychoudhury",
+            "AffiliationsString": "National University Singapore, Singapore",
+            "Authors": [
+                "Marcel Böhme @ National University Singapore, Singapore",
+                "Bruno C. d. S. Oliveira @ National University Singapore, Singapore",
+                "Abhik Roychoudhury @ National University Singapore, Singapore"
+            ],
+            "Affiliations": [
+                "National University Singapore, Singapore",
+                "National University Singapore, Singapore",
+                "National University Singapore, Singapore"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "An Empirical Analysis of the Co-evolution of Schema and Code in Database Applications",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id117-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDong+Qiu%2C+Bixin+Li%2C+and+Zhendong+Su+%22An+Empirical+Analysis+of+the+Co-evolution+of+Schema+and+Code+in+Database+Applications%22",
+            "URLvideo": "",
+            "PersonsString": "Dong Qiu, Bixin Li, and Zhendong Su",
+            "AffiliationsString": "Southeast University, China; UC Davis, USA",
+            "Authors": [
+                "Dong Qiu @ Southeast University, China",
+                "Bixin Li @ Southeast University, China",
+                "Zhendong Su @ UC Davis, USA"
+            ],
+            "Affiliations": [
+                "Southeast University, China",
+                "Southeast University, China",
+                "UC Davis, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Improving Trace Accuracy through Data-Driven Configuration and Composition of Tracing Features",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id121-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSugandha+Lohar%2C+Sorawit+Amornborvornwong%2C+Andrea+Zisman%2C+and+Jane+Cleland-Huang+%22Improving+Trace+Accuracy+through+Data-Driven+Configuration+and+Composition+of+Tracing+Features%22",
+            "URLvideo": "",
+            "PersonsString": "Sugandha Lohar, Sorawit Amornborvornwong, Andrea Zisman, and Jane Cleland-Huang",
+            "AffiliationsString": "DePaul University, USA; City University London, UK",
+            "Authors": [
+                "Sugandha Lohar @ DePaul University, USA",
+                "Sorawit Amornborvornwong @ DePaul University, USA",
+                "Andrea Zisman @ City University London, UK",
+                "Jane Cleland-Huang @ DePaul University, USA"
+            ],
+            "Affiliations": [
+                "DePaul University, USA",
+                "DePaul University, USA",
+                "City University London, UK",
+                "DePaul University, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Enhancing Symbolic Execution with Built-In Term Rewriting and Constrained Lazy Initialization",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id126-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPietro+Braione%2C+Giovanni+Denaro%2C+and+Mauro+Pezz%C3%A8+%22Enhancing+Symbolic+Execution+with+Built-In+Term+Rewriting+and+Constrained+Lazy+Initialization%22",
+            "URLvideo": "",
+            "PersonsString": "Pietro Braione, Giovanni Denaro, and Mauro Pezzè",
+            "AffiliationsString": "University of Milano-Bicocca, Italy",
+            "Authors": [
+                "Pietro Braione @ University of Milano-Bicocca, Italy",
+                "Giovanni Denaro @ University of Milano-Bicocca, Italy",
+                "Mauro Pezzè @ University of Milano-Bicocca, Italy"
+            ],
+            "Affiliations": [
+                "University of Milano-Bicocca, Italy",
+                "University of Milano-Bicocca, Italy",
+                "University of Milano-Bicocca, Italy"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Automated Oracles: An Empirical Study on Cost and Effectiveness",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id136-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCu+Duy+Nguyen%2C+Alessandro+Marchetto%2C+and+Paolo+Tonella+%22Automated+Oracles%3A+An+Empirical+Study+on+Cost+and+Effectiveness%22",
+            "URLvideo": "",
+            "PersonsString": "Cu Duy Nguyen, Alessandro Marchetto, and Paolo Tonella",
+            "AffiliationsString": "Fondazione Bruno Kessler, Italy; Centro Ricerche Fiat, Italy",
+            "Authors": [
+                "Cu Duy Nguyen @ Fondazione Bruno Kessler, Italy",
+                "Alessandro Marchetto @ Centro Ricerche Fiat, Italy",
+                "Paolo Tonella @ Fondazione Bruno Kessler, Italy"
+            ],
+            "Affiliations": [
+                "Fondazione Bruno Kessler, Italy",
+                "Centro Ricerche Fiat, Italy",
+                "Fondazione Bruno Kessler, Italy"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Finding Incorrect Compositions of Atomicity",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id138-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPeng+Liu%2C+Julian+Dolby%2C+and+Charles+Zhang+%22Finding+Incorrect+Compositions+of+Atomicity%22",
+            "URLvideo": "",
+            "PersonsString": "Peng Liu, Julian Dolby, and Charles Zhang",
+            "AffiliationsString": "Hong Kong University of Science and Technology, China; IBM Research, USA",
+            "Authors": [
+                "Peng Liu @ Hong Kong University of Science and Technology, China",
+                "Julian Dolby @ IBM Research, USA",
+                "Charles Zhang @ Hong Kong University of Science and Technology, China"
+            ],
+            "Affiliations": [
+                "Hong Kong University of Science and Technology, China",
+                "IBM Research, USA",
+                "Hong Kong University of Science and Technology, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Efficiency and Early Fault Detection with Lower and Higher Strength Combinatorial Interaction Testing",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id142-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJustyna+Petke%2C+Shin+Yoo%2C+Myra+B.+Cohen%2C+and+Mark+Harman+%22Efficiency+and+Early+Fault+Detection+with+Lower+and+Higher+Strength+Combinatorial+Interaction+Testing%22",
+            "URLvideo": "",
+            "PersonsString": "Justyna Petke, Shin Yoo, Myra B. Cohen, and Mark Harman",
+            "AffiliationsString": "University College London, UK; University of Nebraska-Lincoln, USA",
+            "Authors": [
+                "Justyna Petke @ University College London, UK",
+                "Shin Yoo @ University College London, UK",
+                "Myra B. Cohen @ University of Nebraska-Lincoln, USA",
+                "Mark Harman @ University College London, UK"
+            ],
+            "Affiliations": [
+                "University College London, UK",
+                "University College London, UK",
+                "University of Nebraska-Lincoln, USA",
+                "University College London, UK"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Scalable Analysis of Variable Software",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id145-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJ%C3%B6rg+Liebig%2C+Alexander+von+Rhein%2C+Christian+K%C3%A4stner%2C+Sven+Apel%2C+Jens+D%C3%B6rre%2C+and+Christian+Lengauer+%22Scalable+Analysis+of+Variable+Software%22",
+            "URLvideo": "",
+            "PersonsString": "Jörg Liebig, Alexander von Rhein, Christian Kästner, Sven Apel, Jens Dörre, and Christian Lengauer",
+            "AffiliationsString": "University of Passau, Germany; CMU, USA",
+            "Authors": [
+                "Jörg Liebig @ University of Passau, Germany",
+                "Alexander von Rhein @ University of Passau, Germany",
+                "Christian Kästner @ CMU, USA",
+                "Sven Apel @ University of Passau, Germany",
+                "Jens Dörre @ University of Passau, Germany",
+                "Christian Lengauer @ University of Passau, Germany"
+            ],
+            "Affiliations": [
+                "University of Passau, Germany",
+                "University of Passau, Germany",
+                "CMU, USA",
+                "University of Passau, Germany",
+                "University of Passau, Germany",
+                "University of Passau, Germany"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "KATCH: High-Coverage Testing of Software Patches",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id150-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPaul+Marinescu+and+Cristian+Cadar+%22KATCH%3A+High-Coverage+Testing+of+Software+Patches%22",
+            "URLvideo": "",
+            "PersonsString": "Paul Marinescu and Cristian Cadar",
+            "AffiliationsString": "Imperial College London, UK",
+            "Authors": [
+                "Paul Marinescu @ Imperial College London, UK",
+                "Cristian Cadar @ Imperial College London, UK"
+            ],
+            "Affiliations": [
+                "Imperial College London, UK",
+                "Imperial College London, UK"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Effective Dynamic Detection of Alias Analysis Errors",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id152-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJingyue+Wu%2C+Gang+Hu%2C+Yang+Tang%2C+and+Junfeng+Yang+%22Effective+Dynamic+Detection+of+Alias+Analysis+Errors%22",
+            "URLvideo": "",
+            "PersonsString": "Jingyue Wu, Gang Hu, Yang Tang, and Junfeng Yang",
+            "AffiliationsString": "Columbia University, USA",
+            "Authors": [
+                "Jingyue Wu @ Columbia University, USA",
+                "Gang Hu @ Columbia University, USA",
+                "Yang Tang @ Columbia University, USA",
+                "Junfeng Yang @ Columbia University, USA"
+            ],
+            "Affiliations": [
+                "Columbia University, USA",
+                "Columbia University, USA",
+                "Columbia University, USA",
+                "Columbia University, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Do All Task Dependencies Require Coordination? The Role of Task Properties in Identifying Critical Coordination Needs in Software Projects",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id155-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKelly+Blincoe%2C+Giuseppe+Valetto%2C+and+Daniela+Damian+%22Do+All+Task+Dependencies+Require+Coordination%3F+The+Role+of+Task+Properties+in+Identifying+Critical+Coordination+Needs+in+Software+Projects%22",
+            "URLvideo": "",
+            "PersonsString": "Kelly Blincoe, Giuseppe Valetto, and Daniela Damian",
+            "AffiliationsString": "Drexel University, USA; University of Victoria, Canada",
+            "Authors": [
+                "Kelly Blincoe @ Drexel University, USA",
+                "Giuseppe Valetto @ Drexel University, USA",
+                "Daniela Damian @ University of Victoria, Canada"
+            ],
+            "Affiliations": [
+                "Drexel University, USA",
+                "Drexel University, USA",
+                "University of Victoria, Canada"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Adequate Monitoring of Service Compositions",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id157-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAntonia+Bertolino%2C+Eda+Marchetti%2C+and+Andrea+Morichetta+%22Adequate+Monitoring+of+Service+Compositions%22",
+            "URLvideo": "",
+            "PersonsString": "Antonia Bertolino, Eda Marchetti, and Andrea Morichetta",
+            "AffiliationsString": "ISTI-CNR, Italy",
+            "Authors": [
+                "Antonia Bertolino @ ISTI-CNR, Italy",
+                "Eda Marchetti @ ISTI-CNR, Italy",
+                "Andrea Morichetta @ ISTI-CNR, Italy"
+            ],
+            "Affiliations": [
+                "ISTI-CNR, Italy",
+                "ISTI-CNR, Italy",
+                "ISTI-CNR, Italy"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Will You Still Compile Me Tomorrow? Static Cross-Version Compiler Validation",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id161-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChris+Hawblitzel%2C+Shuvendu+Lahiri%2C+Kshama+Pawar%2C+Hammad+Hashmi%2C+Sedar+Gokbulut%2C+Lakshan+Fernando%2C+Dave+Detlefs%2C+and+Scott+Wadsworth+%22Will+You+Still+Compile+Me+Tomorrow%3F+Static+Cross-Version+Compiler+Validation%22",
+            "URLvideo": "",
+            "PersonsString": "Chris Hawblitzel, Shuvendu Lahiri, Kshama Pawar, Hammad Hashmi, Sedar Gokbulut, Lakshan Fernando, Dave Detlefs, and Scott Wadsworth",
+            "AffiliationsString": "Microsoft Research, USA; Microsoft, USA",
+            "Authors": [
+                "Chris Hawblitzel @ Microsoft Research, USA",
+                "Shuvendu Lahiri @ Microsoft Research, USA",
+                "Kshama Pawar @ Microsoft, USA",
+                "Hammad Hashmi @ Microsoft, USA",
+                "Sedar Gokbulut @ Microsoft, USA",
+                "Lakshan Fernando @ Microsoft, USA",
+                "Dave Detlefs @ Microsoft, USA",
+                "Scott Wadsworth @ Microsoft, USA"
+            ],
+            "Affiliations": [
+                "Microsoft Research, USA",
+                "Microsoft Research, USA",
+                "Microsoft, USA",
+                "Microsoft, USA",
+                "Microsoft, USA",
+                "Microsoft, USA",
+                "Microsoft, USA",
+                "Microsoft, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Tightfit: Adaptive Parallelization with Foresight",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id162-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DOmer+Tripp+and+Noam+Rinetzky+%22Tightfit%3A+Adaptive+Parallelization+with+Foresight%22",
+            "URLvideo": "",
+            "PersonsString": "Omer Tripp and Noam Rinetzky",
+            "AffiliationsString": "Tel Aviv University, Israel",
+            "Authors": [
+                "Omer Tripp @ Tel Aviv University, Israel",
+                "Noam Rinetzky @ Tel Aviv University, Israel"
+            ],
+            "Affiliations": [
+                "Tel Aviv University, Israel",
+                "Tel Aviv University, Israel"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Convergent Contemporary Software Peer Review Practices",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id163-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPeter+Rigby+and+Christian+Bird+%22Convergent+Contemporary+Software+Peer+Review+Practices%22",
+            "URLvideo": "",
+            "PersonsString": "Peter Rigby and Christian Bird",
+            "AffiliationsString": "Concordia University, Canada; Microsoft Research, USA",
+            "Authors": [
+                "Peter Rigby @ Concordia University, Canada",
+                "Christian Bird @ Microsoft Research, USA"
+            ],
+            "Affiliations": [
+                "Concordia University, Canada",
+                "Microsoft Research, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Incrementally Synthesizing Controllers from Scenario-Based Product Line Specifications",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id175-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJoel+Greenyer%2C+Christian+Brenner%2C+Maxime+Cordy%2C+Patrick+Heymans%2C+and+Erika+Gressi+%22Incrementally+Synthesizing+Controllers+from+Scenario-Based+Product+Line+Specifications%22",
+            "URLvideo": "",
+            "PersonsString": "Joel Greenyer, Christian Brenner, Maxime Cordy, Patrick Heymans, and Erika Gressi",
+            "AffiliationsString": "Politecnico di Milano, Italy; University of Paderborn, Germany; University of Namur, Belgium",
+            "Authors": [
+                "Joel Greenyer @ Politecnico di Milano, Italy",
+                "Christian Brenner @ University of Paderborn, Germany",
+                "Maxime Cordy @ University of Namur, Belgium",
+                "Patrick Heymans @ University of Namur, Belgium",
+                "Erika Gressi @ Politecnico di Milano, Italy"
+            ],
+            "Affiliations": [
+                "Politecnico di Milano, Italy",
+                "University of Paderborn, Germany",
+                "University of Namur, Belgium",
+                "University of Namur, Belgium",
+                "Politecnico di Milano, Italy"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "N-Way Model Merging",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id181-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJulia+Rubin+and+Marsha+Chechik+%22N-Way+Model+Merging%22",
+            "URLvideo": "",
+            "PersonsString": "Julia Rubin and Marsha Chechik",
+            "AffiliationsString": "IBM Research, Israel; University of Toronto, Canada",
+            "Authors": [
+                "Julia Rubin @ IBM Research, Israel",
+                "Marsha Chechik @ University of Toronto, Canada"
+            ],
+            "Affiliations": [
+                "IBM Research, Israel",
+                "University of Toronto, Canada"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Jalangi: A Selective Record-Replay and Dynamic Analysis Framework for JavaScript",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id185-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKoushik+Sen%2C+Tasneem+Brutch%2C+Simon+Gibbs%2C+and+Swaroop+Kalasapur+%22Jalangi%3A+A+Selective+Record-Replay+and+Dynamic+Analysis+Framework+for+JavaScript%22",
+            "URLvideo": "",
+            "PersonsString": "Koushik Sen, Tasneem Brutch, Simon Gibbs, and Swaroop Kalasapur",
+            "AffiliationsString": "UC Berkeley, USA; Samsung Research, USA",
+            "Authors": [
+                "Koushik Sen @ UC Berkeley, USA",
+                "Tasneem Brutch @ Samsung Research, USA",
+                "Simon Gibbs @ Samsung Research, USA",
+                "Swaroop Kalasapur @ Samsung Research, USA"
+            ],
+            "Affiliations": [
+                "UC Berkeley, USA",
+                "Samsung Research, USA",
+                "Samsung Research, USA",
+                "Samsung Research, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Explaining Inconsistent Code",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id199-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMartin+Sch%C3%A4f%2C+Daniel+Schwartz-Narbonne%2C+and+Thomas+Wies+%22Explaining+Inconsistent+Code%22",
+            "URLvideo": "",
+            "PersonsString": "Martin Schäf, Daniel Schwartz-Narbonne, and Thomas Wies",
+            "AffiliationsString": "United Nations University, China; New York University, USA",
+            "Authors": [
+                "Martin Schäf @ United Nations University, China",
+                "Daniel Schwartz-Narbonne @ New York University, USA",
+                "Thomas Wies @ New York University, USA"
+            ],
+            "Affiliations": [
+                "United Nations University, China",
+                "New York University, USA",
+                "New York University, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Mining Succinct Predicated Bug Signatures",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id207-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChengnian+Sun+and+Siau-Cheng+Khoo+%22Mining+Succinct+Predicated+Bug+Signatures%22",
+            "URLvideo": "",
+            "PersonsString": "Chengnian Sun and Siau-Cheng Khoo",
+            "AffiliationsString": "National University of Singapore, Singapore",
+            "Authors": [
+                "Chengnian Sun @ National University of Singapore, Singapore",
+                "Siau-Cheng Khoo @ National University of Singapore, Singapore"
+            ],
+            "Affiliations": [
+                "National University of Singapore, Singapore",
+                "National University of Singapore, Singapore"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Dynodroid: An Input Generation System for Android Apps",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id212-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAravind+Machiry%2C+Rohan+Tahiliani%2C+and+Mayur+Naik+%22Dynodroid%3A+An+Input+Generation+System+for+Android+Apps%22",
+            "URLvideo": "",
+            "PersonsString": "Aravind Machiry, Rohan Tahiliani, and Mayur Naik",
+            "AffiliationsString": "Georgia Tech, USA",
+            "Authors": [
+                "Aravind Machiry @ Georgia Tech, USA",
+                "Rohan Tahiliani @ Georgia Tech, USA",
+                "Mayur Naik @ Georgia Tech, USA"
+            ],
+            "Affiliations": [
+                "Georgia Tech, USA",
+                "Georgia Tech, USA",
+                "Georgia Tech, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Distributed Program Tracing",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id213-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDiptikalyan+Saha%2C+Pankaj+Dhoolia%2C+and+Gaurab+Paul+%22Distributed+Program+Tracing%22",
+            "URLvideo": "",
+            "PersonsString": "Diptikalyan Saha, Pankaj Dhoolia, and Gaurab Paul",
+            "AffiliationsString": "IBM Research, India; IIT Kharagpur, India",
+            "Authors": [
+                "Diptikalyan Saha @ IBM Research, India",
+                "Pankaj Dhoolia @ IBM Research, India",
+                "Gaurab Paul @ IIT Kharagpur, India"
+            ],
+            "Affiliations": [
+                "IBM Research, India",
+                "IBM Research, India",
+                "IIT Kharagpur, India"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Differential Assertion Checking",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id217-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShuvendu+Lahiri%2C+Ken+Mcmillan%2C+Rahul+Sharma%2C+and+Chris+Hawblitzel+%22Differential+Assertion+Checking%22",
+            "URLvideo": "",
+            "PersonsString": "Shuvendu Lahiri, Ken Mcmillan, Rahul Sharma, and Chris Hawblitzel",
+            "AffiliationsString": "Microsoft Research, USA; Stanford University, USA",
+            "Authors": [
+                "Shuvendu Lahiri @ Microsoft Research, USA",
+                "Ken Mcmillan @ Microsoft Research, USA",
+                "Rahul Sharma @ Stanford University, USA",
+                "Chris Hawblitzel @ Microsoft Research, USA"
+            ],
+            "Affiliations": [
+                "Microsoft Research, USA",
+                "Microsoft Research, USA",
+                "Stanford University, USA",
+                "Microsoft Research, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "(Con)2colic Testing",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id218-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAzadeh+Farzan%2C+Andreas+Holzer%2C+Niloofar+Razavi%2C+and+Helmut+Veith+%22%28Con%292colic+Testing%22",
+            "URLvideo": "",
+            "PersonsString": "Azadeh Farzan, Andreas Holzer, Niloofar Razavi, and Helmut Veith",
+            "AffiliationsString": "University of Toronto, Canada; TU Vienna, Austria",
+            "Authors": [
+                "Azadeh Farzan @ University of Toronto, Canada",
+                "Andreas Holzer @ TU Vienna, Austria",
+                "Niloofar Razavi @ University of Toronto, Canada",
+                "Helmut Veith @ TU Vienna, Austria"
+            ],
+            "Affiliations": [
+                "University of Toronto, Canada",
+                "TU Vienna, Austria",
+                "University of Toronto, Canada",
+                "TU Vienna, Austria"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Cascading Verification: An Integrated Method for Domain-Specific Model Checking",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id219-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFokion+Zervoudakis%2C+David+Rosenblum%2C+Sebastian+Elbaum%2C+and+Anthony+Finkelstein+%22Cascading+Verification%3A+An+Integrated+Method+for+Domain-Specific+Model+Checking%22",
+            "URLvideo": "",
+            "PersonsString": "Fokion Zervoudakis, David Rosenblum, Sebastian Elbaum, and Anthony Finkelstein",
+            "AffiliationsString": "University College London, UK; National University of Singapore, Singapore; University on Nebraska-Lincoln, USA",
+            "Authors": [
+                "Fokion Zervoudakis @ University College London, UK",
+                "David Rosenblum @ National University of Singapore, Singapore",
+                "Sebastian Elbaum @ University on Nebraska-Lincoln, USA",
+                "Anthony Finkelstein @ University College London, UK"
+            ],
+            "Affiliations": [
+                "University College London, UK",
+                "National University of Singapore, Singapore",
+                "University on Nebraska-Lincoln, USA",
+                "University College London, UK"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Feature Model Extraction from Large Collections of Informal Product Descriptions",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id221-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJean-Marc+Davril%2C+Edouard+Delfosse%2C+Negar+Hariri%2C+Mathieu+Acher%2C+Jane+Cleland-Huang%2C+and+Patrick+Heymans+%22Feature+Model+Extraction+from+Large+Collections+of+Informal+Product+Descriptions%22",
+            "URLvideo": "",
+            "PersonsString": "Jean-Marc Davril, Edouard Delfosse, Negar Hariri, Mathieu Acher, Jane Cleland-Huang, and Patrick Heymans",
+            "AffiliationsString": "University of Namur, Belgium; DePaul University, USA; University of Rennes I, France; INRIA, France",
+            "Authors": [
+                "Jean-Marc Davril @ University of Namur, Belgium",
+                "Edouard Delfosse @ University of Namur, Belgium",
+                "Negar Hariri @ DePaul University, USA",
+                "Mathieu Acher @ University of Rennes I, France / INRIA, France",
+                "Jane Cleland-Huang @ DePaul University, USA",
+                "Patrick Heymans @ University of Namur, Belgium"
+            ],
+            "Affiliations": [
+                "University of Namur, Belgium",
+                "University of Namur, Belgium",
+                "DePaul University, USA",
+                "University of Rennes I, France / INRIA, France",
+                "DePaul University, USA",
+                "University of Namur, Belgium"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Z3-str: A String Theory Plugin on Z3 for Web Application Analysis",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id232-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYunhui+Zheng%2C+Xiangyu+Zhang%2C+and+Vijay+Ganesh+%22Z3-str%3A+A+String+Theory+Plugin+on+Z3+for+Web+Application+Analysis%22",
+            "URLvideo": "",
+            "PersonsString": "Yunhui Zheng, Xiangyu Zhang, and Vijay Ganesh",
+            "AffiliationsString": "Purdue University, USA; University of Waterloo, Canada",
+            "Authors": [
+                "Yunhui Zheng @ Purdue University, USA",
+                "Xiangyu Zhang @ Purdue University, USA",
+                "Vijay Ganesh @ University of Waterloo, Canada"
+            ],
+            "Affiliations": [
+                "Purdue University, USA",
+                "Purdue University, USA",
+                "University of Waterloo, Canada"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Second-Order Constraints in Dynamic Invariant Inference",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id233-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKaituo+Li%2C+Christoph+Reichenbach%2C+Yannis+Smaragdakis%2C+and+Michal+Young+%22Second-Order+Constraints+in+Dynamic+Invariant+Inference%22",
+            "URLvideo": "",
+            "PersonsString": "Kaituo Li, Christoph Reichenbach, Yannis Smaragdakis, and Michal Young",
+            "AffiliationsString": "University of Massachusetts at Amherst, USA; Goethe University Frankfurt, Germany; University of Athens, Greece; University of Oregon, USA",
+            "Authors": [
+                "Kaituo Li @ University of Massachusetts at Amherst, USA",
+                "Christoph Reichenbach @ Goethe University Frankfurt, Germany",
+                "Yannis Smaragdakis @ University of Athens, Greece",
+                "Michal Young @ University of Oregon, USA"
+            ],
+            "Affiliations": [
+                "University of Massachusetts at Amherst, USA",
+                "Goethe University Frankfurt, Germany",
+                "University of Athens, Greece",
+                "University of Oregon, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Statistical Semantic Language Model for Source Code",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id234-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTung+Nguyen%2C+Anh+Nguyen%2C+Hoan+Nguyen%2C+and+Tien+Nguyen+%22Statistical+Semantic+Language+Model+for+Source+Code%22",
+            "URLvideo": "",
+            "PersonsString": "Tung Nguyen, Anh Nguyen, Hoan Nguyen, and Tien Nguyen",
+            "AffiliationsString": "Iowa State University, USA",
+            "Authors": [
+                "Tung Nguyen @ Iowa State University, USA",
+                "Anh Nguyen @ Iowa State University, USA",
+                "Hoan Nguyen @ Iowa State University, USA",
+                "Tien Nguyen @ Iowa State University, USA"
+            ],
+            "Affiliations": [
+                "Iowa State University, USA",
+                "Iowa State University, USA",
+                "Iowa State University, USA",
+                "Iowa State University, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "SPLat: Lightweight Dynamic Analysis for Reducing Combinatorics in Testing Configurable Systems",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id235-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChang+Hwan+Peter+Kim%2C+Darko+Marinov%2C+Sarfraz+Khurshid%2C+and+Don+Batory+%22SPLat%3A+Lightweight+Dynamic+Analysis+for+Reducing+Combinatorics+in+Testing+Configurable+Systems%22",
+            "URLvideo": "",
+            "PersonsString": "Chang Hwan Peter Kim, Darko Marinov, Sarfraz Khurshid, and Don Batory",
+            "AffiliationsString": "University of Texas at Austin, USA; University of Illinois at Urbana-Champaign, USA",
+            "Authors": [
+                "Chang Hwan Peter Kim @ University of Texas at Austin, USA",
+                "Darko Marinov @ University of Illinois at Urbana-Champaign, USA",
+                "Sarfraz Khurshid @ University of Texas at Austin, USA",
+                "Don Batory @ University of Texas at Austin, USA"
+            ],
+            "Affiliations": [
+                "University of Texas at Austin, USA",
+                "University of Illinois at Urbana-Champaign, USA",
+                "University of Texas at Austin, USA",
+                "University of Texas at Austin, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Making Offline Analyses Continuous",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id242-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DK%C4%B1van%C3%A7+Mu%C5%9Flu%2C+Yuriy+Brun%2C+Michael+D.+Ernst%2C+and+David+Notkin+%22Making+Offline+Analyses+Continuous%22",
+            "URLvideo": "",
+            "PersonsString": "Kıvanç Muşlu, Yuriy Brun, Michael D. Ernst, and David Notkin",
+            "AffiliationsString": "University of Washington, USA; University of Massachusetts, USA",
+            "Authors": [
+                "Kıvanç Muşlu @ University of Washington, USA",
+                "Yuriy Brun @ University of Massachusetts, USA",
+                "Michael D. Ernst @ University of Washington, USA",
+                "David Notkin @ University of Washington, USA"
+            ],
+            "Affiliations": [
+                "University of Washington, USA",
+                "University of Massachusetts, USA",
+                "University of Washington, USA",
+                "University of Washington, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Crossing the Gap from Imperative to Functional Programming through Refactoring",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id244-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAlex+Gyori%2C+Danny+Dig%2C+Lyle+Franklin%2C+and+Jan+Lahoda+%22Crossing+the+Gap+from+Imperative+to+Functional+Programming+through+Refactoring%22",
+            "URLvideo": "",
+            "PersonsString": "Alex Gyori, Danny Dig, Lyle Franklin, and Jan Lahoda",
+            "AffiliationsString": "Politehnica University of Timisoara, Romania; University of Illinois at Urbana-Champaign, USA; Ball State University, USA; Oracle, Czech Republic",
+            "Authors": [
+                "Alex Gyori @ Politehnica University of Timisoara, Romania",
+                "Danny Dig @ University of Illinois at Urbana-Champaign, USA",
+                "Lyle Franklin @ Ball State University, USA",
+                "Jan Lahoda @ Oracle, Czech Republic"
+            ],
+            "Affiliations": [
+                "Politehnica University of Timisoara, Romania",
+                "University of Illinois at Urbana-Champaign, USA",
+                "Ball State University, USA",
+                "Oracle, Czech Republic"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Identifying Message Flow in Distributed Event-Based Systems",
+            "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
+            "Key": "fse13main-id248-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJoshua+Garcia%2C+Daniel+Popescu%2C+Gholamreza+Safi%2C+William+G.+J.+Halfond%2C+and+Nenad+Medvidovic+%22Identifying+Message+Flow+in+Distributed+Event-Based+Systems%22",
+            "URLvideo": "",
+            "PersonsString": "Joshua Garcia, Daniel Popescu, Gholamreza Safi, William G. J. Halfond, and Nenad Medvidovic",
+            "AffiliationsString": "University of Southern California, USA",
+            "Authors": [
+                "Joshua Garcia @ University of Southern California, USA",
+                "Daniel Popescu @ University of Southern California, USA",
+                "Gholamreza Safi @ University of Southern California, USA",
+                "William G. J. Halfond @ University of Southern California, USA",
+                "Nenad Medvidovic @ University of Southern California, USA"
+            ],
+            "Affiliations": [
+                "University of Southern California, USA",
+                "University of Southern California, USA",
+                "University of Southern California, USA",
+                "University of Southern California, USA",
+                "University of Southern California, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        }
+    ],
+    "Sessions": [
+        {
+            "Title": "Full Papers",
+            "ShortTitle": "Full Papers",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-08-21 00:00 Full Papers",
+            "Day": "2013-08-21",
+            "Time": "00:00 - 00:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "fse13main-id2-p",
+                "fse13main-id9-p",
+                "fse13main-id16-p",
+                "fse13main-id19-p",
+                "fse13main-id35-p",
+                "fse13main-id43-p",
+                "fse13main-id50-p",
+                "fse13main-id51-p",
+                "fse13main-id53-p",
+                "fse13main-id54-p",
+                "fse13main-id57-p",
+                "fse13main-id78-p",
+                "fse13main-id87-p",
+                "fse13main-id95-p",
+                "fse13main-id102-p",
+                "fse13main-id108-p",
+                "fse13main-id110-p",
+                "fse13main-id113-p",
+                "fse13main-id116-p",
+                "fse13main-id117-p",
+                "fse13main-id121-p",
+                "fse13main-id126-p",
+                "fse13main-id136-p",
+                "fse13main-id138-p",
+                "fse13main-id142-p",
+                "fse13main-id145-p",
+                "fse13main-id150-p",
+                "fse13main-id152-p",
+                "fse13main-id155-p",
+                "fse13main-id157-p",
+                "fse13main-id161-p",
+                "fse13main-id162-p",
+                "fse13main-id163-p",
+                "fse13main-id175-p",
+                "fse13main-id181-p",
+                "fse13main-id185-p",
+                "fse13main-id199-p",
+                "fse13main-id207-p",
+                "fse13main-id212-p",
+                "fse13main-id213-p",
+                "fse13main-id217-p",
+                "fse13main-id218-p",
+                "fse13main-id219-p",
+                "fse13main-id221-p",
+                "fse13main-id232-p",
+                "fse13main-id233-p",
+                "fse13main-id234-p",
+                "fse13main-id235-p",
+                "fse13main-id242-p",
+                "fse13main-id244-p",
+                "fse13main-id248-p"
+            ]
+        }
+    ],
+    "People": [
+        {
+            "Name": "Mathieu Acher",
+            "Affiliation": "University of Rennes I, France / INRIA, France",
+            "Key": "Mathieu Acher @ University of Rennes I, France / INRIA, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sorawit Amornborvornwong",
+            "Affiliation": "DePaul University, USA",
+            "Key": "Sorawit Amornborvornwong @ DePaul University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sven Apel",
+            "Affiliation": "University of Passau, Germany",
+            "Key": "Sven Apel @ University of Passau, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Don Batory",
+            "Affiliation": "University of Texas at Austin, USA",
+            "Key": "Don Batory @ University of Texas at Austin, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gabriele Bavota",
+            "Affiliation": "University of Sannio, Italy",
+            "Key": "Gabriele Bavota @ University of Sannio, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Carlos Bernal-Cárdenas",
+            "Affiliation": "Universidad Nacional de Colombia, Colombia",
+            "Key": "Carlos Bernal-Cárdenas @ Universidad Nacional de Colombia, Colombia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Antonia Bertolino",
+            "Affiliation": "ISTI-CNR, Italy",
+            "Key": "Antonia Bertolino @ ISTI-CNR, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dirk Beyer",
+            "Affiliation": "University of Passau, Germany",
+            "Key": "Dirk Beyer @ University of Passau, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christian Bird",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Christian Bird @ Microsoft Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kelly Blincoe",
+            "Affiliation": "Drexel University, USA",
+            "Key": "Kelly Blincoe @ Drexel University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marcel Böhme",
+            "Affiliation": "National University Singapore, Singapore",
+            "Key": "Marcel Böhme @ National University Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Johannes Borgstrom",
+            "Affiliation": "Uppsala University, Sweden",
+            "Key": "Johannes Borgstrom @ Uppsala University, Sweden",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Pietro Braione",
+            "Affiliation": "University of Milano-Bicocca, Italy",
+            "Key": "Pietro Braione @ University of Milano-Bicocca, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christian Brenner",
+            "Affiliation": "University of Paderborn, Germany",
+            "Key": "Christian Brenner @ University of Paderborn, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yuriy Brun",
+            "Affiliation": "University of Massachusetts, USA",
+            "Key": "Yuriy Brun @ University of Massachusetts, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tasneem Brutch",
+            "Affiliation": "Samsung Research, USA",
+            "Key": "Tasneem Brutch @ Samsung Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ugo Buy",
+            "Affiliation": "University of Illinois at Chicago, USA",
+            "Key": "Ugo Buy @ University of Illinois at Chicago, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Cristian Cadar",
+            "Affiliation": "Imperial College London, UK",
+            "Key": "Cristian Cadar @ Imperial College London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marsha Chechik",
+            "Affiliation": "University of Toronto, Canada",
+            "Key": "Marsha Chechik @ University of Toronto, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Guillaume Claret",
+            "Affiliation": "INRIA, France",
+            "Key": "Guillaume Claret @ INRIA, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jane Cleland-Huang",
+            "Affiliation": "DePaul University, USA",
+            "Key": "Jane Cleland-Huang @ DePaul University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Myra B. Cohen",
+            "Affiliation": "University of Nebraska-Lincoln, USA",
+            "Key": "Myra B. Cohen @ University of Nebraska-Lincoln, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Maxime Cordy",
+            "Affiliation": "University of Namur, Belgium",
+            "Key": "Maxime Cordy @ University of Namur, Belgium",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Daniela Damian",
+            "Affiliation": "University of Victoria, Canada",
+            "Key": "Daniela Damian @ University of Victoria, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jean-Marc Davril",
+            "Affiliation": "University of Namur, Belgium",
+            "Key": "Jean-Marc Davril @ University of Namur, Belgium",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Goran Delac",
+            "Affiliation": "University of Zagreb, Croatia",
+            "Key": "Goran Delac @ University of Zagreb, Croatia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Edouard Delfosse",
+            "Affiliation": "University of Namur, Belgium",
+            "Key": "Edouard Delfosse @ University of Namur, Belgium",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Giovanni Denaro",
+            "Affiliation": "University of Milano-Bicocca, Italy",
+            "Key": "Giovanni Denaro @ University of Milano-Bicocca, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dave Detlefs",
+            "Affiliation": "Microsoft, USA",
+            "Key": "Dave Detlefs @ Microsoft, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Premkumar Devanbu",
+            "Affiliation": "UC Davis, USA",
+            "Key": "Premkumar Devanbu @ UC Davis, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Pankaj Dhoolia",
+            "Affiliation": "IBM Research, India",
+            "Key": "Pankaj Dhoolia @ IBM Research, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Danny Dig",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
+            "Key": "Danny Dig @ University of Illinois at Urbana-Champaign, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Massimiliano Di Penta",
+            "Affiliation": "University of Sannio, Italy",
+            "Key": "Massimiliano Di Penta @ University of Sannio, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jens Dörre",
+            "Affiliation": "University of Passau, Germany",
+            "Key": "Jens Dörre @ University of Passau, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Julian Dolby",
+            "Affiliation": "IBM Research, USA",
+            "Key": "Julian Dolby @ IBM Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sebastian Elbaum",
+            "Affiliation": "University on Nebraska-Lincoln, USA",
+            "Key": "Sebastian Elbaum @ University on Nebraska-Lincoln, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michael D. Ernst",
+            "Affiliation": "University of Washington, USA",
+            "Key": "Michael D. Ernst @ University of Washington, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michael Fanning",
+            "Affiliation": "Microsoft, USA",
+            "Key": "Michael Fanning @ Microsoft, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Azadeh Farzan",
+            "Affiliation": "University of Toronto, Canada",
+            "Key": "Azadeh Farzan @ University of Toronto, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lakshan Fernando",
+            "Affiliation": "Microsoft, USA",
+            "Key": "Lakshan Fernando @ Microsoft, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Anthony Finkelstein",
+            "Affiliation": "University College London, UK",
+            "Key": "Anthony Finkelstein @ University College London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lyle Franklin",
+            "Affiliation": "Ball State University, USA",
+            "Key": "Lyle Franklin @ Ball State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Vijay Ganesh",
+            "Affiliation": "University of Waterloo, Canada",
+            "Key": "Vijay Ganesh @ University of Waterloo, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Joshua Garcia",
+            "Affiliation": "University of Southern California, USA",
+            "Key": "Joshua Garcia @ University of Southern California, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Simon Gibbs",
+            "Affiliation": "Samsung Research, USA",
+            "Key": "Simon Gibbs @ Samsung Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sedar Gokbulut",
+            "Affiliation": "Microsoft, USA",
+            "Key": "Sedar Gokbulut @ Microsoft, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrew Gordon",
+            "Affiliation": "Microsoft Research, UK",
+            "Key": "Andrew Gordon @ Microsoft Research, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mark Grechanik",
+            "Affiliation": "University of Illinois at Chicago, USA",
+            "Key": "Mark Grechanik @ University of Illinois at Chicago, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Joel Greenyer",
+            "Affiliation": "Politecnico di Milano, Italy",
+            "Key": "Joel Greenyer @ Politecnico di Milano, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Erika Gressi",
+            "Affiliation": "Politecnico di Milano, Italy",
+            "Key": "Erika Gressi @ Politecnico di Milano, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Charles-Henri Gros",
+            "Affiliation": "Coverity, USA",
+            "Key": "Charles-Henri Gros @ Coverity, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alex Gyori",
+            "Affiliation": "Politehnica University of Timisoara, Romania",
+            "Key": "Alex Gyori @ Politehnica University of Timisoara, Romania",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "William G. J. Halfond",
+            "Affiliation": "University of Southern California, USA",
+            "Key": "William G. J. Halfond @ University of Southern California, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Negar Hariri",
+            "Affiliation": "DePaul University, USA",
+            "Key": "Negar Hariri @ DePaul University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mark Harman",
+            "Affiliation": "University College London, UK",
+            "Key": "Mark Harman @ University College London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hammad Hashmi",
+            "Affiliation": "Microsoft, USA",
+            "Key": "Hammad Hashmi @ Microsoft, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Chris Hawblitzel",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Chris Hawblitzel @ Microsoft Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Israel Herraiz",
+            "Affiliation": "Universidad Politécnica de Madrid, Spain",
+            "Key": "Israel Herraiz @ Universidad Politécnica de Madrid, Spain",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Patrick Heymans",
+            "Affiliation": "University of Namur, Belgium",
+            "Key": "Patrick Heymans @ University of Namur, Belgium",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andreas Holzer",
+            "Affiliation": "TU Vienna, Austria",
+            "Key": "Andreas Holzer @ TU Vienna, Austria",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "B. M. Mainul Hossain",
+            "Affiliation": "University of Illinois at Chicago, USA",
+            "Key": "B. M. Mainul Hossain @ University of Illinois at Chicago, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gang Hu",
+            "Affiliation": "Columbia University, USA",
+            "Key": "Gang Hu @ Columbia University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Joxan Jaffar",
+            "Affiliation": "National University of Singapore, Singapore",
+            "Key": "Joxan Jaffar @ National University of Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Casper S. Jensen",
+            "Affiliation": "Aarhus University, Denmark",
+            "Key": "Casper S. Jensen @ Aarhus University, Denmark",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yue Jia",
+            "Affiliation": "University College London, UK",
+            "Key": "Yue Jia @ University College London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christian Kästner",
+            "Affiliation": "CMU, USA",
+            "Key": "Christian Kästner @ CMU, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Swaroop Kalasapur",
+            "Affiliation": "Samsung Research, USA",
+            "Key": "Swaroop Kalasapur @ Samsung Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rezwana Karim",
+            "Affiliation": "Rutgers University, USA",
+            "Key": "Rezwana Karim @ Rutgers University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Siau-Cheng Khoo",
+            "Affiliation": "National University of Singapore, Singapore",
+            "Key": "Siau-Cheng Khoo @ National University of Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sarfraz Khurshid",
+            "Affiliation": "University of Texas at Austin, USA",
+            "Key": "Sarfraz Khurshid @ University of Texas at Austin, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Chang Hwan Peter Kim",
+            "Affiliation": "University of Texas at Austin, USA",
+            "Key": "Chang Hwan Peter Kim @ University of Texas at Austin, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jens Krinke",
+            "Affiliation": "University College London, UK",
+            "Key": "Jens Krinke @ University College London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shuvendu Lahiri",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Shuvendu Lahiri @ Microsoft Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jan Lahoda",
+            "Affiliation": "Oracle, Czech Republic",
+            "Key": "Jan Lahoda @ Oracle, Czech Republic",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christian Lengauer",
+            "Affiliation": "University of Passau, Germany",
+            "Key": "Christian Lengauer @ University of Passau, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bixin Li",
+            "Affiliation": "Southeast University, China",
+            "Key": "Bixin Li @ Southeast University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kaituo Li",
+            "Affiliation": "University of Massachusetts at Amherst, USA",
+            "Key": "Kaituo Li @ University of Massachusetts at Amherst, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Guangtai Liang",
+            "Affiliation": "Peking University, China",
+            "Key": "Guangtai Liang @ Peking University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jörg Liebig",
+            "Affiliation": "University of Passau, Germany",
+            "Key": "Jörg Liebig @ University of Passau, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mario Linares-Vásquez",
+            "Affiliation": "College of William and Mary, USA",
+            "Key": "Mario Linares-Vásquez @ College of William and Mary, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Peng Liu",
+            "Affiliation": "Hong Kong University of Science and Technology, China",
+            "Key": "Peng Liu @ Hong Kong University of Science and Technology, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Benjamin Livshits",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Benjamin Livshits @ Microsoft Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Stefan Löwe",
+            "Affiliation": "University of Passau, Germany",
+            "Key": "Stefan Löwe @ University of Passau, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sugandha Lohar",
+            "Affiliation": "DePaul University, USA",
+            "Key": "Sugandha Lohar @ DePaul University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Aravind Machiry",
+            "Affiliation": "Georgia Tech, USA",
+            "Key": "Aravind Machiry @ Georgia Tech, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Magnus Madsen",
+            "Affiliation": "Aarhus University, Denmark",
+            "Key": "Magnus Madsen @ Aarhus University, Denmark",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shahar Maoz",
+            "Affiliation": "Tel Aviv University, Israel",
+            "Key": "Shahar Maoz @ Tel Aviv University, Israel",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Eda Marchetti",
+            "Affiliation": "ISTI-CNR, Italy",
+            "Key": "Eda Marchetti @ ISTI-CNR, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alessandro Marchetto",
+            "Affiliation": "Centro Ricerche Fiat, Italy",
+            "Key": "Alessandro Marchetto @ Centro Ricerche Fiat, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Paul Marinescu",
+            "Affiliation": "Imperial College London, UK",
+            "Key": "Paul Marinescu @ Imperial College London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Darko Marinov",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
+            "Key": "Darko Marinov @ University of Illinois at Urbana-Champaign, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ken Mcmillan",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Ken Mcmillan @ Microsoft Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Scott McPeak",
+            "Affiliation": "Coverity, USA",
+            "Key": "Scott McPeak @ Coverity, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nenad Medvidovic",
+            "Affiliation": "University of Southern California, USA",
+            "Key": "Nenad Medvidovic @ University of Southern California, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hong Mei",
+            "Affiliation": "Peking University, China",
+            "Key": "Hong Mei @ Peking University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Anders Møller",
+            "Affiliation": "Aarhus University, Denmark",
+            "Key": "Anders Møller @ Aarhus University, Denmark",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrea Morichetta",
+            "Affiliation": "ISTI-CNR, Italy",
+            "Key": "Andrea Morichetta @ ISTI-CNR, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Vijayaraghavan Murali",
+            "Affiliation": "National University of Singapore, Singapore",
+            "Key": "Vijayaraghavan Murali @ National University of Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kıvanç Muşlu",
+            "Affiliation": "University of Washington, USA",
+            "Key": "Kıvanç Muşlu @ University of Washington, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Meiyappan Nagappan",
+            "Affiliation": "Queen’s University, Canada",
+            "Key": "Meiyappan Nagappan @ Queen’s University, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mayur Naik",
+            "Affiliation": "Georgia Tech, USA",
+            "Key": "Mayur Naik @ Georgia Tech, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jorge A. Navas",
+            "Affiliation": "University of Melbourne, Australia",
+            "Key": "Jorge A. Navas @ University of Melbourne, Australia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Anh Nguyen",
+            "Affiliation": "Iowa State University, USA",
+            "Key": "Anh Nguyen @ Iowa State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Cu Duy Nguyen",
+            "Affiliation": "Fondazione Bruno Kessler, Italy",
+            "Key": "Cu Duy Nguyen @ Fondazione Bruno Kessler, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hoan Nguyen",
+            "Affiliation": "Iowa State University, USA",
+            "Key": "Hoan Nguyen @ Iowa State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Khanh Nguyen",
+            "Affiliation": "UC Irvine, USA",
+            "Key": "Khanh Nguyen @ UC Irvine, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tien Nguyen",
+            "Affiliation": "Iowa State University, USA",
+            "Key": "Tien Nguyen @ Iowa State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tung Nguyen",
+            "Affiliation": "Iowa State University, USA",
+            "Key": "Tung Nguyen @ Iowa State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Aditya Nori",
+            "Affiliation": "Microsoft Research, India",
+            "Key": "Aditya Nori @ Microsoft Research, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "David Notkin",
+            "Affiliation": "University of Washington, USA",
+            "Key": "David Notkin @ University of Washington, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Evgeny Novikov",
+            "Affiliation": "ISP RAS, Russia",
+            "Key": "Evgeny Novikov @ ISP RAS, Russia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bruno C. d. S. Oliveira",
+            "Affiliation": "National University Singapore, Singapore",
+            "Key": "Bruno C. d. S. Oliveira @ National University Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rocco Oliveto",
+            "Affiliation": "University of Molise, Italy",
+            "Key": "Rocco Oliveto @ University of Molise, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gaurab Paul",
+            "Affiliation": "IIT Kharagpur, India",
+            "Key": "Gaurab Paul @ IIT Kharagpur, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kshama Pawar",
+            "Affiliation": "Microsoft, USA",
+            "Key": "Kshama Pawar @ Microsoft, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Justyna Petke",
+            "Affiliation": "University College London, UK",
+            "Key": "Justyna Petke @ University College London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mauro Pezzè",
+            "Affiliation": "University of Milano-Bicocca, Italy",
+            "Key": "Mauro Pezzè @ University of Milano-Bicocca, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Daniel Popescu",
+            "Affiliation": "University of Southern California, USA",
+            "Key": "Daniel Popescu @ University of Southern California, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Denys Poshyvanyk",
+            "Affiliation": "College of William and Mary, USA",
+            "Key": "Denys Poshyvanyk @ College of William and Mary, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Daryl Posnett",
+            "Affiliation": "UC Davis, USA",
+            "Key": "Daryl Posnett @ UC Davis, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dong Qiu",
+            "Affiliation": "Southeast University, China",
+            "Key": "Dong Qiu @ Southeast University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Foyzur Rahman",
+            "Affiliation": "UC Davis, USA",
+            "Key": "Foyzur Rahman @ UC Davis, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sriram Rajamani",
+            "Affiliation": "Microsoft Research, India",
+            "Key": "Sriram Rajamani @ Microsoft Research, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Murali Krishna Ramanathan",
+            "Affiliation": "Indian Institute of Science, India",
+            "Key": "Murali Krishna Ramanathan @ Indian Institute of Science, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Niloofar Razavi",
+            "Affiliation": "University of Toronto, Canada",
+            "Key": "Niloofar Razavi @ University of Toronto, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christoph Reichenbach",
+            "Affiliation": "Goethe University Frankfurt, Germany",
+            "Key": "Christoph Reichenbach @ Goethe University Frankfurt, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alexander von Rhein",
+            "Affiliation": "University of Passau, Germany",
+            "Key": "Alexander von Rhein @ University of Passau, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Peter Rigby",
+            "Affiliation": "Concordia University, Canada",
+            "Key": "Peter Rigby @ Concordia University, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Noam Rinetzky",
+            "Affiliation": "Tel Aviv University, Israel",
+            "Key": "Noam Rinetzky @ Tel Aviv University, Israel",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jan Oliver Ringert",
+            "Affiliation": "RWTH Aachen University, Germany",
+            "Key": "Jan Oliver Ringert @ RWTH Aachen University, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "David Rosenblum",
+            "Affiliation": "National University of Singapore, Singapore",
+            "Key": "David Rosenblum @ National University of Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andreas Roth",
+            "Affiliation": "SAP, Germany",
+            "Key": "Andreas Roth @ SAP, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Abhik Roychoudhury",
+            "Affiliation": "National University Singapore, Singapore",
+            "Key": "Abhik Roychoudhury @ National University Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Julia Rubin",
+            "Affiliation": "IBM Research, Israel",
+            "Key": "Julia Rubin @ IBM Research, Israel",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bernhard Rumpe",
+            "Affiliation": "RWTH Aachen University, Germany",
+            "Key": "Bernhard Rumpe @ RWTH Aachen University, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gholamreza Safi",
+            "Affiliation": "University of Southern California, USA",
+            "Key": "Gholamreza Safi @ University of Southern California, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Diptikalyan Saha",
+            "Affiliation": "IBM Research, India",
+            "Key": "Diptikalyan Saha @ IBM Research, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Martin Schäf",
+            "Affiliation": "United Nations University, China",
+            "Key": "Martin Schäf @ United Nations University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Matthias Schur",
+            "Affiliation": "SAP, Germany",
+            "Key": "Matthias Schur @ SAP, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Daniel Schwartz-Narbonne",
+            "Affiliation": "New York University, USA",
+            "Key": "Daniel Schwartz-Narbonne @ New York University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Koushik Sen",
+            "Affiliation": "UC Berkeley, USA",
+            "Key": "Koushik Sen @ UC Berkeley, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rahul Sharma",
+            "Affiliation": "Stanford University, USA",
+            "Key": "Rahul Sharma @ Stanford University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marin Silic",
+            "Affiliation": "University of Zagreb, Croatia",
+            "Key": "Marin Silic @ University of Zagreb, Croatia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nishant Sinha",
+            "Affiliation": "IBM Research, India",
+            "Key": "Nishant Sinha @ IBM Research, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yannis Smaragdakis",
+            "Affiliation": "University of Athens, Greece",
+            "Key": "Yannis Smaragdakis @ University of Athens, Greece",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sinisa Srbljic",
+            "Affiliation": "University of Zagreb, Croatia",
+            "Key": "Sinisa Srbljic @ University of Zagreb, Croatia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andreas Stahlbauer",
+            "Affiliation": "University of Passau, Germany",
+            "Key": "Andreas Stahlbauer @ University of Passau, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zhendong Su",
+            "Affiliation": "UC Davis, USA",
+            "Key": "Zhendong Su @ UC Davis, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Chengnian Sun",
+            "Affiliation": "National University of Singapore, Singapore",
+            "Key": "Chengnian Sun @ National University of Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rohan Tahiliani",
+            "Affiliation": "Georgia Tech, USA",
+            "Key": "Rohan Tahiliani @ Georgia Tech, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yang Tang",
+            "Affiliation": "Columbia University, USA",
+            "Key": "Yang Tang @ Columbia University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Paolo Tonella",
+            "Affiliation": "Fondazione Bruno Kessler, Italy",
+            "Key": "Paolo Tonella @ Fondazione Bruno Kessler, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Omer Tripp",
+            "Affiliation": "Tel Aviv University, Israel",
+            "Key": "Omer Tripp @ Tel Aviv University, Israel",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Giuseppe Valetto",
+            "Affiliation": "Drexel University, USA",
+            "Key": "Giuseppe Valetto @ Drexel University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Helmut Veith",
+            "Affiliation": "TU Vienna, Austria",
+            "Key": "Helmut Veith @ TU Vienna, Austria",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Scott Wadsworth",
+            "Affiliation": "Microsoft, USA",
+            "Key": "Scott Wadsworth @ Microsoft, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Haisheng Wang",
+            "Affiliation": "Oracle Corp, USA",
+            "Key": "Haisheng Wang @ Oracle Corp, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Qianxiang Wang",
+            "Affiliation": "Peking University, China",
+            "Key": "Qianxiang Wang @ Peking University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tiantian Wang",
+            "Affiliation": "Harbin Institute of Technology, China",
+            "Key": "Tiantian Wang @ Harbin Institute of Technology, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Philipp Wendler",
+            "Affiliation": "University of Passau, Germany",
+            "Key": "Philipp Wendler @ University of Passau, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Thomas Wies",
+            "Affiliation": "New York University, USA",
+            "Key": "Thomas Wies @ New York University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jingyue Wu",
+            "Affiliation": "Columbia University, USA",
+            "Key": "Jingyue Wu @ Columbia University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tao Xie",
+            "Affiliation": "North Carolina State University, USA",
+            "Key": "Tao Xie @ North Carolina State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Guoqing Xu",
+            "Affiliation": "UC Irvine, USA",
+            "Key": "Guoqing Xu @ UC Irvine, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Junfeng Yang",
+            "Affiliation": "Columbia University, USA",
+            "Key": "Junfeng Yang @ Columbia University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shin Yoo",
+            "Affiliation": "University College London, UK",
+            "Key": "Shin Yoo @ University College London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michal Young",
+            "Affiliation": "University of Oregon, USA",
+            "Key": "Michal Young @ University of Oregon, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andreas Zeller",
+            "Affiliation": "Saarland University, Germany",
+            "Key": "Andreas Zeller @ Saarland University, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Fokion Zervoudakis",
+            "Affiliation": "University College London, UK",
+            "Key": "Fokion Zervoudakis @ University College London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Charles Zhang",
+            "Affiliation": "Hong Kong University of Science and Technology, China",
+            "Key": "Charles Zhang @ Hong Kong University of Science and Technology, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xiangyu Zhang",
+            "Affiliation": "Purdue University, USA",
+            "Key": "Xiangyu Zhang @ Purdue University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yunhui Zheng",
+            "Affiliation": "Purdue University, USA",
+            "Key": "Yunhui Zheng @ Purdue University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Thomas Zimmermann",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Thomas Zimmermann @ Microsoft Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrea Zisman",
+            "Affiliation": "City University London, UK",
+            "Key": "Andrea Zisman @ City University London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        }
+    ]
+}
+ 
+
