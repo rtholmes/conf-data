@@ -4,6 +4,18 @@
 "Events": [
 
 	{
+	    "Id" : "FSE2013",
+	    "Name" : "ESEC/FSE 2013",
+        "Version" : 1,
+	    "File" : "2013FSE.json",
+	    "StartDate" : "08/18/2013",
+	    "EndDate" : "08/26/2013",
+	    "Description" : "Program for the 2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on Foundations of Software Engineering  (ESEC/FSE)",
+		"Icon" : "2013FSE.png",
+		"Image" : "2013FSE.png"
+	},
+	
+	{
 	    "Id" : "FORTE2013",
 	    "Name" : "FORTE 2013",
         "Version" : 1,
