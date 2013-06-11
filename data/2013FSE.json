@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1370067996,
+    "DataRevision": 1370788170,
     "Preliminary": true,
     "Event": "ESEC/FSE 2013",
     "Name": "ESEC/FSE 2013",
@@ -200,7 +200,7 @@
                 "Universidad Politécnica de Madrid, Spain",
                 "UC Davis, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Most empirical disciplines promote the reuse and sharing of datasets, as it leads to greater possibility of replication. While this is increasingly the case in Empirical Software Engineering, some of the most popular bug-fix datasets are now known to be biased. This raises two significants concerns: first, that sample bias may lead to underperforming prediction models, and second, that the external validity of the studies based on biased datasets may be suspect. This issue has raised considerable consternation in the ESE literature in recent years. However, there is a confounding factor of these datasets that has not been examined carefully: size. Biased datasets are sampling only some of the data that could be sampled, and doing so in a biased fashion; but biased samples could be smaller, or larger. Smaller data sets in general provide less reliable bases for estimating models, and thus could lead to inferior model performance. In this setting, we ask the question, what affects performance more? bias, or size? We conduct a detailed, large-scale meta-analysis, using simulated datasets sampled with bias from a high-quality dataset which is relatively free of bias. Our results suggest that size always matters just as much bias direction, and in fact much more than bias direction when considering information-retrieval measures such as AUC and F-score. This indicates that at least for prediction models, even when dealing with sampling bias, simply finding larger samples can sometimes be sufficient. Our analysis also exposes the complexity of the bias issue, and raises further issues to be explored in the future.",
             "Award": ""
         },
         {
@@ -399,10 +399,10 @@
             "Award": ""
         },
         {
-            "Title": "API Change and Fault Proneness: A Threat to Commercial Success of Android Apps",
+            "Title": "API Change and Fault Proneness: A Threat to the Success of Android Apps",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id110-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMario+Linares-V%C3%A1squez%2C+Gabriele+Bavota%2C+Carlos+Bernal-C%C3%A1rdenas%2C+Massimiliano+Di+Penta%2C+Rocco+Oliveto%2C+and+Denys+Poshyvanyk+%22API+Change+and+Fault+Proneness%3A+A+Threat+to+Commercial+Success+of+Android+Apps%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMario+Linares-V%C3%A1squez%2C+Gabriele+Bavota%2C+Carlos+Bernal-C%C3%A1rdenas%2C+Massimiliano+Di+Penta%2C+Rocco+Oliveto%2C+and+Denys+Poshyvanyk+%22API+Change+and+Fault+Proneness%3A+A+Threat+to+the+Success+of+Android+Apps%22",
             "URLvideo": "",
             "PersonsString": "Mario Linares-Vásquez, Gabriele Bavota, Carlos Bernal-Cárdenas, Massimiliano Di Penta, Rocco Oliveto, and Denys Poshyvanyk",
             "AffiliationsString": "College of William and Mary, USA; University of Sannio, Italy; Universidad Nacional de Colombia, Colombia; University of Molise, Italy",
@@ -429,7 +429,7 @@
             "Title": "Reusing Precisions for Efficient Regression Verification",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id113-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDirk+Beyer%2C+Stefan+L%C3%B6we%2C+Evgeny+Novikov%2C+Andreas+Stahlbauer%2C+and+Philipp+Wendler+%22Reusing+Precisions+for+Efficient+Regression+Verification%22",
+            "URL": "http%3A%2F%2Fwww.sosy-lab.org%2F%7Edbeyer%2FPublications%2F2013-PA-TR1302.Reusing_Precisions_for_Efficient_Regression_Verification.pdf",
             "URLvideo": "",
             "PersonsString": "Dirk Beyer, Stefan Löwe, Evgeny Novikov, Andreas Stahlbauer, and Philipp Wendler",
             "AffiliationsString": "University of Passau, Germany; ISP RAS, Russia",
@@ -632,12 +632,12 @@
             "Title": "KATCH: High-Coverage Testing of Software Patches",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id150-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPaul+Marinescu+and+Cristian+Cadar+%22KATCH%3A+High-Coverage+Testing+of+Software+Patches%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPaul+Dan+Marinescu+and+Cristian+Cadar+%22KATCH%3A+High-Coverage+Testing+of+Software+Patches%22",
             "URLvideo": "",
-            "PersonsString": "Paul Marinescu and Cristian Cadar",
+            "PersonsString": "Paul Dan Marinescu and Cristian Cadar",
             "AffiliationsString": "Imperial College London, UK",
             "Authors": [
-                "Paul Marinescu @ Imperial College London, UK",
+                "Paul Dan Marinescu @ Imperial College London, UK",
                 "Cristian Cadar @ Imperial College London, UK"
             ],
             "Affiliations": [
@@ -1097,21 +1097,27 @@
             "Title": "SPLat: Lightweight Dynamic Analysis for Reducing Combinatorics in Testing Configurable Systems",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id235-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChang+Hwan+Peter+Kim%2C+Darko+Marinov%2C+Sarfraz+Khurshid%2C+and+Don+Batory+%22SPLat%3A+Lightweight+Dynamic+Analysis+for+Reducing+Combinatorics+in+Testing+Configurable+Systems%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChang+Hwan+Peter+Kim%2C+Darko+Marinov%2C+Sarfraz+Khurshid%2C+Don+Batory%2C+Sabrina+Souto%2C+Paulo+Barros%2C+and+Marcelo+d%27Amorim+%22SPLat%3A+Lightweight+Dynamic+Analysis+for+Reducing+Combinatorics+in+Testing+Configurable+Systems%22",
             "URLvideo": "",
-            "PersonsString": "Chang Hwan Peter Kim, Darko Marinov, Sarfraz Khurshid, and Don Batory",
-            "AffiliationsString": "University of Texas at Austin, USA; University of Illinois at Urbana-Champaign, USA",
+            "PersonsString": "Chang Hwan Peter Kim, Darko Marinov, Sarfraz Khurshid, Don Batory, Sabrina Souto, Paulo Barros, and Marcelo d'Amorim",
+            "AffiliationsString": "University of Texas at Austin, USA; University of Illinois at Urbana-Champaign, USA; Federal University of Pernambuco, Brazil",
             "Authors": [
                 "Chang Hwan Peter Kim @ University of Texas at Austin, USA",
                 "Darko Marinov @ University of Illinois at Urbana-Champaign, USA",
                 "Sarfraz Khurshid @ University of Texas at Austin, USA",
-                "Don Batory @ University of Texas at Austin, USA"
+                "Don Batory @ University of Texas at Austin, USA",
+                "Sabrina Souto @ Federal University of Pernambuco, Brazil",
+                "Paulo Barros @ Federal University of Pernambuco, Brazil",
+                "Marcelo d'Amorim @ Federal University of Pernambuco, Brazil"
             ],
             "Affiliations": [
                 "University of Texas at Austin, USA",
                 "University of Illinois at Urbana-Champaign, USA",
                 "University of Texas at Austin, USA",
-                "University of Texas at Austin, USA"
+                "University of Texas at Austin, USA",
+                "Federal University of Pernambuco, Brazil",
+                "Federal University of Pernambuco, Brazil",
+                "Federal University of Pernambuco, Brazil"
             ],
             "Abstract": "",
             "Award": ""
@@ -1186,15 +1192,134 @@
             ],
             "Abstract": "",
             "Award": ""
+        },
+        {
+            "Title": "Automatically Describing Software Faults",
+            "Type": "Short Paper (4 pages)",
+            "Key": "fse13doctoral-id3-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNicholas+Digiuseppe+%22Automatically+Describing+Software+Faults%22",
+            "URLvideo": "",
+            "PersonsString": "Nicholas Digiuseppe",
+            "AffiliationsString": "UC Irvine, USA",
+            "Authors": [
+                "Nicholas Digiuseppe @ UC Irvine, USA"
+            ],
+            "Affiliations": [
+                "UC Irvine, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Using Topic Models to Understand the Evolution of a Software Ecosystem",
+            "Type": "Short Paper (4 pages)",
+            "Key": "fse13doctoral-id7-p",
+            "URL": "http%3A%2F%2Fwww.ics.uci.edu%2F%7Enlopezgi%2Funpublished%2Fdsfse13_nlopezgi.pdf",
+            "URLvideo": "",
+            "PersonsString": "Nicolas Lopez",
+            "AffiliationsString": "UC Irvine, USA",
+            "Authors": [
+                "Nicolas Lopez @ UC Irvine, USA"
+            ],
+            "Affiliations": [
+                "UC Irvine, USA"
+            ],
+            "Abstract": "The development of a software system is now ever more frequently a part of a larger development effort, including multiple software systems that co-exist in the same environment: a software ecosystem. Though most studies of the evolution of software have focused on a single software system, there is much that we can learn from the analysis of a set of interrelated systems. Topic modeling techniques show promise for mining the data stored in software repositories to understand the evolution of a system. In my research I seek to explore how topic modeling techniques can aid in understanding the evolution of a software ecosystem. The results of this research have the potential to improve how topic modeling techniques are used to predict, plan, and understand the evolution of software, and will inform the design of tools that support software engineering activities such as feature location, expertise identification, and bug detection.",
+            "Award": ""
+        },
+        {
+            "Title": "Automotive Architecture Description and Its Quality",
+            "Type": "Short Paper (4 pages)",
+            "Key": "fse13doctoral-id6-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYanja+Dajsuren+%22Automotive+Architecture+Description+and+Its+Quality%22",
+            "URLvideo": "",
+            "PersonsString": "Yanja Dajsuren",
+            "AffiliationsString": "Eindhoven University of Technology, Netherlands",
+            "Authors": [
+                "Yanja Dajsuren @ Eindhoven University of Technology, Netherlands"
+            ],
+            "Affiliations": [
+                "Eindhoven University of Technology, Netherlands"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "A Framework for Defining the Dynamic Semantics of DSLs",
+            "Type": "Short Paper (4 pages)",
+            "Key": "fse13doctoral-id8-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DUlyana+Tikhonova+%22A+Framework+for+Defining+the+Dynamic+Semantics+of+DSLs%22",
+            "URLvideo": "",
+            "PersonsString": "Ulyana Tikhonova",
+            "AffiliationsString": "Eindhoven University of Technology, Netherlands",
+            "Authors": [
+                "Ulyana Tikhonova @ Eindhoven University of Technology, Netherlands"
+            ],
+            "Affiliations": [
+                "Eindhoven University of Technology, Netherlands"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Fuzzy Service Matching in On-the-Fly Computing ",
+            "Type": "Short Paper (4 pages)",
+            "Key": "fse13doctoral-id2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMarie+Christin+Platenius+%22Fuzzy+Service+Matching+in+On-the-Fly+Computing%C2%A0%22",
+            "URLvideo": "",
+            "PersonsString": "Marie Christin Platenius",
+            "AffiliationsString": "University of Paderborn, Germany",
+            "Authors": [
+                "Marie Christin Platenius @ University of Paderborn, Germany"
+            ],
+            "Affiliations": [
+                "University of Paderborn, Germany"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "PHRT: A Model and Programmable Tool for Hardware Reengineering Automation ",
+            "Type": "Short Paper (4 pages)",
+            "Key": "fse13doctoral-id1-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DOleg+Nenashev+%22PHRT%3A+A+Model+and+Programmable+Tool+for+Hardware+Reengineering+Automation%C2%A0%22",
+            "URLvideo": "",
+            "PersonsString": "Oleg Nenashev",
+            "AffiliationsString": "Saint Petersburg State Polytechnical University, Russia",
+            "Authors": [
+                "Oleg Nenashev @ Saint Petersburg State Polytechnical University, Russia"
+            ],
+            "Affiliations": [
+                "Saint Petersburg State Polytechnical University, Russia"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Towards Open Architecture System ",
+            "Type": "Short Paper (4 pages)",
+            "Key": "fse13doctoral-id4-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBahtijar+Vogel+%22Towards+Open+Architecture+System%C2%A0%22",
+            "URLvideo": "",
+            "PersonsString": "Bahtijar Vogel",
+            "AffiliationsString": "Linnaeus University, Sweden",
+            "Authors": [
+                "Bahtijar Vogel @ Linnaeus University, Sweden"
+            ],
+            "Affiliations": [
+                "Linnaeus University, Sweden"
+            ],
+            "Abstract": "",
+            "Award": ""
         }
     ],
     "Sessions": [
         {
-            "Title": "Full Papers",
-            "ShortTitle": "Full Papers",
+            "Title": "Technical Research",
+            "ShortTitle": "Technical Research",
             "Type": "Technical Research",
             "ShortType": "Technical Research",
-            "Key": "2013-08-21 00:00 Full Papers",
+            "Key": "2013-08-21 00:00 Technical Research",
             "Day": "2013-08-21",
             "Time": "00:00 - 00:00",
             "Location": "",
@@ -1259,6 +1384,33 @@
                 "fse13main-id244-p",
                 "fse13main-id248-p"
             ]
+        },
+        {
+            "Title": "Doctoral Symposium",
+            "ShortTitle": "Doctoral Symposium",
+            "Type": "Doctoral Symposium",
+            "ShortType": "Doctoral Symposium",
+            "Key": "2013-08-21 00:00 Doctoral Symposium",
+            "Day": "2013-08-21",
+            "Time": "00:00 - 00:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13DOCTORAL",
+            "Abstract": "",
+            "Items": [
+                "fse13doctoral-id3-p",
+                "fse13doctoral-id7-p",
+                "fse13doctoral-id6-p",
+                "fse13doctoral-id8-p",
+                "fse13doctoral-id2-p",
+                "fse13doctoral-id1-p",
+                "fse13doctoral-id4-p"
+            ]
         }
     ],
     "People": [
@@ -1286,6 +1438,16 @@
             "Name": "Sven Apel",
             "Affiliation": "University of Passau, Germany",
             "Key": "Sven Apel @ University of Passau, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Paulo Barros",
+            "Affiliation": "Federal University of Pernambuco, Brazil",
+            "Key": "Paulo Barros @ Federal University of Pernambuco, Brazil",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -1493,9 +1655,29 @@
             "URLgs": ""
         },
         {
+            "Name": "Yanja Dajsuren",
+            "Affiliation": "Eindhoven University of Technology, Netherlands",
+            "Key": "Yanja Dajsuren @ Eindhoven University of Technology, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Daniela Damian",
             "Affiliation": "University of Victoria, Canada",
             "Key": "Daniela Damian @ University of Victoria, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marcelo d'Amorim",
+            "Affiliation": "Federal University of Pernambuco, Brazil",
+            "Key": "Marcelo d'Amorim @ Federal University of Pernambuco, Brazil",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -1576,6 +1758,16 @@
             "Name": "Danny Dig",
             "Affiliation": "University of Illinois at Urbana-Champaign, USA",
             "Key": "Danny Dig @ University of Illinois at Urbana-Champaign, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nicholas Digiuseppe",
+            "Affiliation": "UC Irvine, USA",
+            "Key": "Nicholas Digiuseppe @ UC Irvine, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2103,6 +2295,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Nicolas Lopez",
+            "Affiliation": "UC Irvine, USA",
+            "Key": "Nicolas Lopez @ UC Irvine, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Aravind Machiry",
             "Affiliation": "Georgia Tech, USA",
             "Key": "Aravind Machiry @ Georgia Tech, USA",
@@ -2153,9 +2355,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Paul Marinescu",
+            "Name": "Paul Dan Marinescu",
             "Affiliation": "Imperial College London, UK",
-            "Key": "Paul Marinescu @ Imperial College London, UK",
+            "Key": "Paul Dan Marinescu @ Imperial College London, UK",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2276,6 +2478,16 @@
             "Name": "Jorge A. Navas",
             "Affiliation": "University of Melbourne, Australia",
             "Key": "Jorge A. Navas @ University of Melbourne, Australia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Oleg Nenashev",
+            "Affiliation": "Saint Petersburg State Polytechnical University, Russia",
+            "Key": "Oleg Nenashev @ Saint Petersburg State Polytechnical University, Russia",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2426,6 +2638,16 @@
             "Name": "Mauro Pezzè",
             "Affiliation": "University of Milano-Bicocca, Italy",
             "Key": "Mauro Pezzè @ University of Milano-Bicocca, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marie Christin Platenius",
+            "Affiliation": "University of Paderborn, Germany",
+            "Key": "Marie Christin Platenius @ University of Paderborn, Germany",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2713,6 +2935,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Sabrina Souto",
+            "Affiliation": "Federal University of Pernambuco, Brazil",
+            "Key": "Sabrina Souto @ Federal University of Pernambuco, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Sinisa Srbljic",
             "Affiliation": "University of Zagreb, Croatia",
             "Key": "Sinisa Srbljic @ University of Zagreb, Croatia",
@@ -2773,6 +3005,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Ulyana Tikhonova",
+            "Affiliation": "Eindhoven University of Technology, Netherlands",
+            "Key": "Ulyana Tikhonova @ Eindhoven University of Technology, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Paolo Tonella",
             "Affiliation": "Fondazione Bruno Kessler, Italy",
             "Key": "Paolo Tonella @ Fondazione Bruno Kessler, Italy",
@@ -2806,6 +3048,16 @@
             "Name": "Helmut Veith",
             "Affiliation": "TU Vienna, Austria",
             "Key": "Helmut Veith @ TU Vienna, Austria",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bahtijar Vogel",
+            "Affiliation": "Linnaeus University, Sweden",
+            "Key": "Bahtijar Vogel @ Linnaeus University, Sweden",
             "Bio": "",
             "URL": "",
             "URLphoto": "",

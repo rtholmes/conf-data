@@ -1,0 +1,2483 @@
+{
+    "DataRevision": 1370985087,
+    "Preliminary": false,
+    "Event": "ISSTA 2013",
+    "Name": "ISSTA 2013",
+    "Description": "",
+    "Location": "Lugano, Switzerland",
+    "Sponsors": "",
+    "URL": "http://issta2013.inf.usi.ch/",
+    "MultiTrack": "false",
+    "Organization": {
+        "General Chairs": [
+                "Mauro Pezzè"
+        ],
+        "PC Chairs": [
+                "Mark Harman"
+        ]
+    },
+    "SocialFeeds": [
+    ],
+    "VenueInfo": {
+        "Name": "",
+        "GPS": {
+            "Latitude": 0,
+            "Longitude": 0
+        }
+    },
+    "InfoPage": {
+        "xaml": "foo",
+        "Elements": [
+            {
+                "XamlName": "ConferenceCenterMap",
+                "Type": "Map",
+                "GPS": {
+                    "Latitude": 0,
+                    "Longitude": 0
+                },
+                "MapLabel": ""
+            },
+            {
+                "XamlName": "LicenseButton",
+                "Type": "WebLink",
+                "URL": "http://research.microsoft.com/en-US/projects/confapp/terms.aspx"
+            },
+            {
+                "XamlName": "PrivacyButton",
+                "Type": "WebLink",
+                "URL": "http://privacy.microsoft.com/en-us/default.msp"
+            }
+        ]
+    },
+    "SessionPriorities": [
+        "Award",
+        "Invited Talk",
+        "Other"
+    ],
+    "Items": [
+        {
+            "Title": "Expressing and Checking Intended Changes via Software Change Contracts",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id95-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJooyong+Yi%2C+Dawei+Qi%2C+Shin+Hwei+Tan%2C+and+Abhik+Roychoudhury+%22Expressing+and+Checking+Intended+Changes+via+Software+Change+Contracts%22",
+            "URLvideo": "",
+            "PersonsString": "Jooyong Yi, Dawei Qi, Shin Hwei Tan, and Abhik Roychoudhury",
+            "AffiliationsString": "National University of Singapore, Singapore",
+            "Authors": [
+                "Jooyong Yi @ National University of Singapore, Singapore",
+                "Dawei Qi @ National University of Singapore, Singapore",
+                "Shin Hwei Tan @ National University of Singapore, Singapore",
+                "Abhik Roychoudhury @ National University of Singapore, Singapore"
+            ],
+            "Affiliations": [
+                "National University of Singapore, Singapore",
+                "National University of Singapore, Singapore",
+                "National University of Singapore, Singapore",
+                "National University of Singapore, Singapore"
+            ],
+            "Abstract": "Software errors often originate from incorrect changes, including incorrect program fixes, incorrect feature updates and so on. Capturing the intended program behavior explicitly via contracts is thus an attractive proposition. In our recent work, we had espoused the notion of \"change contracts\" to express the intended program behavior changes across program versions. Change contracts differ from program contracts in that they do not require the programmer to describe the intended behavior of program features which are unchanged across program versions. In this work, we present the formal semantics of our change contract language built on top of the Java Modeling Language (JML). Our change contract language can describe behavioral as well as structural changes. We evaluate the expressivity of the change contract language via a survey given to final year undergraduate students. The survey results enable us to understand the usability of our change contract language for purposes of writing contracts, comprehending written contracts, and modifying programs according to given change contracts. Finally, we discuss the tool support developed for our change contract language. The tool support enables (i) test generation to witness contract violation, as well as (ii) automated repair of certain tests which are broken due to program changes.",
+            "Award": ""
+        },
+        {
+            "Title": "Finding Rare Numerical Stability Errors in Concurrent Computations",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id57-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHana+Chockler%2C+Karine+Even%2C+and+Eran+Yahav+%22Finding+Rare+Numerical+Stability+Errors+in+Concurrent+Computations%22",
+            "URLvideo": "",
+            "PersonsString": "Hana Chockler, Karine Even, and Eran Yahav",
+            "AffiliationsString": "IBM Research, Israel; Technion, Israel",
+            "Authors": [
+                "Hana Chockler @ IBM Research, Israel",
+                "Karine Even @ IBM Research, Israel / Technion, Israel",
+                "Eran Yahav @ Technion, Israel"
+            ],
+            "Affiliations": [
+                "IBM Research, Israel",
+                "IBM Research, Israel / Technion, Israel",
+                "Technion, Israel"
+            ],
+            "Abstract": "A numerical algorithm is called stable if an error, in all possible executions of the algorithm, does not exceed a predefined bound. Introduction of concurrency to numerical algorithms results in a significant increase in the number of possible computations of the same result, due to different possible interleavings of concurrent threads. This can lead to instability of previously stable algorithms, since rounding can result in a larger error than expected for some interleavings. Such errors can be very rare, since the particular combination of rounding can occur in only a small fraction of interleavings. In this paper, we apply the cross-entropy method -- a generic approach to rare event simulation and combinatorial optimization -- to detect rare numerical instability in concurrent programs. The cross-entropy method iteratively samples a small number of executions and adjusts the probability distribution of possible scheduling decisions to increase the probability of encountering an error in a subsequent iteration. We demonstrate the effectiveness of our approach on implementations of several numerical algorithms with concurrency and rounding by truncation of intermediate computations. We describe several abstraction algorithms on top of the implementation of the cross-entropy method and show that with abstraction, our algorithms successfully find rare errors in programs with hundreds of threads. In fact, some of our abstractions lead to a state space whose size does not depend on the number of threads at all. We compare our approach to several existing testing algorithms and argue that its performance is superior to other techniques.",
+            "Award": ""
+        },
+        {
+            "Title": "Parallel Bounded Analysis in Code with Rich Invariants by Refinement of Field Bounds",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id69-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNicolas+Rosner%2C+Juan+Galeotti%2C+Santiago+Berm%C3%BAdez%2C+Guido+Marucci+Blas%2C+Santiago+Perez+De+Rosso%2C+Lucas+Pizzagalli%2C+Luciano+Zem%C3%ADn%2C+and+Marcelo+Frias+%22Parallel+Bounded+Analysis+in+Code+with+Rich+Invariants+by+Refinement+of+Field+Bounds%22",
+            "URLvideo": "",
+            "PersonsString": "Nicolas Rosner, Juan Galeotti, Santiago Bermúdez, Guido Marucci Blas, Santiago Perez De Rosso, Lucas Pizzagalli, Luciano Zemín, and Marcelo Frias",
+            "AffiliationsString": "Universidad de Buenos Aires, Argentina; Saarland University, Germany; Instituto Tecnológico de Buenos Aires, Argentina",
+            "Authors": [
+                "Nicolas Rosner @ Universidad de Buenos Aires, Argentina",
+                "Juan Galeotti @ Saarland University, Germany",
+                "Santiago Bermúdez @ Instituto Tecnológico de Buenos Aires, Argentina",
+                "Guido Marucci Blas @ Instituto Tecnológico de Buenos Aires, Argentina",
+                "Santiago Perez De Rosso @ Instituto Tecnológico de Buenos Aires, Argentina",
+                "Lucas Pizzagalli @ Instituto Tecnológico de Buenos Aires, Argentina",
+                "Luciano Zemín @ Instituto Tecnológico de Buenos Aires, Argentina",
+                "Marcelo Frias @ Instituto Tecnológico de Buenos Aires, Argentina"
+            ],
+            "Affiliations": [
+                "Universidad de Buenos Aires, Argentina",
+                "Saarland University, Germany",
+                "Instituto Tecnológico de Buenos Aires, Argentina",
+                "Instituto Tecnológico de Buenos Aires, Argentina",
+                "Instituto Tecnológico de Buenos Aires, Argentina",
+                "Instituto Tecnológico de Buenos Aires, Argentina",
+                "Instituto Tecnológico de Buenos Aires, Argentina",
+                "Instituto Tecnológico de Buenos Aires, Argentina"
+            ],
+            "Abstract": "In this article we present a novel technique for automated parallel bug-finding based on the sequential analysis tool TACO. TACO is a tool based on SAT-solving for efficient bug-finding in Java code with rich class invariants. It prunes the SAT-solver's search space by introducing precise symmetry-breaking predicates and bounding the relational semantics of Java class fields. The bounds computed by TACO generally include a substantial amount of nondeterminism; its reduction allows us to split the original analysis into disjoint subproblems. We discuss the soundness and completeness of the decomposition. Furthermore, we present experimental results showing that MUCHO-TACO, our tool which implements this technique, yields significant speed-ups over TACO on commodity cluster hardware.",
+            "Award": ""
+        },
+        {
+            "Title": "Efficient and Flexible GUI Test Execution via Test Merging",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id110-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPranavadatta+Devaki%2C+Suresh+Thummalapenta%2C+Nimit+Singhania%2C+and+Saurabh+Sinha+%22Efficient+and+Flexible+GUI+Test+Execution+via+Test+Merging%22",
+            "URLvideo": "",
+            "PersonsString": "Pranavadatta Devaki, Suresh Thummalapenta, Nimit Singhania, and Saurabh Sinha",
+            "AffiliationsString": "IBM Research, India",
+            "Authors": [
+                "Pranavadatta Devaki @ IBM Research, India",
+                "Suresh Thummalapenta @ IBM Research, India",
+                "Nimit Singhania @ IBM Research, India",
+                "Saurabh Sinha @ IBM Research, India"
+            ],
+            "Affiliations": [
+                "IBM Research, India",
+                "IBM Research, India",
+                "IBM Research, India",
+                "IBM Research, India"
+            ],
+            "Abstract": "As a test suite evolves, it can accumulate redundant tests. To address this problem, many test-suite reduction techniques, based on different measures of redundancy, have been developed. A more subtle problem, that can also cause test-suite bloat and that has not been addressed by existing research, is the accumulation of similar tests. Similar tests are not redundant by any measure; but, they contain many common actions that are executed repeatedly, which over a large test suite, can degrade execution time substantially.  We present a test merging technique for GUI tests. Given a test suite, the technique identifies the tests that can be merged and creates a merged test, which covers all the application states that are exercised individually by the tests, but with the redundant common steps executed only once. The key novelty in the merging technique is that it compares the dynamic states induced by the tests to identify a semantically meaningful interleaving of steps from different tests. The technique not only improves the efficiency of test execution, but also ensures that there is no loss in the fault-revealing power of the original tests. In the empirical studies, conducted using four open-source web applications and one proprietary enterprise web application, in which over $3300$ test cases and 19600 test steps were analyzed, the technique reduced the number of test steps by 29% and the test-execution time by 39%.",
+            "Award": ""
+        },
+        {
+            "Title": "Automatically Repairing Broken Workflows for Evolving GUI Applications",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id44-p",
+            "URL": "http%3A%2F%2Fhomes.cs.washington.edu%2F%7Eszhang%2Fpdf%2Fzhang-issta13.pdf",
+            "URLvideo": "",
+            "PersonsString": "Sai Zhang, Hao Lu, and Michael D. Ernst",
+            "AffiliationsString": "University of Washington, USA",
+            "Authors": [
+                "Sai Zhang @ University of Washington, USA",
+                "Hao Lu @ University of Washington, USA",
+                "Michael D. Ernst @ University of Washington, USA"
+            ],
+            "Affiliations": [
+                "University of Washington, USA",
+                "University of Washington, USA",
+                "University of Washington, USA"
+            ],
+            "Abstract": "A workflow is a sequence of UI actions to complete a specific task. In the course of a GUI application's evolution, changes ranging from a simple GUI refactoring to a complete rearchitecture can break an end-user's well-established workflow. It can be challenging to find a replacement workflow. To address this problem, we present a technique (and its tool implementation, called FlowFixer) that repairs a broken workflow. FlowFixer uses dynamic profiling, static analysis, and random testing to suggest a replacement UI action that fixes a broken workflow.  We evaluated FlowFixer on 16 broken workflows from 5 realworld GUI applications written in Java. In 13 workflows, the correct replacement action was FlowFixer's first suggestion. In 2 workflows, the correct replacement action was FlowFixer's second suggestion. The remaining workflow was un-repairable. Overall, FlowFixer produced significantly better results than two alternative approaches.",
+            "Award": ""
+        },
+        {
+            "Title": "Semi-valid Input Coverage for Fuzz Testing",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id63-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMohammad+Torabi+Dashti%2C+David+Basin%2C+and+Petar+Tsankov+%22Semi-valid+Input+Coverage+for+Fuzz+Testing%22",
+            "URLvideo": "",
+            "PersonsString": "Mohammad Torabi Dashti, David Basin, and Petar Tsankov",
+            "AffiliationsString": "ETH Zurich, Switzerland",
+            "Authors": [
+                "Mohammad Torabi Dashti @ ETH Zurich, Switzerland",
+                "David Basin @ ETH Zurich, Switzerland",
+                "Petar Tsankov @ ETH Zurich, Switzerland"
+            ],
+            "Affiliations": [
+                "ETH Zurich, Switzerland",
+                "ETH Zurich, Switzerland",
+                "ETH Zurich, Switzerland"
+            ],
+            "Abstract": "We define semi-valid input coverage (SVCov), the first coverage criterion for fuzz testing. Our criterion is applicable whenever the valid inputs can be defined by a finite set of constraints. SVCov measures to what extent the tests cover the domain of semi-valid inputs, where an input is semi-valid if and only if it satisfies all the constraints but one.  We demonstrate SVCov's practical value in a case study on fuzz testing the Internet Key Exchange protocol (IKE). Our study shows that it is feasible to precisely define and efficiently measure SVCov. Moreover, SVCov provides essential information for improving the effectiveness of fuzz testing and enhancing fuzz-testing tools and libraries. In particular, by increasing coverage under SVCov, we have discovered a previously unknown vulnerability in a mature IKE implementation.",
+            "Award": ""
+        },
+        {
+            "Title": "Automated Testing with Targeted Event Sequence Generation",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id70-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCasper+S.+Jensen%2C+Mukul+R.+Prasad%2C+and+Anders+M%C3%B8ller+%22Automated+Testing+with+Targeted+Event+Sequence+Generation%22",
+            "URLvideo": "",
+            "PersonsString": "Casper S. Jensen, Mukul R. Prasad, and Anders Møller",
+            "AffiliationsString": "Aarhus University, Denmark; Fujitsu Labs, USA",
+            "Authors": [
+                "Casper S. Jensen @ Aarhus University, Denmark",
+                "Mukul R. Prasad @ Fujitsu Labs, USA",
+                "Anders Møller @ Aarhus University, Denmark"
+            ],
+            "Affiliations": [
+                "Aarhus University, Denmark",
+                "Fujitsu Labs, USA",
+                "Aarhus University, Denmark"
+            ],
+            "Abstract": "Automated software testing aims to detect errors by producing test inputs that cover as much of the application source code as possible. Applications for mobile devices are typically event-driven, which raises the challenge of automatically producing event sequences that result in high coverage. Some existing approaches use random or model-based testing that largely treats the application as a black box. Other approaches use symbolic execution, either starting from the entry points of the applications or on specific event sequences. A common limitation of the existing approaches is that they often fail to reach the parts of the application code that require more complex event sequences.  We propose a two-phase technique for automatically finding event sequences that reach a given target line in the application code. The first phase performs concolic execution to build summaries of the individual event handlers of the application. The second phase builds event sequences backward from the target, using the summaries together with a UI model of the application. Our experiments on a collection of open source Android applications show that this technique can successfully produce event sequences that reach challenging targets.",
+            "Award": ""
+        },
+        {
+            "Title": "Calculating Source Line Level Energy Information for Android Applications",
+            "Type": "Full Paper (12 pages)",
+            "Key": "issta13main-id97-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDing+Li%2C+Shuai+Hao%2C+William+G.+J.+Halfond%2C+and+Ramesh+Govindan+%22Calculating+Source+Line+Level+Energy+Information+for+Android+Applications%22",
+            "URLvideo": "",
+            "PersonsString": "Ding Li, Shuai Hao, William G. J. Halfond, and Ramesh Govindan",
+            "AffiliationsString": "University of Southern California, USA",
+            "Authors": [
+                "Ding Li @ University of Southern California, USA",
+                "Shuai Hao @ University of Southern California, USA",
+                "William G. J. Halfond @ University of Southern California, USA",
+                "Ramesh Govindan @ University of Southern California, USA"
+            ],
+            "Affiliations": [
+                "University of Southern California, USA",
+                "University of Southern California, USA",
+                "University of Southern California, USA",
+                "University of Southern California, USA"
+            ],
+            "Abstract": "The popularity of mobile apps continues to grow as developers take advantage of the sensors and data available on mobile devices. However, the increased functionality comes with a higher energy cost, which can cause a problem for users on battery constrained mobile devices. To improve the energy consumption of mobile apps, developers need detailed information about the energy consumption of their applications. Existing techniques have drawbacks that limit their usefulness or provide information at too high of a level of granularity, such as components or methods. Our approach is able to calculate source line level energy consumption information. It does this by combining hardware-based power measurements with program analysis and statistical modeling. Our empirical evaluation of the approach shows that it is fast and accurate.",
+            "Award": ""
+        },
+        {
+            "Title": "Context-Sensitive Delta Inference for Identifying Workload-Dependent Performance Bottlenecks",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id16-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DXusheng+Xiao%2C+Shi+Han%2C+Dongmei+Zhang%2C+and+Tao+Xie+%22Context-Sensitive+Delta+Inference+for+Identifying+Workload-Dependent+Performance+Bottlenecks%22",
+            "URLvideo": "",
+            "PersonsString": "Xusheng Xiao, Shi Han, Dongmei Zhang, and Tao Xie",
+            "AffiliationsString": "North Carolina State University, USA; Microsoft Research, China",
+            "Authors": [
+                "Xusheng Xiao @ North Carolina State University, USA",
+                "Shi Han @ Microsoft Research, China",
+                "Dongmei Zhang @ Microsoft Research, China",
+                "Tao Xie @ North Carolina State University, USA"
+            ],
+            "Affiliations": [
+                "North Carolina State University, USA",
+                "Microsoft Research, China",
+                "Microsoft Research, China",
+                "North Carolina State University, USA"
+            ],
+            "Abstract": "Software hangs can be caused by expensive operations in responsive actions (such as time-consuming operations in UI threads). Some of the expensive operations depend on the input workloads, referred to as workload-dependent performance bottlenecks (WDPBs). WDPBs are usually caused by workload-dependent loops (i.e., WDPB loops) that contain relatively expensive operations. Traditional performance testing and single-execution profiling may not reveal WDPBs due to incorrect assumptions of workloads. To address these issues, we propose the DeltaInfer approach that predicts WDPB loops under large workloads via inferring iteration counts of WDPB loops using complexity models for the workload size. DeltaInfer incorporates a novel concept named context-sensitive delta inference that consists of two parts: temporal inference for inferring the complexity models of different program locations, and spatial inference for identifying WDPB loops as WDPB candidates. We conducted evaluations on two popular open-source GUI applications, and identified impactful WDPBs that caused 10 performance bugs.",
+            "Award": ""
+        },
+        {
+            "Title": "Combining Model Checking and Testing with an Application to Reliability Prediction and Distribution",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id78-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLin+Gui%2C+Jun+Sun%2C+Yang+Liu%2C+Yuanjie+Si%2C+Jinsong+Dong%2C+and+Xinyu+Wang+%22Combining+Model+Checking+and+Testing+with+an+Application+to+Reliability+Prediction+and+Distribution%22",
+            "URLvideo": "",
+            "PersonsString": "Lin Gui, Jun Sun, Yang Liu, Yuanjie Si, Jinsong Dong, and Xinyu Wang",
+            "AffiliationsString": "National University of Singapore, Singapore; Singapore University of Technology and Design, Singapore; Nanyang Technological University, Singapore; Zhejiang University, China",
+            "Authors": [
+                "Lin Gui @ National University of Singapore, Singapore",
+                "Jun Sun @ Singapore University of Technology and Design, Singapore",
+                "Yang Liu @ Nanyang Technological University, Singapore",
+                "Yuanjie Si @ Zhejiang University, China",
+                "Jinsong Dong @ National University of Singapore, Singapore",
+                "Xinyu Wang @ Zhejiang University, China"
+            ],
+            "Affiliations": [
+                "National University of Singapore, Singapore",
+                "Singapore University of Technology and Design, Singapore",
+                "Nanyang Technological University, Singapore",
+                "Zhejiang University, China",
+                "National University of Singapore, Singapore",
+                "Zhejiang University, China"
+            ],
+            "Abstract": "Testing provides a probabilistic assurance of system correctness. In general, testing relies on the assumptions that the system under test is deterministic so that test cases can be sampled. However, a challenge arises when a system under test behaves non-deterministiclly in a dynamic operating environment because it will be unknown how to sample test cases.  In this work, we propose a method combining hypothesis testing and probabilistic model checking so as to provide the ``assurance\" and quantify the error bounds. The idea is to apply hypothesis testing to deterministic system components and use probabilistic model checking techniques to lift the results through non-determinism. Furthermore, if a requirement on the level of ``assurance\" is given, we apply probabilistic model checking techniques to push down the requirement through non-determinism to individual components so that they can be verified using hypothesis testing. We motivate and demonstrate our method through an application of system reliability prediction and distribution. Our approach has been realized in a toolkit named RaPiD, which has been applied to investigate two real-world systems.",
+            "Award": ""
+        },
+        {
+            "Title": "Dynamically Validating Static Memory Leak Warnings",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id71-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMengchen+Li%2C+Yuanjun+Chen%2C+Linzhang+Wang%2C+and+Guoqing+Xu+%22Dynamically+Validating+Static+Memory+Leak+Warnings%22",
+            "URLvideo": "",
+            "PersonsString": "Mengchen Li, Yuanjun Chen, Linzhang Wang, and Guoqing Xu",
+            "AffiliationsString": "Nanjing University, China; UC Irvine, USA",
+            "Authors": [
+                "Mengchen Li @ Nanjing University, China",
+                "Yuanjun Chen @ Nanjing University, China",
+                "Linzhang Wang @ Nanjing University, China",
+                "Guoqing Xu @ UC Irvine, USA"
+            ],
+            "Affiliations": [
+                "Nanjing University, China",
+                "Nanjing University, China",
+                "Nanjing University, China",
+                "UC Irvine, USA"
+            ],
+            "Abstract": "File Edit Options Buffers Tools TeX Help Memory leaks have significant impact on software availability, performance, and security. Static analysis has been widely used to find memory leaks in C/C++ programs. Although a static analysis is able to find all potential leaks in a program, it often reports a great number of false warnings. Manually validating these warnings is a daunting task, which significantly limits the practicality of the analysis. In this paper, we develop a novel dynamic technique that automatically validates and categorizes such warnings to unleash the power of static memory leak detectors. Our technique analyzes each warning that contains information regarding the leaking allocation site and the leaking path, generates test cases to cover the leaking path, and tracks objects created by the leaking allocation site. Eventually, warnings are classified into four categories: MUST-LEAK, LIKELY-NOT-LEAK, BLOAT, and MAY-LEAK. Warnings in MUST-LEAK are guaranteed by our analysis to be true leaks. Warnings in LIKELY-NOT-LEAK are highly likely to be false warnings. Although we cannot provide any formal guarantee that they are not leaks, we have high confidence that this is the case. Warnings in BLOAT are also not likely to be leaks but they should be fixed to improve performance. Using our approach, the developer's manual validation effort needs to be focused only on warnings in the category MAY-LEAK, which is often much smaller than the original set.",
+            "Award": ""
+        },
+        {
+            "Title": "Collecting a Heap of Shapes",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id35-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DEarl+Barr%2C+Christian+Bird%2C+and+Mark+Marron+%22Collecting+a+Heap+of+Shapes%22",
+            "URLvideo": "",
+            "PersonsString": "Earl Barr, Christian Bird, and Mark Marron",
+            "AffiliationsString": "University College London, UK; UC Davis, USA; Microsoft Research, USA; IMDEA Software Institute, Spain",
+            "Authors": [
+                "Earl Barr @ University College London, UK / UC Davis, USA",
+                "Christian Bird @ Microsoft Research, USA",
+                "Mark Marron @ IMDEA Software Institute, Spain"
+            ],
+            "Affiliations": [
+                "University College London, UK / UC Davis, USA",
+                "Microsoft Research, USA",
+                "IMDEA Software Institute, Spain"
+            ],
+            "Abstract": "The program heap is fundamentally a simple mathematical concept --- a set of objects and a connectivity relation on them. However, a large gap exists between the set of heap structures that could be constructed and those that programmers actually build. To understand this gap, we empirically study heap structures and sharing relations in large object-oriented programs. To scale and make sense of real world heaps, any analysis must employ abstraction; our abstraction groups sets of objects by role and the aliasing present in pointer sets. We find that the heaps of real-world programs are, in practice, fundamentally simple structures that are largely constructed from a small number of simple structures and sharing idioms, such as the sharing of immutable or unique (e.g., singleton) objects. For instance, we find that, under our abstraction, 53--75% of pointers build tree structures and we classify all but 7--18% of aliasing pointers. These results provide actionable information for rethinking the design of annotation systems, memory allocation/collection, and program analyses.",
+            "Award": ""
+        },
+        {
+            "Title": "Griffin: Grouping Suspicious Memory-Access Patterns to Improve Understanding of Concurrency Bugs",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id56-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSangmin+Park%2C+Mary+Jean+Harrold%2C+and+Richard+Vuduc+%22Griffin%3A+Grouping+Suspicious+Memory-Access+Patterns+to+Improve+Understanding+of+Concurrency+Bugs%22",
+            "URLvideo": "",
+            "PersonsString": "Sangmin Park, Mary Jean Harrold, and Richard Vuduc",
+            "AffiliationsString": "Georgia Tech, USA",
+            "Authors": [
+                "Sangmin Park @ Georgia Tech, USA",
+                "Mary Jean Harrold @ Georgia Tech, USA",
+                "Richard Vuduc @ Georgia Tech, USA"
+            ],
+            "Affiliations": [
+                "Georgia Tech, USA",
+                "Georgia Tech, USA",
+                "Georgia Tech, USA"
+            ],
+            "Abstract": "This paper presents Griffin, a new fault-comprehension technique. Griffin provides a way to explain concurrency bugs using additional information over existing fault-localization techniques, and thus, bridges the gap between fault- localization and fault-fixing techniques. Griffin inputs a list of memory-access patterns and a coverage matrix, groups those patterns responsible for the same concurrency bug, and outputs the grouped patterns along with suspicious methods and bug graphs. Griffin is the first technique that handles multiple concurrency bugs. This paper also describes the implementation of Griffin in Java and C++, and shows the empirical evaluation of Griffin on a set of subjects. The results show that, for our subjects, Griffin clusters failing executions and memory-access patterns for the same bug with few false positives, provides suspicious methods that contain the locations to be fixed, and runs efficiently.",
+            "Award": ""
+        },
+        {
+            "Title": "Variable and Thread Bounding for Systematic Testing of Multithreaded Programs",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id34-p",
+            "URL": "http%3A%2F%2Fwww.cse.iitd.ernet.in%2F%7Esbansal%2Fpubs%2Fvarbounding.pdf",
+            "URLvideo": "",
+            "PersonsString": "Sandeep Bindal, Sorav Bansal, and Akash Lal",
+            "AffiliationsString": "IIT Delhi, India; Microsoft Research, India",
+            "Authors": [
+                "Sandeep Bindal @ IIT Delhi, India",
+                "Sorav Bansal @ IIT Delhi, India",
+                "Akash Lal @ Microsoft Research, India"
+            ],
+            "Affiliations": [
+                "IIT Delhi, India",
+                "IIT Delhi, India",
+                "Microsoft Research, India"
+            ],
+            "Abstract": "Previous approaches to systematic state-space exploration for testing multi-threaded programs have proposed context-bounding and depth-bounding to be effective ranking algorithms for testing multithreaded programs. This paper proposes two new metrics to rank thread schedules for systematic state-space exploration. Our metrics are based on characterization of a concurrency bug using v (the minimum number of distinct variables that need to be involved for the bug to manifest) and t (the minimum number of distinct threads among which scheduling constraints are required to manifest the bug). Our algorithm is based on the hypothesis that in practice, most concurrency bugs have low v (typically 1-2) and low t (typically 2-4) characteristics. We iteratively explore the search space of schedules in increasing orders of v and t. We show qualitatively and empirically that our algorithm finds common bugs in fewer number of execution runs, compared with previous approaches. We also show that using v and t improves the lower bounds on the probability of finding bugs through randomized algorithms. Systematic exploration of schedules requires instrumenting each variable access made by a program, which can be very expensive and severely limits the applicability of this approach. Previous work has avoided this problem by interposing only on synchronization operations (and ignoring other variable accesses). We demonstrate that by using variable bounding (v) and a static imprecise alias analysis, we can interpose on all variable accesses (and not just synchronization operations) at 10-100x less overhead than previous approaches.",
+            "Award": ""
+        },
+        {
+            "Title": "EnforceMOP: A Runtime Property Enforcement System for Multithreaded Programs",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id98-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DQingzhou+Luo+and+Grigore+Rosu+%22EnforceMOP%3A+A+Runtime+Property+Enforcement+System+for+Multithreaded+Programs%22",
+            "URLvideo": "",
+            "PersonsString": "Qingzhou Luo and Grigore Rosu",
+            "AffiliationsString": "University of Illinois at Urbana-Champaign, USA",
+            "Authors": [
+                "Qingzhou Luo @ University of Illinois at Urbana-Champaign, USA",
+                "Grigore Rosu @ University of Illinois at Urbana-Champaign, USA"
+            ],
+            "Affiliations": [
+                "University of Illinois at Urbana-Champaign, USA",
+                "University of Illinois at Urbana-Champaign, USA"
+            ],
+            "Abstract": "Multithreaded programs are hard to develop and test. In order for programs to avoid unexpected concurrent behaviors at runtime, for example data-races, synchronization mechanisms are typically used to enforce a safe subset of thread interleavings. Also, to test multithreaded programs, devel- opers need to enforce the precise thread schedules that they want to test. These tasks are nontrivial and error prone.  This paper presents EnforceMOP, a framework for specifying and enforcing complex properties in multithreaded Java programs. A property is enforced at runtime by blocking the threads whose next actions would violate it. This way the remaining threads, whose execution is safe, can make global progress until the system eventually reaches a global state in which the blocked threads can be safely unblocked and allowed to execute. Users of EnforceMOP can specify the properties to be enforced using the expressive MOP multi-formalism notation, and can provide code to be executed at deadlock (when no thread is safe to continue). EnforceMOP was used in two different kinds of applications. First, to enforce general properties in multithreaded programs, as a formal, semantic alternative to the existing rigid and sometimes expensive syntactic synchronization mechanisms. Second, to enforce testing desirable schedules in unit testing of multithreaded programs, as an alternative to the existing limited and often adhoc techniques. Results show that EnforceMOP is able to effectively express and enforce complex properties and schedules in both scenarios.",
+            "Award": ""
+        },
+        {
+            "Title": "SimRacer: An Automated Framework to Support Testing for Process-Level Races",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id74-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTingting+Yu%2C+Witawas+Srisa-An%2C+and+Gregg+Rothermel+%22SimRacer%3A+An+Automated+Framework+to+Support+Testing+for+Process-Level+Races%22",
+            "URLvideo": "",
+            "PersonsString": "Tingting Yu, Witawas Srisa-An, and Gregg Rothermel",
+            "AffiliationsString": "University of Nebraska-Lincoln, USA",
+            "Authors": [
+                "Tingting Yu @ University of Nebraska-Lincoln, USA",
+                "Witawas Srisa-An @ University of Nebraska-Lincoln, USA",
+                "Gregg Rothermel @ University of Nebraska-Lincoln, USA"
+            ],
+            "Affiliations": [
+                "University of Nebraska-Lincoln, USA",
+                "University of Nebraska-Lincoln, USA",
+                "University of Nebraska-Lincoln, USA"
+            ],
+            "Abstract": "Faults introduced by races are difficult to detect because they usually occur only under specific execution interleavings. Numerous program analysis and testing techniques have been proposed to detect races between threads. Little work, however, has addressed the problem of detecting and testing for process-level races, in which two processes access a shared resource without proper synchronization. In this paper, we present SIMRACER, a novel testing-based framework that allows engineers to effectively test for process-level races. SIMRACER first computes potential races based on runtime traces obtained by running existing tests on target processes, and then it controls process scheduling relative to the potential races so that real races can be created. We implemented SIMRACER on a commercial virtual platform that is widely used to support hardware/software co-design. We then evaluated its effectiveness on sixteen real-world applications containing known process-level races. Our results show that SIMRACER is effective at detecting process-level races, and more effective than traditional stress testing techniques at detecting faults caused by those races.",
+            "Award": ""
+        },
+        {
+            "Title": "Practical Static Race Detection for Java Parallel Loops",
+            "Type": "Full Paper (13 pages)",
+            "Key": "issta13main-id88-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCosmin+Radoi+and+Danny+Dig+%22Practical+Static+Race+Detection+for+Java+Parallel+Loops%22",
+            "URLvideo": "",
+            "PersonsString": "Cosmin Radoi and Danny Dig",
+            "AffiliationsString": "University of Illinois, USA; Oregon State University, USA",
+            "Authors": [
+                "Cosmin Radoi @ University of Illinois, USA",
+                "Danny Dig @ Oregon State University, USA"
+            ],
+            "Affiliations": [
+                "University of Illinois, USA",
+                "Oregon State University, USA"
+            ],
+            "Abstract": "Despite significant progress in recent years, the important problem of static race detection remains open. Previous techniques took a general approach and looked for races by analyzing the effects induced by low-level concurrency constructs (e.g., java.lang.Thread). But constructs and libraries for expressing parallelism at a higher level (e.g., fork-join, futures, parallel loops) are becoming available in all major programming languages.  We claim that specializing an analysis to take advantage of the extra semantic information provided by the use of these constructs and libraries improves precision and scalability.  We present IteRace, a set of techniques that are specialized to use the intrinsic thread, safety, and data-flow structure of collections and of the new loop-parallelism mechanism to be introduced in Java 8. Our evaluation shows that IteRace is fast and precise enough to be practical. It scales to programs of hundreds of thousands of lines of code and it reports few race warnings, thus avoiding a common pitfall of static analyses. The tool revealed six bugs in real-world applications. We reported four of them, one had already been fixed, and three were new and the developers confirmed and fixed them.",
+            "Award": ""
+        },
+        {
+            "Title": "Using Automated Program Repair for Evaluating the Effectiveness of Fault Localization Techniques",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id17-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYuhua+Qi%2C+Xiaoguang+Mao%2C+Yan+Lei%2C+and+Chengsong+Wang+%22Using+Automated+Program+Repair+for+Evaluating+the+Effectiveness+of+Fault+Localization+Techniques%22",
+            "URLvideo": "",
+            "PersonsString": "Yuhua Qi, Xiaoguang Mao, Yan Lei, and Chengsong Wang",
+            "AffiliationsString": "National University of Defense Technology, China",
+            "Authors": [
+                "Yuhua Qi @ National University of Defense Technology, China",
+                "Xiaoguang Mao @ National University of Defense Technology, China",
+                "Yan Lei @ National University of Defense Technology, China",
+                "Chengsong Wang @ National University of Defense Technology, China"
+            ],
+            "Affiliations": [
+                "National University of Defense Technology, China",
+                "National University of Defense Technology, China",
+                "National University of Defense Technology, China",
+                "National University of Defense Technology, China"
+            ],
+            "Abstract": "Many techniques on automated fault localization (AFL) have been introduced to assist developers in debugging. Prior studies evaluate the localization technique from the viewpoint of developers: measuring how many benefits that developers can obtain from the localization technique used when debugging. However, these evaluation approaches are not always suitable, because it is difficult to quantify precisely the benefits due to the complex debugging behaviors of developers. In addition, recent user studies have presented that developers working with AFL do not correct the defects more efficiently than ones working with only traditional debugging techniques such as breakpoints, even when the effectiveness of AFL is artificially improved. In this paper we attempt to propose a new research direction of developing AFL techniques from the viewpoint of fully automated debugging including the program repair of automation, for which the activity of AFL is necessary. We also introduce the NCP score as the evaluation measurement to assess and compare various techniques from this perspective. Our experiment on 15 popular AFL techniques with 11 subject programs shipping with real-life field failures presents the evidence that these AFL techniques performing well in prior studies do not have better localization effectiveness according to NCP score. We also observe that Jaccard has the better performance over other techniques in our experiment.",
+            "Award": ""
+        },
+        {
+            "Title": "Data Model Property Inference and Repair",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id26-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJaideep+Nijjar+and+Tevfik+Bultan+%22Data+Model+Property+Inference+and+Repair%22",
+            "URLvideo": "",
+            "PersonsString": "Jaideep Nijjar and Tevfik Bultan",
+            "AffiliationsString": "UC Santa Barbara, USA",
+            "Authors": [
+                "Jaideep Nijjar @ UC Santa Barbara, USA",
+                "Tevfik Bultan @ UC Santa Barbara, USA"
+            ],
+            "Affiliations": [
+                "UC Santa Barbara, USA",
+                "UC Santa Barbara, USA"
+            ],
+            "Abstract": "Nowadays many software applications are deployed over compute clouds using the three-tier architecture, where the persistent data for the application is stored in a backend datastore and is accessed and modified by the server-side code based on the user interactions at the client-side. The data model forms the foundation of these three tiers, and identifies the set of objects stored by the application and the relations (associations) among them. In this paper, we present techniques for automatically inferring properties about the data model by analyzing the relations among the object classes. We then check the inferred properties with respect to the semantics of the data model using automated verification techniques. For the properties that fail, we present techniques that generate fixes to the data model that establish the inferred properties. We implemented this approach for web applications built using the Ruby on Rails framework and applied it to five open source applications. Our experimental results demonstrate that our approach is effective in automatically identifying and fixing errors in data models of real-world web applications.",
+            "Award": ""
+        },
+        {
+            "Title": "F3: Fault Localization for Field Failures",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id127-p",
+            "URL": "http%3A%2F%2Fwww.cc.gatech.edu%2F%7Eorso%2Fpapers%2Fjin.orso.issta2013.pdf",
+            "URLvideo": "",
+            "PersonsString": "Wei Jin and Alessandro Orso",
+            "AffiliationsString": "Georgia Tech, USA",
+            "Authors": [
+                "Wei Jin @ Georgia Tech, USA",
+                "Alessandro Orso @ Georgia Tech, USA"
+            ],
+            "Affiliations": [
+                "Georgia Tech, USA",
+                "Georgia Tech, USA"
+            ],
+            "Abstract": "Reproducing and debugging field failures--failures that occur on user machines after release--are challenging tasks for developers. To help the first task, in previous work we have proposed BugRedux, a technique for reproducing, in-house, failures observed in the field. Although BugRedux can help developers reproduce field failures, it does not provide any specific support for debugging such failures. To address this limitation, in this paper we present F3, a novel technique that builds on BugRedux and extends it with support for fault localization. Specifically, in F3 we extend our previous technique in two main ways: first, we modify BugRedux so that it generates multiple failing and passing executions \"similar\" to the observed field failure; second, we add to BugRedux debugging capabilities by combining it with a customized fault-localization technique. The results of our empirical evaluation, performed on a set of real-world programs and field failures, are promising: for all the failures considered, F3 was able to (1) synthesize passing and failing executions and (2) successfully use the synthesized executions to perform fault localization and, ultimately, help debugging.",
+            "Award": ""
+        },
+        {
+            "Title": "Selective Mutation Testing for Concurrent Code",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id106-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMilos+Gligoric%2C+Lingming+Zhang%2C+Cristiano+Pereira%2C+and+Gilles+Pokam+%22Selective+Mutation+Testing+for+Concurrent+Code%22",
+            "URLvideo": "",
+            "PersonsString": "Milos Gligoric, Lingming Zhang, Cristiano Pereira, and Gilles Pokam",
+            "AffiliationsString": "University of Illinois at Urbana-Champaign, USA; University of Texas at Austin, USA; Intel, USA; Intel Research, USA",
+            "Authors": [
+                "Milos Gligoric @ University of Illinois at Urbana-Champaign, USA",
+                "Lingming Zhang @ University of Texas at Austin, USA",
+                "Cristiano Pereira @ Intel, USA",
+                "Gilles Pokam @ Intel Research, USA"
+            ],
+            "Affiliations": [
+                "University of Illinois at Urbana-Champaign, USA",
+                "University of Texas at Austin, USA",
+                "Intel, USA",
+                "Intel Research, USA"
+            ],
+            "Abstract": "Concurrent code is becoming increasingly important with the advent of multi-cores, but testing concurrent code is challenging. Researchers are developing new testing techniques and test suites for concurrent code, but evaluating these techniques and test suites often uses a small number of real or manually seeded bugs.  Mutation testing allows creating a large number of buggy programs to evaluate test suites. However, performing mutation testing is expensive even for sequential code, and the cost is higher for concurrent code where each test has to be executed for many (possibly all) thread schedules. The most widely used technique to speed up mutation testing is selective mutation, which reduces the number of mutants by applying only a subset of mutation operators such that test suites that kill all mutants generated by this subset also kill (almost) all mutants generated by all mutation operators. To date, selective mutation has been used only for sequential mutation operators.  This paper explores selective mutation for concurrent mutation operators. Our results identify several sets of concurrent mutation operators that can effectively reduce the number of mutants, show that operator-based selection is slightly better than random mutant selection, and show that sequential and concurrent mutation operators are independent, demonstrating the importance of studying concurrent mutation operators.",
+            "Award": ""
+        },
+        {
+            "Title": "Faster Mutation Testing Inspired by Test Prioritization and Reduction",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id113-p",
+            "URL": "https%3A%2F%2Fwebspace.utexas.edu%2Flz3548%2Fwww%2Fpublications%2Fissta2013a.pdf",
+            "URLvideo": "",
+            "PersonsString": "Lingming Zhang, Darko Marinov, and Sarfraz Khurshid",
+            "AffiliationsString": "University of Texas at Austin, USA; University of Illinois at Urbana-Champaign, USA",
+            "Authors": [
+                "Lingming Zhang @ University of Texas at Austin, USA",
+                "Darko Marinov @ University of Illinois at Urbana-Champaign, USA",
+                "Sarfraz Khurshid @ University of Texas at Austin, USA"
+            ],
+            "Affiliations": [
+                "University of Texas at Austin, USA",
+                "University of Illinois at Urbana-Champaign, USA",
+                "University of Texas at Austin, USA"
+            ],
+            "Abstract": "Mutation testing is a well-known but costly approach for determining test adequacy. The central idea behind the approach is to generate mutants, which are small syntactic transformations of the program under test, and then to measure for a given test suite how many mutants it kills. A test t is said to kill a mutant m of program p if the output of t on m is different from the output of t on p. The effectiveness of mutation testing in determining the quality of a test suite relies on the ability to apply it using a large number of mutants. However, running many tests against many mutants is time consuming. We present a family of techniques to reduce the cost of mutation testing by prioritizing and reducing tests to more quickly determine the sets of killed and non-killed mutants. Experimental results show the effectiveness and efficiency of our techniques.",
+            "Award": ""
+        },
+        {
+            "Title": "Declarative Mocking",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id122-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHesam+Samimi%2C+Rebecca+Hicks%2C+Ari+Fogel%2C+and+Todd+Millstein+%22Declarative+Mocking%22",
+            "URLvideo": "",
+            "PersonsString": "Hesam Samimi, Rebecca Hicks, Ari Fogel, and Todd Millstein",
+            "AffiliationsString": "UC Los Angeles, USA",
+            "Authors": [
+                "Hesam Samimi @ UC Los Angeles, USA",
+                "Rebecca Hicks @ UC Los Angeles, USA",
+                "Ari Fogel @ UC Los Angeles, USA",
+                "Todd Millstein @ UC Los Angeles, USA"
+            ],
+            "Affiliations": [
+                "UC Los Angeles, USA",
+                "UC Los Angeles, USA",
+                "UC Los Angeles, USA",
+                "UC Los Angeles, USA"
+            ],
+            "Abstract": "Test-driven methodologies encourage testing early and often. \"Mock objects\" support this approach by allowing a component to be tested before all depended-upon components are available. Today mock objects typically reflect little to none of an object's intended functionality, which makes it difficult and error-prone for developers to test rich properties of their code. This paper presents \"declarative mocking\", which enables the creation of expressive and reliable mock objects with relatively little effort. In our approach, developers write method specifications in a high-level logical language for the API being mocked, and a constraint solver dynamically executes these specifications when the methods are invoked. In addition to mocking functionality, this approach seamlessly allows data and other aspects of the environment to be easily mocked. We have implemented the approach as an extension to an existing tool for executable specifications in Java called PBnJ. We have performed an exploratory study of declarative mocking on several existing Java applications, in order to understand the power of the approach and to categorize its potential benefits and limitations. We also performed an experiment to port the unit tests of several open-source applications from a widely used mocking library to PBnJ. We found that more than half of these unit tests can be enhanced, in terms of the strength of properties and coverage, by exploiting executable specifications, with relatively little additional developer effort.",
+            "Award": ""
+        },
+        {
+            "Title": "Orthogonal Exploration of the Search Space in Evolutionary Test Case Generation",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id100-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFitsum+Meshesha+Kifetew%2C+Annibale+Panichella%2C+Andrea+De+Lucia%2C+Rocco+Oliveto%2C+and+Paolo+Tonella+%22Orthogonal+Exploration+of+the+Search+Space+in+Evolutionary+Test+Case+Generation%22",
+            "URLvideo": "",
+            "PersonsString": "Fitsum Meshesha Kifetew, Annibale Panichella, Andrea De Lucia, Rocco Oliveto, and Paolo Tonella",
+            "AffiliationsString": "Fondazione Bruno Kessler, Italy; University of Salerno, Italy; University of Molise, Italy",
+            "Authors": [
+                "Fitsum Meshesha Kifetew @ Fondazione Bruno Kessler, Italy",
+                "Annibale Panichella @ University of Salerno, Italy",
+                "Andrea De Lucia @ University of Salerno, Italy",
+                "Rocco Oliveto @ University of Molise, Italy",
+                "Paolo Tonella @ Fondazione Bruno Kessler, Italy"
+            ],
+            "Affiliations": [
+                "Fondazione Bruno Kessler, Italy",
+                "University of Salerno, Italy",
+                "University of Salerno, Italy",
+                "University of Molise, Italy",
+                "Fondazione Bruno Kessler, Italy"
+            ],
+            "Abstract": "The effectiveness of evolutionary test case generation based on Genetic Algorithms (GAs) can be seriously impacted by genetic drift, a phenomenon that inhibits the ability of such algorithms to effectively diversify the search and look for alternative potential solutions. In such cases, the search becomes dominated by a small set of similar individuals that lead GAs to converge to a sub-optimal solution and to stagnate, without reaching the desired objective. This problem is particularly common for hard-to-cover program branches, associated with an extremely large solution space. In this paper, we propose an approach to solve this problem by integrating a mechanism for orthogonal exploration of the search space into standard GA. The diversity in the population is enriched by adding individuals in orthogonal directions, hence providing a more effective exploration of the solution space. To the best of our knowledge, no prior work has addressed explicitly the issue of evolution direction based diversification in the context of evolutionary testing. Results achieved on 17 Java classes indicate that the proposed enhancements make GA much more effective and efficient in automating the testing process. In particular, effectiveness (coverage) was significantly improved in 47% of the subjects and efficiency (search budget consumed) was improved in 85% of the subjects on which effectiveness remains the same.",
+            "Award": ""
+        },
+        {
+            "Title": "Hybrid Learning: Interface Generation through Static, Dynamic, and Symbolic Analysis",
+            "Type": "Full Paper (12 pages)",
+            "Key": "issta13main-id118-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFalk+Howar%2C+Dimitra+Giannakopoulou%2C+and+Zvonimir+Rakamaric+%22Hybrid+Learning%3A+Interface+Generation+through+Static%2C+Dynamic%2C+and+Symbolic+Analysis%22",
+            "URLvideo": "",
+            "PersonsString": "Falk Howar, Dimitra Giannakopoulou, and Zvonimir Rakamaric",
+            "AffiliationsString": "CMU, USA; NASA Ames Research Center, USA; University of Utah, USA",
+            "Authors": [
+                "Falk Howar @ CMU, USA",
+                "Dimitra Giannakopoulou @ NASA Ames Research Center, USA",
+                "Zvonimir Rakamaric @ University of Utah, USA"
+            ],
+            "Affiliations": [
+                "CMU, USA",
+                "NASA Ames Research Center, USA",
+                "University of Utah, USA"
+            ],
+            "Abstract": "This paper addresses the problem of efficient generation of component interfaces through learning. Given a white-box component C with specified unsafe states, an interface captures safe orderings of invocations of C's public methods. In previous work we presented Psyco, an interface generation framework that combines automata learning with symbolic component analysis: learning drives the framework in exploring different combinations of method invocations, and symbolic analysis computes method guards corresponding to constraints on the method parameters for safe execution. In this work we propose solutions to the two main bottlenecks of Psyco. The explosion of method sequences that learning generates to validate its computed interfaces is reduced through partial order reduction resulting from a static analysis of the component. To avoid scalability issues associated with symbolic analysis, we propose novel algorithms that are primarily based on dynamic, concrete component execution, while resorting to symbolic analysis on a limited, as needed, basis. Dynamic execution enables the introduction of a concept of state matching, based on which our proposed approach detects, in some cases, that it has exhausted the exploration of all component behaviors. On the other hand, symbolic analysis is enhanced with symbolic summaries. Our new approach, X-Psyco, has been implemented in the Java PathFinder (JPF) software model checking platform. We demonstrated the effectiveness of X-Psyco on a number of realistic software components by generating more complete and precise interfaces than was previously possible.",
+            "Award": ""
+        },
+        {
+            "Title": "Optimizing Monitoring of Finite State Properties through Monitor Compaction",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id87-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRahul+Purandare%2C+Matthew+B.+Dwyer%2C+and+Sebastian+Elbaum+%22Optimizing+Monitoring+of+Finite+State+Properties+through+Monitor+Compaction%22",
+            "URLvideo": "",
+            "PersonsString": "Rahul Purandare, Matthew B. Dwyer, and Sebastian Elbaum",
+            "AffiliationsString": "University of Nebraska-Lincoln, USA",
+            "Authors": [
+                "Rahul Purandare @ University of Nebraska-Lincoln, USA",
+                "Matthew B. Dwyer @ University of Nebraska-Lincoln, USA",
+                "Sebastian Elbaum @ University of Nebraska-Lincoln, USA"
+            ],
+            "Affiliations": [
+                "University of Nebraska-Lincoln, USA",
+                "University of Nebraska-Lincoln, USA",
+                "University of Nebraska-Lincoln, USA"
+            ],
+            "Abstract": "Runtime monitoring has proven effective in detecting property violations, but it can incur high overhead when monitoring just a single property - particularly when the property relates multiple objects. In practice developers will likely monitor multiple properties in the same execution which will lead to even higher overhead.  This paper presents the first study of overhead arising during the simultaneous monitoring of multiple properties. We present two techniques for mitigating overhead in such cases that exploit reductions in cost that arise from sharing of information between property monitors. This sharing permits a single monitor to function in place of many monitors. We evaluate these techniques on the DaCapo benchmarks and 8 temporal correctness properties and find that they offer significant overhead reductions, as high as 57%, as the number of monitored properties increases.",
+            "Award": ""
+        },
+        {
+            "Title": "Does Automated White-Box Test Generation Really Help Software Testers?",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id29-p",
+            "URL": "http%3A%2F%2Fevosuite.org%2Fwp-content%2Fpapercite-data%2Fpdf%2Fissta13_study.pdf",
+            "URLvideo": "",
+            "PersonsString": "Gordon Fraser, Matt Staats, Phil McMinn, Andrea Arcuri, and Frank Padberg",
+            "AffiliationsString": "University of Sheffield, UK; KAIST, South Korea; Schlumberger, Norway; Simula Research Laboratory, Norway; KIT, Germany",
+            "Authors": [
+                "Gordon Fraser @ University of Sheffield, UK",
+                "Matt Staats @ KAIST, South Korea",
+                "Phil McMinn @ University of Sheffield, UK",
+                "Andrea Arcuri @ Schlumberger, Norway / Simula Research Laboratory, Norway",
+                "Frank Padberg @ KIT, Germany"
+            ],
+            "Affiliations": [
+                "University of Sheffield, UK",
+                "KAIST, South Korea",
+                "University of Sheffield, UK",
+                "Schlumberger, Norway / Simula Research Laboratory, Norway",
+                "KIT, Germany"
+            ],
+            "Abstract": "Automated test generation techniques can efficiently produce test data that systematically cover structural aspects of a program. In the absence of a specification, a common assumption is that these tests relieve a developer of most of the work, as the act of testing is reduced to checking the results of the tests. Although this assumption has persisted for decades, there has been no conclusive evidence to date confirming it. However, the fact that the approach has only seen a limited uptake in industry suggests the contrary, and calls into question its practical usefulness. To investigate this issue, we performed a controlled experiment comparing a total of 49 subjects split between writing tests manually and writing tests with the aid of an automated unit test generation tool, EvoSuite. We found that, on one hand, tool support leads to clear improvements in commonly applied quality metrics such as code coverage (up to 300% increase). However, on the other hand, there was no measurable improvement in the number of bugs actually found by developers. Our results not only cast some doubt on how the research community evaluates test generation tools, but also point to improvements and future work necessary before automated test generation tools will be widely adopted by practitioners.",
+            "Award": ""
+        },
+        {
+            "Title": "Comparing Non-adequate Test Suites using Coverage Criteria",
+            "Type": "Full Paper (12 pages)",
+            "Key": "issta13main-id67-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMilos+Gligoric%2C+Alex+Groce%2C+Chaoqiang+Zhang%2C+Rohan+Sharma%2C+Amin+Alipour%2C+and+Darko+Marinov+%22Comparing+Non-adequate+Test+Suites+using+Coverage+Criteria%22",
+            "URLvideo": "",
+            "PersonsString": "Milos Gligoric, Alex Groce, Chaoqiang Zhang, Rohan Sharma, Amin Alipour, and Darko Marinov",
+            "AffiliationsString": "University of Illinois at Urbana-Champaign, USA; Oregon State University, USA",
+            "Authors": [
+                "Milos Gligoric @ University of Illinois at Urbana-Champaign, USA",
+                "Alex Groce @ Oregon State University, USA",
+                "Chaoqiang Zhang @ Oregon State University, USA",
+                "Rohan Sharma @ University of Illinois at Urbana-Champaign, USA",
+                "Amin Alipour @ Oregon State University, USA",
+                "Darko Marinov @ University of Illinois at Urbana-Champaign, USA"
+            ],
+            "Affiliations": [
+                "University of Illinois at Urbana-Champaign, USA",
+                "Oregon State University, USA",
+                "Oregon State University, USA",
+                "University of Illinois at Urbana-Champaign, USA",
+                "Oregon State University, USA",
+                "University of Illinois at Urbana-Champaign, USA"
+            ],
+            "Abstract": "This version should be substantially correct, but we have not checked over completely. Will confirm ok by agreed on deadline tomorrow; if no contact, please use this version.  Fixed all complaints from system, I believe.",
+            "Award": ""
+        },
+        {
+            "Title": "Threats to the Validity and Value of Empirical Assessments of the Accuracy of Coverage-Based Fault Locators",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id103-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFriedrich+Steimann%2C+Marcus+Frenkel%2C+and+Rui+Abreu+%22Threats+to+the+Validity+and+Value+of+Empirical+Assessments+of+the+Accuracy+of+Coverage-Based+Fault+Locators%22",
+            "URLvideo": "",
+            "PersonsString": "Friedrich Steimann, Marcus Frenkel, and Rui Abreu",
+            "AffiliationsString": "Fernuniversität in Hagen, Germany; University of Porto, Portugal",
+            "Authors": [
+                "Friedrich Steimann @ Fernuniversität in Hagen, Germany",
+                "Marcus Frenkel @ Fernuniversität in Hagen, Germany",
+                "Rui Abreu @ University of Porto, Portugal"
+            ],
+            "Affiliations": [
+                "Fernuniversität in Hagen, Germany",
+                "Fernuniversität in Hagen, Germany",
+                "University of Porto, Portugal"
+            ],
+            "Abstract": "Resuming past work on coverage-based fault localization, we find that empirical assessments of its accuracy are subject to so many imponderables that they are of limited value. To improve on this situation, we have compiled a comprehensive list of threats to be considered when attempting such assessments in the future. In addition, we propose the establishment of theoretical lower and upper bounds of fault localization accuracy that depend on properties of the subject programs (including their test suites) only. We make a suggestion for a lower bound and show that well-known fault locators do not uniformly perform better.",
+            "Award": ""
+        },
+        {
+            "Title": "An Empirical Study of PHP Feature Usage: A Static Analysis Perspective",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id42-p",
+            "URL": "http%3A%2F%2Fhomepages.cwi.nl%2F%7Ehills%2Fpublications%2Fphp-feature-usage.pdf",
+            "URLvideo": "",
+            "PersonsString": "Mark Hills, Paul Klint, and Jurgen Vinju",
+            "AffiliationsString": "CWI, Netherlands",
+            "Authors": [
+                "Mark Hills @ CWI, Netherlands",
+                "Paul Klint @ CWI, Netherlands",
+                "Jurgen Vinju @ CWI, Netherlands"
+            ],
+            "Affiliations": [
+                "CWI, Netherlands",
+                "CWI, Netherlands",
+                "CWI, Netherlands"
+            ],
+            "Abstract": "PHP is one of the most popular languages for server-side application development. The language is highly dynamic, providing programmers with a large amount of flexibility. However, these dynamic features also have a cost, making it difficult to apply traditional static analysis techniques used in standard code analysis and transformation tools. As part of our work on creating analysis tools for PHP, we have conducted a study over a significant corpus of open-source PHP systems, looking at the sizes of actual PHP programs, which features of PHP are actually used, how often dynamic features appear, and how distributed these features are across the files that make up a PHP website. We have also looked at whether uses of these dynamic features are truly dynamic or are, in some cases, statically understandable, allowing us to identify specific patterns of use which can then be taken into account to build more precise tools. We believe this work will be of interest to creators of analysis tools for PHP, and that the methodology we present can be leveraged for other dynamic languages with similar features.",
+            "Award": ""
+        },
+        {
+            "Title": "Practical Blended Taint Analysis for JavaScript",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id80-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShiyi+Wei+and+Barbara+G.+Ryder+%22Practical+Blended+Taint+Analysis+for+JavaScript%22",
+            "URLvideo": "",
+            "PersonsString": "Shiyi Wei and Barbara G. Ryder",
+            "AffiliationsString": "Virginia Tech, USA",
+            "Authors": [
+                "Shiyi Wei @ Virginia Tech, USA",
+                "Barbara G. Ryder @ Virginia Tech, USA"
+            ],
+            "Affiliations": [
+                "Virginia Tech, USA",
+                "Virginia Tech, USA"
+            ],
+            "Abstract": "JavaScript is widely used in Web applications because of its flexibility and dynamic features. However, the latter pose challenges to static analyses aimed at finding security vulnerabilities, (e.g., taint analysis).  We present blended taint analysis, an instantiation of our general-purpose analysis framework for JavaScript, to illustrate how a combined dynamic/static analysis approach can deal with dynamic features by collecting generated code and other information at runtime. In empirical comparisons with two pure static taint analyses, we show blended taint analysis to be both more scalable and precise on JavaScript benchmark codes extracted from 12 popular websites at alexa. Our results show that blended taint analysis discovered 13 unique violations in 6 of the websites. In contrast, each of the static analyses identified less than half of these violations. Moreover, given a reasonable time budget of 10 minutes, both static analyses encountered webpages they could not analyze, sometimes significantly many such pages. Case studies demonstrate the quality of the blended taint analysis solution in comparison to that of pure static analysis.",
+            "Award": ""
+        },
+        {
+            "Title": "Finding Your Way in the Testing Jungle: A Learning Approach to Web Security Testing",
+            "Type": "Full Paper (11 pages)",
+            "Key": "issta13main-id53-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DOmer+Tripp%2C+Omri+Weisman%2C+and+Lotem+Guy+%22Finding+Your+Way+in+the+Testing+Jungle%3A+A+Learning+Approach+to+Web+Security+Testing%22",
+            "URLvideo": "",
+            "PersonsString": "Omer Tripp, Omri Weisman, and Lotem Guy",
+            "AffiliationsString": "IBM, Israel; Tel Aviv University, Israel; Cybereason, Israel",
+            "Authors": [
+                "Omer Tripp @ IBM, Israel / Tel Aviv University, Israel",
+                "Omri Weisman @ IBM, Israel",
+                "Lotem Guy @ Cybereason, Israel"
+            ],
+            "Affiliations": [
+                "IBM, Israel / Tel Aviv University, Israel",
+                "IBM, Israel",
+                "Cybereason, Israel"
+            ],
+            "Abstract": "Black-box security testing of web applications is a hard problem. The main complication lies in the black-box assumption: The testing tool has limited insight into the workings of server-side defenses. This has traditionally led commercial as well as research vulnerability scanners toward heuristic approaches, such as testing each input point (e.g. HTTP parameter) with a short, predefined list of effective test payloads to balance between coverage and performance.  We take a fresh approach to the problem of security testing, casting it into a learning setting. In our approach, the testing algorithm has available a comprehensive database of test payloads, such that if the web application's defenses are broken, then with near certainty one of the candidate payloads is able to demonstrate the vulnerability. The question then becomes how to efficiently search through the payload space to find a good candidate. In our solution, the learning algorithm infers from a failed test---by analyzing the website's response---which other payloads are also likely to fail, thereby pruning substantial portions of the search space.  We have realized our approach in XSS Analyzer, an industry-level cross-site scripting (XSS) scanner featuring 500,000,000 test payloads. Our evaluation on 15,552 benchmarks shows solid results: XSS Analyzer achieves >99% coverage relative to brute-force traversal over all payloads, while trying only 10 payloads on average per input point. XSS Analyzer also outperforms several competing algorithms, including a mature commercial algorithm---featured in IBM Security AppScan Standard V8.5---by a far margin. XSS Analyzer has recently been integrated into the latest version of AppScan (V8.6) instead of that algorithm.",
+            "Award": ""
+        },
+        {
+            "Title": "Debugging Non-deadlock Concurrency Bugs",
+            "Type": "Short Paper (4 pages)",
+            "Key": "issta13doctoral-doc6-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSangmin+Park+%22Debugging+Non-deadlock+Concurrency+Bugs%22",
+            "URLvideo": "",
+            "PersonsString": "Sangmin Park",
+            "AffiliationsString": "Georgia Tech, USA",
+            "Authors": [
+                "Sangmin Park @ Georgia Tech, USA"
+            ],
+            "Affiliations": [
+                "Georgia Tech, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Product-Line Verification with Feature-Oriented Contracts",
+            "Type": "Short Paper (4 pages)",
+            "Key": "issta13doctoral-doc3-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DThomas+Th%C3%BCm+%22Product-Line+Verification+with+Feature-Oriented+Contracts%22",
+            "URLvideo": "",
+            "PersonsString": "Thomas Thüm",
+            "AffiliationsString": "University of Magdeburg, Germany",
+            "Authors": [
+                "Thomas Thüm @ University of Magdeburg, Germany"
+            ],
+            "Affiliations": [
+                "University of Magdeburg, Germany"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Generation of Test Databases using Sampling Methods",
+            "Type": "Short Paper (4 pages)",
+            "Key": "issta13doctoral-doc4-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTeodora+Sandra+Buda+%22Generation+of+Test+Databases+using+Sampling+Methods%22",
+            "URLvideo": "",
+            "PersonsString": "Teodora Sandra Buda",
+            "AffiliationsString": "University College Dublin, Ireland",
+            "Authors": [
+                "Teodora Sandra Buda @ University College Dublin, Ireland"
+            ],
+            "Affiliations": [
+                "University College Dublin, Ireland"
+            ],
+            "Abstract": "Populating the testing environment with relevant data represents a great challenge in software validation, generally requiring expert knowledge about the system under development, as its data critically impacts the outcome of the tests designed to assess the system. Current practices of populating the testing environments generally focus on developing efficient algorithms for generating synthetic data or use the production environment for testing purposes. The latter is an invaluable strategy to provide real test cases in order to discover issues that critically impact the user of the system. However, the production environment generally consists of large amounts of data that are difficult to handle and analyze. Database sampling from the production environment is a potential solution to overcome these challenges.  In this research, we propose two database sampling methods, VFDS and CoDS, with the objective of populating the testing environment. The first method is a very fast random sampling approach, while the latter aims at preserving the distribution of data in order to produce a representative sample. In particular, we focus on the dependencies between the data from different tables and the method tries to preserve the distributions of these dependencies.",
+            "Award": ""
+        },
+        {
+            "Title": "Formal Safety Proof: A Real Case Study in a Railway Interlocking System",
+            "Type": "Short Paper (4 pages)",
+            "Key": "issta13doctoral-doc5-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndrea+Bonacchi+%22Formal+Safety+Proof%3A+A+Real+Case+Study+in+a+Railway+Interlocking+System%22",
+            "URLvideo": "",
+            "PersonsString": "Andrea Bonacchi",
+            "AffiliationsString": "Università di Firenze, Italy",
+            "Authors": [
+                "Andrea Bonacchi @ Università di Firenze, Italy"
+            ],
+            "Affiliations": [
+                "Università di Firenze, Italy"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Analysis of Performance Regression Testing Data by Transaction Profiles",
+            "Type": "Short Paper (4 pages)",
+            "Key": "issta13doctoral-doc1-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShadi+Ghaith+%22Analysis+of+Performance+Regression+Testing+Data+by+Transaction+Profiles%22",
+            "URLvideo": "",
+            "PersonsString": "Shadi Ghaith",
+            "AffiliationsString": "University College Dublin, Ireland",
+            "Authors": [
+                "Shadi Ghaith @ University College Dublin, Ireland"
+            ],
+            "Affiliations": [
+                "University College Dublin, Ireland"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Generation of Java Programs Properties from Test Purposes",
+            "Type": "Short Paper (4 pages)",
+            "Key": "issta13doctoral-doc2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSimone+Hanazumi+and+Ana+de+Melo+%22Generation+of+Java+Programs+Properties+from+Test+Purposes%22",
+            "URLvideo": "",
+            "PersonsString": "Simone Hanazumi and Ana de Melo",
+            "AffiliationsString": "USP, Brazil",
+            "Authors": [
+                "Simone Hanazumi @ USP, Brazil",
+                "Ana de Melo @ USP, Brazil"
+            ],
+            "Affiliations": [
+                "USP, Brazil",
+                "USP, Brazil"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Keynote 1: Static Analysis of Systems",
+            "Type": "Keynote",
+            "Key": "Wolfgang Emmerich @  : Keynote 1: Static Analysis of Systems",
+            "URL": "",
+            "URLvideo": "",
+            "PersonsString": "Wolfgang Emmerich",
+            "AffiliationsString": "",
+            "Authors": [
+                "Wolfgang Emmerich @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Keynote 2: TBA",
+            "Type": "Keynote",
+            "Key": "Patrick Cousot @  : Keynote 2: TBA",
+            "URL": "",
+            "URLvideo": "",
+            "PersonsString": "Patrick Cousot",
+            "AffiliationsString": "",
+            "Authors": [
+                "Patrick Cousot @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        }
+    ],
+    "Sessions": [
+        {
+            "Title": "Doctoral Symposium",
+            "ShortTitle": "Doctoral Symposium",
+            "Type": "Doctoral Symposium",
+            "ShortType": "Doctoral Symposium",
+            "Key": "2013-07-15 09:00 Doctoral Symposium",
+            "Day": "2013-07-15",
+            "Time": "09:00 - 18:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13DOCTORAL",
+            "Abstract": "",
+            "Items": [
+                "issta13doctoral-doc6-p",
+                "issta13doctoral-doc3-p",
+                "issta13doctoral-doc4-p",
+                "issta13doctoral-doc5-p",
+                "issta13doctoral-doc1-p",
+                "issta13doctoral-doc2-p"
+            ]
+        },
+        {
+            "Title": "Workshops",
+            "ShortTitle": "Workshops",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2013-07-15 09:00 Workshops",
+            "Day": "2013-07-15",
+            "Time": "09:00 - 18:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13",
+            "Abstract": ""
+        },
+        {
+            "Title": "Keynote 1: Static Analysis of Systems",
+            "ShortTitle": "Keynote 1: Static Analysis of Systems",
+            "Type": "Keynote",
+            "ShortType": "Keynote",
+            "Key": "2013-07-16 09:00 Keynote 1: Static Analysis of Systems",
+            "Day": "2013-07-16",
+            "Time": "09:00 - 10:30",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13",
+            "Abstract": "",
+             "Items": [
+                 "Wolfgang Emmerich @  : Keynote 1: Static Analysis of Systems"
+            ]
+        },
+        {
+            "Id": "01chaiHie9jo",
+            "Title": "Contracts, Invariants and Stability",
+            "ShortTitle": "Contracts, Invariants and Stability",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-07-16 11:00 Contracts, Invariants and Stability",
+            "Day": "2013-07-16",
+            "Time": "11:00 - 12:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13MAIN",
+            "Abstract": "",
+            "Items": [
+                "issta13main-id95-p",
+                "issta13main-id57-p",
+                "issta13main-id69-p"
+            ]
+        },
+        {
+            "Id": "02wiiph8Sah6",
+            "Title": "Fuzzing and GUI Testing",
+            "ShortTitle": "Fuzzing and GUI Testing",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-07-16 14:00 Fuzzing and GUI Testing",
+            "Day": "2013-07-16",
+            "Time": "14:00 - 16:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13MAIN",
+            "Abstract": "",
+            "Items": [
+                "issta13main-id110-p",
+                "issta13main-id44-p",
+                "issta13main-id63-p",
+                "issta13main-id70-p"
+            ]
+        },
+        {
+            "Id": "03phah8ohr7D",
+            "Title": "Analysis and Testing of Non-functional Properties",
+            "ShortTitle": "Analysis and Testing of Non-functional Properties",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-07-16 16:30 Analysis and Testing of Non-functional Properties",
+            "Day": "2013-07-16",
+            "Time": "16:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13MAIN",
+            "Abstract": "",
+            "Items": [
+                "issta13main-id97-p",
+                "issta13main-id16-p",
+                "issta13main-id78-p"
+            ]
+        },
+        {
+            "Title": "Keynote 2: TBA",
+            "ShortTitle": "Keynote 2: TBA",
+            "Type": "Keynote",
+            "ShortType": "Keynote",
+            "Key": "2013-07-17 09:00 Keynote 2: TBA",
+            "Day": "2013-07-17",
+            "Time": "09:00 - 10:30",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13",
+            "Abstract": "",
+             "Items": [
+                 "Patrick Cousot @  : Keynote 2: TBA"
+            ]
+        },
+        {
+            "Id": "04Ifoomoh0vu",
+            "Title": "Heap Analysis and Testing",
+            "ShortTitle": "Heap Analysis and Testing",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-07-17 11:00 Heap Analysis and Testing",
+            "Day": "2013-07-17",
+            "Time": "11:00 - 12:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13MAIN",
+            "Abstract": "",
+            "Items": [
+                "issta13main-id71-p",
+                "issta13main-id35-p",
+                "issta13main-id56-p"
+            ]
+        },
+        {
+            "Id": "05johvee2Hee",
+            "Title": "Races and Multithreaded Analysis and Testing",
+            "ShortTitle": "Races and Multithreaded Analysis and Testing",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-07-17 14:00 Races and Multithreaded Analysis and Testing",
+            "Day": "2013-07-17",
+            "Time": "14:00 - 16:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13MAIN",
+            "Abstract": "",
+            "Items": [
+                "issta13main-id34-p",
+                "issta13main-id98-p",
+                "issta13main-id74-p",
+                "issta13main-id88-p"
+            ]
+        },
+        {
+            "Id": "06vioshe6Lee",
+            "Title": "Localisation, Patching and Repair",
+            "ShortTitle": "Localisation, Patching and Repair",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-07-17 16:30 Localisation, Patching and Repair",
+            "Day": "2013-07-17",
+            "Time": "16:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13MAIN",
+            "Abstract": "",
+            "Items": [
+                "issta13main-id17-p",
+                "issta13main-id26-p",
+                "issta13main-id127-p"
+            ]
+        },
+        {
+            "Title": "Conference Dinner",
+            "ShortTitle": "Conference Dinner",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-07-17 19:00 Conference Dinner",
+            "Day": "2013-07-17",
+            "Time": "19:00 - 22:00",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13",
+            "Abstract": ""
+        },
+        {
+            "Id": "07pagaifooG7",
+            "Title": "Mutating and Mocking",
+            "ShortTitle": "Mutating and Mocking",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-07-18 09:00 Mutating and Mocking",
+            "Day": "2013-07-18",
+            "Time": "09:00 - 10:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13MAIN",
+            "Abstract": "",
+            "Items": [
+                "issta13main-id106-p",
+                "issta13main-id113-p",
+                "issta13main-id122-p"
+            ]
+        },
+        {
+            "Id": "08OoS0au7igh",
+            "Title": "Learning, Optimizing and Searching",
+            "ShortTitle": "Learning, Optimizing and Searching",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-07-18 11:00 Learning, Optimizing and Searching",
+            "Day": "2013-07-18",
+            "Time": "11:00 - 12:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13MAIN",
+            "Abstract": "",
+            "Items": [
+                "issta13main-id100-p",
+                "issta13main-id118-p",
+                "issta13main-id87-p"
+            ]
+        },
+        {
+            "Id": "09aeDaith6ve",
+            "Title": "Whitebox Testing",
+            "ShortTitle": "Whitebox Testing",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-07-18 14:00 Whitebox Testing",
+            "Day": "2013-07-18",
+            "Time": "14:00 - 15:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13MAIN",
+            "Abstract": "",
+            "Items": [
+                "issta13main-id29-p",
+                "issta13main-id67-p",
+                "issta13main-id103-p"
+            ]
+        },
+        {
+            "Id": "10Oom1momieg",
+            "Title": "Web-Based Analysis and Testing ",
+            "ShortTitle": "Web-Based Analysis and Testing ",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-07-18 16:00 Web-Based Analysis and Testing ",
+            "Day": "2013-07-18",
+            "Time": "16:00 - 17:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13MAIN",
+            "Abstract": "",
+            "Items": [
+                "issta13main-id42-p",
+                "issta13main-id80-p",
+                "issta13main-id53-p"
+            ]
+        },
+        {
+            "Title": "ASE PC Meeting 1",
+            "ShortTitle": "ASE PC Meeting 1",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2013-07-19 09:00 ASE PC Meeting 1",
+            "Day": "2013-07-19",
+            "Time": "09:00 - 18:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13",
+            "Abstract": ""
+        },
+        {
+            "Title": "ASE PC Meeting 2",
+            "ShortTitle": "ASE PC Meeting 2",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2013-07-20 09:00 ASE PC Meeting 2",
+            "Day": "2013-07-20",
+            "Time": "09:00 - 18:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA13",
+            "Abstract": ""
+        }
+    ],
+    "People": [
+        {
+            "Name": "Rui Abreu",
+            "Affiliation": "University of Porto, Portugal",
+            "Key": "Rui Abreu @ University of Porto, Portugal",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Amin Alipour",
+            "Affiliation": "Oregon State University, USA",
+            "Key": "Amin Alipour @ Oregon State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrea Arcuri",
+            "Affiliation": "Schlumberger, Norway / Simula Research Laboratory, Norway",
+            "Key": "Andrea Arcuri @ Schlumberger, Norway / Simula Research Laboratory, Norway",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sorav Bansal",
+            "Affiliation": "IIT Delhi, India",
+            "Key": "Sorav Bansal @ IIT Delhi, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Earl Barr",
+            "Affiliation": "University College London, UK / UC Davis, USA",
+            "Key": "Earl Barr @ University College London, UK / UC Davis, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "David Basin",
+            "Affiliation": "ETH Zurich, Switzerland",
+            "Key": "David Basin @ ETH Zurich, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Santiago Bermúdez",
+            "Affiliation": "Instituto Tecnológico de Buenos Aires, Argentina",
+            "Key": "Santiago Bermúdez @ Instituto Tecnológico de Buenos Aires, Argentina",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sandeep Bindal",
+            "Affiliation": "IIT Delhi, India",
+            "Key": "Sandeep Bindal @ IIT Delhi, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christian Bird",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Christian Bird @ Microsoft Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Guido Marucci Blas",
+            "Affiliation": "Instituto Tecnológico de Buenos Aires, Argentina",
+            "Key": "Guido Marucci Blas @ Instituto Tecnológico de Buenos Aires, Argentina",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrea Bonacchi",
+            "Affiliation": "Università di Firenze, Italy",
+            "Key": "Andrea Bonacchi @ Università di Firenze, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Teodora Sandra Buda",
+            "Affiliation": "University College Dublin, Ireland",
+            "Key": "Teodora Sandra Buda @ University College Dublin, Ireland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tevfik Bultan",
+            "Affiliation": "UC Santa Barbara, USA",
+            "Key": "Tevfik Bultan @ UC Santa Barbara, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yuanjun Chen",
+            "Affiliation": "Nanjing University, China",
+            "Key": "Yuanjun Chen @ Nanjing University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hana Chockler",
+            "Affiliation": "IBM Research, Israel",
+            "Key": "Hana Chockler @ IBM Research, Israel",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Patrick Cousot",
+            "Affiliation": "",
+            "Key": "Patrick Cousot @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mohammad Torabi Dashti",
+            "Affiliation": "ETH Zurich, Switzerland",
+            "Key": "Mohammad Torabi Dashti @ ETH Zurich, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrea De Lucia",
+            "Affiliation": "University of Salerno, Italy",
+            "Key": "Andrea De Lucia @ University of Salerno, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ana de Melo",
+            "Affiliation": "USP, Brazil",
+            "Key": "Ana de Melo @ USP, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Santiago Perez De Rosso",
+            "Affiliation": "Instituto Tecnológico de Buenos Aires, Argentina",
+            "Key": "Santiago Perez De Rosso @ Instituto Tecnológico de Buenos Aires, Argentina",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Pranavadatta Devaki",
+            "Affiliation": "IBM Research, India",
+            "Key": "Pranavadatta Devaki @ IBM Research, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Danny Dig",
+            "Affiliation": "Oregon State University, USA",
+            "Key": "Danny Dig @ Oregon State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jinsong Dong",
+            "Affiliation": "National University of Singapore, Singapore",
+            "Key": "Jinsong Dong @ National University of Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Matthew B. Dwyer",
+            "Affiliation": "University of Nebraska-Lincoln, USA",
+            "Key": "Matthew B. Dwyer @ University of Nebraska-Lincoln, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sebastian Elbaum",
+            "Affiliation": "University of Nebraska-Lincoln, USA",
+            "Key": "Sebastian Elbaum @ University of Nebraska-Lincoln, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Wolfgang Emmerich",
+            "Affiliation": "",
+            "Key": "Wolfgang Emmerich @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michael D. Ernst",
+            "Affiliation": "University of Washington, USA",
+            "Key": "Michael D. Ernst @ University of Washington, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Karine Even",
+            "Affiliation": "IBM Research, Israel / Technion, Israel",
+            "Key": "Karine Even @ IBM Research, Israel / Technion, Israel",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ari Fogel",
+            "Affiliation": "UC Los Angeles, USA",
+            "Key": "Ari Fogel @ UC Los Angeles, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gordon Fraser",
+            "Affiliation": "University of Sheffield, UK",
+            "Key": "Gordon Fraser @ University of Sheffield, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marcus Frenkel",
+            "Affiliation": "Fernuniversität in Hagen, Germany",
+            "Key": "Marcus Frenkel @ Fernuniversität in Hagen, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marcelo Frias",
+            "Affiliation": "Instituto Tecnológico de Buenos Aires, Argentina",
+            "Key": "Marcelo Frias @ Instituto Tecnológico de Buenos Aires, Argentina",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Juan Galeotti",
+            "Affiliation": "Saarland University, Germany",
+            "Key": "Juan Galeotti @ Saarland University, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shadi Ghaith",
+            "Affiliation": "University College Dublin, Ireland",
+            "Key": "Shadi Ghaith @ University College Dublin, Ireland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dimitra Giannakopoulou",
+            "Affiliation": "NASA Ames Research Center, USA",
+            "Key": "Dimitra Giannakopoulou @ NASA Ames Research Center, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Milos Gligoric",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
+            "Key": "Milos Gligoric @ University of Illinois at Urbana-Champaign, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ramesh Govindan",
+            "Affiliation": "University of Southern California, USA",
+            "Key": "Ramesh Govindan @ University of Southern California, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alex Groce",
+            "Affiliation": "Oregon State University, USA",
+            "Key": "Alex Groce @ Oregon State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lin Gui",
+            "Affiliation": "National University of Singapore, Singapore",
+            "Key": "Lin Gui @ National University of Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lotem Guy",
+            "Affiliation": "Cybereason, Israel",
+            "Key": "Lotem Guy @ Cybereason, Israel",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "William G. J. Halfond",
+            "Affiliation": "University of Southern California, USA",
+            "Key": "William G. J. Halfond @ University of Southern California, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shi Han",
+            "Affiliation": "Microsoft Research, China",
+            "Key": "Shi Han @ Microsoft Research, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Simone Hanazumi",
+            "Affiliation": "USP, Brazil",
+            "Key": "Simone Hanazumi @ USP, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shuai Hao",
+            "Affiliation": "University of Southern California, USA",
+            "Key": "Shuai Hao @ University of Southern California, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mary Jean Harrold",
+            "Affiliation": "Georgia Tech, USA",
+            "Key": "Mary Jean Harrold @ Georgia Tech, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rebecca Hicks",
+            "Affiliation": "UC Los Angeles, USA",
+            "Key": "Rebecca Hicks @ UC Los Angeles, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mark Hills",
+            "Affiliation": "CWI, Netherlands",
+            "Key": "Mark Hills @ CWI, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Falk Howar",
+            "Affiliation": "CMU, USA",
+            "Key": "Falk Howar @ CMU, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Casper S. Jensen",
+            "Affiliation": "Aarhus University, Denmark",
+            "Key": "Casper S. Jensen @ Aarhus University, Denmark",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Wei Jin",
+            "Affiliation": "Georgia Tech, USA",
+            "Key": "Wei Jin @ Georgia Tech, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sarfraz Khurshid",
+            "Affiliation": "University of Texas at Austin, USA",
+            "Key": "Sarfraz Khurshid @ University of Texas at Austin, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Fitsum Meshesha Kifetew",
+            "Affiliation": "Fondazione Bruno Kessler, Italy",
+            "Key": "Fitsum Meshesha Kifetew @ Fondazione Bruno Kessler, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Paul Klint",
+            "Affiliation": "CWI, Netherlands",
+            "Key": "Paul Klint @ CWI, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Akash Lal",
+            "Affiliation": "Microsoft Research, India",
+            "Key": "Akash Lal @ Microsoft Research, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yan Lei",
+            "Affiliation": "National University of Defense Technology, China",
+            "Key": "Yan Lei @ National University of Defense Technology, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ding Li",
+            "Affiliation": "University of Southern California, USA",
+            "Key": "Ding Li @ University of Southern California, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mengchen Li",
+            "Affiliation": "Nanjing University, China",
+            "Key": "Mengchen Li @ Nanjing University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yang Liu",
+            "Affiliation": "Nanyang Technological University, Singapore",
+            "Key": "Yang Liu @ Nanyang Technological University, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hao Lu",
+            "Affiliation": "University of Washington, USA",
+            "Key": "Hao Lu @ University of Washington, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Qingzhou Luo",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
+            "Key": "Qingzhou Luo @ University of Illinois at Urbana-Champaign, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xiaoguang Mao",
+            "Affiliation": "National University of Defense Technology, China",
+            "Key": "Xiaoguang Mao @ National University of Defense Technology, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Darko Marinov",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
+            "Key": "Darko Marinov @ University of Illinois at Urbana-Champaign, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mark Marron",
+            "Affiliation": "IMDEA Software Institute, Spain",
+            "Key": "Mark Marron @ IMDEA Software Institute, Spain",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Phil McMinn",
+            "Affiliation": "University of Sheffield, UK",
+            "Key": "Phil McMinn @ University of Sheffield, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Todd Millstein",
+            "Affiliation": "UC Los Angeles, USA",
+            "Key": "Todd Millstein @ UC Los Angeles, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Anders Møller",
+            "Affiliation": "Aarhus University, Denmark",
+            "Key": "Anders Møller @ Aarhus University, Denmark",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jaideep Nijjar",
+            "Affiliation": "UC Santa Barbara, USA",
+            "Key": "Jaideep Nijjar @ UC Santa Barbara, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rocco Oliveto",
+            "Affiliation": "University of Molise, Italy",
+            "Key": "Rocco Oliveto @ University of Molise, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alessandro Orso",
+            "Affiliation": "Georgia Tech, USA",
+            "Key": "Alessandro Orso @ Georgia Tech, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Frank Padberg",
+            "Affiliation": "KIT, Germany",
+            "Key": "Frank Padberg @ KIT, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Annibale Panichella",
+            "Affiliation": "University of Salerno, Italy",
+            "Key": "Annibale Panichella @ University of Salerno, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sangmin Park",
+            "Affiliation": "Georgia Tech, USA",
+            "Key": "Sangmin Park @ Georgia Tech, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Cristiano Pereira",
+            "Affiliation": "Intel, USA",
+            "Key": "Cristiano Pereira @ Intel, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lucas Pizzagalli",
+            "Affiliation": "Instituto Tecnológico de Buenos Aires, Argentina",
+            "Key": "Lucas Pizzagalli @ Instituto Tecnológico de Buenos Aires, Argentina",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gilles Pokam",
+            "Affiliation": "Intel Research, USA",
+            "Key": "Gilles Pokam @ Intel Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mukul R. Prasad",
+            "Affiliation": "Fujitsu Labs, USA",
+            "Key": "Mukul R. Prasad @ Fujitsu Labs, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rahul Purandare",
+            "Affiliation": "University of Nebraska-Lincoln, USA",
+            "Key": "Rahul Purandare @ University of Nebraska-Lincoln, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dawei Qi",
+            "Affiliation": "National University of Singapore, Singapore",
+            "Key": "Dawei Qi @ National University of Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yuhua Qi",
+            "Affiliation": "National University of Defense Technology, China",
+            "Key": "Yuhua Qi @ National University of Defense Technology, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Cosmin Radoi",
+            "Affiliation": "University of Illinois, USA",
+            "Key": "Cosmin Radoi @ University of Illinois, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zvonimir Rakamaric",
+            "Affiliation": "University of Utah, USA",
+            "Key": "Zvonimir Rakamaric @ University of Utah, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nicolas Rosner",
+            "Affiliation": "Universidad de Buenos Aires, Argentina",
+            "Key": "Nicolas Rosner @ Universidad de Buenos Aires, Argentina",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Grigore Rosu",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
+            "Key": "Grigore Rosu @ University of Illinois at Urbana-Champaign, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gregg Rothermel",
+            "Affiliation": "University of Nebraska-Lincoln, USA",
+            "Key": "Gregg Rothermel @ University of Nebraska-Lincoln, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Abhik Roychoudhury",
+            "Affiliation": "National University of Singapore, Singapore",
+            "Key": "Abhik Roychoudhury @ National University of Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Barbara G. Ryder",
+            "Affiliation": "Virginia Tech, USA",
+            "Key": "Barbara G. Ryder @ Virginia Tech, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hesam Samimi",
+            "Affiliation": "UC Los Angeles, USA",
+            "Key": "Hesam Samimi @ UC Los Angeles, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rohan Sharma",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
+            "Key": "Rohan Sharma @ University of Illinois at Urbana-Champaign, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yuanjie Si",
+            "Affiliation": "Zhejiang University, China",
+            "Key": "Yuanjie Si @ Zhejiang University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nimit Singhania",
+            "Affiliation": "IBM Research, India",
+            "Key": "Nimit Singhania @ IBM Research, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Saurabh Sinha",
+            "Affiliation": "IBM Research, India",
+            "Key": "Saurabh Sinha @ IBM Research, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Witawas Srisa-An",
+            "Affiliation": "University of Nebraska-Lincoln, USA",
+            "Key": "Witawas Srisa-An @ University of Nebraska-Lincoln, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Matt Staats",
+            "Affiliation": "KAIST, South Korea",
+            "Key": "Matt Staats @ KAIST, South Korea",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Friedrich Steimann",
+            "Affiliation": "Fernuniversität in Hagen, Germany",
+            "Key": "Friedrich Steimann @ Fernuniversität in Hagen, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jun Sun",
+            "Affiliation": "Singapore University of Technology and Design, Singapore",
+            "Key": "Jun Sun @ Singapore University of Technology and Design, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shin Hwei Tan",
+            "Affiliation": "National University of Singapore, Singapore",
+            "Key": "Shin Hwei Tan @ National University of Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Thomas Thüm",
+            "Affiliation": "University of Magdeburg, Germany",
+            "Key": "Thomas Thüm @ University of Magdeburg, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Suresh Thummalapenta",
+            "Affiliation": "IBM Research, India",
+            "Key": "Suresh Thummalapenta @ IBM Research, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Paolo Tonella",
+            "Affiliation": "Fondazione Bruno Kessler, Italy",
+            "Key": "Paolo Tonella @ Fondazione Bruno Kessler, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Omer Tripp",
+            "Affiliation": "IBM, Israel / Tel Aviv University, Israel",
+            "Key": "Omer Tripp @ IBM, Israel / Tel Aviv University, Israel",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Petar Tsankov",
+            "Affiliation": "ETH Zurich, Switzerland",
+            "Key": "Petar Tsankov @ ETH Zurich, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jurgen Vinju",
+            "Affiliation": "CWI, Netherlands",
+            "Key": "Jurgen Vinju @ CWI, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Richard Vuduc",
+            "Affiliation": "Georgia Tech, USA",
+            "Key": "Richard Vuduc @ Georgia Tech, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Chengsong Wang",
+            "Affiliation": "National University of Defense Technology, China",
+            "Key": "Chengsong Wang @ National University of Defense Technology, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Linzhang Wang",
+            "Affiliation": "Nanjing University, China",
+            "Key": "Linzhang Wang @ Nanjing University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xinyu Wang",
+            "Affiliation": "Zhejiang University, China",
+            "Key": "Xinyu Wang @ Zhejiang University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shiyi Wei",
+            "Affiliation": "Virginia Tech, USA",
+            "Key": "Shiyi Wei @ Virginia Tech, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Omri Weisman",
+            "Affiliation": "IBM, Israel",
+            "Key": "Omri Weisman @ IBM, Israel",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xusheng Xiao",
+            "Affiliation": "North Carolina State University, USA",
+            "Key": "Xusheng Xiao @ North Carolina State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tao Xie",
+            "Affiliation": "North Carolina State University, USA",
+            "Key": "Tao Xie @ North Carolina State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Guoqing Xu",
+            "Affiliation": "UC Irvine, USA",
+            "Key": "Guoqing Xu @ UC Irvine, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Eran Yahav",
+            "Affiliation": "Technion, Israel",
+            "Key": "Eran Yahav @ Technion, Israel",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jooyong Yi",
+            "Affiliation": "National University of Singapore, Singapore",
+            "Key": "Jooyong Yi @ National University of Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tingting Yu",
+            "Affiliation": "University of Nebraska-Lincoln, USA",
+            "Key": "Tingting Yu @ University of Nebraska-Lincoln, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Luciano Zemín",
+            "Affiliation": "Instituto Tecnológico de Buenos Aires, Argentina",
+            "Key": "Luciano Zemín @ Instituto Tecnológico de Buenos Aires, Argentina",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Chaoqiang Zhang",
+            "Affiliation": "Oregon State University, USA",
+            "Key": "Chaoqiang Zhang @ Oregon State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dongmei Zhang",
+            "Affiliation": "Microsoft Research, China",
+            "Key": "Dongmei Zhang @ Microsoft Research, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lingming Zhang",
+            "Affiliation": "University of Texas at Austin, USA",
+            "Key": "Lingming Zhang @ University of Texas at Austin, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sai Zhang",
+            "Affiliation": "University of Washington, USA",
+            "Key": "Sai Zhang @ University of Washington, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        }
+    ]
+}
+ 
+
