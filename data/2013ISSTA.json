@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1372837398,
+    "DataRevision": 1372837618,
     "Preliminary": false,
     "Event": "ISSTA 2013",
     "Name": "ISSTA 2013",
@@ -870,16 +870,16 @@
         {
             "Title": "Keynote 1: Static Analysis of Systems (Wolfgang Emmerich)",
             "Type": "Keynote",
-            "Key": "Wolfgang Emmerich @  : Keynote 1: Static Analysis of Systems (Wolfgang Emmerich)",
+            "Key": "Wolfgang Emmerich @ Zuhlke Engineering Limited, UK : Keynote 1: Static Analysis of Systems (Wolfgang Emmerich)",
             "URL": "",
             "URLvideo": "",
             "PersonsString": "Wolfgang Emmerich",
-            "AffiliationsString": "",
+            "AffiliationsString": "Zuhlke Engineering Limited, UK",
             "Authors": [
-                "Wolfgang Emmerich @"
+                "Wolfgang Emmerich @ Zuhlke Engineering Limited, UK"
             ],
             "Affiliations": [
-                ""
+                "Zuhlke Engineering Limited, UK"
             ],
             "Abstract": "",
             "Award": ""
@@ -887,16 +887,16 @@
         {
             "Title": "Keynote 2: Towards Agile Verification And Verification At Run Time (Carlo Ghezzi)",
             "Type": "Keynote",
-            "Key": "Carlo Ghezzi @  : Keynote 2: Towards Agile Verification And Verification At Run Time (Carlo Ghezzi)",
+            "Key": "Carlo Ghezzi @ Politecnico di Milano, Italy : Keynote 2: Towards Agile Verification And Verification At Run Time (Carlo Ghezzi)",
             "URL": "",
             "URLvideo": "",
             "PersonsString": "Carlo Ghezzi",
-            "AffiliationsString": "",
+            "AffiliationsString": "Politecnico di Milano, Italy",
             "Authors": [
-                "Carlo Ghezzi @"
+                "Carlo Ghezzi @ Politecnico di Milano, Italy"
             ],
             "Affiliations": [
-                ""
+                "Politecnico di Milano, Italy"
             ],
             "Abstract": "",
             "Award": ""
@@ -1029,7 +1029,7 @@
             "Comment": "ISSTA13",
             "Abstract": "During the last decades, the programming language and software engineering research communities have made great advances on techniques for static program analysis. In industrial practice, however, engineers need to frequently answer questions that go beyond the scope of a single program and require end-to-end analyses of multiple distributed system components. Such systems often consist of multiple programs written in different programming languages, database schema and query languages, message formats, ETL scripts and proprietary business reporting languages. As an example I will discuss the calculation of data lineage in enterprise information systems, which is required by many financial services organisations. I will show how we have combined static program analysis techniques, such as dataflow analysis and program slicing with a meta data repository in order to calculate, visualize and report on data lineage in financial systems.",
              "Items": [
-                 "Wolfgang Emmerich @  : Keynote 1: Static Analysis of Systems (Wolfgang Emmerich)"
+                 "Wolfgang Emmerich @ Zuhlke Engineering Limited, UK : Keynote 1: Static Analysis of Systems (Wolfgang Emmerich)"
             ]
         },
         {
@@ -1124,7 +1124,7 @@
             "Comment": "ISSTA13",
             "Abstract": "Formal verification, and in particular model checking, has made a lot of progress in the recent past. However, it is considered with skepticism by practitioners. It is viewed as a niche technique, somewhat confined to safety-critical systems, that failed to become standard practice in general. It is considered as a heavy-weight and very expensive technique that does not fit the requirements of the now prevalent incremental, iterative (i.e., agile) developments. On the other hand, recent work on rapidly evolving and self-adaptive software showed that formal verification can be brought effectively to run time to support reactive adaptation, by making model checking incremental. The talk discusses why and how that happened. It also argues that by making modeling and model checking incremental and iterative (i.e., agile) formal modeling and verification techniques potentially can be fully reconciled with the requirements of agile development, and this may pave the way for their adoption in the common practice.",
              "Items": [
-                 "Carlo Ghezzi @  : Keynote 2: Towards Agile Verification And Verification At Run Time (Carlo Ghezzi)"
+                 "Carlo Ghezzi @ Politecnico di Milano, Italy : Keynote 2: Towards Agile Verification And Verification At Run Time (Carlo Ghezzi)"
             ]
         },
         {
@@ -1597,8 +1597,8 @@
         },
         {
             "Name": "Wolfgang Emmerich",
-            "Affiliation": "",
-            "Key": "Wolfgang Emmerich @",
+            "Affiliation": "Zuhlke Engineering Limited, UK",
+            "Key": "Wolfgang Emmerich @ Zuhlke Engineering Limited, UK",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -1687,8 +1687,8 @@
         },
         {
             "Name": "Carlo Ghezzi",
-            "Affiliation": "",
-            "Key": "Carlo Ghezzi @",
+            "Affiliation": "Politecnico di Milano, Italy",
+            "Key": "Carlo Ghezzi @ Politecnico di Milano, Italy",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
