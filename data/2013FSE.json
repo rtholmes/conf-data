@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1372026730,
+    "DataRevision": 1372845035,
     "Preliminary": true,
     "Event": "ESEC/FSE 2013",
     "Name": "ESEC/FSE 2013",
@@ -62,6 +62,7 @@
             "Key": "fse13main-id142-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJustyna+Petke%2C+Shin+Yoo%2C+Myra+B.+Cohen%2C+and+Mark+Harman+%22Efficiency+and+Early+Fault+Detection+with+Lower+and+Higher+Strength+Combinatorial+Interaction+Testing%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Justyna Petke, Shin Yoo, Myra B. Cohen, and Mark Harman",
             "AffiliationsString": "University College London, UK; University of Nebraska-Lincoln, USA",
             "Authors": [
@@ -76,7 +77,7 @@
                 "University of Nebraska-Lincoln, USA",
                 "University College London, UK"
             ],
-            "Abstract": "",
+            "Abstract": "Combinatorial Interaction Testing (CIT) is important because it tests the interactions between the many features and parameters that make up the configuration space of software systems. However, in order to be practically applicable, it must be able to cater for soft and hard real-world constraints and should, ideally, report a test priority order that maximises earliest fault detection. We show that we can achieve the highest strength CIT in 5.65 minutes on average. This was previously thought to be too computationally expensive to be feasible. Furthermore, we show that higher strength suites find more faults, while prioritisations using lower strengths are no worse at achieving early fault revelation.",
             "Award": ""
         },
         {
@@ -85,21 +86,22 @@
             "Key": "fse13main-id218-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAzadeh+Farzan%2C+Andreas+Holzer%2C+Niloofar+Razavi%2C+and+Helmut+Veith+%22%28Con%292colic+Testing%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Azadeh Farzan, Andreas Holzer, Niloofar Razavi, and Helmut Veith",
-            "AffiliationsString": "University of Toronto, Canada; TU Vienna, Austria",
+            "AffiliationsString": "University of Toronto, Canada; Vienna University of Technology, Austria",
             "Authors": [
                 "Azadeh Farzan @ University of Toronto, Canada",
-                "Andreas Holzer @ TU Vienna, Austria",
+                "Andreas Holzer @ Vienna University of Technology, Austria",
                 "Niloofar Razavi @ University of Toronto, Canada",
-                "Helmut Veith @ TU Vienna, Austria"
+                "Helmut Veith @ Vienna University of Technology, Austria"
             ],
             "Affiliations": [
                 "University of Toronto, Canada",
-                "TU Vienna, Austria",
+                "Vienna University of Technology, Austria",
                 "University of Toronto, Canada",
-                "TU Vienna, Austria"
+                "Vienna University of Technology, Austria"
             ],
-            "Abstract": "",
+            "Abstract": "In this paper, we describe a systematic testing approach for concurrent software. Based on concrete and symbolic executions of a concurrent program, (con)2colic testing derives inputs and schedules such that the execution space of the program under investigation is systematically explored. We introduce interference scenarios as key concept in (con)2colic testing. Interference scenarios capture the flow of data among different threads and enable a unified representation of path and interference constraints. We have implemented a (con)2colic testing engine and demonstrate the effectiveness of our approach by experiments.",
             "Award": ""
         },
         {
@@ -108,6 +110,7 @@
             "Key": "fse13main-id95-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJoxan+Jaffar%2C+Vijayaraghavan+Murali%2C+and+Jorge+A.+Navas+%22Boosting+Concolic+Testing+via+Interpolation%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Joxan Jaffar, Vijayaraghavan Murali, and Jorge A. Navas",
             "AffiliationsString": "National University of Singapore, Singapore; University of Melbourne, Australia",
             "Authors": [
@@ -120,15 +123,16 @@
                 "National University of Singapore, Singapore",
                 "University of Melbourne, Australia"
             ],
-            "Abstract": "",
+            "Abstract": "Concolic testing has been very successful in automatically generating test inputs for programs. However one of its major limitations is path-explosion that limits the generation of high coverage inputs. Since its inception several ideas have been proposed to attack this problem from various angles: defining search heuristics that increase coverage, caching of function summaries, pruning of paths using static/dynamic information etc.  We propose a new and complementary method based on interpolation, that greatly mitigates path-explosion by subsuming paths that can be guaranteed to not hit a bug. We discuss new challenges in using interpolation that arise specifically in the context of concolic testing. We experimentally evaluate our method with different search heuristics using Crest, a publicly available concolic tester.",
             "Award": ""
         },
         {
             "Title": "Adequate Monitoring of Service Compositions",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id157-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAntonia+Bertolino%2C+Eda+Marchetti%2C+and+Andrea+Morichetta+%22Adequate+Monitoring+of+Service+Compositions%22",
+            "URL": "http%3A%2F%2Flabsedc.isti.cnr.it%2Fbertolino%2F_media%2Fid157.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Antonia Bertolino, Eda Marchetti, and Andrea Morichetta",
             "AffiliationsString": "ISTI-CNR, Italy",
             "Authors": [
@@ -141,7 +145,7 @@
                 "ISTI-CNR, Italy",
                 "ISTI-CNR, Italy"
             ],
-            "Abstract": "",
+            "Abstract": "Monitoring is essential to validate the runtime behaviour of dynamic distributed systems. However, monitors can inform of relevant events as they occur, but by their very nature they will not report about all those events that are not happening. In service-oriented applications it would be desirable to have means to assess the thoroughness of the interactions among the services that are being monitored. In case some events or message sequences or interaction patterns have not been observed for a while, in fact, one could timely check whether this happens because something is going wrong. In this paper, we introduce the novel notion of monitoring adequacy, which is generic and can be defined on different entities. We then define two adequacy criteria for service compositions and implement a proof-of-concept adequate monitoring framework. We validate the approach on two case studies, the Travel Reservation System and the Future Market choreographies.",
             "Award": ""
         },
         {
@@ -150,6 +154,7 @@
             "Key": "fse13main-id87-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMarin+Silic%2C+Goran+Delac%2C+and+Sinisa+Srbljic+%22Prediction+of+Atomic+Web+Services+Reliability+Based+on+K-Means+Clustering%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Marin Silic, Goran Delac, and Sinisa Srbljic",
             "AffiliationsString": "University of Zagreb, Croatia",
             "Authors": [
@@ -171,6 +176,7 @@
             "Key": "fse13main-id145-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJ%C3%B6rg+Liebig%2C+Alexander+von+Rhein%2C+Christian+K%C3%A4stner%2C+Sven+Apel%2C+Jens+D%C3%B6rre%2C+and+Christian+Lengauer+%22Scalable+Analysis+of+Variable+Software%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Jörg Liebig, Alexander von Rhein, Christian Kästner, Sven Apel, Jens Dörre, and Christian Lengauer",
             "AffiliationsString": "University of Passau, Germany; CMU, USA",
             "Authors": [
@@ -189,15 +195,16 @@
                 "University of Passau, Germany",
                 "University of Passau, Germany"
             ],
-            "Abstract": "",
+            "Abstract": "The advent of variability management and generator technology enables users to derive individual variants from a variable code base based on a selection of desired configuration options. This approach gives rise to the generation of possibly billions of variants that, however, cannot be efficiently analyzed for errors with classic analysis techniques. To address this issue, researchers and practitioners usually apply sampling heuristics. While sampling reduces the analysis effort significantly, the information obtained is necessarily incomplete and it is unknown whether sampling heuristics scale to billions of variants. Recently, researchers have begun to develop variability-aware analyses that analyze the variable code base directly exploiting the similarities among individual variants to reduce analysis effort. However, while being promising, so far, variability-aware analyses have been applied mostly only to small academic systems. To learn about the mutual strengths and weaknesses of variability-aware and sampling-based analyses of software systems, we compared the two strategies by means of two concrete analysis implementations (type checking and liveness analysis), applied them to three subject systems: Busybox, the x86 Linux kernel, and OpenSSL. Our key finding is that variability-aware analysis outperforms most sampling heuristics with respect to analysis time while preserving completeness.",
             "Award": ""
         },
         {
             "Title": "Bayesian Inference using Data Flow Analysis",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id78-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DGuillaume+Claret%2C+Sriram+Rajamani%2C+Aditya+Nori%2C+Andrew+Gordon%2C+and+Johannes+Borgstrom+%22Bayesian+Inference+using+Data+Flow+Analysis%22",
+            "URL": "http%3A%2F%2Fresearch.microsoft.com%2Fpubs%2F193426%2Fpaper.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Guillaume Claret, Sriram Rajamani, Aditya Nori, Andrew Gordon, and Johannes Borgstrom",
             "AffiliationsString": "INRIA, France; Microsoft Research, India; Microsoft Research, UK; Uppsala University, Sweden",
             "Authors": [
@@ -214,7 +221,7 @@
                 "Microsoft Research, UK",
                 "Uppsala University, Sweden"
             ],
-            "Abstract": "",
+            "Abstract": "We present a new algorithm for Bayesian inference over probabilistic programs, based on data flow analysis techniques from the program analysis community. Unlike existing techniques for Bayesian inference on probabilistic programs, our data flow analysis algorithm is able to perform inference directly on probabilistic programs with loops. Even for loop-free programs, we show that data flow analysis offers better precision and better performance benefits over existing techniques. We also describe heuristics that are crucial for our inference to scale, and present an empirical evaluation of our algorithm over a range of benchmarks.",
             "Award": ""
         },
         {
@@ -223,6 +230,7 @@
             "Key": "fse13main-id233-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKaituo+Li%2C+Christoph+Reichenbach%2C+Yannis+Smaragdakis%2C+and+Michal+Young+%22Second-Order+Constraints+in+Dynamic+Invariant+Inference%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Kaituo Li, Christoph Reichenbach, Yannis Smaragdakis, and Michal Young",
             "AffiliationsString": "University of Massachusetts at Amherst, USA; Goethe University Frankfurt, Germany; University of Athens, Greece; University of Oregon, USA",
             "Authors": [
@@ -237,7 +245,7 @@
                 "University of Athens, Greece",
                 "University of Oregon, USA"
             ],
-            "Abstract": "",
+            "Abstract": "The current generation of dynamic invariant detectors often produce invariants that are inconsistent with program semantics or programmer knowledge. We improve the consistency of dynamically discovered invariants by taking into account higher-level constraints. These constraints encode knowledge about invariants, even when the invariants themselves are unknown. For instance, even though the invariants describing the behavior of two functions f1 and f2 may be unknown, we may know that any valid input for f1 is also valid for f2, i.e., the precondition of f1 implies that of f2. We explore techniques for expressing and employing such consistency constraints to improve the quality of produced invariants. We further introduce techniques for dynamically discovering potential second-order constraints that the programmer can subsequently approve or reject.  Our implementation builds on the Daikon tool, with a vocabulary of constraints that the programmer can use to enhance and constrain Daikon’s inference. We show that dynamic inference of second-order constraints together with minimal human effort can significantly influence the produced (first-order) invariants even in systems of substantial size, such as the Apache Commons Collections and the AspectJ compiler. We also find that 99% of the dynamically inferred second-order constraints we sampled are true.",
             "Award": ""
         },
         {
@@ -246,6 +254,7 @@
             "Key": "fse13main-id232-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYunhui+Zheng%2C+Xiangyu+Zhang%2C+and+Vijay+Ganesh+%22Z3-str%3A+A+Z3-Based+String+Solver+for+Web+Application+Analysis%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Yunhui Zheng, Xiangyu Zhang, and Vijay Ganesh",
             "AffiliationsString": "Purdue University, USA; University of Waterloo, Canada",
             "Authors": [
@@ -258,7 +267,7 @@
                 "Purdue University, USA",
                 "University of Waterloo, Canada"
             ],
-            "Abstract": "",
+            "Abstract": "Analyzing web applications requires reasoning about strings and non-strings cohesively. Existing string solvers either ignore non-string program behavior or support limited set of string operations. In this paper, we develop a general purpose string solver, called Z3-str, as an extension of the Z3 SMT solver through its plug-in interface. Z3-str treats strings as a primitive type, thus avoiding the inherent limitations observed in many existing solvers that encode strings in terms of other primitives. The logic of the plug-in has three sorts, namely, bool, int and string. The string-sorted terms include string constants and variables of arbitrary length, with functions such as concatenation, sub-string, and replace. The int-sorted terms are standard, with the exception of the length function over string terms. The atomic formulas are equations over string terms, and (in)-equalities over integer terms. Not only does our solver have features that enable whole program symbolic, static and dynamic analysis, but also it performs better than other solvers in our experiments. The application of Z3-str in remote code execution detection shows that its support of a wide spectrum of string operations is key to reducing false positives.",
             "Award": ""
         },
         {
@@ -267,6 +276,7 @@
             "Key": "fse13main-id117-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDong+Qiu%2C+Bixin+Li%2C+and+Zhendong+Su+%22An+Empirical+Analysis+of+the+Co-evolution+of+Schema+and+Code+in+Database+Applications%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Dong Qiu, Bixin Li, and Zhendong Su",
             "AffiliationsString": "Southeast University, China; UC Davis, USA",
             "Authors": [
@@ -279,7 +289,7 @@
                 "Southeast University, China",
                 "UC Davis, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Modern database applications are among the most widely used and complex software systems. They constantly evolve, responding to changes to data, database schemas, and code. It is challenging to manage these changes and ensure that everything co-evolves consistently. For example, when a database schema is modified, all the code that interacts with the database must be changed accordingly. Although database evolution and software evolution have been extensively studied in isolation, the co-evolution of schema and code has largely been unexplored.  This paper presents the first comprehensive empirical analysis of the co-evolution of database schemas and code in ten popular large open-source database applications, totaling over 160K revisions. Our major findings include: 1) Database schemas evolve frequently during the application lifecycle, exhibiting a variety of change types with similar distributions across the studied applications; 2) Overall, schema changes induce significant code-level modifications, while certain change types have more impact on code than others; and 3) Co-change analyses can be viable to automate or assist with database application evolution. We have also observed that: 1) 80% of the schema changes happened in 20-30% of the tables, while nearly 40% of the tables did not change; and 2) Referential integrity constraints and stored procedures are rarely used in our studied subjects. We believe that our study reveals new insights into how database applications evolve and useful guidelines for designing assistive tools to aid their evolution.",
             "Award": ""
         },
         {
@@ -288,6 +298,7 @@
             "Key": "fse13main-id136-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCu+Duy+Nguyen%2C+Alessandro+Marchetto%2C+and+Paolo+Tonella+%22Automated+Oracles%3A+An+Empirical+Study+on+Cost+and+Effectiveness%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Cu Duy Nguyen, Alessandro Marchetto, and Paolo Tonella",
             "AffiliationsString": "Fondazione Bruno Kessler, Italy; Centro Ricerche Fiat, Italy",
             "Authors": [
@@ -300,7 +311,7 @@
                 "Centro Ricerche Fiat, Italy",
                 "Fondazione Bruno Kessler, Italy"
             ],
-            "Abstract": "",
+            "Abstract": "Software testing is an effective, yet expensive, method to improve software quality. Test automation, a potential way to reduce testing cost, has received enormous research attention recently, but the so-called “oracle problem” (how to decide the PASS/FAIL outcome of a test execution) is still a major obstacle to such cost reduction. We have extensively investigated state-of-the-art works that contribute to address this problem, from areas such as specification mining and model inference. In this paper, we compare three types of automated oracles: Data invariants, Temporal invariants, and Finite State Automata. More specifically, we study the training cost and the false positive rate; we evaluate also their fault detection capability. Seven medium to large, industrial application subjects and real faults have been used in our empirical investigation.",
             "Award": ""
         },
         {
@@ -309,6 +320,7 @@
             "Key": "fse13main-id50-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFoyzur+Rahman%2C+Daryl+Posnett%2C+Israel+Herraiz%2C+and+Premkumar+Devanbu+%22Sample+Size+vs.+Bias+in+Defect+Prediction%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Foyzur Rahman, Daryl Posnett, Israel Herraiz, and Premkumar Devanbu",
             "AffiliationsString": "UC Davis, USA; Universidad Politécnica de Madrid, Spain",
             "Authors": [
@@ -323,7 +335,7 @@
                 "Universidad Politécnica de Madrid, Spain",
                 "UC Davis, USA"
             ],
-            "Abstract": "Most empirical disciplines promote the reuse and sharing of datasets, as it leads to greater possibility of replication. While this is increasingly the case in Empirical Software Engineering, some of the most popular bug-fix datasets are now known to be biased. This raises two significants concerns: first, that sample bias may lead to underperforming prediction models, and second, that the external validity of the studies based on biased datasets may be suspect. This issue has raised considerable consternation in the ESE literature in recent years. However, there is a confounding factor of these datasets that has not been examined carefully: size. Biased datasets are sampling only some of the data that could be sampled, and doing so in a biased fashion; but biased samples could be smaller, or larger. Smaller data sets in general provide less reliable bases for estimating models, and thus could lead to inferior model performance. In this setting, we ask the question, what affects performance more? bias, or size? We conduct a detailed, large-scale meta-analysis, using simulated datasets sampled with bias from a high-quality dataset which is relatively free of bias. Our results suggest that size always matters just as much bias direction, and in fact much more than bias direction when considering information-retrieval measures such as AUC and F-score. This indicates that at least for prediction models, even when dealing with sampling bias, simply finding larger samples can sometimes be sufficient. Our analysis also exposes the complexity of the bias issue, and raises further issues to be explored in the future.",
+            "Abstract": "Most empirical disciplines promote the reuse and sharing of datasets, as it leads to greater possibility of replication. While this is increasingly the case in Empirical Software Engineering, some of the most popular bug-fix datasets are now known to be biased. This raises two significant concerns: first, that sample bias may lead to underperforming prediction models, and second, that the external validity of the studies based on biased datasets may be suspect. This issue has raised considerable consternation in the ESE literature in recent years. However, there is a confounding factor of these datasets that has not been examined carefully: size. Biased datasets are sampling only some of the data that could be sampled, and doing so in a biased fashion; but biased samples could be smaller, or larger. Smaller data sets in general provide less reliable bases for estimating models, and thus could lead to inferior model performance. In this setting, we ask the question, what affects performance more, bias, or size? We conduct a detailed, large-scale meta-analysis, using simulated datasets sampled with bias from a high-quality dataset which is relatively free of bias. Our results suggest that size always matters just as much bias direction, and in fact much more than bias direction when considering information-retrieval measures such as AUCROC and F-score. This indicates that at least for prediction models, even when dealing with sampling bias, simply finding larger samples can sometimes be sufficient. Our analysis also exposes the complexity of the bias issue, and raises further issues to be explored in the future.",
             "Award": ""
         },
         {
@@ -332,6 +344,7 @@
             "Key": "fse13main-id138-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPeng+Liu%2C+Julian+Dolby%2C+and+Charles+Zhang+%22Finding+Incorrect+Compositions+of+Atomicity%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Peng Liu, Julian Dolby, and Charles Zhang",
             "AffiliationsString": "Hong Kong University of Science and Technology, China; IBM Research, USA",
             "Authors": [
@@ -344,7 +357,7 @@
                 "IBM Research, USA",
                 "Hong Kong University of Science and Technology, China"
             ],
-            "Abstract": "",
+            "Abstract": "In object-oriented code, atomicity is ideally isolated in a library which encapsulates shared program state and provides atomic APIs for access. The library provides a convenient way for programmers to reason about the needed synchronization. However, as the library exports a limited set of APIs, it cannot satisfy every unplanned atomicity demand; therefore, clients may have to compose invocations of the library APIs to obtain new atomic functionality. This process is error-prone due to the complexity of reasoning required, hence tool support for uncovering incorrect compositions (i.e., atomic compositions that are implemented incorrectly) would be very helpful. A key difficulty is how to determine the intended atomic compositions, which are rarely documented. Existing inference techniques cannot be used to infer the atomic compositions because they cannot recognize the library and the client, which requires understanding the related program state. Even if extended to support the library/client, they lead to many false positives or false negatives because they miss the key program logic which reflects programmers’ coding paradigms for atomic compositions.  We define a new inference technique which identifies intended atomic compositions using two key symptoms based on program dependence. We then check dynamically whether these atomic compositions are implemented incorrectly as non-atomic. Evaluation on thirteen large applications shows that our approach finds around 50 previously unknown incorrect compositions. Further study on Tomcat shows that almost half (5 out of 12) of discovered incorrect compositions are confirmed as bugs by the developers. Given that Tomcat is heavily used in 250,000 sites including Linkedin.com and Ebay.com, we believe finding multiple new bugs in it automatically with relatively few false positives supports our heuristics for determining intended atomicity.",
             "Award": ""
         },
         {
@@ -353,6 +366,7 @@
             "Key": "fse13main-id162-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DOmer+Tripp+and+Noam+Rinetzky+%22Tightfit%3A+Adaptive+Parallelization+with+Foresight%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Omer Tripp and Noam Rinetzky",
             "AffiliationsString": "Tel Aviv University, Israel",
             "Authors": [
@@ -363,7 +377,7 @@
                 "Tel Aviv University, Israel",
                 "Tel Aviv University, Israel"
             ],
-            "Abstract": "",
+            "Abstract": "Irregular applications often exhibit data-dependent parallelism: Different inputs, and sometimes also different execution phases, enable different levels of parallelism. These changes in available parallelism have motivated work on adaptive concurrency control mechanisms. Existing adaptation techniques mostly learn about available parallelism indirectly, through runtime monitors that detect pathologies (e.g. excessive retries in speculation or high lock contention in mutual exclusion).  We present a novel approach to adaptive parallelization, whereby the effective level of parallelism is predicted directly based on input features, rather than through circumstantial indicators over the execution environment (such as retry rate). This enables adaptation with foresight, based on the input data and not the run prefix. For this, the user specifies input features, which our system then correlates with the amount of available parallelism through offline learning. The resulting prediction rule serves in deployment runs to foresee the available parallelism for a given workload and tune the parallelization system accordingly.  We have implemented our approach in TIGHTFIT, a general framework for input-centric offline adaptation. Our experimental evaluation of TIGHTFIT over two adaptive runtime systems and eight benchmarks provides positive evidence regarding TIGHTFIT's efficacy and accuracy.",
             "Award": ""
         },
         {
@@ -372,6 +386,7 @@
             "Key": "fse13main-id213-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDiptikalyan+Saha%2C+Pankaj+Dhoolia%2C+and+Gaurab+Paul+%22Distributed+Program+Tracing%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Diptikalyan Saha, Pankaj Dhoolia, and Gaurab Paul",
             "AffiliationsString": "IBM Research, India; IIT Kharagpur, India",
             "Authors": [
@@ -384,7 +399,7 @@
                 "IBM Research, India",
                 "IIT Kharagpur, India"
             ],
-            "Abstract": "",
+            "Abstract": "Dynamic program analysis techniques depend on accurate program traces. Program instrumentation is commonly used to collect these traces, which causes overhead to the program execution. Various techniques have addressed this problem by minimizing the number of probes/witnesses used to collect traces. In this paper, we present a novel distributed trace collection framework wherein, a program is executed multiple times with the same input for different sets of witnesses. The partial traces such obtained are then merged to create the whole program trace. Such divide-and-conquer strategy enables parallel collection of partial traces, thereby reducing the total time of collection. The problem is particularly challenging as arbitrary distribution of witnesses cannot guarantee correct formation of traces. We provide and prove a necessary and sufficient condition for distributing the witnesses which ensures correct formation of trace. Moreover, we describe witness distribution strategies that are suitable for parallel collection. We use the framework to collect traces of field SAP-ABAP programs using breakpoints as witnesses as instrumentation cannot be performed due to practical constraints. To optimize such collection, we extend Ball-Larus' optimal edge-based profiling algorithm to an optimal node-based algorithm. We demonstrate the effectiveness of the framework for collecting traces of SAP-ABAP programs.",
             "Award": ""
         },
         {
@@ -393,6 +408,7 @@
             "Key": "fse13main-id161-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChris+Hawblitzel%2C+Shuvendu+Lahiri%2C+Kshama+Pawar%2C+Hammad+Hashmi%2C+Sedar+Gokbulut%2C+Lakshan+Fernando%2C+Dave+Detlefs%2C+and+Scott+Wadsworth+%22Will+You+Still+Compile+Me+Tomorrow%3F+Static+Cross-Version+Compiler+Validation%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Chris Hawblitzel, Shuvendu Lahiri, Kshama Pawar, Hammad Hashmi, Sedar Gokbulut, Lakshan Fernando, Dave Detlefs, and Scott Wadsworth",
             "AffiliationsString": "Microsoft Research, USA; Microsoft, USA",
             "Authors": [
@@ -415,34 +431,36 @@
                 "Microsoft, USA",
                 "Microsoft, USA"
             ],
-            "Abstract": "",
+            "Abstract": "This paper describes a cross-version compiler validator and measures its effectiveness on the CLR JIT compiler. The validator checks for semantically equivalent assembly language output from various versions of the compiler, including versions across a seven-month time period, across two architectures (x86 and ARM), across two compilation scenarios (JIT and MDIL), and across optimizations levels. For month-to-month comparisons, the validator achieves a false alarm rate of just 2.2%. To help understand reported semantic differences, the validator performs a root-cause analysis on the counterexample traces generated by the underlying automated theorem proving tools. This root-cause analysis groups most of the counterexamples into a small number of buckets, reducing the number of counterexamples analyzed by hand by anywhere from 53% to 96%. The validator ran on over 500,000 methods across a large suite of test programs, finding 12 previously unknown correctness and performance bugs in the CLR compiler.",
             "Award": ""
         },
         {
             "Title": "Convergent Contemporary Software Peer Review Practices",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id163-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPeter+Rigby+and+Christian+Bird+%22Convergent+Contemporary+Software+Peer+Review+Practices%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPeter+C.+Rigby+and+Christian+Bird+%22Convergent+Contemporary+Software+Peer+Review+Practices%22",
             "URLvideo": "",
-            "PersonsString": "Peter Rigby and Christian Bird",
+            "URLinfo": "",
+            "PersonsString": "Peter C. Rigby and Christian Bird",
             "AffiliationsString": "Concordia University, Canada; Microsoft Research, USA",
             "Authors": [
-                "Peter Rigby @ Concordia University, Canada",
+                "Peter C. Rigby @ Concordia University, Canada",
                 "Christian Bird @ Microsoft Research, USA"
             ],
             "Affiliations": [
                 "Concordia University, Canada",
                 "Microsoft Research, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Although code review (also known as code inspection) shares a common origin, it is now practiced in drastically different settings, cultures, incentive systems, and time pressures. In an effort to characterize and understand these differences we examine two Google-led projects, Android and Chromium OS, three Microsoft projects, Bing, Office, and MS SQL, and projects internal to AMD. We contrast our findings with data taken from traditional software inspection conducted on a Lucent project and from open source software peer review on six projects, including Apache, Linux, and KDE. Our measures of interest include the review interval, the number of developers involved in review, and proxy measures for the number of defects found during review. We find that despite differences among projects, many of the characteristics of the review process have independently converged to similar values which we hypothesize indicate general principles of code review practice. We also introduce a measure of the degree to which knowledge is shared during review, an aspect of review practice that has traditionally only had experiential support. Our knowledge sharing measure shows that conducting peer review increases the number of distinct files a developer knows about by 66% to 150% depending on the project. This paper represents one of the first studies of contemporary review in software firms and the most diverse study of peer review to date. We discuss the practices that converge among projects as well as divergent and anomalous practices.",
             "Award": ""
         },
         {
             "Title": "Do All Task Dependencies Require Coordination? The Role of Task Properties in Identifying Critical Coordination Needs in Software Projects",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id155-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKelly+Blincoe%2C+Giuseppe+Valetto%2C+and+Daniela+Damian+%22Do+All+Task+Dependencies+Require+Coordination%3F+The+Role+of+Task+Properties+in+Identifying+Critical+Coordination+Needs+in+Software+Projects%22",
+            "URL": "https%3A%2F%2Fwww.cs.drexel.edu%2F%7Ekac358%2Fpublications%2FFSE2013-Blincoe.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Kelly Blincoe, Giuseppe Valetto, and Daniela Damian",
             "AffiliationsString": "Drexel University, USA; University of Victoria, Canada",
             "Authors": [
@@ -455,7 +473,7 @@
                 "Drexel University, USA",
                 "University of Victoria, Canada"
             ],
-            "Abstract": "",
+            "Abstract": "Several methods exist to detect the coordination needs within software teams. Evidence exists that developers’ awareness about coordination needs improves work performance. Distinguishing with certainty between critical and trivial coordination needs and identifying and prioritizing which specific tasks a pair of developers should coordinate about remains an open problem. We investigate what work dependencies should be considered when establishing coordination needs within a development team. We use our conceptualization of work dependencies named Proximity and leverage machine learning techniques to analyze what additional task properties are indicative of coordination needs. In a case study of the Mylyn project, we were able to identify from all potential coordination requirements a subset of 17% that are most critical. We define critical coordination requirements as those that can cause the most disruption to task duration when left unmanaged. These results imply that coordination awareness tools could be enhanced to make developers aware of only the coordination needs that can bring about the highest performance benefit.",
             "Award": ""
         },
         {
@@ -464,6 +482,7 @@
             "Key": "fse13main-id212-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAravind+Machiry%2C+Rohan+Tahiliani%2C+and+Mayur+Naik+%22Dynodroid%3A+An+Input+Generation+System+for+Android+Apps%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Aravind Machiry, Rohan Tahiliani, and Mayur Naik",
             "AffiliationsString": "Georgia Tech, USA",
             "Authors": [
@@ -476,15 +495,16 @@
                 "Georgia Tech, USA",
                 "Georgia Tech, USA"
             ],
-            "Abstract": "",
+            "Abstract": "We present a system Dynodroid for generating relevant inputs to unmodified Android apps. Dynodroid views an app as an event-driven program that interacts with its environment by means of a sequence of events through the Android framework. By instrumenting the framework once and for all, Dynodroid monitors the reaction of an app upon each event in a lightweight manner, using it to guide the generation of the next event to the app. Dynodroid also allows interleaving events from machines, which are better at generating a large number of simple inputs, with events from humans, who are better at providing intelligent inputs.  We evaluated Dynodroid on 50 open-source Android apps, and compared it with two prevalent approaches: users manually exercising apps, and Monkey, a popular fuzzing tool. Dynodroid, humans, and Monkey covered 55%, 60%, and 53%, respectively, of each app's Java source code on average. Monkey took 20X more events on average than Dynodroid. Dynodroid also found 9 bugs in 7 of the 50 apps, and 6 bugs in 5 of the top 1,000 free apps on Google Play.",
             "Award": ""
         },
         {
             "Title": "KATCH: High-Coverage Testing of Software Patches",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id150-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPaul+Dan+Marinescu+and+Cristian+Cadar+%22KATCH%3A+High-Coverage+Testing+of+Software+Patches%22",
+            "URL": "http%3A%2F%2Fsrg.doc.ic.ac.uk%2Ffiles%2Fpapers%2Fkatch-fse-13.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Paul Dan Marinescu and Cristian Cadar",
             "AffiliationsString": "Imperial College London, UK",
             "Authors": [
@@ -495,7 +515,7 @@
                 "Imperial College London, UK",
                 "Imperial College London, UK"
             ],
-            "Abstract": "",
+            "Abstract": "One of the distinguishing characteristics of software systems is that they evolve: new patches are committed to software repositories and new versions are released to users on a continuous basis. Unfortunately, many of these changes bring unexpected bugs that break the stability of the system or affect its security. In this paper, we address this problem using a technique for automatically testing code patches. Our technique combines symbolic execution with several novel heuristics based on static and dynamic program analysis which allow it to quickly reach the code of the patch. We have implemented our approach in a tool called KATCH, which we have applied to all the patches written in a combined period of approximately six years for nineteen mature programs from the popular GNU diffutils, GNU binutils and GNU findutils utility suites, which are shipped with virtually all UNIX-based distributions. Our results show that KATCH can automatically synthesise inputs that significantly increase the patch coverage achieved by the existing manual test suites, and find bugs at the moment they are introduced.",
             "Award": ""
         },
         {
@@ -504,6 +524,7 @@
             "Key": "fse13main-id9-p",
             "URL": "http%3A%2F%2Fresearch.microsoft.com%2Fpubs%2F193427%2Ffinal-version.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Aditya Nori and Rahul Sharma",
             "AffiliationsString": "Microsoft Research, India; Stanford University, USA",
             "Authors": [
@@ -523,6 +544,7 @@
             "Key": "fse13main-id235-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChang+Hwan+Peter+Kim%2C+Darko+Marinov%2C+Sarfraz+Khurshid%2C+Don+Batory%2C+Sabrina+Souto%2C+Paulo+Barros%2C+and+Marcelo+d%27Amorim+%22SPLat%3A+Lightweight+Dynamic+Analysis+for+Reducing+Combinatorics+in+Testing+Configurable+Systems%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Chang Hwan Peter Kim, Darko Marinov, Sarfraz Khurshid, Don Batory, Sabrina Souto, Paulo Barros, and Marcelo d'Amorim",
             "AffiliationsString": "University of Texas at Austin, USA; University of Illinois at Urbana-Champaign, USA; UFPE, Brazil",
             "Authors": [
@@ -543,7 +565,7 @@
                 "UFPE, Brazil",
                 "UFPE, Brazil"
             ],
-            "Abstract": "",
+            "Abstract": "Many programs can be configured through dynamic and/or static selection of configuration variables. A software product line (SPL), for example, specifies a family of programs where each program is defined by a unique combination of features. Systematically testing SPL programs is expensive as it can require running each test against a combinatorial number of configurations. Fortunately, a test is often independent of many configuration variables and need not be run against every combination. Configurations that are not required for a test can be pruned from execution. This paper presents SPLat, a new way to dynamically prune irrelevant configurations: the configurations to run for a test can be determined during test execution by monitoring accesses to configuration variables. SPLat achieves an optimal reduction in the number of configurations and is lightweight compared to prior work that used static analysis and heavyweight dynamic execution. Experimental results on 10 SPLs written in Java show that SPLat substantially reduces the total test execution time in many cases. Moreover, we demonstrate the scalability of SPLat by applying it to a large industrial code base written in Ruby on Rails.",
             "Award": ""
         },
         {
@@ -552,6 +574,7 @@
             "Key": "fse13main-id35-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKhanh+Nguyen+and+Guoqing+Xu+%22Cachetor%3A+Detecting+Cacheable+Data+to+Remove+Bloat%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Khanh Nguyen and Guoqing Xu",
             "AffiliationsString": "UC Irvine, USA",
             "Authors": [
@@ -562,7 +585,7 @@
                 "UC Irvine, USA",
                 "UC Irvine, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Modern object-oriented software commonly suffers from runtime bloat that significantly affects its performance and scalability. Studies have shown that one important pattern of bloat is the work repeatedly done to compute the same data values. Very often the cost of computation is very high and it is thus beneficial to memoize the invariant data values for later use. While this is a common practice in real-world development, manually finding invariant data values is a daunting task during development and tuning. To help the developers quickly find such optimization opportunities for performance improvement, we propose a novel run-time profiling tool, called Cachetor, which uses a combination of dynamic dependence profiling and value profiling to identify and report operations that keep generating identical data values. The major challenge in the design of Cachetor is that both dependence and value profiling are extremely expensive techniques that cannot scale to large, real-world applications for which optimizations are important. To overcome this challenge, we propose a series of novel abstractions that are applied to run-time instruction instances during profiling, yielding significantly improved analysis time and scalability. We have implemented Cachetor in Jikes Research Virtual Machine and evaluated it on a set of 14 large Java applications. Our experimental results suggest that Cachetor is effective in exposing caching opportunities and substantial performance gains can be achieved by modifying a program to cache the reported data.",
             "Award": ""
         },
         {
@@ -571,6 +594,7 @@
             "Key": "fse13main-id152-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJingyue+Wu%2C+Gang+Hu%2C+Yang+Tang%2C+and+Junfeng+Yang+%22Effective+Dynamic+Detection+of+Alias+Analysis+Errors%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Jingyue Wu, Gang Hu, Yang Tang, and Junfeng Yang",
             "AffiliationsString": "Columbia University, USA",
             "Authors": [
@@ -585,15 +609,16 @@
                 "Columbia University, USA",
                 "Columbia University, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Alias analysis is perhaps one of the most crucial and widely used analyses, and has attracted tremendous research efforts over the years. Yet, advanced alias analyses are extremely difficult to get right, and the bugs in these analyses are one key reason that they have not been adopted to production compilers. This paper presents NeonGoby, a system for effectively detecting errors in alias analysis implementations, improving their correctness and hopefully widening their adoption. NeonGoby detects the worst type of bugs where the alias analysis claims that two pointers never alias, but they actually alias at runtime. NeonGoby works by dynamically observing pointer addresses during the execution of a test program and then checking these addresses against an alias analysis for errors. It is explicitly designed to (1) be agnostic to the alias analysis it checks for maximum applicability and ease of use and (2) detect alias analysis errors that manifest on real-world programs and workloads. It emits no false positives as long as test programs do not have undefined behavior per ANSI C specification or call external functions that interfere with our detection algorithm. It reduces performance overhead using a practical selection of techniques. Evaluation on three popular alias analyses and real-world programs Apache and MySQL shows that NeonGoby effectively finds 29 alias analysis bugs with zero false positives and reasonable overhead; the most serious four bugs have been patched by the developers. To enable alias analysis builders to start using NeonGoby today, we have released it open-source at https://github.com/columbia/neongoby, along with our error detection results and proposed patches.",
             "Award": ""
         },
         {
             "Title": "Feature Model Extraction from Large Collections of Informal Product Descriptions",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id221-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJean-Marc+Davril%2C+Edouard+Delfosse%2C+Negar+Hariri%2C+Mathieu+Acher%2C+Jane+Cleland-Huang%2C+and+Patrick+Heymans+%22Feature+Model+Extraction+from+Large+Collections+of+Informal+Product+Descriptions%22",
+            "URL": "http%3A%2F%2Fre.cs.depaul.edu%2Fpapers%2F2013-ESEC-FeatureModels.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Jean-Marc Davril, Edouard Delfosse, Negar Hariri, Mathieu Acher, Jane Cleland-Huang, and Patrick Heymans",
             "AffiliationsString": "University of Namur, Belgium; DePaul University, USA; University of Rennes I, France; INRIA, France",
             "Authors": [
@@ -612,7 +637,7 @@
                 "DePaul University, USA",
                 "University of Namur, Belgium"
             ],
-            "Abstract": "",
+            "Abstract": "Feature Models (FMs) are used extensively in software product line engineering to help generate and validate individual product configurations and to provide support for domain analysis. As FM construction can be tedious and time-consuming, researchers have previously developed techniques for extracting FMs from sets of formally specified individual configurations, or from software requirements specifications for families of existing products. However, such artifacts are often not available. In this paper we present a novel, automated approach for constructing FMs from publicly available product descriptions found in online product repositories and marketing websites such as SoftPedia and CNET. While each individual product description provides only a partial view of features in the domain, a large set of descriptions can provide fairly comprehensive coverage. Our approach utilizes hundreds of partial product descriptions to construct an FM and is described and evaluated against antivirus product descriptions mined from SoftPedia.",
             "Award": ""
         },
         {
@@ -621,6 +646,7 @@
             "Key": "fse13main-id181-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJulia+Rubin+and+Marsha+Chechik+%22N-Way+Model+Merging%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Julia Rubin and Marsha Chechik",
             "AffiliationsString": "IBM Research, Israel; University of Toronto, Canada",
             "Authors": [
@@ -631,7 +657,7 @@
                 "IBM Research, Israel",
                 "University of Toronto, Canada"
             ],
-            "Abstract": "",
+            "Abstract": "Model merging is widely recognized as an essential step in a variety of software development activities. During the process of combining a set of related products into a product line or consolidating model views of multiple stakeholders, we need to merge multiple input models into one; yet, most of the existing approaches are applicable to merging only two models. In this paper, we define the n-way merge problem. We show that it can be reduced to the known and widely studied NP-hard problem of weighted set packing. Yet, the approximation solutions for that problem do not scale for real-sized software models. We thus evaluate alternative approaches of merging models that incrementally process input models in small subsets and propose our own algorithm that considerably improves precision over such approaches without sacrificing performance.",
             "Award": ""
         },
         {
@@ -640,6 +666,7 @@
             "Key": "fse13main-id108-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNishant+Sinha+and+Rezwana+Karim+%22Compiling+Mockups+to+Flexible+UIs%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Nishant Sinha and Rezwana Karim",
             "AffiliationsString": "IBM Research, India; Rutgers University, USA",
             "Authors": [
@@ -650,7 +677,7 @@
                 "IBM Research, India",
                 "Rutgers University, USA"
             ],
-            "Abstract": "",
+            "Abstract": "As the web becomes ubiquitous, developers are obliged to develop web applications for a variety of desktop and mobile platforms. Re- designing the user interface for every such platform is clearly cumbersome. We propose a new framework based on model-based compilation to assist the designer in solving this problem. Starting from an under-specified visual design mockup drawn by the designer, we show how faithful and flexible web pages can be obtained with virtually no manual effort. Our framework, in sharp contrast to existing web design tools, overcomes the tough challenges involved in mockup compilation by (a) employing combinatorial search to infer hierarchical layouts and (b) mechanizing adhoc principles for CSS design into a modular, extensible rule-based architecture. We believe ours is the first disciplined effort to solve the problem and will inspire rapid, low-effort web design.",
             "Award": ""
         },
         {
@@ -659,6 +686,7 @@
             "Key": "fse13main-id242-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DK%C4%B1van%C3%A7+Mu%C5%9Flu%2C+Yuriy+Brun%2C+Michael+D.+Ernst%2C+and+David+Notkin+%22Making+Offline+Analyses+Continuous%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Kıvanç Muşlu, Yuriy Brun, Michael D. Ernst, and David Notkin",
             "AffiliationsString": "University of Washington, USA; University of Massachusetts, USA",
             "Authors": [
@@ -673,7 +701,7 @@
                 "University of Washington, USA",
                 "University of Washington, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Developers use analysis tools to help write, debug, and understand software systems under development. A developer’s change to the system source code may affect analysis results. Typically, to learn those effects, the developer must explicitly initiate the analysis. This may interrupt the developer’s workflow and/or the delay until the developer learns the implications of the change. The situation is even worse for impure analyses — ones that modify the code on which it runs — because such analyses block the developer from working on the code. This paper presents Codebase Replication, a novel approach to easily convert an offline analysis — even an impure one — into a continuous analysis that informs the developer of the implications of recent changes as quickly as possible after the change is made. Codebase Replication copies the developer’s codebase, incrementally keeps this copy codebase in sync with the developer’s codebase, makes that copy codebase available for offline analyses to run without disturbing the developer and without the developer’s changes disturbing the analyses, and makes analysis results available to be presented to the developer. We have implemented Codebase Replication in Solstice, an open-source, publicly-available Eclipse plug-in. We have used Solstice to convert three offline analyses — FindBugs, PMD, and unit testing — into continuous ones. Each conversion required on average 436 NCSL and took, on average, 18 hours. Solstice-based analyses experience no more than 2.5 milliseconds of runtime overhead per developer action.",
             "Award": ""
         },
         {
@@ -682,6 +710,7 @@
             "Key": "fse13main-id116-p",
             "URL": "http%3A%2F%2Fwww.comp.nus.edu.sg%2F%7Emboehme%2Fpaper%2FFSE13.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Marcel Böhme, Bruno C. d. S. Oliveira, and Abhik Roychoudhury",
             "AffiliationsString": "National University of Singapore, Singapore",
             "Authors": [
@@ -703,6 +732,7 @@
             "Key": "fse13main-id217-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShuvendu+Lahiri%2C+Ken+Mcmillan%2C+Rahul+Sharma%2C+and+Chris+Hawblitzel+%22Differential+Assertion+Checking%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Shuvendu Lahiri, Ken Mcmillan, Rahul Sharma, and Chris Hawblitzel",
             "AffiliationsString": "Microsoft Research, USA; Stanford University, USA",
             "Authors": [
@@ -717,7 +747,7 @@
                 "Stanford University, USA",
                 "Microsoft Research, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Previous version of a program can be a powerful enabler for program analysis by defining new relative specifications and making the results of current program analysis more relevant. In this paper, we describe the approach of differential assertion checking (DAC) for comparing different versions of a program with respect to a set of assertions. DAC provides a natural way to write relative specifications over two programs. We introduce a novel modular approach to DAC by reducing it to safety checking of a composed program, which can be accomplished by standard program verifiers. In particular, we leverage automatic invariant generation to synthesize relative specifications for pairs of loops and procedures. We provide a preliminary evaluation of a prototype implementation within the SymDiff tool along two directions (a) soundly verifying bug fixes in the presence of loops and (b) providing a knob for suppressing alarms when checking a new version of a program.",
             "Award": ""
         },
         {
@@ -726,6 +756,7 @@
             "Key": "fse13main-id2-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMark+Grechanik%2C+B.+M.+Mainul+Hossain%2C+Ugo+Buy%2C+and+Haisheng+Wang+%22Preventing+Database+Deadlocks+in+Applications%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Mark Grechanik, B. M. Mainul Hossain, Ugo Buy, and Haisheng Wang",
             "AffiliationsString": "University of Illinois at Chicago, USA; Oracle, USA",
             "Authors": [
@@ -740,7 +771,7 @@
                 "University of Illinois at Chicago, USA",
                 "Oracle, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Many organizations deploy applications that use databases by sending Structured Query Language (SQL) statements to them and obtaining data that result from the execution of these statements. Since applications often share the same databases concurrently, database deadlocks routinely occur in these databases resulting in major performance degradation in these applications. Database engines do not prevent database deadlocks for the same reason that the schedulers of operating system kernels do not preempt processes in a way to avoid race conditions and deadlocks - it is not feasible to find an optimal context switching schedule quickly for multiple processes (and SQL statements), and the overhead of doing it is prohibitive.  We created a novel approach that combines run-time monitoring, which automatically prevents database deadlocks, with static analysis, which detects hold-and-wait cycles that specify how resources (e.g., database tables) are held in contention during executions of SQL statements. We rigorously evaluated our approach. For a realistic case of over 1,200 SQL statements, our algorithm detects all hold-and-wait cycles in less than two seconds. We built a toolset and experimented with three applications. Our tool prevented all existing database deadlocks in these applications and increased their throughputs by up to three orders of magnitude.",
             "Award": ""
         },
         {
@@ -749,6 +780,7 @@
             "Key": "fse13main-id248-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJoshua+Garcia%2C+Daniel+Popescu%2C+Gholamreza+Safi%2C+William+G.+J.+Halfond%2C+and+Nenad+Medvidovic+%22Identifying+Message+Flow+in+Distributed+Event-Based+Systems%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Joshua Garcia, Daniel Popescu, Gholamreza Safi, William G. J. Halfond, and Nenad Medvidovic",
             "AffiliationsString": "University of Southern California, USA",
             "Authors": [
@@ -765,15 +797,16 @@
                 "University of Southern California, USA",
                 "University of Southern California, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Distributed event-based (DEB) systems contain highly-decoupled components that interact by exchanging messages. This enables flexible system composition and adaptation, but also makes DEB systems difficult to maintain. Most existing program analysis techniques to support maintenance are not well suited to DEB systems, while those that are tend to suffer from inaccuracy or make assumptions that limit their applicability. This paper presents Eos, a static analysis technique that identifies message information useful for maintaining a DEB system, namely, message types and message flow within a system. Eos has been evaluated on six off-the-shelf DEB systems spanning five different middleware platforms, and has exhibited excellent accuracy and efficiency. Furthermore, a case study involving a range of maintenance activities undertaken on three existing DEB systems shows that, on average, Eos enables an engineer to identify the scope and impact of required changes more accurately than existing alternatives.",
             "Award": ""
         },
         {
             "Title": "Improving Trace Accuracy through Data-Driven Configuration and Composition of Tracing Features",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id121-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSugandha+Lohar%2C+Sorawit+Amornborvornwong%2C+Andrea+Zisman%2C+and+Jane+Cleland-Huang+%22Improving+Trace+Accuracy+through+Data-Driven+Configuration+and+Composition+of+Tracing+Features%22",
+            "URL": "http%3A%2F%2Fre.cs.depaul.edu%2Fpapers%2F2013-ESEC-TraceConfiguration.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Sugandha Lohar, Sorawit Amornborvornwong, Andrea Zisman, and Jane Cleland-Huang",
             "AffiliationsString": "DePaul University, USA; City University London, UK",
             "Authors": [
@@ -788,15 +821,16 @@
                 "City University London, UK",
                 "DePaul University, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Software traceability is a sought-after, yet often elusive quality in large software-intensive systems primarily because the cost and effort of tracing can be overwhelming. State-of-the art solutions address this problem through utilizing trace retrieval techniques to automate the process of creating and maintaining trace links. However, there is no simple one- size-fits all solution to trace retrieval. As this paper will show, finding the right combination of tracing techniques can lead to significant improvements in the quality of generated links. We present a novel approach to trace retrieval in which the underlying infrastructure is configured at runtime to optimize trace quality. We utilize a machine-learning approach to search for the best configuration given an initial training set of validated trace links, a set of available tracing techniques specified in a feature model, and an architecture capable of instantiating all valid configurations of features. We evaluate our approach through a series of experiments using project data from the transportation, healthcare, and space exploration domains, and discuss its implementation in an industrial environment. Finally, we show how our approach can create a robust baseline against which new tracing techniques can be evaluated.",
             "Award": ""
         },
         {
-            "Title": "Reusing Precisions for Efficient Regression Verification",
+            "Title": "Precision Reuse for Efficient Regression Verification",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id113-p",
             "URL": "http%3A%2F%2Fwww.sosy-lab.org%2F%7Edbeyer%2FPublications%2F2013-PA-TR1302.Reusing_Precisions_for_Efficient_Regression_Verification.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Dirk Beyer, Stefan Löwe, Evgeny Novikov, Andreas Stahlbauer, and Philipp Wendler",
             "AffiliationsString": "University of Passau, Germany; ISP RAS, Russia",
             "Authors": [
@@ -813,7 +847,7 @@
                 "University of Passau, Germany",
                 "University of Passau, Germany"
             ],
-            "Abstract": "",
+            "Abstract": "Continuous testing during development is a well-established technique for software-quality assurance. Continuous model checking from revision to revision is not yet established as a standard practice, because the enormous resource consumption makes its application impractical. Model checkers compute a large number of verification facts that are necessary for verifying if a given specification holds. We have identified a category of such intermediate results that are easy to store and efficient to reuse: abstraction precisions. The precision of an abstract domain specifies the level of abstraction that the analysis works on. Precisions are thus a precious result of the verification effort and it is a waste of resources to throw them away after each verification run. In particular, precisions are reasonably small and thus easy to store; they are easy to process and have a large impact on resource consumption. We experimentally show the impact of precision reuse on industrial verification problems created from 62 Linux kernel device drivers with 1119 revisions.",
             "Award": ""
         },
         {
@@ -822,6 +856,7 @@
             "Key": "fse13main-id219-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFokion+Zervoudakis%2C+David+Rosenblum%2C+Sebastian+Elbaum%2C+and+Anthony+Finkelstein+%22Cascading+Verification%3A+An+Integrated+Method+for+Domain-Specific+Model+Checking%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Fokion Zervoudakis, David Rosenblum, Sebastian Elbaum, and Anthony Finkelstein",
             "AffiliationsString": "University College London, UK; National University of Singapore, Singapore; University of Nebraska-Lincoln, USA",
             "Authors": [
@@ -836,7 +871,7 @@
                 "University of Nebraska-Lincoln, USA",
                 "University College London, UK"
             ],
-            "Abstract": "",
+            "Abstract": "Model checking is an established method for verifying behavioral properties of system models. But model checkers tend to support low-level modeling languages that require intricate models to represent even the simplest systems. Modeling complexity arises in part from the need to encode domain knowledge at relatively low levels of abstraction.  In this paper, we demonstrate that formalized domain knowledge can be reused to raise the abstraction level of model and property specifications, and hence the effectiveness of model checking. We describe a novel method for domain-specific model checking called cascading verification that uses composite reasoning over high-level system specifications and formalized domain knowledge to synthesize both low-level system models and their behavioral properties for verification. In particular, model builders use a high-level domain-specific language (DSL) based on YAML to express system specifications that can be verified with probabilistic model checking. Domain knowledge is encoded in the Web Ontology Language (OWL), the Semantic Web Rule Language (SWRL) and Prolog, which are used in combination to overcome their individual limitations. A compiler then synthesizes models and properties for verification by the probabilistic model checker PRISM. We illustrate cascading verification for the domain of uninhabited aerial vehicles (UAVs), for which we have constructed a prototype implementation. An evaluation of this prototype reveals nontrivial reductions in the size and complexity of input specifications compared to the artifacts synthesized for PRISM.",
             "Award": ""
         },
         {
@@ -845,6 +880,7 @@
             "Key": "fse13main-id126-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPietro+Braione%2C+Giovanni+Denaro%2C+and+Mauro+Pezz%C3%A8+%22Enhancing+Symbolic+Execution+with+Built-In+Term+Rewriting+and+Constrained+Lazy+Initialization%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Pietro Braione, Giovanni Denaro, and Mauro Pezzè",
             "AffiliationsString": "University of Milano-Bicocca, Italy",
             "Authors": [
@@ -857,7 +893,7 @@
                 "University of Milano-Bicocca, Italy",
                 "University of Milano-Bicocca, Italy"
             ],
-            "Abstract": "",
+            "Abstract": "Symbolic execution suffers from problems when analyzing programs that handle complex data structures as their inputs and take decisions over non-linear expressions. For these programs, symbolic execution may incur invalid inputs or unidentified infeasible traces, and may raise large amounts of false alarms. Some symbolic executors tackle these problems by introducing executable preconditions to exclude invalid inputs, and some solvers exploit rewrite rules to address non linear problems. In this paper, we discuss the core limitations of executable preconditions, and address these limitations by proposing invariants specifically designed to harmonize with the lazy initialization algorithm. We exploit rewrite rules applied within the symbolic executor, to address simplifications of inverse relationships fostered from either program-specific calculations or the logic of the verification tasks. We present a symbolic executor that integrates the two techniques, and validate our approach against the verification of a relevant set of properties of the Tactical Separation Assisted Flight Environment. The empirical data show that the integrated approach can improve the effectiveness of symbolic execution.",
             "Award": ""
         },
         {
@@ -866,6 +902,7 @@
             "Key": "fse13main-id102-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMatthias+Schur%2C+Andreas+Roth%2C+and+Andreas+Zeller+%22Mining+Behavior+Models+from+Enterprise+Web+Applications%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Matthias Schur, Andreas Roth, and Andreas Zeller",
             "AffiliationsString": "SAP, Germany; Saarland University, Germany",
             "Authors": [
@@ -878,7 +915,7 @@
                 "SAP, Germany",
                 "Saarland University, Germany"
             ],
-            "Abstract": "",
+            "Abstract": "Today's enterprise web applications demand very high release cycles---and consequently, frequent tests. Automating these tests typically requires a behavior model: A description of the states the application can be in, the transitions between these states, and the expected results. Furthermore one needs scripts to make the abstract actions (transitions) in the model executable. As specifying such behavior models and writing the necessary scripts manually is a hard task, a possible alternative could be to extract them from existing applications. However, mining such models can be a challenge, in particular because one needs to know when two states are equivalent, as well as how to reach that state. We present ProCrawl (PROcess CRAWLer), a generic approach to mine behavior models from (multi-user) enterprise web applications. ProCrawl observes the behavior of the application through its user interface, generates and executes tests to explore unobserved behavior. In our evaluation of three non-trivial web applications (an open-source shop system, an SAP product compliance application, and an open-source conference manager), ProCrawl produces models that precisely abstract application behavior and which can be directly used for effective model-based regression testing.",
             "Award": ""
         },
         {
@@ -887,23 +924,24 @@
             "Key": "fse13main-id175-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJoel+Greenyer%2C+Christian+Brenner%2C+Maxime+Cordy%2C+Patrick+Heymans%2C+and+Erika+Gressi+%22Incrementally+Synthesizing+Controllers+from+Scenario-Based+Product+Line+Specifications%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Joel Greenyer, Christian Brenner, Maxime Cordy, Patrick Heymans, and Erika Gressi",
-            "AffiliationsString": "Politecnico di Milano, Italy; University of Paderborn, Germany; University of Namur, Belgium",
+            "AffiliationsString": "Leibniz Universität Hannover, Germany; University of Paderborn, Germany; University of Namur, Belgium; Politecnico di Milano, Italy",
             "Authors": [
-                "Joel Greenyer @ Politecnico di Milano, Italy",
+                "Joel Greenyer @ Leibniz Universität Hannover, Germany",
                 "Christian Brenner @ University of Paderborn, Germany",
                 "Maxime Cordy @ University of Namur, Belgium",
                 "Patrick Heymans @ University of Namur, Belgium",
                 "Erika Gressi @ Politecnico di Milano, Italy"
             ],
             "Affiliations": [
-                "Politecnico di Milano, Italy",
+                "Leibniz Universität Hannover, Germany",
                 "University of Paderborn, Germany",
                 "University of Namur, Belgium",
                 "University of Namur, Belgium",
                 "Politecnico di Milano, Italy"
             ],
-            "Abstract": "",
+            "Abstract": "Many software-intensive systems consist of components that interact to fulfill complex functionality. Moreover, often many variants of such systems have to be designed at once. This adds complexity to the design task. Recently, we proposed a scenario-based approach to design product lines, which combines feature diagrams and Modal Sequence Diagrams. We proposed a consistency-checking technique based on a dedicated product line model checker. One limitation of this technique is that it is incomplete, i.e., it may fail to show the consistency of some consistent specifications. In this paper we propose a new game-based approach that overcomes this incompleteness and, in addition, automatically synthesizes controllers for the consistent product specifications. We exploit the fact that many variants are similar and efficiently synthesize product controllers incrementally. We provide a prototype tool and evaluate the efficiency of the approach.",
             "Award": ""
         },
         {
@@ -912,6 +950,7 @@
             "Key": "fse13main-id16-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShahar+Maoz%2C+Jan+Oliver+Ringert%2C+and+Bernhard+Rumpe+%22Synthesis+of+Component+and+Connector+Models+from+Crosscutting+Structural+Views%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Shahar Maoz, Jan Oliver Ringert, and Bernhard Rumpe",
             "AffiliationsString": "Tel Aviv University, Israel; RWTH Aachen University, Germany",
             "Authors": [
@@ -924,7 +963,7 @@
                 "RWTH Aachen University, Germany",
                 "RWTH Aachen University, Germany"
             ],
-            "Abstract": "",
+            "Abstract": "We present component and connector (C&C) views, which specify structural properties of component and connector models in an expressive and intuitive way. C&C views provide means to abstract away direct hierarchy, direct connectivity, port names and types, and thus can crosscut the traditional boundaries of the implementation-oriented hierarchical decomposition of systems and sub-systems, and reflect the partial knowledge available to different stakeholders involved in a system's design. As a primary application for C&C views we investigate the synthesis problem: given a C&C views specification, consisting of mandatory, alternative, and negative views, construct a concrete satisfying C&C model, if one exists. We show that the problem is NP-hard and solve it, in a bounded scope, using a reduction to SAT, via Alloy. We further extend the basic problem with support for library components, specification patterns, and architectural styles. The result of synthesis can be used for further exploration, simulation, and refinement of the C&C model or, as the complete, final model itself, for direct code generation. A prototype tool and an evaluation over four example systems with multiple specifications show promising results and suggest interesting future research directions towards a comprehensive development environment for the structure of component and connector designs.",
             "Award": ""
         },
         {
@@ -933,6 +972,7 @@
             "Key": "fse13main-id53-p",
             "URL": "http%3A%2F%2Fwww0.cs.ucl.ac.uk%2Fstaff%2Fj.krinke%2Fpublications%2Ffse13.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Tiantian Wang, Mark Harman, Yue Jia, and Jens Krinke",
             "AffiliationsString": "Harbin Institute of Technology, China; University College London, UK",
             "Authors": [
@@ -954,8 +994,9 @@
             "Title": "Diversity in Software Engineering Research",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id19-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMeiyappan+Nagappan%2C+Thomas+Zimmermann%2C+and+Christian+Bird+%22Diversity+in+Software+Engineering+Research%22",
+            "URL": "http%3A%2F%2Fresearch.microsoft.com%2Fpubs%2F193433%2Fnagappan-esecfse-2013.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Meiyappan Nagappan, Thomas Zimmermann, and Christian Bird",
             "AffiliationsString": "Queen’s University, Canada; Microsoft Research, USA",
             "Authors": [
@@ -968,15 +1009,16 @@
                 "Microsoft Research, USA",
                 "Microsoft Research, USA"
             ],
-            "Abstract": "",
+            "Abstract": "One of the goals of software engineering research is to achieve generality: Are the phenomena found in a few projects reflective of others? Will a technique perform as well on projects other than the projects it is evaluated on? While it is common sense to select a sample that is representative of a population, the importance of diversity is often overlooked, yet as important. In this paper, we combine ideas from representativeness and diversity and introduce a measure called sample coverage, defined as the percentage of projects in a population that are similar to the given sample. We introduce algorithms to compute the sample coverage for a given set of projects and to select the projects that increase the coverage the most. We demonstrate our technique on research presented over the span of two years at ICSE and FSE with respect to a population of 20,000 active open source projects monitored by Ohloh.net. Knowing the coverage of a sample enhances our ability to reason about the findings of a study. Furthermore, we propose reporting guidelines for research: in addition to coverage scores, papers should discuss the target population of the research (universe) and dimensions that potentially can influence the outcomes of a research (space).",
             "Award": ""
         },
         {
             "Title": "API Change and Fault Proneness: A Threat to the Success of Android Apps",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id110-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMario+Linares-V%C3%A1squez%2C+Gabriele+Bavota%2C+Carlos+Bernal-C%C3%A1rdenas%2C+Massimiliano+Di+Penta%2C+Rocco+Oliveto%2C+and+Denys+Poshyvanyk+%22API+Change+and+Fault+Proneness%3A+A+Threat+to+the+Success+of+Android+Apps%22",
+            "URL": "http%3A%2F%2Fwww.dmi.unisa.it%2Fpeople%2Fbavota%2Fwww%2Fpapers%2FESECFSE_2013.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Mario Linares-Vásquez, Gabriele Bavota, Carlos Bernal-Cárdenas, Massimiliano Di Penta, Rocco Oliveto, and Denys Poshyvanyk",
             "AffiliationsString": "College of William and Mary, USA; University of Sannio, Italy; Universidad Nacional de Colombia, Colombia; University of Molise, Italy",
             "Authors": [
@@ -995,15 +1037,16 @@
                 "University of Molise, Italy",
                 "College of William and Mary, USA"
             ],
-            "Abstract": "",
+            "Abstract": "During the recent years, the market of mobile software applications (apps) has maintained an impressive upward trajectory. Many small and large software development companies invest considerable resources to target available opportunities. As of today, the markets for such devices feature over 850K+ apps for Android and 900K+ for iOS. Availability, cost, functionality, and usability are just some factors that determine the success or lack of success for a given app. Among the other factors, reliability is an important criteria: users easily get frustrated by repeated failures, crashes, and other bugs; hence, abandoning some apps in favor of others.  This paper reports a study analyzing how the fault- and change-proneness of APIs used by 7,097 (free) Android apps relates to applications' lack of success, estimated from user ratings. Results of this study provide important insights into a crucial issue: making heavy use of fault- and change-prone APIs can negatively impact the success of these apps.",
             "Award": ""
         },
         {
             "Title": "Jalangi: A Selective Record-Replay and Dynamic Analysis Framework for JavaScript",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id185-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKoushik+Sen%2C+Tasneem+Brutch%2C+Simon+Gibbs%2C+and+Swaroop+Kalasapur+%22Jalangi%3A+A+Selective+Record-Replay+and+Dynamic+Analysis+Framework+for+JavaScript%22",
+            "URL": "http%3A%2F%2Fsrl.cs.berkeley.edu%2F%7Eksen%2Fpapers%2Fjalangi.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Koushik Sen, Tasneem Brutch, Simon Gibbs, and Swaroop Kalasapur",
             "AffiliationsString": "UC Berkeley, USA; Samsung Research, USA",
             "Authors": [
@@ -1018,15 +1061,16 @@
                 "Samsung Research, USA",
                 "Samsung Research, USA"
             ],
-            "Abstract": "",
+            "Abstract": "JavaScript is widely used for writing client-side web applications  and is getting increasingly popular for writing mobile applications.  However, unlike C, C++, and Java, there are not that many tools  available for analysis and testing of JavaScript applications. In  this paper, we present a simple yet powerful framework, called  Jalangi, for writing heavy-weight dynamic analyses. Our  framework incorporates two key techniques: 1) selective  record-replay, a technique which enables to record and to faithfully  replay a user-selected part of the program, and 2) shadow values and  shadow execution, which enables easy implementation of heavy-weight  dynamic analyses. Our implementation makes no special assumption  about JavaScript, which makes it applicable to real-world JavaScript  programs running on multiple platforms. We have implemented  concolic testing, an analysis to track origins of nulls and  undefined, a simple form of taint analysis, an analysis to detect  likely type inconsistencies, and an object allocation profiler in  Jalangi. Our evaluation of Jalangi on the SunSpider benchmark  suite and on five web applications shows that Jalangi has an  average slowdown of 26X during recording and 30X slowdown during  replay and analysis. The slowdowns are comparable with slowdowns  reported for similar tools, such as PIN and Valgrind for x86  binaries. We believe that the techniques proposed in this paper are  applicable to other dynamic languages.",
             "Award": ""
         },
         {
             "Title": "Practical Static Analysis of JavaScript Applications in the Presence of Frameworks and Libraries",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id43-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMagnus+Madsen%2C+Benjamin+Livshits%2C+and+Michael+Fanning+%22Practical+Static+Analysis+of+JavaScript+Applications+in+the+Presence+of+Frameworks+and+Libraries%22",
+            "URL": "http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fpeople%2Flivshits%2Fpapers%2Fpdf%2Ffse13.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Magnus Madsen, Benjamin Livshits, and Michael Fanning",
             "AffiliationsString": "Aarhus University, Denmark; Microsoft Research, USA; Microsoft, USA",
             "Authors": [
@@ -1039,7 +1083,7 @@
                 "Microsoft Research, USA",
                 "Microsoft, USA"
             ],
-            "Abstract": "",
+            "Abstract": "JavaScript is a language that is widely-used for both web- based and standalone applications such as those in the upcoming Windows 8 operating system. Analysis of JavaScript has long been known to be challenging due to its dynamic nature. On top of that, most JavaScript applications rely on large and complex libraries and frameworks, often written in a combination of JavaScript and native code such as C and C++. Stubs have been commonly employed as a partial specification mechanism to address the library problem; however, they are tedious to write, incomplete, and occasionally incorrect.  However, the manner in which library code is used within applications often sheds light on what library APIs return or consume as parameters. In this paper, we propose a technique which combines pointer analysis with use analysis to handle many challenges posed by large JavaScript libraries. Our approach enables a variety of applications, ranging from call graph discovery to auto-complete to supporting runtime optimizations. Our techniques have been implemented and empirically validated on a set of 25 Windows 8 JavaScript applications, averaging 1,587 lines of code, demonstrating a combination of scalability and precision.",
             "Award": ""
         },
         {
@@ -1048,6 +1092,7 @@
             "Key": "fse13main-id54-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCasper+S.+Jensen%2C+Anders+M%C3%B8ller%2C+and+Zhendong+Su+%22Server+Interface+Descriptions+for+Automated+Testing+of+JavaScript+Web+Applications%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Casper S. Jensen, Anders Møller, and Zhendong Su",
             "AffiliationsString": "Aarhus University, Denmark; UC Davis, USA",
             "Authors": [
@@ -1060,7 +1105,7 @@
                 "Aarhus University, Denmark",
                 "UC Davis, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Automated testing of JavaScript web applications is complicated by the communication with servers. Specifically, it is difficult to test the JavaScript code in isolation from the server code and database contents. We present a practical solution to this problem. First, we demonstrate that formal server interface descriptions are useful in automated testing of JavaScript web applications for separating the concerns of the client and the server. Second, to support the construction of server interface descriptions for existing applications, we introduce an effective inference technique that learns communication patterns from sample data.  By incorporating interface descriptions into the testing tool Artemis, our experimental results show that we increase the level of automation for high-coverage testing on a collection of JavaScript web applications that exchange JSON data between the clients and servers. Moreover, we demonstrate that the inference technique can quickly and accurately learn useful server interface descriptions.",
             "Award": ""
         },
         {
@@ -1069,6 +1114,7 @@
             "Key": "fse13main-id199-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMartin+Sch%C3%A4f%2C+Daniel+Schwartz-Narbonne%2C+and+Thomas+Wies+%22Explaining+Inconsistent+Code%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Martin Schäf, Daniel Schwartz-Narbonne, and Thomas Wies",
             "AffiliationsString": "United Nations University, China; New York University, USA",
             "Authors": [
@@ -1081,15 +1127,16 @@
                 "New York University, USA",
                 "New York University, USA"
             ],
-            "Abstract": "",
+            "Abstract": "A code fragment is inconsistent if it is not part of any normally terminating execution. Examples of such inconsistencies include code that is unreachable, code that always fails due to a run-time error, and code that makes conflicting assumptions about the program state. In this paper, we consider the problem of automatically explaining inconsistent code. This problem is difficult because traditional fault localization techniques do not apply. Our solution relies on a novel algorithm that takes an infeasible code fragment as input and generates a so-called error invariant automaton. The error invariant automaton is an abstraction of the input code fragment that only mentions program statements and facts that are relevant for understanding the cause of the inconsistency. We conducted a preliminary usability study which demonstrated that error invariant automata can help programmers better understand inconsistencies in code taken from real-world programs. In particular, access to an error invariant automata tripled the speed at which programmers could diagnose the cause of a code inconsistency.",
             "Award": ""
         },
         {
-            "Title": "Statistical Semantic Language Model for Source Code",
+            "Title": "A Statistical Semantic Language Model for Source Code",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id234-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTung+Thanh+Nguyen%2C+Anh+Nguyen%2C+Hoan+Anh+Nguyen%2C+and+Tien+N.+Nguyen+%22Statistical+Semantic+Language+Model+for+Source+Code%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTung+Thanh+Nguyen%2C+Anh+Nguyen%2C+Hoan+Anh+Nguyen%2C+and+Tien+N.+Nguyen+%22A+Statistical+Semantic+Language+Model+for+Source+Code%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Tung Thanh Nguyen, Anh Nguyen, Hoan Anh Nguyen, and Tien N. Nguyen",
             "AffiliationsString": "Iowa State University, USA",
             "Authors": [
@@ -1104,30 +1151,31 @@
                 "Iowa State University, USA",
                 "Iowa State University, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Recent research has successfully applied the statistical n-gram language model to show that source code exhibits a good level of repetition. The n-gram model is shown to have good predictability in supporting code suggestion and completion. However, the state-of-the-art n-gram approach to capture source code regularities/patterns is based only on the lexical information in a local context of the code units. To improve predictability, we introduce SLAMC, a novel statistical semantic language model for source code. It incorporates semantic information into code tokens and models the regularities/patterns of such semantic annotations, called sememes, rather than their lexemes. It combines the local context in semantic n-grams with the global technical concerns/functionality into an n-gram topic model, together with pairwise associations of program elements. Based on SLAMC, we developed a new code suggestion method, which is empirically evaluated on several projects to have relatively 18-68% higher accuracy than the state-of-the-art approach.",
             "Award": ""
         },
         {
             "Title": "Crossing the Gap from Imperative to Functional Programming through Refactoring",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id244-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAlex+Gyori%2C+Danny+Dig%2C+Lyle+Franklin%2C+and+Jan+Lahoda+%22Crossing+the+Gap+from+Imperative+to+Functional+Programming+through+Refactoring%22",
+            "URL": "http%3A%2F%2Fbigfoot.cs.upt.ro%2F%7Egyori%2Fpubs%2FLambdaFicator_FSE13.pdf",
             "URLvideo": "",
-            "PersonsString": "Alex Gyori, Danny Dig, Lyle Franklin, and Jan Lahoda",
-            "AffiliationsString": "Politehnica University of Timisoara, Romania; University of Illinois at Urbana-Champaign, USA; Ball State University, USA; Oracle, Czech Republic",
+            "URLinfo": "",
+            "PersonsString": "Alex Gyori, Lyle Franklin, Danny Dig, and Jan Lahoda",
+            "AffiliationsString": "University of Illinois, USA; Ball State University, USA; Oregon State University, USA; Oracle, Czech Republic",
             "Authors": [
-                "Alex Gyori @ Politehnica University of Timisoara, Romania",
-                "Danny Dig @ University of Illinois at Urbana-Champaign, USA",
+                "Alex Gyori @ University of Illinois, USA",
                 "Lyle Franklin @ Ball State University, USA",
+                "Danny Dig @ Oregon State University, USA",
                 "Jan Lahoda @ Oracle, Czech Republic"
             ],
             "Affiliations": [
-                "Politehnica University of Timisoara, Romania",
-                "University of Illinois at Urbana-Champaign, USA",
+                "University of Illinois, USA",
                 "Ball State University, USA",
+                "Oregon State University, USA",
                 "Oracle, Czech Republic"
             ],
-            "Abstract": "",
+            "Abstract": "Java 8 introduces two functional features: lambda expressions and functional operations like map or filter that apply a lambda expression over the elements of a Collection. Refactoring existing code to use these new features enables explicit but unobtrusive parallelism and makes the code more succinct. However, refactoring is tedious: it requires changing many lines of code. It is also error-prone: the programmer must reason about the control-, data-flow, and side-effects. Fortunately, refactorings can be automated. We designed and implemented LambdaFicator, a tool which automates two refactorings. The first refactoring converts anonymous inner classes to lambda expressions. The second refactoring converts for loops that iterate over Collections to functional operations that use lambda expressions. Using 9 open-source projects, we have applied these two refactorings 1263 and 1709 times, respectively. The results show that LambdaFicator is useful: (i) it is widely applicable, (ii) it reduces the code bloat, (iii) it increases programmer productivity, and (iv) it is accurate.",
             "Award": ""
         },
         {
@@ -1136,6 +1184,7 @@
             "Key": "fse13main-id51-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DScott+McPeak%2C+Charles-Henri+Gros%2C+and+Murali+Krishna+Ramanathan+%22Scalable+and+Incremental+Software+Bug+Detection%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Scott McPeak, Charles-Henri Gros, and Murali Krishna Ramanathan",
             "AffiliationsString": "Coverity, USA; Indian Institute of Science, India",
             "Authors": [
@@ -1157,21 +1206,22 @@
             "Key": "fse13main-id57-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DGuangtai+Liang%2C+Qianxiang+Wang%2C+Tao+Xie%2C+and+Hong+Mei+%22Inferring+Project-Specific+Bug+Patterns+for+Detecting+Sibling+Bugs%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Guangtai Liang, Qianxiang Wang, Tao Xie, and Hong Mei",
-            "AffiliationsString": "Peking University, China; North Carolina State University, USA",
+            "AffiliationsString": "Peking University, China; University of Illinois at Urbana-Champaign, USA",
             "Authors": [
                 "Guangtai Liang @ Peking University, China",
                 "Qianxiang Wang @ Peking University, China",
-                "Tao Xie @ North Carolina State University, USA",
+                "Tao Xie @ University of Illinois at Urbana-Champaign, USA",
                 "Hong Mei @ Peking University, China"
             ],
             "Affiliations": [
                 "Peking University, China",
                 "Peking University, China",
-                "North Carolina State University, USA",
+                "University of Illinois at Urbana-Champaign, USA",
                 "Peking University, China"
             ],
-            "Abstract": "",
+            "Abstract": "Lightweight static bug-detection tools such as FindBugs, PMD, Jlint, and Lint4j detect bugs with the knowledge of generic bug patterns (e.g., objects of java.io.InputStream are not closed in time after used). Besides generic bug patterns, different projects under analysis may have some project-specific bug patterns. For example, in a revision of the Xerces project, the class field ‘fDTDHandler’ is dereferenced without proper null-checks, while it could actually be null at runtime. We name such bug patterns directly related to objects instantiated in specific projects as Project-Specific Bug Patterns (PSBPs). Due to lack of such PSBP knowledge, existing tools usually fail in effectively detecting most of this kind of bugs. We name bugs belonging to the same project and sharing the same PSBP as sibling bugs. If some sibling bugs are fixed in a fix commit but some others remain, we treat such fix as an incomplete fix. To address such incomplete fixes, we propose a PSBP-based approach for detecting sibling bugs and implement a tool called Sibling-Bug Detector (SBD). Given a fix commit, SBD first infers the PSBPs implied by the fix commit. Then, based on the inferred PSBPs, SBD detects their related sibling bugs in the same project. To evaluate SBD, we apply it to seven popular open-source projects. Among the 108 warnings reported by SBD, 63 of them have been confirmed as real bugs by the project developers, while two existing popular static detectors (FindBugs and PMD) cannot report most of them.",
             "Award": ""
         },
         {
@@ -1180,6 +1230,7 @@
             "Key": "fse13main-id207-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChengnian+Sun+and+Siau-Cheng+Khoo+%22Mining+Succinct+Predicated+Bug+Signatures%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Chengnian Sun and Siau-Cheng Khoo",
             "AffiliationsString": "National University of Singapore, Singapore",
             "Authors": [
@@ -1190,51 +1241,7 @@
                 "National University of Singapore, Singapore",
                 "National University of Singapore, Singapore"
             ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "aPET: A Test Case Generation Tool for Concurrent Objects",
-            "Type": "Short Paper (Tool Demonstration, 4 pages)",
-            "Key": "fse13tools-tid8-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DElvira+Albert%2C+Puri+Arenas%2C+Miguel+Gomez-Zamalloa%2C+and+Peter+Wong+%22aPET%3A+A+Test+Case+Generation+Tool+for+Concurrent+Objects%22",
-            "URLvideo": "",
-            "PersonsString": "Elvira Albert, Puri Arenas, Miguel Gomez-Zamalloa, and Peter Wong",
-            "AffiliationsString": "Complutense University of Madrid, Spain; Fredhopper, Netherlands",
-            "Authors": [
-                "Elvira Albert @ Complutense University of Madrid, Spain",
-                "Puri Arenas @ Complutense University of Madrid, Spain",
-                "Miguel Gomez-Zamalloa @ Complutense University of Madrid, Spain",
-                "Peter Wong @ Fredhopper, Netherlands"
-            ],
-            "Affiliations": [
-                "Complutense University of Madrid, Spain",
-                "Complutense University of Madrid, Spain",
-                "Complutense University of Madrid, Spain",
-                "Fredhopper, Netherlands"
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "RUBRIC: A Flexible Tool for Automated Checking of Conformance to Requirement Boilerplates",
-            "Type": "Short Paper (Tool Demonstration, 4 pages)",
-            "Key": "fse13tools-tid6-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChetan+Arora%2C+Mehrdad+Sabetzadeh%2C+and+Lionel+Briand+%22RUBRIC%3A+A+Flexible+Tool+for+Automated+Checking+of+Conformance+to+Requirement+Boilerplates%22",
-            "URLvideo": "",
-            "PersonsString": "Chetan Arora, Mehrdad Sabetzadeh, and Lionel Briand",
-            "AffiliationsString": "University of Luxembourg, Luxembourg",
-            "Authors": [
-                "Chetan Arora @ University of Luxembourg, Luxembourg",
-                "Mehrdad Sabetzadeh @ University of Luxembourg, Luxembourg",
-                "Lionel Briand @ University of Luxembourg, Luxembourg"
-            ],
-            "Affiliations": [
-                "University of Luxembourg, Luxembourg",
-                "University of Luxembourg, Luxembourg",
-                "University of Luxembourg, Luxembourg"
-            ],
-            "Abstract": "",
+            "Abstract": "A bug signature is a set of program elements highlighting the cause or effect of a bug, and provides contextual information for debugging. In order to mine a signature for a buggy program, two sets of execution profiles of the program, one capturing the correct execution and the other capturing the faulty, are examined to identify the program elements contrasting faulty from correct. Signatures solely consisting of control flow transitions have been investigated via discriminative sequence and graph mining algorithms. These signatures might be handicapped in cases where the effect of a bug is not manifested by any deviation in control flow transitions. In this paper, we introduce the notion of predicated bug signature\/ that aims to enhance the predictive power of bug signatures by utilizing both data predicates and control-flow information. We introduce a novel ``discriminative itemset generator'' mining technique to generate succinct\/ signatures which do not contain redundant or irrelevant program elements. Our case studies demonstrate that predicated signatures can hint at more scenarios of bugs where traditional control-flow signatures fail.",
             "Award": ""
         },
         {
@@ -1243,6 +1250,7 @@
             "Key": "fse13tools-tid1-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFabio+Calefato+and+Filippo+Lanubile+%22SocialCDE%3A+A+Social+Awareness+Tool+for+Global+Software+Teams%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Fabio Calefato and Filippo Lanubile",
             "AffiliationsString": "University of Bari, Italy",
             "Authors": [
@@ -1253,30 +1261,7 @@
                 "University of Bari, Italy",
                 "University of Bari, Italy"
             ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "RSA-MBT: A Test Tool for Generating Test Artifacts Based on Models",
-            "Type": "Short Paper (Tool Demonstration, 4 pages)",
-            "Key": "fse13tools-tid2-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndrew+Costa%2C+Ricardo+Venieris%2C+Gustavo+Carvalho%2C+and+Carlos+Jos%C3%A9+Lucena+%22RSA-MBT%3A+A+Test+Tool+for+Generating+Test+Artifacts+Based+on+Models%22",
-            "URLvideo": "",
-            "PersonsString": "Andrew Costa, Ricardo Venieris, Gustavo Carvalho, and Carlos José Lucena",
-            "AffiliationsString": "PUC-Rio, Brazil",
-            "Authors": [
-                "Andrew Costa @ PUC-Rio, Brazil",
-                "Ricardo Venieris @ PUC-Rio, Brazil",
-                "Gustavo Carvalho @ PUC-Rio, Brazil",
-                "Carlos José Lucena @ PUC-Rio, Brazil"
-            ],
-            "Affiliations": [
-                "PUC-Rio, Brazil",
-                "PUC-Rio, Brazil",
-                "PUC-Rio, Brazil",
-                "PUC-Rio, Brazil"
-            ],
-            "Abstract": "",
+            "Abstract": "We present SocialCDE, a tool that aims at augmenting Application Lifecycle Management (ALM) platforms with social awareness to facilitate the establishment of interpersonal connections and increase the likelihood of successful interactions by disclosing developers’ personal interests and contextual information.",
             "Award": ""
         },
         {
@@ -1284,7 +1269,8 @@
             "Type": "Short Paper (Tool Demonstration, 4 pages)",
             "Key": "fse13tools-tid4-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DB.+M.+Mainul+Hossain%2C+Mark+Grechanik%2C+Ugo+Buy%2C+and+Haisheng+Wang+%22REDACT%3A+Preventing+Database+Deadlocks+from+Application-Based+Transactions%22",
-            "URLvideo": "",
+            "URLvideo": "http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DXB12nOJm8-s",
+            "URLinfo": "http%3A%2F%2Fwww.cs.uic.edu%2F%7Edrmark%2FREDACT.htm",
             "PersonsString": "B. M. Mainul Hossain, Mark Grechanik, Ugo Buy, and Haisheng Wang",
             "AffiliationsString": "University of Illinois at Chicago, USA; Oracle, USA",
             "Authors": [
@@ -1299,34 +1285,57 @@
                 "University of Illinois at Chicago, USA",
                 "Oracle, USA"
             ],
-            "Abstract": "",
+            "Abstract": "In this demonstration, we will present a database deadlocks prevention system that visualizes our algorithm for detecting hold-and-wait cycles that specify how resources (e.g., database tables) are locked and waited on to be locked during executions of SQL statements and utilizes those cycles information to prevent database deadlocks automatically.",
             "Award": ""
         },
         {
-            "Title": "USMMC: A Self-Contained Model Checker for UML State Machines",
+            "Title": "aPET: A Test Case Generation Tool for Concurrent Objects",
             "Type": "Short Paper (Tool Demonstration, 4 pages)",
-            "Key": "fse13tools-tid14-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShuang+Liu%2C+Yang+Liu%2C+Jun+Sun%2C+Manchun+Zheng%2C+Bimlesh+Wadhwa%2C+and+Jin+Song+Dong+%22USMMC%3A+A+Self-Contained+Model+Checker+for+UML+State+Machines%22",
+            "Key": "fse13tools-tid8-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DElvira+Albert%2C+Puri+Arenas%2C+Miguel+Gomez-Zamalloa%2C+and+Peter+Wong+%22aPET%3A+A+Test+Case+Generation+Tool+for+Concurrent+Objects%22",
             "URLvideo": "",
-            "PersonsString": "Shuang Liu, Yang Liu, Jun Sun, Manchun Zheng, Bimlesh Wadhwa, and Jin Song Dong",
-            "AffiliationsString": "National University of Singapore, Singapore; Nanyang Technological University, Singapore; Singapore University of Technology and Design, Singapore",
+            "URLinfo": "http%3A%2F%2Fcosta.ls.fi.upm.es%2Fapet%2F",
+            "PersonsString": "Elvira Albert, Puri Arenas, Miguel Gomez-Zamalloa, and Peter Wong",
+            "AffiliationsString": "Complutense University of Madrid, Spain; Fredhopper, Netherlands",
             "Authors": [
-                "Shuang Liu @ National University of Singapore, Singapore",
-                "Yang Liu @ Nanyang Technological University, Singapore",
-                "Jun Sun @ Singapore University of Technology and Design, Singapore",
-                "Manchun Zheng @ Singapore University of Technology and Design, Singapore",
-                "Bimlesh Wadhwa @ National University of Singapore, Singapore",
-                "Jin Song Dong @ National University of Singapore, Singapore"
+                "Elvira Albert @ Complutense University of Madrid, Spain",
+                "Puri Arenas @ Complutense University of Madrid, Spain",
+                "Miguel Gomez-Zamalloa @ Complutense University of Madrid, Spain",
+                "Peter Wong @ Fredhopper, Netherlands"
             ],
             "Affiliations": [
-                "National University of Singapore, Singapore",
-                "Nanyang Technological University, Singapore",
-                "Singapore University of Technology and Design, Singapore",
-                "Singapore University of Technology and Design, Singapore",
-                "National University of Singapore, Singapore",
-                "National University of Singapore, Singapore"
+                "Complutense University of Madrid, Spain",
+                "Complutense University of Madrid, Spain",
+                "Complutense University of Madrid, Spain",
+                "Fredhopper, Netherlands"
             ],
-            "Abstract": "",
+            "Abstract": "We present the concepts, usage and prototypical implementation of aPET, a test case generation tool for a distributed asynchronous language based on concurrent objects. The system receives as input a program, a selection of methods to be tested, and a set of parameters that include a selection of a coverage criterion. It yields as output a set of test cases which guarantee that the selected coverage criterion is achieved. aPET is completely integrated within the language's IDE via Eclipse. The generated test cases can be displayed in textual mode and, besides, it is possible to generate ABSUnit code (i.e., code runnable in a simple framework similar to JUnit to write repeatable tests). The information yield by aPET can be relevant to spot bugs during program development and also to perform regression testing.",
+            "Award": ""
+        },
+        {
+            "Title": "RUBRIC: A Flexible Tool for Automated Checking of Conformance to Requirement Boilerplates",
+            "Type": "Short Paper (Tool Demonstration, 4 pages)",
+            "Key": "fse13tools-tid6-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChetan+Arora%2C+Mehrdad+Sabetzadeh%2C+Lionel+Briand%2C+Frank+Zimmer%2C+and+Raul+Gnaga+%22RUBRIC%3A+A+Flexible+Tool+for+Automated+Checking+of+Conformance+to+Requirement+Boilerplates%22",
+            "URLvideo": "http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D5zIn8scJgRs",
+            "URLinfo": "http%3A%2F%2Fsites.google.com%2Fsite%2Frubricnlp%2F",
+            "PersonsString": "Chetan Arora, Mehrdad Sabetzadeh, Lionel Briand, Frank Zimmer, and Raul Gnaga",
+            "AffiliationsString": "University of Luxembourg, Luxembourg; SES TechCom, Luxembourg",
+            "Authors": [
+                "Chetan Arora @ University of Luxembourg, Luxembourg",
+                "Mehrdad Sabetzadeh @ University of Luxembourg, Luxembourg",
+                "Lionel Briand @ University of Luxembourg, Luxembourg",
+                "Frank Zimmer @ SES TechCom, Luxembourg",
+                "Raul Gnaga @ SES TechCom, Luxembourg"
+            ],
+            "Affiliations": [
+                "University of Luxembourg, Luxembourg",
+                "University of Luxembourg, Luxembourg",
+                "University of Luxembourg, Luxembourg",
+                "SES TechCom, Luxembourg",
+                "SES TechCom, Luxembourg"
+            ],
+            "Abstract": "Using requirement boilerplates is an effective way to mit- igate many types of ambiguity in Natural Language (NL) requirements and to enable more automated transformation and analysis of these requirements. When requirements are expressed using boilerplates, one must check, as a first qual- ity assurance measure, whether the requirements actually conform to the boilerplates. If done manually, boilerplate conformance checking can be laborious, particularly when requirements change frequently. We present RUBRIC (Re- qUirements BoileRplate sanIty Checker), a flexible tool for automatically checking NL requirements against boilerplates for conformance. RUBRIC further provides a range of di- agnostics to highlight potentially problematic syntactic con- structs in NL requirement statements. RUBRIC is based on a Natural Language Processing (NLP) technique, known as text chunking. A key advantage of RUBRIC is that it yields highly accurate results even in early stages of requirements writing, where a requirements glossary may be unavailable or only partially specified. RUBRIC is scalable and can be applied repeatedly to large sets of requirements as they evolve. The tool has been validated through an industrial case study which we outline briefly in the paper.",
             "Award": ""
         },
         {
@@ -1334,7 +1343,8 @@
             "Type": "Short Paper (Tool Demonstration, 4 pages)",
             "Key": "fse13tools-tid9-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSamaneh+Navabpour%2C+Yogi+Joshi%2C+Chun+Wah+Wallace+Wu%2C+Shay+Berkovich%2C+Ramy+Medhat%2C+Borzoo+Bonakdarpour%2C+and+Sebastian+Fischmeister+%22RiTHM%3A+A+Tool+for+Enabling+Time-Triggered+Runtime+Verification+for+C+Programs%22",
-            "URLvideo": "",
+            "URLvideo": "https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dv68n6HbNiss",
+            "URLinfo": "http%3A%2F%2Fuwaterloo.ca%2Fembedded-software-group%2Fprojects%2Frithm",
             "PersonsString": "Samaneh Navabpour, Yogi Joshi, Chun Wah Wallace Wu, Shay Berkovich, Ramy Medhat, Borzoo Bonakdarpour, and Sebastian Fischmeister",
             "AffiliationsString": "University of Waterloo, Canada",
             "Authors": [
@@ -1355,26 +1365,47 @@
                 "University of Waterloo, Canada",
                 "University of Waterloo, Canada"
             ],
-            "Abstract": "",
+            "Abstract": "We introduce the tool RiTHM (Runtime Time-triggered Heterogeneous Monitoring). RiTHM takes a C program under inspection and a set of LTL properties as input and generates an instrumented C program that is verified at run time by a time-triggered monitor. RiTHM provides two techniques based on static analysis and control theory to minimize instrumentation of the input C program and monitoring intervention. The monitor's verification decision procedure is sound and complete and exploits the GPU many-core technology to speedup and encapsulate monitoring tasks.",
+            "Award": ""
+        },
+        {
+            "Title": "PoMMaDe: Pushdown Model-Checking for Malware Detection",
+            "Type": "Short Paper (Tool Demonstration, 4 pages)",
+            "Key": "fse13tools-tid5-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFu+Song+and+Tayssir+Touili+%22PoMMaDe%3A+Pushdown+Model-Checking+for+Malware+Detection%22",
+            "URLvideo": "https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DKUpiDdejbHM",
+            "URLinfo": "http%3A%2F%2Fwww.liafa.univ-paris-diderot.fr%2F%7Esong%2Fpommade",
+            "PersonsString": "Fu Song and Tayssir Touili",
+            "AffiliationsString": "East China Normal University, China; CNRS, France; University Paris Diderot, France",
+            "Authors": [
+                "Fu Song @ East China Normal University, China",
+                "Tayssir Touili @ CNRS, France / University Paris Diderot, France"
+            ],
+            "Affiliations": [
+                "East China Normal University, China",
+                "CNRS, France / University Paris Diderot, France"
+            ],
+            "Abstract": "We present PoMMaDe, a Pushd own Model-checking based M alware D etector. In PoMMaDe, a binary program is modeled as a pushdown system (PDS) which allows to track the stack of the program, and malicious behaviors are specified in SCTPL or SLTPL, where SCTPL (resp. SLTPL) is an extension of CTL (resp. LTL) with variables, quantifiers, and predicates over the stack (needed for malware specification). The malware detection problem is reduced to SCTPL/SLTPL model-checking for PDSs. PoMMaDe allows us to detect 600 real malwares, 200 new malwares generated by two malware generators NGVCK and VCL32, and prove benign programs are benign. In particular, PoMMaDe was able to detect several malwares that could not be detected by well-known anti-viruses such as Avira, Avast, Kaspersky, McAfee, AVG, BitDefender, Eset Nod32, F-Secure, Norton, Panda, Trend Micro and Qihoo 360.",
             "Award": ""
         },
         {
             "Title": "RADA: A Tool for Reasoning about Algebraic Data Types with Abstractions",
             "Type": "Short Paper (Tool Demonstration, 4 pages)",
             "Key": "fse13tools-tid15-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTuan-Hung+Pham+and+Michael+Whalen+%22RADA%3A+A+Tool+for+Reasoning+about+Algebraic+Data+Types+with+Abstractions%22",
-            "URLvideo": "",
-            "PersonsString": "Tuan-Hung Pham and Michael Whalen",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTuan-Hung+Pham+and+Michael+W.+Whalen+%22RADA%3A+A+Tool+for+Reasoning+about+Algebraic+Data+Types+with+Abstractions%22",
+            "URLvideo": "http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7JRpHXNwVVs",
+            "URLinfo": "http%3A%2F%2Fcrisys.cs.umn.edu%2Frada%2F",
+            "PersonsString": "Tuan-Hung Pham and Michael W. Whalen",
             "AffiliationsString": "University of Minnesota, USA",
             "Authors": [
                 "Tuan-Hung Pham @ University of Minnesota, USA",
-                "Michael Whalen @ University of Minnesota, USA"
+                "Michael W. Whalen @ University of Minnesota, USA"
             ],
             "Affiliations": [
                 "University of Minnesota, USA",
                 "University of Minnesota, USA"
             ],
-            "Abstract": "",
+            "Abstract": "We present RADA, a portable, scalable tool for reasoning about formulas containing algebraic data types using catamorphism (fold) functions. It can work as a back-end for reasoning about recursive programs that manipulate algebraic types. RADA operates by successively unrolling catamorphisms and uses either CVC4 and Z3 as reasoning engines. We have used RADA for reasoning about functional implementations of complex data structures and to reason about guard applications that determine whether XML messages should be allowed to cross network security domains. Promising experimental results demonstrate that RADA can be used in several practical contexts.",
             "Award": ""
         },
         {
@@ -1382,7 +1413,8 @@
             "Type": "Short Paper (Tool Demonstration, 4 pages)",
             "Key": "fse13tools-tid11-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKoushik+Sen%2C+Swaroop+Kalasapur%2C+Tasneem+Brutch%2C+and+Simon+Gibbs+%22Jalangi%3A+A+Tool+Framework+for+Concolic+Testing%2C+Selective+Record-Replay%2C+and+Dynamic+Analysis+of+JavaScript%22",
-            "URLvideo": "",
+            "URLvideo": "http%3A%2F%2Fsrl.cs.berkeley.edu%2F%7Eksen%2FJalangi_demo_video_hd.mp4",
+            "URLinfo": "http%3A%2F%2Fgithub.com%2FSRA-SiliconValley%2Fjalangi",
             "PersonsString": "Koushik Sen, Swaroop Kalasapur, Tasneem Brutch, and Simon Gibbs",
             "AffiliationsString": "UC Berkeley, USA; Samsung Research, USA",
             "Authors": [
@@ -1397,74 +1429,94 @@
                 "Samsung Research, USA",
                 "Samsung Research, USA"
             ],
-            "Abstract": "",
+            "Abstract": "We describe a tool framework, called Jalangi, for dynamic  analysis and concolic testing of JavaScript programs. The framework  is written in JavaScript and allows implementation of various  heavy-weight dynamic analyses for JavaScript. Jalangi  incorporates two key techniques: 1) selective record-replay, a  technique which enables to record and to faithfully replay a  user-selected part of the program, and 2) shadow values and shadow  execution, which enables easy implementation of heavy-weight dynamic  analyses such as concolic testing and taint tracking. Jalangi  works through source-code instrumentation which makes it portable  across platforms. Jalangi is available at  https://github.com/SRA-SiliconValley/jalangi under Apache 2.0  license. Our evaluation of Jalangi on the SunSpider benchmark  suite and on five web applications shows that Jalangi has an  average slowdown of 26X during recording and 30X slowdown during  replay and analysis. The slowdowns are comparable with slowdowns  reported for similar tools, such as PIN and Valgrind for x86  binaries.",
             "Award": ""
         },
         {
-            "Title": "PoMMaDe: Pushdown Model-Checking for Malware Detection",
+            "Title": "RSA-MBT: A Test Tool for Generating Test Artifacts Based on Models",
             "Type": "Short Paper (Tool Demonstration, 4 pages)",
-            "Key": "fse13tools-tid5-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFu+Song+and+Tayssir+Touili+%22PoMMaDe%3A+Pushdown+Model-Checking+for+Malware+Detection%22",
+            "Key": "fse13tools-tid2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndrew+Costa%2C+Ricardo+Venieris%2C+Gustavo+Carvalho%2C+and+Carlos+Jos%C3%A9+Lucena+%22RSA-MBT%3A+A+Test+Tool+for+Generating+Test+Artifacts+Based+on+Models%22",
             "URLvideo": "",
-            "PersonsString": "Fu Song and Tayssir Touili",
-            "AffiliationsString": "East China Normal University, China; CNRS, France; University Paris Diderot, France",
+            "URLinfo": "http%3A%2F%2Fwww.les.inf.puc-rio.br%2Fescritorioqualidade%2Findex.php%3Foption%3Dcom_content%26view%3Darticle%26id%3D57%26Itemid%3D58",
+            "PersonsString": "Andrew Costa, Ricardo Venieris, Gustavo Carvalho, and Carlos José Lucena",
+            "AffiliationsString": "PUC-Rio, Brazil",
             "Authors": [
-                "Fu Song @ East China Normal University, China",
-                "Tayssir Touili @ CNRS, France / University Paris Diderot, France"
+                "Andrew Costa @ PUC-Rio, Brazil",
+                "Ricardo Venieris @ PUC-Rio, Brazil",
+                "Gustavo Carvalho @ PUC-Rio, Brazil",
+                "Carlos José Lucena @ PUC-Rio, Brazil"
             ],
             "Affiliations": [
-                "East China Normal University, China",
-                "CNRS, France / University Paris Diderot, France"
+                "PUC-Rio, Brazil",
+                "PUC-Rio, Brazil",
+                "PUC-Rio, Brazil",
+                "PUC-Rio, Brazil"
             ],
-            "Abstract": "",
+            "Abstract": "Model-Based Testing (MBT) has attracted the attention of many industries and, hence, it has provided several approaches reported in the literature. The Software Engineering Lab (LES) at the Pontifical Catholic University of Rio de Janeiro has worked extensively on coordinating and carrying out tests of large-scale software systems developed (for web and desktop) for different domains (e.g. petroleum, e-commerce, etc). Based on this experience, an LES test group created a new test modeling language called UML Testing Profile for Coordination (UTP-C) to model relevant test data. However, to use the advantages of the new modeling, an appropriate test-modeling tool became necessary. Thus, this paper presents the RSA-MBT, a new plug-in developed for the Rational Software Architecture (RSA) tool, to generate a set of test artifacts from UTP-C diagrams.",
             "Award": ""
         },
         {
-            "Title": "Towards Emotional Awareness in Software Development Teams",
-            "Type": "Short Paper (4 pages)",
-            "Key": "fse13newideas-nid19-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DEmitza+Guzman+and+Bernd+Bruegge+%22Towards+Emotional+Awareness+in+Software+Development+Teams%22",
-            "URLvideo": "",
-            "PersonsString": "Emitza Guzman and Bernd Bruegge",
-            "AffiliationsString": "TU Munich, Germany",
+            "Title": "USMMC: A Self-Contained Model Checker for UML State Machines",
+            "Type": "Short Paper (Tool Demonstration, 4 pages)",
+            "Key": "fse13tools-tid14-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShuang+Liu%2C+Yang+Liu%2C+Jun+Sun%2C+Manchun+Zheng%2C+Bimlesh+Wadhwa%2C+and+Jin+Song+Dong+%22USMMC%3A+A+Self-Contained+Model+Checker+for+UML+State+Machines%22",
+            "URLvideo": "http%3A%2F%2Fwww.comp.nus.edu.sg%2F%7Elius87%2Fuml%2Fdemo%2FUSMMC_demo.wmv",
+            "URLinfo": "http%3A%2F%2Fwww.comp.nus.edu.sg%2F%7Elius87",
+            "PersonsString": "Shuang Liu, Yang Liu, Jun Sun, Manchun Zheng, Bimlesh Wadhwa, and Jin Song Dong",
+            "AffiliationsString": "National University of Singapore, Singapore; Nanyang Technological University, Singapore; Singapore University of Technology and Design, Singapore",
             "Authors": [
-                "Emitza Guzman @ TU Munich, Germany",
-                "Bernd Bruegge @ TU Munich, Germany"
+                "Shuang Liu @ National University of Singapore, Singapore",
+                "Yang Liu @ Nanyang Technological University, Singapore",
+                "Jun Sun @ Singapore University of Technology and Design, Singapore",
+                "Manchun Zheng @ Singapore University of Technology and Design, Singapore",
+                "Bimlesh Wadhwa @ National University of Singapore, Singapore",
+                "Jin Song Dong @ National University of Singapore, Singapore"
             ],
             "Affiliations": [
-                "TU Munich, Germany",
-                "TU Munich, Germany"
+                "National University of Singapore, Singapore",
+                "Nanyang Technological University, Singapore",
+                "Singapore University of Technology and Design, Singapore",
+                "Singapore University of Technology and Design, Singapore",
+                "National University of Singapore, Singapore",
+                "National University of Singapore, Singapore"
             ],
-            "Abstract": "",
+            "Abstract": "UML diagrams are gaining increasing usage in Object-Oriented system designs. UML state machines are specifically used in modeling dynamic behaviors of classes. It has been widely agreed that verification of system designs at an early stage will dramatically reduce the development cost. Tool support for verification UML designs can also encourage consistent usage of UML diagrams throughout the software development procedure. In this work, we present a tool, named USMMC, which turns model checking of UML state machines into practice. USMMC is a self-contained toolkit, which provides editing, interactive simulation as well as powerful model checking support for UML state machines. The evaluation results show the effectiveness and scalability of our tool.",
             "Award": ""
         },
         {
-            "Title": "Iterative Test Suites Refinement for Elastic Computing Systems",
+            "Title": "Extracting URLs from JavaScript via Program Analysis",
             "Type": "Short Paper (4 pages)",
-            "Key": "fse13newideas-nid30-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAlessio+Gambi%2C+Antonio+Filieri%2C+and+Schahram+Dustdar+%22Iterative+Test+Suites+Refinement+for+Elastic+Computing+Systems%22",
+            "Key": "fse13newideas-nid32-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DQi+Wang%2C+Jingyu+Zhou%2C+Yuting+Chen%2C+Yizhou+Zhang%2C+and+Jianjun+Zhao+%22Extracting+URLs+from+JavaScript+via+Program+Analysis%22",
             "URLvideo": "",
-            "PersonsString": "Alessio Gambi, Antonio Filieri, and Schahram Dustdar",
-            "AffiliationsString": "University of Lugano, Switzerland; University of Stuttgart, Germany; TU Vienna, Austria",
+            "URLinfo": "",
+            "PersonsString": "Qi Wang, Jingyu Zhou, Yuting Chen, Yizhou Zhang, and Jianjun Zhao",
+            "AffiliationsString": "Shanghai Jiao Tong University, China",
             "Authors": [
-                "Alessio Gambi @ University of Lugano, Switzerland",
-                "Antonio Filieri @ University of Stuttgart, Germany",
-                "Schahram Dustdar @ TU Vienna, Austria"
+                "Qi Wang @ Shanghai Jiao Tong University, China",
+                "Jingyu Zhou @ Shanghai Jiao Tong University, China",
+                "Yuting Chen @ Shanghai Jiao Tong University, China",
+                "Yizhou Zhang @ Shanghai Jiao Tong University, China",
+                "Jianjun Zhao @ Shanghai Jiao Tong University, China"
             ],
             "Affiliations": [
-                "University of Lugano, Switzerland",
-                "University of Stuttgart, Germany",
-                "TU Vienna, Austria"
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China"
             ],
-            "Abstract": "",
+            "Abstract": "With the extensive use of client-side JavaScript in web applications, web contents are becoming more dynamic than ever before. This poses significant challenges for search engines, because more web URLs are now embedded or hidden inside JavaScript code and most web crawlers are script-agnostic, significantly reducing the coverage of search engines. We present a hybrid approach that combines static analysis with dynamic execution, overcoming the weakness of a purely static or dynamic approach that either lacks accuracy or suffers from huge execution cost. We also propose to integrate program analysis techniques such as statement coverage and program slicing to improve the performance of URL mining.",
             "Award": ""
         },
         {
             "Title": "Data Debugging with Continuous Testing",
             "Type": "Short Paper (4 pages)",
             "Key": "fse13newideas-nid26-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DK%C4%B1van%C3%A7+Mu%C5%9Flu%2C+Yuriy+Brun%2C+and+Alexandra+Meliou+%22Data+Debugging+with+Continuous+Testing%22",
+            "URL": "http%3A%2F%2Fpeople.cs.umass.edu%2F%7Ebrun%2Fpubs%2Fpubs%2FMuslu13ni-fse.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Kıvanç Muşlu, Yuriy Brun, and Alexandra Meliou",
             "AffiliationsString": "University of Washington, USA; University of Massachusetts, USA",
             "Authors": [
@@ -1477,15 +1529,60 @@
                 "University of Massachusetts, USA",
                 "University of Massachusetts, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Today, systems rely as heavily on data as on the software that manipulates those data. Errors in these systems are incredibly costly, annually resulting in multi-billion dollar losses, and, on multiple occasions, in death. While software debugging and testing have received heavy research attention, less effort has been devoted to data debugging: discovering system errors caused by well-formed but incorrect data. In this paper, we propose continuous data testing: using otherwise-idle CPU cycles to run test queries, in the background, as a user or database administrator modifies a database. This technique notifies the user or administrator about a data bug as quickly as possible after that bug is introduced, leading to at least three benefits: (1) The bug is discovered quickly and can be fixed before it is likely to cause a problem. (2) The bug is discovered while the relevant change is fresh in the user’s or administrator’s mind, increasing the chance that the underlying cause of the bug, as opposed to only the discovered side-effect, is fixed. (3) When poor documentation or company policies contribute to bugs, discovering the bug quickly is likely to identify these contributing factors, facilitating updating documentation and policies to prevent similar bugs in the future. We describe the problem space and potential benefits of continuous data testing, our vision for the technique, challenges we encountered, and our prototype implementation for PostgreSQL. The prototype’s low overhead shows promise that continuous data testing can address the important problem of data debugging.",
             "Award": ""
         },
         {
-            "Title": "Cost-Effectiveness Criterion for Applying Software Defect Prediction Models",
+            "Title": "Iterative Test Suites Refinement for Elastic Computing Systems",
+            "Type": "Short Paper (4 pages)",
+            "Key": "fse13newideas-nid30-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAlessio+Gambi%2C+Antonio+Filieri%2C+and+Schahram+Dustdar+%22Iterative+Test+Suites+Refinement+for+Elastic+Computing+Systems%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Alessio Gambi, Antonio Filieri, and Schahram Dustdar",
+            "AffiliationsString": "University of Lugano, Switzerland; University of Stuttgart, Germany; Vienna University of Technology, Austria",
+            "Authors": [
+                "Alessio Gambi @ University of Lugano, Switzerland",
+                "Antonio Filieri @ University of Stuttgart, Germany",
+                "Schahram Dustdar @ Vienna University of Technology, Austria"
+            ],
+            "Affiliations": [
+                "University of Lugano, Switzerland",
+                "University of Stuttgart, Germany",
+                "Vienna University of Technology, Austria"
+            ],
+            "Abstract": "Elastic computing systems can dynamically scale to continuously and cost-effectively provide their required Quality of Service in face of time-varying workloads, and they are usually implemented in the cloud. Despite their wide-spread adoption by industry, a formal definition of elasticity and suitable procedures for its assessment and verification are still missing. Both academia and industry are trying to adapt established testing procedures for functional and non-functional properties, with limited effectiveness with respect to elasticity. In this paper we propose a new methodology to automatically generate test-suites for testing the elastic properties of systems. Elasticity, plasticity, and oscillations are first formalized through a convenient behavioral abstraction of the elastic system and then used to drive an iterative test suite refinement process. The outcomes of our approach are a test suite tailored to the violation of elasticity properties and a human-readable abstraction of the system behavior to further support diagnosis and fix.",
+            "Award": ""
+        },
+        {
+            "Title": "Using Fault History to Improve Mutation Reduction",
+            "Type": "Short Paper (4 pages)",
+            "Key": "fse13newideas-nid21-p",
+            "URL": "https%3A%2F%2Fcs.uwaterloo.ca%2F%7Ertholmes%2Fpapers%2Ffse_2013_inozemtseva.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Laura Inozemtseva, Hadi Hemmati, and Reid Holmes",
+            "AffiliationsString": "University of Waterloo, Canada; University of Manitoba, Canada",
+            "Authors": [
+                "Laura Inozemtseva @ University of Waterloo, Canada",
+                "Hadi Hemmati @ University of Manitoba, Canada",
+                "Reid Holmes @ University of Waterloo, Canada"
+            ],
+            "Affiliations": [
+                "University of Waterloo, Canada",
+                "University of Manitoba, Canada",
+                "University of Waterloo, Canada"
+            ],
+            "Abstract": "Mutation testing can be used to measure test suite quality in two ways: by treating the kill score as a quality metric, or by treating each surviving, non-equivalent mutant as an indicator of an inadequacy in the test suite. The first technique relies on the assumption that the mutation score is highly correlated with the suite's real fault detection rate, which is not well supported by the literature. The second technique relies only on the weaker assumption that the \"interesting\" mutants (i.e., the ones that indicate an inadequacy in the suite) are in the set of surviving mutants. Using the second technique also makes improving the suite straightforward.  Unfortunately, mutation testing has a performance problem. At least part of the test suite must be run on every mutant, meaning mutation testing can be too slow for practical use. Previous work has addressed this by reducing the number of mutants to evaluate in various ways, including selecting a random subset of them. However, reducing the set of mutants by random reduction is suboptimal for developers using the second technique described above, since random reduction will eliminate many of the interesting mutants.  We propose a new reduction method that supports the use of the second technique by reducing the set of mutants to those generated by altering files that have contained many faults in the past. We performed a pilot study that suggests that this reduction method preferentially chooses mutants that will survive mutation testing; that is, it preserves a greater number of interesting mutants than random reduction does.",
+            "Award": ""
+        },
+        {
+            "Title": "A Cost-Effectiveness Criterion for Applying Software Defect Prediction Models",
             "Type": "Short Paper (4 pages)",
             "Key": "fse13newideas-nid18-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHongyu+Zhang+and+S.+C.+Cheung+%22Cost-Effectiveness+Criterion+for+Applying+Software+Defect+Prediction+Models%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHongyu+Zhang+and+S.+C.+Cheung+%22A+Cost-Effectiveness+Criterion+for+Applying+Software+Defect+Prediction+Models%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Hongyu Zhang and S. C. Cheung",
             "AffiliationsString": "Tsinghua University, China; Hong Kong University of Science and Technology, China",
             "Authors": [
@@ -1496,7 +1593,7 @@
                 "Tsinghua University, China",
                 "Hong Kong University of Science and Technology, China"
             ],
-            "Abstract": "",
+            "Abstract": "Ideally, software defect prediction models should help organize software quality assurance (SQA) resources and reduce cost of finding defects by allowing the modules most likely to contain defects to be inspected first. In this paper, we study the cost-effectiveness of applying defect prediction models in SQA and propose a basic cost-effectiveness criterion. The criterion implies that defect prediction models should be applied with caution. We also propose a new metric FN/(FN+TN) to measure the cost-effectiveness of a defect prediction model.",
             "Award": ""
         },
         {
@@ -1505,6 +1602,7 @@
             "Key": "fse13newideas-nid4-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJiangtao+Gong+and+Hongyu+Zhang+%22BugMap%3A+A+Topographic+Map+of+Bugs%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Jiangtao Gong and Hongyu Zhang",
             "AffiliationsString": "Tsinghua University, China",
             "Authors": [
@@ -1515,30 +1613,7 @@
                 "Tsinghua University, China",
                 "Tsinghua University, China"
             ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "Extracting URLs from JavaScript via Program Analysis",
-            "Type": "Short Paper (4 pages)",
-            "Key": "fse13newideas-nid32-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DQi+Wang%2C+Jingyu+Zhou%2C+Yizhou+Zhang%2C+and+Jianjun+Zhao+%22Extracting+URLs+from+JavaScript+via+Program+Analysis%22",
-            "URLvideo": "",
-            "PersonsString": "Qi Wang, Jingyu Zhou, Yizhou Zhang, and Jianjun Zhao",
-            "AffiliationsString": "Shanghai Jiao Tong University, China",
-            "Authors": [
-                "Qi Wang @ Shanghai Jiao Tong University, China",
-                "Jingyu Zhou @ Shanghai Jiao Tong University, China",
-                "Yizhou Zhang @ Shanghai Jiao Tong University, China",
-                "Jianjun Zhao @ Shanghai Jiao Tong University, China"
-            ],
-            "Affiliations": [
-                "Shanghai Jiao Tong University, China",
-                "Shanghai Jiao Tong University, China",
-                "Shanghai Jiao Tong University, China",
-                "Shanghai Jiao Tong University, China"
-            ],
-            "Abstract": "",
+            "Abstract": "A large and complex software system could contain a large number of bugs. It is desirable for developers to understand how these bugs are distributed across the system, so they could have a better overview of software quality. In this paper, we describe BugMap, a tool we developed for visualizing large-scale bug location information. Taken source code and bug data as the input, BugMap can display bug localizations on a topographic map. By examining the topographic map, developers can understand how the components and files are affected by bugs. We apply this tool to visualize the distribution of Eclipse bugs across components/files. The results show that our tool is effective for understanding the overall quality status of a large-scale system and for identifying the problematic areas of the system.",
             "Award": ""
         },
         {
@@ -1547,6 +1622,7 @@
             "Key": "fse13newideas-nid34-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAnh+Nguyen%2C+Tung+Thanh+Nguyen%2C+and+Tien+N.+Nguyen+%22Lexical+Statistical+Machine+Translation+for+Language+Migration%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Anh Nguyen, Tung Thanh Nguyen, and Tien N. Nguyen",
             "AffiliationsString": "Iowa State University, USA",
             "Authors": [
@@ -1559,15 +1635,56 @@
                 "Iowa State University, USA",
                 "Iowa State University, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Prior research has shown that source code also exhibits naturalness, i.e. it is written by humans and is likely to be repetitive. The researchers also showed that the n-gram language model is useful in predicting the next token in a source file given a large corpus of existing source code. In this paper, we investigate how well statistical machine translation (SMT) models for natural languages could help in migrating source code from one programming language to another. We treat source code as a sequence of lexical tokens and apply a phrase-based SMT model on the lexemes of those tokens. Our empirical evaluation on migrating two Java projects into C# showed that lexical, phrase-based SMT could achieve high lexical translation accuracy (BLEU from 81.3-82.6%). Users would have to manually edit only 11.9-15.8% of the total number of tokens in the resulting code to correct it. However, a high percentage of total translation methods (49.5-58.6%) is syntactically incorrect. Therefore, our result calls for a more program-oriented SMT model that is capable of better integrating the syntactic and semantic information of a program to support language migration.",
+            "Award": ""
+        },
+        {
+            "Title": "Code Fragment Summarization",
+            "Type": "Short Paper (4 pages)",
+            "Key": "fse13newideas-nid11-p",
+            "URL": "http%3A%2F%2Fwww.annieying.ca%2Fpapers%2Fesecfse2013.pdf",
+            "URLvideo": "http%3A%2F%2Fwww.annieying.ca%2Fpapers%2Fesecfse2013.pdf",
+            "URLinfo": "",
+            "PersonsString": "Annie T. T. Ying and Martin P. Robillard",
+            "AffiliationsString": "McGill University, Canada",
+            "Authors": [
+                "Annie T. T. Ying @ McGill University, Canada",
+                "Martin P. Robillard @ McGill University, Canada"
+            ],
+            "Affiliations": [
+                "McGill University, Canada",
+                "McGill University, Canada"
+            ],
+            "Abstract": "Current research in software engineering has mostly focused on the retrieval accuracy aspect but little on the presentation aspect of code examples, e.g., how code examples are presented in a result page. We investigate the feasibility of summarizing code examples for better presenting a code example. Our algorithm based on machine learning could approximate summaries in an oracle manually generated by humans with a precision of 0.71. This result is promising as summaries with this level of precision achieved the same level of agreement as human annotators with each other.",
+            "Award": ""
+        },
+        {
+            "Title": "Understanding Gamification Mechanisms for Software Development",
+            "Type": "Short Paper (4 pages)",
+            "Key": "fse13newideas-nid27-p",
+            "URL": "http%3A%2F%2Fgiordano.webfactional.com%2Fwp-content%2Fuploads%2F2011%2F11%2Ffse13ni.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Daniel J. Dubois and Giordano Tamburrelli",
+            "AffiliationsString": "Massachusetts Institute of Technology, USA; University of Lugano, Switzerland",
+            "Authors": [
+                "Daniel J. Dubois @ Massachusetts Institute of Technology, USA",
+                "Giordano Tamburrelli @ University of Lugano, Switzerland"
+            ],
+            "Affiliations": [
+                "Massachusetts Institute of Technology, USA",
+                "University of Lugano, Switzerland"
+            ],
+            "Abstract": "In this paper we outline the idea to adopt gamification techniques to engage, train, monitor, and motivate all the players involved in the development of complex software artifacts, from the inception to the deployment and maintenance. The paper introduces the concept of gamification and proposes a research approach to understand how its principles may be successfully applied to the process of software development. Applying gamification to software engineering is not as straightforward as it may appear since it has to be casted to the peculiarities of this domain. Existing literature in the area has already recognized the possible use of such technology in the context of software development, however how to design and use gamification in this context is still an open question. This leads to several research challenges which are organized in a fascinating research agenda that is part of the contribution of this paper. Finally, to support the proposed ideas we present a preliminary experiment that shows the effect of gamification on the performance of students involved in a software engineering project.",
             "Award": ""
         },
         {
             "Title": "Toward Understanding the Causes of Unanswered Questions in Software Information Sites: A Case Study of Stack Overflow",
             "Type": "Short Paper (4 pages)",
             "Key": "fse13newideas-nid35-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRipon+Saha%2C+Avigit+K.+Saha%2C+and+Dewayne+E.+Perry+%22Toward+Understanding+the+Causes+of+Unanswered+Questions+in+Software+Information+Sites%3A+A+Case+Study+of+Stack+Overflow%22",
+            "URL": "https%3A%2F%2Fwebspace.utexas.edu%2Frks848%2Fwww%2Fpapers%2FSahaFSE-NIER2013.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Ripon Saha, Avigit K. Saha, and Dewayne E. Perry",
             "AffiliationsString": "University of Texas at Austin, USA; University of Saskatchewan, Canada",
             "Authors": [
@@ -1580,47 +1697,7 @@
                 "University of Saskatchewan, Canada",
                 "University of Texas at Austin, USA"
             ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "Using Fault History to Improve Mutation Reduction",
-            "Type": "Short Paper (4 pages)",
-            "Key": "fse13newideas-nid21-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLaura+Inozemtseva%2C+Hadi+Hemmati%2C+and+Reid+Holmes+%22Using+Fault+History+to+Improve+Mutation+Reduction%22",
-            "URLvideo": "",
-            "PersonsString": "Laura Inozemtseva, Hadi Hemmati, and Reid Holmes",
-            "AffiliationsString": "University of Waterloo, Canada",
-            "Authors": [
-                "Laura Inozemtseva @ University of Waterloo, Canada",
-                "Hadi Hemmati @ University of Waterloo, Canada",
-                "Reid Holmes @ University of Waterloo, Canada"
-            ],
-            "Affiliations": [
-                "University of Waterloo, Canada",
-                "University of Waterloo, Canada",
-                "University of Waterloo, Canada"
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "Code Fragment Summarization",
-            "Type": "Short Paper (4 pages)",
-            "Key": "fse13newideas-nid11-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAnnie+T.+T.+Ying+and+Martin+P.+Robillard+%22Code+Fragment+Summarization%22",
-            "URLvideo": "",
-            "PersonsString": "Annie T. T. Ying and Martin P. Robillard",
-            "AffiliationsString": "McGill University, Canada",
-            "Authors": [
-                "Annie T. T. Ying @ McGill University, Canada",
-                "Martin P. Robillard @ McGill University, Canada"
-            ],
-            "Affiliations": [
-                "McGill University, Canada",
-                "McGill University, Canada"
-            ],
-            "Abstract": "",
+            "Abstract": "Stack Overflow is a highly successful question-answering website in the programming community, which not only provide quick solutions to programmers’ questions but also is considered as a large repository of valuable software engineering knowledge. However, despite having a very engaged and active user community, Stack Overflow currently has more than 300K unanswered questions. In this paper, we perform an initial investigation to understand why these questions remain unanswered by applying a combination of statistical and data mining techniques. Our preliminary results indicate that although there are some topics that were never answered, most questions remained unanswered because they apparently are of little interest to the user community.",
             "Award": ""
         },
         {
@@ -1629,6 +1706,7 @@
             "Key": "fse13newideas-nid12-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYael+Dubinsky%2C+Yishai+A.+Feldman%2C+and+Maayan+Goldstein+%22Where+Is+the+Business+Logic%3F%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Yael Dubinsky, Yishai A. Feldman, and Maayan Goldstein",
             "AffiliationsString": "IBM Research, Israel",
             "Authors": [
@@ -1641,26 +1719,27 @@
                 "IBM Research, Israel",
                 "IBM Research, Israel"
             ],
-            "Abstract": "",
+            "Abstract": "One of the challenges in maintaining legacy systems is to be able to locate business logic in the code, and isolate it for different purposes, including implementing requested changes, refactoring, eliminating duplication, unit testing, and extracting business logic into a rule engine. Our new idea is an iterative method to identify the business logic in the code and visualize this information to gain better understanding of the logic distribution in the code, as well as developing a domain-specific business vocabulary. This new method combines and extends several existing technologies, including search, aggregation, and visualization. We evaluated the visualization method on a large-scale application and found that it yields useful results, provided an appropriate vocabulary is available.",
             "Award": ""
         },
         {
-            "Title": "Understanding Gamification Mechanisms for Software Development",
+            "Title": "Towards Emotional Awareness in Software Development Teams",
             "Type": "Short Paper (4 pages)",
-            "Key": "fse13newideas-nid27-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDaniel+J.+Dubois+and+Giordano+Tamburrelli+%22Understanding+Gamification+Mechanisms+for+Software+Development%22",
+            "Key": "fse13newideas-nid19-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DEmitza+Guzman+and+Bernd+Bruegge+%22Towards+Emotional+Awareness+in+Software+Development+Teams%22",
             "URLvideo": "",
-            "PersonsString": "Daniel J. Dubois and Giordano Tamburrelli",
-            "AffiliationsString": "Massachusetts Institute of Technology, USA; University of Lugano, Switzerland",
+            "URLinfo": "",
+            "PersonsString": "Emitza Guzman and Bernd Bruegge",
+            "AffiliationsString": "TU Munich, Germany",
             "Authors": [
-                "Daniel J. Dubois @ Massachusetts Institute of Technology, USA",
-                "Giordano Tamburrelli @ University of Lugano, Switzerland"
+                "Emitza Guzman @ TU Munich, Germany",
+                "Bernd Bruegge @ TU Munich, Germany"
             ],
             "Affiliations": [
-                "Massachusetts Institute of Technology, USA",
-                "University of Lugano, Switzerland"
+                "TU Munich, Germany",
+                "TU Munich, Germany"
             ],
-            "Abstract": "",
+            "Abstract": "Emotions play an important role in determining work results and how team members collaborate within a project. When working in large, distributed teams, members can lose awareness of the emotional state of the project. We propose an approach to improve emotional awareness in software development teams by means of quantitative emotion summaries. Our approach automatically extracts and summarizes emotions expressed in collaboration artifacts by combining probabilistic topic modeling with lexical sentiment analysis techniques. We applied the approach to 1000 collaboration artifacts produced by three development teams in a three month period. Interviews with the teams' project leaders suggest that the proposed emotion summaries have a good correlation with the emotional state of the project, and could be useful for improving emotional awareness. However, the interviews also indicate that the current state of the summaries is not detailed enough and further improvements are needed.",
             "Award": ""
         },
         {
@@ -1669,6 +1748,7 @@
             "Key": "fse13industrial-ind6-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShrawan+Kumar%2C+Bharti+Chimdyalwar%2C+and+Ulka+Shrotri+%22Precise+Range+Analysis+on+Large+Industry+Code%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Shrawan Kumar, Bharti Chimdyalwar, and Ulka Shrotri",
             "AffiliationsString": "Tata Consultancy Services, India",
             "Authors": [
@@ -1681,32 +1761,37 @@
                 "Tata Consultancy Services, India",
                 "Tata Consultancy Services, India"
             ],
-            "Abstract": "",
+            "Abstract": "Abstract interpretation is widely used to perform static code analysis with non-relational (interval) as well as relational (difference-bound matrices, polyhedral) domains. Analysis using non-relational domains is highly scalable but delivers imprecise results, whereas, use of relational domains produces precise results but does not scale up. We have developed a tool that implements K-limited path sensitive interval domain analysis to get precise results without losing on scalability. The tool was able to successfully analyse 10 million lines of embedded code for different properties such as division by zero, array index out of bound (AIOB), overflow-underflow and so on. This paper presents details of the tool and results of our experiments for detecting AIOB property. A comparison with the existing tools in the market demonstrates that our tool is more precise and scales better.",
             "Award": ""
         },
         {
             "Title": "System Reliability Calculation Based on the Run-Time Analysis of Ladder Program",
             "Type": "Short Paper (Industrial Track, 4 pages)",
             "Key": "fse13industrial-ind17-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYu+Jiang%2C+Hehua+Zhang%2C+Xiaoyu+Song%2C+Jiaguang+Sun%2C+and+William+Hung+%22System+Reliability+Calculation+Based+on+the+Run-Time+Analysis+of+Ladder+Program%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYu+Jiang%2C+Hehua+Zhang%2C+Han+Liu%2C+Xiaoyu+Song%2C+William+N.+N.+Hung%2C+Ming+Gu%2C+and+Jiaguang+Sun+%22System+Reliability+Calculation+Based+on+the+Run-Time+Analysis+of+Ladder+Program%22",
             "URLvideo": "",
-            "PersonsString": "Yu Jiang, Hehua Zhang, Xiaoyu Song, Jiaguang Sun, and William Hung",
-            "AffiliationsString": "Tsinghua University, China; Pennsylvania State University, USA; Synopsys, USA",
+            "URLinfo": "",
+            "PersonsString": "Yu Jiang, Hehua Zhang, Han Liu, Xiaoyu Song, William N. N. Hung, Ming Gu, and Jiaguang Sun",
+            "AffiliationsString": "Tsinghua University, China; Portland State University, USA",
             "Authors": [
                 "Yu Jiang @ Tsinghua University, China",
                 "Hehua Zhang @ Tsinghua University, China",
-                "Xiaoyu Song @ Pennsylvania State University, USA",
-                "Jiaguang Sun @ Tsinghua University, China",
-                "William Hung @ Synopsys, USA"
+                "Han Liu @ Tsinghua University, China",
+                "Xiaoyu Song @ Portland State University, USA",
+                "William N. N. Hung @ Portland State University, USA",
+                "Ming Gu @ Tsinghua University, China",
+                "Jiaguang Sun @ Tsinghua University, China"
             ],
             "Affiliations": [
                 "Tsinghua University, China",
                 "Tsinghua University, China",
-                "Pennsylvania State University, USA",
                 "Tsinghua University, China",
-                "Synopsys, USA"
+                "Portland State University, USA",
+                "Portland State University, USA",
+                "Tsinghua University, China",
+                "Tsinghua University, China"
             ],
-            "Abstract": "",
+            "Abstract": "Programmable logic controller (PLC) system is a typical kind of embedded system that is widely used in industry. The complexity of reliability analysis of safety critical PLC systems arises in handling the temporal correlations among the system components caused by the run-time execution logic of the embedded ladder program. In this paper, we propose a novel probabilistic model for the reliability analysis of PLC systems, called run-time reliability model (RRM). It is constructed based on the structure and run-time execution of the embedded ladder program, automatically. Then, we present some custom-made conditional probability distribution (CPD) tables according to the execution semantics of the RRM nodes, and insert the reliability probability of each system component referenced by the node into the corresponding CPD table. The proposed model is accurate and fast compared to previous work as described in the experiment results.",
             "Award": ""
         },
         {
@@ -1715,6 +1800,7 @@
             "Key": "fse13industrial-ind7-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndrey+Terekhov+%22Good+Technology+Makes+the+Difficult+Task+Easy%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Andrey Terekhov",
             "AffiliationsString": "n.n. , Russia",
             "Authors": [
@@ -1730,8 +1816,9 @@
             "Title": "Risky Files: An Approach to Focus Quality Improvement Effort",
             "Type": "Short Paper (Industrial Track, 4 pages)",
             "Key": "fse13industrial-ind11-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAudris+Mockus%2C+Randy+Hackbarth%2C+and+John+Palframan+%22Risky+Files%3A+An+Approach+to+Focus+Quality+Improvement+Effort%22",
+            "URL": "http%3A%2F%2Fmockus.org%2Fpapers%2Frisky.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Audris Mockus, Randy Hackbarth, and John Palframan",
             "AffiliationsString": "Avaya Labs Research, USA",
             "Authors": [
@@ -1744,15 +1831,16 @@
                 "Avaya Labs Research, USA",
                 "Avaya Labs Research, USA"
             ],
-            "Abstract": "",
+            "Abstract": "As the development of software products frequently transitions  among globally distributed teams, the knowledge about the source  code, design decisions, original requirements, and the history of  troublesome areas gets lost. A new team faces tremendous  challenges to regain that knowledge. In numerous projects we  observed that only 1% of project files are involved in more than  60% of the customer reported defects (CFDs), thus focusing  quality improvement on such files can greatly reduce the risk of  poor product quality. We describe a mostly automated approach  that annotates the source code at the file and module level with  the historic information from multiple version control, issue  tracking, and an organization's directory systems. Risk factors  (e.g, past changes and authors who left the project) are  identified via a regression model and the riskiest areas undergo a  structured evaluation by experts. The results are presented via a  web-based tool and project experts are then trained how to use the  tool in conjunction with a checklist to determine risk remediation  actions for each risky file. We have deployed the approach in  seven projects in Avaya and are continuing deployment to the  remaining projects as we are evaluating the results of earlier  deployments. The approach is particularly helpful to focus quality  improvement effort for new releases of deployed products in a  resource-constrained environment.",
             "Award": ""
         },
         {
             "Title": "ShAir: Extensible Middleware for Mobile Peer-to-Peer Resource Sharing",
             "Type": "Short Paper (Industrial Track, 4 pages)",
             "Key": "fse13industrial-ind20-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDaniel+J.+Dubois%2C+Yosuke+Bando%2C+Konosuke+Watanabe%2C+and+Henry+Holtzman+%22ShAir%3A+Extensible+Middleware+for+Mobile+Peer-to-Peer+Resource+Sharing%22",
+            "URL": "http%3A%2F%2Fweb.media.mit.edu%2F%7Eddubois%2Fpapers%2Ffse13in.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Daniel J. Dubois, Yosuke Bando, Konosuke Watanabe, and Henry Holtzman",
             "AffiliationsString": "Massachusetts Institute of Technology, USA; Toshiba, Japan",
             "Authors": [
@@ -1767,7 +1855,7 @@
                 "Toshiba, Japan",
                 "Massachusetts Institute of Technology, USA"
             ],
-            "Abstract": "",
+            "Abstract": "ShAir is a middleware infrastructure that allows mobile applications to share resources of their devices (e.g., data, storage, connectivity, computation) in a transparent way. The goals of ShAir are: (i) abstracting the creation and maintenance of opportunistic delay-tolerant peer-to-peer networks; (ii) being decoupled from the actual hardware and network platform; (iii) extensibility in terms of supported hardware, protocols, and on the type of resources that can be shared; (iv) being capable of self-adapting at run-time; (v) enabling the development of applications that are easier to design, test, and simulate. In this paper we discuss the design, extensibility, and maintainability of the ShAir middleware, and how to use it as a platform for collaborative resource-sharing applications. Finally we show our experience in designing and testing a file-sharing application.",
             "Award": ""
         },
         {
@@ -1776,6 +1864,7 @@
             "Key": "fse13industrial-ind4-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRahul+Kumar+and+Aditya+Nori+%22The+Economics+of+Static+Analysis+Tools%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Rahul Kumar and Aditya Nori",
             "AffiliationsString": "Microsoft Research, India",
             "Authors": [
@@ -1793,25 +1882,30 @@
             "Title": "Design and Optimization of Multi-clocked Embedded Systems using Formal Technique",
             "Type": "Short Paper (Industrial Track, 4 pages)",
             "Key": "fse13industrial-ind8-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYu+Jiang%2C+Hehua+Zhang%2C+Xiaoyu+Song%2C+Zonghui+Li%2C+and+Yangdong+Deng+%22Design+and+Optimization+of+Multi-clocked+Embedded+Systems+using+Formal+Technique%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYu+Jiang%2C+Zonghui+Li%2C+Hehua+Zhang%2C+Yangdong+Deng%2C+Xiaoyu+Song%2C+Ming+Gu%2C+and+Jiaguang+Sun+%22Design+and+Optimization+of+Multi-clocked+Embedded+Systems+using+Formal+Technique%22",
             "URLvideo": "",
-            "PersonsString": "Yu Jiang, Hehua Zhang, Xiaoyu Song, Zonghui Li, and Yangdong Deng",
-            "AffiliationsString": "Tsinghua University, China; Portland State University, USA; CMU, USA",
+            "URLinfo": "",
+            "PersonsString": "Yu Jiang, Zonghui Li, Hehua Zhang, Yangdong Deng, Xiaoyu Song, Ming Gu, and Jiaguang Sun",
+            "AffiliationsString": "Tsinghua University, China; Portland State University, USA",
             "Authors": [
                 "Yu Jiang @ Tsinghua University, China",
-                "Hehua Zhang @ Tsinghua University, China",
-                "Xiaoyu Song @ Portland State University, USA",
                 "Zonghui Li @ Tsinghua University, China",
-                "Yangdong Deng @ CMU, USA"
+                "Hehua Zhang @ Tsinghua University, China",
+                "Yangdong Deng @ Tsinghua University, China",
+                "Xiaoyu Song @ Portland State University, USA",
+                "Ming Gu @ Tsinghua University, China",
+                "Jiaguang Sun @ Tsinghua University, China"
             ],
             "Affiliations": [
                 "Tsinghua University, China",
                 "Tsinghua University, China",
+                "Tsinghua University, China",
+                "Tsinghua University, China",
                 "Portland State University, USA",
                 "Tsinghua University, China",
-                "CMU, USA"
+                "Tsinghua University, China"
             ],
-            "Abstract": "",
+            "Abstract": "Today’s system-on-chip and distributed systems are commonly equipped with multiple clocks. The key challenge in designing such systems is that heterogenous control-oriented and data-oriented behaviors within one clock domain, and asynchronous communications between two clock domains have to be captured and evaluated in a single framework. In this paper, we propose to use timed automata and synchronous dataflow to capture the dynamic behaviors of multi-clock embedded systems. A timed automata and synchronous dataflow based modeling and analyzing framework is constructed to evaluate and optimize the performance of multiclock embedded systems. Data-oriented behaviors are captured by synchronous dataflow, while synchronous control-oriented behaviors are captured by timed automata, and inter clock-domain asynchronous communication can be modeled in an interface timed automaton or a synchronous dataflow module with the CSP mechanism. The behaviors of synchronous dataflow are interpreted by some equivalent timed automata to maintain the semantic consistency of the mixed model. Then, various functional properties can be simulated and verified within the framework. We apply this framework in the design process of a sub-system that is used in real world subway communication control system",
             "Award": ""
         },
         {
@@ -1820,6 +1914,7 @@
             "Key": "fse13industrial-ind9-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DThijmen+De+Gooijer+and+Heiko+Koziolek+%22Agreements+for+Software+Reuse+in+Corporations%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Thijmen De Gooijer and Heiko Koziolek",
             "AffiliationsString": "ABB Research, Sweden; ABB Research, Germany",
             "Authors": [
@@ -1830,7 +1925,7 @@
                 "ABB Research, Sweden",
                 "ABB Research, Germany"
             ],
-            "Abstract": "",
+            "Abstract": "Agreements for sharing of software between entities in a corporation have to be tailored to fit the situation. Such agreements are not legal documents and must address different issues than traditional software licenses. We found that these agreements should cover what is granted, payment, support, ownership and liability. In a case study we learned that an agreement should list its assumptions on the structure and processes of the software organization. The presented work enables others to create guidelines for software sharing agreements tailored to their organization and shares lessons about the differences between software product lines and corporate software sharing and reuse.",
             "Award": ""
         },
         {
@@ -1839,6 +1934,7 @@
             "Key": "fse13industrial-ind15-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DClement+Escoffier%2C+Philippe+Lalanda%2C+and+Nicolas+Rempulsky+%22h-ubu%3A+An+Industrial-Strength+Service-Oriented+Component+Framework+for+JavaScript+Applications%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Clement Escoffier, Philippe Lalanda, and Nicolas Rempulsky",
             "AffiliationsString": "Dynamis Technologies, France; Grenoble University, France; Ubidreams, France",
             "Authors": [
@@ -1860,6 +1956,7 @@
             "Key": "fse13doctoral-doc3-p",
             "URL": "http%3A%2F%2Fwww.ics.uci.edu%2F%7Endigiuse%2FNicholas_DiGiuseppe%2FResearch_files%2Fdigiuseppe13.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Nicholas Digiuseppe",
             "AffiliationsString": "UC Irvine, USA",
             "Authors": [
@@ -1875,8 +1972,9 @@
             "Title": "Using Topic Models to Understand the Evolution of a Software Ecosystem",
             "Type": "Short Paper (4 pages)",
             "Key": "fse13doctoral-doc7-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNicolas+Lopez+%22Using+Topic+Models+to+Understand+the+Evolution+of+a+Software+Ecosystem%22",
+            "URL": "http%3A%2F%2Fwww.ics.uci.edu%2F%7Enlopezgi%2Funpublished%2Fdsfse13_nlopezgi.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Nicolas Lopez",
             "AffiliationsString": "UC Irvine, USA",
             "Authors": [
@@ -1885,7 +1983,7 @@
             "Affiliations": [
                 "UC Irvine, USA"
             ],
-            "Abstract": "",
+            "Abstract": "The development of a software system is now ever more frequently a part of a larger development effort, including multiple software systems that co-exist in the same environment: a software ecosystem. Though most studies of the evolution of software have focused on a single software system, there is much that we can learn from the analysis of a set of interrelated systems. Topic modeling techniques show promise for mining the data stored in software repositories to understand the evolution of a system. In my research I seek to explore how topic modeling techniques can aid in understanding the evolution of a software ecosystem. The results of this research have the potential to improve how topic modeling techniques are used to predict, plan, and understand the evolution of software, and will inform the design of tools that support software engineering activities such as feature location, expertise identification, and bug detection.",
             "Award": ""
         },
         {
@@ -1894,6 +1992,7 @@
             "Key": "fse13doctoral-doc6-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYanja+Dajsuren+%22Automotive+Architecture+Description+and+Its+Quality%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Yanja Dajsuren",
             "AffiliationsString": "Eindhoven University of Technology, Netherlands",
             "Authors": [
@@ -1902,7 +2001,7 @@
             "Affiliations": [
                 "Eindhoven University of Technology, Netherlands"
             ],
-            "Abstract": "",
+            "Abstract": "This research is part of the Hybrid Innovations for Trucks (HIT), an ongoing multi-disciplinary project with the objectives of CO$_2$ emission reduction and fuel saving for long haul vehicles. Achieving this goal necessitates definition of a proper architecture and quality techniques to enable the development of a new and more efficient control software. Therefore, this research covers automotive architecture description language and quality of automotive software.",
             "Award": ""
         },
         {
@@ -1911,6 +2010,7 @@
             "Key": "fse13doctoral-doc8-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DUlyana+Tikhonova+%22A+Framework+for+Defining+the+Dynamic+Semantics+of+DSLs%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Ulyana Tikhonova",
             "AffiliationsString": "Eindhoven University of Technology, Netherlands",
             "Authors": [
@@ -1923,11 +2023,12 @@
             "Award": ""
         },
         {
-            "Title": "Fuzzy Service Matching in On-the-Fly Computing ",
+            "Title": "Fuzzy Service Matching in On-The-Fly Computing",
             "Type": "Short Paper (4 pages)",
             "Key": "fse13doctoral-doc2-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMarie+Christin+Platenius+%22Fuzzy+Service+Matching+in+On-the-Fly+Computing%C2%A0%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMarie+Christin+Platenius+%22Fuzzy+Service+Matching+in+On-The-Fly+Computing%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Marie Christin Platenius",
             "AffiliationsString": "University of Paderborn, Germany",
             "Authors": [
@@ -1936,7 +2037,7 @@
             "Affiliations": [
                 "University of Paderborn, Germany"
             ],
-            "Abstract": "",
+            "Abstract": "In the future vision of software engineering, services from world-wide markets are composed automated in order to build custom-made systems. Supporting such scenarios requires an adequate service matching approach. Many existing approaches do not fulfill two key requirements of emerging concepts like On-The-Fly-Computing, namely (1) comprehensiveness, i.e., the consideration of different service views that cover not only functional properties, but also non-functional properties and (2) fuzzy matching, i.e., the ability to deliver gradual results in order to cope with a certain extent of uncertainty, incompleteness, and tolerance ranges. In this paper, I present a fuzzy matching process that distinguishes between different fuzziness sources and leverages fuzziness in different matching steps which consider several service views, e.g., behavior and quality properties.",
             "Award": ""
         },
         {
@@ -1945,6 +2046,7 @@
             "Key": "fse13doctoral-doc1-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DOleg+Nenashev+%22PHRT%3A+A+Model+and+Programmable+Tool+for+Hardware+Reengineering+Automation%C2%A0%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Oleg Nenashev",
             "AffiliationsString": "Saint Petersburg State Polytechnical University, Russia",
             "Authors": [
@@ -1962,6 +2064,7 @@
             "Key": "fse13doctoral-doc4-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBahtijar+Vogel+%22Towards+Open+Architecture+System%C2%A0%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Bahtijar Vogel",
             "AffiliationsString": "Linnaeus University, Sweden",
             "Authors": [
@@ -1970,18 +2073,19 @@
             "Affiliations": [
                 "Linnaeus University, Sweden"
             ],
-            "Abstract": "",
+            "Abstract": "The use of diverse standards while developing web and mobile technologies brings new challenges when it comes to flexibility, interoperability, customizability and extensibility of the software systems. In addition, such systems in most of the cases are closed, thus make the development and customization process for system designers, developers and end-users a challenging effort. All these developments require further research attention. This work addresses these challenges from open system architecture perspective. The proposed approach is based on practical development efforts, and theoretical research including state of the art projects and definitions related to open architectures that we surveyed. The initial results indicate that a combination of service-oriented approaches with open source components and open standard data formats pave the way towards an open, extensible architecture. The core contribution of this research will be (a) an open architecture model and (b) the developed system itself based on the model, and (c) the benefits of applying open architecture approaches throughout the development processes.",
             "Award": ""
         }
     ],
     "Sessions": [
         {
-            "Title": "Tool Demonstrations",
-            "ShortTitle": "Tool Demonstrations",
-            "Type": "Tool Demonstrations",
-            "ShortType": "Tool Demonstrations",
-            "Key": "2013-08-21 00:00 Tool Demonstrations",
-            "Day": "2013-08-21",
+            "Id": "avik9Cheiy",
+            "Title": "TBA (Keynote)",
+            "ShortTitle": "TBA (Keynote)",
+            "Type": "Keynotes",
+            "ShortType": "Keynotes",
+            "Key": "fse13keynotes-k2-p",
+            "Day": "1970-01-01",
             "Time": "00:00 - 00:00",
             "Location": "",
             "LocationIndex": "0",
@@ -1990,19 +2094,193 @@
             ],
             "SponsoredBy": "",
             "Workshop": false,
+            "Comment": "FSE13KEYNOTES",
+            "Abstract": "",
+            "Items": [
+                "fse13keynotes-k2-p"
+            ]
+        },
+        {
+            "Id": "chaeKung3p",
+            "Title": "Software Engineering for Mathematics (Keynote)",
+            "ShortTitle": "Software Engineering for Mathematics (Keynote)",
+            "Type": "Keynotes",
+            "ShortType": "Keynotes",
+            "Key": "fse13keynotes-k3-p",
+            "Day": "1970-01-01",
+            "Time": "00:00 - 00:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13KEYNOTES",
+            "Abstract": "",
+            "Items": [
+                "fse13keynotes-k3-p"
+            ]
+        },
+        {
+            "Id": "Ieth5wiaBi",
+            "Title": "A Logical Revolution (Keynote)",
+            "ShortTitle": "A Logical Revolution (Keynote)",
+            "Type": "Keynotes",
+            "ShortType": "Keynotes",
+            "Key": "fse13keynotes-k1-p",
+            "Day": "1970-01-01",
+            "Time": "00:00 - 00:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13KEYNOTES",
+            "Abstract": "",
+            "Items": [
+                "fse13keynotes-k1-p"
+            ]
+        },
+        {
+            "Id": "Neebohsh6o",
+            "Title": "Tool Demos 2",
+            "ShortTitle": "Tool Demos 2",
+            "Type": "Tool Demonstrations",
+            "ShortType": "Tool Demonstrations",
+            "Key": "1970-01-01  Tool Demos 2",
+            "Day": "1970-01-01",
+            "Time": "00:00 - 00:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
             "Comment": "FSE13TOOLS",
             "Abstract": "",
             "Items": [
-                "fse13tools-tid8-p",
                 "fse13tools-tid6-p",
-                "fse13tools-tid1-p",
-                "fse13tools-tid2-p",
-                "fse13tools-tid4-p",
-                "fse13tools-tid14-p",
                 "fse13tools-tid9-p",
-                "fse13tools-tid15-p",
+                "fse13tools-tid5-p",
+                "fse13tools-tid15-p"
+            ]
+        },
+        {
+            "Id": "uQuucaew0g",
+            "Title": "Tool Demos 3",
+            "ShortTitle": "Tool Demos 3",
+            "Type": "Tool Demonstrations",
+            "ShortType": "Tool Demonstrations",
+            "Key": "1970-01-01  Tool Demos 3",
+            "Day": "1970-01-01",
+            "Time": "00:00 - 00:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13TOOLS",
+            "Abstract": "",
+            "Items": [
                 "fse13tools-tid11-p",
-                "fse13tools-tid5-p"
+                "fse13tools-tid2-p",
+                "fse13tools-tid14-p"
+            ]
+        },
+        {
+            "Id": "Zaak4ZeeF0",
+            "Title": "Tool Demos 1",
+            "ShortTitle": "Tool Demos 1",
+            "Type": "Tool Demonstrations",
+            "ShortType": "Tool Demonstrations",
+            "Key": "1970-01-01  Tool Demos 1",
+            "Day": "1970-01-01",
+            "Time": "00:00 - 00:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13TOOLS",
+            "Abstract": "",
+            "Items": [
+                "fse13tools-tid1-p",
+                "fse13tools-tid4-p",
+                "fse13tools-tid8-p"
+            ]
+        },
+        {
+            "Id": "Dei2chahvu",
+            "Title": "Software Engineering in Russia and Abroad (Panel)",
+            "ShortTitle": "Software Engineering in Russia and Abroad (Panel)",
+            "Type": "Panels",
+            "ShortType": "Panels",
+            "Key": "fse13panels-p3-p",
+            "Day": "1970-01-01",
+            "Time": "00:00 - 00:00",
+            "Location": "",
+            "LocationIndex": "5",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13PANELS",
+            "Abstract": "",
+            "Items": [
+                "fse13panels-p3-p"
+            ]
+        },
+        {
+            "Id": "pi5xahChah",
+            "Title": "Publication Culture in Software Engineering (Panel)",
+            "ShortTitle": "Publication Culture in Software Engineering (Panel)",
+            "Type": "Panels",
+            "ShortType": "Panels",
+            "Key": "fse13panels-p2-p",
+            "Day": "1970-01-01",
+            "Time": "00:00 - 00:00",
+            "Location": "",
+            "LocationIndex": "5",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13PANELS",
+            "Abstract": "",
+            "Items": [
+                "fse13panels-p2-p"
+            ]
+        },
+        {
+            "Id": "xo7EiCheep",
+            "Title": "Empirical Answers to Fundamental Software Engineering Problems (Panel)",
+            "ShortTitle": "Empirical Answers to Fundamental Software Engineering Problems (Panel)",
+            "Type": "Panels",
+            "ShortType": "Panels",
+            "Key": "fse13panels-p1-p",
+            "Day": "1970-01-01",
+            "Time": "00:00 - 00:00",
+            "Location": "",
+            "LocationIndex": "5",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13PANELS",
+            "Abstract": "",
+            "Items": [
+                "fse13panels-p1-p"
             ]
         },
         {
@@ -2014,7 +2292,7 @@
             "Day": "2013-08-21",
             "Time": "00:00 - 00:00",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2023,18 +2301,18 @@
             "Comment": "FSE13NEWIDEAS",
             "Abstract": "",
             "Items": [
-                "fse13newideas-nid19-p",
-                "fse13newideas-nid30-p",
+                "fse13newideas-nid32-p",
                 "fse13newideas-nid26-p",
+                "fse13newideas-nid30-p",
+                "fse13newideas-nid21-p",
                 "fse13newideas-nid18-p",
                 "fse13newideas-nid4-p",
-                "fse13newideas-nid32-p",
                 "fse13newideas-nid34-p",
-                "fse13newideas-nid35-p",
-                "fse13newideas-nid21-p",
                 "fse13newideas-nid11-p",
+                "fse13newideas-nid27-p",
+                "fse13newideas-nid35-p",
                 "fse13newideas-nid12-p",
-                "fse13newideas-nid27-p"
+                "fse13newideas-nid19-p"
             ]
         },
         {
@@ -2046,7 +2324,7 @@
             "Day": "2013-08-21",
             "Time": "00:00 - 00:00",
             "Location": "",
-            "LocationIndex": "2",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2075,7 +2353,7 @@
             "Day": "2013-08-21",
             "Time": "00:00 - 00:00",
             "Location": "",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2804,6 +3082,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Yuting Chen",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Yuting Chen @ Shanghai Jiao Tong University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "S. C. Cheung",
             "Affiliation": "Hong Kong University of Science and Technology, China",
             "Key": "S. C. Cheung @ Hong Kong University of Science and Technology, China",
@@ -2955,8 +3243,8 @@
         },
         {
             "Name": "Yangdong Deng",
-            "Affiliation": "CMU, USA",
-            "Key": "Yangdong Deng @ CMU, USA",
+            "Affiliation": "Tsinghua University, China",
+            "Key": "Yangdong Deng @ Tsinghua University, China",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2995,8 +3283,8 @@
         },
         {
             "Name": "Danny Dig",
-            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
-            "Key": "Danny Dig @ University of Illinois at Urbana-Champaign, USA",
+            "Affiliation": "Oregon State University, USA",
+            "Key": "Danny Dig @ Oregon State University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3075,8 +3363,8 @@
         },
         {
             "Name": "Schahram Dustdar",
-            "Affiliation": "TU Vienna, Austria",
-            "Key": "Schahram Dustdar @ TU Vienna, Austria",
+            "Affiliation": "Vienna University of Technology, Austria",
+            "Key": "Schahram Dustdar @ Vienna University of Technology, Austria",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3234,6 +3522,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Raul Gnaga",
+            "Affiliation": "SES TechCom, Luxembourg",
+            "Key": "Raul Gnaga @ SES TechCom, Luxembourg",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Sedar Gokbulut",
             "Affiliation": "Microsoft, USA",
             "Key": "Sedar Gokbulut @ Microsoft, USA",
@@ -3295,8 +3593,8 @@
         },
         {
             "Name": "Joel Greenyer",
-            "Affiliation": "Politecnico di Milano, Italy",
-            "Key": "Joel Greenyer @ Politecnico di Milano, Italy",
+            "Affiliation": "Leibniz Universität Hannover, Germany",
+            "Key": "Joel Greenyer @ Leibniz Universität Hannover, Germany",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3324,6 +3622,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Ming Gu",
+            "Affiliation": "Tsinghua University, China",
+            "Key": "Ming Gu @ Tsinghua University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Emitza Guzman",
             "Affiliation": "TU Munich, Germany",
             "Key": "Emitza Guzman @ TU Munich, Germany",
@@ -3335,8 +3643,8 @@
         },
         {
             "Name": "Alex Gyori",
-            "Affiliation": "Politehnica University of Timisoara, Romania",
-            "Key": "Alex Gyori @ Politehnica University of Timisoara, Romania",
+            "Affiliation": "University of Illinois, USA",
+            "Key": "Alex Gyori @ University of Illinois, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3405,8 +3713,8 @@
         },
         {
             "Name": "Hadi Hemmati",
-            "Affiliation": "University of Waterloo, Canada",
-            "Key": "Hadi Hemmati @ University of Waterloo, Canada",
+            "Affiliation": "University of Manitoba, Canada",
+            "Key": "Hadi Hemmati @ University of Manitoba, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3455,8 +3763,8 @@
         },
         {
             "Name": "Andreas Holzer",
-            "Affiliation": "TU Vienna, Austria",
-            "Key": "Andreas Holzer @ TU Vienna, Austria",
+            "Affiliation": "Vienna University of Technology, Austria",
+            "Key": "Andreas Holzer @ Vienna University of Technology, Austria",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3484,9 +3792,9 @@
             "URLgs": ""
         },
         {
-            "Name": "William Hung",
-            "Affiliation": "Synopsys, USA",
-            "Key": "William Hung @ Synopsys, USA",
+            "Name": "William N. N. Hung",
+            "Affiliation": "Portland State University, USA",
+            "Key": "William N. N. Hung @ Portland State University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3757,6 +4065,16 @@
             "Name": "Mario Linares-Vásquez",
             "Affiliation": "College of William and Mary, USA",
             "Key": "Mario Linares-Vásquez @ College of William and Mary, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Han Liu",
+            "Affiliation": "Tsinghua University, China",
+            "Key": "Han Liu @ Tsinghua University, China",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4364,19 +4682,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Alexander von Rhein",
-            "Affiliation": "University of Passau, Germany",
-            "Key": "Alexander von Rhein @ University of Passau, Germany",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Peter Rigby",
+            "Name": "Peter C. Rigby",
             "Affiliation": "Concordia University, Canada",
-            "Key": "Peter Rigby @ Concordia University, Canada",
+            "Key": "Peter C. Rigby @ Concordia University, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4615,16 +4923,6 @@
         },
         {
             "Name": "Xiaoyu Song",
-            "Affiliation": "Pennsylvania State University, USA",
-            "Key": "Xiaoyu Song @ Pennsylvania State University, USA",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Xiaoyu Song",
             "Affiliation": "Portland State University, USA",
             "Key": "Xiaoyu Song @ Portland State University, USA",
             "Bio": "",
@@ -4795,8 +5093,8 @@
         },
         {
             "Name": "Helmut Veith",
-            "Affiliation": "TU Vienna, Austria",
-            "Key": "Helmut Veith @ TU Vienna, Austria",
+            "Affiliation": "Vienna University of Technology, Austria",
+            "Key": "Helmut Veith @ Vienna University of Technology, Austria",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4817,6 +5115,16 @@
             "Name": "Bahtijar Vogel",
             "Affiliation": "Linnaeus University, Sweden",
             "Key": "Bahtijar Vogel @ Linnaeus University, Sweden",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alexander von Rhein",
+            "Affiliation": "University of Passau, Germany",
+            "Key": "Alexander von Rhein @ University of Passau, Germany",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4904,9 +5212,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Michael Whalen",
+            "Name": "Michael W. Whalen",
             "Affiliation": "University of Minnesota, USA",
-            "Key": "Michael Whalen @ University of Minnesota, USA",
+            "Key": "Michael W. Whalen @ University of Minnesota, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4955,8 +5263,8 @@
         },
         {
             "Name": "Tao Xie",
-            "Affiliation": "North Carolina State University, USA",
-            "Key": "Tao Xie @ North Carolina State University, USA",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
+            "Key": "Tao Xie @ University of Illinois at Urbana-Champaign, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5117,6 +5425,16 @@
             "Name": "Jingyu Zhou",
             "Affiliation": "Shanghai Jiao Tong University, China",
             "Key": "Jingyu Zhou @ Shanghai Jiao Tong University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Frank Zimmer",
+            "Affiliation": "SES TechCom, Luxembourg",
+            "Key": "Frank Zimmer @ SES TechCom, Luxembourg",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
