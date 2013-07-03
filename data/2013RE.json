@@ -2042,8 +2042,8 @@
         },
         {
             "Id": "ahkaisiPh0",
-            "Title": "Creative Collisions: Meet and Create: And Other “RE Interactive” Suggestions",
-            "ShortTitle": "Creative Collisions: Meet and Create: And Other “RE Interactive” Suggestions",
+            "Title": "Creative Collisions: Meet and Create!",
+            "ShortTitle": "Creative Collisions: Meet and Create!",
             "Type": "Special Sessions",
             "ShortType": "Special Sessions",
             "Key": "re13specials-m12-p",
@@ -2125,19 +2125,22 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "RE13",
-            "Abstract": ""
+            "Abstract": "",
+            "Items": [
+                "re13specials-m11-p"
+            ]
         },
         {
             "Id": "Eequohnae1",
-            "Title": "Elicitation",
-            "ShortTitle": "Elicitation",
+            "Title": "Elicitation in Theory and in Practice",
+            "ShortTitle": "Elicitation in Theory and in Practice",
             "Type": "Research Track",
             "ShortType": "Research Track",
             "Key": "2013-07-18 11:00 Elicitation",
             "Day": "2013-07-18",
             "Time": "11:00 - 12:30",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "7",
             "ChairsString": "Stephen Morris",
             "Chairs": [
                 "Stephen Morris @"
@@ -2148,31 +2151,8 @@
             "Abstract": "",
             "Items": [
                 "re13rt-p020-p",
-                "re13rt-p084-p"
-            ]
-        },
-        {
-            "Id": "Ae5eBai0Xe",
-            "Title": "Elicitation and Requirements Sources",
-            "ShortTitle": "Elicitation and Requirements Sources",
-            "Type": "Industry Track",
-            "ShortType": "Industry Track",
-            "Key": "2013-07-18 11:00 Elicitation and Requirements Sources",
-            "Day": "2013-07-18",
-            "Time": "11:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "2",
-            "ChairsString": "xxx",
-            "Chairs": [
-                "xxx @"
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "RE13IT",
-            "Abstract": "",
-            "Items": [
                 "re13it-p008-p",
-                "re13it-p016-p"
+                "re13rt-p084-p"
             ]
         },
         {
@@ -2201,15 +2181,15 @@
         },
         {
             "Id": "phuoc3uThe",
-            "Title": "Requirements Sources",
-            "ShortTitle": "Requirements Sources",
+            "Title": "New Perspectives on Requirements Sources",
+            "ShortTitle": "New Perspectives on Requirements Sources",
             "Type": "Research Track",
             "ShortType": "Research Track",
             "Key": "2013-07-18 14:30 Requirements Sources",
             "Day": "2013-07-18",
             "Time": "14:30 - 16:00",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "7",
             "ChairsString": "Didar Zowghi",
             "Chairs": [
                 "Didar Zowghi @"
@@ -2220,7 +2200,8 @@
             "Abstract": "",
             "Items": [
                 "re13rt-p141-p",
-                "re13rt-p091-p"
+                "re13rt-p091-p",
+                "re13it-p016-p"
             ]
         },
         {
@@ -2436,7 +2417,7 @@
             "Day": "2013-07-19",
             "Time": "11:00 - 12:30",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "7",
             "ChairsString": "Michael Panis",
             "Chairs": [
                 "Michael Panis @"
@@ -2447,30 +2428,8 @@
             "Abstract": "",
             "Items": [
                 "re13rt-p132-p",
+                "re13it-p011-p",
                 "re13rt-p127-p"
-            ]
-        },
-        {
-            "Id": "uu6raoDi4b",
-            "Title": "Traceability in Practice",
-            "ShortTitle": "Traceability in Practice",
-            "Type": "Industry Track",
-            "ShortType": "Industry Track",
-            "Key": "2013-07-19 11:00 Traceability in Practice",
-            "Day": "2013-07-19",
-            "Time": "11:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "2",
-            "ChairsString": "Michael Panis",
-            "Chairs": [
-                "Michael Panis @"
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "RE13IT",
-            "Abstract": "",
-            "Items": [
-                "re13it-p011-p"
             ]
         },
         {
