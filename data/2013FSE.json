@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1372845035,
+    "DataRevision": 1372976351,
     "Preliminary": true,
     "Event": "ESEC/FSE 2013",
     "Name": "ESEC/FSE 2013",
@@ -56,6 +56,60 @@
         "Other"
     ],
     "Items": [
+        {
+            "Title": "A Logical Revolution (Keynote)",
+            "Type": "Keynote Paper (up to 10+1 pages)",
+            "Key": "fse13keynotes-k1-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMoshe+Vardi+%22A+Logical+Revolution+%28Keynote%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Moshe Vardi",
+            "AffiliationsString": "Rice University, USA",
+            "Authors": [
+                "Moshe Vardi @ Rice University, USA"
+            ],
+            "Affiliations": [
+                "Rice University, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "TBA (Keynote)",
+            "Type": "Keynote Paper (up to 10+1 pages)",
+            "Key": "fse13keynotes-k2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPaola+Inverardi+%22TBA+%28Keynote%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Paola Inverardi",
+            "AffiliationsString": "University of l'Aquila, Italy",
+            "Authors": [
+                "Paola Inverardi @ University of l'Aquila, Italy"
+            ],
+            "Affiliations": [
+                "University of l'Aquila, Italy"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Software Engineering for Mathematics (Keynote)",
+            "Type": "Keynote Paper (up to 10+1 pages)",
+            "Key": "fse13keynotes-k3-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DGeorges+Gonthier+%22Software+Engineering+for+Mathematics+%28Keynote%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Georges Gonthier",
+            "AffiliationsString": "Microsoft Research, UK",
+            "Authors": [
+                "Georges Gonthier @ Microsoft Research, UK"
+            ],
+            "Affiliations": [
+                "Microsoft Research, UK"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
         {
             "Title": "Efficiency and Early Fault Detection with Lower and Higher Strength Combinatorial Interaction Testing",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
@@ -1250,7 +1304,7 @@
             "Key": "fse13tools-tid1-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFabio+Calefato+and+Filippo+Lanubile+%22SocialCDE%3A+A+Social+Awareness+Tool+for+Global+Software+Teams%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fsocialtfs.codeplex.com%2F",
             "PersonsString": "Fabio Calefato and Filippo Lanubile",
             "AffiliationsString": "University of Bari, Italy",
             "Authors": [
@@ -1765,6 +1819,90 @@
             "Award": ""
         },
         {
+            "Title": "Agreements for Software Reuse in Corporations",
+            "Type": "Short Paper (Industrial Track, 4 pages)",
+            "Key": "fse13industrial-ind9-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DThijmen+De+Gooijer+and+Heiko+Koziolek+%22Agreements+for+Software+Reuse+in+Corporations%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Thijmen De Gooijer and Heiko Koziolek",
+            "AffiliationsString": "ABB Research, Sweden; ABB Research, Germany",
+            "Authors": [
+                "Thijmen De Gooijer @ ABB Research, Sweden",
+                "Heiko Koziolek @ ABB Research, Germany"
+            ],
+            "Affiliations": [
+                "ABB Research, Sweden",
+                "ABB Research, Germany"
+            ],
+            "Abstract": "Agreements for sharing of software between entities in a corporation have to be tailored to fit the situation. Such agreements are not legal documents and must address different issues than traditional software licenses. We found that these agreements should cover what is granted, payment, support, ownership and liability. In a case study we learned that an agreement should list its assumptions on the structure and processes of the software organization. The presented work enables others to create guidelines for software sharing agreements tailored to their organization and shares lessons about the differences between software product lines and corporate software sharing and reuse.",
+            "Award": ""
+        },
+        {
+            "Title": "Good Technology Makes the Difficult Task Easy",
+            "Type": "Short Paper (Industrial Track, 4 pages)",
+            "Key": "fse13industrial-ind7-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndrey+Terekhov+%22Good+Technology+Makes+the+Difficult+Task+Easy%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Andrey Terekhov",
+            "AffiliationsString": "n.n. , Russia",
+            "Authors": [
+                "Andrey Terekhov @ n.n. , Russia"
+            ],
+            "Affiliations": [
+                "n.n. , Russia"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "ShAir: Extensible Middleware for Mobile Peer-to-Peer Resource Sharing",
+            "Type": "Short Paper (Industrial Track, 4 pages)",
+            "Key": "fse13industrial-ind20-p",
+            "URL": "http%3A%2F%2Fweb.media.mit.edu%2F%7Eddubois%2Fpapers%2Ffse13in.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Daniel J. Dubois, Yosuke Bando, Konosuke Watanabe, and Henry Holtzman",
+            "AffiliationsString": "Massachusetts Institute of Technology, USA; Toshiba, Japan",
+            "Authors": [
+                "Daniel J. Dubois @ Massachusetts Institute of Technology, USA",
+                "Yosuke Bando @ Toshiba, Japan",
+                "Konosuke Watanabe @ Toshiba, Japan",
+                "Henry Holtzman @ Massachusetts Institute of Technology, USA"
+            ],
+            "Affiliations": [
+                "Massachusetts Institute of Technology, USA",
+                "Toshiba, Japan",
+                "Toshiba, Japan",
+                "Massachusetts Institute of Technology, USA"
+            ],
+            "Abstract": "ShAir is a middleware infrastructure that allows mobile applications to share resources of their devices (e.g., data, storage, connectivity, computation) in a transparent way. The goals of ShAir are: (i) abstracting the creation and maintenance of opportunistic delay-tolerant peer-to-peer networks; (ii) being decoupled from the actual hardware and network platform; (iii) extensibility in terms of supported hardware, protocols, and on the type of resources that can be shared; (iv) being capable of self-adapting at run-time; (v) enabling the development of applications that are easier to design, test, and simulate. In this paper we discuss the design, extensibility, and maintainability of the ShAir middleware, and how to use it as a platform for collaborative resource-sharing applications. Finally we show our experience in designing and testing a file-sharing application.",
+            "Award": ""
+        },
+        {
+            "Title": "Risky Files: An Approach to Focus Quality Improvement Effort",
+            "Type": "Short Paper (Industrial Track, 4 pages)",
+            "Key": "fse13industrial-ind11-p",
+            "URL": "http%3A%2F%2Fmockus.org%2Fpapers%2Frisky.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Audris Mockus, Randy Hackbarth, and John Palframan",
+            "AffiliationsString": "Avaya Labs Research, USA",
+            "Authors": [
+                "Audris Mockus @ Avaya Labs Research, USA",
+                "Randy Hackbarth @ Avaya Labs Research, USA",
+                "John Palframan @ Avaya Labs Research, USA"
+            ],
+            "Affiliations": [
+                "Avaya Labs Research, USA",
+                "Avaya Labs Research, USA",
+                "Avaya Labs Research, USA"
+            ],
+            "Abstract": "As the development of software products frequently transitions  among globally distributed teams, the knowledge about the source  code, design decisions, original requirements, and the history of  troublesome areas gets lost. A new team faces tremendous  challenges to regain that knowledge. In numerous projects we  observed that only 1% of project files are involved in more than  60% of the customer reported defects (CFDs), thus focusing  quality improvement on such files can greatly reduce the risk of  poor product quality. We describe a mostly automated approach  that annotates the source code at the file and module level with  the historic information from multiple version control, issue  tracking, and an organization's directory systems. Risk factors  (e.g, past changes and authors who left the project) are  identified via a regression model and the riskiest areas undergo a  structured evaluation by experts. The results are presented via a  web-based tool and project experts are then trained how to use the  tool in conjunction with a checklist to determine risk remediation  actions for each risky file. We have deployed the approach in  seven projects in Avaya and are continuing deployment to the  remaining projects as we are evaluating the results of earlier  deployments. The approach is particularly helpful to focus quality  improvement effort for new releases of deployed products in a  resource-constrained environment.",
+            "Award": ""
+        },
+        {
             "Title": "System Reliability Calculation Based on the Run-Time Analysis of Ladder Program",
             "Type": "Short Paper (Industrial Track, 4 pages)",
             "Key": "fse13industrial-ind17-p",
@@ -1795,87 +1933,25 @@
             "Award": ""
         },
         {
-            "Title": "Good Technology Makes the Difficult Task Easy",
+            "Title": "h-ubu: An Industrial-Strength Service-Oriented Component Framework for JavaScript Applications",
             "Type": "Short Paper (Industrial Track, 4 pages)",
-            "Key": "fse13industrial-ind7-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndrey+Terekhov+%22Good+Technology+Makes+the+Difficult+Task+Easy%22",
+            "Key": "fse13industrial-ind15-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DClement+Escoffier%2C+Philippe+Lalanda%2C+and+Nicolas+Rempulsky+%22h-ubu%3A+An+Industrial-Strength+Service-Oriented+Component+Framework+for+JavaScript+Applications%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Andrey Terekhov",
-            "AffiliationsString": "n.n. , Russia",
+            "PersonsString": "Clement Escoffier, Philippe Lalanda, and Nicolas Rempulsky",
+            "AffiliationsString": "Dynamis Technologies, France; Grenoble University, France; Ubidreams, France",
             "Authors": [
-                "Andrey Terekhov @ n.n. , Russia"
+                "Clement Escoffier @ Dynamis Technologies, France / Grenoble University, France",
+                "Philippe Lalanda @ Grenoble University, France",
+                "Nicolas Rempulsky @ Ubidreams, France"
             ],
             "Affiliations": [
-                "n.n. , Russia"
+                "Dynamis Technologies, France / Grenoble University, France",
+                "Grenoble University, France",
+                "Ubidreams, France"
             ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "Risky Files: An Approach to Focus Quality Improvement Effort",
-            "Type": "Short Paper (Industrial Track, 4 pages)",
-            "Key": "fse13industrial-ind11-p",
-            "URL": "http%3A%2F%2Fmockus.org%2Fpapers%2Frisky.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Audris Mockus, Randy Hackbarth, and John Palframan",
-            "AffiliationsString": "Avaya Labs Research, USA",
-            "Authors": [
-                "Audris Mockus @ Avaya Labs Research, USA",
-                "Randy Hackbarth @ Avaya Labs Research, USA",
-                "John Palframan @ Avaya Labs Research, USA"
-            ],
-            "Affiliations": [
-                "Avaya Labs Research, USA",
-                "Avaya Labs Research, USA",
-                "Avaya Labs Research, USA"
-            ],
-            "Abstract": "As the development of software products frequently transitions  among globally distributed teams, the knowledge about the source  code, design decisions, original requirements, and the history of  troublesome areas gets lost. A new team faces tremendous  challenges to regain that knowledge. In numerous projects we  observed that only 1% of project files are involved in more than  60% of the customer reported defects (CFDs), thus focusing  quality improvement on such files can greatly reduce the risk of  poor product quality. We describe a mostly automated approach  that annotates the source code at the file and module level with  the historic information from multiple version control, issue  tracking, and an organization's directory systems. Risk factors  (e.g, past changes and authors who left the project) are  identified via a regression model and the riskiest areas undergo a  structured evaluation by experts. The results are presented via a  web-based tool and project experts are then trained how to use the  tool in conjunction with a checklist to determine risk remediation  actions for each risky file. We have deployed the approach in  seven projects in Avaya and are continuing deployment to the  remaining projects as we are evaluating the results of earlier  deployments. The approach is particularly helpful to focus quality  improvement effort for new releases of deployed products in a  resource-constrained environment.",
-            "Award": ""
-        },
-        {
-            "Title": "ShAir: Extensible Middleware for Mobile Peer-to-Peer Resource Sharing",
-            "Type": "Short Paper (Industrial Track, 4 pages)",
-            "Key": "fse13industrial-ind20-p",
-            "URL": "http%3A%2F%2Fweb.media.mit.edu%2F%7Eddubois%2Fpapers%2Ffse13in.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Daniel J. Dubois, Yosuke Bando, Konosuke Watanabe, and Henry Holtzman",
-            "AffiliationsString": "Massachusetts Institute of Technology, USA; Toshiba, Japan",
-            "Authors": [
-                "Daniel J. Dubois @ Massachusetts Institute of Technology, USA",
-                "Yosuke Bando @ Toshiba, Japan",
-                "Konosuke Watanabe @ Toshiba, Japan",
-                "Henry Holtzman @ Massachusetts Institute of Technology, USA"
-            ],
-            "Affiliations": [
-                "Massachusetts Institute of Technology, USA",
-                "Toshiba, Japan",
-                "Toshiba, Japan",
-                "Massachusetts Institute of Technology, USA"
-            ],
-            "Abstract": "ShAir is a middleware infrastructure that allows mobile applications to share resources of their devices (e.g., data, storage, connectivity, computation) in a transparent way. The goals of ShAir are: (i) abstracting the creation and maintenance of opportunistic delay-tolerant peer-to-peer networks; (ii) being decoupled from the actual hardware and network platform; (iii) extensibility in terms of supported hardware, protocols, and on the type of resources that can be shared; (iv) being capable of self-adapting at run-time; (v) enabling the development of applications that are easier to design, test, and simulate. In this paper we discuss the design, extensibility, and maintainability of the ShAir middleware, and how to use it as a platform for collaborative resource-sharing applications. Finally we show our experience in designing and testing a file-sharing application.",
-            "Award": ""
-        },
-        {
-            "Title": "The Economics of Static Analysis Tools",
-            "Type": "Short Paper (Industrial Track, 4 pages)",
-            "Key": "fse13industrial-ind4-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRahul+Kumar+and+Aditya+Nori+%22The+Economics+of+Static+Analysis+Tools%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Rahul Kumar and Aditya Nori",
-            "AffiliationsString": "Microsoft Research, India",
-            "Authors": [
-                "Rahul Kumar @ Microsoft Research, India",
-                "Aditya Nori @ Microsoft Research, India"
-            ],
-            "Affiliations": [
-                "Microsoft Research, India",
-                "Microsoft Research, India"
-            ],
-            "Abstract": "Static analysis tools have experienced a dichotomy over the span of the last decade. They have proven themselves to be useful in many domains, but at the same time have not (in general) experienced any notable concrete integration into a development environment. This is partly due to the inherent complexity of the tools themselves, as well as due to other intangible factors. Such factors usually tend to include questions about the return on investment of the tool and the value the tool provides in a development environment. In this paper, we present an empirical model for evaluating static analysis tools from the perspective of the economic value they provide. We further apply this model to a case study of the Static Driver Verier (SDV) tool that ships with the Windows Driver Kit and show the usefulness of the model and the tool.",
+            "Abstract": "In the last years, we developed web applications requiring a large amount of JavaScript code. These web applications present adaptation requirements. In addition to platform-centric adaptation, applications have to dynamically react to external events like connectivity disruptions. Building such applications is complex and we faced sharp maintainability challenges. This paper presents h-ubu, a service-oriented component framework for JavaScript allowing building adaptive applications. h-ubu is used in industrial web applications and mobile applications. h-ubu is available in open source, as part of the OW2 Nanoko project.",
             "Award": ""
         },
         {
@@ -1909,45 +1985,23 @@
             "Award": ""
         },
         {
-            "Title": "Agreements for Software Reuse in Corporations",
+            "Title": "The Economics of Static Analysis Tools",
             "Type": "Short Paper (Industrial Track, 4 pages)",
-            "Key": "fse13industrial-ind9-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DThijmen+De+Gooijer+and+Heiko+Koziolek+%22Agreements+for+Software+Reuse+in+Corporations%22",
+            "Key": "fse13industrial-ind4-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRahul+Kumar+and+Aditya+Nori+%22The+Economics+of+Static+Analysis+Tools%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Thijmen De Gooijer and Heiko Koziolek",
-            "AffiliationsString": "ABB Research, Sweden; ABB Research, Germany",
+            "PersonsString": "Rahul Kumar and Aditya Nori",
+            "AffiliationsString": "Microsoft Research, India",
             "Authors": [
-                "Thijmen De Gooijer @ ABB Research, Sweden",
-                "Heiko Koziolek @ ABB Research, Germany"
+                "Rahul Kumar @ Microsoft Research, India",
+                "Aditya Nori @ Microsoft Research, India"
             ],
             "Affiliations": [
-                "ABB Research, Sweden",
-                "ABB Research, Germany"
+                "Microsoft Research, India",
+                "Microsoft Research, India"
             ],
-            "Abstract": "Agreements for sharing of software between entities in a corporation have to be tailored to fit the situation. Such agreements are not legal documents and must address different issues than traditional software licenses. We found that these agreements should cover what is granted, payment, support, ownership and liability. In a case study we learned that an agreement should list its assumptions on the structure and processes of the software organization. The presented work enables others to create guidelines for software sharing agreements tailored to their organization and shares lessons about the differences between software product lines and corporate software sharing and reuse.",
-            "Award": ""
-        },
-        {
-            "Title": "h-ubu: An Industrial-Strength Service-Oriented Component Framework for JavaScript Applications",
-            "Type": "Short Paper (Industrial Track, 4 pages)",
-            "Key": "fse13industrial-ind15-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DClement+Escoffier%2C+Philippe+Lalanda%2C+and+Nicolas+Rempulsky+%22h-ubu%3A+An+Industrial-Strength+Service-Oriented+Component+Framework+for+JavaScript+Applications%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Clement Escoffier, Philippe Lalanda, and Nicolas Rempulsky",
-            "AffiliationsString": "Dynamis Technologies, France; Grenoble University, France; Ubidreams, France",
-            "Authors": [
-                "Clement Escoffier @ Dynamis Technologies, France / Grenoble University, France",
-                "Philippe Lalanda @ Grenoble University, France",
-                "Nicolas Rempulsky @ Ubidreams, France"
-            ],
-            "Affiliations": [
-                "Dynamis Technologies, France / Grenoble University, France",
-                "Grenoble University, France",
-                "Ubidreams, France"
-            ],
-            "Abstract": "In the last years, we developed web applications requiring a large amount of JavaScript code. These web applications present adaptation requirements. In addition to platform-centric adaptation, applications have to dynamically react to external events like connectivity disruptions. Building such applications is complex and we faced sharp maintainability challenges. This paper presents h-ubu, a service-oriented component framework for JavaScript allowing building adaptive applications. h-ubu is used in industrial web applications and mobile applications. h-ubu is available in open source, as part of the OW2 Nanoko project.",
+            "Abstract": "Static analysis tools have experienced a dichotomy over the span of the last decade. They have proven themselves to be useful in many domains, but at the same time have not (in general) experienced any notable concrete integration into a development environment. This is partly due to the inherent complexity of the tools themselves, as well as due to other intangible factors. Such factors usually tend to include questions about the return on investment of the tool and the value the tool provides in a development environment. In this paper, we present an empirical model for evaluating static analysis tools from the perspective of the economic value they provide. We further apply this model to a case study of the Static Driver Verier (SDV) tool that ships with the Windows Driver Kit and show the usefulness of the model and the tool.",
             "Award": ""
         },
         {
@@ -2075,283 +2129,74 @@
             ],
             "Abstract": "The use of diverse standards while developing web and mobile technologies brings new challenges when it comes to flexibility, interoperability, customizability and extensibility of the software systems. In addition, such systems in most of the cases are closed, thus make the development and customization process for system designers, developers and end-users a challenging effort. All these developments require further research attention. This work addresses these challenges from open system architecture perspective. The proposed approach is based on practical development efforts, and theoretical research including state of the art projects and definitions related to open architectures that we surveyed. The initial results indicate that a combination of service-oriented approaches with open source components and open standard data formats pave the way towards an open, extensible architecture. The core contribution of this research will be (a) an open architecture model and (b) the developed system itself based on the model, and (c) the benefits of applying open architecture approaches throughout the development processes.",
             "Award": ""
+        },
+        {
+            "Title": "Empirical Answers to Fundamental Software Engineering Problems (Panel)",
+            "Type": "Panel Paper (up to 10+1 pages)",
+            "Key": "fse13panels-p1-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBertrand+Meyer+%22Empirical+Answers+to+Fundamental+Software+Engineering+Problems+%28Panel%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Bertrand Meyer",
+            "AffiliationsString": "ETH Zurich, Switzerland; ITMO, Russia",
+            "Authors": [
+                "Bertrand Meyer @ ETH Zurich, Switzerland / ITMO, Russia"
+            ],
+            "Affiliations": [
+                "ETH Zurich, Switzerland / ITMO, Russia"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Publication Culture in Software Engineering (Panel)",
+            "Type": "Panel Paper (up to 10+1 pages)",
+            "Key": "fse13panels-p2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSteve+Fraser+and+Moshe+Vardi+%22Publication+Culture+in+Software+Engineering+%28Panel%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Steve Fraser and Moshe Vardi",
+            "AffiliationsString": "CISCO, USA; Rice University, USA",
+            "Authors": [
+                "Steve Fraser @ CISCO, USA",
+                "Moshe Vardi @ Rice University, USA"
+            ],
+            "Affiliations": [
+                "CISCO, USA",
+                "Rice University, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Software Engineering in Russia and Abroad (Panel)",
+            "Type": "Panel Paper (up to 10+1 pages)",
+            "Key": "fse13panels-p3-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNick+Puntikov+%22Software+Engineering+in+Russia+and+Abroad+%28Panel%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Nick Puntikov",
+            "AffiliationsString": "CEE-SECR, Russia",
+            "Authors": [
+                "Nick Puntikov @ CEE-SECR, Russia"
+            ],
+            "Affiliations": [
+                "CEE-SECR, Russia"
+            ],
+            "Abstract": "",
+            "Award": ""
         }
     ],
     "Sessions": [
         {
-            "Id": "avik9Cheiy",
-            "Title": "TBA (Keynote)",
-            "ShortTitle": "TBA (Keynote)",
-            "Type": "Keynotes",
-            "ShortType": "Keynotes",
-            "Key": "fse13keynotes-k2-p",
-            "Day": "1970-01-01",
-            "Time": "00:00 - 00:00",
-            "Location": "",
-            "LocationIndex": "0",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13KEYNOTES",
-            "Abstract": "",
-            "Items": [
-                "fse13keynotes-k2-p"
-            ]
-        },
-        {
-            "Id": "chaeKung3p",
-            "Title": "Software Engineering for Mathematics (Keynote)",
-            "ShortTitle": "Software Engineering for Mathematics (Keynote)",
-            "Type": "Keynotes",
-            "ShortType": "Keynotes",
-            "Key": "fse13keynotes-k3-p",
-            "Day": "1970-01-01",
-            "Time": "00:00 - 00:00",
-            "Location": "",
-            "LocationIndex": "0",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13KEYNOTES",
-            "Abstract": "",
-            "Items": [
-                "fse13keynotes-k3-p"
-            ]
-        },
-        {
-            "Id": "Ieth5wiaBi",
-            "Title": "A Logical Revolution (Keynote)",
-            "ShortTitle": "A Logical Revolution (Keynote)",
-            "Type": "Keynotes",
-            "ShortType": "Keynotes",
-            "Key": "fse13keynotes-k1-p",
-            "Day": "1970-01-01",
-            "Time": "00:00 - 00:00",
-            "Location": "",
-            "LocationIndex": "0",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13KEYNOTES",
-            "Abstract": "",
-            "Items": [
-                "fse13keynotes-k1-p"
-            ]
-        },
-        {
-            "Id": "Neebohsh6o",
-            "Title": "Tool Demos 2",
-            "ShortTitle": "Tool Demos 2",
-            "Type": "Tool Demonstrations",
-            "ShortType": "Tool Demonstrations",
-            "Key": "1970-01-01  Tool Demos 2",
-            "Day": "1970-01-01",
-            "Time": "00:00 - 00:00",
-            "Location": "",
-            "LocationIndex": "1",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13TOOLS",
-            "Abstract": "",
-            "Items": [
-                "fse13tools-tid6-p",
-                "fse13tools-tid9-p",
-                "fse13tools-tid5-p",
-                "fse13tools-tid15-p"
-            ]
-        },
-        {
-            "Id": "uQuucaew0g",
-            "Title": "Tool Demos 3",
-            "ShortTitle": "Tool Demos 3",
-            "Type": "Tool Demonstrations",
-            "ShortType": "Tool Demonstrations",
-            "Key": "1970-01-01  Tool Demos 3",
-            "Day": "1970-01-01",
-            "Time": "00:00 - 00:00",
-            "Location": "",
-            "LocationIndex": "1",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13TOOLS",
-            "Abstract": "",
-            "Items": [
-                "fse13tools-tid11-p",
-                "fse13tools-tid2-p",
-                "fse13tools-tid14-p"
-            ]
-        },
-        {
-            "Id": "Zaak4ZeeF0",
-            "Title": "Tool Demos 1",
-            "ShortTitle": "Tool Demos 1",
-            "Type": "Tool Demonstrations",
-            "ShortType": "Tool Demonstrations",
-            "Key": "1970-01-01  Tool Demos 1",
-            "Day": "1970-01-01",
-            "Time": "00:00 - 00:00",
-            "Location": "",
-            "LocationIndex": "1",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13TOOLS",
-            "Abstract": "",
-            "Items": [
-                "fse13tools-tid1-p",
-                "fse13tools-tid4-p",
-                "fse13tools-tid8-p"
-            ]
-        },
-        {
-            "Id": "Dei2chahvu",
-            "Title": "Software Engineering in Russia and Abroad (Panel)",
-            "ShortTitle": "Software Engineering in Russia and Abroad (Panel)",
-            "Type": "Panels",
-            "ShortType": "Panels",
-            "Key": "fse13panels-p3-p",
-            "Day": "1970-01-01",
-            "Time": "00:00 - 00:00",
-            "Location": "",
-            "LocationIndex": "5",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13PANELS",
-            "Abstract": "",
-            "Items": [
-                "fse13panels-p3-p"
-            ]
-        },
-        {
-            "Id": "pi5xahChah",
-            "Title": "Publication Culture in Software Engineering (Panel)",
-            "ShortTitle": "Publication Culture in Software Engineering (Panel)",
-            "Type": "Panels",
-            "ShortType": "Panels",
-            "Key": "fse13panels-p2-p",
-            "Day": "1970-01-01",
-            "Time": "00:00 - 00:00",
-            "Location": "",
-            "LocationIndex": "5",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13PANELS",
-            "Abstract": "",
-            "Items": [
-                "fse13panels-p2-p"
-            ]
-        },
-        {
-            "Id": "xo7EiCheep",
-            "Title": "Empirical Answers to Fundamental Software Engineering Problems (Panel)",
-            "ShortTitle": "Empirical Answers to Fundamental Software Engineering Problems (Panel)",
-            "Type": "Panels",
-            "ShortType": "Panels",
-            "Key": "fse13panels-p1-p",
-            "Day": "1970-01-01",
-            "Time": "00:00 - 00:00",
-            "Location": "",
-            "LocationIndex": "5",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13PANELS",
-            "Abstract": "",
-            "Items": [
-                "fse13panels-p1-p"
-            ]
-        },
-        {
-            "Title": "New Ideas",
-            "ShortTitle": "New Ideas",
-            "Type": "New Ideas",
-            "ShortType": "New Ideas",
-            "Key": "2013-08-21 00:00 New Ideas",
-            "Day": "2013-08-21",
-            "Time": "00:00 - 00:00",
-            "Location": "",
-            "LocationIndex": "2",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13NEWIDEAS",
-            "Abstract": "",
-            "Items": [
-                "fse13newideas-nid32-p",
-                "fse13newideas-nid26-p",
-                "fse13newideas-nid30-p",
-                "fse13newideas-nid21-p",
-                "fse13newideas-nid18-p",
-                "fse13newideas-nid4-p",
-                "fse13newideas-nid34-p",
-                "fse13newideas-nid11-p",
-                "fse13newideas-nid27-p",
-                "fse13newideas-nid35-p",
-                "fse13newideas-nid12-p",
-                "fse13newideas-nid19-p"
-            ]
-        },
-        {
-            "Title": "Industrial Research",
-            "ShortTitle": "Industrial Research",
-            "Type": "Industrial Research",
-            "ShortType": "Industrial Research",
-            "Key": "2013-08-21 00:00 Industrial Research",
-            "Day": "2013-08-21",
-            "Time": "00:00 - 00:00",
-            "Location": "",
-            "LocationIndex": "3",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13INDUSTRIAL",
-            "Abstract": "",
-            "Items": [
-                "fse13industrial-ind6-p",
-                "fse13industrial-ind17-p",
-                "fse13industrial-ind7-p",
-                "fse13industrial-ind11-p",
-                "fse13industrial-ind20-p",
-                "fse13industrial-ind4-p",
-                "fse13industrial-ind8-p",
-                "fse13industrial-ind9-p",
-                "fse13industrial-ind15-p"
-            ]
-        },
-        {
+            "Id": "ahx5wae9Th",
             "Title": "Doctoral Symposium",
             "ShortTitle": "Doctoral Symposium",
             "Type": "Doctoral Symposium",
             "ShortType": "Doctoral Symposium",
-            "Key": "2013-08-21 00:00 Doctoral Symposium",
-            "Day": "2013-08-21",
-            "Time": "00:00 - 00:00",
+            "Key": "2013-08-20 09:30 Doctoral Symposium",
+            "Day": "2013-08-20",
+            "Time": "09:30 - 18:00",
             "Location": "",
             "LocationIndex": "4",
             "ChairsString": "",
@@ -2369,6 +2214,28 @@
                 "fse13doctoral-doc2-p",
                 "fse13doctoral-doc1-p",
                 "fse13doctoral-doc4-p"
+            ]
+        },
+        {
+            "Id": "Ieth5wiaBi",
+            "Title": "A Logical Revolution (Keynote)",
+            "ShortTitle": "A Logical Revolution (Keynote)",
+            "Type": "Keynotes",
+            "ShortType": "Keynotes",
+            "Key": "fse13keynotes-k1-p",
+            "Day": "2013-08-21",
+            "Time": "09:30 - 11:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13KEYNOTES",
+            "Abstract": "",
+            "Items": [
+                "fse13keynotes-k1-p"
             ]
         },
         {
@@ -2516,6 +2383,50 @@
             ]
         },
         {
+            "Id": "xo7EiCheep",
+            "Title": "Empirical Answers to Fundamental Software Engineering Problems (Panel)",
+            "ShortTitle": "Empirical Answers to Fundamental Software Engineering Problems (Panel)",
+            "Type": "Panels",
+            "ShortType": "Panels",
+            "Key": "fse13panels-p1-p",
+            "Day": "2013-08-21",
+            "Time": "17:00 - 18:15",
+            "Location": "",
+            "LocationIndex": "5",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13PANELS",
+            "Abstract": "",
+            "Items": [
+                "fse13panels-p1-p"
+            ]
+        },
+        {
+            "Id": "avik9Cheiy",
+            "Title": "TBA (Keynote)",
+            "ShortTitle": "TBA (Keynote)",
+            "Type": "Keynotes",
+            "ShortType": "Keynotes",
+            "Key": "fse13keynotes-k2-p",
+            "Day": "2013-08-22",
+            "Time": "09:30 - 11:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13KEYNOTES",
+            "Abstract": "",
+            "Items": [
+                "fse13keynotes-k2-p"
+            ]
+        },
+        {
             "Id": "ooloL4Eiw3",
             "Title": "Testing II",
             "ShortTitle": "Testing II",
@@ -2537,6 +2448,28 @@
                 "fse13main-id212-p",
                 "fse13main-id150-p",
                 "fse13main-id9-p"
+            ]
+        },
+        {
+            "Id": "Dei2chahvu",
+            "Title": "Software Engineering in Russia and Abroad (Panel)",
+            "ShortTitle": "Software Engineering in Russia and Abroad (Panel)",
+            "Type": "Panels",
+            "ShortType": "Panels",
+            "Key": "fse13panels-p3-p",
+            "Day": "2013-08-22",
+            "Time": "11:00 - 12:15",
+            "Location": "",
+            "LocationIndex": "5",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13PANELS",
+            "Abstract": "",
+            "Items": [
+                "fse13panels-p3-p"
             ]
         },
         {
@@ -2636,6 +2569,50 @@
             ]
         },
         {
+            "Id": "pi5xahChah",
+            "Title": "Publication Culture in Software Engineering (Panel)",
+            "ShortTitle": "Publication Culture in Software Engineering (Panel)",
+            "Type": "Panels",
+            "ShortType": "Panels",
+            "Key": "fse13panels-p2-p",
+            "Day": "2013-08-22",
+            "Time": "17:00 - 18:15",
+            "Location": "",
+            "LocationIndex": "5",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13PANELS",
+            "Abstract": "",
+            "Items": [
+                "fse13panels-p2-p"
+            ]
+        },
+        {
+            "Id": "chaeKung3p",
+            "Title": "Software Engineering for Mathematics (Keynote)",
+            "ShortTitle": "Software Engineering for Mathematics (Keynote)",
+            "Type": "Keynotes",
+            "ShortType": "Keynotes",
+            "Key": "fse13keynotes-k3-p",
+            "Day": "2013-08-23",
+            "Time": "09:30 - 11:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13KEYNOTES",
+            "Abstract": "",
+            "Items": [
+                "fse13keynotes-k3-p"
+            ]
+        },
+        {
             "Id": "Aepheewee7",
             "Title": "Formal Verification",
             "ShortTitle": "Formal Verification",
@@ -2681,6 +2658,80 @@
                 "fse13main-id102-p",
                 "fse13main-id175-p",
                 "fse13main-id16-p"
+            ]
+        },
+        {
+            "Id": "Neebohsh6o",
+            "Title": "Tool Demonstrations II",
+            "ShortTitle": "Tool Demonstrations II",
+            "Type": "Tool Demonstrations",
+            "ShortType": "Tool Demonstrations",
+            "Key": "2013-08-23 11:00 Tool Demonstrations II",
+            "Day": "2013-08-23",
+            "Time": "11:00 - 12:15",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13TOOLS",
+            "Abstract": "",
+            "Items": [
+                "fse13tools-tid6-p",
+                "fse13tools-tid9-p",
+                "fse13tools-tid5-p",
+                "fse13tools-tid15-p"
+            ]
+        },
+        {
+            "Id": "Dee2aechuu",
+            "Title": "Hunting Bugs",
+            "ShortTitle": "Hunting Bugs",
+            "Type": "New Ideas",
+            "ShortType": "New Ideas",
+            "Key": "2013-08-23 11:00 Hunting Bugs",
+            "Day": "2013-08-23",
+            "Time": "11:00 - 12:15",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13NEWIDEAS",
+            "Abstract": "",
+            "Items": [
+                "fse13newideas-nid18-p",
+                "fse13newideas-nid4-p",
+                "fse13newideas-nid34-p",
+                "fse13newideas-nid11-p"
+            ]
+        },
+        {
+            "Id": "aCheosai6e",
+            "Title": "Industrial Papers 2",
+            "ShortTitle": "Industrial Papers 2",
+            "Type": "Industrial Research",
+            "ShortType": "Industrial Research",
+            "Key": "2013-08-23 11:00 Industrial Papers 2",
+            "Day": "2013-08-23",
+            "Time": "11:00 - 12:15",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13INDUSTRIAL",
+            "Abstract": "",
+            "Items": [
+                "fse13industrial-ind20-p",
+                "fse13industrial-ind11-p",
+                "fse13industrial-ind17-p"
             ]
         },
         {
@@ -2732,6 +2783,79 @@
             ]
         },
         {
+            "Id": "uQuucaew0g",
+            "Title": "Tool Demonstrations III",
+            "ShortTitle": "Tool Demonstrations III",
+            "Type": "Tool Demonstrations",
+            "ShortType": "Tool Demonstrations",
+            "Key": "2013-08-23 13:45 Tool Demonstrations III",
+            "Day": "2013-08-23",
+            "Time": "13:45 - 15:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13TOOLS",
+            "Abstract": "",
+            "Items": [
+                "fse13tools-tid11-p",
+                "fse13tools-tid2-p",
+                "fse13tools-tid14-p"
+            ]
+        },
+        {
+            "Id": "shooMic1ei",
+            "Title": "Analysis and Testing",
+            "ShortTitle": "Analysis and Testing",
+            "Type": "New Ideas",
+            "ShortType": "New Ideas",
+            "Key": "2013-08-23 13:45 Analysis and Testing",
+            "Day": "2013-08-23",
+            "Time": "13:45 - 15:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13NEWIDEAS",
+            "Abstract": "",
+            "Items": [
+                "fse13newideas-nid32-p",
+                "fse13newideas-nid26-p",
+                "fse13newideas-nid30-p",
+                "fse13newideas-nid21-p"
+            ]
+        },
+        {
+            "Id": "Oe3ahNoG8e",
+            "Title": "Industrial Papers 3",
+            "ShortTitle": "Industrial Papers 3",
+            "Type": "Industrial Research",
+            "ShortType": "Industrial Research",
+            "Key": "2013-08-23 13:45 Industrial Papers 3",
+            "Day": "2013-08-23",
+            "Time": "13:45 - 15:00",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13INDUSTRIAL",
+            "Abstract": "",
+            "Items": [
+                "fse13industrial-ind15-p",
+                "fse13industrial-ind8-p",
+                "fse13industrial-ind4-p"
+            ]
+        },
+        {
             "Id": "ai6Neigh0i",
             "Title": "Bug Detection",
             "ShortTitle": "Bug Detection",
@@ -2777,6 +2901,79 @@
                 "fse13main-id199-p",
                 "fse13main-id234-p",
                 "fse13main-id244-p"
+            ]
+        },
+        {
+            "Id": "Zaak4ZeeF0",
+            "Title": "Tool Demonstrations I",
+            "ShortTitle": "Tool Demonstrations I",
+            "Type": "Tool Demonstrations",
+            "ShortType": "Tool Demonstrations",
+            "Key": "2013-08-23 15:15 Tool Demonstrations I",
+            "Day": "2013-08-23",
+            "Time": "15:15 - 16:30",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13TOOLS",
+            "Abstract": "",
+            "Items": [
+                "fse13tools-tid1-p",
+                "fse13tools-tid4-p",
+                "fse13tools-tid8-p"
+            ]
+        },
+        {
+            "Id": "wav1aiKix4",
+            "Title": "Understanding Software Development",
+            "ShortTitle": "Understanding Software Development",
+            "Type": "New Ideas",
+            "ShortType": "New Ideas",
+            "Key": "2013-08-23 15:15 Understanding Software Development",
+            "Day": "2013-08-23",
+            "Time": "15:15 - 16:30",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13NEWIDEAS",
+            "Abstract": "",
+            "Items": [
+                "fse13newideas-nid27-p",
+                "fse13newideas-nid35-p",
+                "fse13newideas-nid12-p",
+                "fse13newideas-nid19-p"
+            ]
+        },
+        {
+            "Id": "seu9ea7EeJ",
+            "Title": "Industrial Papers 1",
+            "ShortTitle": "Industrial Papers 1",
+            "Type": "Industrial Research",
+            "ShortType": "Industrial Research",
+            "Key": "2013-08-23 15:15 Industrial Papers 1",
+            "Day": "2013-08-23",
+            "Time": "15:15 - 16:30",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13INDUSTRIAL",
+            "Abstract": "",
+            "Items": [
+                "fse13industrial-ind6-p",
+                "fse13industrial-ind9-p",
+                "fse13industrial-ind7-p"
             ]
         }
     ],
@@ -3482,6 +3679,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Steve Fraser",
+            "Affiliation": "CISCO, USA",
+            "Key": "Steve Fraser @ CISCO, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Alessio Gambi",
             "Affiliation": "University of Lugano, Switzerland",
             "Key": "Alessio Gambi @ University of Lugano, Switzerland",
@@ -3565,6 +3772,16 @@
             "Name": "Jiangtao Gong",
             "Affiliation": "Tsinghua University, China",
             "Key": "Jiangtao Gong @ Tsinghua University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Georges Gonthier",
+            "Affiliation": "Microsoft Research, UK",
+            "Key": "Georges Gonthier @ Microsoft Research, UK",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3805,6 +4022,16 @@
             "Name": "Laura Inozemtseva",
             "Affiliation": "University of Waterloo, Canada",
             "Key": "Laura Inozemtseva @ University of Waterloo, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Paola Inverardi",
+            "Affiliation": "University of l'Aquila, Italy",
+            "Key": "Paola Inverardi @ University of l'Aquila, Italy",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4292,6 +4519,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Bertrand Meyer",
+            "Affiliation": "ETH Zurich, Switzerland / ITMO, Russia",
+            "Key": "Bertrand Meyer @ ETH Zurich, Switzerland / ITMO, Russia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Audris Mockus",
             "Affiliation": "Avaya Labs Research, USA",
             "Key": "Audris Mockus @ Avaya Labs Research, USA",
@@ -4605,6 +4842,16 @@
             "Name": "Daryl Posnett",
             "Affiliation": "UC Davis, USA",
             "Key": "Daryl Posnett @ UC Davis, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nick Puntikov",
+            "Affiliation": "CEE-SECR, Russia",
+            "Key": "Nick Puntikov @ CEE-SECR, Russia",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5085,6 +5332,16 @@
             "Name": "Giuseppe Valetto",
             "Affiliation": "Drexel University, USA",
             "Key": "Giuseppe Valetto @ Drexel University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Moshe Vardi",
+            "Affiliation": "Rice University, USA",
+            "Key": "Moshe Vardi @ Rice University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
