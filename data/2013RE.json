@@ -1917,8 +1917,8 @@
             "Id": "yooSohl9ga",
             "Title": "Legal and Privacy Requirements",
             "ShortTitle": "Legal and Privacy Requirements",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Type": "Research Papers",
+            "ShortType": "Research Papers",
             "Key": "2013-07-17 11:00 Legal and Privacy Requirements",
             "Day": "2013-07-17",
             "Time": "11:00 - 12:30",
@@ -1942,8 +1942,8 @@
             "Id": "ou4zee7Eiv",
             "Title": "RE@21: Keeping Requirements on Track",
             "ShortTitle": "RE@21: Keeping Requirements on Track",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Type": "Research Papers",
+            "ShortType": "Research Papers",
             "Key": "2013-07-17 11:00 RE@21: Keeping Requirements on Track",
             "Day": "2013-07-17",
             "Time": "11:00 - 12:30",
@@ -1992,8 +1992,8 @@
             "Id": "Seixelei8O",
             "Title": "Automated Traceability",
             "ShortTitle": "Automated Traceability",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Type": "Research Papers",
+            "ShortType": "Research Papers",
             "Key": "2013-07-17 14:30 Automated Traceability",
             "Day": "2013-07-17",
             "Time": "14:30 - 16:00",
@@ -2017,8 +2017,8 @@
             "Id": "Ahng1aeWoh",
             "Title": "Industry Challenges and Research Needs",
             "ShortTitle": "Industry Challenges and Research Needs",
-            "Type": "Industry Track",
-            "ShortType": "Industry Track",
+            "Type": "Industry Papers",
+            "ShortType": "Industry Papers",
             "Key": "2013-07-17 14:30 Industry Challenges and Research Needs",
             "Day": "2013-07-17",
             "Time": "14:30 - 16:00",
@@ -2066,8 +2066,8 @@
             "Id": "ahweiHo8oh",
             "Title": "Formal Modeling",
             "ShortTitle": "Formal Modeling",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Type": "Research Papers",
+            "ShortType": "Research Papers",
             "Key": "2013-07-17 16:30 Formal Modeling",
             "Day": "2013-07-17",
             "Time": "16:30 - 18:00",
@@ -2112,8 +2112,8 @@
         },
         {
             "Id": "ahkaisiPh0",
-            "Title": "Creative Collisions: Meet and Create: And Other “RE Interactive” Suggestions",
-            "ShortTitle": "Creative Collisions: Meet and Create: And Other “RE Interactive” Suggestions",
+            "Title": "Creative Collisions: Meet and Create!",
+            "ShortTitle": "Creative Collisions: Meet and Create!",
             "Type": "Special Sessions",
             "ShortType": "Special Sessions",
             "Key": "re13specials-m12-p",
@@ -2214,19 +2214,22 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "RE13",
-            "Abstract": ""
+            "Abstract": "",
+            "Items": [
+                "re13specials-m11-p"
+            ]
         },
         {
             "Id": "Eequohnae1",
-            "Title": "Elicitation",
-            "ShortTitle": "Elicitation",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Title": "Elicitation in Theory and in Practice",
+            "ShortTitle": "Elicitation in Theory and in Practice",
+            "Type": "Research and Industry Papers",
+            "ShortType": "Research and Industry Papers",
             "Key": "2013-07-18 11:00 Elicitation",
             "Day": "2013-07-18",
             "Time": "11:00 - 12:30",
             "Location": "FB6 Auditorium",
-            "LocationIndex": "1",
+            "LocationIndex": "7",
             "ChairsString": "Stephen Morris",
             "Chairs": [
                 "Stephen Morris @"
@@ -2237,31 +2240,8 @@
             "Abstract": "",
             "Items": [
                 "re13rt-p020-p",
-                "re13rt-p084-p"
-            ]
-        },
-        {
-            "Id": "Ae5eBai0Xe",
-            "Title": "Elicitation and Requirements Sources",
-            "ShortTitle": "Elicitation and Requirements Sources",
-            "Type": "Industry Track",
-            "ShortType": "Industry Track",
-            "Key": "2013-07-18 11:00 Elicitation and Requirements Sources",
-            "Day": "2013-07-18",
-            "Time": "11:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "2",
-            "ChairsString": "xxx",
-            "Chairs": [
-                "xxx @"
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "RE13IT",
-            "Abstract": "",
-            "Items": [
                 "re13it-p008-p",
-                "re13it-p016-p"
+                "re13rt-p084-p"
             ]
         },
         {
@@ -2309,15 +2289,15 @@
         },
         {
             "Id": "phuoc3uThe",
-            "Title": "Requirements Sources",
-            "ShortTitle": "Requirements Sources",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Title": "New Perspectives on Requirements Sources",
+            "ShortTitle": "New Perspectives on Requirements Sources",
+            "Type": "Research and Industry Papers",
+            "ShortType": "Research and Industry Papers",
             "Key": "2013-07-18 14:30 Requirements Sources",
             "Day": "2013-07-18",
             "Time": "14:30 - 16:00",
             "Location": "FB6 Auditorium",
-            "LocationIndex": "1",
+            "LocationIndex": "7",
             "ChairsString": "Didar Zowghi",
             "Chairs": [
                 "Didar Zowghi @"
@@ -2328,7 +2308,8 @@
             "Abstract": "",
             "Items": [
                 "re13rt-p141-p",
-                "re13rt-p091-p"
+                "re13rt-p091-p",
+                "re13it-p016-p"
             ]
         },
         {
@@ -2389,8 +2370,8 @@
             "Id": "Aib6chia0b",
             "Title": "Handling Change",
             "ShortTitle": "Handling Change",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Type": "Research Papers",
+            "ShortType": "Research Papers",
             "Key": "2013-07-18 16:30 Handling Change",
             "Day": "2013-07-18",
             "Time": "16:30 - 18:00",
@@ -2414,8 +2395,8 @@
             "Id": "lai2eiN4ei",
             "Title": "Improving the Quality of Requirements in Practice",
             "ShortTitle": "Improving the Quality of Requirements in Practice",
-            "Type": "Industry Track",
-            "ShortType": "Industry Track",
+            "Type": "Industry Papers",
+            "ShortType": "Industry Papers",
             "Key": "2013-07-18 16:30 Improving the Quality of Requirements in Practice",
             "Day": "2013-07-18",
             "Time": "16:30 - 18:00",
@@ -2482,8 +2463,8 @@
             "Id": "Haf1lidoob",
             "Title": "Directions in Decentralized RE",
             "ShortTitle": "Directions in Decentralized RE",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Type": "Research Papers",
+            "ShortType": "Research Papers",
             "Key": "2013-07-19 09:00 Directions in Decentralized RE",
             "Day": "2013-07-19",
             "Time": "09:00 - 10:30",
@@ -2507,8 +2488,8 @@
             "Id": "eRa0IeFaid",
             "Title": "RE Processes and Tools in Action",
             "ShortTitle": "RE Processes and Tools in Action",
-            "Type": "Industry Track",
-            "ShortType": "Industry Track",
+            "Type": "Industry Papers",
+            "ShortType": "Industry Papers",
             "Key": "2013-07-19 09:00 RE Processes and Tools in Action",
             "Day": "2013-07-19",
             "Time": "09:00 - 10:30",
@@ -2557,13 +2538,13 @@
             "Id": "hahCue3beo",
             "Title": "Traceability in Practice",
             "ShortTitle": "Traceability in Practice",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Type": "Research and Industry Papers",
+            "ShortType": "Research and Industry Papers",
             "Key": "2013-07-19 11:00 Traceability in Practice",
             "Day": "2013-07-19",
             "Time": "11:00 - 12:30",
             "Location": "FB6 Auditorium",
-            "LocationIndex": "1",
+            "LocationIndex": "7",
             "ChairsString": "Michael Panis",
             "Chairs": [
                 "Michael Panis @"
@@ -2574,30 +2555,8 @@
             "Abstract": "",
             "Items": [
                 "re13rt-p132-p",
+                "re13it-p011-p",
                 "re13rt-p127-p"
-            ]
-        },
-        {
-            "Id": "uu6raoDi4b",
-            "Title": "Traceability in Practice",
-            "ShortTitle": "Traceability in Practice",
-            "Type": "Industry Track",
-            "ShortType": "Industry Track",
-            "Key": "2013-07-19 11:00 Traceability in Practice",
-            "Day": "2013-07-19",
-            "Time": "11:00 - 12:30",
-            "Location": "FB6 Auditorium",
-            "LocationIndex": "2",
-            "ChairsString": "Michael Panis",
-            "Chairs": [
-                "Michael Panis @"
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "RE13IT",
-            "Abstract": "",
-            "Items": [
-                "re13it-p011-p"
             ]
         },
         {
