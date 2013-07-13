@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1372976876,
+    "DataRevision": 1373712295,
     "Preliminary": true,
     "Event": "ESEC/FSE 2013",
     "Name": "ESEC/FSE 2013",
@@ -206,9 +206,9 @@
             "Title": "Prediction of Atomic Web Services Reliability Based on K-Means Clustering",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id87-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMarin+Silic%2C+Goran+Delac%2C+and+Sinisa+Srbljic+%22Prediction+of+Atomic+Web+Services+Reliability+Based+on+K-Means+Clustering%22",
+            "URL": "http%3A%2F%2Fccl.fer.hr%2Fwordpress%2Fwp-content%2Fuploads%2F2013%2F07%2FCLUS-PrePrint.pdf",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fccl.fer.hr%2Fwordpress%2Fpeople%2Fresearch-assistants%2Fmarin-silic%2Fclus-evaluation-dataset%2F",
             "PersonsString": "Marin Silic, Goran Delac, and Sinisa Srbljic",
             "AffiliationsString": "University of Zagreb, Croatia",
             "Authors": [
@@ -230,7 +230,7 @@
             "Key": "fse13main-id145-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJ%C3%B6rg+Liebig%2C+Alexander+von+Rhein%2C+Christian+K%C3%A4stner%2C+Sven+Apel%2C+Jens+D%C3%B6rre%2C+and+Christian+Lengauer+%22Scalable+Analysis+of+Variable+Software%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fwww.infosun.fim.uni-passau.de%2Fspl%2Fpapers%2Fva_experience%2F",
             "PersonsString": "Jörg Liebig, Alexander von Rhein, Christian Kästner, Sven Apel, Jens Dörre, and Christian Lengauer",
             "AffiliationsString": "University of Passau, Germany; CMU, USA",
             "Authors": [
@@ -308,7 +308,7 @@
             "Key": "fse13main-id232-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYunhui+Zheng%2C+Xiangyu+Zhang%2C+and+Vijay+Ganesh+%22Z3-str%3A+A+Z3-Based+String+Solver+for+Web+Application+Analysis%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fwww.cs.purdue.edu%2Fhomes%2Fzheng16%2Fstr%2F",
             "PersonsString": "Yunhui Zheng, Xiangyu Zhang, and Vijay Ganesh",
             "AffiliationsString": "Purdue University, USA; University of Waterloo, Canada",
             "Authors": [
@@ -330,7 +330,7 @@
             "Key": "fse13main-id117-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDong+Qiu%2C+Bixin+Li%2C+and+Zhendong+Su+%22An+Empirical+Analysis+of+the+Co-evolution+of+Schema+and+Code+in+Database+Applications%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fise.seu.edu.cn%2Fpeople%2Fdongqiu%2Fpapers%2Ffse_db_study%2Ffse13_db_study.html",
             "PersonsString": "Dong Qiu, Bixin Li, and Zhendong Su",
             "AffiliationsString": "Southeast University, China; UC Davis, USA",
             "Authors": [
@@ -352,7 +352,7 @@
             "Key": "fse13main-id136-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCu+Duy+Nguyen%2C+Alessandro+Marchetto%2C+and+Paolo+Tonella+%22Automated+Oracles%3A+An+Empirical+Study+on+Cost+and+Effectiveness%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fselab.fbk.eu%2Fdnguyen%2Fpublic%2Ffse13%2F",
             "PersonsString": "Cu Duy Nguyen, Alessandro Marchetto, and Paolo Tonella",
             "AffiliationsString": "Fondazione Bruno Kessler, Italy; Centro Ricerche Fiat, Italy",
             "Authors": [
@@ -505,14 +505,14 @@
                 "Concordia University, Canada",
                 "Microsoft Research, USA"
             ],
-            "Abstract": "Although code review (also known as code inspection) shares a common origin, it is now practiced in drastically different settings, cultures, incentive systems, and time pressures. In an effort to characterize and understand these differences we examine two Google-led projects, Android and Chromium OS, three Microsoft projects, Bing, Office, and MS SQL, and projects internal to AMD. We contrast our findings with data taken from traditional software inspection conducted on a Lucent project and from open source software peer review on six projects, including Apache, Linux, and KDE. Our measures of interest include the review interval, the number of developers involved in review, and proxy measures for the number of defects found during review. We find that despite differences among projects, many of the characteristics of the review process have independently converged to similar values which we hypothesize indicate general principles of code review practice. We also introduce a measure of the degree to which knowledge is shared during review, an aspect of review practice that has traditionally only had experiential support. Our knowledge sharing measure shows that conducting peer review increases the number of distinct files a developer knows about by 66% to 150% depending on the project. This paper represents one of the first studies of contemporary review in software firms and the most diverse study of peer review to date. We discuss the practices that converge among projects as well as divergent and anomalous practices.",
+            "Abstract": "Software peer review is practiced on a diverse set of software projects that have drastically different settings, cultures, incentive systems, and time pressures. In an effort to characterize and understand these differences we examine two Google-led projects, Android and Chromium OS, three Microsoft projects, Bing, Office, and MS SQL, and projects internal to AMD. We contrast our findings with data taken from traditional software inspection conducted on a Lucent project and from open source software peer review on six projects, including Apache, Linux, and KDE. Our measures of interest include the review interval, the number of developers involved in review, and proxy measures for the number of defects found during review. We find that despite differences among projects, many of the characteristics of the review process have independently converged to similar values which we think indicate general principles of code review practice. We also introduce a measure of the degree to which knowledge is shared during review. This is an aspect of review practice that has traditionally only had experiential support. Our knowledge sharing measure shows that conducting peer review increases the number of distinct files a developer knows about by 66% to 150% depending on the project. This paper is one of the first studies of contemporary review in software firms and the most diverse study of peer review to date.",
             "Award": ""
         },
         {
             "Title": "Do All Task Dependencies Require Coordination? The Role of Task Properties in Identifying Critical Coordination Needs in Software Projects",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id155-p",
-            "URL": "https%3A%2F%2Fwww.cs.drexel.edu%2F%7Ekac358%2Fpublications%2FFSE2013-Blincoe.pdf",
+            "URL": "https%3A%2F%2Fwww.cs.drexel.edu%2F%257Ekac358%2Fpublications%2FFSE2013-Blincoe.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Kelly Blincoe, Giuseppe Valetto, and Daniela Damian",
@@ -536,7 +536,7 @@
             "Key": "fse13main-id212-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAravind+Machiry%2C+Rohan+Tahiliani%2C+and+Mayur+Naik+%22Dynodroid%3A+An+Input+Generation+System+for+Android+Apps%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fpag.gatech.edu%2Fdynodroid",
             "PersonsString": "Aravind Machiry, Rohan Tahiliani, and Mayur Naik",
             "AffiliationsString": "Georgia Tech, USA",
             "Authors": [
@@ -558,7 +558,7 @@
             "Key": "fse13main-id150-p",
             "URL": "http%3A%2F%2Fsrg.doc.ic.ac.uk%2Ffiles%2Fpapers%2Fkatch-fse-13.pdf",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fsrg.doc.ic.ac.uk%2Fprojects%2Fkatch%2F",
             "PersonsString": "Paul Dan Marinescu and Cristian Cadar",
             "AffiliationsString": "Imperial College London, UK",
             "Authors": [
@@ -598,7 +598,7 @@
             "Key": "fse13main-id235-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChang+Hwan+Peter+Kim%2C+Darko+Marinov%2C+Sarfraz+Khurshid%2C+Don+Batory%2C+Sabrina+Souto%2C+Paulo+Barros%2C+and+Marcelo+d%27Amorim+%22SPLat%3A+Lightweight+Dynamic+Analysis+for+Reducing+Combinatorics+in+Testing+Configurable+Systems%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fwww.cs.utexas.edu%2F%7Echpkim%2Fsplat",
             "PersonsString": "Chang Hwan Peter Kim, Darko Marinov, Sarfraz Khurshid, Don Batory, Sabrina Souto, Paulo Barros, and Marcelo d'Amorim",
             "AffiliationsString": "University of Texas at Austin, USA; University of Illinois at Urbana-Champaign, USA; UFPE, Brazil",
             "Authors": [
@@ -720,7 +720,7 @@
             "Key": "fse13main-id108-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNishant+Sinha+and+Rezwana+Karim+%22Compiling+Mockups+to+Flexible+UIs%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fresearcher.watson.ibm.com%2Fresearcher%2Fview_person_subpage.php%3Fid%3D4153",
             "PersonsString": "Nishant Sinha and Rezwana Karim",
             "AffiliationsString": "IBM Research, India; Rutgers University, USA",
             "Authors": [
@@ -738,7 +738,7 @@
             "Title": "Making Offline Analyses Continuous",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id242-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DK%C4%B1van%C3%A7+Mu%C5%9Flu%2C+Yuriy+Brun%2C+Michael+D.+Ernst%2C+and+David+Notkin+%22Making+Offline+Analyses+Continuous%22",
+            "URL": "http%3A%2F%2Fcs.umass.edu%2F%7Ebrun%2Fpubs%2Fpubs%2FMuslu13fse.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Kıvanç Muşlu, Yuriy Brun, Michael D. Ernst, and David Notkin",
@@ -755,7 +755,7 @@
                 "University of Washington, USA",
                 "University of Washington, USA"
             ],
-            "Abstract": "Developers use analysis tools to help write, debug, and understand software systems under development. A developer’s change to the system source code may affect analysis results. Typically, to learn those effects, the developer must explicitly initiate the analysis. This may interrupt the developer’s workflow and/or the delay until the developer learns the implications of the change. The situation is even worse for impure analyses — ones that modify the code on which it runs — because such analyses block the developer from working on the code. This paper presents Codebase Replication, a novel approach to easily convert an offline analysis — even an impure one — into a continuous analysis that informs the developer of the implications of recent changes as quickly as possible after the change is made. Codebase Replication copies the developer’s codebase, incrementally keeps this copy codebase in sync with the developer’s codebase, makes that copy codebase available for offline analyses to run without disturbing the developer and without the developer’s changes disturbing the analyses, and makes analysis results available to be presented to the developer. We have implemented Codebase Replication in Solstice, an open-source, publicly-available Eclipse plug-in. We have used Solstice to convert three offline analyses — FindBugs, PMD, and unit testing — into continuous ones. Each conversion required on average 436 NCSL and took, on average, 18 hours. Solstice-based analyses experience no more than 2.5 milliseconds of runtime overhead per developer action.",
+            "Abstract": "Developers use analysis tools to help write, debug, and understand software systems under development. A developer's change to the system source code may affect analysis results. Typically, to learn those effects, the developer must explicitly initiate the analysis. This may interrupt the developer's workflow and/or the delay until the developer learns the implications of the change. The situation is even worse for impure analyses — ones that modify the code on which it runs — because such analyses block the developer from working on the code.  This paper presents Codebase Replication, a novel approach to easily convert an offline analysis — even an impure one — into a continuous analysis that informs the developer of the implications of recent changes as quickly as possible after the change is made. Codebase Replication copies the developer's codebase, incrementally keeps this copy codebase in sync with the developer's codebase, makes that copy codebase available for offline analyses to run without disturbing the developer and without the developer's changes disturbing the analyses, and makes analysis results available to be presented to the developer.  We have implemented Codebase Replication in Solstice, an open-source, publicly-available Eclipse plug-in. We have used Solstice to convert three offline analyses — FindBugs, PMD, and unit testing — into continuous ones. Each conversion required on average 436 NCSL and took, on average, 18 hours. Solstice-based analyses experience no more than 2.5 milliseconds of runtime overhead per developer action.",
             "Award": ""
         },
         {
@@ -810,7 +810,7 @@
             "Key": "fse13main-id2-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMark+Grechanik%2C+B.+M.+Mainul+Hossain%2C+Ugo+Buy%2C+and+Haisheng+Wang+%22Preventing+Database+Deadlocks+in+Applications%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fwww.cs.uic.edu%2F%7Edrmark%2FREDACT.htm",
             "PersonsString": "Mark Grechanik, B. M. Mainul Hossain, Ugo Buy, and Haisheng Wang",
             "AffiliationsString": "University of Illinois at Chicago, USA; Oracle, USA",
             "Authors": [
@@ -834,7 +834,7 @@
             "Key": "fse13main-id248-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJoshua+Garcia%2C+Daniel+Popescu%2C+Gholamreza+Safi%2C+William+G.+J.+Halfond%2C+and+Nenad+Medvidovic+%22Identifying+Message+Flow+in+Distributed+Event-Based+Systems%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fsoftarch.usc.edu%2Fwiki%2Fdoku.php%3Fid%3Dmfa%3Astart",
             "PersonsString": "Joshua Garcia, Daniel Popescu, Gholamreza Safi, William G. J. Halfond, and Nenad Medvidovic",
             "AffiliationsString": "University of Southern California, USA",
             "Authors": [
@@ -882,9 +882,9 @@
             "Title": "Precision Reuse for Efficient Regression Verification",
             "Type": "Full Paper (11 pages = 10 pages for text, appendices, figs + 1 page for refs)",
             "Key": "fse13main-id113-p",
-            "URL": "http%3A%2F%2Fwww.sosy-lab.org%2F%7Edbeyer%2FPublications%2F2013-PA-TR1302.Reusing_Precisions_for_Efficient_Regression_Verification.pdf",
+            "URL": "http%3A%2F%2Fwww.sosy-lab.org%2F%7Edbeyer%2FPublications%2F2013-FSE.Precision_Reuse_for_Efficient_Regression_Verification.pdf",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fwww.sosy-lab.org%2F%7Edbeyer%2Fcpa-reuse%2F",
             "PersonsString": "Dirk Beyer, Stefan Löwe, Evgeny Novikov, Andreas Stahlbauer, and Philipp Wendler",
             "AffiliationsString": "University of Passau, Germany; ISP RAS, Russia",
             "Authors": [
@@ -934,7 +934,7 @@
             "Key": "fse13main-id126-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPietro+Braione%2C+Giovanni+Denaro%2C+and+Mauro+Pezz%C3%A8+%22Enhancing+Symbolic+Execution+with+Built-In+Term+Rewriting+and+Constrained+Lazy+Initialization%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fwww.lta.disco.unimib.it%2Fpietro.braione",
             "PersonsString": "Pietro Braione, Giovanni Denaro, and Mauro Pezzè",
             "AffiliationsString": "University of Milano-Bicocca, Italy",
             "Authors": [
@@ -1004,7 +1004,7 @@
             "Key": "fse13main-id16-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShahar+Maoz%2C+Jan+Oliver+Ringert%2C+and+Bernhard+Rumpe+%22Synthesis+of+Component+and+Connector+Models+from+Crosscutting+Structural+Views%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fwww.se-rwth.de%2Fmaterials%2Fcncviews%2F",
             "PersonsString": "Shahar Maoz, Jan Oliver Ringert, and Bernhard Rumpe",
             "AffiliationsString": "Tel Aviv University, Israel; RWTH Aachen University, Germany",
             "Authors": [
@@ -1026,7 +1026,7 @@
             "Key": "fse13main-id53-p",
             "URL": "http%3A%2F%2Fwww0.cs.ucl.ac.uk%2Fstaff%2Fj.krinke%2Fpublications%2Ffse13.pdf",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fwww.cs.ucl.ac.uk%2Fstaff%2FY.Jia%2Fprojects%2Feva_clone%2F",
             "PersonsString": "Tiantian Wang, Mark Harman, Yue Jia, and Jens Krinke",
             "AffiliationsString": "Harbin Institute of Technology, China; University College London, UK",
             "Authors": [
@@ -1050,7 +1050,7 @@
             "Key": "fse13main-id19-p",
             "URL": "http%3A%2F%2Fresearch.microsoft.com%2Fpubs%2F193433%2Fnagappan-esecfse-2013.pdf",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fsailhome.cs.queensu.ca%2Freplication%2Frepresentativeness%2F",
             "PersonsString": "Meiyappan Nagappan, Thomas Zimmermann, and Christian Bird",
             "AffiliationsString": "Queen’s University, Canada; Microsoft Research, USA",
             "Authors": [
@@ -1072,7 +1072,7 @@
             "Key": "fse13main-id110-p",
             "URL": "http%3A%2F%2Fwww.dmi.unisa.it%2Fpeople%2Fbavota%2Fwww%2Fpapers%2FESECFSE_2013.pdf",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fwww.cs.wm.edu%2Fsemeru%2Fdata%2Ffse-android-api%2F",
             "PersonsString": "Mario Linares-Vásquez, Gabriele Bavota, Carlos Bernal-Cárdenas, Massimiliano Di Penta, Rocco Oliveto, and Denys Poshyvanyk",
             "AffiliationsString": "College of William and Mary, USA; University of Sannio, Italy; Universidad Nacional de Colombia, Colombia; University of Molise, Italy",
             "Authors": [
@@ -1146,7 +1146,7 @@
             "Key": "fse13main-id54-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCasper+S.+Jensen%2C+Anders+M%C3%B8ller%2C+and+Zhendong+Su+%22Server+Interface+Descriptions+for+Automated+Testing+of+JavaScript+Web+Applications%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fcs.au.dk%2F%7Eamoeller%2Fpapers%2Fail%2F",
             "PersonsString": "Casper S. Jensen, Anders Møller, and Zhendong Su",
             "AffiliationsString": "Aarhus University, Denmark; UC Davis, USA",
             "Authors": [
@@ -1260,7 +1260,7 @@
             "Key": "fse13main-id57-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DGuangtai+Liang%2C+Qianxiang+Wang%2C+Tao+Xie%2C+and+Hong+Mei+%22Inferring+Project-Specific+Bug+Patterns+for+Detecting+Sibling+Bugs%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fsa.seforge.org%2FSiblingBugDetector%2F",
             "PersonsString": "Guangtai Liang, Qianxiang Wang, Tao Xie, and Hong Mei",
             "AffiliationsString": "Peking University, China; University of Illinois at Urbana-Champaign, USA",
             "Authors": [
@@ -1275,7 +1275,7 @@
                 "University of Illinois at Urbana-Champaign, USA",
                 "Peking University, China"
             ],
-            "Abstract": "Lightweight static bug-detection tools such as FindBugs, PMD, Jlint, and Lint4j detect bugs with the knowledge of generic bug patterns (e.g., objects of java.io.InputStream are not closed in time after used). Besides generic bug patterns, different projects under analysis may have some project-specific bug patterns. For example, in a revision of the Xerces project, the class field ‘fDTDHandler’ is dereferenced without proper null-checks, while it could actually be null at runtime. We name such bug patterns directly related to objects instantiated in specific projects as Project-Specific Bug Patterns (PSBPs). Due to lack of such PSBP knowledge, existing tools usually fail in effectively detecting most of this kind of bugs. We name bugs belonging to the same project and sharing the same PSBP as sibling bugs. If some sibling bugs are fixed in a fix commit but some others remain, we treat such fix as an incomplete fix. To address such incomplete fixes, we propose a PSBP-based approach for detecting sibling bugs and implement a tool called Sibling-Bug Detector (SBD). Given a fix commit, SBD first infers the PSBPs implied by the fix commit. Then, based on the inferred PSBPs, SBD detects their related sibling bugs in the same project. To evaluate SBD, we apply it to seven popular open-source projects. Among the 108 warnings reported by SBD, 63 of them have been confirmed as real bugs by the project developers, while two existing popular static detectors (FindBugs and PMD) cannot report most of them.",
+            "Abstract": "Lightweight static bug-detection tools such as FindBugs, PMD, Jlint, and Lint4j detect bugs with the knowledge of generic bug patterns (e.g., objects of java.io.InputStream are not closed in time after used). Besides generic bug patterns, different projects under analysis may have some project-specific bug patterns. For example, in a revision of the Xerces project, the class field \"fDTDHandler\" is dereferenced without proper null-checks, while it could actually be null at runtime. We name such bug patterns directly related to objects instantiated in specific projects as Project-Specific Bug Patterns (PSBPs). Due to lack of such PSBP knowledge, existing tools usually fail in effectively detecting most of this kind of bugs. We name bugs belonging to the same project and sharing the same PSBP as sibling bugs. If some sibling bugs are fixed in a fix revision but some others remain, we treat such fix as an incomplete fix. To address such incomplete fixes, we propose a PSBP-based approach for detecting sibling bugs and implement a tool called Sibling-Bug Detector (SBD). Given a fix revision, SBD first infers the PSBPs implied by the fix revision. Then, based on the inferred PSBPs, SBD detects their related sibling bugs in the same project. To evaluate SBD, we apply it to seven popular open-source projects. Among the 108 warnings reported by SBD, 63 of them have been confirmed as real bugs by the project developers, while two existing popular static detectors (FindBugs and PMD) cannot report most of them.",
             "Award": ""
         },
         {
@@ -1284,7 +1284,7 @@
             "Key": "fse13main-id207-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChengnian+Sun+and+Siau-Cheng+Khoo+%22Mining+Succinct+Predicated+Bug+Signatures%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fwww.comp.nus.edu.sg%2F%7Especmine%2Fsuncn%2Fmps-artifacts%2F",
             "PersonsString": "Chengnian Sun and Siau-Cheng Khoo",
             "AffiliationsString": "National University of Singapore, Singapore",
             "Authors": [
@@ -1583,7 +1583,7 @@
                 "University of Massachusetts, USA",
                 "University of Massachusetts, USA"
             ],
-            "Abstract": "Today, systems rely as heavily on data as on the software that manipulates those data. Errors in these systems are incredibly costly, annually resulting in multi-billion dollar losses, and, on multiple occasions, in death. While software debugging and testing have received heavy research attention, less effort has been devoted to data debugging: discovering system errors caused by well-formed but incorrect data. In this paper, we propose continuous data testing: using otherwise-idle CPU cycles to run test queries, in the background, as a user or database administrator modifies a database. This technique notifies the user or administrator about a data bug as quickly as possible after that bug is introduced, leading to at least three benefits: (1) The bug is discovered quickly and can be fixed before it is likely to cause a problem. (2) The bug is discovered while the relevant change is fresh in the user’s or administrator’s mind, increasing the chance that the underlying cause of the bug, as opposed to only the discovered side-effect, is fixed. (3) When poor documentation or company policies contribute to bugs, discovering the bug quickly is likely to identify these contributing factors, facilitating updating documentation and policies to prevent similar bugs in the future. We describe the problem space and potential benefits of continuous data testing, our vision for the technique, challenges we encountered, and our prototype implementation for PostgreSQL. The prototype’s low overhead shows promise that continuous data testing can address the important problem of data debugging.",
+            "Abstract": "Today, systems rely as heavily on data as on the software that manipulates those data. Errors in these systems are incredibly costly, annually resulting in multi-billion dollar losses, and, on multiple occasions, in death. While software debugging and testing have received heavy research attention, less effort has been devoted to data debugging: discovering system errors caused by well-formed but incorrect data. In this paper, we propose continuous data testing: using otherwise-idle CPU cycles to run test queries, in the background, as a user or database administrator modifies a database. This technique notifies the user or administrator about a data bug as quickly as possible after that bug is introduced, leading to at least three benefits: (1) The bug is discovered quickly and can be fixed before it is likely to cause a problem. (2) The bug is discovered while the relevant change is fresh in the user's or administrator's mind, increasing the chance that the underlying cause of the bug, as opposed to only the discovered side-effect, is fixed. (3) When poor documentation or company policies contribute to bugs, discovering the bug quickly is likely to identify these contributing factors, facilitating updating documentation and policies to prevent similar bugs in the future. We describe the problem space and potential benefits of continuous data testing, our vision for the technique, challenges we encountered, and our prototype implementation for PostgreSQL. The prototype's low overhead shows promise that continuous data testing can address the important problem of data debugging.",
             "Award": ""
         },
         {
@@ -1862,7 +1862,7 @@
             "Key": "fse13industrial-ind20-p",
             "URL": "http%3A%2F%2Fweb.media.mit.edu%2F%7Eddubois%2Fpapers%2Ffse13in.pdf",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fshair.media.mit.edu",
             "PersonsString": "Daniel J. Dubois, Yosuke Bando, Konosuke Watanabe, and Henry Holtzman",
             "AffiliationsString": "Massachusetts Institute of Technology, USA; Toshiba, Japan",
             "Authors": [
@@ -2109,7 +2109,7 @@
             "Affiliations": [
                 "Saint Petersburg State Polytechnical University, Russia"
             ],
-            "Abstract": "",
+            "Abstract": "Hardware reengineering is a highly resource-consuming process of development cycle, so it is important to automate reengineering in order to reduce costs and provide reusable solutions. There are many specialized electronic design automation (EDA) tools for specific cases, but only few programmable tools supporting implementation of user-specific reengineering operations.  This paper presents PhD research, which aims development of such Programmable Hardware Reengineering Tool (PHRT), which can be useful for small hardware-design companies and research groups, who have specific recurrent tasks and cannot afford development of automation tools “from scratch”.  We propose HDL-independent “hybrid” device representation model for automated analysis and transformation, which combines low-level structural descriptions (netlists) with features from high-level hardware description languages (HDLs). Such model supports parallel analysis and transformation of multiple description layers at once. In our research we present PHRT prototype, which is an extendable core, which provides basic functionality for import/export, analysis, editing and transformation of hybrid models. Its functionality can be extended by extensions and script programs.  At the current state, PHRT prototype is being successfully used by several Russian hardware-design companies. Test results have proven applicability of PHRT as a good framework for user-specific reengineering cases like testing instrumentation and reliability assurance (memory replacement, structural redundancy insertion, etc.).",
             "Award": ""
         },
         {
@@ -2220,13 +2220,13 @@
             "Id": "Ieth5wiaBi",
             "Title": "A Logical Revolution (Keynote)",
             "ShortTitle": "A Logical Revolution (Keynote)",
-            "Type": "Keynotes",
-            "ShortType": "Keynotes",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
             "Key": "fse13keynotes-k1-p",
             "Day": "2013-08-21",
             "Time": "09:30 - 11:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2408,13 +2408,13 @@
             "Id": "avik9Cheiy",
             "Title": "TBA (Keynote)",
             "ShortTitle": "TBA (Keynote)",
-            "Type": "Keynotes",
-            "ShortType": "Keynotes",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
             "Key": "fse13keynotes-k2-p",
             "Day": "2013-08-22",
             "Time": "09:30 - 11:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2594,13 +2594,13 @@
             "Id": "chaeKung3p",
             "Title": "Software Engineering for Mathematics (Keynote)",
             "ShortTitle": "Software Engineering for Mathematics (Keynote)",
-            "Type": "Keynotes",
-            "ShortType": "Keynotes",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
             "Key": "fse13keynotes-k3-p",
             "Day": "2013-08-23",
             "Time": "09:30 - 11:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2670,7 +2670,7 @@
             "Day": "2013-08-23",
             "Time": "11:00 - 12:15",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2791,7 +2791,7 @@
             "Day": "2013-08-23",
             "Time": "13:45 - 15:00",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2913,7 +2913,7 @@
             "Day": "2013-08-23",
             "Time": "15:15 - 16:30",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
