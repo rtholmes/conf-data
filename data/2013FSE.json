@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1374317616,
+    "DataRevision": 1374317959,
     "Preliminary": true,
     "Event": "ESEC/FSE 2013",
     "Name": "ESEC/FSE 2013",
@@ -230,7 +230,7 @@
                 "University of Zagreb, Croatia"
             ],
             "Abstract": "Contemporary web applications are often designed as composite services built by coordinating atomic services with the aim of providing the appropriate functionality. Although functional properties of each atomic service assure correct functionality of the entire application, nonfunctional properties such as availability, reliability, or security might significantly influence the user-perceived quality of the application. In this paper, we present CLUS, a model for reliability prediction of atomic web services that improves state-of-the-art approaches used in modern recommendation systems. CLUS predicts the reliability for the ongoing service invocation using the data collected from previous invocations. We improve the accuracy of the current state-of-the-art prediction models by considering user-, service- and environment-specific parameters of the invocation context. To address the computational performance related to scalability issues, we aggregate the available previous invocation data using K-means clustering algorithm. We evaluated our model by conducting experiments on services deployed in different regions of the Amazon cloud. The evaluation results suggest that our model improves both performance and accuracy of the prediction when compared to the current state-of-the-art models.",
-            "Award": "Selected Artifact"
+            "Award": "Distinguished Artifact"
         },
         {
             "Title": "Scalable Analysis of Variable Software",
@@ -330,7 +330,7 @@
                 "University of Waterloo, Canada"
             ],
             "Abstract": "Analyzing web applications requires reasoning about strings and non-strings cohesively. Existing string solvers either ignore non-string program behavior or support limited set of string operations. In this paper, we develop a general purpose string solver, called Z3-str, as an extension of the Z3 SMT solver through its plug-in interface. Z3-str treats strings as a primitive type, thus avoiding the inherent limitations observed in many existing solvers that encode strings in terms of other primitives. The logic of the plug-in has three sorts, namely, bool, int and string. The string-sorted terms include string constants and variables of arbitrary length, with functions such as concatenation, sub-string, and replace. The int-sorted terms are standard, with the exception of the length function over string terms. The atomic formulas are equations over string terms, and (in)-equalities over integer terms. Not only does our solver have features that enable whole program symbolic, static and dynamic analysis, but also it performs better than other solvers in our experiments. The application of Z3-str in remote code execution detection shows that its support of a wide spectrum of string operations is key to reducing false positives.",
-            "Award": "Selected Artifact"
+            "Award": "Distinguished Artifact"
         },
         {
             "Title": "An Empirical Analysis of the Co-evolution of Schema and Code in Database Applications",
@@ -420,7 +420,7 @@
                 "Hong Kong University of Science and Technology, China"
             ],
             "Abstract": "In object-oriented code, atomicity is ideally isolated in a library which encapsulates shared program state and provides atomic APIs for access. The library provides a convenient way for programmers to reason about the needed synchronization. However, as the library exports a limited set of APIs, it cannot satisfy every unplanned atomicity demand; therefore, clients may have to compose invocations of the library APIs to obtain new atomic functionality. This process is error-prone due to the complexity of reasoning required, hence tool support for uncovering incorrect compositions (i.e., atomic compositions that are implemented incorrectly) would be very helpful. A key difficulty is how to determine the intended atomic compositions, which are rarely documented. Existing inference techniques cannot be used to infer the atomic compositions because they cannot recognize the library and the client, which requires understanding the related program state. Even if extended to support the library/client, they lead to many false positives or false negatives because they miss the key program logic which reflects programmers’ coding paradigms for atomic compositions.  We define a new inference technique which identifies intended atomic compositions using two key symptoms based on program dependence. We then check dynamically whether these atomic compositions are implemented incorrectly as non-atomic. Evaluation on thirteen large applications shows that our approach finds around 50 previously unknown incorrect compositions. Further study on Tomcat shows that almost half (5 out of 12) of discovered incorrect compositions are confirmed as bugs by the developers. Given that Tomcat is heavily used in 250,000 sites including Linkedin.com and Ebay.com, we believe finding multiple new bugs in it automatically with relatively few false positives supports our heuristics for determining intended atomicity.",
-            "Award": "Selected Artifact"
+            "Award": "Distinguished Artifact"
         },
         {
             "Title": "Tightfit: Adaptive Parallelization with Foresight",
@@ -558,7 +558,7 @@
                 "Georgia Tech, USA"
             ],
             "Abstract": "We present a system Dynodroid for generating relevant inputs to unmodified Android apps. Dynodroid views an app as an event-driven program that interacts with its environment by means of a sequence of events through the Android framework. By instrumenting the framework once and for all, Dynodroid monitors the reaction of an app upon each event in a lightweight manner, using it to guide the generation of the next event to the app. Dynodroid also allows interleaving events from machines, which are better at generating a large number of simple inputs, with events from humans, who are better at providing intelligent inputs.  We evaluated Dynodroid on 50 open-source Android apps, and compared it with two prevalent approaches: users manually exercising apps, and Monkey, a popular fuzzing tool. Dynodroid, humans, and Monkey covered 55%, 60%, and 53%, respectively, of each app's Java source code on average. Monkey took 20X more events on average than Dynodroid. Dynodroid also found 9 bugs in 7 of the 50 apps, and 6 bugs in 5 of the top 1,000 free apps on Google Play.",
-            "Award": "Selected Artifact"
+            "Award": "Distinguished Artifact"
         },
         {
             "Title": "KATCH: High-Coverage Testing of Software Patches",
@@ -578,7 +578,7 @@
                 "Imperial College London, UK"
             ],
             "Abstract": "One of the distinguishing characteristics of software systems is that they evolve: new patches are committed to software repositories and new versions are released to users on a continuous basis. Unfortunately, many of these changes bring unexpected bugs that break the stability of the system or affect its security. In this paper, we address this problem using a technique for automatically testing code patches. Our technique combines symbolic execution with several novel heuristics based on static and dynamic program analysis which allow it to quickly reach the code of the patch. We have implemented our approach in a tool called KATCH, which we have applied to all the patches written in a combined period of approximately six years for nineteen mature programs from the popular GNU diffutils, GNU binutils and GNU findutils utility suites, which are shipped with virtually all UNIX-based distributions. Our results show that KATCH can automatically synthesise inputs that significantly increase the patch coverage achieved by the existing manual test suites, and find bugs at the moment they are introduced.",
-            "Award": "Selected Artifact"
+            "Award": "Distinguished Artifact"
         },
         {
             "Title": "Termination Proofs from Tests",
@@ -740,7 +740,7 @@
                 "Rutgers University, USA"
             ],
             "Abstract": "As the web becomes ubiquitous, developers are obliged to develop web applications for a variety of desktop and mobile platforms. Re- designing the user interface for every such platform is clearly cumbersome. We propose a new framework based on model-based compilation to assist the designer in solving this problem. Starting from an under-specified visual design mockup drawn by the designer, we show how faithful and flexible web pages can be obtained with virtually no manual effort. Our framework, in sharp contrast to existing web design tools, overcomes the tough challenges involved in mockup compilation by (a) employing combinatorial search to infer hierarchical layouts and (b) mechanizing adhoc principles for CSS design into a modular, extensible rule-based architecture. We believe ours is the first disciplined effort to solve the problem and will inspire rapid, low-effort web design.",
-            "Award": "Selected Artifact"
+            "Award": "Distinguished Artifact"
         },
         {
             "Title": "Making Offline Analyses Continuous",
@@ -910,7 +910,7 @@
                 "University of Passau, Germany"
             ],
             "Abstract": "Continuous testing during development is a well-established technique for software-quality assurance. Continuous model checking from revision to revision is not yet established as a standard practice, because the enormous resource consumption makes its application impractical. Model checkers compute a large number of verification facts that are necessary for verifying if a given specification holds. We have identified a category of such intermediate results that are easy to store and efficient to reuse: abstraction precisions. The precision of an abstract domain specifies the level of abstraction that the analysis works on. Precisions are thus a precious result of the verification effort and it is a waste of resources to throw them away after each verification run. In particular, precisions are reasonably small and thus easy to store; they are easy to process and have a large impact on resource consumption. We experimentally show the impact of precision reuse on industrial verification problems created from 62 Linux kernel device drivers with 1119 revisions.",
-            "Award": "Selected Artifact"
+            "Award": "Distinguished Artifact"
         },
         {
             "Title": "Cascading Verification: An Integrated Method for Domain-Specific Model Checking",
@@ -956,7 +956,7 @@
                 "University of Milano-Bicocca, Italy"
             ],
             "Abstract": "Symbolic execution suffers from problems when analyzing programs that handle complex data structures as their inputs and take decisions over non-linear expressions. For these programs, symbolic execution may incur invalid inputs or unidentified infeasible traces, and may raise large amounts of false alarms. Some symbolic executors tackle these problems by introducing executable preconditions to exclude invalid inputs, and some solvers exploit rewrite rules to address non linear problems. In this paper, we discuss the core limitations of executable preconditions, and address these limitations by proposing invariants specifically designed to harmonize with the lazy initialization algorithm. We exploit rewrite rules applied within the symbolic executor, to address simplifications of inverse relationships fostered from either program-specific calculations or the logic of the verification tasks. We present a symbolic executor that integrates the two techniques, and validate our approach against the verification of a relevant set of properties of the Tactical Separation Assisted Flight Environment. The empirical data show that the integrated approach can improve the effectiveness of symbolic execution.",
-            "Award": "Selected Artifact"
+            "Award": "Distinguished Artifact"
         },
         {
             "Title": "Mining Behavior Models from Enterprise Web Applications",
@@ -1026,7 +1026,7 @@
                 "RWTH Aachen University, Germany"
             ],
             "Abstract": "We present component and connector (C&C) views, which specify structural properties of component and connector models in an expressive and intuitive way. C&C views provide means to abstract away direct hierarchy, direct connectivity, port names and types, and thus can crosscut the traditional boundaries of the implementation-oriented hierarchical decomposition of systems and sub-systems, and reflect the partial knowledge available to different stakeholders involved in a system's design. As a primary application for C&C views we investigate the synthesis problem: given a C&C views specification, consisting of mandatory, alternative, and negative views, construct a concrete satisfying C&C model, if one exists. We show that the problem is NP-hard and solve it, in a bounded scope, using a reduction to SAT, via Alloy. We further extend the basic problem with support for library components, specification patterns, and architectural styles. The result of synthesis can be used for further exploration, simulation, and refinement of the C&C model or, as the complete, final model itself, for direct code generation. A prototype tool and an evaluation over four example systems with multiple specifications show promising results and suggest interesting future research directions towards a comprehensive development environment for the structure of component and connector designs.",
-            "Award": "Selected Artifact"
+            "Award": "Distinguished Artifact"
         },
         {
             "Title": "Searching for Better Configurations: A Rigorous Approach to Clone Evaluation",
@@ -1072,7 +1072,7 @@
                 "Microsoft Research, USA"
             ],
             "Abstract": "One of the goals of software engineering research is to achieve generality: Are the phenomena found in a few projects reflective of others? Will a technique perform as well on projects other than the projects it is evaluated on? While it is common sense to select a sample that is representative of a population, the importance of diversity is often overlooked, yet as important. In this paper, we combine ideas from representativeness and diversity and introduce a measure called sample coverage, defined as the percentage of projects in a population that are similar to the given sample. We introduce algorithms to compute the sample coverage for a given set of projects and to select the projects that increase the coverage the most. We demonstrate our technique on research presented over the span of two years at ICSE and FSE with respect to a population of 20,000 active open source projects monitored by Ohloh.net. Knowing the coverage of a sample enhances our ability to reason about the findings of a study. Furthermore, we propose reporting guidelines for research: in addition to coverage scores, papers should discuss the target population of the research (universe) and dimensions that potentially can influence the outcomes of a research (space).",
-            "Award": "Selected Artifact"
+            "Award": "Distinguished Artifact"
         },
         {
             "Title": "API Change and Fault Proneness: A Threat to the Success of Android Apps",
@@ -1238,7 +1238,7 @@
                 "Oracle, Czech Republic"
             ],
             "Abstract": "Java 8 introduces two functional features: lambda expressions and functional operations like map or filter that apply a lambda expression over the elements of a Collection. Refactoring existing code to use these new features enables explicit but unobtrusive parallelism and makes the code more succinct. However, refactoring is tedious: it requires changing many lines of code. It is also error-prone: the programmer must reason about the control-, data-flow, and side-effects. Fortunately, refactorings can be automated. We designed and implemented LambdaFicator, a tool which automates two refactorings. The first refactoring converts anonymous inner classes to lambda expressions. The second refactoring converts for loops that iterate over Collections to functional operations that use lambda expressions. Using 9 open-source projects, we have applied these two refactorings 1263 and 1709 times, respectively. The results show that LambdaFicator is useful: (i) it is widely applicable, (ii) it reduces the code bloat, (iii) it increases programmer productivity, and (iv) it is accurate.",
-            "Award": "Selected Artifact"
+            "Award": "Distinguished Artifact"
         },
         {
             "Title": "Scalable and Incremental Software Bug Detection",
@@ -1304,7 +1304,7 @@
                 "National University of Singapore, Singapore"
             ],
             "Abstract": "A bug signature is a set of program elements highlighting the cause or effect of a bug, and provides contextual information for debugging. In order to mine a signature for a buggy program, two sets of execution profiles of the program, one capturing the correct execution and the other capturing the faulty, are examined to identify the program elements contrasting faulty from correct. Signatures solely consisting of control flow transitions have been investigated via discriminative sequence and graph mining algorithms. These signatures might be handicapped in cases where the effect of a bug is not manifested by any deviation in control flow transitions. In this paper, we introduce the notion of predicated bug signature\/ that aims to enhance the predictive power of bug signatures by utilizing both data predicates and control-flow information. We introduce a novel ``discriminative itemset generator'' mining technique to generate succinct\/ signatures which do not contain redundant or irrelevant program elements. Our case studies demonstrate that predicated signatures can hint at more scenarios of bugs where traditional control-flow signatures fail.",
-            "Award": "Selected Artifact"
+            "Award": "Distinguished Artifact"
         },
         {
             "Title": "SocialCDE: A Social Awareness Tool for Global Software Teams",
