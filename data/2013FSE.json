@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1374317959,
+    "DataRevision": 1374606684,
     "Preliminary": true,
     "Event": "ESEC/FSE 2013",
     "Name": "ESEC/FSE 2013",
@@ -230,7 +230,7 @@
                 "University of Zagreb, Croatia"
             ],
             "Abstract": "Contemporary web applications are often designed as composite services built by coordinating atomic services with the aim of providing the appropriate functionality. Although functional properties of each atomic service assure correct functionality of the entire application, nonfunctional properties such as availability, reliability, or security might significantly influence the user-perceived quality of the application. In this paper, we present CLUS, a model for reliability prediction of atomic web services that improves state-of-the-art approaches used in modern recommendation systems. CLUS predicts the reliability for the ongoing service invocation using the data collected from previous invocations. We improve the accuracy of the current state-of-the-art prediction models by considering user-, service- and environment-specific parameters of the invocation context. To address the computational performance related to scalability issues, we aggregate the available previous invocation data using K-means clustering algorithm. We evaluated our model by conducting experiments on services deployed in different regions of the Amazon cloud. The evaluation results suggest that our model improves both performance and accuracy of the prediction when compared to the current state-of-the-art models.",
-            "Award": "Distinguished Artifact"
+            "Award": "Artifact Accepted for Presentation"
         },
         {
             "Title": "Scalable Analysis of Variable Software",
@@ -267,14 +267,14 @@
             "URL": "http%3A%2F%2Fresearch.microsoft.com%2Fpubs%2F193426%2Fpaper.pdf",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Guillaume Claret, Sriram Rajamani, Aditya Nori, Andrew Gordon, and Johannes Borgstrom",
+            "PersonsString": "Guillaume Claret, Sriram K. Rajamani, Aditya V. Nori, Andrew D. Gordon, and Johannes Borgström",
             "AffiliationsString": "INRIA, France; Microsoft Research, India; Microsoft Research, UK; Uppsala University, Sweden",
             "Authors": [
                 "Guillaume Claret @ INRIA, France",
-                "Sriram Rajamani @ Microsoft Research, India",
-                "Aditya Nori @ Microsoft Research, India",
-                "Andrew Gordon @ Microsoft Research, UK",
-                "Johannes Borgstrom @ Uppsala University, Sweden"
+                "Sriram K. Rajamani @ Microsoft Research, India",
+                "Aditya V. Nori @ Microsoft Research, India",
+                "Andrew D. Gordon @ Microsoft Research, UK",
+                "Johannes Borgström @ Uppsala University, Sweden"
             ],
             "Affiliations": [
                 "INRIA, France",
@@ -330,7 +330,7 @@
                 "University of Waterloo, Canada"
             ],
             "Abstract": "Analyzing web applications requires reasoning about strings and non-strings cohesively. Existing string solvers either ignore non-string program behavior or support limited set of string operations. In this paper, we develop a general purpose string solver, called Z3-str, as an extension of the Z3 SMT solver through its plug-in interface. Z3-str treats strings as a primitive type, thus avoiding the inherent limitations observed in many existing solvers that encode strings in terms of other primitives. The logic of the plug-in has three sorts, namely, bool, int and string. The string-sorted terms include string constants and variables of arbitrary length, with functions such as concatenation, sub-string, and replace. The int-sorted terms are standard, with the exception of the length function over string terms. The atomic formulas are equations over string terms, and (in)-equalities over integer terms. Not only does our solver have features that enable whole program symbolic, static and dynamic analysis, but also it performs better than other solvers in our experiments. The application of Z3-str in remote code execution detection shows that its support of a wide spectrum of string operations is key to reducing false positives.",
-            "Award": "Distinguished Artifact"
+            "Award": "Artifact Accepted for Presentation"
         },
         {
             "Title": "An Empirical Analysis of the Co-evolution of Schema and Code in Database Applications",
@@ -358,19 +358,19 @@
             "Title": "Automated Oracles: An Empirical Study on Cost and Effectiveness",
             "Type": "Full Paper",
             "Key": "fse13main-id136-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCu+Duy+Nguyen%2C+Alessandro+Marchetto%2C+and+Paolo+Tonella+%22Automated+Oracles%3A+An+Empirical+Study+on+Cost+and+Effectiveness%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCu+D.+Nguyen%2C+Alessandro+Marchetto%2C+and+Paolo+Tonella+%22Automated+Oracles%3A+An+Empirical+Study+on+Cost+and+Effectiveness%22",
             "URLvideo": "",
             "URLinfo": "http%3A%2F%2Fselab.fbk.eu%2Fdnguyen%2Fpublic%2Ffse13%2F",
-            "PersonsString": "Cu Duy Nguyen, Alessandro Marchetto, and Paolo Tonella",
-            "AffiliationsString": "Fondazione Bruno Kessler, Italy; Centro Ricerche Fiat, Italy",
+            "PersonsString": "Cu D. Nguyen, Alessandro Marchetto, and Paolo Tonella",
+            "AffiliationsString": "Fondazione Bruno Kessler, Italy",
             "Authors": [
-                "Cu Duy Nguyen @ Fondazione Bruno Kessler, Italy",
-                "Alessandro Marchetto @ Centro Ricerche Fiat, Italy",
+                "Cu D. Nguyen @ Fondazione Bruno Kessler, Italy",
+                "Alessandro Marchetto @ Fondazione Bruno Kessler, Italy",
                 "Paolo Tonella @ Fondazione Bruno Kessler, Italy"
             ],
             "Affiliations": [
                 "Fondazione Bruno Kessler, Italy",
-                "Centro Ricerche Fiat, Italy",
+                "Fondazione Bruno Kessler, Italy",
                 "Fondazione Bruno Kessler, Italy"
             ],
             "Abstract": "Software testing is an effective, yet expensive, method to improve software quality. Test automation, a potential way to reduce testing cost, has received enormous research attention recently, but the so-called “oracle problem” (how to decide the PASS/FAIL outcome of a test execution) is still a major obstacle to such cost reduction. We have extensively investigated state-of-the-art works that contribute to address this problem, from areas such as specification mining and model inference. In this paper, we compare three types of automated oracles: Data invariants, Temporal invariants, and Finite State Automata. More specifically, we study the training cost and the false positive rate; we evaluate also their fault detection capability. Seven medium to large, industrial application subjects and real faults have been used in our empirical investigation.",
@@ -420,7 +420,7 @@
                 "Hong Kong University of Science and Technology, China"
             ],
             "Abstract": "In object-oriented code, atomicity is ideally isolated in a library which encapsulates shared program state and provides atomic APIs for access. The library provides a convenient way for programmers to reason about the needed synchronization. However, as the library exports a limited set of APIs, it cannot satisfy every unplanned atomicity demand; therefore, clients may have to compose invocations of the library APIs to obtain new atomic functionality. This process is error-prone due to the complexity of reasoning required, hence tool support for uncovering incorrect compositions (i.e., atomic compositions that are implemented incorrectly) would be very helpful. A key difficulty is how to determine the intended atomic compositions, which are rarely documented. Existing inference techniques cannot be used to infer the atomic compositions because they cannot recognize the library and the client, which requires understanding the related program state. Even if extended to support the library/client, they lead to many false positives or false negatives because they miss the key program logic which reflects programmers’ coding paradigms for atomic compositions.  We define a new inference technique which identifies intended atomic compositions using two key symptoms based on program dependence. We then check dynamically whether these atomic compositions are implemented incorrectly as non-atomic. Evaluation on thirteen large applications shows that our approach finds around 50 previously unknown incorrect compositions. Further study on Tomcat shows that almost half (5 out of 12) of discovered incorrect compositions are confirmed as bugs by the developers. Given that Tomcat is heavily used in 250,000 sites including Linkedin.com and Ebay.com, we believe finding multiple new bugs in it automatically with relatively few false positives supports our heuristics for determining intended atomicity.",
-            "Award": "Distinguished Artifact"
+            "Award": "Artifact Accepted for Presentation"
         },
         {
             "Title": "Tightfit: Adaptive Parallelization with Foresight",
@@ -468,14 +468,14 @@
             "Title": "Will You Still Compile Me Tomorrow? Static Cross-Version Compiler Validation",
             "Type": "Full Paper",
             "Key": "fse13main-id161-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChris+Hawblitzel%2C+Shuvendu+Lahiri%2C+Kshama+Pawar%2C+Hammad+Hashmi%2C+Sedar+Gokbulut%2C+Lakshan+Fernando%2C+Dave+Detlefs%2C+and+Scott+Wadsworth+%22Will+You+Still+Compile+Me+Tomorrow%3F+Static+Cross-Version+Compiler+Validation%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChris+Hawblitzel%2C+Shuvendu+K.+Lahiri%2C+Kshama+Pawar%2C+Hammad+Hashmi%2C+Sedar+Gokbulut%2C+Lakshan+Fernando%2C+Dave+Detlefs%2C+and+Scott+Wadsworth+%22Will+You+Still+Compile+Me+Tomorrow%3F+Static+Cross-Version+Compiler+Validation%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Chris Hawblitzel, Shuvendu Lahiri, Kshama Pawar, Hammad Hashmi, Sedar Gokbulut, Lakshan Fernando, Dave Detlefs, and Scott Wadsworth",
-            "AffiliationsString": "Microsoft Research, USA; Microsoft, USA",
+            "PersonsString": "Chris Hawblitzel, Shuvendu K. Lahiri, Kshama Pawar, Hammad Hashmi, Sedar Gokbulut, Lakshan Fernando, Dave Detlefs, and Scott Wadsworth",
+            "AffiliationsString": "Microsoft, USA",
             "Authors": [
-                "Chris Hawblitzel @ Microsoft Research, USA",
-                "Shuvendu Lahiri @ Microsoft Research, USA",
+                "Chris Hawblitzel @ Microsoft, USA",
+                "Shuvendu K. Lahiri @ Microsoft, USA",
                 "Kshama Pawar @ Microsoft, USA",
                 "Hammad Hashmi @ Microsoft, USA",
                 "Sedar Gokbulut @ Microsoft, USA",
@@ -484,8 +484,8 @@
                 "Scott Wadsworth @ Microsoft, USA"
             ],
             "Affiliations": [
-                "Microsoft Research, USA",
-                "Microsoft Research, USA",
+                "Microsoft, USA",
+                "Microsoft, USA",
                 "Microsoft, USA",
                 "Microsoft, USA",
                 "Microsoft, USA",
@@ -558,7 +558,7 @@
                 "Georgia Tech, USA"
             ],
             "Abstract": "We present a system Dynodroid for generating relevant inputs to unmodified Android apps. Dynodroid views an app as an event-driven program that interacts with its environment by means of a sequence of events through the Android framework. By instrumenting the framework once and for all, Dynodroid monitors the reaction of an app upon each event in a lightweight manner, using it to guide the generation of the next event to the app. Dynodroid also allows interleaving events from machines, which are better at generating a large number of simple inputs, with events from humans, who are better at providing intelligent inputs.  We evaluated Dynodroid on 50 open-source Android apps, and compared it with two prevalent approaches: users manually exercising apps, and Monkey, a popular fuzzing tool. Dynodroid, humans, and Monkey covered 55%, 60%, and 53%, respectively, of each app's Java source code on average. Monkey took 20X more events on average than Dynodroid. Dynodroid also found 9 bugs in 7 of the 50 apps, and 6 bugs in 5 of the top 1,000 free apps on Google Play.",
-            "Award": "Distinguished Artifact"
+            "Award": "Artifact Accepted for Presentation"
         },
         {
             "Title": "KATCH: High-Coverage Testing of Software Patches",
@@ -578,7 +578,7 @@
                 "Imperial College London, UK"
             ],
             "Abstract": "One of the distinguishing characteristics of software systems is that they evolve: new patches are committed to software repositories and new versions are released to users on a continuous basis. Unfortunately, many of these changes bring unexpected bugs that break the stability of the system or affect its security. In this paper, we address this problem using a technique for automatically testing code patches. Our technique combines symbolic execution with several novel heuristics based on static and dynamic program analysis which allow it to quickly reach the code of the patch. We have implemented our approach in a tool called KATCH, which we have applied to all the patches written in a combined period of approximately six years for nineteen mature programs from the popular GNU diffutils, GNU binutils and GNU findutils utility suites, which are shipped with virtually all UNIX-based distributions. Our results show that KATCH can automatically synthesise inputs that significantly increase the patch coverage achieved by the existing manual test suites, and find bugs at the moment they are introduced.",
-            "Award": "Distinguished Artifact"
+            "Award": "Artifact Accepted for Presentation"
         },
         {
             "Title": "Termination Proofs from Tests",
@@ -587,10 +587,10 @@
             "URL": "http%3A%2F%2Fresearch.microsoft.com%2Fpubs%2F193427%2Ffinal-version.pdf",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Aditya Nori and Rahul Sharma",
+            "PersonsString": "Aditya V. Nori and Rahul Sharma",
             "AffiliationsString": "Microsoft Research, India; Stanford University, USA",
             "Authors": [
-                "Aditya Nori @ Microsoft Research, India",
+                "Aditya V. Nori @ Microsoft Research, India",
                 "Rahul Sharma @ Stanford University, USA"
             ],
             "Affiliations": [
@@ -608,24 +608,24 @@
             "URLvideo": "",
             "URLinfo": "http%3A%2F%2Fwww.cs.utexas.edu%2F%7Echpkim%2Fsplat",
             "PersonsString": "Chang Hwan Peter Kim, Darko Marinov, Sarfraz Khurshid, Don Batory, Sabrina Souto, Paulo Barros, and Marcelo d'Amorim",
-            "AffiliationsString": "University of Texas at Austin, USA; University of Illinois at Urbana-Champaign, USA; UFPE, Brazil",
+            "AffiliationsString": "University of Texas at Austin, USA; University of Illinois at Urbana-Champaign, USA; Groupon, USA; Federal University of Pernambuco, Brazil",
             "Authors": [
                 "Chang Hwan Peter Kim @ University of Texas at Austin, USA",
-                "Darko Marinov @ University of Illinois at Urbana-Champaign, USA",
+                "Darko Marinov @ University of Illinois at Urbana-Champaign, USA / Groupon, USA",
                 "Sarfraz Khurshid @ University of Texas at Austin, USA",
                 "Don Batory @ University of Texas at Austin, USA",
-                "Sabrina Souto @ UFPE, Brazil",
-                "Paulo Barros @ UFPE, Brazil",
-                "Marcelo d'Amorim @ UFPE, Brazil"
+                "Sabrina Souto @ Federal University of Pernambuco, Brazil",
+                "Paulo Barros @ Federal University of Pernambuco, Brazil",
+                "Marcelo d'Amorim @ Federal University of Pernambuco, Brazil"
             ],
             "Affiliations": [
                 "University of Texas at Austin, USA",
-                "University of Illinois at Urbana-Champaign, USA",
+                "University of Illinois at Urbana-Champaign, USA / Groupon, USA",
                 "University of Texas at Austin, USA",
                 "University of Texas at Austin, USA",
-                "UFPE, Brazil",
-                "UFPE, Brazil",
-                "UFPE, Brazil"
+                "Federal University of Pernambuco, Brazil",
+                "Federal University of Pernambuco, Brazil",
+                "Federal University of Pernambuco, Brazil"
             ],
             "Abstract": "Many programs can be configured through dynamic and/or static selection of configuration variables. A software product line (SPL), for example, specifies a family of programs where each program is defined by a unique combination of features. Systematically testing SPL programs is expensive as it can require running each test against a combinatorial number of configurations. Fortunately, a test is often independent of many configuration variables and need not be run against every combination. Configurations that are not required for a test can be pruned from execution. This paper presents SPLat, a new way to dynamically prune irrelevant configurations: the configurations to run for a test can be determined during test execution by monitoring accesses to configuration variables. SPLat achieves an optimal reduction in the number of configurations and is lightweight compared to prior work that used static analysis and heavyweight dynamic execution. Experimental results on 10 SPLs written in Java show that SPLat substantially reduces the total test execution time in many cases. Moreover, we demonstrate the scalability of SPLat by applying it to a large industrial code base written in Ruby on Rails.",
             "Award": ""
@@ -712,11 +712,11 @@
             "PersonsString": "Julia Rubin and Marsha Chechik",
             "AffiliationsString": "IBM Research, Israel; University of Toronto, Canada",
             "Authors": [
-                "Julia Rubin @ IBM Research, Israel",
+                "Julia Rubin @ IBM Research, Israel / University of Toronto, Canada",
                 "Marsha Chechik @ University of Toronto, Canada"
             ],
             "Affiliations": [
-                "IBM Research, Israel",
+                "IBM Research, Israel / University of Toronto, Canada",
                 "University of Toronto, Canada"
             ],
             "Abstract": "Model merging is widely recognized as an essential step in a variety of software development activities. During the process of combining a set of related products into a product line or consolidating model views of multiple stakeholders, we need to merge multiple input models into one; yet, most of the existing approaches are applicable to merging only two models. In this paper, we define the n-way merge problem. We show that it can be reduced to the known and widely studied NP-hard problem of weighted set packing. Yet, the approximation solutions for that problem do not scale for real-sized software models. We thus evaluate alternative approaches of merging models that incrementally process input models in small subsets and propose our own algorithm that considerably improves precision over such approaches without sacrificing performance.",
@@ -740,7 +740,7 @@
                 "Rutgers University, USA"
             ],
             "Abstract": "As the web becomes ubiquitous, developers are obliged to develop web applications for a variety of desktop and mobile platforms. Re- designing the user interface for every such platform is clearly cumbersome. We propose a new framework based on model-based compilation to assist the designer in solving this problem. Starting from an under-specified visual design mockup drawn by the designer, we show how faithful and flexible web pages can be obtained with virtually no manual effort. Our framework, in sharp contrast to existing web design tools, overcomes the tough challenges involved in mockup compilation by (a) employing combinatorial search to infer hierarchical layouts and (b) mechanizing adhoc principles for CSS design into a modular, extensible rule-based architecture. We believe ours is the first disciplined effort to solve the problem and will inspire rapid, low-effort web design.",
-            "Award": "Distinguished Artifact"
+            "Award": "Artifact Accepted for Presentation"
         },
         {
             "Title": "Making Offline Analyses Continuous",
@@ -750,16 +750,16 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Kıvanç Muşlu, Yuriy Brun, Michael D. Ernst, and David Notkin",
-            "AffiliationsString": "University of Washington, USA; University of Massachusetts, USA",
+            "AffiliationsString": "University of Washington, USA; University of Massachusetts at Amherst, USA",
             "Authors": [
                 "Kıvanç Muşlu @ University of Washington, USA",
-                "Yuriy Brun @ University of Massachusetts, USA",
+                "Yuriy Brun @ University of Massachusetts at Amherst, USA",
                 "Michael D. Ernst @ University of Washington, USA",
                 "David Notkin @ University of Washington, USA"
             ],
             "Affiliations": [
                 "University of Washington, USA",
-                "University of Massachusetts, USA",
+                "University of Massachusetts at Amherst, USA",
                 "University of Washington, USA",
                 "University of Washington, USA"
             ],
@@ -795,11 +795,11 @@
             "URL": "http%3A%2F%2Fresearch.microsoft.com%2Fpubs%2F193772%2Fpaper.pdf",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Shuvendu Lahiri, Ken Mcmillan, Rahul Sharma, and Chris Hawblitzel",
+            "PersonsString": "Shuvendu K. Lahiri, Kenneth L. McMillan, Rahul Sharma, and Chris Hawblitzel",
             "AffiliationsString": "Microsoft Research, USA; Stanford University, USA",
             "Authors": [
-                "Shuvendu Lahiri @ Microsoft Research, USA",
-                "Ken Mcmillan @ Microsoft Research, USA",
+                "Shuvendu K. Lahiri @ Microsoft Research, USA",
+                "Kenneth L. McMillan @ Microsoft Research, USA",
                 "Rahul Sharma @ Stanford University, USA",
                 "Chris Hawblitzel @ Microsoft Research, USA"
             ],
@@ -825,13 +825,13 @@
                 "Mark Grechanik @ University of Illinois at Chicago, USA",
                 "B. M. Mainul Hossain @ University of Illinois at Chicago, USA",
                 "Ugo Buy @ University of Illinois at Chicago, USA",
-                "Haisheng Wang @ Oracle, USA"
+                "Haisheng Wang @ University of Illinois at Chicago, USA / Oracle, USA"
             ],
             "Affiliations": [
                 "University of Illinois at Chicago, USA",
                 "University of Illinois at Chicago, USA",
                 "University of Illinois at Chicago, USA",
-                "Oracle, USA"
+                "University of Illinois at Chicago, USA / Oracle, USA"
             ],
             "Abstract": "Many organizations deploy applications that use databases by sending Structured Query Language (SQL) statements to them and obtaining data that result from the execution of these statements. Since applications often share the same databases concurrently, database deadlocks routinely occur in these databases resulting in major performance degradation in these applications. Database engines do not prevent database deadlocks for the same reason that the schedulers of operating system kernels do not preempt processes in a way to avoid race conditions and deadlocks - it is not feasible to find an optimal context switching schedule quickly for multiple processes (and SQL statements), and the overhead of doing it is prohibitive.  We created a novel approach that combines run-time monitoring, which automatically prevents database deadlocks, with static analysis, which detects hold-and-wait cycles that specify how resources (e.g., database tables) are held in contention during executions of SQL statements. We rigorously evaluated our approach. For a realistic case of over 1,200 SQL statements, our algorithm detects all hold-and-wait cycles in less than two seconds. We built a toolset and experimented with three applications. Our tool prevented all existing database deadlocks in these applications and increased their throughputs by up to three orders of magnitude.",
             "Award": ""
@@ -870,17 +870,17 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Sugandha Lohar, Sorawit Amornborvornwong, Andrea Zisman, and Jane Cleland-Huang",
-            "AffiliationsString": "DePaul University, USA; City University London, UK",
+            "AffiliationsString": "DePaul University, USA; Open University, UK",
             "Authors": [
                 "Sugandha Lohar @ DePaul University, USA",
                 "Sorawit Amornborvornwong @ DePaul University, USA",
-                "Andrea Zisman @ City University London, UK",
+                "Andrea Zisman @ Open University, UK",
                 "Jane Cleland-Huang @ DePaul University, USA"
             ],
             "Affiliations": [
                 "DePaul University, USA",
                 "DePaul University, USA",
-                "City University London, UK",
+                "Open University, UK",
                 "DePaul University, USA"
             ],
             "Abstract": "Software traceability is a sought-after, yet often elusive quality in large software-intensive systems primarily because the cost and effort of tracing can be overwhelming. State-of-the art solutions address this problem through utilizing trace retrieval techniques to automate the process of creating and maintaining trace links. However, there is no simple one- size-fits all solution to trace retrieval. As this paper will show, finding the right combination of tracing techniques can lead to significant improvements in the quality of generated links. We present a novel approach to trace retrieval in which the underlying infrastructure is configured at runtime to optimize trace quality. We utilize a machine-learning approach to search for the best configuration given an initial training set of validated trace links, a set of available tracing techniques specified in a feature model, and an architecture capable of instantiating all valid configurations of features. We evaluate our approach through a series of experiments using project data from the transportation, healthcare, and space exploration domains, and discuss its implementation in an industrial environment. Finally, we show how our approach can create a robust baseline against which new tracing techniques can be evaluated.",
@@ -910,7 +910,7 @@
                 "University of Passau, Germany"
             ],
             "Abstract": "Continuous testing during development is a well-established technique for software-quality assurance. Continuous model checking from revision to revision is not yet established as a standard practice, because the enormous resource consumption makes its application impractical. Model checkers compute a large number of verification facts that are necessary for verifying if a given specification holds. We have identified a category of such intermediate results that are easy to store and efficient to reuse: abstraction precisions. The precision of an abstract domain specifies the level of abstraction that the analysis works on. Precisions are thus a precious result of the verification effort and it is a waste of resources to throw them away after each verification run. In particular, precisions are reasonably small and thus easy to store; they are easy to process and have a large impact on resource consumption. We experimentally show the impact of precision reuse on industrial verification problems created from 62 Linux kernel device drivers with 1119 revisions.",
-            "Award": "Distinguished Artifact"
+            "Award": "Artifact Accepted for Presentation"
         },
         {
             "Title": "Cascading Verification: An Integrated Method for Domain-Specific Model Checking",
@@ -919,11 +919,11 @@
             "URL": "http%3A%2F%2Fwww.comp.nus.edu.sg%2F%7Edavid%2FPublications%2Fesec-fse2013.pdf",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Fokion Zervoudakis, David Rosenblum, Sebastian Elbaum, and Anthony Finkelstein",
+            "PersonsString": "Fokion Zervoudakis, David S. Rosenblum, Sebastian Elbaum, and Anthony Finkelstein",
             "AffiliationsString": "University College London, UK; National University of Singapore, Singapore; University of Nebraska-Lincoln, USA",
             "Authors": [
                 "Fokion Zervoudakis @ University College London, UK",
-                "David Rosenblum @ National University of Singapore, Singapore",
+                "David S. Rosenblum @ National University of Singapore, Singapore",
                 "Sebastian Elbaum @ University of Nebraska-Lincoln, USA",
                 "Anthony Finkelstein @ University College London, UK"
             ],
@@ -944,19 +944,19 @@
             "URLvideo": "",
             "URLinfo": "http%3A%2F%2Fwww.lta.disco.unimib.it%2Fpietro.braione",
             "PersonsString": "Pietro Braione, Giovanni Denaro, and Mauro Pezzè",
-            "AffiliationsString": "University of Milano-Bicocca, Italy",
+            "AffiliationsString": "University of Milano-Bicocca, Italy; University of Lugano, Switzerland",
             "Authors": [
                 "Pietro Braione @ University of Milano-Bicocca, Italy",
                 "Giovanni Denaro @ University of Milano-Bicocca, Italy",
-                "Mauro Pezzè @ University of Milano-Bicocca, Italy"
+                "Mauro Pezzè @ University of Milano-Bicocca, Italy / University of Lugano, Switzerland"
             ],
             "Affiliations": [
                 "University of Milano-Bicocca, Italy",
                 "University of Milano-Bicocca, Italy",
-                "University of Milano-Bicocca, Italy"
+                "University of Milano-Bicocca, Italy / University of Lugano, Switzerland"
             ],
             "Abstract": "Symbolic execution suffers from problems when analyzing programs that handle complex data structures as their inputs and take decisions over non-linear expressions. For these programs, symbolic execution may incur invalid inputs or unidentified infeasible traces, and may raise large amounts of false alarms. Some symbolic executors tackle these problems by introducing executable preconditions to exclude invalid inputs, and some solvers exploit rewrite rules to address non linear problems. In this paper, we discuss the core limitations of executable preconditions, and address these limitations by proposing invariants specifically designed to harmonize with the lazy initialization algorithm. We exploit rewrite rules applied within the symbolic executor, to address simplifications of inverse relationships fostered from either program-specific calculations or the logic of the verification tasks. We present a symbolic executor that integrates the two techniques, and validate our approach against the verification of a relevant set of properties of the Tactical Separation Assisted Flight Environment. The empirical data show that the integrated approach can improve the effectiveness of symbolic execution.",
-            "Award": "Distinguished Artifact"
+            "Award": "Artifact Accepted for Presentation"
         },
         {
             "Title": "Mining Behavior Models from Enterprise Web Applications",
@@ -1026,7 +1026,7 @@
                 "RWTH Aachen University, Germany"
             ],
             "Abstract": "We present component and connector (C&C) views, which specify structural properties of component and connector models in an expressive and intuitive way. C&C views provide means to abstract away direct hierarchy, direct connectivity, port names and types, and thus can crosscut the traditional boundaries of the implementation-oriented hierarchical decomposition of systems and sub-systems, and reflect the partial knowledge available to different stakeholders involved in a system's design. As a primary application for C&C views we investigate the synthesis problem: given a C&C views specification, consisting of mandatory, alternative, and negative views, construct a concrete satisfying C&C model, if one exists. We show that the problem is NP-hard and solve it, in a bounded scope, using a reduction to SAT, via Alloy. We further extend the basic problem with support for library components, specification patterns, and architectural styles. The result of synthesis can be used for further exploration, simulation, and refinement of the C&C model or, as the complete, final model itself, for direct code generation. A prototype tool and an evaluation over four example systems with multiple specifications show promising results and suggest interesting future research directions towards a comprehensive development environment for the structure of component and connector designs.",
-            "Award": "Distinguished Artifact"
+            "Award": "Artifact Accepted for Presentation"
         },
         {
             "Title": "Searching for Better Configurations: A Rigorous Approach to Clone Evaluation",
@@ -1072,7 +1072,7 @@
                 "Microsoft Research, USA"
             ],
             "Abstract": "One of the goals of software engineering research is to achieve generality: Are the phenomena found in a few projects reflective of others? Will a technique perform as well on projects other than the projects it is evaluated on? While it is common sense to select a sample that is representative of a population, the importance of diversity is often overlooked, yet as important. In this paper, we combine ideas from representativeness and diversity and introduce a measure called sample coverage, defined as the percentage of projects in a population that are similar to the given sample. We introduce algorithms to compute the sample coverage for a given set of projects and to select the projects that increase the coverage the most. We demonstrate our technique on research presented over the span of two years at ICSE and FSE with respect to a population of 20,000 active open source projects monitored by Ohloh.net. Knowing the coverage of a sample enhances our ability to reason about the findings of a study. Furthermore, we propose reporting guidelines for research: in addition to coverage scores, papers should discuss the target population of the research (universe) and dimensions that potentially can influence the outcomes of a research (space).",
-            "Award": "Distinguished Artifact"
+            "Award": "Artifact Accepted for Presentation"
         },
         {
             "Title": "API Change and Fault Proneness: A Threat to the Success of Android Apps",
@@ -1106,16 +1106,16 @@
             "Title": "Jalangi: A Selective Record-Replay and Dynamic Analysis Framework for JavaScript",
             "Type": "Full Paper",
             "Key": "fse13main-id185-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKoushik+Sen%2C+Tasneem+Brutch%2C+Simon+Gibbs%2C+and+Swaroop+Kalasapur+%22Jalangi%3A+A+Selective+Record-Replay+and+Dynamic+Analysis+Framework+for+JavaScript%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKoushik+Sen%2C+Swaroop+Kalasapur%2C+Tasneem+Brutch%2C+and+Simon+Gibbs+%22Jalangi%3A+A+Selective+Record-Replay+and+Dynamic+Analysis+Framework+for+JavaScript%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Koushik Sen, Tasneem Brutch, Simon Gibbs, and Swaroop Kalasapur",
+            "PersonsString": "Koushik Sen, Swaroop Kalasapur, Tasneem Brutch, and Simon Gibbs",
             "AffiliationsString": "UC Berkeley, USA; Samsung Research, USA",
             "Authors": [
                 "Koushik Sen @ UC Berkeley, USA",
+                "Swaroop Kalasapur @ Samsung Research, USA",
                 "Tasneem Brutch @ Samsung Research, USA",
-                "Simon Gibbs @ Samsung Research, USA",
-                "Swaroop Kalasapur @ Samsung Research, USA"
+                "Simon Gibbs @ Samsung Research, USA"
             ],
             "Affiliations": [
                 "UC Berkeley, USA",
@@ -1196,14 +1196,14 @@
             "Title": "A Statistical Semantic Language Model for Source Code",
             "Type": "Full Paper",
             "Key": "fse13main-id234-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTung+Thanh+Nguyen%2C+Anh+Nguyen%2C+Hoan+Anh+Nguyen%2C+and+Tien+N.+Nguyen+%22A+Statistical+Semantic+Language+Model+for+Source+Code%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTung+Thanh+Nguyen%2C+Anh+Tuan+Nguyen%2C+Hoan+Anh+Nguyen%2C+and+Tien+N.+Nguyen+%22A+Statistical+Semantic+Language+Model+for+Source+Code%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Tung Thanh Nguyen, Anh Nguyen, Hoan Anh Nguyen, and Tien N. Nguyen",
+            "PersonsString": "Tung Thanh Nguyen, Anh Tuan Nguyen, Hoan Anh Nguyen, and Tien N. Nguyen",
             "AffiliationsString": "Iowa State University, USA",
             "Authors": [
                 "Tung Thanh Nguyen @ Iowa State University, USA",
-                "Anh Nguyen @ Iowa State University, USA",
+                "Anh Tuan Nguyen @ Iowa State University, USA",
                 "Hoan Anh Nguyen @ Iowa State University, USA",
                 "Tien N. Nguyen @ Iowa State University, USA"
             ],
@@ -1238,7 +1238,7 @@
                 "Oracle, Czech Republic"
             ],
             "Abstract": "Java 8 introduces two functional features: lambda expressions and functional operations like map or filter that apply a lambda expression over the elements of a Collection. Refactoring existing code to use these new features enables explicit but unobtrusive parallelism and makes the code more succinct. However, refactoring is tedious: it requires changing many lines of code. It is also error-prone: the programmer must reason about the control-, data-flow, and side-effects. Fortunately, refactorings can be automated. We designed and implemented LambdaFicator, a tool which automates two refactorings. The first refactoring converts anonymous inner classes to lambda expressions. The second refactoring converts for loops that iterate over Collections to functional operations that use lambda expressions. Using 9 open-source projects, we have applied these two refactorings 1263 and 1709 times, respectively. The results show that LambdaFicator is useful: (i) it is widely applicable, (ii) it reduces the code bloat, (iii) it increases programmer productivity, and (iv) it is accurate.",
-            "Award": "Distinguished Artifact"
+            "Award": "Artifact Accepted for Presentation"
         },
         {
             "Title": "Scalable and Incremental Software Bug Detection",
@@ -1304,7 +1304,7 @@
                 "National University of Singapore, Singapore"
             ],
             "Abstract": "A bug signature is a set of program elements highlighting the cause or effect of a bug, and provides contextual information for debugging. In order to mine a signature for a buggy program, two sets of execution profiles of the program, one capturing the correct execution and the other capturing the faulty, are examined to identify the program elements contrasting faulty from correct. Signatures solely consisting of control flow transitions have been investigated via discriminative sequence and graph mining algorithms. These signatures might be handicapped in cases where the effect of a bug is not manifested by any deviation in control flow transitions. In this paper, we introduce the notion of predicated bug signature\/ that aims to enhance the predictive power of bug signatures by utilizing both data predicates and control-flow information. We introduce a novel ``discriminative itemset generator'' mining technique to generate succinct\/ signatures which do not contain redundant or irrelevant program elements. Our case studies demonstrate that predicated signatures can hint at more scenarios of bugs where traditional control-flow signatures fail.",
-            "Award": "Distinguished Artifact"
+            "Award": "Artifact Accepted for Presentation"
         },
         {
             "Title": "SocialCDE: A Social Awareness Tool for Global Software Teams",
@@ -1357,19 +1357,19 @@
             "URL": "http%3A%2F%2Fcosta.ls.fi.upm.es%2Fpapers%2Fcosta%2FAlbertAGZW13.pdf",
             "URLvideo": "",
             "URLinfo": "http%3A%2F%2Fcosta.ls.fi.upm.es%2Fapet%2F",
-            "PersonsString": "Elvira Albert, Puri Arenas, Miguel Gomez-Zamalloa, and Peter Wong",
-            "AffiliationsString": "Complutense University of Madrid, Spain; Fredhopper, Netherlands",
+            "PersonsString": "Elvira Albert, Puri Arenas, Miguel Gómez-Zamalloa, and Peter Y. H. Wong",
+            "AffiliationsString": "Complutense University of Madrid, Spain; SLD Fredhopper, Netherlands",
             "Authors": [
                 "Elvira Albert @ Complutense University of Madrid, Spain",
                 "Puri Arenas @ Complutense University of Madrid, Spain",
-                "Miguel Gomez-Zamalloa @ Complutense University of Madrid, Spain",
-                "Peter Wong @ Fredhopper, Netherlands"
+                "Miguel Gómez-Zamalloa @ Complutense University of Madrid, Spain",
+                "Peter Y. H. Wong @ SLD Fredhopper, Netherlands"
             ],
             "Affiliations": [
                 "Complutense University of Madrid, Spain",
                 "Complutense University of Madrid, Spain",
                 "Complutense University of Madrid, Spain",
-                "Fredhopper, Netherlands"
+                "SLD Fredhopper, Netherlands"
             ],
             "Abstract": "We present the concepts, usage and prototypical implementation of aPET, a test case generation tool for a distributed asynchronous language based on concurrent objects. The system receives as input a program, a selection of methods to be tested, and a set of parameters that include a selection of a coverage criterion. It yields as output a set of test cases which guarantee that the selected coverage criterion is achieved. aPET is completely integrated within the language's IDE via Eclipse. The generated test cases can be displayed in textual mode and, besides, it is possible to generate ABSUnit code (i.e., code runnable in a simple framework similar to JUnit to write repeatable tests). The information yield by aPET can be relevant to spot bugs during program development and also to perform regression testing.",
             "Award": ""
@@ -1404,15 +1404,15 @@
             "Title": "RiTHM: A Tool for Enabling Time-Triggered Runtime Verification for C Programs",
             "Type": "Short Paper",
             "Key": "fse13tools-tid9-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSamaneh+Navabpour%2C+Yogi+Joshi%2C+Chun+Wah+Wallace+Wu%2C+Shay+Berkovich%2C+Ramy+Medhat%2C+Borzoo+Bonakdarpour%2C+and+Sebastian+Fischmeister+%22RiTHM%3A+A+Tool+for+Enabling+Time-Triggered+Runtime+Verification+for+C+Programs%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSamaneh+Navabpour%2C+Yogi+Joshi%2C+Wallace+Wu%2C+Shay+Berkovich%2C+Ramy+Medhat%2C+Borzoo+Bonakdarpour%2C+and+Sebastian+Fischmeister+%22RiTHM%3A+A+Tool+for+Enabling+Time-Triggered+Runtime+Verification+for+C+Programs%22",
             "URLvideo": "https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dv68n6HbNiss",
             "URLinfo": "http%3A%2F%2Fuwaterloo.ca%2Fembedded-software-group%2Fprojects%2Frithm",
-            "PersonsString": "Samaneh Navabpour, Yogi Joshi, Chun Wah Wallace Wu, Shay Berkovich, Ramy Medhat, Borzoo Bonakdarpour, and Sebastian Fischmeister",
+            "PersonsString": "Samaneh Navabpour, Yogi Joshi, Wallace Wu, Shay Berkovich, Ramy Medhat, Borzoo Bonakdarpour, and Sebastian Fischmeister",
             "AffiliationsString": "University of Waterloo, Canada",
             "Authors": [
                 "Samaneh Navabpour @ University of Waterloo, Canada",
                 "Yogi Joshi @ University of Waterloo, Canada",
-                "Chun Wah Wallace Wu @ University of Waterloo, Canada",
+                "Wallace Wu @ University of Waterloo, Canada",
                 "Shay Berkovich @ University of Waterloo, Canada",
                 "Ramy Medhat @ University of Waterloo, Canada",
                 "Borzoo Bonakdarpour @ University of Waterloo, Canada",
@@ -1498,16 +1498,16 @@
             "Title": "RSA-MBT: A Test Tool for Generating Test Artifacts Based on Models",
             "Type": "Short Paper",
             "Key": "fse13tools-tid2-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndrew+Costa%2C+Ricardo+Venieris%2C+Gustavo+Carvalho%2C+and+Carlos+Jos%C3%A9+Lucena+%22RSA-MBT%3A+A+Test+Tool+for+Generating+Test+Artifacts+Based+on+Models%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndrew+Diniz+da+Costa%2C+Ricardo+Venieris%2C+Gustavo+Carvalho%2C+and+Carlos+Jos%C3%A9+Pereira+de+Lucena+%22RSA-MBT%3A+A+Test+Tool+for+Generating+Test+Artifacts+Based+on+Models%22",
             "URLvideo": "",
             "URLinfo": "http%3A%2F%2Fwww.les.inf.puc-rio.br%2Fescritorioqualidade%2Findex.php%3Foption%3Dcom_content%26view%3Darticle%26id%3D57%26Itemid%3D58",
-            "PersonsString": "Andrew Costa, Ricardo Venieris, Gustavo Carvalho, and Carlos José Lucena",
+            "PersonsString": "Andrew Diniz da Costa, Ricardo Venieris, Gustavo Carvalho, and Carlos José Pereira de Lucena",
             "AffiliationsString": "PUC-Rio, Brazil",
             "Authors": [
-                "Andrew Costa @ PUC-Rio, Brazil",
+                "Andrew Diniz da Costa @ PUC-Rio, Brazil",
                 "Ricardo Venieris @ PUC-Rio, Brazil",
                 "Gustavo Carvalho @ PUC-Rio, Brazil",
-                "Carlos José Lucena @ PUC-Rio, Brazil"
+                "Carlos José Pereira de Lucena @ PUC-Rio, Brazil"
             ],
             "Affiliations": [
                 "PUC-Rio, Brazil",
@@ -1554,19 +1554,19 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Qi Wang, Jingyu Zhou, Yuting Chen, Yizhou Zhang, and Jianjun Zhao",
-            "AffiliationsString": "Shanghai Jiao Tong University, China",
+            "AffiliationsString": "Shanghai Jiao Tong University, China; Cornell University, USA",
             "Authors": [
                 "Qi Wang @ Shanghai Jiao Tong University, China",
                 "Jingyu Zhou @ Shanghai Jiao Tong University, China",
                 "Yuting Chen @ Shanghai Jiao Tong University, China",
-                "Yizhou Zhang @ Shanghai Jiao Tong University, China",
+                "Yizhou Zhang @ Shanghai Jiao Tong University, China / Cornell University, USA",
                 "Jianjun Zhao @ Shanghai Jiao Tong University, China"
             ],
             "Affiliations": [
                 "Shanghai Jiao Tong University, China",
                 "Shanghai Jiao Tong University, China",
                 "Shanghai Jiao Tong University, China",
-                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China / Cornell University, USA",
                 "Shanghai Jiao Tong University, China"
             ],
             "Abstract": "With the extensive use of client-side JavaScript in web applications, web contents are becoming more dynamic than ever before. This poses significant challenges for search engines, because more web URLs are now embedded or hidden inside JavaScript code and most web crawlers are script-agnostic, significantly reducing the coverage of search engines. We present a hybrid approach that combines static analysis with dynamic execution, overcoming the weakness of a purely static or dynamic approach that either lacks accuracy or suffers from huge execution cost. We also propose to integrate program analysis techniques such as statement coverage and program slicing to improve the performance of URL mining.",
@@ -1580,16 +1580,16 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Kıvanç Muşlu, Yuriy Brun, and Alexandra Meliou",
-            "AffiliationsString": "University of Washington, USA; University of Massachusetts, USA",
+            "AffiliationsString": "University of Washington, USA; University of Massachusetts at Amherst, USA",
             "Authors": [
                 "Kıvanç Muşlu @ University of Washington, USA",
-                "Yuriy Brun @ University of Massachusetts, USA",
-                "Alexandra Meliou @ University of Massachusetts, USA"
+                "Yuriy Brun @ University of Massachusetts at Amherst, USA",
+                "Alexandra Meliou @ University of Massachusetts at Amherst, USA"
             ],
             "Affiliations": [
                 "University of Washington, USA",
-                "University of Massachusetts, USA",
-                "University of Massachusetts, USA"
+                "University of Massachusetts at Amherst, USA",
+                "University of Massachusetts at Amherst, USA"
             ],
             "Abstract": "Today, systems rely as heavily on data as on the software that manipulates those data. Errors in these systems are incredibly costly, annually resulting in multi-billion dollar losses, and, on multiple occasions, in death. While software debugging and testing have received heavy research attention, less effort has been devoted to data debugging: discovering system errors caused by well-formed but incorrect data. In this paper, we propose continuous data testing: using otherwise-idle CPU cycles to run test queries, in the background, as a user or database administrator modifies a database. This technique notifies the user or administrator about a data bug as quickly as possible after that bug is introduced, leading to at least three benefits: (1) The bug is discovered quickly and can be fixed before it is likely to cause a problem. (2) The bug is discovered while the relevant change is fresh in the user's or administrator's mind, increasing the chance that the underlying cause of the bug, as opposed to only the discovered side-effect, is fixed. (3) When poor documentation or company policies contribute to bugs, discovering the bug quickly is likely to identify these contributing factors, facilitating updating documentation and policies to prevent similar bugs in the future. We describe the problem space and potential benefits of continuous data testing, our vision for the technique, challenges we encountered, and our prototype implementation for PostgreSQL. The prototype's low overhead shows promise that continuous data testing can address the important problem of data debugging.",
             "Award": ""
@@ -1646,13 +1646,13 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Hongyu Zhang and S. C. Cheung",
-            "AffiliationsString": "Tsinghua University, China; Hong Kong University of Science and Technology, China",
+            "AffiliationsString": "Tsinghua University, China; ISCAS, China; Hong Kong University of Science and Technology, China",
             "Authors": [
-                "Hongyu Zhang @ Tsinghua University, China",
+                "Hongyu Zhang @ Tsinghua University, China / ISCAS, China",
                 "S. C. Cheung @ Hong Kong University of Science and Technology, China"
             ],
             "Affiliations": [
-                "Tsinghua University, China",
+                "Tsinghua University, China / ISCAS, China",
                 "Hong Kong University of Science and Technology, China"
             ],
             "Abstract": "Ideally, software defect prediction models should help organize software quality assurance (SQA) resources and reduce cost of finding defects by allowing the modules most likely to contain defects to be inspected first. In this paper, we study the cost-effectiveness of applying defect prediction models in SQA and propose a basic cost-effectiveness criterion. The criterion implies that defect prediction models should be applied with caution. We also propose a new metric FN/(FN+TN) to measure the cost-effectiveness of a defect prediction model.",
@@ -1666,14 +1666,14 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Jiangtao Gong and Hongyu Zhang",
-            "AffiliationsString": "Tsinghua University, China",
+            "AffiliationsString": "Tsinghua University, China; ISCAS, China",
             "Authors": [
                 "Jiangtao Gong @ Tsinghua University, China",
-                "Hongyu Zhang @ Tsinghua University, China"
+                "Hongyu Zhang @ Tsinghua University, China / ISCAS, China"
             ],
             "Affiliations": [
                 "Tsinghua University, China",
-                "Tsinghua University, China"
+                "Tsinghua University, China / ISCAS, China"
             ],
             "Abstract": "A large and complex software system could contain a large number of bugs. It is desirable for developers to understand how these bugs are distributed across the system, so they could have a better overview of software quality. In this paper, we describe BugMap, a tool we developed for visualizing large-scale bug location information. Taken source code and bug data as the input, BugMap can display bug localizations on a topographic map. By examining the topographic map, developers can understand how the components and files are affected by bugs. We apply this tool to visualize the distribution of Eclipse bugs across components/files. The results show that our tool is effective for understanding the overall quality status of a large-scale system and for identifying the problematic areas of the system.",
             "Award": ""
@@ -1682,13 +1682,13 @@
             "Title": "Lexical Statistical Machine Translation for Language Migration",
             "Type": "Short Paper",
             "Key": "fse13newideas-nid34-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAnh+Nguyen%2C+Tung+Thanh+Nguyen%2C+and+Tien+N.+Nguyen+%22Lexical+Statistical+Machine+Translation+for+Language+Migration%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAnh+Tuan+Nguyen%2C+Tung+Thanh+Nguyen%2C+and+Tien+N.+Nguyen+%22Lexical+Statistical+Machine+Translation+for+Language+Migration%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Anh Nguyen, Tung Thanh Nguyen, and Tien N. Nguyen",
+            "PersonsString": "Anh Tuan Nguyen, Tung Thanh Nguyen, and Tien N. Nguyen",
             "AffiliationsString": "Iowa State University, USA",
             "Authors": [
-                "Anh Nguyen @ Iowa State University, USA",
+                "Anh Tuan Nguyen @ Iowa State University, USA",
                 "Tung Thanh Nguyen @ Iowa State University, USA",
                 "Tien N. Nguyen @ Iowa State University, USA"
             ],
@@ -1747,10 +1747,10 @@
             "URL": "https%3A%2F%2Fwebspace.utexas.edu%2Frks848%2Fwww%2Fpapers%2FSahaFSE-NIER2013.pdf",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Ripon Saha, Avigit K. Saha, and Dewayne E. Perry",
+            "PersonsString": "Ripon K. Saha, Avigit K. Saha, and Dewayne E. Perry",
             "AffiliationsString": "University of Texas at Austin, USA; University of Saskatchewan, Canada",
             "Authors": [
-                "Ripon Saha @ University of Texas at Austin, USA",
+                "Ripon K. Saha @ University of Texas at Austin, USA",
                 "Avigit K. Saha @ University of Saskatchewan, Canada",
                 "Dewayne E. Perry @ University of Texas at Austin, USA"
             ],
@@ -1766,14 +1766,14 @@
             "Title": "Where Is the Business Logic?",
             "Type": "Short Paper",
             "Key": "fse13newideas-nid12-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYael+Dubinsky%2C+Yishai+A.+Feldman%2C+and+Maayan+Goldstein+%22Where+Is+the+Business+Logic%3F%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYael+Dubinsky%2C+Yishai+Feldman%2C+and+Maayan+Goldstein+%22Where+Is+the+Business+Logic%3F%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Yael Dubinsky, Yishai A. Feldman, and Maayan Goldstein",
+            "PersonsString": "Yael Dubinsky, Yishai Feldman, and Maayan Goldstein",
             "AffiliationsString": "IBM Research, Israel",
             "Authors": [
                 "Yael Dubinsky @ IBM Research, Israel",
-                "Yishai A. Feldman @ IBM Research, Israel",
+                "Yishai Feldman @ IBM Research, Israel",
                 "Maayan Goldstein @ IBM Research, Israel"
             ],
             "Affiliations": [
@@ -1830,13 +1830,13 @@
             "Title": "Agreements for Software Reuse in Corporations",
             "Type": "Short Paper",
             "Key": "fse13industrial-ind9-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DThijmen+De+Gooijer+and+Heiko+Koziolek+%22Agreements+for+Software+Reuse+in+Corporations%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DThijmen+de+Gooijer+and+Heiko+Koziolek+%22Agreements+for+Software+Reuse+in+Corporations%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Thijmen De Gooijer and Heiko Koziolek",
+            "PersonsString": "Thijmen de Gooijer and Heiko Koziolek",
             "AffiliationsString": "ABB Research, Sweden; ABB Research, Germany",
             "Authors": [
-                "Thijmen De Gooijer @ ABB Research, Sweden",
+                "Thijmen de Gooijer @ ABB Research, Sweden",
                 "Heiko Koziolek @ ABB Research, Germany"
             ],
             "Affiliations": [
@@ -1875,14 +1875,14 @@
             "AffiliationsString": "Massachusetts Institute of Technology, USA; Toshiba, Japan",
             "Authors": [
                 "Daniel J. Dubois @ Massachusetts Institute of Technology, USA",
-                "Yosuke Bando @ Toshiba, Japan",
-                "Konosuke Watanabe @ Toshiba, Japan",
+                "Yosuke Bando @ Massachusetts Institute of Technology, USA / Toshiba, Japan",
+                "Konosuke Watanabe @ Massachusetts Institute of Technology, USA / Toshiba, Japan",
                 "Henry Holtzman @ Massachusetts Institute of Technology, USA"
             ],
             "Affiliations": [
                 "Massachusetts Institute of Technology, USA",
-                "Toshiba, Japan",
-                "Toshiba, Japan",
+                "Massachusetts Institute of Technology, USA / Toshiba, Japan",
+                "Massachusetts Institute of Technology, USA / Toshiba, Japan",
                 "Massachusetts Institute of Technology, USA"
             ],
             "Abstract": "ShAir is a middleware infrastructure that allows mobile applications to share resources of their devices (e.g., data, storage, connectivity, computation) in a transparent way. The goals of ShAir are: (i) abstracting the creation and maintenance of opportunistic delay-tolerant peer-to-peer networks; (ii) being decoupled from the actual hardware and network platform; (iii) extensibility in terms of supported hardware, protocols, and on the type of resources that can be shared; (iv) being capable of self-adapting at run-time; (v) enabling the development of applications that are easier to design, test, and simulate. In this paper we discuss the design, extensibility, and maintainability of the ShAir middleware, and how to use it as a platform for collaborative resource-sharing applications. Finally we show our experience in designing and testing a file-sharing application.",
@@ -1948,14 +1948,14 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Clement Escoffier, Philippe Lalanda, and Nicolas Rempulsky",
-            "AffiliationsString": "Dynamis Technologies, France; Grenoble University, France; Ubidreams, France",
+            "AffiliationsString": "Grenoble University, France; Ubidreams, France",
             "Authors": [
-                "Clement Escoffier @ Dynamis Technologies, France / Grenoble University, France",
+                "Clement Escoffier @ Grenoble University, France",
                 "Philippe Lalanda @ Grenoble University, France",
                 "Nicolas Rempulsky @ Ubidreams, France"
             ],
             "Affiliations": [
-                "Dynamis Technologies, France / Grenoble University, France",
+                "Grenoble University, France",
                 "Grenoble University, France",
                 "Ubidreams, France"
             ],
@@ -1996,14 +1996,14 @@
             "Title": "The Economics of Static Analysis Tools",
             "Type": "Short Paper",
             "Key": "fse13industrial-ind4-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRahul+Kumar+and+Aditya+Nori+%22The+Economics+of+Static+Analysis+Tools%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRahul+Kumar+and+Aditya+V.+Nori+%22The+Economics+of+Static+Analysis+Tools%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Rahul Kumar and Aditya Nori",
+            "PersonsString": "Rahul Kumar and Aditya V. Nori",
             "AffiliationsString": "Microsoft Research, India",
             "Authors": [
                 "Rahul Kumar @ Microsoft Research, India",
-                "Aditya Nori @ Microsoft Research, India"
+                "Aditya V. Nori @ Microsoft Research, India"
             ],
             "Affiliations": [
                 "Microsoft Research, India",
@@ -2019,10 +2019,10 @@
             "URL": "http%3A%2F%2Fwww.ics.uci.edu%2F%7Endigiuse%2FNicholas_DiGiuseppe%2FResearch_files%2Fdigiuseppe13.pdf",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Nicholas Digiuseppe",
+            "PersonsString": "Nicholas DiGiuseppe",
             "AffiliationsString": "UC Irvine, USA",
             "Authors": [
-                "Nicholas Digiuseppe @ UC Irvine, USA"
+                "Nicholas DiGiuseppe @ UC Irvine, USA"
             ],
             "Affiliations": [
                 "UC Irvine, USA"
@@ -2049,10 +2049,10 @@
             "Award": ""
         },
         {
-            "Title": "PHRT: A Model and Programmable Tool for Hardware Reengineering Automation ",
+            "Title": "PHRT: A Model and Programmable Tool for Hardware Reengineering Automation",
             "Type": "Short Paper",
             "Key": "fse13doctoral-doc1-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DOleg+Nenashev+%22PHRT%3A+A+Model+and+Programmable+Tool+for+Hardware+Reengineering+Automation%C2%A0%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DOleg+Nenashev+%22PHRT%3A+A+Model+and+Programmable+Tool+for+Hardware+Reengineering+Automation%22",
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Oleg Nenashev",
@@ -2103,10 +2103,10 @@
             "Award": ""
         },
         {
-            "Title": "Towards Open Architecture System ",
+            "Title": "Towards Open Architecture System",
             "Type": "Short Paper",
             "Key": "fse13doctoral-doc4-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBahtijar+Vogel+%22Towards+Open+Architecture+System%C2%A0%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBahtijar+Vogel+%22Towards+Open+Architecture+System%22",
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Bahtijar Vogel",
@@ -2164,12 +2164,12 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Steven Fraser, Luciano Baresi, Carlo Alberto Furia, Georges Gonthier, Jane Cleland-Huang, Paola Inverardi, and Moshe Vardi",
-            "AffiliationsString": "CISCO, USA; Politecnico di Milano, Italy; ETH Zurich, Switzerland; MSR, UK; DePaul University, USA; University of L’Aquila, USA; Rice University, USA",
+            "AffiliationsString": "CISCO, USA; Politecnico di Milano, Italy; ETH Zurich, Switzerland; Microsoft Research, UK; DePaul University, USA; University of L’Aquila, USA; Rice University, USA",
             "Authors": [
                 "Steven Fraser @ CISCO, USA",
                 "Luciano Baresi @ Politecnico di Milano, Italy",
                 "Carlo Alberto Furia @ ETH Zurich, Switzerland",
-                "Georges Gonthier @ MSR, UK",
+                "Georges Gonthier @ Microsoft Research, UK",
                 "Jane Cleland-Huang @ DePaul University, USA",
                 "Paola Inverardi @ University of L’Aquila, USA",
                 "Moshe Vardi @ Rice University, USA"
@@ -2178,7 +2178,7 @@
                 "CISCO, USA",
                 "Politecnico di Milano, Italy",
                 "ETH Zurich, Switzerland",
-                "MSR, UK",
+                "Microsoft Research, UK",
                 "DePaul University, USA",
                 "University of L’Aquila, USA",
                 "Rice University, USA"
@@ -3131,8 +3131,8 @@
         },
         {
             "Name": "Yosuke Bando",
-            "Affiliation": "Toshiba, Japan",
-            "Key": "Yosuke Bando @ Toshiba, Japan",
+            "Affiliation": "Massachusetts Institute of Technology, USA / Toshiba, Japan",
+            "Key": "Yosuke Bando @ Massachusetts Institute of Technology, USA / Toshiba, Japan",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3151,8 +3151,8 @@
         },
         {
             "Name": "Paulo Barros",
-            "Affiliation": "UFPE, Brazil",
-            "Key": "Paulo Barros @ UFPE, Brazil",
+            "Affiliation": "Federal University of Pernambuco, Brazil",
+            "Key": "Paulo Barros @ Federal University of Pernambuco, Brazil",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3260,9 +3260,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Johannes Borgstrom",
+            "Name": "Johannes Borgström",
             "Affiliation": "Uppsala University, Sweden",
-            "Key": "Johannes Borgstrom @ Uppsala University, Sweden",
+            "Key": "Johannes Borgström @ Uppsala University, Sweden",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3311,8 +3311,8 @@
         },
         {
             "Name": "Yuriy Brun",
-            "Affiliation": "University of Massachusetts, USA",
-            "Key": "Yuriy Brun @ University of Massachusetts, USA",
+            "Affiliation": "University of Massachusetts at Amherst, USA",
+            "Key": "Yuriy Brun @ University of Massachusetts at Amherst, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3450,9 +3450,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Andrew Costa",
+            "Name": "Andrew Diniz da Costa",
             "Affiliation": "PUC-Rio, Brazil",
-            "Key": "Andrew Costa @ PUC-Rio, Brazil",
+            "Key": "Andrew Diniz da Costa @ PUC-Rio, Brazil",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3481,8 +3481,8 @@
         },
         {
             "Name": "Marcelo d'Amorim",
-            "Affiliation": "UFPE, Brazil",
-            "Key": "Marcelo d'Amorim @ UFPE, Brazil",
+            "Affiliation": "Federal University of Pernambuco, Brazil",
+            "Key": "Marcelo d'Amorim @ Federal University of Pernambuco, Brazil",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3500,9 +3500,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Thijmen De Gooijer",
+            "Name": "Thijmen de Gooijer",
             "Affiliation": "ABB Research, Sweden",
-            "Key": "Thijmen De Gooijer @ ABB Research, Sweden",
+            "Key": "Thijmen de Gooijer @ ABB Research, Sweden",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3523,6 +3523,16 @@
             "Name": "Edouard Delfosse",
             "Affiliation": "University of Namur, Belgium",
             "Key": "Edouard Delfosse @ University of Namur, Belgium",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Carlos José Pereira de Lucena",
+            "Affiliation": "PUC-Rio, Brazil",
+            "Key": "Carlos José Pereira de Lucena @ PUC-Rio, Brazil",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3590,9 +3600,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Nicholas Digiuseppe",
+            "Name": "Nicholas DiGiuseppe",
             "Affiliation": "UC Irvine, USA",
-            "Key": "Nicholas Digiuseppe @ UC Irvine, USA",
+            "Key": "Nicholas DiGiuseppe @ UC Irvine, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3701,8 +3711,8 @@
         },
         {
             "Name": "Clement Escoffier",
-            "Affiliation": "Dynamis Technologies, France / Grenoble University, France",
-            "Key": "Clement Escoffier @ Dynamis Technologies, France / Grenoble University, France",
+            "Affiliation": "Grenoble University, France",
+            "Key": "Clement Escoffier @ Grenoble University, France",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3730,9 +3740,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Yishai A. Feldman",
+            "Name": "Yishai Feldman",
             "Affiliation": "IBM Research, Israel",
-            "Key": "Yishai A. Feldman @ IBM Research, Israel",
+            "Key": "Yishai Feldman @ IBM Research, Israel",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3880,9 +3890,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Miguel Gomez-Zamalloa",
+            "Name": "Miguel Gómez-Zamalloa",
             "Affiliation": "Complutense University of Madrid, Spain",
-            "Key": "Miguel Gomez-Zamalloa @ Complutense University of Madrid, Spain",
+            "Key": "Miguel Gómez-Zamalloa @ Complutense University of Madrid, Spain",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3910,19 +3920,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Georges Gonthier",
-            "Affiliation": "MSR, UK",
-            "Key": "Georges Gonthier @ MSR, UK",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Andrew Gordon",
+            "Name": "Andrew D. Gordon",
             "Affiliation": "Microsoft Research, UK",
-            "Key": "Andrew Gordon @ Microsoft Research, UK",
+            "Key": "Andrew D. Gordon @ Microsoft Research, UK",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4043,6 +4043,16 @@
             "Name": "Hammad Hashmi",
             "Affiliation": "Microsoft, USA",
             "Key": "Hammad Hashmi @ Microsoft, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Chris Hawblitzel",
+            "Affiliation": "Microsoft, USA",
+            "Key": "Chris Hawblitzel @ Microsoft, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4330,9 +4340,19 @@
             "URLgs": ""
         },
         {
-            "Name": "Shuvendu Lahiri",
+            "Name": "Shuvendu K. Lahiri",
+            "Affiliation": "Microsoft, USA",
+            "Key": "Shuvendu K. Lahiri @ Microsoft, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shuvendu K. Lahiri",
             "Affiliation": "Microsoft Research, USA",
-            "Key": "Shuvendu Lahiri @ Microsoft Research, USA",
+            "Key": "Shuvendu K. Lahiri @ Microsoft Research, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4520,16 +4540,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Carlos José Lucena",
-            "Affiliation": "PUC-Rio, Brazil",
-            "Key": "Carlos José Lucena @ PUC-Rio, Brazil",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Aravind Machiry",
             "Affiliation": "Georgia Tech, USA",
             "Key": "Aravind Machiry @ Georgia Tech, USA",
@@ -4571,8 +4581,8 @@
         },
         {
             "Name": "Alessandro Marchetto",
-            "Affiliation": "Centro Ricerche Fiat, Italy",
-            "Key": "Alessandro Marchetto @ Centro Ricerche Fiat, Italy",
+            "Affiliation": "Fondazione Bruno Kessler, Italy",
+            "Key": "Alessandro Marchetto @ Fondazione Bruno Kessler, Italy",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4591,8 +4601,8 @@
         },
         {
             "Name": "Darko Marinov",
-            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
-            "Key": "Darko Marinov @ University of Illinois at Urbana-Champaign, USA",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA / Groupon, USA",
+            "Key": "Darko Marinov @ University of Illinois at Urbana-Champaign, USA / Groupon, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4600,9 +4610,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Ken Mcmillan",
+            "Name": "Kenneth L. McMillan",
             "Affiliation": "Microsoft Research, USA",
-            "Key": "Ken Mcmillan @ Microsoft Research, USA",
+            "Key": "Kenneth L. McMillan @ Microsoft Research, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4651,8 +4661,8 @@
         },
         {
             "Name": "Alexandra Meliou",
-            "Affiliation": "University of Massachusetts, USA",
-            "Key": "Alexandra Meliou @ University of Massachusetts, USA",
+            "Affiliation": "University of Massachusetts at Amherst, USA",
+            "Key": "Alexandra Meliou @ University of Massachusetts at Amherst, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4770,9 +4780,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Anh Nguyen",
+            "Name": "Anh Tuan Nguyen",
             "Affiliation": "Iowa State University, USA",
-            "Key": "Anh Nguyen @ Iowa State University, USA",
+            "Key": "Anh Tuan Nguyen @ Iowa State University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4780,9 +4790,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Cu Duy Nguyen",
+            "Name": "Cu D. Nguyen",
             "Affiliation": "Fondazione Bruno Kessler, Italy",
-            "Key": "Cu Duy Nguyen @ Fondazione Bruno Kessler, Italy",
+            "Key": "Cu D. Nguyen @ Fondazione Bruno Kessler, Italy",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4830,9 +4840,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Aditya Nori",
+            "Name": "Aditya V. Nori",
             "Affiliation": "Microsoft Research, India",
-            "Key": "Aditya Nori @ Microsoft Research, India",
+            "Key": "Aditya V. Nori @ Microsoft Research, India",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4941,8 +4951,8 @@
         },
         {
             "Name": "Mauro Pezzè",
-            "Affiliation": "University of Milano-Bicocca, Italy",
-            "Key": "Mauro Pezzè @ University of Milano-Bicocca, Italy",
+            "Affiliation": "University of Milano-Bicocca, Italy / University of Lugano, Switzerland",
+            "Key": "Mauro Pezzè @ University of Milano-Bicocca, Italy / University of Lugano, Switzerland",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5030,9 +5040,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Sriram Rajamani",
+            "Name": "Sriram K. Rajamani",
             "Affiliation": "Microsoft Research, India",
-            "Key": "Sriram Rajamani @ Microsoft Research, India",
+            "Key": "Sriram K. Rajamani @ Microsoft Research, India",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5120,9 +5130,9 @@
             "URLgs": ""
         },
         {
-            "Name": "David Rosenblum",
+            "Name": "David S. Rosenblum",
             "Affiliation": "National University of Singapore, Singapore",
-            "Key": "David Rosenblum @ National University of Singapore, Singapore",
+            "Key": "David S. Rosenblum @ National University of Singapore, Singapore",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5151,8 +5161,8 @@
         },
         {
             "Name": "Julia Rubin",
-            "Affiliation": "IBM Research, Israel",
-            "Key": "Julia Rubin @ IBM Research, Israel",
+            "Affiliation": "IBM Research, Israel / University of Toronto, Canada",
+            "Key": "Julia Rubin @ IBM Research, Israel / University of Toronto, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5210,9 +5220,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Ripon Saha",
+            "Name": "Ripon K. Saha",
             "Affiliation": "University of Texas at Austin, USA",
-            "Key": "Ripon Saha @ University of Texas at Austin, USA",
+            "Key": "Ripon K. Saha @ University of Texas at Austin, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5331,8 +5341,8 @@
         },
         {
             "Name": "Sabrina Souto",
-            "Affiliation": "UFPE, Brazil",
-            "Key": "Sabrina Souto @ UFPE, Brazil",
+            "Affiliation": "Federal University of Pernambuco, Brazil",
+            "Key": "Sabrina Souto @ Federal University of Pernambuco, Brazil",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5580,6 +5590,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Haisheng Wang",
+            "Affiliation": "University of Illinois at Chicago, USA / Oracle, USA",
+            "Key": "Haisheng Wang @ University of Illinois at Chicago, USA / Oracle, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Qi Wang",
             "Affiliation": "Shanghai Jiao Tong University, China",
             "Key": "Qi Wang @ Shanghai Jiao Tong University, China",
@@ -5611,8 +5631,8 @@
         },
         {
             "Name": "Konosuke Watanabe",
-            "Affiliation": "Toshiba, Japan",
-            "Key": "Konosuke Watanabe @ Toshiba, Japan",
+            "Affiliation": "Massachusetts Institute of Technology, USA / Toshiba, Japan",
+            "Key": "Konosuke Watanabe @ Massachusetts Institute of Technology, USA / Toshiba, Japan",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5650,19 +5670,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Peter Wong",
-            "Affiliation": "Fredhopper, Netherlands",
-            "Key": "Peter Wong @ Fredhopper, Netherlands",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Chun Wah Wallace Wu",
-            "Affiliation": "University of Waterloo, Canada",
-            "Key": "Chun Wah Wallace Wu @ University of Waterloo, Canada",
+            "Name": "Peter Y. H. Wong",
+            "Affiliation": "SLD Fredhopper, Netherlands",
+            "Key": "Peter Y. H. Wong @ SLD Fredhopper, Netherlands",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5673,6 +5683,16 @@
             "Name": "Jingyue Wu",
             "Affiliation": "Columbia University, USA",
             "Key": "Jingyue Wu @ Columbia University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Wallace Wu",
+            "Affiliation": "University of Waterloo, Canada",
+            "Key": "Wallace Wu @ University of Waterloo, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5781,8 +5801,8 @@
         },
         {
             "Name": "Hongyu Zhang",
-            "Affiliation": "Tsinghua University, China",
-            "Key": "Hongyu Zhang @ Tsinghua University, China",
+            "Affiliation": "Tsinghua University, China / ISCAS, China",
+            "Key": "Hongyu Zhang @ Tsinghua University, China / ISCAS, China",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5801,8 +5821,8 @@
         },
         {
             "Name": "Yizhou Zhang",
-            "Affiliation": "Shanghai Jiao Tong University, China",
-            "Key": "Yizhou Zhang @ Shanghai Jiao Tong University, China",
+            "Affiliation": "Shanghai Jiao Tong University, China / Cornell University, USA",
+            "Key": "Yizhou Zhang @ Shanghai Jiao Tong University, China / Cornell University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5871,8 +5891,8 @@
         },
         {
             "Name": "Andrea Zisman",
-            "Affiliation": "City University London, UK",
-            "Key": "Andrea Zisman @ City University London, UK",
+            "Affiliation": "Open University, UK",
+            "Key": "Andrea Zisman @ Open University, UK",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
