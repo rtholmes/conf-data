@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1374606684,
+    "DataRevision": 1375511100,
     "Preliminary": true,
     "Event": "ESEC/FSE 2013",
     "Name": "ESEC/FSE 2013",
@@ -60,13 +60,13 @@
             "Title": "A Logical Revolution (Keynote)",
             "Type": "Keynote",
             "Key": "fse13keynotes-k1-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMoshe+Vardi+%22A+Logical+Revolution+%28Keynote%29%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMoshe+Y.+Vardi+%22A+Logical+Revolution+%28Keynote%29%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Moshe Vardi",
+            "PersonsString": "Moshe Y. Vardi",
             "AffiliationsString": "Rice University, USA",
             "Authors": [
-                "Moshe Vardi @ Rice University, USA"
+                "Moshe Y. Vardi @ Rice University, USA"
             ],
             "Affiliations": [
                 "Rice University, USA"
@@ -116,6 +116,98 @@
                 "Microsoft Research, UK"
             ],
             "Abstract": "Since Turing, we have wanted to use computers to store, process, and check mathematics. However even with the assistance of modern software tools, the formalization of research-level mathematics remains a daunting task, not least because of the talent with which working mathematicians combine diverse theories to achieve their ends. By drawing on tools and techniques from type theory, language design, and software engineering we captured enough of these practices to formalize the proof of the Odd Order theorem, a landmark result in Group Theory, which ultimately lead to the monumental Classification of finite simple groups. This involved recasting the software component concept in the setting of higher-order, higher-kinded Type Theory to create a library of mathematical components covering most of the undergraduate Algebra and graduate Group Theory syllabus. This library then allowed us to write a formal proof comparable in size and abstraction level to the 250-page textbook proof of the Odd Order theorem.",
+            "Award": ""
+        },
+        {
+            "Title": "Empirical Answers to Fundamental Software Engineering Problems (Panel)",
+            "Type": "Panel",
+            "Key": "fse13panels-p1-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBertrand+Meyer%2C+Harald+Gall%2C+Mark+Harman%2C+and+Giancarlo+Succi+%22Empirical+Answers+to+Fundamental+Software+Engineering+Problems+%28Panel%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Bertrand Meyer, Harald Gall, Mark Harman, and Giancarlo Succi",
+            "AffiliationsString": "ETH Zurich, Switzerland; ITMO, Russia; Eiffel Software, Switzerland; University of Zurich, Switzerland; University College London, UK; Microsoft Research, UK; Free University of Bozen, Italy",
+            "Authors": [
+                "Bertrand Meyer @ ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, Switzerland",
+                "Harald Gall @ University of Zurich, Switzerland",
+                "Mark Harman @ University College London, UK / Microsoft Research, UK",
+                "Giancarlo Succi @ Free University of Bozen, Italy"
+            ],
+            "Affiliations": [
+                "ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, Switzerland",
+                "University of Zurich, Switzerland",
+                "University College London, UK / Microsoft Research, UK",
+                "Free University of Bozen, Italy"
+            ],
+            "Abstract": "Can the methods of empirical software engineering give us answers to the truly important open questions in the field?",
+            "Award": ""
+        },
+        {
+            "Title": "A Publication Culture in Software Engineering (Panel)",
+            "Type": "Panel",
+            "Key": "fse13panels-p2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSteven+Fraser%2C+Luciano+Baresi%2C+Jane+Cleland-Huang%2C+Carlo+A.+Furia%2C+Georges+Gonthier%2C+Paola+Inverardi%2C+and+Moshe+Y.+Vardi+%22A+Publication+Culture+in+Software+Engineering+%28Panel%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Steven Fraser, Luciano Baresi, Jane Cleland-Huang, Carlo A. Furia, Georges Gonthier, Paola Inverardi, and Moshe Y. Vardi",
+            "AffiliationsString": "CISCO, USA; Politecnico di Milano, Italy; DePaul University, USA; ETH Zurich, Switzerland; Microsoft Research, UK; University of L’Aquila, USA; Rice University, USA",
+            "Authors": [
+                "Steven Fraser @ CISCO, USA",
+                "Luciano Baresi @ Politecnico di Milano, Italy",
+                "Jane Cleland-Huang @ DePaul University, USA",
+                "Carlo A. Furia @ ETH Zurich, Switzerland",
+                "Georges Gonthier @ Microsoft Research, UK",
+                "Paola Inverardi @ University of L’Aquila, USA",
+                "Moshe Y. Vardi @ Rice University, USA"
+            ],
+            "Affiliations": [
+                "CISCO, USA",
+                "Politecnico di Milano, Italy",
+                "DePaul University, USA",
+                "ETH Zurich, Switzerland",
+                "Microsoft Research, UK",
+                "University of L’Aquila, USA",
+                "Rice University, USA"
+            ],
+            "Abstract": "This panel will discuss what characterizes the publication process in the software engineering community and debate how it serves the needs of the community, whether it is fair - e.g. valuable work gets published and mediocre work rejected - and highlight the obstacles for young scientists. The panel will conclude with a discussion on suggested next steps.",
+            "Award": ""
+        },
+        {
+            "Title": "Software Engineering in Russia and Abroad (Panel)",
+            "Type": "Panels",
+            "Key": "FSE13PANELS @  : Software Engineering in Russia and Abroad (Panel)",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSE13PANELS",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSE13PANELS @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Artifact Evaluation (Summary)",
+            "Type": "Summary",
+            "Key": "fse13misc-p4-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAlexandre+Bergel+and+Lorenzo+Bettini+%22Artifact+Evaluation+%28Summary%29%22",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Fpleiad.cl%2Fevents%2Fworkshops%2Fesecfse2013",
+            "PersonsString": "Alexandre Bergel and Lorenzo Bettini",
+            "AffiliationsString": "University of Chile, Chile; Università di Torino, Italy",
+            "Authors": [
+                "Alexandre Bergel @ University of Chile, Chile",
+                "Lorenzo Bettini @ Università di Torino, Italy"
+            ],
+            "Affiliations": [
+                "University of Chile, Chile",
+                "Università di Torino, Italy"
+            ],
+            "Abstract": "The artifact evaluation committee (AEC) is in charge of evaluating data and software that accompany papers accepted at the ESEC/FSE'13 research track. Authors of more than 40% of the accepted papers have submitted an artifact (22 out of the 51 accepted papers). The AEC has positively evaluated more than 50% of the submitted artifacts. 12 out of the 22 artifacts have been graded as ``met expectations'' or ``exceeded expectations''.",
             "Award": ""
         },
         {
@@ -840,7 +932,7 @@
             "Title": "Identifying Message Flow in Distributed Event-Based Systems",
             "Type": "Full Paper",
             "Key": "fse13main-id248-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJoshua+Garcia%2C+Daniel+Popescu%2C+Gholamreza+Safi%2C+William+G.+J.+Halfond%2C+and+Nenad+Medvidovic+%22Identifying+Message+Flow+in+Distributed+Event-Based+Systems%22",
+            "URL": "http%3A%2F%2Fsoftarch.usc.edu%2F%7Ejosh%2Fpubs%2Fesec_fse_eos.pdf",
             "URLvideo": "",
             "URLinfo": "http%3A%2F%2Fsoftarch.usc.edu%2Fwiki%2Fdoku.php%3Fid%3Dmfa%3Astart",
             "PersonsString": "Joshua Garcia, Daniel Popescu, Gholamreza Safi, William G. J. Halfond, and Nenad Medvidovic",
@@ -2070,7 +2162,7 @@
             "Title": "Using Topic Models to Understand the Evolution of a Software Ecosystem",
             "Type": "Short Paper",
             "Key": "fse13doctoral-doc7-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNicolas+Lopez+%22Using+Topic+Models+to+Understand+the+Evolution+of+a+Software+Ecosystem%22",
+            "URL": "http%3A%2F%2Fwww.ics.uci.edu%2F%7Enlopezgi%2Funpublished%2Fdsfse13_nlopezgi.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Nicolas Lopez",
@@ -2139,73 +2231,484 @@
             "Award": ""
         },
         {
-            "Title": "Empirical Answers to Fundamental Software Engineering Problems (Panel)",
-            "Type": "Panel",
-            "Key": "fse13panels-p1-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBertrand+Meyer+%22Empirical+Answers+to+Fundamental+Software+Engineering+Problems+%28Panel%29%22",
+            "Title": "Using Continuous Prediction and Tradeoffs to Achieve Project Success",
+            "Type": "Tutorial",
+            "Key": "Murray Cantor; Peri Tarr @  : Using Continuous Prediction and Tradeoffs to Achieve Project Success",
+            "URL": "",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Bertrand Meyer",
-            "AffiliationsString": "ETH Zurich, Switzerland; ITMO, Russia",
+            "PersonsString": "Murray Cantor and Peri Tarr",
+            "AffiliationsString": "",
             "Authors": [
-                "Bertrand Meyer @ ETH Zurich, Switzerland / ITMO, Russia"
+                "Murray Cantor @",
+                "Peri Tarr @"
             ],
             "Affiliations": [
-                "ETH Zurich, Switzerland / ITMO, Russia"
+                ""
             ],
             "Abstract": "",
             "Award": ""
         },
         {
-            "Title": "A Publication Culture in Software Engineering (Panel)",
-            "Type": "Panel",
-            "Key": "fse13panels-p2-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSteven+Fraser%2C+Luciano+Baresi%2C+Carlo+Alberto+Furia%2C+Georges+Gonthier%2C+Jane+Cleland-Huang%2C+Paola+Inverardi%2C+and+Moshe+Vardi+%22A+Publication+Culture+in+Software+Engineering+%28Panel%29%22",
+            "Title": "Software Engineering for Mobile Apps: Research Accomplishments and Future Challenges",
+            "Type": "Tutorial",
+            "Key": "Emad Shihab; Ahmed E. Hassan @  : Software Engineering for Mobile Apps: Research Accomplishments and Future Challenges",
+            "URL": "",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Steven Fraser, Luciano Baresi, Carlo Alberto Furia, Georges Gonthier, Jane Cleland-Huang, Paola Inverardi, and Moshe Vardi",
-            "AffiliationsString": "CISCO, USA; Politecnico di Milano, Italy; ETH Zurich, Switzerland; Microsoft Research, UK; DePaul University, USA; University of L’Aquila, USA; Rice University, USA",
+            "PersonsString": "Emad Shihab and Ahmed E. Hassan",
+            "AffiliationsString": "",
             "Authors": [
-                "Steven Fraser @ CISCO, USA",
-                "Luciano Baresi @ Politecnico di Milano, Italy",
-                "Carlo Alberto Furia @ ETH Zurich, Switzerland",
-                "Georges Gonthier @ Microsoft Research, UK",
-                "Jane Cleland-Huang @ DePaul University, USA",
-                "Paola Inverardi @ University of L’Aquila, USA",
-                "Moshe Vardi @ Rice University, USA"
+                "Emad Shihab @",
+                "Ahmed E. Hassan @"
             ],
             "Affiliations": [
-                "CISCO, USA",
-                "Politecnico di Milano, Italy",
-                "ETH Zurich, Switzerland",
-                "Microsoft Research, UK",
-                "DePaul University, USA",
-                "University of L’Aquila, USA",
-                "Rice University, USA"
+                ""
             ],
-            "Abstract": "This panel will discuss what characterizes the publication process in the software engineering community and debate how it serves the needs of the community, whether it is fair - e.g. valuable work gets published and mediocre work rejected - and highlight the obstacles for young scientists. The panel will conclude with a discussion on suggested next steps.",
+            "Abstract": "",
             "Award": ""
         },
         {
-            "Title": "Software Engineering in Russia and Abroad (Panel)",
-            "Type": "Panel",
-            "Key": "fse13panels-p3-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNick+Puntikov+%22Software+Engineering+in+Russia+and+Abroad+%28Panel%29%22",
+            "Title": "Statistics in Software Engineering: Pitfalls and Good Practices",
+            "Type": "Tutorial",
+            "Key": "Audris Mockus; Ahmed E. Hassan; Meiyappan Nagappan @  : Statistics in Software Engineering: Pitfalls and Good Practices",
+            "URL": "",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Nick Puntikov",
-            "AffiliationsString": "CEE-SECR, Russia",
+            "PersonsString": "Audris Mockus, Ahmed E. Hassan, and Meiyappan Nagappan",
+            "AffiliationsString": "",
             "Authors": [
-                "Nick Puntikov @ CEE-SECR, Russia"
+                "Audris Mockus @",
+                "Ahmed E. Hassan @",
+                "Meiyappan Nagappan @"
             ],
             "Affiliations": [
-                "CEE-SECR, Russia"
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Symbolic Execution For Program Debugging and Repair",
+            "Type": "Tutorial",
+            "Key": "Abhik Roychoudhury; Satish Chandra @  : Symbolic Execution For Program Debugging and Repair",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Abhik Roychoudhury and Satish Chandra",
+            "AffiliationsString": "",
+            "Authors": [
+                "Abhik Roychoudhury @",
+                "Satish Chandra @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Git & GitHub Foundations for Educators",
+            "Type": "Tutorial",
+            "Key": "John Britton @  : Git &amp; GitHub Foundations for Educators",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "John Britton",
+            "AffiliationsString": "",
+            "Authors": [
+                "John Britton @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Energy-Aware and Energy-Efficient Software",
+            "Type": "Tutorial",
+            "Key": "Yu David Liu @  : Energy-Aware and Energy-Efficient Software",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Yu David Liu",
+            "AffiliationsString": "",
+            "Authors": [
+                "Yu David Liu @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Do's and Don'ts for Empirical Software Engineering: Three different perspectives",
+            "Type": "Tutorial",
+            "Key": "Massimiliano Di Penta; Jens Knodel; Carl Worms @  : Do&#039;s and Don&#039;ts for Empirical Software Engineering: Three different perspectives",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Massimiliano Di Penta, Jens Knodel, and Carl Worms",
+            "AffiliationsString": "",
+            "Authors": [
+                "Massimiliano Di Penta @",
+                "Jens Knodel @",
+                "Carl Worms @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Awards and Closing",
+            "Type": "Plenary",
+            "Key": "FSE13 @  : Awards and Closing",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSE13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSE13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Welcome Reception",
+            "Type": "Social",
+            "Key": "FSE13 @  : Welcome Reception",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSE13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSE13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Opening",
+            "Type": "Plenary",
+            "Key": "FSE13 @  : Opening",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSE13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSE13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "SSE",
+            "Type": "Workshop",
+            "Key": "FSEWS13 @  : SSE",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "IWPSE",
+            "Type": "Workshop",
+            "Key": "FSEWS13 @  : IWPSE",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "IWPSE",
+            "Type": "Workshop",
+            "Key": "FSEWS13 @  : IWPSE",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "MUSEPAT",
+            "Type": "Workshop",
+            "Key": "FSEWS13 @  : MUSEPAT",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "MUSEPAT",
+            "Type": "Workshop",
+            "Key": "FSEWS13 @  : MUSEPAT",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "DeMobile",
+            "Type": "Workshop",
+            "Key": "FSEWS13 @  : DeMobile",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "WEA",
+            "Type": "Workshop",
+            "Key": "FSEWS13 @  : WEA",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "SSBSE",
+            "Type": "Workshop",
+            "Key": "FSEWS13 @  : SSBSE",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "SSBSE",
+            "Type": "Workshop",
+            "Key": "FSEWS13 @  : SSBSE",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "SSBSE",
+            "Type": "Workshop",
+            "Key": "FSEWS13 @  : SSBSE",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
             ],
             "Abstract": "",
             "Award": ""
         }
     ],
     "Sessions": [
+        {
+            "Id": "Al3eiqu6Ai",
+            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "ShortTitle": "SSE",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2013-08-18 09:30 SSE",
+            "Day": "2013-08-18",
+            "Time": "09:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "9",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : SSE"
+            ]
+        },
+        {
+            "Id": "oiPh3af9oh",
+            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "ShortTitle": "WEA",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2013-08-19 09:30 WEA",
+            "Day": "2013-08-19",
+            "Time": "09:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "9",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : WEA"
+            ]
+        },
+        {
+            "Id": "Thuxua9iej",
+            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "ShortTitle": "MUSEPAT",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2013-08-19 09:30 MUSEPAT",
+            "Day": "2013-08-19",
+            "Time": "09:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "9",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : MUSEPAT"
+            ]
+        },
+        {
+            "Id": "veeGi5Shie",
+            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "ShortTitle": "DeMobile",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2013-08-19 09:30 DeMobile",
+            "Day": "2013-08-19",
+            "Time": "09:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "9",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : DeMobile"
+            ]
+        },
+        {
+            "Id": "vohyees3Ci",
+            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "ShortTitle": "IWPSE",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2013-08-19 14:30 IWPSE",
+            "Day": "2013-08-19",
+            "Time": "14:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "9",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : IWPSE"
+            ]
+        },
         {
             "Id": "ahx5wae9Th",
             "Title": "Doctoral Papers 1",
@@ -2227,6 +2730,94 @@
             "Items": [
                 "fse13doctoral-doc3-p",
                 "fse13doctoral-doc2-p"
+            ]
+        },
+        {
+            "Id": "doaPh9iu0o",
+            "Title": "Using Continuous Prediction and Tradeoffs to Achieve Project Success",
+            "ShortTitle": "Using Continuous Prediction and Tradeoffs to Achieve Project Success",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2013-08-20 09:30 Using Continuous Prediction and Tradeoffs to Achieve Project Success",
+            "Day": "2013-08-20",
+            "Time": "09:30 - 11:00",
+            "Location": "",
+            "LocationIndex": "7",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "FSE13",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "Murray Cantor; Peri Tarr @  : Using Continuous Prediction and Tradeoffs to Achieve Project Success"
+            ]
+        },
+        {
+            "Id": "ohduC5loh9",
+            "Title": "Software Engineering for Mobile Apps: Research Accomplishments and Future Challenges",
+            "ShortTitle": "Software Engineering for Mobile Apps: Research Accomplishments and Future Challenges",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2013-08-20 09:30 Software Engineering for Mobile Apps: Research Accomplishments and Future Challenges",
+            "Day": "2013-08-20",
+            "Time": "09:30 - 11:00",
+            "Location": "",
+            "LocationIndex": "7",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "FSE13",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "Emad Shihab; Ahmed E. Hassan @  : Software Engineering for Mobile Apps: Research Accomplishments and Future Challenges"
+            ]
+        },
+        {
+            "Id": "bohZ3Oor9w",
+            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "ShortTitle": "MUSEPAT",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2013-08-20 09:30 MUSEPAT",
+            "Day": "2013-08-20",
+            "Time": "09:30 - 13:00",
+            "Location": "",
+            "LocationIndex": "9",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : MUSEPAT"
+            ]
+        },
+        {
+            "Id": "ruKooj8aaZ",
+            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "ShortTitle": "IWPSE",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2013-08-20 09:30 IWPSE",
+            "Day": "2013-08-20",
+            "Time": "09:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "9",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : IWPSE"
             ]
         },
         {
@@ -2253,6 +2844,28 @@
             ]
         },
         {
+            "Id": "quaeT2ahbi",
+            "Title": "Statistics in Software Engineering: Pitfalls and Good Practices",
+            "ShortTitle": "Statistics in Software Engineering: Pitfalls and Good Practices",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2013-08-20 11:30 Statistics in Software Engineering: Pitfalls and Good Practices",
+            "Day": "2013-08-20",
+            "Time": "11:30 - 13:00",
+            "Location": "",
+            "LocationIndex": "7",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "FSE13",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "Audris Mockus; Ahmed E. Hassan; Meiyappan Nagappan @  : Statistics in Software Engineering: Pitfalls and Good Practices"
+            ]
+        },
+        {
             "Id": "aLai5NaiTh",
             "Title": "Doctoral Papers 3",
             "ShortTitle": "Doctoral Papers 3",
@@ -2276,6 +2889,50 @@
             ]
         },
         {
+            "Id": "ahmeLul1Ie",
+            "Title": "Git &amp; GitHub Foundations for Educators",
+            "ShortTitle": "Git &amp; GitHub Foundations for Educators",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2013-08-20 14:30 Git &amp; GitHub Foundations for Educators",
+            "Day": "2013-08-20",
+            "Time": "14:30 - 16:00",
+            "Location": "",
+            "LocationIndex": "7",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "FSE13",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "John Britton @  : Git &amp; GitHub Foundations for Educators"
+            ]
+        },
+        {
+            "Id": "bai9ohxaPh",
+            "Title": "Symbolic Execution For Program Debugging and Repair",
+            "ShortTitle": "Symbolic Execution For Program Debugging and Repair",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2013-08-20 14:30 Symbolic Execution For Program Debugging and Repair",
+            "Day": "2013-08-20",
+            "Time": "14:30 - 16:00",
+            "Location": "",
+            "LocationIndex": "7",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "FSE13",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "Abhik Roychoudhury; Satish Chandra @  : Symbolic Execution For Program Debugging and Repair"
+            ]
+        },
+        {
             "Id": "Ooyai6phoh",
             "Title": "Doctoral Papers 4",
             "ShortTitle": "Doctoral Papers 4",
@@ -2295,6 +2952,94 @@
             "Abstract": "",
             "Items": [
                 "fse13doctoral-doc8-p"
+            ]
+        },
+        {
+            "Id": "eiba5Iecef",
+            "Title": "Do&#039;s and Don&#039;ts for Empirical Software Engineering: Three different perspectives",
+            "ShortTitle": "Do&#039;s and Don&#039;ts for Empirical Software Engineering: Three different perspectives",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2013-08-20 16:30 Do&#039;s and Don&#039;ts for Empirical Software Engineering: Three different perspectives",
+            "Day": "2013-08-20",
+            "Time": "16:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "7",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "FSE13",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "Massimiliano Di Penta; Jens Knodel; Carl Worms @  : Do&#039;s and Don&#039;ts for Empirical Software Engineering: Three different perspectives"
+            ]
+        },
+        {
+            "Id": "quee5cuCh0",
+            "Title": "Energy-Aware and Energy-Efficient Software",
+            "ShortTitle": "Energy-Aware and Energy-Efficient Software",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2013-08-20 16:30 Energy-Aware and Energy-Efficient Software",
+            "Day": "2013-08-20",
+            "Time": "16:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "7",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "FSE13",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "Yu David Liu @  : Energy-Aware and Energy-Efficient Software"
+            ]
+        },
+        {
+            "Id": "Eij0aefiat",
+            "Title": "Welcome Reception",
+            "ShortTitle": "Welcome Reception",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-08-20 18:00 Welcome Reception",
+            "Day": "2013-08-20",
+            "Time": "18:00 - 19:00",
+            "Location": "",
+            "LocationIndex": "8",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSE13 @  : Welcome Reception"
+            ]
+        },
+        {
+            "Id": "eeDah4Ya2j",
+            "Title": "Opening",
+            "ShortTitle": "Opening",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2013-08-21 09:00 Opening",
+            "Day": "2013-08-21",
+            "Time": "09:00 - 09:30",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSE13 @  : Opening"
             ]
         },
         {
@@ -2330,8 +3075,9 @@
             "Time": "11:00 - 12:15",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Elisabetta Di Nitto",
             "Chairs": [
+                "Elisabetta Di Nitto @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2354,8 +3100,9 @@
             "Time": "11:00 - 12:15",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Alessandro Orso",
             "Chairs": [
+                "Alessandro Orso @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2365,6 +3112,30 @@
                 "fse13main-id142-p",
                 "fse13main-id218-p",
                 "fse13main-id95-p"
+            ]
+        },
+        {
+            "Id": "seu9ea7EeJ",
+            "Title": "Implementing Sound Software-Engineering Practices in Companies",
+            "ShortTitle": "Implementing Sound Software-Engineering Practices in Companies",
+            "Type": "Industrial Research",
+            "ShortType": "Industrial Research",
+            "Key": "2013-08-21 11:00 Implementing Sound Software-Engineering Practices in Companies",
+            "Day": "2013-08-21",
+            "Time": "11:00 - 12:15",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13INDUSTRIAL",
+            "Abstract": "",
+            "Items": [
+                "fse13industrial-ind6-p",
+                "fse13industrial-ind9-p",
+                "fse13industrial-ind7-p"
             ]
         },
         {
@@ -2378,8 +3149,9 @@
             "Time": "13:45 - 15:00",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Paola Inverardi",
             "Chairs": [
+                "Paola Inverardi @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2402,8 +3174,9 @@
             "Time": "13:45 - 15:00",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Massimiliano Di Penta",
             "Chairs": [
+                "Massimiliano Di Penta @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2413,6 +3186,30 @@
                 "fse13main-id117-p",
                 "fse13main-id136-p",
                 "fse13main-id50-p"
+            ]
+        },
+        {
+            "Id": "aCheosai6e",
+            "Title": "Approaches to Quality",
+            "ShortTitle": "Approaches to Quality",
+            "Type": "Industrial Research",
+            "ShortType": "Industrial Research",
+            "Key": "2013-08-21 13:45 Approaches to Quality",
+            "Day": "2013-08-21",
+            "Time": "13:45 - 15:00",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13INDUSTRIAL",
+            "Abstract": "",
+            "Items": [
+                "fse13industrial-ind20-p",
+                "fse13industrial-ind11-p",
+                "fse13industrial-ind17-p"
             ]
         },
         {
@@ -2426,8 +3223,9 @@
             "Time": "15:15 - 16:30",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "David Rosenblum",
             "Chairs": [
+                "David Rosenblum @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2450,8 +3248,9 @@
             "Time": "15:15 - 16:30",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Tony Wasserman",
             "Chairs": [
+                "Tony Wasserman @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2461,6 +3260,30 @@
                 "fse13main-id161-p",
                 "fse13main-id163-p",
                 "fse13main-id155-p"
+            ]
+        },
+        {
+            "Id": "Oe3ahNoG8e",
+            "Title": "Effective Industry Use of Software-Engineering Tools",
+            "ShortTitle": "Effective Industry Use of Software-Engineering Tools",
+            "Type": "Industrial Research",
+            "ShortType": "Industrial Research",
+            "Key": "2013-08-21 15:15 Effective Industry Use of Software-Engineering Tools",
+            "Day": "2013-08-21",
+            "Time": "15:15 - 16:30",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13INDUSTRIAL",
+            "Abstract": "",
+            "Items": [
+                "fse13industrial-ind15-p",
+                "fse13industrial-ind8-p",
+                "fse13industrial-ind4-p"
             ]
         },
         {
@@ -2508,6 +3331,28 @@
             ]
         },
         {
+            "Id": "Dei2chahvu",
+            "Title": "Software Engineering in Russia and Abroad (Panel)",
+            "ShortTitle": "Software Engineering in Russia and Abroad (Panel)",
+            "Type": "Panels",
+            "ShortType": "Panels",
+            "Key": "2013-08-22 11:00 Software Engineering in Russia and Abroad (Panel)",
+            "Day": "2013-08-22",
+            "Time": "11:00 - 12:15",
+            "Location": "",
+            "LocationIndex": "5",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13PANELS",
+            "Abstract": "",
+             "Items": [
+                 "FSE13PANELS @  : Software Engineering in Russia and Abroad (Panel)"
+            ]
+        },
+        {
             "Id": "ooloL4Eiw3",
             "Title": "Testing II",
             "ShortTitle": "Testing II",
@@ -2518,8 +3363,9 @@
             "Time": "11:00 - 12:15",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Antonia Bertolino",
             "Chairs": [
+                "Antonia Bertolino @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2532,25 +3378,28 @@
             ]
         },
         {
-            "Id": "Dei2chahvu",
-            "Title": "Software Engineering in Russia and Abroad (Panel)",
-            "ShortTitle": "Software Engineering in Russia and Abroad (Panel)",
-            "Type": "Panels",
-            "ShortType": "Panels",
-            "Key": "fse13panels-p3-p",
+            "Id": "shooMic1ei",
+            "Title": "Analysis and Testing",
+            "ShortTitle": "Analysis and Testing",
+            "Type": "New Ideas",
+            "ShortType": "New Ideas",
+            "Key": "2013-08-22 11:00 Analysis and Testing",
             "Day": "2013-08-22",
             "Time": "11:00 - 12:15",
             "Location": "",
-            "LocationIndex": "5",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "FSE13PANELS",
+            "Comment": "FSE13NEWIDEAS",
             "Abstract": "",
             "Items": [
-                "fse13panels-p3-p"
+                "fse13newideas-nid32-p",
+                "fse13newideas-nid26-p",
+                "fse13newideas-nid30-p",
+                "fse13newideas-nid21-p"
             ]
         },
         {
@@ -2564,8 +3413,9 @@
             "Time": "13:45 - 15:00",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Carlo A. Furia",
             "Chairs": [
+                "Carlo A. Furia @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2588,8 +3438,9 @@
             "Time": "13:45 - 15:00",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Nenad Medvidovic",
             "Chairs": [
+                "Nenad Medvidovic @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2599,6 +3450,31 @@
                 "fse13main-id221-p",
                 "fse13main-id181-p",
                 "fse13main-id108-p"
+            ]
+        },
+        {
+            "Id": "Dee2aechuu",
+            "Title": "Hunting Bugs",
+            "ShortTitle": "Hunting Bugs",
+            "Type": "New Ideas",
+            "ShortType": "New Ideas",
+            "Key": "2013-08-22 13:45 Hunting Bugs",
+            "Day": "2013-08-22",
+            "Time": "13:45 - 15:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13NEWIDEAS",
+            "Abstract": "",
+            "Items": [
+                "fse13newideas-nid18-p",
+                "fse13newideas-nid4-p",
+                "fse13newideas-nid34-p",
+                "fse13newideas-nid11-p"
             ]
         },
         {
@@ -2612,8 +3488,9 @@
             "Time": "15:15 - 16:30",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Ivica Crnkovic",
             "Chairs": [
+                "Ivica Crnkovic @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2636,8 +3513,9 @@
             "Time": "15:15 - 16:30",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Vladimir Itsykson",
             "Chairs": [
+                "Vladimir Itsykson @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2647,6 +3525,31 @@
                 "fse13main-id242-p",
                 "fse13main-id116-p",
                 "fse13main-id217-p"
+            ]
+        },
+        {
+            "Id": "wav1aiKix4",
+            "Title": "Understanding Software Development",
+            "ShortTitle": "Understanding Software Development",
+            "Type": "New Ideas",
+            "ShortType": "New Ideas",
+            "Key": "2013-08-22 15:15 Understanding Software Development",
+            "Day": "2013-08-22",
+            "Time": "15:15 - 16:30",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13NEWIDEAS",
+            "Abstract": "",
+            "Items": [
+                "fse13newideas-nid27-p",
+                "fse13newideas-nid35-p",
+                "fse13newideas-nid12-p",
+                "fse13newideas-nid19-p"
             ]
         },
         {
@@ -2670,6 +3573,25 @@
             "Items": [
                 "fse13panels-p2-p"
             ]
+        },
+        {
+            "Id": "Ro8quieJie",
+            "Title": "Banquet",
+            "ShortTitle": "Banquet",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-08-22 19:15 Banquet",
+            "Day": "2013-08-22",
+            "Time": "19:15 - 21:30",
+            "Location": "",
+            "LocationIndex": "8",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "Music performance starts 19:15; dinner starts 20:30"
         },
         {
             "Id": "chaeKung3p",
@@ -2704,8 +3626,9 @@
             "Time": "11:00 - 12:15",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Marsha Chechik",
             "Chairs": [
+                "Marsha Chechik @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2728,8 +3651,9 @@
             "Time": "11:00 - 12:15",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Wilhelm Schäfer",
             "Chairs": [
+                "Wilhelm Schäfer @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2766,55 +3690,6 @@
             ]
         },
         {
-            "Id": "shooMic1ei",
-            "Title": "Analysis and Testing",
-            "ShortTitle": "Analysis and Testing",
-            "Type": "New Ideas",
-            "ShortType": "New Ideas",
-            "Key": "2013-08-23 11:00 Analysis and Testing",
-            "Day": "2013-08-23",
-            "Time": "11:00 - 12:15",
-            "Location": "",
-            "LocationIndex": "2",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13NEWIDEAS",
-            "Abstract": "",
-            "Items": [
-                "fse13newideas-nid32-p",
-                "fse13newideas-nid26-p",
-                "fse13newideas-nid30-p",
-                "fse13newideas-nid21-p"
-            ]
-        },
-        {
-            "Id": "seu9ea7EeJ",
-            "Title": "Implementing Sound Software-Engineering Practices in Companies",
-            "ShortTitle": "Implementing Sound Software-Engineering Practices in Companies",
-            "Type": "Industrial Research",
-            "ShortType": "Industrial Research",
-            "Key": "2013-08-23 11:00 Implementing Sound Software-Engineering Practices in Companies",
-            "Day": "2013-08-23",
-            "Time": "11:00 - 12:15",
-            "Location": "",
-            "LocationIndex": "3",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13INDUSTRIAL",
-            "Abstract": "",
-            "Items": [
-                "fse13industrial-ind6-p",
-                "fse13industrial-ind9-p",
-                "fse13industrial-ind7-p"
-            ]
-        },
-        {
             "Id": "faegh8Ebuc",
             "Title": "Empirical Studies II",
             "ShortTitle": "Empirical Studies II",
@@ -2825,8 +3700,9 @@
             "Time": "13:45 - 15:00",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Harald Gall",
             "Chairs": [
+                "Harald Gall @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2849,8 +3725,9 @@
             "Time": "13:45 - 15:00",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Bara Buhnova",
             "Chairs": [
+                "Bara Buhnova @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2888,55 +3765,6 @@
             ]
         },
         {
-            "Id": "Dee2aechuu",
-            "Title": "Hunting Bugs",
-            "ShortTitle": "Hunting Bugs",
-            "Type": "New Ideas",
-            "ShortType": "New Ideas",
-            "Key": "2013-08-23 13:45 Hunting Bugs",
-            "Day": "2013-08-23",
-            "Time": "13:45 - 15:00",
-            "Location": "",
-            "LocationIndex": "2",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13NEWIDEAS",
-            "Abstract": "",
-            "Items": [
-                "fse13newideas-nid18-p",
-                "fse13newideas-nid4-p",
-                "fse13newideas-nid34-p",
-                "fse13newideas-nid11-p"
-            ]
-        },
-        {
-            "Id": "aCheosai6e",
-            "Title": "Approaches to Quality",
-            "ShortTitle": "Approaches to Quality",
-            "Type": "Industrial Research",
-            "ShortType": "Industrial Research",
-            "Key": "2013-08-23 13:45 Approaches to Quality",
-            "Day": "2013-08-23",
-            "Time": "13:45 - 15:00",
-            "Location": "",
-            "LocationIndex": "3",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13INDUSTRIAL",
-            "Abstract": "",
-            "Items": [
-                "fse13industrial-ind20-p",
-                "fse13industrial-ind11-p",
-                "fse13industrial-ind17-p"
-            ]
-        },
-        {
             "Id": "ai6Neigh0i",
             "Title": "Bug Detection",
             "ShortTitle": "Bug Detection",
@@ -2947,8 +3775,9 @@
             "Time": "15:15 - 16:30",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Mark Harman",
             "Chairs": [
+                "Mark Harman @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2971,8 +3800,9 @@
             "Time": "15:15 - 16:30",
             "Location": "",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Ben Livshits",
             "Chairs": [
+                "Ben Livshits @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -3009,52 +3839,113 @@
             ]
         },
         {
-            "Id": "wav1aiKix4",
-            "Title": "Understanding Software Development",
-            "ShortTitle": "Understanding Software Development",
-            "Type": "New Ideas",
-            "ShortType": "New Ideas",
-            "Key": "2013-08-23 15:15 Understanding Software Development",
+            "Id": "reiD2lahz0",
+            "Title": "Artifact Evaluation (Summary)",
+            "ShortTitle": "Artifact Evaluation (Summary)",
+            "Type": "AEC Summary",
+            "ShortType": "AEC Summary",
+            "Key": "fse13misc-p4-p",
             "Day": "2013-08-23",
-            "Time": "15:15 - 16:30",
+            "Time": "17:00 - 17:30",
             "Location": "",
-            "LocationIndex": "2",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "FSE13NEWIDEAS",
+            "Comment": "FSE13MISC",
             "Abstract": "",
             "Items": [
-                "fse13newideas-nid27-p",
-                "fse13newideas-nid35-p",
-                "fse13newideas-nid12-p",
-                "fse13newideas-nid19-p"
+                "fse13misc-p4-p"
             ]
         },
         {
-            "Id": "Oe3ahNoG8e",
-            "Title": "Effective Industry Use of Software-Engineering Tools",
-            "ShortTitle": "Effective Industry Use of Software-Engineering Tools",
-            "Type": "Industrial Research",
-            "ShortType": "Industrial Research",
-            "Key": "2013-08-23 15:15 Effective Industry Use of Software-Engineering Tools",
+            "Id": "oopi4quo0T",
+            "Title": "Awards and Closing",
+            "ShortTitle": "Awards and Closing",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2013-08-23 17:30 Awards and Closing",
             "Day": "2013-08-23",
-            "Time": "15:15 - 16:30",
+            "Time": "17:30 - 18:15",
             "Location": "",
-            "LocationIndex": "3",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "FSE13INDUSTRIAL",
+            "Comment": "FSE13",
             "Abstract": "",
-            "Items": [
-                "fse13industrial-ind15-p",
-                "fse13industrial-ind8-p",
-                "fse13industrial-ind4-p"
+             "Items": [
+                 "FSE13 @  : Awards and Closing"
+            ]
+        },
+        {
+            "Id": "aing6quohB",
+            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "ShortTitle": "SSBSE",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2013-08-24 09:30 SSBSE",
+            "Day": "2013-08-24",
+            "Time": "09:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "9",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : SSBSE"
+            ]
+        },
+        {
+            "Id": "eima1AhChe",
+            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "ShortTitle": "SSBSE",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2013-08-25 09:30 SSBSE",
+            "Day": "2013-08-25",
+            "Time": "09:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "9",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : SSBSE"
+            ]
+        },
+        {
+            "Id": "zahv8Las1I",
+            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "ShortTitle": "SSBSE",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2013-08-26 09:30 SSBSE",
+            "Day": "2013-08-26",
+            "Time": "09:30 - 16:30",
+            "Location": "",
+            "LocationIndex": "9",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : SSBSE"
             ]
         }
     ],
@@ -3180,6 +4071,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Alexandre Bergel",
+            "Affiliation": "University of Chile, Chile",
+            "Key": "Alexandre Bergel @ University of Chile, Chile",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Shay Berkovich",
             "Affiliation": "University of Waterloo, Canada",
             "Key": "Shay Berkovich @ University of Waterloo, Canada",
@@ -3201,8 +4102,28 @@
         },
         {
             "Name": "Antonia Bertolino",
+            "Affiliation": "",
+            "Key": "Antonia Bertolino @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Antonia Bertolino",
             "Affiliation": "ISTI-CNR, Italy",
             "Key": "Antonia Bertolino @ ISTI-CNR, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lorenzo Bettini",
+            "Affiliation": "Università di Torino, Italy",
+            "Key": "Lorenzo Bettini @ Università di Torino, Italy",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3300,6 +4221,16 @@
             "URLgs": ""
         },
         {
+            "Name": "John Britton",
+            "Affiliation": "",
+            "Key": "John Britton @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Bernd Bruegge",
             "Affiliation": "TU Munich, Germany",
             "Key": "Bernd Bruegge @ TU Munich, Germany",
@@ -3323,6 +4254,16 @@
             "Name": "Tasneem Brutch",
             "Affiliation": "Samsung Research, USA",
             "Key": "Tasneem Brutch @ Samsung Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bara Buhnova",
+            "Affiliation": "",
+            "Key": "Bara Buhnova @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3360,9 +4301,39 @@
             "URLgs": ""
         },
         {
+            "Name": "Murray Cantor",
+            "Affiliation": "",
+            "Key": "Murray Cantor @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Gustavo Carvalho",
             "Affiliation": "PUC-Rio, Brazil",
             "Key": "Gustavo Carvalho @ PUC-Rio, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Satish Chandra",
+            "Affiliation": "",
+            "Key": "Satish Chandra @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marsha Chechik",
+            "Affiliation": "",
+            "Key": "Marsha Chechik @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3453,6 +4424,16 @@
             "Name": "Andrew Diniz da Costa",
             "Affiliation": "PUC-Rio, Brazil",
             "Key": "Andrew Diniz da Costa @ PUC-Rio, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ivica Crnkovic",
+            "Affiliation": "",
+            "Key": "Ivica Crnkovic @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3603,6 +4584,26 @@
             "Name": "Nicholas DiGiuseppe",
             "Affiliation": "UC Irvine, USA",
             "Key": "Nicholas DiGiuseppe @ UC Irvine, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Elisabetta Di Nitto",
+            "Affiliation": "",
+            "Key": "Elisabetta Di Nitto @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Massimiliano Di Penta",
+            "Affiliation": "",
+            "Key": "Massimiliano Di Penta @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3810,9 +4811,69 @@
             "URLgs": ""
         },
         {
-            "Name": "Carlo Alberto Furia",
+            "Name": "FSE13",
+            "Affiliation": "",
+            "Key": "FSE13 @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "FSE13PANELS",
+            "Affiliation": "",
+            "Key": "FSE13PANELS @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "FSEWS13",
+            "Affiliation": "",
+            "Key": "FSEWS13 @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Carlo A. Furia",
+            "Affiliation": "",
+            "Key": "Carlo A. Furia @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Carlo A. Furia",
             "Affiliation": "ETH Zurich, Switzerland",
-            "Key": "Carlo Alberto Furia @ ETH Zurich, Switzerland",
+            "Key": "Carlo A. Furia @ ETH Zurich, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Harald Gall",
+            "Affiliation": "",
+            "Key": "Harald Gall @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Harald Gall",
+            "Affiliation": "University of Zurich, Switzerland",
+            "Key": "Harald Gall @ University of Zurich, Switzerland",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4031,8 +5092,28 @@
         },
         {
             "Name": "Mark Harman",
+            "Affiliation": "",
+            "Key": "Mark Harman @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mark Harman",
             "Affiliation": "University College London, UK",
             "Key": "Mark Harman @ University College London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mark Harman",
+            "Affiliation": "University College London, UK / Microsoft Research, UK",
+            "Key": "Mark Harman @ University College London, UK / Microsoft Research, UK",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4043,6 +5124,16 @@
             "Name": "Hammad Hashmi",
             "Affiliation": "Microsoft, USA",
             "Key": "Hammad Hashmi @ Microsoft, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ahmed E. Hassan",
+            "Affiliation": "",
+            "Key": "Ahmed E. Hassan @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4171,6 +5262,16 @@
         },
         {
             "Name": "Paola Inverardi",
+            "Affiliation": "",
+            "Key": "Paola Inverardi @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Paola Inverardi",
             "Affiliation": "University of l'Aquila, Italy",
             "Key": "Paola Inverardi @ University of l'Aquila, Italy",
             "Bio": "",
@@ -4183,6 +5284,16 @@
             "Name": "Paola Inverardi",
             "Affiliation": "University of L’Aquila, USA",
             "Key": "Paola Inverardi @ University of L’Aquila, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Vladimir Itsykson",
+            "Affiliation": "",
+            "Key": "Vladimir Itsykson @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4293,6 +5404,16 @@
             "Name": "Chang Hwan Peter Kim",
             "Affiliation": "University of Texas at Austin, USA",
             "Key": "Chang Hwan Peter Kim @ University of Texas at Austin, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jens Knodel",
+            "Affiliation": "",
+            "Key": "Jens Knodel @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4500,6 +5621,26 @@
             "URLgs": ""
         },
         {
+            "Name": "Yu David Liu",
+            "Affiliation": "",
+            "Key": "Yu David Liu @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ben Livshits",
+            "Affiliation": "",
+            "Key": "Ben Livshits @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Benjamin Livshits",
             "Affiliation": "Microsoft Research, USA",
             "Key": "Benjamin Livshits @ Microsoft Research, USA",
@@ -4641,6 +5782,16 @@
         },
         {
             "Name": "Nenad Medvidovic",
+            "Affiliation": "",
+            "Key": "Nenad Medvidovic @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nenad Medvidovic",
             "Affiliation": "University of Southern California, USA",
             "Key": "Nenad Medvidovic @ University of Southern California, USA",
             "Bio": "",
@@ -4671,8 +5822,18 @@
         },
         {
             "Name": "Bertrand Meyer",
-            "Affiliation": "ETH Zurich, Switzerland / ITMO, Russia",
-            "Key": "Bertrand Meyer @ ETH Zurich, Switzerland / ITMO, Russia",
+            "Affiliation": "ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, Switzerland",
+            "Key": "Bertrand Meyer @ ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Audris Mockus",
+            "Affiliation": "",
+            "Key": "Audris Mockus @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4723,6 +5884,16 @@
             "Name": "Kıvanç Muşlu",
             "Affiliation": "University of Washington, USA",
             "Key": "Kıvanç Muşlu @ University of Washington, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Meiyappan Nagappan",
+            "Affiliation": "",
+            "Key": "Meiyappan Nagappan @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4890,6 +6061,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Alessandro Orso",
+            "Affiliation": "",
+            "Key": "Alessandro Orso @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "John Palframan",
             "Affiliation": "Avaya Labs Research, USA",
             "Key": "John Palframan @ Avaya Labs Research, USA",
@@ -5010,16 +6191,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Nick Puntikov",
-            "Affiliation": "CEE-SECR, Russia",
-            "Key": "Nick Puntikov @ CEE-SECR, Russia",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Dong Qiu",
             "Affiliation": "Southeast University, China",
             "Key": "Dong Qiu @ Southeast University, China",
@@ -5130,6 +6301,16 @@
             "URLgs": ""
         },
         {
+            "Name": "David Rosenblum",
+            "Affiliation": "",
+            "Key": "David Rosenblum @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "David S. Rosenblum",
             "Affiliation": "National University of Singapore, Singapore",
             "Key": "David S. Rosenblum @ National University of Singapore, Singapore",
@@ -5143,6 +6324,16 @@
             "Name": "Andreas Roth",
             "Affiliation": "SAP, Germany",
             "Key": "Andreas Roth @ SAP, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Abhik Roychoudhury",
+            "Affiliation": "",
+            "Key": "Abhik Roychoudhury @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5240,6 +6431,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Wilhelm Schäfer",
+            "Affiliation": "",
+            "Key": "Wilhelm Schäfer @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Matthias Schur",
             "Affiliation": "SAP, Germany",
             "Key": "Matthias Schur @ SAP, Germany",
@@ -5273,6 +6474,16 @@
             "Name": "Rahul Sharma",
             "Affiliation": "Stanford University, USA",
             "Key": "Rahul Sharma @ Stanford University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Emad Shihab",
+            "Affiliation": "",
+            "Key": "Emad Shihab @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5380,6 +6591,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Giancarlo Succi",
+            "Affiliation": "Free University of Bozen, Italy",
+            "Key": "Giancarlo Succi @ Free University of Bozen, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Chengnian Sun",
             "Affiliation": "National University of Singapore, Singapore",
             "Key": "Chengnian Sun @ National University of Singapore, Singapore",
@@ -5433,6 +6654,16 @@
             "Name": "Yang Tang",
             "Affiliation": "Columbia University, USA",
             "Key": "Yang Tang @ Columbia University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Peri Tarr",
+            "Affiliation": "",
+            "Key": "Peri Tarr @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5510,9 +6741,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Moshe Vardi",
+            "Name": "Moshe Y. Vardi",
             "Affiliation": "Rice University, USA",
-            "Key": "Moshe Vardi @ Rice University, USA",
+            "Key": "Moshe Y. Vardi @ Rice University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5630,6 +6861,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Tony Wasserman",
+            "Affiliation": "",
+            "Key": "Tony Wasserman @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Konosuke Watanabe",
             "Affiliation": "Massachusetts Institute of Technology, USA / Toshiba, Japan",
             "Key": "Konosuke Watanabe @ Massachusetts Institute of Technology, USA / Toshiba, Japan",
@@ -5673,6 +6914,16 @@
             "Name": "Peter Y. H. Wong",
             "Affiliation": "SLD Fredhopper, Netherlands",
             "Key": "Peter Y. H. Wong @ SLD Fredhopper, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Carl Worms",
+            "Affiliation": "",
+            "Key": "Carl Worms @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
