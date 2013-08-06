@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1375739137,
+    "DataRevision": 1375797804,
     "Preliminary": true,
     "Event": "ESEC/FSE 2013",
     "Name": "ESEC/FSE 2013",
@@ -2419,7 +2419,7 @@
         },
         {
             "Title": "SSE",
-            "Type": "Workshop",
+            "Type": "Co-located Workshop",
             "Key": "FSEWS13 @  : SSE",
             "URL": "",
             "URLvideo": "",
@@ -2437,7 +2437,7 @@
         },
         {
             "Title": "IWPSE",
-            "Type": "Workshop",
+            "Type": "Co-located Workshop",
             "Key": "FSEWS13 @  : IWPSE",
             "URL": "",
             "URLvideo": "",
@@ -2455,7 +2455,7 @@
         },
         {
             "Title": "IWPSE",
-            "Type": "Workshop",
+            "Type": "Co-located Workshop",
             "Key": "FSEWS13 @  : IWPSE",
             "URL": "",
             "URLvideo": "",
@@ -2473,7 +2473,7 @@
         },
         {
             "Title": "MUSEPAT",
-            "Type": "Workshop",
+            "Type": "Co-located Conference",
             "Key": "FSEWS13 @  : MUSEPAT",
             "URL": "",
             "URLvideo": "",
@@ -2491,7 +2491,7 @@
         },
         {
             "Title": "MUSEPAT",
-            "Type": "Workshop",
+            "Type": "Co-located Conference",
             "Key": "FSEWS13 @  : MUSEPAT",
             "URL": "",
             "URLvideo": "",
@@ -2509,7 +2509,7 @@
         },
         {
             "Title": "DeMobile",
-            "Type": "Workshop",
+            "Type": "Co-located Workshop",
             "Key": "FSEWS13 @  : DeMobile",
             "URL": "",
             "URLvideo": "",
@@ -2527,7 +2527,7 @@
         },
         {
             "Title": "WEA",
-            "Type": "Workshop",
+            "Type": "Co-located Workshop",
             "Key": "FSEWS13 @  : WEA",
             "URL": "",
             "URLvideo": "",
@@ -2545,7 +2545,7 @@
         },
         {
             "Title": "SSBSE",
-            "Type": "Workshop",
+            "Type": "Co-located Conference",
             "Key": "FSEWS13 @  : SSBSE",
             "URL": "",
             "URLvideo": "",
@@ -2563,7 +2563,7 @@
         },
         {
             "Title": "SSBSE",
-            "Type": "Workshop",
+            "Type": "Co-located Conference",
             "Key": "FSEWS13 @  : SSBSE",
             "URL": "",
             "URLvideo": "",
@@ -2581,7 +2581,7 @@
         },
         {
             "Title": "SSBSE",
-            "Type": "Workshop",
+            "Type": "Co-located Conference",
             "Key": "FSEWS13 @  : SSBSE",
             "URL": "",
             "URLvideo": "",
@@ -2603,8 +2603,8 @@
             "Id": "Al3eiqu6Ai",
             "Title": "SSE",
             "ShortTitle": "SSE",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
             "Key": "2013-08-18 09:30 SSE",
             "Day": "2013-08-18",
             "Time": "09:30 - 18:00",
@@ -2622,33 +2622,11 @@
             ]
         },
         {
-            "Id": "oiPh3af9oh",
-            "Title": "WEA",
-            "ShortTitle": "WEA",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2013-08-19 09:30 WEA",
-            "Day": "2013-08-19",
-            "Time": "09:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "9",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : WEA"
-            ]
-        },
-        {
             "Id": "Thuxua9iej",
             "Title": "MUSEPAT",
             "ShortTitle": "MUSEPAT",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
+            "Type": "Co-located Conference",
+            "ShortType": "Co-located Conference",
             "Key": "2013-08-19 09:30 MUSEPAT",
             "Day": "2013-08-19",
             "Time": "09:30 - 18:00",
@@ -2666,11 +2644,33 @@
             ]
         },
         {
+            "Id": "oiPh3af9oh",
+            "Title": "WEA",
+            "ShortTitle": "WEA",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
+            "Key": "2013-08-19 09:30 WEA",
+            "Day": "2013-08-19",
+            "Time": "09:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "9",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : WEA"
+            ]
+        },
+        {
             "Id": "veeGi5Shie",
             "Title": "DeMobile",
             "ShortTitle": "DeMobile",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
             "Key": "2013-08-19 09:30 DeMobile",
             "Day": "2013-08-19",
             "Time": "09:30 - 18:00",
@@ -2691,8 +2691,8 @@
             "Id": "vohyees3Ci",
             "Title": "IWPSE",
             "ShortTitle": "IWPSE",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
             "Key": "2013-08-19 14:30 IWPSE",
             "Day": "2013-08-19",
             "Time": "14:30 - 18:00",
@@ -2730,6 +2730,50 @@
             "Items": [
                 "fse13doctoral-doc3-p",
                 "fse13doctoral-doc2-p"
+            ]
+        },
+        {
+            "Id": "bohZ3Oor9w",
+            "Title": "MUSEPAT",
+            "ShortTitle": "MUSEPAT",
+            "Type": "Co-located Conference",
+            "ShortType": "Co-located Conference",
+            "Key": "2013-08-20 09:30 MUSEPAT",
+            "Day": "2013-08-20",
+            "Time": "09:30 - 13:00",
+            "Location": "",
+            "LocationIndex": "9",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : MUSEPAT"
+            ]
+        },
+        {
+            "Id": "ruKooj8aaZ",
+            "Title": "IWPSE",
+            "ShortTitle": "IWPSE",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
+            "Key": "2013-08-20 09:30 IWPSE",
+            "Day": "2013-08-20",
+            "Time": "09:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "9",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : IWPSE"
             ]
         },
         {
@@ -2774,50 +2818,6 @@
             "Abstract": "",
              "Items": [
                  "Emad Shihab; Ahmed E. Hassan @  : Software Engineering for Mobile Apps: Research Accomplishments and Future Challenges"
-            ]
-        },
-        {
-            "Id": "bohZ3Oor9w",
-            "Title": "MUSEPAT",
-            "ShortTitle": "MUSEPAT",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2013-08-20 09:30 MUSEPAT",
-            "Day": "2013-08-20",
-            "Time": "09:30 - 13:00",
-            "Location": "",
-            "LocationIndex": "9",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : MUSEPAT"
-            ]
-        },
-        {
-            "Id": "ruKooj8aaZ",
-            "Title": "IWPSE",
-            "ShortTitle": "IWPSE",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2013-08-20 09:30 IWPSE",
-            "Day": "2013-08-20",
-            "Time": "09:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "9",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : IWPSE"
             ]
         },
         {
@@ -3029,7 +3029,7 @@
             "Key": "2013-08-21 09:00 Opening",
             "Day": "2013-08-21",
             "Time": "09:00 - 09:30",
-            "Location": "",
+            "Location": "Column Hall",
             "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
@@ -3051,7 +3051,7 @@
             "Key": "fse13keynotes-k1-p",
             "Day": "2013-08-21",
             "Time": "09:30 - 11:00",
-            "Location": "",
+            "Location": "Column Hall",
             "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
@@ -3295,7 +3295,7 @@
             "Key": "fse13panels-p1-p",
             "Day": "2013-08-21",
             "Time": "17:00 - 18:15",
-            "Location": "",
+            "Location": "Column Hall",
             "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
@@ -3317,7 +3317,7 @@
             "Key": "fse13keynotes-k2-p",
             "Day": "2013-08-22",
             "Time": "09:30 - 11:00",
-            "Location": "",
+            "Location": "Column Hall",
             "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
@@ -3561,7 +3561,7 @@
             "Key": "fse13panels-p2-p",
             "Day": "2013-08-22",
             "Time": "17:00 - 18:15",
-            "Location": "",
+            "Location": "Column Hall",
             "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
@@ -3625,7 +3625,7 @@
             "Key": "fse13keynotes-k3-p",
             "Day": "2013-08-23",
             "Time": "09:30 - 11:00",
-            "Location": "",
+            "Location": "Column Hall",
             "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
@@ -3873,7 +3873,7 @@
             "Key": "2013-08-23 17:00 Artifact Presentations",
             "Day": "2013-08-23",
             "Time": "17:00 - 17:40",
-            "Location": "",
+            "Location": "Column Hall",
             "LocationIndex": "1",
             "ChairsString": "Alexandre Bergel",
             "Chairs": [
@@ -3882,7 +3882,7 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "Paul Marinescu and Cristian Cadar – KATCH: High-Coverage Testing of Software Patches\nDirk Beyer, Stefan Löwe, Evgeny Novikov, Andreas Stahlbauer, and Philipp Wendler – Linux Driver Revisions for Regression Verification\nShahar Maoz, Jan Oliver Ringert, and Bernhard Rumpe – Synthesis of Component and Connector Models from Crosscutting Structural Views\nMarin Silic, Goran Delac, and Sinisa Srbljic – Prediction of Atomic Web Services Reliability Based on K-means Clustering\nNishant Sinha and Rezwana Karim – Compiling Mockups to Flexible UIs\nAlex Gyori, Danny Dig, Lyle Franklin, and Jan Lahoda – Crossing the gap from imperative to functional programming through refactoring\nPeng Liu – Finding Incorrect Compositions of Atomicity\nYunhui Zheng, Xiangyu Zhang, and Vijay Ganesh – Z3-str: A String Theory Plugin on Z3 for Web Application Analysis"
+            "Abstract": "Paul Marinescu and Cristian Cadar – KATCH: High-Coverage Testing of Software Patches<br/><br/>Dirk Beyer, Stefan Löwe, Evgeny Novikov, Andreas Stahlbauer, and Philipp Wendler – Linux Driver Revisions for Regression Verification<br/><br/>Shahar Maoz, Jan Oliver Ringert, and Bernhard Rumpe – Synthesis of Component and Connector Models from Crosscutting Structural Views<br/><br/>Marin Silic, Goran Delac, and Sinisa Srbljic – Prediction of Atomic Web Services Reliability Based on K-means Clustering<br/><br/>Nishant Sinha and Rezwana Karim – Compiling Mockups to Flexible UIs<br/><br/>Alex Gyori, Danny Dig, Lyle Franklin, and Jan Lahoda – Crossing the gap from imperative to functional programming through refactoring<br/><br/>Peng Liu – Finding Incorrect Compositions of Atomicity<br/><br/>Yunhui Zheng, Xiangyu Zhang, and Vijay Ganesh – Z3-str: A String Theory Plugin on Z3 for Web Application Analysis"
         },
         {
             "Id": "oopi4quo0T",
@@ -3893,7 +3893,7 @@
             "Key": "2013-08-23 17:45 Awards and Closing",
             "Day": "2013-08-23",
             "Time": "17:45 - 18:15",
-            "Location": "",
+            "Location": "Column Hall",
             "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
@@ -3910,8 +3910,8 @@
             "Id": "aing6quohB",
             "Title": "SSBSE",
             "ShortTitle": "SSBSE",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
+            "Type": "Co-located Conference",
+            "ShortType": "Co-located Conference",
             "Key": "2013-08-24 09:30 SSBSE",
             "Day": "2013-08-24",
             "Time": "09:30 - 18:00",
@@ -3932,8 +3932,8 @@
             "Id": "eima1AhChe",
             "Title": "SSBSE",
             "ShortTitle": "SSBSE",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
+            "Type": "Co-located Conference",
+            "ShortType": "Co-located Conference",
             "Key": "2013-08-25 09:30 SSBSE",
             "Day": "2013-08-25",
             "Time": "09:30 - 18:00",
@@ -3954,8 +3954,8 @@
             "Id": "zahv8Las1I",
             "Title": "SSBSE",
             "ShortTitle": "SSBSE",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
+            "Type": "Co-located Conference",
+            "ShortType": "Co-located Conference",
             "Key": "2013-08-26 09:30 SSBSE",
             "Day": "2013-08-26",
             "Time": "09:30 - 16:30",
