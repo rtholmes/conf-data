@@ -1,13 +1,13 @@
 {
-    "DataRevision": 1375797804,
-    "Preliminary": true,
+    "DataRevision": 1375819198,
+    "Preliminary": false,
     "Event": "ESEC/FSE 2013",
     "Name": "ESEC/FSE 2013",
     "Description": "",
     "Location": "Saint Petersburg, Russia",
     "Sponsors": "",
     "URL": "http://esec-fse.inf.ethz.ch/",
-    "MultiTrack": "false",
+    "MultiTrack": "true",
     "Organization": {
         "General Chairs": [
                 "Bertrand Meyer"
@@ -126,15 +126,15 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Bertrand Meyer, Harald Gall, Mark Harman, and Giancarlo Succi",
-            "AffiliationsString": "ETH Zurich, Switzerland; ITMO, Russia; Eiffel Software, Switzerland; University of Zurich, Switzerland; University College London, UK; Microsoft Research, UK; Free University of Bozen, Italy",
+            "AffiliationsString": "ETH Zurich, Switzerland; ITMO, Russia; Eiffel Software, USA; University of Zurich, Switzerland; University College London, UK; Microsoft Research, UK; Free University of Bozen, Italy",
             "Authors": [
-                "Bertrand Meyer @ ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, Switzerland",
+                "Bertrand Meyer @ ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, USA",
                 "Harald Gall @ University of Zurich, Switzerland",
                 "Mark Harman @ University College London, UK / Microsoft Research, UK",
                 "Giancarlo Succi @ Free University of Bozen, Italy"
             ],
             "Affiliations": [
-                "ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, Switzerland",
+                "ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, USA",
                 "University of Zurich, Switzerland",
                 "University College London, UK / Microsoft Research, UK",
                 "Free University of Bozen, Italy"
@@ -170,24 +170,6 @@
                 "Rice University, USA"
             ],
             "Abstract": "This panel will discuss what characterizes the publication process in the software engineering community and debate how it serves the needs of the community, whether it is fair - e.g. valuable work gets published and mediocre work rejected - and highlight the obstacles for young scientists. The panel will conclude with a discussion on suggested next steps.",
-            "Award": ""
-        },
-        {
-            "Title": "Software Engineering in Russia and Abroad (Panel)",
-            "Type": "Panels",
-            "Key": "FSE13PANELS @  : Software Engineering in Russia and Abroad (Panel)",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSE13PANELS",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSE13PANELS @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
             "Award": ""
         },
         {
@@ -2362,240 +2344,6 @@
             ],
             "Abstract": "",
             "Award": ""
-        },
-        {
-            "Title": "Awards and Closing",
-            "Type": "Plenary",
-            "Key": "FSE13 @  : Awards and Closing",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSE13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSE13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "Welcome Reception",
-            "Type": "Social",
-            "Key": "FSE13 @  : Welcome Reception",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSE13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSE13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "Opening",
-            "Type": "Plenary",
-            "Key": "FSE13 @  : Opening",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSE13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSE13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "SSE",
-            "Type": "Co-located Workshop",
-            "Key": "FSEWS13 @  : SSE",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSEWS13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSEWS13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "IWPSE",
-            "Type": "Co-located Workshop",
-            "Key": "FSEWS13 @  : IWPSE",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSEWS13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSEWS13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "IWPSE",
-            "Type": "Co-located Workshop",
-            "Key": "FSEWS13 @  : IWPSE",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSEWS13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSEWS13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "MUSEPAT",
-            "Type": "Co-located Conference",
-            "Key": "FSEWS13 @  : MUSEPAT",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSEWS13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSEWS13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "MUSEPAT",
-            "Type": "Co-located Conference",
-            "Key": "FSEWS13 @  : MUSEPAT",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSEWS13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSEWS13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "DeMobile",
-            "Type": "Co-located Workshop",
-            "Key": "FSEWS13 @  : DeMobile",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSEWS13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSEWS13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "WEA",
-            "Type": "Co-located Workshop",
-            "Key": "FSEWS13 @  : WEA",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSEWS13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSEWS13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "SSBSE",
-            "Type": "Co-located Conference",
-            "Key": "FSEWS13 @  : SSBSE",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSEWS13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSEWS13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "SSBSE",
-            "Type": "Co-located Conference",
-            "Key": "FSEWS13 @  : SSBSE",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSEWS13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSEWS13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "SSBSE",
-            "Type": "Co-located Conference",
-            "Key": "FSEWS13 @  : SSBSE",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSEWS13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSEWS13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
         }
     ],
     "Sessions": [
@@ -2616,10 +2364,7 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : SSE"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "Thuxua9iej",
@@ -2638,10 +2383,7 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : MUSEPAT"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "oiPh3af9oh",
@@ -2660,10 +2402,7 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : WEA"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "veeGi5Shie",
@@ -2682,17 +2421,14 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : DeMobile"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "vohyees3Ci",
             "Title": "IWPSE",
             "ShortTitle": "IWPSE",
-            "Type": "Co-located Workshop",
-            "ShortType": "Co-located Workshop",
+            "Type": "Co-located Conference",
+            "ShortType": "Co-located Conference",
             "Key": "2013-08-19 14:30 IWPSE",
             "Day": "2013-08-19",
             "Time": "14:30 - 18:00",
@@ -2704,10 +2440,7 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : IWPSE"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "ahx5wae9Th",
@@ -2715,9 +2448,9 @@
             "ShortTitle": "Doctoral Papers 1",
             "Type": "Doctoral Symposium",
             "ShortType": "Doctoral Symposium",
-            "Key": "2013-08-20 09:20 Doctoral Papers 1",
+            "Key": "2013-08-20 09:30 Doctoral Papers 1",
             "Day": "2013-08-20",
-            "Time": "09:20 - 11:00",
+            "Time": "09:30 - 11:00",
             "Location": "",
             "LocationIndex": "4",
             "ChairsString": "",
@@ -2749,17 +2482,14 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : MUSEPAT"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "ruKooj8aaZ",
             "Title": "IWPSE",
             "ShortTitle": "IWPSE",
-            "Type": "Co-located Workshop",
-            "ShortType": "Co-located Workshop",
+            "Type": "Co-located Conference",
+            "ShortType": "Co-located Conference",
             "Key": "2013-08-20 09:30 IWPSE",
             "Day": "2013-08-20",
             "Time": "09:30 - 18:00",
@@ -2771,10 +2501,7 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : IWPSE"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "doaPh9iu0o",
@@ -2790,7 +2517,7 @@
             "ChairsString": "",
             "Chairs": [
             ],
-            "SponsoredBy": "FSE13",
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
@@ -2812,7 +2539,7 @@
             "ChairsString": "",
             "Chairs": [
             ],
-            "SponsoredBy": "FSE13",
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
@@ -2857,7 +2584,7 @@
             "ChairsString": "",
             "Chairs": [
             ],
-            "SponsoredBy": "FSE13",
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
@@ -2902,7 +2629,7 @@
             "ChairsString": "",
             "Chairs": [
             ],
-            "SponsoredBy": "FSE13",
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
@@ -2924,7 +2651,7 @@
             "ChairsString": "",
             "Chairs": [
             ],
-            "SponsoredBy": "FSE13",
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
@@ -2968,7 +2695,7 @@
             "ChairsString": "",
             "Chairs": [
             ],
-            "SponsoredBy": "FSE13",
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
@@ -2990,7 +2717,7 @@
             "ChairsString": "",
             "Chairs": [
             ],
-            "SponsoredBy": "FSE13",
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
@@ -3015,10 +2742,7 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSE13 @  : Welcome Reception"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "eeDah4Ya2j",
@@ -3037,10 +2761,7 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSE13 @  : Opening"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "Ieth5wiaBi",
@@ -3347,10 +3068,7 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13PANELS",
-            "Abstract": "",
-             "Items": [
-                 "FSE13PANELS @  : Software Engineering in Russia and Abroad (Panel)"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "ooloL4Eiw3",
@@ -3901,10 +3619,7 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSE13 @  : Awards and Closing"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "aing6quohB",
@@ -3923,10 +3638,7 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : SSBSE"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "eima1AhChe",
@@ -3945,10 +3657,7 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : SSBSE"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "zahv8Las1I",
@@ -3967,10 +3676,7 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : SSBSE"
-            ]
+            "Abstract": ""
         }
     ],
     "People": [
@@ -4838,36 +4544,6 @@
             "Name": "Steven Fraser",
             "Affiliation": "CISCO, USA",
             "Key": "Steven Fraser @ CISCO, USA",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "FSE13",
-            "Affiliation": "",
-            "Key": "FSE13 @",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "FSE13PANELS",
-            "Affiliation": "",
-            "Key": "FSE13PANELS @",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "FSEWS13",
-            "Affiliation": "",
-            "Key": "FSEWS13 @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5856,8 +5532,8 @@
         },
         {
             "Name": "Bertrand Meyer",
-            "Affiliation": "ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, Switzerland",
-            "Key": "Bertrand Meyer @ ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, Switzerland",
+            "Affiliation": "ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, USA",
+            "Key": "Bertrand Meyer @ ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
