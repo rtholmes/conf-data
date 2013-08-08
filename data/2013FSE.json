@@ -1,13 +1,13 @@
 {
-    "DataRevision": 1375511100,
-    "Preliminary": true,
+    "DataRevision": 1375906057,
+    "Preliminary": false,
     "Event": "ESEC/FSE 2013",
     "Name": "ESEC/FSE 2013",
     "Description": "",
     "Location": "Saint Petersburg, Russia",
     "Sponsors": "",
     "URL": "http://esec-fse.inf.ethz.ch/",
-    "MultiTrack": "false",
+    "MultiTrack": "true",
     "Organization": {
         "General Chairs": [
                 "Bertrand Meyer"
@@ -126,15 +126,15 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Bertrand Meyer, Harald Gall, Mark Harman, and Giancarlo Succi",
-            "AffiliationsString": "ETH Zurich, Switzerland; ITMO, Russia; Eiffel Software, Switzerland; University of Zurich, Switzerland; University College London, UK; Microsoft Research, UK; Free University of Bozen, Italy",
+            "AffiliationsString": "ETH Zurich, Switzerland; ITMO, Russia; Eiffel Software, USA; University of Zurich, Switzerland; University College London, UK; Microsoft Research, UK; Free University of Bozen, Italy",
             "Authors": [
-                "Bertrand Meyer @ ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, Switzerland",
+                "Bertrand Meyer @ ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, USA",
                 "Harald Gall @ University of Zurich, Switzerland",
                 "Mark Harman @ University College London, UK / Microsoft Research, UK",
                 "Giancarlo Succi @ Free University of Bozen, Italy"
             ],
             "Affiliations": [
-                "ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, Switzerland",
+                "ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, USA",
                 "University of Zurich, Switzerland",
                 "University College London, UK / Microsoft Research, UK",
                 "Free University of Bozen, Italy"
@@ -170,24 +170,6 @@
                 "Rice University, USA"
             ],
             "Abstract": "This panel will discuss what characterizes the publication process in the software engineering community and debate how it serves the needs of the community, whether it is fair - e.g. valuable work gets published and mediocre work rejected - and highlight the obstacles for young scientists. The panel will conclude with a discussion on suggested next steps.",
-            "Award": ""
-        },
-        {
-            "Title": "Software Engineering in Russia and Abroad (Panel)",
-            "Type": "Panels",
-            "Key": "FSE13PANELS @  : Software Engineering in Russia and Abroad (Panel)",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSE13PANELS",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSE13PANELS @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
             "Award": ""
         },
         {
@@ -2364,16 +2346,16 @@
             "Award": ""
         },
         {
-            "Title": "Awards and Closing",
-            "Type": "Plenary",
-            "Key": "FSE13 @  : Awards and Closing",
+            "Title": "Morning Break",
+            "Type": "Co-located Social",
+            "Key": "FSEWS13 @  : Morning Break",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "FSE13",
+            "PersonsString": "FSEWS13",
             "AffiliationsString": "",
             "Authors": [
-                "FSE13 @"
+                "FSEWS13 @"
             ],
             "Affiliations": [
                 ""
@@ -2382,9 +2364,153 @@
             "Award": ""
         },
         {
-            "Title": "Welcome Reception",
+            "Title": "Lunch",
+            "Type": "Co-located Social",
+            "Key": "FSEWS13 @  : Lunch",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Afternoon Break",
+            "Type": "Co-located Social",
+            "Key": "FSEWS13 @  : Afternoon Break",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Morning Break",
+            "Type": "Co-located Social",
+            "Key": "FSEWS13 @  : Morning Break",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Lunch",
+            "Type": "Co-located Social",
+            "Key": "FSEWS13 @  : Lunch",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Afternoon Break",
+            "Type": "Co-located Social",
+            "Key": "FSEWS13 @  : Afternoon Break",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Morning Break",
             "Type": "Social",
-            "Key": "FSE13 @  : Welcome Reception",
+            "Key": "FSEWS13 @  : Morning Break",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Lunch",
+            "Type": "Social",
+            "Key": "FSEWS13 @  : Lunch",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Afternoon Break",
+            "Type": "Social",
+            "Key": "FSEWS13 @  : Afternoon Break",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "FSEWS13",
+            "AffiliationsString": "",
+            "Authors": [
+                "FSEWS13 @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Morning Break",
+            "Type": "Social",
+            "Key": "FSE13 @  : Morning Break",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -2400,9 +2526,9 @@
             "Award": ""
         },
         {
-            "Title": "Opening",
-            "Type": "Plenary",
-            "Key": "FSE13 @  : Opening",
+            "Title": "Lunch",
+            "Type": "Social",
+            "Key": "FSE13 @  : Lunch",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -2418,16 +2544,16 @@
             "Award": ""
         },
         {
-            "Title": "SSE",
-            "Type": "Workshop",
-            "Key": "FSEWS13 @  : SSE",
+            "Title": "Afternoon Break",
+            "Type": "Social",
+            "Key": "FSE13 @  : Afternoon Break",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "FSEWS13",
+            "PersonsString": "FSE13",
             "AffiliationsString": "",
             "Authors": [
-                "FSEWS13 @"
+                "FSE13 @"
             ],
             "Affiliations": [
                 ""
@@ -2436,16 +2562,16 @@
             "Award": ""
         },
         {
-            "Title": "IWPSE",
-            "Type": "Workshop",
-            "Key": "FSEWS13 @  : IWPSE",
+            "Title": "Morning Break",
+            "Type": "Social",
+            "Key": "FSE13 @  : Morning Break",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "FSEWS13",
+            "PersonsString": "FSE13",
             "AffiliationsString": "",
             "Authors": [
-                "FSEWS13 @"
+                "FSE13 @"
             ],
             "Affiliations": [
                 ""
@@ -2454,16 +2580,16 @@
             "Award": ""
         },
         {
-            "Title": "IWPSE",
-            "Type": "Workshop",
-            "Key": "FSEWS13 @  : IWPSE",
+            "Title": "Lunch",
+            "Type": "Social",
+            "Key": "FSE13 @  : Lunch",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "FSEWS13",
+            "PersonsString": "FSE13",
             "AffiliationsString": "",
             "Authors": [
-                "FSEWS13 @"
+                "FSE13 @"
             ],
             "Affiliations": [
                 ""
@@ -2472,16 +2598,16 @@
             "Award": ""
         },
         {
-            "Title": "MUSEPAT",
-            "Type": "Workshop",
-            "Key": "FSEWS13 @  : MUSEPAT",
+            "Title": "Afternoon Break",
+            "Type": "Social",
+            "Key": "FSE13 @  : Afternoon Break",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "FSEWS13",
+            "PersonsString": "FSE13",
             "AffiliationsString": "",
             "Authors": [
-                "FSEWS13 @"
+                "FSE13 @"
             ],
             "Affiliations": [
                 ""
@@ -2490,16 +2616,16 @@
             "Award": ""
         },
         {
-            "Title": "MUSEPAT",
-            "Type": "Workshop",
-            "Key": "FSEWS13 @  : MUSEPAT",
+            "Title": "Morning Break",
+            "Type": "Social",
+            "Key": "FSE13 @  : Morning Break",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "FSEWS13",
+            "PersonsString": "FSE13",
             "AffiliationsString": "",
             "Authors": [
-                "FSEWS13 @"
+                "FSE13 @"
             ],
             "Affiliations": [
                 ""
@@ -2508,16 +2634,16 @@
             "Award": ""
         },
         {
-            "Title": "DeMobile",
-            "Type": "Workshop",
-            "Key": "FSEWS13 @  : DeMobile",
+            "Title": "Lunch",
+            "Type": "Social",
+            "Key": "FSE13 @  : Lunch",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "FSEWS13",
+            "PersonsString": "FSE13",
             "AffiliationsString": "",
             "Authors": [
-                "FSEWS13 @"
+                "FSE13 @"
             ],
             "Affiliations": [
                 ""
@@ -2526,70 +2652,16 @@
             "Award": ""
         },
         {
-            "Title": "WEA",
-            "Type": "Workshop",
-            "Key": "FSEWS13 @  : WEA",
+            "Title": "Afternoon Break",
+            "Type": "Social",
+            "Key": "FSE13 @  : Afternoon Break",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "FSEWS13",
+            "PersonsString": "FSE13",
             "AffiliationsString": "",
             "Authors": [
-                "FSEWS13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "SSBSE",
-            "Type": "Workshop",
-            "Key": "FSEWS13 @  : SSBSE",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSEWS13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSEWS13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "SSBSE",
-            "Type": "Workshop",
-            "Key": "FSEWS13 @  : SSBSE",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSEWS13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSEWS13 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "SSBSE",
-            "Type": "Workshop",
-            "Key": "FSEWS13 @  : SSBSE",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "FSEWS13",
-            "AffiliationsString": "",
-            "Authors": [
-                "FSEWS13 @"
+                "FSE13 @"
             ],
             "Affiliations": [
                 ""
@@ -2601,15 +2673,34 @@
     "Sessions": [
         {
             "Id": "Al3eiqu6Ai",
-            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "Title": "SSE",
             "ShortTitle": "SSE",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
             "Key": "2013-08-18 09:30 SSE",
             "Day": "2013-08-18",
             "Time": "09:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "9",
+            "Location": "Heraldic Hall",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "ZYypZE4xn0",
+            "Title": "Morning Break",
+            "ShortTitle": "Morning Break",
+            "Type": "Co-located Social",
+            "ShortType": "Co-located Social",
+            "Key": "2013-08-18 11:00 Morning Break",
+            "Day": "2013-08-18",
+            "Time": "11:00 - 11:30",
+            "Location": "Foyer",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2618,20 +2709,20 @@
             "Comment": "FSE13",
             "Abstract": "",
              "Items": [
-                 "FSEWS13 @  : SSE"
+                 "FSEWS13 @  : Morning Break"
             ]
         },
         {
-            "Id": "oiPh3af9oh",
-            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
-            "ShortTitle": "WEA",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2013-08-19 09:30 WEA",
-            "Day": "2013-08-19",
-            "Time": "09:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "9",
+            "Id": "FYdYd4qaps",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Co-located Social",
+            "ShortType": "Co-located Social",
+            "Key": "2013-08-18 13:00 Lunch",
+            "Day": "2013-08-18",
+            "Time": "13:00 - 14:30",
+            "Location": "Foyer",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2640,42 +2731,99 @@
             "Comment": "FSE13",
             "Abstract": "",
              "Items": [
-                 "FSEWS13 @  : WEA"
+                 "FSEWS13 @  : Lunch"
+            ]
+        },
+        {
+            "Id": "uZ4OhsW1co",
+            "Title": "Afternoon Break",
+            "ShortTitle": "Afternoon Break",
+            "Type": "Co-located Social",
+            "ShortType": "Co-located Social",
+            "Key": "2013-08-18 16:00 Afternoon Break",
+            "Day": "2013-08-18",
+            "Time": "16:00 - 16:30",
+            "Location": "Foyer",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : Afternoon Break"
             ]
         },
         {
             "Id": "Thuxua9iej",
-            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "Title": "MUSEPAT",
             "ShortTitle": "MUSEPAT",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
+            "Type": "Co-located Conference",
+            "ShortType": "Co-located Conference",
             "Key": "2013-08-19 09:30 MUSEPAT",
             "Day": "2013-08-19",
             "Time": "09:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "9",
+            "Location": "Heraldic Hall",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : MUSEPAT"
-            ]
+            "Abstract": ""
+        },
+        {
+            "Id": "oiPh3af9oh",
+            "Title": "WEA",
+            "ShortTitle": "WEA",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
+            "Key": "2013-08-19 09:30 WEA",
+            "Day": "2013-08-19",
+            "Time": "09:30 - 18:00",
+            "Location": "Pavlovsky Hall",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
         },
         {
             "Id": "veeGi5Shie",
-            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "Title": "DeMobile",
             "ShortTitle": "DeMobile",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
             "Key": "2013-08-19 09:30 DeMobile",
             "Day": "2013-08-19",
             "Time": "09:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "9",
+            "Location": "Session Hall",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "iqKsmj28He",
+            "Title": "Morning Break",
+            "ShortTitle": "Morning Break",
+            "Type": "Co-located Social",
+            "ShortType": "Co-located Social",
+            "Key": "2013-08-19 11:00 Morning Break",
+            "Day": "2013-08-19",
+            "Time": "11:00 - 11:30",
+            "Location": "Foyer",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2684,20 +2832,61 @@
             "Comment": "FSE13",
             "Abstract": "",
              "Items": [
-                 "FSEWS13 @  : DeMobile"
+                 "FSEWS13 @  : Morning Break"
+            ]
+        },
+        {
+            "Id": "CRkdM3jcne",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Co-located Social",
+            "ShortType": "Co-located Social",
+            "Key": "2013-08-19 13:00 Lunch",
+            "Day": "2013-08-19",
+            "Time": "13:00 - 14:30",
+            "Location": "Foyer",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : Lunch"
             ]
         },
         {
             "Id": "vohyees3Ci",
-            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "Title": "IWPSE",
             "ShortTitle": "IWPSE",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
+            "Type": "Co-located Conference",
+            "ShortType": "Co-located Conference",
             "Key": "2013-08-19 14:30 IWPSE",
             "Day": "2013-08-19",
             "Time": "14:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "9",
+            "Location": "Big Hall",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "spJbxczKwb",
+            "Title": "Afternoon Break",
+            "ShortTitle": "Afternoon Break",
+            "Type": "Co-located Social",
+            "ShortType": "Co-located Social",
+            "Key": "2013-08-19 16:00 Afternoon Break",
+            "Day": "2013-08-19",
+            "Time": "16:00 - 16:30",
+            "Location": "Foyer",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2706,7 +2895,7 @@
             "Comment": "FSE13",
             "Abstract": "",
              "Items": [
-                 "FSEWS13 @  : IWPSE"
+                 "FSEWS13 @  : Afternoon Break"
             ]
         },
         {
@@ -2715,11 +2904,11 @@
             "ShortTitle": "Doctoral Papers 1",
             "Type": "Doctoral Symposium",
             "ShortType": "Doctoral Symposium",
-            "Key": "2013-08-20 09:20 Doctoral Papers 1",
+            "Key": "2013-08-20 09:30 Doctoral Papers 1",
             "Day": "2013-08-20",
-            "Time": "09:20 - 11:00",
-            "Location": "",
-            "LocationIndex": "4",
+            "Time": "09:30 - 11:00",
+            "Location": "Session Hall",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2733,26 +2922,42 @@
             ]
         },
         {
-            "Id": "doaPh9iu0o",
-            "Title": "Using Continuous Prediction and Tradeoffs to Achieve Project Success",
-            "ShortTitle": "Using Continuous Prediction and Tradeoffs to Achieve Project Success",
-            "Type": "Tutorial",
-            "ShortType": "Tutorial",
-            "Key": "2013-08-20 09:30 Using Continuous Prediction and Tradeoffs to Achieve Project Success",
+            "Id": "ruKooj8aaZ",
+            "Title": "IWPSE",
+            "ShortTitle": "IWPSE",
+            "Type": "Co-located Conference",
+            "ShortType": "Co-located Conference",
+            "Key": "2013-08-20 09:30 IWPSE",
             "Day": "2013-08-20",
-            "Time": "09:30 - 11:00",
-            "Location": "",
-            "LocationIndex": "7",
+            "Time": "09:30 - 18:00",
+            "Location": "Big Hall",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
-            "SponsoredBy": "FSE13",
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "Murray Cantor; Peri Tarr @  : Using Continuous Prediction and Tradeoffs to Achieve Project Success"
-            ]
+            "Abstract": ""
+        },
+        {
+            "Id": "bohZ3Oor9w",
+            "Title": "MUSEPAT",
+            "ShortTitle": "MUSEPAT",
+            "Type": "Co-located Conference",
+            "ShortType": "Co-located Conference",
+            "Key": "2013-08-20 09:30 MUSEPAT",
+            "Day": "2013-08-20",
+            "Time": "09:30 - 13:00",
+            "Location": "Heraldic Hall",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
         },
         {
             "Id": "ohduC5loh9",
@@ -2763,12 +2968,12 @@
             "Key": "2013-08-20 09:30 Software Engineering for Mobile Apps: Research Accomplishments and Future Challenges",
             "Day": "2013-08-20",
             "Time": "09:30 - 11:00",
-            "Location": "",
-            "LocationIndex": "7",
+            "Location": "Marrinsky Hall",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
-            "SponsoredBy": "FSE13",
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
@@ -2777,16 +2982,16 @@
             ]
         },
         {
-            "Id": "bohZ3Oor9w",
-            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
-            "ShortTitle": "MUSEPAT",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2013-08-20 09:30 MUSEPAT",
+            "Id": "doaPh9iu0o",
+            "Title": "Using Continuous Prediction and Tradeoffs to Achieve Project Success",
+            "ShortTitle": "Using Continuous Prediction and Tradeoffs to Achieve Project Success",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2013-08-20 09:30 Using Continuous Prediction and Tradeoffs to Achieve Project Success",
             "Day": "2013-08-20",
-            "Time": "09:30 - 13:00",
-            "Location": "",
-            "LocationIndex": "9",
+            "Time": "09:30 - 11:00",
+            "Location": "Pavlovsky Hall",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2795,20 +3000,20 @@
             "Comment": "FSE13",
             "Abstract": "",
              "Items": [
-                 "FSEWS13 @  : MUSEPAT"
+                 "Murray Cantor; Peri Tarr @  : Using Continuous Prediction and Tradeoffs to Achieve Project Success"
             ]
         },
         {
-            "Id": "ruKooj8aaZ",
-            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
-            "ShortTitle": "IWPSE",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2013-08-20 09:30 IWPSE",
+            "Id": "YPiBZRLebb",
+            "Title": "Morning Break",
+            "ShortTitle": "Morning Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-08-20 11:00 Morning Break",
             "Day": "2013-08-20",
-            "Time": "09:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "9",
+            "Time": "11:00 - 11:30",
+            "Location": "Foyer",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2817,7 +3022,7 @@
             "Comment": "FSE13",
             "Abstract": "",
              "Items": [
-                 "FSEWS13 @  : IWPSE"
+                 "FSEWS13 @  : Morning Break"
             ]
         },
         {
@@ -2829,8 +3034,8 @@
             "Key": "2013-08-20 11:30 Doctoral Papers 2",
             "Day": "2013-08-20",
             "Time": "11:30 - 13:00",
-            "Location": "",
-            "LocationIndex": "4",
+            "Location": "Session Hall",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2852,17 +3057,39 @@
             "Key": "2013-08-20 11:30 Statistics in Software Engineering: Pitfalls and Good Practices",
             "Day": "2013-08-20",
             "Time": "11:30 - 13:00",
-            "Location": "",
-            "LocationIndex": "7",
+            "Location": "Marrinsky Hall",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
-            "SponsoredBy": "FSE13",
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
              "Items": [
                  "Audris Mockus; Ahmed E. Hassan; Meiyappan Nagappan @  : Statistics in Software Engineering: Pitfalls and Good Practices"
+            ]
+        },
+        {
+            "Id": "1qgf70ZpRm",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-08-20 13:00 Lunch",
+            "Day": "2013-08-20",
+            "Time": "13:00 - 14:30",
+            "Location": "Foyer",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : Lunch"
             ]
         },
         {
@@ -2874,8 +3101,8 @@
             "Key": "2013-08-20 14:30 Doctoral Papers 3",
             "Day": "2013-08-20",
             "Time": "14:30 - 16:00",
-            "Location": "",
-            "LocationIndex": "4",
+            "Location": "Session Hall",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2897,12 +3124,12 @@
             "Key": "2013-08-20 14:30 Git &amp; GitHub Foundations for Educators",
             "Day": "2013-08-20",
             "Time": "14:30 - 16:00",
-            "Location": "",
-            "LocationIndex": "7",
+            "Location": "Marrinsky Hall",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
-            "SponsoredBy": "FSE13",
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
@@ -2919,17 +3146,39 @@
             "Key": "2013-08-20 14:30 Symbolic Execution For Program Debugging and Repair",
             "Day": "2013-08-20",
             "Time": "14:30 - 16:00",
-            "Location": "",
-            "LocationIndex": "7",
+            "Location": "Pavlovsky Hall",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
-            "SponsoredBy": "FSE13",
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
              "Items": [
                  "Abhik Roychoudhury; Satish Chandra @  : Symbolic Execution For Program Debugging and Repair"
+            ]
+        },
+        {
+            "Id": "nheTt6BZBR",
+            "Title": "Afternoon Break",
+            "ShortTitle": "Afternoon Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-08-20 16:00 Afternoon Break",
+            "Day": "2013-08-20",
+            "Time": "16:00 - 16:30",
+            "Location": "Foyer",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSEWS13 @  : Afternoon Break"
             ]
         },
         {
@@ -2941,8 +3190,8 @@
             "Key": "2013-08-20 16:30 Doctoral Papers 4",
             "Day": "2013-08-20",
             "Time": "16:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "4",
+            "Location": "Session Hall",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2963,12 +3212,12 @@
             "Key": "2013-08-20 16:30 Do&#039;s and Don&#039;ts for Empirical Software Engineering: Three different perspectives",
             "Day": "2013-08-20",
             "Time": "16:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "7",
+            "Location": "Marrinsky Hall",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
-            "SponsoredBy": "FSE13",
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
@@ -2985,12 +3234,12 @@
             "Key": "2013-08-20 16:30 Energy-Aware and Energy-Efficient Software",
             "Day": "2013-08-20",
             "Time": "16:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "7",
+            "Location": "Pavlovsky Hall",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
-            "SponsoredBy": "FSE13",
+            "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
@@ -3007,18 +3256,34 @@
             "Key": "2013-08-20 18:00 Welcome Reception",
             "Day": "2013-08-20",
             "Time": "18:00 - 19:00",
-            "Location": "",
-            "LocationIndex": "8",
+            "Location": "Column Hall and Foyer",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSE13 @  : Welcome Reception"
-            ]
+            "Abstract": ""
+        },
+        {
+            "Id": "4ANh8kFvQ3",
+            "Title": "ICSE Steering Commitee Meeting",
+            "ShortTitle": "ICSE Steering Commitee Meeting",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2013-08-20 19:00 ICSE Steering Commitee Meeting",
+            "Day": "2013-08-20",
+            "Time": "19:00 - 21:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
         },
         {
             "Id": "eeDah4Ya2j",
@@ -3029,18 +3294,15 @@
             "Key": "2013-08-21 09:00 Opening",
             "Day": "2013-08-21",
             "Time": "09:00 - 09:30",
-            "Location": "",
-            "LocationIndex": "1",
+            "Location": "Column Hall",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSE13 @  : Opening"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "Ieth5wiaBi",
@@ -3051,8 +3313,8 @@
             "Key": "fse13keynotes-k1-p",
             "Day": "2013-08-21",
             "Time": "09:30 - 11:00",
-            "Location": "",
-            "LocationIndex": "1",
+            "Location": "Column Hall",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3065,6 +3327,28 @@
             ]
         },
         {
+            "Id": "3Z0LvKk4ZE",
+            "Title": "Morning Break",
+            "ShortTitle": "Morning Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-08-21 10:30 Morning Break",
+            "Day": "2013-08-21",
+            "Time": "10:30 - 11:00",
+            "Location": "Foyer",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSE13 @  : Morning Break"
+            ]
+        },
+        {
             "Id": "ieCh0Ief9z",
             "Title": "Dynamic and Variable Software",
             "ShortTitle": "Dynamic and Variable Software",
@@ -3073,8 +3357,8 @@
             "Key": "2013-08-21 11:00 Dynamic and Variable Software",
             "Day": "2013-08-21",
             "Time": "11:00 - 12:15",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Big Hall",
+            "LocationIndex": "6",
             "ChairsString": "Elisabetta Di Nitto",
             "Chairs": [
                 "Elisabetta Di Nitto @"
@@ -3098,8 +3382,8 @@
             "Key": "2013-08-21 11:00 Testing I",
             "Day": "2013-08-21",
             "Time": "11:00 - 12:15",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Heraldic Hall",
+            "LocationIndex": "10",
             "ChairsString": "Alessandro Orso",
             "Chairs": [
                 "Alessandro Orso @"
@@ -3123,8 +3407,8 @@
             "Key": "2013-08-21 11:00 Implementing Sound Software-Engineering Practices in Companies",
             "Day": "2013-08-21",
             "Time": "11:00 - 12:15",
-            "Location": "",
-            "LocationIndex": "3",
+            "Location": "Session Hall",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3139,6 +3423,28 @@
             ]
         },
         {
+            "Id": "RGl8eeYgru",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-08-21 12:15 Lunch",
+            "Day": "2013-08-21",
+            "Time": "12:15 - 13:45",
+            "Location": "Foyer",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSE13 @  : Lunch"
+            ]
+        },
+        {
             "Id": "bi7aewieHu",
             "Title": "Formal Reasoning",
             "ShortTitle": "Formal Reasoning",
@@ -3147,8 +3453,8 @@
             "Key": "2013-08-21 13:45 Formal Reasoning",
             "Day": "2013-08-21",
             "Time": "13:45 - 15:00",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Heraldic Hall",
+            "LocationIndex": "10",
             "ChairsString": "Paola Inverardi",
             "Chairs": [
                 "Paola Inverardi @"
@@ -3173,7 +3479,7 @@
             "Day": "2013-08-21",
             "Time": "13:45 - 15:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "13",
             "ChairsString": "Massimiliano Di Penta",
             "Chairs": [
                 "Massimiliano Di Penta @"
@@ -3197,8 +3503,8 @@
             "Key": "2013-08-21 13:45 Approaches to Quality",
             "Day": "2013-08-21",
             "Time": "13:45 - 15:00",
-            "Location": "",
-            "LocationIndex": "3",
+            "Location": "Session Hall",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3213,31 +3519,6 @@
             ]
         },
         {
-            "Id": "cheeW3shoh",
-            "Title": "Parallel, Concurrent, and Distributed Systems",
-            "ShortTitle": "Parallel, Concurrent, and Distributed Systems",
-            "Type": "Technical Research",
-            "ShortType": "Technical Research",
-            "Key": "2013-08-21 15:15 Parallel, Concurrent, and Distributed Systems",
-            "Day": "2013-08-21",
-            "Time": "15:15 - 16:30",
-            "Location": "",
-            "LocationIndex": "0",
-            "ChairsString": "David Rosenblum",
-            "Chairs": [
-                "David Rosenblum @"
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13MAIN",
-            "Abstract": "",
-            "Items": [
-                "fse13main-id138-p",
-                "fse13main-id162-p",
-                "fse13main-id213-p"
-            ]
-        },
-        {
             "Id": "Uewoo3Ahbu",
             "Title": "Software Development Activities",
             "ShortTitle": "Software Development Activities",
@@ -3246,8 +3527,8 @@
             "Key": "2013-08-21 15:15 Software Development Activities",
             "Day": "2013-08-21",
             "Time": "15:15 - 16:30",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Big Hall",
+            "LocationIndex": "6",
             "ChairsString": "Tony Wasserman",
             "Chairs": [
                 "Tony Wasserman @"
@@ -3263,6 +3544,31 @@
             ]
         },
         {
+            "Id": "cheeW3shoh",
+            "Title": "Parallel, Concurrent, and Distributed Systems",
+            "ShortTitle": "Parallel, Concurrent, and Distributed Systems",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-08-21 15:15 Parallel, Concurrent, and Distributed Systems",
+            "Day": "2013-08-21",
+            "Time": "15:15 - 16:30",
+            "Location": "Heraldic Hall",
+            "LocationIndex": "10",
+            "ChairsString": "David Rosenblum",
+            "Chairs": [
+                "David Rosenblum @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "fse13main-id138-p",
+                "fse13main-id162-p",
+                "fse13main-id213-p"
+            ]
+        },
+        {
             "Id": "Oe3ahNoG8e",
             "Title": "Effective Industry Use of Software-Engineering Tools",
             "ShortTitle": "Effective Industry Use of Software-Engineering Tools",
@@ -3271,8 +3577,8 @@
             "Key": "2013-08-21 15:15 Effective Industry Use of Software-Engineering Tools",
             "Day": "2013-08-21",
             "Time": "15:15 - 16:30",
-            "Location": "",
-            "LocationIndex": "3",
+            "Location": "Session Hall",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3287,6 +3593,28 @@
             ]
         },
         {
+            "Id": "kcN9H5uIYD",
+            "Title": "Afternoon Break",
+            "ShortTitle": "Afternoon Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-08-21 16:30 Afternoon Break",
+            "Day": "2013-08-21",
+            "Time": "16:30 - 17:00",
+            "Location": "Foyer",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSE13 @  : Afternoon Break"
+            ]
+        },
+        {
             "Id": "xo7EiCheep",
             "Title": "Empirical Answers to Fundamental Software Engineering Problems (Panel)",
             "ShortTitle": "Empirical Answers to Fundamental Software Engineering Problems (Panel)",
@@ -3295,8 +3623,8 @@
             "Key": "fse13panels-p1-p",
             "Day": "2013-08-21",
             "Time": "17:00 - 18:15",
-            "Location": "",
-            "LocationIndex": "5",
+            "Location": "Column Hall",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3309,6 +3637,25 @@
             ]
         },
         {
+            "Id": "jkc5FLR6bf",
+            "Title": "SIGSOFT Meeting",
+            "ShortTitle": "SIGSOFT Meeting",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2013-08-21 18:15 SIGSOFT Meeting",
+            "Day": "2013-08-21",
+            "Time": "18:15 - 18:45",
+            "Location": "Column Hall",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
+        },
+        {
             "Id": "avik9Cheiy",
             "Title": "Producing Software by Integration: Challenges and Research Directions (Keynote)",
             "ShortTitle": "Producing Software by Integration: Challenges and Research Directions (Keynote)",
@@ -3317,8 +3664,8 @@
             "Key": "fse13keynotes-k2-p",
             "Day": "2013-08-22",
             "Time": "09:30 - 11:00",
-            "Location": "",
-            "LocationIndex": "1",
+            "Location": "Column Hall",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3331,6 +3678,28 @@
             ]
         },
         {
+            "Id": "Yyp1twqcjS",
+            "Title": "Morning Break",
+            "ShortTitle": "Morning Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-08-22 10:30 Morning Break",
+            "Day": "2013-08-22",
+            "Time": "10:30 - 11:00",
+            "Location": "Foyer",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSE13 @  : Morning Break"
+            ]
+        },
+        {
             "Id": "Dei2chahvu",
             "Title": "Software Engineering in Russia and Abroad (Panel)",
             "ShortTitle": "Software Engineering in Russia and Abroad (Panel)",
@@ -3339,18 +3708,15 @@
             "Key": "2013-08-22 11:00 Software Engineering in Russia and Abroad (Panel)",
             "Day": "2013-08-22",
             "Time": "11:00 - 12:15",
-            "Location": "",
-            "LocationIndex": "5",
+            "Location": "Big Hall",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13PANELS",
-            "Abstract": "",
-             "Items": [
-                 "FSE13PANELS @  : Software Engineering in Russia and Abroad (Panel)"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "ooloL4Eiw3",
@@ -3361,8 +3727,8 @@
             "Key": "2013-08-22 11:00 Testing II",
             "Day": "2013-08-22",
             "Time": "11:00 - 12:15",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Heraldic Hall",
+            "LocationIndex": "10",
             "ChairsString": "Antonia Bertolino",
             "Chairs": [
                 "Antonia Bertolino @"
@@ -3386,8 +3752,8 @@
             "Key": "2013-08-22 11:00 Analysis and Testing",
             "Day": "2013-08-22",
             "Time": "11:00 - 12:15",
-            "Location": "",
-            "LocationIndex": "2",
+            "Location": "Session Hall",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3403,29 +3769,45 @@
             ]
         },
         {
-            "Id": "chu4Xuu6ba",
-            "Title": "Dynamic Analysis",
-            "ShortTitle": "Dynamic Analysis",
-            "Type": "Technical Research",
-            "ShortType": "Technical Research",
-            "Key": "2013-08-22 13:45 Dynamic Analysis",
+            "Id": "caGNs7jQ1e",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-08-22 12:15 Lunch",
             "Day": "2013-08-22",
-            "Time": "13:45 - 15:00",
-            "Location": "",
+            "Time": "12:15 - 13:45",
+            "Location": "Foyer",
             "LocationIndex": "0",
-            "ChairsString": "Carlo A. Furia",
+            "ChairsString": "",
             "Chairs": [
-                "Carlo A. Furia @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "FSE13MAIN",
+            "Comment": "FSE13",
             "Abstract": "",
-            "Items": [
-                "fse13main-id235-p",
-                "fse13main-id35-p",
-                "fse13main-id152-p"
+             "Items": [
+                 "FSE13 @  : Lunch"
             ]
+        },
+        {
+            "Id": "F094zrXen6",
+            "Title": "ESEC/FSE Steering Commitee Meeting",
+            "ShortTitle": "ESEC/FSE Steering Commitee Meeting",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2013-08-22 12:15 ESEC/FSE Steering Commitee Meeting",
+            "Day": "2013-08-22",
+            "Time": "12:15 - 13:45",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
         },
         {
             "Id": "iimaiH1Coc",
@@ -3436,8 +3818,8 @@
             "Key": "2013-08-22 13:45 Models and Features",
             "Day": "2013-08-22",
             "Time": "13:45 - 15:00",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Big Hall",
+            "LocationIndex": "6",
             "ChairsString": "Nenad Medvidovic",
             "Chairs": [
                 "Nenad Medvidovic @"
@@ -3453,6 +3835,31 @@
             ]
         },
         {
+            "Id": "chu4Xuu6ba",
+            "Title": "Dynamic Analysis",
+            "ShortTitle": "Dynamic Analysis",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-08-22 13:45 Dynamic Analysis",
+            "Day": "2013-08-22",
+            "Time": "13:45 - 15:00",
+            "Location": "Heraldic Hall",
+            "LocationIndex": "10",
+            "ChairsString": "Carlo A. Furia",
+            "Chairs": [
+                "Carlo A. Furia @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "fse13main-id235-p",
+                "fse13main-id35-p",
+                "fse13main-id152-p"
+            ]
+        },
+        {
             "Id": "Dee2aechuu",
             "Title": "Hunting Bugs",
             "ShortTitle": "Hunting Bugs",
@@ -3461,8 +3868,8 @@
             "Key": "2013-08-22 13:45 Hunting Bugs",
             "Day": "2013-08-22",
             "Time": "13:45 - 15:00",
-            "Location": "",
-            "LocationIndex": "2",
+            "Location": "Session Hall",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3486,8 +3893,8 @@
             "Key": "2013-08-22 15:15 Maintenance and Evolution",
             "Day": "2013-08-22",
             "Time": "15:15 - 16:30",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Big Hall",
+            "LocationIndex": "6",
             "ChairsString": "Ivica Crnkovic",
             "Chairs": [
                 "Ivica Crnkovic @"
@@ -3511,8 +3918,8 @@
             "Key": "2013-08-22 15:15 Test and Analysis",
             "Day": "2013-08-22",
             "Time": "15:15 - 16:30",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Heraldic Hall",
+            "LocationIndex": "10",
             "ChairsString": "Vladimir Itsykson",
             "Chairs": [
                 "Vladimir Itsykson @"
@@ -3536,8 +3943,8 @@
             "Key": "2013-08-22 15:15 Understanding Software Development",
             "Day": "2013-08-22",
             "Time": "15:15 - 16:30",
-            "Location": "",
-            "LocationIndex": "2",
+            "Location": "Session Hall",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3553,6 +3960,28 @@
             ]
         },
         {
+            "Id": "3slbST3wFn",
+            "Title": "Afternoon Break",
+            "ShortTitle": "Afternoon Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-08-22 16:30 Afternoon Break",
+            "Day": "2013-08-22",
+            "Time": "16:30 - 17:00",
+            "Location": "Foyer",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "",
+             "Items": [
+                 "FSE13 @  : Afternoon Break"
+            ]
+        },
+        {
             "Id": "pi5xahChah",
             "Title": "A Publication Culture in Software Engineering (Panel)",
             "ShortTitle": "A Publication Culture in Software Engineering (Panel)",
@@ -3561,8 +3990,8 @@
             "Key": "fse13panels-p2-p",
             "Day": "2013-08-22",
             "Time": "17:00 - 18:15",
-            "Location": "",
-            "LocationIndex": "5",
+            "Location": "Column Hall",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3582,9 +4011,9 @@
             "ShortType": "Social",
             "Key": "2013-08-22 19:15 Banquet",
             "Day": "2013-08-22",
-            "Time": "19:15 - 21:30",
-            "Location": "",
-            "LocationIndex": "8",
+            "Time": "19:15 - 22:30",
+            "Location": "Column Hall and Foyer",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3592,6 +4021,29 @@
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "Music performance starts 19:15; dinner starts 20:30"
+        },
+        {
+            "Id": "reiD2lahz0",
+            "Title": "Artifact Evaluation (Summary)",
+            "ShortTitle": "Artifact Evaluation (Summary)",
+            "Type": "Artifact Presentations",
+            "ShortType": "Artifact Presentations",
+            "Key": "fse13misc-p4-p",
+            "Day": "2013-08-22",
+            "Time": "21:00 - 21:10",
+            "Location": "Column Hall and Foyer",
+            "LocationIndex": "12",
+            "ChairsString": "Alexandre Bergel",
+            "Chairs": [
+                "Alexandre Bergel @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13MISC",
+            "Abstract": "",
+            "Items": [
+                "fse13misc-p4-p"
+            ]
         },
         {
             "Id": "chaeKung3p",
@@ -3602,8 +4054,8 @@
             "Key": "fse13keynotes-k3-p",
             "Day": "2013-08-23",
             "Time": "09:30 - 11:00",
-            "Location": "",
-            "LocationIndex": "1",
+            "Location": "Column Hall",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3616,28 +4068,25 @@
             ]
         },
         {
-            "Id": "Aepheewee7",
-            "Title": "Formal Verification",
-            "ShortTitle": "Formal Verification",
-            "Type": "Technical Research",
-            "ShortType": "Technical Research",
-            "Key": "2013-08-23 11:00 Formal Verification",
+            "Id": "VmuPLDfFm5",
+            "Title": "Morning Break",
+            "ShortTitle": "Morning Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-08-23 10:30 Morning Break",
             "Day": "2013-08-23",
-            "Time": "11:00 - 12:15",
-            "Location": "",
+            "Time": "10:30 - 11:00",
+            "Location": "Foyer",
             "LocationIndex": "0",
-            "ChairsString": "Marsha Chechik",
+            "ChairsString": "",
             "Chairs": [
-                "Marsha Chechik @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "FSE13MAIN",
+            "Comment": "FSE13",
             "Abstract": "",
-            "Items": [
-                "fse13main-id113-p",
-                "fse13main-id219-p",
-                "fse13main-id126-p"
+             "Items": [
+                 "FSE13 @  : Morning Break"
             ]
         },
         {
@@ -3649,8 +4098,8 @@
             "Key": "2013-08-23 11:00 Model Inference and Synthesis",
             "Day": "2013-08-23",
             "Time": "11:00 - 12:15",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Big Hall",
+            "LocationIndex": "6",
             "ChairsString": "Wilhelm Schäfer",
             "Chairs": [
                 "Wilhelm Schäfer @"
@@ -3666,6 +4115,31 @@
             ]
         },
         {
+            "Id": "Aepheewee7",
+            "Title": "Formal Verification",
+            "ShortTitle": "Formal Verification",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-08-23 11:00 Formal Verification",
+            "Day": "2013-08-23",
+            "Time": "11:00 - 12:15",
+            "Location": "Heraldic Hall",
+            "LocationIndex": "10",
+            "ChairsString": "Marsha Chechik",
+            "Chairs": [
+                "Marsha Chechik @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "fse13main-id113-p",
+                "fse13main-id219-p",
+                "fse13main-id126-p"
+            ]
+        },
+        {
             "Id": "Zaak4ZeeF0",
             "Title": "Tool Demonstrations I",
             "ShortTitle": "Tool Demonstrations I",
@@ -3674,10 +4148,11 @@
             "Key": "2013-08-23 11:00 Tool Demonstrations I",
             "Day": "2013-08-23",
             "Time": "11:00 - 12:15",
-            "Location": "",
-            "LocationIndex": "6",
-            "ChairsString": "",
+            "Location": "Session Hall",
+            "LocationIndex": "5",
+            "ChairsString": "Carlo A. Furia, Sebastian Nanz",
             "Chairs": [
+                "Carlo A. Furia, Sebastian Nanz @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -3690,29 +4165,45 @@
             ]
         },
         {
-            "Id": "faegh8Ebuc",
-            "Title": "Empirical Studies II",
-            "ShortTitle": "Empirical Studies II",
-            "Type": "Technical Research",
-            "ShortType": "Technical Research",
-            "Key": "2013-08-23 13:45 Empirical Studies II",
+            "Id": "aXyEV10UNV",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-08-23 12:15 Lunch",
             "Day": "2013-08-23",
-            "Time": "13:45 - 15:00",
-            "Location": "",
+            "Time": "12:15 - 13:45",
+            "Location": "Foyer",
             "LocationIndex": "0",
-            "ChairsString": "Harald Gall",
+            "ChairsString": "",
             "Chairs": [
-                "Harald Gall @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "FSE13MAIN",
+            "Comment": "FSE13",
             "Abstract": "",
-            "Items": [
-                "fse13main-id53-p",
-                "fse13main-id19-p",
-                "fse13main-id110-p"
+             "Items": [
+                 "FSE13 @  : Lunch"
             ]
+        },
+        {
+            "Id": "sZqj07NPkM",
+            "Title": "FSE 2014 Meeting",
+            "ShortTitle": "FSE 2014 Meeting",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2013-08-23 12:15 FSE 2014 Meeting",
+            "Day": "2013-08-23",
+            "Time": "12:15 - 13:45",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
         },
         {
             "Id": "Jai3eedaes",
@@ -3723,8 +4214,8 @@
             "Key": "2013-08-23 13:45 JavaScript",
             "Day": "2013-08-23",
             "Time": "13:45 - 15:00",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Big Hall",
+            "LocationIndex": "6",
             "ChairsString": "Bara Buhnova",
             "Chairs": [
                 "Bara Buhnova @"
@@ -3740,6 +4231,31 @@
             ]
         },
         {
+            "Id": "faegh8Ebuc",
+            "Title": "Empirical Studies II",
+            "ShortTitle": "Empirical Studies II",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-08-23 13:45 Empirical Studies II",
+            "Day": "2013-08-23",
+            "Time": "13:45 - 15:00",
+            "Location": "Heraldic Hall",
+            "LocationIndex": "10",
+            "ChairsString": "Harald Gall",
+            "Chairs": [
+                "Harald Gall @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "fse13main-id53-p",
+                "fse13main-id19-p",
+                "fse13main-id110-p"
+            ]
+        },
+        {
             "Id": "Neebohsh6o",
             "Title": "Tool Demonstrations II",
             "ShortTitle": "Tool Demonstrations II",
@@ -3748,10 +4264,11 @@
             "Key": "2013-08-23 13:45 Tool Demonstrations II",
             "Day": "2013-08-23",
             "Time": "13:45 - 15:00",
-            "Location": "",
-            "LocationIndex": "6",
-            "ChairsString": "",
+            "Location": "Session Hall",
+            "LocationIndex": "5",
+            "ChairsString": "Carlo A. Furia, Sebastian Nanz",
             "Chairs": [
+                "Carlo A. Furia, Sebastian Nanz @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -3773,8 +4290,8 @@
             "Key": "2013-08-23 15:15 Bug Detection",
             "Day": "2013-08-23",
             "Time": "15:15 - 16:30",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Big Hall",
+            "LocationIndex": "6",
             "ChairsString": "Mark Harman",
             "Chairs": [
                 "Mark Harman @"
@@ -3798,8 +4315,8 @@
             "Key": "2013-08-23 15:15 Source Code and Programming",
             "Day": "2013-08-23",
             "Time": "15:15 - 16:30",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Heraldic Hall",
+            "LocationIndex": "10",
             "ChairsString": "Ben Livshits",
             "Chairs": [
                 "Ben Livshits @"
@@ -3823,10 +4340,11 @@
             "Key": "2013-08-23 15:15 Tool Demonstrations III",
             "Day": "2013-08-23",
             "Time": "15:15 - 16:30",
-            "Location": "",
-            "LocationIndex": "6",
-            "ChairsString": "",
+            "Location": "Session Hall",
+            "LocationIndex": "5",
+            "ChairsString": "Carlo A. Furia, Sebastian Nanz",
             "Chairs": [
+                "Carlo A. Furia, Sebastian Nanz @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -3839,26 +4357,46 @@
             ]
         },
         {
-            "Id": "reiD2lahz0",
-            "Title": "Artifact Evaluation (Summary)",
-            "ShortTitle": "Artifact Evaluation (Summary)",
-            "Type": "AEC Summary",
-            "ShortType": "AEC Summary",
-            "Key": "fse13misc-p4-p",
+            "Id": "DjFxsvFK9h",
+            "Title": "Afternoon Break",
+            "ShortTitle": "Afternoon Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-08-23 16:30 Afternoon Break",
             "Day": "2013-08-23",
-            "Time": "17:00 - 17:30",
-            "Location": "",
-            "LocationIndex": "1",
+            "Time": "16:30 - 17:00",
+            "Location": "Foyer",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "FSE13MISC",
+            "Comment": "FSE13",
             "Abstract": "",
-            "Items": [
-                "fse13misc-p4-p"
+             "Items": [
+                 "FSE13 @  : Afternoon Break"
             ]
+        },
+        {
+            "Id": "chiF3Nai7a",
+            "Title": "Artifact Presentations",
+            "ShortTitle": "Artifact Presentations",
+            "Type": "Artifact Presentations",
+            "ShortType": "Artifact Presentations",
+            "Key": "2013-08-23 17:00 Artifact Presentations",
+            "Day": "2013-08-23",
+            "Time": "17:00 - 17:40",
+            "Location": "Column Hall",
+            "LocationIndex": "9",
+            "ChairsString": "Alexandre Bergel",
+            "Chairs": [
+                "Alexandre Bergel @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": "Paul Marinescu and Cristian Cadar – KATCH: High-Coverage Testing of Software Patches<br/><br/>Dirk Beyer, Stefan Löwe, Evgeny Novikov, Andreas Stahlbauer, and Philipp Wendler – Linux Driver Revisions for Regression Verification<br/><br/>Shahar Maoz, Jan Oliver Ringert, and Bernhard Rumpe – Synthesis of Component and Connector Models from Crosscutting Structural Views<br/><br/>Marin Silic, Goran Delac, and Sinisa Srbljic – Prediction of Atomic Web Services Reliability Based on K-means Clustering<br/><br/>Nishant Sinha and Rezwana Karim – Compiling Mockups to Flexible UIs<br/><br/>Alex Gyori, Danny Dig, Lyle Franklin, and Jan Lahoda – Crossing the gap from imperative to functional programming through refactoring<br/><br/>Peng Liu – Finding Incorrect Compositions of Atomicity<br/><br/>Yunhui Zheng, Xiangyu Zhang, and Vijay Ganesh – Z3-str: A String Theory Plugin on Z3 for Web Application Analysis"
         },
         {
             "Id": "oopi4quo0T",
@@ -3866,87 +4404,227 @@
             "ShortTitle": "Awards and Closing",
             "Type": "Plenary",
             "ShortType": "Plenary",
-            "Key": "2013-08-23 17:30 Awards and Closing",
+            "Key": "2013-08-23 17:45 Awards and Closing",
             "Day": "2013-08-23",
-            "Time": "17:30 - 18:15",
-            "Location": "",
-            "LocationIndex": "1",
+            "Time": "17:45 - 18:15",
+            "Location": "Column Hall",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSE13 @  : Awards and Closing"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "aing6quohB",
-            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "Title": "SSBSE",
             "ShortTitle": "SSBSE",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
+            "Type": "Co-located Conference",
+            "ShortType": "Co-located Conference",
             "Key": "2013-08-24 09:30 SSBSE",
             "Day": "2013-08-24",
             "Time": "09:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "9",
+            "Location": "Heraldic Hall",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : SSBSE"
-            ]
+            "Abstract": ""
+        },
+        {
+            "Id": "BEJRYV8Y12",
+            "Title": "Morning Break",
+            "ShortTitle": "Morning Break",
+            "Type": "Co-located Social",
+            "ShortType": "Co-located Social",
+            "Key": "2013-08-24 11:00 Morning Break",
+            "Day": "2013-08-24",
+            "Time": "11:00 - 11:30",
+            "Location": "Foyer",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "u04YHwatWu",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Co-located Social",
+            "ShortType": "Co-located Social",
+            "Key": "2013-08-24 13:00 Lunch",
+            "Day": "2013-08-24",
+            "Time": "13:00 - 14:30",
+            "Location": "Foyer",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "zsbrUvLYWe",
+            "Title": "Afternoon Break",
+            "ShortTitle": "Afternoon Break",
+            "Type": "Co-located Social",
+            "ShortType": "Co-located Social",
+            "Key": "2013-08-24 16:00 Afternoon Break",
+            "Day": "2013-08-24",
+            "Time": "16:00 - 16:30",
+            "Location": "Foyer",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
         },
         {
             "Id": "eima1AhChe",
-            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "Title": "SSBSE",
             "ShortTitle": "SSBSE",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
+            "Type": "Co-located Conference",
+            "ShortType": "Co-located Conference",
             "Key": "2013-08-25 09:30 SSBSE",
             "Day": "2013-08-25",
             "Time": "09:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "9",
+            "Location": "Heraldic Hall",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : SSBSE"
-            ]
+            "Abstract": ""
+        },
+        {
+            "Id": "n1VSJMqZSR",
+            "Title": "Morning Break",
+            "ShortTitle": "Morning Break",
+            "Type": "Co-located Social",
+            "ShortType": "Co-located Social",
+            "Key": "2013-08-25 11:00 Morning Break",
+            "Day": "2013-08-25",
+            "Time": "11:00 - 11:30",
+            "Location": "Foyer",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "sWhYbwM02z",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Co-located Social",
+            "ShortType": "Co-located Social",
+            "Key": "2013-08-25 13:00 Lunch",
+            "Day": "2013-08-25",
+            "Time": "13:00 - 14:30",
+            "Location": "Foyer",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "PWHwjeRIsM",
+            "Title": "Afternoon Break",
+            "ShortTitle": "Afternoon Break",
+            "Type": "Co-located Social",
+            "ShortType": "Co-located Social",
+            "Key": "2013-08-25 16:00 Afternoon Break",
+            "Day": "2013-08-25",
+            "Time": "16:00 - 16:30",
+            "Location": "Foyer",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
         },
         {
             "Id": "zahv8Las1I",
-            "Title": "2013 9th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering  (ESEC/FSE)",
+            "Title": "SSBSE",
             "ShortTitle": "SSBSE",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
+            "Type": "Co-located Conference",
+            "ShortType": "Co-located Conference",
             "Key": "2013-08-26 09:30 SSBSE",
             "Day": "2013-08-26",
             "Time": "09:30 - 16:30",
-            "Location": "",
-            "LocationIndex": "9",
+            "Location": "Heraldic Hall",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "",
-             "Items": [
-                 "FSEWS13 @  : SSBSE"
-            ]
+            "Abstract": ""
+        },
+        {
+            "Id": "gZllf0vJ9d",
+            "Title": "Morning Break",
+            "ShortTitle": "Morning Break",
+            "Type": "Co-located Social",
+            "ShortType": "Co-located Social",
+            "Key": "2013-08-26 11:00 Morning Break",
+            "Day": "2013-08-26",
+            "Time": "11:00 - 11:30",
+            "Location": "Foyer",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "T8H1i9H7lE",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Co-located Social",
+            "ShortType": "Co-located Social",
+            "Key": "2013-08-26 13:00 Lunch",
+            "Day": "2013-08-26",
+            "Time": "13:00 - 14:30",
+            "Location": "Foyer",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13",
+            "Abstract": ""
         }
     ],
     "People": [
@@ -4064,6 +4742,16 @@
             "Name": "Gabriele Bavota",
             "Affiliation": "University of Sannio, Italy",
             "Key": "Gabriele Bavota @ University of Sannio, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alexandre Bergel",
+            "Affiliation": "",
+            "Key": "Alexandre Bergel @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4814,16 +5502,6 @@
             "Name": "FSE13",
             "Affiliation": "",
             "Key": "FSE13 @",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "FSE13PANELS",
-            "Affiliation": "",
-            "Key": "FSE13PANELS @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5822,8 +6500,8 @@
         },
         {
             "Name": "Bertrand Meyer",
-            "Affiliation": "ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, Switzerland",
-            "Key": "Bertrand Meyer @ ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, Switzerland",
+            "Affiliation": "ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, USA",
+            "Key": "Bertrand Meyer @ ETH Zurich, Switzerland / ITMO, Russia / Eiffel Software, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5914,6 +6592,16 @@
             "Name": "Mayur Naik",
             "Affiliation": "Georgia Tech, USA",
             "Key": "Mayur Naik @ Georgia Tech, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Carlo A. Furia, Sebastian Nanz",
+            "Affiliation": "",
+            "Key": "Carlo A. Furia, Sebastian Nanz @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
