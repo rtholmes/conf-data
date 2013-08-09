@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1375906057,
+    "DataRevision": 1376082377,
     "Preliminary": false,
     "Event": "ESEC/FSE 2013",
     "Name": "ESEC/FSE 2013",
@@ -3275,7 +3275,7 @@
             "Key": "2013-08-20 19:00 ICSE Steering Commitee Meeting",
             "Day": "2013-08-20",
             "Time": "19:00 - 21:00",
-            "Location": "",
+            "Location": "Marrinsky Hall",
             "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
@@ -3445,6 +3445,31 @@
             ]
         },
         {
+            "Id": "heTh0jeu0U",
+            "Title": "Empirical Studies I",
+            "ShortTitle": "Empirical Studies I",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2013-08-21 13:45 Empirical Studies I",
+            "Day": "2013-08-21",
+            "Time": "13:45 - 15:00",
+            "Location": "Big Hall",
+            "LocationIndex": "6",
+            "ChairsString": "Massimiliano Di Penta",
+            "Chairs": [
+                "Massimiliano Di Penta @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "fse13main-id117-p",
+                "fse13main-id136-p",
+                "fse13main-id50-p"
+            ]
+        },
+        {
             "Id": "bi7aewieHu",
             "Title": "Formal Reasoning",
             "ShortTitle": "Formal Reasoning",
@@ -3467,31 +3492,6 @@
                 "fse13main-id78-p",
                 "fse13main-id233-p",
                 "fse13main-id232-p"
-            ]
-        },
-        {
-            "Id": "heTh0jeu0U",
-            "Title": "Empirical Studies I",
-            "ShortTitle": "Empirical Studies I",
-            "Type": "Technical Research",
-            "ShortType": "Technical Research",
-            "Key": "2013-08-21 13:45 Empirical Studies I",
-            "Day": "2013-08-21",
-            "Time": "13:45 - 15:00",
-            "Location": "",
-            "LocationIndex": "13",
-            "ChairsString": "Massimiliano Di Penta",
-            "Chairs": [
-                "Massimiliano Di Penta @"
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSE13MAIN",
-            "Abstract": "",
-            "Items": [
-                "fse13main-id117-p",
-                "fse13main-id136-p",
-                "fse13main-id50-p"
             ]
         },
         {
@@ -3799,7 +3799,7 @@
             "Key": "2013-08-22 12:15 ESEC/FSE Steering Commitee Meeting",
             "Day": "2013-08-22",
             "Time": "12:15 - 13:45",
-            "Location": "",
+            "Location": "Marrinsky Hall",
             "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
@@ -4011,7 +4011,7 @@
             "ShortType": "Social",
             "Key": "2013-08-22 19:15 Banquet",
             "Day": "2013-08-22",
-            "Time": "19:15 - 22:30",
+            "Time": "19:15 - 23:30",
             "Location": "Column Hall and Foyer",
             "LocationIndex": "0",
             "ChairsString": "",
@@ -4020,7 +4020,7 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE13",
-            "Abstract": "Music performance starts 19:15; dinner starts 20:30"
+            "Abstract": "Music performance starts at 19:15. Dinner starts at 20:30."
         },
         {
             "Id": "reiD2lahz0",
@@ -4195,7 +4195,7 @@
             "Key": "2013-08-23 12:15 FSE 2014 Meeting",
             "Day": "2013-08-23",
             "Time": "12:15 - 13:45",
-            "Location": "",
+            "Location": "Marrinsky Hall",
             "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
