@@ -1,0 +1,1855 @@
+{
+	"DataRevision": "1",
+	"Event": "ICSM",
+	"Name": "ICSM 2013",
+	"Location": "Eindhoven, the Netherlands",
+	"URL": "http://icsm2013.tue.nl/",
+	"Items": [
+
+		{
+			"Title": " Intrinsic Definition in Software Architecture Evolution",
+			"Type": "Keynote",
+			"Key": "icsm_item_1",
+			"Authors": ["Jeff Magee"],
+			"Abstract": "Incremental change is an integral part of both the initial development and the subsequent evolution and maintenance of large complex software systems. The talk discusses both, the requirements for and the design of, an approach that captures this incremental change in the definition of software architecture. The predominate advantage in making the definition of evolution intrinsic to architecture description is in permitting a principled and manageable way of dealing with unplanned change and extension. Intrinsic definition facilitates decentralized evolution in which software is extended and evolved by multiple independent developers. The objective is an approach which permits unplanned extensions to be deployed to end users with the same facility that plugin extensions are currently added to systems with planned extension points. The talk advocates a model-driven approach in which architecture definition is used to directly construct both initial implementations and extensions/modification to these implementations. Existing approaches to dealing with the evolution of software architecture have focused on extending configuration management systems with architectural concepts. The intrinsic definition approach does not replace the need for version control provided by configuration management systems, rather it is intended as a way of capturing architectural change that can both co-exist with and exploit the use of industry standard configuration management systems. An implementation of intrinsic evolution definition in Backbone is presented. Backbone is a development of the Darwin architectural description language (ADL) and it has both a textual and a UML2 based graphical representation. The talk uses Backbone and its supporting toolset Evolve to illustrate basic concepts through simple examples and reports experience in applying the language and tools to larger examples."
+		},
+		{
+			"Title": "Reflecting Upon the Useful Life of Software",
+			"Type": "Keynote",
+			"Key": "icsm_item_2",
+			"Authors": ["Micheal Feathers"],
+			"Abstract": "Nearly every organization that develops software has maintenance challenges. Implicit in them is the assumption that it is valuable to keep existing software in service and that rewriting it would be cost prohibitive. There certainly is convincing evidence that both of these assumptions are true, but it's worth investigating whether we can finesse the problem of maintenance by treating software lifetime as a variable. In this keynote, Michael Feathers will explore this idea and its ramifications."
+		},
+		{
+			"Title": "A Fuzzy Expert System for Cost-Effective Regression Testing Strategies",
+			"Type": "Research Paper",
+			"Key": "icsm_item_10",
+			"Authors": ["Amanda Schwartz", "Hyunsook Do"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Identifying Process Improvement Targets in Test Processes: A Case Study",
+			"Type": "Research Paper",
+			"Key": "icsm_item_11",
+			"Authors": ["Tanja Toroi", "Anu Raninen", "Lauri Väätäinen"],
+			"Abstract": ""
+		},
+		{
+			"Title": "On rapid releases and software testing",
+			"Type": "Research Paper",
+			"Key": "icsm_item_12",
+			"Authors": ["Mika Mäntylä", "Foutse Khomh", "Bram Adams", "Emelie Engstrom", "Kai Petersen"],
+			"Abstract": ""
+		},
+		{
+			"Title": "How multiple developers affect the evolution of code clones",
+			"Type": "Research Paper",
+			"Key": "icsm_item_13",
+			"Authors": ["Jan Harder"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Mining Logical Clones in Software: Revealing High-Level Business and Programming Rules",
+			"Type": "Research Paper",
+			"Key": "icsm_item_14",
+			"Authors": ["Wenyi Qian", "Xin Peng", "Zhenchang Xing", "Stan Jarzabek", "Wenyun Zhao"],
+			"Abstract": ""
+		},
+		{
+			"Title": "An Empirical Study of Clone Removals",
+			"Type": "Research Paper",
+			"Key": "icsm_item_15",
+			"Authors": ["Saman Bazrafshan", "Rainer Koschke"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Content Categorization of API Discussions",
+			"Type": "Research Paper",
+			"Key": "icsm_item_16",
+			"Authors": ["Daqing Hou", "Lingfeng Mo"],
+			"Abstract": ""
+		},
+		{
+			"Title": "An empirical study of API stability and adoption in the Android Ecosystem",
+			"Type": "Research Paper",
+			"Key": "icsm_item_17",
+			"Authors": ["Tyler McDonnell", "Baishakhi Ray", "Miryung Kim"],
+			"Abstract": ""
+		},
+		{
+			"Title": "How we design interfaces, and how to assess it",
+			"Type": "Research Paper",
+			"Key": "icsm_item_18",
+			"Authors": ["Hani Abdeen", "Houari Sahraoui", "Osama Shata"],
+			"Abstract": ""
+		},
+		{
+			"Title": "An Accurate Stack Memory Abstraction and Symbolic Analysis Framework for Executables",
+			"Type": "Research Paper",
+			"Key": "icsm_item_19",
+			"Authors": ["Kapil Anand", "Khaled Elwazeer", "Aparna Kotha", "Matthew Smithson", "Rajeev Barua", "Angelos Keromytis"],
+			"Abstract": ""
+		},
+		{
+			"Title": "An Automation-assisted Empirical Study on Lock Usage for Concurrent Programs",
+			"Type": "Research Paper",
+			"Key": "icsm_item_20",
+			"Authors": ["Rui Xin", "Shiqiu Huang", "Chengcheng Xiang", "Yudi Zheng", "Zhengwei Qi"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Leveraging Performance Counters and Execution Logs to Diagnose Memory-Related Performance Issues",
+			"Type": "Research Paper",
+			"Key": "icsm_item_21",
+			"Authors": ["Mark D. Syer", "Zhen Ming Jiang", "Meiyappan Nagappan", "Ahmed E. Hassan", "Mohamed Nasser", "Parminder Flora"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Exploring the Limits of Domain Model Recovery",
+			"Type": "Research Paper",
+			"Key": "icsm_item_22",
+			"Authors": ["Davy Landman", "Paul Klint", "Jurgen Vinju"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Combining static and dynamic analyses to reverse-engineering scenario diagrams",
+			"Type": "Research Paper",
+			"Key": "icsm_item_23",
+			"Authors": ["Yvan Labiche", "Bojana Kolbah", "Hossein Mehrfard"],
+			"Abstract": ""
+		},
+		{
+			"Title": "An Analysis of Machine Learning Algorithms for Condensing Reverse Engineered Class Diagrams",
+			"Type": "Research Paper",
+			"Key": "icsm_item_24",
+			"Authors": ["Mohd Hafeez Osman", "Michel Chaudron", "Peter Van Der Putten"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Output-oriented Refactoring in PHP-based Dynamic Web Applications",
+			"Type": "Research Paper",
+			"Key": "icsm_item_25",
+			"Authors": ["Hoan Nguyen", "Hung Nguyen", "Tung Nguyen", "Tien Nguyen"],
+			"Abstract": ""
+		},
+		{
+			"Title": "On the Automation of Dependency-Breaking Refactorings in Java",
+			"Type": "Research Paper",
+			"Key": "icsm_item_26",
+			"Authors": ["Syed Muhammad Ali Shah", "Jens Dietrich", "Catherine Mccartin"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Reducing the Energy Consumption of Mobile Applications Behind the Scenes",
+			"Type": "Research Paper",
+			"Key": "icsm_item_27",
+			"Authors": ["Young-Woo Kwon", "Eli Tilevich"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Efficient Automated Program Repair through Fault-Recorded Testing Prioritization",
+			"Type": "Research Paper",
+			"Key": "icsm_item_28",
+			"Authors": ["Yuhua Qi", "Xiaoguang Mao", "Yan Lei"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Dealing with Faults in Source Code: Abbreviated vs. Full-Word Identifier Names",
+			"Type": "Research Paper",
+			"Key": "icsm_item_29",
+			"Authors": ["Giuseppe Scanniello", "Michele Risi"],
+			"Abstract": ""
+		},
+		{
+			"Title": "DRONE: Prediction Priority of Reported Bugs by Multi-Factor Analysis",
+			"Type": "Research Paper",
+			"Key": "icsm_item_30",
+			"Authors": ["Yuan Tian", "David Lo", "Chengnian Sun"],
+			"Abstract": ""
+		},
+		{
+			"Title": "An empirical investigation on documentation usage patterns in maintenance tasks",
+			"Type": "Research Paper",
+			"Key": "icsm_item_31",
+			"Authors": ["Gabriele Bavota", "Gerardo Canfora", "Massimiliano Di Penta", "Rocco Oliveto", "Sebastiano Panichella"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Architecture Compliance Checking of Semantically Rich Modular Architectures: A Comparative Study of Tool Support",
+			"Type": "Research Paper",
+			"Key": "icsm_item_32",
+			"Authors": ["Leo Pruijt", "Christian Köppe", "Sjaak Brinkkemper"],
+			"Abstract": ""
+		},
+		{
+			"Title": "LHDiff: A language-independent hybrid approach for tracking source code lines",
+			"Type": "Research Paper",
+			"Key": "icsm_item_33",
+			"Authors": ["Muhammad Asaduzzaman", "Chanchal K. Roy", "Kevin Schneider", "Massimiliano Di Penta"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Mining Software Profile across Multiple Repositories for Hierarchical Categorization",
+			"Type": "Research Paper",
+			"Key": "icsm_item_34",
+			"Authors": ["Tao Wang", "Huaimin Wang", "Gang Yin", "Charles X. Ling", "Xiang Li", "Peng Zou"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Mining Software Repositories for Accurate Authorship",
+			"Type": "Research Paper",
+			"Key": "icsm_item_35",
+			"Authors": ["Xiaozhu Meng", "Barton Miller", "William Williams,", "rew Bernat"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Investigating the impact of code smells on system's quality: an empirical study on systems of different application domains",
+			"Type": "Research Paper",
+			"Key": "icsm_item_36",
+			"Authors": ["Francesca Arcelli Fontana", "Vincenzo Ferme", "Alessandro Marino", "Bartosz Walter", "Pawel Martenka"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Predicting bugs using anti patterns",
+			"Type": "Research Paper",
+			"Key": "icsm_item_37",
+			"Authors": ["Seyyed Ehsan Salamati Taba", "Foutse Khomh", "Ying Zou", "Ahmed E. Hassan", "Meiyappan Nagappan"],
+			"Abstract": ""
+		},
+		{
+			"Title": "The evolution of project inter-dependencies in a software ecosystem: the case of Apache",
+			"Type": "Research Paper",
+			"Key": "icsm_item_38",
+			"Authors": ["Gabriele Bavota", "Gerardo Canfora", "Massimiliano Di Penta", "Rocco Oliveto", "Sebastiano Panichella"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Stakeholders' Information Needs for Artifacts and their Dependencies in a Real World Context",
+			"Type": "Research Paper",
+			"Key": "icsm_item_39",
+			"Authors": ["Sebastian C. Müller", "Thomas Fritz"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Improving feature location by enhancing source code with stereotypes",
+			"Type": "Research Paper",
+			"Key": "icsm_item_40",
+			"Authors": ["Nouh Alhindawi", "Natalia Dragan", "Michael Collard", "Jonathan Maletic"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Will Fault Localization Work For These Failures? An Automated Approach to Predict Effectiveness of Fault Localization Tools",
+			"Type": "Research Paper",
+			"Key": "icsm_item_41",
+			"Authors": ["Tien-Duy B. Le", "David Lo"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Enhancing software traceability by automatically expanding corpora with relevant documentation",
+			"Type": "Research Paper",
+			"Key": "icsm_item_42",
+			"Authors": ["Tathagata Dasgupta", "Mark Grechanik", "Evan Moritz", "Bogdan Dit", "Denys Poshyvanyk"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Supporting and accelerating reproducible research in software maintenance using TraceLab component library",
+			"Type": "Research Paper",
+			"Key": "icsm_item_43",
+			"Authors": ["Bogdan Dit", "Evan Moritz", "Mario Linares-Vásquez", "Denys Poshyvanyk"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Social Activities Rival Patch Submission For Prediction of Developer Initiation in OSS Projects",
+			"Type": "Research Paper",
+			"Key": "icsm_item_44",
+			"Authors": ["Mohammad Gharehyazie", "Daryl Posnett", "Vladimir Filkov"],
+			"Abstract": ""
+		},
+		{
+			"Title": "How does context affect the distribution of software maintainability metrics?",
+			"Type": "Research Paper",
+			"Key": "icsm_item_45",
+			"Authors": ["Feng Zhang", "Audris Mockus", "Ying Zou", "Foutse Khomh", "Ahmed E. Hassan"],
+			"Abstract": ""
+		}
+	],
+	"Sessions": [
+
+		{
+			"Title": "Keynote Tuesday",
+			"Type": "Keynote",
+			"Key": "session_key_1",
+			"Day": "9/24/2013",
+			"Time": "9:00 am - 10:00 am",
+			"Location": "Blauwe Zaal",
+			"Abstract": "Keynote Tuesday",
+			"Items": ["icsm_item_1"]
+		},
+		{
+			"Title": "Keynote Thursday",
+			"Type": "Keynote",
+			"Key": "session_key_2",
+			"Day": "9/26/2013",
+			"Time": "9:00 am - 10:00 am",
+			"Location": "Blauwe Zaal",
+			"Abstract": "Keynote Tuesday",
+			"Items": ["icsm_item_2"]
+		},
+		{
+			"Title": "Testing",
+			"Type": "Research Track",
+			"Key": "session_key_3",
+			"Day": "9/26/2013",
+			"Time": "16:40 pm - 17:55 pm",
+			"Location": "Blauwe Zaal",
+			"Abstract": "Testing",
+			"Items": ["icsm_item_10", "icsm_item_11", "icsm_item_12"]
+		},
+		{
+			"Title": "Code Cloning",
+			"Type": "Research Track",
+			"Key": "session_key_4",
+			"Day": "9/25/2013",
+			"Time": "16:40 pm - 17:55 pm",
+			"Location": "Blauwe Zaal",
+			"Abstract": "Code Cloning",
+			"Items": ["icsm_item_13", "icsm_item_14", "icsm_item_15"]
+		},
+		{
+			"Title": "APIs",
+			"Type": "Research Track",
+			"Key": "session_key_5",
+			"Day": "9/25/2013",
+			"Time": "10:15 am - 11:30 am",
+			"Location": "Blauwe Zaal",
+			"Abstract": "APIs",
+			"Items": ["icsm_item_16", "icsm_item_17", "icsm_item_18"]
+		},
+		{
+			"Title": "Runtime Analysis",
+			"Type": "Research Track",
+			"Key": "session_key_6",
+			"Day": "9/26/2013",
+			"Time": "10:15 am - 11:30 am",
+			"Location": "Blauwe Zaal",
+			"Abstract": "Runtime Analysis",
+			"Items": ["icsm_item_19", "icsm_item_20", "icsm_item_21"]
+		},
+		{
+			"Title": "Reverse Engineering",
+			"Type": "Research Track",
+			"Key": "session_key_7",
+			"Day": "9/24/2013",
+			"Time": "13:55 pm - 15:10 pm",
+			"Location": "Blauwe Zaal",
+			"Abstract": "Reverse Engineering",
+			"Items": ["icsm_item_22", "icsm_item_23", "icsm_item_24"]
+		},
+		{
+			"Title": "Refactoring",
+			"Type": "Research Track",
+			"Key": "session_key_8",
+			"Day": "9/24/2013",
+			"Time": "16:40 pm - 17:55 pm",
+			"Location": "Blauwe Zaal",
+			"Abstract": "Refactoring",
+			"Items": ["icsm_item_25", "icsm_item_26", "icsm_item_27"]
+		},
+		{
+			"Title": "Fault and Defect Management",
+			"Type": "Research Track",
+			"Key": "session_key_9",
+			"Day": "9/26/2013",
+			"Time": "13:55 pm - 15:10 pm",
+			"Location": "Blauwe Zaal",
+			"Abstract": "Fault and Defect Management",
+			"Items": ["icsm_item_28", "icsm_item_29", "icsm_item_30"]
+		},
+		{
+			"Title": "Software Comprehension",
+			"Type": "Research Track",
+			"Key": "session_key_10",
+			"Day": "9/24/2013",
+			"Time": "10:15 am - 11:30 am",
+			"Location": "Blauwe Zaal",
+			"Abstract": "Software Comprehension",
+			"Items": ["icsm_item_31", "icsm_item_32", "icsm_item_33"]
+		},
+		{
+			"Title": "Software Authorship",
+			"Type": "Research Track",
+			"Key": "session_key_11",
+			"Day": "9/24/2013",
+			"Time": "11:45 am - 12:45 am",
+			"Location": "Blauwe Zaal",
+			"Abstract": "Software Authorship",
+			"Items": ["icsm_item_34", "icsm_item_35"]
+		},
+		{
+			"Title": "Smells and Anti-patterns",
+			"Type": "Research Track",
+			"Key": "session_key_12",
+			"Day": "9/24/2013",
+			"Time": "15:25 pm - 16:25 pm",
+			"Location": "Blauwe Zaal",
+			"Abstract": "Smells and Anti-patterns",
+			"Items": ["icsm_item_36", "icsm_item_37"]
+		},
+		{
+			"Title": "Dependencies",
+			"Type": "Research Track",
+			"Key": "session_key_13",
+			"Day": "9/25/2013",
+			"Time": "11:45 am - 12:45 am",
+			"Location": "Blauwe Zaal",
+			"Abstract": "Dependencies",
+			"Items": ["icsm_item_38", "icsm_item_39"]
+		},
+		{
+			"Title": "Feature Location",
+			"Type": "Research Track",
+			"Key": "session_key_14",
+			"Day": "9/26/2013",
+			"Time": "15:25 pm - 16:25 pm",
+			"Location": "Blauwe Zaal",
+			"Abstract": "Feature Location",
+			"Items": ["icsm_item_40", "icsm_item_41"]
+		},
+		{
+			"Title": "Traceability",
+			"Type": "Research Track",
+			"Key": "session_key_15",
+			"Day": "9/26/2013",
+			"Time": "11:45 am - 12:45 am",
+			"Location": "Blauwe Zaal",
+			"Abstract": "Traceability",
+			"Items": ["icsm_item_42", "icsm_item_43"]
+		},
+		{
+			"Title": "Context",
+			"Type": "Research Track",
+			"Key": "session_key_16",
+			"Day": "9/25/2013",
+			"Time": "15:25 pm - 16:25 pm",
+			"Location": "Blauwe Zaal",
+			"Abstract": "Context",
+			"Items": ["icsm_item_44", "icsm_item_45"]
+		}
+	],
+	"People": [
+
+		{
+			"Name": "Ahmed E. Hassan"
+		},
+		{
+			"Name": "Foutse Khomh"
+		},
+		{
+			"Name": "Ying Zou"
+		},
+		{
+			"Name": "Audris Mockus"
+		},
+		{
+			"Name": "Feng Zhang"
+		},
+		{
+			"Name": "Vladimir Filkov"
+		},
+		{
+			"Name": "Daryl Posnett"
+		},
+		{
+			"Name": "Mohammad Gharehyazie"
+		},
+		{
+			"Name": "Denys Poshyvanyk"
+		},
+		{
+			"Name": "Mario Linares-Vásquez"
+		},
+		{
+			"Name": "Evan Moritz"
+		},
+		{
+			"Name": "Bogdan Dit"
+		},
+		{
+			"Name": "Denys Poshyvanyk"
+		},
+		{
+			"Name": "Bogdan Dit"
+		},
+		{
+			"Name": "Evan Moritz"
+		},
+		{
+			"Name": "Mark Grechanik"
+		},
+		{
+			"Name": "Tathagata Dasgupta"
+		},
+		{
+			"Name": "David Lo"
+		},
+		{
+			"Name": "Tien-Duy B. Le"
+		},
+		{
+			"Name": "Jonathan Maletic"
+		},
+		{
+			"Name": "Michael Collard"
+		},
+		{
+			"Name": "Natalia Dragan"
+		},
+		{
+			"Name": "Nouh Alhindawi"
+		},
+		{
+			"Name": "Thomas Fritz"
+		},
+		{
+			"Name": "Sebastian C. Müller"
+		},
+		{
+			"Name": "Sebastiano Panichella"
+		},
+		{
+			"Name": "Rocco Oliveto"
+		},
+		{
+			"Name": "Massimiliano Di Penta"
+		},
+		{
+			"Name": "Gerardo Canfora"
+		},
+		{
+			"Name": "Gabriele Bavota"
+		},
+		{
+			"Name": "Meiyappan Nagappan"
+		},
+		{
+			"Name": "Ahmed E. Hassan"
+		},
+		{
+			"Name": "Ying Zou"
+		},
+		{
+			"Name": "Foutse Khomh"
+		},
+		{
+			"Name": "Seyyed Ehsan Salamati Taba"
+		},
+		{
+			"Name": "Pawel Martenka"
+		},
+		{
+			"Name": "Bartosz Walter"
+		},
+		{
+			"Name": "Alessandro Marino"
+		},
+		{
+			"Name": "Vincenzo Ferme"
+		},
+		{
+			"Name": "Francesca Arcelli Fontana"
+		},
+		{
+			"Name": "rew Bernat"
+		},
+		{
+			"Name": "William Williams,"
+		},
+		{
+			"Name": "Barton Miller"
+		},
+		{
+			"Name": "Xiaozhu Meng"
+		},
+		{
+			"Name": "Peng Zou"
+		},
+		{
+			"Name": "Xiang Li"
+		},
+		{
+			"Name": "Charles X. Ling"
+		},
+		{
+			"Name": "Gang Yin"
+		},
+		{
+			"Name": "Huaimin Wang"
+		},
+		{
+			"Name": "Tao Wang"
+		},
+		{
+			"Name": "Massimiliano Di Penta"
+		},
+		{
+			"Name": "Kevin Schneider"
+		},
+		{
+			"Name": "Chanchal K. Roy"
+		},
+		{
+			"Name": "Muhammad Asaduzzaman"
+		},
+		{
+			"Name": "Sjaak Brinkkemper"
+		},
+		{
+			"Name": "Christian Köppe"
+		},
+		{
+			"Name": "Leo Pruijt"
+		},
+		{
+			"Name": "Sebastiano Panichella"
+		},
+		{
+			"Name": "Rocco Oliveto"
+		},
+		{
+			"Name": "Massimiliano Di Penta"
+		},
+		{
+			"Name": "Gerardo Canfora"
+		},
+		{
+			"Name": "Gabriele Bavota"
+		},
+		{
+			"Name": "Chengnian Sun"
+		},
+		{
+			"Name": "David Lo"
+		},
+		{
+			"Name": "Yuan Tian"
+		},
+		{
+			"Name": "Michele Risi"
+		},
+		{
+			"Name": "Giuseppe Scanniello"
+		},
+		{
+			"Name": "Yan Lei"
+		},
+		{
+			"Name": "Xiaoguang Mao"
+		},
+		{
+			"Name": "Yuhua Qi"
+		},
+		{
+			"Name": "Eli Tilevich"
+		},
+		{
+			"Name": "Young-Woo Kwon"
+		},
+		{
+			"Name": "Catherine Mccartin"
+		},
+		{
+			"Name": "Jens Dietrich"
+		},
+		{
+			"Name": "Syed Muhammad Ali Shah"
+		},
+		{
+			"Name": "Tien Nguyen"
+		},
+		{
+			"Name": "Tung Nguyen"
+		},
+		{
+			"Name": "Hung Nguyen"
+		},
+		{
+			"Name": "Hoan Nguyen"
+		},
+		{
+			"Name": "Peter Van Der Putten"
+		},
+		{
+			"Name": "Michel Chaudron"
+		},
+		{
+			"Name": "Mohd Hafeez Osman"
+		},
+		{
+			"Name": "Hossein Mehrfard"
+		},
+		{
+			"Name": "Bojana Kolbah"
+		},
+		{
+			"Name": "Yvan Labiche"
+		},
+		{
+			"Name": "Jurgen Vinju"
+		},
+		{
+			"Name": "Paul Klint"
+		},
+		{
+			"Name": "Davy Landman"
+		},
+		{
+			"Name": "Parminder Flora"
+		},
+		{
+			"Name": "Mohamed Nasser"
+		},
+		{
+			"Name": "Ahmed E. Hassan"
+		},
+		{
+			"Name": "Meiyappan Nagappan"
+		},
+		{
+			"Name": "Zhen Ming Jiang"
+		},
+		{
+			"Name": "Mark D. Syer"
+		},
+		{
+			"Name": "Zhengwei Qi"
+		},
+		{
+			"Name": "Yudi Zheng"
+		},
+		{
+			"Name": "Chengcheng Xiang"
+		},
+		{
+			"Name": "Shiqiu Huang"
+		},
+		{
+			"Name": "Rui Xin"
+		},
+		{
+			"Name": "Angelos Keromytis"
+		},
+		{
+			"Name": "Rajeev Barua"
+		},
+		{
+			"Name": "Matthew Smithson"
+		},
+		{
+			"Name": "Aparna Kotha"
+		},
+		{
+			"Name": "Khaled Elwazeer"
+		},
+		{
+			"Name": "Kapil Anand"
+		},
+		{
+			"Name": "Osama Shata"
+		},
+		{
+			"Name": "Houari Sahraoui"
+		},
+		{
+			"Name": "Hani Abdeen"
+		},
+		{
+			"Name": "Miryung Kim"
+		},
+		{
+			"Name": "Baishakhi Ray"
+		},
+		{
+			"Name": "Tyler McDonnell"
+		},
+		{
+			"Name": "Lingfeng Mo"
+		},
+		{
+			"Name": "Daqing Hou"
+		},
+		{
+			"Name": "Rainer Koschke"
+		},
+		{
+			"Name": "Saman Bazrafshan"
+		},
+		{
+			"Name": "Wenyun Zhao"
+		},
+		{
+			"Name": "Stan Jarzabek"
+		},
+		{
+			"Name": "Zhenchang Xing"
+		},
+		{
+			"Name": "Xin Peng"
+		},
+		{
+			"Name": "Wenyi Qian"
+		},
+		{
+			"Name": "Jan Harder"
+		},
+		{
+			"Name": "Kai Petersen"
+		},
+		{
+			"Name": "Emelie Engstrom"
+		},
+		{
+			"Name": "Bram Adams"
+		},
+		{
+			"Name": "Foutse Khomh"
+		},
+		{
+			"Name": "Mika Mäntylä"
+		},
+		{
+			"Name": "Lauri Väätäinen"
+		},
+		{
+			"Name": "Anu Raninen"
+		},
+		{
+			"Name": "Tanja Toroi"
+		},
+		{
+			"Name": "Hyunsook Do"
+		},
+		{
+			"Name": "Amanda Schwartz"
+		},
+		{
+			"Name": "Micheal Feathers"
+		},
+		{
+			"Name": "Jeff Magee"
+		},
+		{
+			"Name": "Ahmed E. Hassan"
+		},
+		{
+			"Name": "Foutse Khomh"
+		},
+		{
+			"Name": "Ying Zou"
+		},
+		{
+			"Name": "Audris Mockus"
+		},
+		{
+			"Name": "Feng Zhang"
+		},
+		{
+			"Name": "Vladimir Filkov"
+		},
+		{
+			"Name": "Daryl Posnett"
+		},
+		{
+			"Name": "Mohammad Gharehyazie"
+		},
+		{
+			"Name": "Denys Poshyvanyk"
+		},
+		{
+			"Name": "Mario Linares-Vásquez"
+		},
+		{
+			"Name": "Evan Moritz"
+		},
+		{
+			"Name": "Bogdan Dit"
+		},
+		{
+			"Name": "Denys Poshyvanyk"
+		},
+		{
+			"Name": "Bogdan Dit"
+		},
+		{
+			"Name": "Evan Moritz"
+		},
+		{
+			"Name": "Mark Grechanik"
+		},
+		{
+			"Name": "Tathagata Dasgupta"
+		},
+		{
+			"Name": "David Lo"
+		},
+		{
+			"Name": "Tien-Duy B. Le"
+		},
+		{
+			"Name": "Jonathan Maletic"
+		},
+		{
+			"Name": "Michael Collard"
+		},
+		{
+			"Name": "Natalia Dragan"
+		},
+		{
+			"Name": "Nouh Alhindawi"
+		},
+		{
+			"Name": "Thomas Fritz"
+		},
+		{
+			"Name": "Sebastian C. Müller"
+		},
+		{
+			"Name": "Sebastiano Panichella"
+		},
+		{
+			"Name": "Rocco Oliveto"
+		},
+		{
+			"Name": "Massimiliano Di Penta"
+		},
+		{
+			"Name": "Gerardo Canfora"
+		},
+		{
+			"Name": "Gabriele Bavota"
+		},
+		{
+			"Name": "Meiyappan Nagappan"
+		},
+		{
+			"Name": "Ahmed E. Hassan"
+		},
+		{
+			"Name": "Ying Zou"
+		},
+		{
+			"Name": "Foutse Khomh"
+		},
+		{
+			"Name": "Seyyed Ehsan Salamati Taba"
+		},
+		{
+			"Name": "Pawel Martenka"
+		},
+		{
+			"Name": "Bartosz Walter"
+		},
+		{
+			"Name": "Alessandro Marino"
+		},
+		{
+			"Name": "Vincenzo Ferme"
+		},
+		{
+			"Name": "Francesca Arcelli Fontana"
+		},
+		{
+			"Name": "rew Bernat"
+		},
+		{
+			"Name": "William Williams,"
+		},
+		{
+			"Name": "Barton Miller"
+		},
+		{
+			"Name": "Xiaozhu Meng"
+		},
+		{
+			"Name": "Peng Zou"
+		},
+		{
+			"Name": "Xiang Li"
+		},
+		{
+			"Name": "Charles X. Ling"
+		},
+		{
+			"Name": "Gang Yin"
+		},
+		{
+			"Name": "Huaimin Wang"
+		},
+		{
+			"Name": "Tao Wang"
+		},
+		{
+			"Name": "Massimiliano Di Penta"
+		},
+		{
+			"Name": "Kevin Schneider"
+		},
+		{
+			"Name": "Chanchal K. Roy"
+		},
+		{
+			"Name": "Muhammad Asaduzzaman"
+		},
+		{
+			"Name": "Sjaak Brinkkemper"
+		},
+		{
+			"Name": "Christian Köppe"
+		},
+		{
+			"Name": "Leo Pruijt"
+		},
+		{
+			"Name": "Sebastiano Panichella"
+		},
+		{
+			"Name": "Rocco Oliveto"
+		},
+		{
+			"Name": "Massimiliano Di Penta"
+		},
+		{
+			"Name": "Gerardo Canfora"
+		},
+		{
+			"Name": "Gabriele Bavota"
+		},
+		{
+			"Name": "Chengnian Sun"
+		},
+		{
+			"Name": "David Lo"
+		},
+		{
+			"Name": "Yuan Tian"
+		},
+		{
+			"Name": "Michele Risi"
+		},
+		{
+			"Name": "Giuseppe Scanniello"
+		},
+		{
+			"Name": "Yan Lei"
+		},
+		{
+			"Name": "Xiaoguang Mao"
+		},
+		{
+			"Name": "Yuhua Qi"
+		},
+		{
+			"Name": "Eli Tilevich"
+		},
+		{
+			"Name": "Young-Woo Kwon"
+		},
+		{
+			"Name": "Catherine Mccartin"
+		},
+		{
+			"Name": "Jens Dietrich"
+		},
+		{
+			"Name": "Syed Muhammad Ali Shah"
+		},
+		{
+			"Name": "Tien Nguyen"
+		},
+		{
+			"Name": "Tung Nguyen"
+		},
+		{
+			"Name": "Hung Nguyen"
+		},
+		{
+			"Name": "Hoan Nguyen"
+		},
+		{
+			"Name": "Peter Van Der Putten"
+		},
+		{
+			"Name": "Michel Chaudron"
+		},
+		{
+			"Name": "Mohd Hafeez Osman"
+		},
+		{
+			"Name": "Hossein Mehrfard"
+		},
+		{
+			"Name": "Bojana Kolbah"
+		},
+		{
+			"Name": "Yvan Labiche"
+		},
+		{
+			"Name": "Jurgen Vinju"
+		},
+		{
+			"Name": "Paul Klint"
+		},
+		{
+			"Name": "Davy Landman"
+		},
+		{
+			"Name": "Parminder Flora"
+		},
+		{
+			"Name": "Mohamed Nasser"
+		},
+		{
+			"Name": "Ahmed E. Hassan"
+		},
+		{
+			"Name": "Meiyappan Nagappan"
+		},
+		{
+			"Name": "Zhen Ming Jiang"
+		},
+		{
+			"Name": "Mark D. Syer"
+		},
+		{
+			"Name": "Zhengwei Qi"
+		},
+		{
+			"Name": "Yudi Zheng"
+		},
+		{
+			"Name": "Chengcheng Xiang"
+		},
+		{
+			"Name": "Shiqiu Huang"
+		},
+		{
+			"Name": "Rui Xin"
+		},
+		{
+			"Name": "Angelos Keromytis"
+		},
+		{
+			"Name": "Rajeev Barua"
+		},
+		{
+			"Name": "Matthew Smithson"
+		},
+		{
+			"Name": "Aparna Kotha"
+		},
+		{
+			"Name": "Khaled Elwazeer"
+		},
+		{
+			"Name": "Kapil Anand"
+		},
+		{
+			"Name": "Osama Shata"
+		},
+		{
+			"Name": "Houari Sahraoui"
+		},
+		{
+			"Name": "Hani Abdeen"
+		},
+		{
+			"Name": "Miryung Kim"
+		},
+		{
+			"Name": "Baishakhi Ray"
+		},
+		{
+			"Name": "Tyler McDonnell"
+		},
+		{
+			"Name": "Lingfeng Mo"
+		},
+		{
+			"Name": "Daqing Hou"
+		},
+		{
+			"Name": "Rainer Koschke"
+		},
+		{
+			"Name": "Saman Bazrafshan"
+		},
+		{
+			"Name": "Wenyun Zhao"
+		},
+		{
+			"Name": "Stan Jarzabek"
+		},
+		{
+			"Name": "Zhenchang Xing"
+		},
+		{
+			"Name": "Xin Peng"
+		},
+		{
+			"Name": "Wenyi Qian"
+		},
+		{
+			"Name": "Jan Harder"
+		},
+		{
+			"Name": "Kai Petersen"
+		},
+		{
+			"Name": "Emelie Engstrom"
+		},
+		{
+			"Name": "Bram Adams"
+		},
+		{
+			"Name": "Foutse Khomh"
+		},
+		{
+			"Name": "Mika Mäntylä"
+		},
+		{
+			"Name": "Lauri Väätäinen"
+		},
+		{
+			"Name": "Anu Raninen"
+		},
+		{
+			"Name": "Tanja Toroi"
+		},
+		{
+			"Name": "Hyunsook Do"
+		},
+		{
+			"Name": "Amanda Schwartz"
+		},
+		{
+			"Name": "Micheal Feathers"
+		},
+		{
+			"Name": "Jeff Magee"
+		},
+		{
+			"Name": " Ahmed E. Hassan"
+		},
+		{
+			"Name": "Foutse Khomh"
+		},
+		{
+			"Name": "Ying Zou"
+		},
+		{
+			"Name": "Audris Mockus"
+		},
+		{
+			"Name": " Feng Zhang"
+		},
+		{
+			"Name": " Vladimir Filkov"
+		},
+		{
+			"Name": "Daryl Posnett"
+		},
+		{
+			"Name": "Mohammad Gharehyazie"
+		},
+		{
+			"Name": " Denys Poshyvanyk"
+		},
+		{
+			"Name": "Mario Linares-Vásquez"
+		},
+		{
+			"Name": "Evan Moritz"
+		},
+		{
+			"Name": "Bogdan Dit"
+		},
+		{
+			"Name": " Denys Poshyvanyk"
+		},
+		{
+			"Name": "Bogdan Dit"
+		},
+		{
+			"Name": "Evan Moritz"
+		},
+		{
+			"Name": "Mark Grechanik"
+		},
+		{
+			"Name": "Tathagata Dasgupta"
+		},
+		{
+			"Name": " David Lo"
+		},
+		{
+			"Name": "Tien-Duy B. Le"
+		},
+		{
+			"Name": " Jonathan Maletic"
+		},
+		{
+			"Name": "Michael Collard"
+		},
+		{
+			"Name": "Natalia Dragan"
+		},
+		{
+			"Name": "Nouh Alhindawi"
+		},
+		{
+			"Name": " Thomas Fritz"
+		},
+		{
+			"Name": "Sebastian C. Müller"
+		},
+		{
+			"Name": " Sebastiano Panichella"
+		},
+		{
+			"Name": "Rocco Oliveto"
+		},
+		{
+			"Name": "Massimiliano Di Penta"
+		},
+		{
+			"Name": "Gerardo Canfora"
+		},
+		{
+			"Name": "Gabriele Bavota"
+		},
+		{
+			"Name": " Meiyappan Nagappan"
+		},
+		{
+			"Name": "Ahmed E. Hassan"
+		},
+		{
+			"Name": "Ying Zou"
+		},
+		{
+			"Name": "Foutse Khomh"
+		},
+		{
+			"Name": "Seyyed Ehsan Salamati Taba"
+		},
+		{
+			"Name": " Pawel Martenka"
+		},
+		{
+			"Name": "Bartosz Walter"
+		},
+		{
+			"Name": "Alessandro Marino"
+		},
+		{
+			"Name": "Vincenzo Ferme"
+		},
+		{
+			"Name": "Francesca Arcelli Fontana"
+		},
+		{
+			"Name": "rew Bernat"
+		},
+		{
+			"Name": "William Williams,"
+		},
+		{
+			"Name": "Barton Miller"
+		},
+		{
+			"Name": "Xiaozhu Meng"
+		},
+		{
+			"Name": "Peng Zou"
+		},
+		{
+			"Name": "Xiang Li"
+		},
+		{
+			"Name": "Charles X. Ling"
+		},
+		{
+			"Name": "Gang Yin"
+		},
+		{
+			"Name": "Huaimin Wang"
+		},
+		{
+			"Name": "Tao Wang"
+		},
+		{
+			"Name": "Massimiliano Di Penta"
+		},
+		{
+			"Name": "Kevin Schneider"
+		},
+		{
+			"Name": "Chanchal K. Roy"
+		},
+		{
+			"Name": "Muhammad Asaduzzaman"
+		},
+		{
+			"Name": "Sjaak Brinkkemper"
+		},
+		{
+			"Name": "Christian Köppe"
+		},
+		{
+			"Name": "Leo Pruijt"
+		},
+		{
+			"Name": "Sebastiano Panichella"
+		},
+		{
+			"Name": "Rocco Oliveto"
+		},
+		{
+			"Name": "Massimiliano Di Penta"
+		},
+		{
+			"Name": "Gerardo Canfora"
+		},
+		{
+			"Name": "Gabriele Bavota"
+		},
+		{
+			"Name": " Chengnian Sun"
+		},
+		{
+			"Name": "David Lo"
+		},
+		{
+			"Name": "Yuan Tian"
+		},
+		{
+			"Name": " Michele Risi"
+		},
+		{
+			"Name": "Giuseppe Scanniello"
+		},
+		{
+			"Name": " Yan Lei"
+		},
+		{
+			"Name": "Xiaoguang Mao"
+		},
+		{
+			"Name": "Yuhua Qi"
+		},
+		{
+			"Name": " Eli Tilevich"
+		},
+		{
+			"Name": "Young-Woo Kwon"
+		},
+		{
+			"Name": " Catherine Mccartin"
+		},
+		{
+			"Name": "Jens Dietrich"
+		},
+		{
+			"Name": "Syed Muhammad Ali Shah"
+		},
+		{
+			"Name": " Tien Nguyen"
+		},
+		{
+			"Name": "Tung Nguyen"
+		},
+		{
+			"Name": "Hung Nguyen"
+		},
+		{
+			"Name": "Hoan Nguyen"
+		},
+		{
+			"Name": " Peter Van Der Putten"
+		},
+		{
+			"Name": "Michel Chaudron"
+		},
+		{
+			"Name": "Mohd Hafeez Osman"
+		},
+		{
+			"Name": " Hossein Mehrfard"
+		},
+		{
+			"Name": "Bojana Kolbah"
+		},
+		{
+			"Name": "Yvan Labiche"
+		},
+		{
+			"Name": " Jurgen Vinju"
+		},
+		{
+			"Name": "Paul Klint"
+		},
+		{
+			"Name": "Davy Landman"
+		},
+		{
+			"Name": " Parminder Flora"
+		},
+		{
+			"Name": "Mohamed Nasser"
+		},
+		{
+			"Name": "Ahmed E. Hassan"
+		},
+		{
+			"Name": "Meiyappan Nagappan"
+		},
+		{
+			"Name": "Zhen Ming Jiang"
+		},
+		{
+			"Name": "Mark D. Syer"
+		},
+		{
+			"Name": " Zhengwei Qi"
+		},
+		{
+			"Name": "Yudi Zheng"
+		},
+		{
+			"Name": "Chengcheng Xiang"
+		},
+		{
+			"Name": "Shiqiu Huang"
+		},
+		{
+			"Name": "Rui Xin"
+		},
+		{
+			"Name": "Angelos Keromytis"
+		},
+		{
+			"Name": "Rajeev Barua"
+		},
+		{
+			"Name": "Matthew Smithson"
+		},
+		{
+			"Name": "Aparna Kotha"
+		},
+		{
+			"Name": "Khaled Elwazeer"
+		},
+		{
+			"Name": "Kapil Anand"
+		},
+		{
+			"Name": "Osama Shata"
+		},
+		{
+			"Name": "Houari Sahraoui"
+		},
+		{
+			"Name": "Hani Abdeen"
+		},
+		{
+			"Name": "Miryung Kim"
+		},
+		{
+			"Name": "Baishakhi Ray"
+		},
+		{
+			"Name": "Tyler McDonnell"
+		},
+		{
+			"Name": "Lingfeng Mo"
+		},
+		{
+			"Name": " Daqing Hou"
+		},
+		{
+			"Name": "Rainer Koschke"
+		},
+		{
+			"Name": "Saman Bazrafshan"
+		},
+		{
+			"Name": "Wenyun Zhao"
+		},
+		{
+			"Name": "Stan Jarzabek"
+		},
+		{
+			"Name": "Zhenchang Xing"
+		},
+		{
+			"Name": "Xin Peng"
+		},
+		{
+			"Name": "Wenyi Qian"
+		},
+		{
+			"Name": "Jan Harder"
+		},
+		{
+			"Name": "Kai Petersen"
+		},
+		{
+			"Name": "Emelie Engstrom"
+		},
+		{
+			"Name": "Bram Adams"
+		},
+		{
+			"Name": "Foutse Khomh"
+		},
+		{
+			"Name": "Mika Mäntylä"
+		},
+		{
+			"Name": "Lauri Väätäinen"
+		},
+		{
+			"Name": "Anu Raninen"
+		},
+		{
+			"Name": "Tanja Toroi"
+		},
+		{
+			"Name": "Hyunsook Do"
+		},
+		{
+			"Name": "Amanda Schwartz"
+		},
+		{
+			"Name": "Micheal Feathers"
+		},
+		{
+			"Name": "Jeff Magee"
+		},
+		{
+			"Name": "Andrew Bernat"
+		},
+		{
+			"Name": "William Williams"
+		},
+		{
+			"Name": "Barton Miller"
+		},
+		{
+			"Name": "Xiaozhu Meng"
+		},
+		{
+			"Name": "Peng Zou"
+		},
+		{
+			"Name": "Xiang Li"
+		},
+		{
+			"Name": "Charles X. Ling"
+		},
+		{
+			"Name": "Gang Yin"
+		},
+		{
+			"Name": "Huaimin Wang"
+		},
+		{
+			"Name": "Tao Wang"
+		},
+		{
+			"Name": "Massimiliano Di Penta"
+		},
+		{
+			"Name": "Kevin Schneider"
+		},
+		{
+			"Name": "Chanchal K. Roy"
+		},
+		{
+			"Name": "Muhammad Asaduzzaman"
+		},
+		{
+			"Name": "Sjaak Brinkkemper"
+		},
+		{
+			"Name": "Christian Köppe"
+		},
+		{
+			"Name": "Leo Pruijt"
+		},
+		{
+			"Name": "Sebastiano Panichella"
+		},
+		{
+			"Name": "Rocco Oliveto"
+		},
+		{
+			"Name": "Massimiliano Di Penta"
+		},
+		{
+			"Name": "Gerardo Canfora"
+		},
+		{
+			"Name": "Gabriele Bavota"
+		},
+		{
+			"Name": "Micheal Feathers"
+		},
+		{
+			"Name": "Jeff Magee"
+		},
+		{
+			"Name": "Andrew Bernat"
+		},
+		{
+			"Name": "William Williams"
+		},
+		{
+			"Name": "Barton Miller"
+		},
+		{
+			"Name": "Xiaozhu Meng"
+		},
+		{
+			"Name": "Peng Zou"
+		},
+		{
+			"Name": "Xiang Li"
+		},
+		{
+			"Name": "Charles X. Ling"
+		},
+		{
+			"Name": "Gang Yin"
+		},
+		{
+			"Name": "Huaimin Wang"
+		},
+		{
+			"Name": "Tao Wang"
+		},
+		{
+			"Name": "Massimiliano Di Penta"
+		},
+		{
+			"Name": "Kevin Schneider"
+		},
+		{
+			"Name": "Chanchal K. Roy"
+		},
+		{
+			"Name": "Muhammad Asaduzzaman"
+		},
+		{
+			"Name": "Sjaak Brinkkemper"
+		},
+		{
+			"Name": "Christian Köppe"
+		},
+		{
+			"Name": "Leo Pruijt"
+		},
+		{
+			"Name": "Sebastiano Panichella"
+		},
+		{
+			"Name": "Rocco Oliveto"
+		},
+		{
+			"Name": "Massimiliano Di Penta"
+		},
+		{
+			"Name": "Gerardo Canfora"
+		},
+		{
+			"Name": "Gabriele Bavota"
+		},
+		{
+			"Name": "Micheal Feathers"
+		},
+		{
+			"Name": "Jeff Magee"
+		},
+		{
+			"Name": "Andrew Bernat"
+		},
+		{
+			"Name": "William Williams"
+		},
+		{
+			"Name": "Barton Miller"
+		},
+		{
+			"Name": "Xiaozhu Meng"
+		},
+		{
+			"Name": "Peng Zou"
+		},
+		{
+			"Name": "Xiang Li"
+		},
+		{
+			"Name": "Charles X. Ling"
+		},
+		{
+			"Name": "Gang Yin"
+		},
+		{
+			"Name": "Huaimin Wang"
+		},
+		{
+			"Name": "Tao Wang"
+		},
+		{
+			"Name": "Massimiliano Di Penta"
+		},
+		{
+			"Name": "Kevin Schneider"
+		},
+		{
+			"Name": "Chanchal K. Roy"
+		},
+		{
+			"Name": "Muhammad Asaduzzaman"
+		},
+		{
+			"Name": "Sjaak Brinkkemper"
+		},
+		{
+			"Name": "Christian Köppe"
+		},
+		{
+			"Name": "Leo Pruijt"
+		},
+		{
+			"Name": "Sebastiano Panichella"
+		},
+		{
+			"Name": "Rocco Oliveto"
+		},
+		{
+			"Name": "Massimiliano Di Penta"
+		},
+		{
+			"Name": "Gerardo Canfora"
+		},
+		{
+			"Name": "Gabriele Bavota"
+		},
+		{
+			"Name": "Micheal Feathers"
+		},
+		{
+			"Name": "Jeff Magee"
+		}
+	]
+}
