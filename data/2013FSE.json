@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1377073598,
+    "DataRevision": 1378025797,
     "Preliminary": false,
     "Event": "ESEC/FSE 2013",
     "Name": "ESEC/FSE 2013",
@@ -632,7 +632,7 @@
                 "Georgia Tech, USA"
             ],
             "Abstract": "We present a system Dynodroid for generating relevant inputs to unmodified Android apps. Dynodroid views an app as an event-driven program that interacts with its environment by means of a sequence of events through the Android framework. By instrumenting the framework once and for all, Dynodroid monitors the reaction of an app upon each event in a lightweight manner, using it to guide the generation of the next event to the app. Dynodroid also allows interleaving events from machines, which are better at generating a large number of simple inputs, with events from humans, who are better at providing intelligent inputs.  We evaluated Dynodroid on 50 open-source Android apps, and compared it with two prevalent approaches: users manually exercising apps, and Monkey, a popular fuzzing tool. Dynodroid, humans, and Monkey covered 55%, 60%, and 53%, respectively, of each app's Java source code on average. Monkey took 20X more events on average than Dynodroid. Dynodroid also found 9 bugs in 7 of the 50 apps, and 6 bugs in 5 of the top 1,000 free apps on Google Play.",
-            "Award": "Artifact Accepted for Presentation"
+            "Award": "Distinguished Artifact"
         },
         {
             "Title": "KATCH: High-Coverage Testing of Software Patches",
@@ -652,7 +652,7 @@
                 "Imperial College London, UK"
             ],
             "Abstract": "One of the distinguishing characteristics of software systems is that they evolve: new patches are committed to software repositories and new versions are released to users on a continuous basis. Unfortunately, many of these changes bring unexpected bugs that break the stability of the system or affect its security. In this paper, we address this problem using a technique for automatically testing code patches. Our technique combines symbolic execution with several novel heuristics based on static and dynamic program analysis which allow it to quickly reach the code of the patch. We have implemented our approach in a tool called KATCH, which we have applied to all the patches written in a combined period of approximately six years for nineteen mature programs from the popular GNU diffutils, GNU binutils and GNU findutils utility suites, which are shipped with virtually all UNIX-based distributions. Our results show that KATCH can automatically synthesise inputs that significantly increase the patch coverage achieved by the existing manual test suites, and find bugs at the moment they are introduced.",
-            "Award": "Artifact Accepted for Presentation"
+            "Award": "Distinguished Artifact"
         },
         {
             "Title": "Termination Proofs from Tests",
@@ -2357,7 +2357,7 @@
             "Day": "2013-08-18",
             "Time": "09:30 - 18:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2376,7 +2376,7 @@
             "Day": "2013-08-18",
             "Time": "11:00 - 11:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2395,7 +2395,7 @@
             "Day": "2013-08-18",
             "Time": "13:00 - 14:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2414,7 +2414,7 @@
             "Day": "2013-08-18",
             "Time": "16:00 - 16:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2433,7 +2433,7 @@
             "Day": "2013-08-19",
             "Time": "09:30 - 18:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2452,7 +2452,7 @@
             "Day": "2013-08-19",
             "Time": "09:30 - 18:00",
             "Location": "Pavlovsky Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2471,7 +2471,7 @@
             "Day": "2013-08-19",
             "Time": "09:30 - 18:00",
             "Location": "Session Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2490,7 +2490,7 @@
             "Day": "2013-08-19",
             "Time": "11:00 - 11:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2509,7 +2509,7 @@
             "Day": "2013-08-19",
             "Time": "13:00 - 14:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2528,7 +2528,7 @@
             "Day": "2013-08-19",
             "Time": "14:30 - 18:00",
             "Location": "Big Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2547,7 +2547,7 @@
             "Day": "2013-08-19",
             "Time": "16:00 - 16:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2566,7 +2566,7 @@
             "Day": "2013-08-20",
             "Time": "09:30 - 11:00",
             "Location": "Session Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2589,7 +2589,7 @@
             "Day": "2013-08-20",
             "Time": "09:30 - 18:00",
             "Location": "Big Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2608,7 +2608,7 @@
             "Day": "2013-08-20",
             "Time": "09:30 - 13:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2627,7 +2627,7 @@
             "Day": "2013-08-20",
             "Time": "09:30 - 11:00",
             "Location": "Mariinsky Hall",
-            "LocationIndex": "6",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2649,7 +2649,7 @@
             "Day": "2013-08-20",
             "Time": "09:30 - 11:00",
             "Location": "Pavlovsky Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2671,7 +2671,7 @@
             "Day": "2013-08-20",
             "Time": "11:00 - 11:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2690,7 +2690,7 @@
             "Day": "2013-08-20",
             "Time": "11:30 - 13:00",
             "Location": "Session Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2713,7 +2713,7 @@
             "Day": "2013-08-20",
             "Time": "11:30 - 13:00",
             "Location": "Mariinsky Hall",
-            "LocationIndex": "6",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2735,7 +2735,7 @@
             "Day": "2013-08-20",
             "Time": "13:00 - 14:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2754,7 +2754,7 @@
             "Day": "2013-08-20",
             "Time": "14:30 - 16:00",
             "Location": "Session Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2777,7 +2777,7 @@
             "Day": "2013-08-20",
             "Time": "14:30 - 16:00",
             "Location": "Mariinsky Hall",
-            "LocationIndex": "6",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2799,7 +2799,7 @@
             "Day": "2013-08-20",
             "Time": "14:30 - 16:00",
             "Location": "Pavlovsky Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2821,7 +2821,7 @@
             "Day": "2013-08-20",
             "Time": "16:00 - 16:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2840,7 +2840,7 @@
             "Day": "2013-08-20",
             "Time": "16:30 - 18:00",
             "Location": "Session Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2862,7 +2862,7 @@
             "Day": "2013-08-20",
             "Time": "16:30 - 18:00",
             "Location": "Mariinsky Hall",
-            "LocationIndex": "6",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2884,7 +2884,7 @@
             "Day": "2013-08-20",
             "Time": "16:30 - 18:00",
             "Location": "Pavlovsky Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2906,7 +2906,7 @@
             "Day": "2013-08-20",
             "Time": "18:00 - 19:00",
             "Location": "Column Hall and Foyer",
-            "LocationIndex": "7",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2925,7 +2925,7 @@
             "Day": "2013-08-20",
             "Time": "19:00 - 21:00",
             "Location": "Mariinsky Hall",
-            "LocationIndex": "6",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2944,7 +2944,7 @@
             "Day": "2013-08-21",
             "Time": "09:00 - 09:30",
             "Location": "Column Hall",
-            "LocationIndex": "0",
+            "LocationIndex": "10",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2963,7 +2963,7 @@
             "Day": "2013-08-21",
             "Time": "09:30 - 11:00",
             "Location": "Column Hall",
-            "LocationIndex": "0",
+            "LocationIndex": "10",
             "ChairsString": "Bertrand Meyer",
             "Chairs": [
                 "Bertrand Meyer @"
@@ -2986,7 +2986,7 @@
             "Day": "2013-08-21",
             "Time": "10:30 - 11:00",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3005,7 +3005,7 @@
             "Day": "2013-08-21",
             "Time": "11:00 - 12:15",
             "Location": "Heraldic Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "Alessandro Orso",
             "Chairs": [
                 "Alessandro Orso @"
@@ -3030,7 +3030,7 @@
             "Day": "2013-08-21",
             "Time": "11:00 - 12:15",
             "Location": "Session Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "Elisabetta Di Nitto",
             "Chairs": [
                 "Elisabetta Di Nitto @"
@@ -3055,7 +3055,7 @@
             "Day": "2013-08-21",
             "Time": "11:00 - 12:15",
             "Location": "Big Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3079,7 +3079,7 @@
             "Day": "2013-08-21",
             "Time": "12:15 - 13:45",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3098,7 +3098,7 @@
             "Day": "2013-08-21",
             "Time": "13:45 - 15:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "Paola Inverardi",
             "Chairs": [
                 "Paola Inverardi @"
@@ -3123,7 +3123,7 @@
             "Day": "2013-08-21",
             "Time": "13:45 - 15:00",
             "Location": "Session Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "Massimiliano Di Penta",
             "Chairs": [
                 "Massimiliano Di Penta @"
@@ -3148,7 +3148,7 @@
             "Day": "2013-08-21",
             "Time": "13:45 - 15:00",
             "Location": "Big Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3172,7 +3172,7 @@
             "Day": "2013-08-21",
             "Time": "15:15 - 16:30",
             "Location": "Heraldic Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "David Rosenblum",
             "Chairs": [
                 "David Rosenblum @"
@@ -3197,7 +3197,7 @@
             "Day": "2013-08-21",
             "Time": "15:15 - 16:30",
             "Location": "Session Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "Tony Wasserman",
             "Chairs": [
                 "Tony Wasserman @"
@@ -3222,7 +3222,7 @@
             "Day": "2013-08-21",
             "Time": "15:15 - 16:30",
             "Location": "Big Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3246,7 +3246,7 @@
             "Day": "2013-08-21",
             "Time": "16:30 - 17:00",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3265,7 +3265,7 @@
             "Day": "2013-08-21",
             "Time": "17:00 - 18:15",
             "Location": "Column Hall",
-            "LocationIndex": "0",
+            "LocationIndex": "10",
             "ChairsString": "Bertrand Meyer",
             "Chairs": [
                 "Bertrand Meyer @"
@@ -3288,7 +3288,7 @@
             "Day": "2013-08-21",
             "Time": "18:15 - 18:45",
             "Location": "Column Hall",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3307,7 +3307,7 @@
             "Day": "2013-08-22",
             "Time": "09:30 - 11:00",
             "Location": "Column Hall",
-            "LocationIndex": "0",
+            "LocationIndex": "10",
             "ChairsString": "Bertrand Meyer",
             "Chairs": [
                 "Bertrand Meyer @"
@@ -3330,7 +3330,7 @@
             "Day": "2013-08-22",
             "Time": "10:30 - 11:00",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3349,7 +3349,7 @@
             "Day": "2013-08-22",
             "Time": "11:00 - 12:15",
             "Location": "Session Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "Nick Puntikov",
             "Chairs": [
                 "Nick Puntikov @"
@@ -3369,7 +3369,7 @@
             "Day": "2013-08-22",
             "Time": "11:00 - 12:15",
             "Location": "Heraldic Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "Antonia Bertolino",
             "Chairs": [
                 "Antonia Bertolino @"
@@ -3394,7 +3394,7 @@
             "Day": "2013-08-22",
             "Time": "11:00 - 12:15",
             "Location": "Big Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "Ben Livshits",
             "Chairs": [
                 "Ben Livshits @"
@@ -3420,7 +3420,7 @@
             "Day": "2013-08-22",
             "Time": "12:15 - 13:45",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3439,7 +3439,7 @@
             "Day": "2013-08-22",
             "Time": "12:15 - 13:45",
             "Location": "Pavlovsky Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3458,7 +3458,7 @@
             "Day": "2013-08-22",
             "Time": "13:45 - 15:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "Carlo A. Furia",
             "Chairs": [
                 "Carlo A. Furia @"
@@ -3483,7 +3483,7 @@
             "Day": "2013-08-22",
             "Time": "13:45 - 15:00",
             "Location": "Session Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "Nadia Polikarpova",
             "Chairs": [
                 "Nadia Polikarpova @"
@@ -3508,7 +3508,7 @@
             "Day": "2013-08-22",
             "Time": "13:45 - 15:00",
             "Location": "Big Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "Koushik Sen",
             "Chairs": [
                 "Koushik Sen @"
@@ -3534,7 +3534,7 @@
             "Day": "2013-08-22",
             "Time": "15:15 - 16:30",
             "Location": "Heraldic Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "Vladimir Itsykson",
             "Chairs": [
                 "Vladimir Itsykson @"
@@ -3559,7 +3559,7 @@
             "Day": "2013-08-22",
             "Time": "15:15 - 16:30",
             "Location": "Session Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "Ivica Crnkovic",
             "Chairs": [
                 "Ivica Crnkovic @"
@@ -3584,7 +3584,7 @@
             "Day": "2013-08-22",
             "Time": "15:15 - 16:30",
             "Location": "Big Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "Anders Møller",
             "Chairs": [
                 "Anders Møller @"
@@ -3610,7 +3610,7 @@
             "Day": "2013-08-22",
             "Time": "16:30 - 17:00",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3629,7 +3629,7 @@
             "Day": "2013-08-22",
             "Time": "17:00 - 18:15",
             "Location": "Column Hall",
-            "LocationIndex": "0",
+            "LocationIndex": "10",
             "ChairsString": "Steven Fraser",
             "Chairs": [
                 "Steven Fraser @"
@@ -3652,7 +3652,7 @@
             "Day": "2013-08-22",
             "Time": "19:30 - 22:30",
             "Location": "Bezborodko Palace",
-            "LocationIndex": "2",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3671,7 +3671,7 @@
             "Day": "2013-08-22",
             "Time": "21:00 - 21:10",
             "Location": "Bezborodko Palace",
-            "LocationIndex": "2",
+            "LocationIndex": "12",
             "ChairsString": "Alexandre Bergel",
             "Chairs": [
                 "Alexandre Bergel @"
@@ -3694,7 +3694,7 @@
             "Day": "2013-08-23",
             "Time": "09:30 - 11:00",
             "Location": "Column Hall",
-            "LocationIndex": "0",
+            "LocationIndex": "10",
             "ChairsString": "Bertrand Meyer",
             "Chairs": [
                 "Bertrand Meyer @"
@@ -3717,7 +3717,7 @@
             "Day": "2013-08-23",
             "Time": "10:30 - 11:00",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3736,7 +3736,7 @@
             "Day": "2013-08-23",
             "Time": "11:00 - 12:15",
             "Location": "Heraldic Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "Marsha Chechik",
             "Chairs": [
                 "Marsha Chechik @"
@@ -3761,7 +3761,7 @@
             "Day": "2013-08-23",
             "Time": "11:00 - 12:15",
             "Location": "Session Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "Wilhelm Schäfer",
             "Chairs": [
                 "Wilhelm Schäfer @"
@@ -3786,7 +3786,7 @@
             "Day": "2013-08-23",
             "Time": "11:00 - 12:15",
             "Location": "Big Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "Carlo A. Furia, Sebastian Nanz",
             "Chairs": [
                 "Carlo A. Furia, Sebastian Nanz @"
@@ -3811,7 +3811,7 @@
             "Day": "2013-08-23",
             "Time": "12:15 - 13:45",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3830,7 +3830,7 @@
             "Day": "2013-08-23",
             "Time": "12:15 - 13:45",
             "Location": "Pavlovsky Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3849,7 +3849,7 @@
             "Day": "2013-08-23",
             "Time": "13:45 - 15:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "Harald Gall",
             "Chairs": [
                 "Harald Gall @"
@@ -3874,7 +3874,7 @@
             "Day": "2013-08-23",
             "Time": "13:45 - 15:00",
             "Location": "Session Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "Bara Buhnova",
             "Chairs": [
                 "Bara Buhnova @"
@@ -3899,7 +3899,7 @@
             "Day": "2013-08-23",
             "Time": "13:45 - 15:00",
             "Location": "Big Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "Carlo A. Furia, Sebastian Nanz",
             "Chairs": [
                 "Carlo A. Furia, Sebastian Nanz @"
@@ -3925,7 +3925,7 @@
             "Day": "2013-08-23",
             "Time": "15:15 - 16:30",
             "Location": "Heraldic Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "Ben Livshits",
             "Chairs": [
                 "Ben Livshits @"
@@ -3950,7 +3950,7 @@
             "Day": "2013-08-23",
             "Time": "15:15 - 16:30",
             "Location": "Session Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "Mark Harman",
             "Chairs": [
                 "Mark Harman @"
@@ -3975,7 +3975,7 @@
             "Day": "2013-08-23",
             "Time": "15:15 - 16:30",
             "Location": "Big Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "Carlo A. Furia, Sebastian Nanz",
             "Chairs": [
                 "Carlo A. Furia, Sebastian Nanz @"
@@ -4000,7 +4000,7 @@
             "Day": "2013-08-23",
             "Time": "16:30 - 17:00",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4019,7 +4019,7 @@
             "Day": "2013-08-23",
             "Time": "17:00 - 17:40",
             "Location": "Column Hall",
-            "LocationIndex": "0",
+            "LocationIndex": "10",
             "ChairsString": "Alexandre Bergel",
             "Chairs": [
                 "Alexandre Bergel @"
@@ -4039,7 +4039,7 @@
             "Day": "2013-08-23",
             "Time": "17:45 - 18:15",
             "Location": "Column Hall",
-            "LocationIndex": "0",
+            "LocationIndex": "10",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4058,7 +4058,7 @@
             "Day": "2013-08-24",
             "Time": "09:30 - 18:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4077,7 +4077,7 @@
             "Day": "2013-08-24",
             "Time": "11:00 - 11:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4096,7 +4096,7 @@
             "Day": "2013-08-24",
             "Time": "13:00 - 14:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4115,7 +4115,7 @@
             "Day": "2013-08-24",
             "Time": "16:00 - 16:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4134,7 +4134,7 @@
             "Day": "2013-08-25",
             "Time": "09:30 - 18:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4153,7 +4153,7 @@
             "Day": "2013-08-25",
             "Time": "11:00 - 11:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4172,7 +4172,7 @@
             "Day": "2013-08-25",
             "Time": "13:00 - 14:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4191,7 +4191,7 @@
             "Day": "2013-08-25",
             "Time": "16:00 - 16:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4210,7 +4210,7 @@
             "Day": "2013-08-26",
             "Time": "09:30 - 16:30",
             "Location": "Heraldic Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4229,7 +4229,7 @@
             "Day": "2013-08-26",
             "Time": "11:00 - 11:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4248,7 +4248,7 @@
             "Day": "2013-08-26",
             "Time": "13:00 - 14:30",
             "Location": "Foyer",
-            "LocationIndex": "8",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
