@@ -1,5 +1,5 @@
 {
-	"DataRevision": "1",
+	"DataRevision": "2",
 	"Event": "ICSM",
 	"Name": "ICSM 2013",
 	"Location": "Eindhoven, the Netherlands",
@@ -283,6 +283,7 @@
 			"Time": "8:45 am - 9:45 am",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Keynote Tuesday",
+			"LocationIndex" : 10,
 			"Items": ["icsm_item_1"]
 		},
 		{
@@ -293,6 +294,7 @@
 			"Time": "8:45 am - 9:45 am",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Keynote Tuesday",
+			"LocationIndex" : 10,			
 			"Items": ["icsm_item_2"]
 		},
 		{
@@ -303,6 +305,7 @@
 			"Time": "16:40 pm - 17:55 pm",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Testing",
+			"LocationIndex" : 5,			
 			"Items": ["icsm_item_10", "icsm_item_11", "icsm_item_12"]
 		},
 		{
@@ -313,6 +316,7 @@
 			"Time": "16:40 pm - 17:55 pm",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Code Cloning",
+			"LocationIndex" : 5,			
 			"Items": ["icsm_item_13", "icsm_item_14", "icsm_item_15"]
 		},
 		{
@@ -323,6 +327,7 @@
 			"Time": "10:00 am - 11:15 am",
 			"Location": "Blauwe Zaal",
 			"Abstract": "APIs",
+			"LocationIndex" : 1,
 			"Items": ["icsm_item_16", "icsm_item_17", "icsm_item_18"]
 		},
 		{
@@ -333,6 +338,7 @@
 			"Time": "10:00 am - 11:15 am",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Runtime Analysis",
+			"LocationIndex" : 1,			
 			"Items": ["icsm_item_19", "icsm_item_20", "icsm_item_21"]
 		},
 		{
@@ -343,6 +349,7 @@
 			"Time": "13:55 pm - 15:10 pm",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Reverse Engineering",
+			"LocationIndex" : 3,			
 			"Items": ["icsm_item_22", "icsm_item_23", "icsm_item_24"]
 		},
 		{
@@ -353,6 +360,7 @@
 			"Time": "16:40 pm - 17:55 pm",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Refactoring",
+			"LocationIndex" : 5,			
 			"Items": ["icsm_item_25", "icsm_item_26", "icsm_item_27"]
 		},
 		{
@@ -363,6 +371,7 @@
 			"Time": "13:55 pm - 15:10 pm",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Fault and Defect Management",
+			"LocationIndex" : 3,			
 			"Items": ["icsm_item_28", "icsm_item_29", "icsm_item_30"]
 		},
 		{
@@ -373,6 +382,7 @@
 			"Time": "10:00 am - 11:15 am",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Software Comprehension",
+			"LocationIndex" : 1,			
 			"Items": ["icsm_item_31", "icsm_item_32", "icsm_item_33"]
 		},
 		{
@@ -383,6 +393,7 @@
 			"Time": "11:30 am - 12:30 am",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Software Authorship",
+			"LocationIndex" : 2,			
 			"Items": ["icsm_item_34", "icsm_item_35"]
 		},
 		{
@@ -393,6 +404,7 @@
 			"Time": "15:25 pm - 16:25 pm",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Smells and Anti-patterns",
+			"LocationIndex" : 4,			
 			"Items": ["icsm_item_36", "icsm_item_37"]
 		},
 		{
@@ -403,6 +415,7 @@
 			"Time": "11:30 am - 12:30 am",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Dependencies",
+			"LocationIndex" : 2,			
 			"Items": ["icsm_item_38", "icsm_item_39"]
 		},
 		{
@@ -413,6 +426,7 @@
 			"Time": "15:25 pm - 16:25 pm",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Feature Location",
+			"LocationIndex" : 4,			
 			"Items": ["icsm_item_40", "icsm_item_41"]
 		},
 		{
@@ -423,6 +437,7 @@
 			"Time": "11:30 am - 12:30 am",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Traceability",
+			"LocationIndex" : 2,			
 			"Items": ["icsm_item_42", "icsm_item_43"]
 		},
 		{
@@ -433,6 +448,7 @@
 			"Time": "15:25 pm - 16:25 pm",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Context",
+			"LocationIndex" : 4,			
 			"Items": ["icsm_item_44", "icsm_item_45"]
 		}
 	],
