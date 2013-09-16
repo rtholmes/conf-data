@@ -8,8 +8,8 @@ git pull | grep 'Already up-to-date.'
 
 if [ $$ != '' ];
 then
-	echo "Metadata up-to-date; no version update required."
-else
+#	echo "Metadata up-to-date; no version update required."
+#else
 	DATES=`date +%s`
 
 	echo "New date string: $DATES"
