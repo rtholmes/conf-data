@@ -1,13 +1,13 @@
 #/bin/sh
 
-echo "Pulling from github"
-git pull | grep 'Already up-to-date.'
+#echo "Pulling from github"
+#git pull | grep 'Already up-to-date.'
 
-# if git pull returns 'Already up-to-date.' we should skip the rest
+#if git pull returns 'Already up-to-date.' we should skip the rest
 
 
-if [ $$ != '' ];
-then
+#if [ $$ != '' ];
+#then
 #	echo "Metadata up-to-date; no version update required."
 #else
 	DATES=`date +%s`
@@ -15,5 +15,5 @@ then
 	echo "New date string: $DATES"
 	# {"LastUpdatePOSIX" : "1363472766"}
 	echo "{\"LastUpdatePOSIX\" : \"$DATES\"}" > IndexVersion.json;	
-fi
+#fi
 	

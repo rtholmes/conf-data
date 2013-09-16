@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1372801141,
+    "DataRevision": 1373709439,
     "Preliminary": false,
     "Event": "RE 2013",
     "Name": "RE 2013",
@@ -59,16 +59,18 @@
             "Key": "re13foreword-fm001-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DOrlena+Gotel%2C+Julio+Cesar+Sampaio+do+Prado+Leite%2C+and+Alistair+Mavin+%22Message+from+the+Chairs%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Orlena Gotel, Julio Cesar Sampaio do Prado Leite, and Alistair Mavin",
-            "AffiliationsString": "PUC Rio, Brasil; ",
+            "AffiliationsString": "Independent Researcher, USA; PUC Rio, Brasil; Rolls-Royce, UK",
             "Authors": [
-                "Orlena Gotel @ n.n., n.n.",
+                "Orlena Gotel @ Independent Researcher, USA",
                 "Julio Cesar Sampaio do Prado Leite @ PUC Rio, Brasil",
-                "Alistair Mavin @"
+                "Alistair Mavin @ Rolls-Royce, UK"
             ],
             "Affiliations": [
-                "n.n., n.n.",
-                "PUC Rio, Brasil;"
+                "Independent Researcher, USA",
+                "PUC Rio, Brasil",
+                "Rolls-Royce, UK"
             ],
             "Abstract": "Welcome to the 21st IEEE International Requirements Engineering Conference (RE’13). Given a thriving Ibero-American community of Requirements Engineering researchers and practitioners, it is with great pride that Latin America hosts the Requirements Engineering conference for the very first time. RE’13 will be held in Brasil, on the campus of Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio), just steps away from the famous beaches of Ipanema and Copacabana. As the Requirements Engineering community celebrates its 21st birthday, the ‘Marvelous City’ (‘Cidade Maravilhosa’) offers us a unique stage.  To mark this important coming of age, the theme for RE’13 is ‘RE@21: Keeping Requirements on Track’. We seek to investigate whether the field of Requirements Engineering has made its transition from adolescence into adulthood, and we hope to guide its onward journey; are we addressing the ‘right’ problems and are we providing ‘effective’ solutions? RE’13 is a timely opportunity for researchers, practitioners, educators, and students to come together to reflect and discuss our progress as a community, and to identify the important challenges still to be tackled.",
             "Award": ""
@@ -79,6 +81,7 @@
             "Key": "re13keynotes-k1-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNeil+Maiden+%22Requirements+Engineering+as+Information+Search+and+Idea+Discovery+%28Keynote%29%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Neil Maiden",
             "AffiliationsString": "City University London, UK",
             "Authors": [
@@ -96,6 +99,7 @@
             "Key": "re13keynotes-k2-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFiona+Cousins+%22Starchitects+and+Jack-Hammers%3A+Requirements+Engineering+Challenges+and+Practices+in+the+Construction+Industry+%28Keynote%29%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Fiona Cousins",
             "AffiliationsString": "Arup, USA",
             "Authors": [
@@ -113,6 +117,7 @@
             "Key": "re13keynotes-k3-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKarin+K.+Breitman%2C+Roberto+Leite%2C+and+Jaime+S%C3%A1bat+%22Brasilian+Perspectives+on+Software+Production+%28Keynote+Panel%29%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Karin K. Breitman, Roberto Leite, and Jaime Sábat",
             "AffiliationsString": "EMC, Brasil; Siemens Chemtech, Brasil; Accenture, Brasil",
             "Authors": [
@@ -134,6 +139,7 @@
             "Key": "re13rt-p085-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAaron+K.+Massey%2C+Jacob+Eisenstein%2C+Annie+I.+Ant%C3%B3n%2C+and+Peter+P.+Swire+%22Automated+Text+Mining+for+Requirements+Analysis+of+Policy+Documents%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Aaron K. Massey, Jacob Eisenstein, Annie I. Antón, and Peter P. Swire",
             "AffiliationsString": "Georgia Tech, USA; Ohio State University, USA",
             "Authors": [
@@ -157,6 +163,7 @@
             "Key": "re13rt-p111-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTravis+D.+Breaux+and+Ashwini+Rao+%22Formal+Analysis+of+Privacy+Requirements+Specifications+for+Multi-tier+Applications%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Travis D. Breaux and Ashwini Rao",
             "AffiliationsString": "CMU, USA",
             "Authors": [
@@ -176,6 +183,7 @@
             "Key": "re13rt-p048-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJeremy+C.+Maxwell%2C+Annie+I.+Ant%C3%B3n%2C+and+Julie+B.+Earp+%22An+Empirical+Investigation+of+Software+Engineers%27+Ability+to+Classify+Legal+Cross-References%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Jeremy C. Maxwell, Annie I. Antón, and Julie B. Earp",
             "AffiliationsString": "North Carolina State University, USA; Georgia Tech, USA",
             "Authors": [
@@ -195,8 +203,9 @@
             "Title": "Supporting Requirements Traceability through Refactoring",
             "Type": "Full Paper (10 pp)",
             "Key": "re13rt-p119-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAnas+Mahmoud+and+Nan+Niu+%22Supporting+Requirements+Traceability+through+Refactoring%22",
+            "URL": "http%3A%2F%2Fwww.cse.msstate.edu%2F%7Eniu%2Fpapers%2FRE13-Tracing.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Anas Mahmoud and Nan Niu",
             "AffiliationsString": "Mississippi State University, USA",
             "Authors": [
@@ -215,7 +224,8 @@
             "Type": "Full Paper (10 pp)",
             "Key": "re13rt-p006-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJin+Guo%2C+Jane+Cleland-Huang%2C+and+Brian+Berenbach+%22Foundations+for+an+Expert+System+in+Domain-Specific+Traceability%22",
-            "URLvideo": "",
+            "URLvideo": "http%3A%2F%2Fyoutu.be%2F9ddsP4qW81M",
+            "URLinfo": "",
             "PersonsString": "Jin Guo, Jane Cleland-Huang, and Brian Berenbach",
             "AffiliationsString": "DePaul University, USA; Siemens, USA",
             "Authors": [
@@ -236,7 +246,8 @@
             "Type": "Full Paper (10 pp)",
             "Key": "re13rt-p036-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHakim+Sultanov+and+Jane+Huffman+Hayes+%22Application+of+Reinforcement+Learning+to+Requirements+Engineering%3A+Requirements+Tracing%22",
-            "URLvideo": "",
+            "URLvideo": "http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DnI90fgwt144",
+            "URLinfo": "",
             "PersonsString": "Hakim Sultanov and Jane Huffman Hayes",
             "AffiliationsString": "University of Kentucky, USA",
             "Authors": [
@@ -247,7 +258,7 @@
                 "University of Kentucky, USA",
                 "University of Kentucky, USA"
             ],
-            "Abstract": "Abstract—We posit that machine learning can be applied to effectively address requirements engineering problems. Specifically, we present a requirements traceability method based on the machine learning technique Reinforcement Learning (RL). The RL method demonstrates a rather targeted generation of candidate links between textual requirements artifacts (high level requirements traced to low level requirements, for example). This work also presents the utilization of synonyms in the context of common textual segments. The technique has been validated using two real-world datasets from two problem domains. Our technique demonstrated statistically significant better results than the Information Retrieval technique.",
+            "Abstract": "We posit that machine learning can be applied to effectively address requirements engineering problems. Specifically, we present a requirements traceability method based on the machine learning technique Reinforcement Learning (RL). The RL method demonstrates a rather targeted generation of candidate links between textual requirements artifacts (high level requirements traced to low level requirements, for example). This work also presents the utilization of synonyms in the context of common textual segments. The technique has been validated using two real-world datasets from two problem domains. Our technique demonstrated statistically significant better results than the Information Retrieval technique.",
             "Award": ""
         },
         {
@@ -256,6 +267,7 @@
             "Key": "re13rt-p021-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCarlo+Ghezzi%2C+Claudio+Menghi%2C+Amir+Molzam+Sharifloo%2C+and+Paola+Spoletini+%22On+Requirements+Verification+for+Model+Refinements%22",
             "URLvideo": "http%3A%2F%2Fyoutu.be%2Fr18v_lZ-utY",
+            "URLinfo": "",
             "PersonsString": "Carlo Ghezzi, Claudio Menghi, Amir Molzam Sharifloo, and Paola Spoletini",
             "AffiliationsString": "Politecnico di Milano, Italy; Universita dell’Insubria, Italy",
             "Authors": [
@@ -279,6 +291,7 @@
             "Key": "re13rt-p030-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DIvo+Krka+and+Nenad+Medvidovic+%22Distributing+Refinements+of+a+System-Level+Partial+Behavior+Model%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Ivo Krka and Nenad Medvidovic",
             "AffiliationsString": "University of Southern California, USA",
             "Authors": [
@@ -298,6 +311,7 @@
             "Key": "re13rt-p018-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDavid+Dietrich+and+Joanne+M.+Atlee+%22A+Mode-Based+Pattern+for+Feature+Requirements%2C+and+a+Generic+Feature+Interface%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "David Dietrich and Joanne M. Atlee",
             "AffiliationsString": "University of Waterloo, Canada",
             "Authors": [
@@ -317,6 +331,7 @@
             "Key": "re13rt-p020-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAlistair+Sutcliffe+and+Pete+Sawyer+%22Requirements+Elicitation%3A+Towards+the+Unknown+Unknowns%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Alistair Sutcliffe and Pete Sawyer",
             "AffiliationsString": "University of Lancaster, UK",
             "Authors": [
@@ -336,6 +351,7 @@
             "Key": "re13rt-p084-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DIrina+Todoran%2C+Norbert+Seyff%2C+and+Martin+Glinz+%22How+Cloud+Providers+Elicit+Consumer+Requirements%3A+An+Exploratory+Study+of+Nineteen+Companies%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Irina Todoran, Norbert Seyff, and Martin Glinz",
             "AffiliationsString": "University of Zurich, Switzerland",
             "Authors": [
@@ -357,6 +373,7 @@
             "Key": "re13rt-p141-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPatrice+Caire%2C+Nicolas+Genon%2C+Patrick+Heymans%2C+and+Daniel+L.+Moody+%22Visual+Notation+Design+2.0%3A+Towards+User+Comprehensible+Requirements+Engineering+Notations%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Patrice Caire, Nicolas Genon, Patrick Heymans, and Daniel L. Moody",
             "AffiliationsString": "University of Luxembourg, Luxembourg; University of Namur, Belgium; Ozemantics, Australia",
             "Authors": [
@@ -378,8 +395,9 @@
             "Title": "User Feedback in the AppStore: An Empirical Study",
             "Type": "Full Paper (10 pp)",
             "Key": "re13rt-p091-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDennis+Pagano+and+Walid+Maalej+%22User+Feedback+in+the+AppStore%3A+An+Empirical+Study%22",
+            "URL": "http%3A%2F%2Fmobis.informatik.uni-hamburg.de%2Fwp-content%2Fuploads%2F2013%2F07%2FRE2013PaganoMaalej.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Dennis Pagano and Walid Maalej",
             "AffiliationsString": "TU Munich, Germany; University of Hamburg, Germany",
             "Authors": [
@@ -399,6 +417,7 @@
             "Key": "re13rt-p057-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLin+Shi%2C+Qing+Wang%2C+and+Mingshu+Li+%22Learning+from+Evolution+History+to+Predict+Future+Requirement+Changes%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Lin Shi, Qing Wang, and Mingshu Li",
             "AffiliationsString": "ISCAS, China; UCAS, China",
             "Authors": [
@@ -420,6 +439,7 @@
             "Key": "re13rt-p038-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDavid+G.+Gordon+and+Travis+D.+Breaux+%22Assessing+Regulatory+Change+through+Legal+Requirements+Coverage+Modeling%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "David G. Gordon and Travis D. Breaux",
             "AffiliationsString": "CMU, USA",
             "Authors": [
@@ -439,6 +459,7 @@
             "Key": "re13rt-p005-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHiroyuki+Nakagawa%2C+Akihiko+Ohsuga%2C+and+Shinichi+Honiden+%22A+Goal+Model+Elaboration+for+Localizing+Changes+in+Software+Evolution%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Hiroyuki Nakagawa, Akihiko Ohsuga, and Shinichi Honiden",
             "AffiliationsString": "University of Electro-Communications, Japan; NII, Japan",
             "Authors": [
@@ -460,6 +481,7 @@
             "Key": "re13rt-p123-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DThomas+A.+Alspaugh+and+Walt+Scacchi+%22Ongoing+Software+Development+without+Classical+Requirements%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Thomas A. Alspaugh and Walt Scacchi",
             "AffiliationsString": "UC Irvine, USA",
             "Authors": [
@@ -479,6 +501,7 @@
             "Key": "re13rt-p076-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAlireza+Zarghami%2C+Eelco+Vriezekolk%2C+Mohammad+Zarifi+Eslami%2C+Marten+van+Sinderen%2C+and+Roel+Wieringa+%22Assumption-Based+Risk+Identification+Method+%28ARM%29+in+Dynamic+Service+Provisioning%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Alireza Zarghami, Eelco Vriezekolk, Mohammad Zarifi Eslami, Marten van Sinderen, and Roel Wieringa",
             "AffiliationsString": "University of Twente, Netherlands",
             "Authors": [
@@ -504,6 +527,7 @@
             "Key": "re13rt-p115-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJunjie+Wang%2C+Juan+Li%2C+Qing+Wang%2C+Da+Yang%2C+He+Zhang%2C+and+Mingshu+Li+%22Can+Requirements+Dependency+Network+Be+Used+as+Early+Indicator+of+Software+Integration+Bugs%3F%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Junjie Wang, Juan Li, Qing Wang, Da Yang, He Zhang, and Mingshu Li",
             "AffiliationsString": "ISCAS, China; UCAS, China; University of East London, UK",
             "Authors": [
@@ -531,6 +555,7 @@
             "Key": "re13rt-p132-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPatrick+Rempel%2C+Patrick+M%C3%A4der%2C+and+Tobias+Kuschke+%22An+Empirical+Study+on+Project-Specific+Traceability+Strategies%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Patrick Rempel, Patrick Mäder, and Tobias Kuschke",
             "AffiliationsString": "TU Ilmenau, Germany",
             "Authors": [
@@ -543,15 +568,16 @@
                 "TU Ilmenau, Germany",
                 "TU Ilmenau, Germany"
             ],
-            "Abstract": "Effective requirements traceability supports practitioners in reaching higher project maturity and better product quality. Researchers argue that effective traceability barely happens by chance or through ad-hoc efforts and that traceability should be explicitly defined upfront. However, in a previous study we found that practitioners rarely follow explicit traceability strategies. We were interested in the reason for this discrepancy. Are practitioners able to reach effective traceability without an explicit definition? More specifically, how suitable is requirements traceability that is not strategically planned in supporting a project's development process. Our interview study involved practitioners from 17 companies. These practitioners were familiar with the development process, the existing traceability and the goals of the project they reported about. For each project, we first modeled a traceability strategy based on the gathered information. Second, we examined and modeled the applied software engineering processes of each project. Thereby, we focused on executed tasks, involved actors, and pursued goals. Finally, we analyzed the quality and suitability of a project's traceability strategy. We report common problems across the analyzed traceability strategies and their possible causes. The overall quality and mismatch of analyzed traceability suggests that an upfront-defined traceability strategy is indeed required. Furthermore, we show that the decision for or against traceability relations between artifacts requires a detailed understanding of the project's engineering process and goals; emphasizing the need for a goal-oriented procedure to assess existing and define new traceability strategies. requirements traceability; traceability strategy; interview study;",
+            "Abstract": "Effective requirements traceability supports practitioners in reaching higher project maturity and better product quality. Researchers argue that effective traceability barely happens by chance or through ad-hoc efforts and that traceability should be explicitly defined upfront. However, in a previous study we found that practitioners rarely follow explicit traceability strategies. We were interested in the reason for this discrepancy. Are practitioners able to reach effective traceability without an explicit definition? More specifically, how suitable is requirements traceability that is not strategically planned in supporting a project's development process. Our interview study involved practitioners from 17 companies. These practitioners were familiar with the development process, the existing traceability and the goals of the project they reported about. For each project, we first modeled a traceability strategy based on the gathered information. Second, we examined and modeled the applied software engineering processes of each project. Thereby, we focused on executed tasks, involved actors, and pursued goals. Finally, we analyzed the quality and suitability of a project's traceability strategy. We report common problems across the analyzed traceability strategies and their possible causes. The overall quality and mismatch of analyzed traceability suggests that an upfront-defined traceability strategy is indeed required. Furthermore, we show that the decision for or against traceability relations between artifacts requires a detailed understanding of the project's engineering process and goals; emphasizing the need for a goal-oriented procedure to assess existing and define new traceability strategies.",
             "Award": ""
         },
         {
             "Title": "Keeping Requirements on Track via Visual Analytics",
             "Type": "Full Paper (10 pp)",
             "Key": "re13rt-p127-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNan+Niu%2C+Sandeep+Reddivari%2C+and+Zhangji+Chen+%22Keeping+Requirements+on+Track+via+Visual+Analytics%22",
+            "URL": "http%3A%2F%2Fwww.cse.msstate.edu%2F%7Eniu%2Fpapers%2FRE13-Analytics.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Nan Niu, Sandeep Reddivari, and Zhangji Chen",
             "AffiliationsString": "Mississippi State University, USA",
             "Authors": [
@@ -573,6 +599,7 @@
             "Key": "re13rt-p022-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNancy+R.+Mead+%22A+History+of+the+International+Requirements+Engineering+Conference+%28RE%29+%28RE%4021%29%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Nancy R. Mead",
             "AffiliationsString": "SEI, USA",
             "Authors": [
@@ -590,6 +617,7 @@
             "Key": "re13rt-p144-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSunil+Nair%2C+Jose+Luis+de+la+Vara%2C+and+Sagar+Sen+%22A+Review+of+Traceability+Research+at+the+Requirements+Engineering+Conference+%28RE%4021%29%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Sunil Nair, Jose Luis de la Vara, and Sagar Sen",
             "AffiliationsString": "Simula Research Laboratory, Norway",
             "Authors": [
@@ -611,6 +639,7 @@
             "Key": "re13rt-p065-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DStephen+J.+Morris+%22Models+in+the+RE+Series+%28RE%4021%29%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Stephen J. Morris",
             "AffiliationsString": "City University London, UK",
             "Authors": [
@@ -628,6 +657,7 @@
             "Key": "re13rt-p108-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DGunter+Mussbacher+and+J%C3%B6rg+Kienzle+%22A+Vision+for+Generic+Concern-Oriented+Requirements+Reuse+%28RE%4021%29%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Gunter Mussbacher and Jörg Kienzle",
             "AffiliationsString": "University of Ottawa, Canada; McGill University, Canada",
             "Authors": [
@@ -647,6 +677,7 @@
             "Key": "re13it-p010-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFrank+Salger+%22Requirements+Reviews+Revisited%3A+Residual+Challenges+and+Open+Research+Questions%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Frank Salger",
             "AffiliationsString": "City of Munich, Germany",
             "Authors": [
@@ -664,6 +695,7 @@
             "Key": "re13it-p032-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJuha+Savolainen%2C+Dagn%C3%BD+Hauksd%C3%B3ttir%2C+and+Mike+Mannion+%22Challenges+in+Balancing+the+Amount+of+Solution+Information+in+Requirement+Specifications+for+Embedded+Products%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Juha Savolainen, Dagný Hauksdóttir, and Mike Mannion",
             "AffiliationsString": "Danfoss Power Electronics, Denmark; DTU, Denmark; Glasgow Caledonian University, UK",
             "Authors": [
@@ -685,6 +717,7 @@
             "Key": "re13it-p013-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShokoofeh+Hesari%2C+Razieh+Behjati%2C+and+Tao+Yue+%22Towards+a+Systematic+Requirement-Based+Test+Generation+Framework%3A+Industrial+Challenges+and+Needs%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Shokoofeh Hesari, Razieh Behjati, and Tao Yue",
             "AffiliationsString": "Simula Research Laboratory, Norway; University of Oslo, Norway",
             "Authors": [
@@ -706,6 +739,7 @@
             "Key": "re13it-p031-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndreas+Vogelsang+and+Steffen+Fuhrmann+%22Why+Feature+Dependencies+Challenge+the+Requirements+Engineering+of+Automotive+Systems%3A+An+Empirical+Study%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Andreas Vogelsang and Steffen Fuhrmann",
             "AffiliationsString": "TU Munich, Germany; BMW, Germany",
             "Authors": [
@@ -716,7 +750,7 @@
                 "TU Munich, Germany",
                 "BMW, Germany"
             ],
-            "Abstract": "Functional dependencies and feature interactions in automotive software systems are a major source of erroneous and deficient behavior. To overcome these problems, many approaches exist that focus on modeling these functional dependencies in early stages of system design. However, there are only few empirical studies that report on the extent of such dependencies in industrial software systems and how they are considered in an industrial development context. In this paper, we analyze the functional architecture of a real automotive software system with the aim to assess the extent, awareness and importance of interactions between features of a future vehicle. Our results show that within the functional architecture at least 85% of the analyzed vehicle features depend on each other. They furthermore show that the developers are not aware of a large number of these dependencies when they are modeled solely on an architectural level. Therefore, the developers mention the need for a more precise specification of feature interactions, e.g., for the execution of comprehensive impact analyses. These results challenge the current development methods and emphasize the need for an extensive modeling of features and their dependencies in requirements engineering. Keywords: functional specifications; feature interaction; modelbased development; automotive; empirical studies",
+            "Abstract": "Functional dependencies and feature interactions in automotive software systems are a major source of erroneous and deficient behavior. To overcome these problems, many approaches exist that focus on modeling these functional dependencies in early stages of system design. However, there are only few empirical studies that report on the extent of such dependencies in industrial software systems and how they are considered in an industrial development context. In this paper, we analyze the functional architecture of a real automotive software system with the aim to assess the extent, awareness and importance of interactions between features of a future vehicle. Our results show that within the functional architecture at least 85% of the analyzed vehicle features depend on each other. They furthermore show that the developers are not aware of a large number of these dependencies when they are modeled solely on an architectural level. Therefore, the developers mention the need for a more precise specification of feature interactions, e.g., for the execution of comprehensive impact analyses. These results challenge the current development methods and emphasize the need for an extensive modeling of features and their dependencies in requirements engineering.",
             "Award": ""
         },
         {
@@ -725,6 +759,7 @@
             "Key": "re13it-p008-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNekane+Larburu%2C+Ing+Widya%2C+Richard+G.+A.+Bults%2C+Hermie+J.+Hermens%2C+and+Carlo+Napolitano+%22Early+Phase+Telemedicine+Requirements+Elicitation+in+Collaboration+with+Medical+Practitioners%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Nekane Larburu, Ing Widya, Richard G. A. Bults, Hermie J. Hermens, and Carlo Napolitano",
             "AffiliationsString": "University of Twente, Netherlands; IRCCCS Fondazione Salvarore Maugeri, Italy",
             "Authors": [
@@ -741,7 +776,7 @@
                 "University of Twente, Netherlands",
                 "IRCCCS Fondazione Salvarore Maugeri, Italy"
             ],
-            "Abstract": "Abstract—Ubiquity of Information and Communication Technology enables innovative telemedicine treatment applications for disease management of ambulant patients. Development of new treatment applications must comply with medical protocols and ‘way of working’ to obtain safety and efficacy evidence before acceptance and use by medical practitioners. Usually, medical researchers design new treatment applications and engineers elicit application requirements in collaboration with these researchers to bridge the knowledge and ‘way of working’ gaps between them. This paper presents an elicitation method for new telemedicine applications in a collaborative setting of time-constraint medical practitioners and requirements engineers if the medical researcher is absent. Engineers compensate this lack of resources through cross-disciplinary studies and use of pathophysiological models in the absence of medical evidence. The paper discusses the application of a mixed elicitation method presented in earlier work in the addressed setting. The method applies a scenario based user needs analysis augmented by domain activity and user-system interaction analysis. The elicitation is conducted in a separation of concerns fashion combined with collaboration handshake protocols to align domain activities and user-system interactions. Later phase elicitation of user-system interaction requirements may apply known methods and is not addressed. Index Terms— Telemedicine requirements elicitation, scenario and model-based elicitation method.",
+            "Abstract": "Ubiquity of Information and Communication Technology enables innovative telemedicine treatment applications for disease management of ambulant patients. Development of new treatment applications must comply with medical protocols and ‘way of working’ to obtain safety and efficacy evidence before acceptance and use by medical practitioners. Usually, medical researchers design new treatment applications and engineers elicit application requirements in collaboration with these researchers to bridge the knowledge and ‘way of working’ gaps between them. This paper presents an elicitation method for new telemedicine applications in a collaborative setting of time-constraint medical practitioners and requirements engineers if the medical researcher is absent. Engineers compensate this lack of resources through cross-disciplinary studies and use of pathophysiological models in the absence of medical evidence. The paper discusses the application of a mixed elicitation method presented in earlier work in the addressed setting. The method applies a scenario based user needs analysis augmented by domain activity and user-system interaction analysis. The elicitation is conducted in a separation of concerns fashion combined with collaboration handshake protocols to align domain activities and user-system interactions. Later phase elicitation of user-system interaction requirements may apply known methods and is not addressed.",
             "Award": ""
         },
         {
@@ -750,6 +785,7 @@
             "Key": "re13it-p016-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAli+Niknafs+and+Daniel+M.+Berry+%22An+Industrial+Case+Study+of+the+Impact+of+Domain+Ignorance+on+the+Effectiveness+of+Requirements+Idea+Generation+during+Requirements+Elicitation%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Ali Niknafs and Daniel M. Berry",
             "AffiliationsString": "University of Waterloo, Canada",
             "Authors": [
@@ -769,6 +805,7 @@
             "Key": "re13it-p009-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJohn+Terzakis+%22The+Impact+of+Requirements+on+Software+Quality+across+Three+Product+Generations%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "John Terzakis",
             "AffiliationsString": "Intel, USA",
             "Authors": [
@@ -786,6 +823,7 @@
             "Key": "re13it-p017-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShinobu+Saito%2C+Mutsuki+Takeuchi%2C+Masatoshi+Hiraoka%2C+Tsuyoshi+Kitani%2C+and+Mikio+Aoyama+%22Requirements+Clinic%3A+Third+Party+Inspection+Methodology+and+Practice+for+Improving+the+Quality+of+Software+Requirements+Specifications%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Shinobu Saito, Mutsuki Takeuchi, Masatoshi Hiraoka, Tsuyoshi Kitani, and Mikio Aoyama",
             "AffiliationsString": "NTT DATA, Japan; Nanzan University, Japan",
             "Authors": [
@@ -811,6 +849,7 @@
             "Key": "re13it-p012-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMichael+Felderer+and+Armin+Beer+%22Using+Defect+Taxonomies+for+Requirements+Validation+in+Industrial+Projects%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Michael Felderer and Armin Beer",
             "AffiliationsString": "University of Innsbruck, Austria; QE LaB Business Services, Austria; Beer Test Consulting, Austria",
             "Authors": [
@@ -830,6 +869,7 @@
             "Key": "re13it-p007-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndrew+Muyanja%2C+Paul+Isaac+Musasizi%2C+Catherine+Nassimbwa%2C+Sandy+Stevens+Tickodri-Togboa%2C+Edward+Kale+Kayihura%2C+and+Amos+Ngabirano+%22Requirements+Engineering+for+the+Uganda+Police+Force+Crime+Records+Management+System%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Andrew Muyanja, Paul Isaac Musasizi, Catherine Nassimbwa, Sandy Stevens Tickodri-Togboa, Edward Kale Kayihura, and Amos Ngabirano",
             "AffiliationsString": "Makerere University, Uganda; Uganda Police Force, Uganda",
             "Authors": [
@@ -848,7 +888,7 @@
                 "Uganda Police Force, Uganda",
                 "Uganda Police Force, Uganda"
             ],
-            "Abstract": "Abstract—This paper presents the requirements engineering process for the Uganda Police Force Crime Records Management System. The system was envisioned to substantially improve the performance of the crime records management function of the Uganda Police Force through strengthening the pertinent processes. The requirements engineering process involved definition of the system context and goals, requirements elicitation, analysis and specification. The process was championed by the ARMS Project, Makerere University. Following the successful requirements engineering process, the ARMS Project together with the Uganda Police Force embarked on a two year project to design, construct and deploy the envisioned Crime Records Management System at selected police sites in Uganda. The key challenges faced during the requirements engineering process, such as changes in the composition of the Uganda Police Force project team, requirements traceability, and low representation of business process owners, are also presented.",
+            "Abstract": "This paper presents the requirements engineering process for the Uganda Police Force Crime Records Management System. The system was envisioned to substantially improve the performance of the crime records management function of the Uganda Police Force through strengthening the pertinent processes. The requirements engineering process involved definition of the system context and goals, requirements elicitation, analysis and specification. The process was championed by the ARMS Project, Makerere University. Following the successful requirements engineering process, the ARMS Project together with the Uganda Police Force embarked on a two year project to design, construct and deploy the envisioned Crime Records Management System at selected police sites in Uganda. The key challenges faced during the requirements engineering process, such as changes in the composition of the Uganda Police Force project team, requirements traceability, and low representation of business process owners, are also presented.",
             "Award": ""
         },
         {
@@ -857,6 +897,7 @@
             "Key": "re13it-p021-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DArash+Golnam%2C+Gil+Regev%2C+Alain+Wegmann%2C+and+Sofia+Kyriakopoulou+%22The+Integration+of+an+RE+Method+and+AHP%3A+A+Pilot+Study+in+a+Large+Swiss+Bank%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Arash Golnam, Gil Regev, Alain Wegmann, and Sofia Kyriakopoulou",
             "AffiliationsString": "EPFL, Switzerland; Credit Suisse, Switzerland",
             "Authors": [
@@ -880,6 +921,7 @@
             "Key": "re13it-p020-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAnurag+Dwarakanath%2C+Roshni+R.+Ramnani%2C+and+Shubhashis+Sengupta+%22Automatic+Extraction+of+Glossary+Terms+from+Natural+Language+Requirements%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Anurag Dwarakanath, Roshni R. Ramnani, and Shubhashis Sengupta",
             "AffiliationsString": "Accenture Technology Labs, India",
             "Authors": [
@@ -901,6 +943,7 @@
             "Key": "re13it-p011-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPadmalata+Nistala+and+Priyanka+Kumari+%22An+Approach+to+Carry+Out+Consistency+Analysis+on+Requirements%3A+Validating+and+Tracking+Requirements+through+a+Configuration+Structure%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Padmalata Nistala and Priyanka Kumari",
             "AffiliationsString": "Tata Consultancy Services, India",
             "Authors": [
@@ -911,15 +954,16 @@
                 "Tata Consultancy Services, India",
                 "Tata Consultancy Services, India"
             ],
-            "Abstract": "Requirements management and traceability have always been one of grand challenges in software development area. Studies reveal that 30- 40% of software defects can be traced to gaps or errors in requirements. Although several models and techniques have been defined to optimize the requirements process, ensuring alignment and consistency of elicited requirements continues to be a challenge. All software engineering standards and methodologies recognize the importance of maintaining relationships among the software elements for traceability. We have leveraged the structured relationships among the requirement elements to come up with an approach to systematically carry out consistency analysis of requirements for software systems. The framework has multiple models: a multi layered requirement model, a configuration structure to link and track the requirement items, a consistency analysis method to identify the inconsistencies in the requirements and a consistency index computation to indicate the level of consistency in overall requirements of the software system. This approach helps to validate the requirements from both completeness and correctness perspectives and also check their consistency in forward and backward directions. The paper outlines the framework, describes the encompassing models and the implementation details from pilot of the framework to an industry case study along with results. Keywords-requirement alignment, requirement configuration structure, requirement consistency analysis, requirement inconsistency matrix, requirement consistency index",
+            "Abstract": "Requirements management and traceability have always been one of grand challenges in software development area. Studies reveal that 30- 40% of software defects can be traced to gaps or errors in requirements. Although several models and techniques have been defined to optimize the requirements process, ensuring alignment and consistency of elicited requirements continues to be a challenge. All software engineering standards and methodologies recognize the importance of maintaining relationships among the software elements for traceability. We have leveraged the structured relationships among the requirement elements to come up with an approach to systematically carry out consistency analysis of requirements for software systems. The framework has multiple models: a multi layered requirement model, a configuration structure to link and track the requirement items, a consistency analysis method to identify the inconsistencies in the requirements and a consistency index computation to indicate the level of consistency in overall requirements of the software system. This approach helps to validate the requirements from both completeness and correctness perspectives and also check their consistency in forward and backward directions. The paper outlines the framework, describes the encompassing models and the implementation details from pilot of the framework to an industry case study along with results.",
             "Award": ""
         },
         {
             "Title": "Requirements Bazaar: Social Requirements Engineering for Community-Driven Innovation",
             "Type": "Posters and Demos (2 pages)",
             "Key": "re13posters-id1-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDominik+Renzel%2C+Malte+Behrendt%2C+Ralf+Klamma%2C+and+Matthias+Jarke+%22Requirements+Bazaar%3A+Social+Requirements+Engineering+for+Community-Driven+Innovation%22",
+            "URL": "http%3A%2F%2Fdbis.rwth-aachen.de%2Fcms%2Fpublications%2Fre13-requirements-bazaar%2Fat_download%2FpdfFile",
             "URLvideo": "http%3A%2F%2Fyoutu.be%2Fu3f8xnEtT7I",
+            "URLinfo": "",
             "PersonsString": "Dominik Renzel, Malte Behrendt, Ralf Klamma, and Matthias Jarke",
             "AffiliationsString": "RWTH Aachen University, Germany",
             "Authors": [
@@ -943,6 +987,7 @@
             "Key": "re13posters-id4-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRomaric+Guillerm%2C+Hamid+Demmou%2C+and+Nabil+Sadou+%22A+Safety+Requirement+Engineering+Method+and+Tool%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Romaric Guillerm, Hamid Demmou, and Nabil Sadou",
             "AffiliationsString": "LAAS-CNRS, France; University of Toulouse, France; SUPELEC, France",
             "Authors": [
@@ -964,6 +1009,7 @@
             "Key": "re13posters-id6-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSabine+Teufl%2C+Dongyue+Mou%2C+and+Daniel+Ratiu+%22MIRA%3A+A+Tooling-Framework+to+Experiment+with+Model-Based+Requirements+Engineering%22",
             "URLvideo": "http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DrHENNFcLmdE",
+            "URLinfo": "",
             "PersonsString": "Sabine Teufl, Dongyue Mou, and Daniel Ratiu",
             "AffiliationsString": "Fortiss, Germany",
             "Authors": [
@@ -985,6 +1031,7 @@
             "Key": "re13posters-id5-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCristina+Palomares%2C+Carme+Quer%2C+and+Xavier+Franch+%22PABRE-Proj%3A+Applying+Patterns+in+Requirements+Elicitation%22",
             "URLvideo": "http%3A%2F%2Fyoutu.be%2FoZmUpfUS-KE",
+            "URLinfo": "",
             "PersonsString": "Cristina Palomares, Carme Quer, and Xavier Franch",
             "AffiliationsString": "Universitat Politècnica de Catalunya, Spain",
             "Authors": [
@@ -1005,7 +1052,8 @@
             "Type": "Posters and Demos (2 pages)",
             "Key": "re13posters-id7-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFlorian+Schneider%2C+Bernd+Bruegge%2C+and+Brian+Berenbach+%22A+Tool+Implementation+of+the+Unified+Requirements+Modeling+Language+as+Enterprise+Architect+Add-In%22",
-            "URLvideo": "",
+            "URLvideo": "http%3A%2F%2Fyoutu.be%2FWpAvPbRvcCM",
+            "URLinfo": "",
             "PersonsString": "Florian Schneider, Bernd Bruegge, and Brian Berenbach",
             "AffiliationsString": "TU Munich, Germany; Siemens, USA",
             "Authors": [
@@ -1027,6 +1075,7 @@
             "Key": "re13posters-id2-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLuciano+Baresi%2C+Gianluca+Ripa%2C+and+Liliana+Pasquale+%22IRET%3A+Requirements+for+Service+Platforms%22",
             "URLvideo": "https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DHnsosXQO7-c",
+            "URLinfo": "",
             "PersonsString": "Luciano Baresi, Gianluca Ripa, and Liliana Pasquale",
             "AffiliationsString": "Politecnico di Milano, Italy; Cefriel, Italy; Lero, Ireland; University of Limerick, Ireland",
             "Authors": [
@@ -1048,6 +1097,7 @@
             "Key": "re13posters-id3-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJane+Cleland-Huang%2C+Adam+Czauderna%2C+and+Jane+Huffman+Hayes+%22Using+TraceLab+to+Design%2C+Execute%2C+and+Baseline+Empirical+Requirements+Engineering+Experiments%22",
             "URLvideo": "http%3A%2F%2Fyoutu.be%2Fsq5VgRBpAco",
+            "URLinfo": "",
             "PersonsString": "Jane Cleland-Huang, Adam Czauderna, and Jane Huffman Hayes",
             "AffiliationsString": "DePaul University, USA; University of Kentucky, USA",
             "Authors": [
@@ -1069,6 +1119,7 @@
             "Key": "re13posters-id8-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLiliana+Pasquale%2C+Yijun+Yu%2C+Mazeiar+Salehie%2C+Luca+Cavallaro%2C+Thein+Than+Tun%2C+and+Bashar+Nuseibeh+%22Requirements-Driven+Adaptive+Digital+Forensics%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Liliana Pasquale, Yijun Yu, Mazeiar Salehie, Luca Cavallaro, Thein Than Tun, and Bashar Nuseibeh",
             "AffiliationsString": "Lero, Ireland; Open University, UK",
             "Authors": [
@@ -1096,6 +1147,7 @@
             "Key": "re13panels-m1-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCornelius+Ncube%2C+Soo+Ling+Lim%2C+and+Huseyin+Dogan+%22Identifying+Top+Challenges+for+International+Research+on+Requirements+Engineering+for+Systems+of+Systems+Engineering%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Cornelius Ncube, Soo Ling Lim, and Huseyin Dogan",
             "AffiliationsString": "Bournemouth University, UK",
             "Authors": [
@@ -1117,6 +1169,7 @@
             "Key": "re13panels-m2-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJane+Cleland-Huang+and+Smitta+Ghaisas+%22Ready-Set-Transfer%3A+Technology+Transfer+in+the+Requirements+Engineering+Domain%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Jane Cleland-Huang and Smitta Ghaisas",
             "AffiliationsString": "DePaul University, USA; Tata Consultancy Services, India",
             "Authors": [
@@ -1136,6 +1189,7 @@
             "Key": "re13panels-m3-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNeil+Maiden+%22Future+Directions+of+the+RE+Conference+and+Its+Community%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Neil Maiden",
             "AffiliationsString": "City University London, UK",
             "Authors": [
@@ -1153,6 +1207,7 @@
             "Key": "re13panels-m7-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRoel+Wieringa%2C+Pascal+van+Eck%2C+and+John+Mylopoulos+%22Requirements+Engineering+Conferences%3A+Wither+Industry+Tracks%3F%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Roel Wieringa, Pascal van Eck, and John Mylopoulos",
             "AffiliationsString": "University of Twente, Netherlands; University of Trento, Italy",
             "Authors": [
@@ -1174,6 +1229,7 @@
             "Key": "re13panels-m6-p",
             "URL": "http%3A%2F%2Finfo.fundp.ac.be%2F%7Emma%2Fwordpress%2Fwp-content%2Fuploads%2F2013%2F06%2FApplied-RE-Research-Manifesto-for-Panel-Final-CRC.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Martin Mahaux and Alistair Mavin",
             "AffiliationsString": "University of Namur, Belgium; Rolls Royce, UK",
             "Authors": [
@@ -1191,8 +1247,9 @@
             "Title": "A Little Rebellion Now and Then Is a Good Thing: Views on the Requirements Engineering Conference",
             "Type": "Invited Paper (4 pages)",
             "Key": "re13panels-m5-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTony+Gorschek+%22A+Little+Rebellion+Now+and+Then+Is+a+Good+Thing%3A+Views+on+the+Requirements+Engineering+Conference%22",
+            "URL": "http%3A%2F%2Fwww.gorschek.com%2Fdoc%2Fpublications_files%2Fgorschek_re13_positonpaper_pre.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Tony Gorschek",
             "AffiliationsString": "Blekinge Institute of Technology, Sweden",
             "Authors": [
@@ -1210,6 +1267,7 @@
             "Key": "re13minitutorials-m8-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMaria+Lencastre+and+Joy+Beatty+%22Top+Tips+You+Can+Apply+Immediately+to+Projects%3A+Highlights+from+the+RE%E2%80%9913+Tutorials%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Maria Lencastre and Joy Beatty",
             "AffiliationsString": "UPE, Brasil; Seilevel, USA",
             "Authors": [
@@ -1229,6 +1287,7 @@
             "Key": "re13minitutorials-m9-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJoy+Beatty+%22Winning+the+Hidden+Battle%3A+Requirements+Tool+Selection+and+Adoption%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Joy Beatty",
             "AffiliationsString": "Seilevel, USA",
             "Authors": [
@@ -1246,6 +1305,7 @@
             "Key": "re13minitutorials-m10-p",
             "URL": "ftp%3A%2F%2Fftp.cs.toronto.edu%2Fpub%2Feric%2Fistar-minitut-RE13-EY.pdf",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Eric Yu, Daniel Amyot, Gunter Mussbacher, Xavier Franch, and Jaelson Castro",
             "AffiliationsString": "University of Toronto, Canada; University of Ottawa, Canada; Universitat Politècnica de Catalunya, Spain; UFPE, Brasil",
             "Authors": [
@@ -1270,7 +1330,8 @@
             "Type": "Invited Paper (3 pages)",
             "Key": "re13specials-m11-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMartin+Glinz+and+Roel+Wieringa+%22RE%4021+Spotlight%3A+Most+Influential+Papers+from+the+Requirements+Engineering+Conference%22",
-            "URLvideo": "",
+            "URLvideo": "http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwI4xT7bsTWI",
+            "URLinfo": "",
             "PersonsString": "Martin Glinz and Roel Wieringa",
             "AffiliationsString": "University of Zurich, Switzerland; University of Twente, Netherlands",
             "Authors": [
@@ -1290,6 +1351,7 @@
             "Key": "re13specials-m12-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMartin+Mahaux+and+David+Callele+%22Creative+Collisions%3A+Meet+and+Create%3A+And+Other+%E2%80%9CRE+Interactive%E2%80%9D+Suggestions%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Martin Mahaux and David Callele",
             "AffiliationsString": "University of Namur, Belgium; University of Saskatchewan, Canada",
             "Authors": [
@@ -1309,6 +1371,7 @@
             "Key": "re13specials-m13-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DOliver+Creighton+and+Marcos+Borges+%22Workshops+and+Doctoral+Symposium+at+RE%E2%80%9913%3A+The+Results%3A+Presentation+Session+of+New+Ideas+for+Researchers+and+Practitioners+Who+Weren%E2%80%99t+There%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Oliver Creighton and Marcos Borges",
             "AffiliationsString": "Siemens, Germany; UFRJ, Brasil",
             "Authors": [
@@ -1328,6 +1391,7 @@
             "Key": "re13specials-m14-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBirgit+Penzenstadler%2C+Daniel+M%C3%A9ndez+Fern%C3%A1ndez%2C+Debra+Richardson%2C+David+Callele%2C+and+Krzysztof+Wnuk+%22The+Requirements+Engineering+Body+of+Knowledge+%28REBoK%29%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Birgit Penzenstadler, Daniel Méndez Fernández, Debra Richardson, David Callele, and Krzysztof Wnuk",
             "AffiliationsString": "UC Irvine, USA; TU Munich, Germany; University of Saskatchewan, Canada; Lund University, Sweden",
             "Authors": [
@@ -1353,6 +1417,7 @@
             "Key": "re13doctoral-id300-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAna+Moreira+and+Paul+Gr%C3%BCnbacher+%22RE+2013+Doctoral+Symposium%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Ana Moreira and Paul Grünbacher",
             "AffiliationsString": "Universidade Nova de Lisboa, Portugal; JKU Linz, Austria",
             "Authors": [
@@ -1372,6 +1437,7 @@
             "Key": "re13doctoral-id4-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDavid+G.+Gordon+%22The+Regulatory+World+and+the+Machine%3A+Harmonizing+Legal+Requirements+and+the+Systems+They+Affect%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "David G. Gordon",
             "AffiliationsString": "CMU, USA",
             "Authors": [
@@ -1389,6 +1455,7 @@
             "Key": "re13doctoral-id2-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSunil+Nair+%22Evidence+Management+for+Evolutionary+Safety+Assurance+and+Certification%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Sunil Nair",
             "AffiliationsString": "Simula Research Laboratory, Norway",
             "Authors": [
@@ -1406,6 +1473,7 @@
             "Key": "re13doctoral-id1-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSandeep+Reddivari+%22Visual+Analytics+for+Software+Requirements+Engineering%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "Sandeep Reddivari",
             "AffiliationsString": "Mississippi State University, USA",
             "Authors": [
@@ -1423,6 +1491,7 @@
             "Key": "re13doctoral-id3-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DGeorge+Valen%C3%A7a+%22Requirements+Negotiation+Model%3A+A+Social+Oriented+Approach+for+Software+Ecosystems+Evolution%22",
             "URLvideo": "",
+            "URLinfo": "",
             "PersonsString": "George Valença",
             "AffiliationsString": "UFPE, Brasil",
             "Authors": [
@@ -1437,37 +1506,19 @@
     ],
     "Sessions": [
         {
-            "Id": "Aiva5shoha",
-            "Title": "RE4SuSy",
-            "ShortTitle": "RE4SuSy",
-            "Type": "Co-located Workshop",
-            "ShortType": "Co-located Workshop",
-            "Key": "2013-07-15 09:00 RE4SuSy",
+            "Id": "ouweiG4ata",
+            "Title": "Writing Good Requirements",
+            "ShortTitle": "Writing Good Requirements",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2013-07-15 09:00 Writing Good Requirements",
             "Day": "2013-07-15",
             "Time": "09:00 - 18:00",
-            "Location": "",
+            "Location": "FB6 Auditorium",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Sarah Gregory",
             "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "RE13",
-            "Abstract": ""
-        },
-        {
-            "Id": "ohlaih7ooT",
-            "Title": "EmpiRE with GRIPP session",
-            "ShortTitle": "EmpiRE with GRIPP session",
-            "Type": "Co-located Workshop",
-            "ShortType": "Co-located Workshop",
-            "Key": "2013-07-15 09:00 EmpiRE with GRIPP session",
-            "Day": "2013-07-15",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "0",
-            "ChairsString": "",
-            "Chairs": [
+                "Sarah Gregory @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1483,10 +1534,15 @@
             "Key": "2013-07-15 09:00 MoDRE",
             "Day": "2013-07-15",
             "Time": "09:00 - 18:00",
-            "Location": "",
+            "Location": "Padre Anchieta Auditorium",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Ana Moreira, Gunter Mussbacher, João Araújo, Nelly Bencomo, and Pablo Sánchez",
             "Chairs": [
+                "Ana Moreira @",
+                "Gunter Mussbacher @",
+                "João Araújo @",
+                "Nelly Bencomo @",
+                "Pablo Sánchez @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1494,18 +1550,45 @@
             "Abstract": ""
         },
         {
-            "Id": "ouweiG4ata",
-            "Title": "Writing Good Requirements",
-            "ShortTitle": "Writing Good Requirements",
-            "Type": "Tutorial",
-            "ShortType": "Tutorial",
-            "Key": "2013-07-15 09:00 Writing Good Requirements",
+            "Id": "Aiva5shoha",
+            "Title": "RE4SuSy",
+            "ShortTitle": "RE4SuSy",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
+            "Key": "2013-07-15 09:00 RE4SuSy",
             "Day": "2013-07-15",
             "Time": "09:00 - 18:00",
-            "Location": "",
+            "Location": "RDC Auditorium",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Birgit Penzenstadler, Martin Mahaux, and Camille Salinesi",
             "Chairs": [
+                "Birgit Penzenstadler @",
+                "Martin Mahaux @",
+                "Camille Salinesi @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "ohlaih7ooT",
+            "Title": "EmpiRE with GRIPP session",
+            "ShortTitle": "EmpiRE with GRIPP session",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
+            "Key": "2013-07-15 09:00 EmpiRE with GRIPP session",
+            "Day": "2013-07-15",
+            "Time": "09:00 - 18:00",
+            "Location": "Room L 150",
+            "LocationIndex": "0",
+            "ChairsString": "Tayana Conte, Maya Daneva, Alessandro Marchetto, Sabrina Marczak, and Oscar Pastor",
+            "Chairs": [
+                "Tayana Conte @",
+                "Maya Daneva @",
+                "Alessandro Marchetto @",
+                "Sabrina Marczak @",
+                "Oscar Pastor @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1521,10 +1604,12 @@
             "Key": "2013-07-15 09:00 Doctoral Symposium",
             "Day": "2013-07-15",
             "Time": "09:00 - 18:00",
-            "Location": "",
+            "Location": "Room L 154",
             "LocationIndex": "7",
-            "ChairsString": "",
+            "ChairsString": "Paul Grunbacher and Ana Moreira",
             "Chairs": [
+                "Paul Grunbacher @",
+                "Ana Moreira @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1547,86 +1632,12 @@
             "Key": "2013-07-15 14:30 Applying Model Driven Engineering and Domain Specific Languages to Requirements Engineering",
             "Day": "2013-07-15",
             "Time": "14:30 - 18:00",
-            "Location": "",
+            "Location": "Room L 120",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Bruce Trask and Angel Roman",
             "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "RE13",
-            "Abstract": ""
-        },
-        {
-            "Id": "ohwoeToo3e",
-            "Title": "ER@BR",
-            "ShortTitle": "ER@BR",
-            "Type": "Co-located Event",
-            "ShortType": "Co-located Event",
-            "Key": "2013-07-16 09:00 ER@BR",
-            "Day": "2013-07-16",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "0",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "RE13",
-            "Abstract": ""
-        },
-        {
-            "Id": "eeX0oe0Ijo",
-            "Title": "TwinPeaks",
-            "ShortTitle": "TwinPeaks",
-            "Type": "Co-located Workshop",
-            "ShortType": "Co-located Workshop",
-            "Key": "2013-07-16 09:00 TwinPeaks",
-            "Day": "2013-07-16",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "0",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "RE13",
-            "Abstract": ""
-        },
-        {
-            "Id": "gaiD2viiPh",
-            "Title": "CMA",
-            "ShortTitle": "CMA",
-            "Type": "Co-located Workshop",
-            "ShortType": "Co-located Workshop",
-            "Key": "2013-07-16 09:00 CMA",
-            "Day": "2013-07-16",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "0",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "RE13",
-            "Abstract": ""
-        },
-        {
-            "Id": "nair0Ic1ie",
-            "Title": "RELAW",
-            "ShortTitle": "RELAW",
-            "Type": "Co-located Workshop",
-            "ShortType": "Co-located Workshop",
-            "Key": "2013-07-16 09:00 RELAW",
-            "Day": "2013-07-16",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "0",
-            "ChairsString": "",
-            "Chairs": [
+                "Bruce Trask @",
+                "Angel Roman @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1642,10 +1653,36 @@
             "Key": "2013-07-16 09:00 RePa with REPOS session",
             "Day": "2013-07-16",
             "Time": "09:00 - 18:00",
-            "Location": "",
+            "Location": "Padre Anchieta Auditorium",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Sam Supakkul, Lin Liu, Liping Zhao, Barbara Paech, and Lawrence Chung",
             "Chairs": [
+                "Sam Supakkul @",
+                "Lin Liu @",
+                "Liping Zhao @",
+                "Barbara Paech @",
+                "Lawrence Chung @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "ohwoeToo3e",
+            "Title": "ER@BR",
+            "ShortTitle": "ER@BR",
+            "Type": "Co-located Event",
+            "ShortType": "Co-located Event",
+            "Key": "2013-07-16 09:00 ER@BR",
+            "Day": "2013-07-16",
+            "Time": "09:00 - 18:00",
+            "Location": "RDC Auditorium",
+            "LocationIndex": "0",
+            "ChairsString": "Jaelson Castro and Fernanda Alencar",
+            "Chairs": [
+                "Jaelson Castro @",
+                "Fernanda Alencar @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1661,10 +1698,11 @@
             "Key": "2013-07-16 09:00 Observational and Experimental Case Study Research in Requirements Engineering: Methodology and Examples",
             "Day": "2013-07-16",
             "Time": "09:00 - 12:30",
-            "Location": "",
+            "Location": "Room L 206",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Roel Wieringa",
             "Chairs": [
+                "Roel Wieringa @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1672,18 +1710,71 @@
             "Abstract": ""
         },
         {
-            "Id": "ooLoh6ooqu",
-            "Title": "Requirements Quality and Productivity Improvement Based on Examples Usage",
-            "ShortTitle": "Requirements Quality and Productivity Improvement Based on Examples Usage",
-            "Type": "Tutorial",
-            "ShortType": "Tutorial",
-            "Key": "2013-07-16 09:00 Requirements Quality and Productivity Improvement Based on Examples Usage",
+            "Id": "gaiD2viiPh",
+            "Title": "CMA",
+            "ShortTitle": "CMA",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
+            "Key": "2013-07-16 09:00 CMA",
             "Day": "2013-07-16",
-            "Time": "09:00 - 12:30",
-            "Location": "",
+            "Time": "09:00 - 18:00",
+            "Location": "Room L 210",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Ana Moreira, Geri Georg, and Gunter Mussbacher",
             "Chairs": [
+                "Ana Moreira @",
+                "Geri Georg @",
+                "Gunter Mussbacher @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "eeX0oe0Ijo",
+            "Title": "TwinPeaks",
+            "ShortTitle": "TwinPeaks",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
+            "Key": "2013-07-16 09:00 TwinPeaks",
+            "Day": "2013-07-16",
+            "Time": "09:00 - 18:00",
+            "Location": "Room L 214",
+            "LocationIndex": "0",
+            "ChairsString": "Janet Burge, Jane Cleland-Huang, Xavier Franch, Matthias Galster, Mehdi Mirakhorli, Roshanak Roshandel, and Carla Silva",
+            "Chairs": [
+                "Janet Burge @",
+                "Jane Cleland-Huang @",
+                "Xavier Franch @",
+                "Matthias Galster @",
+                "Mehdi Mirakhorli @",
+                "Roshanak Roshandel @",
+                "Carla Silva @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "nair0Ic1ie",
+            "Title": "RELAW",
+            "ShortTitle": "RELAW",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
+            "Key": "2013-07-16 09:00 RELAW",
+            "Day": "2013-07-16",
+            "Time": "09:00 - 18:00",
+            "Location": "Room L 218",
+            "LocationIndex": "0",
+            "ChairsString": "Daniel Amyot, Annie Antón, Travis Breaux, Aaron Massey, and Peter Swire",
+            "Chairs": [
+                "Daniel Amyot @",
+                "Annie Antón @",
+                "Travis Breaux @",
+                "Aaron Massey @",
+                "Peter Swire @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1699,10 +1790,34 @@
             "Key": "2013-07-16 09:00 Implement Visual Models for Software Requirements Immediately",
             "Day": "2013-07-16",
             "Time": "09:00 - 18:00",
-            "Location": "",
+            "Location": "Room L 222",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Joy Beatty and James Hulgan",
             "Chairs": [
+                "Joy Beatty @",
+                "James Hulgan @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "ooLoh6ooqu",
+            "Title": "Requirements Quality and Productivity Improvement Based on Examples Usage",
+            "ShortTitle": "Requirements Quality and Productivity Improvement Based on Examples Usage",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2013-07-16 09:00 Requirements Quality and Productivity Improvement Based on Examples Usage",
+            "Day": "2013-07-16",
+            "Time": "09:00 - 12:30",
+            "Location": "Room L 224",
+            "LocationIndex": "0",
+            "ChairsString": "Marcelo Tueiv, Marcelo do Carmo Coelho, and Erica Mourão da Silva",
+            "Chairs": [
+                "Marcelo Tueiv @",
+                "Marcelo do Carmo Coelho @",
+                "Erica Mourão da Silva @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1718,8 +1833,29 @@
             "Key": "2013-07-16 14:30 Model-Based Systems Requirements",
             "Day": "2013-07-16",
             "Time": "14:30 - 18:00",
-            "Location": "",
+            "Location": "Room L 224",
             "LocationIndex": "0",
+            "ChairsString": "Jean-Michel Bruel and João Araújo",
+            "Chairs": [
+                "Jean-Michel Bruel @",
+                "João Araújo @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "ua7aeNgahp",
+            "Title": "Welcome Cocktail - 00 Night Club",
+            "ShortTitle": "Welcome Cocktail - 00 Night Club",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-07-16 19:00 Welcome Cocktail - 00 Night Club",
+            "Day": "2013-07-16",
+            "Time": "19:00 - 22:00",
+            "Location": "Rua Vice Governador Rubens Berardo, 100 - Gávea - Planetário",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1737,11 +1873,14 @@
             "Key": "re13foreword-fm001-p",
             "Day": "2013-07-17",
             "Time": "09:00 - 09:15",
-            "Location": "",
+            "Location": "Planetário",
             "LocationIndex": "0",
-            "ChairsString": "Orlena Gotel",
+            "ChairsString": "Julio Cesar Leite, Orlena (Olly) Gotel, Alistair Mavin (Mav), and Simone D.J. Barbosa",
             "Chairs": [
-                "Orlena Gotel @"
+                "Julio Cesar Leite @",
+                "Orlena (Olly) Gotel @",
+                "Alistair Mavin (Mav) @",
+                "Simone D.J. Barbosa @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1760,11 +1899,11 @@
             "Key": "re13keynotes-k1-p",
             "Day": "2013-07-17",
             "Time": "09:15 - 10:30",
-            "Location": "",
+            "Location": "Planetário",
             "LocationIndex": "0",
-            "ChairsString": "Alistair Mavin",
+            "ChairsString": "Alistair Mavin (Mav)",
             "Chairs": [
-                "Alistair Mavin @"
+                "Alistair Mavin (Mav) @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1775,15 +1914,40 @@
             ]
         },
         {
+            "Id": "yooSohl9ga",
+            "Title": "Legal and Privacy Requirements",
+            "ShortTitle": "Legal and Privacy Requirements",
+            "Type": "Research Papers",
+            "ShortType": "Research Papers",
+            "Key": "2013-07-17 11:00 Legal and Privacy Requirements",
+            "Day": "2013-07-17",
+            "Time": "11:00 - 12:30",
+            "Location": "FB6 Auditorium",
+            "LocationIndex": "1",
+            "ChairsString": "Jaelson Castro",
+            "Chairs": [
+                "Jaelson Castro @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE13RT",
+            "Abstract": "",
+            "Items": [
+                "re13rt-p085-p",
+                "re13rt-p111-p",
+                "re13rt-p048-p"
+            ]
+        },
+        {
             "Id": "ou4zee7Eiv",
             "Title": "RE@21: Keeping Requirements on Track",
             "ShortTitle": "RE@21: Keeping Requirements on Track",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Type": "Research Papers",
+            "ShortType": "Research Papers",
             "Key": "2013-07-17 11:00 RE@21: Keeping Requirements on Track",
             "Day": "2013-07-17",
             "Time": "11:00 - 12:30",
-            "Location": "",
+            "Location": "Padre Anchieta Auditorium",
             "LocationIndex": "1",
             "ChairsString": "Bashar Nuseibeh",
             "Chairs": [
@@ -1801,31 +1965,6 @@
             ]
         },
         {
-            "Id": "yooSohl9ga",
-            "Title": "Legal and Privacy Requirements",
-            "ShortTitle": "Legal and Privacy Requirements",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
-            "Key": "2013-07-17 11:00 Legal and Privacy Requirements",
-            "Day": "2013-07-17",
-            "Time": "11:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "1",
-            "ChairsString": "Jaelson Castro",
-            "Chairs": [
-                "Jaelson Castro @"
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "RE13RT",
-            "Abstract": "",
-            "Items": [
-                "re13rt-p085-p",
-                "re13rt-p111-p",
-                "re13rt-p048-p"
-            ]
-        },
-        {
             "Id": "thiezi3ICh",
             "Title": "Top Tips You Can Apply Immediately to Projects: Highlights from the RE’13 Tutorials",
             "ShortTitle": "Top Tips You Can Apply Immediately to Projects: Highlights from the RE’13 Tutorials",
@@ -1834,7 +1973,7 @@
             "Key": "re13minitutorials-m8-p",
             "Day": "2013-07-17",
             "Time": "11:00 - 12:30",
-            "Location": "",
+            "Location": "RDC Auditorium",
             "LocationIndex": "5",
             "ChairsString": "Joy Beatty and Maria Lencastre",
             "Chairs": [
@@ -1853,12 +1992,12 @@
             "Id": "Seixelei8O",
             "Title": "Automated Traceability",
             "ShortTitle": "Automated Traceability",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Type": "Research Papers",
+            "ShortType": "Research Papers",
             "Key": "2013-07-17 14:30 Automated Traceability",
             "Day": "2013-07-17",
             "Time": "14:30 - 16:00",
-            "Location": "",
+            "Location": "FB6 Auditorium",
             "LocationIndex": "1",
             "ChairsString": "Barbara Paech",
             "Chairs": [
@@ -1878,12 +2017,12 @@
             "Id": "Ahng1aeWoh",
             "Title": "Industry Challenges and Research Needs",
             "ShortTitle": "Industry Challenges and Research Needs",
-            "Type": "Industry Track",
-            "ShortType": "Industry Track",
+            "Type": "Industry Papers",
+            "ShortType": "Industry Papers",
             "Key": "2013-07-17 14:30 Industry Challenges and Research Needs",
             "Day": "2013-07-17",
             "Time": "14:30 - 16:00",
-            "Location": "",
+            "Location": "Padre Anchieta Auditorium",
             "LocationIndex": "2",
             "ChairsString": "Marjo Kauppinen",
             "Chairs": [
@@ -1909,7 +2048,7 @@
             "Key": "2013-07-17 14:30 Panel: Identifying Top Challenges for International Research on Requirements Engineering for Systems of Systems Engineering",
             "Day": "2013-07-17",
             "Time": "14:30 - 16:00",
-            "Location": "",
+            "Location": "RDC Auditorium",
             "LocationIndex": "4",
             "ChairsString": "Cornelius Ncube",
             "Chairs": [
@@ -1927,12 +2066,12 @@
             "Id": "ahweiHo8oh",
             "Title": "Formal Modeling",
             "ShortTitle": "Formal Modeling",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Type": "Research Papers",
+            "ShortType": "Research Papers",
             "Key": "2013-07-17 16:30 Formal Modeling",
             "Day": "2013-07-17",
             "Time": "16:30 - 18:00",
-            "Location": "",
+            "Location": "FB6 Auditorium",
             "LocationIndex": "1",
             "ChairsString": "Zhi Jin",
             "Chairs": [
@@ -1957,7 +2096,7 @@
             "Key": "re13specials-m11-p",
             "Day": "2013-07-17",
             "Time": "16:30 - 18:00",
-            "Location": "",
+            "Location": "Padre Anchieta Auditorium",
             "LocationIndex": "6",
             "ChairsString": "Martin Glinz",
             "Chairs": [
@@ -1980,7 +2119,7 @@
             "Key": "re13specials-m12-p",
             "Day": "2013-07-17",
             "Time": "16:30 - 18:00",
-            "Location": "",
+            "Location": "RDC Auditorium",
             "LocationIndex": "6",
             "ChairsString": "Martin Mahaux and David Callele",
             "Chairs": [
@@ -1996,24 +2135,43 @@
             ]
         },
         {
-            "Id": "LeePiewi1z",
-            "Title": "Program Awards: RE&#039;13 Best Papers (Research and Industry) and Most Influential Paper from RE&#039;03",
-            "ShortTitle": "Program Awards: RE&#039;13 Best Papers (Research and Industry) and Most Influential Paper from RE&#039;03",
-            "Type": "Plenary",
-            "ShortType": "Plenary",
-            "Key": "2013-07-18 09:00 Program Awards: RE&#039;13 Best Papers (Research and Industry) and Most Influential Paper from RE&#039;03",
-            "Day": "2013-07-18",
-            "Time": "09:00 - 09:15",
-            "Location": "",
-            "LocationIndex": "0",
-            "ChairsString": "Orlena Gotel",
+            "Id": "bai9otieQu",
+            "Title": "RE Steering Committee Meeting",
+            "ShortTitle": "RE Steering Committee Meeting",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2013-07-17 18:15 RE Steering Committee Meeting",
+            "Day": "2013-07-17",
+            "Time": "18:15 - 19:45",
+            "Location": "Room 511 RDC",
+            "LocationIndex": "8",
+            "ChairsString": "",
             "Chairs": [
-                "Orlena Gotel @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "RE13",
             "Abstract": ""
+        },
+        {
+            "Id": "ET2Gokook5",
+            "Title": "Program and Service Awards",
+            "ShortTitle": "Program and Service Awards",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2013-07-18 09:00 Program and Service Awards",
+            "Day": "2013-07-18",
+            "Time": "09:00 - 09:15",
+            "Location": "Planetário",
+            "LocationIndex": "0",
+            "ChairsString": "Orlena (Olly) Gotel",
+            "Chairs": [
+                "Orlena (Olly) Gotel @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE13",
+            "Abstract": "RE'13 Best Papers (Research and Industry); Most Influential Paper from RE'03; Distinguished Service to the Requirements Engineering Community (Daniel M. Berry and Roel Wieringa)"
         },
         {
             "Id": "Tah6eefae6",
@@ -2024,11 +2182,11 @@
             "Key": "re13keynotes-k2-p",
             "Day": "2013-07-18",
             "Time": "09:15 - 10:30",
-            "Location": "",
+            "Location": "Planetário",
             "LocationIndex": "0",
-            "ChairsString": "Orlena Gotel",
+            "ChairsString": "Orlena (Olly) Gotel",
             "Chairs": [
-                "Orlena Gotel @"
+                "Orlena (Olly) Gotel @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2047,7 +2205,7 @@
             "Key": "2013-07-18 11:00 RE@21 Spotlight: Most Influential Papers from the Requirements Engineering Conference II",
             "Day": "2013-07-18",
             "Time": "11:00 - 12:30",
-            "Location": "",
+            "Location": "Padre Anchieta Auditorium",
             "LocationIndex": "6",
             "ChairsString": "Roel Wieringa",
             "Chairs": [
@@ -2065,13 +2223,13 @@
             "Id": "Eequohnae1",
             "Title": "Elicitation in Theory and in Practice",
             "ShortTitle": "Elicitation in Theory and in Practice",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Type": "Research and Industry Papers",
+            "ShortType": "Research and Industry Papers",
             "Key": "2013-07-18 11:00 Elicitation",
             "Day": "2013-07-18",
             "Time": "11:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "1",
+            "Location": "FB6 Auditorium",
+            "LocationIndex": "7",
             "ChairsString": "Stephen Morris",
             "Chairs": [
                 "Stephen Morris @"
@@ -2095,7 +2253,7 @@
             "Key": "re13specials-m13-p",
             "Day": "2013-07-18",
             "Time": "11:00 - 12:30",
-            "Location": "",
+            "Location": "RDC Auditorium",
             "LocationIndex": "6",
             "ChairsString": "Oliver Creighton and Marcos Borges",
             "Chairs": [
@@ -2111,19 +2269,18 @@
             ]
         },
         {
-            "Id": "so7oonuFoh",
-            "Title": "Awards and Closing",
-            "ShortTitle": "Awards and Closing",
-            "Type": "Plenary",
-            "ShortType": "Plenary",
-            "Key": "2013-07-18 14:30 Awards and Closing",
+            "Id": "ia7Thaipub",
+            "Title": "RE&#039;14 Organizing Committee Meeting",
+            "ShortTitle": "RE&#039;14 Organizing Committee Meeting",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2013-07-18 12:30 RE&#039;14 Organizing Committee Meeting",
             "Day": "2013-07-18",
-            "Time": "14:30 - 16:00",
-            "Location": "",
-            "LocationIndex": "0",
-            "ChairsString": "Orlena Gotel",
+            "Time": "12:30 - 14:30",
+            "Location": "Room 511 RDC",
+            "LocationIndex": "8",
+            "ChairsString": "",
             "Chairs": [
-                "Orlena Gotel @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2134,13 +2291,13 @@
             "Id": "phuoc3uThe",
             "Title": "New Perspectives on Requirements Sources",
             "ShortTitle": "New Perspectives on Requirements Sources",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Type": "Research and Industry Papers",
+            "ShortType": "Research and Industry Papers",
             "Key": "2013-07-18 14:30 Requirements Sources",
             "Day": "2013-07-18",
             "Time": "14:30 - 16:00",
-            "Location": "",
-            "LocationIndex": "1",
+            "Location": "FB6 Auditorium",
+            "LocationIndex": "7",
             "ChairsString": "Didar Zowghi",
             "Chairs": [
                 "Didar Zowghi @"
@@ -2164,7 +2321,7 @@
             "Key": "2013-07-18 14:30 Posters and Demos",
             "Day": "2013-07-18",
             "Time": "14:30 - 16:00",
-            "Location": "",
+            "Location": "RDC Auditorium",
             "LocationIndex": "3",
             "ChairsString": "Letícia Duboc and Birgit Penzenstadler",
             "Chairs": [
@@ -2195,7 +2352,7 @@
             "Key": "re13minitutorials-m9-p",
             "Day": "2013-07-18",
             "Time": "14:30 - 16:00",
-            "Location": "",
+            "Location": "Padre Anchieta Auditorium",
             "LocationIndex": "5",
             "ChairsString": "Nan Niu",
             "Chairs": [
@@ -2213,12 +2370,12 @@
             "Id": "Aib6chia0b",
             "Title": "Handling Change",
             "ShortTitle": "Handling Change",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Type": "Research Papers",
+            "ShortType": "Research Papers",
             "Key": "2013-07-18 16:30 Handling Change",
             "Day": "2013-07-18",
             "Time": "16:30 - 18:00",
-            "Location": "",
+            "Location": "FB6 Auditorium",
             "LocationIndex": "1",
             "ChairsString": "Nelly Bencomo",
             "Chairs": [
@@ -2238,16 +2395,16 @@
             "Id": "lai2eiN4ei",
             "Title": "Improving the Quality of Requirements in Practice",
             "ShortTitle": "Improving the Quality of Requirements in Practice",
-            "Type": "Industry Track",
-            "ShortType": "Industry Track",
+            "Type": "Industry Papers",
+            "ShortType": "Industry Papers",
             "Key": "2013-07-18 16:30 Improving the Quality of Requirements in Practice",
             "Day": "2013-07-18",
             "Time": "16:30 - 18:00",
-            "Location": "",
+            "Location": "Padre Anchieta Auditorium",
             "LocationIndex": "2",
-            "ChairsString": "Dan Berry",
+            "ChairsString": "Daniel M. Berry",
             "Chairs": [
-                "Dan Berry @"
+                "Daniel M. Berry @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2268,7 +2425,7 @@
             "Key": "2013-07-18 16:30 Panel: Ready-Set-Transfer: Technology Transfer in the Requirements Engineering Domain",
             "Day": "2013-07-18",
             "Time": "16:30 - 18:00",
-            "Location": "",
+            "Location": "RDC Auditorium",
             "LocationIndex": "4",
             "ChairsString": "Jane Cleland-Huang and Smita Ghaisas",
             "Chairs": [
@@ -2284,15 +2441,34 @@
             ]
         },
         {
+            "Id": "huefee7Vei",
+            "Title": "Conference Dinner - Porcão Churrascaria",
+            "ShortTitle": "Conference Dinner - Porcão Churrascaria",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-07-18 20:00 Conference Dinner - Porcão Churrascaria",
+            "Day": "2013-07-18",
+            "Time": "20:00 - 00:00",
+            "Location": "Av. Infante Dom Henrique, S/N, Aterro do Flamengo, Rio de Janeiro",
+            "LocationIndex": "9",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE13",
+            "Abstract": ""
+        },
+        {
             "Id": "Haf1lidoob",
             "Title": "Directions in Decentralized RE",
             "ShortTitle": "Directions in Decentralized RE",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Type": "Research Papers",
+            "ShortType": "Research Papers",
             "Key": "2013-07-19 09:00 Directions in Decentralized RE",
             "Day": "2013-07-19",
             "Time": "09:00 - 10:30",
-            "Location": "",
+            "Location": "FB6 Auditorium",
             "LocationIndex": "1",
             "ChairsString": "João Araújo",
             "Chairs": [
@@ -2312,12 +2488,12 @@
             "Id": "eRa0IeFaid",
             "Title": "RE Processes and Tools in Action",
             "ShortTitle": "RE Processes and Tools in Action",
-            "Type": "Industry Track",
-            "ShortType": "Industry Track",
+            "Type": "Industry Papers",
+            "ShortType": "Industry Papers",
             "Key": "2013-07-19 09:00 RE Processes and Tools in Action",
             "Day": "2013-07-19",
             "Time": "09:00 - 10:30",
-            "Location": "",
+            "Location": "Padre Anchieta Auditorium",
             "LocationIndex": "2",
             "ChairsString": "Neil Ernst",
             "Chairs": [
@@ -2342,7 +2518,7 @@
             "Key": "re13specials-m14-p",
             "Day": "2013-07-19",
             "Time": "09:00 - 10:30",
-            "Location": "",
+            "Location": "RDC Auditorium",
             "LocationIndex": "6",
             "ChairsString": "Birgit Penzenstadler, Debra Richardson, and David Calelle",
             "Chairs": [
@@ -2362,13 +2538,13 @@
             "Id": "hahCue3beo",
             "Title": "Traceability in Practice",
             "ShortTitle": "Traceability in Practice",
-            "Type": "Research Track",
-            "ShortType": "Research Track",
+            "Type": "Research and Industry Papers",
+            "ShortType": "Research and Industry Papers",
             "Key": "2013-07-19 11:00 Traceability in Practice",
             "Day": "2013-07-19",
             "Time": "11:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "1",
+            "Location": "FB6 Auditorium",
+            "LocationIndex": "7",
             "ChairsString": "Michael Panis",
             "Chairs": [
                 "Michael Panis @"
@@ -2392,7 +2568,7 @@
             "Key": "2013-07-19 11:00 Panel: Future Directions of the RE Conference and Its Community",
             "Day": "2013-07-19",
             "Time": "11:00 - 12:30",
-            "Location": "",
+            "Location": "RDC Auditorium",
             "LocationIndex": "4",
             "ChairsString": "Neil Maiden",
             "Chairs": [
@@ -2418,7 +2594,7 @@
             "Key": "re13minitutorials-m10-p",
             "Day": "2013-07-19",
             "Time": "11:00 - 12:30",
-            "Location": "",
+            "Location": "Padre Anchieta Auditorium",
             "LocationIndex": "5",
             "ChairsString": "Seok Won Lee",
             "Chairs": [
@@ -2433,6 +2609,26 @@
             ]
         },
         {
+            "Id": "ha4leeZuet",
+            "Title": "Audience Awards",
+            "ShortTitle": "Audience Awards",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2013-07-19 14:30 Audience Awards",
+            "Day": "2013-07-19",
+            "Time": "14:30 - 16:00",
+            "Location": "Planetário",
+            "LocationIndex": "0",
+            "ChairsString": "Orlena (Olly) Gotel",
+            "Chairs": [
+                "Orlena (Olly) Gotel @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE13",
+            "Abstract": "RE'13 Best Poster; Best Demo; Best Workshop Poster; Best Doctoral Poster; and Ready Set Transfer Winner"
+        },
+        {
             "Id": "ohrie0Taix",
             "Title": "Brasilian Perspectives on Software Production (Keynote Panel)",
             "ShortTitle": "Brasilian Perspectives on Software Production (Keynote Panel)",
@@ -2441,7 +2637,7 @@
             "Key": "re13keynotes-k3-p",
             "Day": "2013-07-19",
             "Time": "14:30 - 16:00",
-            "Location": "",
+            "Location": "Planetário",
             "LocationIndex": "0",
             "ChairsString": "Julio Cesar Leite",
             "Chairs": [
@@ -2454,9 +2650,51 @@
             "Items": [
                 "re13keynotes-k3-p"
             ]
+        },
+        {
+            "Id": "eo8Yeizo5l",
+            "Title": "Conference Closing and Invitation to RE&#039;14",
+            "ShortTitle": "Conference Closing and Invitation to RE&#039;14",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2013-07-19 14:30 Conference Closing and Invitation to RE&#039;14",
+            "Day": "2013-07-19",
+            "Time": "14:30 - 16:00",
+            "Location": "Planetário",
+            "LocationIndex": "0",
+            "ChairsString": "Jane Cleland-Huang, Tony Gorschek, and Robyn Lutz",
+            "Chairs": [
+                "Jane Cleland-Huang @",
+                "Tony Gorschek @",
+                "Robyn Lutz @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE13",
+            "Abstract": ""
         }
     ],
     "People": [
+        {
+            "Name": "Alistair Mavin (Mav)",
+            "Affiliation": "",
+            "Key": "Alistair Mavin (Mav) @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Fernanda Alencar",
+            "Affiliation": "",
+            "Key": "Fernanda Alencar @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
         {
             "Name": "Thomas A. Alspaugh",
             "Affiliation": "UC Irvine, USA",
@@ -2469,8 +2707,28 @@
         },
         {
             "Name": "Daniel Amyot",
+            "Affiliation": "",
+            "Key": "Daniel Amyot @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Daniel Amyot",
             "Affiliation": "University of Ottawa, Canada",
             "Key": "Daniel Amyot @ University of Ottawa, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Annie Antón",
+            "Affiliation": "",
+            "Key": "Annie Antón @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2518,9 +2776,29 @@
             "URLgs": ""
         },
         {
+            "Name": "Simone D.J. Barbosa",
+            "Affiliation": "",
+            "Key": "Simone D.J. Barbosa @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Luciano Baresi",
             "Affiliation": "Politecnico di Milano, Italy",
             "Key": "Luciano Baresi @ Politecnico di Milano, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Joy Beatty",
+            "Affiliation": "",
+            "Key": "Joy Beatty @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2588,9 +2866,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Dan Berry",
+            "Name": "Daniel M. Berry",
             "Affiliation": "",
-            "Key": "Dan Berry @",
+            "Key": "Daniel M. Berry @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2609,8 +2887,28 @@
         },
         {
             "Name": "Marcos Borges",
+            "Affiliation": "",
+            "Key": "Marcos Borges @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marcos Borges",
             "Affiliation": "UFRJ, Brasil",
             "Key": "Marcos Borges @ UFRJ, Brasil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Travis Breaux",
+            "Affiliation": "",
+            "Key": "Travis Breaux @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2648,6 +2946,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Jean-Michel Bruel",
+            "Affiliation": "",
+            "Key": "Jean-Michel Bruel @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Richard G. A. Bults",
             "Affiliation": "University of Twente, Netherlands",
             "Key": "Richard G. A. Bults @ University of Twente, Netherlands",
@@ -2658,9 +2966,39 @@
             "URLgs": ""
         },
         {
+            "Name": "Janet Burge",
+            "Affiliation": "",
+            "Key": "Janet Burge @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Patrice Caire",
             "Affiliation": "University of Luxembourg, Luxembourg",
             "Key": "Patrice Caire @ University of Luxembourg, Luxembourg",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "David Calelle",
+            "Affiliation": "",
+            "Key": "David Calelle @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "David Callele",
+            "Affiliation": "",
+            "Key": "David Callele @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2718,6 +3056,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Lawrence Chung",
+            "Affiliation": "",
+            "Key": "Lawrence Chung @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Jane Cleland-Huang",
             "Affiliation": "",
             "Key": "Jane Cleland-Huang @",
@@ -2738,9 +3086,39 @@
             "URLgs": ""
         },
         {
+            "Name": "Marcelo do Carmo Coelho",
+            "Affiliation": "",
+            "Key": "Marcelo do Carmo Coelho @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tayana Conte",
+            "Affiliation": "",
+            "Key": "Tayana Conte @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Fiona Cousins",
             "Affiliation": "Arup, USA",
             "Key": "Fiona Cousins @ Arup, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Oliver Creighton",
+            "Affiliation": "",
+            "Key": "Oliver Creighton @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2761,6 +3139,16 @@
             "Name": "Adam Czauderna",
             "Affiliation": "DePaul University, USA",
             "Key": "Adam Czauderna @ DePaul University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Maya Daneva",
+            "Affiliation": "",
+            "Key": "Maya Daneva @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2889,6 +3277,16 @@
         },
         {
             "Name": "Xavier Franch",
+            "Affiliation": "",
+            "Key": "Xavier Franch @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xavier Franch",
             "Affiliation": "Universitat Politècnica de Catalunya, Spain",
             "Key": "Xavier Franch @ Universitat Politècnica de Catalunya, Spain",
             "Bio": "",
@@ -2908,9 +3306,29 @@
             "URLgs": ""
         },
         {
+            "Name": "Matthias Galster",
+            "Affiliation": "",
+            "Key": "Matthias Galster @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Nicolas Genon",
             "Affiliation": "University of Namur, Belgium",
             "Key": "Nicolas Genon @ University of Namur, Belgium",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Geri Georg",
+            "Affiliation": "",
+            "Key": "Geri Georg @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2949,6 +3367,16 @@
         },
         {
             "Name": "Martin Glinz",
+            "Affiliation": "",
+            "Key": "Martin Glinz @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Martin Glinz",
             "Affiliation": "University of Zurich, Switzerland",
             "Key": "Martin Glinz @ University of Zurich, Switzerland",
             "Bio": "",
@@ -2979,6 +3407,16 @@
         },
         {
             "Name": "Tony Gorschek",
+            "Affiliation": "",
+            "Key": "Tony Gorschek @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tony Gorschek",
             "Affiliation": "Blekinge Institute of Technology, Sweden",
             "Key": "Tony Gorschek @ Blekinge Institute of Technology, Sweden",
             "Bio": "",
@@ -2988,9 +3426,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Orlena Gotel",
+            "Name": "Orlena (Olly) Gotel",
             "Affiliation": "",
-            "Key": "Orlena Gotel @",
+            "Key": "Orlena (Olly) Gotel @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2999,8 +3437,18 @@
         },
         {
             "Name": "Orlena Gotel",
-            "Affiliation": "n.n., n.n.",
-            "Key": "Orlena Gotel @ n.n., n.n.",
+            "Affiliation": "Independent Researcher, USA",
+            "Key": "Orlena Gotel @ Independent Researcher, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sarah Gregory",
+            "Affiliation": "",
+            "Key": "Sarah Gregory @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3011,6 +3459,16 @@
             "Name": "Paul Grünbacher",
             "Affiliation": "JKU Linz, Austria",
             "Key": "Paul Grünbacher @ JKU Linz, Austria",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Paul Grunbacher",
+            "Affiliation": "",
+            "Key": "Paul Grunbacher @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3101,6 +3559,16 @@
             "Name": "Jane Huffman Hayes",
             "Affiliation": "University of Kentucky, USA",
             "Key": "Jane Huffman Hayes @ University of Kentucky, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "James Hulgan",
+            "Affiliation": "",
+            "Key": "James Hulgan @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3228,6 +3696,26 @@
             "URLgs": ""
         },
         {
+            "Name": "Seok Won Lee",
+            "Affiliation": "",
+            "Key": "Seok Won Lee @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Julio Cesar Leite",
+            "Affiliation": "",
+            "Key": "Julio Cesar Leite @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Julio Cesar Sampaio do Prado Leite",
             "Affiliation": "PUC Rio, Brasil",
             "Key": "Julio Cesar Sampaio do Prado Leite @ PUC Rio, Brasil",
@@ -3241,6 +3729,16 @@
             "Name": "Roberto Leite",
             "Affiliation": "Siemens Chemtech, Brasil",
             "Key": "Roberto Leite @ Siemens Chemtech, Brasil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Maria Lencastre",
+            "Affiliation": "",
+            "Key": "Maria Lencastre @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3288,6 +3786,26 @@
             "URLgs": ""
         },
         {
+            "Name": "Lin Liu",
+            "Affiliation": "",
+            "Key": "Lin Liu @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Robyn Lutz",
+            "Affiliation": "",
+            "Key": "Robyn Lutz @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Walid Maalej",
             "Affiliation": "University of Hamburg, Germany",
             "Key": "Walid Maalej @ University of Hamburg, Germany",
@@ -3301,6 +3819,16 @@
             "Name": "Patrick Mäder",
             "Affiliation": "TU Ilmenau, Germany",
             "Key": "Patrick Mäder @ TU Ilmenau, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Martin Mahaux",
+            "Affiliation": "",
+            "Key": "Martin Mahaux @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3358,6 +3886,36 @@
             "URLgs": ""
         },
         {
+            "Name": "Alessandro Marchetto",
+            "Affiliation": "",
+            "Key": "Alessandro Marchetto @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sabrina Marczak",
+            "Affiliation": "",
+            "Key": "Sabrina Marczak @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Aaron Massey",
+            "Affiliation": "",
+            "Key": "Aaron Massey @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Aaron K. Massey",
             "Affiliation": "Georgia Tech, USA",
             "Key": "Aaron K. Massey @ Georgia Tech, USA",
@@ -3369,8 +3927,8 @@
         },
         {
             "Name": "Alistair Mavin",
-            "Affiliation": "",
-            "Key": "Alistair Mavin @",
+            "Affiliation": "Rolls-Royce, UK",
+            "Key": "Alistair Mavin @ Rolls-Royce, UK",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3428,6 +3986,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Mehdi Mirakhorli",
+            "Affiliation": "",
+            "Key": "Mehdi Mirakhorli @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Amir Molzam Sharifloo",
             "Affiliation": "Politecnico di Milano, Italy",
             "Key": "Amir Molzam Sharifloo @ Politecnico di Milano, Italy",
@@ -3441,6 +4009,16 @@
             "Name": "Daniel L. Moody",
             "Affiliation": "Ozemantics, Australia",
             "Key": "Daniel L. Moody @ Ozemantics, Australia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ana Moreira",
+            "Affiliation": "",
+            "Key": "Ana Moreira @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3491,6 +4069,16 @@
             "Name": "Paul Isaac Musasizi",
             "Affiliation": "Makerere University, Uganda",
             "Key": "Paul Isaac Musasizi @ Makerere University, Uganda",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gunter Mussbacher",
+            "Affiliation": "",
+            "Key": "Gunter Mussbacher @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3619,6 +4207,16 @@
         },
         {
             "Name": "Nan Niu",
+            "Affiliation": "",
+            "Key": "Nan Niu @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nan Niu",
             "Affiliation": "Mississippi State University, USA",
             "Key": "Nan Niu @ Mississippi State University, USA",
             "Bio": "",
@@ -3711,6 +4309,16 @@
             "Name": "Liliana Pasquale",
             "Affiliation": "Lero, Ireland / University of Limerick, Ireland",
             "Key": "Liliana Pasquale @ Lero, Ireland / University of Limerick, Ireland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Oscar Pastor",
+            "Affiliation": "",
+            "Key": "Oscar Pastor @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3819,6 +4427,16 @@
         },
         {
             "Name": "Debra Richardson",
+            "Affiliation": "",
+            "Key": "Debra Richardson @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Debra Richardson",
             "Affiliation": "UC Irvine, USA",
             "Key": "Debra Richardson @ UC Irvine, USA",
             "Bio": "",
@@ -3831,6 +4449,26 @@
             "Name": "Gianluca Ripa",
             "Affiliation": "Cefriel, Italy",
             "Key": "Gianluca Ripa @ Cefriel, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Angel Roman",
+            "Affiliation": "",
+            "Key": "Angel Roman @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Roshanak Roshandel",
+            "Affiliation": "",
+            "Key": "Roshanak Roshandel @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3881,6 +4519,26 @@
             "Name": "Frank Salger",
             "Affiliation": "City of Munich, Germany",
             "Key": "Frank Salger @ City of Munich, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Camille Salinesi",
+            "Affiliation": "",
+            "Key": "Camille Salinesi @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Pablo Sánchez",
+            "Affiliation": "",
+            "Key": "Pablo Sánchez @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3968,6 +4626,26 @@
             "URLgs": ""
         },
         {
+            "Name": "Carla Silva",
+            "Affiliation": "",
+            "Key": "Carla Silva @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Erica Mourão da Silva",
+            "Affiliation": "",
+            "Key": "Erica Mourão da Silva @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Marten van Sinderen",
             "Affiliation": "University of Twente, Netherlands",
             "Key": "Marten van Sinderen @ University of Twente, Netherlands",
@@ -3998,9 +4676,29 @@
             "URLgs": ""
         },
         {
+            "Name": "Sam Supakkul",
+            "Affiliation": "",
+            "Key": "Sam Supakkul @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Alistair Sutcliffe",
             "Affiliation": "University of Lancaster, UK",
             "Key": "Alistair Sutcliffe @ University of Lancaster, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Peter Swire",
+            "Affiliation": "",
+            "Key": "Peter Swire @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4061,6 +4759,26 @@
             "Name": "Irina Todoran",
             "Affiliation": "University of Zurich, Switzerland",
             "Key": "Irina Todoran @ University of Zurich, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bruce Trask",
+            "Affiliation": "",
+            "Key": "Bruce Trask @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marcelo Tueiv",
+            "Affiliation": "",
+            "Key": "Marcelo Tueiv @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4251,6 +4969,16 @@
             "Name": "He Zhang",
             "Affiliation": "University of East London, UK",
             "Key": "He Zhang @ University of East London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Liping Zhao",
+            "Affiliation": "",
+            "Key": "Liping Zhao @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",

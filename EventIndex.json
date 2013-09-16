@@ -2,7 +2,17 @@
 "DummyCheckSums" : "-1393793961,-567785358,-533442047,-1393793961",
     
 "Events": [
-
+    {
+        "Id" : "ICSM2013",
+        "Name" : "ICSM 2013",
+        "Version" : 1,
+        "File" : "2013ICSM.json",
+        "StartDate" : "9/22/2013",
+        "EndDate" : "9/28/2013",
+        "Description" : "Program for the 2013 International Conference on Software Maintenance (ICSM)",
+		"Icon" : "2013ICSM.png",
+		"Image" : "2013ICSM.png"
+	},
 	{
 	    "Id" : "FSE2013",
 	    "Name" : "ESEC/FSE 2013",
