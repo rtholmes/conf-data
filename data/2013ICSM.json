@@ -271,6 +271,104 @@
 			"Key": "icsm_item_45",
 			"Authors": ["Feng Zhang", "Audris Mockus", "Ying Zou", "Foutse Khomh", "Ahmed E. Hassan"],
 			"Abstract": ""
+		},
+		{
+			"Title": "Determining Grim Reaper Policies to Prevent Languishing Bugs",
+			"Type": "ERA Paper",
+			"Key": "icsm_item_46",
+			"Authors": ["Patrick Francis", "Laurie Williams"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Database-aware Fault Localization for Dynamic Web Applications",
+			"Type": "ERA Paper",
+			"Key": "icsm_item_47",
+			"Authors": ["Hung Nguyen", "Hoan Nguyen", "Tung Nguyen", "Tien Nguyen"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Theory and Practice, Do They Match? A Case With Spectrum-Based Fault Localization",
+			"Type": "ERA Paper",
+			"Key": "icsm_item_48",
+			"Authors": ["Tien-Duy B. Le", "Ferdian Thung", "David Lo"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Multi-Objective Optimal Test Suite Computation for Software Product Line Pairwise Testing",
+			"Type": "ERA Paper",
+			"Key": "icsm_item_49",
+			"Authors": ["Roberto Erick Lopez-Herrejon", "Francisco Chicano", "Javier Ferrer", "Alexander Egyed", "Enrique Alba"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Refactoring Clones: An Optimization Problem",
+			"Type": "ERA Paper",
+			"Key": "icsm_item_50",
+			"Authors": ["Giri Panamoottil Krishnan", "Nikolaos Tsantalis"],
+			"Abstract": ""
+		},
+		{
+			"Title": "An Initial Investigation into Change-Based Reconstruction of Floss-Refactorings",
+			"Type": "ERA Paper",
+			"Key": "icsm_item_51",
+			"Authors": ["Quinten David Soetens", "Javier Pérez", "Serge Demeyer"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Identification of Refused Bequest Code Smells",
+			"Type": "ERA Paper",
+			"Key": "icsm_item_52",
+			"Authors": ["Elvis Ligu", "Alexander Chatzigeorgiou", "Theodore Chaikalis", "Nikolaos Ygeionomakis"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Code Smell Detection: towards a Machine Learning-based approach",
+			"Type": "ERA Paper",
+			"Key": "icsm_item_53",
+			"Authors": ["Francesca Arcelli Fontana", "Mika Mäntylä", "Alessandro Marino", "Marco Zanoni"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Can Refactoring Cyclic Dependent Components Reduce Defect-Proneness?",
+			"Type": "ERA Paper",
+			"Key": "icsm_item_54",
+			"Authors": ["Tosin Daniel Oyetoyan", "Daniela S. Cruzes", "Reidar Conradi"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Towards a Taxonomy of Programming-related Difficulties during Maintenance",
+			"Type": "ERA Paper",
+			"Key": "icsm_item_55",
+			"Authors": ["Aiko Yamashita", "Leon Moonen"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Towards Understanding Large-Scale Adaptive Changes from Version Histories",
+			"Type": "ERA Paper",
+			"Key": "icsm_item_56",
+			"Authors": ["Omar Meqdadi", "Nouh Alhindawi", "Michael Collard", "Jonathan Maletic"],
+			"Abstract": ""
+		},
+		{
+			"Title": "A Study on Developers' Perceptions About Exception Handling Bugs",
+			"Type": "ERA Paper",
+			"Key": "icsm_item_57",
+			"Authors": ["Felipe Ebert", "Fernando Castor"],
+			"Abstract": ""
+		},
+		{
+			"Title": "On the Personality Traits of StackOverflow Users",
+			"Type": "ERA Paper",
+			"Key": "icsm_item_58",
+			"Authors": ["Blerina Bazelli", "Abram Hindle", "Eleni Stroulia"],
+			"Abstract": ""
+		},
+		{
+			"Title": "Towards a Weighted Voting System for Q&A Sites",
+			"Type": "ERA Paper",
+			"Key": "icsm_item_59",
+			"Authors": ["Daniele Romano", "Martin Pinzger"],
+			"Abstract": ""
 		}
 	],
 	"Sessions": [
@@ -280,7 +378,7 @@
 			"Type": "Keynote",
 			"Key": "session_key_1",
 			"Day": "9/24/2013",
-			"Time": "9:00 am - 10:00 am",
+			"Time": "8:45 - 9:45",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Keynote Tuesday",
 			"Items": ["icsm_item_1"]
@@ -290,7 +388,7 @@
 			"Type": "Keynote",
 			"Key": "session_key_2",
 			"Day": "9/26/2013",
-			"Time": "9:00 am - 10:00 am",
+			"Time": "8:45 - 9:45",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Keynote Tuesday",
 			"Items": ["icsm_item_2"]
@@ -300,7 +398,7 @@
 			"Type": "Research Track",
 			"Key": "session_key_3",
 			"Day": "9/26/2013",
-			"Time": "16:40 pm - 17:55 pm",
+			"Time": "16:40 - 17:55",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Testing",
 			"Items": ["icsm_item_10", "icsm_item_11", "icsm_item_12"]
@@ -310,7 +408,7 @@
 			"Type": "Research Track",
 			"Key": "session_key_4",
 			"Day": "9/25/2013",
-			"Time": "16:40 pm - 17:55 pm",
+			"Time": "16:40 - 17:55",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Code Cloning",
 			"Items": ["icsm_item_13", "icsm_item_14", "icsm_item_15"]
@@ -320,7 +418,7 @@
 			"Type": "Research Track",
 			"Key": "session_key_5",
 			"Day": "9/25/2013",
-			"Time": "10:15 am - 11:30 am",
+			"Time": "10:00 - 11:15",
 			"Location": "Blauwe Zaal",
 			"Abstract": "APIs",
 			"Items": ["icsm_item_16", "icsm_item_17", "icsm_item_18"]
@@ -330,7 +428,7 @@
 			"Type": "Research Track",
 			"Key": "session_key_6",
 			"Day": "9/26/2013",
-			"Time": "10:15 am - 11:30 am",
+			"Time": "10:00 - 11:15",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Runtime Analysis",
 			"Items": ["icsm_item_19", "icsm_item_20", "icsm_item_21"]
@@ -340,7 +438,7 @@
 			"Type": "Research Track",
 			"Key": "session_key_7",
 			"Day": "9/24/2013",
-			"Time": "13:55 pm - 15:10 pm",
+			"Time": "13:55 - 15:10",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Reverse Engineering",
 			"Items": ["icsm_item_22", "icsm_item_23", "icsm_item_24"]
@@ -350,7 +448,7 @@
 			"Type": "Research Track",
 			"Key": "session_key_8",
 			"Day": "9/24/2013",
-			"Time": "16:40 pm - 17:55 pm",
+			"Time": "16:40 - 17:55",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Refactoring",
 			"Items": ["icsm_item_25", "icsm_item_26", "icsm_item_27"]
@@ -360,7 +458,7 @@
 			"Type": "Research Track",
 			"Key": "session_key_9",
 			"Day": "9/26/2013",
-			"Time": "13:55 pm - 15:10 pm",
+			"Time": "13:55 - 15:10",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Fault and Defect Management",
 			"Items": ["icsm_item_28", "icsm_item_29", "icsm_item_30"]
@@ -370,7 +468,7 @@
 			"Type": "Research Track",
 			"Key": "session_key_10",
 			"Day": "9/24/2013",
-			"Time": "10:15 am - 11:30 am",
+			"Time": "10:00 - 11:15",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Software Comprehension",
 			"Items": ["icsm_item_31", "icsm_item_32", "icsm_item_33"]
@@ -380,7 +478,7 @@
 			"Type": "Research Track",
 			"Key": "session_key_11",
 			"Day": "9/24/2013",
-			"Time": "11:45 am - 12:45 am",
+			"Time": "11:30 - 12:30",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Software Authorship",
 			"Items": ["icsm_item_34", "icsm_item_35"]
@@ -390,7 +488,7 @@
 			"Type": "Research Track",
 			"Key": "session_key_12",
 			"Day": "9/24/2013",
-			"Time": "15:25 pm - 16:25 pm",
+			"Time": "15:25 - 16:25",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Smells and Anti-patterns",
 			"Items": ["icsm_item_36", "icsm_item_37"]
@@ -400,7 +498,7 @@
 			"Type": "Research Track",
 			"Key": "session_key_13",
 			"Day": "9/25/2013",
-			"Time": "11:45 am - 12:45 am",
+			"Time": "11:30 - 12:30",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Dependencies",
 			"Items": ["icsm_item_38", "icsm_item_39"]
@@ -410,7 +508,7 @@
 			"Type": "Research Track",
 			"Key": "session_key_14",
 			"Day": "9/26/2013",
-			"Time": "15:25 pm - 16:25 pm",
+			"Time": "15:25 - 16:25",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Feature Location",
 			"Items": ["icsm_item_40", "icsm_item_41"]
@@ -420,7 +518,7 @@
 			"Type": "Research Track",
 			"Key": "session_key_15",
 			"Day": "9/26/2013",
-			"Time": "11:45 am - 12:45 am",
+			"Time": "11:30 - 12:30",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Traceability",
 			"Items": ["icsm_item_42", "icsm_item_43"]
@@ -430,15 +528,174 @@
 			"Type": "Research Track",
 			"Key": "session_key_16",
 			"Day": "9/25/2013",
-			"Time": "15:25 pm - 16:25 pm",
+			"Time": "15:25 - 16:25",
 			"Location": "Blauwe Zaal",
 			"Abstract": "Context",
 			"Items": ["icsm_item_44", "icsm_item_45"]
+		},
+		{
+			"Title": "Of defecG {:??v!?B|??v Segmentation Fault",
+			"Type": "ERA Track",
+			"Key": "session_key_17",
+			"Day": "9/24/2013",
+			"Time": "10:15 - 11:30",
+			"Location": "Zaal",
+			"Abstract": "Segmentation Fault",
+			"Items": ["icsm_item_46", "icsm_item_47", "icsm_item_48", "icsm_item_49"]
+		},
+		{
+			"Title": "I will Refactor your Smell Away",
+			"Type": "ERA Track",
+			"Key": "session_key_18",
+			"Day": "9/24/2013",
+			"Time": "13:45 - 15:10",
+			"Location": "Zaal",
+			"Abstract": "I will Refactor your Smell Away",
+			"Items": ["icsm_item_50", "icsm_item_51", "icsm_item_52", "icsm_item_53", "icsm_item_54"]
+		},
+		{
+			"Title": "Developers, What are you Thinking?",
+			"Type": "ERA Track",
+			"Key": "session_key_19",
+			"Day": "9/24/2013",
+			"Time": "16:40 - 17:55",
+			"Location": "Zaal",
+			"Abstract": "Developers, What are you Thinking?",
+			"Items": ["icsm_item_55", "icsm_item_56", "icsm_item_57", "icsm_item_58", "icsm_item_59"]
 		}
 	],
 	"People": [
 
 		{
+			"Name": "Martin Pinzger"
+		},
+		{
+			"Name": "Daniele Romano"
+		},
+		{
+			"Name": "Eleni Stroulia"
+		},
+		{
+			"Name": "Abram Hindle"
+		},
+		{
+			"Name": "Blerina Bazelli"
+		},
+		{
+			"Name": "Fernando Castor"
+		},
+		{
+			"Name": "Felipe Ebert"
+		},
+		{
+			"Name": "Jonathan Maletic"
+		},
+		{
+			"Name": "Michael Collard"
+		},
+		{
+			"Name": "Nouh Alhindawi"
+		},
+		{
+			"Name": "Omar Meqdadi"
+		},
+		{
+			"Name": "Leon Moonen"
+		},
+		{
+			"Name": "Aiko Yamashita"
+		},
+		{
+			"Name": "Reidar Conradi"
+		},
+		{
+			"Name": "Daniela S. Cruzes"
+		},
+		{
+			"Name": "Tosin Daniel Oyetoyan"
+		},
+		{
+			"Name": "Marco Zanoni"
+		},
+		{
+			"Name": "Alessandro Marino"
+		},
+		{
+			"Name": "Mika Mäntylä"
+		},
+		{
+			"Name": "Francesca Arcelli Fontana"
+		},
+		{
+			"Name": "Nikolaos Ygeionomakis"
+		},
+		{
+			"Name": "Theodore Chaikalis"
+		},
+		{
+			"Name": "Alexander Chatzigeorgiou"
+		},
+		{
+			"Name": "Elvis Ligu"
+		},
+		{
+			"Name": "Serge Demeyer"
+		},
+		{
+			"Name": "Javier Pérez"
+		},
+		{
+			"Name": "Quinten David Soetens"
+		},
+		{
+			"Name": "Nikolaos Tsantalis"
+		},
+		{
+			"Name": "Giri Panamoottil Krishnan"
+		},
+		{
+			"Name": "Enrique Alba"
+		},
+		{
+			"Name": "Alexander Egyed"
+		},
+		{
+			"Name": "Javier Ferrer"
+		},
+		{
+			"Name": "Francisco Chicano"
+		},
+		{
+			"Name": "Roberto Erick Lopez-Herrejon"
+		},
+		{
+			"Name": "David Lo"
+		},
+		{
+			"Name": "Ferdian Thung"
+		},
+		{
+			"Name": "Tien-Duy B. Le"
+		},
+		{
+			"Name": "Tien Nguyen"
+		},
+		{
+			"Name": "Tung Nguyen"
+		},
+		{
+			"Name": "Hoan Nguyen"
+		},
+		{
+			"Name": "Hung Nguyen"
+		},
+		{
+			"Name": "Laurie Williams"
+		},
+		{
+			"Name": "Patrick Francis"
+		},
+		{
 			"Name": "Ahmed E. Hassan"
 		},
 		{
@@ -830,1020 +1087,6 @@
 		},
 		{
 			"Name": "Amanda Schwartz"
-		},
-		{
-			"Name": "Micheal Feathers"
-		},
-		{
-			"Name": "Jeff Magee"
-		},
-		{
-			"Name": "Ahmed E. Hassan"
-		},
-		{
-			"Name": "Foutse Khomh"
-		},
-		{
-			"Name": "Ying Zou"
-		},
-		{
-			"Name": "Audris Mockus"
-		},
-		{
-			"Name": "Feng Zhang"
-		},
-		{
-			"Name": "Vladimir Filkov"
-		},
-		{
-			"Name": "Daryl Posnett"
-		},
-		{
-			"Name": "Mohammad Gharehyazie"
-		},
-		{
-			"Name": "Denys Poshyvanyk"
-		},
-		{
-			"Name": "Mario Linares-Vásquez"
-		},
-		{
-			"Name": "Evan Moritz"
-		},
-		{
-			"Name": "Bogdan Dit"
-		},
-		{
-			"Name": "Denys Poshyvanyk"
-		},
-		{
-			"Name": "Bogdan Dit"
-		},
-		{
-			"Name": "Evan Moritz"
-		},
-		{
-			"Name": "Mark Grechanik"
-		},
-		{
-			"Name": "Tathagata Dasgupta"
-		},
-		{
-			"Name": "David Lo"
-		},
-		{
-			"Name": "Tien-Duy B. Le"
-		},
-		{
-			"Name": "Jonathan Maletic"
-		},
-		{
-			"Name": "Michael Collard"
-		},
-		{
-			"Name": "Natalia Dragan"
-		},
-		{
-			"Name": "Nouh Alhindawi"
-		},
-		{
-			"Name": "Thomas Fritz"
-		},
-		{
-			"Name": "Sebastian C. Müller"
-		},
-		{
-			"Name": "Sebastiano Panichella"
-		},
-		{
-			"Name": "Rocco Oliveto"
-		},
-		{
-			"Name": "Massimiliano Di Penta"
-		},
-		{
-			"Name": "Gerardo Canfora"
-		},
-		{
-			"Name": "Gabriele Bavota"
-		},
-		{
-			"Name": "Meiyappan Nagappan"
-		},
-		{
-			"Name": "Ahmed E. Hassan"
-		},
-		{
-			"Name": "Ying Zou"
-		},
-		{
-			"Name": "Foutse Khomh"
-		},
-		{
-			"Name": "Seyyed Ehsan Salamati Taba"
-		},
-		{
-			"Name": "Pawel Martenka"
-		},
-		{
-			"Name": "Bartosz Walter"
-		},
-		{
-			"Name": "Alessandro Marino"
-		},
-		{
-			"Name": "Vincenzo Ferme"
-		},
-		{
-			"Name": "Francesca Arcelli Fontana"
-		},
-		{
-			"Name": "rew Bernat"
-		},
-		{
-			"Name": "William Williams,"
-		},
-		{
-			"Name": "Barton Miller"
-		},
-		{
-			"Name": "Xiaozhu Meng"
-		},
-		{
-			"Name": "Peng Zou"
-		},
-		{
-			"Name": "Xiang Li"
-		},
-		{
-			"Name": "Charles X. Ling"
-		},
-		{
-			"Name": "Gang Yin"
-		},
-		{
-			"Name": "Huaimin Wang"
-		},
-		{
-			"Name": "Tao Wang"
-		},
-		{
-			"Name": "Massimiliano Di Penta"
-		},
-		{
-			"Name": "Kevin Schneider"
-		},
-		{
-			"Name": "Chanchal K. Roy"
-		},
-		{
-			"Name": "Muhammad Asaduzzaman"
-		},
-		{
-			"Name": "Sjaak Brinkkemper"
-		},
-		{
-			"Name": "Christian Köppe"
-		},
-		{
-			"Name": "Leo Pruijt"
-		},
-		{
-			"Name": "Sebastiano Panichella"
-		},
-		{
-			"Name": "Rocco Oliveto"
-		},
-		{
-			"Name": "Massimiliano Di Penta"
-		},
-		{
-			"Name": "Gerardo Canfora"
-		},
-		{
-			"Name": "Gabriele Bavota"
-		},
-		{
-			"Name": "Chengnian Sun"
-		},
-		{
-			"Name": "David Lo"
-		},
-		{
-			"Name": "Yuan Tian"
-		},
-		{
-			"Name": "Michele Risi"
-		},
-		{
-			"Name": "Giuseppe Scanniello"
-		},
-		{
-			"Name": "Yan Lei"
-		},
-		{
-			"Name": "Xiaoguang Mao"
-		},
-		{
-			"Name": "Yuhua Qi"
-		},
-		{
-			"Name": "Eli Tilevich"
-		},
-		{
-			"Name": "Young-Woo Kwon"
-		},
-		{
-			"Name": "Catherine Mccartin"
-		},
-		{
-			"Name": "Jens Dietrich"
-		},
-		{
-			"Name": "Syed Muhammad Ali Shah"
-		},
-		{
-			"Name": "Tien Nguyen"
-		},
-		{
-			"Name": "Tung Nguyen"
-		},
-		{
-			"Name": "Hung Nguyen"
-		},
-		{
-			"Name": "Hoan Nguyen"
-		},
-		{
-			"Name": "Peter Van Der Putten"
-		},
-		{
-			"Name": "Michel Chaudron"
-		},
-		{
-			"Name": "Mohd Hafeez Osman"
-		},
-		{
-			"Name": "Hossein Mehrfard"
-		},
-		{
-			"Name": "Bojana Kolbah"
-		},
-		{
-			"Name": "Yvan Labiche"
-		},
-		{
-			"Name": "Jurgen Vinju"
-		},
-		{
-			"Name": "Paul Klint"
-		},
-		{
-			"Name": "Davy Landman"
-		},
-		{
-			"Name": "Parminder Flora"
-		},
-		{
-			"Name": "Mohamed Nasser"
-		},
-		{
-			"Name": "Ahmed E. Hassan"
-		},
-		{
-			"Name": "Meiyappan Nagappan"
-		},
-		{
-			"Name": "Zhen Ming Jiang"
-		},
-		{
-			"Name": "Mark D. Syer"
-		},
-		{
-			"Name": "Zhengwei Qi"
-		},
-		{
-			"Name": "Yudi Zheng"
-		},
-		{
-			"Name": "Chengcheng Xiang"
-		},
-		{
-			"Name": "Shiqiu Huang"
-		},
-		{
-			"Name": "Rui Xin"
-		},
-		{
-			"Name": "Angelos Keromytis"
-		},
-		{
-			"Name": "Rajeev Barua"
-		},
-		{
-			"Name": "Matthew Smithson"
-		},
-		{
-			"Name": "Aparna Kotha"
-		},
-		{
-			"Name": "Khaled Elwazeer"
-		},
-		{
-			"Name": "Kapil Anand"
-		},
-		{
-			"Name": "Osama Shata"
-		},
-		{
-			"Name": "Houari Sahraoui"
-		},
-		{
-			"Name": "Hani Abdeen"
-		},
-		{
-			"Name": "Miryung Kim"
-		},
-		{
-			"Name": "Baishakhi Ray"
-		},
-		{
-			"Name": "Tyler McDonnell"
-		},
-		{
-			"Name": "Lingfeng Mo"
-		},
-		{
-			"Name": "Daqing Hou"
-		},
-		{
-			"Name": "Rainer Koschke"
-		},
-		{
-			"Name": "Saman Bazrafshan"
-		},
-		{
-			"Name": "Wenyun Zhao"
-		},
-		{
-			"Name": "Stan Jarzabek"
-		},
-		{
-			"Name": "Zhenchang Xing"
-		},
-		{
-			"Name": "Xin Peng"
-		},
-		{
-			"Name": "Wenyi Qian"
-		},
-		{
-			"Name": "Jan Harder"
-		},
-		{
-			"Name": "Kai Petersen"
-		},
-		{
-			"Name": "Emelie Engstrom"
-		},
-		{
-			"Name": "Bram Adams"
-		},
-		{
-			"Name": "Foutse Khomh"
-		},
-		{
-			"Name": "Mika Mäntylä"
-		},
-		{
-			"Name": "Lauri Väätäinen"
-		},
-		{
-			"Name": "Anu Raninen"
-		},
-		{
-			"Name": "Tanja Toroi"
-		},
-		{
-			"Name": "Hyunsook Do"
-		},
-		{
-			"Name": "Amanda Schwartz"
-		},
-		{
-			"Name": "Micheal Feathers"
-		},
-		{
-			"Name": "Jeff Magee"
-		},
-		{
-			"Name": " Ahmed E. Hassan"
-		},
-		{
-			"Name": "Foutse Khomh"
-		},
-		{
-			"Name": "Ying Zou"
-		},
-		{
-			"Name": "Audris Mockus"
-		},
-		{
-			"Name": " Feng Zhang"
-		},
-		{
-			"Name": " Vladimir Filkov"
-		},
-		{
-			"Name": "Daryl Posnett"
-		},
-		{
-			"Name": "Mohammad Gharehyazie"
-		},
-		{
-			"Name": " Denys Poshyvanyk"
-		},
-		{
-			"Name": "Mario Linares-Vásquez"
-		},
-		{
-			"Name": "Evan Moritz"
-		},
-		{
-			"Name": "Bogdan Dit"
-		},
-		{
-			"Name": " Denys Poshyvanyk"
-		},
-		{
-			"Name": "Bogdan Dit"
-		},
-		{
-			"Name": "Evan Moritz"
-		},
-		{
-			"Name": "Mark Grechanik"
-		},
-		{
-			"Name": "Tathagata Dasgupta"
-		},
-		{
-			"Name": " David Lo"
-		},
-		{
-			"Name": "Tien-Duy B. Le"
-		},
-		{
-			"Name": " Jonathan Maletic"
-		},
-		{
-			"Name": "Michael Collard"
-		},
-		{
-			"Name": "Natalia Dragan"
-		},
-		{
-			"Name": "Nouh Alhindawi"
-		},
-		{
-			"Name": " Thomas Fritz"
-		},
-		{
-			"Name": "Sebastian C. Müller"
-		},
-		{
-			"Name": " Sebastiano Panichella"
-		},
-		{
-			"Name": "Rocco Oliveto"
-		},
-		{
-			"Name": "Massimiliano Di Penta"
-		},
-		{
-			"Name": "Gerardo Canfora"
-		},
-		{
-			"Name": "Gabriele Bavota"
-		},
-		{
-			"Name": " Meiyappan Nagappan"
-		},
-		{
-			"Name": "Ahmed E. Hassan"
-		},
-		{
-			"Name": "Ying Zou"
-		},
-		{
-			"Name": "Foutse Khomh"
-		},
-		{
-			"Name": "Seyyed Ehsan Salamati Taba"
-		},
-		{
-			"Name": " Pawel Martenka"
-		},
-		{
-			"Name": "Bartosz Walter"
-		},
-		{
-			"Name": "Alessandro Marino"
-		},
-		{
-			"Name": "Vincenzo Ferme"
-		},
-		{
-			"Name": "Francesca Arcelli Fontana"
-		},
-		{
-			"Name": "rew Bernat"
-		},
-		{
-			"Name": "William Williams,"
-		},
-		{
-			"Name": "Barton Miller"
-		},
-		{
-			"Name": "Xiaozhu Meng"
-		},
-		{
-			"Name": "Peng Zou"
-		},
-		{
-			"Name": "Xiang Li"
-		},
-		{
-			"Name": "Charles X. Ling"
-		},
-		{
-			"Name": "Gang Yin"
-		},
-		{
-			"Name": "Huaimin Wang"
-		},
-		{
-			"Name": "Tao Wang"
-		},
-		{
-			"Name": "Massimiliano Di Penta"
-		},
-		{
-			"Name": "Kevin Schneider"
-		},
-		{
-			"Name": "Chanchal K. Roy"
-		},
-		{
-			"Name": "Muhammad Asaduzzaman"
-		},
-		{
-			"Name": "Sjaak Brinkkemper"
-		},
-		{
-			"Name": "Christian Köppe"
-		},
-		{
-			"Name": "Leo Pruijt"
-		},
-		{
-			"Name": "Sebastiano Panichella"
-		},
-		{
-			"Name": "Rocco Oliveto"
-		},
-		{
-			"Name": "Massimiliano Di Penta"
-		},
-		{
-			"Name": "Gerardo Canfora"
-		},
-		{
-			"Name": "Gabriele Bavota"
-		},
-		{
-			"Name": " Chengnian Sun"
-		},
-		{
-			"Name": "David Lo"
-		},
-		{
-			"Name": "Yuan Tian"
-		},
-		{
-			"Name": " Michele Risi"
-		},
-		{
-			"Name": "Giuseppe Scanniello"
-		},
-		{
-			"Name": " Yan Lei"
-		},
-		{
-			"Name": "Xiaoguang Mao"
-		},
-		{
-			"Name": "Yuhua Qi"
-		},
-		{
-			"Name": " Eli Tilevich"
-		},
-		{
-			"Name": "Young-Woo Kwon"
-		},
-		{
-			"Name": " Catherine Mccartin"
-		},
-		{
-			"Name": "Jens Dietrich"
-		},
-		{
-			"Name": "Syed Muhammad Ali Shah"
-		},
-		{
-			"Name": " Tien Nguyen"
-		},
-		{
-			"Name": "Tung Nguyen"
-		},
-		{
-			"Name": "Hung Nguyen"
-		},
-		{
-			"Name": "Hoan Nguyen"
-		},
-		{
-			"Name": " Peter Van Der Putten"
-		},
-		{
-			"Name": "Michel Chaudron"
-		},
-		{
-			"Name": "Mohd Hafeez Osman"
-		},
-		{
-			"Name": " Hossein Mehrfard"
-		},
-		{
-			"Name": "Bojana Kolbah"
-		},
-		{
-			"Name": "Yvan Labiche"
-		},
-		{
-			"Name": " Jurgen Vinju"
-		},
-		{
-			"Name": "Paul Klint"
-		},
-		{
-			"Name": "Davy Landman"
-		},
-		{
-			"Name": " Parminder Flora"
-		},
-		{
-			"Name": "Mohamed Nasser"
-		},
-		{
-			"Name": "Ahmed E. Hassan"
-		},
-		{
-			"Name": "Meiyappan Nagappan"
-		},
-		{
-			"Name": "Zhen Ming Jiang"
-		},
-		{
-			"Name": "Mark D. Syer"
-		},
-		{
-			"Name": " Zhengwei Qi"
-		},
-		{
-			"Name": "Yudi Zheng"
-		},
-		{
-			"Name": "Chengcheng Xiang"
-		},
-		{
-			"Name": "Shiqiu Huang"
-		},
-		{
-			"Name": "Rui Xin"
-		},
-		{
-			"Name": "Angelos Keromytis"
-		},
-		{
-			"Name": "Rajeev Barua"
-		},
-		{
-			"Name": "Matthew Smithson"
-		},
-		{
-			"Name": "Aparna Kotha"
-		},
-		{
-			"Name": "Khaled Elwazeer"
-		},
-		{
-			"Name": "Kapil Anand"
-		},
-		{
-			"Name": "Osama Shata"
-		},
-		{
-			"Name": "Houari Sahraoui"
-		},
-		{
-			"Name": "Hani Abdeen"
-		},
-		{
-			"Name": "Miryung Kim"
-		},
-		{
-			"Name": "Baishakhi Ray"
-		},
-		{
-			"Name": "Tyler McDonnell"
-		},
-		{
-			"Name": "Lingfeng Mo"
-		},
-		{
-			"Name": " Daqing Hou"
-		},
-		{
-			"Name": "Rainer Koschke"
-		},
-		{
-			"Name": "Saman Bazrafshan"
-		},
-		{
-			"Name": "Wenyun Zhao"
-		},
-		{
-			"Name": "Stan Jarzabek"
-		},
-		{
-			"Name": "Zhenchang Xing"
-		},
-		{
-			"Name": "Xin Peng"
-		},
-		{
-			"Name": "Wenyi Qian"
-		},
-		{
-			"Name": "Jan Harder"
-		},
-		{
-			"Name": "Kai Petersen"
-		},
-		{
-			"Name": "Emelie Engstrom"
-		},
-		{
-			"Name": "Bram Adams"
-		},
-		{
-			"Name": "Foutse Khomh"
-		},
-		{
-			"Name": "Mika Mäntylä"
-		},
-		{
-			"Name": "Lauri Väätäinen"
-		},
-		{
-			"Name": "Anu Raninen"
-		},
-		{
-			"Name": "Tanja Toroi"
-		},
-		{
-			"Name": "Hyunsook Do"
-		},
-		{
-			"Name": "Amanda Schwartz"
-		},
-		{
-			"Name": "Micheal Feathers"
-		},
-		{
-			"Name": "Jeff Magee"
-		},
-		{
-			"Name": "Andrew Bernat"
-		},
-		{
-			"Name": "William Williams"
-		},
-		{
-			"Name": "Barton Miller"
-		},
-		{
-			"Name": "Xiaozhu Meng"
-		},
-		{
-			"Name": "Peng Zou"
-		},
-		{
-			"Name": "Xiang Li"
-		},
-		{
-			"Name": "Charles X. Ling"
-		},
-		{
-			"Name": "Gang Yin"
-		},
-		{
-			"Name": "Huaimin Wang"
-		},
-		{
-			"Name": "Tao Wang"
-		},
-		{
-			"Name": "Massimiliano Di Penta"
-		},
-		{
-			"Name": "Kevin Schneider"
-		},
-		{
-			"Name": "Chanchal K. Roy"
-		},
-		{
-			"Name": "Muhammad Asaduzzaman"
-		},
-		{
-			"Name": "Sjaak Brinkkemper"
-		},
-		{
-			"Name": "Christian Köppe"
-		},
-		{
-			"Name": "Leo Pruijt"
-		},
-		{
-			"Name": "Sebastiano Panichella"
-		},
-		{
-			"Name": "Rocco Oliveto"
-		},
-		{
-			"Name": "Massimiliano Di Penta"
-		},
-		{
-			"Name": "Gerardo Canfora"
-		},
-		{
-			"Name": "Gabriele Bavota"
-		},
-		{
-			"Name": "Micheal Feathers"
-		},
-		{
-			"Name": "Jeff Magee"
-		},
-		{
-			"Name": "Andrew Bernat"
-		},
-		{
-			"Name": "William Williams"
-		},
-		{
-			"Name": "Barton Miller"
-		},
-		{
-			"Name": "Xiaozhu Meng"
-		},
-		{
-			"Name": "Peng Zou"
-		},
-		{
-			"Name": "Xiang Li"
-		},
-		{
-			"Name": "Charles X. Ling"
-		},
-		{
-			"Name": "Gang Yin"
-		},
-		{
-			"Name": "Huaimin Wang"
-		},
-		{
-			"Name": "Tao Wang"
-		},
-		{
-			"Name": "Massimiliano Di Penta"
-		},
-		{
-			"Name": "Kevin Schneider"
-		},
-		{
-			"Name": "Chanchal K. Roy"
-		},
-		{
-			"Name": "Muhammad Asaduzzaman"
-		},
-		{
-			"Name": "Sjaak Brinkkemper"
-		},
-		{
-			"Name": "Christian Köppe"
-		},
-		{
-			"Name": "Leo Pruijt"
-		},
-		{
-			"Name": "Sebastiano Panichella"
-		},
-		{
-			"Name": "Rocco Oliveto"
-		},
-		{
-			"Name": "Massimiliano Di Penta"
-		},
-		{
-			"Name": "Gerardo Canfora"
-		},
-		{
-			"Name": "Gabriele Bavota"
-		},
-		{
-			"Name": "Micheal Feathers"
-		},
-		{
-			"Name": "Jeff Magee"
-		},
-		{
-			"Name": "Andrew Bernat"
-		},
-		{
-			"Name": "William Williams"
-		},
-		{
-			"Name": "Barton Miller"
-		},
-		{
-			"Name": "Xiaozhu Meng"
-		},
-		{
-			"Name": "Peng Zou"
-		},
-		{
-			"Name": "Xiang Li"
-		},
-		{
-			"Name": "Charles X. Ling"
-		},
-		{
-			"Name": "Gang Yin"
-		},
-		{
-			"Name": "Huaimin Wang"
-		},
-		{
-			"Name": "Tao Wang"
-		},
-		{
-			"Name": "Massimiliano Di Penta"
-		},
-		{
-			"Name": "Kevin Schneider"
-		},
-		{
-			"Name": "Chanchal K. Roy"
-		},
-		{
-			"Name": "Muhammad Asaduzzaman"
-		},
-		{
-			"Name": "Sjaak Brinkkemper"
-		},
-		{
-			"Name": "Christian Köppe"
-		},
-		{
-			"Name": "Leo Pruijt"
-		},
-		{
-			"Name": "Sebastiano Panichella"
-		},
-		{
-			"Name": "Rocco Oliveto"
-		},
-		{
-			"Name": "Massimiliano Di Penta"
-		},
-		{
-			"Name": "Gerardo Canfora"
-		},
-		{
-			"Name": "Gabriele Bavota"
 		},
 		{
 			"Name": "Micheal Feathers"
