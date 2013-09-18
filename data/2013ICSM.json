@@ -1,5 +1,5 @@
 {
-	"DataRevision": "26",
+	"DataRevision": "27",
 	"Event": "ICSM",
 	"Name": "ICSM 2013",
 	"Location": "Eindhoven, the Netherlands",
@@ -1295,6 +1295,16 @@
 			"Location": "Zwarte Doos",
 			"Abstract": "",
 			"Items": ["icsm_item_116", "icsm_item_117"]
+		},
+		{
+			"Title": "Keynote",
+			"Type": "CPSM Main Track",
+			"Key": "session_key_52",
+			"Day": "9/23/2013",
+			"Time": "15:15 - 16:15",
+			"Location": "Zwarte Doos",
+			"Abstract": "",
+			"Items": ["icsm_item_118"]
 		}
 	],
 	"People": [
