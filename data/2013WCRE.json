@@ -1,0 +1,2365 @@
+{
+    "DataRevision": 1380151006,
+    "Preliminary": false,
+    "Event": "WCRE 2013",
+    "Name": "WCRE 2013",
+    "Description": "",
+    "Location": "Koblenz, Germany",
+    "Sponsors": "",
+    "URL": "https://wcre.wikidot.com/2013/",
+    "MultiTrack": "false",
+    "Organization": {
+        "General Chairs": [
+                "Ralf Lämmel"
+        ],
+        "PC Chairs": [
+                "Rocco Oliveto",
+                "Romain Robbes"
+        ]
+    },
+    "SocialFeeds": [
+    ],
+    "VenueInfo": {
+        "Name": "",
+        "GPS": {
+            "Latitude": 0,
+            "Longitude": 0
+        }
+    },
+    "InfoPage": {
+        "xaml": "foo",
+        "Elements": [
+            {
+                "XamlName": "ConferenceCenterMap",
+                "Type": "Map",
+                "GPS": {
+                    "Latitude": 0,
+                    "Longitude": 0
+                },
+                "MapLabel": ""
+            },
+            {
+                "XamlName": "LicenseButton",
+                "Type": "WebLink",
+                "URL": "http://research.microsoft.com/en-US/projects/confapp/terms.aspx"
+            },
+            {
+                "XamlName": "PrivacyButton",
+                "Type": "WebLink",
+                "URL": "http://privacy.microsoft.com/en-us/default.msp"
+            }
+        ]
+    },
+    "SessionPriorities": [
+        "Award",
+        "Invited Talk",
+        "Other"
+    ],
+    "Items": [
+        {
+            "Title": "Who Allocated My Memory? Detecting Custom Memory Allocators in C Binaries",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm73-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DXi+Chen%2C+Asia+Slowinska%2C+and+Herbert+Bos+%22Who+Allocated+My+Memory%3F+Detecting+Custom+Memory+Allocators+in+C+Binaries%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Xi Chen, Asia Slowinska, and Herbert Bos",
+            "AffiliationsString": "VU University Amsterdam, Netherlands",
+            "Authors": [
+                "Xi Chen @ VU University Amsterdam, Netherlands",
+                "Asia Slowinska @ VU University Amsterdam, Netherlands",
+                "Herbert Bos @ VU University Amsterdam, Netherlands"
+            ],
+            "Affiliations": [
+                "VU University Amsterdam, Netherlands",
+                "VU University Amsterdam, Netherlands",
+                "VU University Amsterdam, Netherlands"
+            ],
+            "Abstract": "Many reversing techniques for data structures rely on the knowledge of memory allocation routines. Typically, they interpose on the system’s malloc and free functions, and track each chunk of memory thus allocated as a data structure. However, many performance-critical applications implement their own custom memory allocators. Examples include webservers, database management systems, and compilers like gcc and clang. As a result, current binary analysis techniques for tracking data structures fail on such binaries.  We present MemBrush, a new tool to detect memory alloca- tion and deallocation functions in stripped binaries with high accuracy. We evaluated the technique on a large number of real world applications that use custom memory allocators. As we show, we can furnish existing reversing tools with detailed information about the memory management API, and as a result perform an analysis of the actual application specific data structures designed by the programmer. Our system uses dynamic analysis and detects memory allocation and deallocation routines by searching for functions that comply with a set of generic characteristics of allocators and deallocators.",
+            "Award": ""
+        },
+        {
+            "Title": "MemPick: High-Level Data Structure Detection in C/C++ Binaries",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm104-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DIstvan+Haller%2C+Asia+Slowinska%2C+and+Herbert+Bos+%22MemPick%3A+High-Level+Data+Structure+Detection+in+C%2FC%2B%2B+Binaries%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Istvan Haller, Asia Slowinska, and Herbert Bos",
+            "AffiliationsString": "VU University Amsterdam, Netherlands",
+            "Authors": [
+                "Istvan Haller @ VU University Amsterdam, Netherlands",
+                "Asia Slowinska @ VU University Amsterdam, Netherlands",
+                "Herbert Bos @ VU University Amsterdam, Netherlands"
+            ],
+            "Affiliations": [
+                "VU University Amsterdam, Netherlands",
+                "VU University Amsterdam, Netherlands",
+                "VU University Amsterdam, Netherlands"
+            ],
+            "Abstract": "Many existing techniques for reversing data structures in C/C++ binaries are limited to low-level programming constructs, such as individual variables or structs. Unfortunately, without detailed information about a program's pointer structures, forensics and reverse engineering are exceedingly hard. To fill this gap, we propose MemPick, a tool that detects and classifies high-level data structures used in stripped binaries. By analyzing how links between memory objects evolve throughout the program execution, it distinguishes between many commonly used data structures, such as singly- or doubly-linked lists, many types of trees (e.g., AVL, red-black trees, B-trees), and graphs. We evaluate the technique on 10 real world applications and 16 popular libraries. The results show that MemPick can identify the data structures with high accuracy.",
+            "Award": ""
+        },
+        {
+            "Title": "Reconstructing Program Memory State from Multi-gigabyte Instruction Traces to Support Interactive Analysis",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm120-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBrendan+Cleary%2C+Patrick+Gorman%2C+Eric+Verbeek%2C+Margaret-Anne+Storey%2C+Martin+Salois%2C+and+Fr%C3%A9d%C3%A9ric+Painchaud+%22Reconstructing+Program+Memory+State+from+Multi-gigabyte+Instruction+Traces+to+Support+Interactive+Analysis%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Brendan Cleary, Patrick Gorman, Eric Verbeek, Margaret-Anne Storey, Martin Salois, and Frédéric Painchaud",
+            "AffiliationsString": "University of Victoria, Canada; Defence R&D Canada, Canada",
+            "Authors": [
+                "Brendan Cleary @ University of Victoria, Canada",
+                "Patrick Gorman @ University of Victoria, Canada",
+                "Eric Verbeek @ University of Victoria, Canada",
+                "Margaret-Anne Storey @ University of Victoria, Canada",
+                "Martin Salois @ Defence R&D Canada, Canada",
+                "Frédéric Painchaud @ Defence R&D Canada, Canada"
+            ],
+            "Affiliations": [
+                "University of Victoria, Canada",
+                "University of Victoria, Canada",
+                "University of Victoria, Canada",
+                "University of Victoria, Canada",
+                "Defence R&D Canada, Canada",
+                "Defence R&D Canada, Canada"
+            ],
+            "Abstract": "Exploitability analysis is the process of attempting to determine if a vulnerability in a program is exploitable. Fuzzing is a popular method of finding such vulnerabilities, in which a program is subjected to millions of generated program inputs until it crashes. Each program crash indicates a potential vulnerability that needs to be prioritized according to its potential for exploitation. The highest priority vulnerabilities need to be investigated by a security analyst by re-executing the program with the input that caused the crash while recording a trace of all executed assembly instructions and then performing analysis on the resulting trace. Recreating the entire memory state of the program at the time of the crash, or at any other point in the trace, is very important for helping the analyst build an understanding of the conditions that led to the crash. Unfortunately, tracing even a small program can create multi-million line trace files from which reconstructing memory state is a computationally intensive process and virtually impossible to do manually. In this paper we present an analysis of the problem of memory state reconstruction from very large execution traces. We report on a novel approach for reconstructing the entire memory state of a program from an execution trace that allows near real-time queries on the state of memory at any point in a program's execution trace. Finally we benchmark our approach showing storage and performance results in line with our theoretical calculations and demonstrate memory state query response times of less than 100ms for trace files up to 60 million lines.",
+            "Award": ""
+        },
+        {
+            "Title": "Static Binary Rewriting without Supplemental Information: Overcoming the Tradeoff between Coverage and Correctness",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm75-p",
+            "URL": "http%3A%2F%2Fwww.ece.umd.edu%2F%7Emsmithso%2Fwcre2013_smithson.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Matthew Smithson, Khaled ElWazeer, Kapil Anand, Aparna Kotha, and Rajeev Barua",
+            "AffiliationsString": "University of Maryland at College Park, USA",
+            "Authors": [
+                "Matthew Smithson @ University of Maryland at College Park, USA",
+                "Khaled ElWazeer @ University of Maryland at College Park, USA",
+                "Kapil Anand @ University of Maryland at College Park, USA",
+                "Aparna Kotha @ University of Maryland at College Park, USA",
+                "Rajeev Barua @ University of Maryland at College Park, USA"
+            ],
+            "Affiliations": [
+                "University of Maryland at College Park, USA",
+                "University of Maryland at College Park, USA",
+                "University of Maryland at College Park, USA",
+                "University of Maryland at College Park, USA",
+                "University of Maryland at College Park, USA"
+            ],
+            "Abstract": "Binary rewriting is the process of transforming executables by maintaining the original binary’s functionality, while improving it in one or more metrics, such as energy use, memory use, security, or reliability. Although several technologies for rewriting binaries exist, static rewriting allows for arbitrarily complex transformations to be performed. Other technologies, such as dynamic or minimally-invasive rewriting, are limited in their transformation ability.  We have designed the first static binary rewriter that guarantees 100% code coverage without the need for relocation or symbolic information. A key challenge in static rewriting is content classification (i.e. deciding what portion of the code segment is code versus data). Our contributions are (i) handling portions of the code segment with uncertain classification by using speculative disassembly in case it was code, and retaining the original binary in case it was data; (ii) drastically limiting the number of possible speculative sequences using a new technique called binary characterization; and (iii) avoiding the need for relocation or symbolic information by using call translation at usage points of code pointers (i.e. indirect control transfers), rather than changing addresses at address creation points. Extensive evaluation using stripped binaries for the entire SPEC 2006 benchmark suite (with over 1.9 million lines of code) demonstrates the robustness of the scheme.",
+            "Award": ""
+        },
+        {
+            "Title": "An Incremental Update Framework for Efficient Retrieval from Software Libraries for Bug Localization",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm36-p",
+            "URL": "https%3A%2F%2Fengineering.purdue.edu%2FRVL%2FPublications%2FWCRE_rvl_version.v1.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Shivani Rao, Henry Medeiros, and Avinash C. Kak",
+            "AffiliationsString": "Purdue University, USA",
+            "Authors": [
+                "Shivani Rao @ Purdue University, USA",
+                "Henry Medeiros @ Purdue University, USA",
+                "Avinash C. Kak @ Purdue University, USA"
+            ],
+            "Affiliations": [
+                "Purdue University, USA",
+                "Purdue University, USA",
+                "Purdue University, USA"
+            ],
+            "Abstract": "Information Retrieval (IR) based bug localization techniques use a bug reports to query a software repository to retrieve relevant source files. These techniques index the source files in the software repository and train a model which is then queried for retrieval purposes. Much of the current research is focused on improving the retrieval effectiveness of these methods. However, little consideration has been given to the efficiency of such approaches for software repositories that are constantly evolving. As the software repository evolves, the index creation and model learning have to be repeated to ensure accuracy of retrieval for each new bug. In doing so, the query latency may be unreasonably high, and also, re-computing the index and the model for files that did not change is computationally redundant. We propose an incremental update framework to continuously update the index and the model using the changes made at each commit. We demonstrate that the same retrieval accuracy can be achieved but with a fraction of the time needed by current approaches. Our results are based on two basic IR modeling techniques -– Vector Space Model (VSM) and Smoothed Unigram Model (SUM). The dataset we used in our validation experiments was created by tracking commit history of AspectJ and JodaTime software libraries over a span of 10 years.",
+            "Award": ""
+        },
+        {
+            "Title": "Accurate Developer Recommendation for Bug Resolution",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm51-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DXin+Xia%2C+David+Lo%2C+Xinyu+Wang%2C+and+Bo+Zhou+%22Accurate+Developer+Recommendation+for+Bug+Resolution%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Xin Xia, David Lo, Xinyu Wang, and Bo Zhou",
+            "AffiliationsString": "Zhejiang University, China; Singapore Management University, Singapore",
+            "Authors": [
+                "Xin Xia @ Zhejiang University, China",
+                "David Lo @ Singapore Management University, Singapore",
+                "Xinyu Wang @ Zhejiang University, China",
+                "Bo Zhou @ Zhejiang University, China"
+            ],
+            "Affiliations": [
+                "Zhejiang University, China",
+                "Singapore Management University, Singapore",
+                "Zhejiang University, China",
+                "Zhejiang University, China"
+            ],
+            "Abstract": "Bug resolution refers to the activity that developers perform to diagnose, fix, test, and document bugs during software development and maintenance. It is a collaborative activity among developers who contribute their knowledge, ideas, and expertise to resolve bugs. Given a bug report, we would like to recommend the set of bug resolvers that could potentially contribute their knowledge to fix it. We refer to this problem as developer recommendation for bug resolution.  In this paper, we propose a new and accurate method named DevRec for the developer recommendation problem. DevRec is a composite method which performs two kinds of analysis: bug reports based analysis (BR-Based analysis), and developer based analysis (D-Based analysis). In the BR-Based analysis, we characterize a new bug report based on past bug reports that are similar to it. Appropriate developers of the new bug report are found by investigating the developers of similar bug reports appearing in the past. In the D-Based analysis, we compute the affinity of each developer to a bug report based on the characteristics of bug reports that have been fixed by the developer before. This affinity is then used to find a set of developers that are ``close'' to a new bug report.   We evaluate our solution on 5 large bug report datasets including GCC, OpenOffice, Mozilla, Netbeans, and Eclipse containing a total of 107,875 bug reports. We show that DevRec could achieve recall@5 and recall@10 scores of 0.4826-0.7989, and 0.6063-0.8924, respectively. We also compare DevRec with other state-of-art methods, such as Bugzie and DREX. The results show that DevRec on average improves recall@5 and recall@10 scores of Bugzie by 57.55% and 39.39% respectively. DevRec also outperforms DREX by improving the average recall@5 and recall@10 scores by 165.38% and 89.36%, respectively.",
+            "Award": ""
+        },
+        {
+            "Title": "Has This Bug Been Reported?",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm67-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKaiping+Liu%2C+Hee+Beng+Kuan+Tan%2C+and+Hongyu+Zhang+%22Has+This+Bug+Been+Reported%3F%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Kaiping Liu, Hee Beng Kuan Tan, and Hongyu Zhang",
+            "AffiliationsString": "Nanyang Technological University, Singapore; Assoc Prof, Singapore; Tsinghua University, China",
+            "Authors": [
+                "Kaiping Liu @ Nanyang Technological University, Singapore",
+                "Hee Beng Kuan Tan @ Assoc Prof, Singapore",
+                "Hongyu Zhang @ Tsinghua University, China"
+            ],
+            "Affiliations": [
+                "Nanyang Technological University, Singapore",
+                "Assoc Prof, Singapore",
+                "Tsinghua University, China"
+            ],
+            "Abstract": "Bug reporting is essentially an uncoordinated process. The same bugs could be repeatedly reported because users or testers are unaware of previously reported bugs. As a result, extra time could be spent on bug triaging and fixing. In order to reduce redundant effort, it is important to provide bug reporters with the ability to search for previously reported bugs. The search functions provided by the existing bug tracking systems are using relatively simple ranking functions, which often produce unsatisfactory results. In this paper, we adopt Ranking SVM, a Learning to Rank technique to construct a ranking model for effective bug report search. We also propose to use the knowledge of Wikipedia to discover the semantic relations among words and documents. Given a user query, the constructed ranking model can search for relevant bug reports in a bug tracking system. Unlike related works on duplicate bug report detection, our approach retrieves existing bug reports based on short user queries, before the complete bug report is submitted. We perform evaluations on more than 16,340 Eclipse and Mozilla bug reports. The evaluation results show that the proposed approach can achieve better search results than the existing search functions provided by Bugzilla and Lucene. We believe our work can help users and testers locate potential relevant bug reports more precisely.",
+            "Award": ""
+        },
+        {
+            "Title": "Automatic Recovery of Root Causes from Bug-Fixing Changes",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm92-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFerdian+Thung%2C+David+Lo%2C+and+Lingxiao+Jiang+%22Automatic+Recovery+of+Root+Causes+from+Bug-Fixing+Changes%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Ferdian Thung, David Lo, and Lingxiao Jiang",
+            "AffiliationsString": "Singapore Management University, Singapore",
+            "Authors": [
+                "Ferdian Thung @ Singapore Management University, Singapore",
+                "David Lo @ Singapore Management University, Singapore",
+                "Lingxiao Jiang @ Singapore Management University, Singapore"
+            ],
+            "Affiliations": [
+                "Singapore Management University, Singapore",
+                "Singapore Management University, Singapore",
+                "Singapore Management University, Singapore"
+            ],
+            "Abstract": "What is the root cause of this failure? This question is often among the first few asked by software debuggers when they try to address issues raised by a bug report. Root cause is the erroneous lines of code that cause a chain of erroneous program states eventually leading to the failure. Bug tracking and source control systems only record the symptoms (e.g., bug reports) and treatments of a bug (e.g., committed changes that fix the bug), but not its root cause. Many treatments contain non-essential changes, which are intermingled with root causes. Reverse engineering the root cause of a bug can help to understand why the bug is introduced and help to detect and prevent other bugs of similar causes. The recovered root causes are also better ground truth for bug detection and localization studies.  In this work, we propose a combination of machine learning and code analysis techniques to identify root causes from the changes made to fix bugs. We evaluate the effectiveness of our approach based on a golden set (i.e., ground truth data) of manually recovered root causes of 200 bug reports from three open source projects. Our approach is able to achieve a precision, recall, and F-measure (i.e., the harmonic mean of precision and recall) of 76.42%, 71.88%, and 74.08% respectively. Compared with the work by Kawrykow and Robillard, our approach achieves a 60.83% improvement in F-measure.",
+            "Award": ""
+        },
+        {
+            "Title": "Distilling Useful Clones by Contextual Differencing",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm137-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DZhenchang+Xing%2C+Yinxing+Xue%2C+and+Stanislaw+Jarzabek+%22Distilling+Useful+Clones+by+Contextual+Differencing%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Zhenchang Xing, Yinxing Xue, and Stanislaw Jarzabek",
+            "AffiliationsString": "Nanyang Technological University, Singapore; National University of Singapore, Singapore",
+            "Authors": [
+                "Zhenchang Xing @ Nanyang Technological University, Singapore",
+                "Yinxing Xue @ National University of Singapore, Singapore",
+                "Stanislaw Jarzabek @ National University of Singapore, Singapore"
+            ],
+            "Affiliations": [
+                "Nanyang Technological University, Singapore",
+                "National University of Singapore, Singapore",
+                "National University of Singapore, Singapore"
+            ],
+            "Abstract": "Clone detectors find similar code fragments and report large numbers of them for large systems. Textually similar clones may perform different computations, depending on the program context in which clones occur. Understanding these contextual differences is essential to distill useful clones for a specific maintenance task, such as refactoring. Manual analysis of contextual differences is time consuming and error-prone. To mitigate this problem, we present an automated approach to helping developers find and analyze contextual differences of clones. Our approach represents context of clones as program dependence graphs, and applies a graph differencing technique to identify required contextual differences of clones. We implemented a tool called CloneDifferentiator that identifies contextual differences of clones and allows developers to formulate queries to distill candidate clones that are useful for a given refactoring task. Two empirical studies show that CloneDifferentiator can reduce the efforts of post-detection analysis of clones for refactorings.",
+            "Award": ""
+        },
+        {
+            "Title": "Effects of Cloned Code on Software Maintainability: A Replicated Developer Study",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm105-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDebarshi+Chatterji%2C+Jeffrey+C.+Carver%2C+Nicholas+A.+Kraft%2C+and+Jan+Harder+%22Effects+of+Cloned+Code+on+Software+Maintainability%3A+A+Replicated+Developer+Study%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Debarshi Chatterji, Jeffrey C. Carver, Nicholas A. Kraft, and Jan Harder",
+            "AffiliationsString": "University of Alabama, USA; University of Bremen, Germany",
+            "Authors": [
+                "Debarshi Chatterji @ University of Alabama, USA",
+                "Jeffrey C. Carver @ University of Alabama, USA",
+                "Nicholas A. Kraft @ University of Alabama, USA",
+                "Jan Harder @ University of Bremen, Germany"
+            ],
+            "Affiliations": [
+                "University of Alabama, USA",
+                "University of Alabama, USA",
+                "University of Alabama, USA",
+                "University of Bremen, Germany"
+            ],
+            "Abstract": "Code clones are a common occurrence in most software systems. Their presence is believed to have an effect on the maintenance process. Although these effects have been previously studied, there is not yet a conclusive result. This paper describes an extended replication of a controlled experiment (i.e. a strict replication with an additional task) that analyzes the effects of cloned bugs (i.e. bugs in cloned code) on the program comprehension of programmers. In the strict replication portion, the study participants attempted to isolate and fix two types of bugs, cloned and non-cloned, in one of two small systems. In the extension of the original study, we provided the participants with a clone report describing the location of all cloned code in the other system and asked them to again isolate and fix cloned and non-cloned bugs. The results of the original study showed that cloned bugs were not significantly %JEFF Added 'significantly' to address Jan's comment P1N1. more difficult to maintain than non-cloned bugs. Conversely, the results of the replication showed that it was significantly more difficult to correctly fix a cloned bug than a non-cloned bug. But, there was no significant difference in the amount of time required to fix a cloned bug vs. a non-cloned bug. Finally, the results of the study extension showed that programmers performed significantly better when given clone information than without clone information.",
+            "Award": ""
+        },
+        {
+            "Title": "The Influence of Non-technical Factors on Code Review",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm78-p",
+            "URL": "https%3A%2F%2Fcs.uwaterloo.ca%2F%7Eobaysal%2Fwcre2013-baysal.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Olga Baysal, Oleksii Kononenko, Reid Holmes, and Michael W. Godfrey",
+            "AffiliationsString": "University of Waterloo, Canada",
+            "Authors": [
+                "Olga Baysal @ University of Waterloo, Canada",
+                "Oleksii Kononenko @ University of Waterloo, Canada",
+                "Reid Holmes @ University of Waterloo, Canada",
+                "Michael W. Godfrey @ University of Waterloo, Canada"
+            ],
+            "Affiliations": [
+                "University of Waterloo, Canada",
+                "University of Waterloo, Canada",
+                "University of Waterloo, Canada",
+                "University of Waterloo, Canada"
+            ],
+            "Abstract": "When submitting a patch, the primary concerns of individual developers are \"How can I maximize the chances of my patch being approved, and minimize the time it takes for this to happen?\" In principle, code review is a transparent process that aims to assess qualities of the patch by their technical merits and in a timely manner; however, in practice the execution of this process can be affected by a variety of factors, some of which are external to the technical content of the patch itself. In this paper, we describe an empirical study of the code review process for WebKit, a large, open source project; we replicate the impact of previously studied factors — such as patch size, priority, and component and extend these studies by investigating organizational (the company) and personal dimensions (reviewer load and activity, patch writer experience) on code review response time and outcome. Our approach uses a reverse engineered model of the patch submission process and extracts key information from the issue tracking and code review systems. Our findings suggest that these non- technical factors can significantly impact code review outcomes.",
+            "Award": ""
+        },
+        {
+            "Title": "Understanding Project Dissemination on a Social Coding Site",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm20-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJing+Jiang%2C+Li+Zhang%2C+and+Lei+Li+%22Understanding+Project+Dissemination+on+a+Social+Coding+Site%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Jing Jiang, Li Zhang, and Lei Li",
+            "AffiliationsString": "Beihang University, China",
+            "Authors": [
+                "Jing Jiang @ Beihang University, China",
+                "Li Zhang @ Beihang University, China",
+                "Lei Li @ Beihang University, China"
+            ],
+            "Affiliations": [
+                "Beihang University, China",
+                "Beihang University, China",
+                "Beihang University, China"
+            ],
+            "Abstract": "Popular social coding sites like GitHub and BitBucket are changing software development. Users follow some interesting developers, listen to their activities and find new projects. Social relationships between users are utilized to disseminate projects, attract contributors and increase the popularity. A deep understanding of project dissemination on social coding sites can provide important insights into questions of project diffusion characteristics and into the improvement of the popularity.  In this paper, we seek a deeper understanding of project dissemination in GitHub. We collect 2,665 projects and 272,874 events. Moreover, we crawl 747,107 developers and 2,234,845 social links to construct social graphs. We analyze topological characteristics and reciprocity of social graphs. We then study the speed and the range of project dissemination, and the role of social links. Our main observations are: (1) Social relationships are not reciprocal. (2) The popularity increases gradually for a long time. (3) Projects spread to users far away from their creators. (4) Social links play a notable role of project dissemination. These results can be leveraged to increase the popularity. Specifically, we suggest that project owners should (1) encourage experienced developers to choose some promising new developers, follow them in return and provide guidance. (2) promote projects for a long time. (3) advertise projects to a wide range of developers. (4) fully utilize social relationships to advertise projects and attract contributors.",
+            "Award": ""
+        },
+        {
+            "Title": "What Help Do Developers Seek, When and How?",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm52-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHongwei+Li%2C+Zhenchang+Xing%2C+Xin+Peng%2C+and+Wenyun+Zhao+%22What+Help+Do+Developers+Seek%2C+When+and+How%3F%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Hongwei Li, Zhenchang Xing, Xin Peng, and Wenyun Zhao",
+            "AffiliationsString": "Fudan University, China; Nanyang Technological University, Singapore",
+            "Authors": [
+                "Hongwei Li @ Fudan University, China",
+                "Zhenchang Xing @ Nanyang Technological University, Singapore",
+                "Xin Peng @ Fudan University, China",
+                "Wenyun Zhao @ Fudan University, China"
+            ],
+            "Affiliations": [
+                "Fudan University, China",
+                "Nanyang Technological University, Singapore",
+                "Fudan University, China",
+                "Fudan University, China"
+            ],
+            "Abstract": "Software development often requires knowledge beyond what developers already possess. In such cases, developers have to seek help from different sources of information. As a metacognitive skill, help seeking influences software developers' efficiency and success in many situations. However, there has been little research to provide a systematic investigation of the general process of help seeking activities in software engineering and human and system factors affecting help seeking. This paper reports our empirical study aiming to fill this gap. Our study includes two human experiments, involving 24 developers and two typical software development tasks. Our study gathers empirical data that allows us to provide an in-depth analysis of help-seeking task structures, task strategies, information sources, process model, and developers' information needs and behaviors in seeking and using help information and in managing information during help seeking. Our study provides a detailed understanding of help seeking activities in software engineering, the challenges that software developers face, and the limitations of existing tool support. This can lead to the design and development of more efficient and usable help seeking support that helps developers become better help seekers.",
+            "Award": ""
+        },
+        {
+            "Title": "Towards Understanding How Developers Spend Their Effort during Maintenance Activities",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm125-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DZ%C3%A9phyrin+Soh%2C+Foutse+Khomh%2C+Yann-Ga%C3%ABl+Gu%C3%A9h%C3%A9neuc%2C+and+Giuliano+Antoniol+%22Towards+Understanding+How+Developers+Spend+Their+Effort+during+Maintenance+Activities%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Zéphyrin Soh, Foutse Khomh, Yann-Gaël Guéhéneuc, and Giuliano Antoniol",
+            "AffiliationsString": "Polytechnique Montréal, Canada",
+            "Authors": [
+                "Zéphyrin Soh @ Polytechnique Montréal, Canada",
+                "Foutse Khomh @ Polytechnique Montréal, Canada",
+                "Yann-Gaël Guéhéneuc @ Polytechnique Montréal, Canada",
+                "Giuliano Antoniol @ Polytechnique Montréal, Canada"
+            ],
+            "Affiliations": [
+                "Polytechnique Montréal, Canada",
+                "Polytechnique Montréal, Canada",
+                "Polytechnique Montréal, Canada",
+                "Polytechnique Montréal, Canada"
+            ],
+            "Abstract": "For many years, researchers and practitioners have strived to assess and improve the productivity of software development teams. One key step toward achieving this goal is the understanding of factors affecting the efficiency of developers performing development and maintenance activities. In this paper, we aim to understand how developers' spend their effort during maintenance activities and study the factors affecting developers' effort. By knowing how developers' spend their effort and which factors affect their effort, software organisations will be able to take the necessary steps to improve the efficiency of their developers, for example, by providing them with adequate program comprehension tools. For this preliminary study, we mine 2,408 developers' interaction histories and 3,395 patches from four open-source software projects (ECF, Mylyn, PDE, Eclipse Platform). We observe that usually, the complexity of the implementation required for a task does not reflect the effort spent by developers on the task. Most of the effort appears to be spent during the exploration of the program. In average, 62% of files explored during the implementation of a task are not significantly relevant to the final implementation of the task. Developers who explore a large number of files that are not significantly relevant to the solution to their task take a longer time to perform the task. We expect that the results of this study will pave the way for better program comprehension tools to guide developers during their explorations of software systems.",
+            "Award": ""
+        },
+        {
+            "Title": "Leveraging Specifications of Subcomponents to Mine Precise Specifications of Composite Components",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm45-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DZiying+Dai%2C+Xiaoguang+Mao%2C+Yan+Lei%2C+and+Liqian+Chen+%22Leveraging+Specifications+of+Subcomponents+to+Mine+Precise+Specifications+of+Composite+Components%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Ziying Dai, Xiaoguang Mao, Yan Lei, and Liqian Chen",
+            "AffiliationsString": "National University of Defense Technology, China",
+            "Authors": [
+                "Ziying Dai @ National University of Defense Technology, China",
+                "Xiaoguang Mao @ National University of Defense Technology, China",
+                "Yan Lei @ National University of Defense Technology, China",
+                "Liqian Chen @ National University of Defense Technology, China"
+            ],
+            "Affiliations": [
+                "National University of Defense Technology, China",
+                "National University of Defense Technology, China",
+                "National University of Defense Technology, China",
+                "National University of Defense Technology, China"
+            ],
+            "Abstract": "Specifications play an important role in many software engineering activities. Despite their usefulness, formal specifications are often unavailable in practice. Specification mining techniques try to automatically recover specifications from existing programs. Unfortunately, mined specifications are often overly general, which hampers their applications in the downstream analysis and testing. Nowadays, programmers develop software systems by utilizing existing components that usually have some available specifications. However, benefits of these available specifications are not explored by current specification miners. In this paper, we propose an approach to leverage available specifications of subcomponents to improve the precision of specifications of the composite component mined by state-based mining techniques. We monitor subcomponents against their specifications during the mining process and use states that are reached to construct abstract states of the composite component. Our approach makes subcomponents' states encoded within their specifications visible to their composite component, and improves the precision of mined specifications by effectively increasing the number of their states. The empirical evaluation shows that our approach can significantly improve the precision of mined specifications by removing erroneous behavior without noticeable loss of recall.",
+            "Award": ""
+        },
+        {
+            "Title": "A Model-Based Graph-Matching Approach for Design Pattern Detection",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm71-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMario+Luca+Bernardi%2C+Marta+Cimitile%2C+and+Giuseppe+Di+Lucca+%22A+Model-Based+Graph-Matching+Approach+for+Design+Pattern+Detection%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Mario Luca Bernardi, Marta Cimitile, and Giuseppe Di Lucca",
+            "AffiliationsString": "University of Sannio, Italy; Unitelma Sapienza University, Italy",
+            "Authors": [
+                "Mario Luca Bernardi @ University of Sannio, Italy",
+                "Marta Cimitile @ Unitelma Sapienza University, Italy",
+                "Giuseppe Di Lucca @ University of Sannio, Italy"
+            ],
+            "Affiliations": [
+                "University of Sannio, Italy",
+                "Unitelma Sapienza University, Italy",
+                "University of Sannio, Italy"
+            ],
+            "Abstract": "In this paper an approach to automatically detect Design Patterns (DPs) in Object Oriented systems is presented. It allows to link system’s source code components to the roles they play in each pattern. DPs are modelled by high level structural properties (e.g. inheritance, dependency, invocation, delegation, type nesting and membership relationships) that are checked against the system structure and components. The proposed metamodel also allows to define DP variants, overriding the structural properties of existing DP models, to improve detection quality. The approach was validated on an open benchmark containing several open-source systems of increasing sizes. Moreover, for other two systems, the results have been compared with the ones from a similar approach existing in literature. The results obtained on the analyzed systems, the identified variants and the efficency and effectiveness of the approach are thoroughly presented and discussed.",
+            "Award": ""
+        },
+        {
+            "Title": "Automated Library Recommendation",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm49-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFerdian+Thung%2C+David+Lo%2C+and+Julia+Lawall+%22Automated+Library+Recommendation%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Ferdian Thung, David Lo, and Julia Lawall",
+            "AffiliationsString": "Singapore Management University, Singapore; INRIA, France",
+            "Authors": [
+                "Ferdian Thung @ Singapore Management University, Singapore",
+                "David Lo @ Singapore Management University, Singapore",
+                "Julia Lawall @ INRIA, France"
+            ],
+            "Affiliations": [
+                "Singapore Management University, Singapore",
+                "Singapore Management University, Singapore",
+                "INRIA, France"
+            ],
+            "Abstract": "Many third party libraries are available to be downloaded and used. Using such libraries can reduce development time and make the developed software more reliable. However, developers are often unaware of suitable libraries to be used for their projects and thus they miss out on these benefits. To help developers better take advantage of the available libraries, we propose a new technique that automatically recommends libraries to developers. Our technique takes as input the set of libraries that an application currently uses, and recommends other libraries that are likely to be relevant.  We follow a hybrid approach that combines association rule mining and collaborative filtering. The association rule mining component recommends libraries based on a set of library usage patterns. The collaborative filtering component recommends libraries based on those that are used by other similar projects. We investigate the effectiveness of our hybrid approach on 500 software projects that use many third-party libraries. Our experiments show that our approach can recommend libraries with recall rate@5 of 0.852 and recall rate@10 of 0.894.",
+            "Award": ""
+        },
+        {
+            "Title": "Automatic Discovery of Function Mappings between Similar Libraries",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm15-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DC%C3%A9dric+Teyton%2C+Jean-R%C3%A9my+Falleri%2C+and+Xavier+Blanc+%22Automatic+Discovery+of+Function+Mappings+between+Similar+Libraries%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Cédric Teyton, Jean-Rémy Falleri, and Xavier Blanc",
+            "AffiliationsString": "University of Bordeaux, France; Institut Polytechnique de Bordeaux, France",
+            "Authors": [
+                "Cédric Teyton @ University of Bordeaux, France",
+                "Jean-Rémy Falleri @ Institut Polytechnique de Bordeaux, France",
+                "Xavier Blanc @ University of Bordeaux, France"
+            ],
+            "Affiliations": [
+                "University of Bordeaux, France",
+                "Institut Polytechnique de Bordeaux, France",
+                "University of Bordeaux, France"
+            ],
+            "Abstract": "Library migration is the process of replacing a third-party library in favor of a competing one during software maintenance. The process of transforming a software source code to become compliant with a new library is cumbersome and error-prone. Indeed, developers have to understand a new Application Programming Interface (API) and search for the right replacements for the functions they use from the old library. As the two libraries are independent, the functions may have totally different structures and names, making the search of mappings very difficult. To assist the developers in this difficult task, we introduce an approach that analyzes source code changes from software projects that already underwent a given library migration to extract mappings between functions. We demonstrate the applicability of our approach on several library migrations performed on the Java open source software projects.",
+            "Award": ""
+        },
+        {
+            "Title": "Find Your Library Experts",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm37-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DC%C3%A9dric+Teyton%2C+Jean-R%C3%A9my+Falleri%2C+Flor%C3%A9al+Morandat%2C+and+Xavier+Blanc+%22Find+Your+Library+Experts%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Cédric Teyton, Jean-Rémy Falleri, Floréal Morandat, and Xavier Blanc",
+            "AffiliationsString": "University of Bordeaux, France; Institut Polytechnique de Bordeaux, France",
+            "Authors": [
+                "Cédric Teyton @ University of Bordeaux, France",
+                "Jean-Rémy Falleri @ Institut Polytechnique de Bordeaux, France",
+                "Floréal Morandat @ University of Bordeaux, France",
+                "Xavier Blanc @ University of Bordeaux, France"
+            ],
+            "Affiliations": [
+                "University of Bordeaux, France",
+                "Institut Polytechnique de Bordeaux, France",
+                "University of Bordeaux, France",
+                "University of Bordeaux, France"
+            ],
+            "Abstract": "Heavy usage of third-party libraries is almost mandatory in modern software systems. The knowledge of these libraries is generally scattered across the development team. When a development or a maintenance task involving specific libraries arises, finding the relevant experts would simplify its completion. However there is no automatic approach to identify these experts. In this article we propose LIBTIC, a search engine of library experts automatically populated by mining software repositories. We show that LIBTIC finds relevant experts of common Java libraries among the GitHub developers. We also illustrate its usefulness through a case study on the Apache HBase project where several maintenance and development use-cases are carried out.",
+            "Award": ""
+        },
+        {
+            "Title": "Towards Automatically Improving Package Structure while Respecting Original Design Decisions",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm48-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHani+Abdeen%2C+Houari+Sahraoui%2C+Osama+Shata%2C+Nicolas+Anquetil%2C+and+St%C3%A9phane+Ducasse+%22Towards+Automatically+Improving+Package+Structure+while+Respecting+Original+Design+Decisions%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Hani Abdeen, Houari Sahraoui, Osama Shata, Nicolas Anquetil, and Stéphane Ducasse",
+            "AffiliationsString": "Qatar University, Qatar; Université de Montréal, Canada; University of Lille, France; INRIA, France",
+            "Authors": [
+                "Hani Abdeen @ Qatar University, Qatar",
+                "Houari Sahraoui @ Université de Montréal, Canada",
+                "Osama Shata @ Qatar University, Qatar",
+                "Nicolas Anquetil @ University of Lille, France",
+                "Stéphane Ducasse @ INRIA, France"
+            ],
+            "Affiliations": [
+                "Qatar University, Qatar",
+                "Université de Montréal, Canada",
+                "Qatar University, Qatar",
+                "University of Lille, France",
+                "INRIA, France"
+            ],
+            "Abstract": "Recently, there has been an important progress in applying search-based optimization techniques to the problem of software re-modularization.  Yet, a major part of the existing body of work addresses the problem of modularizing software systems from scratch, regardless of the existing packages structure. This paper presents a novel multi-objective optimization approach for improving existing packages structure. The optimization approach aims at increasing the cohesion and reducing the coupling and cyclic connectivity of packages, by modifying as less as possible the existing packages organization. Moreover, maintainers can specify several constraints to guide the optimization process with regard to extra design factors. To this contribution, we use the Non-Dominated Sorting Genetic Algorithm (NSGA-II). We evaluate the optimization approach through an experiment covering four real-world software systems. The results promise the effectiveness of our optimization approach for improving existing packages structure by doing very small modifications.",
+            "Award": ""
+        },
+        {
+            "Title": "Heuristics for Discovering Architectural Violations",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm47-p",
+            "URL": "http%3A%2F%2Fhomepages.dcc.ufmg.br%2F%7Emtov%2Fpub%2F2013_wcre_archlint.pdf",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Faserg.labsoft.dcc.ufmg.br%2Farchlint%2F",
+            "PersonsString": "Cristiano Maffort, Marco Tulio Valente, Nicolas Anquetil, Andre Hora, and Mariza Andrade S. Bigonha",
+            "AffiliationsString": "UFMG, Brazil; INRIA, France",
+            "Authors": [
+                "Cristiano Maffort @ UFMG, Brazil",
+                "Marco Tulio Valente @ UFMG, Brazil",
+                "Nicolas Anquetil @ INRIA, France",
+                "Andre Hora @ INRIA, France",
+                "Mariza Andrade S. Bigonha @ UFMG, Brazil"
+            ],
+            "Affiliations": [
+                "UFMG, Brazil",
+                "UFMG, Brazil",
+                "INRIA, France",
+                "INRIA, France",
+                "UFMG, Brazil"
+            ],
+            "Abstract": "Software architecture conformance is a key software quality control activity that aims to reveal the progressive gap normally observed between concrete and planned software architectures. In this paper, we present ArchLint, a lightweight approach for architecture conformance based on a combination of static and historical source code analysis. For this purpose, ArchLint relies on four heuristics for detecting both absences and divergences in source code based architectures. We applied ArchLint in an industrial-strength system and as a result we detected 119 architectural violations, with an overall precision of 46.7% and a recall of 96.2%, for divergences. We also evaluated ArchLint with four open-source systems, used in an independent study on reflexion models. In this second study, ArchLint achieved precision results ranging from 57.1% to 89.4%.",
+            "Award": ""
+        },
+        {
+            "Title": "Recommending Move Method Refactorings using Dependency Sets",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm61-p",
+            "URL": "http%3A%2F%2Fwww.dcc.ufmg.br%2F%7Emtov%2Fpub%2F2013_wcre_jmove.pdf",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Faserg.labsoft.dcc.ufmg.br%2Fjmove",
+            "PersonsString": "Vitor Sales, Ricardo Terra, Luis Miranda, and Marco Tulio Valente",
+            "AffiliationsString": "UFMG, Brazil",
+            "Authors": [
+                "Vitor Sales @ UFMG, Brazil",
+                "Ricardo Terra @ UFMG, Brazil",
+                "Luis Miranda @ UFMG, Brazil",
+                "Marco Tulio Valente @ UFMG, Brazil"
+            ],
+            "Affiliations": [
+                "UFMG, Brazil",
+                "UFMG, Brazil",
+                "UFMG, Brazil",
+                "UFMG, Brazil"
+            ],
+            "Abstract": "Methods implemented in incorrect classes are common bad smells in object-oriented systems, especially in the case of systems maintained and evolved for years. To tackle this design flaw, we propose a novel approach that recommends Move Method refactorings based on the set of static dependencies established by a method. More specifically, our approach compares the similarity of the dependencies established by a source method with the dependencies established by the methods in possible target classes. We evaluated our approach using systems from a compiled version of the Qualitas Corpus. We report that our approach provides an average precision of 60.63% and an average recall of 81.07%. Such results are, respectively, 129% and 49% better than the results achieved by JDeodorant, a well-known move method recommendation system.",
+            "Award": ""
+        },
+        {
+            "Title": "Do Developers Care about Code Smells? An Exploratory Survey",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm31-p",
+            "URL": "http%3A%2F%2Fsimula.no%2Fpublications%2Fcodesmellsurvey%2Fsimula_pdf_file",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Fsimula.no%2Fpublications%2Fcodesmellsurvey%2F",
+            "PersonsString": "Aiko Yamashita and Leon Moonen",
+            "AffiliationsString": "Simula Research Laboratory, Norway",
+            "Authors": [
+                "Aiko Yamashita @ Simula Research Laboratory, Norway",
+                "Leon Moonen @ Simula Research Laboratory, Norway"
+            ],
+            "Affiliations": [
+                "Simula Research Laboratory, Norway",
+                "Simula Research Laboratory, Norway"
+            ],
+            "Abstract": "Code smells are a well-known metaphor to describe symptoms of code decay or other issues with code quality which can lead to a variety of maintenance problems. Even though code smell detection and removal has been well-researched over the last decade, it remains open to debate whether or not code smells should be considered meaningful conceptualizations of code quality issues from the developer's perspective. To some extent, this question applies as well to the results provided by current code smell detection tools. Are code smells really important for developers? If they are not, is this due to the lack of relevance of the underlying concepts, due to the lack of awareness about code smells on the developers' side, or due to the lack of appropriate tools for code smell analysis or removal? In order to align and direct research efforts to address actual needs and problems of professional developers, we need to better understand the knowledge about, and interest in code smells, together with their perceived criticality. This paper reports on the results obtained from an exploratory survey involving 85 professional software developers.",
+            "Award": ""
+        },
+        {
+            "Title": "LigRE: Reverse-Engineering of Control and Data Flow Models for Black-Box XSS Detection",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm33-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFabien+Duch%C3%A8ne%2C+Sanjay+Rawat%2C+Jean-Luc+Richier%2C+and+Roland+Groz+%22LigRE%3A+Reverse-Engineering+of+Control+and+Data+Flow+Models+for+Black-Box+XSS+Detection%22",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Fcar-online.fr%2Fen%2Fspaces%2Ffabien_duchene%2Fpublications%2F2013-10-WCRE%2F",
+            "PersonsString": "Fabien Duchène, Sanjay Rawat, Jean-Luc Richier, and Roland Groz",
+            "AffiliationsString": "LIG, France; Ensimag, France",
+            "Authors": [
+                "Fabien Duchène @ LIG, France / Ensimag, France",
+                "Sanjay Rawat @ LIG, France / Ensimag, France",
+                "Jean-Luc Richier @ LIG, France / Ensimag, France",
+                "Roland Groz @ LIG, France / Ensimag, France"
+            ],
+            "Affiliations": [
+                "LIG, France / Ensimag, France",
+                "LIG, France / Ensimag, France",
+                "LIG, France / Ensimag, France",
+                "LIG, France / Ensimag, France"
+            ],
+            "Abstract": "Fuzz testing consists of automatically generating and sending malicious inputs to an application in order to hopefully trigger a vulnerability. In order to be efficient, the fuzzing should answer questions such as: Where to send a malicious value? Where to observe its effects? How to position the system in such states? Answering such questions is a matter of understanding precisely enough the application. Reverse- engineering is a possible way to gain this knowledge, especially in a black-box harness. In fact, given the complexity of modern web applications, automated black-box scanners alternatively reverse- engineer and fuzz web applications to detect vulnerabilities. We present an approach, named as LigRE, which improves the reverse engineering to guide the fuzzing. We adapt a method to automatically learn a control flow model of web applications, and annotate this model with inferred data flows. Afterwards, we generate slices of the model for guiding the scope of a fuzzer. Empirical experiments show that LigRE increases detection capabilities of Cross Site Scripting (XSS), a particular case of web command injection vulnerabilities.",
+            "Award": ""
+        },
+        {
+            "Title": "Circe: A Grammar-Based Oracle for Testing Cross-Site Scripting in Web Applications",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm96-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndrea+Avancini+and+Mariano+Ceccato+%22Circe%3A+A+Grammar-Based+Oracle+for+Testing+Cross-Site+Scripting+in+Web+Applications%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Andrea Avancini and Mariano Ceccato",
+            "AffiliationsString": "Fondazione Bruno Kessler, Italy",
+            "Authors": [
+                "Andrea Avancini @ Fondazione Bruno Kessler, Italy",
+                "Mariano Ceccato @ Fondazione Bruno Kessler, Italy"
+            ],
+            "Affiliations": [
+                "Fondazione Bruno Kessler, Italy",
+                "Fondazione Bruno Kessler, Italy"
+            ],
+            "Abstract": "Security is a crucial concern, especially for those applications, like web-based programs, that are constantly exposed to potentially malicious environments. Security testing aims at verifying the presence of security related defects. Security tests consist of two major parts, input values to run the application and the decision if the actual output matches the expected output, the latter is known as the “oracle”. In this paper, we present a process to build a security oracle for testing Cross-site scripting vulnerabilities in web applications. In the learning phase, we analyze web pages generated in safe conditions to learn a model of their syntactic structure. Then, in the testing phase, the model is used to classify new test cases either as “safe tests” or as “successful attacks”. This approach has been implemented in a tool, called Circe, and empirically assessed in classifying security test cases for two real world open source web applications.",
+            "Award": ""
+        },
+        {
+            "Title": "Capture-Replay vs. Programmable Web Testing: An Empirical Assessment during Test Case Evolution",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm116-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMaurizio+Leotta%2C+Diego+Clerissi%2C+Filippo+Ricca%2C+and+Paolo+Tonella+%22Capture-Replay+vs.+Programmable+Web+Testing%3A+An+Empirical+Assessment+during+Test+Case+Evolution%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Maurizio Leotta, Diego Clerissi, Filippo Ricca, and Paolo Tonella",
+            "AffiliationsString": "University of Genova, Italy; Fondazione Bruno Kessler, Italy",
+            "Authors": [
+                "Maurizio Leotta @ University of Genova, Italy",
+                "Diego Clerissi @ University of Genova, Italy",
+                "Filippo Ricca @ University of Genova, Italy",
+                "Paolo Tonella @ Fondazione Bruno Kessler, Italy"
+            ],
+            "Affiliations": [
+                "University of Genova, Italy",
+                "University of Genova, Italy",
+                "University of Genova, Italy",
+                "Fondazione Bruno Kessler, Italy"
+            ],
+            "Abstract": "There are several approaches for automated functional web testing and the choice among them depends on a number of factors, including the tools used for web testing and the costs associated with their adoption. In this paper, we present an empirical cost/benefit analysis of two different categories of automated functional web testing approaches: (1) capture-replay web testing (in particular, using Selenium IDE); and, (2) programmable web testing (using Selenium WebDriver). On a set of six web applications, we evaluated the costs of applying these testing approaches both when developing the initial test suites from scratch and when the test suites are maintained, upon the release of a new software version.  Results indicate that, on the one hand, the development of the test suites is more expensive in terms of time required (between 32% and 112%) when the programmable web testing approach is adopted, but on the other hand, test suite maintenance is less expensive when this approach is used (with a saving between 16% and 51%). We found that, in the majority of the cases, after a small number of releases (from one to three), the cumulative cost of programmable web testing becomes lower than the cost involved with capture-replay web testing and the cost saving gets amplified over the successive releases.",
+            "Award": ""
+        },
+        {
+            "Title": "Clustering Static Analysis Defect Reports to Reduce Maintenance Costs",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DZachary+P.+Fry+and+Westley+Weimer+%22Clustering+Static+Analysis+Defect+Reports+to+Reduce+Maintenance+Costs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Zachary P. Fry and Westley Weimer",
+            "AffiliationsString": "University of Virginia, USA",
+            "Authors": [
+                "Zachary P. Fry @ University of Virginia, USA",
+                "Westley Weimer @ University of Virginia, USA"
+            ],
+            "Affiliations": [
+                "University of Virginia, USA",
+                "University of Virginia, USA"
+            ],
+            "Abstract": "Static analysis tools facilitate software maintenance by automatically identifying bugs in source code. However, for large systems, these tools often produce an overwhelming number of defect reports. Many of these defect reports are conceptually similar, but addressing each report separately costs developer effort and increases the maintenance burden. We propose to automatically cluster machine-generated defect reports so that similar bugs can be triaged and potentially fixed in aggregate. Our approach leverages both syntactic and structural information available in static bug reports to accurately cluster related reports, thus expediting the maintenance process.  We evaluate our technique using 8,948 defect reports produced by the Coverity Static Analysis and FindBugs tools in both C and Java programs totaling over 14 million lines of code. We find that humans overwhelmingly agree that clusters of defect reports produced by our tool could be handled aggregately, thus reducing developer maintenance effort. Additionally, we show that our tool is not only capable of perfectly accurate clusters, but can also significantly reduce the number of defect reports that have to be manually examined by developers. For instance, at a level of 90% accuracy, our technique can reduce the number of individually inspected defect reports by 21.33% while other multi-language tools fail to obtain more than a 2% reduction.",
+            "Award": ""
+        },
+        {
+            "Title": "Lehman's Laws in Agile and Non-agile Projects",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm77-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKelley+Duran%2C+Gabrielle+Burns%2C+and+Paul+Snell+%22Lehman%27s+Laws+in+Agile+and+Non-agile+Projects%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Kelley Duran, Gabrielle Burns, and Paul Snell",
+            "AffiliationsString": "Rochester Institute of Technology, USA",
+            "Authors": [
+                "Kelley Duran @ Rochester Institute of Technology, USA",
+                "Gabrielle Burns @ Rochester Institute of Technology, USA",
+                "Paul Snell @ Rochester Institute of Technology, USA"
+            ],
+            "Affiliations": [
+                "Rochester Institute of Technology, USA",
+                "Rochester Institute of Technology, USA",
+                "Rochester Institute of Technology, USA"
+            ],
+            "Abstract": "Software team leaders and managers must make decisions on what type of process model they will use for their projects. Recent work suggests the use of agile processes since they promote shorter development cycles, better collaboration, and process flexibility. Due to the many benefits of agile processes, many software organizations have shifted to using more agile process methodologies. However, there is limited research that studies how agile processes affects the evolution of a software system over time.  In this paper, we perform an empirical study to better understand the effects of using agile processes. We compare two open source projects, one of which uses a tailored agile process (i.e., Xtreme Programming) and another that has no formal process methodology. In particular, we compare the two projects within the context of Lehman’s Laws for continuing growth, continuing change, increasing complexity, and conservation of familiarity. Our findings show that all four of the laws held true for the project that uses an agile process and that there are noticeable differences in the evolution of the two projects, many of which can be traced back to specific practices used by the agile team.",
+            "Award": ""
+        },
+        {
+            "Title": "Inferring Extended Finite State Machine Models from Software Executions",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm99-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNeil+Walkinshaw%2C+Ramsay+Taylor%2C+and+John+Derrick+%22Inferring+Extended+Finite+State+Machine+Models+from+Software+Executions%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Neil Walkinshaw, Ramsay Taylor, and John Derrick",
+            "AffiliationsString": "University of Leicester, UK; University of Sheffield, UK",
+            "Authors": [
+                "Neil Walkinshaw @ University of Leicester, UK",
+                "Ramsay Taylor @ University of Sheffield, UK",
+                "John Derrick @ University of Sheffield, UK"
+            ],
+            "Affiliations": [
+                "University of Leicester, UK",
+                "University of Sheffield, UK",
+                "University of Sheffield, UK"
+            ],
+            "Abstract": "The ability to reverse-engineer models of software behaviour is valuable for a wide range of software maintenance, validation and verification tasks. Current reverse-engineering techniques focus either on control-specific behaviour (e.g. in the form of Finite State Machines), or data-specific behaviour (e.g. as pre/post-conditions or invariants). However, typical software behaviour is usually a product of the two; models must combine both aspects to fully represent the software's operation. Extended Finite State Machines (EFSMs) provide such a model. Although attempts have been made to infer EFSMs, these have been problematic. The models inferred by these techniques can be non deterministic, the inference algorithms can be inflexible, and only applicable to traces with specific characteristics. This paper presents a novel EFSM inference technique that addresses the problems of inflexibility and non determinism. It also adapts an experimental technique from the field of Machine Learning to evaluate EFSM inference techniques, and applies it to two open-source software projects.",
+            "Award": ""
+        },
+        {
+            "Title": "Comparing and Combining Evolutionary Couplings from Interactions and Commits",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm55-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFasil+Bantelay%2C+Motahareh+Bahrami+Zanjani%2C+and+Huzefa+Kagdi+%22Comparing+and+Combining+Evolutionary+Couplings+from+Interactions+and+Commits%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Fasil Bantelay, Motahareh Bahrami Zanjani, and Huzefa Kagdi",
+            "AffiliationsString": "Wichita State University, USA",
+            "Authors": [
+                "Fasil Bantelay @ Wichita State University, USA",
+                "Motahareh Bahrami Zanjani @ Wichita State University, USA",
+                "Huzefa Kagdi @ Wichita State University, USA"
+            ],
+            "Affiliations": [
+                "Wichita State University, USA",
+                "Wichita State University, USA",
+                "Wichita State University, USA"
+            ],
+            "Abstract": "The paper presents an approach to mine evolutionary couplings from a combination of interaction (e.g., Mylyn) and commit (e.g., CVS) histories. These evolutionary couplings are expressed at the file and method levels of granularity, and are applied to support the tasks of commit and interaction predictions. Although the topic of mining evolutionary couplings has been investigated previously, the empirical comparison and combination of the two types from interaction and commit histories have not been attempted. An empirical study on 3272 interactions and 5093 commits from Mylyn, an open source task management tool, was conducted. These interactions and commits were divided into training and testing sets to evaluate the combined, and individual, models. Precision and recall metrics were used to measure the performance of these models. The results show that combined models offer statistically significant increases in recall over the individual models for change predictions. At the file level, the combined models achieved a maximum recall improvement of 13% for commit prediction with a 2% maximum precision drop.",
+            "Award": ""
+        },
+        {
+            "Title": "Improving SOA Antipattern Detection in Service Based Systems by Mining Execution Traces",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm112-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMathieu+Nayrolles%2C+Naouel+Moha%2C+and+Petko+Valtchev+%22Improving+SOA+Antipattern+Detection+in+Service+Based+Systems+by+Mining+Execution+Traces%22",
+            "URLvideo": "http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2JF-XoPuSKU",
+            "URLinfo": "http%3A%2F%2Fsofa.uqam.ca%2Fsomad%2F",
+            "PersonsString": "Mathieu Nayrolles, Naouel Moha, and Petko Valtchev",
+            "AffiliationsString": "Université de Montréal, Canada; Université du Québec à Montréal, Canada",
+            "Authors": [
+                "Mathieu Nayrolles @ Université de Montréal, Canada",
+                "Naouel Moha @ Université de Montréal, Canada",
+                "Petko Valtchev @ Université du Québec à Montréal, Canada"
+            ],
+            "Affiliations": [
+                "Université de Montréal, Canada",
+                "Université de Montréal, Canada",
+                "Université du Québec à Montréal, Canada"
+            ],
+            "Abstract": "Service Based Systems (SBSs), like other software systems, evolve due to changes in both user requirements and execution contexts. Continuous evolution could easily deteriorate the design and reduce the Quality of Service (QoS) of SBSs and may result in poor design solutions, commonly known as SOA antipatterns. SOA antipatterns lead to a reduced maintainability and reusability of SBSs. It is therefore important to first detect and then remove them. However, techniques for SOA antipattern detection are still in their infancy, and there are hardly any tools for their automatic detection. In this paper, we propose a new and innovative approach for SOA antipattern detection called SOMAD (Service Oriented Mining for Antipattern Detection) which is an evolution of the previously published SODA (Service Oriented Detection For Antpatterns) tool. SOMAD improves SOA antipattern detection by mining execution traces: It detects strong associations between sequences of service/method calls and further filters them using a suite of dedicated metrics. We first present the underlying association mining model and introduce the SBS-oriented rule metrics. We then describe a validating application of SOMAD to two independently developed SBSs. A comparison of our new tool with SODA reveals superiority of the former: Its precision is better by a margin ranging from 2.6% to 16.67% while the recall remains optimal at 100% and the speed is significantly reduces (2.5+ times on the same test subjects).",
+            "Award": ""
+        },
+        {
+            "Title": "Mining System Specific Rules from Change Patterns",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm39-p",
+            "URL": "http%3A%2F%2Fhal.inria.fr%2Fdocs%2F00%2F85%2F48%2F61%2FPDF%2Fwcre13main-idm39-p-19079-submitted.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Andre Hora, Nicolas Anquetil, Stéphane Ducasse, and Marco Tulio Valente",
+            "AffiliationsString": "INRIA, France; University of Lille, France; UFMG, Brazil",
+            "Authors": [
+                "Andre Hora @ INRIA, France",
+                "Nicolas Anquetil @ University of Lille, France",
+                "Stéphane Ducasse @ INRIA, France",
+                "Marco Tulio Valente @ UFMG, Brazil"
+            ],
+            "Affiliations": [
+                "INRIA, France",
+                "University of Lille, France",
+                "INRIA, France",
+                "UFMG, Brazil"
+            ],
+            "Abstract": "A significant percentage of warnings reported by tools to detect coding standard violations are false positives. Thus, there are some works dedicated to provide better rules by mining them from source code history, analyzing bug-fixes or changes between system releases. However, software evolves over time, and during development not only bugs are fixed, but also features are added, and code is refactored. In such cases, changes must be consistently applied in source code to avoid maintenance problems. In this paper, we propose to extract system specific rules by mining systematic changes over source code history, i.e., not just from bug-fixes or system releases, to ensure that changes are consistently applied over source code. We focus on structural changes done to support API modification or evolution with the goal of providing better rules to developers. Also, rules are mined from predefined rule patterns that ensure their quality. In order to assess the precision of such specific rules to detect real violations, we compare them with generic rules provided by tools to detect coding standard violations on four real world systems covering two programming languages. The results show that specific rules are more precise in identifying real violations in source code than generic ones, and thus can complement them.",
+            "Award": ""
+        },
+        {
+            "Title": "Empirical Evidence of Code Decay: A Systematic Mapping Study",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm30-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAjay+Bandi%2C+Byron+Williams%2C+and+Edward+Allen+%22Empirical+Evidence+of+Code+Decay%3A+A+Systematic+Mapping+Study%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Ajay Bandi, Byron Williams, and Edward Allen",
+            "AffiliationsString": "Mississippi State University, USA",
+            "Authors": [
+                "Ajay Bandi @ Mississippi State University, USA",
+                "Byron Williams @ Mississippi State University, USA",
+                "Edward Allen @ Mississippi State University, USA"
+            ],
+            "Affiliations": [
+                "Mississippi State University, USA",
+                "Mississippi State University, USA",
+                "Mississippi State University, USA"
+            ],
+            "Abstract": "Abstract—Background: Code decay is a gradual process that negatively impacts the quality of a software system. Developers need trusted measurement techniques to evaluate whether their systems have decayed. Objective: The goal is to find what is known about code decay detection techniques and metrics used to evaluate decay. Method: We performed a systematic mapping study to determine which techniques and metrics have been empirically evaluated. A review protocol was developed and followed to identify 30 primary studies with empirical evidence of code decay. Results: We categorized detection techniques into two broad groups: human-based and metric-based approaches. We describe the attributes of each approach and distinguish features of several subcategories of both high-level groups. A tabular overview of code decay metrics is also presented. Limitations: We exclude studies that do not use time (i.e., do not use evaluation of multiple software versions) as a factor when evaluating code decay. This limitation serves to focus the review. Conclusion: We found that coupling metrics are the most widely used at identifying code decay. Authors use various terms to define code decay, and we recommend additional research to operationalize the terms to provide more consistent analysis.",
+            "Award": ""
+        },
+        {
+            "Title": "Mining the Relationship between Anti-patterns Dependencies and Fault-Proneness",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm122-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFehmi+Jaafar%2C+Yann-Ga%C3%ABl+Gu%C3%A9h%C3%A9neuc%2C+Sylvie+Hamel%2C+and+Foutse+Khomh+%22Mining+the+Relationship+between+Anti-patterns+Dependencies+and+Fault-Proneness%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Fehmi Jaafar, Yann-Gaël Guéhéneuc, Sylvie Hamel, and Foutse Khomh",
+            "AffiliationsString": "Université de Montréal, Canada; Polytechnique Montréal, Canada",
+            "Authors": [
+                "Fehmi Jaafar @ Université de Montréal, Canada",
+                "Yann-Gaël Guéhéneuc @ Polytechnique Montréal, Canada",
+                "Sylvie Hamel @ Université de Montréal, Canada",
+                "Foutse Khomh @ Polytechnique Montréal, Canada"
+            ],
+            "Affiliations": [
+                "Université de Montréal, Canada",
+                "Polytechnique Montréal, Canada",
+                "Université de Montréal, Canada",
+                "Polytechnique Montréal, Canada"
+            ],
+            "Abstract": "Anti-patterns describe poor solutions to design and implementation problems which are claimed to make object oriented systems hard to maintain. Anti-patterns indicate weaknesses in design that may slow down development or increase the risk of faults or failures in the future. Classes in anti-patterns have some dependencies, such as static relationships, that may propagate potential problems to other classes. To the best of our knowledge, the relationship between anti-patterns dependencies (with non anti-patterns classes) and faults has yet to be studied in details.  This paper presents the results of an empirical study aimed at analysing anti-patterns dependencies in three open source software systems, namely ArgoUML, JFreeChart, and XerecesJ. We show that, in almost all releases of the three systems, classes having dependencies with anti-patterns are more fault-prone than others. We also report other observations about these dependencies such as their impact on fault prediction. Software organizations could make use of these knowledge about anti-patterns dependencies to better focus their testing and reviews activities toward the most risky classes, e.g. classes with fault-prone dependencies with anti-patterns.",
+            "Award": ""
+        },
+        {
+            "Title": "Leveraging Historical Co-change Information for Requirements Traceability",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm126-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNasir+Ali%2C+Ahmed+E.+Hassan%2C+and+Fehmi+Jaafar+%22Leveraging+Historical+Co-change+Information+for+Requirements+Traceability%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Nasir Ali, Ahmed E. Hassan, and Fehmi Jaafar",
+            "AffiliationsString": "Queen's University, Canada; Université de Montréal, Canada",
+            "Authors": [
+                "Nasir Ali @ Queen's University, Canada",
+                "Ahmed E. Hassan @ Queen's University, Canada",
+                "Fehmi Jaafar @ Université de Montréal, Canada"
+            ],
+            "Affiliations": [
+                "Queen's University, Canada",
+                "Queen's University, Canada",
+                "Université de Montréal, Canada"
+            ],
+            "Abstract": "Requirements traceability (RT) links requirements to the corresponding source code entities, which implement them. Information Retrieval (IR) based RT links recovery approaches are often used to automatically recover RT links. However, such approaches exhibit low accuracy, in terms of precision, recall, and ranking. This paper presents an approach (CoChaIR), complementary to existing IR-based RT links recovery approaches. CoChaIR leverages historical co-change information of files to improve the accuracy of IR-based RT links recovery approaches. We evaluated the effectiveness of CoChaIR on three datasets, i.e., iTrust, Pooka, and SIP Communicator. We compared CoChaIR with two different IR-based RT links recovery approaches, i.e., vector space model and Jensen--Shannon divergence model. Our study results show that CoChaIR significantly improves precision and recall by up to 12.38% and 5.67% respectively; while decreasing the rank of true positive links by up to 48% and reducing false positive links by up to 44%.",
+            "Award": ""
+        },
+        {
+            "Title": "Using Relationships for Matching Textual Domain Models with Existing Code",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm21-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRaghavan+Komondoor%2C+Indrajit+Bhattacharya%2C+Deepak+D%27Souza%2C+and+Sachin+Kale+%22Using+Relationships+for+Matching+Textual+Domain+Models+with+Existing+Code%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Raghavan Komondoor, Indrajit Bhattacharya, Deepak D'Souza, and Sachin Kale",
+            "AffiliationsString": "Indian Institute of Science, India; IBM Research, India",
+            "Authors": [
+                "Raghavan Komondoor @ Indian Institute of Science, India",
+                "Indrajit Bhattacharya @ IBM Research, India",
+                "Deepak D'Souza @ Indian Institute of Science, India",
+                "Sachin Kale @ Indian Institute of Science, India"
+            ],
+            "Affiliations": [
+                "Indian Institute of Science, India",
+                "IBM Research, India",
+                "Indian Institute of Science, India",
+                "Indian Institute of Science, India"
+            ],
+            "Abstract": "We address the task of mapping a given textual domain model (e.g., an industry-standard reference model) for a given domain (e.g., ERP), with the source code of an independently developed application in the same domain. This has applications in improving the understandability of an existing application, migrating it to a more flexible architecture, or integrating it with other related applications. We use the vector-space model to abstractly represent domain model elements as well as source-code artifacts. The key novelty in our approach is to leverage the relationships between source-code artifacts in a principled way to improve the mapping process. We describe experiments wherein we apply our approach to the task of matching two real, open-source applications to corresponding industry-standard domain models. We demonstrate the overall usefulness of our approach, as well as the role of our propagation techniques in improving the precision and recall of the mapping task.",
+            "Award": ""
+        },
+        {
+            "Title": "On the Effectiveness of Accuracy of Automated Feature Location Technique",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm79-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTakashi+Ishio%2C+Shinpei+Hayashi%2C+Hiroshi+Kazato%2C+and+Tsuyoshi+Oshima+%22On+the+Effectiveness+of+Accuracy+of+Automated+Feature+Location+Technique%22",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Fsel.ist.osaka-u.ac.jp%2FFL%2F",
+            "PersonsString": "Takashi Ishio, Shinpei Hayashi, Hiroshi Kazato, and Tsuyoshi Oshima",
+            "AffiliationsString": "Osaka University, Japan; Tokyo Institute of Technology, Japan; NTT Data Intellilink, Japan; NTT, Japan",
+            "Authors": [
+                "Takashi Ishio @ Osaka University, Japan",
+                "Shinpei Hayashi @ Tokyo Institute of Technology, Japan",
+                "Hiroshi Kazato @ NTT Data Intellilink, Japan",
+                "Tsuyoshi Oshima @ NTT, Japan"
+            ],
+            "Affiliations": [
+                "Osaka University, Japan",
+                "Tokyo Institute of Technology, Japan",
+                "NTT Data Intellilink, Japan",
+                "NTT, Japan"
+            ],
+            "Abstract": "Automated feature location techniques have been proposed to extract program elements that are likely to be relevant to a given feature. A more accurate result is expected to enable developers to perform more accurate feature location. However, several experiments assessing traceability recovery have shown that analysts cannot utilize an accurate traceability matrix for their tasks. Because feature location deals with a certain type of traceability links, it is an important question whether the same phenomena are visible in feature location or not. To answer that question, we have conducted a controlled experiment. We have asked 20 subjects to locate features using lists of methods of which the accuracy is controlled artificially. The result differs from the traceability recovery experiments. Subjects given an accurate list would be able to locate a feature more accurately. However, subjects could not locate the complete implementation of features in 83% of tasks. Results show that the accuracy of automated feature location techniques is effective, but it might be insufficient for perfect feature location.",
+            "Award": ""
+        },
+        {
+            "Title": "On the Effect of Program Exploration on Maintenance Tasks",
+            "Type": "Research paper",
+            "Key": "wcre13main-idm123-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DZ%C3%A9phyrin+Soh%2C+Foutse+Khomh%2C+Yann-Ga%C3%ABl+Gu%C3%A9h%C3%A9neuc%2C+Giuliano+Antoniol%2C+and+Bram+Adams+%22On+the+Effect+of+Program+Exploration+on+Maintenance+Tasks%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Zéphyrin Soh, Foutse Khomh, Yann-Gaël Guéhéneuc, Giuliano Antoniol, and Bram Adams",
+            "AffiliationsString": "Polytechnique Montréal, Canada",
+            "Authors": [
+                "Zéphyrin Soh @ Polytechnique Montréal, Canada",
+                "Foutse Khomh @ Polytechnique Montréal, Canada",
+                "Yann-Gaël Guéhéneuc @ Polytechnique Montréal, Canada",
+                "Giuliano Antoniol @ Polytechnique Montréal, Canada",
+                "Bram Adams @ Polytechnique Montréal, Canada"
+            ],
+            "Affiliations": [
+                "Polytechnique Montréal, Canada",
+                "Polytechnique Montréal, Canada",
+                "Polytechnique Montréal, Canada",
+                "Polytechnique Montréal, Canada",
+                "Polytechnique Montréal, Canada"
+            ],
+            "Abstract": "When developers perform a maintenance task, they follow an exploration strategy (ES) that is characterised by how they navigate through the program entities. Studying ES can help to assess how developers understand a program and perform a change task. Various factors could influence how developers explore a program and the way in which they explore a program may affect their performance for a certain task. In this paper, we investigate the ES followed by developers during maintenance tasks and assess the impact of these ES on the duration and effort spent by developers on the tasks. We want to know if developers frequently revisit one (or a set) of program entities (referenced exploration), or if they visit program entities with almost the same frequency (unreferenced exploration) when performing a maintenance task. We mine 1,705 Mylyn interaction histories (IH) from four open-source projects (ECF, Mylyn, PDE, and Eclipse Platform) and perform a user study to verify if both referenced exploration (RE) and unreferenced exploration (UE) were followed by some developers. Using the Gini inequality index on the number of revisits of program entities, we automatically classify interaction histories as RE and UE and perform an empirical study to measure the effect of program exploration on the task duration and effort. We report that, although a UE may require more exploration effort than a RE, a UE is on average 12.30% less time consuming than a RE.",
+            "Award": ""
+        }
+    ],
+    "Sessions": [
+        {
+            "Id": "keeXohg6uR",
+            "Title": "Refactoring and Re-modularization",
+            "ShortTitle": "Refactoring and Re-modularization",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "2013-10-14 10:30 Refactoring and Re-modularization",
+            "Day": "2013-10-14",
+            "Time": "10:30 - 11:45",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "WCRE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "wcre13main-idm48-p",
+                "wcre13main-idm47-p",
+                "wcre13main-idm61-p",
+                "wcre13main-idm31-p"
+            ]
+        },
+        {
+            "Id": "Jia4kiejeu",
+            "Title": "Software Maintenance",
+            "ShortTitle": "Software Maintenance",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "2013-10-14 12:15 Software Maintenance",
+            "Day": "2013-10-14",
+            "Time": "12:15 - 13:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "WCRE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "wcre13main-idm2-p",
+                "wcre13main-idm77-p",
+                "wcre13main-idm99-p",
+                "wcre13main-idm55-p"
+            ]
+        },
+        {
+            "Id": "shu5re8eeJ",
+            "Title": "Traceability and Feature Location",
+            "ShortTitle": "Traceability and Feature Location",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "2013-10-14 14:30 Traceability and Feature Location",
+            "Day": "2013-10-14",
+            "Time": "14:30 - 15:45",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "WCRE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "wcre13main-idm126-p",
+                "wcre13main-idm21-p",
+                "wcre13main-idm79-p",
+                "wcre13main-idm123-p"
+            ]
+        },
+        {
+            "Id": "Aip9doovie",
+            "Title": "Security and Testing",
+            "ShortTitle": "Security and Testing",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "2013-10-15 09:00 Security and Testing",
+            "Day": "2013-10-15",
+            "Time": "09:00 - 10:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "WCRE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "wcre13main-idm33-p",
+                "wcre13main-idm96-p",
+                "wcre13main-idm116-p"
+            ]
+        },
+        {
+            "Id": "Fuef5Giebo",
+            "Title": "Recommendation Systems",
+            "ShortTitle": "Recommendation Systems",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "2013-10-15 10:30 Recommendation Systems",
+            "Day": "2013-10-15",
+            "Time": "10:30 - 11:45",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "WCRE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "wcre13main-idm49-p",
+                "wcre13main-idm15-p",
+                "wcre13main-idm37-p"
+            ]
+        },
+        {
+            "Id": "aique8ohN3",
+            "Title": "Software Quality",
+            "ShortTitle": "Software Quality",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "2013-10-15 12:15 Software Quality",
+            "Day": "2013-10-15",
+            "Time": "12:15 - 13:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "WCRE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "wcre13main-idm112-p",
+                "wcre13main-idm39-p",
+                "wcre13main-idm30-p",
+                "wcre13main-idm122-p"
+            ]
+        },
+        {
+            "Id": "eesh4Gie4a",
+            "Title": "Re-documenting Legacy Code",
+            "ShortTitle": "Re-documenting Legacy Code",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "2013-10-16 09:00 Re-documenting Legacy Code",
+            "Day": "2013-10-16",
+            "Time": "09:00 - 10:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "WCRE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "wcre13main-idm45-p",
+                "wcre13main-idm71-p"
+            ]
+        },
+        {
+            "Id": "Eiguo6Uvie",
+            "Title": "Human Studies",
+            "ShortTitle": "Human Studies",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "2013-10-16 10:30 Human Studies",
+            "Day": "2013-10-16",
+            "Time": "10:30 - 11:45",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "WCRE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "wcre13main-idm78-p",
+                "wcre13main-idm20-p",
+                "wcre13main-idm52-p",
+                "wcre13main-idm125-p"
+            ]
+        },
+        {
+            "Id": "shais5Ohch",
+            "Title": "Clones",
+            "ShortTitle": "Clones",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "2013-10-16 12:15 Clones",
+            "Day": "2013-10-16",
+            "Time": "12:15 - 13:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "WCRE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "wcre13main-idm137-p",
+                "wcre13main-idm105-p"
+            ]
+        },
+        {
+            "Id": "Xaequen9hi",
+            "Title": "Binary Reverse Engineering",
+            "ShortTitle": "Binary Reverse Engineering",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "2013-10-17 10:30 Binary Reverse Engineering",
+            "Day": "2013-10-17",
+            "Time": "10:30 - 11:45",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "WCRE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "wcre13main-idm73-p",
+                "wcre13main-idm104-p",
+                "wcre13main-idm120-p",
+                "wcre13main-idm75-p"
+            ]
+        },
+        {
+            "Id": "ange1Kaesh",
+            "Title": "Bug Management",
+            "ShortTitle": "Bug Management",
+            "Type": "Main Research Track",
+            "ShortType": "Main Research Track",
+            "Key": "2013-10-17 12:15 Bug Management",
+            "Day": "2013-10-17",
+            "Time": "12:15 - 13:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "WCRE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "wcre13main-idm36-p",
+                "wcre13main-idm51-p",
+                "wcre13main-idm67-p",
+                "wcre13main-idm92-p"
+            ]
+        }
+    ],
+    "People": [
+        {
+            "Name": "Hani Abdeen",
+            "Affiliation": "Qatar University, Qatar",
+            "Key": "Hani Abdeen @ Qatar University, Qatar",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bram Adams",
+            "Affiliation": "Polytechnique Montréal, Canada",
+            "Key": "Bram Adams @ Polytechnique Montréal, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nasir Ali",
+            "Affiliation": "Queen's University, Canada",
+            "Key": "Nasir Ali @ Queen's University, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Edward Allen",
+            "Affiliation": "Mississippi State University, USA",
+            "Key": "Edward Allen @ Mississippi State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kapil Anand",
+            "Affiliation": "University of Maryland at College Park, USA",
+            "Key": "Kapil Anand @ University of Maryland at College Park, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nicolas Anquetil",
+            "Affiliation": "INRIA, France",
+            "Key": "Nicolas Anquetil @ INRIA, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nicolas Anquetil",
+            "Affiliation": "University of Lille, France",
+            "Key": "Nicolas Anquetil @ University of Lille, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Giuliano Antoniol",
+            "Affiliation": "Polytechnique Montréal, Canada",
+            "Key": "Giuliano Antoniol @ Polytechnique Montréal, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrea Avancini",
+            "Affiliation": "Fondazione Bruno Kessler, Italy",
+            "Key": "Andrea Avancini @ Fondazione Bruno Kessler, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ajay Bandi",
+            "Affiliation": "Mississippi State University, USA",
+            "Key": "Ajay Bandi @ Mississippi State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Fasil Bantelay",
+            "Affiliation": "Wichita State University, USA",
+            "Key": "Fasil Bantelay @ Wichita State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rajeev Barua",
+            "Affiliation": "University of Maryland at College Park, USA",
+            "Key": "Rajeev Barua @ University of Maryland at College Park, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Olga Baysal",
+            "Affiliation": "University of Waterloo, Canada",
+            "Key": "Olga Baysal @ University of Waterloo, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mario Luca Bernardi",
+            "Affiliation": "University of Sannio, Italy",
+            "Key": "Mario Luca Bernardi @ University of Sannio, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Indrajit Bhattacharya",
+            "Affiliation": "IBM Research, India",
+            "Key": "Indrajit Bhattacharya @ IBM Research, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mariza Andrade S. Bigonha",
+            "Affiliation": "UFMG, Brazil",
+            "Key": "Mariza Andrade S. Bigonha @ UFMG, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xavier Blanc",
+            "Affiliation": "University of Bordeaux, France",
+            "Key": "Xavier Blanc @ University of Bordeaux, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Herbert Bos",
+            "Affiliation": "VU University Amsterdam, Netherlands",
+            "Key": "Herbert Bos @ VU University Amsterdam, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gabrielle Burns",
+            "Affiliation": "Rochester Institute of Technology, USA",
+            "Key": "Gabrielle Burns @ Rochester Institute of Technology, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jeffrey C. Carver",
+            "Affiliation": "University of Alabama, USA",
+            "Key": "Jeffrey C. Carver @ University of Alabama, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mariano Ceccato",
+            "Affiliation": "Fondazione Bruno Kessler, Italy",
+            "Key": "Mariano Ceccato @ Fondazione Bruno Kessler, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Debarshi Chatterji",
+            "Affiliation": "University of Alabama, USA",
+            "Key": "Debarshi Chatterji @ University of Alabama, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Liqian Chen",
+            "Affiliation": "National University of Defense Technology, China",
+            "Key": "Liqian Chen @ National University of Defense Technology, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xi Chen",
+            "Affiliation": "VU University Amsterdam, Netherlands",
+            "Key": "Xi Chen @ VU University Amsterdam, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marta Cimitile",
+            "Affiliation": "Unitelma Sapienza University, Italy",
+            "Key": "Marta Cimitile @ Unitelma Sapienza University, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Brendan Cleary",
+            "Affiliation": "University of Victoria, Canada",
+            "Key": "Brendan Cleary @ University of Victoria, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Diego Clerissi",
+            "Affiliation": "University of Genova, Italy",
+            "Key": "Diego Clerissi @ University of Genova, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ziying Dai",
+            "Affiliation": "National University of Defense Technology, China",
+            "Key": "Ziying Dai @ National University of Defense Technology, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "John Derrick",
+            "Affiliation": "University of Sheffield, UK",
+            "Key": "John Derrick @ University of Sheffield, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Giuseppe Di Lucca",
+            "Affiliation": "University of Sannio, Italy",
+            "Key": "Giuseppe Di Lucca @ University of Sannio, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Deepak D'Souza",
+            "Affiliation": "Indian Institute of Science, India",
+            "Key": "Deepak D'Souza @ Indian Institute of Science, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Stéphane Ducasse",
+            "Affiliation": "INRIA, France",
+            "Key": "Stéphane Ducasse @ INRIA, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Fabien Duchène",
+            "Affiliation": "LIG, France / Ensimag, France",
+            "Key": "Fabien Duchène @ LIG, France / Ensimag, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kelley Duran",
+            "Affiliation": "Rochester Institute of Technology, USA",
+            "Key": "Kelley Duran @ Rochester Institute of Technology, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Khaled ElWazeer",
+            "Affiliation": "University of Maryland at College Park, USA",
+            "Key": "Khaled ElWazeer @ University of Maryland at College Park, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jean-Rémy Falleri",
+            "Affiliation": "Institut Polytechnique de Bordeaux, France",
+            "Key": "Jean-Rémy Falleri @ Institut Polytechnique de Bordeaux, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zachary P. Fry",
+            "Affiliation": "University of Virginia, USA",
+            "Key": "Zachary P. Fry @ University of Virginia, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michael W. Godfrey",
+            "Affiliation": "University of Waterloo, Canada",
+            "Key": "Michael W. Godfrey @ University of Waterloo, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Patrick Gorman",
+            "Affiliation": "University of Victoria, Canada",
+            "Key": "Patrick Gorman @ University of Victoria, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Roland Groz",
+            "Affiliation": "LIG, France / Ensimag, France",
+            "Key": "Roland Groz @ LIG, France / Ensimag, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yann-Gaël Guéhéneuc",
+            "Affiliation": "Polytechnique Montréal, Canada",
+            "Key": "Yann-Gaël Guéhéneuc @ Polytechnique Montréal, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Istvan Haller",
+            "Affiliation": "VU University Amsterdam, Netherlands",
+            "Key": "Istvan Haller @ VU University Amsterdam, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sylvie Hamel",
+            "Affiliation": "Université de Montréal, Canada",
+            "Key": "Sylvie Hamel @ Université de Montréal, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jan Harder",
+            "Affiliation": "University of Bremen, Germany",
+            "Key": "Jan Harder @ University of Bremen, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ahmed E. Hassan",
+            "Affiliation": "Queen's University, Canada",
+            "Key": "Ahmed E. Hassan @ Queen's University, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shinpei Hayashi",
+            "Affiliation": "Tokyo Institute of Technology, Japan",
+            "Key": "Shinpei Hayashi @ Tokyo Institute of Technology, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Reid Holmes",
+            "Affiliation": "University of Waterloo, Canada",
+            "Key": "Reid Holmes @ University of Waterloo, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andre Hora",
+            "Affiliation": "INRIA, France",
+            "Key": "Andre Hora @ INRIA, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Takashi Ishio",
+            "Affiliation": "Osaka University, Japan",
+            "Key": "Takashi Ishio @ Osaka University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Fehmi Jaafar",
+            "Affiliation": "Université de Montréal, Canada",
+            "Key": "Fehmi Jaafar @ Université de Montréal, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Stanislaw Jarzabek",
+            "Affiliation": "National University of Singapore, Singapore",
+            "Key": "Stanislaw Jarzabek @ National University of Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jing Jiang",
+            "Affiliation": "Beihang University, China",
+            "Key": "Jing Jiang @ Beihang University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lingxiao Jiang",
+            "Affiliation": "Singapore Management University, Singapore",
+            "Key": "Lingxiao Jiang @ Singapore Management University, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Huzefa Kagdi",
+            "Affiliation": "Wichita State University, USA",
+            "Key": "Huzefa Kagdi @ Wichita State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Avinash C. Kak",
+            "Affiliation": "Purdue University, USA",
+            "Key": "Avinash C. Kak @ Purdue University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sachin Kale",
+            "Affiliation": "Indian Institute of Science, India",
+            "Key": "Sachin Kale @ Indian Institute of Science, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hiroshi Kazato",
+            "Affiliation": "NTT Data Intellilink, Japan",
+            "Key": "Hiroshi Kazato @ NTT Data Intellilink, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Foutse Khomh",
+            "Affiliation": "Polytechnique Montréal, Canada",
+            "Key": "Foutse Khomh @ Polytechnique Montréal, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Raghavan Komondoor",
+            "Affiliation": "Indian Institute of Science, India",
+            "Key": "Raghavan Komondoor @ Indian Institute of Science, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Oleksii Kononenko",
+            "Affiliation": "University of Waterloo, Canada",
+            "Key": "Oleksii Kononenko @ University of Waterloo, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Aparna Kotha",
+            "Affiliation": "University of Maryland at College Park, USA",
+            "Key": "Aparna Kotha @ University of Maryland at College Park, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nicholas A. Kraft",
+            "Affiliation": "University of Alabama, USA",
+            "Key": "Nicholas A. Kraft @ University of Alabama, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Julia Lawall",
+            "Affiliation": "INRIA, France",
+            "Key": "Julia Lawall @ INRIA, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yan Lei",
+            "Affiliation": "National University of Defense Technology, China",
+            "Key": "Yan Lei @ National University of Defense Technology, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Maurizio Leotta",
+            "Affiliation": "University of Genova, Italy",
+            "Key": "Maurizio Leotta @ University of Genova, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hongwei Li",
+            "Affiliation": "Fudan University, China",
+            "Key": "Hongwei Li @ Fudan University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lei Li",
+            "Affiliation": "Beihang University, China",
+            "Key": "Lei Li @ Beihang University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kaiping Liu",
+            "Affiliation": "Nanyang Technological University, Singapore",
+            "Key": "Kaiping Liu @ Nanyang Technological University, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "David Lo",
+            "Affiliation": "Singapore Management University, Singapore",
+            "Key": "David Lo @ Singapore Management University, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Cristiano Maffort",
+            "Affiliation": "UFMG, Brazil",
+            "Key": "Cristiano Maffort @ UFMG, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xiaoguang Mao",
+            "Affiliation": "National University of Defense Technology, China",
+            "Key": "Xiaoguang Mao @ National University of Defense Technology, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Henry Medeiros",
+            "Affiliation": "Purdue University, USA",
+            "Key": "Henry Medeiros @ Purdue University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Luis Miranda",
+            "Affiliation": "UFMG, Brazil",
+            "Key": "Luis Miranda @ UFMG, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Naouel Moha",
+            "Affiliation": "Université de Montréal, Canada",
+            "Key": "Naouel Moha @ Université de Montréal, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Leon Moonen",
+            "Affiliation": "Simula Research Laboratory, Norway",
+            "Key": "Leon Moonen @ Simula Research Laboratory, Norway",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Floréal Morandat",
+            "Affiliation": "University of Bordeaux, France",
+            "Key": "Floréal Morandat @ University of Bordeaux, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mathieu Nayrolles",
+            "Affiliation": "Université de Montréal, Canada",
+            "Key": "Mathieu Nayrolles @ Université de Montréal, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tsuyoshi Oshima",
+            "Affiliation": "NTT, Japan",
+            "Key": "Tsuyoshi Oshima @ NTT, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Frédéric Painchaud",
+            "Affiliation": "Defence R&D Canada, Canada",
+            "Key": "Frédéric Painchaud @ Defence R&D Canada, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xin Peng",
+            "Affiliation": "Fudan University, China",
+            "Key": "Xin Peng @ Fudan University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shivani Rao",
+            "Affiliation": "Purdue University, USA",
+            "Key": "Shivani Rao @ Purdue University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sanjay Rawat",
+            "Affiliation": "LIG, France / Ensimag, France",
+            "Key": "Sanjay Rawat @ LIG, France / Ensimag, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Filippo Ricca",
+            "Affiliation": "University of Genova, Italy",
+            "Key": "Filippo Ricca @ University of Genova, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jean-Luc Richier",
+            "Affiliation": "LIG, France / Ensimag, France",
+            "Key": "Jean-Luc Richier @ LIG, France / Ensimag, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Houari Sahraoui",
+            "Affiliation": "Université de Montréal, Canada",
+            "Key": "Houari Sahraoui @ Université de Montréal, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Vitor Sales",
+            "Affiliation": "UFMG, Brazil",
+            "Key": "Vitor Sales @ UFMG, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Martin Salois",
+            "Affiliation": "Defence R&D Canada, Canada",
+            "Key": "Martin Salois @ Defence R&D Canada, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Osama Shata",
+            "Affiliation": "Qatar University, Qatar",
+            "Key": "Osama Shata @ Qatar University, Qatar",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Asia Slowinska",
+            "Affiliation": "VU University Amsterdam, Netherlands",
+            "Key": "Asia Slowinska @ VU University Amsterdam, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Matthew Smithson",
+            "Affiliation": "University of Maryland at College Park, USA",
+            "Key": "Matthew Smithson @ University of Maryland at College Park, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Paul Snell",
+            "Affiliation": "Rochester Institute of Technology, USA",
+            "Key": "Paul Snell @ Rochester Institute of Technology, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zéphyrin Soh",
+            "Affiliation": "Polytechnique Montréal, Canada",
+            "Key": "Zéphyrin Soh @ Polytechnique Montréal, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Margaret-Anne Storey",
+            "Affiliation": "University of Victoria, Canada",
+            "Key": "Margaret-Anne Storey @ University of Victoria, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hee Beng Kuan Tan",
+            "Affiliation": "Assoc Prof, Singapore",
+            "Key": "Hee Beng Kuan Tan @ Assoc Prof, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ramsay Taylor",
+            "Affiliation": "University of Sheffield, UK",
+            "Key": "Ramsay Taylor @ University of Sheffield, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ricardo Terra",
+            "Affiliation": "UFMG, Brazil",
+            "Key": "Ricardo Terra @ UFMG, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Cédric Teyton",
+            "Affiliation": "University of Bordeaux, France",
+            "Key": "Cédric Teyton @ University of Bordeaux, France",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ferdian Thung",
+            "Affiliation": "Singapore Management University, Singapore",
+            "Key": "Ferdian Thung @ Singapore Management University, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Paolo Tonella",
+            "Affiliation": "Fondazione Bruno Kessler, Italy",
+            "Key": "Paolo Tonella @ Fondazione Bruno Kessler, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marco Tulio Valente",
+            "Affiliation": "UFMG, Brazil",
+            "Key": "Marco Tulio Valente @ UFMG, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Petko Valtchev",
+            "Affiliation": "Université du Québec à Montréal, Canada",
+            "Key": "Petko Valtchev @ Université du Québec à Montréal, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Eric Verbeek",
+            "Affiliation": "University of Victoria, Canada",
+            "Key": "Eric Verbeek @ University of Victoria, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Neil Walkinshaw",
+            "Affiliation": "University of Leicester, UK",
+            "Key": "Neil Walkinshaw @ University of Leicester, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xinyu Wang",
+            "Affiliation": "Zhejiang University, China",
+            "Key": "Xinyu Wang @ Zhejiang University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Westley Weimer",
+            "Affiliation": "University of Virginia, USA",
+            "Key": "Westley Weimer @ University of Virginia, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Byron Williams",
+            "Affiliation": "Mississippi State University, USA",
+            "Key": "Byron Williams @ Mississippi State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xin Xia",
+            "Affiliation": "Zhejiang University, China",
+            "Key": "Xin Xia @ Zhejiang University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zhenchang Xing",
+            "Affiliation": "Nanyang Technological University, Singapore",
+            "Key": "Zhenchang Xing @ Nanyang Technological University, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yinxing Xue",
+            "Affiliation": "National University of Singapore, Singapore",
+            "Key": "Yinxing Xue @ National University of Singapore, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Aiko Yamashita",
+            "Affiliation": "Simula Research Laboratory, Norway",
+            "Key": "Aiko Yamashita @ Simula Research Laboratory, Norway",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Motahareh Bahrami Zanjani",
+            "Affiliation": "Wichita State University, USA",
+            "Key": "Motahareh Bahrami Zanjani @ Wichita State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hongyu Zhang",
+            "Affiliation": "Tsinghua University, China",
+            "Key": "Hongyu Zhang @ Tsinghua University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Li Zhang",
+            "Affiliation": "Beihang University, China",
+            "Key": "Li Zhang @ Beihang University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Wenyun Zhao",
+            "Affiliation": "Fudan University, China",
+            "Key": "Wenyun Zhao @ Fudan University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bo Zhou",
+            "Affiliation": "Zhejiang University, China",
+            "Key": "Bo Zhou @ Zhejiang University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        }
+    ]
+}
+ 
+
