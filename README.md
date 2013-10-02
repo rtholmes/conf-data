@@ -18,11 +18,11 @@ Data Notes
 
 Dirk Beyer has written a comprehensive description of the Confero data format:
 
-https://www.conference-publishing.com/ConfEventData-JSON.php
+``https://www.conference-publishing.com/ConfEventData-JSON.php``
 
 In-progress data files can be validated via our test infrastructure (replace TEST-URL with a real url; Dropbox works nicely here):
 
-```http://conferoapp.com:8083/?file=TEST-URL```
+``http://conferoapp.com:8083/?file=TEST-URL``
 
 Other
 -----
