@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1380219234,
+    "DataRevision": 1380841705,
     "Preliminary": false,
     "Event": "WCRE 2013",
     "Name": "WCRE 2013",
@@ -57,6 +57,42 @@
     ],
     "Items": [
         {
+            "Title": "Cover",
+            "Type": "Frontmatter",
+            "Key": "wcre13foreword-cover-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3D+%22Cover%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "",
+            "AffiliationsString": "",
+            "Authors": [
+                "@"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Title Page",
+            "Type": "Frontmatter",
+            "Key": "wcre13foreword-fm000-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3D+%22Title+Page%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "",
+            "AffiliationsString": "",
+            "Authors": [
+                "@"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
             "Title": "Message from the Chairs",
             "Type": "Frontmatter",
             "Key": "wcre13foreword-fm001-p",
@@ -64,17 +100,18 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Ralf Lämmel, Rocco Oliveto, and Romain Robbes",
-            "AffiliationsString": "",
+            "AffiliationsString": "University of Koblenz-Landau, Germany; ",
             "Authors": [
-                "Ralf Lämmel @",
+                "Ralf Lämmel @ University of Koblenz-Landau, Germany",
                 "Rocco Oliveto @",
                 "Romain Robbes @"
             ],
             "Affiliations": [
+                "University of Koblenz-Landau, Germany",
                 "",
-                ";"
+                ""
             ],
-            "Abstract": "",
+            "Abstract": "Welcome to the 20th Working Conference on Reverse Engineering (WCRE) that will be held in the University of Koblenz-Landau, Germany, from October 14th to October 17th, 2013. This year, WCRE received a very good number of submissions. The 117 submissions we received – 97 re-search papers, 10 ERA papers, and 10 practice papers – made the task of selecting papers very chal-lenging. All submissions went through a rigorous review process, in which each paper was re-viewed in detail by at least three Program Committee members from academia and industry. All the decisions were open for discussion by the entire Program Committee before being finalized. At the end of this process, we selected 38 research papers, 4 ERA papers, and 7 practice papers, origi-nating from 31 countries. The authors of the best papers from WCRE’13 will be invited to submit extended versions of their work to a special issue of the Empirical Software Engineering Journal, published by Springer.",
             "Award": ""
         },
         {
@@ -107,18 +144,18 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Atif Memon, Ishan Banerjee, Bao N. Nguyen, and Bryan Robbins",
-            "AffiliationsString": "University of Maryland, USA",
+            "AffiliationsString": "University of Maryland at College Park, USA",
             "Authors": [
-                "Atif Memon @ University of Maryland, USA",
-                "Ishan Banerjee @ University of Maryland, USA",
-                "Bao N. Nguyen @ University of Maryland, USA",
-                "Bryan Robbins @ University of Maryland, USA"
+                "Atif Memon @ University of Maryland at College Park, USA",
+                "Ishan Banerjee @ University of Maryland at College Park, USA",
+                "Bao N. Nguyen @ University of Maryland at College Park, USA",
+                "Bryan Robbins @ University of Maryland at College Park, USA"
             ],
             "Affiliations": [
-                "University of Maryland, USA",
-                "University of Maryland, USA",
-                "University of Maryland, USA",
-                "University of Maryland, USA"
+                "University of Maryland at College Park, USA",
+                "University of Maryland at College Park, USA",
+                "University of Maryland at College Park, USA",
+                "University of Maryland at College Park, USA"
             ],
             "Abstract": "This paper provides a retrospective examination of GUI Ripping---reverse engineering a workflow model of the graphical user interface of a software application---born a decade ago out of recognition of the severe need for improving the then largely manual state-of-the-practice of functional GUI testing. In these last 10 years, GUI ripping has turned out to be an enabler for much research, both within our group at Maryland and other groups. Researchers have found new and unique applications of GUI ripping, ranging from measuring human performance to re-engineering legacy user interfaces. GUI ripping has also enabled large-scale experimentation involving millions of test cases, thereby helping to understand the nature of GUI faults and characteristics of test cases to detect them. It has resulted in large multi-institutional Government-sponsored research projects on test automation and benchmarking. GUI ripping tools have been ported to many platforms, including Java AWT and Swing, iOS, Android, UNO, Microsoft Windows, and web. In essence, the technology has transformed the way researchers and practitioners think about the nature of GUI testing, no longer considered a manual activity; rather, thanks largely to GUI Ripping, automation has become the primary focus of current GUI testing techniques.",
             "Award": ""
@@ -182,17 +219,17 @@
                 "VU University Amsterdam, Netherlands",
                 "VU University Amsterdam, Netherlands"
             ],
-            "Abstract": "Many existing techniques for reversing data structures in C/C++ binaries are limited to low-level programming constructs, such as individual variables or structs. Unfortunately, without detailed information about a program's pointer structures, forensics and reverse engineering are exceedingly hard. To fill this gap, we propose MemPick, a tool that detects and classifies high-level data structures used in stripped binaries. By analyzing how links between memory objects evolve throughout the program execution, it distinguishes between many commonly used data structures, such as singly- or doubly-linked lists, many types of trees (e.g., AVL, red-black trees, B-trees), and graphs. We evaluate the technique on 10 real world applications and 16 popular libraries. The results show that MemPick can identify the data structures with high accuracy.",
+            "Abstract": "Many existing techniques for reversing data structures in C/C++ binaries are limited to low-level programming constructs, such as individual variables or structs. Unfortunately, without detailed information about a program&#039;s pointer structures, forensics and reverse engineering are exceedingly hard. To fill this gap, we propose MemPick, a tool that detects and classifies high-level data structures used in stripped binaries. By analyzing how links between memory objects evolve throughout the program execution, it distinguishes between many commonly used data structures, such as singly- or doubly-linked lists, many types of trees (e.g., AVL, red-black trees, B-trees), and graphs. We evaluate the technique on 10 real world applications and 16 popular libraries. The results show that MemPick can identify the data structures with high accuracy.",
             "Award": ""
         },
         {
             "Title": "Reconstructing Program Memory State from Multi-gigabyte Instruction Traces to Support Interactive Analysis",
             "Type": "Research paper",
             "Key": "wcre13main-idm120-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBrendan+Cleary%2C+Patrick+Gorman%2C+Eric+Verbeek%2C+Margaret-Anne+Storey%2C+Martin+Salois%2C+and+Fr%C3%A9d%C3%A9ric+Painchaud+%22Reconstructing+Program+Memory+State+from+Multi-gigabyte+Instruction+Traces+to+Support+Interactive+Analysis%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBrendan+Cleary%2C+Patrick+Gorman%2C+Eric+Verbeek%2C+Margaret-Anne+Storey%2C+Martin+Salois%2C+and+Frederic+Painchaud+%22Reconstructing+Program+Memory+State+from+Multi-gigabyte+Instruction+Traces+to+Support+Interactive+Analysis%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Brendan Cleary, Patrick Gorman, Eric Verbeek, Margaret-Anne Storey, Martin Salois, and Frédéric Painchaud",
+            "PersonsString": "Brendan Cleary, Patrick Gorman, Eric Verbeek, Margaret-Anne Storey, Martin Salois, and Frederic Painchaud",
             "AffiliationsString": "University of Victoria, Canada; Defence R&D Canada, Canada",
             "Authors": [
                 "Brendan Cleary @ University of Victoria, Canada",
@@ -200,7 +237,7 @@
                 "Eric Verbeek @ University of Victoria, Canada",
                 "Margaret-Anne Storey @ University of Victoria, Canada",
                 "Martin Salois @ Defence R&D Canada, Canada",
-                "Frédéric Painchaud @ Defence R&D Canada, Canada"
+                "Frederic Painchaud @ Defence R&D Canada, Canada"
             ],
             "Affiliations": [
                 "University of Victoria, Canada",
@@ -210,7 +247,7 @@
                 "Defence R&D Canada, Canada",
                 "Defence R&D Canada, Canada"
             ],
-            "Abstract": "Exploitability analysis is the process of attempting to determine if a vulnerability in a program is exploitable. Fuzzing is a popular method of finding such vulnerabilities, in which a program is subjected to millions of generated program inputs until it crashes. Each program crash indicates a potential vulnerability that needs to be prioritized according to its potential for exploitation. The highest priority vulnerabilities need to be investigated by a security analyst by re-executing the program with the input that caused the crash while recording a trace of all executed assembly instructions and then performing analysis on the resulting trace. Recreating the entire memory state of the program at the time of the crash, or at any other point in the trace, is very important for helping the analyst build an understanding of the conditions that led to the crash. Unfortunately, tracing even a small program can create multi-million line trace files from which reconstructing memory state is a computationally intensive process and virtually impossible to do manually. In this paper we present an analysis of the problem of memory state reconstruction from very large execution traces. We report on a novel approach for reconstructing the entire memory state of a program from an execution trace that allows near real-time queries on the state of memory at any point in a program's execution trace. Finally we benchmark our approach showing storage and performance results in line with our theoretical calculations and demonstrate memory state query response times of less than 100ms for trace files up to 60 million lines.",
+            "Abstract": "Exploitability analysis is the process of attempting to determine if a vulnerability in a program is exploitable. Fuzzing is a popular method of finding such vulnerabilities, in which a program is subjected to millions of generated program inputs until it crashes. Each program crash indicates a potential vulnerability that needs to be prioritized according to its potential for exploitation. The highest priority vulnerabilities need to be investigated by a security analyst by re-executing the program with the input that caused the crash while recording a trace of all executed assembly instructions and then performing analysis on the resulting trace. Recreating the entire memory state of the program at the time of the crash, or at any other point in the trace, is very important for helping the analyst build an understanding of the conditions that led to the crash. Unfortunately, tracing even a small program can create multi-million line trace files from which reconstructing memory state is a computationally intensive process and virtually impossible to do manually. In this paper we present an analysis of the problem of memory state reconstruction from very large execution traces. We report on a novel approach for reconstructing the entire memory state of a program from an execution trace that allows near real-time queries on the state of memory at any point in a program&#039;s execution trace. Finally we benchmark our approach showing storage and performance results in line with our theoretical calculations and demonstrate memory state query response times of less than 100ms for trace files up to 60 million lines.",
             "Award": ""
         },
         {
@@ -246,12 +283,12 @@
             "URL": "https%3A%2F%2Fengineering.purdue.edu%2FRVL%2FPublications%2FWCRE_rvl_version.v1.pdf",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Shivani Rao, Henry Medeiros, and Avinash C. Kak",
+            "PersonsString": "Shivani Rao, Henry Medeiros, and Avinash Kak",
             "AffiliationsString": "Purdue University, USA",
             "Authors": [
                 "Shivani Rao @ Purdue University, USA",
                 "Henry Medeiros @ Purdue University, USA",
-                "Avinash C. Kak @ Purdue University, USA"
+                "Avinash Kak @ Purdue University, USA"
             ],
             "Affiliations": [
                 "Purdue University, USA",
@@ -282,7 +319,7 @@
                 "Zhejiang University, China",
                 "Zhejiang University, China"
             ],
-            "Abstract": "Bug resolution refers to the activity that developers perform to diagnose, fix, test, and document bugs during software development and maintenance. It is a collaborative activity among developers who contribute their knowledge, ideas, and expertise to resolve bugs. Given a bug report, we would like to recommend the set of bug resolvers that could potentially contribute their knowledge to fix it. We refer to this problem as developer recommendation for bug resolution.  In this paper, we propose a new and accurate method named DevRec for the developer recommendation problem. DevRec is a composite method which performs two kinds of analysis: bug reports based analysis (BR-Based analysis), and developer based analysis (D-Based analysis). In the BR-Based analysis, we characterize a new bug report based on past bug reports that are similar to it. Appropriate developers of the new bug report are found by investigating the developers of similar bug reports appearing in the past. In the D-Based analysis, we compute the affinity of each developer to a bug report based on the characteristics of bug reports that have been fixed by the developer before. This affinity is then used to find a set of developers that are ``close'' to a new bug report.   We evaluate our solution on 5 large bug report datasets including GCC, OpenOffice, Mozilla, Netbeans, and Eclipse containing a total of 107,875 bug reports. We show that DevRec could achieve recall@5 and recall@10 scores of 0.4826-0.7989, and 0.6063-0.8924, respectively. We also compare DevRec with other state-of-art methods, such as Bugzie and DREX. The results show that DevRec on average improves recall@5 and recall@10 scores of Bugzie by 57.55% and 39.39% respectively. DevRec also outperforms DREX by improving the average recall@5 and recall@10 scores by 165.38% and 89.36%, respectively.",
+            "Abstract": "Bug resolution refers to the activity that developers perform to diagnose, fix, test, and document bugs during software development and maintenance. It is a collaborative activity among developers who contribute their knowledge, ideas, and expertise to resolve bugs. Given a bug report, we would like to recommend the set of bug resolvers that could potentially contribute their knowledge to fix it. We refer to this problem as developer recommendation for bug resolution.  In this paper, we propose a new and accurate method named DevRec for the developer recommendation problem. DevRec is a composite method which performs two kinds of analysis: bug reports based analysis (BR-Based analysis), and developer based analysis (D-Based analysis). In the BR-Based analysis, we characterize a new bug report based on past bug reports that are similar to it. Appropriate developers of the new bug report are found by investigating the developers of similar bug reports appearing in the past. In the D-Based analysis, we compute the affinity of each developer to a bug report based on the characteristics of bug reports that have been fixed by the developer before. This affinity is then used to find a set of developers that are ``close&#039;&#039; to a new bug report.   We evaluate our solution on 5 large bug report datasets including GCC, OpenOffice, Mozilla, Netbeans, and Eclipse containing a total of 107,875 bug reports. We show that DevRec could achieve recall@5 and recall@10 scores of 0.4826-0.7989, and 0.6063-0.8924, respectively. We also compare DevRec with other state-of-art methods, such as Bugzie and DREX. The results show that DevRec on average improves recall@5 and recall@10 scores of Bugzie by 57.55% and 39.39% respectively. DevRec also outperforms DREX by improving the average recall@5 and recall@10 scores by 165.38% and 89.36%, respectively.",
             "Award": ""
         },
         {
@@ -293,15 +330,15 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Kaiping Liu, Hee Beng Kuan Tan, and Hongyu Zhang",
-            "AffiliationsString": "Nanyang Technological University, Singapore; Assoc Prof, Singapore; Tsinghua University, China",
+            "AffiliationsString": "Nanyang Technological University, Singapore; Tsinghua University, China",
             "Authors": [
                 "Kaiping Liu @ Nanyang Technological University, Singapore",
-                "Hee Beng Kuan Tan @ Assoc Prof, Singapore",
+                "Hee Beng Kuan Tan @ Nanyang Technological University, Singapore",
                 "Hongyu Zhang @ Tsinghua University, China"
             ],
             "Affiliations": [
                 "Nanyang Technological University, Singapore",
-                "Assoc Prof, Singapore",
+                "Nanyang Technological University, Singapore",
                 "Tsinghua University, China"
             ],
             "Abstract": "Bug reporting is essentially an uncoordinated process. The same bugs could be repeatedly reported because users or testers are unaware of previously reported bugs. As a result, extra time could be spent on bug triaging and fixing. In order to reduce redundant effort, it is important to provide bug reporters with the ability to search for previously reported bugs. The search functions provided by the existing bug tracking systems are using relatively simple ranking functions, which often produce unsatisfactory results. In this paper, we adopt Ranking SVM, a Learning to Rank technique to construct a ranking model for effective bug report search. We also propose to use the knowledge of Wikipedia to discover the semantic relations among words and documents. Given a user query, the constructed ranking model can search for relevant bug reports in a bug tracking system. Unlike related works on duplicate bug report detection, our approach retrieves existing bug reports based on short user queries, before the complete bug report is submitted. We perform evaluations on more than 16,340 Eclipse and Mozilla bug reports. The evaluation results show that the proposed approach can achieve better search results than the existing search functions provided by Bugzilla and Lucene. We believe our work can help users and testers locate potential relevant bug reports more precisely.",
@@ -330,6 +367,28 @@
             "Award": ""
         },
         {
+            "Title": "An Approach to Clone Detection in Behavioural Models",
+            "Type": "ERA paper",
+            "Key": "wcre13era-idm140-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DElizabeth+P.+Antony%2C+Manar+H.+Alalfi%2C+and+James+R.+Cordy+%22An+Approach+to+Clone+Detection+in+Behavioural+Models%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Elizabeth P. Antony, Manar H. Alalfi, and James R. Cordy",
+            "AffiliationsString": "Queen's University, Canada",
+            "Authors": [
+                "Elizabeth P. Antony @ Queen's University, Canada",
+                "Manar H. Alalfi @ Queen's University, Canada",
+                "James R. Cordy @ Queen's University, Canada"
+            ],
+            "Affiliations": [
+                "Queen's University, Canada",
+                "Queen's University, Canada",
+                "Queen's University, Canada"
+            ],
+            "Abstract": "In this paper we present an approach for identifying near-miss interaction clones in reverse-engineered UML behavioural models. Our goal is to identify patterns of interaction (“conversations”) that can be used to characterize and abstract the run-time behaviour of web applications and other interactive systems. In order to leverage robust near-miss code clone technology, our approach is text-based, working on the level of XMI,the standard interchange serialization for UML. Behavioural model clone detection presents several challenges - first, it is not clear how to break a continuous stream of interaction between lifelines into meaningful conversational units. Second, unlike programming languages, the XMI text representation for UML is highly non-local, using attributes to reference information in the model file remotely. In this work we use a set of contextualizing source transformations on the XMI text representation to reveal the hidden hierarchical structure of the model and granularize behavioural interactions into conversational units. Then we adapt NiCad, a near-miss code clone detection tool, to help us identify conversational clones in reverse-engineered behavioural models.",
+            "Award": ""
+        },
+        {
             "Title": "Distilling Useful Clones by Contextual Differencing",
             "Type": "Research paper",
             "Key": "wcre13main-idm137-p",
@@ -349,6 +408,30 @@
                 "National University of Singapore, Singapore"
             ],
             "Abstract": "Clone detectors find similar code fragments and report large numbers of them for large systems. Textually similar clones may perform different computations, depending on the program context in which clones occur. Understanding these contextual differences is essential to distill useful clones for a specific maintenance task, such as refactoring. Manual analysis of contextual differences is time consuming and error-prone. To mitigate this problem, we present an automated approach to helping developers find and analyze contextual differences of clones. Our approach represents context of clones as program dependence graphs, and applies a graph differencing technique to identify required contextual differences of clones. We implemented a tool called CloneDifferentiator that identifies contextual differences of clones and allows developers to formulate queries to distill candidate clones that are useful for a given refactoring task. Two empirical studies show that CloneDifferentiator can reduce the efforts of post-detection analysis of clones for refactorings.",
+            "Award": ""
+        },
+        {
+            "Title": "Reusing Reused Code",
+            "Type": "ERA paper",
+            "Key": "wcre13era-idm50-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTomoya+Ishihara%2C+Keisuke+Hotta%2C+Yoshiki+Higo%2C+and+Shinji+Kusumoto+%22Reusing+Reused+Code%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Tomoya Ishihara, Keisuke Hotta, Yoshiki Higo, and Shinji Kusumoto",
+            "AffiliationsString": "Osaka University, Japan",
+            "Authors": [
+                "Tomoya Ishihara @ Osaka University, Japan",
+                "Keisuke Hotta @ Osaka University, Japan",
+                "Yoshiki Higo @ Osaka University, Japan",
+                "Shinji Kusumoto @ Osaka University, Japan"
+            ],
+            "Affiliations": [
+                "Osaka University, Japan",
+                "Osaka University, Japan",
+                "Osaka University, Japan",
+                "Osaka University, Japan"
+            ],
+            "Abstract": "Although source code search systems are well known as being helpful to reuse source code, they have an issue that they often suggest larger code than what users actually need. This is because they suggest code based on the structure of programming languages such as files or classes. In this paper, we propose a new code search technique that considers past reuse. In the proposed technique, code are suggested at the unit of past reuse. The proposed technique detects reused code by using a fine-grained code clone detection technique. We conducted an experiment to compare the proposed technique with an existing technique. The result shows that the proposed technique helps more effectively to reuse code than the existing technique.",
             "Award": ""
         },
         {
@@ -372,7 +455,7 @@
                 "University of Alabama, USA",
                 "University of Bremen, Germany"
             ],
-            "Abstract": "Code clones are a common occurrence in most software systems. Their presence is believed to have an effect on the maintenance process. Although these effects have been previously studied, there is not yet a conclusive result. This paper describes an extended replication of a controlled experiment (i.e. a strict replication with an additional task) that analyzes the effects of cloned bugs (i.e. bugs in cloned code) on the program comprehension of programmers. In the strict replication portion, the study participants attempted to isolate and fix two types of bugs, cloned and non-cloned, in one of two small systems. In the extension of the original study, we provided the participants with a clone report describing the location of all cloned code in the other system and asked them to again isolate and fix cloned and non-cloned bugs. The results of the original study showed that cloned bugs were not significantly %JEFF Added 'significantly' to address Jan's comment P1N1. more difficult to maintain than non-cloned bugs. Conversely, the results of the replication showed that it was significantly more difficult to correctly fix a cloned bug than a non-cloned bug. But, there was no significant difference in the amount of time required to fix a cloned bug vs. a non-cloned bug. Finally, the results of the study extension showed that programmers performed significantly better when given clone information than without clone information.",
+            "Abstract": "Code clones are a common occurrence in most software systems. Their presence is believed to have an effect on the maintenance process. Although these effects have been previously studied, there is not yet a conclusive result. This paper describes an extended replication of a controlled experiment (i.e. a strict replication with an additional task) that analyzes the effects of cloned bugs (i.e. bugs in cloned code) on the program comprehension of programmers. In the strict replication portion, the study participants attempted to isolate and fix two types of bugs, cloned and non-cloned, in one of two small systems. In the extension of the original study, we provided the participants with a clone report describing the location of all cloned code in the other system and asked them to again isolate and fix cloned and non-cloned bugs. The results of the original study showed that cloned bugs were not significantly %JEFF Added &#039;significantly&#039; to address Jan&#039;s comment P1N1. more difficult to maintain than non-cloned bugs. Conversely, the results of the replication showed that it was significantly more difficult to correctly fix a cloned bug than a non-cloned bug. But, there was no significant difference in the amount of time required to fix a cloned bug vs. a non-cloned bug. Finally, the results of the study extension showed that programmers performed significantly better when given clone information than without clone information.",
             "Award": ""
         },
         {
@@ -396,7 +479,7 @@
                 "University of Waterloo, Canada",
                 "University of Waterloo, Canada"
             ],
-            "Abstract": "When submitting a patch, the primary concerns of individual developers are \"How can I maximize the chances of my patch being approved, and minimize the time it takes for this to happen?\" In principle, code review is a transparent process that aims to assess qualities of the patch by their technical merits and in a timely manner; however, in practice the execution of this process can be affected by a variety of factors, some of which are external to the technical content of the patch itself. In this paper, we describe an empirical study of the code review process for WebKit, a large, open source project; we replicate the impact of previously studied factors — such as patch size, priority, and component and extend these studies by investigating organizational (the company) and personal dimensions (reviewer load and activity, patch writer experience) on code review response time and outcome. Our approach uses a reverse engineered model of the patch submission process and extracts key information from the issue tracking and code review systems. Our findings suggest that these non- technical factors can significantly impact code review outcomes.",
+            "Abstract": "When submitting a patch, the primary concerns of individual developers are &quot;How can I maximize the chances of my patch being approved, and minimize the time it takes for this to happen?&quot; In principle, code review is a transparent process that aims to assess qualities of the patch by their technical merits and in a timely manner; however, in practice the execution of this process can be affected by a variety of factors, some of which are external to the technical content of the patch itself. In this paper, we describe an empirical study of the code review process for WebKit, a large, open source project; we replicate the impact of previously studied factors — such as patch size, priority, and component and extend these studies by investigating organizational (the company) and personal dimensions (reviewer load and activity, patch writer experience) on code review response time and outcome. Our approach uses a reverse engineered model of the patch submission process and extracts key information from the issue tracking and code review systems. Our findings suggest that these non- technical factors can significantly impact code review outcomes.",
             "Award": ""
         },
         {
@@ -442,7 +525,7 @@
                 "Fudan University, China",
                 "Fudan University, China"
             ],
-            "Abstract": "Software development often requires knowledge beyond what developers already possess. In such cases, developers have to seek help from different sources of information. As a metacognitive skill, help seeking influences software developers' efficiency and success in many situations. However, there has been little research to provide a systematic investigation of the general process of help seeking activities in software engineering and human and system factors affecting help seeking. This paper reports our empirical study aiming to fill this gap. Our study includes two human experiments, involving 24 developers and two typical software development tasks. Our study gathers empirical data that allows us to provide an in-depth analysis of help-seeking task structures, task strategies, information sources, process model, and developers' information needs and behaviors in seeking and using help information and in managing information during help seeking. Our study provides a detailed understanding of help seeking activities in software engineering, the challenges that software developers face, and the limitations of existing tool support. This can lead to the design and development of more efficient and usable help seeking support that helps developers become better help seekers.",
+            "Abstract": "Software development often requires knowledge beyond what developers already possess. In such cases, developers have to seek help from different sources of information. As a metacognitive skill, help seeking influences software developers&#039; efficiency and success in many situations. However, there has been little research to provide a systematic investigation of the general process of help seeking activities in software engineering and human and system factors affecting help seeking. This paper reports our empirical study aiming to fill this gap. Our study includes two human experiments, involving 24 developers and two typical software development tasks. Our study gathers empirical data that allows us to provide an in-depth analysis of help-seeking task structures, task strategies, information sources, process model, and developers&#039; information needs and behaviors in seeking and using help information and in managing information during help seeking. Our study provides a detailed understanding of help seeking activities in software engineering, the challenges that software developers face, and the limitations of existing tool support. This can lead to the design and development of more efficient and usable help seeking support that helps developers become better help seekers.",
             "Award": ""
         },
         {
@@ -466,7 +549,25 @@
                 "Polytechnique Montréal, Canada",
                 "Polytechnique Montréal, Canada"
             ],
-            "Abstract": "For many years, researchers and practitioners have strived to assess and improve the productivity of software development teams. One key step toward achieving this goal is the understanding of factors affecting the efficiency of developers performing development and maintenance activities. In this paper, we aim to understand how developers' spend their effort during maintenance activities and study the factors affecting developers' effort. By knowing how developers' spend their effort and which factors affect their effort, software organisations will be able to take the necessary steps to improve the efficiency of their developers, for example, by providing them with adequate program comprehension tools. For this preliminary study, we mine 2,408 developers' interaction histories and 3,395 patches from four open-source software projects (ECF, Mylyn, PDE, Eclipse Platform). We observe that usually, the complexity of the implementation required for a task does not reflect the effort spent by developers on the task. Most of the effort appears to be spent during the exploration of the program. In average, 62% of files explored during the implementation of a task are not significantly relevant to the final implementation of the task. Developers who explore a large number of files that are not significantly relevant to the solution to their task take a longer time to perform the task. We expect that the results of this study will pave the way for better program comprehension tools to guide developers during their explorations of software systems.",
+            "Abstract": "For many years, researchers and practitioners have strived to assess and improve the productivity of software development teams. One key step toward achieving this goal is the understanding of factors affecting the efficiency of developers performing development and maintenance activities. In this paper, we aim to understand how developers&#039; spend their effort during maintenance activities and study the factors affecting developers&#039; effort. By knowing how developers&#039; spend their effort and which factors affect their effort, software organisations will be able to take the necessary steps to improve the efficiency of their developers, for example, by providing them with adequate program comprehension tools. For this preliminary study, we mine 2,408 developers&#039; interaction histories and 3,395 patches from four open-source software projects (ECF, Mylyn, PDE, Eclipse Platform). We observe that usually, the complexity of the implementation required for a task does not reflect the effort spent by developers on the task. Most of the effort appears to be spent during the exploration of the program. In average, 62% of files explored during the implementation of a task are not significantly relevant to the final implementation of the task. Developers who explore a large number of files that are not significantly relevant to the solution to their task take a longer time to perform the task. We expect that the results of this study will pave the way for better program comprehension tools to guide developers during their explorations of software systems.",
+            "Award": ""
+        },
+        {
+            "Title": "Specification Extraction by Symbolic Execution",
+            "Type": "ERA paper",
+            "Key": "wcre13era-idm87-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJosef+Pichler+%22Specification+Extraction+by+Symbolic+Execution%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Josef Pichler",
+            "AffiliationsString": "Software Competence Center Hagenberg, Austria",
+            "Authors": [
+                "Josef Pichler @ Software Competence Center Hagenberg, Austria"
+            ],
+            "Affiliations": [
+                "Software Competence Center Hagenberg, Austria"
+            ],
+            "Abstract": "Technical software systems contain extensive and complex computations that are frequently implemented in an optimized and unstructured way. Computations are, therefore, hard to comprehend from source code. If no other documentation exists, it is a tedious endeavor to understand which input data impact on a particular computation and how a program does achieves a particular result. We apply symbolic execution to automatically extract computations from source code. Symbolic execution makes it possible to identify input and output data, the actual computation as well as constraints of a particular computation, independently of encountered optimizations and unstructured program elements. The proposed technique may be used to improve maintenance and reengineering activities concerning legacy code in scientific and engineering domains.",
             "Award": ""
         },
         {
@@ -490,22 +591,22 @@
                 "National University of Defense Technology, China",
                 "National University of Defense Technology, China"
             ],
-            "Abstract": "Specifications play an important role in many software engineering activities. Despite their usefulness, formal specifications are often unavailable in practice. Specification mining techniques try to automatically recover specifications from existing programs. Unfortunately, mined specifications are often overly general, which hampers their applications in the downstream analysis and testing. Nowadays, programmers develop software systems by utilizing existing components that usually have some available specifications. However, benefits of these available specifications are not explored by current specification miners. In this paper, we propose an approach to leverage available specifications of subcomponents to improve the precision of specifications of the composite component mined by state-based mining techniques. We monitor subcomponents against their specifications during the mining process and use states that are reached to construct abstract states of the composite component. Our approach makes subcomponents' states encoded within their specifications visible to their composite component, and improves the precision of mined specifications by effectively increasing the number of their states. The empirical evaluation shows that our approach can significantly improve the precision of mined specifications by removing erroneous behavior without noticeable loss of recall.",
+            "Abstract": "Specifications play an important role in many software engineering activities. Despite their usefulness, formal specifications are often unavailable in practice. Specification mining techniques try to automatically recover specifications from existing programs. Unfortunately, mined specifications are often overly general, which hampers their applications in the downstream analysis and testing. Nowadays, programmers develop software systems by utilizing existing components that usually have some available specifications. However, benefits of these available specifications are not explored by current specification miners. In this paper, we propose an approach to leverage available specifications of subcomponents to improve the precision of specifications of the composite component mined by state-based mining techniques. We monitor subcomponents against their specifications during the mining process and use states that are reached to construct abstract states of the composite component. Our approach makes subcomponents&#039; states encoded within their specifications visible to their composite component, and improves the precision of mined specifications by effectively increasing the number of their states. The empirical evaluation shows that our approach can significantly improve the precision of mined specifications by removing erroneous behavior without noticeable loss of recall.",
             "Award": ""
         },
         {
-            "Title": "A Model-Based Graph-Matching Approach for Design Pattern Detection",
+            "Title": "A Model-Driven Graph-Matching Approach for Design Pattern Detection",
             "Type": "Research paper",
             "Key": "wcre13main-idm71-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMario+Luca+Bernardi%2C+Marta+Cimitile%2C+and+Giuseppe+Di+Lucca+%22A+Model-Based+Graph-Matching+Approach+for+Design+Pattern+Detection%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMario+Luca+Bernardi%2C+Marta+Cimitile%2C+and+Giuseppe+Antonio+Di+Lucca+%22A+Model-Driven+Graph-Matching+Approach+for+Design+Pattern+Detection%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Mario Luca Bernardi, Marta Cimitile, and Giuseppe Di Lucca",
+            "PersonsString": "Mario Luca Bernardi, Marta Cimitile, and Giuseppe Antonio Di Lucca",
             "AffiliationsString": "University of Sannio, Italy; Unitelma Sapienza University, Italy",
             "Authors": [
                 "Mario Luca Bernardi @ University of Sannio, Italy",
                 "Marta Cimitile @ Unitelma Sapienza University, Italy",
-                "Giuseppe Di Lucca @ University of Sannio, Italy"
+                "Giuseppe Antonio Di Lucca @ University of Sannio, Italy"
             ],
             "Affiliations": [
                 "University of Sannio, Italy",
@@ -513,6 +614,28 @@
                 "University of Sannio, Italy"
             ],
             "Abstract": "In this paper an approach to automatically detect Design Patterns (DPs) in Object Oriented systems is presented. It allows to link system’s source code components to the roles they play in each pattern. DPs are modelled by high level structural properties (e.g. inheritance, dependency, invocation, delegation, type nesting and membership relationships) that are checked against the system structure and components. The proposed metamodel also allows to define DP variants, overriding the structural properties of existing DP models, to improve detection quality. The approach was validated on an open benchmark containing several open-source systems of increasing sizes. Moreover, for other two systems, the results have been compared with the ones from a similar approach existing in literature. The results obtained on the analyzed systems, the identified variants and the efficency and effectiveness of the approach are thoroughly presented and discussed.",
+            "Award": ""
+        },
+        {
+            "Title": "An IDE-Based Context-Aware Meta Search Engine",
+            "Type": "ERA paper",
+            "Key": "wcre13era-idm129-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMohammad+Masudur+Rahman%2C+Shamima+Yeasmin%2C+and+Chanchal+K.+Roy+%22An+IDE-Based+Context-Aware+Meta+Search+Engine%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Mohammad Masudur Rahman, Shamima Yeasmin, and Chanchal K. Roy",
+            "AffiliationsString": "University of Saskatchewan, Canada",
+            "Authors": [
+                "Mohammad Masudur Rahman @ University of Saskatchewan, Canada",
+                "Shamima Yeasmin @ University of Saskatchewan, Canada",
+                "Chanchal K. Roy @ University of Saskatchewan, Canada"
+            ],
+            "Affiliations": [
+                "University of Saskatchewan, Canada",
+                "University of Saskatchewan, Canada",
+                "University of Saskatchewan, Canada"
+            ],
+            "Abstract": "Traditional web search forces the developers to leave their working environments and look for solutions in the web browsers. It often does not consider the context of their programming problems. The context-switching between the web browser and the working environment is time-consuming and distracting, and the keyword-based traditional search often does not help much in problem solving. In this paper, we propose an Eclipse IDE-based web search solution that collects the data from three web search APIs- Google, Yahoo, Bing and a programming Q &amp; A site- StackOverflow. It then provides search results within IDE taking not only the content of the selected error into account but also the problem context, popularity and search engine recommendation of the result links. Experiments with 25 runtime errors and exceptions show that the proposed approach outperforms the keyword-based search approaches with a recommendation accuracy of 96%. We also validate the results with a user study involving five prospective participants where we get a result agreement of 64.28%. While the preliminary results are promising, the approach needs to be further validated with more errors and exceptions followed by a user study with more participants to establish itself as a complete IDE-based web search solution.",
             "Award": ""
         },
         {
@@ -545,15 +668,15 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Cédric Teyton, Jean-Rémy Falleri, and Xavier Blanc",
-            "AffiliationsString": "University of Bordeaux, France; Institut Polytechnique de Bordeaux, France",
+            "AffiliationsString": "University of Bordeaux, France",
             "Authors": [
                 "Cédric Teyton @ University of Bordeaux, France",
-                "Jean-Rémy Falleri @ Institut Polytechnique de Bordeaux, France",
+                "Jean-Rémy Falleri @ University of Bordeaux, France",
                 "Xavier Blanc @ University of Bordeaux, France"
             ],
             "Affiliations": [
                 "University of Bordeaux, France",
-                "Institut Polytechnique de Bordeaux, France",
+                "University of Bordeaux, France",
                 "University of Bordeaux, France"
             ],
             "Abstract": "Library migration is the process of replacing a third-party library in favor of a competing one during software maintenance. The process of transforming a software source code to become compliant with a new library is cumbersome and error-prone. Indeed, developers have to understand a new Application Programming Interface (API) and search for the right replacements for the functions they use from the old library. As the two libraries are independent, the functions may have totally different structures and names, making the search of mappings very difficult. To assist the developers in this difficult task, we introduce an approach that analyzes source code changes from software projects that already underwent a given library migration to extract mappings between functions. We demonstrate the applicability of our approach on several library migrations performed on the Java open source software projects.",
@@ -567,16 +690,16 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Cédric Teyton, Jean-Rémy Falleri, Floréal Morandat, and Xavier Blanc",
-            "AffiliationsString": "University of Bordeaux, France; Institut Polytechnique de Bordeaux, France",
+            "AffiliationsString": "University of Bordeaux, France",
             "Authors": [
                 "Cédric Teyton @ University of Bordeaux, France",
-                "Jean-Rémy Falleri @ Institut Polytechnique de Bordeaux, France",
+                "Jean-Rémy Falleri @ University of Bordeaux, France",
                 "Floréal Morandat @ University of Bordeaux, France",
                 "Xavier Blanc @ University of Bordeaux, France"
             ],
             "Affiliations": [
                 "University of Bordeaux, France",
-                "Institut Polytechnique de Bordeaux, France",
+                "University of Bordeaux, France",
                 "University of Bordeaux, France",
                 "University of Bordeaux, France"
             ],
@@ -591,19 +714,19 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Hani Abdeen, Houari Sahraoui, Osama Shata, Nicolas Anquetil, and Stéphane Ducasse",
-            "AffiliationsString": "Qatar University, Qatar; Université de Montréal, Canada; University of Lille, France; INRIA, France",
+            "AffiliationsString": "Qatar University, Qatar; Université de Montréal, Canada; INRIA, France",
             "Authors": [
                 "Hani Abdeen @ Qatar University, Qatar",
                 "Houari Sahraoui @ Université de Montréal, Canada",
                 "Osama Shata @ Qatar University, Qatar",
-                "Nicolas Anquetil @ University of Lille, France",
+                "Nicolas Anquetil @ INRIA, France",
                 "Stéphane Ducasse @ INRIA, France"
             ],
             "Affiliations": [
                 "Qatar University, Qatar",
                 "Université de Montréal, Canada",
                 "Qatar University, Qatar",
-                "University of Lille, France",
+                "INRIA, France",
                 "INRIA, France"
             ],
             "Abstract": "Recently, there has been an important progress in applying search-based optimization techniques to the problem of software re-modularization.  Yet, a major part of the existing body of work addresses the problem of modularizing software systems from scratch, regardless of the existing packages structure. This paper presents a novel multi-objective optimization approach for improving existing packages structure. The optimization approach aims at increasing the cohesion and reducing the coupling and cyclic connectivity of packages, by modifying as less as possible the existing packages organization. Moreover, maintainers can specify several constraints to guide the optimization process with regard to extra design factors. To this contribution, we use the Non-Dominated Sorting Genetic Algorithm (NSGA-II). We evaluate the optimization approach through an experiment covering four real-world software systems. The results promise the effectiveness of our optimization approach for improving existing packages structure by doing very small modifications.",
@@ -616,21 +739,21 @@
             "URL": "http%3A%2F%2Fhomepages.dcc.ufmg.br%2F%7Emtov%2Fpub%2F2013_wcre_archlint.pdf",
             "URLvideo": "",
             "URLinfo": "http%3A%2F%2Faserg.labsoft.dcc.ufmg.br%2Farchlint%2F",
-            "PersonsString": "Cristiano Maffort, Marco Tulio Valente, Nicolas Anquetil, Andre Hora, and Mariza Andrade S. Bigonha",
+            "PersonsString": "Cristiano Maffort, Marco Tulio Valente, Mariza Bigonha, Nicolas Anquetil, and André Hora",
             "AffiliationsString": "UFMG, Brazil; INRIA, France",
             "Authors": [
                 "Cristiano Maffort @ UFMG, Brazil",
                 "Marco Tulio Valente @ UFMG, Brazil",
+                "Mariza Bigonha @ UFMG, Brazil",
                 "Nicolas Anquetil @ INRIA, France",
-                "Andre Hora @ INRIA, France",
-                "Mariza Andrade S. Bigonha @ UFMG, Brazil"
+                "André Hora @ INRIA, France"
             ],
             "Affiliations": [
                 "UFMG, Brazil",
                 "UFMG, Brazil",
+                "UFMG, Brazil",
                 "INRIA, France",
-                "INRIA, France",
-                "UFMG, Brazil"
+                "INRIA, France"
             ],
             "Abstract": "Software architecture conformance is a key software quality control activity that aims to reveal the progressive gap normally observed between concrete and planned software architectures. In this paper, we present ArchLint, a lightweight approach for architecture conformance based on a combination of static and historical source code analysis. For this purpose, ArchLint relies on four heuristics for detecting both absences and divergences in source code based architectures. We applied ArchLint in an industrial-strength system and as a result we detected 119 architectural violations, with an overall precision of 46.7% and a recall of 96.2%, for divergences. We also evaluated ArchLint with four open-source systems, used in an independent study on reflexion models. In this second study, ArchLint achieved precision results ranging from 57.1% to 89.4%.",
             "Award": ""
@@ -642,17 +765,17 @@
             "URL": "http%3A%2F%2Fwww.dcc.ufmg.br%2F%7Emtov%2Fpub%2F2013_wcre_jmove.pdf",
             "URLvideo": "",
             "URLinfo": "http%3A%2F%2Faserg.labsoft.dcc.ufmg.br%2Fjmove",
-            "PersonsString": "Vitor Sales, Ricardo Terra, Luis Miranda, and Marco Tulio Valente",
-            "AffiliationsString": "UFMG, Brazil",
+            "PersonsString": "Vitor Sales, Ricardo Terra, Luis Fernando Miranda, and Marco Tulio Valente",
+            "AffiliationsString": "UFMG, Brazil; UFSJ, Brazil",
             "Authors": [
                 "Vitor Sales @ UFMG, Brazil",
-                "Ricardo Terra @ UFMG, Brazil",
-                "Luis Miranda @ UFMG, Brazil",
+                "Ricardo Terra @ UFMG, Brazil / UFSJ, Brazil",
+                "Luis Fernando Miranda @ UFMG, Brazil",
                 "Marco Tulio Valente @ UFMG, Brazil"
             ],
             "Affiliations": [
                 "UFMG, Brazil",
-                "UFMG, Brazil",
+                "UFMG, Brazil / UFSJ, Brazil",
                 "UFMG, Brazil",
                 "UFMG, Brazil"
             ],
@@ -667,16 +790,16 @@
             "URLvideo": "",
             "URLinfo": "http%3A%2F%2Fsimula.no%2Fpublications%2Fcodesmellsurvey%2F",
             "PersonsString": "Aiko Yamashita and Leon Moonen",
-            "AffiliationsString": "Simula Research Laboratory, Norway",
+            "AffiliationsString": "Mesan, Norway; Simula Research Laboratory, Norway",
             "Authors": [
-                "Aiko Yamashita @ Simula Research Laboratory, Norway",
+                "Aiko Yamashita @ Mesan, Norway / Simula Research Laboratory, Norway",
                 "Leon Moonen @ Simula Research Laboratory, Norway"
             ],
             "Affiliations": [
-                "Simula Research Laboratory, Norway",
+                "Mesan, Norway / Simula Research Laboratory, Norway",
                 "Simula Research Laboratory, Norway"
             ],
-            "Abstract": "Code smells are a well-known metaphor to describe symptoms of code decay or other issues with code quality which can lead to a variety of maintenance problems. Even though code smell detection and removal has been well-researched over the last decade, it remains open to debate whether or not code smells should be considered meaningful conceptualizations of code quality issues from the developer's perspective. To some extent, this question applies as well to the results provided by current code smell detection tools. Are code smells really important for developers? If they are not, is this due to the lack of relevance of the underlying concepts, due to the lack of awareness about code smells on the developers' side, or due to the lack of appropriate tools for code smell analysis or removal? In order to align and direct research efforts to address actual needs and problems of professional developers, we need to better understand the knowledge about, and interest in code smells, together with their perceived criticality. This paper reports on the results obtained from an exploratory survey involving 85 professional software developers.",
+            "Abstract": "Code smells are a well-known metaphor to describe symptoms of code decay or other issues with code quality which can lead to a variety of maintenance problems. Even though code smell detection and removal has been well-researched over the last decade, it remains open to debate whether or not code smells should be considered meaningful conceptualizations of code quality issues from the developer&#039;s perspective. To some extent, this question applies as well to the results provided by current code smell detection tools. Are code smells really important for developers? If they are not, is this due to the lack of relevance of the underlying concepts, due to the lack of awareness about code smells on the developers&#039; side, or due to the lack of appropriate tools for code smell analysis or removal? In order to align and direct research efforts to address actual needs and problems of professional developers, we need to better understand the knowledge about, and interest in code smells, together with their perceived criticality. This paper reports on the results obtained from an exploratory survey involving 85 professional software developers.",
             "Award": ""
         },
         {
@@ -771,14 +894,14 @@
             "Title": "Lehman's Laws in Agile and Non-agile Projects",
             "Type": "Research paper",
             "Key": "wcre13main-idm77-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKelley+Duran%2C+Gabrielle+Burns%2C+and+Paul+Snell+%22Lehman%27s+Laws+in+Agile+and+Non-agile+Projects%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKelley+Duran%2C+Gabbie+Burns%2C+and+Paul+Snell+%22Lehman%27s+Laws+in+Agile+and+Non-agile+Projects%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Kelley Duran, Gabrielle Burns, and Paul Snell",
+            "PersonsString": "Kelley Duran, Gabbie Burns, and Paul Snell",
             "AffiliationsString": "Rochester Institute of Technology, USA",
             "Authors": [
                 "Kelley Duran @ Rochester Institute of Technology, USA",
-                "Gabrielle Burns @ Rochester Institute of Technology, USA",
+                "Gabbie Burns @ Rochester Institute of Technology, USA",
                 "Paul Snell @ Rochester Institute of Technology, USA"
             ],
             "Affiliations": [
@@ -808,7 +931,7 @@
                 "University of Sheffield, UK",
                 "University of Sheffield, UK"
             ],
-            "Abstract": "The ability to reverse-engineer models of software behaviour is valuable for a wide range of software maintenance, validation and verification tasks. Current reverse-engineering techniques focus either on control-specific behaviour (e.g. in the form of Finite State Machines), or data-specific behaviour (e.g. as pre/post-conditions or invariants). However, typical software behaviour is usually a product of the two; models must combine both aspects to fully represent the software's operation. Extended Finite State Machines (EFSMs) provide such a model. Although attempts have been made to infer EFSMs, these have been problematic. The models inferred by these techniques can be non deterministic, the inference algorithms can be inflexible, and only applicable to traces with specific characteristics. This paper presents a novel EFSM inference technique that addresses the problems of inflexibility and non determinism. It also adapts an experimental technique from the field of Machine Learning to evaluate EFSM inference techniques, and applies it to two open-source software projects.",
+            "Abstract": "The ability to reverse-engineer models of software behaviour is valuable for a wide range of software maintenance, validation and verification tasks. Current reverse-engineering techniques focus either on control-specific behaviour (e.g. in the form of Finite State Machines), or data-specific behaviour (e.g. as pre/post-conditions or invariants). However, typical software behaviour is usually a product of the two; models must combine both aspects to fully represent the software&#039;s operation. Extended Finite State Machines (EFSMs) provide such a model. Although attempts have been made to infer EFSMs, these have been problematic. The models inferred by these techniques can be non deterministic, the inference algorithms can be inflexible, and only applicable to traces with specific characteristics. This paper presents a novel EFSM inference technique that addresses the problems of inflexibility and non determinism. It also adapts an experimental technique from the field of Machine Learning to evaluate EFSM inference techniques, and applies it to two open-source software projects.",
             "Award": ""
         },
         {
@@ -834,22 +957,22 @@
             "Award": ""
         },
         {
-            "Title": "Improving SOA Antipattern Detection in Service Based Systems by Mining Execution Traces",
+            "Title": "Improving SOA Antipatterns Detection in Service Based Systems by Mining Execution Traces",
             "Type": "Research paper",
             "Key": "wcre13main-idm112-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMathieu+Nayrolles%2C+Naouel+Moha%2C+and+Petko+Valtchev+%22Improving+SOA+Antipattern+Detection+in+Service+Based+Systems+by+Mining+Execution+Traces%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMathieu+Nayrolles%2C+Naouel+Moha%2C+and+Petko+Valtchev+%22Improving+SOA+Antipatterns+Detection+in+Service+Based+Systems+by+Mining+Execution+Traces%22",
             "URLvideo": "http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2JF-XoPuSKU",
             "URLinfo": "http%3A%2F%2Fsofa.uqam.ca%2Fsomad%2F",
             "PersonsString": "Mathieu Nayrolles, Naouel Moha, and Petko Valtchev",
-            "AffiliationsString": "Université de Montréal, Canada; Université du Québec à Montréal, Canada",
+            "AffiliationsString": "Université du Québec à Montréal, Canada",
             "Authors": [
-                "Mathieu Nayrolles @ Université de Montréal, Canada",
-                "Naouel Moha @ Université de Montréal, Canada",
+                "Mathieu Nayrolles @ Université du Québec à Montréal, Canada",
+                "Naouel Moha @ Université du Québec à Montréal, Canada",
                 "Petko Valtchev @ Université du Québec à Montréal, Canada"
             ],
             "Affiliations": [
-                "Université de Montréal, Canada",
-                "Université de Montréal, Canada",
+                "Université du Québec à Montréal, Canada",
+                "Université du Québec à Montréal, Canada",
                 "Université du Québec à Montréal, Canada"
             ],
             "Abstract": "Service Based Systems (SBSs), like other software systems, evolve due to changes in both user requirements and execution contexts. Continuous evolution could easily deteriorate the design and reduce the Quality of Service (QoS) of SBSs and may result in poor design solutions, commonly known as SOA antipatterns. SOA antipatterns lead to a reduced maintainability and reusability of SBSs. It is therefore important to first detect and then remove them. However, techniques for SOA antipattern detection are still in their infancy, and there are hardly any tools for their automatic detection. In this paper, we propose a new and innovative approach for SOA antipattern detection called SOMAD (Service Oriented Mining for Antipattern Detection) which is an evolution of the previously published SODA (Service Oriented Detection For Antpatterns) tool. SOMAD improves SOA antipattern detection by mining execution traces: It detects strong associations between sequences of service/method calls and further filters them using a suite of dedicated metrics. We first present the underlying association mining model and introduce the SBS-oriented rule metrics. We then describe a validating application of SOMAD to two independently developed SBSs. A comparison of our new tool with SODA reveals superiority of the former: Its precision is better by a margin ranging from 2.6% to 16.67% while the recall remains optimal at 100% and the speed is significantly reduces (2.5+ times on the same test subjects).",
@@ -862,17 +985,17 @@
             "URL": "http%3A%2F%2Fhal.inria.fr%2Fdocs%2F00%2F85%2F48%2F61%2FPDF%2Fwcre13main-idm39-p-19079-submitted.pdf",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Andre Hora, Nicolas Anquetil, Stéphane Ducasse, and Marco Tulio Valente",
+            "PersonsString": "André Hora, Nicolas Anquetil, Stéphane Ducasse, and Marco Tulio Valente",
             "AffiliationsString": "INRIA, France; University of Lille, France; UFMG, Brazil",
             "Authors": [
-                "Andre Hora @ INRIA, France",
-                "Nicolas Anquetil @ University of Lille, France",
+                "André Hora @ INRIA, France",
+                "Nicolas Anquetil @ University of Lille, France / INRIA, France",
                 "Stéphane Ducasse @ INRIA, France",
                 "Marco Tulio Valente @ UFMG, Brazil"
             ],
             "Affiliations": [
                 "INRIA, France",
-                "University of Lille, France",
+                "University of Lille, France / INRIA, France",
                 "INRIA, France",
                 "UFMG, Brazil"
             ],
@@ -883,22 +1006,22 @@
             "Title": "Empirical Evidence of Code Decay: A Systematic Mapping Study",
             "Type": "Research paper",
             "Key": "wcre13main-idm30-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAjay+Bandi%2C+Byron+Williams%2C+and+Edward+Allen+%22Empirical+Evidence+of+Code+Decay%3A+A+Systematic+Mapping+Study%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAjay+Bandi%2C+Byron+J.+Williams%2C+and+Edward+B.+Allen+%22Empirical+Evidence+of+Code+Decay%3A+A+Systematic+Mapping+Study%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Ajay Bandi, Byron Williams, and Edward Allen",
+            "PersonsString": "Ajay Bandi, Byron J. Williams, and Edward B. Allen",
             "AffiliationsString": "Mississippi State University, USA",
             "Authors": [
                 "Ajay Bandi @ Mississippi State University, USA",
-                "Byron Williams @ Mississippi State University, USA",
-                "Edward Allen @ Mississippi State University, USA"
+                "Byron J. Williams @ Mississippi State University, USA",
+                "Edward B. Allen @ Mississippi State University, USA"
             ],
             "Affiliations": [
                 "Mississippi State University, USA",
                 "Mississippi State University, USA",
                 "Mississippi State University, USA"
             ],
-            "Abstract": "Abstract—Background: Code decay is a gradual process that negatively impacts the quality of a software system. Developers need trusted measurement techniques to evaluate whether their systems have decayed. Objective: The goal is to find what is known about code decay detection techniques and metrics used to evaluate decay. Method: We performed a systematic mapping study to determine which techniques and metrics have been empirically evaluated. A review protocol was developed and followed to identify 30 primary studies with empirical evidence of code decay. Results: We categorized detection techniques into two broad groups: human-based and metric-based approaches. We describe the attributes of each approach and distinguish features of several subcategories of both high-level groups. A tabular overview of code decay metrics is also presented. Limitations: We exclude studies that do not use time (i.e., do not use evaluation of multiple software versions) as a factor when evaluating code decay. This limitation serves to focus the review. Conclusion: We found that coupling metrics are the most widely used at identifying code decay. Authors use various terms to define code decay, and we recommend additional research to operationalize the terms to provide more consistent analysis.",
+            "Abstract": "Abstract—Code decay is a gradual process that negatively impacts the quality of a software system. Developers need trusted measurement techniques to evaluate whether their systems have decayed. The research aims to find what is currently known about code decay detection techniques and metrics used to evaluate decay. We performed a systematic mapping study to determine which techniques and metrics have been empirically evaluated. A review protocol was developed and followed to identify 30 primary studies with empirical evidence of code decay. We categorized detection techniques into two broad groups: human based and metric-based approaches. We describe the attributes of each approach and distinguish features of several subcategories of both high-level groups. A tabular overview of code decay metrics is also presented. We exclude studies that do not use time (i.e., do not use evaluation of multiple software versions) as a factor when evaluating code decay. This limitation serves to focus the review. We found that coupling metrics are the most widely used at identifying code decay. Researchers use various terms to define code decay, and we recommend additional research to operationalize the terms to provide more consistent analysis.",
             "Award": ""
         },
         {
@@ -909,15 +1032,15 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Fehmi Jaafar, Yann-Gaël Guéhéneuc, Sylvie Hamel, and Foutse Khomh",
-            "AffiliationsString": "Université de Montréal, Canada; Polytechnique Montréal, Canada",
+            "AffiliationsString": "Polytechnique Montréal, Canada; Université de Montréal, Canada",
             "Authors": [
-                "Fehmi Jaafar @ Université de Montréal, Canada",
+                "Fehmi Jaafar @ Polytechnique Montréal, Canada / Université de Montréal, Canada",
                 "Yann-Gaël Guéhéneuc @ Polytechnique Montréal, Canada",
                 "Sylvie Hamel @ Université de Montréal, Canada",
                 "Foutse Khomh @ Polytechnique Montréal, Canada"
             ],
             "Affiliations": [
-                "Université de Montréal, Canada",
+                "Polytechnique Montréal, Canada / Université de Montréal, Canada",
                 "Polytechnique Montréal, Canada",
                 "Université de Montréal, Canada",
                 "Polytechnique Montréal, Canada"
@@ -929,20 +1052,20 @@
             "Title": "Leveraging Historical Co-change Information for Requirements Traceability",
             "Type": "Research paper",
             "Key": "wcre13main-idm126-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNasir+Ali%2C+Ahmed+E.+Hassan%2C+and+Fehmi+Jaafar+%22Leveraging+Historical+Co-change+Information+for+Requirements+Traceability%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNasir+Ali%2C+Fehmi+Jaafar%2C+and+Ahmed+E.+Hassan+%22Leveraging+Historical+Co-change+Information+for+Requirements+Traceability%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Nasir Ali, Ahmed E. Hassan, and Fehmi Jaafar",
+            "PersonsString": "Nasir Ali, Fehmi Jaafar, and Ahmed E. Hassan",
             "AffiliationsString": "Queen's University, Canada; Université de Montréal, Canada",
             "Authors": [
                 "Nasir Ali @ Queen's University, Canada",
-                "Ahmed E. Hassan @ Queen's University, Canada",
-                "Fehmi Jaafar @ Université de Montréal, Canada"
+                "Fehmi Jaafar @ Université de Montréal, Canada",
+                "Ahmed E. Hassan @ Queen's University, Canada"
             ],
             "Affiliations": [
                 "Queen's University, Canada",
-                "Queen's University, Canada",
-                "Université de Montréal, Canada"
+                "Université de Montréal, Canada",
+                "Queen's University, Canada"
             ],
             "Abstract": "Requirements traceability (RT) links requirements to the corresponding source code entities, which implement them. Information Retrieval (IR) based RT links recovery approaches are often used to automatically recover RT links. However, such approaches exhibit low accuracy, in terms of precision, recall, and ranking. This paper presents an approach (CoChaIR), complementary to existing IR-based RT links recovery approaches. CoChaIR leverages historical co-change information of files to improve the accuracy of IR-based RT links recovery approaches. We evaluated the effectiveness of CoChaIR on three datasets, i.e., iTrust, Pooka, and SIP Communicator. We compared CoChaIR with two different IR-based RT links recovery approaches, i.e., vector space model and Jensen--Shannon divergence model. Our study results show that CoChaIR significantly improves precision and recall by up to 12.38% and 5.67% respectively; while decreasing the rank of true positive links by up to 48% and reducing false positive links by up to 44%.",
             "Award": ""
@@ -1028,12 +1151,12 @@
             "URL": "http%3A%2F%2Fwww.dcc.ufmg.br%2F%7Emtov%2Fpub%2F2013_wcre_apiminer.pdf",
             "URLvideo": "",
             "URLinfo": "http%3A%2F%2Faserg.labsoft.dcc.ufmg.br%2Fapiminer",
-            "PersonsString": "Joao Eduardo Montandon, Hudson Borges, Daniel Félix, and Marco Tulio Valente",
+            "PersonsString": "João Eduardo Montandon, Hudson Borges, Daniel Felix, and Marco Tulio Valente",
             "AffiliationsString": "UFMG, Brazil",
             "Authors": [
-                "Joao Eduardo Montandon @ UFMG, Brazil",
+                "João Eduardo Montandon @ UFMG, Brazil",
                 "Hudson Borges @ UFMG, Brazil",
-                "Daniel Félix @ UFMG, Brazil",
+                "Daniel Felix @ UFMG, Brazil",
                 "Marco Tulio Valente @ UFMG, Brazil"
             ],
             "Affiliations": [
@@ -1116,7 +1239,7 @@
                 "Utrecht University, Netherlands",
                 "IBM, Netherlands"
             ],
-            "Abstract": "This paper presents the findings of a case study of a large scale legacy to service-oriented architecture migration process in the payments domain of a Dutch bank. The paper presents the business drivers that initiated the migration, and describes a 4-phase migration process. For each phase, the paper details benefits of using the techniques, best practices that contribute to the success, and possible challenges that are faced during migration. Based on these observations, the findings are discussed as lessons learned, including the implications of using reverse engineering techniques to facilitate the migration process, adopting a pragmatic migration realization approach, emphasizing the organizational and business perspectives, and harvesting knowledge of the system throughout the system's life cycle.",
+            "Abstract": "This paper presents the findings of a case study of a large scale legacy to service-oriented architecture migration process in the payments domain of a Dutch bank. The paper presents the business drivers that initiated the migration, and describes a 4-phase migration process. For each phase, the paper details benefits of using the techniques, best practices that contribute to the success, and possible challenges that are faced during migration. Based on these observations, the findings are discussed as lessons learned, including the implications of using reverse engineering techniques to facilitate the migration process, adopting a pragmatic migration realization approach, emphasizing the organizational and business perspectives, and harvesting knowledge of the system throughout the system&#039;s life cycle.",
             "Award": ""
         },
         {
@@ -1142,7 +1265,7 @@
                 "Eindhoven University of Technology, Netherlands",
                 "Eindhoven University of Technology, Netherlands"
             ],
-            "Abstract": "Modern software development frequently involves developing multiple codelines simultaneously. Improvements to one codeline should often be applied to other codelines as well, which is typically a time consuming and error-prone process. In order to reduce this (manual) effort, changes are applied to the system's modules and those affected modules are upgraded on the target system. This is a more coarse-grained approach than upgrading the affected files only. However, when a module is upgraded, one must make sure that all its dependencies are still satisfied.  This paper proposes an approach to assess the ease of upgrading a software system. An algorithm was developed to compute the smallest set of upgrade dependencies, given the current version of a module and the version it has to be upgraded to. Furthermore, a visualization has been designed to explain why upgrading one module requires upgrading many additional modules.  A case study has been performed at ASML to study the ease of upgrading the TwinScan software. The analysis shows that removing elements from interfaces leads to many additional upgrade dependencies. Moreover, based on our analysis we have formulated a number improvement suggestions such as a clear separation between the test code and the production code as well as an introduction of a structured process of symbols deprecation and removal.",
+            "Abstract": "Modern software development frequently involves developing multiple codelines simultaneously. Improvements to one codeline should often be applied to other codelines as well, which is typically a time consuming and error-prone process. In order to reduce this (manual) effort, changes are applied to the system&#039;s modules and those affected modules are upgraded on the target system. This is a more coarse-grained approach than upgrading the affected files only. However, when a module is upgraded, one must make sure that all its dependencies are still satisfied.  This paper proposes an approach to assess the ease of upgrading a software system. An algorithm was developed to compute the smallest set of upgrade dependencies, given the current version of a module and the version it has to be upgraded to. Furthermore, a visualization has been designed to explain why upgrading one module requires upgrading many additional modules.  A case study has been performed at ASML to study the ease of upgrading the TwinScan software. The analysis shows that removing elements from interfaces leads to many additional upgrade dependencies. Moreover, based on our analysis we have formulated a number improvement suggestions such as a clear separation between the test code and the production code as well as an introduction of a structured process of symbols deprecation and removal.",
             "Award": ""
         },
         {
@@ -1173,14 +1296,14 @@
             "Title": "Psyb0t Malware: A Step-by-Step Decompilation Case Study",
             "Type": "Practice paper",
             "Key": "wcre13practice-idm63-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLuk%C3%A1%C5%A1+%C4%8Eurfina%2C+Jakub+Kroustek%2C+and+Petr+Zemek+%22Psyb0t+Malware%3A+A+Step-by-Step+Decompilation+Case+Study%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLuk%C3%A1%C5%A1+%C4%8Eurfina%2C+Jakub+K%C5%99oustek%2C+and+Petr+Zemek+%22Psyb0t+Malware%3A+A+Step-by-Step+Decompilation+Case+Study%22",
             "URLvideo": "",
             "URLinfo": "http%3A%2F%2Fdecompiler.fit.vutbr.cz%2F",
-            "PersonsString": "Lukáš Ďurfina, Jakub Kroustek, and Petr Zemek",
+            "PersonsString": "Lukáš Ďurfina, Jakub Křoustek, and Petr Zemek",
             "AffiliationsString": "Brno University of Technology, Czech Republic",
             "Authors": [
                 "Lukáš Ďurfina @ Brno University of Technology, Czech Republic",
-                "Jakub Kroustek @ Brno University of Technology, Czech Republic",
+                "Jakub Křoustek @ Brno University of Technology, Czech Republic",
                 "Petr Zemek @ Brno University of Technology, Czech Republic"
             ],
             "Affiliations": [
@@ -1252,7 +1375,7 @@
                 "University of Saskatchewan, Canada",
                 "University of Saskatchewan, Canada"
             ],
-            "Abstract": "Traditional web search forces the developers to leave their working environments and look for solutions in the web browsers. It often does not consider the context of their programming problems. The context-switching between the web browser and the working environment is time-consuming and distracting, and the keyword-based traditional search often does not help much in problem solving. In this paper, we propose an Eclipse IDE-based web search solution that collects the data from three web search APIs- Google, Yahoo, Bing and a programming Q & A site- StackOverflow. It then provides search results within IDE taking not only the content of the selected error into account but also the problem context, popularity and search engine recommendation of the result links. Experiments with 25 runtime errors and exceptions show that the proposed approach outperforms the keyword-based search approaches with a recommendation accuracy of 96%. We also validate the results with a user study involving five prospective participants where we get a result agreement of 64.28%. While the preliminary results are promising, the approach needs to be further validated with more errors and exceptions followed by a user study with more participants to establish itself as a complete IDE-based web search solution.",
+            "Abstract": "Traditional web search forces the developers to leave their working environments and look for solutions in the web browsers. It often does not consider the context of their programming problems. The context-switching between the web browser and the working environment is time-consuming and distracting, and the keyword-based traditional search often does not help much in problem solving. In this paper, we propose an Eclipse IDE-based web search solution that collects the data from three web search APIs- Google, Yahoo, Bing and a programming Q &amp; A site- StackOverflow. It then provides search results within IDE taking not only the content of the selected error into account but also the problem context, popularity and search engine recommendation of the result links. Experiments with 25 runtime errors and exceptions show that the proposed approach outperforms the keyword-based search approaches with a recommendation accuracy of 96%. We also validate the results with a user study involving five prospective participants where we get a result agreement of 64.28%. While the preliminary results are promising, the approach needs to be further validated with more errors and exceptions followed by a user study with more participants to establish itself as a complete IDE-based web search solution.",
             "Award": ""
         },
         {
@@ -1419,13 +1542,13 @@
             "Title": "CCCD: Concolic Code Clone Detection",
             "Type": "Tool demo paper",
             "Key": "wcre13tools-ido4-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDaniel+Krutz+and+Emad+Shihab+%22CCCD%3A+Concolic+Code+Clone+Detection%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDaniel+E.+Krutz+and+Emad+Shihab+%22CCCD%3A+Concolic+Code+Clone+Detection%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Daniel Krutz and Emad Shihab",
+            "PersonsString": "Daniel E. Krutz and Emad Shihab",
             "AffiliationsString": "Rochester Institute of Technology, USA",
             "Authors": [
-                "Daniel Krutz @ Rochester Institute of Technology, USA",
+                "Daniel E. Krutz @ Rochester Institute of Technology, USA",
                 "Emad Shihab @ Rochester Institute of Technology, USA"
             ],
             "Affiliations": [
@@ -1434,41 +1557,218 @@
             ],
             "Abstract": "Code clones are multiple code fragments that produce similar results when provided the same input. Prior research has shown that clones can be harmful since they elevate maintenance costs, increase the number of bugs caused by inconsistent changes to cloned code and may decrease programmer comprehensibility due to the increased size of the code base.  To assist in the detection of code clones, we propose a new tool known as Concolic Code Clone Discovery (CCCD). CCCD is the first known clone detection tool that uses concolic analysis as its primary component and is one of only three known techniques which are able to reliably detect the most complicated kind of clones, type-4 clones.",
             "Award": ""
+        },
+        {
+            "Title": "MemBrush: A Practical Tool to Detect Custom Memory Allocators in C Binaries",
+            "Type": "Tool demo paper",
+            "Key": "wcre13tools-ido13-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DXi+Chen%2C+Asia+Slowinska%2C+and+Herbert+Bos+%22MemBrush%3A+A+Practical+Tool+to+Detect+Custom+Memory+Allocators+in+C+Binaries%22",
+            "URLvideo": "http%3A%2F%2Fyoutu.be%2FVhgvuDp6fQ0",
+            "URLinfo": "",
+            "PersonsString": "Xi Chen, Asia Slowinska, and Herbert Bos",
+            "AffiliationsString": "VU University Amsterdam, Netherlands",
+            "Authors": [
+                "Xi Chen @ VU University Amsterdam, Netherlands",
+                "Asia Slowinska @ VU University Amsterdam, Netherlands",
+                "Herbert Bos @ VU University Amsterdam, Netherlands"
+            ],
+            "Affiliations": [
+                "VU University Amsterdam, Netherlands",
+                "VU University Amsterdam, Netherlands",
+                "VU University Amsterdam, Netherlands"
+            ],
+            "Abstract": "Many reversing techniques for data structures rely on the knowledge of memory allocation routines. Typically, they interpose on the system’s malloc and free functions, and track each chunk of memory thus allocated as a data structure. However, many performance-critical applications implement their own custom memory allocators. As a result, current binary analysis techniques for tracking data structures fail on such binaries. We present MemBrush, a new tool to detect memory allocation and deallocation functions in stripped binaries with high accuracy. We evaluated the technique on a large number of real world applications that use custom memory allocators. Our system uses dynamic analysis and detects memory allocation and deallocation routines by searching for functions that comply with a set of generic characteristics of allocators and deallocators.",
+            "Award": ""
+        },
+        {
+            "Title": "MemPick: A Tool for Data Structure Detection",
+            "Type": "Tool demo paper",
+            "Key": "wcre13tools-ido11-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DIstvan+Haller%2C+Asia+Slowinska%2C+and+Herbert+Bos+%22MemPick%3A+A+Tool+for+Data+Structure+Detection%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Istvan Haller, Asia Slowinska, and Herbert Bos",
+            "AffiliationsString": "VU University Amsterdam, Netherlands",
+            "Authors": [
+                "Istvan Haller @ VU University Amsterdam, Netherlands",
+                "Asia Slowinska @ VU University Amsterdam, Netherlands",
+                "Herbert Bos @ VU University Amsterdam, Netherlands"
+            ],
+            "Affiliations": [
+                "VU University Amsterdam, Netherlands",
+                "VU University Amsterdam, Netherlands",
+                "VU University Amsterdam, Netherlands"
+            ],
+            "Abstract": "Most current techniques for data structure reverse engineering are limited to low-level programing constructs, such as individual variables or structs. In practice, pointer networks connect some of these constructs, to form higher level entities like lists and trees. The lack of information about the pointer network limits our ability to efficiently perform forensics and reverse engineering. To fill this gap, we propose MemPick, a tool that detects and classifies high-level data structures used in stripped C/C++ binaries. By analyzing the evolution of the heap during program execution, it identifies and classifies the most commonly used data structures, such as singly- or doubly-linked lists, many types of trees (e.g., AVL, red-black trees, B-trees), and graphs. We evaluated MemPick on a wide variety of popular libraries and real world applications with great success.  I",
+            "Award": ""
+        },
+        {
+            "Title": "Gelato: GEneric LAnguage TOols for Model-Driven Analysis of Legacy Software Systems",
+            "Type": "Tool demo paper",
+            "Key": "wcre13tools-ido16-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAmir+Saeidi%2C+Jurriaan+Hage%2C+Ravi+Khadka%2C+and+Slinger+Jansen+%22Gelato%3A+GEneric+LAnguage+TOols+for+Model-Driven+Analysis+of+Legacy+Software+Systems%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Amir Saeidi, Jurriaan Hage, Ravi Khadka, and Slinger Jansen",
+            "AffiliationsString": "Utrecht University, Netherlands",
+            "Authors": [
+                "Amir Saeidi @ Utrecht University, Netherlands",
+                "Jurriaan Hage @ Utrecht University, Netherlands",
+                "Ravi Khadka @ Utrecht University, Netherlands",
+                "Slinger Jansen @ Utrecht University, Netherlands"
+            ],
+            "Affiliations": [
+                "Utrecht University, Netherlands",
+                "Utrecht University, Netherlands",
+                "Utrecht University, Netherlands",
+                "Utrecht University, Netherlands"
+            ],
+            "Abstract": "We present an integrated set of language-independent (generic) tools for analyzing legacy software systems: Gelato. Like any analysis tool, Gelato consists of a set of parsers, tree walkers, transformers, visualizers and pretty printers for different programming languages. Gelato is divided into a set of components, comprising of a set of language-specific bundles and a generic core. By providing a generic core, Gelato enables building tools for analyzing legacy systems independent of the languages they are implemented in. To achieve this, Gelato consists of a generic extensible imperative language called Kernel which provides a separation between syntactic and semantic analysis. We have adopted model-driven techniques to develop the Gelato tool set which is integrated into the Eclipse environment.",
+            "Award": ""
+        },
+        {
+            "Title": "Extracting Business Rules from COBOL: A Model-Based Tool",
+            "Type": "Tool demo paper",
+            "Key": "wcre13tools-ido5-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DValerio+Cosentino%2C+Jordi+Cabot%2C+Patrick+Albert%2C+Philippe+Bauquel%2C+and+Jacques+Perronnet+%22Extracting+Business+Rules+from+COBOL%3A+A+Model-Based+Tool%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Valerio Cosentino, Jordi Cabot, Patrick Albert, Philippe Bauquel, and Jacques Perronnet",
+            "AffiliationsString": "AtlanMod, France; IBM, France",
+            "Authors": [
+                "Valerio Cosentino @ AtlanMod, France / IBM, France",
+                "Jordi Cabot @ AtlanMod, France",
+                "Patrick Albert @ IBM, France",
+                "Philippe Bauquel @ IBM, France",
+                "Jacques Perronnet @ IBM, France"
+            ],
+            "Affiliations": [
+                "AtlanMod, France / IBM, France",
+                "AtlanMod, France",
+                "IBM, France",
+                "IBM, France",
+                "IBM, France"
+            ],
+            "Abstract": "This paper presents a Business Rule Extraction tool for COBOL systems. Starting from a COBOL program, we derive a model-based representation of the source code and we provide a set of model transformations to identify and visualize the embedded business rules. In particular, the tool facilitates the definition of an application vocabulary and the identification of relevant business variables. In addition, such variables are used as starting point to slice the code in order to identify business rules, that are finally represented by means of textual and graphical artifacts. The tool has been developed as an Eclipse plug-in in collaboration with IBM France.",
+            "Award": ""
+        },
+        {
+            "Title": "Detecting Dependencies in Enterprise JavaBeans with SQuAVisiT",
+            "Type": "Tool demo paper",
+            "Key": "wcre13tools-ido12-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAlexandru+Sutii%2C+Serguei+Roubtsov%2C+and+Alexander+Serebrenik+%22Detecting+Dependencies+in+Enterprise+JavaBeans+with+SQuAVisiT%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Alexandru Sutii, Serguei Roubtsov, and Alexander Serebrenik",
+            "AffiliationsString": "Eindhoven University of Technology, Netherlands",
+            "Authors": [
+                "Alexandru Sutii @ Eindhoven University of Technology, Netherlands",
+                "Serguei Roubtsov @ Eindhoven University of Technology, Netherlands",
+                "Alexander Serebrenik @ Eindhoven University of Technology, Netherlands"
+            ],
+            "Affiliations": [
+                "Eindhoven University of Technology, Netherlands",
+                "Eindhoven University of Technology, Netherlands",
+                "Eindhoven University of Technology, Netherlands"
+            ],
+            "Abstract": "We present recent extensions to SQuAVisiT, Software Quality Assessment and Visualization Toolset. While SQuAVisiT has been designed with traditional software and traditional caller-callee dependencies in mind, recent popularity of Enterprise JavaBeans (EJB) required extensions that enable analysis of additional forms of dependencies: EJB dependency injections, object-relational (persistence) mappings and Web service mappings. In this paper we discuss the implementation of these extensions in SQuAVisiT and the application of SQuAVisiT to an open-source software system.",
+            "Award": ""
+        },
+        {
+            "Title": "REdiffs: Refactoring-Aware Difference Viewer for Java",
+            "Type": "Tool demo paper",
+            "Key": "wcre13tools-ido18-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShinpei+Hayashi%2C+Sirinut+Thangthumachit%2C+and+Motoshi+Saeki+%22REdiffs%3A+Refactoring-Aware+Difference+Viewer+for+Java%22",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Fwww.se.cs.titech.ac.jp%2Frediffs%2F",
+            "PersonsString": "Shinpei Hayashi, Sirinut Thangthumachit, and Motoshi Saeki",
+            "AffiliationsString": "Tokyo Institute of Technology, Japan",
+            "Authors": [
+                "Shinpei Hayashi @ Tokyo Institute of Technology, Japan",
+                "Sirinut Thangthumachit @ Tokyo Institute of Technology, Japan",
+                "Motoshi Saeki @ Tokyo Institute of Technology, Japan"
+            ],
+            "Affiliations": [
+                "Tokyo Institute of Technology, Japan",
+                "Tokyo Institute of Technology, Japan",
+                "Tokyo Institute of Technology, Japan"
+            ],
+            "Abstract": "Comparing and understanding differences between old and new versions of source code are necessary in various software development situations. However, if changes are tangled with refactorings in a single revision, then the resulting source code differences are more complicated. We propose an interactive difference viewer which enables us to separate refactoring effects from source code differences for improving the understandability of the differences.",
+            "Award": ""
+        },
+        {
+            "Title": "CCCD: Concolic Code Clone Detection",
+            "Type": "Tool demo paper",
+            "Key": "wcre13tools-ido4-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDaniel+E.+Krutz+and+Emad+Shihab+%22CCCD%3A+Concolic+Code+Clone+Detection%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Daniel E. Krutz and Emad Shihab",
+            "AffiliationsString": "Rochester Institute of Technology, USA",
+            "Authors": [
+                "Daniel E. Krutz @ Rochester Institute of Technology, USA",
+                "Emad Shihab @ Rochester Institute of Technology, USA"
+            ],
+            "Affiliations": [
+                "Rochester Institute of Technology, USA",
+                "Rochester Institute of Technology, USA"
+            ],
+            "Abstract": "Code clones are multiple code fragments that produce similar results when provided the same input. Prior research has shown that clones can be harmful since they elevate maintenance costs, increase the number of bugs caused by inconsistent changes to cloned code and may decrease programmer comprehensibility due to the increased size of the code base.  To assist in the detection of code clones, we propose a new tool known as Concolic Code Clone Discovery (CCCD). CCCD is the first known clone detection tool that uses concolic analysis as its primary component and is one of only three known techniques which are able to reliably detect the most complicated kind of clones, type-4 clones.",
+            "Award": ""
+        },
+        {
+            "Title": "3rd Workshop on Mining Unstructured Data",
+            "Type": "Workshop paper",
+            "Key": "wcre13workshops-ido7-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAlberto+Bacchelli%2C+Nicolas+Bettenburg%2C+Latifa+Guerrouj%2C+and+Sonia+Haiduc+%223rd+Workshop+on+Mining+Unstructured+Data%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Alberto Bacchelli, Nicolas Bettenburg, Latifa Guerrouj, and Sonia Haiduc",
+            "AffiliationsString": "Delft University of Technology, Netherlands; Queen's University, Canada; Polytechnique Montréal, Canada; Florida State University, USA",
+            "Authors": [
+                "Alberto Bacchelli @ Delft University of Technology, Netherlands",
+                "Nicolas Bettenburg @ Queen's University, Canada",
+                "Latifa Guerrouj @ Polytechnique Montréal, Canada",
+                "Sonia Haiduc @ Florida State University, USA"
+            ],
+            "Affiliations": [
+                "Delft University of Technology, Netherlands",
+                "Queen's University, Canada",
+                "Polytechnique Montréal, Canada",
+                "Florida State University, USA"
+            ],
+            "Abstract": "Software development knowledge resides in the source code and in a number of other artefacts produced during the development process. To extract such a knowledge, past software engineering research has extensively focused on mining the source code, i.e., the final product of the development effort. Currently, we witness an emerging trend where researchers strive to exploit the information captured in artifacts such as emails and bug reports, free-form text requirements and specifications, comments and identifiers. Being often expressed in natural language, and not having a well-defined structure, the information stored in these artifacts is defined as unstructured data. Although research communities in Information Retrieval, Data Mining and Natural Language Processing have devised techniques to deal with unstructured data, these techniques are usually limited in scope (i.e., designed for English language text found in newspaper articles) and intended for use in specific scenarios, thus failing to achieve their full potential in a software development context. The workshop on Mining Unstructured Data (MUD) aims to provide a common venue for researchers and practitioners across software engineering, information retrieval and data mining research domains, to share new approaches and emerging results in mining unstructured software engineering data. Through this workshop, we aim to encourage cross-fertilization across different research domains, and to document and evolve the state of the art in mining unstructured data.",
+            "Award": ""
+        },
+        {
+            "Title": "Workshop on Open and Original Problems in Software Language Engineering",
+            "Type": "Workshop paper",
+            "Key": "wcre13workshops-ido8-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAnya+Helene+Bagge+and+Vadim+Zaytsev+%22Workshop+on+Open+and+Original+Problems+in+Software+Language+Engineering%22",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Foopsle.github.io%2F",
+            "PersonsString": "Anya Helene Bagge and Vadim Zaytsev",
+            "AffiliationsString": "University of Bergen, Norway; CWI, Netherlands",
+            "Authors": [
+                "Anya Helene Bagge @ University of Bergen, Norway",
+                "Vadim Zaytsev @ CWI, Netherlands"
+            ],
+            "Affiliations": [
+                "University of Bergen, Norway",
+                "CWI, Netherlands"
+            ],
+            "Abstract": "The OOPSLE workshop is a discussion-oriented and collaborative forum for formulating and addressing with open, unsolved and unsolvable problems in software language engineering (SLE), which is a research domain of systematic, disciplined and measurable approaches of development, evolution and maintenance of artificial languages used in software development. OOPSLE aims to serve as a think tank in selecting candidates for the open problem list, as well as other kinds of unconventional questions and definitions that do not necessarily have clear answers or solutions, thus facilitating the exposure of dark data. We also plan to formulate promising language-related challenges to organise in the future.",
+            "Award": ""
         }
     ],
     "Sessions": [
-        {
-            "Id": "ooTh3oco1y",
-            "Title": "ERA Track",
-            "ShortTitle": "ERA Track",
-            "Type": "ERA Track",
-            "ShortType": "ERA Track",
-            "Key": "1970-01-01 00:00 ERA Track",
-            "Day": "1970-01-01",
-            "Time": "00:00 - 00:00",
-            "Location": "M 001",
-            "LocationIndex": "2",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "WCRE13ERA",
-            "Abstract": "",
-            "Items": [
-                "wcre13era-idm50-p",
-                "wcre13era-idm87-p",
-                "wcre13era-idm129-p",
-                "wcre13era-idm140-p"
-            ]
-        },
         {
             "Id": "uu8pi6DaaS",
             "Title": "Message from the Chairs",
             "ShortTitle": "Message from the Chairs",
             "Type": "Plenary",
             "ShortType": "Plenary",
-            "Key": "wcre13foreword-fm001-p",
+            "Key": "2013-10-14 08:45 Message from the Chairs",
             "Day": "2013-10-14",
             "Time": "08:45 - 09:00",
             "Location": "M 001",
@@ -1488,9 +1788,9 @@
             "Id": "au3rahR1za",
             "Title": "The First Decade of GUI Ripping: Extensions, Applications, and Broader Impacts (Invited Paper)",
             "ShortTitle": "The First Decade of GUI Ripping: Extensions, Applications, and Broader Impacts (Invited Paper)",
-            "Type": "Plenary",
-            "ShortType": "Plenary",
-            "Key": "wcre13inv-invid2-p",
+            "Type": "Plenary - Most Influential Paper",
+            "ShortType": "Plenary - Most Influential Paper",
+            "Key": "2013-10-14 09:00 The First Decade of GUI Ripping: Extensions, Applications, and Broader Impacts (Invited Paper)",
             "Day": "2013-10-14",
             "Time": "09:00 - 10:00",
             "Location": "M 001",
@@ -1516,7 +1816,7 @@
             "Day": "2013-10-14",
             "Time": "10:00 - 10:30",
             "Location": "Foyer",
-            "LocationIndex": "9",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1560,7 +1860,7 @@
             "Day": "2013-10-14",
             "Time": "11:45 - 12:15",
             "Location": "Foyer",
-            "LocationIndex": "9",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1604,7 +1904,7 @@
             "Day": "2013-10-14",
             "Time": "13:30 - 14:30",
             "Location": "Mensa",
-            "LocationIndex": "9",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1648,7 +1948,7 @@
             "Day": "2013-10-14",
             "Time": "16:30 - 20:00",
             "Location": "Foyer",
-            "LocationIndex": "9",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1710,7 +2010,7 @@
             "Day": "2013-10-15",
             "Time": "10:00 - 10:30",
             "Location": "Foyer",
-            "LocationIndex": "9",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1738,6 +2038,7 @@
             "Comment": "WCRE13MAIN",
             "Abstract": "",
             "Items": [
+                "wcre13era-idm129-p",
                 "wcre13main-idm49-p",
                 "wcre13main-idm15-p",
                 "wcre13main-idm37-p"
@@ -1753,7 +2054,7 @@
             "Day": "2013-10-15",
             "Time": "11:45 - 12:15",
             "Location": "Foyer",
-            "LocationIndex": "9",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1797,7 +2098,7 @@
             "Day": "2013-10-15",
             "Time": "13:30 - 14:30",
             "Location": "Mensa",
-            "LocationIndex": "9",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1816,7 +2117,7 @@
             "Day": "2013-10-15",
             "Time": "14:30 - 15:45",
             "Location": "M 001",
-            "LocationIndex": "2",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1841,7 +2142,7 @@
             "Day": "2013-10-15",
             "Time": "16:15 - 17:15",
             "Location": "M 001",
-            "LocationIndex": "2",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1865,7 +2166,7 @@
             "Day": "2013-10-15",
             "Time": "17:30 - 21:21",
             "Location": "Foyer",
-            "LocationIndex": "9",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1912,6 +2213,7 @@
             "Comment": "WCRE13MAIN",
             "Abstract": "",
             "Items": [
+                "wcre13era-idm87-p",
                 "wcre13main-idm45-p",
                 "wcre13main-idm71-p"
             ]
@@ -1926,7 +2228,7 @@
             "Day": "2013-10-16",
             "Time": "10:00 - 10:30",
             "Location": "Foyer",
-            "LocationIndex": "9",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1970,7 +2272,7 @@
             "Day": "2013-10-16",
             "Time": "11:45 - 12:15",
             "Location": "Foyer",
-            "LocationIndex": "9",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1998,7 +2300,9 @@
             "Comment": "WCRE13MAIN",
             "Abstract": "",
             "Items": [
+                "wcre13era-idm140-p",
                 "wcre13main-idm137-p",
+                "wcre13era-idm50-p",
                 "wcre13main-idm105-p"
             ]
         },
@@ -2012,7 +2316,7 @@
             "Day": "2013-10-16",
             "Time": "13:30 - 14:30",
             "Location": "Mensa",
-            "LocationIndex": "9",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2025,9 +2329,9 @@
             "Id": "ei7Joib2ha",
             "Title": "Reverse Engineering in Industry (Panel Paper)",
             "ShortTitle": "Reverse Engineering in Industry (Panel Paper)",
-            "Type": "Plenary",
-            "ShortType": "Plenary",
-            "Key": "wcre13inv-invid3-p",
+            "Type": "Plenary - Panel",
+            "ShortType": "Plenary - Panel",
+            "Key": "2013-10-16 14:30 Reverse Engineering in Industry (Panel Paper)",
             "Day": "2013-10-16",
             "Time": "14:30 - 16:00",
             "Location": "M 001",
@@ -2053,7 +2357,7 @@
             "Day": "2013-10-16",
             "Time": "16:00 - 22:00",
             "Location": "Foyer",
-            "LocationIndex": "9",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2066,9 +2370,9 @@
             "Id": "Tahngoh5oc",
             "Title": "Genetic Programming for Reverse Engineering (Invited Paper)",
             "ShortTitle": "Genetic Programming for Reverse Engineering (Invited Paper)",
-            "Type": "Plenary",
-            "ShortType": "Plenary",
-            "Key": "wcre13inv-invid1-p",
+            "Type": "Plenary - Keynote",
+            "ShortType": "Plenary - Keynote",
+            "Key": "2013-10-17 09:00 Genetic Programming for Reverse Engineering (Invited Paper)",
             "Day": "2013-10-17",
             "Time": "09:00 - 10:00",
             "Location": "M 001",
@@ -2094,7 +2398,7 @@
             "Day": "2013-10-17",
             "Time": "10:00 - 10:30",
             "Location": "Foyer",
-            "LocationIndex": "9",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2138,7 +2442,7 @@
             "Day": "2013-10-17",
             "Time": "10:30 - 11:45",
             "Location": "D 239",
-            "LocationIndex": "3",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2166,7 +2470,7 @@
             "Day": "2013-10-17",
             "Time": "11:45 - 12:15",
             "Location": "Foyer",
-            "LocationIndex": "9",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2210,7 +2514,7 @@
             "Day": "2013-10-17",
             "Time": "13:30 - 14:30",
             "Location": "Mensa",
-            "LocationIndex": "9",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2282,9 +2586,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Edward Allen",
+            "Name": "Edward B. Allen",
             "Affiliation": "Mississippi State University, USA",
-            "Key": "Edward Allen @ Mississippi State University, USA",
+            "Key": "Edward B. Allen @ Mississippi State University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2313,8 +2617,8 @@
         },
         {
             "Name": "Nicolas Anquetil",
-            "Affiliation": "University of Lille, France",
-            "Key": "Nicolas Anquetil @ University of Lille, France",
+            "Affiliation": "University of Lille, France / INRIA, France",
+            "Key": "Nicolas Anquetil @ University of Lille, France / INRIA, France",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2362,6 +2666,26 @@
             "URLgs": ""
         },
         {
+            "Name": "Alberto Bacchelli",
+            "Affiliation": "Delft University of Technology, Netherlands",
+            "Key": "Alberto Bacchelli @ Delft University of Technology, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Anya Helene Bagge",
+            "Affiliation": "University of Bergen, Norway",
+            "Key": "Anya Helene Bagge @ University of Bergen, Norway",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Ajay Bandi",
             "Affiliation": "Mississippi State University, USA",
             "Key": "Ajay Bandi @ Mississippi State University, USA",
@@ -2373,8 +2697,8 @@
         },
         {
             "Name": "Ishan Banerjee",
-            "Affiliation": "University of Maryland, USA",
-            "Key": "Ishan Banerjee @ University of Maryland, USA",
+            "Affiliation": "University of Maryland at College Park, USA",
+            "Key": "Ishan Banerjee @ University of Maryland at College Park, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2432,6 +2756,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Nicolas Bettenburg",
+            "Affiliation": "Queen's University, Canada",
+            "Key": "Nicolas Bettenburg @ Queen's University, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Indrajit Bhattacharya",
             "Affiliation": "IBM Research, India",
             "Key": "Indrajit Bhattacharya @ IBM Research, India",
@@ -2442,9 +2776,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Mariza Andrade S. Bigonha",
+            "Name": "Mariza Bigonha",
             "Affiliation": "UFMG, Brazil",
-            "Key": "Mariza Andrade S. Bigonha @ UFMG, Brazil",
+            "Key": "Mariza Bigonha @ UFMG, Brazil",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2492,9 +2826,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Gabrielle Burns",
+            "Name": "Gabbie Burns",
             "Affiliation": "Rochester Institute of Technology, USA",
-            "Key": "Gabrielle Burns @ Rochester Institute of Technology, USA",
+            "Key": "Gabbie Burns @ Rochester Institute of Technology, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2632,9 +2966,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Giuseppe Di Lucca",
+            "Name": "Giuseppe Antonio Di Lucca",
             "Affiliation": "University of Sannio, Italy",
-            "Key": "Giuseppe Di Lucca @ University of Sannio, Italy",
+            "Key": "Giuseppe Antonio Di Lucca @ University of Sannio, Italy",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2703,8 +3037,8 @@
         },
         {
             "Name": "Jean-Rémy Falleri",
-            "Affiliation": "Institut Polytechnique de Bordeaux, France",
-            "Key": "Jean-Rémy Falleri @ Institut Polytechnique de Bordeaux, France",
+            "Affiliation": "University of Bordeaux, France",
+            "Key": "Jean-Rémy Falleri @ University of Bordeaux, France",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2712,9 +3046,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Daniel Félix",
+            "Name": "Daniel Felix",
             "Affiliation": "UFMG, Brazil",
-            "Key": "Daniel Félix @ UFMG, Brazil",
+            "Key": "Daniel Felix @ UFMG, Brazil",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2772,6 +3106,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Latifa Guerrouj",
+            "Affiliation": "Polytechnique Montréal, Canada",
+            "Key": "Latifa Guerrouj @ Polytechnique Montréal, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Geer P. Haas",
             "Affiliation": "IBM, Netherlands",
             "Key": "Geer P. Haas @ IBM, Netherlands",
@@ -2785,6 +3129,16 @@
             "Name": "Jurriaan Hage",
             "Affiliation": "Utrecht University, Netherlands",
             "Key": "Jurriaan Hage @ Utrecht University, Netherlands",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sonia Haiduc",
+            "Affiliation": "Florida State University, USA",
+            "Key": "Sonia Haiduc @ Florida State University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2872,9 +3226,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Andre Hora",
+            "Name": "André Hora",
             "Affiliation": "INRIA, France",
-            "Key": "Andre Hora @ INRIA, France",
+            "Key": "André Hora @ INRIA, France",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2905,6 +3259,16 @@
             "Name": "Takashi Ishio",
             "Affiliation": "Osaka University, Japan",
             "Key": "Takashi Ishio @ Osaka University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Fehmi Jaafar",
+            "Affiliation": "Polytechnique Montréal, Canada / Université de Montréal, Canada",
+            "Key": "Fehmi Jaafar @ Polytechnique Montréal, Canada / Université de Montréal, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2972,9 +3336,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Avinash C. Kak",
+            "Name": "Avinash Kak",
             "Affiliation": "Purdue University, USA",
-            "Key": "Avinash C. Kak @ Purdue University, USA",
+            "Key": "Avinash Kak @ Purdue University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3062,9 +3426,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Jakub Kroustek",
+            "Name": "Jakub Křoustek",
             "Affiliation": "Brno University of Technology, Czech Republic",
-            "Key": "Jakub Kroustek @ Brno University of Technology, Czech Republic",
+            "Key": "Jakub Křoustek @ Brno University of Technology, Czech Republic",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3072,9 +3436,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Daniel Krutz",
+            "Name": "Daniel E. Krutz",
             "Affiliation": "Rochester Institute of Technology, USA",
-            "Key": "Daniel Krutz @ Rochester Institute of Technology, USA",
+            "Key": "Daniel E. Krutz @ Rochester Institute of Technology, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3085,16 +3449,6 @@
             "Name": "Shinji Kusumoto",
             "Affiliation": "Osaka University, Japan",
             "Key": "Shinji Kusumoto @ Osaka University, Japan",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Ralf Lämmel",
-            "Affiliation": "",
-            "Key": "Ralf Lämmel @",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3233,8 +3587,8 @@
         },
         {
             "Name": "Atif Memon",
-            "Affiliation": "University of Maryland, USA",
-            "Key": "Atif Memon @ University of Maryland, USA",
+            "Affiliation": "University of Maryland at College Park, USA",
+            "Key": "Atif Memon @ University of Maryland at College Park, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3242,9 +3596,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Luis Miranda",
+            "Name": "Luis Fernando Miranda",
             "Affiliation": "UFMG, Brazil",
-            "Key": "Luis Miranda @ UFMG, Brazil",
+            "Key": "Luis Fernando Miranda @ UFMG, Brazil",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3253,8 +3607,8 @@
         },
         {
             "Name": "Naouel Moha",
-            "Affiliation": "Université de Montréal, Canada",
-            "Key": "Naouel Moha @ Université de Montréal, Canada",
+            "Affiliation": "Université du Québec à Montréal, Canada",
+            "Key": "Naouel Moha @ Université du Québec à Montréal, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3272,9 +3626,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Joao Eduardo Montandon",
+            "Name": "João Eduardo Montandon",
             "Affiliation": "UFMG, Brazil",
-            "Key": "Joao Eduardo Montandon @ UFMG, Brazil",
+            "Key": "João Eduardo Montandon @ UFMG, Brazil",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3313,8 +3667,8 @@
         },
         {
             "Name": "Mathieu Nayrolles",
-            "Affiliation": "Université de Montréal, Canada",
-            "Key": "Mathieu Nayrolles @ Université de Montréal, Canada",
+            "Affiliation": "Université du Québec à Montréal, Canada",
+            "Key": "Mathieu Nayrolles @ Université du Québec à Montréal, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3323,8 +3677,8 @@
         },
         {
             "Name": "Bao N. Nguyen",
-            "Affiliation": "University of Maryland, USA",
-            "Key": "Bao N. Nguyen @ University of Maryland, USA",
+            "Affiliation": "University of Maryland at College Park, USA",
+            "Key": "Bao N. Nguyen @ University of Maryland at College Park, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3362,9 +3716,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Frédéric Painchaud",
+            "Name": "Frederic Painchaud",
             "Affiliation": "Defence R&D Canada, Canada",
-            "Key": "Frédéric Painchaud @ Defence R&D Canada, Canada",
+            "Key": "Frederic Painchaud @ Defence R&D Canada, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3463,8 +3817,8 @@
         },
         {
             "Name": "Bryan Robbins",
-            "Affiliation": "University of Maryland, USA",
-            "Key": "Bryan Robbins @ University of Maryland, USA",
+            "Affiliation": "University of Maryland at College Park, USA",
+            "Key": "Bryan Robbins @ University of Maryland at College Park, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3643,8 +3997,8 @@
         },
         {
             "Name": "Hee Beng Kuan Tan",
-            "Affiliation": "Assoc Prof, Singapore",
-            "Key": "Hee Beng Kuan Tan @ Assoc Prof, Singapore",
+            "Affiliation": "Nanyang Technological University, Singapore",
+            "Key": "Hee Beng Kuan Tan @ Nanyang Technological University, Singapore",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3663,8 +4017,8 @@
         },
         {
             "Name": "Ricardo Terra",
-            "Affiliation": "UFMG, Brazil",
-            "Key": "Ricardo Terra @ UFMG, Brazil",
+            "Affiliation": "UFMG, Brazil / UFSJ, Brazil",
+            "Key": "Ricardo Terra @ UFMG, Brazil / UFSJ, Brazil",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3792,9 +4146,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Byron Williams",
+            "Name": "Byron J. Williams",
             "Affiliation": "Mississippi State University, USA",
-            "Key": "Byron Williams @ Mississippi State University, USA",
+            "Key": "Byron J. Williams @ Mississippi State University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3843,8 +4197,8 @@
         },
         {
             "Name": "Aiko Yamashita",
-            "Affiliation": "Simula Research Laboratory, Norway",
-            "Key": "Aiko Yamashita @ Simula Research Laboratory, Norway",
+            "Affiliation": "Mesan, Norway / Simula Research Laboratory, Norway",
+            "Key": "Aiko Yamashita @ Mesan, Norway / Simula Research Laboratory, Norway",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3865,6 +4219,16 @@
             "Name": "Motahareh Bahrami Zanjani",
             "Affiliation": "Wichita State University, USA",
             "Key": "Motahareh Bahrami Zanjani @ Wichita State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Vadim Zaytsev",
+            "Affiliation": "CWI, Netherlands",
+            "Key": "Vadim Zaytsev @ CWI, Netherlands",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
