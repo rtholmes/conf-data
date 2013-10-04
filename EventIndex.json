@@ -3,6 +3,17 @@
     
 "Events": [
     {
+        "Id" : "ASE2013",
+        "Name" : "ASE 2013",
+        "Version" : 1,
+        "File" : "2013ASE.json",
+        "StartDate" : "11/11/2013",
+        "EndDate" : "11/15/2013",
+        "Description" : "Program for the 2013 IEEE/ACM Automated Software Engineering (ASE)",
+		"Icon" : "2013ASE.png",
+		"Image" : "2013ASE.png"
+	},
+    {
         "Id" : "WCRE2013",
         "Name" : "WCRE 2013",
         "Version" : 1,
