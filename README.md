@@ -24,6 +24,8 @@ In-progress data files can be validated via our test infrastructure (replace TES
 
 ``http://conferoapp.com:8083/?file=TEST-URL``
 
+It is important that the test file be served with content type ``application/json`` or it will fail to load (this is usually a simple change to the web server configuration if it is not supported by default).
+
 Other
 -----
 
