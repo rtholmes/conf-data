@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1380876437,
+    "DataRevision": 1381578706,
     "Preliminary": false,
     "Event": "ASE 2013",
     "Name": "ASE 2013",
@@ -57,24 +57,6 @@
     ],
     "Items": [
         {
-            "Title": "Title Page",
-            "Type": "Frontmatter",
-            "Key": "ase13foreword-fm000-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3D+%22Title+Page%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "",
-            "AffiliationsString": "",
-            "Authors": [
-                "@"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
             "Title": "Message from the Chairs",
             "Type": "Frontmatter",
             "Key": "ase13foreword-fm001-p",
@@ -94,6 +76,60 @@
                 "Saarland University, Germany"
             ],
             "Abstract": "This conference publication contains the proceedings of the 28th IEEE/ACM International Conference on Automated Software Engineering (ASE 2013), held at the Crowne Plaza Cabana Hotel in Palo Alto, California on November 11–15, 2013. The IEEE/ACM Automated Software Engineering (ASE) Conference series is the premier research forum for automating software engineering. Each year, it brings together researchers and practitioners from academia and industry to discuss foundations, techniques and tools for automating the analysis, design, implementation, testing, and maintenance of large software systems.",
+            "Award": ""
+        },
+        {
+            "Title": "BOOM: Experiences in Language and Tool Design for Distributed Systems (Keynote)",
+            "Type": "Keynote paper",
+            "Key": "ase13invited-k1-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJoseph+M.+Hellerstein+%22BOOM%3A+Experiences+in+Language+and+Tool+Design+for+Distributed+Systems+%28Keynote%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Joseph M. Hellerstein",
+            "AffiliationsString": "University of California at Berkeley, USA",
+            "Authors": [
+                "Joseph M. Hellerstein @ University of California at Berkeley, USA"
+            ],
+            "Affiliations": [
+                "University of California at Berkeley, USA"
+            ],
+            "Abstract": "With the rapid expansion of cloud infrastructure and mobile devices, distributed systems have quickly emerged as a dominant computing platform. Distributed systems bring significant complexity to programming, due to platform issues including asynchrony, concurrency, and partial failure. Meanwhile, scalable distributed infrastructure---notably ``NoSQL&#039;&#039; systems---have put additional burdens on programmers by sacrificing traditional infrastructure contracts like linearizable or transactional I/O in favor of high availability. A growing segment of the developer community needs to deal with these issues today, and for the most part developers are still using languages and tools designed for sequential computation on tightly coupled architectures. This has led to software that is increasingly hard to test and hard to trust.  Over the past 5 years, the BOOM project at Berkeley has focused on making it easier to write correct and maintainable code for distributed systems. Our work has taken a number of forms, including the development of the Bloom programming language for distributed systems, tools for testing and checking distributed programs, and the CALM Theorem, which connects programmer level concerns of determinism to system-level concerns about the need for distributed coordination. This talk will reflect on this work, and highlight opportunities for improved collaboration between the software engineering and distributed systems research communities.",
+            "Award": ""
+        },
+        {
+            "Title": "The Challenges of Verification and Validation of Automated Planning Systems (Keynote)",
+            "Type": "Keynote paper",
+            "Key": "ase13invited-k2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJeremy+Frank+%22The+Challenges+of+Verification+and+Validation+of+Automated+Planning+Systems+%28Keynote%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Jeremy Frank",
+            "AffiliationsString": "NASA Ames Research Center, USA",
+            "Authors": [
+                "Jeremy Frank @ NASA Ames Research Center, USA"
+            ],
+            "Affiliations": [
+                "NASA Ames Research Center, USA"
+            ],
+            "Abstract": "Mission planning is central to space mission operations, and has benefited from advances in model-based planning software. A model is a description of the objects, actions, constraints and preferences that the planner reasons over to generate plans. Developing, verifying and validating a planning model is, however, a difficult task. Mission planning constraints and preferences arise from many sources, including simulators and engineering specification documents. As mission constraints evolve, planning domain modelers must add and update model constraints efficiently using the available source data, catching errors quickly, and correcting the model. The consequences of erroneous models are very high, especially in the space operations environment.  We first describe the space operations environment, particularly the role of the mission planning system. We then describe model-based planning, and briefly review the current state of the practice in designing model-based mission planning tools and the challenges facing model developers. We then describe an Interactive Model Development Environment (IMDE) approach to developing mission planning systems. This approach integrates modeling and simulation environments to reduce model editing time, generate simulations automatically to evaluate plans, and identify modeling errors automatically by evaluating simulation output. The IMDE approach was tested on a small subset of the Lunar Atmosphere and Dust Environment Explorer (LADEE) flight software to demonstrate how to develop the LADEE mission planning system.",
+            "Award": ""
+        },
+        {
+            "Title": "Big Problems in Industry (Panel)",
+            "Type": "Panel paper",
+            "Key": "ase13invited-panel1-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJohn+Penix+%22Big+Problems+in+Industry+%28Panel%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "John Penix",
+            "AffiliationsString": "Google, USA",
+            "Authors": [
+                "John Penix @ Google, USA"
+            ],
+            "Affiliations": [
+                "Google, USA"
+            ],
+            "Abstract": "Software Engineering in practice deals with scale in a variety of dimensions. We build large scale systems operating on vast amount of data. We have millions of customers with billions of queries and transactions. We have distributed teams making thousands of changes, running millions of tests and releasing multiple times per day. These dimensions of scale interact to provide challenges for software development tools and processes. The panelists will describe the challenging aspects of scale in their specific problem domains and discuss which software engineering methods work and which leave room for improvement.",
             "Award": ""
         },
         {
@@ -172,13 +208,13 @@
             "Title": "Efficient Data Race Prediction with Incremental Reasoning on Time-Stamped Lock History",
             "Type": "Technical Research Paper",
             "Key": "ase13main-p093-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMalay+Ganai+%22Efficient+Data+Race+Prediction+with+Incremental+Reasoning+on+Time-Stamped+Lock+History%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMalay+K.+Ganai+%22Efficient+Data+Race+Prediction+with+Incremental+Reasoning+on+Time-Stamped+Lock+History%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Malay Ganai",
+            "PersonsString": "Malay K. Ganai",
             "AffiliationsString": "NEC Labs, USA",
             "Authors": [
-                "Malay Ganai @ NEC Labs, USA"
+                "Malay K. Ganai @ NEC Labs, USA"
             ],
             "Affiliations": [
                 "NEC Labs, USA"
@@ -212,15 +248,15 @@
             "Title": "Improving Efficiency of Dynamic Analysis with Dynamic Dependence Summaries",
             "Type": "Technical Research Paper",
             "Key": "ase13main-p295-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DVijay+Krishna+Palepu%2C+Guoqing+Xu%2C+and+James+Jones+%22Improving+Efficiency+of+Dynamic+Analysis+with+Dynamic+Dependence+Summaries%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DVijay+Krishna+Palepu%2C+Guoqing+Xu%2C+and+James+A.+Jones+%22Improving+Efficiency+of+Dynamic+Analysis+with+Dynamic+Dependence+Summaries%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Vijay Krishna Palepu, Guoqing Xu, and James Jones",
+            "PersonsString": "Vijay Krishna Palepu, Guoqing Xu, and James A. Jones",
             "AffiliationsString": "University of California at Irvine, USA",
             "Authors": [
                 "Vijay Krishna Palepu @ University of California at Irvine, USA",
                 "Guoqing Xu @ University of California at Irvine, USA",
-                "James Jones @ University of California at Irvine, USA"
+                "James A. Jones @ University of California at Irvine, USA"
             ],
             "Affiliations": [
                 "University of California at Irvine, USA",
@@ -237,11 +273,11 @@
             "URL": "http%3A%2F%2Ffslweb.cs.illinois.edu%2FFSL%2Fpapers%2F2013%2Fmeredith-rosu-2013-ase%2Fmeredith-rosu-2013-ase-public.pdf",
             "URLvideo": "",
             "URLinfo": "http%3A%2F%2Ffsl.cs.uiuc.edu%2Findex.php%2FEfficient_Parametric_Runtime_Verification_with_Deterministic_String_Rewriting",
-            "PersonsString": "Patrick O'Neil Meredith and Grigore Rosu",
+            "PersonsString": "Patrick Meredith and Grigore Roşu",
             "AffiliationsString": "University of Illinois at Urbana-Champaign, USA",
             "Authors": [
-                "Patrick O'Neil Meredith @ University of Illinois at Urbana-Champaign, USA",
-                "Grigore Rosu @ University of Illinois at Urbana-Champaign, USA"
+                "Patrick Meredith @ University of Illinois at Urbana-Champaign, USA",
+                "Grigore Roşu @ University of Illinois at Urbana-Champaign, USA"
             ],
             "Affiliations": [
                 "University of Illinois at Urbana-Champaign, USA",
@@ -352,16 +388,16 @@
             "PersonsString": "Domenico Cotroneo, Domenico Di Leo, Francesco Fucci, and Roberto Natella",
             "AffiliationsString": "Università degli Studi di Napoli Federico II, Italy; Critiware, Italy",
             "Authors": [
-                "Domenico Cotroneo @ Università degli Studi di Napoli Federico II, Italy",
-                "Domenico Di Leo @ Critiware, Italy",
+                "Domenico Cotroneo @ Università degli Studi di Napoli Federico II, Italy / Critiware, Italy",
+                "Domenico Di Leo @ Università degli Studi di Napoli Federico II, Italy / Critiware, Italy",
                 "Francesco Fucci @ Università degli Studi di Napoli Federico II, Italy",
-                "Roberto Natella @ Università degli Studi di Napoli Federico II, Italy"
+                "Roberto Natella @ Università degli Studi di Napoli Federico II, Italy / Critiware, Italy"
             ],
             "Affiliations": [
+                "Università degli Studi di Napoli Federico II, Italy / Critiware, Italy",
+                "Università degli Studi di Napoli Federico II, Italy / Critiware, Italy",
                 "Università degli Studi di Napoli Federico II, Italy",
-                "Critiware, Italy",
-                "Università degli Studi di Napoli Federico II, Italy",
-                "Università degli Studi di Napoli Federico II, Italy"
+                "Università degli Studi di Napoli Federico II, Italy / Critiware, Italy"
             ],
             "Abstract": "The assessment of operating systems robustness with respect to unexpected or anomalous events is a fundamental requirement for mission-critical systems. Robustness can be tested by deliberately exposing the system to erroneous events during its execution, and then analyzing the OS behavior to evaluate its ability to gracefully handle these events. Since OSs are complex and stateful systems, robustness testing needs to account for the timing of erroneous events, in order to evaluate the robust behavior of the OS under different states. This paper presents SABRINE (StAte-Based Robustness testIng of operatiNg systEms), an approach for state-aware robustness testing of OSs. SABRINE automatically extracts state models from execution traces, and generates a set of test cases that cover different OS states. We evaluate the approach on a Linux-based Real-Time Operating System adopted in the avionic domain. Experimental results show that SABRINE can automatically identify relevant OS states, and find robustness vulnerabilities while keeping low the number of test cases.",
             "Award": ""
@@ -470,15 +506,15 @@
             "Title": "A Study of Repetitiveness of Code Changes in Software Evolution",
             "Type": "Technical Research Paper",
             "Key": "ase13main-p319-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHoan+Anh+Nguyen%2C+Anh+Tuan+Nguyen%2C+Tung+Nguyen%2C+Tien+N.+Nguyen%2C+and+Hridesh+Rajan+%22A+Study+of+Repetitiveness+of+Code+Changes+in+Software+Evolution%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHoan+Anh+Nguyen%2C+Anh+Tuan+Nguyen%2C+Tung+Thanh+Nguyen%2C+Tien+N.+Nguyen%2C+and+Hridesh+Rajan+%22A+Study+of+Repetitiveness+of+Code+Changes+in+Software+Evolution%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Hoan Anh Nguyen, Anh Tuan Nguyen, Tung Nguyen, Tien N. Nguyen, and Hridesh Rajan",
+            "PersonsString": "Hoan Anh Nguyen, Anh Tuan Nguyen, Tung Thanh Nguyen, Tien N. Nguyen, and Hridesh Rajan",
             "AffiliationsString": "Iowa State University, USA",
             "Authors": [
                 "Hoan Anh Nguyen @ Iowa State University, USA",
                 "Anh Tuan Nguyen @ Iowa State University, USA",
-                "Tung Nguyen @ Iowa State University, USA",
+                "Tung Thanh Nguyen @ Iowa State University, USA",
                 "Tien N. Nguyen @ Iowa State University, USA",
                 "Hridesh Rajan @ Iowa State University, USA"
             ],
@@ -630,16 +666,16 @@
             "Title": "Entropy-Based Test Generation for Improved Fault Localization",
             "Type": "Technical Research Paper",
             "Key": "ase13main-p198-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJos%C3%A9+Campos%2C+Rui+Abreu%2C+Gordon+Fraser%2C+and+Marcelo+D%27Amorim+%22Entropy-Based+Test+Generation+for+Improved+Fault+Localization%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJos%C3%A9+Campos%2C+Rui+Abreu%2C+Gordon+Fraser%2C+and+Marcelo+d%27Amorim+%22Entropy-Based+Test+Generation+for+Improved+Fault+Localization%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "José Campos, Rui Abreu, Gordon Fraser, and Marcelo D'Amorim",
+            "PersonsString": "José Campos, Rui Abreu, Gordon Fraser, and Marcelo d'Amorim",
             "AffiliationsString": "University of Porto, Portugal; University of Sheffield, UK; Federal University of Pernambuco, Brazil",
             "Authors": [
                 "José Campos @ University of Porto, Portugal",
                 "Rui Abreu @ University of Porto, Portugal",
                 "Gordon Fraser @ University of Sheffield, UK",
-                "Marcelo D'Amorim @ Federal University of Pernambuco, Brazil"
+                "Marcelo d'Amorim @ Federal University of Pernambuco, Brazil"
             ],
             "Affiliations": [
                 "University of Porto, Portugal",
@@ -824,13 +860,13 @@
             "Title": "Improving Bug Localization using Structured Information Retrieval",
             "Type": "Technical Research Paper",
             "Key": "ase13main-p349-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRipon+Saha%2C+Matthew+Lease%2C+Sarfraz+Khurshid%2C+and+Dewayne+E.+Perry+%22Improving+Bug+Localization+using+Structured+Information+Retrieval%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRipon+K.+Saha%2C+Matthew+Lease%2C+Sarfraz+Khurshid%2C+and+Dewayne+E.+Perry+%22Improving+Bug+Localization+using+Structured+Information+Retrieval%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Ripon Saha, Matthew Lease, Sarfraz Khurshid, and Dewayne E. Perry",
+            "PersonsString": "Ripon K. Saha, Matthew Lease, Sarfraz Khurshid, and Dewayne E. Perry",
             "AffiliationsString": "University of Texas at Austin, USA",
             "Authors": [
-                "Ripon Saha @ University of Texas at Austin, USA",
+                "Ripon K. Saha @ University of Texas at Austin, USA",
                 "Matthew Lease @ University of Texas at Austin, USA",
                 "Sarfraz Khurshid @ University of Texas at Austin, USA",
                 "Dewayne E. Perry @ University of Texas at Austin, USA"
@@ -918,20 +954,20 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Chaorong Guo, Jian Zhang, Jun Yan, Zhiqiang Zhang, and Yanli Zhang",
-            "AffiliationsString": "Institute of Software at Chinese Academy of Sciences, China",
+            "AffiliationsString": "Institute of Software at Chinese Academy of Sciences, China; University of Chinese Academy of Sciences, China",
             "Authors": [
-                "Chaorong Guo @ Institute of Software at Chinese Academy of Sciences, China",
+                "Chaorong Guo @ Institute of Software at Chinese Academy of Sciences, China / University of Chinese Academy of Sciences, China",
                 "Jian Zhang @ Institute of Software at Chinese Academy of Sciences, China",
                 "Jun Yan @ Institute of Software at Chinese Academy of Sciences, China",
-                "Zhiqiang Zhang @ Institute of Software at Chinese Academy of Sciences, China",
-                "Yanli Zhang @ Institute of Software at Chinese Academy of Sciences, China"
+                "Zhiqiang Zhang @ Institute of Software at Chinese Academy of Sciences, China / University of Chinese Academy of Sciences, China",
+                "Yanli Zhang @ Institute of Software at Chinese Academy of Sciences, China / University of Chinese Academy of Sciences, China"
             ],
             "Affiliations": [
+                "Institute of Software at Chinese Academy of Sciences, China / University of Chinese Academy of Sciences, China",
                 "Institute of Software at Chinese Academy of Sciences, China",
                 "Institute of Software at Chinese Academy of Sciences, China",
-                "Institute of Software at Chinese Academy of Sciences, China",
-                "Institute of Software at Chinese Academy of Sciences, China",
-                "Institute of Software at Chinese Academy of Sciences, China"
+                "Institute of Software at Chinese Academy of Sciences, China / University of Chinese Academy of Sciences, China",
+                "Institute of Software at Chinese Academy of Sciences, China / University of Chinese Academy of Sciences, China"
             ],
             "Abstract": "Android phones come with a host of hardware components embedded in them, such as Camera, Media Player and Sensor. Most of these components are exclusive resources or resources consuming more memory/energy than general. And they should be explicitly released by developers. Missing release operations of these resources might cause serious problems such as performance degradation or system crash. These kinds of defects are called resource leaks. This paper focuses on resource leak problems in Android apps, and presents our lightweight static analysis tool called Relda, which can automatically analyze an application’s resource operations and locate the resource leaks. We propose an automatic method for detecting resource leaks based on a modified Function Call Graph, which handles the features of event-driven mobile programming by analyzing the callbacks defined in Android framework. Our experimental data shows that Relda is effective in detecting resource leaks in real Android apps.",
             "Award": ""
@@ -940,15 +976,15 @@
             "Title": "Dangling References in Multi-configuration and Dynamic PHP-Based Web Applications",
             "Type": "Technical Research Paper",
             "Key": "ase13main-p310-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHung+Viet+Nguyen%2C+Hoan+Anh+Nguyen%2C+Tung+Nguyen%2C+Anh+Tuan+Nguyen%2C+and+Tien+N.+Nguyen+%22Dangling+References+in+Multi-configuration+and+Dynamic+PHP-Based+Web+Applications%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHung+Viet+Nguyen%2C+Hoan+Anh+Nguyen%2C+Tung+Thanh+Nguyen%2C+Anh+Tuan+Nguyen%2C+and+Tien+N.+Nguyen+%22Dangling+References+in+Multi-configuration+and+Dynamic+PHP-Based+Web+Applications%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Hung Viet Nguyen, Hoan Anh Nguyen, Tung Nguyen, Anh Tuan Nguyen, and Tien N. Nguyen",
+            "PersonsString": "Hung Viet Nguyen, Hoan Anh Nguyen, Tung Thanh Nguyen, Anh Tuan Nguyen, and Tien N. Nguyen",
             "AffiliationsString": "Iowa State University, USA",
             "Authors": [
                 "Hung Viet Nguyen @ Iowa State University, USA",
                 "Hoan Anh Nguyen @ Iowa State University, USA",
-                "Tung Nguyen @ Iowa State University, USA",
+                "Tung Thanh Nguyen @ Iowa State University, USA",
                 "Anh Tuan Nguyen @ Iowa State University, USA",
                 "Tien N. Nguyen @ Iowa State University, USA"
             ],
@@ -1106,14 +1142,14 @@
             "Title": "Software Analytics for Incident Management of Online Services: An Experience Report",
             "Type": "Experience Paper",
             "Key": "ase13experience-p022-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJian-Guang+Lou%2C+Qing+Wei+Lin%2C+Rui+Ding%2C+Qiang+Fu%2C+Dongmei+Zhang%2C+and+Tao+Xie+%22Software+Analytics+for+Incident+Management+of+Online+Services%3A+An+Experience+Report%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJian-Guang+Lou%2C+Qingwei+Lin%2C+Rui+Ding%2C+Qiang+Fu%2C+Dongmei+Zhang%2C+and+Tao+Xie+%22Software+Analytics+for+Incident+Management+of+Online+Services%3A+An+Experience+Report%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Jian-Guang Lou, Qing Wei Lin, Rui Ding, Qiang Fu, Dongmei Zhang, and Tao Xie",
+            "PersonsString": "Jian-Guang Lou, Qingwei Lin, Rui Ding, Qiang Fu, Dongmei Zhang, and Tao Xie",
             "AffiliationsString": "Microsoft Research, China; University of Illinois at Urbana-Champaign, USA",
             "Authors": [
                 "Jian-Guang Lou @ Microsoft Research, China",
-                "Qing Wei Lin @ Microsoft Research, China",
+                "Qingwei Lin @ Microsoft Research, China",
                 "Rui Ding @ Microsoft Research, China",
                 "Qiang Fu @ Microsoft Research, China",
                 "Dongmei Zhang @ Microsoft Research, China",
@@ -1364,16 +1400,16 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Jesús García-Galán, Pablo Trinidad, and Antonio Ruiz-Cortés",
-            "AffiliationsString": "Universidad de Sevilla, Spain",
+            "AffiliationsString": "University of Seville, Spain",
             "Authors": [
-                "Jesús García-Galán @ Universidad de Sevilla, Spain",
-                "Pablo Trinidad @ Universidad de Sevilla, Spain",
-                "Antonio Ruiz-Cortés @ Universidad de Sevilla, Spain"
+                "Jesús García-Galán @ University of Seville, Spain",
+                "Pablo Trinidad @ University of Seville, Spain",
+                "Antonio Ruiz-Cortés @ University of Seville, Spain"
             ],
             "Affiliations": [
-                "Universidad de Sevilla, Spain",
-                "Universidad de Sevilla, Spain",
-                "Universidad de Sevilla, Spain"
+                "University of Seville, Spain",
+                "University of Seville, Spain",
+                "University of Seville, Spain"
             ],
             "Abstract": "Multi-user configuration is a neglected problem in variability-intensive systems area. The appearance of conflicts among user configurations is a main concern. Current approaches focus on avoiding such conflicts, applying the mutual exclusion principle. However, this perspective has a negative impact on users satisfaction, who cannot make any decision fairly. In this work, we propose an interpretation of multi-user configuration as a game theoretic problem. Game theory is a well-known discipline which analyzes conflicts and cooperation among intelligent rational decision-makers. We present a taxonomy of multi-user configuration approaches, and how they can be interpreted as different problems of game theory. We focus on cooperative game theory to propose and automate a tradeoff-based bargaining approach, as a way to solve the conflicts and maximize user satisfaction at the same time.",
             "Award": ""
@@ -1390,12 +1426,12 @@
             "Authors": [
                 "Nicolas Sannier @ University of Rennes 1, France / Inria, France / Irisa, France",
                 "Mathieu Acher @ University of Rennes 1, France / Inria, France / Irisa, France",
-                "Benoit Baudry @ Inria, France"
+                "Benoit Baudry @ University of Rennes 1, France / Inria, France / Irisa, France"
             ],
             "Affiliations": [
                 "University of Rennes 1, France / Inria, France / Irisa, France",
                 "University of Rennes 1, France / Inria, France / Irisa, France",
-                "Inria, France"
+                "University of Rennes 1, France / Inria, France / Irisa, France"
             ],
             "Abstract": "Product comparison matrices (PCMs) provide a convenient way to document the discriminant features of a family of related products and now abound on the internet. Despite their apparent simplicity, the information present in existing PCMs can be very heterogeneous, partial, ambiguous, hard to exploit by users who desire to choose an appropriate product. Variability Models (VMs) can be employed to formulate in a more precise way the semantics of PCMs and enable automated reasoning such as assisted configuration. Yet, the gap between PCMs and VMs should be precisely understood and automated techniques should support the transition between the two. In this paper, we propose variability patterns that describe PCMs content and conduct an empirical analysis of 300+ PCMs mined from Wikipedia. Our findings are a first step toward better engineering techniques for maintaining and configuring PCMs.",
             "Award": ""
@@ -1408,16 +1444,16 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Timothy Dietrich, Jane Cleland-Huang, and Yonghee Shin",
-            "AffiliationsString": "DePaul University, USA; George Mason University, USA",
+            "AffiliationsString": "DePaul University, USA",
             "Authors": [
                 "Timothy Dietrich @ DePaul University, USA",
                 "Jane Cleland-Huang @ DePaul University, USA",
-                "Yonghee Shin @ George Mason University, USA"
+                "Yonghee Shin @ DePaul University, USA"
             ],
             "Affiliations": [
                 "DePaul University, USA",
                 "DePaul University, USA",
-                "George Mason University, USA"
+                "DePaul University, USA"
             ],
             "Abstract": "In automated requirements traceability, significant improvements can be realized through incorporating user feedback into the trace retrieval process. However, existing feedback techniques are designed to improve results for individual queries. In this paper we present a novel technique designed to extend the benefits of user feedback across multiple trace queries. Our approach, named Trace Query Transformation (TQT), utilizes a novel form of Association Rule Mining to learn a set of query transformation rules which are used to improve the efficacy of future trace queries. We evaluate TQT using two different kinds of training sets. The first represents an initial set of queries directly modified by human analysts, while the second represents a set of queries generated by applying a query optimization process based on initial relevance feedback for trace links between a set of source and target documents. Both techniques are evaluated using requirements from theWorldVista Healthcare system, traced against certification requirements for the Commission for Healthcare Information Technology. Results show that the TQT technique returns significant improvements in the quality of generated trace links.",
             "Award": ""
@@ -1426,17 +1462,17 @@
             "Title": "Environment Rematching: Toward Dependability Improvement for Self-Adaptive Applications",
             "Type": "New Ideas Paper",
             "Key": "ase13newideas-p036-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChang+Xu%2C+Wenhua+Yang%2C+Xiaoxing+Ma%2C+Chun+Cao%2C+and+Jian+Lu+%22Environment+Rematching%3A+Toward+Dependability+Improvement+for+Self-Adaptive+Applications%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChang+Xu%2C+Wenhua+Yang%2C+Xiaoxing+Ma%2C+Chun+Cao%2C+and+Jian+L%C3%BC+%22Environment+Rematching%3A+Toward+Dependability+Improvement+for+Self-Adaptive+Applications%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Chang Xu, Wenhua Yang, Xiaoxing Ma, Chun Cao, and Jian Lu",
+            "PersonsString": "Chang Xu, Wenhua Yang, Xiaoxing Ma, Chun Cao, and Jian Lü",
             "AffiliationsString": "Nanjing University, China",
             "Authors": [
                 "Chang Xu @ Nanjing University, China",
                 "Wenhua Yang @ Nanjing University, China",
                 "Xiaoxing Ma @ Nanjing University, China",
                 "Chun Cao @ Nanjing University, China",
-                "Jian Lu @ Nanjing University, China"
+                "Jian Lü @ Nanjing University, China"
             ],
             "Affiliations": [
                 "Nanjing University, China",
@@ -1579,7 +1615,7 @@
                 "University of Sao Paulo, Brazil",
                 "University of Sao Paulo, Brazil"
             ],
-            "Abstract": "Fault localization is a costly task in the debugging process. Several techniques to automate fault localization have been proposed aiming at reducing effort and time spent. Some techniques use heuristics based on code coverage data. The goal is to indicate program code excerpts more likely to contain faults. The coverage data mostly used in automated debugging is based on white-box unit testing (e.g., statements, basic blocks, predicates). This paper presents a technique which uses integration coverage data to guide the fault localization process. By ranking most suspicious pairs of method invocations, roadmaps - sorted lists of methods to be investigated - are created. At each method, unit coverage (e.g., basic blocks) is used to localize the fault site. Fifty-five bugs of four programs containing 2K to 80K lines of code (LOC) were analyzed. The results indicate that, by using the roadmaps, the effectiveness of the fault localization process are improved: 78% of all the faults are reached within a fixed amount of basic blocks; 40% more than an approach based on the Tarantula technique. Furthermore, fewer blocks have to be investigated until reaching the fault.",
+            "Abstract": "Fault localization is a costly task in the debugging process. Several techniques to automate fault localization have been proposed aiming at reducing effort and time spent. Some techniques use heuristics based on code coverage data. The goal is to indicate program code excerpts more likely to contain faults. The coverage data mostly used in automated debugging is based on white-box unit testing (e.g., statements, basic blocks, predicates). This paper presents a technique which uses integration coverage data to guide the fault localization process. By ranking most suspicious pairs of method invocations, roadmaps - sorted lists of methods to be investigated - are created. At each method, unit coverage (e.g., basic blocks) is used to locate the fault site. Fifty-five bugs of four programs containing 2K to 80K lines of code (LOC) were analyzed. The results indicate that, by using the roadmaps, the effectiveness of the fault localization process are improved: 78% of all the faults are reached within a fixed amount of basic blocks; 40% more than an approach based on the Tarantula technique. Furthermore, fewer blocks have to be investigated until reaching the fault.",
             "Award": ""
         },
         {
@@ -1662,19 +1698,19 @@
             "Title": "Flow Permissions for Android",
             "Type": "New Ideas Paper",
             "Key": "ase13newideas-p296-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDon+Manuel%2C+Vishwas+Nanjundaswamy%2C+Brian+Rosenberg%2C+Feng+Shen%2C+Steve+Ko%2C+Lukasz+Ziarek%2C+and+Shashank+Holavanalli+%22Flow+Permissions+for+Android%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShashank+Holavanalli%2C+Don+Manuel%2C+Vishwas+Nanjundaswamy%2C+Brian+Rosenberg%2C+Feng+Shen%2C+Steven+Y.+Ko%2C+and+Lukasz+Ziarek+%22Flow+Permissions+for+Android%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Don Manuel, Vishwas Nanjundaswamy, Brian Rosenberg, Feng Shen, Steve Ko, Lukasz Ziarek, and Shashank Holavanalli",
+            "PersonsString": "Shashank Holavanalli, Don Manuel, Vishwas Nanjundaswamy, Brian Rosenberg, Feng Shen, Steven Y. Ko, and Lukasz Ziarek",
             "AffiliationsString": "SUNY Buffalo, USA",
             "Authors": [
+                "Shashank Holavanalli @ SUNY Buffalo, USA",
                 "Don Manuel @ SUNY Buffalo, USA",
                 "Vishwas Nanjundaswamy @ SUNY Buffalo, USA",
                 "Brian Rosenberg @ SUNY Buffalo, USA",
                 "Feng Shen @ SUNY Buffalo, USA",
-                "Steve Ko @ SUNY Buffalo, USA",
-                "Lukasz Ziarek @ SUNY Buffalo, USA",
-                "Shashank Holavanalli @ SUNY Buffalo, USA"
+                "Steven Y. Ko @ SUNY Buffalo, USA",
+                "Lukasz Ziarek @ SUNY Buffalo, USA"
             ],
             "Affiliations": [
                 "SUNY Buffalo, USA",
@@ -1756,13 +1792,13 @@
             "Title": "Natural Language Requirements Quality Analysis Based on Business Domain Models",
             "Type": "New Ideas Paper",
             "Key": "ase13newideas-p035-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAnnervaz+K+M%2C+Vikrant+Kaulgud%2C+Shubhashis+Sengupta%2C+and+Milind+Savagaonkar+%22Natural+Language+Requirements+Quality+Analysis+Based+on+Business+Domain+Models%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAnnervaz+K.M.%2C+Vikrant+Kaulgud%2C+Shubhashis+Sengupta%2C+and+Milind+Savagaonkar+%22Natural+Language+Requirements+Quality+Analysis+Based+on+Business+Domain+Models%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Annervaz K M, Vikrant Kaulgud, Shubhashis Sengupta, and Milind Savagaonkar",
+            "PersonsString": "Annervaz K.M., Vikrant Kaulgud, Shubhashis Sengupta, and Milind Savagaonkar",
             "AffiliationsString": "Accenture Technology Labs, India",
             "Authors": [
-                "Annervaz K M @ Accenture Technology Labs, India",
+                "Annervaz K.M. @ Accenture Technology Labs, India",
                 "Vikrant Kaulgud @ Accenture Technology Labs, India",
                 "Shubhashis Sengupta @ Accenture Technology Labs, India",
                 "Milind Savagaonkar @ Accenture Technology Labs, India"
@@ -1808,17 +1844,17 @@
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Hajer Saada, Marianne Huchard, Clémentine Nebut, and Houari Sahraoui",
-            "AffiliationsString": "Université Montpellier 2, France; Université de Montréal, Canada",
+            "AffiliationsString": "Université Montpellier 2, France; CNRS, France; Université de Montréal, Canada",
             "Authors": [
-                "Hajer Saada @ Université Montpellier 2, France",
-                "Marianne Huchard @ Université Montpellier 2, France",
-                "Clémentine Nebut @ Université Montpellier 2, France",
+                "Hajer Saada @ Université Montpellier 2, France / CNRS, France",
+                "Marianne Huchard @ Université Montpellier 2, France / CNRS, France",
+                "Clémentine Nebut @ Université Montpellier 2, France / CNRS, France",
                 "Houari Sahraoui @ Université de Montréal, Canada"
             ],
             "Affiliations": [
-                "Université Montpellier 2, France",
-                "Université Montpellier 2, France",
-                "Université Montpellier 2, France",
+                "Université Montpellier 2, France / CNRS, France",
+                "Université Montpellier 2, France / CNRS, France",
+                "Université Montpellier 2, France / CNRS, France",
                 "Université de Montréal, Canada"
             ],
             "Abstract": "Model Driven Engineering (MDE) is based on a large set of models that are used and manipulated throughout the development cycle. These models are manually or automatically produced and/or exploited using model transformations. To allow engineers to maintain the models and track their changes, recovering transformation traces is essential. In this paper, we propose an automated approach, based on multi-objective optimization, to recover transformation traces between models. Our approach takes as input a source model in the form of a set of fragments (fragments are defined using the source meta-model cardinalities and OCL constraints), and a target model. The recovered transformation traces take the form of many-to-many mappings between the constructs of the two models.",
@@ -1946,12 +1982,12 @@
             "PersonsString": "Alessio Gambi, Waldemar Hummer, and Schahram Dustdar",
             "AffiliationsString": "University of Lugano, Switzerland; Vienna University of Technology, Austria",
             "Authors": [
-                "Alessio Gambi @ University of Lugano, Switzerland",
+                "Alessio Gambi @ University of Lugano, Switzerland / Vienna University of Technology, Austria",
                 "Waldemar Hummer @ Vienna University of Technology, Austria",
                 "Schahram Dustdar @ Vienna University of Technology, Austria"
             ],
             "Affiliations": [
-                "University of Lugano, Switzerland",
+                "University of Lugano, Switzerland / Vienna University of Technology, Austria",
                 "Vienna University of Technology, Austria",
                 "Vienna University of Technology, Austria"
             ],
@@ -2004,15 +2040,15 @@
             "Title": "Crushinator: A Framework towards Game-Independent Testing",
             "Type": "Tool Demo Track",
             "Key": "ase13tools-id13-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChristopher+Schaefer%2C+Hyunsook+Do%2C+and+Brian+Slator+%22Crushinator%3A+A+Framework+towards+Game-Independent+Testing%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChristopher+Schaefer%2C+Hyunsook+Do%2C+and+Brian+M.+Slator+%22Crushinator%3A+A+Framework+towards+Game-Independent+Testing%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Christopher Schaefer, Hyunsook Do, and Brian Slator",
+            "PersonsString": "Christopher Schaefer, Hyunsook Do, and Brian M. Slator",
             "AffiliationsString": "North Dakota State University, USA",
             "Authors": [
                 "Christopher Schaefer @ North Dakota State University, USA",
                 "Hyunsook Do @ North Dakota State University, USA",
-                "Brian Slator @ North Dakota State University, USA"
+                "Brian M. Slator @ North Dakota State University, USA"
             ],
             "Affiliations": [
                 "North Dakota State University, USA",
@@ -2072,13 +2108,13 @@
             "Title": "TRAM: A Tool for Transforming Textual Requirements into Analysis Models",
             "Type": "Tool Demo Track",
             "Key": "ase13tools-id23-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKeletso+Joel+Letsholo%2C+Liping+Zhao%2C+and+Erol-Valeriu+Chioasca+%22TRAM%3A+A+Tool+for+Transforming+Textual+Requirements+into+Analysis+Models%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKeletso+J.+Letsholo%2C+Liping+Zhao%2C+and+Erol-Valeriu+Chioasca+%22TRAM%3A+A+Tool+for+Transforming+Textual+Requirements+into+Analysis+Models%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Keletso Joel Letsholo, Liping Zhao, and Erol-Valeriu Chioasca",
+            "PersonsString": "Keletso J. Letsholo, Liping Zhao, and Erol-Valeriu Chioasca",
             "AffiliationsString": "University of Manchester, UK",
             "Authors": [
-                "Keletso Joel Letsholo @ University of Manchester, UK",
+                "Keletso J. Letsholo @ University of Manchester, UK",
                 "Liping Zhao @ University of Manchester, UK",
                 "Erol-Valeriu Chioasca @ University of Manchester, UK"
             ],
@@ -2098,20 +2134,20 @@
             "URLvideo": "http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8fO9fvQZ9kQ",
             "URLinfo": "",
             "PersonsString": "Nipun Arora, Hui Zhang, Junghwan Rhee, Kenji Yoshihira, and Guofei Jiang",
-            "AffiliationsString": "NEC Labs, USA; ",
+            "AffiliationsString": "NEC Labs, USA",
             "Authors": [
                 "Nipun Arora @ NEC Labs, USA",
-                "Hui Zhang @",
-                "Junghwan Rhee @",
-                "Kenji Yoshihira @",
-                "Guofei Jiang @"
+                "Hui Zhang @ NEC Labs, USA",
+                "Junghwan Rhee @ NEC Labs, USA",
+                "Kenji Yoshihira @ NEC Labs, USA",
+                "Guofei Jiang @ NEC Labs, USA"
             ],
             "Affiliations": [
                 "NEC Labs, USA",
-                "",
-                "",
-                "",
-                ""
+                "NEC Labs, USA",
+                "NEC Labs, USA",
+                "NEC Labs, USA",
+                "NEC Labs, USA"
             ],
             "Abstract": "We introduce a new hybrid instrumentation tool for dynamic application instrumentation called iProbe, which is flexible and has low overhead. iProbe takes a novel 2-stage design, and offloads much of the dynamic instrumentation complexity to an offline compilation stage. It leverages standard compiler flags to introduce “place-holders” for hooks in the program executable. Then it utilizes an efficient user-space “HotPatching” mechanism which modifies the functions to be traced and enables execution of instrumented code in a safe and secure manner. In its evaluation on a micro-benchmark and SPEC CPU2006 benchmark applications, the iProbe prototype achieved the instrumentation overhead an order of magnitude lower than existing state-of-the- art dynamic instrumentation tools like SystemTap and DynInst.",
             "Award": ""
@@ -2209,6 +2245,76 @@
     ],
     "Sessions": [
         {
+            "Id": "Ahwaij6Eij",
+            "Title": "Doctoral Symposium",
+            "ShortTitle": "Doctoral Symposium",
+            "Type": "Doctoral Symposium",
+            "ShortType": "Doctoral Symposium",
+            "Key": "2013-11-11 08:45 Doctoral Symposium",
+            "Day": "2013-11-11",
+            "Time": "08:45 - 17:00",
+            "Location": "Bacchus",
+            "LocationIndex": "5",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ASE13DOCTORAL",
+            "Abstract": "",
+            "Items": [
+                "ase13doctoral-docid2-p",
+                "ase13doctoral-docid4-p",
+                "ase13doctoral-docid5-p",
+                "ase13doctoral-docid7-p",
+                "ase13doctoral-docid8-p"
+            ]
+        },
+        {
+            "Id": "sahV4ahphu",
+            "Title": "Message from the Chairs",
+            "ShortTitle": "Message from the Chairs",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2013-11-13 08:30 Message from the Chairs",
+            "Day": "2013-11-13",
+            "Time": "08:30 - 08:45",
+            "Location": "Medtrn. II, III",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ASE13FOREWORD",
+            "Abstract": "",
+            "Items": [
+                "ase13foreword-fm001-p"
+            ]
+        },
+        {
+            "Id": "Shi7Dip9ti",
+            "Title": "BOOM: Experiences in Language and Tool Design for Distributed Systems (Keynote)",
+            "ShortTitle": "BOOM: Experiences in Language and Tool Design for Distributed Systems (Keynote)",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2013-11-13 08:45 BOOM: Experiences in Language and Tool Design for Distributed Systems (Keynote)",
+            "Day": "2013-11-13",
+            "Time": "08:45 - 10:10",
+            "Location": "Medtrn. II, III",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ASE13INVITED",
+            "Abstract": "",
+            "Items": [
+                "ase13invited-k1-p"
+            ]
+        },
+        {
             "Id": "FauK9aoH4i",
             "Title": "Concurrency",
             "ShortTitle": "Concurrency",
@@ -2217,8 +2323,8 @@
             "Key": "2013-11-13 10:30 Concurrency",
             "Day": "2013-11-13",
             "Time": "10:30 - 12:10",
-            "Location": "Room 1",
-            "LocationIndex": "0",
+            "Location": "Medtrn. II",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2242,8 +2348,8 @@
             "Key": "2013-11-13 10:30 Experience: Software Analysis",
             "Day": "2013-11-13",
             "Time": "10:30 - 12:10",
-            "Location": "Room 2",
-            "LocationIndex": "1",
+            "Location": "Medtrn. III",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2267,8 +2373,8 @@
             "Key": "2013-11-13 13:30 Dynamic Analysis",
             "Day": "2013-11-13",
             "Time": "13:30 - 15:10",
-            "Location": "Room 1",
-            "LocationIndex": "0",
+            "Location": "Medtrn. II",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2292,8 +2398,8 @@
             "Key": "2013-11-13 13:30 New Ideas: Adaptation and Transformation",
             "Day": "2013-11-13",
             "Time": "13:30 - 15:10",
-            "Location": "Room 2",
-            "LocationIndex": "1",
+            "Location": "Medtrn. III",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2321,8 +2427,8 @@
             "Key": "2013-11-13 15:30 Testing",
             "Day": "2013-11-13",
             "Time": "15:30 - 17:10",
-            "Location": "Room 1",
-            "LocationIndex": "0",
+            "Location": "Medtrn. II",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2345,9 +2451,9 @@
             "ShortType": "Tool Demonstrations",
             "Key": "2013-11-13 15:30 Tool Demonstrations",
             "Day": "2013-11-13",
-            "Time": "15:30 - 17:10",
-            "Location": "Room 2",
-            "LocationIndex": "1",
+            "Time": "15:30 - 17:30",
+            "Location": "Medtrn. III",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2372,29 +2478,23 @@
             ]
         },
         {
-            "Id": "sa1ohcah1I",
-            "Title": "Verification",
-            "ShortTitle": "Verification",
-            "Type": "Technical Research Track",
-            "ShortType": "Technical Research Track",
-            "Key": "2013-11-14 08:30 Verification",
-            "Day": "2013-11-14",
-            "Time": "08:30 - 10:10",
-            "Location": "Room 1",
-            "LocationIndex": "0",
+            "Id": "meebaX5eya",
+            "Title": "Welcome Reception",
+            "ShortTitle": "Welcome Reception",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-11-13 18:00 Welcome Reception",
+            "Day": "2013-11-13",
+            "Time": "18:00 - 20:00",
+            "Location": "",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "ASE13MAIN",
-            "Abstract": "",
-            "Items": [
-                "ase13main-p317-p",
-                "ase13main-p336-p",
-                "ase13main-p167-p",
-                "ase13main-p102-p"
-            ]
+            "Comment": "ASE13",
+            "Abstract": ""
         },
         {
             "Id": "Nohloo7soi",
@@ -2405,8 +2505,8 @@
             "Key": "2013-11-14 08:30 Evolution",
             "Day": "2013-11-14",
             "Time": "08:30 - 10:10",
-            "Location": "Room 2",
-            "LocationIndex": "1",
+            "Location": "Medtrn. III",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2422,6 +2522,31 @@
             ]
         },
         {
+            "Id": "sa1ohcah1I",
+            "Title": "Verification",
+            "ShortTitle": "Verification",
+            "Type": "Technical Research Track",
+            "ShortType": "Technical Research Track",
+            "Key": "2013-11-14 08:30 Verification",
+            "Day": "2013-11-14",
+            "Time": "08:30 - 10:10",
+            "Location": "Medtrn. II",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ASE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "ase13main-p317-p",
+                "ase13main-p336-p",
+                "ase13main-p167-p",
+                "ase13main-p102-p"
+            ]
+        },
+        {
             "Id": "eph9IeX8aW",
             "Title": "Generation and Synthesis",
             "ShortTitle": "Generation and Synthesis",
@@ -2430,8 +2555,8 @@
             "Key": "2013-11-14 10:30 Generation and Synthesis",
             "Day": "2013-11-14",
             "Time": "10:30 - 12:10",
-            "Location": "Room 1",
-            "LocationIndex": "0",
+            "Location": "Medtrn. II",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2455,8 +2580,8 @@
             "Key": "2013-11-14 10:30 Experience: Testing and Verification",
             "Day": "2013-11-14",
             "Time": "10:30 - 12:10",
-            "Location": "Room 2",
-            "LocationIndex": "1",
+            "Location": "Medtrn. III",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2472,6 +2597,28 @@
             ]
         },
         {
+            "Id": "xeoh6oth6I",
+            "Title": "Big Problems in Industry (Panel)",
+            "ShortTitle": "Big Problems in Industry (Panel)",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2013-11-14 13:30 Big Problems in Industry (Panel)",
+            "Day": "2013-11-14",
+            "Time": "13:30 - 15:00",
+            "Location": "Medtrn. II, III",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ASE13INVITED",
+            "Abstract": "",
+            "Items": [
+                "ase13invited-panel1-p"
+            ]
+        },
+        {
             "Id": "ieV5Jiumoo",
             "Title": "Recommendations",
             "ShortTitle": "Recommendations",
@@ -2480,8 +2627,8 @@
             "Key": "2013-11-14 15:30 Recommendations",
             "Day": "2013-11-14",
             "Time": "15:30 - 17:10",
-            "Location": "Room 1",
-            "LocationIndex": "0",
+            "Location": "Medtrn. II",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2505,8 +2652,8 @@
             "Key": "2013-11-14 15:30 New Ideas: Testing and Debugging",
             "Day": "2013-11-14",
             "Time": "15:30 - 17:10",
-            "Location": "Room 2",
-            "LocationIndex": "1",
+            "Location": "Medtrn. III",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2526,16 +2673,35 @@
             ]
         },
         {
+            "Id": "eef3Chuz7f",
+            "Title": "Banquet",
+            "ShortTitle": "Banquet",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2013-11-14 19:00 Banquet",
+            "Day": "2013-11-14",
+            "Time": "19:00 - 23:00",
+            "Location": "Computer History Museum",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ASE13",
+            "Abstract": ""
+        },
+        {
             "Id": "fie6ieb6Si",
             "Title": "Security",
             "ShortTitle": "Security",
             "Type": "Technical Research Track",
             "ShortType": "Technical Research Track",
-            "Key": "2013-11-15 09:00 Security",
+            "Key": "2013-11-15 08:45 Security",
             "Day": "2013-11-15",
-            "Time": "09:00 - 10:10",
-            "Location": "Room 1",
-            "LocationIndex": "0",
+            "Time": "08:45 - 10:00",
+            "Location": "Medtrn. II",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2555,11 +2721,11 @@
             "ShortTitle": "New Ideas: Models and Requirements",
             "Type": "New Ideas Track",
             "ShortType": "New Ideas Track",
-            "Key": "2013-11-15 09:00 New Ideas: Models and Requirements",
+            "Key": "2013-11-15 08:45 New Ideas: Models and Requirements",
             "Day": "2013-11-15",
-            "Time": "09:00 - 10:10",
-            "Location": "Room 2",
-            "LocationIndex": "1",
+            "Time": "08:45 - 10:00",
+            "Location": "Medtrn. III",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2577,31 +2743,6 @@
             ]
         },
         {
-            "Id": "zu6shaeQu1",
-            "Title": "Debugging",
-            "ShortTitle": "Debugging",
-            "Type": "Technical Research Track",
-            "ShortType": "Technical Research Track",
-            "Key": "2013-11-15 10:30 Debugging",
-            "Day": "2013-11-15",
-            "Time": "10:30 - 12:10",
-            "Location": "Room 1",
-            "LocationIndex": "0",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ASE13MAIN",
-            "Abstract": "",
-            "Items": [
-                "ase13main-p349-p",
-                "ase13main-p090-p",
-                "ase13main-p237-p",
-                "ase13main-p366-p"
-            ]
-        },
-        {
             "Id": "xach6eiB6i",
             "Title": "Resources",
             "ShortTitle": "Resources",
@@ -2610,8 +2751,8 @@
             "Key": "2013-11-15 10:30 Resources",
             "Day": "2013-11-15",
             "Time": "10:30 - 12:10",
-            "Location": "Room 2",
-            "LocationIndex": "1",
+            "Location": "Medtrn. III",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2627,6 +2768,54 @@
             ]
         },
         {
+            "Id": "zu6shaeQu1",
+            "Title": "Debugging",
+            "ShortTitle": "Debugging",
+            "Type": "Technical Research Track",
+            "ShortType": "Technical Research Track",
+            "Key": "2013-11-15 10:30 Debugging",
+            "Day": "2013-11-15",
+            "Time": "10:30 - 12:10",
+            "Location": "Medtrn. II",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ASE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "ase13main-p349-p",
+                "ase13main-p090-p",
+                "ase13main-p237-p",
+                "ase13main-p366-p"
+            ]
+        },
+        {
+            "Id": "IeGhaMae7u",
+            "Title": "Models and Complexity",
+            "ShortTitle": "Models and Complexity",
+            "Type": "Technical Research Track",
+            "ShortType": "Technical Research Track",
+            "Key": "2013-11-15 13:30 Models and Complexity",
+            "Day": "2013-11-15",
+            "Time": "13:30 - 15:10",
+            "Location": "Medtrn. III",
+            "LocationIndex": "4",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ASE13MAIN",
+            "Abstract": "",
+            "Items": [
+                "ase13main-p209-p",
+                "ase13main-p350-p"
+            ]
+        },
+        {
             "Id": "eiv2Iumeit",
             "Title": "Specification Mining",
             "ShortTitle": "Specification Mining",
@@ -2635,8 +2824,8 @@
             "Key": "2013-11-15 13:30 Specification Mining",
             "Day": "2013-11-15",
             "Time": "13:30 - 15:10",
-            "Location": "Room 1",
-            "LocationIndex": "0",
+            "Location": "Medtrn. II",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2650,26 +2839,25 @@
             ]
         },
         {
-            "Id": "IeGhaMae7u",
-            "Title": "Models and Complexity",
-            "ShortTitle": "Models and Complexity",
-            "Type": "Technical Research Track",
-            "ShortType": "Technical Research Track",
-            "Key": "2013-11-15 13:30 Models and Complexity",
+            "Id": "Ee7aiyaeb6",
+            "Title": "The Challenges of Verification and Validation of Automated Planning Systems (Keynote)",
+            "ShortTitle": "The Challenges of Verification and Validation of Automated Planning Systems (Keynote)",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2013-11-15 15:00 The Challenges of Verification and Validation of Automated Planning Systems (Keynote)",
             "Day": "2013-11-15",
-            "Time": "13:30 - 15:10",
-            "Location": "Room 2",
-            "LocationIndex": "1",
+            "Time": "15:00 - 16:00",
+            "Location": "Medtrn. II, III",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "ASE13MAIN",
+            "Comment": "ASE13INVITED",
             "Abstract": "",
             "Items": [
-                "ase13main-p209-p",
-                "ase13main-p350-p"
+                "ase13invited-k2-p"
             ]
         }
     ],
@@ -2816,8 +3004,8 @@
         },
         {
             "Name": "Benoit Baudry",
-            "Affiliation": "Inria, France",
-            "Key": "Benoit Baudry @ Inria, France",
+            "Affiliation": "University of Rennes 1, France / Inria, France / Irisa, France",
+            "Key": "Benoit Baudry @ University of Rennes 1, France / Inria, France / Irisa, France",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3026,8 +3214,8 @@
         },
         {
             "Name": "Domenico Cotroneo",
-            "Affiliation": "Università degli Studi di Napoli Federico II, Italy",
-            "Key": "Domenico Cotroneo @ Università degli Studi di Napoli Federico II, Italy",
+            "Affiliation": "Università degli Studi di Napoli Federico II, Italy / Critiware, Italy",
+            "Key": "Domenico Cotroneo @ Università degli Studi di Napoli Federico II, Italy / Critiware, Italy",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3065,9 +3253,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Marcelo D'Amorim",
+            "Name": "Marcelo d'Amorim",
             "Affiliation": "Federal University of Pernambuco, Brazil",
-            "Key": "Marcelo D'Amorim @ Federal University of Pernambuco, Brazil",
+            "Key": "Marcelo d'Amorim @ Federal University of Pernambuco, Brazil",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3166,8 +3354,8 @@
         },
         {
             "Name": "Domenico Di Leo",
-            "Affiliation": "Critiware, Italy",
-            "Key": "Domenico Di Leo @ Critiware, Italy",
+            "Affiliation": "Università degli Studi di Napoli Federico II, Italy / Critiware, Italy",
+            "Key": "Domenico Di Leo @ Università degli Studi di Napoli Federico II, Italy / Critiware, Italy",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3325,6 +3513,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Jeremy Frank",
+            "Affiliation": "NASA Ames Research Center, USA",
+            "Key": "Jeremy Frank @ NASA Ames Research Center, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Gordon Fraser",
             "Affiliation": "University of Sheffield, UK",
             "Key": "Gordon Fraser @ University of Sheffield, UK",
@@ -3376,8 +3574,8 @@
         },
         {
             "Name": "Alessio Gambi",
-            "Affiliation": "University of Lugano, Switzerland",
-            "Key": "Alessio Gambi @ University of Lugano, Switzerland",
+            "Affiliation": "University of Lugano, Switzerland / Vienna University of Technology, Austria",
+            "Key": "Alessio Gambi @ University of Lugano, Switzerland / Vienna University of Technology, Austria",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3385,9 +3583,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Malay Ganai",
+            "Name": "Malay K. Ganai",
             "Affiliation": "NEC Labs, USA",
-            "Key": "Malay Ganai @ NEC Labs, USA",
+            "Key": "Malay K. Ganai @ NEC Labs, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3406,8 +3604,8 @@
         },
         {
             "Name": "Jesús García-Galán",
-            "Affiliation": "Universidad de Sevilla, Spain",
-            "Key": "Jesús García-Galán @ Universidad de Sevilla, Spain",
+            "Affiliation": "University of Seville, Spain",
+            "Key": "Jesús García-Galán @ University of Seville, Spain",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3526,8 +3724,8 @@
         },
         {
             "Name": "Chaorong Guo",
-            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China",
-            "Key": "Chaorong Guo @ Institute of Software at Chinese Academy of Sciences, China",
+            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China / University of Chinese Academy of Sciences, China",
+            "Key": "Chaorong Guo @ Institute of Software at Chinese Academy of Sciences, China / University of Chinese Academy of Sciences, China",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3578,6 +3776,16 @@
             "Name": "Jonathan Hellebaut",
             "Affiliation": "Delphi, Luxembourg",
             "Key": "Jonathan Hellebaut @ Delphi, Luxembourg",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Joseph M. Hellerstein",
+            "Affiliation": "University of California at Berkeley, USA",
+            "Key": "Joseph M. Hellerstein @ University of California at Berkeley, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3646,8 +3854,8 @@
         },
         {
             "Name": "Marianne Huchard",
-            "Affiliation": "Université Montpellier 2, France",
-            "Key": "Marianne Huchard @ Université Montpellier 2, France",
+            "Affiliation": "Université Montpellier 2, France / CNRS, France",
+            "Key": "Marianne Huchard @ Université Montpellier 2, France / CNRS, France",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3716,8 +3924,8 @@
         },
         {
             "Name": "Guofei Jiang",
-            "Affiliation": "",
-            "Key": "Guofei Jiang @",
+            "Affiliation": "NEC Labs, USA",
+            "Key": "Guofei Jiang @ NEC Labs, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3775,9 +3983,9 @@
             "URLgs": ""
         },
         {
-            "Name": "James Jones",
+            "Name": "James A. Jones",
             "Affiliation": "University of California at Irvine, USA",
-            "Key": "James Jones @ University of California at Irvine, USA",
+            "Key": "James A. Jones @ University of California at Irvine, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3895,9 +4103,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Annervaz K M",
+            "Name": "Annervaz K.M.",
             "Affiliation": "Accenture Technology Labs, India",
-            "Key": "Annervaz K M @ Accenture Technology Labs, India",
+            "Key": "Annervaz K.M. @ Accenture Technology Labs, India",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3905,9 +4113,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Steve Ko",
+            "Name": "Steven Y. Ko",
             "Affiliation": "SUNY Buffalo, USA",
-            "Key": "Steve Ko @ SUNY Buffalo, USA",
+            "Key": "Steven Y. Ko @ SUNY Buffalo, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3995,9 +4203,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Keletso Joel Letsholo",
+            "Name": "Keletso J. Letsholo",
             "Affiliation": "University of Manchester, UK",
-            "Key": "Keletso Joel Letsholo @ University of Manchester, UK",
+            "Key": "Keletso J. Letsholo @ University of Manchester, UK",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4045,9 +4253,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Qing Wei Lin",
+            "Name": "Qingwei Lin",
             "Affiliation": "Microsoft Research, China",
-            "Key": "Qing Wei Lin @ Microsoft Research, China",
+            "Key": "Qingwei Lin @ Microsoft Research, China",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4125,9 +4333,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Jian Lu",
+            "Name": "Jian Lü",
             "Affiliation": "Nanjing University, China",
-            "Key": "Jian Lu @ Nanjing University, China",
+            "Key": "Jian Lü @ Nanjing University, China",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4275,9 +4483,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Patrick O'Neil Meredith",
+            "Name": "Patrick Meredith",
             "Affiliation": "University of Illinois at Urbana-Champaign, USA",
-            "Key": "Patrick O'Neil Meredith @ University of Illinois at Urbana-Champaign, USA",
+            "Key": "Patrick Meredith @ University of Illinois at Urbana-Champaign, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4366,8 +4574,8 @@
         },
         {
             "Name": "Roberto Natella",
-            "Affiliation": "Università degli Studi di Napoli Federico II, Italy",
-            "Key": "Roberto Natella @ Università degli Studi di Napoli Federico II, Italy",
+            "Affiliation": "Università degli Studi di Napoli Federico II, Italy / Critiware, Italy",
+            "Key": "Roberto Natella @ Università degli Studi di Napoli Federico II, Italy / Critiware, Italy",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4376,8 +4584,8 @@
         },
         {
             "Name": "Clémentine Nebut",
-            "Affiliation": "Université Montpellier 2, France",
-            "Key": "Clémentine Nebut @ Université Montpellier 2, France",
+            "Affiliation": "Université Montpellier 2, France / CNRS, France",
+            "Key": "Clémentine Nebut @ Université Montpellier 2, France / CNRS, France",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4445,9 +4653,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Tung Nguyen",
+            "Name": "Tung Thanh Nguyen",
             "Affiliation": "Iowa State University, USA",
-            "Key": "Tung Nguyen @ Iowa State University, USA",
+            "Key": "Tung Thanh Nguyen @ Iowa State University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4568,6 +4776,16 @@
             "Name": "Xin Peng",
             "Affiliation": "Fudan University, China",
             "Key": "Xin Peng @ Fudan University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "John Penix",
+            "Affiliation": "Google, USA",
+            "Key": "John Penix @ Google, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4716,8 +4934,8 @@
         },
         {
             "Name": "Junghwan Rhee",
-            "Affiliation": "",
-            "Key": "Junghwan Rhee @",
+            "Affiliation": "NEC Labs, USA",
+            "Key": "Junghwan Rhee @ NEC Labs, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4745,9 +4963,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Grigore Rosu",
+            "Name": "Grigore Roşu",
             "Affiliation": "University of Illinois at Urbana-Champaign, USA",
-            "Key": "Grigore Rosu @ University of Illinois at Urbana-Champaign, USA",
+            "Key": "Grigore Roşu @ University of Illinois at Urbana-Champaign, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4766,8 +4984,8 @@
         },
         {
             "Name": "Antonio Ruiz-Cortés",
-            "Affiliation": "Universidad de Sevilla, Spain",
-            "Key": "Antonio Ruiz-Cortés @ Universidad de Sevilla, Spain",
+            "Affiliation": "University of Seville, Spain",
+            "Key": "Antonio Ruiz-Cortés @ University of Seville, Spain",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4796,8 +5014,8 @@
         },
         {
             "Name": "Hajer Saada",
-            "Affiliation": "Université Montpellier 2, France",
-            "Key": "Hajer Saada @ Université Montpellier 2, France",
+            "Affiliation": "Université Montpellier 2, France / CNRS, France",
+            "Key": "Hajer Saada @ Université Montpellier 2, France / CNRS, France",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4815,9 +5033,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Ripon Saha",
+            "Name": "Ripon K. Saha",
             "Affiliation": "University of Texas at Austin, USA",
-            "Key": "Ripon Saha @ University of Texas at Austin, USA",
+            "Key": "Ripon K. Saha @ University of Texas at Austin, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4946,8 +5164,8 @@
         },
         {
             "Name": "Yonghee Shin",
-            "Affiliation": "George Mason University, USA",
-            "Key": "Yonghee Shin @ George Mason University, USA",
+            "Affiliation": "DePaul University, USA",
+            "Key": "Yonghee Shin @ DePaul University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4995,9 +5213,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Brian Slator",
+            "Name": "Brian M. Slator",
             "Affiliation": "North Dakota State University, USA",
-            "Key": "Brian Slator @ North Dakota State University, USA",
+            "Key": "Brian M. Slator @ North Dakota State University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5236,8 +5454,8 @@
         },
         {
             "Name": "Pablo Trinidad",
-            "Affiliation": "Universidad de Sevilla, Spain",
-            "Key": "Pablo Trinidad @ Universidad de Sevilla, Spain",
+            "Affiliation": "University of Seville, Spain",
+            "Key": "Pablo Trinidad @ University of Seville, Spain",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5546,8 +5764,8 @@
         },
         {
             "Name": "Kenji Yoshihira",
-            "Affiliation": "",
-            "Key": "Kenji Yoshihira @",
+            "Affiliation": "NEC Labs, USA",
+            "Key": "Kenji Yoshihira @ NEC Labs, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5586,8 +5804,8 @@
         },
         {
             "Name": "Hui Zhang",
-            "Affiliation": "",
-            "Key": "Hui Zhang @",
+            "Affiliation": "NEC Labs, USA",
+            "Key": "Hui Zhang @ NEC Labs, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5656,8 +5874,8 @@
         },
         {
             "Name": "Yanli Zhang",
-            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China",
-            "Key": "Yanli Zhang @ Institute of Software at Chinese Academy of Sciences, China",
+            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China / University of Chinese Academy of Sciences, China",
+            "Key": "Yanli Zhang @ Institute of Software at Chinese Academy of Sciences, China / University of Chinese Academy of Sciences, China",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -5666,8 +5884,8 @@
         },
         {
             "Name": "Zhiqiang Zhang",
-            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China",
-            "Key": "Zhiqiang Zhang @ Institute of Software at Chinese Academy of Sciences, China",
+            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China / University of Chinese Academy of Sciences, China",
+            "Key": "Zhiqiang Zhang @ Institute of Software at Chinese Academy of Sciences, China / University of Chinese Academy of Sciences, China",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
