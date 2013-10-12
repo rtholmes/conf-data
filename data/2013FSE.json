@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1378025797,
+    "DataRevision": 1381580136,
     "Preliminary": false,
     "Event": "ESEC/FSE 2013",
     "Name": "ESEC/FSE 2013",
@@ -189,7 +189,7 @@
                 "University of Chile, Chile",
                 "Università di Torino, Italy"
             ],
-            "Abstract": "The artifact evaluation committee (AEC) is in charge of evaluating data and software that accompany papers accepted at the ESEC/FSE'13 research track. Authors of more than 40% of the accepted papers have submitted an artifact (22 out of the 51 accepted papers). The AEC has positively evaluated more than 50% of the submitted artifacts. 12 out of the 22 artifacts have been graded as ``met expectations'' or ``exceeded expectations''.",
+            "Abstract": "The artifact evaluation committee (AEC) is in charge of evaluating data and software that accompany papers accepted at the ESEC/FSE&#039;13 research track. Authors of more than 40% of the accepted papers have submitted an artifact (22 out of the 51 accepted papers). The AEC has positively evaluated more than 50% of the submitted artifacts. 12 out of the 22 artifacts have been graded as ``met expectations&#039;&#039; or ``exceeded expectations&#039;&#039;.",
             "Award": ""
         },
         {
@@ -513,7 +513,7 @@
                 "Tel Aviv University, Israel",
                 "Tel Aviv University, Israel"
             ],
-            "Abstract": "Irregular applications often exhibit data-dependent parallelism: Different inputs, and sometimes also different execution phases, enable different levels of parallelism. These changes in available parallelism have motivated work on adaptive concurrency control mechanisms. Existing adaptation techniques mostly learn about available parallelism indirectly, through runtime monitors that detect pathologies (e.g. excessive retries in speculation or high lock contention in mutual exclusion).  We present a novel approach to adaptive parallelization, whereby the effective level of parallelism is predicted directly based on input features, rather than through circumstantial indicators over the execution environment (such as retry rate). This enables adaptation with foresight, based on the input data and not the run prefix. For this, the user specifies input features, which our system then correlates with the amount of available parallelism through offline learning. The resulting prediction rule serves in deployment runs to foresee the available parallelism for a given workload and tune the parallelization system accordingly.  We have implemented our approach in TIGHTFIT, a general framework for input-centric offline adaptation. Our experimental evaluation of TIGHTFIT over two adaptive runtime systems and eight benchmarks provides positive evidence regarding TIGHTFIT's efficacy and accuracy.",
+            "Abstract": "Irregular applications often exhibit data-dependent parallelism: Different inputs, and sometimes also different execution phases, enable different levels of parallelism. These changes in available parallelism have motivated work on adaptive concurrency control mechanisms. Existing adaptation techniques mostly learn about available parallelism indirectly, through runtime monitors that detect pathologies (e.g. excessive retries in speculation or high lock contention in mutual exclusion).  We present a novel approach to adaptive parallelization, whereby the effective level of parallelism is predicted directly based on input features, rather than through circumstantial indicators over the execution environment (such as retry rate). This enables adaptation with foresight, based on the input data and not the run prefix. For this, the user specifies input features, which our system then correlates with the amount of available parallelism through offline learning. The resulting prediction rule serves in deployment runs to foresee the available parallelism for a given workload and tune the parallelization system accordingly.  We have implemented our approach in TIGHTFIT, a general framework for input-centric offline adaptation. Our experimental evaluation of TIGHTFIT over two adaptive runtime systems and eight benchmarks provides positive evidence regarding TIGHTFIT&#039;s efficacy and accuracy.",
             "Award": ""
         },
         {
@@ -535,7 +535,7 @@
                 "IBM Research, India",
                 "IIT Kharagpur, India"
             ],
-            "Abstract": "Dynamic program analysis techniques depend on accurate program traces. Program instrumentation is commonly used to collect these traces, which causes overhead to the program execution. Various techniques have addressed this problem by minimizing the number of probes/witnesses used to collect traces. In this paper, we present a novel distributed trace collection framework wherein, a program is executed multiple times with the same input for different sets of witnesses. The partial traces such obtained are then merged to create the whole program trace. Such divide-and-conquer strategy enables parallel collection of partial traces, thereby reducing the total time of collection. The problem is particularly challenging as arbitrary distribution of witnesses cannot guarantee correct formation of traces. We provide and prove a necessary and sufficient condition for distributing the witnesses which ensures correct formation of trace. Moreover, we describe witness distribution strategies that are suitable for parallel collection. We use the framework to collect traces of field SAP-ABAP programs using breakpoints as witnesses as instrumentation cannot be performed due to practical constraints. To optimize such collection, we extend Ball-Larus' optimal edge-based profiling algorithm to an optimal node-based algorithm. We demonstrate the effectiveness of the framework for collecting traces of SAP-ABAP programs.",
+            "Abstract": "Dynamic program analysis techniques depend on accurate program traces. Program instrumentation is commonly used to collect these traces, which causes overhead to the program execution. Various techniques have addressed this problem by minimizing the number of probes/witnesses used to collect traces. In this paper, we present a novel distributed trace collection framework wherein, a program is executed multiple times with the same input for different sets of witnesses. The partial traces such obtained are then merged to create the whole program trace. Such divide-and-conquer strategy enables parallel collection of partial traces, thereby reducing the total time of collection. The problem is particularly challenging as arbitrary distribution of witnesses cannot guarantee correct formation of traces. We provide and prove a necessary and sufficient condition for distributing the witnesses which ensures correct formation of trace. Moreover, we describe witness distribution strategies that are suitable for parallel collection. We use the framework to collect traces of field SAP-ABAP programs using breakpoints as witnesses as instrumentation cannot be performed due to practical constraints. To optimize such collection, we extend Ball-Larus&#039; optimal edge-based profiling algorithm to an optimal node-based algorithm. We demonstrate the effectiveness of the framework for collecting traces of SAP-ABAP programs.",
             "Award": ""
         },
         {
@@ -631,7 +631,7 @@
                 "Georgia Tech, USA",
                 "Georgia Tech, USA"
             ],
-            "Abstract": "We present a system Dynodroid for generating relevant inputs to unmodified Android apps. Dynodroid views an app as an event-driven program that interacts with its environment by means of a sequence of events through the Android framework. By instrumenting the framework once and for all, Dynodroid monitors the reaction of an app upon each event in a lightweight manner, using it to guide the generation of the next event to the app. Dynodroid also allows interleaving events from machines, which are better at generating a large number of simple inputs, with events from humans, who are better at providing intelligent inputs.  We evaluated Dynodroid on 50 open-source Android apps, and compared it with two prevalent approaches: users manually exercising apps, and Monkey, a popular fuzzing tool. Dynodroid, humans, and Monkey covered 55%, 60%, and 53%, respectively, of each app's Java source code on average. Monkey took 20X more events on average than Dynodroid. Dynodroid also found 9 bugs in 7 of the 50 apps, and 6 bugs in 5 of the top 1,000 free apps on Google Play.",
+            "Abstract": "We present a system Dynodroid for generating relevant inputs to unmodified Android apps. Dynodroid views an app as an event-driven program that interacts with its environment by means of a sequence of events through the Android framework. By instrumenting the framework once and for all, Dynodroid monitors the reaction of an app upon each event in a lightweight manner, using it to guide the generation of the next event to the app. Dynodroid also allows interleaving events from machines, which are better at generating a large number of simple inputs, with events from humans, who are better at providing intelligent inputs.  We evaluated Dynodroid on 50 open-source Android apps, and compared it with two prevalent approaches: users manually exercising apps, and Monkey, a popular fuzzing tool. Dynodroid, humans, and Monkey covered 55%, 60%, and 53%, respectively, of each app&#039;s Java source code on average. Monkey took 20X more events on average than Dynodroid. Dynodroid also found 9 bugs in 7 of the 50 apps, and 6 bugs in 5 of the top 1,000 free apps on Google Play.",
             "Award": "Distinguished Artifact"
         },
         {
@@ -671,7 +671,7 @@
                 "Microsoft Research, India",
                 "Stanford University, USA"
             ],
-            "Abstract": "We show how a test suite for a sequential program can be profitably used to construct a termination proof. In particular, we describe an algorithm TpT for proving termination of a program based on information derived from testing it. TpT iteratively calls two phases: (a) an infer phase, and (b) a validate phase. In the infer phase, machine learning, in particular, linear regression is used to efficiently compute a candidate loop bound for every loop in the program. These loop bounds are verified for correctness by an off-the-shelf checker. If a loop bound is invalid, then the safety checker provides a test or a counterexample that is used to generate more data which is subsequently used by the next infer phase to compute better estimates for loop bounds. On the other hand, if all loop bounds are valid, then we have a proof of termination. We also describe a simple extension to our approach that allows us to infer polynomial loop bounds automatically. We have evaluated TpT on two benchmark sets, micro-benchmarks obtained from recent literature on program termination, and Windows device drivers. Our results are promising -- on the micro-benchmarks, we show that TpT is able to prove termination on 15% more benchmarks than any previously known technique, and our evaluation on Windows device drivers demonstrates TpT's ability to analyze and scale to real world applications.",
+            "Abstract": "We show how a test suite for a sequential program can be profitably used to construct a termination proof. In particular, we describe an algorithm TpT for proving termination of a program based on information derived from testing it. TpT iteratively calls two phases: (a) an infer phase, and (b) a validate phase. In the infer phase, machine learning, in particular, linear regression is used to efficiently compute a candidate loop bound for every loop in the program. These loop bounds are verified for correctness by an off-the-shelf checker. If a loop bound is invalid, then the safety checker provides a test or a counterexample that is used to generate more data which is subsequently used by the next infer phase to compute better estimates for loop bounds. On the other hand, if all loop bounds are valid, then we have a proof of termination. We also describe a simple extension to our approach that allows us to infer polynomial loop bounds automatically. We have evaluated TpT on two benchmark sets, micro-benchmarks obtained from recent literature on program termination, and Windows device drivers. Our results are promising -- on the micro-benchmarks, we show that TpT is able to prove termination on 15% more benchmarks than any previously known technique, and our evaluation on Windows device drivers demonstrates TpT&#039;s ability to analyze and scale to real world applications.",
             "Award": ""
         },
         {
@@ -837,7 +837,7 @@
                 "University of Washington, USA",
                 "University of Washington, USA"
             ],
-            "Abstract": "Developers use analysis tools to help write, debug, and understand software systems under development. A developer's change to the system source code may affect analysis results. Typically, to learn those effects, the developer must explicitly initiate the analysis. This may interrupt the developer's workflow and/or the delay until the developer learns the implications of the change. The situation is even worse for impure analyses — ones that modify the code on which it runs — because such analyses block the developer from working on the code.  This paper presents Codebase Replication, a novel approach to easily convert an offline analysis — even an impure one — into a continuous analysis that informs the developer of the implications of recent changes as quickly as possible after the change is made. Codebase Replication copies the developer's codebase, incrementally keeps this copy codebase in sync with the developer's codebase, makes that copy codebase available for offline analyses to run without disturbing the developer and without the developer's changes disturbing the analyses, and makes analysis results available to be presented to the developer.  We have implemented Codebase Replication in Solstice, an open-source, publicly-available Eclipse plug-in. We have used Solstice to convert three offline analyses — FindBugs, PMD, and unit testing — into continuous ones. Each conversion required on average 436 NCSL and took, on average, 18 hours. Solstice-based analyses experience no more than 2.5 milliseconds of runtime overhead per developer action.",
+            "Abstract": "Developers use analysis tools to help write, debug, and understand software systems under development. A developer&#039;s change to the system source code may affect analysis results. Typically, to learn those effects, the developer must explicitly initiate the analysis. This may interrupt the developer&#039;s workflow and/or the delay until the developer learns the implications of the change. The situation is even worse for impure analyses — ones that modify the code on which it runs — because such analyses block the developer from working on the code.  This paper presents Codebase Replication, a novel approach to easily convert an offline analysis — even an impure one — into a continuous analysis that informs the developer of the implications of recent changes as quickly as possible after the change is made. Codebase Replication copies the developer&#039;s codebase, incrementally keeps this copy codebase in sync with the developer&#039;s codebase, makes that copy codebase available for offline analyses to run without disturbing the developer and without the developer&#039;s changes disturbing the analyses, and makes analysis results available to be presented to the developer.  We have implemented Codebase Replication in Solstice, an open-source, publicly-available Eclipse plug-in. We have used Solstice to convert three offline analyses — FindBugs, PMD, and unit testing — into continuous ones. Each conversion required on average 436 NCSL and took, on average, 18 hours. Solstice-based analyses experience no more than 2.5 milliseconds of runtime overhead per developer action.",
             "Award": ""
         },
         {
@@ -1051,7 +1051,7 @@
                 "SAP, Germany",
                 "Saarland University, Germany"
             ],
-            "Abstract": "Today's enterprise web applications demand very high release cycles---and consequently, frequent tests. Automating these tests typically requires a behavior model: A description of the states the application can be in, the transitions between these states, and the expected results. Furthermore one needs scripts to make the abstract actions (transitions) in the model executable. As specifying such behavior models and writing the necessary scripts manually is a hard task, a possible alternative could be to extract them from existing applications. However, mining such models can be a challenge, in particular because one needs to know when two states are equivalent, as well as how to reach that state. We present ProCrawl (PROcess CRAWLer), a generic approach to mine behavior models from (multi-user) enterprise web applications. ProCrawl observes the behavior of the application through its user interface, generates and executes tests to explore unobserved behavior. In our evaluation of three non-trivial web applications (an open-source shop system, an SAP product compliance application, and an open-source conference manager), ProCrawl produces models that precisely abstract application behavior and which can be directly used for effective model-based regression testing.",
+            "Abstract": "Today&#039;s enterprise web applications demand very high release cycles---and consequently, frequent tests. Automating these tests typically requires a behavior model: A description of the states the application can be in, the transitions between these states, and the expected results. Furthermore one needs scripts to make the abstract actions (transitions) in the model executable. As specifying such behavior models and writing the necessary scripts manually is a hard task, a possible alternative could be to extract them from existing applications. However, mining such models can be a challenge, in particular because one needs to know when two states are equivalent, as well as how to reach that state. We present ProCrawl (PROcess CRAWLer), a generic approach to mine behavior models from (multi-user) enterprise web applications. ProCrawl observes the behavior of the application through its user interface, generates and executes tests to explore unobserved behavior. In our evaluation of three non-trivial web applications (an open-source shop system, an SAP product compliance application, and an open-source conference manager), ProCrawl produces models that precisely abstract application behavior and which can be directly used for effective model-based regression testing.",
             "Award": ""
         },
         {
@@ -1099,7 +1099,7 @@
                 "RWTH Aachen University, Germany",
                 "RWTH Aachen University, Germany"
             ],
-            "Abstract": "We present component and connector (C&C) views, which specify structural properties of component and connector models in an expressive and intuitive way. C&C views provide means to abstract away direct hierarchy, direct connectivity, port names and types, and thus can crosscut the traditional boundaries of the implementation-oriented hierarchical decomposition of systems and sub-systems, and reflect the partial knowledge available to different stakeholders involved in a system's design. As a primary application for C&C views we investigate the synthesis problem: given a C&C views specification, consisting of mandatory, alternative, and negative views, construct a concrete satisfying C&C model, if one exists. We show that the problem is NP-hard and solve it, in a bounded scope, using a reduction to SAT, via Alloy. We further extend the basic problem with support for library components, specification patterns, and architectural styles. The result of synthesis can be used for further exploration, simulation, and refinement of the C&C model or, as the complete, final model itself, for direct code generation. A prototype tool and an evaluation over four example systems with multiple specifications show promising results and suggest interesting future research directions towards a comprehensive development environment for the structure of component and connector designs.",
+            "Abstract": "We present component and connector (C&amp;C) views, which specify structural properties of component and connector models in an expressive and intuitive way. C&amp;C views provide means to abstract away direct hierarchy, direct connectivity, port names and types, and thus can crosscut the traditional boundaries of the implementation-oriented hierarchical decomposition of systems and sub-systems, and reflect the partial knowledge available to different stakeholders involved in a system&#039;s design. As a primary application for C&amp;C views we investigate the synthesis problem: given a C&amp;C views specification, consisting of mandatory, alternative, and negative views, construct a concrete satisfying C&amp;C model, if one exists. We show that the problem is NP-hard and solve it, in a bounded scope, using a reduction to SAT, via Alloy. We further extend the basic problem with support for library components, specification patterns, and architectural styles. The result of synthesis can be used for further exploration, simulation, and refinement of the C&amp;C model or, as the complete, final model itself, for direct code generation. A prototype tool and an evaluation over four example systems with multiple specifications show promising results and suggest interesting future research directions towards a comprehensive development environment for the structure of component and connector designs.",
             "Award": "Artifact Accepted for Presentation"
         },
         {
@@ -1123,7 +1123,7 @@
                 "University College London, UK",
                 "University College London, UK"
             ],
-            "Abstract": "Clone detection finds application in many software engineering  activities such as comprehension and refactoring. However, the  confounding configuration choice problem poses a widely-acknowledged  threat to the validity of previous empirical analyses.  We introduce desktop  and parallelised cloud-deployed versions of a search based solution that finds suitable  configurations for empirical studies.  We evaluate our approach on 6 widely used clone detection tools applied to the  Bellon suite of 8 subject systems. Our evaluation  reports the results of 9.3 million  total executions of a clone  tool; the largest study yet reported.  Our approach finds significantly better configurations  (p < 0.05) than those currently used,  providing evidence that our approach can ameliorate  the confounding configuration choice problem.",
+            "Abstract": "Clone detection finds application in many software engineering  activities such as comprehension and refactoring. However, the  confounding configuration choice problem poses a widely-acknowledged  threat to the validity of previous empirical analyses.  We introduce desktop  and parallelised cloud-deployed versions of a search based solution that finds suitable  configurations for empirical studies.  We evaluate our approach on 6 widely used clone detection tools applied to the  Bellon suite of 8 subject systems. Our evaluation  reports the results of 9.3 million  total executions of a clone  tool; the largest study yet reported.  Our approach finds significantly better configurations  (p &lt; 0.05) than those currently used,  providing evidence that our approach can ameliorate  the confounding configuration choice problem.",
             "Award": ""
         },
         {
@@ -1173,7 +1173,7 @@
                 "University of Molise, Italy",
                 "College of William and Mary, USA"
             ],
-            "Abstract": "During the recent years, the market of mobile software applications (apps) has maintained an impressive upward trajectory. Many small and large software development companies invest considerable resources to target available opportunities. As of today, the markets for such devices feature over 850K+ apps for Android and 900K+ for iOS. Availability, cost, functionality, and usability are just some factors that determine the success or lack of success for a given app. Among the other factors, reliability is an important criteria: users easily get frustrated by repeated failures, crashes, and other bugs; hence, abandoning some apps in favor of others.  This paper reports a study analyzing how the fault- and change-proneness of APIs used by 7,097 (free) Android apps relates to applications' lack of success, estimated from user ratings. Results of this study provide important insights into a crucial issue: making heavy use of fault- and change-prone APIs can negatively impact the success of these apps.",
+            "Abstract": "During the recent years, the market of mobile software applications (apps) has maintained an impressive upward trajectory. Many small and large software development companies invest considerable resources to target available opportunities. As of today, the markets for such devices feature over 850K+ apps for Android and 900K+ for iOS. Availability, cost, functionality, and usability are just some factors that determine the success or lack of success for a given app. Among the other factors, reliability is an important criteria: users easily get frustrated by repeated failures, crashes, and other bugs; hence, abandoning some apps in favor of others.  This paper reports a study analyzing how the fault- and change-proneness of APIs used by 7,097 (free) Android apps relates to applications&#039; lack of success, estimated from user ratings. Results of this study provide important insights into a crucial issue: making heavy use of fault- and change-prone APIs can negatively impact the success of these apps.",
             "Award": ""
         },
         {
@@ -1357,7 +1357,7 @@
                 "University of Illinois at Urbana-Champaign, USA",
                 "Peking University, China"
             ],
-            "Abstract": "Lightweight static bug-detection tools such as FindBugs, PMD, Jlint, and Lint4j detect bugs with the knowledge of generic bug patterns (e.g., objects of java.io.InputStream are not closed in time after used). Besides generic bug patterns, different projects under analysis may have some project-specific bug patterns. For example, in a revision of the Xerces project, the class field \"fDTDHandler\" is dereferenced without proper null-checks, while it could actually be null at runtime. We name such bug patterns directly related to objects instantiated in specific projects as Project-Specific Bug Patterns (PSBPs). Due to lack of such PSBP knowledge, existing tools usually fail in effectively detecting most of this kind of bugs. We name bugs belonging to the same project and sharing the same PSBP as sibling bugs. If some sibling bugs are fixed in a fix revision but some others remain, we treat such fix as an incomplete fix. To address such incomplete fixes, we propose a PSBP-based approach for detecting sibling bugs and implement a tool called Sibling-Bug Detector (SBD). Given a fix revision, SBD first infers the PSBPs implied by the fix revision. Then, based on the inferred PSBPs, SBD detects their related sibling bugs in the same project. To evaluate SBD, we apply it to seven popular open-source projects. Among the 108 warnings reported by SBD, 63 of them have been confirmed as real bugs by the project developers, while two existing popular static detectors (FindBugs and PMD) cannot report most of them.",
+            "Abstract": "Lightweight static bug-detection tools such as FindBugs, PMD, Jlint, and Lint4j detect bugs with the knowledge of generic bug patterns (e.g., objects of java.io.InputStream are not closed in time after used). Besides generic bug patterns, different projects under analysis may have some project-specific bug patterns. For example, in a revision of the Xerces project, the class field &quot;fDTDHandler&quot; is dereferenced without proper null-checks, while it could actually be null at runtime. We name such bug patterns directly related to objects instantiated in specific projects as Project-Specific Bug Patterns (PSBPs). Due to lack of such PSBP knowledge, existing tools usually fail in effectively detecting most of this kind of bugs. We name bugs belonging to the same project and sharing the same PSBP as sibling bugs. If some sibling bugs are fixed in a fix revision but some others remain, we treat such fix as an incomplete fix. To address such incomplete fixes, we propose a PSBP-based approach for detecting sibling bugs and implement a tool called Sibling-Bug Detector (SBD). Given a fix revision, SBD first infers the PSBPs implied by the fix revision. Then, based on the inferred PSBPs, SBD detects their related sibling bugs in the same project. To evaluate SBD, we apply it to seven popular open-source projects. Among the 108 warnings reported by SBD, 63 of them have been confirmed as real bugs by the project developers, while two existing popular static detectors (FindBugs and PMD) cannot report most of them.",
             "Award": ""
         },
         {
@@ -1377,7 +1377,7 @@
                 "National University of Singapore, Singapore",
                 "National University of Singapore, Singapore"
             ],
-            "Abstract": "A bug signature is a set of program elements highlighting the cause or effect of a bug, and provides contextual information for debugging. In order to mine a signature for a buggy program, two sets of execution profiles of the program, one capturing the correct execution and the other capturing the faulty, are examined to identify the program elements contrasting faulty from correct. Signatures solely consisting of control flow transitions have been investigated via discriminative sequence and graph mining algorithms. These signatures might be handicapped in cases where the effect of a bug is not manifested by any deviation in control flow transitions. In this paper, we introduce the notion of predicated bug signature\/ that aims to enhance the predictive power of bug signatures by utilizing both data predicates and control-flow information. We introduce a novel ``discriminative itemset generator'' mining technique to generate succinct\/ signatures which do not contain redundant or irrelevant program elements. Our case studies demonstrate that predicated signatures can hint at more scenarios of bugs where traditional control-flow signatures fail.",
+            "Abstract": "A bug signature is a set of program elements highlighting the cause or effect of a bug, and provides contextual information for debugging. In order to mine a signature for a buggy program, two sets of execution profiles of the program, one capturing the correct execution and the other capturing the faulty, are examined to identify the program elements contrasting faulty from correct. Signatures solely consisting of control flow transitions have been investigated via discriminative sequence and graph mining algorithms. These signatures might be handicapped in cases where the effect of a bug is not manifested by any deviation in control flow transitions. In this paper, we introduce the notion of predicated bug signature\/ that aims to enhance the predictive power of bug signatures by utilizing both data predicates and control-flow information. We introduce a novel ``discriminative itemset generator&#039;&#039; mining technique to generate succinct\/ signatures which do not contain redundant or irrelevant program elements. Our case studies demonstrate that predicated signatures can hint at more scenarios of bugs where traditional control-flow signatures fail.",
             "Award": "Artifact Accepted for Presentation"
         },
         {
@@ -1445,7 +1445,7 @@
                 "Complutense University of Madrid, Spain",
                 "SLD Fredhopper, Netherlands"
             ],
-            "Abstract": "We present the concepts, usage and prototypical implementation of aPET, a test case generation tool for a distributed asynchronous language based on concurrent objects. The system receives as input a program, a selection of methods to be tested, and a set of parameters that include a selection of a coverage criterion. It yields as output a set of test cases which guarantee that the selected coverage criterion is achieved. aPET is completely integrated within the language's IDE via Eclipse. The generated test cases can be displayed in textual mode and, besides, it is possible to generate ABSUnit code (i.e., code runnable in a simple framework similar to JUnit to write repeatable tests). The information yield by aPET can be relevant to spot bugs during program development and also to perform regression testing.",
+            "Abstract": "We present the concepts, usage and prototypical implementation of aPET, a test case generation tool for a distributed asynchronous language based on concurrent objects. The system receives as input a program, a selection of methods to be tested, and a set of parameters that include a selection of a coverage criterion. It yields as output a set of test cases which guarantee that the selected coverage criterion is achieved. aPET is completely integrated within the language&#039;s IDE via Eclipse. The generated test cases can be displayed in textual mode and, besides, it is possible to generate ABSUnit code (i.e., code runnable in a simple framework similar to JUnit to write repeatable tests). The information yield by aPET can be relevant to spot bugs during program development and also to perform regression testing.",
             "Award": ""
         },
         {
@@ -1501,7 +1501,7 @@
                 "University of Waterloo, Canada",
                 "University of Waterloo, Canada"
             ],
-            "Abstract": "We introduce the tool RiTHM (Runtime Time-triggered Heterogeneous Monitoring). RiTHM takes a C program under inspection and a set of LTL properties as input and generates an instrumented C program that is verified at run time by a time-triggered monitor. RiTHM provides two techniques based on static analysis and control theory to minimize instrumentation of the input C program and monitoring intervention. The monitor's verification decision procedure is sound and complete and exploits the GPU many-core technology to speedup and encapsulate monitoring tasks.",
+            "Abstract": "We introduce the tool RiTHM (Runtime Time-triggered Heterogeneous Monitoring). RiTHM takes a C program under inspection and a set of LTL properties as input and generates an instrumented C program that is verified at run time by a time-triggered monitor. RiTHM provides two techniques based on static analysis and control theory to minimize instrumentation of the input C program and monitoring intervention. The monitor&#039;s verification decision procedure is sound and complete and exploits the GPU many-core technology to speedup and encapsulate monitoring tasks.",
             "Award": ""
         },
         {
@@ -1665,7 +1665,7 @@
                 "University of Massachusetts at Amherst, USA",
                 "University of Massachusetts at Amherst, USA"
             ],
-            "Abstract": "Today, systems rely as heavily on data as on the software that manipulates those data. Errors in these systems are incredibly costly, annually resulting in multi-billion dollar losses, and, on multiple occasions, in death. While software debugging and testing have received heavy research attention, less effort has been devoted to data debugging: discovering system errors caused by well-formed but incorrect data. In this paper, we propose continuous data testing: using otherwise-idle CPU cycles to run test queries, in the background, as a user or database administrator modifies a database. This technique notifies the user or administrator about a data bug as quickly as possible after that bug is introduced, leading to at least three benefits: (1) The bug is discovered quickly and can be fixed before it is likely to cause a problem. (2) The bug is discovered while the relevant change is fresh in the user's or administrator's mind, increasing the chance that the underlying cause of the bug, as opposed to only the discovered side-effect, is fixed. (3) When poor documentation or company policies contribute to bugs, discovering the bug quickly is likely to identify these contributing factors, facilitating updating documentation and policies to prevent similar bugs in the future. We describe the problem space and potential benefits of continuous data testing, our vision for the technique, challenges we encountered, and our prototype implementation for PostgreSQL. The prototype's low overhead shows promise that continuous data testing can address the important problem of data debugging.",
+            "Abstract": "Today, systems rely as heavily on data as on the software that manipulates those data. Errors in these systems are incredibly costly, annually resulting in multi-billion dollar losses, and, on multiple occasions, in death. While software debugging and testing have received heavy research attention, less effort has been devoted to data debugging: discovering system errors caused by well-formed but incorrect data. In this paper, we propose continuous data testing: using otherwise-idle CPU cycles to run test queries, in the background, as a user or database administrator modifies a database. This technique notifies the user or administrator about a data bug as quickly as possible after that bug is introduced, leading to at least three benefits: (1) The bug is discovered quickly and can be fixed before it is likely to cause a problem. (2) The bug is discovered while the relevant change is fresh in the user&#039;s or administrator&#039;s mind, increasing the chance that the underlying cause of the bug, as opposed to only the discovered side-effect, is fixed. (3) When poor documentation or company policies contribute to bugs, discovering the bug quickly is likely to identify these contributing factors, facilitating updating documentation and policies to prevent similar bugs in the future. We describe the problem space and potential benefits of continuous data testing, our vision for the technique, challenges we encountered, and our prototype implementation for PostgreSQL. The prototype&#039;s low overhead shows promise that continuous data testing can address the important problem of data debugging.",
             "Award": ""
         },
         {
@@ -1709,7 +1709,7 @@
                 "University of Manitoba, Canada",
                 "University of Waterloo, Canada"
             ],
-            "Abstract": "Mutation testing can be used to measure test suite quality in two ways: by treating the kill score as a quality metric, or by treating each surviving, non-equivalent mutant as an indicator of an inadequacy in the test suite. The first technique relies on the assumption that the mutation score is highly correlated with the suite's real fault detection rate, which is not well supported by the literature. The second technique relies only on the weaker assumption that the \"interesting\" mutants (i.e., the ones that indicate an inadequacy in the suite) are in the set of surviving mutants. Using the second technique also makes improving the suite straightforward.  Unfortunately, mutation testing has a performance problem. At least part of the test suite must be run on every mutant, meaning mutation testing can be too slow for practical use. Previous work has addressed this by reducing the number of mutants to evaluate in various ways, including selecting a random subset of them. However, reducing the set of mutants by random reduction is suboptimal for developers using the second technique described above, since random reduction will eliminate many of the interesting mutants.  We propose a new reduction method that supports the use of the second technique by reducing the set of mutants to those generated by altering files that have contained many faults in the past. We performed a pilot study that suggests that this reduction method preferentially chooses mutants that will survive mutation testing; that is, it preserves a greater number of interesting mutants than random reduction does.",
+            "Abstract": "Mutation testing can be used to measure test suite quality in two ways: by treating the kill score as a quality metric, or by treating each surviving, non-equivalent mutant as an indicator of an inadequacy in the test suite. The first technique relies on the assumption that the mutation score is highly correlated with the suite&#039;s real fault detection rate, which is not well supported by the literature. The second technique relies only on the weaker assumption that the &quot;interesting&quot; mutants (i.e., the ones that indicate an inadequacy in the suite) are in the set of surviving mutants. Using the second technique also makes improving the suite straightforward.  Unfortunately, mutation testing has a performance problem. At least part of the test suite must be run on every mutant, meaning mutation testing can be too slow for practical use. Previous work has addressed this by reducing the number of mutants to evaluate in various ways, including selecting a random subset of them. However, reducing the set of mutants by random reduction is suboptimal for developers using the second technique described above, since random reduction will eliminate many of the interesting mutants.  We propose a new reduction method that supports the use of the second technique by reducing the set of mutants to those generated by altering files that have contained many faults in the past. We performed a pilot study that suggests that this reduction method preferentially chooses mutants that will survive mutation testing; that is, it preserves a greater number of interesting mutants than random reduction does.",
             "Award": ""
         },
         {
@@ -1875,7 +1875,7 @@
                 "TU Munich, Germany",
                 "TU Munich, Germany"
             ],
-            "Abstract": "Emotions play an important role in determining work results and how team members collaborate within a project. When working in large, distributed teams, members can lose awareness of the emotional state of the project. We propose an approach to improve emotional awareness in software development teams by means of quantitative emotion summaries. Our approach automatically extracts and summarizes emotions expressed in collaboration artifacts by combining probabilistic topic modeling with lexical sentiment analysis techniques. We applied the approach to 1000 collaboration artifacts produced by three development teams in a three month period. Interviews with the teams' project leaders suggest that the proposed emotion summaries have a good correlation with the emotional state of the project, and could be useful for improving emotional awareness. However, the interviews also indicate that the current state of the summaries is not detailed enough and further improvements are needed.",
+            "Abstract": "Emotions play an important role in determining work results and how team members collaborate within a project. When working in large, distributed teams, members can lose awareness of the emotional state of the project. We propose an approach to improve emotional awareness in software development teams by means of quantitative emotion summaries. Our approach automatically extracts and summarizes emotions expressed in collaboration artifacts by combining probabilistic topic modeling with lexical sentiment analysis techniques. We applied the approach to 1000 collaboration artifacts produced by three development teams in a three month period. Interviews with the teams&#039; project leaders suggest that the proposed emotion summaries have a good correlation with the emotional state of the project, and could be useful for improving emotional awareness. However, the interviews also indicate that the current state of the summaries is not detailed enough and further improvements are needed.",
             "Award": ""
         },
         {
@@ -1981,7 +1981,7 @@
                 "Avaya Labs Research, USA",
                 "Avaya Labs Research, USA"
             ],
-            "Abstract": "As the development of software products frequently transitions  among globally distributed teams, the knowledge about the source  code, design decisions, original requirements, and the history of  troublesome areas gets lost. A new team faces tremendous  challenges to regain that knowledge. In numerous projects we  observed that only 1% of project files are involved in more than  60% of the customer reported defects (CFDs), thus focusing  quality improvement on such files can greatly reduce the risk of  poor product quality. We describe a mostly automated approach  that annotates the source code at the file and module level with  the historic information from multiple version control, issue  tracking, and an organization's directory systems. Risk factors  (e.g, past changes and authors who left the project) are  identified via a regression model and the riskiest areas undergo a  structured evaluation by experts. The results are presented via a  web-based tool and project experts are then trained how to use the  tool in conjunction with a checklist to determine risk remediation  actions for each risky file. We have deployed the approach in  seven projects in Avaya and are continuing deployment to the  remaining projects as we are evaluating the results of earlier  deployments. The approach is particularly helpful to focus quality  improvement effort for new releases of deployed products in a  resource-constrained environment.",
+            "Abstract": "As the development of software products frequently transitions  among globally distributed teams, the knowledge about the source  code, design decisions, original requirements, and the history of  troublesome areas gets lost. A new team faces tremendous  challenges to regain that knowledge. In numerous projects we  observed that only 1% of project files are involved in more than  60% of the customer reported defects (CFDs), thus focusing  quality improvement on such files can greatly reduce the risk of  poor product quality. We describe a mostly automated approach  that annotates the source code at the file and module level with  the historic information from multiple version control, issue  tracking, and an organization&#039;s directory systems. Risk factors  (e.g, past changes and authors who left the project) are  identified via a regression model and the riskiest areas undergo a  structured evaluation by experts. The results are presented via a  web-based tool and project experts are then trained how to use the  tool in conjunction with a checklist to determine risk remediation  actions for each risky file. We have deployed the approach in  seven projects in Avaya and are continuing deployment to the  remaining projects as we are evaluating the results of earlier  deployments. The approach is particularly helpful to focus quality  improvement effort for new releases of deployed products in a  resource-constrained environment.",
             "Award": ""
         },
         {
@@ -2226,6 +2226,7 @@
                 "Peri Tarr @"
             ],
             "Affiliations": [
+                "",
                 ""
             ],
             "Abstract": "",
@@ -2245,6 +2246,7 @@
                 "Ahmed E. Hassan @"
             ],
             "Affiliations": [
+                "",
                 ""
             ],
             "Abstract": "",
@@ -2265,6 +2267,8 @@
                 "Meiyappan Nagappan @"
             ],
             "Affiliations": [
+                "",
+                "",
                 ""
             ],
             "Abstract": "",
@@ -2284,6 +2288,7 @@
                 "Satish Chandra @"
             ],
             "Affiliations": [
+                "",
                 ""
             ],
             "Abstract": "",
@@ -2340,6 +2345,8 @@
                 "Carl Worms @"
             ],
             "Affiliations": [
+                "",
+                "",
                 ""
             ],
             "Abstract": "",
@@ -2357,7 +2364,7 @@
             "Day": "2013-08-18",
             "Time": "09:30 - 18:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "2",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2376,7 +2383,7 @@
             "Day": "2013-08-18",
             "Time": "11:00 - 11:30",
             "Location": "Foyer",
-            "LocationIndex": "2",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2395,7 +2402,7 @@
             "Day": "2013-08-18",
             "Time": "13:00 - 14:30",
             "Location": "Foyer",
-            "LocationIndex": "2",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2414,7 +2421,7 @@
             "Day": "2013-08-18",
             "Time": "16:00 - 16:30",
             "Location": "Foyer",
-            "LocationIndex": "2",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2433,7 +2440,7 @@
             "Day": "2013-08-19",
             "Time": "09:30 - 18:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "2",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2452,7 +2459,7 @@
             "Day": "2013-08-19",
             "Time": "09:30 - 18:00",
             "Location": "Pavlovsky Hall",
-            "LocationIndex": "2",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2471,7 +2478,7 @@
             "Day": "2013-08-19",
             "Time": "09:30 - 18:00",
             "Location": "Session Hall",
-            "LocationIndex": "2",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2490,7 +2497,7 @@
             "Day": "2013-08-19",
             "Time": "11:00 - 11:30",
             "Location": "Foyer",
-            "LocationIndex": "2",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2509,7 +2516,7 @@
             "Day": "2013-08-19",
             "Time": "13:00 - 14:30",
             "Location": "Foyer",
-            "LocationIndex": "2",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2528,7 +2535,7 @@
             "Day": "2013-08-19",
             "Time": "14:30 - 18:00",
             "Location": "Big Hall",
-            "LocationIndex": "2",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2547,7 +2554,7 @@
             "Day": "2013-08-19",
             "Time": "16:00 - 16:30",
             "Location": "Foyer",
-            "LocationIndex": "2",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2566,7 +2573,7 @@
             "Day": "2013-08-20",
             "Time": "09:30 - 11:00",
             "Location": "Session Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2589,7 +2596,7 @@
             "Day": "2013-08-20",
             "Time": "09:30 - 18:00",
             "Location": "Big Hall",
-            "LocationIndex": "2",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2608,7 +2615,7 @@
             "Day": "2013-08-20",
             "Time": "09:30 - 13:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "2",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2627,7 +2634,7 @@
             "Day": "2013-08-20",
             "Time": "09:30 - 11:00",
             "Location": "Mariinsky Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2635,8 +2642,8 @@
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
-             "Items": [
-                 "Emad Shihab; Ahmed E. Hassan @  : Software Engineering for Mobile Apps: Research Accomplishments and Future Challenges"
+            "Items": [
+                "Emad Shihab; Ahmed E. Hassan @  : Software Engineering for Mobile Apps: Research Accomplishments and Future Challenges"
             ]
         },
         {
@@ -2649,7 +2656,7 @@
             "Day": "2013-08-20",
             "Time": "09:30 - 11:00",
             "Location": "Pavlovsky Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2657,8 +2664,8 @@
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
-             "Items": [
-                 "Murray Cantor; Peri Tarr @  : Using Continuous Prediction and Tradeoffs to Achieve Project Success"
+            "Items": [
+                "Murray Cantor; Peri Tarr @  : Using Continuous Prediction and Tradeoffs to Achieve Project Success"
             ]
         },
         {
@@ -2671,7 +2678,7 @@
             "Day": "2013-08-20",
             "Time": "11:00 - 11:30",
             "Location": "Foyer",
-            "LocationIndex": "0",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2690,7 +2697,7 @@
             "Day": "2013-08-20",
             "Time": "11:30 - 13:00",
             "Location": "Session Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2713,7 +2720,7 @@
             "Day": "2013-08-20",
             "Time": "11:30 - 13:00",
             "Location": "Mariinsky Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2721,8 +2728,8 @@
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
-             "Items": [
-                 "Audris Mockus; Ahmed E. Hassan; Meiyappan Nagappan @  : Statistics in Software Engineering: Pitfalls and Good Practices"
+            "Items": [
+                "Audris Mockus; Ahmed E. Hassan; Meiyappan Nagappan @  : Statistics in Software Engineering: Pitfalls and Good Practices"
             ]
         },
         {
@@ -2735,7 +2742,7 @@
             "Day": "2013-08-20",
             "Time": "13:00 - 14:30",
             "Location": "Foyer",
-            "LocationIndex": "0",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2754,7 +2761,7 @@
             "Day": "2013-08-20",
             "Time": "14:30 - 16:00",
             "Location": "Session Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2777,7 +2784,7 @@
             "Day": "2013-08-20",
             "Time": "14:30 - 16:00",
             "Location": "Mariinsky Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2785,8 +2792,8 @@
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
-             "Items": [
-                 "John Britton @  : Git &amp; GitHub Foundations for Educators"
+            "Items": [
+                "John Britton @  : Git & GitHub Foundations for Educators"
             ]
         },
         {
@@ -2799,7 +2806,7 @@
             "Day": "2013-08-20",
             "Time": "14:30 - 16:00",
             "Location": "Pavlovsky Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2807,8 +2814,8 @@
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
-             "Items": [
-                 "Abhik Roychoudhury; Satish Chandra @  : Symbolic Execution For Program Debugging and Repair"
+            "Items": [
+                "Abhik Roychoudhury; Satish Chandra @  : Symbolic Execution For Program Debugging and Repair"
             ]
         },
         {
@@ -2821,7 +2828,7 @@
             "Day": "2013-08-20",
             "Time": "16:00 - 16:30",
             "Location": "Foyer",
-            "LocationIndex": "0",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2840,7 +2847,7 @@
             "Day": "2013-08-20",
             "Time": "16:30 - 18:00",
             "Location": "Session Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2862,7 +2869,7 @@
             "Day": "2013-08-20",
             "Time": "16:30 - 18:00",
             "Location": "Mariinsky Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2870,8 +2877,8 @@
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
-             "Items": [
-                 "Massimiliano Di Penta; Jens Knodel; Carl Worms @  : Do&#039;s and Don&#039;ts for Empirical Software Engineering: Three different perspectives"
+            "Items": [
+                "Massimiliano Di Penta; Jens Knodel; Carl Worms @  : Do's and Don'ts for Empirical Software Engineering: Three different perspectives"
             ]
         },
         {
@@ -2884,7 +2891,7 @@
             "Day": "2013-08-20",
             "Time": "16:30 - 18:00",
             "Location": "Pavlovsky Hall",
-            "LocationIndex": "3",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2892,8 +2899,8 @@
             "Workshop": false,
             "Comment": "FSE13",
             "Abstract": "",
-             "Items": [
-                 "Yu David Liu @  : Energy-Aware and Energy-Efficient Software"
+            "Items": [
+                "Yu David Liu @  : Energy-Aware and Energy-Efficient Software"
             ]
         },
         {
@@ -2906,7 +2913,7 @@
             "Day": "2013-08-20",
             "Time": "18:00 - 19:00",
             "Location": "Column Hall and Foyer",
-            "LocationIndex": "0",
+            "LocationIndex": "7",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2925,7 +2932,7 @@
             "Day": "2013-08-20",
             "Time": "19:00 - 21:00",
             "Location": "Mariinsky Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2944,7 +2951,7 @@
             "Day": "2013-08-21",
             "Time": "09:00 - 09:30",
             "Location": "Column Hall",
-            "LocationIndex": "10",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2959,11 +2966,11 @@
             "ShortTitle": "A Logical Revolution (Keynote)",
             "Type": "Plenary",
             "ShortType": "Plenary",
-            "Key": "fse13keynotes-k1-p",
+            "Key": "2013-08-21 09:30 A Logical Revolution (Keynote)",
             "Day": "2013-08-21",
             "Time": "09:30 - 11:00",
             "Location": "Column Hall",
-            "LocationIndex": "10",
+            "LocationIndex": "0",
             "ChairsString": "Bertrand Meyer",
             "Chairs": [
                 "Bertrand Meyer @"
@@ -2986,7 +2993,7 @@
             "Day": "2013-08-21",
             "Time": "10:30 - 11:00",
             "Location": "Foyer",
-            "LocationIndex": "0",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3005,7 +3012,7 @@
             "Day": "2013-08-21",
             "Time": "11:00 - 12:15",
             "Location": "Heraldic Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "3",
             "ChairsString": "Alessandro Orso",
             "Chairs": [
                 "Alessandro Orso @"
@@ -3030,7 +3037,7 @@
             "Day": "2013-08-21",
             "Time": "11:00 - 12:15",
             "Location": "Session Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "1",
             "ChairsString": "Elisabetta Di Nitto",
             "Chairs": [
                 "Elisabetta Di Nitto @"
@@ -3055,7 +3062,7 @@
             "Day": "2013-08-21",
             "Time": "11:00 - 12:15",
             "Location": "Big Hall",
-            "LocationIndex": "6",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3079,7 +3086,7 @@
             "Day": "2013-08-21",
             "Time": "12:15 - 13:45",
             "Location": "Foyer",
-            "LocationIndex": "0",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3098,7 +3105,7 @@
             "Day": "2013-08-21",
             "Time": "13:45 - 15:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "3",
             "ChairsString": "Paola Inverardi",
             "Chairs": [
                 "Paola Inverardi @"
@@ -3123,7 +3130,7 @@
             "Day": "2013-08-21",
             "Time": "13:45 - 15:00",
             "Location": "Session Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "1",
             "ChairsString": "Massimiliano Di Penta",
             "Chairs": [
                 "Massimiliano Di Penta @"
@@ -3148,7 +3155,7 @@
             "Day": "2013-08-21",
             "Time": "13:45 - 15:00",
             "Location": "Big Hall",
-            "LocationIndex": "6",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3172,7 +3179,7 @@
             "Day": "2013-08-21",
             "Time": "15:15 - 16:30",
             "Location": "Heraldic Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "3",
             "ChairsString": "David Rosenblum",
             "Chairs": [
                 "David Rosenblum @"
@@ -3197,7 +3204,7 @@
             "Day": "2013-08-21",
             "Time": "15:15 - 16:30",
             "Location": "Session Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "1",
             "ChairsString": "Tony Wasserman",
             "Chairs": [
                 "Tony Wasserman @"
@@ -3222,7 +3229,7 @@
             "Day": "2013-08-21",
             "Time": "15:15 - 16:30",
             "Location": "Big Hall",
-            "LocationIndex": "6",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3246,7 +3253,7 @@
             "Day": "2013-08-21",
             "Time": "16:30 - 17:00",
             "Location": "Foyer",
-            "LocationIndex": "0",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3261,11 +3268,11 @@
             "ShortTitle": "Empirical Answers to Fundamental Software Engineering Problems (Panel)",
             "Type": "Panels",
             "ShortType": "Panels",
-            "Key": "fse13panels-p1-p",
+            "Key": "2013-08-21 17:00 Empirical Answers to Fundamental Software Engineering Problems (Panel)",
             "Day": "2013-08-21",
             "Time": "17:00 - 18:15",
             "Location": "Column Hall",
-            "LocationIndex": "10",
+            "LocationIndex": "0",
             "ChairsString": "Bertrand Meyer",
             "Chairs": [
                 "Bertrand Meyer @"
@@ -3288,7 +3295,7 @@
             "Day": "2013-08-21",
             "Time": "18:15 - 18:45",
             "Location": "Column Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3303,11 +3310,11 @@
             "ShortTitle": "Producing Software by Integration: Challenges and Research Directions (Keynote)",
             "Type": "Plenary",
             "ShortType": "Plenary",
-            "Key": "fse13keynotes-k2-p",
+            "Key": "2013-08-22 09:30 Producing Software by Integration: Challenges and Research Directions (Keynote)",
             "Day": "2013-08-22",
             "Time": "09:30 - 11:00",
             "Location": "Column Hall",
-            "LocationIndex": "10",
+            "LocationIndex": "0",
             "ChairsString": "Bertrand Meyer",
             "Chairs": [
                 "Bertrand Meyer @"
@@ -3330,7 +3337,7 @@
             "Day": "2013-08-22",
             "Time": "10:30 - 11:00",
             "Location": "Foyer",
-            "LocationIndex": "0",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3349,7 +3356,7 @@
             "Day": "2013-08-22",
             "Time": "11:00 - 12:15",
             "Location": "Session Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "1",
             "ChairsString": "Nick Puntikov",
             "Chairs": [
                 "Nick Puntikov @"
@@ -3369,7 +3376,7 @@
             "Day": "2013-08-22",
             "Time": "11:00 - 12:15",
             "Location": "Heraldic Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "3",
             "ChairsString": "Antonia Bertolino",
             "Chairs": [
                 "Antonia Bertolino @"
@@ -3394,7 +3401,7 @@
             "Day": "2013-08-22",
             "Time": "11:00 - 12:15",
             "Location": "Big Hall",
-            "LocationIndex": "6",
+            "LocationIndex": "4",
             "ChairsString": "Ben Livshits",
             "Chairs": [
                 "Ben Livshits @"
@@ -3420,7 +3427,7 @@
             "Day": "2013-08-22",
             "Time": "12:15 - 13:45",
             "Location": "Foyer",
-            "LocationIndex": "0",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3439,7 +3446,7 @@
             "Day": "2013-08-22",
             "Time": "12:15 - 13:45",
             "Location": "Pavlovsky Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3458,7 +3465,7 @@
             "Day": "2013-08-22",
             "Time": "13:45 - 15:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "3",
             "ChairsString": "Carlo A. Furia",
             "Chairs": [
                 "Carlo A. Furia @"
@@ -3483,7 +3490,7 @@
             "Day": "2013-08-22",
             "Time": "13:45 - 15:00",
             "Location": "Session Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "1",
             "ChairsString": "Nadia Polikarpova",
             "Chairs": [
                 "Nadia Polikarpova @"
@@ -3508,7 +3515,7 @@
             "Day": "2013-08-22",
             "Time": "13:45 - 15:00",
             "Location": "Big Hall",
-            "LocationIndex": "6",
+            "LocationIndex": "4",
             "ChairsString": "Koushik Sen",
             "Chairs": [
                 "Koushik Sen @"
@@ -3534,7 +3541,7 @@
             "Day": "2013-08-22",
             "Time": "15:15 - 16:30",
             "Location": "Heraldic Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "3",
             "ChairsString": "Vladimir Itsykson",
             "Chairs": [
                 "Vladimir Itsykson @"
@@ -3559,7 +3566,7 @@
             "Day": "2013-08-22",
             "Time": "15:15 - 16:30",
             "Location": "Session Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "1",
             "ChairsString": "Ivica Crnkovic",
             "Chairs": [
                 "Ivica Crnkovic @"
@@ -3584,7 +3591,7 @@
             "Day": "2013-08-22",
             "Time": "15:15 - 16:30",
             "Location": "Big Hall",
-            "LocationIndex": "6",
+            "LocationIndex": "4",
             "ChairsString": "Anders Møller",
             "Chairs": [
                 "Anders Møller @"
@@ -3610,7 +3617,7 @@
             "Day": "2013-08-22",
             "Time": "16:30 - 17:00",
             "Location": "Foyer",
-            "LocationIndex": "0",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3625,11 +3632,11 @@
             "ShortTitle": "A Publication Culture in Software Engineering (Panel)",
             "Type": "Panels",
             "ShortType": "Panels",
-            "Key": "fse13panels-p2-p",
+            "Key": "2013-08-22 17:00 A Publication Culture in Software Engineering (Panel)",
             "Day": "2013-08-22",
             "Time": "17:00 - 18:15",
             "Location": "Column Hall",
-            "LocationIndex": "10",
+            "LocationIndex": "0",
             "ChairsString": "Steven Fraser",
             "Chairs": [
                 "Steven Fraser @"
@@ -3652,7 +3659,7 @@
             "Day": "2013-08-22",
             "Time": "19:30 - 22:30",
             "Location": "Bezborodko Palace",
-            "LocationIndex": "0",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3667,11 +3674,11 @@
             "ShortTitle": "Artifact Evaluation (Summary)",
             "Type": "Artifact Presentations",
             "ShortType": "Artifact Presentations",
-            "Key": "fse13misc-p4-p",
+            "Key": "2013-08-22 21:00 Artifact Evaluation (Summary)",
             "Day": "2013-08-22",
             "Time": "21:00 - 21:10",
             "Location": "Bezborodko Palace",
-            "LocationIndex": "12",
+            "LocationIndex": "2",
             "ChairsString": "Alexandre Bergel",
             "Chairs": [
                 "Alexandre Bergel @"
@@ -3690,11 +3697,11 @@
             "ShortTitle": "Software Engineering for Mathematics (Keynote)",
             "Type": "Plenary",
             "ShortType": "Plenary",
-            "Key": "fse13keynotes-k3-p",
+            "Key": "2013-08-23 09:30 Software Engineering for Mathematics (Keynote)",
             "Day": "2013-08-23",
             "Time": "09:30 - 11:00",
             "Location": "Column Hall",
-            "LocationIndex": "10",
+            "LocationIndex": "0",
             "ChairsString": "Bertrand Meyer",
             "Chairs": [
                 "Bertrand Meyer @"
@@ -3717,7 +3724,7 @@
             "Day": "2013-08-23",
             "Time": "10:30 - 11:00",
             "Location": "Foyer",
-            "LocationIndex": "0",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3736,7 +3743,7 @@
             "Day": "2013-08-23",
             "Time": "11:00 - 12:15",
             "Location": "Heraldic Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "3",
             "ChairsString": "Marsha Chechik",
             "Chairs": [
                 "Marsha Chechik @"
@@ -3761,7 +3768,7 @@
             "Day": "2013-08-23",
             "Time": "11:00 - 12:15",
             "Location": "Session Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "1",
             "ChairsString": "Wilhelm Schäfer",
             "Chairs": [
                 "Wilhelm Schäfer @"
@@ -3786,7 +3793,7 @@
             "Day": "2013-08-23",
             "Time": "11:00 - 12:15",
             "Location": "Big Hall",
-            "LocationIndex": "6",
+            "LocationIndex": "4",
             "ChairsString": "Carlo A. Furia, Sebastian Nanz",
             "Chairs": [
                 "Carlo A. Furia, Sebastian Nanz @"
@@ -3811,7 +3818,7 @@
             "Day": "2013-08-23",
             "Time": "12:15 - 13:45",
             "Location": "Foyer",
-            "LocationIndex": "0",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3830,7 +3837,7 @@
             "Day": "2013-08-23",
             "Time": "12:15 - 13:45",
             "Location": "Pavlovsky Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3849,7 +3856,7 @@
             "Day": "2013-08-23",
             "Time": "13:45 - 15:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "3",
             "ChairsString": "Harald Gall",
             "Chairs": [
                 "Harald Gall @"
@@ -3874,7 +3881,7 @@
             "Day": "2013-08-23",
             "Time": "13:45 - 15:00",
             "Location": "Session Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "1",
             "ChairsString": "Bara Buhnova",
             "Chairs": [
                 "Bara Buhnova @"
@@ -3899,7 +3906,7 @@
             "Day": "2013-08-23",
             "Time": "13:45 - 15:00",
             "Location": "Big Hall",
-            "LocationIndex": "6",
+            "LocationIndex": "4",
             "ChairsString": "Carlo A. Furia, Sebastian Nanz",
             "Chairs": [
                 "Carlo A. Furia, Sebastian Nanz @"
@@ -3925,7 +3932,7 @@
             "Day": "2013-08-23",
             "Time": "15:15 - 16:30",
             "Location": "Heraldic Hall",
-            "LocationIndex": "4",
+            "LocationIndex": "3",
             "ChairsString": "Ben Livshits",
             "Chairs": [
                 "Ben Livshits @"
@@ -3950,7 +3957,7 @@
             "Day": "2013-08-23",
             "Time": "15:15 - 16:30",
             "Location": "Session Hall",
-            "LocationIndex": "5",
+            "LocationIndex": "1",
             "ChairsString": "Mark Harman",
             "Chairs": [
                 "Mark Harman @"
@@ -3975,7 +3982,7 @@
             "Day": "2013-08-23",
             "Time": "15:15 - 16:30",
             "Location": "Big Hall",
-            "LocationIndex": "6",
+            "LocationIndex": "4",
             "ChairsString": "Carlo A. Furia, Sebastian Nanz",
             "Chairs": [
                 "Carlo A. Furia, Sebastian Nanz @"
@@ -4000,7 +4007,7 @@
             "Day": "2013-08-23",
             "Time": "16:30 - 17:00",
             "Location": "Foyer",
-            "LocationIndex": "0",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4019,7 +4026,7 @@
             "Day": "2013-08-23",
             "Time": "17:00 - 17:40",
             "Location": "Column Hall",
-            "LocationIndex": "10",
+            "LocationIndex": "0",
             "ChairsString": "Alexandre Bergel",
             "Chairs": [
                 "Alexandre Bergel @"
@@ -4039,7 +4046,7 @@
             "Day": "2013-08-23",
             "Time": "17:45 - 18:15",
             "Location": "Column Hall",
-            "LocationIndex": "10",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4058,7 +4065,7 @@
             "Day": "2013-08-24",
             "Time": "09:30 - 18:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "2",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4077,7 +4084,7 @@
             "Day": "2013-08-24",
             "Time": "11:00 - 11:30",
             "Location": "Foyer",
-            "LocationIndex": "2",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4096,7 +4103,7 @@
             "Day": "2013-08-24",
             "Time": "13:00 - 14:30",
             "Location": "Foyer",
-            "LocationIndex": "2",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4115,7 +4122,7 @@
             "Day": "2013-08-24",
             "Time": "16:00 - 16:30",
             "Location": "Foyer",
-            "LocationIndex": "2",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4134,7 +4141,7 @@
             "Day": "2013-08-25",
             "Time": "09:30 - 18:00",
             "Location": "Heraldic Hall",
-            "LocationIndex": "2",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4153,7 +4160,7 @@
             "Day": "2013-08-25",
             "Time": "11:00 - 11:30",
             "Location": "Foyer",
-            "LocationIndex": "2",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4172,7 +4179,7 @@
             "Day": "2013-08-25",
             "Time": "13:00 - 14:30",
             "Location": "Foyer",
-            "LocationIndex": "2",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4191,7 +4198,7 @@
             "Day": "2013-08-25",
             "Time": "16:00 - 16:30",
             "Location": "Foyer",
-            "LocationIndex": "2",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4210,7 +4217,7 @@
             "Day": "2013-08-26",
             "Time": "09:30 - 16:30",
             "Location": "Heraldic Hall",
-            "LocationIndex": "2",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4229,7 +4236,7 @@
             "Day": "2013-08-26",
             "Time": "11:00 - 11:30",
             "Location": "Foyer",
-            "LocationIndex": "2",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4248,7 +4255,7 @@
             "Day": "2013-08-26",
             "Time": "13:00 - 14:30",
             "Location": "Foyer",
-            "LocationIndex": "2",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
