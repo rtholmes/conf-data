@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1381584306,
+    "DataRevision": 1381588271,
     "Preliminary": false,
     "Event": "ASE 2013",
     "Name": "ASE 2013",
@@ -2245,6 +2245,63 @@
     ],
     "Sessions": [
         {
+            "Id": "ooV7aiph9m",
+            "Title": "Rigorous Examination of Reactive Systems Workshop (RERS)",
+            "ShortTitle": "Rigorous Examination of Reactive Systems Workshop (RERS)",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
+            "Key": "2013-11-11 08:45 Rigorous Examination of Reactive Systems Workshop (RERS)",
+            "Day": "2013-11-11",
+            "Time": "08:45 - 17:00",
+            "Location": "Room 1",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ASE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "aeP7ahg9ta",
+            "Title": "2nd International Workshop on Software Mining (SoftMine)",
+            "ShortTitle": "2nd International Workshop on Software Mining (SoftMine)",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
+            "Key": "2013-11-11 08:45 2nd International Workshop on Software Mining (SoftMine)",
+            "Day": "2013-11-11",
+            "Time": "08:45 - 17:00",
+            "Location": "Room 2",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ASE13",
+            "Abstract": ""
+        },
+        {
+            "Id": "Yaefe6RaiW",
+            "Title": "International Workshop on Machine Learning and Information Retrieval for Software Engineering (MALIR-SE)",
+            "ShortTitle": "International Workshop on Machine Learning and Information Retrieval for Software Engineering (MALIR-SE)",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
+            "Key": "2013-11-11 08:45 International Workshop on Machine Learning and Information Retrieval for Software Engineering (MALIR-SE)",
+            "Day": "2013-11-11",
+            "Time": "08:45 - 17:00",
+            "Location": "Room 2",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ASE13",
+            "Abstract": ""
+        },
+        {
             "Id": "Ahwaij6Eij",
             "Title": "Doctoral Symposium",
             "ShortTitle": "Doctoral Symposium",
@@ -2254,7 +2311,7 @@
             "Day": "2013-11-11",
             "Time": "08:45 - 17:00",
             "Location": "Bacchus",
-            "LocationIndex": "5",
+            "LocationIndex": "7",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2269,6 +2326,25 @@
                 "ase13doctoral-docid7-p",
                 "ase13doctoral-docid8-p"
             ]
+        },
+        {
+            "Id": "ziegh7Eer7",
+            "Title": "Java PathFinder (JPF) Workshop 2013",
+            "ShortTitle": "Java PathFinder (JPF) Workshop 2013",
+            "Type": "Co-located Workshop",
+            "ShortType": "Co-located Workshop",
+            "Key": "2013-11-12 08:45 Java PathFinder (JPF) Workshop 2013",
+            "Day": "2013-11-12",
+            "Time": "08:45 - 17:00",
+            "Location": "Room 1",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ASE13",
+            "Abstract": ""
         },
         {
             "Id": "sahV4ahphu",
@@ -2324,7 +2400,7 @@
             "Day": "2013-11-13",
             "Time": "10:30 - 12:10",
             "Location": "Medtrn. II",
-            "LocationIndex": "3",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2349,7 +2425,7 @@
             "Day": "2013-11-13",
             "Time": "10:30 - 12:10",
             "Location": "Medtrn. III",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2374,7 +2450,7 @@
             "Day": "2013-11-13",
             "Time": "13:30 - 15:10",
             "Location": "Medtrn. II",
-            "LocationIndex": "3",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2399,7 +2475,7 @@
             "Day": "2013-11-13",
             "Time": "13:30 - 15:10",
             "Location": "Medtrn. III",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2428,7 +2504,7 @@
             "Day": "2013-11-13",
             "Time": "15:30 - 17:10",
             "Location": "Medtrn. II",
-            "LocationIndex": "3",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2453,7 +2529,7 @@
             "Day": "2013-11-13",
             "Time": "15:30 - 17:30",
             "Location": "Medtrn. III",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2487,7 +2563,7 @@
             "Day": "2013-11-13",
             "Time": "18:00 - 20:00",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2506,7 +2582,7 @@
             "Day": "2013-11-14",
             "Time": "08:30 - 10:10",
             "Location": "Medtrn. III",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2531,7 +2607,7 @@
             "Day": "2013-11-14",
             "Time": "08:30 - 10:10",
             "Location": "Medtrn. II",
-            "LocationIndex": "3",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2556,7 +2632,7 @@
             "Day": "2013-11-14",
             "Time": "10:30 - 12:10",
             "Location": "Medtrn. II",
-            "LocationIndex": "3",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2581,7 +2657,7 @@
             "Day": "2013-11-14",
             "Time": "10:30 - 12:10",
             "Location": "Medtrn. III",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2628,7 +2704,7 @@
             "Day": "2013-11-14",
             "Time": "15:30 - 17:10",
             "Location": "Medtrn. II",
-            "LocationIndex": "3",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2653,7 +2729,7 @@
             "Day": "2013-11-14",
             "Time": "15:30 - 17:10",
             "Location": "Medtrn. III",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2682,7 +2758,7 @@
             "Day": "2013-11-14",
             "Time": "19:00 - 23:00",
             "Location": "Computer History Museum",
-            "LocationIndex": "2",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2701,7 +2777,7 @@
             "Day": "2013-11-15",
             "Time": "08:45 - 10:00",
             "Location": "Medtrn. II",
-            "LocationIndex": "3",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2725,7 +2801,7 @@
             "Day": "2013-11-15",
             "Time": "08:45 - 10:00",
             "Location": "Medtrn. III",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2752,7 +2828,7 @@
             "Day": "2013-11-15",
             "Time": "10:30 - 12:10",
             "Location": "Medtrn. III",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2777,7 +2853,7 @@
             "Day": "2013-11-15",
             "Time": "10:30 - 12:10",
             "Location": "Medtrn. II",
-            "LocationIndex": "3",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2802,7 +2878,7 @@
             "Day": "2013-11-15",
             "Time": "13:30 - 15:10",
             "Location": "Medtrn. III",
-            "LocationIndex": "4",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2825,7 +2901,7 @@
             "Day": "2013-11-15",
             "Time": "13:30 - 15:10",
             "Location": "Medtrn. II",
-            "LocationIndex": "3",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
