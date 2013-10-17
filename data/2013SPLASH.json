@@ -18,7 +18,7 @@
       "Type": "Workshops",
       "Time": "08:30 - 17:00",
       "ShortTitle": "Parsing @ SLE",
-      "Location": "Cosmopolitan C (Third Level)",
+      "Location": "Discovery B (Third Level)",
       "Day": "2013-10-26",
       "ChairsString": "",
       "Key": 433,
@@ -29,24 +29,10 @@
       "Title": "Parsing @ SLE"
     },
     {
-      "Type": "Keynotes",
-      "Time": "09:00 - 10:00",
-      "ShortTitle": "",
-      "Location": "Discovery (Third Level)",
-      "Day": "2013-10-26",
-      "ChairsString": "",
-      "Key": 644,
-      "Items": [
-        944
-      ],
-      "URL": "http://www.fosd.de/2013/",
-      "Title": "FOSD — Can Features Have Interfaces?"
-    },
-    {
       "Type": "Workshops",
       "Time": "09:00 - 17:40",
       "ShortTitle": "FOSD",
-      "Location": "Discovery (Third Level)",
+      "Location": "Discovery A (Third Level)",
       "Day": "2013-10-26",
       "ChairsString": "",
       "Key": 425,
@@ -55,6 +41,20 @@
       ],
       "URL": "http://www.fosd.de/2013/",
       "Title": "FOSD — Fifth International Workshop on Feature-Oriented Software Development"
+    },
+    {
+      "Type": "Keynotes",
+      "Time": "09:05 - 10:00",
+      "ShortTitle": "Can Features Have Interfaces? ",
+      "Location": "Discovery A (Third Level)",
+      "Day": "2013-10-26",
+      "ChairsString": "",
+      "Key": 644,
+      "Items": [
+        944
+      ],
+      "URL": "http://www.fosd.de/2013/",
+      "Title": "FOSD — Can Features Have Interfaces?"
     },
     {
       "Type": "Registration",
@@ -73,21 +73,7 @@
     {
       "Type": "Keynotes",
       "Time": "08:30 - 10:00",
-      "ShortTitle": "",
-      "Location": "Regency D (Second Level)",
-      "Day": "2013-10-27",
-      "ChairsString": "",
-      "Key": 645,
-      "Items": [
-        945
-      ],
-      "URL": "http://agents.usask.ca/agere2013",
-      "Title": "AGERE! — Toward the future of personal computing system construction"
-    },
-    {
-      "Type": "Keynotes",
-      "Time": "08:30 - 10:00",
-      "ShortTitle": "",
+      "ShortTitle": "Dark Knowledge and Graph Grammars",
       "Location": "Cosmopolitan CD (Third Level)",
       "Day": "2013-10-27",
       "ChairsString": "",
@@ -101,7 +87,7 @@
     {
       "Type": "Workshops",
       "Time": "08:30 - 15:00",
-      "ShortTitle": "",
+      "ShortTitle": "FOOL",
       "Location": "Regency A (Second Level)",
       "Day": "2013-10-27",
       "ChairsString": "",
@@ -143,7 +129,7 @@
     {
       "Type": "Workshops",
       "Time": "08:30 - 17:00",
-      "ShortTitle": "",
+      "ShortTitle": "WRT",
       "Location": "Regency B (Second Level)",
       "Day": "2013-10-27",
       "ChairsString": "",
@@ -153,6 +139,20 @@
       ],
       "URL": "http://refactoring.info/WRT13/",
       "Title": "WRT — Workshop on Refactoring Tools"
+    },
+    {
+      "Type": "Keynotes",
+      "Time": "08:35 - 10:00",
+      "ShortTitle": "Future PC System Construction",
+      "Location": "Regency D (Second Level)",
+      "Day": "2013-10-27",
+      "ChairsString": "",
+      "Key": 645,
+      "Items": [
+        945
+      ],
+      "URL": "http://agents.usask.ca/agere2013",
+      "Title": "AGERE! — Toward the future of personal computing system construction"
     },
     {
       "Type": "Workshops",
@@ -167,20 +167,6 @@
       ],
       "URL": "http://people.csail.mit.edu/skamil/wosc/",
       "Title": "WOSC — Workshop on Optimizing Stencil Computations"
-    },
-    {
-      "Type": "Keynotes",
-      "Time": "09:00 - 10:30",
-      "ShortTitle": "",
-      "Location": "Regency E (Second Level)",
-      "Day": "2013-10-27",
-      "ChairsString": "",
-      "Key": 647,
-      "Items": [
-        947
-      ],
-      "URL": "http://pear.sfsu.edu/promoto2013/",
-      "Title": "PROMOTO — TouchDevelop: Productive Scripting on and for Touch-based Devices and Web Services"
     },
     {
       "Type": "Workshops",
@@ -198,8 +184,22 @@
     },
     {
       "Type": "Keynotes",
+      "Time": "09:05 - 10:30",
+      "ShortTitle": "TouchDevelop Scripting",
+      "Location": "Regency E (Second Level)",
+      "Day": "2013-10-27",
+      "ChairsString": "",
+      "Key": 647,
+      "Items": [
+        947
+      ],
+      "URL": "http://pear.sfsu.edu/promoto2013/",
+      "Title": "PROMOTO — TouchDevelop: Productive Scripting on and for Touch-based Devices and Web Services"
+    },
+    {
+      "Type": "Keynotes",
       "Time": "10:30 - 11:30",
-      "ShortTitle": "",
+      "ShortTitle": "TS*: Gradual Typing JavaScript",
       "Location": "Regency A (Second Level)",
       "Day": "2013-10-27",
       "ChairsString": "",
@@ -245,7 +245,7 @@
     {
       "Type": "Keynotes",
       "Time": "13:00 - 14:00",
-      "ShortTitle": "",
+      "ShortTitle": "FOOL @ 20",
       "Location": "Regency A (Second Level)",
       "Day": "2013-10-27",
       "ChairsString": "",
@@ -324,7 +324,7 @@
     {
       "Type": "Keynotes",
       "Time": "15:30 - 17:00",
-      "ShortTitle": "",
+      "ShortTitle": "Refactoring, Reuse, Reality: Revisited",
       "Location": "Regency B (Second Level)",
       "Day": "2013-10-27",
       "ChairsString": "",
@@ -333,7 +333,7 @@
         1087
       ],
       "URL": "",
-      "Title": "WRT Keynote — Refactoring, Reuse & Reality: Revisited"
+      "Title": "WRT — Refactoring, Reuse & Reality: Revisited"
     },
     {
       "Type": "Social Events",
@@ -381,7 +381,7 @@
     {
       "Type": "Keynotes",
       "Time": "08:30 - 10:00",
-      "ShortTitle": "",
+      "ShortTitle": "Modeling Biology with Solver-Aided Programming Languages",
       "Location": "Cosmopolitan CD (Third Level)",
       "Day": "2013-10-28",
       "ChairsString": "",
@@ -391,20 +391,6 @@
       ],
       "URL": "http://program-transformation.org/GPCE13",
       "Title": "GPCE/SLE — Modeling Biology with Solver-Aided Programming Languages"
-    },
-    {
-      "Type": "Keynotes",
-      "Time": "08:30 - 10:00",
-      "ShortTitle": "",
-      "Location": "Regency C (Second Level)",
-      "Day": "2013-10-28",
-      "ChairsString": "",
-      "Key": 672,
-      "Items": [
-        998
-      ],
-      "URL": "",
-      "Title": "REM — Making Live Programming Real"
     },
     {
       "Type": "SPLASH-E",
@@ -420,20 +406,6 @@
       ],
       "URL": "",
       "Title": "Session 1"
-    },
-    {
-      "Type": "Keynotes",
-      "Time": "08:30 - 10:00",
-      "ShortTitle": "",
-      "Location": "Regency B (Second Level)",
-      "Day": "2013-10-28",
-      "ChairsString": "",
-      "Key": 650,
-      "Items": [
-        950
-      ],
-      "URL": "http://design.cs.iastate.edu/vmil/2013",
-      "Title": "VMIL — JavaScript as an Intermediate Language"
     },
     {
       "Type": "Workshops",
@@ -506,6 +478,34 @@
       "Title": "VMIL — 7th Workshop on Virtual Machines and Intermediate Languages"
     },
     {
+      "Type": "Keynotes",
+      "Time": "08:35 - 09:30",
+      "ShortTitle": "JavaScript as an IL",
+      "Location": "Regency B (Second Level)",
+      "Day": "2013-10-28",
+      "ChairsString": "",
+      "Key": 650,
+      "Items": [
+        950
+      ],
+      "URL": "http://design.cs.iastate.edu/vmil/2013",
+      "Title": "VMIL — JavaScript as an Intermediate Language"
+    },
+    {
+      "Type": "Keynotes",
+      "Time": "08:35 - 10:00",
+      "ShortTitle": "Making Live Programming Real",
+      "Location": "Regency C (Second Level)",
+      "Day": "2013-10-28",
+      "ChairsString": "",
+      "Key": 672,
+      "Items": [
+        998
+      ],
+      "URL": "",
+      "Title": "REM — Making Live Programming Real"
+    },
+    {
       "Type": "Doctoral Symposium",
       "Time": "08:40 - 10:00",
       "ShortTitle": "",
@@ -537,7 +537,7 @@
     {
       "Type": "Workshops",
       "Time": "09:00 - 17:20",
-      "ShortTitle": "",
+      "ShortTitle": "MobilDeLi",
       "Location": "Regency A (Second Level)",
       "Day": "2013-10-28",
       "ChairsString": "",
@@ -551,7 +551,7 @@
     {
       "Type": "Keynotes",
       "Time": "09:05 - 10:00",
-      "ShortTitle": "",
+      "ShortTitle": "VMs I Have Known and/or Loved",
       "Location": "Network (Second Level)",
       "Day": "2013-10-28",
       "ChairsString": "",
@@ -565,7 +565,7 @@
     {
       "Type": "Keynotes",
       "Time": "09:20 - 09:50",
-      "ShortTitle": "",
+      "ShortTitle": "MobileFirst: Future Programming & Runtimes",
       "Location": "Regency A (Second Level)",
       "Day": "2013-10-28",
       "ChairsString": "",
@@ -675,7 +675,7 @@
     {
       "Type": "Keynotes",
       "Time": "13:30 - 14:00",
-      "ShortTitle": "",
+      "ShortTitle": "Resource-Constrained Mobile Computing",
       "Location": "Regency A (Second Level)",
       "Day": "2013-10-28",
       "ChairsString": "",
@@ -685,6 +685,20 @@
       ],
       "URL": "http://sysrun.haifa.il.ibm.com/hrl/mobiledeli2013/index.shtml",
       "Title": "MobileDeLi — Mobile Computing in Resource-Constrained Environments"
+    },
+    {
+      "Type": "Keynotes",
+      "Time": "13:30 - 14:30",
+      "ShortTitle": "Do Programs Have to Be So Dumb?",
+      "Location": "Regency B (Second Level)",
+      "Day": "2013-10-28",
+      "ChairsString": "",
+      "Key": 651,
+      "Items": [
+        951
+      ],
+      "URL": "http://design.cs.iastate.edu/vmil/2013",
+      "Title": "VMIL — Do Computer Programs Have to Be As Dumb As They Are?"
     },
     {
       "Type": "SLE",
@@ -749,20 +763,6 @@
       ],
       "URL": "",
       "Title": "Session 5"
-    },
-    {
-      "Type": "Keynotes",
-      "Time": "13:30 - 15:00",
-      "ShortTitle": "",
-      "Location": "Regency B (Second Level)",
-      "Day": "2013-10-28",
-      "ChairsString": "",
-      "Key": 651,
-      "Items": [
-        951
-      ],
-      "URL": "http://design.cs.iastate.edu/vmil/2013",
-      "Title": "VMIL — Do Computer Programs Have to Be As Dumb As They Are?"
     },
     {
       "Type": "Doctoral Symposium",
@@ -953,7 +953,7 @@
     {
       "Type": "Keynotes",
       "Time": "08:40 - 10:00",
-      "ShortTitle": "",
+      "ShortTitle": "Yin and Yang of Hardware Heterogeneity: Can Software Survive?",
       "Location": "Regency A-D (Second Level)",
       "Day": "2013-10-29",
       "ChairsString": "",
@@ -1302,7 +1302,7 @@
     {
       "Type": "Keynotes",
       "Time": "08:40 - 10:00",
-      "ShortTitle": "",
+      "ShortTitle": "Two Solitudes",
       "Location": "Regency A-D (Second Level)",
       "Day": "2013-10-30",
       "ChairsString": "",
@@ -1505,7 +1505,7 @@
     {
       "Type": "Keynotes",
       "Time": "13:30 - 15:00",
-      "ShortTitle": "",
+      "ShortTitle": "Declarative Programming for the Cloud",
       "Location": "Regency A-D (Second Level)",
       "Day": "2013-10-30",
       "ChairsString": "",
@@ -1562,7 +1562,7 @@
       "Type": "Tutorials",
       "Time": "13:30 - 17:00",
       "ShortTitle": "UML Architecture Documentation",
-      "Location": "Discovery (Third Level)",
+      "Location": "Regency F (Second Level)",
       "Day": "2013-10-30",
       "ChairsString": "",
       "Key": 537,
@@ -1576,7 +1576,7 @@
       "Type": "Tutorials",
       "Time": "13:30 - 17:00",
       "ShortTitle": "Multicore Programming",
-      "Location": "Regency F (Second Level)",
+      "Location": "Discovery (Third Level)",
       "Day": "2013-10-30",
       "ChairsString": "",
       "Key": 541,
@@ -1739,7 +1739,7 @@
     {
       "Type": "Keynotes",
       "Time": "08:40 - 10:00",
-      "ShortTitle": "",
+      "ShortTitle": "Does Thought Crime Pay?",
       "Location": "Regency A-D (Second Level)",
       "Day": "2013-10-31",
       "ChairsString": "",
@@ -2092,6 +2092,20 @@
       ],
       "URL": null,
       "Title": "Ice Cream Social"
+    },
+    {
+      "Type": "Workshops",
+      "Time": "08:30 - 18:00",
+      "ShortTitle": "",
+      "Location": "TBD",
+      "Day": "2013-11-01",
+      "ChairsString": "",
+      "Key": 697,
+      "Items": [
+        1127
+      ],
+      "URL": "http://www.ws13.dynali.org",
+      "Title": "NSF DALI Workshop on Dynamic Languages for Scalable Data Analytics"
     }
   ],
   "Description": "The ACM International Conference on Systems, Programming, Languages and Applications: Software for Humanity (SPLASH) is sponsored by ACM SIGPLAN.\r\n\r\nSPLASH is the home of OOPSLA Research Papers, Onward!, and the Dynamic Languages Symposium, among other events.\r\n",
@@ -6088,16 +6102,6 @@
       "Title": "Parsing @ SLE"
     },
     {
-      "Type": "Keynotes",
-      "Authors": [
-        1311
-      ],
-      "Abstract": "There is little research on interfaces for features. In FOSD, work on feature modularity has focused on features as a criterion for system decomposition and assembly. The concept of feature modularity pertains mainly to cohesion of features, including language or modelling support for coalescing all information related to a feature into a single module. There is no information hiding among them, and they can directly refer to or override one another. Alternatively, in the feature-interaction literature, feature modules are black boxes that have inputs and outputs, but otherwise share no information. Such extreme information hiding facilitates third-party development of features, but makes it difficult to specify intended interactions, such as when a feature extends or overrides the behaviour of another feature. This talk proposes a compromise, in which features share a limited amount of information with each other by means of a feature interface. It looks at what such an interface might look like, and explores to what degree inter-feature references can be abstracted to references to features' public interfaces.\r\n",
-      "Key": 944,
-      "URL": "http://www.fosd.de/2013/",
-      "Title": "FOSD — Can Features Have Interfaces?"
-    },
-    {
       "Type": "Workshops",
       "Authors": [
         1198,
@@ -6109,6 +6113,16 @@
       "Title": "FOSD — Fifth International Workshop on Feature-Oriented Software Development"
     },
     {
+      "Type": "Keynotes",
+      "Authors": [
+        1311
+      ],
+      "Abstract": "There is little research on interfaces for features. In FOSD, work on feature modularity has focused on features as a criterion for system decomposition and assembly. The concept of feature modularity pertains mainly to cohesion of features, including language or modelling support for coalescing all information related to a feature into a single module. There is no information hiding among them, and they can directly refer to or override one another. Alternatively, in the feature-interaction literature, feature modules are black boxes that have inputs and outputs, but otherwise share no information. Such extreme information hiding facilitates third-party development of features, but makes it difficult to specify intended interactions, such as when a feature extends or overrides the behaviour of another feature. This talk proposes a compromise, in which features share a limited amount of information with each other by means of a feature interface. It looks at what such an interface might look like, and explores to what degree inter-feature references can be abstracted to references to features' public interfaces.\r\n",
+      "Key": 944,
+      "URL": "http://www.fosd.de/2013/",
+      "Title": "FOSD — Can Features Have Interfaces?"
+    },
+    {
       "Type": "Registration",
       "Authors": [
 
@@ -6117,16 +6131,6 @@
       "Key": 863,
       "URL": null,
       "Title": "Sunday"
-    },
-    {
-      "Type": "Keynotes",
-      "Authors": [
-        1312
-      ],
-      "Abstract": "The software for today's personal computing environments has become so complex that no single person can understand an entire system. Our approach to reduce complexity is to create \"meta-languages\" that allow us to make and experiment with new domain specific languages. With these new languages, we can describe different parts of systems in cleaner and more intention-revealing ways. As a notable example, a new stream-processing language called Nile was invented. The syntax of Nile allows a fully-featured vector graphics engine called Gezira to be written in a clean, mathematical manner in less than 500 lines of code. As one of the \"next steps\", one of the directions we are taking is to incorporate the idea of using multiple constraint solvers to build a system. Solvers can help stronger \"negotiation\" between objects and languages, and help the system to be written in a more declarative manner. Another direction is to take the idea of loose-coupling to the next level; objects should not know about the other objects directly but should always negotiate and \"find\" other objects.\r\n",
-      "Key": 945,
-      "URL": "http://agents.usask.ca/agere2013",
-      "Title": "AGERE! — Toward the future of personal computing system construction"
     },
     {
       "Type": "Keynotes",
@@ -6187,6 +6191,16 @@
       "Title": "WRT — Workshop on Refactoring Tools"
     },
     {
+      "Type": "Keynotes",
+      "Authors": [
+        1312
+      ],
+      "Abstract": "The software for today's personal computing environments has become so complex that no single person can understand an entire system. Our approach to reduce complexity is to create \"meta-languages\" that allow us to make and experiment with new domain specific languages. With these new languages, we can describe different parts of systems in cleaner and more intention-revealing ways. As a notable example, a new stream-processing language called Nile was invented. The syntax of Nile allows a fully-featured vector graphics engine called Gezira to be written in a clean, mathematical manner in less than 500 lines of code. As one of the \"next steps\", one of the directions we are taking is to incorporate the idea of using multiple constraint solvers to build a system. Solvers can help stronger \"negotiation\" between objects and languages, and help the system to be written in a more declarative manner. Another direction is to take the idea of loose-coupling to the next level; objects should not know about the other objects directly but should always negotiate and \"find\" other objects.\r\n",
+      "Key": 945,
+      "URL": "http://agents.usask.ca/agere2013",
+      "Title": "AGERE! — Toward the future of personal computing system construction"
+    },
+    {
       "Type": "Workshops",
       "Authors": [
         1302,
@@ -6200,16 +6214,6 @@
       "Title": "WOSC — Workshop on Optimizing Stencil Computations"
     },
     {
-      "Type": "Keynotes",
-      "Authors": [
-        1505
-      ],
-      "Abstract": "[TouchDevelop](http://www.touchdevelop.com) is a programming environment that provides high-level abstractions to enable the creation of scripts on and for touch-based devices that access web services.  TouchDevelop has four main components: a statically typed scripting language with novel abstractions to support (a) stateless GUIs with support for live programming and (b) replicated data for collaborative applications; a browser-hosted touch-based integrated development environment that makes it possible to productively create small scripts with a single finger on a variety of devices; a set of high-level APIs to make it easy to access device sensors/resources and web services; a cloud back-end that enables a social approach to software development. In this talk, I\u2019ll show how TouchDevelop is being used in education and then dig into the language abstractions and run-time support for live programming and replicated data, as well as the research opportunities opened up by hosting a software environment in the cloud.",
-      "Key": 947,
-      "URL": "http://pear.sfsu.edu/promoto2013/",
-      "Title": "PROMOTO — TouchDevelop: Productive Scripting on and for Touch-based Devices and Web Services"
-    },
-    {
       "Type": "Workshops",
       "Authors": [
         1226,
@@ -6220,6 +6224,16 @@
       "Key": 707,
       "URL": "http://pear.sfsu.edu/promoto2013/",
       "Title": "PROMOTO — Programming for Mobile and Touch"
+    },
+    {
+      "Type": "Keynotes",
+      "Authors": [
+        1505
+      ],
+      "Abstract": "[TouchDevelop](http://www.touchdevelop.com) is a programming environment that provides high-level abstractions to enable the creation of scripts on and for touch-based devices that access web services.  TouchDevelop has four main components: a statically typed scripting language with novel abstractions to support (a) stateless GUIs with support for live programming and (b) replicated data for collaborative applications; a browser-hosted touch-based integrated development environment that makes it possible to productively create small scripts with a single finger on a variety of devices; a set of high-level APIs to make it easy to access device sensors/resources and web services; a cloud back-end that enables a social approach to software development. In this talk, I\u2019ll show how TouchDevelop is being used in education and then dig into the language abstractions and run-time support for live programming and replicated data, as well as the research opportunities opened up by hosting a software environment in the cloud.",
+      "Key": 947,
+      "URL": "http://pear.sfsu.edu/promoto2013/",
+      "Title": "PROMOTO — TouchDevelop: Productive Scripting on and for Touch-based Devices and Web Services"
     },
     {
       "Type": "Keynotes",
@@ -6475,7 +6489,7 @@
       "Abstract": "",
       "Key": 1087,
       "URL": "",
-      "Title": "WRT Keynote — Refactoring, Reuse & Reality: Revisited"
+      "Title": "WRT — Refactoring, Reuse & Reality: Revisited"
     },
     {
       "Type": "Social Events",
@@ -6528,16 +6542,6 @@
       "Title": "GPCE/SLE — Modeling Biology with Solver-Aided Programming Languages"
     },
     {
-      "Type": "Keynotes",
-      "Authors": [
-        1605
-      ],
-      "Abstract": "Live programming is emerging as the next big step in programming environments that will finally allow us to move beyond our stodgy Smalltalk-era IDEs into a more programmer-friendly future. However, existing live programming experiences are still not very useful\u2014they dazzle us with live feedback but that feedback does not really help us write code! In this talk, I first show how live programming can instead be re-cast as a fusion of editing and debugging at the same time\u2014and in the same space\u2014so that live execution feedback can be quickly applied to edits. Although live programming demos are really cool, they are also quite shallow: can these experiences really be achieved in practice? Implementing live programming systems is the ultimate reactive programming challenging as our changing input is code to be executed! The second part of this talk overcomes these challenges by automating the repair of general-purpose (imperative) programs through dirty techniques that eschew global dependency graphs and topological sorting. Our programming model, Glitch, embraces temporary inconsistencies by re-executing program parts until consistency is achieved. Glitch supports expressive shared-state procedural programming, but with one caveat: operations on shared state must be undoable and commutative to ensure re-execution efficiency and eventual consistency. I show how this is good enough to implement a live programming system (compiler and all) as well as serving as a programming model for a live programming language.\r\n",
-      "Key": 998,
-      "URL": "",
-      "Title": "REM — Making Live Programming Real"
-    },
-    {
       "Type": "SPLASH-E",
       "Authors": [
         1352,
@@ -6563,16 +6567,6 @@
       "Key": 902,
       "URL": "http://www.cs.pomona.edu/splashe/SPLASH-E2013/SPLASH-E_2013_files/splash13.acbart.final2.pdf",
       "Title": "Transforming Introductory Computer Science Projects via Real-Time Web Data"
-    },
-    {
-      "Type": "Keynotes",
-      "Authors": [
-        1306
-      ],
-      "Abstract": "Numerous languages now compile to JavaScript, and its ubiquity in the browser seems to make this inevitable. However, JavaScript appears to be a mediocre target for language deployment, erecting both obvious and subtle obstacles. I will discuss some of these issues, especially drawing on our experiences deploying Racket in the browser.",
-      "Key": 950,
-      "URL": "http://design.cs.iastate.edu/vmil/2013",
-      "Title": "VMIL — JavaScript as an Intermediate Language"
     },
     {
       "Type": "Workshops",
@@ -6639,6 +6633,26 @@
       "Title": "VMIL — 7th Workshop on Virtual Machines and Intermediate Languages"
     },
     {
+      "Type": "Keynotes",
+      "Authors": [
+        1306
+      ],
+      "Abstract": "Numerous languages now compile to JavaScript, and its ubiquity in the browser seems to make this inevitable. However, JavaScript appears to be a mediocre target for language deployment, erecting both obvious and subtle obstacles. I will discuss some of these issues, especially drawing on our experiences deploying Racket in the browser.",
+      "Key": 950,
+      "URL": "http://design.cs.iastate.edu/vmil/2013",
+      "Title": "VMIL — JavaScript as an Intermediate Language"
+    },
+    {
+      "Type": "Keynotes",
+      "Authors": [
+        1605
+      ],
+      "Abstract": "Live programming is emerging as the next big step in programming environments that will finally allow us to move beyond our stodgy Smalltalk-era IDEs into a more programmer-friendly future. However, existing live programming experiences are still not very useful\u2014they dazzle us with live feedback but that feedback does not really help us write code! In this talk, I first show how live programming can instead be re-cast as a fusion of editing and debugging at the same time\u2014and in the same space\u2014so that live execution feedback can be quickly applied to edits. Although live programming demos are really cool, they are also quite shallow: can these experiences really be achieved in practice? Implementing live programming systems is the ultimate reactive programming challenging as our changing input is code to be executed! The second part of this talk overcomes these challenges by automating the repair of general-purpose (imperative) programs through dirty techniques that eschew global dependency graphs and topological sorting. Our programming model, Glitch, embraces temporary inconsistencies by re-executing program parts until consistency is achieved. Glitch supports expressive shared-state procedural programming, but with one caveat: operations on shared state must be undoable and commutative to ensure re-execution efficiency and eventual consistency. I show how this is good enough to implement a live programming system (compiler and all) as well as serving as a programming model for a live programming language.\r\n",
+      "Key": 998,
+      "URL": "",
+      "Title": "REM — Making Live Programming Real"
+    },
+    {
       "Type": "Doctoral Symposium",
       "Authors": [
         1318
@@ -6678,7 +6692,7 @@
       "Abstract": "Mobile application usage and development is experiencing exponential\r\ngrowth. The mobile domain presents new challenges to software\r\nengineering1. Mobile platforms are rapidly changing, including diverse\r\ncapabilities as GPS, sensors, and input modes. Applications must be\r\nomni-channel and work on all platforms.\r\n\r\nActivated on mobile platforms, modern applications must be elastic and\r\nscale on demand according to the hardware abilities. During\r\ndevelopment, security and authorization processes for the dataflow\r\nmust be applied. Bring your own device (BYOD) policies bring new\r\nsecurity data leaks challenges.\r\n\r\nDeveloping such applications requires suitable practices and tools\r\ne.g., architecture techniques that relate to the complexity at hand;\r\nimproved refactoring tools for hybrid applications using dynamic\r\nlanguages and polyglot development and applications; and testing\r\ntechniques for applications that run on different devices.\r\n\r\nThis workshop aims at establishing a community of researchers and\r\npractitioners to share their work and lead further research in the\r\nmobile development area.",
       "Key": 708,
       "URL": "http://sysrun.haifa.il.ibm.com/hrl/mobiledeli2013/index.shtml ",
-      "Title": "MobileDeLi — Mobile Development Lifecycle"
+      "Title": "MobilDeLi — Mobile Development Lifecycle"
     },
     {
       "Type": "Keynotes",
@@ -6941,6 +6955,16 @@
       "Title": "MobileDeLi — Mobile Computing in Resource-Constrained Environments"
     },
     {
+      "Type": "Keynotes",
+      "Authors": [
+        1506
+      ],
+      "Abstract": "Looking around this world, we see that a fledgling can fly faster and faster, a pupil can calculate quicker and quicker, and a graduate student can write papers better and better.  But since the birth of computers, it has been the case that after the release of a software package, the one millionth run of the program is typically not a bit better than its first-time run. Do programs have to be this dumb? In this talk, I will discuss the barriers that cause such dumbness, our efforts in creating a more intelligent paradigm, and some open challenges that you may be able to help address.",
+      "Key": 951,
+      "URL": "http://design.cs.iastate.edu/vmil/2013",
+      "Title": "VMIL — Do Computer Programs Have to Be As Dumb As They Are?"
+    },
+    {
       "Type": "SLE",
       "Authors": [
         1700,
@@ -7089,16 +7113,6 @@
       "Key": 1001,
       "URL": null,
       "Title": "On the Simplicity of Synthesizing Linked Data Structure Operations"
-    },
-    {
-      "Type": "Keynotes",
-      "Authors": [
-        1506
-      ],
-      "Abstract": "Looking around this world, we see that a fledgling can fly faster and faster, a pupil can calculate quicker and quicker, and a graduate student can write papers better and better.  But since the birth of computers, it has been the case that after the release of a software package, the one millionth run of the program is typically not a bit better than its first-time run. Do programs have to be this dumb? In this talk, I will discuss the barriers that cause such dumbness, our efforts in creating a more intelligent paradigm, and some open challenges that you may be able to help address.",
-      "Key": 951,
-      "URL": "http://design.cs.iastate.edu/vmil/2013",
-      "Title": "VMIL — Do Computer Programs Have to Be As Dumb As They Are?"
     },
     {
       "Type": "Doctoral Symposium",
@@ -9700,6 +9714,16 @@
       "Key": 933,
       "URL": null,
       "Title": "Ice Cream Social"
+    },
+    {
+      "Type": "Workshops",
+      "Authors": [
+
+      ],
+      "Abstract": "The DALI workshop is a one-day, by-invitation, workshop dedicated to exploring needs of scientific communities for new languages and infrastructures for the scalable analysis of data. Languages such as R, Matlab, Python and Julia, are of particular interest but the scope of discussions includes all languages and infrastructures used for data analytics.\r\n\r\nThe workshop will consist of a number of short talks and discussions. Part of the output of the workshop will be a recommendation to the National Science Foundation for funding an institute to support the development of open infrastructures for scalable data analytics. The workshop will bring together practitioners and language developers from academia and industry.\r\n\r\nFunded by the NSF Software Infrastructure for Sustained Innovation (SI2) program.\r\n",
+      "Key": 1127,
+      "URL": "http://www.ws13.dynali.org",
+      "Title": "NSF DALI Workshop on Dynamic Languages for Scalable Data Analytics"
     }
   ],
   "Event": 10,
