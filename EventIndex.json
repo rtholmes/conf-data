@@ -3,6 +3,39 @@
     
 "Events": [
     {
+        "Id" : "SPLASH2013",
+        "Name" : "SPLASH 2013",
+        "Version" : 1,
+        "File" : "2013SPLASH.json",
+        "StartDate" : "10/26/2013",
+        "EndDate" : "10/31/2013",
+        "Description" : "Program for the 2013 ACM SIGPLAN conference on Systems, Programming, Languages and Applications (SPLASH)",
+        "Icon" : "2013SPLASH.png",
+        "Image" : "2013SPLASH.png"
+    },
+    {
+        "Id" : "ASE2013",
+        "Name" : "ASE 2013",
+        "Version" : 1,
+        "File" : "2013ASE.json",
+        "StartDate" : "11/11/2013",
+        "EndDate" : "11/15/2013",
+        "Description" : "Program for the 2013 IEEE/ACM Automated Software Engineering (ASE)",
+		"Icon" : "2013ASE.png",
+		"Image" : "2013ASE.png"
+	},
+    {
+        "Id" : "WCRE2013",
+        "Name" : "WCRE 2013",
+        "Version" : 1,
+        "File" : "2013WCRE.json",
+        "StartDate" : "10/14/2013",
+        "EndDate" : "10/17/2013",
+        "Description" : "Program for the 2013 Working Conference on Reverse Engineering (WCRE)",
+		"Icon" : "2013WCRE.png",
+		"Image" : "2013WCRE.png"
+	},
+    {
         "Id" : "ICSM2013",
         "Name" : "ICSM 2013",
         "Version" : 2,
