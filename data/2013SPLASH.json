@@ -76,7 +76,7 @@
       "ShortTitle": "Dark Knowledge and Graph Grammars",
       "Location": "Cosmopolitan CD (Third Level)",
       "Day": "2013-10-27",
-      "ChairsString": "",
+      "ChairsString": "Richard Paige",
       "Key": 655,
       "Items": [
         955
@@ -216,7 +216,7 @@
       "ShortTitle": "",
       "Location": "Discovery (Third Level)",
       "Day": "2013-10-27",
-      "ChairsString": "",
+      "ChairsString": "Mark van den Brand",
       "Key": 441,
       "Items": [
         976,
@@ -262,7 +262,7 @@
       "ShortTitle": "",
       "Location": "Discovery (Third Level)",
       "Day": "2013-10-27",
-      "ChairsString": "",
+      "ChairsString": "Martin Erwig",
       "Key": 584,
       "Items": [
         979,
@@ -295,7 +295,7 @@
       "ShortTitle": "",
       "Location": "Discovery (Third Level)",
       "Day": "2013-10-27",
-      "ChairsString": "",
+      "ChairsString": "Görel Hedin",
       "Key": 585,
       "Items": [
         982,
@@ -332,12 +332,12 @@
       "Items": [
         1087
       ],
-      "URL": "",
+      "URL": "http://refactoring.info/WRT13/",
       "Title": "WRT — Refactoring, Reuse & Reality: Revisited"
     },
     {
       "Type": "Social Events",
-      "Time": "18:00 - 21:00",
+      "Time": "17:30 - 20:30",
       "ShortTitle": "",
       "Location": "Cosmopolitan Foyer (Third Level)",
       "Day": "2013-10-27",
@@ -502,7 +502,7 @@
       "Items": [
         998
       ],
-      "URL": "",
+      "URL": "http://soft.vub.ac.be/REM13",
       "Title": "REM — Making Live Programming Real"
     },
     {
@@ -645,7 +645,7 @@
       "ShortTitle": "",
       "Location": "Discovery (Third Level)",
       "Day": "2013-10-28",
-      "ChairsString": "",
+      "ChairsString": "Jurgen Vinju",
       "Key": 459,
       "Items": [
         985,
@@ -666,7 +666,6 @@
       "Key": 661,
       "Items": [
         789,
-        787,
         788
       ],
       "URL": "",
@@ -706,7 +705,7 @@
       "ShortTitle": "",
       "Location": "Discovery (Third Level)",
       "Day": "2013-10-28",
-      "ChairsString": "",
+      "ChairsString": "Eric Van Wyk",
       "Key": 582,
       "Items": [
         989,
@@ -785,7 +784,7 @@
       "ShortTitle": "",
       "Location": "Discovery (Third Level)",
       "Day": "2013-10-28",
-      "ChairsString": "",
+      "ChairsString": "Richard Paige",
       "Key": 583,
       "Items": [
         992,
@@ -952,11 +951,11 @@
     },
     {
       "Type": "Keynotes",
-      "Time": "08:40 - 10:00",
+      "Time": "08:30 - 10:00",
       "ShortTitle": "Yin and Yang of Hardware Heterogeneity: Can Software Survive?",
       "Location": "Regency A-D (Second Level)",
       "Day": "2013-10-29",
-      "ChairsString": "",
+      "ChairsString": "Antony Hosking",
       "Key": 449,
       "Items": [
         720
@@ -1045,6 +1044,7 @@
       "ChairsString": "Kevin Sullivan",
       "Key": 558,
       "Items": [
+        1128,
         926,
         925,
         921
@@ -1301,11 +1301,11 @@
     },
     {
       "Type": "Keynotes",
-      "Time": "08:40 - 10:00",
+      "Time": "08:30 - 10:00",
       "ShortTitle": "Two Solitudes",
       "Location": "Regency A-D (Second Level)",
       "Day": "2013-10-30",
-      "ChairsString": "",
+      "ChairsString": "Cristina Lopes",
       "Key": 450,
       "Items": [
         721
@@ -1738,11 +1738,11 @@
     },
     {
       "Type": "Keynotes",
-      "Time": "08:40 - 10:00",
+      "Time": "08:30 - 10:00",
       "ShortTitle": "Does Thought Crime Pay?",
       "Location": "Regency A-D (Second Level)",
       "Day": "2013-10-31",
-      "ChairsString": "",
+      "ChairsString": "Robert Hirschfeld",
       "Key": 448,
       "Items": [
         719
@@ -2030,20 +2030,6 @@
       ],
       "URL": null,
       "Title": "Objektgraph: Why Code When MVC Apps Can Be Generated Solely With UML-based Diagrams?"
-    },
-    {
-      "Type": "SPLASH-I",
-      "Time": "15:00 - 16:00",
-      "ShortTitle": "Comprehensive JavaScript VM",
-      "Location": "Network (Second Level)",
-      "Day": "2013-10-31",
-      "ChairsString": "",
-      "Key": 612,
-      "Items": [
-        887
-      ],
-      "URL": null,
-      "Title": "A Comprehensive JavaScript VM"
     },
     {
       "Type": "OOPSLA",
@@ -4409,6 +4395,12 @@
       "Name": "Markus Völter"
     },
     {
+      "Affiliation": "Oregon State U, USA",
+      "Bio": "",
+      "Key": 1892,
+      "Name": "Martin Erwig"
+    },
+    {
       "Affiliation": "U Zürich, Switzerland",
       "Bio": "",
       "Key": 1245,
@@ -5067,6 +5059,12 @@
       "Bio": "",
       "Key": 1372,
       "Name": "Richard L. Hudson"
+    },
+    {
+      "Affiliation": "U York, UK",
+      "Bio": "",
+      "Key": 1891,
+      "Name": "Richard Paige"
     },
     {
       "Affiliation": "Amsterdam U Applied Sciences, Netherlands",
@@ -6252,7 +6250,7 @@
         1651,
         1650
       ],
-      "Abstract": "",
+      "Abstract": "European electricity companies trade electric power across country and market boundaries. So called schedules are data sets that define the terms and conditions of such power trades. Different proprietary or standardized formats for schedules exist. However, due to a wide variety of different trading partners and power markets, a number of problems arise which complicate the standardized exchange of schedules. In this paper, we discuss a project that we conducted to develop a domain-specific language (DSL) for scheduling in a large Austrian electricity company running more than 140 power plants. The DSL is written in Ruby and provides a standardized programming model for specifying schedules, reduces code redundancy, and enables domain experts (\"schedulers\") to set up and to change market definitions autonomously.",
       "Key": 976,
       "URL": null,
       "Title": "Developing a Domain-specific Language for Scheduling in the European Energy Sector"
@@ -6263,7 +6261,7 @@
         1654,
         1653
       ],
-      "Abstract": "",
+      "Abstract": "In the multi-billion dollar game industry, time to market limits the time developers have for improving games. Game designers and software engineers usually live on opposite sides of the fence, and lose time when adjustments best understood by designers are implemented by engineers. Designers lack a common vocabulary for expressing gameplay, which hampers specification, communication and agreement. We aim to speed up the game development process by improving designer productivity and design quality. The language Machinations provides a graphical notation, well-suited to a designer\u2019s expertise for expressing the rules of game economies. We introduce a formalized extended subset, Micro-Machinations (MM), a domain-specific language for game economies. We provide MM Analysis in Rascal (MM AiR), a framework for analysis of MM models using the Rascal meta-programming language and the Spin model checker. Our approach shows it is feasible to rapidly simulate game economies in early development stages and to separate concerns.",
       "Key": 977,
       "URL": null,
       "Title": "Micro-Machinations: A DSL for Game Economies"
@@ -6276,7 +6274,7 @@
         1656,
         1655
       ],
-      "Abstract": "",
+      "Abstract": "The basic ingredients of a domain-specific modeling language (DSML) are its syntax and semantics. For defining the abstract syntax, MOF constitutes a standardized language for the definition of metamodels. For specifying the behavioral semantics, however, no standardized language exists, which hampers the emergence of model execution facilities, such as debugging and simulation support. The contribution of this paper is an integrated approach for specifying the abstract syntax and behavioral semantics of DSMLs based exclusively on standardized modeling languages. In particular, we integrate fUML, a standardized executable subset of UML, with MOF leading to a new metamodeling language xMOF. Moreover, we propose a methodology for developing executable DSMLs fostering the separation of abstract syntax and behavioral semantics. To evaluate our approach, we provide an EMF-based implementation and report on lessons learned from performing three case studies in which we implemented executable DSMLs using xMOF.",
       "Key": 978,
       "URL": null,
       "Title": "xMOF: Executable DSMLs based on fUML"
@@ -6297,7 +6295,7 @@
       "Authors": [
         1752
       ],
-      "Abstract": "In an extensible programming language, programmers write code\r\nthat must run at different times\u2014in particular, at compile time\r\nversus run time. The module system of the Racket programming\r\nlanguage enables a programmer to reason about programs in the\r\nface of such extensibility, because the distinction between run-\r\ntime and compile-time phases is built into the language model.\r\nSubmodules extend Racket\u2019s module system to make the phase-\r\nseparation facet of the language extensible. That is, submodules\r\ngive programmers the capability to define new phases, such as \u201ctest\r\ntime\u201d or \u201cdocumentation time,\u201d with the same reasoning and code-\r\nmanagement benefits as the built-in distinction between run time\r\nand compile time.\r\n",
+      "Abstract": "In an extensible programming language, programmers write code that must run at different times\u2014in particular, at compile time versus run time. The module system of the Racket programming language enables a programmer to reason about programs in the face of such extensibility, because the distinction between run-time and compile-time phases is built into the language model. Submodules extend Racket\u2019s module system to make the phase-separation facet of the language extensible. That is, submodules give programmers the capability to define new phases, such as \u201ctest time\u201d or \u201cdocumentation time,\u201d with the same reasoning and code-management benefits as the built-in distinction between run time and compile time.\r\n",
       "Key": 1011,
       "URL": null,
       "Title": "Submodules in Racket: You Want it When, Again?"
@@ -6309,7 +6307,7 @@
         1260,
         1547
       ],
-      "Abstract": "Software repositories contain a vast wealth of information about\r\nsoftware development. Mining these repositories has proven useful\r\nfor detecting patterns in software development, testing hypotheses\r\nfor new software engineering approaches, etc. Specifically, mining\r\nsource code has yielded significant insights into software develop-\r\nment artifacts and processes. Unfortunately, mining source code at\r\na large-scale remains a difficult task. Previous approaches had to\r\neither limit the scope of the projects studied, limit the scope of the\r\nmining task to be more coarse-grained, or sacrifice studying the his-\r\ntory of the code due to both human and computational scalability\r\nissues. In this paper we address the substantial challenges of min-\r\ning source code: a) at a very large scale; b) at a fine-grained level\r\nof detail; and c) with full history information.\r\n\r\nTo address these challenges, we present domain-specific lan-\r\nguage features for source code mining. Our language features are\r\ninspired by object-oriented visitors and provide a default depth-\r\nfirst traversal strategy along with two expressions for defining cus-\r\ntom traversals. We provide an implementation of these features in\r\nthe Boa infrastructure for software repository mining and describe\r\na code generation strategy into Java code. To show the usability\r\nof our domain-specific language features, we reproduced over 40\r\nsource code mining tasks from two large-scale previous studies in\r\njust 2 person-weeks. The resulting code for these tasks show be-\r\ntween 2.0x\u20134.8x reduction in code size. Finally we perform a small\r\ncontrolled experiment to gain insights into how easily mining tasks\r\nwritten using our language features can be understood, with no\r\nprior training. We show a substantial number of tasks (77%) were\r\nunderstood by study participants, in about 3 minutes per task.\r\n",
+      "Abstract": "Software repositories contain a vast wealth of information about software development. Mining these repositories has proven useful for detecting patterns in software development, testing hypotheses for new software engineering approaches, etc. Specifically, mining source code has yielded significant insights into software development artifacts and processes. Unfortunately, mining source code at a large-scale remains a difficult task. Previous approaches had to either limit the scope of the projects studied, limit the scope of the mining task to be more coarse-grained, or sacrifice studying the history of the code due to both human and computational scalability issues. In this paper we address the substantial challenges of mining source code: a) at a very large scale; b) at a fine-grained level of detail; and c) with full history information.\r\n\r\nTo address these challenges, we present domain-specific language features for source code mining. Our language features are inspired by object-oriented visitors and provide a default depth-first traversal strategy along with two expressions for defining custom traversals. We provide an implementation of these features in the Boa infrastructure for software repository mining and describe a code generation strategy into Java code. To show the usability of our domain-specific language features, we reproduced over 40 source code mining tasks from two large-scale previous studies in just 2 person-weeks. The resulting code for these tasks show between 2.0x\u20134.8x reduction in code size. Finally we perform a small controlled experiment to gain insights into how easily mining tasks written using our language features can be understood, with no prior training. We show a substantial number of tasks (77%) were understood by study participants, in about 3 minutes per task.\r\n",
       "Key": 1015,
       "URL": null,
       "Title": "Declarative Visitors to Ease Fine-grained Source Code Mining with Full History on Billions of AST Nodes"
@@ -6332,7 +6330,7 @@
         1661,
         1660
       ],
-      "Abstract": "",
+      "Abstract": "Domain Specific Languages (DSLs) are widely adopted to capitalize on business domain experiences. Consequently, DSL development is becoming a recurring activity.  Unfortunately, even though it has its benefits, language development is a complex and time-consuming task. Languages are commonly realized from scratch even when they share some concepts and even though they could share bits of tool support. This cost can be reduced by employing modern modular programming techniques that foster code reuse. However, choosing and composing these modules is often only within the reach of a skilled DSL developer. In this paper we propose to combine modular language development and variability management, possibly capitalizing on existing assets. This approach makes explicit the dependencies between language components, and allows a domain expert to configure his own DSL, and then automatically derive its implementation.  The approach is tool supported by using Neverlang for implementing language components, and the Common Variability Language (CVL) for managing the variability and automating the configuration. We will further illustrate our approach by the help of a case study, where we will implement a DSL to describe state machines.",
       "Key": 979,
       "URL": null,
       "Title": "Variability Support in Domain-Specific Language Development"
@@ -6344,7 +6342,7 @@
         1664,
         1663
       ],
-      "Abstract": "",
+      "Abstract": "Domain-specific languages (DSLs) can improve software maintainability due to less verbose syntax, more accurate static analysis, and domain-specific tool support. However, most existing applications cannot capitalize on these benefits because they were not designed to use DSLs, and rewriting large existing applications from scratch is infeasible. We propose a process for evolving existing software to use embedded DSLs based on modular definitions and applications of syntactic sugar as provided by the extensible programming language SugarJ. Our process is incremental along two dimensions: A developer can add support for another DSL as library, and a developer can refactor more code to use the syntax, static analysis, and tooling of a DSL. Importantly, the application remains executable at all times and no complete rewrite is necessary. We evaluate our process by incrementally evolving the Java Pet Store and a deliberately small part of the Eclipse IDE to use language support for field-accessors, JPQL, XML, and XML Schema. To help maintainers to locate Java code that would benefit from using DSLs, we developed a tool that analyzes the definition of a DSL to derive patterns of Java code that could be represented with a high-level abstraction of the DSL instead.",
       "Key": 980,
       "URL": null,
       "Title": "Software Evolution to Domain-Specific Languages"
@@ -6354,7 +6352,7 @@
       "Authors": [
         1666
       ],
-      "Abstract": "",
+      "Abstract": "Micropatterns and nanopatterns have been previously demonstrated to be useful techniques for object-oriented program comprehension. In this paper, we use a similar approach for identifying structurally similar fragments in grammars in a broad sense (contracts for commitment to structure), in particular parser specifications, metamodels and data models. Grammatical micropatterns bridge the gap between grammar metrics, which are easy to implemented but hard to assign meaning to, and language design guidelines, which are inherently meaningful as stemming from current software language engineering practice but considerably harder to formalise.",
       "Key": 981,
       "URL": null,
       "Title": "Micropatterns in Grammars"
@@ -6366,7 +6364,7 @@
         1346,
         1345
       ],
-      "Abstract": "Pattern matching is an abstraction mechanism that can greatly sim- \r\nplify source code. We present functional-style pattern matching for \r\nC++ implemented as a library, called Mach7 . All the patterns are \r\nuser-definable, can be stored in variables, passed among functions, \r\n  and allow the use of class hierarchies. As an example, we imple- \r\n  ment common patterns used in functional languages. \r\n\r\nOur approach to pattern matching is based on compile-time \r\ncomposition of pattern objects through concepts. This is superior \r\n(in terms of performance and expressiveness) to approaches based \r\non run-time composition of polymorphic pattern objects. In partic- \r\nular, our solution allows mapping functional code based on pattern \r\nmatching directly into C++ and produces code that is only a few \r\npercent slower than hand-optimized C++ code. \r\n\r\nThe library uses an efficient type switch construct, further ex- \r\ntending it to multiple scrutinees and general patterns. We compare \r\nthe performance of pattern matching to that of double dispatch and \r\nopen multi-methods in C++. \r\n",
+      "Abstract": "Pattern matching is an abstraction mechanism that can greatly simplify source code. We present functional-style pattern matching for C++ implemented as a library, called Mach7 . All the patterns are user-definable, can be stored in variables, passed among functions,  and allow the use of class hierarchies. As an example, we implement common patterns used in functional languages.\r\n\r\nOur approach to pattern matching is based on compile-time composition of pattern objects through concepts. This is superior (in terms of performance and expressiveness) to approaches based on run-time composition of polymorphic pattern objects. In particular, our solution allows mapping functional code based on pattern matching directly into C++ and produces code that is only a few percent slower than hand-optimized C++ code.\r\n\r\nThe library uses an efficient type switch construct, further extending it to multiple scrutinees and general patterns. We compare the performance of pattern matching to that of double dispatch and open multi-methods in C++.\r\n",
       "Key": 1019,
       "URL": null,
       "Title": "Open Pattern Matching for C++"
@@ -6378,7 +6376,7 @@
         1751,
         1664
       ],
-      "Abstract": "Reuse of and abstraction over object initialization logic is not prop-\r\nerly supported in mainstream object-oriented languages. This may\r\nresult in significant amount of boilerplate code and proliferation of\r\nconstructors in subclasses. It also makes it impossible for mixins\r\nto extend the initialization interface of classes they are applied to.\r\nWe propose template constructors, which employ template param-\r\neters and pattern matching of them against signatures of superclass\r\nconstructors to enable a one-to-many binding of super-calls. We\r\ndemonstrate how template constructors solve the aforementioned\r\nproblems. We present a formalization of the concept, a Java-based\r\nimplementation, and use cases which exercise its strengths.\r\n",
+      "Abstract": "Reuse of and abstraction over object initialization logic is not properly supported in mainstream object-oriented languages. This may result in significant amount of boilerplate code and proliferation of constructors in subclasses. It also makes it impossible for mixins to extend the initialization interface of classes they are applied to. We propose template constructors, which employ template parameters and pattern matching of them against signatures of superclass constructors to enable a one-to-many binding of super-calls. We demonstrate how template constructors solve the aforementioned problems. We present a formalization of the concept, a Java-based implementation, and use cases which exercise its strengths.",
       "Key": 1010,
       "URL": null,
       "Title": "Template Constructors for Reusable Object Initialization"
@@ -6390,7 +6388,7 @@
         1739,
         1716
       ],
-      "Abstract": "Writing large Web applications is known to be difficult. One chal-\r\nlenge comes from the fact that the application\u2019s logic is scattered\r\ninto heterogeneous clients and servers, making it difficult to share\r\ncode between both sides or to move code from one side to the other.\r\nAnother challenge is performance: while Web applications rely on\r\never more code on the client-side, they may run on smart phones\r\nwith limited hardware capabilities. These two challenges raise the\r\nfollowing problem: how to benefit from high-level languages and\r\nlibraries making code complexity easier to manage and abstract-\r\ning over the clients and servers differences without trading this\r\nease of engineering for performance? This article presents high-\r\nlevel abstractions defined as deep embedded DSLs in Scala that can\r\ngenerate efficient code leveraging the characteristics of both client\r\nand server environments. We compare performance on client-side\r\nagainst other candidate technologies and against hand written low-\r\nlevel JavaScript code. Though code written with our DSL has a\r\nhigh level of abstraction, our benchmark on a real world applica-\r\ntion reports that it runs as fast as hand tuned low-level JavaScript\r\ncode.\r\n",
+      "Abstract": "Writing large Web applications is known to be difficult. One challenge comes from the fact that the application\u2019s logic is scattered into heterogeneous clients and servers, making it difficult to share code between both sides or to move code from one side to the other. Another challenge is performance: while Web applications rely on ever more code on the client-side, they may run on smart phones with limited hardware capabilities. These two challenges raise the following problem: how to benefit from high-level languages and libraries making code complexity easier to manage and abstracting over the clients and servers differences without trading this ease of engineering for performance? This article presents high-level abstractions defined as deep embedded DSLs in Scala that can generate efficient code leveraging the characteristics of both client and server environments. We compare performance on client-side against other candidate technologies and against hand written low-level JavaScript code. Though code written with our DSL has a high level of abstraction, our benchmark on a real world application reports that it runs as fast as hand tuned low-level JavaScript code.",
       "Key": 1007,
       "URL": null,
       "Title": "Efficient High-Level Abstractions for Web Programming"
@@ -6402,7 +6400,7 @@
         1427,
         1397
       ],
-      "Abstract": "Java generics are compiled by-erasure: all clients reuse the same\r\nbytecode, with uses of the unknown type erased. C++ templates are\r\ncompiled by-expansion: each type-instantiation of a template pro-\r\nduces a different code definition. The two approaches offer trade-\r\noffs on multiple axes. We propose an extension of Java generics\r\nthat allows by-expansion translation relative to selected type pa-\r\nrameters only. This language design allows sophisticated users to\r\nget the best of both worlds at a fine granularity. Furthermore, our\r\nproposal is based on Java 8 Type Annotations (JSR 308) and the\r\nChecker Framework as an abstraction layer for controlling compi-\r\nlation without changes to the internals of a Java compiler.\r\n",
+      "Abstract": "Java generics are compiled by-erasure: all clients reuse the same bytecode, with uses of the unknown type erased. C++ templates are compiled by-expansion: each type-instantiation of a template produces a different code definition. The two approaches offer tradeoffs on multiple axes. We propose an extension of Java generics that allows by-expansion translation relative to selected type parameters only. This language design allows sophisticated users to get the best of both worlds at a fine granularity. Furthermore, our proposal is based on Java 8 Type Annotations (JSR 308) and the Checker Framework as an abstraction layer for controlling compilation without changes to the internals of a Java compiler.\r\n",
       "Key": 1014,
       "URL": null,
       "Title": "Reified Type Parameters Using Java Annotations"
@@ -6416,7 +6414,7 @@
         1222,
         1296
       ],
-      "Abstract": "",
+      "Abstract": "In this paper we present an approach to specifying operator precedence based on declarative disambiguation constructs and an implementation mechanism based on grammar rewriting. We observed a gap in existing context-free general parsing and disambiguation technology: the fully declarative specification and implementation of a language such as OCaml was not possible. Our approach bridges this gap, is independent of any parsing technology, and is safe in that it guarantees that the language of the disambiguated grammar will be the same as the language of the specification grammar. We evaluate our new approach by specifying the precedence rules from the OCaml reference manual against the highly ambiguous reference grammar and validate the output of our generated parser.",
       "Key": 982,
       "URL": null,
       "Title": "Safe Specification of Operator Precedence Rules"
@@ -6427,7 +6425,7 @@
         1416,
         1670
       ],
-      "Abstract": "",
+      "Abstract": "Ambiguous Context Free Grammars (CFGs) are problematic for programming languages, as they allow inputs to be parsed in more than one  way. In this paper, we introduce a simple search-based approach to ambiguity detection, which non-deterministically attempts to find ambiguity. We also introduce two new techniques to generating random grammars, utilising Boltzmann sampling and grammar mutation, allowing us to test ambiguity detection tools on much larger corpuses than previously possible. Our resulting experiments then shows that our simple search-based approach performs as well as, and generally better, than extant tools.",
       "Key": 983,
       "URL": null,
       "Title": "Detecting ambiguity in programming language grammars"
@@ -6438,7 +6436,7 @@
         1671,
         1672
       ],
-      "Abstract": "",
+      "Abstract": "Producing pretty-printed output is a fundamental part of source-to-source  transformation, refactoring and high-level code generation. The required `prettiness' of the output can vary from barely readable (for machine only), via layout preserving (for refactoring), to nicely (re)formatted. Commonly used pretty-printing tools in transformation frameworks (such as box formatting) provide an easy way to produce indented code that is  fairly readable for humans, without reaching the level of purpose-built reformatting tools, such as those built into IDEs. This paper presents a library of pluggable components, built to support style-based formatting and reformatting of code.",
       "Key": 984,
       "URL": null,
       "Title": "A Pretty Good Formatting Pipeline"
@@ -6451,7 +6449,7 @@
         1759,
         1754
       ],
-      "Abstract": "The C preprocessor (CPP) is a simple and language-independent\r\ntool, widely used to implement variable software systems using\r\nconditional compilation (i.e., by including or excluding annotated\r\ncode). Although CPP provides powerful means to express variabil-\r\nity, it has been criticized for allowing arbitrary annotations that\r\nbreak the underlying structure of the source code. We distinguish\r\nbetween disciplined annotations, which align with the structure of\r\nthe source code, and undisciplined annotations, which do not. Sev-\r\neral studies suggest that especially the latter type of annotations\r\nmakes it hard to (automatically) analyze the code. However, lit-\r\ntle is known about whether the type of annotations has an effect\r\non program comprehension. We address this issue by means of a\r\ncontrolled experiment with human subjects. We designed similar\r\ntasks for both, disciplined and undisciplined annotations, to mea-\r\nsure program comprehension. Then, we measured the performance\r\nof the subjects regarding correctness and response time for solv-\r\ning the tasks. Our results suggest that there are no differences be-\r\ntween disciplined and undisciplined annotations from a program-\r\ncomprehension perspective. Nevertheless, we observed that finding\r\nand correcting errors is a time-consuming and tedious task in the\r\npresence of preprocessor annotations.\r\n",
+      "Abstract": "The C preprocessor (CPP) is a simple and language-independent tool, widely used to implement variable software systems using conditional compilation (i.e., by including or excluding annotated code). Although CPP provides powerful means to express variability, it has been criticized for allowing arbitrary annotations that break the underlying structure of the source code. We distinguish between disciplined annotations, which align with the structure of the source code, and undisciplined annotations, which do not. Several studies suggest that especially the latter type of annotations makes it hard to (automatically) analyze the code. However, little is known about whether the type of annotations has an effect on program comprehension. We address this issue by means of a controlled experiment with human subjects. We designed similar tasks for both, disciplined and undisciplined annotations, to measure program comprehension. Then, we measured the performance of the subjects regarding correctness and response time for solving the tasks. Our results suggest that there are no differences between disciplined and undisciplined annotations from a program-comprehension perspective. Nevertheless, we observed that finding and correcting errors is a time-consuming and tedious task in the presence of preprocessor annotations.",
       "Key": 1016,
       "URL": null,
       "Title": "Does the Discipline of Preprocessor Annotations Matter? A Controlled Experiment"
@@ -6463,7 +6461,7 @@
         1734,
         1735
       ],
-      "Abstract": "The C preprocessor is commonly used to implement variability in\r\nprogram families. Despite the widespread usage, some studies indi-\r\ncate that the C preprocessor makes variability implementation dif-\r\nficult and error-prone. However, we still lack studies to investigate\r\npreprocessor-based syntax errors and quantify to what extent they\r\noccur in practice. In this paper, we define a technique based on a\r\nvariability-aware parser to find syntax errors in releases and com-\r\nmits of program families. To investigate these errors, we perform an\r\nempirical study where we use our technique in 41 program family\r\nreleases, and more than 51 thousand commits of 8 program fam-\r\nilies. We find 7 and 20 syntax errors in releases and commits of\r\nprogram families, respectively. They are related not only to incom-\r\nplete annotations, but also to complete ones. We submit 8 patches\r\nto fix errors that developers have not fixed yet, and they accept 75%\r\nof them. Our results reveal that the time developers need to fix the\r\nerrors varies from days to years in family repositories. We detect\r\nerrors even in releases of well-known and widely used program\r\nfamilies, such as Bash, CVS and Vim. We also classify the syntax\r\nerrors into 6 different categories. This classification may guide de-\r\nvelopers to avoid them during development.\r\n",
+      "Abstract": "The C preprocessor is commonly used to implement variability in program families. Despite the widespread usage, some studies indicate that the C preprocessor makes variability implementation difficult and error-prone. However, we still lack studies to investigate preprocessor-based syntax errors and quantify to what extent they occur in practice. In this paper, we define a technique based on a variability-aware parser to find syntax errors in releases and commits of program families. To investigate these errors, we perform an empirical study where we use our technique in 41 program family releases, and more than 51 thousand commits of 8 program families. We find 7 and 20 syntax errors in releases and commits of program families, respectively. They are related not only to incomplete annotations, but also to complete ones. We submit 8 patches to fix errors that developers have not fixed yet, and they accept 75% of them. Our results reveal that the time developers need to fix the errors varies from days to years in family repositories. We detect errors even in releases of well-known and widely used program families, such as Bash, CVS and Vim. We also classify the syntax errors into 6 different categories. This classification may guide developers to avoid them during development.",
       "Key": 1005,
       "URL": null,
       "Title": "Investigating Preprocessor-Based Syntax Errors"
@@ -6476,7 +6474,7 @@
         1725,
         1726
       ],
-      "Abstract": "Dynamic Software Product Line (DSPL) Engineering has gained\r\ninterest through its promise of being able to unify software adap-\r\ntation whereby software adaptation can be realised at compile time\r\nand runtime. While previous work has enabled program logic adap-\r\ntation by the use of language extensions and platform support, little\r\nattention has been placed on Graphical User Interface (GUI) vari-\r\nability. Different design patterns including the Model View Con-\r\ntroller are commonly used in GUI implementation, with GUI doc-\r\numents being used for declaring the GUI. To handle dynamic GUI\r\nvariability currently, the developer needs to implement GUI refine-\r\nments using multiple techniques. This paper proposes a solution for\r\ndealing with GUI document variability, statically and dynamically,\r\nin a unified way. In our approach, we currently use a compile time\r\nmethod for producing GUI variants, and code transformations to\r\nhandle these variants within the application at runtime. To avoid\r\nGUI duplicates, only GUI variants that are unique, and related to\r\na valid product configuration, are produced. To validate our ap-\r\nproach, we implemented tool support to enable this for Android\r\nbased applications.\r\n",
+      "Abstract": "Dynamic Software Product Line (DSPL) Engineering has gained interest through its promise of being able to unify software adaptation whereby software adaptation can be realised at compile time and runtime. While previous work has enabled program logic adaptation by the use of language extensions and platform support, little attention has been placed on Graphical User Interface (GUI) variability. Different design patterns including the Model View Controller are commonly used in GUI implementation, with GUI documents being used for declaring the GUI. To handle dynamic GUI variability currently, the developer needs to implement GUI refinements using multiple techniques. This paper proposes a solution for dealing with GUI document variability, statically and dynamically, in a unified way. In our approach, we currently use a compile time method for producing GUI variants, and code transformations to handle these variants within the application at runtime. To avoid GUI duplicates, only GUI variants that are unique, and related to a valid product configuration, are produced. To validate our approach, we implemented tool support to enable this for Android based applications.",
       "Key": 1002,
       "URL": null,
       "Title": "Using Document-Oriented GUIs in Dynamic Software Product Lines"
@@ -6488,7 +6486,7 @@
       ],
       "Abstract": "",
       "Key": 1087,
-      "URL": "",
+      "URL": "http://refactoring.info/WRT13/",
       "Title": "WRT — Refactoring, Reuse & Reality: Revisited"
     },
     {
@@ -6649,7 +6647,7 @@
       ],
       "Abstract": "Live programming is emerging as the next big step in programming environments that will finally allow us to move beyond our stodgy Smalltalk-era IDEs into a more programmer-friendly future. However, existing live programming experiences are still not very useful\u2014they dazzle us with live feedback but that feedback does not really help us write code! In this talk, I first show how live programming can instead be re-cast as a fusion of editing and debugging at the same time\u2014and in the same space\u2014so that live execution feedback can be quickly applied to edits. Although live programming demos are really cool, they are also quite shallow: can these experiences really be achieved in practice? Implementing live programming systems is the ultimate reactive programming challenging as our changing input is code to be executed! The second part of this talk overcomes these challenges by automating the repair of general-purpose (imperative) programs through dirty techniques that eschew global dependency graphs and topological sorting. Our programming model, Glitch, embraces temporary inconsistencies by re-executing program parts until consistency is achieved. Glitch supports expressive shared-state procedural programming, but with one caveat: operations on shared state must be undoable and commutative to ensure re-execution efficiency and eventual consistency. I show how this is good enough to implement a live programming system (compiler and all) as well as serving as a programming model for a live programming language.\r\n",
       "Key": 998,
-      "URL": "",
+      "URL": "http://soft.vub.ac.be/REM13",
       "Title": "REM — Making Live Programming Real"
     },
     {
@@ -6780,7 +6778,7 @@
         1199,
         1754
       ],
-      "Abstract": "Most contemporary programs are customizable. They provide many\r\nfeatures that give rise to millions of program variants. Determining\r\nwhich feature selection yields an optimal performance is challenging,\r\nbecause of the exponential number of variants. Predicting the perfor-\r\nmance of a variant based on previous measurements proved successful,\r\nbut induces a trade-off between the measurement effort and predic-\r\ntion accuracy. We propose the alternative approach of family-based\r\nperformance measurement, to reduce the number of measurements\r\nrequired for identifying feature interactions and for obtaining accurate\r\npredictions. The key idea is to create a variant simulator (by translating\r\ncompile-time variability to run-time variability) that can simulate the\r\nbehavior of all program variants. We use it to measure performance of\r\nindividual methods, trace methods to features, and infer feature inter-\r\nactions based on the call graph. We evaluate our approach by means\r\nof five feature-oriented programs. On average, we achieve accuracy\r\nof 98 %, with only a single measurement per customizable program.\r\nObservations show that our approach opens avenues of future research\r\nin different domains, such an feature-interaction detection and testing.\r\n",
+      "Abstract": "Most contemporary programs are customizable. They provide many features that give rise to millions of program variants. Determining which feature selection yields an optimal performance is challenging, because of the exponential number of variants. Predicting the performance of a variant based on previous measurements proved successful, but induces a trade-off between the measurement effort and prediction accuracy. We propose the alternative approach of family-based performance measurement, to reduce the number of measurements required for identifying feature interactions and for obtaining accurate predictions. The key idea is to create a variant simulator (by translating compile-time variability to run-time variability) that can simulate the behavior of all program variants. We use it to measure performance of individual methods, trace methods to features, and infer feature interactions based on the call graph. We evaluate our approach by means of five feature-oriented programs. On average, we achieve accuracy of 98 %, with only a single measurement per customizable program. Observations show that our approach opens avenues of future research in different domains, such an feature-interaction detection and testing.",
       "Key": 1012,
       "URL": null,
       "Title": "Family-Based Performance Measurement"
@@ -6798,7 +6796,7 @@
         1746,
         1743
       ],
-      "Abstract": "Dynamic analysis tools are often implemented using instrumenta-\r\ntion, particularly on managed runtimes including the Java Virtual\r\nMachine (JVM). Performing instrumentation robustly is especially\r\ncomplex on such runtimes: existing frameworks offer limited cov-\r\nerage and poor isolation, while previous work has shown that ap-\r\nparently innocuous instrumentation can cause deadlocks or crashes\r\nin the observed application. This paper describes ShadowVM, a\r\nsystem for instrumentation-based dynamic analyses on the JVM\r\nwhich combines a number of techniques to greatly improve both\r\nisolation and coverage. These centre on the offload of analysis to\r\na separate process; we believe our design is the first system to en-\r\nable genuinely full bytecode coverage on the JVM. We describe a\r\nworking implementation, and use a case study to demonstrate its\r\nimproved coverage and to evaluate its runtime overhead.\r\n",
+      "Abstract": "Dynamic analysis tools are often implemented using instrumentation, particularly on managed runtimes including the Java Virtual Machine (JVM). Performing instrumentation robustly is especially complex on such runtimes: existing frameworks offer limited coverage and poor isolation, while previous work has shown that apparently innocuous instrumentation can cause deadlocks or crashes in the observed application. This paper describes ShadowVM, a system for instrumentation-based dynamic analyses on the JVM which combines a number of techniques to greatly improve both isolation and coverage. These centre on the offload of analysis to a separate process; we believe our design is the first system to enable genuinely full bytecode coverage on the JVM. We describe a working implementation, and use a case study to demonstrate its improved coverage and to evaluate its runtime overhead.",
       "Key": 1009,
       "URL": null,
       "Title": "ShadowVM?: Robust and Comprehensive Dynamic Program Analysis for the Java Platform"
@@ -6811,7 +6809,7 @@
         1763,
         1754
       ],
-      "Abstract": "Analyzing software product lines is difficult, due to their inherent\r\nvariability. In the past, several strategies for product-line analysis\r\nhave been proposed, in particular, product-based, feature-based,\r\nand family-based strategies. Despite recent attempts to conceptu-\r\nally and empirically compare different strategies, there is no work\r\nthat empirically compares all of the three strategies in a controlled\r\nsetting. We close this gap by extending a compiler for feature-\r\noriented programming with support for product-based, feature-\r\nbased, and family-based type checking. We present and discuss\r\nthe results of a comparative performance evaluation that we con-\r\nducted on a set of 12 feature-oriented, JAVA-based product lines.\r\nMost notably, we found that the family-based strategy is superior\r\nfor all subject product lines: it is substantially faster, it detects all\r\nkinds of errors, and provides the most detailed information about\r\nthem.\r\n",
+      "Abstract": "Analyzing software product lines is difficult, due to their inherent variability. In the past, several strategies for product-line analysis have been proposed, in particular, product-based, feature-based, and family-based strategies. Despite recent attempts to conceptually and empirically compare different strategies, there is no work that empirically compares all of the three strategies in a controlled setting. We close this gap by extending a compiler for feature-oriented programming with support for product-based, feature-based, and family-based type checking. We present and discuss the results of a comparative performance evaluation that we conducted on a set of 12 feature-oriented, JAVA-based product lines. Most notably, we found that the family-based strategy is superior for all subject product lines: it is substantially faster, it detects all kinds of errors, and provides the most detailed information about them.\r\n",
       "Key": 1018,
       "URL": null,
       "Title": "A Comparison of Product-based, Feature-based, and Family-based Type Checking"
@@ -6874,7 +6872,7 @@
         1686,
         1622
       ],
-      "Abstract": "",
+      "Abstract": "Language workbenches are tools that provide high-level mechanisms for the implementation of (domain-specific) languages. Language workbenches are an active area of research that also receives many contributions from industry. To compare and discuss existing language workbenches, the annual Language Workbench Challenge was launched in 2011. Each year, participants are challenged to realize a given domain-specific language with their workbenches as a basis for discussion and comparison. In this paper, we describe the state of the art of language workbenches as observed in the previous editions of the Language Workbench Challenge. In particular, we capture the design space of language workbenches in a feature model and show where in this design space the participants of the 2013 Language Workbench Challenge reside. We compare these workbenches based on a DSL for questionnaires that was realized in all workbenches.",
       "Key": 985,
       "URL": null,
       "Title": "The State of the Art in Language Workbenches"
@@ -6886,7 +6884,7 @@
         1691,
         1689
       ],
-      "Abstract": "",
+      "Abstract": "In the context of embedded systems design, the growing heterogeneity of systems leads to increasingly complex and unreliable tool chains definitions. The Model Driven Engineering (MDE) community has been making considerable efforts to abstract tool languages in meta-models, and to offer model transformation mechanisms for exchanges. However, the interoperability problems are still not consistently addressed. For instance, when it comes to executable models exchanges, it is very difficult to ensure the preservation of the models behavior from one tool to another. This is mainly due to a lack of understanding of the Models of Computation (MoC) and execution semantics behind the models within different environments. In this paper, we introduce a methodology and a framework to: make explicit the execution semantics of models (based on the theory of MoC); provide semantics enrichment mechanisms to ensure the preservation of the execution semantics of models between tools. Our case study is an integration example between a UML specification tool and an industrial Intensive Data Flow processing tool. This contribution helps to highlight execution semantics concerns within tool integration context.",
       "Key": 986,
       "URL": null,
       "Title": "A Model-Driven Approach to Enhance Tool Interoperability using the Theory of Models of Computation"
@@ -6897,7 +6895,7 @@
         1692,
         1693
       ],
-      "Abstract": "",
+      "Abstract": "An ongoing challenge for computer science is the development of a tool which automatically verifies programs meet their specifications, and are free from runtime errors such as divide-by-zero, array out-of-bounds and null dereferences. Several impressive systems have been developed to this end, such as ESC/Java and Spec#, which build on existing programming languages (e.g. Java, C#). Unfortunately, such languages were not designed for this purpose and, as a result, soundness of these tools is compromised. Furthermore, extending such tools has proven difficult, and there remains a need for an open research platform in this area. We have developed the Whiley programming language, and its accompanying verifying compiler, as an open platform for research. Whiley has been designed from the ground up to simplify the verification process. In this paper, we introduce the Whiley language and it accompanying verifying compiler tool. The architecture of the compiler, in particular, provides interesting insight into the verification problem.",
       "Key": 987,
       "URL": null,
       "Title": "Whiley: a Platform for Research in Software Verification"
@@ -6909,7 +6907,7 @@
         1695,
         1635
       ],
-      "Abstract": "",
+      "Abstract": "Wikipedia provides useful input for efforts on mining taxonomies or ontologies in specific domains. In particular, Wikipedia\u2019s categories serve classification. In this paper, we describe a method and a corresponding tool, WikiTax, for exploring Wikipedia\u2019s category graph with the objective of supporting the development of a classification of software languages. The category graph is extracted level by level. The extracted graph is visualized in a tree-like manner. Category attributes (i.e., metrics) such as depth are visualized. Irrelevant edges and nodes may be excluded. These exclusions are documented while using a manageable and well-defined set of \u2018exclusion types\u2019 as comments.",
       "Key": 988,
       "URL": null,
       "Title": "Method and tool support for classifying software languages with Wikipedia"
@@ -6923,16 +6921,6 @@
       "Key": 789,
       "URL": null,
       "Title": "Effective Fusion and Separation of Distribution, Fault-Tolerance, and Energy-Efficiency Concerns"
-    },
-    {
-      "Type": "Doctoral Symposium",
-      "Authors": [
-        1316
-      ],
-      "Abstract": "Today, many developers try to create a new scripting language to provide scripting features to their own application domain. We proposed The DeSugar parser that provides a flexible means of extending the user-defined syntax by scripting. The goal of the DeSugar parser is to make it easier for users to adopt the language syntax to their own application domain. This paper presents Konoha, which is fully integrated with the DeSugar parser, and which allows users to extend its own syntax through the DeSugar parser scripting interfaces.",
-      "Key": 787,
-      "URL": null,
-      "Title": "Implementing A Scripting Language Parser with Self-Extensible Syntax"
     },
     {
       "Type": "Doctoral Symposium",
@@ -6973,7 +6961,7 @@
         1697,
         1699
       ],
-      "Abstract": "",
+      "Abstract": "IDEs depend on incremental name and type analysis for responsive feedback for large projects. In this paper, we present a language-parametric approach for incremental name and type analysis. Analysis consists of two phases. The first phase analyzes lexical scopes and binding instances and creates deferred analysis tasks. A task captures a single name resolution or type analysis step. Tasks might depend on other tasks and are evaluated in the second phase. Incrementality is supported on file and task level. When a file changes, only this file is recollected and only those tasks are reevaluated, which are affected by the changes in the collected data. The analysis does neither re-parse nor re-traverse unchanged files, even if they are affected by changes in other files. We implemented the approach as part of the Spoofax Language Workbench and evaluated it for the WebDSL web programming language.",
       "Key": 989,
       "URL": null,
       "Title": "Language-Parametric Incremental Name and Type Analysis"
@@ -6985,7 +6973,7 @@
         1702,
         1703
       ],
-      "Abstract": "",
+      "Abstract": "We propose a language-independent symbolic execution framework for languages endowed with a formal operational semantics based on term rewriting. Starting from a given definition of a language, a new language definition is automatically generated, which has the same syntax as the original one but whose semantics extends data domains with symbolic values and adapts semantical rules to deal with these values.  Then, the symbolic execution of concrete programs is the execution of programs with the new symbolic semantics, on symbolic input data. We prove that the symbolic execution thus defined has the properties naturally expected from it. A prototype implementation of our approach was developed in the K Framework. We demonstrate the genericity of our tool by instantiating it on several languages, and show how it can be used for the symbolic execution and model checking of several programs.",
       "Key": 990,
       "URL": null,
       "Title": "A Generic Framework for Symbolic Execution"
@@ -6996,7 +6984,7 @@
         1704,
         1705
       ],
-      "Abstract": "",
+      "Abstract": "Reference attribute grammars (RAGs) provide a practical declarative means to implement programming language compilers and other tools. RAGs have previously been extended to support both circular attributes and context-dependent declarative rewrites of the abstract syntax tree. This previous work assumes that circular attributes and rewrites are independent of each other. In this paper, we investigate how these extensions can interact, and still be well defined. We introduce a generalized evaluation algorithm that can handle grammars where circular attributes and rewrites are interdependent. To this end, we introduce circular higher-order attributes, and show how RAG rewrites are a special form of such attributes.",
       "Key": 991,
       "URL": null,
       "Title": "Circular Higher-order Attribute Grammars"
@@ -7069,7 +7057,7 @@
         1438,
         1291
       ],
-      "Abstract": "Program generators for high performance libraries are an appeal-\r\ning solution to the recurring problem of porting and optimizing\r\ncode with every new processor generation, but only few such gen-\r\nerators exist to date. This is due to not only the difficulty of the\r\ndesign, but also of the actual implementation, which often results\r\nin an ad-hoc collection of standalone programs and scripts that are\r\nhard to extend, maintain, or reuse. In this paper we ask whether\r\nand which programming language concepts and features are needed\r\nto enable a more systematic construction of such generators. The\r\nsystematic approach we advocate extrapolates from existing gen-\r\nerators: a) describing the problem and algorithmic knowledge us-\r\ning one, or several, domain-specific languages (DSLs), b) express-\r\ning optimizations and choices as rewrite rules on DSL programs,\r\nc) designing data structures that can be configured to control the\r\ntype of code that is generated and the data representation used, and\r\nd) using autotuning to select the best-performing alternative. As a\r\ncase study, we implement a small, but representative subset of Spi-\r\nral in Scala using the Lightweight Modular Staging (LMS) frame-\r\nwork. The first main contribution of this paper is the realization of\r\nc) using type classes to abstract over staging decisions, i.e. which\r\npieces of a computation are performed immediately and for which\r\npieces code is generated. Specifically, we abstract over different\r\ncomplex data representations jointly with different code represen-\r\ntations including generating loops versus unrolled code with scalar\r\nreplacement\u2014a crucial and usually tedious performance transfor-\r\nmation. The second main contribution is to provide full support for\r\na) and d) within the LMS framework: we extend LMS to support\r\ntranslation between different DSLs and autotuning through search.\r\n",
+      "Abstract": "Program generators for high performance libraries are an appealing solution to the recurring problem of porting and optimizing code with every new processor generation, but only few such generators exist to date. This is due to not only the difficulty of the design, but also of the actual implementation, which often results in an ad-hoc collection of standalone programs and scripts that are hard to extend, maintain, or reuse. In this paper we ask whether and which programming language concepts and features are needed to enable a more systematic construction of such generators. The systematic approach we advocate extrapolates from existing generators: a) describing the problem and algorithmic knowledge using one, or several, domain-specific languages (DSLs), b) expressing optimizations and choices as rewrite rules on DSL programs, c) designing data structures that can be configured to control the type of code that is generated and the data representation used, and d) using autotuning to select the best-performing alternative. As a case study, we implement a small, but representative subset of Spiral in Scala using the Lightweight Modular Staging (LMS) framework. The first main contribution of this paper is the realization of c) using type classes to abstract over staging decisions, i.e. which pieces of a computation are performed immediately and for which pieces code is generated. Specifically, we abstract over different complex data representations jointly with different code representations including generating loops versus unrolled code with scalar replacement\u2014a crucial and usually tedious performance transformation. The second main contribution is to provide full support for a) and d) within the LMS framework: we extend LMS to support translation between different DSLs and autotuning through search.",
       "Key": 1006,
       "URL": null,
       "Title": "Spiral in Scala: Towards the Systematic Construction of Generators for Performance Libraries"
@@ -7082,7 +7070,7 @@
         1755,
         1757
       ],
-      "Abstract": "Programming wireless embedded networks is challenging due to\r\nsevere limitations on processing speed, memory, and bandwidth.\r\nStaged programming can help bridge the gap between high level\r\ncode refinement techniques and efficient device level programs by\r\nallowing a first stage program to specialize device level code. Here\r\nwe introduce a two stage programming system for wireless sensor\r\nnetworks. The first stage program is written in our extended dialect\r\nof Scala, called Scalaness, where components written in our type\r\nsafe dialect of nesC, called nesT, are composed and specialized.\r\nScalaness programs can dynamically construct TinyOS-compliant\r\nnesT device images that can be deployed to motes. A key result,\r\ncalled cross-stage type safety, shows that successful static type\r\nchecking of a Scalaness program means no type errors will arise ei-\r\nther during programmatic composition and specialization of WSN\r\ncode, or later on the WSN itself. Scalaness has been implemented\r\nthrough direct modification of the Scala compiler. Implementation\r\nof a staged public-key cryptography calculation shows the sensor\r\nmemory footprint can be significantly reduced by staging.\r\n",
+      "Abstract": "Programming wireless embedded networks is challenging due to severe limitations on processing speed, memory, and bandwidth. Staged programming can help bridge the gap between high level code refinement techniques and efficient device level programs by allowing a first stage program to specialize device level code. Here we introduce a two stage programming system for wireless sensor networks. The first stage program is written in our extended dialect of Scala, called Scalaness, where components written in our type safe dialect of nesC, called nesT, are composed and specialized. Scalaness programs can dynamically construct TinyOS-compliant nesT device images that can be deployed to motes. A key result, called cross-stage type safety, shows that successful static type checking of a Scalaness program means no type errors will arise either during programmatic composition and specialization of WSN code, or later on the WSN itself. Scalaness has been implemented through direct modification of the Scala compiler. Implementation of a staged public-key cryptography calculation shows the sensor memory footprint can be significantly reduced by staging.",
       "Key": 1013,
       "URL": null,
       "Title": "Scalaness/nesT: Type Specialized Staged Programming for Sensor Networks"
@@ -7098,7 +7086,7 @@
         1438,
         1291
       ],
-      "Abstract": "Domain-specific languages provide a promising path to automatically compile high-level code to parallel, heterogeneous, and distributed hardware. However, in practice high performance DSLs \r\n  still require considerable software expertise to develop and force \r\n  users into tool-chains that hinder prototyping and debugging. To \r\n  address these problems, we present Forge, a new meta DSL for \r\n  declaratively specifying high performance embedded DSLs. Forge \r\n  provides DSL authors with high-level abstractions (e.g., data structures, parallel patterns, effects) for specifying their DSL in a way \r\n that permits high performance. From this high-level specification, \r\n  Forge automatically generates both a na\u00efve Scala library implementation of the DSL and a high performance version using the Delite \r\n  DSL framework. Users of a Forge-generated DSL can prototype \r\n  their application using the library version, and then switch to the \r\n  Delite version to run on multicore CPUs, GPUs, and clusters with-out changing the application code. Forge-generated Delite DSLs \r\n  perform within 2x of hand-optimized C++ and up to 40x better \r\n  than Spark, an alternative high-level distributed programming environment. Compared to a manually implemented Delite DSL, Forge \r\n  provides a factor of 3-6x reduction in lines of code and does not \r\n  sacrifice any performance. Furthermore, Forge specifications can \r\n  be generated from existing Scala libraries, are easy to maintain, \r\n  shield DSL developers from changes in the Delite framework, and \r\n  enable DSLs to be retargeted to other frameworks transparently. \r\n",
+      "Abstract": "Domain-specific languages provide a promising path to automatically compile high-level code to parallel, heterogeneous, and distributed hardware. However, in practice high performance DSLs still require considerable software expertise to develop and force users into tool-chains that hinder prototyping and debugging. To address these problems, we present Forge, a new meta DSL for declaratively specifying high performance embedded DSLs. Forge provides DSL authors with high-level abstractions (e.g., data structures, parallel patterns, effects) for specifying their DSL in a way that permits high performance. From this high-level specification, Forge automatically generates both a na\u00efve Scala library implementation of the DSL and a high performance version using the Delite DSL framework. Users of a Forge-generated DSL can prototype their application using the library version, and then switch to the Delite version to run on multicore CPUs, GPUs, and clusters with-out changing the application code. Forge-generated Delite DSLs perform within 2x of hand-optimized C++ and up to 40x better than Spark, an alternative high-level distributed programming environment. Compared to a manually implemented Delite DSL, Forge provides a factor of 3-6x reduction in lines of code and does not sacrifice any performance. Furthermore, Forge specifications can be generated from existing Scala libraries, are easy to maintain, shield DSL developers from changes in the Delite framework, and enable DSLs to be retargeted to other frameworks transparently. ",
       "Key": 1000,
       "URL": null,
       "Title": "Forge: Generating a High Performance DSL Implementation from a Declarative Specification."
@@ -7109,7 +7097,7 @@
         1722,
         1723
       ],
-      "Abstract": "We argue that synthesizing operations on recursive linked data\r\nstructures is not as hard as it appears and is, in fact, within reach\r\nof current SAT-based synthesis techniques\u2014with the addition of\r\na simple approach that we describe to decompose the problem\r\ninto smaller parts. To generate smaller pieces of code, i.e., shorter\r\nroutines, is obviously easier than large and complex routines, and,\r\nalso, there is more potential for automating the code synthesis.\r\n\r\nIn this paper, we present a code generation algorithm for synthesizing operations of linked data structures and, as an example,\r\ndescribe how the proposed algorithm works to synthesize opera-\r\ntions of an AVL tree.\r\n",
+      "Abstract": "We argue that synthesizing operations on recursive linked data structures is not as hard as it appears and is, in fact, within reach of current SAT-based synthesis techniques\u2014with the addition of a simple approach that we describe to decompose the problem into smaller parts. To generate smaller pieces of code, i.e., shorter routines, is obviously easier than large and complex routines, and, also, there is more potential for automating the code synthesis.\r\n\r\nIn this paper, we present a code generation algorithm for synthesizing operations of linked data structures and, as an example, describe how the proposed algorithm works to synthesize operations of an AVL tree.",
       "Key": 1001,
       "URL": null,
       "Title": "On the Simplicity of Synthesizing Linked Data Structure Operations"
@@ -7141,10 +7129,10 @@
         1708,
         1706
       ],
-      "Abstract": "",
+      "Abstract": "A megamodel is a model, whose instances are systems of models and intermodel relationships. To be independent of a particular modeling language, typical megamodels reduce models and their relationships to unstructured nodes and edges, thus creating a significant gap between abstract megamodels and their concrete instances. We address this gap problem by mathematical means borrowed from category theory, and propose mapping-aware megamodels, which provide additional internal structure to nodes and edges, yet remain independent of modeling languages.",
       "Key": 992,
       "URL": null,
-      "Title": "Mechanics of Megamodeling: Design Patterns and Laws"
+      "Title": "Mapping-Aware Megamodeling: Design Patterns and Laws"
     },
     {
       "Type": "SLE",
@@ -7155,7 +7143,7 @@
         1710,
         1706
       ],
-      "Abstract": "",
+      "Abstract": "Partial object diagrams can be (partially) completed by resolving (some of) optional objects and replacing (some of) unknown with real values. Under the Closed World Assumption (CWA), completion reduces uncertainty of already existing objects, or deletes them if their existence is optional. Under the Open World Assumption (OWA), completion may additionally introduce new elements, perhaps uncertain. The paper presents a simple theory of partial instantiation and completion. It shows that partial object diagrams can be modeled by subclassing and multiplicity constraints. As a result, class diagrams can implement partial instances with the well-known notions of inheritance and subtyping.",
       "Key": 993,
       "URL": null,
       "Title": "Partial Instances via Subclassing"
@@ -7171,7 +7159,7 @@
         1716,
         1718
       ],
-      "Abstract": "",
+      "Abstract": "Current metamodeling techniques can be used to specify the syntax and semantics of domain specific modeling languages (DSMLs) in terms of domain specific concepts. However, there is currently very little support for explicitly specifying concurrency semantics using metamodels. Often, such semantics are provided through implicit concurrency models embedded in the underlying execution environment supported by the language workbench used to implement the DSMLs. The lack of an explicit concurrency model has several drawbacks: it not only prevents one from developing a complete understanding of the behavioral semantics, it also prevents development of effective concurrency-aware analysis techniques, and effective techniques for producing semantic variants in the cases where the semantic base has variation points. This work reifies concurrency as a metamodeling facility, leveraging formalization work from the models of computation (MoC) community. The essential contribution of this paper is a proposed language workbench for binding domain specific concepts and models of computation through an explicit event structure at the metamodel level. We illustrate these novel metamodeling facilities for designing variants of state machines, and provide other experiments to validate the scope of our approach.",
       "Key": 994,
       "URL": null,
       "Title": "Reifying Concurrency for Executable Metamodeling"
@@ -7223,6 +7211,7 @@
     {
       "Type": "SPLASH-E",
       "Authors": [
+        1594,
         1630,
         1573,
         1631
@@ -7239,7 +7228,7 @@
         1729,
         1728
       ],
-      "Abstract": "Software solutions in complex environments, such as railway con-\r\ntrol systems or power plants, are assemblies of heterogeneous com-\r\nponents, which are very large and complex systems themselves.\r\nInterplay of these systems requires a thorough design of a system-\r\nof-systems (SoS) encompassing the required interactions between\r\nthe involved systems. One of the challenges lies in reconciliation of\r\nthe domain data structures and runtime constraints to ensure con-\r\nsistency of the SoS behavior. In this paper, we present a generative\r\napproach that enables reconciliation of a common platform based\r\non reusable domain models of the involved systems. This is com-\r\nparable to a product line configuration problem where we generate\r\na common platform model for all involved systems. We discuss the\r\nspecific requirements for model composition in a SoS context and\r\naddress them in our approach. In particular, our approach addresses\r\nthe operational and managerial independence of the individual sys-\r\ntems and offers appropriate modeling constructs. We report on our\r\nexperiences of applying the approach in several real world projects\r\nand share the lessons learned.\r\n",
+      "Abstract": "Software solutions in complex environments, such as railway control systems or power plants, are assemblies of heterogeneous components, which are very large and complex systems themselves. Interplay of these systems requires a thorough design of a system-of-systems (SoS) encompassing the required interactions between the involved systems. One of the challenges lies in reconciliation of the domain data structures and runtime constraints to ensure consistency of the SoS behavior. In this paper, we present a generative approach that enables reconciliation of a common platform based on reusable domain models of the involved systems. This is comparable to a product line configuration problem where we generate a common platform model for all involved systems. We discuss the specific requirements for model composition in a SoS context and address them in our approach. In particular, our approach addresses the operational and managerial independence of the individual systems and offers appropriate modeling constructs. We report on our experiences of applying the approach in several real world projects and share the lessons learned.",
       "Key": 1003,
       "URL": null,
       "Title": "Generation of Conjoint Domain Models for System-of-Systems"
@@ -7252,7 +7241,7 @@
         1732,
         1777
       ],
-      "Abstract": "The growth of applications developed with the support of\r\nmodel transformations makes reuse a required practice, spe-\r\ncially when applied to transformation assets (e.g. transfor-\r\nmation chains, algorithms, and configuration files). In order\r\nto promote reuse one must consider the different implemen-\r\ntations, communalities, and variants among these assets. In\r\nthis domain, a couple techniques have been used as solutions\r\nto adapt reusable assets for specific needs. However, so far,\r\nno work has discussed their combined use in real software\r\nprojects. In this paper, we present a new tool named WCT,\r\nwhich can be used to adapt transformation assets. Moreover,\r\nthrough lessons learned in industry, we address some reuse\r\ntechniques devoted to adapt these assets.\r\n",
+      "Abstract": "The growth of applications developed with the support of model transformations makes reuse a required practice, specially when applied to transformation assets (e.g. transformation chains, algorithms, and configuration files). In order to promote reuse one must consider the different implementations, communalities, and variants among these assets. In this domain, a couple techniques have been used as solutions to adapt reusable assets for specific needs. However, so far, no work has discussed their combined use in real software projects. In this paper, we present a new tool named WCT, which can be used to adapt transformation assets. Moreover, through lessons learned in industry, we address some reuse techniques devoted to adapt these assets.",
       "Key": 1004,
       "URL": null,
       "Title": "Supporting Large Scale Model Transformation Reuse"
@@ -7266,7 +7255,7 @@
         1341,
         1339
       ],
-      "Abstract": "The Object Management Group\u2019s (OMG) Data Distribution Ser-\r\nvice (DDS) provides many configurable policies which determine\r\nend-to-end quality of service (QoS) of applications. It is chal-\r\nlenging to predict the system\u2019s performance in terms of latencies,\r\nthroughput, and resource usage because diverse combinations of\r\nQoS configurations influence QoS of applications in different ways.\r\nTo overcome this problem, design-time formal methods have been\r\napplied with mixed success, but lack of sufficient accuracy in pre-\r\ndiction, tool support, and understanding of formalism has prevented\r\nwider adoption of the formal techniques. A promising approach to\r\naddress this challenge is to emulate system behavior and gather\r\ndata on the QoS parameters of interest by experimentation. To re-\r\nalize this approach, which is preferred over formal methods due to\r\ntheir limitations in accurately predicting QoS, we have developed\r\na model-based automatic performance testing framework with gen-\r\nerative capabilities to reduce manual efforts in generating a large\r\nnumber of relevant QoS configurations that can be deployed and\r\ntested on a cloud platform. This paper describes our initial efforts\r\nin developing and using this technology.\r\n",
+      "Abstract": "The Object Management Group\u2019s (OMG) Data Distribution Service (DDS) provides many configurable policies which determine end-to-end quality of service (QoS) of applications. It is challenging to predict the system\u2019s performance in terms of latencies, throughput, and resource usage because diverse combinations of QoS configurations influence QoS of applications in different ways. To overcome this problem, design-time formal methods have been applied with mixed success, but lack of sufficient accuracy in prediction, tool support, and understanding of formalism has prevented wider adoption of the formal techniques. A promising approach to address this challenge is to emulate system behavior and gather data on the QoS parameters of interest by experimentation. To realize this approach, which is preferred over formal methods due to their limitations in accurately predicting QoS, we have developed a model-based automatic performance testing framework with generative capabilities to reduce manual efforts in generating a large number of relevant QoS configurations that can be deployed and tested on a cloud platform. This paper describes our initial efforts in developing and using this technology.",
       "Key": 1008,
       "URL": null,
       "Title": "Model-driven Generative Framework for Automated OMG DDS Performance Testing in the Cloud"
@@ -8178,6 +8167,16 @@
       "Key": 888,
       "URL": "",
       "Title": "R: A Language for Analyzing Data"
+    },
+    {
+      "Type": "Onward!",
+      "Authors": [
+        1628
+      ],
+      "Abstract": "",
+      "Key": 1128,
+      "URL": null,
+      "Title": "Award Presentations for Onward! Most Notable Papers"
     },
     {
       "Type": "Onward!",
@@ -9602,16 +9601,6 @@
       "Key": 896,
       "URL": null,
       "Title": "Objektgraph: Why Code When MVC Apps Can Be Generated Solely With UML-based Diagrams?"
-    },
-    {
-      "Type": "SPLASH-I",
-      "Authors": [
-        1541
-      ],
-      "Abstract": "Dynamic languages are notoriously difficult to optimize.  JavaScript is particularly hard: all values are untyped, most numeric operations are defined to have floating-point-like semantics, and all objects, including arrays, semantically behave like linked lists of dictionaries.  The problems are not new: inferring the shapes of dictionaries and the run-time behavior of untyped values has been attempted before in languages like Scheme, Self and Smalltalk.  But those languages were never used at the same scale.  A typical webpage can exceed 1MB of compressed source code, exhibit high degrees of polymorphism, and offer few opportunities for the VM to \"warm up\".  I describe the engineering behind the WebKit JavaScript engine, a three-tier code caching JSVM with parallel mostly-copying garbage collection.  Specific attention will be given to how the VM architecture balances the need to execute large, run-once, and polymorphic functions, while enabling the steady-state performance of frequently-executed computational functions to approach the speed of C.  The code caching, garbage collection, type inference, compilation, and speculation/deoptimization strategies will be described in detail along with examples of how the VM can turn programs written using idioms that are intractable from a static analysis standpoint into tightly optimized  code.\r\n",
-      "Key": 887,
-      "URL": null,
-      "Title": "A Comprehensive JavaScript VM"
     },
     {
       "Type": "OOPSLA",
