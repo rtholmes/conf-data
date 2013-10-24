@@ -30,7 +30,7 @@
     },
     {
       "Type": "Workshops",
-      "Time": "09:00 - 17:40",
+      "Time": "09:00 - 17:00",
       "ShortTitle": "FOSD",
       "Location": "Discovery A (Third Level)",
       "Day": "2013-10-26",
@@ -41,20 +41,6 @@
       ],
       "URL": "http://www.fosd.de/2013/",
       "Title": "FOSD — Fifth International Workshop on Feature-Oriented Software Development"
-    },
-    {
-      "Type": "Keynotes",
-      "Time": "09:05 - 10:00",
-      "ShortTitle": "Can Features Have Interfaces? ",
-      "Location": "Discovery A (Third Level)",
-      "Day": "2013-10-26",
-      "ChairsString": "",
-      "Key": 644,
-      "Items": [
-        944
-      ],
-      "URL": "http://www.fosd.de/2013/",
-      "Title": "FOSD — Can Features Have Interfaces?"
     },
     {
       "Type": "Registration",
@@ -6109,16 +6095,6 @@
       "Key": 698,
       "URL": "http://www.fosd.de/2013/",
       "Title": "FOSD — Fifth International Workshop on Feature-Oriented Software Development"
-    },
-    {
-      "Type": "Keynotes",
-      "Authors": [
-        1311
-      ],
-      "Abstract": "There is little research on interfaces for features. In FOSD, work on feature modularity has focused on features as a criterion for system decomposition and assembly. The concept of feature modularity pertains mainly to cohesion of features, including language or modelling support for coalescing all information related to a feature into a single module. There is no information hiding among them, and they can directly refer to or override one another. Alternatively, in the feature-interaction literature, feature modules are black boxes that have inputs and outputs, but otherwise share no information. Such extreme information hiding facilitates third-party development of features, but makes it difficult to specify intended interactions, such as when a feature extends or overrides the behaviour of another feature. This talk proposes a compromise, in which features share a limited amount of information with each other by means of a feature interface. It looks at what such an interface might look like, and explores to what degree inter-feature references can be abstracted to references to features' public interfaces.\r\n",
-      "Key": 944,
-      "URL": "http://www.fosd.de/2013/",
-      "Title": "FOSD — Can Features Have Interfaces?"
     },
     {
       "Type": "Registration",
