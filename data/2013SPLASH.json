@@ -43,6 +43,20 @@
       "Title": "FOSD — Fifth International Workshop on Feature-Oriented Software Development"
     },
     {
+      "Type": "Social Events",
+      "Time": "18:00 - 20:00",
+      "ShortTitle": "",
+      "Location": "Studio Lounge (Third Level)",
+      "Day": "2013-10-26",
+      "ChairsString": "",
+      "Key": 698,
+      "Items": [
+        1129
+      ],
+      "URL": "http://visitindy.com/indianapolis-canal-walk",
+      "Title": "Canal Walk"
+    },
+    {
       "Type": "Registration",
       "Time": "08:00 - 17:00",
       "ShortTitle": "",
@@ -334,6 +348,20 @@
       ],
       "URL": null,
       "Title": "GPCE/SLE/Workshops Reception"
+    },
+    {
+      "Type": "Social Events",
+      "Time": "21:00 - 23:00",
+      "ShortTitle": "",
+      "Location": "Studio Lounge (Third Level)",
+      "Day": "2013-10-27",
+      "ChairsString": "",
+      "Key": 699,
+      "Items": [
+        1130
+      ],
+      "URL": "http://www.rathskeller.com/",
+      "Title": "Beer at the Rathskeller"
     },
     {
       "Type": "Registration",
@@ -828,6 +856,20 @@
       "Title": "Session 6"
     },
     {
+      "Type": "Social Events",
+      "Time": "17:00 - 19:00",
+      "ShortTitle": "",
+      "Location": "Studio Lounge (Third Level)",
+      "Day": "2013-10-28",
+      "ChairsString": "",
+      "Key": 700,
+      "Items": [
+        1131
+      ],
+      "URL": "http://www.vonnegutlibrary.org/",
+      "Title": "Walk to Vonnegut Library"
+    },
+    {
       "Type": "Posters",
       "Time": "18:00 - 21:00",
       "ShortTitle": "",
@@ -1272,6 +1314,20 @@
       "Title": "SPLASH Steering Committee Meeting"
     },
     {
+      "Type": "Social Events",
+      "Time": "18:00 - 20:00",
+      "ShortTitle": "",
+      "Location": "Studio Lounge (Third Level)",
+      "Day": "2013-10-29",
+      "ChairsString": "",
+      "Key": 701,
+      "Items": [
+        1132
+      ],
+      "URL": "http://punchburger.com",
+      "Title": "Walk to Dinner at Punchburger"
+    },
+    {
       "Type": "Registration",
       "Time": "08:00 - 17:00",
       "ShortTitle": "",
@@ -1680,6 +1736,20 @@
     },
     {
       "Type": "Social Events",
+      "Time": "18:00 - 20:00",
+      "ShortTitle": "",
+      "Location": "Studio Lounge (Third Level)",
+      "Day": "2013-10-30",
+      "ChairsString": "",
+      "Key": 702,
+      "Items": [
+        1133
+      ],
+      "URL": "http://www.gcfb.net/",
+      "Title": "Walk to Dinner at Granite City Brewery"
+    },
+    {
+      "Type": "Social Events",
       "Time": "18:00 - 21:00",
       "ShortTitle": "",
       "Location": "Indiana Roof Ballroom (Across the Street)",
@@ -2064,6 +2134,20 @@
       ],
       "URL": null,
       "Title": "Ice Cream Social"
+    },
+    {
+      "Type": "Social Events",
+      "Time": "18:30 - 21:00",
+      "ShortTitle": "",
+      "Location": "Studio Lounge (Third Level)",
+      "Day": "2013-10-31",
+      "ChairsString": "",
+      "Key": 703,
+      "Items": [
+        1134
+      ],
+      "URL": "http://www.imamuseum.org",
+      "Title": "Indianapolis Museum of Art"
     },
     {
       "Type": "Workshops",
@@ -6097,6 +6181,16 @@
       "Title": "FOSD — Fifth International Workshop on Feature-Oriented Software Development"
     },
     {
+      "Type": "Social Events",
+      "Authors": [
+
+      ],
+      "Abstract": "",
+      "Key": 1129,
+      "URL": "http://visitindy.com/indianapolis-canal-walk",
+      "Title": "Canal Walk"
+    },
+    {
       "Type": "Registration",
       "Authors": [
 
@@ -6476,6 +6570,16 @@
       "Title": "GPCE/SLE/Workshops Reception"
     },
     {
+      "Type": "Social Events",
+      "Authors": [
+
+      ],
+      "Abstract": "",
+      "Key": 1130,
+      "URL": "http://www.rathskeller.com/",
+      "Title": "Beer at the Rathskeller"
+    },
+    {
       "Type": "Registration",
       "Authors": [
 
@@ -6717,7 +6821,7 @@
         1538,
         1536
       ],
-      "Abstract": "JavaScript programs vary widely in functionality, complexity, and use, and analyses of these programs must accommodate such variations. Type-based analyses are typically the simplest such analyses, but due to the language\u2019s subtle idioms and many application-specific needs\u2014ranging from general-purpose program type-checking to verifying security properties to typing library usage\u2014we have found that a single type system does not work well in all contexts. However, these different uses still share many common elements that can be extended and adapted for each setting.\r\n\r\nIn this paper we present TeJaS, a framework for building type systems for JavaScript. TeJaS has been engineered modularly to encourage experimentation. TeJaS reifies its initial type environment, allowing for easy modeling of the various execution contexts of JavaScript programs, and its type language and typing rules are extensible, allowing for variations of the type system to be constructed easily.\r\n\r\nThe paper presents the base TeJaS type system, which performs traditional type-checking for JavaScript. Because JavaScript demands complex types, we explain several design decisions to improve user ergonomics. We then describe TeJaS\u2019s modular structure, and illustrate it by reconstructing the essence of a very different type system for JavaScript. Systems built from TeJaS have been applied to several real-world, third-party JavaScript programs.",
+      "Abstract": "Static analysis of JavaScript has proven useful for a variety of tools, including optimization, error checking, security auditing, program refactoring, and more. We propose a technique called type refinement that can improve the precision of such static analyses for JavaScript without any discernible performance impact. The essential idea behind refinement is to use the conditions in branch guards to refine the analysis information propagated along each branch path. The key insight of the paper is to recognize that JavaScript semantics include many implicit conditional checks on types, and that performing type refinement on these checks provides significant benefit for analysis precision.\r\n\r\nTo demonstate the effectiveness of type refinement, we implement a static analysis tool for reporting potential type-errors in JavaScript programs as an example of analyses that can benefit from this idea. We provide an extensive empirical evaluation of\r\ntype refinement using a benchmark suite containing a variety of JavaScript application domains, ranging from the standard performance benchmark suites (Sunspider and Octane), to open-source JavaScript applications, to machine-generated JavaScript via Emscripten. We show that type refinement can significantly improve analysis precision, upto 86%, without affecting the performance of the analysis.",
       "Key": 877,
       "URL": null,
       "Title": "Type Refinement for Static Analysis of JavaScript"
@@ -7235,6 +7339,16 @@
       "Key": 1008,
       "URL": null,
       "Title": "Model-driven Generative Framework for Automated OMG DDS Performance Testing in the Cloud"
+    },
+    {
+      "Type": "Social Events",
+      "Authors": [
+
+      ],
+      "Abstract": "",
+      "Key": 1131,
+      "URL": "http://www.vonnegutlibrary.org/",
+      "Title": "Walk to Vonnegut Library"
     },
     {
       "Type": "Posters",
@@ -8106,7 +8220,7 @@
       ],
       "Abstract": "Some programming languages become widely popular while others fail to grow beyond their niche or disappear altogether. This paper uses survey methodology to identify the factors that lead to language adoption. We analyze large datasets, including over 200,000 SourceForge projects, 590,000 projects tracked by Ohloh, and multiple surveys of 1,000-13,000 programmers.\r\n\r\nWe report several prominent findings. First, language adoption follows a power law; a small number of languages account for most language use, but the programming market supports many languages with niche user bases. Second, intrinsic features have only secondary importance in adoption. Open source libraries, existing code, and experience strongly influence developers when selecting a language for a project. Language features such as performance, reliability, and simple semantics do not. Third, developers will steadily learn and forget languages, and the overall number of languages developers are familiar with is independent of age. Developers select more varied languages if their education exposed them to different language families. Finally, when considering intrinsic aspects of languages, developers prioritize expressivity over correctness. They perceive static types as more valuable for properties such as the former rather than for correctness checking.",
       "Key": 813,
-      "URL": "http://www.eecs.berkeley.edu/~lmeyerov/projects/socioplt/papers/adoptquant.pdf",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509515",
       "Title": "Empirical Analysis of Programming Language Adoption"
     },
     {
@@ -8119,7 +8233,7 @@
       ],
       "Abstract": "Symbolic execution is a promising testing and analysis methodology. It systematically explores a program's execution space and can generate test cases with high coverage. One significant practical challenge for symbolic execution is how to effectively explore the enormous number of program paths. Various heuristics have been proposed for guiding symbolic execution, but they are generally ineffective and ad-hoc. In this paper, we introduce a novel, unified strategy to guide symbolic execution to less explored parts of a program. Our key idea is to exploit a specific type of path spectra, namely the length-*n* subpath program spectra, to systematically approximate full path information for guiding path exploration. In particular, we use frequency distributions of explored length-*n* subpaths to prioritize 'less traveled' parts of the program to improve test coverage and error detection.  We have implemented our general strategy in KLEE, a state-of-art symbolic execution engine. Evaluation results on the GNU Coreutils programs show that (1) varying the length *n* captures program-specific information and exhibits different degrees of effectiveness, and (2) our general approach outperforms traditional strategies in both coverage and error detection.",
       "Key": 851,
-      "URL": "http://www.cs.ucdavis.edu/~su/publications/oopsla13-pgse.pdf",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509553",
       "Title": "Steering Symbolic Execution to Less Traveled Paths"
     },
     {
@@ -8131,7 +8245,7 @@
       ],
       "Abstract": "Emerging high-performance architectures are anticipated to contain unreliable components that may exhibit soft errors, which silently corrupt the results of computations.  Full detection and recovery from soft errors is challenging, expensive, and, for some applications, unnecessary.  For example, approximate computing applications (such as multimedia processing, machine learning, and big data analytics) can often naturally tolerate soft errors.\r\n\r\nIn this paper we present Rely, a programming language that enables developers to reason about the quantitative reliability of an application -- namely, the probability that it produces the correct result when executed on unreliable hardware.  Rely allows developers to specify the reliability requirements for each value that a function produces.\r\n\r\nWe present a static quantitative reliability analysis that verifies quantitative requirements on the reliability of an application, enabling a developer to perform sound and verified reliability engineering. The analysis takes a Rely program with a reliability specification and a hardware specification that characterizes the reliability of the underlying hardware components and verifies that the program satisfies its reliability specification when executed on the underlying unreliable hardware platform. We demonstrate the application of quantitative reliability analysis on six computations implemented in Rely.",
       "Key": 844,
-      "URL": "",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509546",
       "Title": "Verifying Quantitative Reliability of Programs That Execute on Unreliable Hardware"
     },
     {
@@ -8261,7 +8375,7 @@
       ],
       "Abstract": "![Artifact Evaluated](http://splashcon.org/2013/images/aec-badge.png)\r\n\r\nState-of-the-art dynamic bug detectors such as data race and memory leak detectors report program locations that are likely causes of bugs. However, static program locations are not enough for developers to understand the behavior of increasingly complex and concurrent software. Dynamic calling context provides additional information, but it is expensive to record calling context frequently, e.g., at every read and write. Context-sensitive dynamic analyses can build and maintain a calling context tree to track calling context, but in order to reuse existing nodes, CCT-based approaches require an expensive lookup.\r\n\r\nThis paper introduces a new approach for context sensitivity that avoids this expensive lookup. The approach uses a new data structure called the calling context uptree (CCU) in which each node points 'up' to its parent instead of 'down' to its children. Our CCU-based approach adds low time overhead by avoiding the lookup and instead allocating a node. A key contribution is that the approach can mitigate the costs of allocating many nodes by extending tracing-based garbage collection (GC): GC collects unused CCU nodes naturally and efficiently, and we extend GC to merge duplicate nodes lazily.\r\n\r\nWe implement our CCU-based approach in a high-performance Java virtual machine and integrate it with a staleness based memory leak detector and happens-before data race detector, so they can report context-sensitive program locations that cause bugs. We show that the CCU-based approach, in concert with an extended GC, can provide good time and space performance for context-sensitive bug detection analyses.",
       "Key": 808,
-      "URL": "http://www.cse.ohio-state.edu/~mikebond/ccu-oopsla-2013.pdf",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509510",
       "Title": "Efficient Context Sensitivity for Dynamic Analyses via Calling Context Uptrees and Customized Memory Management"
     },
     {
@@ -8273,7 +8387,7 @@
       ],
       "Abstract": "![Artifact Evaluated](http://splashcon.org/2013/images/aec-badge.png)\r\n\r\nParametric polymorphism enables code reuse and type safety. Underneath the uniform interface exposed to programmers, however, its low level implementation has to cope with inherently non-uniform data: value types of different sizes and semantics (bytes, integers, floating point numbers) and reference types (pointers to heap objects). On the Java Virtual Machine, parametric polymorphism is currently translated to bytecode using two competing approaches: homogeneous translation requires boxing, and thus introduces indirect access delays. Heterogeneous translation duplicates code and adapts it to each value type individually, inflating the bytecode size. Therefore speed and size are at odds with each other. This paper proposes a novel translation which improves the situation by significantly reducing the bytecode size without affecting the execution speed. The key insight is that all non-pointer types can be encoded on long integers, reducing the need to duplicate code for each value type. The resulting bytecode approaches the performance of monomorphic code and obtains speedups of up to 22x over the homogeneous translation, all with modest increases in size.",
       "Key": 835,
-      "URL": "http://infoscience.epfl.ch/record/188060/files/miniboxing-oopsla.pdf",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509537",
       "Title": "Miniboxing: Improving the Speed to Code Size Tradeoff in Parametric Polymorphism Translations"
     },
     {
@@ -8286,7 +8400,7 @@
       ],
       "Abstract": "Despite some clear advantages and recent advances, reference counting remains a poor cousin to high performance tracing garbage collectors. The advantages of reference counting include a) immediacy of reclamation, b) incrementality, and c) local scope of its operations. After decades of languishing with hopelessly bad performance, recent work narrowed the gap between reference counting and tracing collectors to within 10% of the fastest collectors. Though a major advance, this gap remains a substantial barrier to adoption in performance-conscious application domains. Our work identifies heap organization as the principal source of the remaining performance gap. We present the design, implementation, and analysis of a new collector, RC Immix, that replaces reference counting's traditional free-list heap organization with the line and block heap structure introduced by the Immix collector. The key innovations are a) to combine traditional reference counts with per-line live object counts to identify reusable memory and b) to proactively and reactively mitigate fragmentation by copying objects opportunistically , which means copying until all available space is consumed during a collection. The line and block heap organization delivers excellent mutator locality and efficient allocation, closing the 10% performance gap, such that RC Immix matches the performance of a highly tuned production generational collection. By removing the performance barrier, our work transforms reference counting into a serious alternative for meeting high performance objectives for garbage collected languages.\r\n\r\nKeywords: Reference Counting, Memory Management, Garbage Collection, Java",
       "Key": 825,
-      "URL": "http://users.cecs.anu.edu.au/~steveb/downloads/pdf/rcix-oopsla-2013.pdf",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509527",
       "Title": "Taking Off the Gloves with Reference Counting Immix"
     },
     {
@@ -8296,7 +8410,7 @@
       ],
       "Abstract": "Modern object-oriented applications commonly suffer from severe performance problems that need to be optimized away for increased efficiency and user satisfaction. Many existing optimization techniques (such as object pooling and pretenuring) require precise identification of object lifetimes. However, it is particularly challenging to obtain object lifetimes both precisely and efficiently: precise profiling techniques such as Merlin introduce multiple hundred times slowdown even for small programs while efficient approximation techniques often sacrifice precision and produce less useful lifetime information. This paper presents a tunable profiling technique, called Resurrector, that explores the middle ground between the high precision and the high efficiency to find the precision-efficiency sweetspot for various liveness-based optimization techniques. Our evaluation shows that Resurrector is both more precise and more efficient than the GC-based approximation, and it is orders-of-magnitude faster than Merlin. To demonstrate Resurrector's usefulness, we have developed client analyses to find allocation sites that create large data structures with disjoint lifetimes. By inspecting program source code and reusing data structures created from these allocation sites, we have achieved significant performance gains. We have also improved the precision of an existing optimization technique using the lifetime information collected by Resurrector.",
       "Key": 810,
-      "URL": "http://www.ics.uci.edu/~guoqingx/papers/xu-oopsla13.pdf",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509527",
       "Title": "Resurrector: A Tunable Object Lifetime Profiling Technique for Optimizing Real-World Programs"
     },
     {
@@ -8379,7 +8493,7 @@
       ],
       "Abstract": "![Artifact Evaluated](http://splashcon.org/2013/images/aec-badge.png)\r\n\r\nWriting low-level concurrent software has traditionally required intimate knowledge of the entire toolchain and often has involved coding in assembly. New language standards have extended C and C++ with support for low-level atomic operations and a weak memory model, enabling developers to write portable and efficient multithreaded code.\r\n\r\nDeveloping correct low-level concurrent code is well-known to be especially difficult under a weak memory model, where code behavior can be surprising. Building reliable concurrent software using C/C++ low-level atomic operations will likely require tools that help developers discover unexpected program behaviors.\r\n\r\nIn this paper we present CDSChecker, a tool for exhaustively exploring the behaviors of concurrent code under the C/C++ memory model. We develop several novel techniques for modeling the relaxed behaviors allowed by the memory model and for minimizing the number of execution behaviors that CDSChecker must explore.  We have used CDSChecker to exhaustively unit test several concurrent data structure implementations on specific inputs and have discovered errors in both a recently published C11 implementation of a work-stealing queue and a single producer, single consumer queue implementation.",
       "Key": 812,
-      "URL": "http://demsky.eecs.uci.edu/publications/c11modelcheck.pdf",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509514",
       "Title": "CDSChecker: Checking Concurrent Data Structures Written with C/C++ Atomics"
     },
     {
@@ -8391,7 +8505,7 @@
       ],
       "Abstract": "![Artifact Evaluated](http://splashcon.org/2013/images/aec-badge.png)\r\n\r\nLike shared-memory multi-threaded programs, event-driven programs such as client-side web applications are susceptible to data races that are hard to reproduce and debug.  Race detection for such programs is hampered by their pervasive use of ad hoc synchronization, which can lead to a prohibitive number of false positives.  Race detection also faces a scalability challenge, as a large number of short-running event handlers can quickly overwhelm standard vector-clock-based techniques.\r\n\r\nThis paper presents several novel contributions that address both of these challenges. First, we introduce race coverage, a systematic method for exposing ad hoc synchronization and other (potentially harmful) races to the user, significantly reducing false positives. Second, we present an efficient connectivity algorithm for computing race coverage. The algorithm is based on chain decomposition and leverages the structure of event-driven programs to dramatically decrease the overhead of vector clocks.\r\n\r\nWe implemented our techniques in a tool called EventRacer and evaluated it on a number of public web sites. The results indicate substantial performance and precision improvements of our approach over the state-of-the-art. Using EventRacer, we found many harmful races, most of which are beyond the reach of current techniques.",
       "Key": 836,
-      "URL": "http://researcher.watson.ibm.com/researcher/files/us-msridhar/OOPSLA13EventRacer.pdf",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509538",
       "Title": "Effective Race Detection for Event-Driven Programs"
     },
     {
@@ -8403,7 +8517,7 @@
       ],
       "Abstract": "![Artifact Evaluated](http://splashcon.org/2013/images/aec-badge.png)\r\n\r\nDynamically typed language implementations often use more memory and execute\r\nslower than their statically typed cousins, in part because operations on\r\ncollections of elements are unoptimised. This paper describes storage\r\nstrategies, which dynamically optimise collections whose elements are\r\ninstances of the same primitive type. We implement storage strategies in the\r\nPyPy virtual machine, giving a performance increase of 18% on wide-ranging\r\nbenchmarks of real Python programs. We show that storage strategies are\r\nsimple to implement, needing only 1500LoC in PyPy, and have applicability to\r\na wide range of virtual machines.",
       "Key": 829,
-      "URL": "http://tratt.net/laurie/research/pubs/html/bolz_diekmann_tratt__storage_strategies_for_collections_in_dynamically_typed_languages/",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509531",
       "Title": "Storage Strategies for Collections in Dynamically Typed Languages"
     },
     {
@@ -8485,6 +8599,16 @@
       "Title": "SPLASH Steering Committee Meeting"
     },
     {
+      "Type": "Social Events",
+      "Authors": [
+
+      ],
+      "Abstract": "",
+      "Key": 1132,
+      "URL": "http://punchburger.com",
+      "Title": "Walk to Dinner at Punchburger"
+    },
+    {
       "Type": "Registration",
       "Authors": [
 
@@ -8547,7 +8671,7 @@
       ],
       "Abstract": "![Artifact Evaluated](http://splashcon.org/2013/images/aec-badge.png)\r\n\r\nSerialization or pickling, i.e., persisting runtime objects by converting them into a binary or text representation is ubiquitous in distributed programming. Pickler combinators are a popular approach from functional programming designed to alleviate some of the tedium of writing pickling code by hand, but they don't translate well to object-oriented programming due to qualities like open class hierarchies and subtyping polymorphism. Furthermore, both functional pickler combinators and Java-based serialization frameworks tend to be tied to a specific pickle format, leaving programmers no choice of how their data is persisted. In this paper, we present object-oriented pickler combinators and a framework for generating them at compile-time, designed to be the default serialization mechanism of the Scala programming language. Our framework is extensible; (1) using Scala's implicit parameters, users can add their own easily-swappable pickle format, (2) using the type class pattern, users can provide their own custom picklers to override the default behavior of the Scala pickling framework. In addition to extensibility and need for little to no boilerplate, the static generation of our OO picklers achieves a factor 6 speedup over Java Serialization, and performs on par or up to 3 times faster than popular \"fast\" Java serialization frameworks like Kryo.",
       "Key": 845,
-      "URL": "http://lampwww.epfl.ch/~hmiller/files/oopsla-pickling.pdf",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509547",
       "Title": "Instant Pickles: Generating Object-Oriented Pickler Combinators for Fast and Extensible Serialization"
     },
     {
@@ -8558,7 +8682,7 @@
       ],
       "Abstract": "Debugging and analyzing a snapshot of a crashed program's memory is far more difficult than working with a live program, because debuggers can no longer execute code to help make sense of the program state. We present an architecture that supports the restricted execution of ordinary code starting from the snapshot, as if the dead objects within it had been restored, but without access to their original external environment. We demonstrate the feasibility of this approach via an implementation for Java that does not require a custom virtual machine, show that it performs competitively with live execution, and use it to diagnose an unresolved memory leak in a mature mainstream application.\r\n\r\nKeywords: programming languages, meta-programming, reflection, runtime analysis",
       "Key": 841,
-      "URL": "https://www.cs.ubc.ca/~rsalkeld/publications/oopsla2013.pdf",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509543",
       "Title": "Interacting with Dead Objects"
     },
     {
@@ -8575,7 +8699,7 @@
       ],
       "Abstract": "![Artifact Evaluated](http://splashcon.org/2013/images/aec-badge.png)\r\n\r\nWe present a small-step operational semantics for the Python programming language.  We present both a core language for Python, suitable for tools and proofs, and a translation process for converting Python source to this core.  We have tested the composition of translation and evaluation of the core for conformance with the primary Python implementation, thereby giving confidence in the fidelity of the semantics. We briefly report on the engineering of these components. Finally, we examine subtle aspects of the language, identifying scope as a pervasive concern that even impacts features that might be considered orthogonal.",
       "Key": 834,
-      "URL": "http://cs.brown.edu/~sk/Publications/Papers/Published/pmmwplck-python-full-monty/",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509536",
       "Title": "Python: The Full Monty;  A Tested Semantics for the Python Programming Language"
     },
     {
@@ -8587,7 +8711,7 @@
       ],
       "Abstract": "We propose DelphJ: a Java-based OO language that eschews inheritance completely, in favor of a combination of class morphing and (deep) delegation. Compared to past delegation approaches, the novel aspect of our design is the ability to emulate the best aspects of inheritance while retaining maximum flexibility: using morphing, a class can select any of the methods of its delegatee and export them (if desired) or transform them (e.g., to add extra arguments or modify\\ type signatures), yet without needing to name these methods explicitly and handle them one-by-one. Compared to past work on morphing, our approach adopts and adapts advanced delegation mechanisms, in order to add late binding capabilities and, thus, provide a full substitute of inheritance. Additionally, we explore complex semantic issues in the interaction of delegation with late binding. We present our language design both informally, with numerous examples, and\\ formally in a core calculus.",
       "Key": 833,
-      "URL": "http://cgi.di.uoa.gr/~smaragd/delphj-oopsla13.pdf",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509535",
       "Title": "Forsaking Inheritance: Supercharged Delegation in DelphJ"
     },
     {
@@ -8621,7 +8745,7 @@
       ],
       "Abstract": "We present set-based pre-analysis: a virtually universal optimization technique for flow-insensitive points-to analysis. Points-to analysis computes a static abstraction of how object values flow through a program's variables. Set-based pre-analysis relies on the observation that much of this reasoning can take place at the set level rather than the value level. Computing constraints at the set level results in significant optimization opportunities: we can rewrite the input program into a simplified form with the same essential points-to properties. This rewrite results in removing both local variables and instructions, thus simplifying the subsequent value-based points-to computation. Effectively, set-based pre-analysis puts the program in a normal form optimized for points-to analysis.\r\n\r\nCompared to other techniques for off-line optimization of points-to analyses in the literature, the new elements of our approach are the ability to eliminate statements, and not just variables, as well as its modularity: set-based pre-analysis can be performed on the input just once, e.g., allowing the pre-optimization of libraries that are subsequently reused many times and for different analyses. In experiments with Java programs, set-based pre-analysis eliminates 30% of the program's local variables and 30% or more of computed context-sensitive points-to facts, over a wide set of benchmarks and analyses, resulting in a ~20% average speedup (max: 110%, median: 18%).",
       "Key": 822,
-      "URL": "http://cgi.di.uoa.gr/~gkast/oopsla2013-set-based.pdf",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509524",
       "Title": "Set-Based Pre-Processing for Points-To Analysis"
     },
     {
@@ -8634,7 +8758,7 @@
       ],
       "Abstract": "In a common use case for cloud computing, clients upload data and computation to servers that are managed by a third-party infrastructure provider. We describe MrCrypt, a system that provides data confidentiality in this setting by executing client computations on encrypted data. MrCrypt statically analyzes a program to identify the set of operations on each input data column, in order to select an appropriate homomorphic encryption scheme for that column, and then transforms the program to operate over encrypted data. The encrypted data and transformed program are uploaded to the server and executed as usual, and the result of the computation is decrypted on the client side. We have implemented MrCrypt for Hadoop MapReduce programs in Java and illustrate its practicality on two standard benchmark suites. We have also formalized the approach and proven several soundness and security guarantees.",
       "Key": 852,
-      "URL": "",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509554",
       "Title": "MrCrypt: Static Analysis for Secure Cloud Computations"
     },
     {
@@ -8649,7 +8773,7 @@
       ],
       "Abstract": "C++ remains a widely used programming language, despite retaining many unsafe features from C.  These unsafe features often lead to violations of type and memory safety, which manifest as buffer overflows, use-after-free vulnerabilities, or abstraction violations.  Malicious attackers are able to exploit such violations to compromise application and system security.  This paper introduces Ironclad C++, an approach to bringing the benefits of type and memory safety to C++.  Ironclad C++ is, in essence, a library-augmented type-safe subset of C++.  All Ironclad C++ programs are valid, standard C++ programs, and thus Ironclad C++ programs can be compiled using standard, off-the-shelf C++ compilers.  However, not all valid C++ programs are valid Ironclad C++ programs.  To determine whether or not a C++ program is a valid Ironclad C++ program, Ironclad C++ uses a syntactic source code validator that statically prevents the use of unsafe C++ features.  For properties that are difficult to check statically Ironclad C++ applies low cost dynamic checking to enforce memory safety using templated smart pointer classes.  Drawing from the collective wisdom of years of research on enforcing memory safety, Ironclad C++ utilizes and improves upon prior techniques to significantly reduce the overhead of enforcing memory safety in C++ programs.\r\n\r\nTo demonstrate the effectiveness of this approach, we translate (with the assistance of a semi-automatic refactoring tool) and test a set of performance benchmarks, multiple bug-detection suites, and the open-source database leveldb. These benchmarks incur a performance overhead of 16% as compared to the unsafe original C++ code, which is small compared to prior approaches to providing comprehensive memory safety in C and C++.  This low performance overhead is achieved without the use of extensive static analysis or special compiler optimizations.",
       "Key": 848,
-      "URL": "",
+      "URL": "http://dx.doi.org/10.1145/2509136.2509550",
       "Title": "Ironclad C++:  A Library-Augmented Type-Safe Subset of C++"
     },
     {
@@ -9110,6 +9234,16 @@
       "Key": 869,
       "URL": null,
       "Title": "Test and Cure your JavaScript Blues "
+    },
+    {
+      "Type": "Social Events",
+      "Authors": [
+
+      ],
+      "Abstract": "",
+      "Key": 1133,
+      "URL": "http://www.gcfb.net/",
+      "Title": "Walk to Dinner at Granite City Brewery"
     },
     {
       "Type": "Social Events",
@@ -9679,6 +9813,16 @@
       "Key": 933,
       "URL": null,
       "Title": "Ice Cream Social"
+    },
+    {
+      "Type": "Social Events",
+      "Authors": [
+
+      ],
+      "Abstract": "",
+      "Key": 1134,
+      "URL": "http://www.imamuseum.org",
+      "Title": "Indianapolis Museum of Art"
     },
     {
       "Type": "Workshops",
