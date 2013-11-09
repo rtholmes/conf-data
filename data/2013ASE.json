@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1382525741,
+    "DataRevision": 1383977554,
     "Preliminary": false,
     "Event": "ASE 2013",
     "Name": "ASE 2013",
@@ -478,7 +478,7 @@
             "Title": "Software Model Checking for Distributed Systems with Selector-Based, Non-blocking Communication",
             "Type": "Technical Research Paper",
             "Key": "ase13main-p102-p",
-            "URL": "http%3A%2F%2Fstaff.aist.go.jp%2Fc.artho%2Fpapers%2Fjava-nio.pdf",
+            "URL": "http%3A%2F%2Fstaff.aist.go.jp%2Fc.artho%2Fpapers%2Fase-2013-preprint.pdf",
             "URLvideo": "",
             "URLinfo": "https%3A%2F%2Fbitbucket.org%2Fcyrille.artho%2Fnet-iocache",
             "PersonsString": "Cyrille Artho, Masami Hagiya, Richard Potter, Yoshinori Tanabe, Franz Weitl, and Mitsuharu Yamamoto",
@@ -2264,25 +2264,6 @@
             "Abstract": ""
         },
         {
-            "Id": "ta0ahquieZ",
-            "Title": "Agile Methods and Patterns",
-            "ShortTitle": "Agile Methods and Patterns",
-            "Type": "Tutorials",
-            "ShortType": "Tutorials",
-            "Key": "2013-11-11 08:00 Agile Methods and Patterns",
-            "Day": "2013-11-11",
-            "Time": "08:00 - 12:10",
-            "Location": "Mykonos",
-            "LocationIndex": "3",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ASE13",
-            "Abstract": ""
-        },
-        {
             "Id": "ooV7aiph9m",
             "Title": "Rigorous Examination of Reactive Systems Workshop (RERS)",
             "ShortTitle": "Rigorous Examination of Reactive Systems Workshop (RERS)",
@@ -2292,7 +2273,7 @@
             "Day": "2013-11-11",
             "Time": "08:00 - 18:00",
             "Location": "Portofino",
-            "LocationIndex": "5",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2311,7 +2292,7 @@
             "Day": "2013-11-11",
             "Time": "08:00 - 18:00",
             "Location": "St. Tropez",
-            "LocationIndex": "6",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2330,7 +2311,7 @@
             "Day": "2013-11-11",
             "Time": "08:00 - 18:00",
             "Location": "St. Tropez",
-            "LocationIndex": "6",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2349,7 +2330,7 @@
             "Day": "2013-11-11",
             "Time": "08:45 - 18:00",
             "Location": "Bacchus",
-            "LocationIndex": "4",
+            "LocationIndex": "10",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2364,44 +2345,6 @@
                 "ase13doctoral-docid7-p",
                 "ase13doctoral-docid8-p"
             ]
-        },
-        {
-            "Id": "keiHahhee5",
-            "Title": "Coccinelle: A Program Matching and Transformation Tool for C Code",
-            "ShortTitle": "Coccinelle: A Program Matching and Transformation Tool for C Code",
-            "Type": "Tutorials",
-            "ShortType": "Tutorials",
-            "Key": "2013-11-11 13:30 Coccinelle: A Program Matching and Transformation Tool for C Code",
-            "Day": "2013-11-11",
-            "Time": "13:30 - 18:00",
-            "Location": "Mykonos",
-            "LocationIndex": "3",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ASE13",
-            "Abstract": ""
-        },
-        {
-            "Id": "Cai8xa0ieh",
-            "Title": "Coverage-based Automated Testing and Debugging",
-            "ShortTitle": "Coverage-based Automated Testing and Debugging",
-            "Type": "Tutorials",
-            "ShortType": "Tutorials",
-            "Key": "2013-11-12 08:00 Coverage-based Automated Testing and Debugging",
-            "Day": "2013-11-12",
-            "Time": "08:00 - 12:10",
-            "Location": "Bacchus",
-            "LocationIndex": "4",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ASE13",
-            "Abstract": ""
         },
         {
             "Id": "ziegh7Eer7",
@@ -2442,25 +2385,6 @@
             "Abstract": ""
         },
         {
-            "Id": "ieSh7kohwu",
-            "Title": "Software Analytics and Achievements",
-            "ShortTitle": "Software Analytics and Achievements",
-            "Type": "Tutorials",
-            "ShortType": "Tutorials",
-            "Key": "2013-11-12 08:00 Software Analytics and Achievements",
-            "Day": "2013-11-12",
-            "Time": "08:00 - 12:10",
-            "Location": "Portofino",
-            "LocationIndex": "5",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ASE13",
-            "Abstract": ""
-        },
-        {
             "Id": "luG9ahj4ei",
             "Title": "Property-based and Contract-based Design of System Architectures",
             "ShortTitle": "Property-based and Contract-based Design of System Architectures",
@@ -2471,25 +2395,6 @@
             "Time": "13:30 - 18:00",
             "Location": "Mykonos",
             "LocationIndex": "3",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ASE13",
-            "Abstract": ""
-        },
-        {
-            "Id": "lienae3Ahj",
-            "Title": "Automated Test Generation in Research, Practice and Education: Pex and Pex4Fun",
-            "ShortTitle": "Automated Test Generation in Research, Practice and Education: Pex and Pex4Fun",
-            "Type": "Tutorials",
-            "ShortType": "Tutorials",
-            "Key": "2013-11-12 13:30 Automated Test Generation in Research, Practice and Education: Pex and Pex4Fun",
-            "Day": "2013-11-12",
-            "Time": "13:30 - 18:00",
-            "Location": "Portofino",
-            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2552,7 +2457,7 @@
             "Day": "2013-11-13",
             "Time": "10:30 - 12:10",
             "Location": "Medtrn. II",
-            "LocationIndex": "9",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2602,7 +2507,7 @@
             "Day": "2013-11-13",
             "Time": "13:30 - 15:10",
             "Location": "Medtrn. II",
-            "LocationIndex": "9",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2675,7 +2580,7 @@
             "Day": "2013-11-13",
             "Time": "15:30 - 17:10",
             "Location": "Medtrn. II",
-            "LocationIndex": "9",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2700,7 +2605,7 @@
             "Day": "2013-11-13",
             "Time": "18:00 - 20:00",
             "Location": "Courtyard",
-            "LocationIndex": "7",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2719,7 +2624,7 @@
             "Day": "2013-11-13",
             "Time": "18:00 - 20:00",
             "Location": "Medtrn. I",
-            "LocationIndex": "10",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2778,7 +2683,7 @@
             "Day": "2013-11-14",
             "Time": "08:30 - 10:10",
             "Location": "Medtrn. II",
-            "LocationIndex": "9",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2803,7 +2708,7 @@
             "Day": "2013-11-14",
             "Time": "10:30 - 12:10",
             "Location": "Medtrn. II",
-            "LocationIndex": "9",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2875,7 +2780,7 @@
             "Day": "2013-11-14",
             "Time": "15:30 - 17:10",
             "Location": "Medtrn. II",
-            "LocationIndex": "9",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2929,7 +2834,7 @@
             "Day": "2013-11-14",
             "Time": "19:00 - 23:00",
             "Location": "Computer History Museum",
-            "LocationIndex": "8",
+            "LocationIndex": "7",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2948,7 +2853,7 @@
             "Day": "2013-11-15",
             "Time": "08:45 - 10:00",
             "Location": "Medtrn. II",
-            "LocationIndex": "9",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3024,7 +2929,7 @@
             "Day": "2013-11-15",
             "Time": "10:30 - 12:10",
             "Location": "Medtrn. II",
-            "LocationIndex": "9",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3072,7 +2977,7 @@
             "Day": "2013-11-15",
             "Time": "13:30 - 14:20",
             "Location": "Medtrn. II",
-            "LocationIndex": "9",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
