@@ -1,0 +1,66 @@
+{
+    "DataRevision": 1384722117,
+    "Preliminary": false,
+    "Event": "CSMR-WCRE 2014",
+    "Name": "CSMR-WCRE 2014",
+    "Description": "",
+    "Location": "Antwerp, Belgium",
+    "Sponsors": "",
+    "URL": "http://ansymo.ua.ac.be/csmr-wcre",
+    "MultiTrack": "false",
+    "Organization": {
+        "General Chairs": [
+                "Serge Demeyer"
+        ],
+        "PC Chairs": [
+                "Dave Binkley",
+                "Filippo Ricca"
+        ]
+    },
+    "SocialFeeds": [
+    ],
+    "VenueInfo": {
+        "Name": "",
+        "GPS": {
+            "Latitude": 0,
+            "Longitude": 0
+        }
+    },
+    "InfoPage": {
+        "xaml": "foo",
+        "Elements": [
+            {
+                "XamlName": "ConferenceCenterMap",
+                "Type": "Map",
+                "GPS": {
+                    "Latitude": 0,
+                    "Longitude": 0
+                },
+                "MapLabel": ""
+            },
+            {
+                "XamlName": "LicenseButton",
+                "Type": "WebLink",
+                "URL": "http://research.microsoft.com/en-US/projects/confapp/terms.aspx"
+            },
+            {
+                "XamlName": "PrivacyButton",
+                "Type": "WebLink",
+                "URL": "http://privacy.microsoft.com/en-us/default.msp"
+            }
+        ]
+    },
+    "SessionPriorities": [
+        "Award",
+        "Invited Talk",
+        "Other"
+    ],
+    "Items": [
+    ],
+    "Sessions": [
+    ],
+    "People": [
+    ]
+}
+ 
+
