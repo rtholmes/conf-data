@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1389299846,
+    "DataRevision": 1389454638,
     "Preliminary": false,
     "Event": "CSMR-WCRE 2014",
     "Name": "CSMR-WCRE 2014",
@@ -139,78 +139,6 @@
             "Award": ""
         },
         {
-            "Title": "Reception + Snacks + Posters",
-            "Type": "Social",
-            "Key": "CSMRWCRE14 @  : Reception + Snacks + Posters",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "CSMRWCRE14",
-            "AffiliationsString": "",
-            "Authors": [
-                "CSMRWCRE14 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "Dinner - Buffet style to allow for late arrivals",
-            "Type": "Social",
-            "Key": "CSMRWCRE14 @  : Dinner - Buffet style to allow for late arrivals",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "CSMRWCRE14",
-            "AffiliationsString": "",
-            "Authors": [
-                "CSMRWCRE14 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "Conference Banquet",
-            "Type": "Social",
-            "Key": "CSMRWCRE14 @ 2 : Conference Banquet",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "CSMRWCRE14",
-            "AffiliationsString": "2",
-            "Authors": [
-                "CSMRWCRE14 @ 2"
-            ],
-            "Affiliations": [
-                "2"
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
-            "Title": "Closing",
-            "Type": "Social",
-            "Key": "CSMRWCRE14 @  : Closing",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "CSMRWCRE14",
-            "AffiliationsString": "",
-            "Authors": [
-                "CSMRWCRE14 @"
-            ],
-            "Affiliations": [
-                ""
-            ],
-            "Abstract": "",
-            "Award": ""
-        },
-        {
             "Title": "NL-Based Query Refinement and Contextualized Code Search Results: A User Study",
             "Type": "Research Paper",
             "Key": "csmrwcre14main-id78-p",
@@ -301,25 +229,25 @@
             "Award": ""
         },
         {
-            "Title": "Transition and Defect Patterns of Components in Dependency Cycles during Software Evolution",
+            "Title": "Detecting Infeasible Branches Based on Code Patterns",
             "Type": "Research Paper",
-            "Key": "csmrwcre14main-id69-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTosin+Daniel+Oyetoyan%2C+Daniela+Soares+Cruzes%2C+and+Reidar+Conradi+%22Transition+and+Defect+Patterns+of+Components+in+Dependency+Cycles+during+Software+Evolution%22",
+            "Key": "csmrwcre14main-id107-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSun+Ding%2C+Hongyu+Zhang%2C+and+Hee+Beng+Kuan+Tan+%22Detecting+Infeasible+Branches+Based+on+Code+Patterns%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Tosin Daniel Oyetoyan, Daniela Soares Cruzes, and Reidar Conradi",
-            "AffiliationsString": "NTNU, Norway; SINTEF, Norway",
+            "PersonsString": "Sun Ding, Hongyu Zhang, and Hee Beng Kuan Tan",
+            "AffiliationsString": "Nanyang Technological University, Singapore; Tsinghua University, China",
             "Authors": [
-                "Tosin Daniel Oyetoyan @ NTNU, Norway",
-                "Daniela Soares Cruzes @ NTNU, Norway / SINTEF, Norway",
-                "Reidar Conradi @ NTNU, Norway"
+                "Sun Ding @ Nanyang Technological University, Singapore",
+                "Hongyu Zhang @ Tsinghua University, China",
+                "Hee Beng Kuan Tan @ Nanyang Technological University, Singapore"
             ],
             "Affiliations": [
-                "NTNU, Norway",
-                "NTNU, Norway / SINTEF, Norway",
-                "NTNU, Norway"
+                "Nanyang Technological University, Singapore",
+                "Tsinghua University, China",
+                "Nanyang Technological University, Singapore"
             ],
-            "Abstract": "The challenge to break existing cyclically connected components of running software is not trivial. Since it involves planning and human resources to ensure that the software behavior is preserved after refactoring activity. Therefore, to motivate refactoring it is essential to obtain evidence of the benefits to the product quality. This study investigates the defect-proneness patterns of cyclically connected components vs. non-cyclic ones when they transition across software releases. We have mined and classified software components into two groups and two transition states– the cyclic and the non-cyclic ones. Next, we have performed an empirical study of four software systems from evolutionary perspective. Using standard statistical tests on formulated hypotheses, we have determined the significance of the defect profiles and complexities of each group. The results show that during software evolution, components that transition between dependency cycles have higher probability to be defect-prone than those that transition outside of cycles. Furthermore, out of the three complexity variables investigated, we found that an increase in the class reachability set size tends to be more associated with components that turn defective when they transition between dependency cycles. Lastly, we found no evidence of any systematic “cycle-breaking” refactoring between releases of the software systems. Thus, these findings motivate for refactoring of components in dependency cycle taking into account the minimization of metrics such as the class reachability set size.",
+            "Abstract": "Infeasible branches are program branches that can never be exercised regardless of the inputs of the program. Detecting infeasible branches is important to many software engineering tasks such as test case generation and test coverage measurement. Applying full-scale symbolic evaluation to infeasible branch detection could be very costly, especially for a large software system. In this work, we propose a code pattern based method for detecting infeasible branches. We first introduce two general patterns that can characterize the source code containing infeasible branches. We then develop a tool, called Pattern-based method for Infeasible branch Detection (PIND), to detect infeasible branches based on the discovered code patterns. PIND only performs symbolic evaluation for the branches that exhibit the identified code patterns, therefore significantly reduce the number of symbolic evaluations required. We evaluate PIND from two aspects: accuracy and efficiency. The experimental results show that PIND can effectively and efficiently detect infeasible branches in real-world Java and Android programs. We also explore the application of PIND in measuring test case coverage.",
             "Award": ""
         },
         {
@@ -797,25 +725,25 @@
             "Award": ""
         },
         {
-            "Title": "Detecting Infeasible Branches Based on Code Patterns",
+            "Title": "Transition and Defect Patterns of Components in Dependency Cycles during Software Evolution",
             "Type": "Research Paper",
-            "Key": "csmrwcre14main-id107-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSun+Ding%2C+Hongyu+Zhang%2C+and+Hee+Beng+Kuan+Tan+%22Detecting+Infeasible+Branches+Based+on+Code+Patterns%22",
+            "Key": "csmrwcre14main-id69-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTosin+Daniel+Oyetoyan%2C+Daniela+Soares+Cruzes%2C+and+Reidar+Conradi+%22Transition+and+Defect+Patterns+of+Components+in+Dependency+Cycles+during+Software+Evolution%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Sun Ding, Hongyu Zhang, and Hee Beng Kuan Tan",
-            "AffiliationsString": "Nanyang Technological University, Singapore; Tsinghua University, China",
+            "PersonsString": "Tosin Daniel Oyetoyan, Daniela Soares Cruzes, and Reidar Conradi",
+            "AffiliationsString": "NTNU, Norway; SINTEF, Norway",
             "Authors": [
-                "Sun Ding @ Nanyang Technological University, Singapore",
-                "Hongyu Zhang @ Tsinghua University, China",
-                "Hee Beng Kuan Tan @ Nanyang Technological University, Singapore"
+                "Tosin Daniel Oyetoyan @ NTNU, Norway",
+                "Daniela Soares Cruzes @ NTNU, Norway / SINTEF, Norway",
+                "Reidar Conradi @ NTNU, Norway"
             ],
             "Affiliations": [
-                "Nanyang Technological University, Singapore",
-                "Tsinghua University, China",
-                "Nanyang Technological University, Singapore"
+                "NTNU, Norway",
+                "NTNU, Norway / SINTEF, Norway",
+                "NTNU, Norway"
             ],
-            "Abstract": "Infeasible branches are program branches that can never be exercised regardless of the inputs of the program. Detecting infeasible branches is important to many software engineering tasks such as test case generation and test coverage measurement. Applying full-scale symbolic evaluation to infeasible branch detection could be very costly, especially for a large software system. In this work, we propose a code pattern based method for detecting infeasible branches. We first introduce two general patterns that can characterize the source code containing infeasible branches. We then develop a tool, called Pattern-based method for Infeasible branch Detection (PIND), to detect infeasible branches based on the discovered code patterns. PIND only performs symbolic evaluation for the branches that exhibit the identified code patterns, therefore significantly reduce the number of symbolic evaluations required. We evaluate PIND from two aspects: accuracy and efficiency. The experimental results show that PIND can effectively and efficiently detect infeasible branches in real-world Java and Android programs. We also explore the application of PIND in measuring test case coverage.",
+            "Abstract": "The challenge to break existing cyclically connected components of running software is not trivial. Since it involves planning and human resources to ensure that the software behavior is preserved after refactoring activity. Therefore, to motivate refactoring it is essential to obtain evidence of the benefits to the product quality. This study investigates the defect-proneness patterns of cyclically connected components vs. non-cyclic ones when they transition across software releases. We have mined and classified software components into two groups and two transition states– the cyclic and the non-cyclic ones. Next, we have performed an empirical study of four software systems from evolutionary perspective. Using standard statistical tests on formulated hypotheses, we have determined the significance of the defect profiles and complexities of each group. The results show that during software evolution, components that transition between dependency cycles have higher probability to be defect-prone than those that transition outside of cycles. Furthermore, out of the three complexity variables investigated, we found that an increase in the class reachability set size tends to be more associated with components that turn defective when they transition between dependency cycles. Lastly, we found no evidence of any systematic “cycle-breaking” refactoring between releases of the software systems. Thus, these findings motivate for refactoring of components in dependency cycle taking into account the minimization of metrics such as the class reachability set size.",
             "Award": ""
         },
         {
@@ -1455,29 +1383,49 @@
             "Award": ""
         },
         {
-            "Title": "QualityGate SourceAudit: A Tool for Assessing the Technical Quality of Software",
+            "Title": "in*Bug: Visual Analytics of Bug Repositories",
             "Type": "Tool demo paper",
-            "Key": "csmrwcre14tools-to18-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTibor+Bakota%2C+P%C3%A9ter+Heged%C5%B1s%2C+Istv%C3%A1n+Siket%2C+Gergely+Lad%C3%A1nyi%2C+and+Rudolf+Ferenc+%22QualityGate+SourceAudit%3A+A+Tool+for+Assessing+the+Technical+Quality+of+Software%22",
+            "Key": "csmrwcre14tools-to9-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTommaso+Dal+Sasso+and+Michele+Lanza+%22in%2ABug%3A+Visual+Analytics+of+Bug+Repositories%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Tibor Bakota, Péter Hegedűs, István Siket, Gergely Ladányi, and Rudolf Ferenc",
-            "AffiliationsString": "FrontEndART Software, Hungary; MTA-SZTE Research Group on Artificial Intelligence, Hungary; University of Szeged, Hungary",
+            "PersonsString": "Tommaso Dal Sasso and Michele Lanza",
+            "AffiliationsString": "University of Lugano, Switzerland",
             "Authors": [
-                "Tibor Bakota @ FrontEndART Software, Hungary",
-                "Péter Hegedűs @ MTA-SZTE Research Group on Artificial Intelligence, Hungary",
-                "István Siket @ MTA-SZTE Research Group on Artificial Intelligence, Hungary",
-                "Gergely Ladányi @ University of Szeged, Hungary",
-                "Rudolf Ferenc @ University of Szeged, Hungary"
+                "Tommaso Dal Sasso @ University of Lugano, Switzerland",
+                "Michele Lanza @ University of Lugano, Switzerland"
             ],
             "Affiliations": [
-                "FrontEndART Software, Hungary",
-                "MTA-SZTE Research Group on Artificial Intelligence, Hungary",
-                "MTA-SZTE Research Group on Artificial Intelligence, Hungary",
-                "University of Szeged, Hungary",
-                "University of Szeged, Hungary"
+                "University of Lugano, Switzerland",
+                "University of Lugano, Switzerland"
             ],
-            "Abstract": "Software systems are evolving continuously in order to fulfill the ever-changing business needs. This endless modification, however, decreases the internal quality of the system over time. This phenomena is called software erosion, which results in higher development, testing, and operational costs. The SourceAudit tool presented in this paper helps managing the technical risks of software deterioration by allowing immediate, automatic, and objective assessment of software quality. By monitoring the high-level technical quality of systems it is possible to immediately perform the necessary steps needed to reduce the effects of software erosion, thus reaching higher maintainability and lower costs in the mid and long-term. The tool measures source code maintainability according to the ISO/IEC~25010 based probabilistic software maintainability model called ColumbusQM. It gives a holistic view on software quality and warns on source code maintainability decline.",
+            "Abstract": "Bug tracking systems are used to track and store the defects reported during the life of software projects. The underlying repositories represent a valuable source of information used for example for defect prediction and program comprehension. However, bug tracking systems present the actual bugs essentially in textual form, which is not only cumbersome to navigate, but also hinders the understanding of the intricate pieces of information that revolve around software bugs. We present in*Bug, a web-based visual analytics platform to navigate and inspect bug repositories. in*Bug provides several interactive views to understand detailed information about the bugs and the people that report them. The tool can be downloaded at http://inbug.inf.usi.ch",
+            "Award": ""
+        },
+        {
+            "Title": "APIEvolutionMiner: Keeping API Evolution under Control",
+            "Type": "Tool demo paper",
+            "Key": "csmrwcre14tools-to21-p",
+            "URL": "http%3A%2F%2Fwww.dcc.ufmg.br%2F%7Emtov%2Fpub%2F2014_csmrwcre_apievolutionminer.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "André Hora, Anne Etien, Nicolas Anquetil, Stéphane Ducasse, and Marco Tulio Valente",
+            "AffiliationsString": "INRIA, France; UFMG, Brazil",
+            "Authors": [
+                "André Hora @ INRIA, France",
+                "Anne Etien @ INRIA, France",
+                "Nicolas Anquetil @ INRIA, France",
+                "Stéphane Ducasse @ INRIA, France",
+                "Marco Tulio Valente @ UFMG, Brazil"
+            ],
+            "Affiliations": [
+                "INRIA, France",
+                "INRIA, France",
+                "INRIA, France",
+                "INRIA, France",
+                "UFMG, Brazil"
+            ],
+            "Abstract": "During software evolution, source code is constantly refactored. In real-world migrations, many methods in the newer version are not present in the old version (e.g., 60% of the methods in Eclipse 2.0 were not in version 1.0). This requires changes to be consistently applied to reflect the new API and avoid further maintenance problems. In this paper, we propose a tool to extract rules by monitoring API changes applied in source code during system evolution. In this process, changes are mined at revision level in code history. Our tool focuses on mining invocation changes to keep track of how they are evolving. We also provide three case studies in order to evaluate the tool.",
             "Award": ""
         },
         {
@@ -1525,6 +1473,54 @@
             "Award": ""
         },
         {
+            "Title": "Bit-Error Injection for Software Developers",
+            "Type": "Tool demo paper",
+            "Key": "csmrwcre14tools-to19-p",
+            "URL": "http%3A%2F%2Fwww.sts.tuhh.de%2Fresearch%2Fmedia%2Fcsmr-wcre-preprint.pdf",
+            "URLvideo": "http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DaILfIR_AR4Y",
+            "URLinfo": "http%3A%2F%2Fwww.sts.tu-harburg.de%2Fresearch%2Ffitin.html",
+            "PersonsString": "Marcel Heing-Becker, Timo Kamph, and Sibylle Schupp",
+            "AffiliationsString": "Hamburg University of Technology, Germany",
+            "Authors": [
+                "Marcel Heing-Becker @ Hamburg University of Technology, Germany",
+                "Timo Kamph @ Hamburg University of Technology, Germany",
+                "Sibylle Schupp @ Hamburg University of Technology, Germany"
+            ],
+            "Affiliations": [
+                "Hamburg University of Technology, Germany",
+                "Hamburg University of Technology, Germany",
+                "Hamburg University of Technology, Germany"
+            ],
+            "Abstract": "This paper presents FITIn, a bit-error injection tool designed for evaluating software-implemented hardware fault tol- erance (SIHFT) mechanisms. Like most bit-error injection tools, FITIn injects faults at run time into the binary of a program. Unlike previous bit-error injection tools, FITIn allows a software developer to control the targets of injection campaigns at the level of a higher programming language rather than assembler. FITIn is implemented as a Valgrind plugin and has been tested for C programs. We present its architecture, demonstrate its functioning using examples from three benchmarks (Dhrystone, STAMP, and CoreMark), provide performance figures, and discuss general limitations of the approach.",
+            "Award": ""
+        },
+        {
+            "Title": "QualityGate SourceAudit: A Tool for Assessing the Technical Quality of Software",
+            "Type": "Tool demo paper",
+            "Key": "csmrwcre14tools-to18-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTibor+Bakota%2C+P%C3%A9ter+Heged%C5%B1s%2C+Istv%C3%A1n+Siket%2C+Gergely+Lad%C3%A1nyi%2C+and+Rudolf+Ferenc+%22QualityGate+SourceAudit%3A+A+Tool+for+Assessing+the+Technical+Quality+of+Software%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Tibor Bakota, Péter Hegedűs, István Siket, Gergely Ladányi, and Rudolf Ferenc",
+            "AffiliationsString": "FrontEndART Software, Hungary; MTA-SZTE Research Group on Artificial Intelligence, Hungary; University of Szeged, Hungary",
+            "Authors": [
+                "Tibor Bakota @ FrontEndART Software, Hungary",
+                "Péter Hegedűs @ MTA-SZTE Research Group on Artificial Intelligence, Hungary",
+                "István Siket @ MTA-SZTE Research Group on Artificial Intelligence, Hungary",
+                "Gergely Ladányi @ University of Szeged, Hungary",
+                "Rudolf Ferenc @ University of Szeged, Hungary"
+            ],
+            "Affiliations": [
+                "FrontEndART Software, Hungary",
+                "MTA-SZTE Research Group on Artificial Intelligence, Hungary",
+                "MTA-SZTE Research Group on Artificial Intelligence, Hungary",
+                "University of Szeged, Hungary",
+                "University of Szeged, Hungary"
+            ],
+            "Abstract": "Software systems are evolving continuously in order to fulfill the ever-changing business needs. This endless modification, however, decreases the internal quality of the system over time. This phenomena is called software erosion, which results in higher development, testing, and operational costs. The SourceAudit tool presented in this paper helps managing the technical risks of software deterioration by allowing immediate, automatic, and objective assessment of software quality. By monitoring the high-level technical quality of systems it is possible to immediately perform the necessary steps needed to reduce the effects of software erosion, thus reaching higher maintainability and lower costs in the mid and long-term. The tool measures source code maintainability according to the ISO/IEC~25010 based probabilistic software maintainability model called ColumbusQM. It gives a holistic view on software quality and warns on source code maintainability decline.",
+            "Award": ""
+        },
+        {
             "Title": "Follow the Path: Debugging Tools for Test-Driven Fault Navigation",
             "Type": "Tool demo paper",
             "Key": "csmrwcre14tools-to7-p",
@@ -1542,92 +1538,6 @@
                 "HPI, Germany"
             ],
             "Abstract": "Debugging failing test cases, particularly the search for failure causes, is often a laborious and time-consuming activity. Standard debugging tools such as symbolic debuggers and test runners hardly facilitate developers during this task because they neither provide advice to failure causes nor back-in-time capabilities.  In this paper, we present test-driven fault navigation as a debugging guide that integrates spectrum-based and state anomalies into execution histories in order to systematically trace failure causes back to defects. We describe and demonstrate our Path tools that implement our debugging method for the Squeak/Smalltalk development environment.",
-            "Award": ""
-        },
-        {
-            "Title": "Mc2for Demo: A Tool for Automatically Translating Matlab to Fortran 95",
-            "Type": "Tool demo paper",
-            "Key": "csmrwcre14tools-to11-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DXu+Li+and+Laurie+Hendren+%22Mc2for+Demo%3A+A+Tool+for+Automatically+Translating+Matlab+to+Fortran+95%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Xu Li and Laurie Hendren",
-            "AffiliationsString": "McGill University, Canada",
-            "Authors": [
-                "Xu Li @ McGill University, Canada",
-                "Laurie Hendren @ McGill University, Canada"
-            ],
-            "Affiliations": [
-                "McGill University, Canada",
-                "McGill University, Canada"
-            ],
-            "Abstract": "MATLAB is a dynamic numerical scripting language widely used by scientists, engineers and students. While MATLAB&#039;s high-level syntax and dynamic types makes it ideal for prototyping, programmers often prefer using high-performance static languages such as Fortran for their final distributable code. Rather than requiring programmers to rewrite their code by hand, our solution is to provide a tool that automatically translates the original MATLAB program to an equivalent Fortran program. There are several important challenges for automatically translating MATLAB to Fortran, such as correctly estimating the static type characteristics of all the variables in a MATLAB program, mapping MATLAB built-in functions, and effectively mapping MATLAB constructs to Fortran constructs.  In this tool demonstration, we introduce the tool Mc2For, a mature prototype which automatically translates MATLAB programs to Fortran. This tool takes as input a MATLAB entry point function file of a program with corresponding information of its input parameters, then automatically finds all functions reachable directly or indirectly from the entry point, loads the necessary files, and translates all the reachable MATLAB functions to equivalent Fortran. The output of the tool is a collection of Fortran function files, which can be compiled with any Fortran 95-compliant compiler. Mc2For is open source, and has been implemented in Java using the McLab framework, which means that the tool runs on any system supporting Java.",
-            "Award": ""
-        },
-        {
-            "Title": "APIEvolutionMiner: Keeping API Evolution under Control",
-            "Type": "Tool demo paper",
-            "Key": "csmrwcre14tools-to21-p",
-            "URL": "http%3A%2F%2Fwww.dcc.ufmg.br%2F%7Emtov%2Fpub%2F2014_csmrwcre_apievolutionminer.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "André Hora, Anne Etien, Nicolas Anquetil, Stéphane Ducasse, and Marco Tulio Valente",
-            "AffiliationsString": "INRIA, France; UFMG, Brazil",
-            "Authors": [
-                "André Hora @ INRIA, France",
-                "Anne Etien @ INRIA, France",
-                "Nicolas Anquetil @ INRIA, France",
-                "Stéphane Ducasse @ INRIA, France",
-                "Marco Tulio Valente @ UFMG, Brazil"
-            ],
-            "Affiliations": [
-                "INRIA, France",
-                "INRIA, France",
-                "INRIA, France",
-                "INRIA, France",
-                "UFMG, Brazil"
-            ],
-            "Abstract": "During software evolution, source code is constantly refactored. In real-world migrations, many methods in the newer version are not present in the old version (e.g., 60% of the methods in Eclipse 2.0 were not in version 1.0). This requires changes to be consistently applied to reflect the new API and avoid further maintenance problems. In this paper, we propose a tool to extract rules by monitoring API changes applied in source code during system evolution. In this process, changes are mined at revision level in code history. Our tool focuses on mining invocation changes to keep track of how they are evolving. We also provide three case studies in order to evaluate the tool.",
-            "Award": ""
-        },
-        {
-            "Title": "PHP AiR: Analyzing PHP Systems with Rascal",
-            "Type": "Tool demo paper",
-            "Key": "csmrwcre14tools-to24-p",
-            "URL": "http%3A%2F%2Fwww.cs.ecu.edu%2Fhillsma%2Fpublications%2Fphpair-csmr.pdf",
-            "URLvideo": "",
-            "URLinfo": "https%3A%2F%2Fgithub.com%2Fcwi-swat%2Fphp-analysis",
-            "PersonsString": "Mark Hills and Paul Klint",
-            "AffiliationsString": "East Carolina University, USA; CWI, Netherlands; INRIA, France",
-            "Authors": [
-                "Mark Hills @ East Carolina University, USA",
-                "Paul Klint @ CWI, Netherlands / INRIA, France"
-            ],
-            "Affiliations": [
-                "East Carolina University, USA",
-                "CWI, Netherlands / INRIA, France"
-            ],
-            "Abstract": "PHP is currently one of the most popular programming languages, widely used in both the open source community and in industry to build large web-focused applications and application frameworks. To provide a solid framework for working with large PHP systems in areas such as evaluating how language features are used, studying how PHP systems evolve, program analysis for refactoring and security validation, and software metrics, we have developed PHP AiR, a framework for PHP Analysis in Rascal. Here we briefly describe features available in PHP AiR, integration with the Eclipse PHP Development Tools, and usage scenarios in program analysis, metrics, and empirical software engineering.",
-            "Award": ""
-        },
-        {
-            "Title": "in*Bug: Visual Analytics of Bug Repositories",
-            "Type": "Tool demo paper",
-            "Key": "csmrwcre14tools-to9-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTommaso+Dal+Sasso+and+Michele+Lanza+%22in%2ABug%3A+Visual+Analytics+of+Bug+Repositories%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Tommaso Dal Sasso and Michele Lanza",
-            "AffiliationsString": "University of Lugano, Switzerland",
-            "Authors": [
-                "Tommaso Dal Sasso @ University of Lugano, Switzerland",
-                "Michele Lanza @ University of Lugano, Switzerland"
-            ],
-            "Affiliations": [
-                "University of Lugano, Switzerland",
-                "University of Lugano, Switzerland"
-            ],
-            "Abstract": "Bug tracking systems are used to track and store the defects reported during the life of software projects. The underlying repositories represent a valuable source of information used for example for defect prediction and program comprehension. However, bug tracking systems present the actual bugs essentially in textual form, which is not only cumbersome to navigate, but also hinders the understanding of the intricate pieces of information that revolve around software bugs. We present in*Bug, a web-based visual analytics platform to navigate and inspect bug repositories. in*Bug provides several interactive views to understand detailed information about the bugs and the people that report them. The tool can be downloaded at http://inbug.inf.usi.ch",
             "Award": ""
         },
         {
@@ -1651,6 +1561,46 @@
             "Award": ""
         },
         {
+            "Title": "PHP AiR: Analyzing PHP Systems with Rascal",
+            "Type": "Tool demo paper",
+            "Key": "csmrwcre14tools-to24-p",
+            "URL": "http%3A%2F%2Fwww.cs.ecu.edu%2Fhillsma%2Fpublications%2Fphpair-csmr.pdf",
+            "URLvideo": "",
+            "URLinfo": "https%3A%2F%2Fgithub.com%2Fcwi-swat%2Fphp-analysis",
+            "PersonsString": "Mark Hills and Paul Klint",
+            "AffiliationsString": "East Carolina University, USA; CWI, Netherlands; INRIA, France",
+            "Authors": [
+                "Mark Hills @ East Carolina University, USA",
+                "Paul Klint @ CWI, Netherlands / INRIA, France"
+            ],
+            "Affiliations": [
+                "East Carolina University, USA",
+                "CWI, Netherlands / INRIA, France"
+            ],
+            "Abstract": "PHP is currently one of the most popular programming languages, widely used in both the open source community and in industry to build large web-focused applications and application frameworks. To provide a solid framework for working with large PHP systems in areas such as evaluating how language features are used, studying how PHP systems evolve, program analysis for refactoring and security validation, and software metrics, we have developed PHP AiR, a framework for PHP Analysis in Rascal. Here we briefly describe features available in PHP AiR, integration with the Eclipse PHP Development Tools, and usage scenarios in program analysis, metrics, and empirical software engineering.",
+            "Award": ""
+        },
+        {
+            "Title": "Mc2for Demo: A Tool for Automatically Translating Matlab to Fortran 95",
+            "Type": "Tool demo paper",
+            "Key": "csmrwcre14tools-to11-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DXu+Li+and+Laurie+Hendren+%22Mc2for+Demo%3A+A+Tool+for+Automatically+Translating+Matlab+to+Fortran+95%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Xu Li and Laurie Hendren",
+            "AffiliationsString": "McGill University, Canada",
+            "Authors": [
+                "Xu Li @ McGill University, Canada",
+                "Laurie Hendren @ McGill University, Canada"
+            ],
+            "Affiliations": [
+                "McGill University, Canada",
+                "McGill University, Canada"
+            ],
+            "Abstract": "MATLAB is a dynamic numerical scripting language widely used by scientists, engineers and students. While MATLAB&#039;s high-level syntax and dynamic types makes it ideal for prototyping, programmers often prefer using high-performance static languages such as Fortran for their final distributable code. Rather than requiring programmers to rewrite their code by hand, our solution is to provide a tool that automatically translates the original MATLAB program to an equivalent Fortran program. There are several important challenges for automatically translating MATLAB to Fortran, such as correctly estimating the static type characteristics of all the variables in a MATLAB program, mapping MATLAB built-in functions, and effectively mapping MATLAB constructs to Fortran constructs.  In this tool demonstration, we introduce the tool Mc2For, a mature prototype which automatically translates MATLAB programs to Fortran. This tool takes as input a MATLAB entry point function file of a program with corresponding information of its input parameters, then automatically finds all functions reachable directly or indirectly from the entry point, loads the necessary files, and translates all the reachable MATLAB functions to equivalent Fortran. The output of the tool is a collection of Fortran function files, which can be compiled with any Fortran 95-compliant compiler. Mc2For is open source, and has been implemented in Java using the McLab framework, which means that the tool runs on any system supporting Java.",
+            "Award": ""
+        },
+        {
             "Title": "Dahlia: A Visual Analyzer of Database Schema Evolution",
             "Type": "Tool demo paper",
             "Key": "csmrwcre14tools-to27-p",
@@ -1668,28 +1618,6 @@
                 "University of Namur, Belgium"
             ],
             "Abstract": "In a continuously changing environment, software evolution becomes an unavoidable activity. The mining software repositories (MSR) field studies the valuable data available in software repositories such as source code version-control systems, issue/bug-tracking systems, or communication archives. In recent years, many researchers have used MSR techniques as a way to support software understanding and evolution. While many software systems are data-intensive, i.e., their central artifact is a database, little attention has been devoted to the analysis of this important system component in the context of software evolution. The goal of our work is to reduce this gap by considering the database evolution history as an additional information source to aid software evolution. We present DAHLIA (Database ScHema EvoLutIon Analysis), a visual analyzer of database schema evolution. Our tool mines the database schema evolution history from the software repository and allows its interactive, visual analysis. We describe DAHLIA and present our novel approach supporting data-intensive software evolution.",
-            "Award": ""
-        },
-        {
-            "Title": "Bit-Error Injection for Software Developers",
-            "Type": "Tool demo paper",
-            "Key": "csmrwcre14tools-to19-p",
-            "URL": "http%3A%2F%2Fwww.sts.tuhh.de%2Fresearch%2Fmedia%2Fcsmr-wcre-preprint.pdf",
-            "URLvideo": "http%3A%2F%2Fyoutu.be%2FeWUtQarGdNc",
-            "URLinfo": "http%3A%2F%2Fwww.sts.tu-harburg.de%2Fresearch%2Ffitin.html",
-            "PersonsString": "Marcel Heing-Becker, Timo Kamph, and Sibylle Schupp",
-            "AffiliationsString": "Hamburg University of Technology, Germany",
-            "Authors": [
-                "Marcel Heing-Becker @ Hamburg University of Technology, Germany",
-                "Timo Kamph @ Hamburg University of Technology, Germany",
-                "Sibylle Schupp @ Hamburg University of Technology, Germany"
-            ],
-            "Affiliations": [
-                "Hamburg University of Technology, Germany",
-                "Hamburg University of Technology, Germany",
-                "Hamburg University of Technology, Germany"
-            ],
-            "Abstract": "This paper presents FITIn, a bit-error injection tool designed for evaluating software-implemented hardware fault tol- erance (SIHFT) mechanisms. Like most bit-error injection tools, FITIn injects faults at run time into the binary of a program. Unlike previous bit-error injection tools, FITIn allows a software developer to control the targets of injection campaigns at the level of a higher programming language rather than assembler. FITIn is implemented as a Valgrind plugin and has been tested for C programs. We present its architecture, demonstrate its functioning using examples from three benchmarks (Dhrystone, STAMP, and CoreMark), provide performance figures, and discuss general limitations of the approach.",
             "Award": ""
         },
         {
@@ -1747,17 +1675,14 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "CSMRWCRE14",
-            "Abstract": "",
-            "Items": [
-                "CSMRWCRE14 @  : Dinner - Buffet style to allow for late arrivals"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "Eish6ohquo",
             "Title": "Message from the Chairs",
             "ShortTitle": "Message from the Chairs",
-            "Type": "Preface",
-            "ShortType": "Preface",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
             "Key": "2014-02-04 09:00 Message from the Chairs",
             "Day": "2014-02-04",
             "Time": "09:00 - 09:15",
@@ -1778,8 +1703,8 @@
             "Id": "toJ1iesoot",
             "Title": "Using Biology and Ecology as Inspiration for Software Maintenance? (Keynote Abstract)",
             "ShortTitle": "Using Biology and Ecology as Inspiration for Software Maintenance? (Keynote Abstract)",
-            "Type": "Keynotes",
-            "ShortType": "Keynotes",
+            "Type": "Keynote",
+            "ShortType": "Keynote",
             "Key": "2014-02-04 09:15 Using Biology and Ecology as Inspiration for Software Maintenance? (Keynote Abstract)",
             "Day": "2014-02-04",
             "Time": "09:15 - 10:30",
@@ -1840,7 +1765,7 @@
             "Abstract": "",
             "Items": [
                 "csmrwcre14main-id11-p",
-                "csmrwcre14main-id69-p",
+                "csmrwcre14main-id107-p",
                 "csmrwcre14main-id9-p"
             ]
         },
@@ -1917,12 +1842,12 @@
             ]
         },
         {
-            "Id": "ohDief3ahg",
-            "Title": "Tool Demonstrations",
-            "ShortTitle": "Tool Demonstrations",
+            "Id": "Koh7Gaicho",
+            "Title": "Tool Demonstrations 2",
+            "ShortTitle": "Tool Demonstrations 2",
             "Type": "Tool Demonstrations",
             "ShortType": "Tool Demonstrations",
-            "Key": "2014-02-04 15:30 Tool Demonstrations",
+            "Key": "2014-02-04 15:30 Tool Demonstrations 2",
             "Day": "2014-02-04",
             "Time": "15:30 - 17:00",
             "Location": "",
@@ -1935,17 +1860,38 @@
             "Comment": "CSMRWCRE14TOOLS",
             "Abstract": "",
             "Items": [
-                "csmrwcre14tools-to18-p",
+                "csmrwcre14tools-to7-p",
+                "csmrwcre14tools-to8-p",
+                "csmrwcre14tools-to24-p",
+                "csmrwcre14tools-to11-p",
+                "csmrwcre14tools-to27-p"
+            ]
+        },
+        {
+            "Id": "ohDief3ahg",
+            "Title": "Tool Demonstrations 1",
+            "ShortTitle": "Tool Demonstrations 1",
+            "Type": "Tool Demonstrations",
+            "ShortType": "Tool Demonstrations",
+            "Key": "2014-02-04 15:30 Tool Demonstrations 1",
+            "Day": "2014-02-04",
+            "Time": "15:30 - 17:00",
+            "Location": "",
+            "LocationIndex": "7",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSMRWCRE14TOOLS",
+            "Abstract": "",
+            "Items": [
+                "csmrwcre14tools-to9-p",
+                "csmrwcre14tools-to21-p",
                 "csmrwcre14tools-to20-p",
                 "csmrwcre14tools-to22-p",
-                "csmrwcre14tools-to7-p",
-                "csmrwcre14tools-to11-p",
-                "csmrwcre14tools-to21-p",
-                "csmrwcre14tools-to24-p",
-                "csmrwcre14tools-to9-p",
-                "csmrwcre14tools-to8-p",
-                "csmrwcre14tools-to27-p",
-                "csmrwcre14tools-to19-p"
+                "csmrwcre14tools-to19-p",
+                "csmrwcre14tools-to18-p"
             ]
         },
         {
@@ -1965,17 +1911,14 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "CSMRWCRE14",
-            "Abstract": "",
-            "Items": [
-                "CSMRWCRE14 @  : Reception + Snacks + Posters"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "Aliajo5eav",
             "Title": "Mitigating the Risk of Software Change in Practice: Retrospective on More Than 50 Architecture Evaluations in Industry (Keynote Paper)",
             "ShortTitle": "Mitigating the Risk of Software Change in Practice: Retrospective on More Than 50 Architecture Evaluations in Industry (Keynote Paper)",
-            "Type": "Keynotes",
-            "ShortType": "Keynotes",
+            "Type": "Keynote",
+            "ShortType": "Keynote",
             "Key": "2014-02-05 09:00 Mitigating the Risk of Software Change in Practice: Retrospective on More Than 50 Architecture Evaluations in Industry (Keynote Paper)",
             "Day": "2014-02-05",
             "Time": "09:00 - 10:00",
@@ -2022,11 +1965,11 @@
         },
         {
             "Id": "OoLi9aPhie",
-            "Title": "Project Descriptions",
-            "ShortTitle": "Project Descriptions",
+            "Title": "Project Track",
+            "ShortTitle": "Project Track",
             "Type": "Project Descriptions",
             "ShortType": "Project Descriptions",
-            "Key": "2014-02-05 10:30 Project Descriptions",
+            "Key": "2014-02-05 10:30 Project Track",
             "Day": "2014-02-05",
             "Time": "10:30 - 12:00",
             "Location": "",
@@ -2046,6 +1989,25 @@
                 "csmrwcre14projects-pr32-p",
                 "csmrwcre14projects-pr23-p"
             ]
+        },
+        {
+            "Id": "Noinaexoh7",
+            "Title": "Steven Award + Most influential paper CSMR/WCRE 2004",
+            "ShortTitle": "Steven Award + Most influential paper CSMR/WCRE 2004",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-02-05 13:30 Steven Award + Most influential paper CSMR/WCRE 2004",
+            "Day": "2014-02-05",
+            "Time": "13:30 - 15:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSMRWCRE14",
+            "Abstract": ""
         },
         {
             "Id": "d57e4533c6",
@@ -2088,17 +2050,14 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "CSMRWCRE14",
-            "Abstract": "",
-            "Items": [
-                "CSMRWCRE14 @ 2 : Conference Banquet"
-            ]
+            "Abstract": ""
         },
         {
             "Id": "Yah4baHihu",
             "Title": "The Vision of Software Clone Management: Past, Present, and Future (Keynote Paper)",
             "ShortTitle": "The Vision of Software Clone Management: Past, Present, and Future (Keynote Paper)",
-            "Type": "Keynotes",
-            "ShortType": "Keynotes",
+            "Type": "Keynote",
+            "ShortType": "Keynote",
             "Key": "2014-02-06 09:00 The Vision of Software Clone Management: Past, Present, and Future (Keynote Paper)",
             "Day": "2014-02-06",
             "Time": "09:00 - 10:00",
@@ -2116,12 +2075,12 @@
             ]
         },
         {
-            "Id": "a230240145",
-            "Title": "Change and Co-evolution",
-            "ShortTitle": "Change and Co-evolution",
+            "Id": "c80a02ab5a",
+            "Title": "Maintenance and Co",
+            "ShortTitle": "Maintenance and Co",
             "Type": "Early Research Achievements",
             "ShortType": "Early Research Achievements",
-            "Key": "2014-02-06 10:30 Change and Co-evolution",
+            "Key": "2014-02-06 10:30 Maintenance and Co",
             "Day": "2014-02-06",
             "Time": "10:30 - 12:00",
             "Location": "",
@@ -2134,10 +2093,14 @@
             "Comment": "CSMRWCRE14ERA",
             "Abstract": "",
             "Items": [
-                "csmrwcre14era-er30-p",
-                "csmrwcre14era-er3-p",
-                "csmrwcre14era-er1-p",
-                "csmrwcre14era-er14-p"
+                "csmrwcre14era-er22-p",
+                "csmrwcre14era-er5-p",
+                "csmrwcre14era-er24-p",
+                "csmrwcre14era-er33-p",
+                "csmrwcre14era-er36-p",
+                "csmrwcre14era-er2-p",
+                "csmrwcre14era-er38-p",
+                "csmrwcre14era-er16-p"
             ]
         },
         {
@@ -2231,17 +2194,17 @@
             "Abstract": "",
             "Items": [
                 "csmrwcre14main-id3-p",
-                "csmrwcre14main-id107-p",
+                "csmrwcre14main-id69-p",
                 "csmrwcre14main-id23-p"
             ]
         },
         {
-            "Id": "c80a02ab5a",
-            "Title": "Maintenance",
-            "ShortTitle": "Maintenance",
+            "Id": "a230240145",
+            "Title": "Change and Co-evolution",
+            "ShortTitle": "Change and Co-evolution",
             "Type": "Early Research Achievements",
             "ShortType": "Early Research Achievements",
-            "Key": "2014-02-06 15:30 Maintenance",
+            "Key": "2014-02-06 15:30 Change and Co-evolution",
             "Day": "2014-02-06",
             "Time": "15:30 - 17:00",
             "Location": "",
@@ -2254,14 +2217,10 @@
             "Comment": "CSMRWCRE14ERA",
             "Abstract": "",
             "Items": [
-                "csmrwcre14era-er22-p",
-                "csmrwcre14era-er5-p",
-                "csmrwcre14era-er24-p",
-                "csmrwcre14era-er33-p",
-                "csmrwcre14era-er36-p",
-                "csmrwcre14era-er2-p",
-                "csmrwcre14era-er38-p",
-                "csmrwcre14era-er16-p"
+                "csmrwcre14era-er30-p",
+                "csmrwcre14era-er3-p",
+                "csmrwcre14era-er1-p",
+                "csmrwcre14era-er14-p"
             ]
         },
         {
@@ -2281,10 +2240,7 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "CSMRWCRE14",
-            "Abstract": "",
-            "Items": [
-                "CSMRWCRE14 @  : Closing"
-            ]
+            "Abstract": ""
         }
     ],
     "People": [
@@ -2602,26 +2558,6 @@
             "Name": "Norbert István Csiszár",
             "Affiliation": "University of Szeged, Hungary",
             "Key": "Norbert István Csiszár @ University of Szeged, Hungary",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "CSMRWCRE14",
-            "Affiliation": "",
-            "Key": "CSMRWCRE14 @",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "CSMRWCRE14",
-            "Affiliation": "2",
-            "Key": "CSMRWCRE14 @ 2",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
