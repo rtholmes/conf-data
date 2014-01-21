@@ -3,6 +3,17 @@
     
 "Events": [
     {
+        "Id" : "ICSE2014",
+        "Name" : "ICSE 2014",
+        "Version" : 1,
+        "File" : "2014ICSE.json",
+        "StartDate" : "05/31/2014",
+        "EndDate" : "06/07/2014",
+        "Description" : "Program for the 36th International Conference on Software Engineering (ICSE 2014)",
+		"Icon" : "2014ICSE.png",
+		"Image" : "2014ICSE.png"
+	},
+    {
         "Id" : "CSMRWCRE2014",
         "Name" : "CSMR-WCRE 2014",
         "Version" : 1,
