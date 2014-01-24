@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1390502703,
+    "DataRevision": 1390600888,
     "Preliminary": false,
     "Event": "CSMR-WCRE 2014",
     "Name": "CSMR-WCRE 2014",
@@ -701,6 +701,36 @@
             "Award": ""
         },
         {
+            "Title": "Anti-pattern Detection with Model Queries: A Comparison of Approaches",
+            "Type": "Research Paper",
+            "Key": "csmrwcre14main-id23-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DZolt%C3%A1n+Ujhelyi%2C+%C3%81kos+Horv%C3%A1th%2C+D%C3%A1niel+Varr%C3%B3%2C+Norbert+Istv%C3%A1n+Csisz%C3%A1r%2C+G%C3%A1bor+Sz%C5%91ke%2C+L%C3%A1szl%C3%B3+Vid%C3%A1cs%2C+and+Rudolf+Ferenc+%22Anti-pattern+Detection+with+Model+Queries%3A+A+Comparison+of+Approaches%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Zoltán Ujhelyi, Ákos Horváth, Dániel Varró, Norbert István Csiszár, Gábor Szőke, László Vidács, and Rudolf Ferenc",
+            "AffiliationsString": "Budapest University of Technology and Economics, Hungary; University of Szeged, Hungary; Refactoring 2011, Hungary; MTA-SZTE Research Group on Artificial Intelligence, Hungary",
+            "Authors": [
+                "Zoltán Ujhelyi @ Budapest University of Technology and Economics, Hungary",
+                "Ákos Horváth @ Budapest University of Technology and Economics, Hungary",
+                "Dániel Varró @ Budapest University of Technology and Economics, Hungary",
+                "Norbert István Csiszár @ University of Szeged, Hungary",
+                "Gábor Szőke @ Refactoring 2011, Hungary",
+                "László Vidács @ MTA-SZTE Research Group on Artificial Intelligence, Hungary",
+                "Rudolf Ferenc @ University of Szeged, Hungary"
+            ],
+            "Affiliations": [
+                "Budapest University of Technology and Economics, Hungary",
+                "Budapest University of Technology and Economics, Hungary",
+                "Budapest University of Technology and Economics, Hungary",
+                "University of Szeged, Hungary",
+                "Refactoring 2011, Hungary",
+                "MTA-SZTE Research Group on Artificial Intelligence, Hungary",
+                "University of Szeged, Hungary"
+            ],
+            "Abstract": "Program queries play an important role in several software evolution tasks like program comprehension, impact analysis, or the automated identification of anti-patterns for complex refactoring operations. A central artifact of these tasks is the reverse engineered program model built up from the source code (usually an Abstract Semantic Graph, ASG), which is traditionally post-processed by dedicated, hand-coded queries. Our paper investigates the use of the popular industrial Eclipse Modeling Framework (EMF) as an underlying representation of program models processed by three general-purpose model query techniques based on native Java code, local-search and incremental evaluation. We provide in-depth comparison of these techniques on the source code of 17 Java projects using queries taken from refactoring operations in different usage profiles. Our results show that general purpose model queries outperform hand-coded queries by 2-3 orders of magnitude, while there is a 5-10 times increase in memory consumption and model load time. In addition, measurement results of usage profiles can be used as guidelines for selecting the appropriate query technologies in concrete scenarios.",
+            "Award": ""
+        },
+        {
             "Title": "A Contextual Approach for Effective Recovery of Inter-process Communication Patterns from HPC Traces",
             "Type": "Research Paper",
             "Key": "csmrwcre14main-id3-p",
@@ -744,36 +774,6 @@
                 "NTNU, Norway"
             ],
             "Abstract": "The challenge to break existing cyclically connected components of running software is not trivial. Since it involves planning and human resources to ensure that the software behavior is preserved after refactoring activity. Therefore, to motivate refactoring it is essential to obtain evidence of the benefits to the product quality. This study investigates the defect-proneness patterns of cyclically connected components vs. non-cyclic ones when they transition across software releases. We have mined and classified software components into two groups and two transition states– the cyclic and the non-cyclic ones. Next, we have performed an empirical study of four software systems from evolutionary perspective. Using standard statistical tests on formulated hypotheses, we have determined the significance of the defect profiles and complexities of each group. The results show that during software evolution, components that transition between dependency cycles have higher probability to be defect-prone than those that transition outside of cycles. Furthermore, out of the three complexity variables investigated, we found that an increase in the class reachability set size tends to be more associated with components that turn defective when they transition between dependency cycles. Lastly, we found no evidence of any systematic “cycle-breaking” refactoring between releases of the software systems. Thus, these findings motivate for refactoring of components in dependency cycle taking into account the minimization of metrics such as the class reachability set size.",
-            "Award": ""
-        },
-        {
-            "Title": "Anti-pattern Detection with Model Queries: A Comparison of Approaches",
-            "Type": "Research Paper",
-            "Key": "csmrwcre14main-id23-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DZolt%C3%A1n+Ujhelyi%2C+%C3%81kos+Horv%C3%A1th%2C+D%C3%A1niel+Varr%C3%B3%2C+Norbert+Istv%C3%A1n+Csisz%C3%A1r%2C+G%C3%A1bor+Sz%C5%91ke%2C+L%C3%A1szl%C3%B3+Vid%C3%A1cs%2C+and+Rudolf+Ferenc+%22Anti-pattern+Detection+with+Model+Queries%3A+A+Comparison+of+Approaches%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Zoltán Ujhelyi, Ákos Horváth, Dániel Varró, Norbert István Csiszár, Gábor Szőke, László Vidács, and Rudolf Ferenc",
-            "AffiliationsString": "Budapest University of Technology and Economics, Hungary; University of Szeged, Hungary; Refactoring 2011, Hungary; MTA-SZTE Research Group on Artificial Intelligence, Hungary",
-            "Authors": [
-                "Zoltán Ujhelyi @ Budapest University of Technology and Economics, Hungary",
-                "Ákos Horváth @ Budapest University of Technology and Economics, Hungary",
-                "Dániel Varró @ Budapest University of Technology and Economics, Hungary",
-                "Norbert István Csiszár @ University of Szeged, Hungary",
-                "Gábor Szőke @ Refactoring 2011, Hungary",
-                "László Vidács @ MTA-SZTE Research Group on Artificial Intelligence, Hungary",
-                "Rudolf Ferenc @ University of Szeged, Hungary"
-            ],
-            "Affiliations": [
-                "Budapest University of Technology and Economics, Hungary",
-                "Budapest University of Technology and Economics, Hungary",
-                "Budapest University of Technology and Economics, Hungary",
-                "University of Szeged, Hungary",
-                "Refactoring 2011, Hungary",
-                "MTA-SZTE Research Group on Artificial Intelligence, Hungary",
-                "University of Szeged, Hungary"
-            ],
-            "Abstract": "Program queries play an important role in several software evolution tasks like program comprehension, impact analysis, or the automated identification of anti-patterns for complex refactoring operations. A central artifact of these tasks is the reverse engineered program model built up from the source code (usually an Abstract Semantic Graph, ASG), which is traditionally post-processed by dedicated, hand-coded queries. Our paper investigates the use of the popular industrial Eclipse Modeling Framework (EMF) as an underlying representation of program models processed by three general-purpose model query techniques based on native Java code, local-search and incremental evaluation. We provide in-depth comparison of these techniques on the source code of 17 Java projects using queries taken from refactoring operations in different usage profiles. Our results show that general purpose model queries outperform hand-coded queries by 2-3 orders of magnitude, while there is a 5-10 times increase in memory consumption and model load time. In addition, measurement results of usage profiles can be used as guidelines for selecting the appropriate query technologies in concrete scenarios.",
             "Award": ""
         },
         {
@@ -1659,6 +1659,234 @@
     ],
     "Sessions": [
         {
+            "Id": "gaen7Quuo0",
+            "Title": "IWSC",
+            "ShortTitle": "IWSC",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-02-03 09:00 IWSC",
+            "Day": "2014-02-03",
+            "Time": "09:00 - 10:30",
+            "Location": "Frederik de Tassiszaal",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSMRWCRE14",
+            "Abstract": ""
+        },
+        {
+            "Id": "aeNgoF7shi",
+            "Title": "OOPSLE",
+            "ShortTitle": "OOPSLE",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-02-03 09:00 OOPSLE",
+            "Day": "2014-02-03",
+            "Time": "09:00 - 10:30",
+            "Location": "Scaldiszaal",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSMRWCRE14",
+            "Abstract": ""
+        },
+        {
+            "Id": "eeGaiZ2udu",
+            "Title": "SQM",
+            "ShortTitle": "SQM",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-02-03 09:00 SQM",
+            "Day": "2014-02-03",
+            "Time": "09:00 - 10:30",
+            "Location": "Willem Elsschotzaal",
+            "LocationIndex": "4",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSMRWCRE14",
+            "Abstract": ""
+        },
+        {
+            "Id": "ta8Ohphahp",
+            "Title": "IWSC",
+            "ShortTitle": "IWSC",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-02-03 11:00 IWSC",
+            "Day": "2014-02-03",
+            "Time": "11:00 - 12:30",
+            "Location": "Frederik de Tassiszaal",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSMRWCRE14",
+            "Abstract": ""
+        },
+        {
+            "Id": "aim4eif9Oh",
+            "Title": "OOPSLE",
+            "ShortTitle": "OOPSLE",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-02-03 11:00 OOPSLE",
+            "Day": "2014-02-03",
+            "Time": "11:00 - 12:30",
+            "Location": "Scaldiszaal",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSMRWCRE14",
+            "Abstract": ""
+        },
+        {
+            "Id": "Bachoo3ohm",
+            "Title": "SQM",
+            "ShortTitle": "SQM",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-02-03 11:00 SQM",
+            "Day": "2014-02-03",
+            "Time": "11:00 - 12:30",
+            "Location": "Willem Elsschotzaal",
+            "LocationIndex": "4",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSMRWCRE14",
+            "Abstract": ""
+        },
+        {
+            "Id": "lee3Tiesh2",
+            "Title": "IWSC",
+            "ShortTitle": "IWSC",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-02-03 13:30 IWSC",
+            "Day": "2014-02-03",
+            "Time": "13:30 - 15:00",
+            "Location": "Frederik de Tassiszaal",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSMRWCRE14",
+            "Abstract": ""
+        },
+        {
+            "Id": "icetohph6H",
+            "Title": "OOPSLE",
+            "ShortTitle": "OOPSLE",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-02-03 13:30 OOPSLE",
+            "Day": "2014-02-03",
+            "Time": "13:30 - 15:00",
+            "Location": "Scaldiszaal",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSMRWCRE14",
+            "Abstract": ""
+        },
+        {
+            "Id": "Ku8uehi4ji",
+            "Title": "SQM",
+            "ShortTitle": "SQM",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-02-03 13:30 SQM",
+            "Day": "2014-02-03",
+            "Time": "13:30 - 15:00",
+            "Location": "Willem Elsschotzaal",
+            "LocationIndex": "4",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSMRWCRE14",
+            "Abstract": ""
+        },
+        {
+            "Id": "aeP3Iequ9e",
+            "Title": "IWSC",
+            "ShortTitle": "IWSC",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-02-03 15:30 IWSC",
+            "Day": "2014-02-03",
+            "Time": "15:30 - 17:00",
+            "Location": "Frederik de Tassiszaal",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSMRWCRE14",
+            "Abstract": ""
+        },
+        {
+            "Id": "ohDoh0ohPh",
+            "Title": "OOPSLE",
+            "ShortTitle": "OOPSLE",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-02-03 15:30 OOPSLE",
+            "Day": "2014-02-03",
+            "Time": "15:30 - 17:00",
+            "Location": "Scaldiszaal",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSMRWCRE14",
+            "Abstract": ""
+        },
+        {
+            "Id": "Geu6Aih1ph",
+            "Title": "SQM",
+            "ShortTitle": "SQM",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-02-03 15:30 SQM",
+            "Day": "2014-02-03",
+            "Time": "15:30 - 17:00",
+            "Location": "Willem Elsschotzaal",
+            "LocationIndex": "4",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSMRWCRE14",
+            "Abstract": ""
+        },
+        {
             "Id": "Oochaec9ay",
             "Title": "Dinner - Buffet style to allow for late arrivals",
             "ShortTitle": "Dinner - Buffet style to allow for late arrivals",
@@ -1755,7 +1983,7 @@
             "Day": "2014-02-04",
             "Time": "11:00 - 12:30",
             "Location": "Willem Elsschotzaal",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1803,7 +2031,7 @@
             "Day": "2014-02-04",
             "Time": "13:30 - 15:00",
             "Location": "Willem Elsschotzaal",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1851,7 +2079,7 @@
             "Day": "2014-02-04",
             "Time": "15:30 - 17:00",
             "Location": "Willem Elsschotzaal",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1919,7 +2147,7 @@
             "Day": "2014-02-05",
             "Time": "10:30 - 12:30",
             "Location": "Willem Elsschotzaal",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2017,7 +2245,7 @@
             "Day": "2014-02-05",
             "Time": "15:30 - 17:00",
             "Location": "Willem Elsschotzaal",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2113,7 +2341,7 @@
             "Day": "2014-02-06",
             "Time": "10:30 - 12:30",
             "Location": "Willem Elsschotzaal",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2160,7 +2388,7 @@
             "Day": "2014-02-06",
             "Time": "13:30 - 15:00",
             "Location": "Willem Elsschotzaal",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2193,9 +2421,9 @@
             "Comment": "CSMRWCRE14MAIN",
             "Abstract": "",
             "Items": [
+                "csmrwcre14main-id23-p",
                 "csmrwcre14main-id3-p",
-                "csmrwcre14main-id69-p",
-                "csmrwcre14main-id23-p"
+                "csmrwcre14main-id69-p"
             ]
         },
         {
@@ -2208,7 +2436,7 @@
             "Day": "2014-02-06",
             "Time": "15:30 - 17:00",
             "Location": "Willem Elsschotzaal",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
