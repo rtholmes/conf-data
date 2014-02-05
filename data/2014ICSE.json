@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1390292066,
+    "DataRevision": 1391617913,
     "Preliminary": false,
     "Event": "ICSE 2014",
     "Name": "ICSE 2014",
@@ -148,13 +148,13 @@
             "Title": "Integrating Adaptive User Interface Capabilities in Enterprise Applications",
             "Type": "Full Paper",
             "Key": "icse14main-p018-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPierre+Akiki%2C+Arosha+K.+Bandara%2C+and+Yijun+Yu+%22Integrating+Adaptive+User+Interface+Capabilities+in+Enterprise+Applications%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPierre+A.+Akiki%2C+Arosha+K.+Bandara%2C+and+Yijun+Yu+%22Integrating+Adaptive+User+Interface+Capabilities+in+Enterprise+Applications%22",
             "URLvideo": "",
             "URLinfo": "",
-            "PersonsString": "Pierre Akiki, Arosha K. Bandara, and Yijun Yu",
+            "PersonsString": "Pierre A. Akiki, Arosha K. Bandara, and Yijun Yu",
             "AffiliationsString": "Open University, UK",
             "Authors": [
-                "Pierre Akiki @ Open University, UK",
+                "Pierre A. Akiki @ Open University, UK",
                 "Arosha K. Bandara @ Open University, UK",
                 "Yijun Yu @ Open University, UK"
             ],
@@ -279,10 +279,10 @@
             "Award": ""
         },
         {
-            "Title": "CARE: Cache Guided Deterministic Replay for Concurrency Java Programs",
+            "Title": "CARE: Cache Guided Deterministic Replay for Concurrent Java Programs",
             "Type": "Full Paper",
             "Key": "icse14main-p037-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYanyan+Jiang%2C+Tianxiao+Gu%2C+Chang+Xu%2C+Xiaoxing+Ma%2C+and+Jian+Lu+%22CARE%3A+Cache+Guided+Deterministic+Replay+for+Concurrency+Java+Programs%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYanyan+Jiang%2C+Tianxiao+Gu%2C+Chang+Xu%2C+Xiaoxing+Ma%2C+and+Jian+Lu+%22CARE%3A+Cache+Guided+Deterministic+Replay+for+Concurrent+Java+Programs%22",
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Yanyan Jiang, Tianxiao Gu, Chang Xu, Xiaoxing Ma, and Jian Lu",
@@ -437,10 +437,10 @@
             "Award": ""
         },
         {
-            "Title": "Reviser: Efficiently Updating IDE-Based Data-Flow Analyses in Response to Incremental Program Changes",
+            "Title": "Reviser: Efficiently Updating IDE-/IFDS-Based Data-Flow Analyses in Response to Incremental Program Changes",
             "Type": "Full Paper",
             "Key": "icse14main-p080-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSteven+Arzt+and+Eric+Bodden+%22Reviser%3A+Efficiently+Updating+IDE-Based+Data-Flow+Analyses+in+Response+to+Incremental+Program+Changes%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSteven+Arzt+and+Eric+Bodden+%22Reviser%3A+Efficiently+Updating+IDE-%2FIFDS-Based+Data-Flow+Analyses+in+Response+to+Incremental+Program+Changes%22",
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Steven Arzt and Eric Bodden",
@@ -558,7 +558,7 @@
             "Key": "icse14main-p107-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJonathan+Bell+and+Gail+Kaiser+%22Unit+Test+Virtualization+with+VMVM%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "https%3A%2F%2Fgithub.com%2FProgramming-Systems-Lab%2Fvmvm",
             "PersonsString": "Jonathan Bell and Gail Kaiser",
             "AffiliationsString": "Columbia University, USA",
             "Authors": [
@@ -569,7 +569,7 @@
                 "Columbia University, USA",
                 "Columbia University, USA"
             ],
-            "Abstract": "Testing large software packages can become very time intensive. To address this problem, researchers have investigated techniques such as Test Suite Minimization. Test Suite Minimization reduces the number of tests in a suite by removing tests that appear redundant, but risks a reduction in fault-finding ability since it can be difficult to identify which tests are truly redundant. We take a completely different approach to solving the same problem of long running test suites by instead reducing the time needed to execute each test, an approach that we call Unit Test Virtualization. We describe the empirical analysis that we performed to ground our approach and provide an implementation of Unit Test Virtualization targeting Java applications. We evaluated our implementation, VMVM, using 20 real-world Java applications and found that it reduces test suite execution time by up to 97% (on average, 62%) when compared to traditional unit test execution. We also compared VMVM to a well known Test Suite Minimization technique, finding the reduction provided by VMVM to be four times greater, while still executing every test with no loss of fault-finding ability.",
+            "Abstract": "Testing large software packages can become very time intensive. To address this problem, researchers have investigated techniques such as Test Suite Minimization. Test Suite Minimization reduces the number of tests in a suite by removing tests that appear redundant, at the risk of a reduction in fault-finding ability since it can be difficult to identify which tests are truly redundant. We take a completely different approach to solving the same problem of long running test suites by instead reducing the time needed to execute each test, an approach that we call Unit Test Virtualization. With Unit Test Virtualization, we reduce the overhead of isolating each unit test with a lightweight virtualization container. We describe the empirical analysis that grounds our approach and provide an implementation of Unit Test Virtualization targeting Java applications. We evaluated our implementation, VMVM, using 20 real-world Java applications and found that it reduces test suite execution time by up to 97% (on average, 62%) when compared to traditional unit test execution. We also compared VMVM to a well known Test Suite Minimization technique, finding the reduction provided by VMVM to be four times greater, while still executing every test with no loss of fault-finding ability.",
             "Award": ""
         },
         {
@@ -671,10 +671,10 @@
             "Award": ""
         },
         {
-            "Title": "Integrating Symbolic Model Checking with Automated Assume-Guarantee Reasoning",
+            "Title": "Symbolic Assume-Guarantee Reasoning through BDD Learning",
             "Type": "Full Paper",
             "Key": "icse14main-p121-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFei+He%2C+Bow-Yaw+Wang%2C+Liangze+Yin%2C+and+Lei+Zhu+%22Integrating+Symbolic+Model+Checking+with+Automated+Assume-Guarantee+Reasoning%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFei+He%2C+Bow-Yaw+Wang%2C+Liangze+Yin%2C+and+Lei+Zhu+%22Symbolic+Assume-Guarantee+Reasoning+through+BDD+Learning%22",
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Fei He, Bow-Yaw Wang, Liangze Yin, and Lei Zhu",
@@ -721,10 +721,10 @@
             "Award": ""
         },
         {
-            "Title": "Programmers’ Build Errors: A Case Study (at Google)",
+            "Title": "Programmers' Build Errors: A Case Study (at Google)",
             "Type": "Full Paper",
             "Key": "icse14main-p135-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHyunmin+Seo%2C+Caitlin+Sadowski%2C+Sebastian+Elbaum%2C+Edward+Aftandilian%2C+and+Robert+Bowdidge+%22Programmers%E2%80%99+Build+Errors%3A+A+Case+Study+%28at+Google%29%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHyunmin+Seo%2C+Caitlin+Sadowski%2C+Sebastian+Elbaum%2C+Edward+Aftandilian%2C+and+Robert+Bowdidge+%22Programmers%27+Build+Errors%3A+A+Case+Study+%28at+Google%29%22",
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Hyunmin Seo, Caitlin Sadowski, Sebastian Elbaum, Edward Aftandilian, and Robert Bowdidge",
@@ -1338,7 +1338,7 @@
             "Title": "Alternate Refactoring Paths Reveal Usability Problems",
             "Type": "Full Paper",
             "Key": "icse14main-p309-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMohsen+Vakilian+and+Ralph+E.+Johnson+%22Alternate+Refactoring+Paths+Reveal+Usability+Problems%22",
+            "URL": "https%3A%2F%2Fwww.ideals.illinois.edu%2Fbitstream%2Fhandle%2F2142%2F42604%2F2014-icse.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Mohsen Vakilian and Ralph E. Johnson",
@@ -1379,10 +1379,10 @@
             "Award": ""
         },
         {
-            "Title": "Transition from Centralized to Decentralized VCS: A Microsoft Case Study on Reasons, Barriers, and Outcomes",
+            "Title": "Transition from Centralized to Decentralized Version Control Systems: A Case Study on Reasons, Barriers, and Outcomes",
             "Type": "Full Paper",
             "Key": "icse14main-p330-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DK%C4%B1van%C3%A7+Mu%C5%9Flu%2C+Christian+Bird%2C+Nachiappan+Nagappan%2C+and+Jacek+Czerwonka+%22Transition+from+Centralized+to+Decentralized+VCS%3A+A+Microsoft+Case+Study+on+Reasons%2C+Barriers%2C+and+Outcomes%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DK%C4%B1van%C3%A7+Mu%C5%9Flu%2C+Christian+Bird%2C+Nachiappan+Nagappan%2C+and+Jacek+Czerwonka+%22Transition+from+Centralized+to+Decentralized+Version+Control+Systems%3A+A+Case+Study+on+Reasons%2C+Barriers%2C+and+Outcomes%22",
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Kıvanç Muşlu, Christian Bird, Nachiappan Nagappan, and Jacek Czerwonka",
@@ -1972,7 +1972,7 @@
             "Title": "A Study and Toolkit for Asynchronous Programming in C#",
             "Type": "Full Paper",
             "Key": "icse14main-p426-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSemih+Okur%2C+David+L.+Hartveld%2C+Danny+Dig%2C+and+Arie+van+Deursen+%22A+Study+and+Toolkit+for+Asynchronous+Programming+in+C%23%22",
+            "URL": "https%3A%2F%2Fideals.illinois.edu%2Fbitstream%2Fhandle%2F2142%2F45837%2Fokur-2013-asynchronous.pdf",
             "URLvideo": "",
             "URLinfo": "http%3A%2F%2Fwww.learnasync.net",
             "PersonsString": "Semih Okur, David L. Hartveld, Danny Dig, and Arie van Deursen",
@@ -2347,12 +2347,12 @@
     ],
     "Sessions": [
         {
-            "Id": "8882100a52",
-            "Title": "ICSE 2014 - Main Research Track",
-            "ShortTitle": "ICSE 2014 - Main Research Track",
-            "Type": "",
-            "ShortType": "",
-            "Key": "2014-06-04 09:00 ICSE 2014 - Main Research Track",
+            "Id": "e767a0b992",
+            "Title": "ICSE 2014 - Main Research",
+            "ShortTitle": "ICSE 2014 - Main Research",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
+            "Key": "2014-06-04 09:00 ICSE 2014 - Main Research",
             "Day": "2014-06-04",
             "Time": "09:00 - 18:00",
             "Location": "",
@@ -2509,9 +2509,9 @@
             "URLgs": ""
         },
         {
-            "Name": "Pierre Akiki",
+            "Name": "Pierre A. Akiki",
             "Affiliation": "Open University, UK",
-            "Key": "Pierre Akiki @ Open University, UK",
+            "Key": "Pierre A. Akiki @ Open University, UK",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
