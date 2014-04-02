@@ -1,0 +1,2264 @@
+{
+    "DataRevision": 1396432012,
+    "Preliminary": false,
+    "Event": "CSEE&T 2014",
+    "Name": "CSEE&T 2014",
+    "Description": "",
+    "Location": "Klagenfurt, Austria",
+    "Sponsors": "",
+    "URL": "http://conferences.computer.org/cseet/2014/",
+    "MultiTrack": "false",
+    "Organization": {
+        "General Chairs": [
+                "Andreas Bollin",
+                "Elke Hochmüller",
+                "Roland T. Mittermeir"
+        ],
+        "PC Chairs": [
+                "Tony Cowling",
+                "Richard LeBlanc"
+        ]
+    },
+    "SocialFeeds": [
+    ],
+    "VenueInfo": {
+        "Name": "",
+        "GPS": {
+            "Latitude": 0,
+            "Longitude": 0
+        }
+    },
+    "InfoPage": {
+        "xaml": "foo",
+        "Elements": [
+            {
+                "XamlName": "ConferenceCenterMap",
+                "Type": "Map",
+                "GPS": {
+                    "Latitude": 0,
+                    "Longitude": 0
+                },
+                "MapLabel": ""
+            },
+            {
+                "XamlName": "LicenseButton",
+                "Type": "WebLink",
+                "URL": "http://research.microsoft.com/en-US/projects/confapp/terms.aspx"
+            },
+            {
+                "XamlName": "PrivacyButton",
+                "Type": "WebLink",
+                "URL": "http://privacy.microsoft.com/en-us/default.msp"
+            }
+        ]
+    },
+    "SessionPriorities": [
+        "Award",
+        "Invited Talk",
+        "Other"
+    ],
+    "Items": [
+        {
+            "Title": "Industrial Case Studies in Graduate Requirements Engineering Courses: The Impact on Student Motivation",
+            "Type": "Academic Research Paper",
+            "Key": "cseet14main-mainid14-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMarian+Daun%2C+Andrea+Salmon%2C+Bastian+Tenbergen%2C+Thorsten+Weyer%2C+and+Klaus+Pohl+%22Industrial+Case+Studies+in+Graduate+Requirements+Engineering+Courses%3A+The+Impact+on+Student+Motivation%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Marian Daun, Andrea Salmon, Bastian Tenbergen, Thorsten Weyer, and Klaus Pohl",
+            "AffiliationsString": "University of Duisburg-Essen, Germany",
+            "Authors": [
+                "Marian Daun @ University of Duisburg-Essen, Germany",
+                "Andrea Salmon @ University of Duisburg-Essen, Germany",
+                "Bastian Tenbergen @ University of Duisburg-Essen, Germany",
+                "Thorsten Weyer @ University of Duisburg-Essen, Germany",
+                "Klaus Pohl @ University of Duisburg-Essen, Germany"
+            ],
+            "Affiliations": [
+                "University of Duisburg-Essen, Germany",
+                "University of Duisburg-Essen, Germany",
+                "University of Duisburg-Essen, Germany",
+                "University of Duisburg-Essen, Germany",
+                "University of Duisburg-Essen, Germany"
+            ],
+            "Abstract": "University education in software engineering instructs sound theoretical concepts together with method competence. It seeks to provide hands-on experience with the learning content along with insights into its application in practice. Even theoretical disciplines are beginning to adopt more experience-oriented instruction as opposed to passive, lecture-oriented instruction. One favored way for experience-oriented instructions is using case studies in lecture-accompanying assignments and/or tutorials. Compared with real-world scenarios, such case studies are often simplified in order to illustrate specific challenges related to the instructed material. This paper reports on our experience in using realistic industry-oriented case studies in a requirements engineering course with graduate students. The experience indicates a strong positive effect on student motivation as well as the degree of comprehension of the instructed theoretical material. These findings are confirmed by evaluations of the learning experience as self-reported through students’ questionnaires. Comparing the exam results with previous years indicates substantial improvement in final exam scores.",
+            "Award": ""
+        },
+        {
+            "Title": "Using Business Process Models to Foster Competencies in Requirements Engineering",
+            "Type": "Academic Research Paper",
+            "Key": "cseet14main-mainid28-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYvonne+Sedelmaier+and+Dieter+Landes+%22Using+Business+Process+Models+to+Foster+Competencies+in+Requirements+Engineering%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Yvonne Sedelmaier and Dieter Landes",
+            "AffiliationsString": "University of Applied Sciences and Arts Coburg, Germany",
+            "Authors": [
+                "Yvonne Sedelmaier @ University of Applied Sciences and Arts Coburg, Germany",
+                "Dieter Landes @ University of Applied Sciences and Arts Coburg, Germany"
+            ],
+            "Affiliations": [
+                "University of Applied Sciences and Arts Coburg, Germany",
+                "University of Applied Sciences and Arts Coburg, Germany"
+            ],
+            "Abstract": "Requirements are of paramount importance for the quality of software systems. For various reasons, however, university students encounter difficulties in understanding the role of requirements and appropriately applying relevant methods to deal with requirements. This paper describes the concept for teaching requirements engineering that was devised at Coburg University of Applied Sciences. As a key idea, teaching requirements starts out from business process models. From these models, requirements for a workflow appli¬cation can be derived and specified in a requirements document. A main benefit of this approach lies in the fact that requirements are not just presented as an abstract concept. Furthermore, students are exposed to the complexity of an almost realistic workflow application. Being more realistic than a toy project, the latter also improves understanding why requirements should be described precisely and provides opportunities to also exercise non-technical competencies that are important for successful requirements engineering.",
+            "Award": ""
+        },
+        {
+            "Title": "Teaching Modeling using Umple: Principles for the Development of an Effective Tool",
+            "Type": "Academic Research Paper",
+            "Key": "cseet14main-mainid49-p",
+            "URL": "http%3A%2F%2Fwww.site.uottawa.ca%2F%7Etcl%2Fpapers%2FTeachingModelingUsingUmplePrinciples-Lethbridge-CSEET2014.pdf",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Ftry.umple.org",
+            "PersonsString": "Timothy C. Lethbridge",
+            "AffiliationsString": "University of Ottawa, Canada",
+            "Authors": [
+                "Timothy C. Lethbridge @ University of Ottawa, Canada"
+            ],
+            "Affiliations": [
+                "University of Ottawa, Canada"
+            ],
+            "Abstract": "Umple is a model-oriented programming technology designed to teach modeling while at the same time being practical for industrial application. In this paper we discuss six principles we followed in order to ensure Umple can be effective as a learning resource: being highly usable, facilitating incremental learning, providing an experience of positive reinforcement in learners, convincing learners about the value of the material, broadening learning opportunities, and being inexpensive.",
+            "Award": ""
+        },
+        {
+            "Title": "Cloud Computing Education Strategies",
+            "Type": "Academic Research Paper",
+            "Key": "cseet14main-mainid12-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHongyu+Pei+Breivold+and+Ivica+Crnkovi%C4%87+%22Cloud+Computing+Education+Strategies%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Hongyu Pei Breivold and Ivica Crnković",
+            "AffiliationsString": "ABB Research, Sweden; Mälardalen University, Sweden",
+            "Authors": [
+                "Hongyu Pei Breivold @ ABB Research, Sweden",
+                "Ivica Crnković @ Mälardalen University, Sweden"
+            ],
+            "Affiliations": [
+                "ABB Research, Sweden",
+                "Mälardalen University, Sweden"
+            ],
+            "Abstract": "Cloud Computing is changing the services consumption and delivery platform as well as the way businesses and users interact with IT resources. It represents a major conceptual shift that introduces new elements in programming models and development environments that are not present in traditional technologies. The evolution of Cloud Computing motivates teaching Cloud Computing to computer science senior students and graduate students so that they can gain broad exposure to the main body of knowledge of Cloud Computing and get prepared for occupations in industry. There is thus a strong need for having a Cloud Computing education course that (i) has a broad coverage of different roles interacting with a cloud; and (ii) leverages Cloud Computing concepts, technology and architecture topics at both introductory and advanced level. In this paper, we describe the demand for understanding the impact of Cloud Computing in computer science higher education. We propose education strategies for teaching Cloud Computing, including key knowledge areas for an enduring Cloud Computing course.",
+            "Award": ""
+        },
+        {
+            "Title": "The Flipped Classroom Experience",
+            "Type": "Short Paper",
+            "Key": "cseet14main-mainid15-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPang+Nai+Kiat+and+Yap+Tat+Kwong+%22The+Flipped+Classroom+Experience%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Pang Nai Kiat and Yap Tat Kwong",
+            "AffiliationsString": "Nanyang Polytechnic, Singapore",
+            "Authors": [
+                "Pang Nai Kiat @ Nanyang Polytechnic, Singapore",
+                "Yap Tat Kwong @ Nanyang Polytechnic, Singapore"
+            ],
+            "Affiliations": [
+                "Nanyang Polytechnic, Singapore",
+                "Nanyang Polytechnic, Singapore"
+            ],
+            "Abstract": "This paper describes the findings on ‘flipping the classroom’ pedagogy for one selected topic in the Software Engineering module. A flipped classroom is a form of blended learning where the lecture is moved outside the classroom with the help of technology and learning activities are moved inside the classroom. The students typically watch instructional videos outside of the classroom but participate in learning activities with other students in class. This allows students to learn on their own time and pace outside class time while enabling the lecturer to enhance interaction, collaboration and higher-order thinking of students by monitoring individual learning and task performance. Our past experience has shown that using the traditional approach to teach software engineering, which is a heavily conceptual and theoretical subject, can be challenging. Against this backdrop, we have devised a flipped class room trial to let the students carry out the learning activities before coming to class where they then share and apply the knowledge during face-to-face lessons for more engaging learning experience. As this is an initial trial, the author has chosen a topic that is relatively easy to understand and with support of interesting videos readily available online. The purpose is to motivate the use of flipped classroom for appropriate topics taught in Software Engineering curriculum.",
+            "Award": ""
+        },
+        {
+            "Title": "The Synergy of Engineering and Research Aspects in Software Engineering Education",
+            "Type": "Short Paper",
+            "Key": "cseet14main-mainid37-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAbir+Benabid+and+Ghada+AL-Houdhoud+%22The+Synergy+of+Engineering+and+Research+Aspects+in+Software+Engineering+Education%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Abir Benabid and Ghada AL-Houdhoud",
+            "AffiliationsString": "King Saud University, Saudi Arabia",
+            "Authors": [
+                "Abir Benabid @ King Saud University, Saudi Arabia",
+                "Ghada AL-Houdhoud @ King Saud University, Saudi Arabia"
+            ],
+            "Affiliations": [
+                "King Saud University, Saudi Arabia",
+                "King Saud University, Saudi Arabia"
+            ],
+            "Abstract": "The software Engineering Education has to intrinsically enable students to master today&#039;s technology and immediately practical skills required by the industry, and on the other hand, to meet the challenges of the future and acquire long-term knowledge. In this paper, we report our approach to implement this duality in the context of “Object Oriented Software Engineering” course in King Saud University.",
+            "Award": ""
+        },
+        {
+            "Title": "Increasing the Effectiveness of Teaching Software Engineering: A University and Industry Partnership",
+            "Type": "Full Paper",
+            "Key": "cseet14main-mainid44-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAldo+Dagnino+%22Increasing+the+Effectiveness+of+Teaching+Software+Engineering%3A+A+University+and+Industry+Partnership%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Aldo Dagnino",
+            "AffiliationsString": "ABB Research, USA",
+            "Authors": [
+                "Aldo Dagnino @ ABB Research, USA"
+            ],
+            "Affiliations": [
+                "ABB Research, USA"
+            ],
+            "Abstract": "Software Engineering is a complex topic because it encompasses multiple disciplines such as team work, effectively managing change in organizations, understanding technology, understanding software development and its lifecycle, understanding the role of change agents, and also having a good business sense. A method derived from the collaboration between North Carolina State University and ABB, brings diverse techniques that simulate an industrial environment for teaching a senior level Software Engineering course. Eleven elements that have been incorporated and enrich the Software Engineering graduate course are described in this paper. The paper also shows how the progressive incorporation of the elements have resulted increased student satisfaction.",
+            "Award": ""
+        },
+        {
+            "Title": "InspectorX: A Game for Software Inspection Training and Learning",
+            "Type": "Academic Research Paper",
+            "Key": "cseet14main-mainid29-p",
+            "URL": "http%3A%2F%2Fwww.cos.ufrj.br%2F%7Eschots%2Fpapers%2Fpotter2014preprint.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Henrique Pötter, Marcelo Schots, Leticia Duboc, and Vera Werneck",
+            "AffiliationsString": "UERJ, Brazil; UFRJ, Brazil",
+            "Authors": [
+                "Henrique Pötter @ UERJ, Brazil",
+                "Marcelo Schots @ UERJ, Brazil / UFRJ, Brazil",
+                "Leticia Duboc @ UERJ, Brazil",
+                "Vera Werneck @ UERJ, Brazil"
+            ],
+            "Affiliations": [
+                "UERJ, Brazil",
+                "UERJ, Brazil / UFRJ, Brazil",
+                "UERJ, Brazil",
+                "UERJ, Brazil"
+            ],
+            "Abstract": "Software inspections are recommended for improving the quality of software artifacts, but their effectiveness heavily depends on properly training inspectors and other stakeholders in the inspection process. We previously proposed InspectorX, a serious game for learning and training on software inspections, whose design accounts for an optimized cognitive load by offering different levels of difficulty. The game has already been evaluated regarding its learning potential in the detection of defects, revealing positive outcomes. Since then, InspectorX has extended its coverage to other stages of the inspection process, for a more realistic simulation. This paper presents the game’s novel features and a new experiment that evaluates them with a bigger sample. Results indicate that there was considerable knowledge retention with just 20 minutes of gameplay. Suggestions on its design made by the experiment volunteers are also discussed.",
+            "Award": ""
+        },
+        {
+            "Title": "Teaching Analysis of Software Designs using Dependency Graphs",
+            "Type": "Academic Research Paper",
+            "Key": "cseet14main-mainid35-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKevin+Steppe+%22Teaching+Analysis+of+Software+Designs+using+Dependency+Graphs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Kevin Steppe",
+            "AffiliationsString": "Singapore Management University, Singapore",
+            "Authors": [
+                "Kevin Steppe @ Singapore Management University, Singapore"
+            ],
+            "Affiliations": [
+                "Singapore Management University, Singapore"
+            ],
+            "Abstract": "We present the use of a new type of dependency graph to aid students in analyzing the modifiability of software designs. Though a variety of software design concepts, such as information hiding, separation of concerns and patterns are taught to undergraduate students, they often have difficulty applying these concepts to the analysis of designs and particularly to comparing designs, perhaps due to the subjective nature of these concepts. Our new technique complements design structure matrix and ‘uses’ techniques to handle asymmetric dependency impacts and provide a deterministic approach to comparing alternative designs. A major goal of this technique was for students to be able to quickly learn about dependencies and use them to make design decisions. In this paper we present findings from a study with thirty third- and fourth-year undergraduates indicating that most were able to use the technique to analyze and compare designs after a single short workshop and indicate that they are likely to continue use the technique in the future.",
+            "Award": ""
+        },
+        {
+            "Title": "Observations of a Software Engineering Studio: Reflecting with the Studio Framework",
+            "Type": "Academic Research Paper",
+            "Key": "cseet14main-mainid33-p",
+            "URL": "http%3A%2F%2Fhighwire-dtc.co.uk%2Fchris%2Fpapers%2FBull_et_al-Observations_of_a_Software_Engineering_Studio-cseet14main-preprint.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Christopher N. Bull and Jon Whittle",
+            "AffiliationsString": "Lancaster University, UK",
+            "Authors": [
+                "Christopher N. Bull @ Lancaster University, UK",
+                "Jon Whittle @ Lancaster University, UK"
+            ],
+            "Affiliations": [
+                "Lancaster University, UK",
+                "Lancaster University, UK"
+            ],
+            "Abstract": "Studio-based learning for software engineering is a well-received concept, despite its apparent lack of uptake across institutions worldwide. Studio education affords a variety of highly desirable benefits, and is also popular amongst its students. This paper presents Lancaster University’s software engineering studio, details of its implementation, observations made throughout its first year, evidence of its successes, and reflections against the recently defined studio framework. This paper aims to provide useful information for anyone that is considering utilizing a studio-based approach.",
+            "Award": ""
+        },
+        {
+            "Title": "Enhancing the Software Engineering Curriculums: A Case Study of the Jordanian Universities",
+            "Type": "Academic Research Paper",
+            "Key": "cseet14main-mainid34-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSamer+Hanna%2C+Hayat+Jaber%2C+Fawze+Abu+Jaber%2C+Tarek+Al+Shalaby%2C+and+Ayad+Almasalmeh+%22Enhancing+the+Software+Engineering+Curriculums%3A+A+Case+Study+of+the+Jordanian+Universities%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Samer Hanna, Hayat Jaber, Fawze Abu Jaber, Tarek Al Shalaby, and Ayad Almasalmeh",
+            "AffiliationsString": "Philadelphia University Jordan, Jordan",
+            "Authors": [
+                "Samer Hanna @ Philadelphia University Jordan, Jordan",
+                "Hayat Jaber @ Philadelphia University Jordan, Jordan",
+                "Fawze Abu Jaber @ Philadelphia University Jordan, Jordan",
+                "Tarek Al Shalaby @ Philadelphia University Jordan, Jordan",
+                "Ayad Almasalmeh @ Philadelphia University Jordan, Jordan"
+            ],
+            "Affiliations": [
+                "Philadelphia University Jordan, Jordan",
+                "Philadelphia University Jordan, Jordan",
+                "Philadelphia University Jordan, Jordan",
+                "Philadelphia University Jordan, Jordan",
+                "Philadelphia University Jordan, Jordan"
+            ],
+            "Abstract": "Software Engineering is about creating high-quality software in a systematic, controlled, and efficient manner. Although the Software Engineering discipline had been recognized since 1968, there is still no agreement among the Universities worldwide about what should be included in the Software Engineering curriculums or study plans. This problem has resulted in that different knowledge areas are being taught to the Software Engineering students in different universities. Also this problem has resulted in that many universities now include courses in the Software Engineering curriculum that are not related to Software Engineering. A case study of the Jordanian Universities had proved that more than 60% of the courses taught at the Software Engineering departments of the Jordanian Universities are non Software Engineering related courses. An analysis had been conducted to compare the current Software Engineering courses taught at the different Jordanian Universities and the guidance provided by the ACM/IEEE about what should constitute an undergraduate Software Engineering education. Also an analysis of the Software Engineering courses taught at different countries such as UK and USA had been conducted where these countries were chosen because they contain many of the top ranked Universities in the world. The analysis had resulted in determining the knowledge areas that should be added to the curriculum of each Jordanian University. Enhancing the curriculum will result in a SE graduates that are equipped with the needed knowledge to join the software market.",
+            "Award": ""
+        },
+        {
+            "Title": "Automated Mentor Assignment in Blended Learning Environments",
+            "Type": "Short Paper",
+            "Key": "cseet14main-mainid36-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChris+Boesch+and+Kevin+Steppe+%22Automated+Mentor+Assignment+in+Blended+Learning+Environments%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Chris Boesch and Kevin Steppe",
+            "AffiliationsString": "Singapore Management University, Singapore",
+            "Authors": [
+                "Chris Boesch @ Singapore Management University, Singapore",
+                "Kevin Steppe @ Singapore Management University, Singapore"
+            ],
+            "Affiliations": [
+                "Singapore Management University, Singapore",
+                "Singapore Management University, Singapore"
+            ],
+            "Abstract": "In this paper, we discuss the addition of automatic assignment of mentors during in-class lab work to an existing online platform for programming practice. SingPath is an web based tool for users to practice programming in several software languages. The platform started as a tool to provide students with online feedback on solutions to programming problems and expanded over time to support different of blended learning needs for a variety of classes and classroom settings. The SingPath platform supports traditional self-directed learning mechanisms such as badges and completion metrics as well as features for use in classrooms, such as tournaments. We evaluate the addition of the mentor assignment feature during two short workshops designed to introduce students to the Python and JavaScript programming languages. The introduction of the mentor assignment features provided a more collaborative and engaging experience compared with previous courses.",
+            "Award": ""
+        },
+        {
+            "Title": "Improving Teamwork in Students Software Projects",
+            "Type": "Academic Research Paper",
+            "Key": "cseet14main-mainid40-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMa%C3%ADra+Marques+and+Sergio+F.+Ochoa+%22Improving+Teamwork+in+Students+Software+Projects%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Maíra Marques and Sergio F. Ochoa",
+            "AffiliationsString": "University of Chile, Chile",
+            "Authors": [
+                "Maíra Marques @ University of Chile, Chile",
+                "Sergio F. Ochoa @ University of Chile, Chile"
+            ],
+            "Affiliations": [
+                "University of Chile, Chile",
+                "University of Chile, Chile"
+            ],
+            "Abstract": "The software industry and the academia have recognized the importance of teamwork as a driver to succeed in software projects. Therefore, the industry expects that new engineers are able to work in teams. Unfortunately, teamwork is a skill that cannot be transferred in a simple way, and there is not a clear recipe for doing that. This paper proposes the use of particular ThinkLets (a process pattern to address collaboration recurrent problems) to help overcome particular problems that jeopardize teamwork. This proposal has been evaluated through software developments in the academia involving computer science undergraduate students.",
+            "Award": ""
+        },
+        {
+            "Title": "An Experiment on Teaching Coordination in a Globally Distributed Software Engineering Class",
+            "Type": "Academic Research Paper",
+            "Key": "cseet14main-mainid46-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMartin+Nordio%2C+H.-Christian+Estler%2C+Bertrand+Meyer%2C+Nazareno+Aguirre%2C+Elisabetta+Di+Nitto%2C+Rafael+Prikladnicki%2C+and+Anthony+Savidis+%22An+Experiment+on+Teaching+Coordination+in+a+Globally+Distributed+Software+Engineering+Class%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Martin Nordio, H.-Christian Estler, Bertrand Meyer, Nazareno Aguirre, Elisabetta Di Nitto, Rafael Prikladnicki, and Anthony Savidis",
+            "AffiliationsString": "ETH Zurich, Switzerland; Universidad Nacional de Río Cuarto, Argentina; Politecnico di Milano, Italy; PUCRS, Brazil; University of Crete, Greece",
+            "Authors": [
+                "Martin Nordio @ ETH Zurich, Switzerland",
+                "H.-Christian Estler @ ETH Zurich, Switzerland",
+                "Bertrand Meyer @ ETH Zurich, Switzerland",
+                "Nazareno Aguirre @ Universidad Nacional de Río Cuarto, Argentina",
+                "Elisabetta Di Nitto @ Politecnico di Milano, Italy",
+                "Rafael Prikladnicki @ PUCRS, Brazil",
+                "Anthony Savidis @ University of Crete, Greece"
+            ],
+            "Affiliations": [
+                "ETH Zurich, Switzerland",
+                "ETH Zurich, Switzerland",
+                "ETH Zurich, Switzerland",
+                "Universidad Nacional de Río Cuarto, Argentina",
+                "Politecnico di Milano, Italy",
+                "PUCRS, Brazil",
+                "University of Crete, Greece"
+            ],
+            "Abstract": "The importance of planning and management skills in software development is very difficult to convey in software engineering courses. We present the synopsis of an assignment whose purpose is to demonstrate the significance of such skills, including effective communication, team coordi- nation and collaboration, and overall project planning. The assignment is organized in the context of a distributed software engineering course carried out in collaboration with 12 universities in South America, Europe and Africa. The assignment is a globally distributed contest issued before most development activities related to the course’s software project are performed, aiming at favor- ing the collaboration between students prior to project development. The contest does not involve any programming, and is not related to the project development activities. Instead, it consists of making teams in different countries compete in collaboratively solving a set of very simple tasks. The complexity of the activity is in team collaboration and coordination, and their lack is evident when the tasks are not correctly solved, or not solved in time. Despite the simplicity of the as- signment, students have found it useful in helping them understand the significance of management and planning challenges in distributed software development. Moreover, the assignment helped in team building, by creating a better team atmosphere and contributing in identifying team members better suited for management.",
+            "Award": ""
+        },
+        {
+            "Title": "The Impacts of Personal Characteristic on Educational Effectiveness in Controlled-Project Based Learning on Software Intensive Systems Development",
+            "Type": "Academic Research Paper",
+            "Key": "cseet14main-mainid51-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYusuke+Yamada%2C+Shota+Inaga%2C+Hironori+Washizaki%2C+Katsuhiko+Kakehi%2C+Yoshiaki+Fukazawa%2C+Shoso+Yamato%2C+Masashi+Okubo%2C+Teruhiko+Kume%2C+and+Manabu+Tamaki+%22The+Impacts+of+Personal+Characteristic+on+Educational+Effectiveness+in+Controlled-Project+Based+Learning+on+Software+Intensive+Systems+Development%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Yusuke Yamada, Shota Inaga, Hironori Washizaki, Katsuhiko Kakehi, Yoshiaki Fukazawa, Shoso Yamato, Masashi Okubo, Teruhiko Kume, and Manabu Tamaki",
+            "AffiliationsString": "Waseda University, Japan; University of Tsukuba, Japan; NEC, Japan",
+            "Authors": [
+                "Yusuke Yamada @ Waseda University, Japan",
+                "Shota Inaga @ Waseda University, Japan",
+                "Hironori Washizaki @ Waseda University, Japan",
+                "Katsuhiko Kakehi @ Waseda University, Japan",
+                "Yoshiaki Fukazawa @ Waseda University, Japan",
+                "Shoso Yamato @ University of Tsukuba, Japan",
+                "Masashi Okubo @ NEC, Japan",
+                "Teruhiko Kume @ NEC, Japan",
+                "Manabu Tamaki @ NEC, Japan"
+            ],
+            "Affiliations": [
+                "Waseda University, Japan",
+                "Waseda University, Japan",
+                "Waseda University, Japan",
+                "Waseda University, Japan",
+                "Waseda University, Japan",
+                "University of Tsukuba, Japan",
+                "NEC, Japan",
+                "NEC, Japan",
+                "NEC, Japan"
+            ],
+            "Abstract": "In practical courses on software-intensive business systems, students work in teams to acquire practical skills in systems acquisition and provisioning. However, we do not yet have an established method to determine the optimal team composition to achieve maximum educational effectiveness. In this study, we quantitatively and qualitatively investigate how personal characteristics and the learning process of team members affect educational effectiveness by examining a university course in which students work in teams on a realistic project in a classroom setting. We use the Five Factors and Stress (FFS) theory and the modified grounded theory approach (M-GTA) to measure the personal characteristics and to identify the learning process of each team member. Additionally, we compare the learning process of a team with a high educational effectiveness to one with a low educational effectiveness based on number of topics about the learning process and the kind of topics. As a result, we find that it is better for a team to have members with different personal characteristic as defined by FFS theory in order for the students to acquire more knowledge and skills through the course. Additionally, teams that focus on fewer learning process topics acquire more knowledge and skills. We expect that our findings will help increase the educational effectiveness in similar practical courses.",
+            "Award": ""
+        },
+        {
+            "Title": "Where Does Experience Matter in Software Process Education? An Experience Report",
+            "Type": "Academic Research Paper",
+            "Key": "cseet14main-mainid43-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DGuoping+Rong%2C+He+Zhang%2C+and+Dong+Shao+%22Where+Does+Experience+Matter+in+Software+Process+Education%3F+An+Experience+Report%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Guoping Rong, He Zhang, and Dong Shao",
+            "AffiliationsString": "Nanjing University, China",
+            "Authors": [
+                "Guoping Rong @ Nanjing University, China",
+                "He Zhang @ Nanjing University, China",
+                "Dong Shao @ Nanjing University, China"
+            ],
+            "Affiliations": [
+                "Nanjing University, China",
+                "Nanjing University, China",
+                "Nanjing University, China"
+            ],
+            "Abstract": "In order to enhance the understanding of important concepts and strengthen the awareness of software process, we designed a special project-practicing course in Nanjing University as an attempt to solve typical issues in these courses (e.g., focusing on aspects of software process, participation, limited time in a regular semester, etc. ). The course is composed of 6-hour lecture and 32-hour bidding game. Preliminary results indicated several advantages with this new education approach on process-specific practicing course, which we already reported on CSEE&amp;T2013. Since this course has been delivered to students from school (less experiences) and industry (more experiences), we noticed students’ different performances on this course. In this paper, we collected course results from six classes, based on a comprehensive analysis from 8 different aspects; we try to understand where “EXPERIENCE” impacts students’ difference performance and benefit from the understanding to improve our education on software engineering.",
+            "Award": ""
+        },
+        {
+            "Title": "Teaching and Learning Agile Collaboration",
+            "Type": "Academic Research Paper",
+            "Key": "cseet14main-mainid47-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMartin+Kropp%2C+Magdalena+Mateescu%2C+Andreas+Meier%2C+and+Carmen+Zahn+%22Teaching+and+Learning+Agile+Collaboration%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Martin Kropp, Magdalena Mateescu, Andreas Meier, and Carmen Zahn",
+            "AffiliationsString": "University of Applied Sciences Northwestern Switzerland, Switzerland; Zurich University of Applied Sciences, Switzerland",
+            "Authors": [
+                "Martin Kropp @ University of Applied Sciences Northwestern Switzerland, Switzerland",
+                "Magdalena Mateescu @ University of Applied Sciences Northwestern Switzerland, Switzerland",
+                "Andreas Meier @ Zurich University of Applied Sciences, Switzerland",
+                "Carmen Zahn @ University of Applied Sciences Northwestern Switzerland, Switzerland"
+            ],
+            "Affiliations": [
+                "University of Applied Sciences Northwestern Switzerland, Switzerland",
+                "University of Applied Sciences Northwestern Switzerland, Switzerland",
+                "Zurich University of Applied Sciences, Switzerland",
+                "University of Applied Sciences Northwestern Switzerland, Switzerland"
+            ],
+            "Abstract": "Agile methods are widely adopted in software development. They are based on agile principles that sharply contrast to traditional command-and-control management methods. Such methods emphasize the importance of highly interactive self-organizing teams and close collaboration of all stakeholders, as well as values like courage, openness and respect. However, recent studies show that graduates and undergraduates of computer science often lack the collaborative and communicative skills necessary for agile methods and, thus, are not yet well enough educated for agile development approaches. Therefore, new approaches or more adequate educational methods for teaching the necessary communication and collaboration skills need to be developed. In a recent interview study, the authors elicited specific collaboration and communication skills needed in agile teams. In this paper, we present results from this study and discuss teaching concepts for collaboration skills from both engineering and psychological points of view. We suggest an approach on how to integrate these concepts into university courses, that focuses on active learning of agile collaboration. We have started implementing the proposed concept in a software engineering course and report on the experiences we have made and on the challenges that we have encountered.",
+            "Award": ""
+        },
+        {
+            "Title": "Enhancing Software Engineering Student Team Engagement in a High-Intensity Extreme Programming Course using Gamification",
+            "Type": "Short Paper",
+            "Key": "cseet14main-mainid26-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBilal+Sercan+Akpolat+and+Wolfgang+Slany+%22Enhancing+Software+Engineering+Student+Team+Engagement+in+a+High-Intensity+Extreme+Programming+Course+using+Gamification%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Bilal Sercan Akpolat and Wolfgang Slany",
+            "AffiliationsString": "Graz University of Technology, Austria",
+            "Authors": [
+                "Bilal Sercan Akpolat @ Graz University of Technology, Austria",
+                "Wolfgang Slany @ Graz University of Technology, Austria"
+            ],
+            "Affiliations": [
+                "Graz University of Technology, Austria",
+                "Graz University of Technology, Austria"
+            ],
+            "Abstract": "The use of game thinking and game mechanics in non-gaming context is becoming more and more popular. This has been known as gamification. Recent studies have shown that this attempt seems very promising in different areas. In this paper we explore the value of gamification in a software development team. This paper describes one approach to add gamification into the software development process in teams of ten students each. We have conducted a gamification study with 50 volunteer students. In this paper we explain the rules, terms, and findings of this study.",
+            "Award": ""
+        },
+        {
+            "Title": "Learning and Working Together as Prerequisites for the Development of High-Quality Software",
+            "Type": "Workshop",
+            "Key": "cseet14wstut-wstutid3-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DGabriele+Frankl%2C+Sofie+Bitter%2C+and+Bonifaz+Kaufmann+%22Learning+and+Working+Together+as+Prerequisites+for+the+Development+of+High-Quality+Software%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Gabriele Frankl, Sofie Bitter, and Bonifaz Kaufmann",
+            "AffiliationsString": "University of Klagenfurt, Austria",
+            "Authors": [
+                "Gabriele Frankl @ University of Klagenfurt, Austria",
+                "Sofie Bitter @ University of Klagenfurt, Austria",
+                "Bonifaz Kaufmann @ University of Klagenfurt, Austria"
+            ],
+            "Affiliations": [
+                "University of Klagenfurt, Austria",
+                "University of Klagenfurt, Austria",
+                "University of Klagenfurt, Austria"
+            ],
+            "Abstract": "A major challenge for software engineering is to coordinate many individuals, whose work is heavily depending on each other. This enormous complexity often results in error-prone products. Minor mistakes can already have major side-effects impacting the entire software product. For individuals, the challenge is to focus on their own tasks, however, obeying certain design principles and without losing sight of the overall target. Therefore, we argue that software engineering is a highly collaborative process. However, we lack knowledge in general how to collaborate successfully. Consequently, there is still a lot of potential for teaching and improving collaboration in software engineering education.",
+            "Award": ""
+        },
+        {
+            "Title": "Improving Model-Based Collaboration by Social Media Integration",
+            "Type": "Workshop WS01 Position Paper",
+            "Key": "cseet14wstut-wstutid58-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DWolfgang+Gaar+and+Egon+Teiniker+%22Improving+Model-Based+Collaboration+by+Social+Media+Integration%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Wolfgang Gaar and Egon Teiniker",
+            "AffiliationsString": "University of Applied Sciences Joanneum, Austria",
+            "Authors": [
+                "Wolfgang Gaar @ University of Applied Sciences Joanneum, Austria",
+                "Egon Teiniker @ University of Applied Sciences Joanneum, Austria"
+            ],
+            "Affiliations": [
+                "University of Applied Sciences Joanneum, Austria",
+                "University of Applied Sciences Joanneum, Austria"
+            ],
+            "Abstract": "Software engineering is inherently a collection of collaborative tasks, such as customer inter¬views to collect requirements, discussions about software architecture and design, collective code ownership and the interaction between developers, customers and testers to ensure software quality. Open source development communities are a particularly good example of a worldwide collaboration in software engineering.  This position paper describes our opinion about the use of collaboration techniques in software engineering education. We discuss the benefits of model-based collaboration techniques as well as social media platforms. In a practical example, we show that the integration of both techniques can significantly improve the collaboration in software engineering courses.",
+            "Award": ""
+        },
+        {
+            "Title": "Win-for-All in Software Engineering Education: Balancing Social Dilemmas to Foster Collaboration",
+            "Type": "Workshop WS01 Position Paper",
+            "Key": "cseet14wstut-wstutidext10-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DGabriele+Frankl%2C+Sofie+Bitter%2C+and+Bonifaz+Kaufmann+%22Win-for-All+in+Software+Engineering+Education%3A+Balancing+Social+Dilemmas+to+Foster+Collaboration%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Gabriele Frankl, Sofie Bitter, and Bonifaz Kaufmann",
+            "AffiliationsString": "University of Klagenfurt, Austria",
+            "Authors": [
+                "Gabriele Frankl @ University of Klagenfurt, Austria",
+                "Sofie Bitter @ University of Klagenfurt, Austria",
+                "Bonifaz Kaufmann @ University of Klagenfurt, Austria"
+            ],
+            "Affiliations": [
+                "University of Klagenfurt, Austria",
+                "University of Klagenfurt, Austria",
+                "University of Klagenfurt, Austria"
+            ],
+            "Abstract": "Software engineering is a highly collaborative process. However, we still lack knowledge on how to collaborate successfully. A main barrier to successful collaboration emerges due to social dilemmas that can be traced back to a profound tension between what is desirable for a collective as a whole, e. g. a software development team, and what is desirable for an individual, e. g. a single coder. This position paper introduces the concept of win-for-all (winn) and applies it to software engineering education. winn is an all-purpose pattern of thought for group processes with the aim to optimally balance individual and group needs. Thus, winn is a prerequisite for sustainable and high-quality performance of the whole group, the latter being a central issue for software engineering. High-level performance can only be achieved through a systemic perspective: both, the group and the individual (as a fundamental element of the group) have to be considered. Consequently, there is also still a lot of potential for teaching and improving collaboration in software engineering education.",
+            "Award": ""
+        },
+        {
+            "Title": "Technology-Driven Software Engineering Curriculum Development",
+            "Type": "Workshop",
+            "Key": "cseet14wstut-wstutid5-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DEmanuel+S.+Grant+and+Venky+Shankararaman+%22Technology-Driven+Software+Engineering+Curriculum+Development%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Emanuel S. Grant and Venky Shankararaman",
+            "AffiliationsString": "University of North Dakota, USA; Singapore Management University, Singapore",
+            "Authors": [
+                "Emanuel S. Grant @ University of North Dakota, USA",
+                "Venky Shankararaman @ Singapore Management University, Singapore"
+            ],
+            "Affiliations": [
+                "University of North Dakota, USA",
+                "Singapore Management University, Singapore"
+            ],
+            "Abstract": "A fundamental artifact of any academic research is the data used as the basis of that research effort. A group of researchers, from institutions in multiple territories, has embarked on an ambitious research project that is aimed at enhancing the teaching of software engineering in four-year undergraduate programs. The research project details a set of workshops, for which the objective is the capture of data that will be the basis of the research effort. The first of these workshops was held in August 2011. The workshop comprised software engineering educators and representatives from the information technology industry. The data collection task sought to identify a set of topics that are considered suitable for teaching software engineering, along with identification of the years and depth at which these topics should be taught. The topics are derived from the outcome goals of the course/program.",
+            "Award": ""
+        },
+        {
+            "Title": "Reshaping Software Engineering Education towards 2020 Engineers",
+            "Type": "Workshop WS02 Position Paper",
+            "Key": "cseet14wstut-wstutidext01-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DInggriani+Liem%2C+Yudistira+Asnar%2C+Saiful+Akbar%2C+Adi+Mulyanto%2C+and+Yani+Widyani+%22Reshaping+Software+Engineering+Education+towards+2020+Engineers%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Inggriani Liem, Yudistira Asnar, Saiful Akbar, Adi Mulyanto, and Yani Widyani",
+            "AffiliationsString": "Bandung Institute of Technology, Indonesia",
+            "Authors": [
+                "Inggriani Liem @ Bandung Institute of Technology, Indonesia",
+                "Yudistira Asnar @ Bandung Institute of Technology, Indonesia",
+                "Saiful Akbar @ Bandung Institute of Technology, Indonesia",
+                "Adi Mulyanto @ Bandung Institute of Technology, Indonesia",
+                "Yani Widyani @ Bandung Institute of Technology, Indonesia"
+            ],
+            "Affiliations": [
+                "Bandung Institute of Technology, Indonesia",
+                "Bandung Institute of Technology, Indonesia",
+                "Bandung Institute of Technology, Indonesia",
+                "Bandung Institute of Technology, Indonesia",
+                "Bandung Institute of Technology, Indonesia"
+            ],
+            "Abstract": "In this paper, we present an overview on how to reshape the software engineering education in our undergraduate study program (i.e., curriculum program, software engineering curriculum package, and learning process) so that our graduates have sufficient skills to be the 2020 software engineers. We believe that the corner blocks to produce fine engineers are good understanding in the following areas: basic fundamentals and principles of science and computing, methodology, techniques-tools-platform, capability to understand domain problems, communication and personal skill, attitude to be a good learner and self disciplined. We translate these values to our undergraduate curriculum with an aim to produce general software engineer who are quick to master specific platforms/technologies and devices and to understand domain problems.",
+            "Award": ""
+        },
+        {
+            "Title": "Teaching Software Product Engineering in Undergraduate Computing Curriculum",
+            "Type": "Workshop WS02 Position Paper",
+            "Key": "cseet14wstut-wstutidext02-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DY.+Raghu+Reddy+and+Kesav+V.+Nori+%22Teaching+Software+Product+Engineering+in+Undergraduate+Computing+Curriculum%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Y. Raghu Reddy and Kesav V. Nori",
+            "AffiliationsString": "IIIT Hyderabad, India",
+            "Authors": [
+                "Y. Raghu Reddy @ IIIT Hyderabad, India",
+                "Kesav V. Nori @ IIIT Hyderabad, India"
+            ],
+            "Affiliations": [
+                "IIIT Hyderabad, India",
+                "IIIT Hyderabad, India"
+            ],
+            "Abstract": "Traditional engineering disciplines like electrical engineering, mechanical engineering, metallurgical engineering have focused on the design of artifacts. However most the modern day software engineering course with in the undergraduate computing curriculum focuses on teaching software processes rather than software product engineering. This paper argues the need for introducing software product engineering as a subject in undergraduate computer science curriculum and at a broader level, the need for more undergraduate software engineering programs in India.",
+            "Award": ""
+        },
+        {
+            "Title": "Opportunities and Challenges in Using Competencies during Design and Delivery of Software Engineering Curriculum",
+            "Type": "Workshop WS02 Position Paper",
+            "Key": "cseet14wstut-wstutidext03-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DVenky+Shankararaman+and+Joelle+Ducrot+%22Opportunities+and+Challenges+in+Using+Competencies+during+Design+and+Delivery+of+Software+Engineering+Curriculum%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Venky Shankararaman and Joelle Ducrot",
+            "AffiliationsString": "Singapore Management University, Singapore",
+            "Authors": [
+                "Venky Shankararaman @ Singapore Management University, Singapore",
+                "Joelle Ducrot @ Singapore Management University, Singapore"
+            ],
+            "Affiliations": [
+                "Singapore Management University, Singapore",
+                "Singapore Management University, Singapore"
+            ],
+            "Abstract": "This position paper proposes a framework for leveraging course competencies to effectively deliver and assess course content, and give valuable, timely feedback to students. The framework addresses the following five phases of a course, namely, content design, assessment design, content delivery and assessment, assessment feedback, and content review. The paper then presents the benefits of this approach and challenges in implementing this framework in scalable manner and suggests some solutions to overcome these challenges.",
+            "Award": ""
+        },
+        {
+            "Title": "Workshop on Improving the CSEE&T Submissions Process",
+            "Type": "Workshop Proposal",
+            "Key": "cseet14wstut-wstutidext00-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMichael+Barker+%22Workshop+on+Improving+the+CSEE%26T+Submissions+Process%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Michael Barker",
+            "AffiliationsString": "NAIST, Japan",
+            "Authors": [
+                "Michael Barker @ NAIST, Japan"
+            ],
+            "Affiliations": [
+                "NAIST, Japan"
+            ],
+            "Abstract": "Have you ever thought about submitting an article to CSEE&amp;T? The process of research and article submission is fairly long and often complicated because people don&#039;t know what all the steps are and too often there really isn&#039;t much support available. In this workshop, we will examine that process and try to identify ways to improve the process to increase the number and quality of submissions to CSEE&amp;T. Please join us in brainstorming, selecting, and then planning concrete steps to make the process of submission for CSEE&amp;T delightful, instead of painful.",
+            "Award": ""
+        },
+        {
+            "Title": "Experience of Teaching Executive Master's Program in Software Engineering: Challenges, Lessons Learned, and Path Forward",
+            "Type": "ASEET extended abstract",
+            "Key": "cseet14aseet-aseetid63-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DW.+Eric+Wong+%22Experience+of+Teaching+Executive+Master%27s+Program+in+Software+Engineering%3A+Challenges%2C+Lessons+Learned%2C+and+Path+Forward%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "W. Eric Wong",
+            "AffiliationsString": "University of Texas at Dallas, USA",
+            "Authors": [
+                "W. Eric Wong @ University of Texas at Dallas, USA"
+            ],
+            "Affiliations": [
+                "University of Texas at Dallas, USA"
+            ],
+            "Abstract": "Universities have created programs such as the Executive Master&#039;s Degree in Software Engineering (EMSE) at the University of Texas at Dallas to enable busy professionals to achieve a balance between work and life while pursuing a graduate degree.   In this talk, I will address several important issues based on my experience of teaching the same course for both the EMSE program and the regular Master&#039;s program.",
+            "Award": ""
+        },
+        {
+            "Title": "Self-Guided Learning Environment for Undergraduate Software Engineering",
+            "Type": "ASEET extended abstract",
+            "Key": "cseet14aseet-aseetid60-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJunhua+Ding+%22Self-Guided+Learning+Environment+for+Undergraduate+Software+Engineering%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Junhua Ding",
+            "AffiliationsString": "East Carolina University, USA",
+            "Authors": [
+                "Junhua Ding @ East Carolina University, USA"
+            ],
+            "Affiliations": [
+                "East Carolina University, USA"
+            ],
+            "Abstract": "A high qualified software developer should have the ability to develop software systems following good software engineering practices. However, an integrated software engineering tool that can help students to learn the practices is absent. In this paper, we present an IDE that is able to monitor and guide students to develop software following good practices. In addition, the tool offers a set of guidelines for improving the learning process via analyzing learning activities and results.",
+            "Award": ""
+        },
+        {
+            "Title": "An Active Learning Module for an Introduction to Software Engineering Course",
+            "Type": "ASEET extended abstract",
+            "Key": "cseet14aseet-aseetid59-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DA.+Frank+Ackerman+%22An+Active+Learning+Module+for+an+Introduction+to+Software+Engineering+Course%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "A. Frank Ackerman",
+            "AffiliationsString": "Montana Tech, USA",
+            "Authors": [
+                "A. Frank Ackerman @ Montana Tech, USA"
+            ],
+            "Affiliations": [
+                "Montana Tech, USA"
+            ],
+            "Abstract": "Many schools do not begin to introduce college students to software engineering until they have had at least one semester of programming. Since software engineering is a large, complex, and abstract subject it is difficult to construct active learning exercises that build on the students’ elementary knowledge of programming and still teach basic software engineering principles. It is also the case that beginning students typically know how to construct small programs, but they have little experience with the techniques necessary to produce reliable and long-term maintainable modules. I have addressed these two concerns by defining a local standard (Montana Tech Method (MTM) Software Development Standard for Small Modules Template) that step-by-step directs students toward the construction of highly reliable small modules using well known, best-practices software engineering techniques. “Small module” is here defined as a coherent development task that can be unit tested, and can be carried out by a single (or a pair of) software engineer(s) in at most a few weeks. The standard describes the process to be used and also provides a template for the top-level documentation. The instructional module’s sequence of mini-lectures and exercises associated with the use of this (and other) local standards are used throughout the course, which perforce covers more abstract software engineering material using traditional reading and writing assignments. The sequence of mini-lectures and hands-on assignments (many of which are done in small groups) constitutes an instructional module that can be used in any similar software engineering course.",
+            "Award": ""
+        },
+        {
+            "Title": "The Impact of SWEBOK Version 3 on Software Engineering Education and Training",
+            "Type": "ASEET",
+            "Key": "cseet14aseet-aseetid56-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRichard+E.+Fairley%2C+Pierre+Bourque%2C+and+John+Keppler+%22The+Impact+of+SWEBOK+Version+3+on+Software+Engineering+Education+and+Training%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Richard E. Fairley, Pierre Bourque, and John Keppler",
+            "AffiliationsString": "S2EA, USA; École de Technologie Supérieure, Canada; IEEE Computer Society, USA",
+            "Authors": [
+                "Richard E. Fairley @ S2EA, USA",
+                "Pierre Bourque @ École de Technologie Supérieure, Canada",
+                "John Keppler @ IEEE Computer Society, USA"
+            ],
+            "Affiliations": [
+                "S2EA, USA",
+                "École de Technologie Supérieure, Canada",
+                "IEEE Computer Society, USA"
+            ],
+            "Abstract": "The Guide to the Software Engineering Body of Knowledge (the SWEBOK Guide) provides generally accepted knowledge for the software engineering profession. The content of the SWEBOK Guide is derived from academic sources and the best practices of the profession. The SWEBOK Guide is a reference document for many academic and industrial curricula, certification programs, accreditation criteria, and professional licensure. This paper provides an overview of the recently published Version 3 of the SWEBOK Guide and examines the potential impact of the changes in Version 3 on software engineering education and training for the academic and industrial sectors.",
+            "Award": ""
+        },
+        {
+            "Title": "Top-10 Risks in Real-Client Software Engineering Class Projects",
+            "Type": "ASEET extended abstract",
+            "Key": "cseet14aseet-aseetid65-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSupannika+Koolmanojwong+%22Top-10+Risks+in+Real-Client+Software+Engineering+Class+Projects%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Supannika Koolmanojwong",
+            "AffiliationsString": "University of Southern California, USA",
+            "Authors": [
+                "Supannika Koolmanojwong @ University of Southern California, USA"
+            ],
+            "Affiliations": [
+                "University of Southern California, USA"
+            ],
+            "Abstract": "Risk identification, management, and mitigation are essential to the success of any software development projects. At the University of Southern California (USC), CSCI577ab is a graduate level software engineering course sequence that teaches the best software engineering practices, and allows students to apply the learned knowledge in developing real-client projects. One of the main focuses throughout the software development life cycle is the risk analysis. Students have to perform weekly risk identification and prepare for risk mitigation. This presentation will discuss analysis results of the top-10 risks from various perspectives such as comparison of risk patterns between development-based projects and COTS-based projects, high score teams and low score teams, and a comparison between risk exposure and risk occurrence.",
+            "Award": ""
+        },
+        {
+            "Title": "Teaching Semantic Technologies as Part of a Software Development Program",
+            "Type": "ASEET extended abstract",
+            "Key": "cseet14aseet-aseetid66-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndreas+L.+Opdahl+%22Teaching+Semantic+Technologies+as+Part+of+a+Software+Development+Program%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Andreas L. Opdahl",
+            "AffiliationsString": "University of Bergen, Norway",
+            "Authors": [
+                "Andreas L. Opdahl @ University of Bergen, Norway"
+            ],
+            "Affiliations": [
+                "University of Bergen, Norway"
+            ],
+            "Abstract": "The information science study at the University of Bergen has human-computer interaction and semantic technologies as two of its focal points, with software development as a third focus that supports the two others. This talk will review the department&#039;s courses in semantic technologies at bachelor and graduate levels, with emphasis on the introductory course in advanced modelling and programming for the Web of Data (or Semantic Web).",
+            "Award": ""
+        },
+        {
+            "Title": "Panel on Industrial Needs and Educational Response",
+            "Type": "Panel Session",
+            "Key": "cseet14panel-panelid64-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRoland+T.+Mittermeir+%22Panel+on+Industrial+Needs+and+Educational+Response%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Roland T. Mittermeir",
+            "AffiliationsString": "University of Klagenfurt, Austria",
+            "Authors": [
+                "Roland T. Mittermeir @ University of Klagenfurt, Austria"
+            ],
+            "Affiliations": [
+                "University of Klagenfurt, Austria"
+            ],
+            "Abstract": "To include a panel on needs of the techno-economic environment seems appropriate, as its profile and needs have shifted over the last years. So has the research agenda of computing departments. But these changes are not in sync. Hence a panel on Industrial Needs and the Educational Response of the curriculum should confront educators with the broad spectrum of the IT-labor market by allowing people involved in hiring graduates voicing their needs but also understand the constraints of formal education, notably in Software Engineering.",
+            "Award": ""
+        },
+        {
+            "Title": "Combining Software Engineering Education and Empirical Research via Instrumented Real-Client Team Project Courses",
+            "Type": "Tutorial",
+            "Key": "cseet14tut-wstutid32-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBarry+Boehm+and+Supannika+Koolmanojwong+%22Combining+Software+Engineering+Education+and+Empirical+Research+via+Instrumented+Real-Client+Team+Project+Courses%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Barry Boehm and Supannika Koolmanojwong",
+            "AffiliationsString": "University of Southern California, USA",
+            "Authors": [
+                "Barry Boehm @ University of Southern California, USA",
+                "Supannika Koolmanojwong @ University of Southern California, USA"
+            ],
+            "Affiliations": [
+                "University of Southern California, USA",
+                "University of Southern California, USA"
+            ],
+            "Abstract": "Real-client, team project courses provide excellent opportunities for performing empirical research in software engineering (SE). Compared to empirical research on large, multi-year SE projects, a course with several team projects per year is the SE research equivalent of the fruit fly in species evolution research. Although their predictive power for large-project SE is more suggestive than definitive, the research results generally provide useful contributions to human knowledge in the SE area.",
+            "Award": ""
+        }
+    ],
+    "Sessions": [
+        {
+            "Id": "Eudai3ama8",
+            "Title": "Registration Desk open",
+            "ShortTitle": "Registration Desk open",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-04-22 15:00 Registration Desk open",
+            "Day": "2014-04-22",
+            "Time": "15:00 - 17:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "chohR8cheu",
+            "Title": "Registration Desk open",
+            "ShortTitle": "Registration Desk open",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-04-23 08:15 Registration Desk open",
+            "Day": "2014-04-23",
+            "Time": "08:15 - 08:45",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "OoSh7Ua1az",
+            "Title": "ASEE&amp;T 2014 Welcome",
+            "ShortTitle": "ASEE&amp;T 2014 Welcome",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-04-23 08:45 ASEE&amp;T 2014 Welcome",
+            "Day": "2014-04-23",
+            "Time": "08:45 - 09:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "aecauSh6Ah",
+            "Title": "Workshop 1: Learning and Working Together as Prerequisites for the Development of High-Quality Software",
+            "ShortTitle": "Workshop 1: Learning and Working Together as Prerequisites for the Development of High-Quality Software",
+            "Type": "Workshops",
+            "ShortType": "Workshops",
+            "Key": "2014-04-23 09:00 Workshop 1: Learning and Working Together as Prerequisites for the Development of High-Quality Software",
+            "Day": "2014-04-23",
+            "Time": "09:00 - 12:30",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": true,
+            "Comment": "CSEET14WSTUT",
+            "Abstract": "",
+            "Items": [
+                "cseet14wstut-wstutid3-p",
+                "cseet14wstut-wstutid58-p",
+                "cseet14wstut-wstutidext10-p"
+            ]
+        },
+        {
+            "Id": "eijahZ8sel",
+            "Title": "ASEE&amp;T Session 1",
+            "ShortTitle": "ASEE&amp;T Session 1",
+            "Type": "The Academy for Software Engineering Education and Training (ASEE&amp;T)",
+            "ShortType": "The Academy for Software Engineering Education and Training (ASEE&amp;T)",
+            "Key": "2014-04-23 09:00 ASEE&amp;T Session 1",
+            "Day": "2014-04-23",
+            "Time": "09:00 - 10:30",
+            "Location": "",
+            "LocationIndex": "4",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14ASEET",
+            "Abstract": "",
+            "Items": [
+                "cseet14aseet-aseetid63-p",
+                "cseet14aseet-aseetid60-p",
+                "cseet14aseet-aseetid59-p"
+            ]
+        },
+        {
+            "Id": "cheez7Xuw5",
+            "Title": "Coffee Break",
+            "ShortTitle": "Coffee Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-04-23 10:30 Coffee Break",
+            "Day": "2014-04-23",
+            "Time": "10:30 - 11:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "Cu7eide0ei",
+            "Title": "ASEE&amp;T Session 2",
+            "ShortTitle": "ASEE&amp;T Session 2",
+            "Type": "The Academy for Software Engineering Education and Training (ASEE&amp;T)",
+            "ShortType": "The Academy for Software Engineering Education and Training (ASEE&amp;T)",
+            "Key": "2014-04-23 11:00 ASEE&amp;T Session 2",
+            "Day": "2014-04-23",
+            "Time": "11:00 - 12:30",
+            "Location": "",
+            "LocationIndex": "4",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14ASEET",
+            "Abstract": "",
+            "Items": [
+                "cseet14aseet-aseetid56-p",
+                "cseet14aseet-aseetid65-p",
+                "cseet14aseet-aseetid66-p"
+            ]
+        },
+        {
+            "Id": "deeTee6Iev",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-04-23 12:30 Lunch",
+            "Day": "2014-04-23",
+            "Time": "12:30 - 14:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "ibuuGhae6u",
+            "Title": "Workshop 3: Workshop on Improving the CSEE&amp;T Submissions Process",
+            "ShortTitle": "Workshop 3: Workshop on Improving the CSEE&amp;T Submissions Process",
+            "Type": "Workshops",
+            "ShortType": "Workshops",
+            "Key": "2014-04-23 14:00 Workshop 3: Workshop on Improving the CSEE&amp;T Submissions Process",
+            "Day": "2014-04-23",
+            "Time": "14:00 - 17:30",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": true,
+            "Comment": "CSEET14WSTUT",
+            "Abstract": "",
+            "Items": [
+                "cseet14wstut-wstutidext00-p"
+            ]
+        },
+        {
+            "Id": "ce6Ochie4x",
+            "Title": "Tutorial",
+            "ShortTitle": "Tutorial",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2014-04-23 14:00 Tutorial",
+            "Day": "2014-04-23",
+            "Time": "14:00 - 17:30",
+            "Location": "",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14TUT",
+            "Abstract": "4",
+            "Items": [
+                "cseet14tut-wstutid32-p"
+            ]
+        },
+        {
+            "Id": "Chahghie5s",
+            "Title": "Coffee Break",
+            "ShortTitle": "Coffee Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-04-23 15:30 Coffee Break",
+            "Day": "2014-04-23",
+            "Time": "15:30 - 16:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "EiMaelah8o",
+            "Title": "Welcome Reception",
+            "ShortTitle": "Welcome Reception",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-04-23 18:30 Welcome Reception",
+            "Day": "2014-04-23",
+            "Time": "18:30 - 20:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "Ningi5ahn8",
+            "Title": "Registration Desk open",
+            "ShortTitle": "Registration Desk open",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-04-24 08:15 Registration Desk open",
+            "Day": "2014-04-24",
+            "Time": "08:15 - 09:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "pie4shai5C",
+            "Title": "Welcome and Keynote I (Bertrand Meyer)",
+            "ShortTitle": "Welcome and Keynote I (Bertrand Meyer)",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-04-24 09:00 Welcome and Keynote I (Bertrand Meyer)",
+            "Day": "2014-04-24",
+            "Time": "09:00 - 10:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "aiPh2ubeuc",
+            "Title": "Coffee Break",
+            "ShortTitle": "Coffee Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-04-24 10:30 Coffee Break",
+            "Day": "2014-04-24",
+            "Time": "10:30 - 11:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "ou9Ohph4ee",
+            "Title": "Requirements",
+            "ShortTitle": "Requirements",
+            "Type": "Academic Research",
+            "ShortType": "Academic Research",
+            "Key": "2014-04-24 11:00 Requirements",
+            "Day": "2014-04-24",
+            "Time": "11:00 - 12:30",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14MAIN",
+            "Abstract": "",
+            "Items": [
+                "cseet14main-mainid14-p",
+                "cseet14main-mainid28-p",
+                "cseet14main-mainid49-p"
+            ]
+        },
+        {
+            "Id": "qua6Iequu7",
+            "Title": "Panel",
+            "ShortTitle": "Panel",
+            "Type": "Panel",
+            "ShortType": "Panel",
+            "Key": "2014-04-24 11:00 Panel",
+            "Day": "2014-04-24",
+            "Time": "11:00 - 12:30",
+            "Location": "",
+            "LocationIndex": "5",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14PANEL",
+            "Abstract": "",
+            "Items": [
+                "cseet14panel-panelid64-p"
+            ]
+        },
+        {
+            "Id": "Uung6Iehee",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-04-24 12:20 Lunch",
+            "Day": "2014-04-24",
+            "Time": "12:20 - 14:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "cios3oP6ma",
+            "Title": "Educational Strategy",
+            "ShortTitle": "Educational Strategy",
+            "Type": "Academic Research",
+            "ShortType": "Academic Research",
+            "Key": "2014-04-24 14:00 Educational Strategy",
+            "Day": "2014-04-24",
+            "Time": "14:00 - 15:30",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14MAIN",
+            "Abstract": "",
+            "Items": [
+                "cseet14main-mainid12-p",
+                "cseet14main-mainid15-p",
+                "cseet14main-mainid37-p",
+                "cseet14main-mainid44-p"
+            ]
+        },
+        {
+            "Id": "OhThu3iedi",
+            "Title": "Workshop 2: Technology-Driven Software Engineering Curriculum Development",
+            "ShortTitle": "Workshop 2: Technology-Driven Software Engineering Curriculum Development",
+            "Type": "Workshops",
+            "ShortType": "Workshops",
+            "Key": "2014-04-24 14:00 Workshop 2: Technology-Driven Software Engineering Curriculum Development",
+            "Day": "2014-04-24",
+            "Time": "14:00 - 17:30",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": true,
+            "Comment": "CSEET14WSTUT",
+            "Abstract": "",
+            "Items": [
+                "cseet14wstut-wstutid5-p",
+                "cseet14wstut-wstutidext01-p",
+                "cseet14wstut-wstutidext02-p",
+                "cseet14wstut-wstutidext03-p"
+            ]
+        },
+        {
+            "Id": "chohL3roh6",
+            "Title": "Coffee Break",
+            "ShortTitle": "Coffee Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-04-24 15:30 Coffee Break",
+            "Day": "2014-04-24",
+            "Time": "15:30 - 16:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "iiz9fooviV",
+            "Title": "Design to Validation",
+            "ShortTitle": "Design to Validation",
+            "Type": "Academic Research",
+            "ShortType": "Academic Research",
+            "Key": "2014-04-24 16:00 Design to Validation",
+            "Day": "2014-04-24",
+            "Time": "16:00 - 17:30",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14MAIN",
+            "Abstract": "",
+            "Items": [
+                "cseet14main-mainid29-p",
+                "cseet14main-mainid35-p"
+            ]
+        },
+        {
+            "Id": "ApiPh5iv7a",
+            "Title": "Conference Dinner and Nancy Mead Award",
+            "ShortTitle": "Conference Dinner and Nancy Mead Award",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-04-24 18:30 Conference Dinner and Nancy Mead Award",
+            "Day": "2014-04-24",
+            "Time": "18:30 - 21:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "yu1ohxahRu",
+            "Title": "Registration Desk open",
+            "ShortTitle": "Registration Desk open",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-04-25 08:15 Registration Desk open",
+            "Day": "2014-04-25",
+            "Time": "08:15 - 09:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "shooG5OiSh",
+            "Title": "Keynote II (Dennis Frailey)",
+            "ShortTitle": "Keynote II (Dennis Frailey)",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-04-25 09:00 Keynote II (Dennis Frailey)",
+            "Day": "2014-04-25",
+            "Time": "09:00 - 10:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "oe1Pee4rie",
+            "Title": "Coffee Break",
+            "ShortTitle": "Coffee Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-04-25 10:00 Coffee Break",
+            "Day": "2014-04-25",
+            "Time": "10:00 - 10:30",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "taeJahh2in",
+            "Title": "Educational Style",
+            "ShortTitle": "Educational Style",
+            "Type": "Academic Research",
+            "ShortType": "Academic Research",
+            "Key": "2014-04-25 10:30 Educational Style",
+            "Day": "2014-04-25",
+            "Time": "10:30 - 12:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14MAIN",
+            "Abstract": "",
+            "Items": [
+                "cseet14main-mainid33-p",
+                "cseet14main-mainid34-p",
+                "cseet14main-mainid36-p"
+            ]
+        },
+        {
+            "Id": "gah9uB2eey",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-04-25 12:00 Lunch",
+            "Day": "2014-04-25",
+            "Time": "12:00 - 13:30",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "Iechooh9Zu",
+            "Title": "Project Management",
+            "ShortTitle": "Project Management",
+            "Type": "Academic Research",
+            "ShortType": "Academic Research",
+            "Key": "2014-04-25 13:30 Project Management",
+            "Day": "2014-04-25",
+            "Time": "13:30 - 15:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14MAIN",
+            "Abstract": "",
+            "Items": [
+                "cseet14main-mainid40-p",
+                "cseet14main-mainid46-p",
+                "cseet14main-mainid51-p"
+            ]
+        },
+        {
+            "Id": "ahBouph5Tu",
+            "Title": "Coffee Break",
+            "ShortTitle": "Coffee Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-04-25 15:00 Coffee Break",
+            "Day": "2014-04-25",
+            "Time": "15:00 - 15:30",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        },
+        {
+            "Id": "etei1Oofi4",
+            "Title": "Processes",
+            "ShortTitle": "Processes",
+            "Type": "Academic Research",
+            "ShortType": "Academic Research",
+            "Key": "2014-04-25 15:30 Processes",
+            "Day": "2014-04-25",
+            "Time": "15:30 - 16:50",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14MAIN",
+            "Abstract": "",
+            "Items": [
+                "cseet14main-mainid43-p",
+                "cseet14main-mainid47-p",
+                "cseet14main-mainid26-p"
+            ]
+        },
+        {
+            "Id": "yi9Eg4aosu",
+            "Title": "Closing Session",
+            "ShortTitle": "Closing Session",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-04-25 16:50 Closing Session",
+            "Day": "2014-04-25",
+            "Time": "16:50 - 17:15",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "CSEET14",
+            "Abstract": ""
+        }
+    ],
+    "People": [
+        {
+            "Name": "A. Frank Ackerman",
+            "Affiliation": "Montana Tech, USA",
+            "Key": "A. Frank Ackerman @ Montana Tech, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nazareno Aguirre",
+            "Affiliation": "Universidad Nacional de Río Cuarto, Argentina",
+            "Key": "Nazareno Aguirre @ Universidad Nacional de Río Cuarto, Argentina",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Saiful Akbar",
+            "Affiliation": "Bandung Institute of Technology, Indonesia",
+            "Key": "Saiful Akbar @ Bandung Institute of Technology, Indonesia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bilal Sercan Akpolat",
+            "Affiliation": "Graz University of Technology, Austria",
+            "Key": "Bilal Sercan Akpolat @ Graz University of Technology, Austria",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ghada AL-Houdhoud",
+            "Affiliation": "King Saud University, Saudi Arabia",
+            "Key": "Ghada AL-Houdhoud @ King Saud University, Saudi Arabia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ayad Almasalmeh",
+            "Affiliation": "Philadelphia University Jordan, Jordan",
+            "Key": "Ayad Almasalmeh @ Philadelphia University Jordan, Jordan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yudistira Asnar",
+            "Affiliation": "Bandung Institute of Technology, Indonesia",
+            "Key": "Yudistira Asnar @ Bandung Institute of Technology, Indonesia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michael Barker",
+            "Affiliation": "NAIST, Japan",
+            "Key": "Michael Barker @ NAIST, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Abir Benabid",
+            "Affiliation": "King Saud University, Saudi Arabia",
+            "Key": "Abir Benabid @ King Saud University, Saudi Arabia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sofie Bitter",
+            "Affiliation": "University of Klagenfurt, Austria",
+            "Key": "Sofie Bitter @ University of Klagenfurt, Austria",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Barry Boehm",
+            "Affiliation": "University of Southern California, USA",
+            "Key": "Barry Boehm @ University of Southern California, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Chris Boesch",
+            "Affiliation": "Singapore Management University, Singapore",
+            "Key": "Chris Boesch @ Singapore Management University, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Pierre Bourque",
+            "Affiliation": "École de Technologie Supérieure, Canada",
+            "Key": "Pierre Bourque @ École de Technologie Supérieure, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hongyu Pei Breivold",
+            "Affiliation": "ABB Research, Sweden",
+            "Key": "Hongyu Pei Breivold @ ABB Research, Sweden",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christopher N. Bull",
+            "Affiliation": "Lancaster University, UK",
+            "Key": "Christopher N. Bull @ Lancaster University, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ivica Crnković",
+            "Affiliation": "Mälardalen University, Sweden",
+            "Key": "Ivica Crnković @ Mälardalen University, Sweden",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Aldo Dagnino",
+            "Affiliation": "ABB Research, USA",
+            "Key": "Aldo Dagnino @ ABB Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marian Daun",
+            "Affiliation": "University of Duisburg-Essen, Germany",
+            "Key": "Marian Daun @ University of Duisburg-Essen, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Junhua Ding",
+            "Affiliation": "East Carolina University, USA",
+            "Key": "Junhua Ding @ East Carolina University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Elisabetta Di Nitto",
+            "Affiliation": "Politecnico di Milano, Italy",
+            "Key": "Elisabetta Di Nitto @ Politecnico di Milano, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Leticia Duboc",
+            "Affiliation": "UERJ, Brazil",
+            "Key": "Leticia Duboc @ UERJ, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Joelle Ducrot",
+            "Affiliation": "Singapore Management University, Singapore",
+            "Key": "Joelle Ducrot @ Singapore Management University, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "H.-Christian Estler",
+            "Affiliation": "ETH Zurich, Switzerland",
+            "Key": "H.-Christian Estler @ ETH Zurich, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Richard E. Fairley",
+            "Affiliation": "S2EA, USA",
+            "Key": "Richard E. Fairley @ S2EA, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gabriele Frankl",
+            "Affiliation": "University of Klagenfurt, Austria",
+            "Key": "Gabriele Frankl @ University of Klagenfurt, Austria",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yoshiaki Fukazawa",
+            "Affiliation": "Waseda University, Japan",
+            "Key": "Yoshiaki Fukazawa @ Waseda University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Wolfgang Gaar",
+            "Affiliation": "University of Applied Sciences Joanneum, Austria",
+            "Key": "Wolfgang Gaar @ University of Applied Sciences Joanneum, Austria",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Emanuel S. Grant",
+            "Affiliation": "University of North Dakota, USA",
+            "Key": "Emanuel S. Grant @ University of North Dakota, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Samer Hanna",
+            "Affiliation": "Philadelphia University Jordan, Jordan",
+            "Key": "Samer Hanna @ Philadelphia University Jordan, Jordan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shota Inaga",
+            "Affiliation": "Waseda University, Japan",
+            "Key": "Shota Inaga @ Waseda University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Fawze Abu Jaber",
+            "Affiliation": "Philadelphia University Jordan, Jordan",
+            "Key": "Fawze Abu Jaber @ Philadelphia University Jordan, Jordan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hayat Jaber",
+            "Affiliation": "Philadelphia University Jordan, Jordan",
+            "Key": "Hayat Jaber @ Philadelphia University Jordan, Jordan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Katsuhiko Kakehi",
+            "Affiliation": "Waseda University, Japan",
+            "Key": "Katsuhiko Kakehi @ Waseda University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bonifaz Kaufmann",
+            "Affiliation": "University of Klagenfurt, Austria",
+            "Key": "Bonifaz Kaufmann @ University of Klagenfurt, Austria",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "John Keppler",
+            "Affiliation": "IEEE Computer Society, USA",
+            "Key": "John Keppler @ IEEE Computer Society, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Pang Nai Kiat",
+            "Affiliation": "Nanyang Polytechnic, Singapore",
+            "Key": "Pang Nai Kiat @ Nanyang Polytechnic, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Supannika Koolmanojwong",
+            "Affiliation": "University of Southern California, USA",
+            "Key": "Supannika Koolmanojwong @ University of Southern California, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Martin Kropp",
+            "Affiliation": "University of Applied Sciences Northwestern Switzerland, Switzerland",
+            "Key": "Martin Kropp @ University of Applied Sciences Northwestern Switzerland, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Teruhiko Kume",
+            "Affiliation": "NEC, Japan",
+            "Key": "Teruhiko Kume @ NEC, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yap Tat Kwong",
+            "Affiliation": "Nanyang Polytechnic, Singapore",
+            "Key": "Yap Tat Kwong @ Nanyang Polytechnic, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dieter Landes",
+            "Affiliation": "University of Applied Sciences and Arts Coburg, Germany",
+            "Key": "Dieter Landes @ University of Applied Sciences and Arts Coburg, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Timothy C. Lethbridge",
+            "Affiliation": "University of Ottawa, Canada",
+            "Key": "Timothy C. Lethbridge @ University of Ottawa, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Inggriani Liem",
+            "Affiliation": "Bandung Institute of Technology, Indonesia",
+            "Key": "Inggriani Liem @ Bandung Institute of Technology, Indonesia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Maíra Marques",
+            "Affiliation": "University of Chile, Chile",
+            "Key": "Maíra Marques @ University of Chile, Chile",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Magdalena Mateescu",
+            "Affiliation": "University of Applied Sciences Northwestern Switzerland, Switzerland",
+            "Key": "Magdalena Mateescu @ University of Applied Sciences Northwestern Switzerland, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andreas Meier",
+            "Affiliation": "Zurich University of Applied Sciences, Switzerland",
+            "Key": "Andreas Meier @ Zurich University of Applied Sciences, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bertrand Meyer",
+            "Affiliation": "ETH Zurich, Switzerland",
+            "Key": "Bertrand Meyer @ ETH Zurich, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Roland T. Mittermeir",
+            "Affiliation": "University of Klagenfurt, Austria",
+            "Key": "Roland T. Mittermeir @ University of Klagenfurt, Austria",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Adi Mulyanto",
+            "Affiliation": "Bandung Institute of Technology, Indonesia",
+            "Key": "Adi Mulyanto @ Bandung Institute of Technology, Indonesia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Martin Nordio",
+            "Affiliation": "ETH Zurich, Switzerland",
+            "Key": "Martin Nordio @ ETH Zurich, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kesav V. Nori",
+            "Affiliation": "IIIT Hyderabad, India",
+            "Key": "Kesav V. Nori @ IIIT Hyderabad, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sergio F. Ochoa",
+            "Affiliation": "University of Chile, Chile",
+            "Key": "Sergio F. Ochoa @ University of Chile, Chile",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Masashi Okubo",
+            "Affiliation": "NEC, Japan",
+            "Key": "Masashi Okubo @ NEC, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andreas L. Opdahl",
+            "Affiliation": "University of Bergen, Norway",
+            "Key": "Andreas L. Opdahl @ University of Bergen, Norway",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Henrique Pötter",
+            "Affiliation": "UERJ, Brazil",
+            "Key": "Henrique Pötter @ UERJ, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Klaus Pohl",
+            "Affiliation": "University of Duisburg-Essen, Germany",
+            "Key": "Klaus Pohl @ University of Duisburg-Essen, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rafael Prikladnicki",
+            "Affiliation": "PUCRS, Brazil",
+            "Key": "Rafael Prikladnicki @ PUCRS, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Y. Raghu Reddy",
+            "Affiliation": "IIIT Hyderabad, India",
+            "Key": "Y. Raghu Reddy @ IIIT Hyderabad, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Guoping Rong",
+            "Affiliation": "Nanjing University, China",
+            "Key": "Guoping Rong @ Nanjing University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrea Salmon",
+            "Affiliation": "University of Duisburg-Essen, Germany",
+            "Key": "Andrea Salmon @ University of Duisburg-Essen, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Anthony Savidis",
+            "Affiliation": "University of Crete, Greece",
+            "Key": "Anthony Savidis @ University of Crete, Greece",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marcelo Schots",
+            "Affiliation": "UERJ, Brazil / UFRJ, Brazil",
+            "Key": "Marcelo Schots @ UERJ, Brazil / UFRJ, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yvonne Sedelmaier",
+            "Affiliation": "University of Applied Sciences and Arts Coburg, Germany",
+            "Key": "Yvonne Sedelmaier @ University of Applied Sciences and Arts Coburg, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tarek Al Shalaby",
+            "Affiliation": "Philadelphia University Jordan, Jordan",
+            "Key": "Tarek Al Shalaby @ Philadelphia University Jordan, Jordan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Venky Shankararaman",
+            "Affiliation": "Singapore Management University, Singapore",
+            "Key": "Venky Shankararaman @ Singapore Management University, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dong Shao",
+            "Affiliation": "Nanjing University, China",
+            "Key": "Dong Shao @ Nanjing University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Wolfgang Slany",
+            "Affiliation": "Graz University of Technology, Austria",
+            "Key": "Wolfgang Slany @ Graz University of Technology, Austria",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kevin Steppe",
+            "Affiliation": "Singapore Management University, Singapore",
+            "Key": "Kevin Steppe @ Singapore Management University, Singapore",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Manabu Tamaki",
+            "Affiliation": "NEC, Japan",
+            "Key": "Manabu Tamaki @ NEC, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Egon Teiniker",
+            "Affiliation": "University of Applied Sciences Joanneum, Austria",
+            "Key": "Egon Teiniker @ University of Applied Sciences Joanneum, Austria",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bastian Tenbergen",
+            "Affiliation": "University of Duisburg-Essen, Germany",
+            "Key": "Bastian Tenbergen @ University of Duisburg-Essen, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hironori Washizaki",
+            "Affiliation": "Waseda University, Japan",
+            "Key": "Hironori Washizaki @ Waseda University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Vera Werneck",
+            "Affiliation": "UERJ, Brazil",
+            "Key": "Vera Werneck @ UERJ, Brazil",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Thorsten Weyer",
+            "Affiliation": "University of Duisburg-Essen, Germany",
+            "Key": "Thorsten Weyer @ University of Duisburg-Essen, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jon Whittle",
+            "Affiliation": "Lancaster University, UK",
+            "Key": "Jon Whittle @ Lancaster University, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yani Widyani",
+            "Affiliation": "Bandung Institute of Technology, Indonesia",
+            "Key": "Yani Widyani @ Bandung Institute of Technology, Indonesia",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "W. Eric Wong",
+            "Affiliation": "University of Texas at Dallas, USA",
+            "Key": "W. Eric Wong @ University of Texas at Dallas, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yusuke Yamada",
+            "Affiliation": "Waseda University, Japan",
+            "Key": "Yusuke Yamada @ Waseda University, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shoso Yamato",
+            "Affiliation": "University of Tsukuba, Japan",
+            "Key": "Shoso Yamato @ University of Tsukuba, Japan",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Carmen Zahn",
+            "Affiliation": "University of Applied Sciences Northwestern Switzerland, Switzerland",
+            "Key": "Carmen Zahn @ University of Applied Sciences Northwestern Switzerland, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "He Zhang",
+            "Affiliation": "Nanjing University, China",
+            "Key": "He Zhang @ Nanjing University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        }
+    ]
+}
+ 
+
