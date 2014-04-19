@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1397835757,
+    "DataRevision": 1397892675,
     "Preliminary": false,
     "Event": "ICSE 2014",
     "Name": "ICSE 2014",
@@ -2365,7 +2365,7 @@
             "Affiliations": [
                 "Carnegie Mellon University, USA"
             ],
-            "Abstract": "Coordination – managing dependencies between tasks – has always been a central problem in software engineering. In projects of any scale, many people work in parallel, each with incomplete knowledge of what others are doing. The work done by one person may impact many others, meaning it may change the alternatives available to others in their work, or may change the relative value of the alternatives they are considering.",
+            "Abstract": "Product architecture structures the coordination problem that the development organization must solve. The modularity strategy establishes design rules that fix module functionality and interfaces, and assigns development work for each module to a single team. The modules present relatively independent coordination problems that teams attempt to solve with all the traditional coordination mechanisms available to them. The applicability and effectiveness of this strategy is limited with increasing technical and organizational volatility. In the absence of theory explaining why and when modularity works, the technique is brittle, with very little firm basis for adjustment or for complementing it with other strategies.  I present a theory of coordination, based on decision networks, that generalizes the modularity strategy. I review evidence testing several hypotheses derived from the theory, and explore how this theoretical view can drive coordination research and provide a theoretical basis for practical techniques to assist architects, developers, and managers.",
             "Award": ""
         },
         {
@@ -3029,7 +3029,7 @@
             "Affiliations": [
                 "University of California at Berkeley, USA"
             ],
-            "Abstract": "",
+            "Abstract": "The spectacular failure of the Affordable Care Act website (&quot;Obamacare&quot;) has focused public attention on software engineering. Yet experienced practitioners mostly sighed and shrugged, because the historical record shows that only 10 % of large (&gt; 10 M) software projects using conventional methodologies such as Waterfall are successful. In contrast, Amazon and others successfully build comparably large and complex sites with hundreds of integrated subsystems by using modern agile methods and service-oriented architecture.  This contrast is one reason Industry has complained that academia ignores vital software topics, leaving students unprepared upon graduation. In too many courses, well-meaning instructors teach traditional approaches to software development that are neither supported by tools that students can readily use, nor appropriate for projects whose scope matches a college course. Students respond by continuing to build software more or less the way they always have, which is boring for students, frustrating for instructors, and disappointing for industry.  This talk explains how the confluence of cloud computing, software as a service (SaaS), and Massive Open Online Courses (MOOCs) have not only revolutionized the future of software, but changed it in a way that makes it easier and more rewarding to teach. UC Berkeley&#039;s revised Software Engineering course allows students to both enhance a legacy application and to develop a new app that matches requirements of non-technical customers, using the same tools and techniques that professionals use. By experiencing the whole software lifecycle repeatedly within a single college course, students learn to use and appreciate the skills that industry has long encouraged. The course is now popular with students, rewarding for faculty, and praised by industry.",
             "Award": ""
         },
         {
@@ -5557,6 +5557,360 @@
             ],
             "Abstract": "sig-alternate balance document   % --- Author Metadata here --- ICSE&#039;14, May 31 - June 7, 2014, Hyderabad, India CopyrightYear14 978-1-4503-2768-8/14/05 % --- End of Author Metadata ---   Privacy and Security Requirements Framework for the Internet of Things (IoT) [Extended Abstract] 1   Israa Alqassem  Institute Center for Smart and Sustainable Systems (iSmart)   Electrical Engineering and Computer Science   Masdar Institute of Science and Technology   Abu Dhabi, United Arab Emirates   ialqassem@masdar.ac.ae     abstract  Capturing privacy and security requirements in the very early stages is essential for creating sufficient public confidence in order to facilitate the adaption of novel systems such as the Internet of Things (IoT). However, traditional requirements engineering methods and frameworks might not be sufficiently effective when dealing with new types of IoT heterogeneous systems. Therefore, building a methodological framework to model the privacy and security requirements specifications for IoT is necessary in order to deal with its mission critical nature. The purpose of this project is to develop such a requirements engineering framework in order to ensure proper development of IoT with security and privacy taken into account from the earliest stages.  abstract  D.2.1Software EngineeringRequirements/Specifications[Methodologies, Tools] Security  Internet of Things, RFID, privacy, security, requirements engineering, requirements elicitation  Introduction  The idea behind the Internet of Things (IoT) is to connect not only people and computer devices, but also everyday objects to the Internet. This can be achieved by equipping things with computing and communication abilities, thus entirely mapping the physical world to the digital one. This vision came from the fact that people have limitations in time and accuracy when it comes to data gathering and generating, but if these processes can be done without any human interference (i.e., by having uniquely identifiable objects to report their status, location, addresses, etc.), then the costs and losses will be reduced dramatically. The IoT has the potential to change the ways of working and living with its new aspects of communication and interaction, and innovative services and applications, e.g., real-time objects monitoring, search engine for things, etc. Atzori2010,Miorandi2012.  The IoT is exposed to significant privacy and security risks. They can themselves be used to both protect and violate individual&#039;s privacy and security. First, Atzori et al. Atzori2010 mentioned theft application as one of the potential applications of the IoT due to the reason that the existence of the IoT will make it possible to develop an application which sends out SMS messages immediately to users whenever their personal stuff (such as television or wallet) is moved from predefined locations without their permission.  Second, the architectural nature of the IoT, where billions of objects may interact with each other, will attract malicious attackers and eavesdroppers to collect data thus breaking privacy and security rules Roman2013. Hence, maintaining secure and private connections and transmission of information, in addition to prevent data collection are unquestionably crucial requirements to build up the IoT.  The most complex challenge from the requirements engineering perspective is the difficulty of specifying requirements, and security and privacy requirements in particular, for a system with so many components that can be randomly integrated in various systems at various times and places. For the IoT, it is difficult even to envision what system an object will be a part of. As such, we must develop a requirements framework that takes security and privacy into account both at the component level as well as a part of a system-of-systems.    IoT Components  The key components of the IoT are RFID systems and sensor networks Atzori2010: enumerate  RFID Systems Atzori2010,Buettner2008: The full deployment of the IoT relies on the widespread use of Radio-Frequency IDentification (RFID) tags to identify everyday objects, which enables the tracking ability of objects throughout space and time in a sustainable manner. RFID is considered as an enabling technology and it has a wide range of beneficial applications such as electronic toll collection systems, access management systems, airport baggage tracking logistics, etc. By using RFID, it is possible for an object to identify itself to another object, and on that account RFID systems form the basic structural unit of the IoT. RFID systems are composed of: itemize   uniquely identifiable tags that can be assigned to different objects. Each tag is able to receive a reader&#039;s signal, and it is able to transmit its ID back to the reader;   readers whose responsibility is to generate appropriate signals to receive tag IDs. itemize  It is worth mentioning that new tag technologies are being investigated i.e. chipless tags, to ensure interpretability and data security and to reduce the production cost Tedjini2010.   Sensor Networks: They are currently used in various fields like e-health, military and industry. Each sensor network consists of a large number of sensing nodes, in addition to a special node called sink, where the sink node is used to collect sensing results reported by other nodes in the network. Because such networks can cooperate with RFID systems to enhance objects tracking, sensor networks have a significant role in the IoT development.   Several studies have been performed in order to solve the current issues of sensor networks Akyildiz2002. For example, in Said2013, Said et al. suggested a new Effective Data Aggregation Protocol (DAP) that addresses the limited capabilities of sensor networks: energy consumption, small memory size, scalability, etc. enumerate    Security Requirements Framework  Although a number of recent studies have addressed the privacy and security challenges in the IoT Roman2013,Miorandi2012, most of them were from the low-level networking perspective. We could not find any studies about system-level issues or any frameworks that deals with these challenges at the requirements and system level.  In our preliminary analysis, we identified the following obstacles to defining and analyzing IoT privacy and security requirements: enumerate  It is very challenging to determine what information should be protected, when to protect it and to whom access should be granted/restricted.  The IoT consists of diverse technologies and the integration of these technologies leads to unknown risks and issues Sutcliffe2013.  The changing nature of the environment plays an important role when dealing with the privacy and security vulnerabilities of the IoT. enumerate   To overcome these problems, it is necessary to develop a framework which achieves the following goals: itemize  analyze users interactions with the IoT in real time in order to provide a set of privacy and security requirements to be fulfilled through the self-adaptive and self-healing nature of the IoT;  expose misunderstandings and find out if there are any conflicts between privacy and security requirements and other requirements (functionality, usability and reliability);  manage complexity and validate the behavior of the IoT in different applications and domains such as e-health, in order to identify potential security and privacy threats. itemize  In the first stage of our work, we will focus on goal elicitation and modeling in order to develop the preliminary IoT system goal models, describe relationships among agents as a pre-requisite to agent-oriented systems modeling in order to deal with conflicting and competing goals Yu2001,yu2002,Liu2003. In particular, we will use the i* framework Yu2001, and apply it on a IoT case study (smart grid metering infrastructure as an example of IoT). We will perform an extensive analysis and evaluation of the case study results.   In the second stage of our work, we will develop extension to i* framework based on the evaluation of the results from the first stage. In particular, it will be necessary to improve the framework so that it: itemize  provides in-depth investigation of expected privacy and security vulnerabilities in the IoT;  elicits, identifies, and analyzes privacy and security requirements in a systematic fashion, taking into account the dynamic features of the IoT. itemize   In summary, analyzing security and privacy requirements in complex systems, such as the IoT systems, is essential in preventing failures and ensuring wider customer acceptance. The i* framework is a well accepted modeling framework and a good candidate for a case study evaluation and further improvements necessary to support IoT systems development. We will particularly focus on tackling IoT specific challenges such as the inter-agent communication, system&#039;s complexity and scalability, etc. that are not supported well by i* framework Franch2012. This in turn will lead towards a better understanding of the IoT development challenges, and open the future research directions in IoT software architecture design, IoT testing methods, etc. Overall tight integration and adaptation of software engineering methods will improve our ability to tackle development challenges due to the IoT heterogeneity, limited computational power, network communication overload, distribution, etc.   abbrv sigproc document",
             "Award": ""
+        },
+        {
+            "Title": "Software Process",
+            "Type": "Full Paper",
+            "Key": "fose14main-id1-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAlfonso+Fuggetta+and+Elisabetta+Di+Nitto+%22Software+Process%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Alfonso Fuggetta and Elisabetta Di Nitto",
+            "AffiliationsString": "Politecnico di Milano, Italy",
+            "Authors": [
+                "Alfonso Fuggetta @ Politecnico di Milano, Italy",
+                "Elisabetta Di Nitto @ Politecnico di Milano, Italy"
+            ],
+            "Affiliations": [
+                "Politecnico di Milano, Italy",
+                "Politecnico di Milano, Italy"
+            ],
+            "Abstract": "This paper is a travelogue of Software Process research and practice in the past 15 years. It is based on the paper written by one of the authors for the FOSE Track at ICSE 2000. Since then, the landscape of Software Process research has significantly evolved: technological breakthroughs and market disruptions have defined new and complex challenges for Software Engineering researchers and practitioners.  In this paper we provide an overview of the current status of research and practice, highlight new challenges, and provide a non-exhaustive list of research issues that, in our view, need to be tackled by future research work.",
+            "Award": ""
+        },
+        {
+            "Title": "Software Engineering for Mobility: Reflecting on the Past, Peering into the Future",
+            "Type": "Full Paper",
+            "Key": "fose14main-id3-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DGian+Pietro+Picco%2C+Christine+Julien%2C+Amy+L.+Murphy%2C+Mirco+Musolesi%2C+and+Gruia-Catalin+Roman+%22Software+Engineering+for+Mobility%3A+Reflecting+on+the+Past%2C+Peering+into+the+Future%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Gian Pietro Picco, Christine Julien, Amy L. Murphy, Mirco Musolesi, and Gruia-Catalin Roman",
+            "AffiliationsString": "University of Trento, Italy; University of Texas at Austin, USA; Fondazione Bruno Kessler, Italy; University of Birmingham, UK; University of New Mexico, USA",
+            "Authors": [
+                "Gian Pietro Picco @ University of Trento, Italy",
+                "Christine Julien @ University of Texas at Austin, USA",
+                "Amy L. Murphy @ Fondazione Bruno Kessler, Italy",
+                "Mirco Musolesi @ University of Birmingham, UK",
+                "Gruia-Catalin Roman @ University of New Mexico, USA"
+            ],
+            "Affiliations": [
+                "University of Trento, Italy",
+                "University of Texas at Austin, USA",
+                "Fondazione Bruno Kessler, Italy",
+                "University of Birmingham, UK",
+                "University of New Mexico, USA"
+            ],
+            "Abstract": "At the end of the second millennium, mobility was a hot research topic. Physical mobility of devices was becoming commonplace with the availability of cheap wireless cards, the first attempts to transform phones into personal do-it-all devices were beginning to appear, and mobile ad hoc networks were attracting a huge interest from many research communities. Logical mobility of code was still going strong as a design option for distributed systems, with the Java language providing some of the ready-to-use building blocks. In 2000, when we put forth a research “roadmap” for software engineering for mobility, the challenges posed by this dynamic scenario were many. A decade and a half later, many things have changed. Mobility is no longer exotic: we juggle multiple personal devices every day while on the move, plus we grab and update applications on a whim from virtual stores. Indeed, some trends and visions we considered in our original paper materialized, while others faded, disappeared, or morphed into something else. Moreover, some players unexpected at the time (e.g., cloud computing and online social networks) appeared on the scene as game changers. In this paper we revisit critically our original vision, reflecting on the past and peering into the future of the lively and exciting research area of mobility. Further, we ask ourselves to what extent the software engineering community is still interested in taking up the challenges mobility bears.",
+            "Award": ""
+        },
+        {
+            "Title": "Software Architecture: A Travelogue",
+            "Type": "Full Paper",
+            "Key": "fose14main-id13-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDavid+Garlan+%22Software+Architecture%3A+A+Travelogue%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "David Garlan",
+            "AffiliationsString": "Carnegie Mellon University, USA",
+            "Authors": [
+                "David Garlan @ Carnegie Mellon University, USA"
+            ],
+            "Affiliations": [
+                "Carnegie Mellon University, USA"
+            ],
+            "Abstract": "Over the past two and a half decades software architecture has emerged as an important subfield of software engineering. During that time there has been considerable progress in developing the technological and methodological base for treating architectural design as an engineering discipline. However, much still remains to be done to achieve that. Moreover, the changing face of technology raises a number of challenges for software architecture. This travelogue recounts the history of the field, its current state of practice and research, and speculates on some of the important emerging trends, challenges, and aspirations.",
+            "Award": ""
+        },
+        {
+            "Title": "Software Services: A Research Roadmap",
+            "Type": "Full Paper",
+            "Key": "fose14main-id11-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSatish+Chandra%2C+Vibha+Singhal+Sinha%2C+Saurabh+Sinha%2C+and+Krishna+Ratakonda+%22Software+Services%3A+A+Research+Roadmap%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Satish Chandra, Vibha Singhal Sinha, Saurabh Sinha, and Krishna Ratakonda",
+            "AffiliationsString": "Samsung Electronics, USA; IBM Research, India; IBM Research, USA",
+            "Authors": [
+                "Satish Chandra @ Samsung Electronics, USA",
+                "Vibha Singhal Sinha @ IBM Research, India",
+                "Saurabh Sinha @ IBM Research, India",
+                "Krishna Ratakonda @ IBM Research, USA"
+            ],
+            "Affiliations": [
+                "Samsung Electronics, USA",
+                "IBM Research, India",
+                "IBM Research, India",
+                "IBM Research, USA"
+            ],
+            "Abstract": "Software services companies offer software development, testing and maintenance as a “service” to other organizations. As a thriv- ing industry in its own right, software services offers certain unique research problems as well as different takes on research problems typically considered in software engineering research. In this paper, we highlight some of these research problems, drawing heavily upon our involvement with IBM Global Business Services organization over the past several years. We focus on four selected topics: how to organize people and the flow of work through people, how to manage knowledge at an organizational level, how to estimate and manage risk in a services engagement, and finally, testing services. These topics by no means cover all areas pertinent to soft- ware services; rather, they reflect ones in which we have personal perspectives to offer. We also share our experience in deployment of research innovations in a large service delivery organization.",
+            "Award": ""
+        },
+        {
+            "Title": "Software Traceability: Trends and Future Directions",
+            "Type": "Full Paper",
+            "Key": "fose14main-id12-p",
+            "URL": "http%3A%2F%2Fre.cs.depaul.edu%2Fpapers%2F2014-ICSE-FOSE.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Jane Cleland-Huang, Orlena C. Z. Gotel, Jane Huffman Hayes, Patrick Mäder, and Andrea Zisman",
+            "AffiliationsString": "DePaul University, USA; University of Kentucky, USA; TU Ilmenau, Germany; Open University, UK",
+            "Authors": [
+                "Jane Cleland-Huang @ DePaul University, USA",
+                "Orlena C. Z. Gotel @ n.n., n.n.",
+                "Jane Huffman Hayes @ University of Kentucky, USA",
+                "Patrick Mäder @ TU Ilmenau, Germany",
+                "Andrea Zisman @ Open University, UK"
+            ],
+            "Affiliations": [
+                "DePaul University, USA",
+                "n.n., n.n.",
+                "University of Kentucky, USA",
+                "TU Ilmenau, Germany",
+                "Open University, UK"
+            ],
+            "Abstract": "Software traceability is a sought-after, yet often elusive quality in software-intensive systems. Required in safety-critical systems by many certifying bodies, such as the USA Federal Aviation Authority, software traceability is an essential element of the software development process. In practice, traceability is often conducted in an ad-hoc, after-the-fact manner and, therefore, its benefits are not always fully realized. Over the past decade, researchers have focused on specific areas of the traceability problem, developing more sophisticated tooling, promoting strategic planning, applying information retrieval techniques capable of semi-automating the trace creation and maintenance process, developing new trace query languages and visualization techniques that use trace links, and applying traceability in specific domains such as Model Driven Development, product line systems, and agile project environments. In this paper, we build upon a prior body of work to highlight the state-of-the-art in software traceability, and to present compelling areas of research that need to be addressed.",
+            "Award": ""
+        },
+        {
+            "Title": "Software Product Line Engineering and Variability Management: Achievements and Challenges",
+            "Type": "Full Paper",
+            "Key": "fose14main-id5-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndreas+Metzger+and+Klaus+Pohl+%22Software+Product+Line+Engineering+and+Variability+Management%3A+Achievements+and+Challenges%22",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Fwww.sse.uni-due.de%2Fen%2Ffose14%2F",
+            "PersonsString": "Andreas Metzger and Klaus Pohl",
+            "AffiliationsString": "University of Duisburg-Essen, Germany",
+            "Authors": [
+                "Andreas Metzger @ University of Duisburg-Essen, Germany",
+                "Klaus Pohl @ University of Duisburg-Essen, Germany"
+            ],
+            "Affiliations": [
+                "University of Duisburg-Essen, Germany",
+                "University of Duisburg-Essen, Germany"
+            ],
+            "Abstract": "Software product line engineering has proven to empower organizations to develop a diversity of similar software-intensive systems (applications) at lower cost, in shorter time, and with higher quality when compared with the development of single systems. Over the last decade the software product line engineering research community has grown significantly. It has produced impressive research results both in terms of quality as well as quantity. We identified over 600 relevant research and experience papers published within the last seven years in established conferences and journals. We briefly summarize the major research achievements of these past seven years. We structure this research summary along a standardized software product line framework. Further, we outline current and future research challenges anticipated from major trends in software engineering and technology.",
+            "Award": ""
+        },
+        {
+            "Title": "Engineering Big Data Solutions",
+            "Type": "Full Paper",
+            "Key": "fose14main-id7-p",
+            "URL": "http%3A%2F%2Fmockus.org%2Fpapers%2FBigData.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Audris Mockus",
+            "AffiliationsString": "Avaya Labs Research, USA",
+            "Authors": [
+                "Audris Mockus @ Avaya Labs Research, USA"
+            ],
+            "Affiliations": [
+                "Avaya Labs Research, USA"
+            ],
+            "Abstract": "Structured and unstructured data in operational support tools have long been prevalent in software engineering. Similar data is now becoming widely available in other domains. Software systems that utilize such operational data (OD) to help with software design and maintenance activities are increasingly being built despite the difficulties of drawing valid conclusions from disparate and low-quality data and the continuing evolution of operational support tools. This paper proposes systematizing approaches to the engineering of OD-based systems. To prioritize and structure research areas we consider historic developments, such as big data hype; synthesize defining features of OD, such as confounded measures and unobserved context; and discuss emerging new applications, such as diverse and large OD collections and extremely short development intervals. To sustain the credibility of OD-based systems more research will be needed to investigate effective existing approaches and to synthesize novel, OD-specific engineering principles.",
+            "Award": ""
+        },
+        {
+            "Title": "The (R)Evolution of Social Media in Software Engineering",
+            "Type": "Full Paper",
+            "Key": "fose14main-id2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMargaret-Anne+Storey%2C+Leif+Singer%2C+Brendan+Cleary%2C+Fernando+Figueira+Filho%2C+and+Alexey+Zagalsky+%22The+%28R%29Evolution+of+Social+Media+in+Software+Engineering%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Margaret-Anne Storey, Leif Singer, Brendan Cleary, Fernando Figueira Filho, and Alexey Zagalsky",
+            "AffiliationsString": "University of Victoria, Canada; Federal University of Rio Grande do Norte, Brazil",
+            "Authors": [
+                "Margaret-Anne Storey @ University of Victoria, Canada",
+                "Leif Singer @ University of Victoria, Canada",
+                "Brendan Cleary @ University of Victoria, Canada",
+                "Fernando Figueira Filho @ Federal University of Rio Grande do Norte, Brazil",
+                "Alexey Zagalsky @ University of Victoria, Canada"
+            ],
+            "Affiliations": [
+                "University of Victoria, Canada",
+                "University of Victoria, Canada",
+                "University of Victoria, Canada",
+                "Federal University of Rio Grande do Norte, Brazil",
+                "University of Victoria, Canada"
+            ],
+            "Abstract": "Software developers rely on media to communicate, learn, collaborate, and coordinate with others. Recently, social media has dramatically changed the landscape of software engineering, challenging some old assumptions about how developers learn and work with one another. We see the rise of the social programmer who actively participates in online communities and openly contributes to the creation of a large body of crowdsourced socio-technical content.  In this paper, we examine the past, present, and future roles of social media in software engineering. We provide a review of research that examines the use of different media channels in software engineering from 1968 to the present day. We also provide preliminary results from a large survey with developers that actively use social media to understand how they communicate and collaborate, and to gain insights into the challenges they face. We find that while this particular population values social media, traditional channels, such as face-to-face communication, are still considered crucial. We synthesize findings from our historical review and survey to propose a roadmap for future research on this topic. Finally, we discuss implications for research methods as we argue that social media is poised to bring about a paradigm shift in software engineering research.",
+            "Award": ""
+        },
+        {
+            "Title": "Software Testing: A Research Travelogue (2000–2014)",
+            "Type": "Full Paper",
+            "Key": "fose14main-id4-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAlessandro+Orso+and+Gregg+Rothermel+%22Software+Testing%3A+A+Research+Travelogue+%282000%E2%80%932014%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Alessandro Orso and Gregg Rothermel",
+            "AffiliationsString": "Georgia Tech, USA; University of Nebraska-Lincoln, USA",
+            "Authors": [
+                "Alessandro Orso @ Georgia Tech, USA",
+                "Gregg Rothermel @ University of Nebraska-Lincoln, USA"
+            ],
+            "Affiliations": [
+                "Georgia Tech, USA",
+                "University of Nebraska-Lincoln, USA"
+            ],
+            "Abstract": "Despite decades of work by researchers and practitioners on numerous software quality assurance techniques, testing remains one of the most widely practiced and studied approaches for assessing and improving software quality. Our goal, in this paper, is to provide an accounting of some of the most successful research performed in software testing since the year 2000, and to present what appear to be some of the most significant challenges and opportunities in this area. To be more inclusive in this effort, and to go beyond our own personal opinions and biases, we began by contacting over 50 of our colleagues who are active in the testing research area, and asked them what they believed were (1) the most significant contributions to software testing since 2000 and (2) the greatest open challenges and opportunities for future research in this area. While our colleagues’ input (consisting of about 30 responses) helped guide our choice of topics to cover and ultimately the writing of this paper, we by no means claim that our paper represents all the relevant and noteworthy research performed in the area of software testing in the time period considered—a task that would require far more space and time than we have available. Nevertheless, we hope that the approach we followed helps this paper better reflect not only our views, but also those of the software testing community in general.",
+            "Award": ""
+        },
+        {
+            "Title": "Software Evolution and Maintenance",
+            "Type": "Full Paper",
+            "Key": "fose14main-id9-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DV%C3%A1clav+Rajlich+%22Software+Evolution+and+Maintenance%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Václav Rajlich",
+            "AffiliationsString": "Wayne State University, USA",
+            "Authors": [
+                "Václav Rajlich @ Wayne State University, USA"
+            ],
+            "Affiliations": [
+                "Wayne State University, USA"
+            ],
+            "Abstract": "Successful software requires constant change that is triggered by evolving requirements, technologies, and stakeholder knowledge. This constant change constitutes software evolution. Software evolution has gained steadily in importance and recently moved into the center of attention of software developers. There is the new prominence of evolutionary software development that includes agile, iterative, open source, inner source, and other processes. As a consequence, the bulk of software development now happens in the stage of software evolution and this changed the face of software engineering. This paper discusses evolutionary software development and also discusses the software change, which is the fundamental software evolution task. It further discusses research methodologies, teaching software evolution in undergraduate curriculum, and difference between software evolution and software maintenance. For all these themes, this travelogue paper presents the current state of the art and the perspective of the future advance.",
+            "Award": ""
+        },
+        {
+            "Title": "How Programming Languages Will Co-evolve with Software Engineering: A Bright Decade Ahead",
+            "Type": "Full Paper",
+            "Key": "fose14main-id6-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DEmerson+Murphy-Hill+and+Dan+Grossman+%22How+Programming+Languages+Will+Co-evolve+with+Software+Engineering%3A+A+Bright+Decade+Ahead%22",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Fpeople.engr.ncsu.edu%2Fermurph3%2Fpapers%2FICSE14_FoSE.pdf",
+            "PersonsString": "Emerson Murphy-Hill and Dan Grossman",
+            "AffiliationsString": "North Carolina State University, USA; University of Washington, USA",
+            "Authors": [
+                "Emerson Murphy-Hill @ North Carolina State University, USA",
+                "Dan Grossman @ University of Washington, USA"
+            ],
+            "Affiliations": [
+                "North Carolina State University, USA",
+                "University of Washington, USA"
+            ],
+            "Abstract": "Programming languages are an indispensable foundation of software engineering, so it is essential that innovations in software engineering anticipate and influence innovations in programming languages and vice-versa. We discuss seven emerging trends in the design, adoption, and use of programming languages that have clear and valuable overlap with software engineering. These themes include language design that assumes modern development ecosystems; languages that support multiple views; data-driven language design; formal and machine-checked verification that works for real systems; gradual typing; languages that embrace a distributed, asynchronous world of large external data sources; and the increasing influence of functional-programming concepts. We discuss how the time is now for software-engineering research to influence and improve these significant changes to the field.",
+            "Award": ""
+        },
+        {
+            "Title": "Software Engineering and Automated Deduction",
+            "Type": "Full Paper",
+            "Key": "fose14main-id8-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DWillem+Visser%2C+Nikolaj+Bj%C3%B8rner%2C+and+Natarajan+Shankar+%22Software+Engineering+and+Automated+Deduction%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Willem Visser, Nikolaj Bjørner, and Natarajan Shankar",
+            "AffiliationsString": "Stellenbosch University, South Africa; Microsoft Research, USA; SRI Computer Science Lab, USA",
+            "Authors": [
+                "Willem Visser @ Stellenbosch University, South Africa",
+                "Nikolaj Bjørner @ Microsoft Research, USA",
+                "Natarajan Shankar @ SRI Computer Science Lab, USA"
+            ],
+            "Affiliations": [
+                "Stellenbosch University, South Africa",
+                "Microsoft Research, USA",
+                "SRI Computer Science Lab, USA"
+            ],
+            "Abstract": "Software poses a range of engineering challenges. How do we capture the expected behavior of the software? How can we check if such behavioral descriptions are consistent and valid? How do we generate test instances that explore and examine different parts of the software. We focus on the underlying technology by which a number of these problems can be reduced to a logical form and answered using automated deduction. In the first part we briefly summarize the use of automated deduction within software engineering. Then we consider some of the current and future trends in software engineering and the type of advances it may require from automated deduction. We observe that in the past software engineering problems were solved by merely leveraging advances in automated deduction, especially in SAT and SMT solving, whereas we are now entering a phase where advances in automated deduction are also driven by software engineering requirements.",
+            "Award": ""
+        },
+        {
+            "Title": "Probabilistic Programming",
+            "Type": "Full Paper",
+            "Key": "fose14main-id15-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndrew+D.+Gordon%2C+Thomas+A.+Henzinger%2C+Aditya+V.+Nori%2C+and+Sriram+K.+Rajamani+%22Probabilistic+Programming%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Andrew D. Gordon, Thomas A. Henzinger, Aditya V. Nori, and Sriram K. Rajamani",
+            "AffiliationsString": "Microsoft Research, UK; IST Austria, Austria; Microsoft Research, India",
+            "Authors": [
+                "Andrew D. Gordon @ Microsoft Research, UK",
+                "Thomas A. Henzinger @ IST Austria, Austria",
+                "Aditya V. Nori @ Microsoft Research, India",
+                "Sriram K. Rajamani @ Microsoft Research, India"
+            ],
+            "Affiliations": [
+                "Microsoft Research, UK",
+                "IST Austria, Austria",
+                "Microsoft Research, India",
+                "Microsoft Research, India"
+            ],
+            "Abstract": "Probabilistic programs are usual functional or imperative programs with two added constructs: (1) the ability to draw values at random from distributions, and (2) the ability to condition values of variables in a program via observations. Models from diverse application areas such as computer vision, coding theory, cryptographic protocols, biology and reliability analysis can be written as probabilistic programs.  Probabilistic inference is the problem of computing an explicit representation of the probability distribution implicitly specified by a probabilistic program. Depending on the application, the desired output from inference may vary---we may want to estimate the expected value of some function f with respect to the distribution, or the mode of the distribution, or simply a set of samples drawn from the distribution.  In this paper, we describe connections this research area called ``Probabilistic Programming&quot; has with programming languages and software engineering, and this includes language design, and the static and dynamic analysis of programs. We survey current state of the art and speculate on promising directions for future research.",
+            "Award": ""
+        },
+        {
+            "Title": "Certifiably Safe Software-Dependent Systems: Challenges and Directions",
+            "Type": "Full Paper",
+            "Key": "fose14main-id14-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJohn+Hatcliff%2C+Alan+Wassyng%2C+Tim+Kelly%2C+Cyrille+Comar%2C+and+Paul+Jones+%22Certifiably+Safe+Software-Dependent+Systems%3A+Challenges+and+Directions%22",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Fsantoslab.org%2Fpub%2Fpapers%2Ffose14-certification%2F",
+            "PersonsString": "John Hatcliff, Alan Wassyng, Tim Kelly, Cyrille Comar, and Paul Jones",
+            "AffiliationsString": "Kansas State University, USA; McMaster University, Canada; University of York, UK; AdaCore, France; US Food and Drug Administration, USA",
+            "Authors": [
+                "John Hatcliff @ Kansas State University, USA",
+                "Alan Wassyng @ McMaster University, Canada",
+                "Tim Kelly @ University of York, UK",
+                "Cyrille Comar @ AdaCore, France",
+                "Paul Jones @ US Food and Drug Administration, USA"
+            ],
+            "Affiliations": [
+                "Kansas State University, USA",
+                "McMaster University, Canada",
+                "University of York, UK",
+                "AdaCore, France",
+                "US Food and Drug Administration, USA"
+            ],
+            "Abstract": "The amount and impact of software-dependence in critical systems impinging on daily life is increasing rapidly. In many of these systems, inadequate software and systems engineering can lead to economic disaster, injuries or death. Society generally does not recognize the potential of losses from deficiencies of systems due to software until after some mishap occurs. Then there is an outcry, reflecting societal expectations; however, few know what it takes to achieve the expected safety and, in general, loss-prevention.  On the one hand there are unprecedented, exponential increases in size, inter-dependencies, intricacies, numbers and variety in the systems and distribution of development processes across organizations and cultures. On the other hand, industry&#039;s capability to verify and validate these systems has not kept up. Mere compliance with existing standards, techniques, and regulations cannot guarantee the safety properties of these systems. The gap between practice and capability is increasing rapidly.  This paper considers the future of software engineering as needed to support development and certification of safety-critical software-dependent systems. We identify a collection of challenges and document their current state, the desired state, gaps and barriers to reaching the desired state, and potential directions in software engineering research and education that could address the gaps and barriers.",
+            "Award": ""
+        },
+        {
+            "Title": "Future of End-User Software Engineering: Beyond the Silos",
+            "Type": "Full Paper",
+            "Key": "fose14main-id10-p",
+            "URL": "ftp%3A%2F%2Fftp.cs.orst.edu%2Fpub%2Fburnett%2Ficse14-EUSE-future-FOSE.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Margaret M. Burnett and Brad A. Myers",
+            "AffiliationsString": "Oregon State University, USA; Carnegie Mellon University, USA",
+            "Authors": [
+                "Margaret M. Burnett @ Oregon State University, USA",
+                "Brad A. Myers @ Carnegie Mellon University, USA"
+            ],
+            "Affiliations": [
+                "Oregon State University, USA",
+                "Carnegie Mellon University, USA"
+            ],
+            "Abstract": "End-user software engineering (EUSE) is a research area that aims to invent new kinds of technologies that collaborate with end users to improve the quality of their software. The practice that EUSE research aims to support is end users using new tools and methods to improve the quality of the software that they and other end users have created. There is a need for this outcome because research shows both that the number of end users creating their own software greatly exceeds the number of professional software developers, and that the software they create is riddled with errors. In this paper, we describe the present state of EUSE, and challenges in moving forward toward a bright future. We show how the future of EUSE may become over-siloed, restricting future researchers&#039; vision of what can be achieved. We then show that focusing on the in-the-moment intents of end-user developers can be used to derive a number of promising directions forward for EUSE researchers, and how theories can help us further de-silo future EUSE research. Finally, we discuss how overcoming challenges for the future of end-user software engineering may also bring direct benefits to the future of &quot;classic&quot; software engineering.",
+            "Award": ""
+        },
+        {
+            "Title": "The Past, Present, and Future of MOOCs and Their Relevance to Software Engineering",
+            "Type": "Full Paper",
+            "Key": "fose14main-id16-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBalakrishnan+Dasarathy%2C+Kevin+Sullivan%2C+Douglas+C.+Schmidt%2C+Douglas+H.+Fisher%2C+and+Adam+Porter+%22The+Past%2C+Present%2C+and+Future+of+MOOCs+and+Their+Relevance+to+Software+Engineering%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Balakrishnan Dasarathy, Kevin Sullivan, Douglas C. Schmidt, Douglas H. Fisher, and Adam Porter",
+            "AffiliationsString": "University of Maryland University College, USA; University of Virginia, USA; Vanderbilt University, USA; University of Maryland at College Park, USA",
+            "Authors": [
+                "Balakrishnan Dasarathy @ University of Maryland University College, USA",
+                "Kevin Sullivan @ University of Virginia, USA",
+                "Douglas C. Schmidt @ Vanderbilt University, USA",
+                "Douglas H. Fisher @ Vanderbilt University, USA",
+                "Adam Porter @ University of Maryland at College Park, USA"
+            ],
+            "Affiliations": [
+                "University of Maryland University College, USA",
+                "University of Virginia, USA",
+                "Vanderbilt University, USA",
+                "Vanderbilt University, USA",
+                "University of Maryland at College Park, USA"
+            ],
+            "Abstract": "Massive open online courses (MOOCs) are a recent development in online education aimed at unlimited participation and open access via the Web. They are a potentially disruptive technology, changing how education is delivered and funded around the world. MOOCs are relevant to software researchers and practitioners, not only because they will increasingly receive lifelong education through MOOCs and related technologies, but also because content creation, delivery, and enhancement of MOOCs is evolving into a new form of socially- and cognitively-embedded software development. This paper discusses how education is being enhanced by MOOCs and other digital learning technology.  In particular, we distinguish the free educational content provided by MOOCs from the emerging collaborative processes through which MOOCs are created, which is arguably more transformative on education than the content itself. We discuss blended models of higher education to suit different learner communities, as well as nascent moves toward the creation of instructional communities of educators that transcend institutional boundaries. We also explore MOOCs and their evolution as a subject for research in the learning sciences and implications for R&amp;D in software and systems engineering.",
+            "Award": ""
         }
     ],
     "Sessions": [
@@ -6015,6 +6369,79 @@
             "Workshop": false,
             "Comment": "ICSEWS14MISE",
             "Abstract": ""
+        },
+        {
+            "Id": "uteeC0ieba",
+            "Title": "Travelogues: From Limerick to Hyderabad",
+            "ShortTitle": "Travelogues: From Limerick to Hyderabad",
+            "Type": "FOSE",
+            "ShortType": "FOSE",
+            "Key": "2014-06-04 00:00 Travelogues: From Limerick to Hyderabad",
+            "Day": "2014-06-04",
+            "Time": "00:00 - 01:00",
+            "Location": "2.1",
+            "LocationIndex": "23",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FOSE14MAIN",
+            "Abstract": "",
+            "Items": [
+                "fose14main-id1-p",
+                "fose14main-id3-p",
+                "fose14main-id13-p",
+                "fose14main-id11-p"
+            ]
+        },
+        {
+            "Id": "eiw7Ri8hai",
+            "Title": "Roadmaps: Forward from Hyderabad",
+            "ShortTitle": "Roadmaps: Forward from Hyderabad",
+            "Type": "FOSE",
+            "ShortType": "FOSE",
+            "Key": "2014-06-04 00:00 Roadmaps: Forward from Hyderabad",
+            "Day": "2014-06-04",
+            "Time": "00:00 - 01:00",
+            "Location": "3.1",
+            "LocationIndex": "24",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FOSE14MAIN",
+            "Abstract": "",
+            "Items": [
+                "fose14main-id12-p",
+                "fose14main-id5-p",
+                "fose14main-id7-p"
+            ]
+        },
+        {
+            "Id": "ahRei1Oyez",
+            "Title": "Roadmaps and Travelogues",
+            "ShortTitle": "Roadmaps and Travelogues",
+            "Type": "FOSE",
+            "ShortType": "FOSE",
+            "Key": "2014-06-04 00:00 Roadmaps and Travelogues",
+            "Day": "2014-06-04",
+            "Time": "00:00 - 01:00",
+            "Location": "4.1",
+            "LocationIndex": "15",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FOSE14MAIN",
+            "Abstract": "",
+            "Items": [
+                "fose14main-id2-p",
+                "fose14main-id4-p",
+                "fose14main-id9-p"
+            ]
         },
         {
             "Id": "othai5NeiR",
@@ -7423,6 +7850,54 @@
             "Abstract": ""
         },
         {
+            "Id": "ahSei2eev0",
+            "Title": "Connections: Leveraging Allied Fields to Advance SE",
+            "ShortTitle": "Connections: Leveraging Allied Fields to Advance SE",
+            "Type": "FOSE",
+            "ShortType": "FOSE",
+            "Key": "2014-06-06 00:00 Connections: Leveraging Allied Fields to Advance SE",
+            "Day": "2014-06-06",
+            "Time": "00:00 - 01:00",
+            "Location": "2.1",
+            "LocationIndex": "23",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FOSE14MAIN",
+            "Abstract": "",
+            "Items": [
+                "fose14main-id6-p",
+                "fose14main-id8-p",
+                "fose14main-id15-p"
+            ]
+        },
+        {
+            "Id": "OThari7lie",
+            "Title": "Roadmaps",
+            "ShortTitle": "Roadmaps",
+            "Type": "FOSE",
+            "ShortType": "FOSE",
+            "Key": "2014-06-06 00:00 Roadmaps",
+            "Day": "2014-06-06",
+            "Time": "00:00 - 01:00",
+            "Location": "3.1",
+            "LocationIndex": "24",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FOSE14MAIN",
+            "Abstract": "",
+            "Items": [
+                "fose14main-id14-p",
+                "fose14main-id10-p",
+                "fose14main-id16-p"
+            ]
+        },
+        {
             "Id": "ex7phuGhai",
             "Title": "CTO Round Table",
             "ShortTitle": "CTO Round Table",
@@ -8462,6 +8937,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Nikolaj Bjørner",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Nikolaj Bjørner @ Microsoft Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Ivan Bocić",
             "Affiliation": "University of California at Santa Barbara, USA",
             "Key": "Ivan Bocić @ University of California at Santa Barbara, USA",
@@ -8665,6 +9150,16 @@
             "Name": "Margaret  Burnett",
             "Affiliation": "",
             "Key": "Margaret  Burnett @",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Margaret M. Burnett",
+            "Affiliation": "Oregon State University, USA",
+            "Key": "Margaret M. Burnett @ Oregon State University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -8962,6 +9457,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Brendan Cleary",
+            "Affiliation": "University of Victoria, Canada",
+            "Key": "Brendan Cleary @ University of Victoria, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Rance Cleaveland",
             "Affiliation": "Fraunhofer CESE, USA",
             "Key": "Rance Cleaveland @ Fraunhofer CESE, USA",
@@ -8995,6 +9500,16 @@
             "Name": "Myra B. Cohen",
             "Affiliation": "University of Nebraska-Lincoln, USA",
             "Key": "Myra B. Cohen @ University of Nebraska-Lincoln, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Cyrille Comar",
+            "Affiliation": "AdaCore, France",
+            "Key": "Cyrille Comar @ AdaCore, France",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9095,6 +9610,16 @@
             "Name": "Haitao Dan",
             "Affiliation": "University College London, UK",
             "Key": "Haitao Dan @ University College London, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Balakrishnan Dasarathy",
+            "Affiliation": "University of Maryland University College, USA",
+            "Key": "Balakrishnan Dasarathy @ University of Maryland University College, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9225,6 +9750,16 @@
             "Name": "Zuohua Ding",
             "Affiliation": "Zhejiang Sci-Tech University, China",
             "Key": "Zuohua Ding @ Zhejiang Sci-Tech University, China",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Elisabetta Di Nitto",
+            "Affiliation": "Politecnico di Milano, Italy",
+            "Key": "Elisabetta Di Nitto @ Politecnico di Milano, Italy",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9522,6 +10057,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Douglas H. Fisher",
+            "Affiliation": "Vanderbilt University, USA",
+            "Key": "Douglas H. Fisher @ Vanderbilt University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Brian Fitzgerald",
             "Affiliation": "Lero, Ireland / University of Limerick, Ireland",
             "Key": "Brian Fitzgerald @ Lero, Ireland / University of Limerick, Ireland",
@@ -9602,6 +10147,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Alfonso Fuggetta",
+            "Affiliation": "Politecnico di Milano, Italy",
+            "Key": "Alfonso Fuggetta @ Politecnico di Milano, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Naoki Fukuyasu",
             "Affiliation": "Wakayama University, Japan",
             "Key": "Naoki Fukuyasu @ Wakayama University, Japan",
@@ -9675,6 +10230,16 @@
             "Name": "Joshua Garcia",
             "Affiliation": "University of Southern California, USA",
             "Key": "Joshua Garcia @ University of Southern California, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "David Garlan",
+            "Affiliation": "Carnegie Mellon University, USA",
+            "Key": "David Garlan @ Carnegie Mellon University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9862,6 +10427,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Andrew D. Gordon",
+            "Affiliation": "Microsoft Research, UK",
+            "Key": "Andrew D. Gordon @ Microsoft Research, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Michal Gordon",
             "Affiliation": "Weizmann Institute of Science, Israel",
             "Key": "Michal Gordon @ Weizmann Institute of Science, Israel",
@@ -9875,6 +10450,16 @@
             "Name": "Alessandra Gorla",
             "Affiliation": "Saarland University, Germany",
             "Key": "Alessandra Gorla @ Saarland University, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Orlena C. Z. Gotel",
+            "Affiliation": "n.n., n.n.",
+            "Key": "Orlena C. Z. Gotel @ n.n., n.n.",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9915,6 +10500,16 @@
             "Name": "Florian Gross",
             "Affiliation": "Saarland University, Germany",
             "Key": "Florian Gross @ Saarland University, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dan Grossman",
+            "Affiliation": "University of Washington, USA",
+            "Key": "Dan Grossman @ University of Washington, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10112,6 +10707,16 @@
             "URLgs": ""
         },
         {
+            "Name": "John Hatcliff",
+            "Affiliation": "Kansas State University, USA",
+            "Key": "John Hatcliff @ Kansas State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Brigitte Haupt",
             "Affiliation": "Munich Re, Germany",
             "Key": "Brigitte Haupt @ Munich Re, Germany",
@@ -10165,6 +10770,16 @@
             "Name": "Christian Heinzemann",
             "Affiliation": "University of Paderborn, Germany",
             "Key": "Christian Heinzemann @ University of Paderborn, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Thomas A. Henzinger",
+            "Affiliation": "IST Austria, Austria",
+            "Key": "Thomas A. Henzinger @ IST Austria, Austria",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10602,9 +11217,29 @@
             "URLgs": ""
         },
         {
+            "Name": "Paul Jones",
+            "Affiliation": "US Food and Drug Administration, USA",
+            "Key": "Paul Jones @ US Food and Drug Administration, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Elmar Juergens",
             "Affiliation": "CQSE, Germany",
             "Key": "Elmar Juergens @ CQSE, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christine Julien",
+            "Affiliation": "University of Texas at Austin, USA",
+            "Key": "Christine Julien @ University of Texas at Austin, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10735,6 +11370,16 @@
             "Name": "Paul Kelly",
             "Affiliation": "Lancaster University, UK",
             "Key": "Paul Kelly @ Lancaster University, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tim Kelly",
+            "Affiliation": "University of York, UK",
+            "Key": "Tim Kelly @ University of York, UK",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -11762,6 +12407,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Andreas Metzger",
+            "Affiliation": "University of Duisburg-Essen, Germany",
+            "Key": "Andreas Metzger @ University of Duisburg-Essen, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Matthias Meyer",
             "Affiliation": "Fraunhofer IPT, Germany",
             "Key": "Matthias Meyer @ Fraunhofer IPT, Germany",
@@ -11972,6 +12627,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Amy L. Murphy",
+            "Affiliation": "Fondazione Bruno Kessler, Italy",
+            "Key": "Amy L. Murphy @ Fondazione Bruno Kessler, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Emerson Murphy-Hill",
             "Affiliation": "North Carolina State University, USA",
             "Key": "Emerson Murphy-Hill @ North Carolina State University, USA",
@@ -12005,6 +12670,26 @@
             "Name": "Kıvanç Muşlu",
             "Affiliation": "University of Washington, USA",
             "Key": "Kıvanç Muşlu @ University of Washington, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mirco Musolesi",
+            "Affiliation": "University of Birmingham, UK",
+            "Key": "Mirco Musolesi @ University of Birmingham, UK",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Brad A. Myers",
+            "Affiliation": "Carnegie Mellon University, USA",
+            "Key": "Brad A. Myers @ Carnegie Mellon University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -12215,6 +12900,16 @@
             "Name": "Robert L. Nord",
             "Affiliation": "SEI, USA",
             "Key": "Robert L. Nord @ SEI, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Aditya V. Nori",
+            "Affiliation": "Microsoft Research, India",
+            "Key": "Aditya V. Nori @ Microsoft Research, India",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -12532,6 +13227,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Gian Pietro Picco",
+            "Affiliation": "University of Trento, Italy",
+            "Key": "Gian Pietro Picco @ University of Trento, Italy",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Martin Pinzger",
             "Affiliation": "University of Klagenfurt, Austria",
             "Key": "Martin Pinzger @ University of Klagenfurt, Austria",
@@ -12582,6 +13287,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Klaus Pohl",
+            "Affiliation": "University of Duisburg-Essen, Germany",
+            "Key": "Klaus Pohl @ University of Duisburg-Essen, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Uwe Pohlmann",
             "Affiliation": "Fraunhofer IPT, Germany",
             "Key": "Uwe Pohlmann @ Fraunhofer IPT, Germany",
@@ -12605,6 +13320,16 @@
             "Name": "Luca Ponzanelli",
             "Affiliation": "University of Lugano, Switzerland",
             "Key": "Luca Ponzanelli @ University of Lugano, Switzerland",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Adam Porter",
+            "Affiliation": "University of Maryland at College Park, USA",
+            "Key": "Adam Porter @ University of Maryland at College Park, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -12692,9 +13417,29 @@
             "URLgs": ""
         },
         {
+            "Name": "Sriram K. Rajamani",
+            "Affiliation": "Microsoft Research, India",
+            "Key": "Sriram K. Rajamani @ Microsoft Research, India",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Hridesh Rajan",
             "Affiliation": "Iowa State University, USA",
             "Key": "Hridesh Rajan @ Iowa State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Václav Rajlich",
+            "Affiliation": "Wayne State University, USA",
+            "Key": "Václav Rajlich @ Wayne State University, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -12725,6 +13470,16 @@
             "Name": "Venkatesh-Prasad Ranganath",
             "Affiliation": "Kansas State University, USA",
             "Key": "Venkatesh-Prasad Ranganath @ Kansas State University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Krishna Ratakonda",
+            "Affiliation": "IBM Research, USA",
+            "Key": "Krishna Ratakonda @ IBM Research, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -12885,6 +13640,16 @@
             "Name": "Tobias Roehm",
             "Affiliation": "TU München, Germany",
             "Key": "Tobias Roehm @ TU München, Germany",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gruia-Catalin Roman",
+            "Affiliation": "University of New Mexico, USA",
+            "Key": "Gruia-Catalin Roman @ University of New Mexico, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -13242,6 +14007,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Douglas C. Schmidt",
+            "Affiliation": "Vanderbilt University, USA",
+            "Key": "Douglas C. Schmidt @ Vanderbilt University, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Heinz W. Schmidt",
             "Affiliation": "RMIT University, Australia",
             "Key": "Heinz W. Schmidt @ RMIT University, Australia",
@@ -13365,6 +14140,16 @@
             "Name": "Weiyi Shang",
             "Affiliation": "Queen's University, Canada",
             "Key": "Weiyi Shang @ Queen's University, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Natarajan Shankar",
+            "Affiliation": "SRI Computer Science Lab, USA",
+            "Key": "Natarajan Shankar @ SRI Computer Science Lab, USA",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -13545,6 +14330,16 @@
             "Name": "John L. Singleton",
             "Affiliation": "University of Central Florida, USA",
             "Key": "John L. Singleton @ University of Central Florida, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Saurabh Sinha",
+            "Affiliation": "IBM Research, India",
+            "Key": "Saurabh Sinha @ IBM Research, India",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -14122,6 +14917,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Willem Visser",
+            "Affiliation": "Stellenbosch University, South Africa",
+            "Key": "Willem Visser @ Stellenbosch University, South Africa",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Mattia Vivanti",
             "Affiliation": "University of Lugano, Switzerland",
             "Key": "Mattia Vivanti @ University of Lugano, Switzerland",
@@ -14305,6 +15110,16 @@
             "Name": "Andrzej Wąsowski",
             "Affiliation": "IT University of Copenhagen, Denmark",
             "Key": "Andrzej Wąsowski @ IT University of Copenhagen, Denmark",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alan Wassyng",
+            "Affiliation": "McMaster University, Canada",
+            "Key": "Alan Wassyng @ McMaster University, Canada",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -14662,6 +15477,16 @@
             "URLgs": ""
         },
         {
+            "Name": "Alexey Zagalsky",
+            "Affiliation": "University of Victoria, Canada",
+            "Key": "Alexey Zagalsky @ University of Victoria, Canada",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Tao Zan",
             "Affiliation": "Graduate University for Advanced Studies, Japan",
             "Key": "Tao Zan @ Graduate University for Advanced Studies, Japan",
@@ -14945,6 +15770,16 @@
             "Name": "Thomas Zimmermann",
             "Affiliation": "Microsoft Research, USA",
             "Key": "Thomas Zimmermann @ Microsoft Research, USA",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrea Zisman",
+            "Affiliation": "Open University, UK",
+            "Key": "Andrea Zisman @ Open University, UK",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
