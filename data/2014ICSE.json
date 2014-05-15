@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1400182936,
+    "DataRevision": 1400183038,
     "Preliminary": false,
     "Event": "ICSE 2014",
     "Name": "ICSE 2014",
@@ -5944,988 +5944,6 @@
             ],
             "Abstract": "Massive open online courses (MOOCs) are a recent development in online education aimed at unlimited participation and open access via the Web. They are a potentially disruptive technology, changing how education is delivered and funded around the world. MOOCs are relevant to software researchers and practitioners, not only because they will increasingly receive lifelong education through MOOCs and related technologies, but also because content creation, delivery, and enhancement of MOOCs is evolving into a new form of socially- and cognitively-embedded software development. This paper discusses how education is being enhanced by MOOCs and other digital learning technology.  In particular, we distinguish the free educational content provided by MOOCs from the emerging collaborative processes through which MOOCs are created, which is arguably more transformative on education than the content itself. We discuss blended models of higher education to suit different learner communities, as well as nascent moves toward the creation of instructional communities of educators that transcend institutional boundaries. We also explore MOOCs and their evolution as a subject for research in the learning sciences and implications for R&amp;D in software and systems engineering.",
             "Award": ""
-        },
-        {
-            "Title": "Innovating in India: Designing for Constraint, Computing for Inclusion (Keynote)",
-            "Type": "Invited Talk Abstract",
-            "Key": "icpc14main-keynotesid3-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DEdward+Cutrell+%22Innovating+in+India%3A+Designing+for+Constraint%2C+Computing+for+Inclusion+%28Keynote%29%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Edward Cutrell",
-            "AffiliationsString": "Microsoft Research, India",
-            "Authors": [
-                "Edward Cutrell @ Microsoft Research, India"
-            ],
-            "Affiliations": [
-                "Microsoft Research, India"
-            ],
-            "Abstract": "A fundamental tenet of user-centered design is that the needs, wants, limitations, and contexts of end users are central to the process of creating products and services that can be used and understood by the people who will use them. Most of the time these end users aren’t all that different from the people designing the technology. But as the differences increase between designers and the people they’re designing for, understanding and empathizing with users becomes harder and even more important. As we build software for people and communities with vastly diverse backgrounds, cultures, languages, and education, we need to stretch our ideas of what users want and need and how best to serve them.  The Technology for Emerging Markets (TEM) group at Microsoft Research India seeks to address the needs and aspirations of people in the developing world who are just beginning to use computing technologies and services as well as those for whom access to computing still remains largely out of reach. Much of this work can be described as designing for constraint: constraints in education, in infrastructure, in financial resources, in languages and in many other areas. In this talk, I will describe some work from our group that explores how we have tried to manage these constraints to create software and systems for people and communities often overlooked by technologists.",
-            "Award": ""
-        },
-        {
-            "Title": "The MoJo Family: A Story about Clustering Evaluation (Invited Talk)",
-            "Type": "Invited Talk Abstract",
-            "Key": "icpc14main-keynotesid2-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DZhihua+Wen+and+Vassilios+Tzerpos+%22The+MoJo+Family%3A+A+Story+about+Clustering+Evaluation+%28Invited+Talk%29%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Zhihua Wen and Vassilios Tzerpos",
-            "AffiliationsString": "York University, Canada",
-            "Authors": [
-                "Zhihua Wen @ York University, Canada",
-                "Vassilios Tzerpos @ York University, Canada"
-            ],
-            "Affiliations": [
-                "York University, Canada",
-                "York University, Canada"
-            ],
-            "Abstract": "The need to decompose large, complex software systems into smaller, more manageable subsystems has been recognized for more than two decades. Many cluster analysis algorithms have been applied to the software domain, and several algorithms specializing in software clustering have been developed. This in turn has created the need to evaluate and compare clustering results.  This talk will present some background on the software clustering problem and its challenges, as well as the software clustering evaluation and its challenges. It will then discuss the MoJo family of measures with an emphasis on MoJoFM (originally presented at IWPC 2004).",
-            "Award": ""
-        },
-        {
-            "Title": "Do Architectural Design Decisions Improve the Understanding of Software Architecture? Two Controlled Experiments",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid13-p",
-            "URL": "http%3A%2F%2Fwww.cs.rug.nl%2Fsearch%2Fuploads%2FPublications%2Fshahin2014add.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Mojtaba Shahin, Peng Liang, and Zengyang Li",
-            "AffiliationsString": "Wuhan University, China; Islamic Azad University, Iran; VU University Amsterdam, Netherlands; University of Groningen, Netherlands",
-            "Authors": [
-                "Mojtaba Shahin @ Wuhan University, China / Islamic Azad University, Iran",
-                "Peng Liang @ Wuhan University, China / VU University Amsterdam, Netherlands",
-                "Zengyang Li @ University of Groningen, Netherlands"
-            ],
-            "Affiliations": [
-                "Wuhan University, China / Islamic Azad University, Iran",
-                "Wuhan University, China / VU University Amsterdam, Netherlands",
-                "University of Groningen, Netherlands"
-            ],
-            "Abstract": "Architectural design decision (ADD) and its design rationale, as a paradigm shift on documenting and enriching architecture design description, is supposed to facilitate the understanding of architecture and the reasoning behind the design rationale, which consequently improves the architecting process and gets better architecture design results. But the lack of empirical evaluation that supports this statement is one of the major reasons that prevent industrial practitioners from using ADDs in their daily architecting activities. In this paper, we conducted two controlled experiments, as a family of experiments, to investigate how presence of ADDs can improve the understanding of architecture. The main results of our experiments are: (i) using ADDs and their rationale in architecture documentation does not affect the time needed for completing architecture design tasks; (ii) one experiment and the family of experiments achieved a significantly better understanding of architecture design when using ADDs; and (iii) with regard to the correctness of architecture understanding, more experienced participants benefited more from ADDs in comparison with less experienced ones.",
-            "Award": ""
-        },
-        {
-            "Title": "Revealing the Relationship between Architectural Elements and Source Code Characteristics",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid48-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DVanius+Zapalowski%2C+Ingrid+Nunes%2C+and+Daltro+Jos%C3%A9+Nunes+%22Revealing+the+Relationship+between+Architectural+Elements+and+Source+Code+Characteristics%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Vanius Zapalowski, Ingrid Nunes, and Daltro José Nunes",
-            "AffiliationsString": "Federal University of Rio Grande do Sul, Brazil",
-            "Authors": [
-                "Vanius Zapalowski @ Federal University of Rio Grande do Sul, Brazil",
-                "Ingrid Nunes @ Federal University of Rio Grande do Sul, Brazil",
-                "Daltro José Nunes @ Federal University of Rio Grande do Sul, Brazil"
-            ],
-            "Affiliations": [
-                "Federal University of Rio Grande do Sul, Brazil",
-                "Federal University of Rio Grande do Sul, Brazil",
-                "Federal University of Rio Grande do Sul, Brazil"
-            ],
-            "Abstract": "Understanding how a software system is structured, i.e. its architecture, is crucial for software comprehension. It allows developers to understand an implemented system and reason about how non-functional requirements are addressed. Yet, many systems lack any architectural documentation, or it is often outdated due to software evolution. In current practice, the process of recovering a system&#039;s architecture relies primarily on developer knowledge. Although existing architecture recovery approaches can help to identify architectural elements, these approaches require improvement to identify architectural concepts of a system automatically. Towards this goal, we analyze the usefulness of adopting different code-level characteristics to group elements into architectural modules. Our main contributions are an evaluation of the relationships between different sets of characteristics and their corresponding accuracies, and the evaluation results, which help us to understand which characteristics reveal information about the source code structure. Our experiment shows that an identified set of characteristics achieves an average accuracy of 80%, which indicates the usefulness of the considered characteristics for architecture recovery and thus to improving software comprehension.",
-            "Award": ""
-        },
-        {
-            "Title": "Understanding LDA in Source Code Analysis",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid36-p",
-            "URL": "http%3A%2F%2Fwww.cs.loyola.edu%2F%7Ebinkley%2Fpapers%2Ficpc14.pdf",
-            "URLvideo": "",
-            "URLinfo": "http%3A%2F%2Fwww.cs.loyola.edu%2F%7Ebinkley%2Ftopic_models%2F",
-            "PersonsString": "David Binkley, Daniel Heinz, Dawn Lawrie, and Justin Overfelt",
-            "AffiliationsString": "Loyola University Maryland, USA; Booz Allen Hamilton, USA",
-            "Authors": [
-                "David Binkley @ Loyola University Maryland, USA",
-                "Daniel Heinz @ Loyola University Maryland, USA",
-                "Dawn Lawrie @ Loyola University Maryland, USA",
-                "Justin Overfelt @ Booz Allen Hamilton, USA"
-            ],
-            "Affiliations": [
-                "Loyola University Maryland, USA",
-                "Loyola University Maryland, USA",
-                "Loyola University Maryland, USA",
-                "Booz Allen Hamilton, USA"
-            ],
-            "Abstract": "Latent Dirichlet Allocation (LDA) has seen increasing use in the understanding of source code and its related artifacts in part because of its impressive modeling power. However, this expressive power comes at a cost: the technique includes several tuning parameters whose impact on the resulting LDA model must be carefully considered. An obvious example is the burn-in period; too short a burn-in period leaves excessive echoes of the initial uniform distribution. The aim of this work is to provide insights into the tuning parameter&#039;s impact. Doing so improves the comprehension of both,  1) researchers who look to exploit the power of LDA in their research and  2) those who interpret the output of LDA-using tools. It is important to recognize that the goal of this work is not to establish values for the tuning parameters because there is no universal best setting. Rather, appropriate settings depend on the problem being solved, the input corpus (in this case, typically words from the source code and its supporting artifacts), and the needs of the engineer performing the analysis. This work&#039;s primary goal is to aid software engineers in their understanding of the LDA tuning parameters by demonstrating numerically and graphically the relationship between the tuning parameters and the LDA output. A secondary goal is to enable more informed setting of the parameters. Results obtained using both production source code and a synthetic corpus underscore the need for a solid understanding of how to configure LDA&#039;s tuning parameters.",
-            "Award": ""
-        },
-        {
-            "Title": "A Diagnosis-Based Approach to Software Comprehension",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid41-p",
-            "URL": "http%3A%2F%2Fautoseer.fe.up.pt%2Fpub%2FICPC2014preprint.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Alexandre Perez and Rui Abreu",
-            "AffiliationsString": "University of Porto, Portugal",
-            "Authors": [
-                "Alexandre Perez @ University of Porto, Portugal",
-                "Rui Abreu @ University of Porto, Portugal"
-            ],
-            "Affiliations": [
-                "University of Porto, Portugal",
-                "University of Porto, Portugal"
-            ],
-            "Abstract": "Program comprehension is a time-consuming task performed during the process of reusing, reengineering, and enhancing existing systems. Currently, there are tools to assist in program comprehension by means of dynamic analysis, but, e.g., most cannot identify the topology and the interactions of a certain functionality in need of change, especially when used in large, real-world software applications. We propose an approach, coined Spectrum-based Feature Comprehension (SFC), that borrows techniques used for automatic software-fault-localization, which were proven to be effective even when debugging large applications in resource-constrained environments. SFC analyses the program by exploiting run-time information from test case executions to compute the components that are important for a given feature (and whether a component is used to implement just one feature or more), helping software engineers to understand how a program is structured and what the functionality&#039;s dependencies are. We present a toolset, coined Pangolin, that implements SFC and displays its report to the user using an intuitive visualization. A user study with the open-source application Rhino is presented, demonstrating the efficiency of Pangolin in locating the components that should be inspected when changing a certain functionality.",
-            "Award": ""
-        },
-        {
-            "Title": "dsOli: Data Structure Operation Location and Identification",
-            "Type": "Short Paper",
-            "Key": "icpc14main-demoid67-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDavid+H.+White+%22dsOli%3A+Data+Structure+Operation+Location+and+Identification%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "David H. White",
-            "AffiliationsString": "University of Bamberg, Germany",
-            "Authors": [
-                "David H. White @ University of Bamberg, Germany"
-            ],
-            "Affiliations": [
-                "University of Bamberg, Germany"
-            ],
-            "Abstract": "Comprehension of C programs can be a difficult task, especially when they contain pointer-based dynamic data structures. This paper describes our tool dsOli which aims to simplify this problem by automatically locating and identifying data structure operations in C programs, such as inserting into a singly linked list. The approach is based on a dynamic analysis that seeks to identify functional units in a program by observing repetitive temporal patterns caused by multiple invocations of code fragments. The behaviour of these functional units is then classified by matching the associated heap states against templates describing common data structure operations. The analysis results are available to the user via XML output, and can also be viewed using an intuitive GUI which overlays the learnt information on the program source code.",
-            "Award": ""
-        },
-        {
-            "Title": "Version History, Similar Report, and Structure: Putting Them Together for Improved Bug Localization",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid32-p",
-            "URL": "https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F19155789%2Fmain_acm.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Shaowei Wang and David Lo",
-            "AffiliationsString": "Singapore Management University, Singapore",
-            "Authors": [
-                "Shaowei Wang @ Singapore Management University, Singapore",
-                "David Lo @ Singapore Management University, Singapore"
-            ],
-            "Affiliations": [
-                "Singapore Management University, Singapore",
-                "Singapore Management University, Singapore"
-            ],
-            "Abstract": "During the evolution of a software system, a large number of bug reports are submitted. Locating the source code files that need to be fixed to resolve the bugs is a challenging problem. Thus, there is a need for a technique that can automatically figure out these buggy files. A number of bug localization solutions that take in a bug report and output a ranked list of files sorted based on their likelihood to be buggy have been proposed in the literature. However, the accuracy of these tools still need to be improved.  In this paper, to address this need, we propose AmaLgam, a new method for locating relevant buggy files that puts together version history, similar reports, and structure. To do this, AmaLgam integrates a bug prediction technique used in Google which analyzes version history, with a bug localization technique named BugLocator which analyzes similar reports from bug report system, and the state-of-the-art bug localization technique BLUiR which considers structure. We perform a large-scale experiment on four open source projects, namely AspectJ, Eclipse, SWT and ZXing to localize more than 3,000 bugs. Compared with a history-aware bug localization solution of Sisman and Kak, our approach achieves a 46.1% improvement in terms of mean average precision (MAP). Compared with BugLocator, our approach achieves a 24.4% improvement in terms of MAP. Compared with BLUiR, our approach achieves a 16.4% improvement in terms of MAP.",
-            "Award": ""
-        },
-        {
-            "Title": "Understanding the Database Manipulation Behavior of Programs",
-            "Type": "Short Paper",
-            "Key": "icpc14main-eraid90-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNesrine+Noughi%2C+Marco+Mori%2C+Loup+Meurice%2C+and+Anthony+Cleve+%22Understanding+the+Database+Manipulation+Behavior+of+Programs%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Nesrine Noughi, Marco Mori, Loup Meurice, and Anthony Cleve",
-            "AffiliationsString": "University of Namur, Belgium",
-            "Authors": [
-                "Nesrine Noughi @ University of Namur, Belgium",
-                "Marco Mori @ University of Namur, Belgium",
-                "Loup Meurice @ University of Namur, Belgium",
-                "Anthony Cleve @ University of Namur, Belgium"
-            ],
-            "Affiliations": [
-                "University of Namur, Belgium",
-                "University of Namur, Belgium",
-                "University of Namur, Belgium",
-                "University of Namur, Belgium"
-            ],
-            "Abstract": "Due to the lack of (up-do-date) documentation, software maintenance and evolution processes often necessitate the recovery of a sucient understanding of the software system, before the latter can be adapted to new or changing requirements. To address this problem, several program comprehension techniques have been proposed to support this preliminary phase of software maintenance and evolution. Nevertheless, those techniques generally fail in gaining a complete and accurate understanding in the case of modern data-intensive systems, which are characterized by complex, dynamic and continuous interactions between the application programs and their database. In particular, understanding the database manipulation behavior of a given program involves dierent levels of comprehension ranging from identifying to relating and interpreting the successive database access operations. In this paper, we present our early research achievements in the development of a tool-supported framework aiming to extract and understand the database manipulation behavior of data-intensive programs.",
-            "Award": ""
-        },
-        {
-            "Title": "On Mapping Releases to Commits in Open Source Systems",
-            "Type": "Short Paper",
-            "Key": "icpc14main-eraid110-p",
-            "URL": "http%3A%2F%2Fserl.cs.wichita.edu%2Fwp-content%2Fuploads%2Ficpc2014-joseph.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Joe F. Shobe, Md Yasser Karim, Motahareh Bahrami Zanjani, and Huzefa Kagdi",
-            "AffiliationsString": "Wichita State University, USA",
-            "Authors": [
-                "Joe F. Shobe @ Wichita State University, USA",
-                "Md Yasser Karim @ Wichita State University, USA",
-                "Motahareh Bahrami Zanjani @ Wichita State University, USA",
-                "Huzefa Kagdi @ Wichita State University, USA"
-            ],
-            "Affiliations": [
-                "Wichita State University, USA",
-                "Wichita State University, USA",
-                "Wichita State University, USA",
-                "Wichita State University, USA"
-            ],
-            "Abstract": "The paper presents an empirical study on the release naming and structure in three open source projects: Google Chrome, GNU gcc, and Subversion. Their commonality and variability are discussed. An approach is developed that establishes the mapping from a particular release (major or minor) to the specific earliest and latest revisions, i.e., a commit window of a release, in the source control repository. For example, the major release 25.0 in Chrome is mapped to the earliest revision 157687 and latest revision 165096 in the trunk. This mapping between releases and commits would facilitate a systematic choice of history in units of the project evolution scale (i.e., commits that constitute a software release). A projected application is in forming a training set for a source-code change prediction model, e.g., using the association rule mining or machine learning techniques, commits from the source code history are needed.",
-            "Award": ""
-        },
-        {
-            "Title": "Ranking Crowd Knowledge to Assist Software Development",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid27-p",
-            "URL": "http%3A%2F%2Fwww.facom.ufu.br%2F%7Emarcmaia%2FICPC2014preprint.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Lucas B. L. de Souza, Eduardo C. Campos, and Marcelo de A. Maia",
-            "AffiliationsString": "Federal University of Uberlândia, Brazil",
-            "Authors": [
-                "Lucas B. L. de Souza @ Federal University of Uberlândia, Brazil",
-                "Eduardo C. Campos @ Federal University of Uberlândia, Brazil",
-                "Marcelo de A. Maia @ Federal University of Uberlândia, Brazil"
-            ],
-            "Affiliations": [
-                "Federal University of Uberlândia, Brazil",
-                "Federal University of Uberlândia, Brazil",
-                "Federal University of Uberlândia, Brazil"
-            ],
-            "Abstract": "StackOverflow.com (SO) is a Question and Answer service oriented to support collaboration among developers in order to help them solving their issues related to software development. In SO, developers post questions related to a programming topic and other members of the site can provide answers to help them. The information available on this type of service is also known as &quot;crowd knowledge&quot; and currently is one important trend in supporting activities related to software development and maintenance.  We present an approach that makes use of &quot;crowd knowledge&quot; available in SO to recommend information that can assist developers in their activities. This strategy recommends a ranked list of pairs of questions/answers from SO based on a query (list of terms). The ranking criteria is based on two main aspects: the textual similarity of the pairs with respect to the query (the developer&#039;s problem) and the quality of the pairs. Moreover, we developed a classifier to consider only &quot;how-to&quot; posts. We conducted an experiment considering programming problems on three different topics (Swing, Boost and LINQ) widely used by the software development community to evaluate the proposed recommendation strategy. The results have shown that for 77.14% of the assessed activities, at least one recommended pair proved to be useful concerning the target programming problem. Moreover, for all activities, at least one recommended pair had a source code snippet considered reproducible or almost reproducible.",
-            "Award": ""
-        },
-        {
-            "Title": "How Do API Changes Trigger Stack Overflow Discussions? A Study on the Android SDK",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid46-p",
-            "URL": "http%3A%2F%2Fwww.cs.wm.edu%2F%7Edenys%2Fpubs%2FICPC2014-Android-SO-CRC.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Mario Linares-Vásquez, Gabriele Bavota, Massimiliano Di Penta, Rocco Oliveto, and Denys Poshyvanyk",
-            "AffiliationsString": "College of William and Mary, USA; University of Sannio, Italy; University of Molise, Italy",
-            "Authors": [
-                "Mario Linares-Vásquez @ College of William and Mary, USA",
-                "Gabriele Bavota @ University of Sannio, Italy",
-                "Massimiliano Di Penta @ University of Sannio, Italy",
-                "Rocco Oliveto @ University of Molise, Italy",
-                "Denys Poshyvanyk @ College of William and Mary, USA"
-            ],
-            "Affiliations": [
-                "College of William and Mary, USA",
-                "University of Sannio, Italy",
-                "University of Sannio, Italy",
-                "University of Molise, Italy",
-                "College of William and Mary, USA"
-            ],
-            "Abstract": "The growing number of questions related to mobile development in StackOverflow highlights an increasing interest of software developers in mobile programming. For the Android platform, 213,836 questions were tagged with Android-related labels in StackOverflow between July 2008 and August 2012. This paper aims at investigating how changes occurring to Android APIs trigger questions and activity in StackOverflow, and whether this is particularly true for certain kinds of changes. Our findings suggest that Android developers usually have more questions when the behavior of APIs is modified. In addition, deleting public methods from APIs is a trigger for questions that are (i) more discussed and of major interest for the community, and (ii) posted by more experienced developers. In general, results of this paper provide important insights about the use of social media to learn about changes in software ecosystems, and establish solid foundations for building new recommenders for notifying developers/managers about important changes and recommending them relevant crowdsourced solutions",
-            "Award": ""
-        },
-        {
-            "Title": "Towards More Accurate Content Categorization of API Discussions",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid20-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBo+Zhou%2C+Xin+Xia%2C+David+Lo%2C+Cong+Tian%2C+and+Xinyu+Wang+%22Towards+More+Accurate+Content+Categorization+of+API+Discussions%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Bo Zhou, Xin Xia, David Lo, Cong Tian, and Xinyu Wang",
-            "AffiliationsString": "Zhejiang University, China; Singapore Management University, Singapore; Xidian University, China",
-            "Authors": [
-                "Bo Zhou @ Zhejiang University, China",
-                "Xin Xia @ Zhejiang University, China",
-                "David Lo @ Singapore Management University, Singapore",
-                "Cong Tian @ Xidian University, China",
-                "Xinyu Wang @ Zhejiang University, China"
-            ],
-            "Affiliations": [
-                "Zhejiang University, China",
-                "Zhejiang University, China",
-                "Singapore Management University, Singapore",
-                "Xidian University, China",
-                "Zhejiang University, China"
-            ],
-            "Abstract": "Nowadays, software developers often discuss the usage of various APIs in online forums. Automatically assigning pre-defined semantic categorizes to API discussions in these forums could help manage the data in online forums, and assist developers to search for useful information. We refer to this process as content categorization of API discussions. To solve this problem, Hou and Mo proposed the usage of naive Bayes multinomial, which is an effective classification algorithm.  In this paper, we propose a Cache-bAsed compoSitE algorithm, short formed as CASE, to automatically categorize API discussions. Considering that the content of an API discussion contains both textual description and source code, CASE has 3 components that analyze an API discussion in 3 different ways: text, code, and original. In the text component, CASE only considers the textual description; in the code component, CASE only considers the source code; in the original component, CASE considers the original content of an API discussion which might include textual description and source code. Next, for each component, since different terms (i.e., words) have different affinities to different categories, CASE caches a subset of terms which have the highest affinity scores to each category, and builds a classifier based on the cached terms. Finally, CASE combines all the 3 classifiers to achieve a better accuracy score. We evaluate the performance of CASE on 3 datasets which contain a total of 1,035 API discussions. The experiment results show that CASE achieves accuracy scores of 0.69, 0.77, and 0.96 for the 3 datasets respectively, which outperforms the state-of-the-art method proposed by Hou and Mo by 11%, 10%, and 2%, respectively.",
-            "Award": ""
-        },
-        {
-            "Title": "CODES: mining sourCe cOde Descriptions from developErs diScussions",
-            "Type": "Short Paper",
-            "Key": "icpc14main-demoid86-p",
-            "URL": "http%3A%2F%2Fwww.rcost.unisannio.it%2Fmdipenta%2Fpapers%2Ficpc2014-demo.pdf",
-            "URLvideo": "http%3A%2F%2Fyoutu.be%2FRnc5ni1AAzc",
-            "URLinfo": "http%3A%2F%2Fwww.ing.unisannio.it%2Fspanichella%2Fpages%2Ftools%2FCODES",
-            "PersonsString": "Carmine Vassallo, Sebastiano Panichella, Massimiliano Di Penta, and Gerardo Canfora",
-            "AffiliationsString": "University of Sannio, Italy",
-            "Authors": [
-                "Carmine Vassallo @ University of Sannio, Italy",
-                "Sebastiano Panichella @ University of Sannio, Italy",
-                "Massimiliano Di Penta @ University of Sannio, Italy",
-                "Gerardo Canfora @ University of Sannio, Italy"
-            ],
-            "Affiliations": [
-                "University of Sannio, Italy",
-                "University of Sannio, Italy",
-                "University of Sannio, Italy",
-                "University of Sannio, Italy"
-            ],
-            "Abstract": "Program comprehension is a crucial activity, preliminary to any software maintenance task. Such an activity can be difficult when the source code is not adequately documented, or the documentation is outdated. Differently from the many existing software re-documentation approaches, based on different kinds of code analysis, this paper describes CODES (mining sourCe cOde Descriptions from developErs diScussions), a tool which applies a &quot;social&#039;&#039; approach to software re-documentation. Specifically, CODES extracts candidate method documentation from StackOverflow discussions, and creates Javadoc descriptions from it. We evaluated CODES to mine Lucene and Hibernate method descriptions. The results indicate that CODES is able to extract descriptions for 20% and 28% of the Lucene and Hibernate methods with a precision of 84% and 91% respectively.",
-            "Award": ""
-        },
-        {
-            "Title": "Condensing Class Diagrams by Analyzing Design and Network Metrics using Optimistic Classification",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid56-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFerdian+Thung%2C+David+Lo%2C+Mohd+Hafeez+Osman%2C+and+Michel+R.+V.+Chaudron+%22Condensing+Class+Diagrams+by+Analyzing+Design+and+Network+Metrics+using+Optimistic+Classification%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Ferdian Thung, David Lo, Mohd Hafeez Osman, and Michel R. V. Chaudron",
-            "AffiliationsString": "Singapore Management University, Singapore; Leiden University, Netherlands; Chalmers, Sweden",
-            "Authors": [
-                "Ferdian Thung @ Singapore Management University, Singapore",
-                "David Lo @ Singapore Management University, Singapore",
-                "Mohd Hafeez Osman @ Leiden University, Netherlands",
-                "Michel R. V. Chaudron @ Chalmers, Sweden"
-            ],
-            "Affiliations": [
-                "Singapore Management University, Singapore",
-                "Singapore Management University, Singapore",
-                "Leiden University, Netherlands",
-                "Chalmers, Sweden"
-            ],
-            "Abstract": "A class diagram of a software system enhances our ability to understand software design. However, this diagram is often unavailable. Developers usually reconstruct the diagram by reverse engineering it from source code. Unfortunately, the resultant diagram is often very cluttered; making it difficult to learn anything valuable from it. Thus, it would be very beneficial if we are able to condense the reverse- engineered class diagram to contain only the important classes depicting the overall design of a software system. Such diagram would make program understanding much easier. A class can be important, for example, if its removal would break many connections between classes. In our work, we estimate this kind of importance by using design (e.g., number of attributes, number of dependencies, etc.) and network metrics (e.g., betweenness centrality, closeness centrality, etc.). We use these metrics as features and input their values to our optimistic classifier that will predict if a class is important or not. Different from standard classification, our newly proposed optimistic classification technique deals with data scarcity problem by optimistically assigning labels to some of the unlabeled data and use them for training a better statistical model. We have evaluated our approach to condense reverse-engineered diagrams of 9 software systems and compared our approach with the state-of-the-art work of Osman et al. Our experiments show that our approach can achieve an average Area Under the Receiver Operating Characteristic Curve (AUC) score of 0.825, which is a 9.1% improvement compared to the state-of-the-art approach.",
-            "Award": ""
-        },
-        {
-            "Title": "An Information Visualization Feature Model for Supporting the Selection of Software Visualizations",
-            "Type": "Short Paper",
-            "Key": "icpc14main-eraid78-p",
-            "URL": "http%3A%2F%2Fwww.cos.ufrj.br%2F%7Eschots%2Fpapers%2Fvasconcelos2014apreprint.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Renan Vasconcelos, Marcelo Schots, and Cláudia Werner",
-            "AffiliationsString": "COPPE, Brazil; Federal University of Rio de Janeiro, Brazil",
-            "Authors": [
-                "Renan Vasconcelos @ COPPE, Brazil / Federal University of Rio de Janeiro, Brazil",
-                "Marcelo Schots @ COPPE, Brazil / Federal University of Rio de Janeiro, Brazil",
-                "Cláudia Werner @ COPPE, Brazil / Federal University of Rio de Janeiro, Brazil"
-            ],
-            "Affiliations": [
-                "COPPE, Brazil / Federal University of Rio de Janeiro, Brazil",
-                "COPPE, Brazil / Federal University of Rio de Janeiro, Brazil",
-                "COPPE, Brazil / Federal University of Rio de Janeiro, Brazil"
-            ],
-            "Abstract": "Software development comprises the execution of a variety of tasks, such as bug discovery, finding reusable assets, dependency analysis etc. A better understanding of the task at hand and its surroundings can improve the development performance in general. Software visualizations can support such understanding by addressing different issues according to the necessity of stakeholders. However, knowing which visualizations better fit a given task in progress is not a trivial skill. In this sense, a feature model, intended for organizing the knowledge of a given domain and allowing the reuse of components, can support the identification, categorization and selection of information visualization elements. This work presents an ongoing domain analysis performed for building an information visualization feature model, whose goal is to support the process of choosing and building proper, suitable software visualizations.",
-            "Award": ""
-        },
-        {
-            "Title": "Enabling Integrated Development Environments with Natural User Interface Interactions",
-            "Type": "Short Paper",
-            "Key": "icpc14main-eraid96-p",
-            "URL": "http%3A%2F%2Fserl.cs.wichita.edu%2Fwp-content%2Fuploads%2Ficpc2014-denis.pdf",
-            "URLvideo": "",
-            "URLinfo": "http%3A%2F%2Fserl.cs.wichita.edu%2F%3Fpage_id%3D166",
-            "PersonsString": "Denis Delimarschi, George Swartzendruber, and Huzefa Kagdi",
-            "AffiliationsString": "Wichita State University, USA",
-            "Authors": [
-                "Denis Delimarschi @ Wichita State University, USA",
-                "George Swartzendruber @ Wichita State University, USA",
-                "Huzefa Kagdi @ Wichita State University, USA"
-            ],
-            "Affiliations": [
-                "Wichita State University, USA",
-                "Wichita State University, USA",
-                "Wichita State University, USA"
-            ],
-            "Abstract": "The paper introduces the concept of applying Natural User Interface (NUI) interactions in the context of Integrated Development Environments (IDEs). Human voice and gestures are mapped to several IDE commends. A prototype tool is developed using the Microsoft Kinect hardware sensors and the available software development kits for Microsoft Visual Studio. A pilot study was conducted to assess the developed prototype. The results of the study suggest that it might be possible to apply natural interactions to a range of IDE capabilities.",
-            "Award": ""
-        },
-        {
-            "Title": "Amalgamating Source Code Authors, Maintainers, and Change Proneness to Triage Change Requests",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid30-p",
-            "URL": "http%3A%2F%2Fserl.cs.wichita.edu%2Fwp-content%2Fuploads%2Ficpc2014-kamal.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Md Kamal Hossen, Huzefa Kagdi, and Denys Poshyvanyk",
-            "AffiliationsString": "Wichita State University, USA; College of William and Mary, USA",
-            "Authors": [
-                "Md Kamal Hossen @ Wichita State University, USA",
-                "Huzefa Kagdi @ Wichita State University, USA",
-                "Denys Poshyvanyk @ College of William and Mary, USA"
-            ],
-            "Affiliations": [
-                "Wichita State University, USA",
-                "Wichita State University, USA",
-                "College of William and Mary, USA"
-            ],
-            "Abstract": "The paper presents an approach, namely iMacPro, to recommend developers who are most likely to implement incoming change requests. iMacPro amalgamates the textual similarity between the given change request and source code, change proneness information, authors, and maintainers of a software system. Latent Semantic Indexing (LSI) and a lightweight analysis of source code, and its commits from the software repository, are used. The basic premise of iMacPro is that the authors and maintainers of the relevant source code, which is change prone, to a given change request are most likely to best assist with its resolution. iMacPro unifies these sources in a unique way to perform its task, which was not investigated and reported in the literature previously.  An empirical study on three open source systems, ArgoUML, JabRef, and jEdit , was conducted to assess the effectiveness of iMacPro. A number of change requests from these systems were used in the evaluated benchmark. Recall values for top one, five, and ten recommended developers are reported. Furthermore, a comparative study with a previous approach that uses the source-code authorship information for developer recommendation was performed. Results show that iMacPro could provide recall gains from 30% to 180% over its subjected competitor with statistical significance.",
-            "Award": ""
-        },
-        {
-            "Title": "Mining Unit Tests for Code Recommendation",
-            "Type": "Short Paper",
-            "Key": "icpc14main-eraid112-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMohammad+Ghafari%2C+Carlo+Ghezzi%2C+Andrea+Mocci%2C+and+Giordano+Tamburrelli+%22Mining+Unit+Tests+for+Code+Recommendation%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Mohammad Ghafari, Carlo Ghezzi, Andrea Mocci, and Giordano Tamburrelli",
-            "AffiliationsString": "Politecnico di Milano, Italy; University of Lugano, Switzerland",
-            "Authors": [
-                "Mohammad Ghafari @ Politecnico di Milano, Italy",
-                "Carlo Ghezzi @ Politecnico di Milano, Italy",
-                "Andrea Mocci @ University of Lugano, Switzerland",
-                "Giordano Tamburrelli @ University of Lugano, Switzerland"
-            ],
-            "Affiliations": [
-                "Politecnico di Milano, Italy",
-                "Politecnico di Milano, Italy",
-                "University of Lugano, Switzerland",
-                "University of Lugano, Switzerland"
-            ],
-            "Abstract": "Developers spend a significant portion of their time understanding and learning the correct usage of the APIs of libraries they want to integrate in their projects. However, learning how to effectively use APIs is complex and time consuming. Code recommendation systems play a crucial role facilitating developers in this task by providing to them relevant examples while they code. This paper proposes a novel approach to code recommendation in which code examples are automatically obtained by mining and manipulating unit tests. In this paper we discuss the theoretical and practical implications that underpin this idea. The discussion leads to a series of fascinating research challenges that we organized in a research agenda.",
-            "Award": ""
-        },
-        {
-            "Title": "Recommending Automated Extract Method Refactorings",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid19-p",
-            "URL": "http%3A%2F%2Fwww.dcc.ufmg.br%2F%7Emtov%2Fpub%2F2014_icpc.pdf",
-            "URLvideo": "",
-            "URLinfo": "http%3A%2F%2Faserg.labsoft.dcc.ufmg.br%2Fjextract",
-            "PersonsString": "Danilo Silva, Ricardo Terra, and Marco Tulio Valente",
-            "AffiliationsString": "Federal University of Minas Gerais, Brazil; Federal University of Lavras, Brazil",
-            "Authors": [
-                "Danilo Silva @ Federal University of Minas Gerais, Brazil",
-                "Ricardo Terra @ Federal University of Lavras, Brazil",
-                "Marco Tulio Valente @ Federal University of Minas Gerais, Brazil"
-            ],
-            "Affiliations": [
-                "Federal University of Minas Gerais, Brazil",
-                "Federal University of Lavras, Brazil",
-                "Federal University of Minas Gerais, Brazil"
-            ],
-            "Abstract": "Extract Method is a key refactoring for improving program comprehension. However, recent empirical research shows that refactoring tools designed to automate Extract Methods are often underused. To tackle this issue, we propose a novel approach to identify and rank Extract Method refactoring opportunities that are directly automated by IDE-based refactoring tools. Our approach aims to recommend new methods that hide structural dependencies that are rarely used by the remaining statements in the original method. We conducted an exploratory study to experiment and define the best strategies to compute the dependencies and the similarity measures used by the proposed approach. We also evaluated our approach in a sample of 81 extract method opportunities generated for JUnit and JHotDraw, achieving a precision of 48% (JUnit) and 38% (JHotDraw).",
-            "Award": ""
-        },
-        {
-            "Title": "Identifying and Locating Interference Issues in PHP Applications: The Case of WordPress",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid44-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLaleh+Eshkevari%2C+Giuliano+Antoniol%2C+James+R.+Cordy%2C+and+Massimiliano+Di+Penta+%22Identifying+and+Locating+Interference+Issues+in+PHP+Applications%3A+The+Case+of+WordPress%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Laleh Eshkevari, Giuliano Antoniol, James R. Cordy, and Massimiliano Di Penta",
-            "AffiliationsString": "Polytechnique Montréal, Canada; Queen's University, Canada; University of Sannio, Italy",
-            "Authors": [
-                "Laleh Eshkevari @ Polytechnique Montréal, Canada",
-                "Giuliano Antoniol @ Polytechnique Montréal, Canada",
-                "James R. Cordy @ Queen's University, Canada",
-                "Massimiliano Di Penta @ University of Sannio, Italy"
-            ],
-            "Affiliations": [
-                "Polytechnique Montréal, Canada",
-                "Polytechnique Montréal, Canada",
-                "Queen's University, Canada",
-                "University of Sannio, Italy"
-            ],
-            "Abstract": "The large success of Content management Systems (CMS) such as WordPress is largely due to the rich ecosystem of themes and plugins developed around the CMS that allows users to easily build and customize complex Web applications featuring photo galleries, contact forms, and blog pages. However, the design of the CMS, the plugin-based architecture, and the implicit characteristics of the programming language used to develop them (often PHP), can cause interference or unwanted side effects between  the resources declared and used by different plugins. This paper describes the problem of interference between plugins in CMS, specifically those developed using PHP, and outlines an approach combining static and dynamic analysis to detect and locate such interference. Results of a case study conducted over 10 WordPress plugins shows that the analysis can help to identify and locate plugin interference, and thus be used to enhance CMS quality assurance.",
-            "Award": ""
-        },
-        {
-            "Title": "Prioritizing Maintainability Defects Based on Refactoring Recommendations",
-            "Type": "Full Paper",
-            "Key": "icpc14main-indid65-p",
-            "URL": "https%3A%2F%2Fwww.cqse.eu%2Fpublications%2F2014-prioritizing-maintainability-defects-by-refactoring-recommendations.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Daniela Steidl and Sebastian Eder",
-            "AffiliationsString": "CQSE, Germany; TU München, Germany",
-            "Authors": [
-                "Daniela Steidl @ CQSE, Germany",
-                "Sebastian Eder @ TU München, Germany"
-            ],
-            "Affiliations": [
-                "CQSE, Germany",
-                "TU München, Germany"
-            ],
-            "Abstract": "As a measure of software quality, current static code analyses reveal thousands of quality defects on systems in brown-field development in practice. Currently, there exists no way to prioritize among a large number of quality defects and developers lack a structured approach to address the load of refactoring. Consequently, although static analyses are often used, they do not lead to actual quality improvement. Our approach recommends to remove quality defects, exemplary code clones and long methods, which are easy to refactor and, thus, provides developers a first starting point for quality improvement. With an empirical industrial Java case study, we evaluate the usefulness of the recommendation based on developers’ feedback. We further quantify which external factors influence the process of quality defect removal in industry software development.",
-            "Award": ""
-        },
-        {
-            "Title": "How the Evolution of Emerging Collaborations Relates to Code Changes: An Empirical Study",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid26-p",
-            "URL": "http%3A%2F%2Fwww.rcost.unisannio.it%2Fmdipenta%2Fpapers%2Ficpc2014-teams.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Sebastiano Panichella, Gerardo Canfora, Massimiliano Di Penta, and Rocco Oliveto",
-            "AffiliationsString": "University of Sannio, Italy; University of Molise, Italy",
-            "Authors": [
-                "Sebastiano Panichella @ University of Sannio, Italy",
-                "Gerardo Canfora @ University of Sannio, Italy",
-                "Massimiliano Di Penta @ University of Sannio, Italy",
-                "Rocco Oliveto @ University of Molise, Italy"
-            ],
-            "Affiliations": [
-                "University of Sannio, Italy",
-                "University of Sannio, Italy",
-                "University of Sannio, Italy",
-                "University of Molise, Italy"
-            ],
-            "Abstract": "Developers contributing to open source projects spontaneously group into &quot;emerging&#039;&#039; teams, reflected by messages exchanged over mailing lists, issue trackers and other communication means. Previous studies suggested that such teams somewhat mirror the software modularity. This paper empirically investigates how, when a project evolves, emerging teams re-organize themselves-e.g., by splitting or merging. We relate the evolution of teams to the files they change, to investigate whether teams split to work on cohesive groups of files. Results of this study-conducted on the evolution history of four open source projects, namely Apache httpd, Eclipse JDT, Netbeans, and Samba-provide indications of what happens in the project when teams reorganize. Specifically, we found that emerging team splits imply working on more cohesive groups of files and emerging team merges imply working on groups of files that are cohesive from structural perspective. Such indications serve to better understand the evolution of software projects. More important, the observation of how emerging teams change can serve to suggest software remodularization actions.",
-            "Award": ""
-        },
-        {
-            "Title": "On the Effect of Code Regularity on Comprehension",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid17-p",
-            "URL": "http%3A%2F%2Fwww.cs.huji.ac.il%2F%7Efeit%2Fpapers%2FReg14ICPC.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Ahmad Jbara and Dror G. Feitelson",
-            "AffiliationsString": "Netanya Academic College, Israel; Hebrew University of Jerusalem, Israel",
-            "Authors": [
-                "Ahmad Jbara @ Netanya Academic College, Israel / Hebrew University of Jerusalem, Israel",
-                "Dror G. Feitelson @ Hebrew University of Jerusalem, Israel"
-            ],
-            "Affiliations": [
-                "Netanya Academic College, Israel / Hebrew University of Jerusalem, Israel",
-                "Hebrew University of Jerusalem, Israel"
-            ],
-            "Abstract": "It is naturally easier to comprehend simple code relative to complicated code. Regrettably, there is little agreement on how to effectively measure code complexity. As a result simple generalpurpose metrics are often used, such as lines of code (LOC), Mc- Cabe’s cyclomatic complexity (MCC), and Halstead’s metrics. But such metrics just count syntactic features, and ignore details of the code’s global structure, which may also have an effect on understandability. In particular, we suggest that code regularity—where the same structures are repeated time after time—may significantly reduce complexity, because once one figures out the basic repeated element it is easier to understand additional instances. We demonstrate this by controlled experiments where subjects perform cognitive tasks on different versions of the same basic function. The results indicate that versions with significant regularity lead to better comprehension, while taking similar time, despite being longer and having higherMCC. These results indicate that regularity is another attribute of code that should be taken into account in the context of studying the code’s complexity and comprehension. Moreover, the fact that regularity may compensate for LOC and MCC demonstrates that complexity cannot be decomposed into independently addable contributions by individual attributes.",
-            "Award": ""
-        },
-        {
-            "Title": "Capturing Software Traceability Links from Developers' Eye Gazes",
-            "Type": "Short Paper",
-            "Key": "icpc14main-eraid97-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBraden+Walters%2C+Timothy+Shaffer%2C+Bonita+Sharif%2C+and+Huzefa+Kagdi+%22Capturing+Software+Traceability+Links+from+Developers%27+Eye+Gazes%22",
-            "URLvideo": "",
-            "URLinfo": "http%3A%2F%2Fwww.csis.ysu.edu%2F%7Ebsharif%2Fitrace-pilot%2F",
-            "PersonsString": "Braden Walters, Timothy Shaffer, Bonita Sharif, and Huzefa Kagdi",
-            "AffiliationsString": "Youngstown State University, USA; Wichita State University, USA",
-            "Authors": [
-                "Braden Walters @ Youngstown State University, USA",
-                "Timothy Shaffer @ Youngstown State University, USA",
-                "Bonita Sharif @ Youngstown State University, USA",
-                "Huzefa Kagdi @ Wichita State University, USA"
-            ],
-            "Affiliations": [
-                "Youngstown State University, USA",
-                "Youngstown State University, USA",
-                "Youngstown State University, USA",
-                "Wichita State University, USA"
-            ],
-            "Abstract": "The paper presents a novel approach for recovering software traceability links from developers&#039; eye gazes. An eye tracker is used to capture eye gazes while developers perform software maintenance tasks within the Eclipse IDE. An algorithm is presented that establishes a set of traceability links from the eye-gaze data of several developer sessions. A preliminary study assesses the feasibility and validity of the approach. The links generated by the approach were validated by another set of developers. Results indicate that our algorithm achieves strong recall when developers accurately perform bug-localization tasks.",
-            "Award": ""
-        },
-        {
-            "Title": "Comprehension Support during Knowledge Transitions: Learning from Field",
-            "Type": "Abstract",
-            "Key": "icpc14main-indid64-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DVikrant+Kaulgud%2C+Annervaz+K.+M.%2C+Janardan+Misra%2C+and+Gary+Titus+%22Comprehension+Support+during+Knowledge+Transitions%3A+Learning+from+Field%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Vikrant Kaulgud, Annervaz K. M., Janardan Misra, and Gary Titus",
-            "AffiliationsString": "Accenture Technology Labs, India",
-            "Authors": [
-                "Vikrant Kaulgud @ Accenture Technology Labs, India",
-                "Annervaz K. M. @ Accenture Technology Labs, India",
-                "Janardan Misra @ Accenture Technology Labs, India",
-                "Gary Titus @ Accenture Technology Labs, India"
-            ],
-            "Affiliations": [
-                "Accenture Technology Labs, India",
-                "Accenture Technology Labs, India",
-                "Accenture Technology Labs, India",
-                "Accenture Technology Labs, India"
-            ],
-            "Abstract": "Knowledge Transition (KT) of legacy applications is a critical activity, often determining the quality of maintenance in the early stages of a maintenance life-cycle. We developed an integrated reverse engineering tool-suite that bootstraps the KT process by providing knowledge recipients insights to application structure, quality and functionality. The tool-suite is based on an in-depth study with KT practitioners and a comparative study of existing tools. We evaluated the benefits of the tool-suite during KT in real-life projects. In this talk, we report our learning from the study and evaluation phases.",
-            "Award": ""
-        },
-        {
-            "Title": "A Visualization Tool Recording Historical Data of Program Comprehension Tasks",
-            "Type": "Short Paper",
-            "Key": "icpc14main-demoid101-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKatsuhisa+Maruyama%2C+Takayuki+Omori%2C+and+Shinpei+Hayashi+%22A+Visualization+Tool+Recording+Historical+Data+of+Program+Comprehension+Tasks%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Katsuhisa Maruyama, Takayuki Omori, and Shinpei Hayashi",
-            "AffiliationsString": "Ritsumeikan University, Japan; Tokyo Institute of Technology, Japan",
-            "Authors": [
-                "Katsuhisa Maruyama @ Ritsumeikan University, Japan",
-                "Takayuki Omori @ Ritsumeikan University, Japan",
-                "Shinpei Hayashi @ Tokyo Institute of Technology, Japan"
-            ],
-            "Affiliations": [
-                "Ritsumeikan University, Japan",
-                "Ritsumeikan University, Japan",
-                "Tokyo Institute of Technology, Japan"
-            ],
-            "Abstract": "Software visualization has become a major technique in program comprehension. Although many tools visualize the structure, behavior, and evolution of a program, they have no concern with how a tool user has understood it. Moreover, they miss the stuff the user has left through trial-and-error processes of his/her program comprehension task. This paper presents a source code visualization tool called CodeForest. It uses a forest metaphor to depict source code of Java programs. Each tree represents a class within the program and the collection of trees constitutes a three-dimensional forest. CodeForest helps a user to try a large number of combinations of mapping of software metrics on visual parameters. Moreover, it provides two new types of support: leaving notes that memorize the current understanding and insight along with visualized objects, and automatically recording a user&#039;s actions under understanding. The left notes and recorded actions might be used as historical data that would be hints accelerating the current comprehension task.",
-            "Award": ""
-        },
-        {
-            "Title": "An Empirical Comparison of Static and Dynamic Type Systems on API Usage in the Presence of an IDE: Java vs. Groovy with Eclipse",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid43-p",
-            "URL": "http%3A%2F%2Fusers.dcc.uchile.cl%2F%7Errobbes%2Fp%2FICPC2014-idetypes.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Pujan Petersen, Stefan Hanenberg, and Romain Robbes",
-            "AffiliationsString": "University of Duisburg-Essen, Germany; University of Chile, Chile",
-            "Authors": [
-                "Pujan Petersen @ University of Duisburg-Essen, Germany",
-                "Stefan Hanenberg @ University of Duisburg-Essen, Germany",
-                "Romain Robbes @ University of Chile, Chile"
-            ],
-            "Affiliations": [
-                "University of Duisburg-Essen, Germany",
-                "University of Duisburg-Essen, Germany",
-                "University of Chile, Chile"
-            ],
-            "Abstract": "Several studies have concluded that static type systems offer an advantage over dynamic type systems for programming tasks involving the discovery of a new API. However, these studies did not take into account modern IDE features; the advanced navigation and code completion techniques available in modern IDEs could drastically alter their conclusions. This study describes an experiment that compares the usage of an unknown API using Java and Groovy using the IDE Eclipse. It turns out that the previous finding that static type systems improve the usability of an unknown API still holds, even in the presence of a modern IDE.",
-            "Award": ""
-        },
-        {
-            "Title": "What Is the Foundation of Evidence of Human Factors Decisions in Language Design? An Empirical Study on Programming Language Workshops",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid45-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndreas+Stefik%2C+Stefan+Hanenberg%2C+Mark+McKenney%2C+Anneliese+Andrews%2C+Srinivas+Kalyan+Yellanki%2C+and+Susanna+Siebert+%22What+Is+the+Foundation+of+Evidence+of+Human+Factors+Decisions+in+Language+Design%3F+An+Empirical+Study+on+Programming+Language+Workshops%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Andreas Stefik, Stefan Hanenberg, Mark McKenney, Anneliese Andrews, Srinivas Kalyan Yellanki, and Susanna Siebert",
-            "AffiliationsString": "University of Nevada at Las Vegas, USA; University of Duisburg-Essen, Germany; Southern Illinois University at Edwardsville, USA; University of Denver, USA; Washington University, USA",
-            "Authors": [
-                "Andreas Stefik @ University of Nevada at Las Vegas, USA",
-                "Stefan Hanenberg @ University of Duisburg-Essen, Germany",
-                "Mark McKenney @ Southern Illinois University at Edwardsville, USA",
-                "Anneliese Andrews @ University of Denver, USA",
-                "Srinivas Kalyan Yellanki @ University of Nevada at Las Vegas, USA",
-                "Susanna Siebert @ Washington University, USA"
-            ],
-            "Affiliations": [
-                "University of Nevada at Las Vegas, USA",
-                "University of Duisburg-Essen, Germany",
-                "Southern Illinois University at Edwardsville, USA",
-                "University of Denver, USA",
-                "University of Nevada at Las Vegas, USA",
-                "Washington University, USA"
-            ],
-            "Abstract": "In recent years, the programming language design community has engaged in rigorous debate on the role of empirical evidence in the design of general purpose programming languages. Some scholars contend that the language community has failed to embrace a form of evidence that is non-controversial in other disciplines (e.g., medicine, biology, psychology, sociology, physics, chemistry), while others argue that a science of language design is unrealistic. While the discussion will likely persist for some time, we begin here a systematic evaluation of the use of empirical evidence with human users, documenting, paper-by-paper, the evidence provided for human factors decisions, beginning with 359 papers from the workshops PPIG, Plateau, and ESP. This preliminary work provides the following contributions: an analysis of the 1) overall quantity and quality of empirical evidence used in the workshops, and of the 2) overall significant challenges to reliably coding academic papers. We hope that, once complete, this long-term research project will serve as a practical catalog designers can use when evaluating the impact of a language feature on human users.",
-            "Award": ""
-        },
-        {
-            "Title": "Domain Matters: Bringing Further Evidence of the Relationships among Anti-patterns, Application Domains, and Quality-Related Metrics in Java Mobile Apps",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid24-p",
-            "URL": "http%3A%2F%2Fwww.cs.wm.edu%2F%7Edenys%2Fpubs%2FICPC14-Antipatterns-CRC.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Mario Linares-Vásquez, Sam Klock, Collin McMillan, Aminata Sabané, Denys Poshyvanyk, and Yann-Gaël Guéhéneuc",
-            "AffiliationsString": "College of William and Mary, USA; University of Notre Dame, USA; Polytechnique Montréal, Canada",
-            "Authors": [
-                "Mario Linares-Vásquez @ College of William and Mary, USA",
-                "Sam Klock @ College of William and Mary, USA",
-                "Collin McMillan @ University of Notre Dame, USA",
-                "Aminata Sabané @ Polytechnique Montréal, Canada",
-                "Denys Poshyvanyk @ College of William and Mary, USA",
-                "Yann-Gaël Guéhéneuc @ Polytechnique Montréal, Canada"
-            ],
-            "Affiliations": [
-                "College of William and Mary, USA",
-                "College of William and Mary, USA",
-                "University of Notre Dame, USA",
-                "Polytechnique Montréal, Canada",
-                "College of William and Mary, USA",
-                "Polytechnique Montréal, Canada"
-            ],
-            "Abstract": "Some previous work began studying the relationship between application domains and quality, in particular through the prevalence of code and design smells (e.g., anti-patterns). Indeed, it is generally believed that the presence of these smells degrades quality but also that their prevalence varies across domains. Though anecdotal experiences and empirical evidence gathered from developers and researchers support this belief, there is still a need to further deepen our understanding of the relationship between application domains and quality. Consequently, we present a large-scale study that investigated the systematic relationships between the presence of smells and quality-related metrics computed over the bytecode of 1,343 Java Mobile Edition applications in 13 different application domains. Although, we did not find evidence of a correlation between smells and quality- related metrics, we found (1) that larger differences exist between metric values of classes exhibiting smells and classes without smells and (2) that some smells are commonly present in all the domains while others are most prevalent in certain domains",
-            "Award": ""
-        },
-        {
-            "Title": "SCQAM: A Scalable Structured Code Quality Assessment Method for Industrial Software",
-            "Type": "Full Paper",
-            "Key": "icpc14main-indid66-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShrinath+Gupta%2C+Himanshu+Kumar+Singh%2C+Radhika+D.+Venkatasubramanyam%2C+and+Umesh+Uppili+%22SCQAM%3A+A+Scalable+Structured+Code+Quality+Assessment+Method+for+Industrial+Software%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Shrinath Gupta, Himanshu Kumar Singh, Radhika D. Venkatasubramanyam, and Umesh Uppili",
-            "AffiliationsString": "Siemens, India",
-            "Authors": [
-                "Shrinath Gupta @ Siemens, India",
-                "Himanshu Kumar Singh @ Siemens, India",
-                "Radhika D. Venkatasubramanyam @ Siemens, India",
-                "Umesh Uppili @ Siemens, India"
-            ],
-            "Affiliations": [
-                "Siemens, India",
-                "Siemens, India",
-                "Siemens, India",
-                "Siemens, India"
-            ],
-            "Abstract": "Siemens, Corporate Technology, Development Center, Asia Australia (CT DC AA) has been developing and maintaining several software projects for the Industry, Energy, Healthcare, and Infrastructure &amp; Cities sectors of Siemens. The critical nature of these projects necessitates a high level of software code quality. As part of the code quality program at CT DC AA the strategy is to have a scalable method towards identification of issues affecting code quality of projects across the organization. Traditionally, code quality experts in Siemens used EMISQ method to assess code quality. EMISQ requires about three person months (two experts for six weeks) for 50-100 kLoC, making it effort intensive and time consuming. Thus, scaling this assessment method to include the hundreds of projects in CT DC AA poses many challenges. To address this, we have developed a lightweight assessment method called SCQAM (Structured Code Quality Assessment Method). SCQAM is an expert-based method wherein manual assessment of code quality by experts is directed by the systematic application of code analysis tools. In this paper, we describe the SCQAM method, experiences in applying it to projects in CT DC AA, challenges faced and initiatives taken to enable fixing of systemic issues reported by assessments. The insights from our SCQAM experience can provide useful pointers to other organizations and practitioners interested in assessment and improvement of software code quality.",
-            "Award": ""
-        },
-        {
-            "Title": "Repeatedly-Executed-Method Viewer for Efficient Visualization of Execution Paths and States in Java",
-            "Type": "Short Paper",
-            "Key": "icpc14main-demoid98-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DToshinori+Matsumura%2C+Takashi+Ishio%2C+Yu+Kashima%2C+and+Katsuro+Inoue+%22Repeatedly-Executed-Method+Viewer+for+Efficient+Visualization+of+Execution+Paths+and+States+in+Java%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Toshinori Matsumura, Takashi Ishio, Yu Kashima, and Katsuro Inoue",
-            "AffiliationsString": "Osaka University, Japan",
-            "Authors": [
-                "Toshinori Matsumura @ Osaka University, Japan",
-                "Takashi Ishio @ Osaka University, Japan",
-                "Yu Kashima @ Osaka University, Japan",
-                "Katsuro Inoue @ Osaka University, Japan"
-            ],
-            "Affiliations": [
-                "Osaka University, Japan",
-                "Osaka University, Japan",
-                "Osaka University, Japan",
-                "Osaka University, Japan"
-            ],
-            "Abstract": "The state of a program at runtime is useful information for developers to understand a program. Omniscient debugging and logging-based tools enable developers to investigate the state of a program at an arbitrary point of time in an execution. While these tools are effective to analyze the state at a single point of time, they might be insufficient to understand the generic behavior of a method which includes various control-flow paths. In this paper, we propose REMViewer (Repeatedly-Executed-Method Viewer), or a tool that visualizes multiple execution paths of a Java method. The tool shows each execution path in a separated view so that developers can firstly select actual execution paths of interest and then compare the state of local variables in the paths.",
-            "Award": ""
-        },
-        {
-            "Title": "A Formal Evaluation of DepDegree Based on Weyuker's Properties",
-            "Type": "Short Paper",
-            "Key": "icpc14main-eraid85-p",
-            "URL": "http%3A%2F%2Fwww.sosy-lab.org%2F%7Edbeyer%2FPublications%2F2014-ICPC.A_Formal_Evaluation_of_DepDegree_Based_on_Weyukers_Properties.pdf",
-            "URLvideo": "",
-            "URLinfo": "http%3A%2F%2Fwww.sosy-lab.org%2F%7Edbeyer%2FDepDegreeProperties%2F",
-            "PersonsString": "Dirk Beyer and Peter Häring",
-            "AffiliationsString": "University of Passau, Germany",
-            "Authors": [
-                "Dirk Beyer @ University of Passau, Germany",
-                "Peter Häring @ University of Passau, Germany"
-            ],
-            "Affiliations": [
-                "University of Passau, Germany",
-                "University of Passau, Germany"
-            ],
-            "Abstract": "Complexity of source code is an important characteristic that software engineers aim to quantify using static software measurement. Several measures used in practice as indicators for software complexity have theoretical flaws. In order to assess the quality of a software measure, Weyuker established a set of properties that an indicator for program-code complexity should satisfy. It is known that several well-established complexity indicators do not fulfill Weyuker&#039;s properties. As an ``early achievement&#039;&#039; in a larger project on evaluating software measures, we show that DepDegree, a measure for data-flow dependencies, satisfies all of Weyuker&#039;s properties.",
-            "Award": ""
-        },
-        {
-            "Title": "Hey! Are You Committing Tangled Changes?",
-            "Type": "Short Paper",
-            "Key": "icpc14main-eraid74-p",
-            "URL": "http%3A%2F%2Ffenrir.ics.es.osaka-u.ac.jp%2F%7Ehigo%2Fdata%2Ficpc2014cameraready.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Hiroyuki Kirinuki, Yoshiki Higo, Keisuke Hotta, and Shinji Kusumoto",
-            "AffiliationsString": "Osaka University, Japan",
-            "Authors": [
-                "Hiroyuki Kirinuki @ Osaka University, Japan",
-                "Yoshiki Higo @ Osaka University, Japan",
-                "Keisuke Hotta @ Osaka University, Japan",
-                "Shinji Kusumoto @ Osaka University, Japan"
-            ],
-            "Affiliations": [
-                "Osaka University, Japan",
-                "Osaka University, Japan",
-                "Osaka University, Japan",
-                "Osaka University, Japan"
-            ],
-            "Abstract": "Although there is a principle that states a commit should only include changes for a single task, it is not always respected by developers. This means that code repositories often include commits that contain tangled changes. The presence of such tangled changes hinders analyzing code repositories because most mining software repository (MSR) approaches are designed with the assumption that every commit includes only changes for a single task. In this paper, we propose a technique to inform developers that they are in the process of committing tangled changes. The proposed technique utilizes the changes included in the past commits to judge whether a given commit includes tangled changes. If it determines that the proposed commit may include tangled changes, it offers suggestions on how the tangled changes can be split into a set of untangled changes.",
-            "Award": ""
-        },
-        {
-            "Title": "A Semiautomated Method for Classifying Program Analysis Rules into a Quality Model",
-            "Type": "Short Paper",
-            "Key": "icpc14main-indid79-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShrinath+Gupta+and+Himanshu+Kumar+Singh+%22A+Semiautomated+Method+for+Classifying+Program+Analysis+Rules+into+a+Quality+Model%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Shrinath Gupta and Himanshu Kumar Singh",
-            "AffiliationsString": "Siemens, India",
-            "Authors": [
-                "Shrinath Gupta @ Siemens, India",
-                "Himanshu Kumar Singh @ Siemens, India"
-            ],
-            "Affiliations": [
-                "Siemens, India",
-                "Siemens, India"
-            ],
-            "Abstract": "Most of the software code quality assessment and monitoring methods uses Quality Model (QM) as an aid to capture quality requirements of the software. An important aspect concerning use of QM is classification of Program Analysis (PA) rules into QM according to their relevance to quality attributes such as maintainability, reliability etc. Currently such classification is performed manually by experts and most of the PA tools (such as FxCop for C#, FindBugs for Java, PC-Lint for C/C++) support hundreds of PA rules. Hence performing classification manually can be very effort intensive and time consuming and can lead to concerns like subjectivity and inconsistency. Hence we propose a light weight semiautomated method to expedite classification and make classification activity less effort intensive. Proposed classifier is based on natural language processing (NLP) techniques and uses a keyword matching algorithm. We have computed precision and recall for such a classifier. We have also shown results from applying technique on classifying rules from FxCop, PC-Lint, and FindBugs into the EMISQ QM. We believe that proposed approach will significantly help in reducing the time required to perform classification and hence also to incorporate newer PA tools and rules into QM based methods.",
-            "Award": ""
-        },
-        {
-            "Title": "An Approach for Evaluating and Suggesting Method Names using N-gram Models",
-            "Type": "Short Paper",
-            "Key": "icpc14main-eraid100-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTakayuki+Suzuki%2C+Kazunori+Sakamoto%2C+Fuyuki+Ishikawa%2C+and+Shinichi+Honiden+%22An+Approach+for+Evaluating+and+Suggesting+Method+Names+using+N-gram+Models%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Takayuki Suzuki, Kazunori Sakamoto, Fuyuki Ishikawa, and Shinichi Honiden",
-            "AffiliationsString": "University of Tokyo, Japan; National Institute of Informatics, Japan",
-            "Authors": [
-                "Takayuki Suzuki @ University of Tokyo, Japan",
-                "Kazunori Sakamoto @ National Institute of Informatics, Japan",
-                "Fuyuki Ishikawa @ National Institute of Informatics, Japan",
-                "Shinichi Honiden @ University of Tokyo, Japan"
-            ],
-            "Affiliations": [
-                "University of Tokyo, Japan",
-                "National Institute of Informatics, Japan",
-                "National Institute of Informatics, Japan",
-                "University of Tokyo, Japan"
-            ],
-            "Abstract": "Method names are important for the software development process. It has been shown by some studies that the quality of method names affects software comprehension. In response, some approaches that evaluate comprehensibility of method names have been proposed. However, the effectiveness of existing approaches is limited because they focus on part of names.  To deal with the limitation, we propose a novel approach for evaluating comprehensibility of method names and suggesting comprehensible method names using n-gram models. We implemented a prototype tool and conducted two experiments as a case study. Our experiments show that our approach can correctly evaluate 75% method names and successfully suggest 92% actual third words of method names.",
-            "Award": ""
-        },
-        {
-            "Title": "Cross-Language Bug Localization",
-            "Type": "Short Paper",
-            "Key": "icpc14main-eraid77-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DXin+Xia%2C+David+Lo%2C+Xingen+Wang%2C+Chenyi+Zhang%2C+and+Xinyu+Wang+%22Cross-Language+Bug+Localization%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Xin Xia, David Lo, Xingen Wang, Chenyi Zhang, and Xinyu Wang",
-            "AffiliationsString": "Zhejiang University, China; Singapore Management University, Singapore",
-            "Authors": [
-                "Xin Xia @ Zhejiang University, China",
-                "David Lo @ Singapore Management University, Singapore",
-                "Xingen Wang @ Zhejiang University, China",
-                "Chenyi Zhang @ Zhejiang University, China",
-                "Xinyu Wang @ Zhejiang University, China"
-            ],
-            "Affiliations": [
-                "Zhejiang University, China",
-                "Singapore Management University, Singapore",
-                "Zhejiang University, China",
-                "Zhejiang University, China",
-                "Zhejiang University, China"
-            ],
-            "Abstract": "Bug localization refers to the process of identifying source code files that contain defects from textual descriptions in bug reports. Existing bug localization techniques work on the assumption that bug reports, and identifiers and comments in source code files, are written in the same language (i.e., English). However, software users from non-English speaking countries (e.g., China) often use their native languages (e.g., Chinese) to write bug reports. For this setting, existing studies on bug localization would not work as the terms that appear in the bug reports do not appear in the source code. We refer to this problem as cross-language bug localization. In this paper, we propose a cross-language bug localization algorithm named CrosLocator, which is based on language translation.  Since different online translators (e.g., Google and Microsoft translators) have different translation accuracies for various texts, CrosLocator uses multiple translators to convert a non-English textual description of a bug report into English -- each bug report would then have multiple translated versions. For each translated version, CrosLocator applies a bug localization technique to rank source code files. Finally, CrosLocator combines the multiple ranked lists of source code files. Our preliminary experiment on Ruby-China shows that CrosLocator could achieve mean reciprocal rank (mrr) and mean average precision (map) scores of up to 0.146 and 0.116, which outperforms a baseline approach by an average of 10% and 12% respectively.",
-            "Award": ""
-        },
-        {
-            "Title": "Automatic Documentation Generation via Source Code Summarization of Method Context",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid34-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPaul+W.+McBurney+and+Collin+McMillan+%22Automatic+Documentation+Generation+via+Source+Code+Summarization+of+Method+Context%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Paul W. McBurney and Collin McMillan",
-            "AffiliationsString": "University of Notre Dame, USA",
-            "Authors": [
-                "Paul W. McBurney @ University of Notre Dame, USA",
-                "Collin McMillan @ University of Notre Dame, USA"
-            ],
-            "Affiliations": [
-                "University of Notre Dame, USA",
-                "University of Notre Dame, USA"
-            ],
-            "Abstract": "A documentation generator is a programming tool that creates documentation for software by analyzing the statements and comments in the software&#039;s source code. While many of these tools are manual, in that they require specially-formatted metadata written by programmers, new research has made inroads towards automatic generation of documentation. These approaches work by stitching together keywords from the source code into readable natural language sentences. These approaches have been shown to be effective, but carry a key limitation: the generated documents do not explain the source code&#039;s context. They can describe the behavior of a Java method, but not why the method exists or what role it plays in the software. In this paper, we propose a technique that includes this context by analyzing how the Java methods are invoked. In a user study, we found that programmers benefit from our generated documentation because it includes context information.",
-            "Award": ""
-        },
-        {
-            "Title": "Improving Topic Model Source Code Summarization",
-            "Type": "Short Paper",
-            "Key": "icpc14main-eraid70-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPaul+W.+McBurney%2C+Cheng+Liu%2C+Collin+McMillan%2C+and+Tim+Weninger+%22Improving+Topic+Model+Source+Code+Summarization%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Paul W. McBurney, Cheng Liu, Collin McMillan, and Tim Weninger",
-            "AffiliationsString": "University of Notre Dame, USA",
-            "Authors": [
-                "Paul W. McBurney @ University of Notre Dame, USA",
-                "Cheng Liu @ University of Notre Dame, USA",
-                "Collin McMillan @ University of Notre Dame, USA",
-                "Tim Weninger @ University of Notre Dame, USA"
-            ],
-            "Affiliations": [
-                "University of Notre Dame, USA",
-                "University of Notre Dame, USA",
-                "University of Notre Dame, USA",
-                "University of Notre Dame, USA"
-            ],
-            "Abstract": "In this paper, we present an emerging source code summarization technique that uses topic modeling to select keywords and topics as summaries for source code. Our approach organizes the topics in source code into a hierarchy, with more general topics near the top of the hierarchy. In this way, we present the software&#039;s highest-level functionality first, before lower-level details. This is an advantage over previous approaches based on topic models, that only present groups of related keywords without a hierarchy. We conducted a preliminary user study that found our approach selects keywords and topics that the participants found to be accurate in a majority of cases.",
-            "Award": ""
-        },
-        {
-            "Title": "A Code Obfuscation Framework using Code Clones",
-            "Type": "Short Paper",
-            "Key": "icpc14main-indid73-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAniket+Kulkarni+and+Ravindra+Metta+%22A+Code+Obfuscation+Framework+using+Code+Clones%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Aniket Kulkarni and Ravindra Metta",
-            "AffiliationsString": "Tata Consultancy Services, India",
-            "Authors": [
-                "Aniket Kulkarni @ Tata Consultancy Services, India",
-                "Ravindra Metta @ Tata Consultancy Services, India"
-            ],
-            "Affiliations": [
-                "Tata Consultancy Services, India",
-                "Tata Consultancy Services, India"
-            ],
-            "Abstract": "IT industry loses tens of billions of dollars annually from security attacks such as malicious reverse engineering. To protect sensitive parts of software from such attacks, we designed a code obfuscation scheme based on nontrivial code clones. While implementing this scheme, we realized that currently there is no framework to assist implementation of such advanced obfuscation techniques. Therefore, we have developed a framework to support code obfuscation using code clones. We could successfully implement our obfuscation technique using this framework in Java. In this paper, we present our framework and illustrate it with an example.",
-            "Award": ""
-        },
-        {
-            "Title": "JCSD: Visual Support for Understanding Code Control Structure",
-            "Type": "Short Paper",
-            "Key": "icpc14main-demoid83-p",
-            "URL": "http%3A%2F%2Fwww.cs.huji.ac.il%2F%7Efeit%2Fpapers%2FCSD14ICPC.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Ahmad Jbara and Dror G. Feitelson",
-            "AffiliationsString": "Netanya Academic College, Israel; Hebrew University of Jerusalem, Israel",
-            "Authors": [
-                "Ahmad Jbara @ Netanya Academic College, Israel / Hebrew University of Jerusalem, Israel",
-                "Dror G. Feitelson @ Hebrew University of Jerusalem, Israel"
-            ],
-            "Affiliations": [
-                "Netanya Academic College, Israel / Hebrew University of Jerusalem, Israel",
-                "Hebrew University of Jerusalem, Israel"
-            ],
-            "Abstract": "Program comprehension is a vital mental process in any maintenance activity. It becomes decisive as functions get larger. Such functions are burdened with very many programming constructs as lines of code (LOC) strongly correlate with the McCabe’s cyclomatic complexity (MCC). This makes it hard to capture the whole code of such functions and as a result hinders grasping their structural properties that might be essential for maintenance. Program visualization is known as a key solution that assists in comprehending complex systems. As a matter of fact we have shown, in a recent work, that control structure diagrams (CSD) could be useful to better understand and discover structural properties of such functions. For example, we found that the code regularity property, and even cloning, can be easily identified by CSDs. This paper presents JCSD, which is an Eclipse plug-in that implements CSD diagrams for Java methods. In particular it visualizes the control structure and nesting of a Java method, and by this it easily conveys structural characteristics of the code to the programmer and helps him to better understand and refactor.",
-            "Award": ""
-        },
-        {
-            "Title": "Plagiarism Detection for Multithreaded Software Based on Thread-Aware Software Birthmarks",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid23-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DZhenzhou+Tian%2C+Qinghua+Zheng%2C+Ting+Liu%2C+Ming+Fan%2C+Xiaodong+Zhang%2C+and+Zijiang+Yang+%22Plagiarism+Detection+for+Multithreaded+Software+Based+on+Thread-Aware+Software+Birthmarks%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Zhenzhou Tian, Qinghua Zheng, Ting Liu, Ming Fan, Xiaodong Zhang, and Zijiang Yang",
-            "AffiliationsString": "Xi'an Jiaotong University, China; Western Michigan University, USA; Xi’an University of Technology, China",
-            "Authors": [
-                "Zhenzhou Tian @ Xi'an Jiaotong University, China",
-                "Qinghua Zheng @ Xi'an Jiaotong University, China",
-                "Ting Liu @ Xi'an Jiaotong University, China",
-                "Ming Fan @ Xi'an Jiaotong University, China",
-                "Xiaodong Zhang @ Xi'an Jiaotong University, China",
-                "Zijiang Yang @ Western Michigan University, USA / Xi’an University of Technology, China"
-            ],
-            "Affiliations": [
-                "Xi'an Jiaotong University, China",
-                "Xi'an Jiaotong University, China",
-                "Xi'an Jiaotong University, China",
-                "Xi'an Jiaotong University, China",
-                "Xi'an Jiaotong University, China",
-                "Western Michigan University, USA / Xi’an University of Technology, China"
-            ],
-            "Abstract": "The availability of inexpensive multicore hardware presents a turning point in software development. In order to benefit from the continued exponential throughput advances in new processors, the software applications must be multithreaded programs. As multithreaded programs become increasingly popular, plagiarism of multithreaded programs starts to plague the software industry. Although there has been tremendous progress on software plagiarism detection technology, existing dynamic approaches remain optimized for sequential programs and cannot be applied to multithreaded programs without significant redesign. This paper fills the gap by presenting two dynamic birthmark based approaches. The first approach extracts key instructions while the second approach extracts system calls. Both approaches consider the effect of thread scheduling on computing software birthmarks. We have implemented a prototype based on the Pin instrumentation framework. Our empirical study shows that the proposed approaches can effectively detect plagiarism of multithread programs and exhibit strong resilience to various semantic-preserving code obfuscations.",
-            "Award": ""
-        },
-        {
-            "Title": "Redacting Sensitive Information in Software Artifacts",
-            "Type": "Full Paper",
-            "Key": "icpc14main-mainid9-p",
-            "URL": "http%3A%2F%2Fwww.cs.wm.edu%2F%7Edenys%2Fpubs%2FRESIST-CAMERA.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "PersonsString": "Mark Grechanik, Collin McMillan, Tathagata Dasgupta, Denys Poshyvanyk, and Malcom Gethers",
-            "AffiliationsString": "University of Illinois at Chicago, USA; University of Notre Dame, USA; College of William and Mary, USA; University of Maryland in Baltimore County, USA",
-            "Authors": [
-                "Mark Grechanik @ University of Illinois at Chicago, USA",
-                "Collin McMillan @ University of Notre Dame, USA",
-                "Tathagata Dasgupta @ University of Illinois at Chicago, USA",
-                "Denys Poshyvanyk @ College of William and Mary, USA",
-                "Malcom Gethers @ University of Maryland in Baltimore County, USA"
-            ],
-            "Affiliations": [
-                "University of Illinois at Chicago, USA",
-                "University of Notre Dame, USA",
-                "University of Illinois at Chicago, USA",
-                "College of William and Mary, USA",
-                "University of Maryland in Baltimore County, USA"
-            ],
-            "Abstract": "In the past decade, there have been many well-publicized cases of source code leaking from different well-known companies. These leaks pose a serious problem when the source code contains sensitive information encoded in its identifier names and comments. Unfortunately, redacting the sensitive information requires obfuscating the identifiers, which will quickly interfere with program comprehension. Program comprehension is key for programmers in understanding the source code, so sensitive information is often left unredacted.  To address this problem, we offer a novel approach for REdacting Sensitive Information in Software arTifacts (RESIST). RESIST finds and replaces sensitive words in software artifacts in such a way to reduce the impact on program comprehension. We evaluated RESIST experimentally using 57 professional programmers from over a dozen different organizations. Our evaluation shows that RESIST effectively redacts software artifacts, thereby making it difficult for participants to infer sensitive information, while maintaining a desired level of comprehension.",
-            "Award": ""
         }
     ],
     "Sessions": [
@@ -7170,26 +6188,6 @@
             "Abstract": ""
         },
         {
-            "Id": "Eeghah9cuW",
-            "Title": "Opening",
-            "ShortTitle": "Opening",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
-            "Key": "2014-06-02 08:45 Opening",
-            "Day": "2014-06-02",
-            "Time": "08:45 - 09:00",
-            "Location": "",
-            "LocationIndex": "30",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
             "Id": "Aishaazee6",
             "Title": "T5",
             "ShortTitle": "T5",
@@ -7268,29 +6266,6 @@
             "Comment": "ICSE14",
             "URL": "",
             "Abstract": ""
-        },
-        {
-            "Id": "Aiwaaxai3z",
-            "Title": "The MoJo Family: A Story about Clustering Evaluation (Invited Talk)",
-            "ShortTitle": "The MoJo Family: A Story about Clustering Evaluation (Invited Talk)",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
-            "Key": "2014-06-02 09:00 The MoJo Family: A Story about Clustering Evaluation (Invited Talk)",
-            "Day": "2014-06-02",
-            "Time": "09:00 - 09:50",
-            "Location": "",
-            "LocationIndex": "30",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14MAIN",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "icpc14main-keynotesid2-p"
-            ]
         },
         {
             "Id": "aiVie3usaH",
@@ -7413,127 +6388,6 @@
             "Abstract": ""
         },
         {
-            "Id": "phuh1Zul2d",
-            "Title": "Architecture",
-            "ShortTitle": "Architecture",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
-            "Key": "2014-06-02 09:50 Architecture",
-            "Day": "2014-06-02",
-            "Time": "09:50 - 10:30",
-            "Location": "",
-            "LocationIndex": "30",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14MAIN",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "icpc14main-mainid13-p",
-                "icpc14main-mainid48-p"
-            ]
-        },
-        {
-            "Id": "eiWegh5aih",
-            "Title": "ICPC Morning Break",
-            "ShortTitle": "ICPC Morning Break",
-            "Type": "Social",
-            "ShortType": "Social",
-            "Key": "2014-06-02 10:30 ICPC Morning Break",
-            "Day": "2014-06-02",
-            "Time": "10:30 - 11:00",
-            "Location": "",
-            "LocationIndex": "3",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "Koo5Queez1",
-            "Title": "Supporting Software Engineers",
-            "ShortTitle": "Supporting Software Engineers",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
-            "Key": "2014-06-02 11:00 Supporting Software Engineers",
-            "Day": "2014-06-02",
-            "Time": "11:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "30",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14MAIN",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "icpc14main-mainid36-p",
-                "icpc14main-mainid41-p",
-                "icpc14main-demoid67-p",
-                "icpc14main-mainid32-p",
-                "icpc14main-eraid90-p",
-                "icpc14main-eraid110-p"
-            ]
-        },
-        {
-            "Id": "uHiH2ieY7T",
-            "Title": "ICPC Lunch",
-            "ShortTitle": "ICPC Lunch",
-            "Type": "Social",
-            "ShortType": "Social",
-            "Key": "2014-06-02 12:30 ICPC Lunch",
-            "Day": "2014-06-02",
-            "Time": "12:30 - 13:45",
-            "Location": "",
-            "LocationIndex": "3",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "Oopohf7dee",
-            "Title": "Collaborative and Human Aspects",
-            "ShortTitle": "Collaborative and Human Aspects",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
-            "Key": "2014-06-02 13:45 Collaborative and Human Aspects",
-            "Day": "2014-06-02",
-            "Time": "13:45 - 15:30",
-            "Location": "",
-            "LocationIndex": "30",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14MAIN",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "icpc14main-mainid27-p",
-                "icpc14main-mainid46-p",
-                "icpc14main-mainid20-p",
-                "icpc14main-demoid86-p",
-                "icpc14main-mainid56-p",
-                "icpc14main-eraid78-p",
-                "icpc14main-eraid96-p"
-            ]
-        },
-        {
             "Id": "Aequu9waew",
             "Title": "T4",
             "ShortTitle": "T4",
@@ -7570,95 +6424,6 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICSE14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "Oh2Ko6ohs7",
-            "Title": "ICPC Afternoon Break",
-            "ShortTitle": "ICPC Afternoon Break",
-            "Type": "Social",
-            "ShortType": "Social",
-            "Key": "2014-06-02 15:30 ICPC Afternoon Break",
-            "Day": "2014-06-02",
-            "Time": "15:30 - 16:00",
-            "Location": "",
-            "LocationIndex": "3",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "uquo1Aisah",
-            "Title": "Recommendations",
-            "ShortTitle": "Recommendations",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
-            "Key": "2014-06-02 16:00 Recommendations",
-            "Day": "2014-06-02",
-            "Time": "16:00 - 17:05",
-            "Location": "",
-            "LocationIndex": "30",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14MAIN",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "icpc14main-mainid30-p",
-                "icpc14main-eraid112-p",
-                "icpc14main-mainid19-p",
-                "icpc14main-mainid44-p"
-            ]
-        },
-        {
-            "Id": "fu8Othoh0j",
-            "Title": "Joint Session with CHASE 1",
-            "ShortTitle": "Joint Session with CHASE 1",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
-            "Key": "2014-06-02 17:05 Joint Session with CHASE 1",
-            "Day": "2014-06-02",
-            "Time": "17:05 - 18:00",
-            "Location": "",
-            "LocationIndex": "30",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14MAIN",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "icpc14main-indid65-p"
-            ]
-        },
-        {
-            "Id": "aenoh8Ap",
-            "Title": "ICPC Banquet",
-            "ShortTitle": "ICPC Banquet",
-            "Type": "Social",
-            "ShortType": "Social",
-            "Key": "2014-06-02 19:00 ICPC Banquet",
-            "Day": "2014-06-02",
-            "Time": "19:00 - 21:30",
-            "Location": "",
-            "LocationIndex": "3",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14",
             "URL": "",
             "Abstract": ""
         },
@@ -7761,29 +6526,6 @@
             "Comment": "ICSE14",
             "URL": "",
             "Abstract": ""
-        },
-        {
-            "Id": "quozee8Eod",
-            "Title": "Joint Session with CHASE 2",
-            "ShortTitle": "Joint Session with CHASE 2",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
-            "Key": "2014-06-03 09:00 Joint Session with CHASE 2",
-            "Day": "2014-06-03",
-            "Time": "09:00 - 09:30",
-            "Location": "",
-            "LocationIndex": "30",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14MAIN",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "icpc14main-mainid26-p"
-            ]
         },
         {
             "Id": "maiYee5phi",
@@ -7987,49 +6729,6 @@
             "Abstract": ""
         },
         {
-            "Id": "udaic5Hi5f",
-            "Title": "Innovating in India: Designing for Constraint, Computing for Inclusion (Keynote)",
-            "ShortTitle": "Innovating in India: Designing for Constraint, Computing for Inclusion (Keynote)",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
-            "Key": "2014-06-03 09:30 Innovating in India: Designing for Constraint, Computing for Inclusion (Keynote)",
-            "Day": "2014-06-03",
-            "Time": "09:30 - 10:30",
-            "Location": "",
-            "LocationIndex": "30",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14MAIN",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "icpc14main-keynotesid3-p"
-            ]
-        },
-        {
-            "Id": "wexooB1eeg",
-            "Title": "ICPC Morning Break",
-            "ShortTitle": "ICPC Morning Break",
-            "Type": "Social",
-            "ShortType": "Social",
-            "Key": "2014-06-03 10:30 ICPC Morning Break",
-            "Day": "2014-06-03",
-            "Time": "10:30 - 11:00",
-            "Location": "",
-            "LocationIndex": "3",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
             "Id": "Aisi7ahZ",
             "Title": "NFS - Group activity",
             "ShortTitle": "NFS - Group activity",
@@ -8068,34 +6767,6 @@
             "Comment": "ICSE14",
             "URL": "",
             "Abstract": ""
-        },
-        {
-            "Id": "gohsh2Pha5",
-            "Title": "Understanding Comprehension",
-            "ShortTitle": "Understanding Comprehension",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
-            "Key": "2014-06-03 11:00 Understanding Comprehension",
-            "Day": "2014-06-03",
-            "Time": "11:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "30",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14MAIN",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "icpc14main-mainid17-p",
-                "icpc14main-eraid97-p",
-                "icpc14main-indid64-p",
-                "icpc14main-demoid101-p",
-                "icpc14main-mainid43-p",
-                "icpc14main-mainid45-p"
-            ]
         },
         {
             "Id": "ing2Fe4ya0",
@@ -8168,56 +6839,6 @@
             "Comment": "ICSE14",
             "URL": "",
             "Abstract": ""
-        },
-        {
-            "Id": "Vah8be1Eip",
-            "Title": "ICPC Lunch",
-            "ShortTitle": "ICPC Lunch",
-            "Type": "Social",
-            "ShortType": "Social",
-            "Key": "2014-06-03 12:30 ICPC Lunch",
-            "Day": "2014-06-03",
-            "Time": "12:30 - 13:45",
-            "Location": "",
-            "LocationIndex": "3",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "ionookef0U",
-            "Title": "Software Quality",
-            "ShortTitle": "Software Quality",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
-            "Key": "2014-06-03 13:45 Software Quality",
-            "Day": "2014-06-03",
-            "Time": "13:45 - 15:30",
-            "Location": "",
-            "LocationIndex": "30",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14MAIN",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "icpc14main-mainid24-p",
-                "icpc14main-indid66-p",
-                "icpc14main-demoid98-p",
-                "icpc14main-eraid85-p",
-                "icpc14main-eraid74-p",
-                "icpc14main-indid79-p",
-                "icpc14main-eraid100-p",
-                "icpc14main-eraid77-p"
-            ]
         },
         {
             "Id": "ob8Ix4ae",
@@ -8447,54 +7068,6 @@
             ]
         },
         {
-            "Id": "vi2eaKaifu",
-            "Title": "ICPC Afternoon Break",
-            "ShortTitle": "ICPC Afternoon Break",
-            "Type": "Social",
-            "ShortType": "Social",
-            "Key": "2014-06-03 15:30 ICPC Afternoon Break",
-            "Day": "2014-06-03",
-            "Time": "15:30 - 16:00",
-            "Location": "",
-            "LocationIndex": "3",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "weer5Eefai",
-            "Title": "Novel Development Tooling",
-            "ShortTitle": "Novel Development Tooling",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
-            "Key": "2014-06-03 16:00 Novel Development Tooling",
-            "Day": "2014-06-03",
-            "Time": "16:00 - 17:30",
-            "Location": "",
-            "LocationIndex": "30",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14MAIN",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "icpc14main-mainid34-p",
-                "icpc14main-eraid70-p",
-                "icpc14main-indid73-p",
-                "icpc14main-demoid83-p",
-                "icpc14main-mainid23-p",
-                "icpc14main-mainid9-p"
-            ]
-        },
-        {
             "Id": "yochi8Mien",
             "Title": "Working Groups",
             "ShortTitle": "Working Groups",
@@ -8572,26 +7145,6 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICSE14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "queiNaesh1",
-            "Title": "Open SC Meeting with ICPC 2015 Presentation",
-            "ShortTitle": "Open SC Meeting with ICPC 2015 Presentation",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
-            "Key": "2014-06-03 17:30 Open SC Meeting with ICPC 2015 Presentation",
-            "Day": "2014-06-03",
-            "Time": "17:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "30",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICPC14",
             "URL": "",
             "Abstract": ""
         },
@@ -10802,17 +9355,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Rui Abreu",
-            "Affiliation": "University of Porto, Portugal",
-            "Key": "Rui Abreu @ University of Porto, Portugal",
-            "Id": "12edb481d4",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Daniel Aceituna",
             "Affiliation": "North Dakota State University, USA",
             "Key": "Daniel Aceituna @ North Dakota State University, USA",
@@ -11022,17 +9564,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Anneliese Andrews",
-            "Affiliation": "University of Denver, USA",
-            "Key": "Anneliese Andrews @ University of Denver, USA",
-            "Id": "83dbf483fb",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Kelly Androutsopoulos",
             "Affiliation": "Middlesex University, UK",
             "Key": "Kelly Androutsopoulos @ Middlesex University, UK",
@@ -11059,17 +9590,6 @@
             "Affiliation": "Georgia Tech, USA",
             "Key": "Annie I. Antón @ Georgia Tech, USA",
             "Id": "7150797553",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Giuliano Antoniol",
-            "Affiliation": "Polytechnique Montréal, Canada",
-            "Key": "Giuliano Antoniol @ Polytechnique Montréal, Canada",
-            "Id": "9d7fd855e2",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -11319,17 +9839,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Gabriele Bavota",
-            "Affiliation": "University of Sannio, Italy",
-            "Key": "Gabriele Bavota @ University of Sannio, Italy",
-            "Id": "f02698fa1d",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Olga Baysal",
             "Affiliation": "University of Waterloo, Canada",
             "Key": "Olga Baysal @ University of Waterloo, Canada",
@@ -11484,17 +9993,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Dirk Beyer",
-            "Affiliation": "University of Passau, Germany",
-            "Key": "Dirk Beyer @ University of Passau, Germany",
-            "Id": "0ea1c00b9e",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Sushanth Bhat",
             "Affiliation": "IIIT Bangalore, India",
             "Key": "Sushanth Bhat @ IIIT Bangalore, India",
@@ -11532,17 +10030,6 @@
             "Affiliation": "NICTA, Australia",
             "Key": "William Billingsley @ NICTA, Australia",
             "Id": "780349692d",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "David Binkley",
-            "Affiliation": "Loyola University Maryland, USA",
-            "Key": "David Binkley @ Loyola University Maryland, USA",
-            "Id": "7e238470a1",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -11924,28 +10411,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Eduardo C. Campos",
-            "Affiliation": "Federal University of Uberlândia, Brazil",
-            "Key": "Eduardo C. Campos @ Federal University of Uberlândia, Brazil",
-            "Id": "8cb4742407",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Gerardo Canfora",
-            "Affiliation": "University of Sannio, Italy",
-            "Key": "Gerardo Canfora @ University of Sannio, Italy",
-            "Id": "e154a6c4cb",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Luiz Fernando Capretz",
             "Affiliation": "University of Western Ontario, Canada",
             "Key": "Luiz Fernando Capretz @ University of Western Ontario, Canada",
@@ -12038,17 +10503,6 @@
             "Affiliation": "Samsung Electronics, USA",
             "Key": "Satish Chandra @ Samsung Electronics, USA",
             "Id": "42fbb771ef",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Michel R. V. Chaudron",
-            "Affiliation": "Chalmers, Sweden",
-            "Key": "Michel R. V. Chaudron @ Chalmers, Sweden",
-            "Id": "1e7dbe6792",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -12276,17 +10730,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Anthony Cleve",
-            "Affiliation": "University of Namur, Belgium",
-            "Key": "Anthony Cleve @ University of Namur, Belgium",
-            "Id": "321ba87259",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Mihai Codoban",
             "Affiliation": "Oregon State University, USA",
             "Key": "Mihai Codoban @ Oregon State University, USA",
@@ -12313,17 +10756,6 @@
             "Affiliation": "AdaCore, France",
             "Key": "Cyrille Comar @ AdaCore, France",
             "Id": "818d84f19a",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "James R. Cordy",
-            "Affiliation": "Queen's University, Canada",
-            "Key": "James R. Cordy @ Queen's University, Canada",
-            "Id": "de61e12772",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -12379,17 +10811,6 @@
             "Affiliation": "",
             "Key": "Ivica Crnkovic @",
             "Id": "b30dc732b7",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Edward Cutrell",
-            "Affiliation": "Microsoft Research, India",
-            "Key": "Edward Cutrell @ Microsoft Research, India",
-            "Id": "41d71b0723",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -12474,17 +10895,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Tathagata Dasgupta",
-            "Affiliation": "University of Illinois at Chicago, USA",
-            "Key": "Tathagata Dasgupta @ University of Illinois at Chicago, USA",
-            "Id": "9920c52841",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Subhajit Datta",
             "Affiliation": "Singapore University of Technology and Design, Singapore",
             "Key": "Subhajit Datta @ Singapore University of Technology and Design, Singapore",
@@ -12511,28 +10921,6 @@
             "Affiliation": "Universidad Nacional de Río Cuarto, Argentina",
             "Key": "Renzo Degiovanni @ Universidad Nacional de Río Cuarto, Argentina",
             "Id": "a70816acae",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Denis Delimarschi",
-            "Affiliation": "Wichita State University, USA",
-            "Key": "Denis Delimarschi @ Wichita State University, USA",
-            "Id": "b07bc4c2a8",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Lucas B. L. de Souza",
-            "Affiliation": "Federal University of Uberlândia, Brazil",
-            "Key": "Lucas B. L. de Souza @ Federal University of Uberlândia, Brazil",
-            "Id": "f8f2568b0e",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -12665,17 +11053,6 @@
             "Affiliation": "",
             "Key": "Massimiliano Di Penta @",
             "Id": "c5d616b2c3",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Massimiliano Di Penta",
-            "Affiliation": "University of Sannio, Italy",
-            "Key": "Massimiliano Di Penta @ University of Sannio, Italy",
-            "Id": "d3bc4f92a1",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -12870,17 +11247,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Sebastian Eder",
-            "Affiliation": "TU München, Germany",
-            "Key": "Sebastian Eder @ TU München, Germany",
-            "Id": "f426efd1c3",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Stephen H. Edwards",
             "Affiliation": "Virginia Tech, USA",
             "Key": "Stephen H. Edwards @ Virginia Tech, USA",
@@ -12936,17 +11302,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Laleh Eshkevari",
-            "Affiliation": "Polytechnique Montréal, Canada",
-            "Key": "Laleh Eshkevari @ Polytechnique Montréal, Canada",
-            "Id": "65b99d48e7",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Davide Falessi",
             "Affiliation": "Fraunhofer CESE, USA",
             "Key": "Davide Falessi @ Fraunhofer CESE, USA",
@@ -12969,32 +11324,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Ming Fan",
-            "Affiliation": "Xi'an Jiaotong University, China",
-            "Key": "Ming Fan @ Xi'an Jiaotong University, China",
-            "Id": "93f46e45cb",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Chunrong Fang",
             "Affiliation": "Nanjing University, China",
             "Key": "Chunrong Fang @ Nanjing University, China",
             "Id": "f011ea2302",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Dror G. Feitelson",
-            "Affiliation": "Hebrew University of Jerusalem, Israel",
-            "Key": "Dror G. Feitelson @ Hebrew University of Jerusalem, Israel",
-            "Id": "a24f6ab299",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -13365,28 +11698,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Malcom Gethers",
-            "Affiliation": "University of Maryland in Baltimore County, USA",
-            "Key": "Malcom Gethers @ University of Maryland in Baltimore County, USA",
-            "Id": "aea366d366",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Mohammad Ghafari",
-            "Affiliation": "Politecnico di Milano, Italy",
-            "Key": "Mohammad Ghafari @ Politecnico di Milano, Italy",
-            "Id": "df70123644",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Smita Ghaisas",
             "Affiliation": "Tata Consultancy Services, India",
             "Key": "Smita Ghaisas @ Tata Consultancy Services, India",
@@ -13585,17 +11896,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Mark Grechanik",
-            "Affiliation": "University of Illinois at Chicago, USA",
-            "Key": "Mark Grechanik @ University of Illinois at Chicago, USA",
-            "Id": "d5488bbfc8",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "William G. Griswold",
             "Affiliation": "University of California at San Diego, USA",
             "Key": "William G. Griswold @ University of California at San Diego, USA",
@@ -13662,17 +11962,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Yann-Gaël Guéhéneuc",
-            "Affiliation": "Polytechnique Montréal, Canada",
-            "Key": "Yann-Gaël Guéhéneuc @ Polytechnique Montréal, Canada",
-            "Id": "837681dd22",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Stefan Gulan",
             "Affiliation": "University of Trier, Germany",
             "Key": "Stefan Gulan @ University of Trier, Germany",
@@ -13721,17 +12010,6 @@
             "Affiliation": "University of York, UK",
             "Key": "Ibrahim Habli @ University of York, UK",
             "Id": "82a739c4af",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Peter Häring",
-            "Affiliation": "University of Passau, Germany",
-            "Key": "Peter Häring @ University of Passau, Germany",
-            "Id": "a302c2c0eb",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -13893,17 +12171,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Shinpei Hayashi",
-            "Affiliation": "Tokyo Institute of Technology, Japan",
-            "Key": "Shinpei Hayashi @ Tokyo Institute of Technology, Japan",
-            "Id": "d9c5b85b60",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Fei He",
             "Affiliation": "Tsinghua University, China",
             "Key": "Fei He @ Tsinghua University, China",
@@ -13941,17 +12208,6 @@
             "Affiliation": "CQSE, Germany",
             "Key": "Lars Heinemann @ CQSE, Germany",
             "Id": "af49b22ba8",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Daniel Heinz",
-            "Affiliation": "Loyola University Maryland, USA",
-            "Key": "Daniel Heinz @ Loyola University Maryland, USA",
-            "Id": "a0259c88d2",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -14036,17 +12292,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Yoshiki Higo",
-            "Affiliation": "Osaka University, Japan",
-            "Key": "Yoshiki Higo @ Osaka University, Japan",
-            "Id": "023b4bd588",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Petr Hnetynka",
             "Affiliation": "Charles University, Czech Republic",
             "Key": "Petr Hnetynka @ Charles University, Czech Republic",
@@ -14124,43 +12369,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Shinichi Honiden",
-            "Affiliation": "University of Tokyo, Japan",
-            "Key": "Shinichi Honiden @ University of Tokyo, Japan",
-            "Id": "8972b4d792",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Salman Hoseini",
             "Affiliation": "Concordia University, Canada",
             "Key": "Salman Hoseini @ Concordia University, Canada",
             "Id": "4b70f733af",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Md Kamal Hossen",
-            "Affiliation": "Wichita State University, USA",
-            "Key": "Md Kamal Hossen @ Wichita State University, USA",
-            "Id": "b02fe81d2b",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Keisuke Hotta",
-            "Affiliation": "Osaka University, Japan",
-            "Key": "Keisuke Hotta @ Osaka University, Japan",
-            "Id": "bb8e6dca2c",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -14344,43 +12556,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Katsuro Inoue",
-            "Affiliation": "Osaka University, Japan",
-            "Key": "Katsuro Inoue @ Osaka University, Japan",
-            "Id": "4803ae398b",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Laura Inozemtseva",
             "Affiliation": "University of Waterloo, Canada",
             "Key": "Laura Inozemtseva @ University of Waterloo, Canada",
             "Id": "6b63234a29",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Fuyuki Ishikawa",
-            "Affiliation": "National Institute of Informatics, Japan",
-            "Key": "Fuyuki Ishikawa @ National Institute of Informatics, Japan",
-            "Id": "11ca25882b",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Takashi Ishio",
-            "Affiliation": "Osaka University, Japan",
-            "Key": "Takashi Ishio @ Osaka University, Japan",
-            "Id": "f41301e3d4",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -14447,17 +12626,6 @@
             "Affiliation": "Utrecht University, Netherlands",
             "Key": "Slinger Jansen @ Utrecht University, Netherlands",
             "Id": "38f2838d10",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Ahmad Jbara",
-            "Affiliation": "Netanya Academic College, Israel / Hebrew University of Jerusalem, Israel",
-            "Key": "Ahmad Jbara @ Netanya Academic College, Israel / Hebrew University of Jerusalem, Israel",
-            "Id": "99cca85b3a",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -14740,39 +12908,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Md Yasser Karim",
-            "Affiliation": "Wichita State University, USA",
-            "Key": "Md Yasser Karim @ Wichita State University, USA",
-            "Id": "e0dfff1aa9",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Yu Kashima",
-            "Affiliation": "Osaka University, Japan",
-            "Key": "Yu Kashima @ Osaka University, Japan",
-            "Id": "b2cbddace7",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Vikrant Kaulgud",
-            "Affiliation": "Accenture Technology Labs, India",
-            "Key": "Vikrant Kaulgud @ Accenture Technology Labs, India",
-            "Id": "a15d0740c3",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Rick Kazman",
             "Affiliation": "University of Hawaii, USA / SEI, USA",
             "Key": "Rick Kazman @ University of Hawaii, USA / SEI, USA",
@@ -14927,17 +13062,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Hiroyuki Kirinuki",
-            "Affiliation": "Osaka University, Japan",
-            "Key": "Hiroyuki Kirinuki @ Osaka University, Japan",
-            "Id": "a183adbc1a",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Michal Kit",
             "Affiliation": "Charles University, Czech Republic",
             "Key": "Michal Kit @ Charles University, Czech Republic",
@@ -14964,17 +13088,6 @@
             "Affiliation": "IBM Research, USA",
             "Key": "Tim Klinger @ IBM Research, USA",
             "Id": "4df8642fa5",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Sam Klock",
-            "Affiliation": "College of William and Mary, USA",
-            "Key": "Sam Klock @ College of William and Mary, USA",
-            "Id": "1b9d34515b",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -15103,17 +13216,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Aniket Kulkarni",
-            "Affiliation": "Tata Consultancy Services, India",
-            "Key": "Aniket Kulkarni @ Tata Consultancy Services, India",
-            "Id": "608c947225",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Tobias Kuschke",
             "Affiliation": "TU Ilmenau, Germany",
             "Key": "Tobias Kuschke @ TU Ilmenau, Germany",
@@ -15173,17 +13275,6 @@
             "Affiliation": "INRIA, France / LIP6, France",
             "Key": "Julia Lawall @ INRIA, France / LIP6, France",
             "Id": "3b1452b3e3",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Dawn Lawrie",
-            "Affiliation": "Loyola University Maryland, USA",
-            "Key": "Dawn Lawrie @ Loyola University Maryland, USA",
-            "Id": "7139c62432",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -15323,32 +13414,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Zengyang Li",
-            "Affiliation": "University of Groningen, Netherlands",
-            "Key": "Zengyang Li @ University of Groningen, Netherlands",
-            "Id": "8520bbd34b",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Bin Liang",
             "Affiliation": "Renmin University of China, China",
             "Key": "Bin Liang @ Renmin University of China, China",
             "Id": "6f503ddc24",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Peng Liang",
-            "Affiliation": "Wuhan University, China / VU University Amsterdam, Netherlands",
-            "Key": "Peng Liang @ Wuhan University, China / VU University Amsterdam, Netherlands",
-            "Id": "289ee606b4",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -15433,17 +13502,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Cheng Liu",
-            "Affiliation": "University of Notre Dame, USA",
-            "Key": "Cheng Liu @ University of Notre Dame, USA",
-            "Id": "6a1cba933e",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Huai Liu",
             "Affiliation": "RMIT University, Australia",
             "Key": "Huai Liu @ RMIT University, Australia",
@@ -15481,17 +13539,6 @@
             "Affiliation": "Wuhan University, China / Hong Kong University of Science and Technology, China",
             "Key": "Peng Liu @ Wuhan University, China / Hong Kong University of Science and Technology, China",
             "Id": "fd035f0762",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Ting Liu",
-            "Affiliation": "Xi'an Jiaotong University, China",
-            "Key": "Ting Liu @ Xi'an Jiaotong University, China",
-            "Id": "9db411a9ab",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -15631,17 +13678,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Annervaz K. M.",
-            "Affiliation": "Accenture Technology Labs, India",
-            "Key": "Annervaz K. M. @ Accenture Technology Labs, India",
-            "Id": "fa0343eaa0",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Xiao Ma",
             "Affiliation": "University of California at San Diego, USA / University of Illinois at Urbana-Champaign, USA",
             "Key": "Xiao Ma @ University of California at San Diego, USA / University of Illinois at Urbana-Champaign, USA",
@@ -15723,17 +13759,6 @@
             "Affiliation": "Lund University, Sweden",
             "Key": "Martina Maggio @ Lund University, Sweden",
             "Id": "a0b6cdc255",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Marcelo de A. Maia",
-            "Affiliation": "Federal University of Uberlândia, Brazil",
-            "Key": "Marcelo de A. Maia @ Federal University of Uberlândia, Brazil",
-            "Id": "86ae6b4c3e",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -15862,17 +13887,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Katsuhisa Maruyama",
-            "Affiliation": "Ritsumeikan University, Japan",
-            "Key": "Katsuhisa Maruyama @ Ritsumeikan University, Japan",
-            "Id": "7e1883d5ac",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Alejandro Masrur",
             "Affiliation": "TU Chemnitz, Germany",
             "Key": "Alejandro Masrur @ TU Chemnitz, Germany",
@@ -15928,17 +13942,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Toshinori Matsumura",
-            "Affiliation": "Osaka University, Japan",
-            "Key": "Toshinori Matsumura @ Osaka University, Japan",
-            "Id": "48c5856990",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Andrea Mattavelli",
             "Affiliation": "University of Lugano, Switzerland",
             "Key": "Andrea Mattavelli @ University of Lugano, Switzerland",
@@ -15987,17 +13990,6 @@
             "Affiliation": "Queen's University, Canada",
             "Key": "Shane McIntosh @ Queen's University, Canada",
             "Id": "721a0dbdf5",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Mark McKenney",
-            "Affiliation": "Southern Illinois University at Edwardsville, USA",
-            "Key": "Mark McKenney @ Southern Illinois University at Edwardsville, USA",
-            "Id": "f6fc2962c3",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -16104,32 +14096,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Ravindra Metta",
-            "Affiliation": "Tata Consultancy Services, India",
-            "Key": "Ravindra Metta @ Tata Consultancy Services, India",
-            "Id": "a13e385bdd",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Andreas Metzger",
             "Affiliation": "University of Duisburg-Essen, Germany",
             "Key": "Andreas Metzger @ University of Duisburg-Essen, Germany",
             "Id": "af0738b005",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Loup Meurice",
-            "Affiliation": "University of Namur, Belgium",
-            "Key": "Loup Meurice @ University of Namur, Belgium",
-            "Id": "6c32c90fe3",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -16203,17 +14173,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Janardan Misra",
-            "Affiliation": "Accenture Technology Labs, India",
-            "Key": "Janardan Misra @ Accenture Technology Labs, India",
-            "Id": "c59177284c",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Megha Mittal",
             "Affiliation": "IIIT Delhi, India",
             "Key": "Megha Mittal @ IIIT Delhi, India",
@@ -16229,17 +14188,6 @@
             "Affiliation": "Cybernet Systems, Japan / IBM Research, Japan",
             "Key": "Hisashi Miyashita @ Cybernet Systems, Japan / IBM Research, Japan",
             "Id": "96872bcb7a",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Andrea Mocci",
-            "Affiliation": "University of Lugano, Switzerland",
-            "Key": "Andrea Mocci @ University of Lugano, Switzerland",
-            "Id": "436d5c86c4",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -16350,17 +14298,6 @@
             "Affiliation": "Wayne State University, USA",
             "Key": "Laura Moreno @ Wayne State University, USA",
             "Id": "dbac8bfb40",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Marco Mori",
-            "Affiliation": "University of Namur, Belgium",
-            "Key": "Marco Mori @ University of Namur, Belgium",
-            "Id": "1593f905bc",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -16764,39 +14701,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Nesrine Noughi",
-            "Affiliation": "University of Namur, Belgium",
-            "Key": "Nesrine Noughi @ University of Namur, Belgium",
-            "Id": "f499d41b99",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Daltro José Nunes",
-            "Affiliation": "Federal University of Rio Grande do Sul, Brazil",
-            "Key": "Daltro José Nunes @ Federal University of Rio Grande do Sul, Brazil",
-            "Id": "2ab5b4c602",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Ingrid Nunes",
-            "Affiliation": "Federal University of Rio Grande do Sul, Brazil",
-            "Key": "Ingrid Nunes @ Federal University of Rio Grande do Sul, Brazil",
-            "Id": "865fb7f25b",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Bashar Nuseibeh",
             "Affiliation": "Open University, UK / University of Limerick, Ireland",
             "Key": "Bashar Nuseibeh @ Open University, UK / University of Limerick, Ireland",
@@ -16852,32 +14756,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Rocco Oliveto",
-            "Affiliation": "University of Molise, Italy",
-            "Key": "Rocco Oliveto @ University of Molise, Italy",
-            "Id": "b119469c75",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Cyrus Omar",
             "Affiliation": "Carnegie Mellon University, USA",
             "Key": "Cyrus Omar @ Carnegie Mellon University, USA",
             "Id": "586ee2ddd5",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Takayuki Omori",
-            "Affiliation": "Ritsumeikan University, Japan",
-            "Key": "Takayuki Omori @ Ritsumeikan University, Japan",
-            "Id": "bd6a831015",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -16911,28 +14793,6 @@
             "Affiliation": "Georgia Tech, USA",
             "Key": "Alessandro Orso @ Georgia Tech, USA",
             "Id": "8d64bd1adf",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Mohd Hafeez Osman",
-            "Affiliation": "Leiden University, Netherlands",
-            "Key": "Mohd Hafeez Osman @ Leiden University, Netherlands",
-            "Id": "230043b4af",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Justin Overfelt",
-            "Affiliation": "Booz Allen Hamilton, USA",
-            "Key": "Justin Overfelt @ Booz Allen Hamilton, USA",
-            "Id": "24caaeec95",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -17028,17 +14888,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Sebastiano Panichella",
-            "Affiliation": "University of Sannio, Italy",
-            "Key": "Sebastiano Panichella @ University of Sannio, Italy",
-            "Id": "4a1d69aa79",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Deepti Parachuri",
             "Affiliation": "Infosys Labs, India",
             "Key": "Deepti Parachuri @ Infosys Labs, India",
@@ -17116,17 +14965,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Alexandre Perez",
-            "Affiliation": "University of Porto, Portugal",
-            "Key": "Alexandre Perez @ University of Porto, Portugal",
-            "Id": "31033f0fc2",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Anna Perini",
             "Affiliation": "Fondazione Bruno Kessler, Italy",
             "Key": "Anna Perini @ Fondazione Bruno Kessler, Italy",
@@ -17153,17 +14991,6 @@
             "Affiliation": "Blekinge Institute of Technology, Sweden",
             "Key": "Kai Petersen @ Blekinge Institute of Technology, Sweden",
             "Id": "c7e9cf3138",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Pujan Petersen",
-            "Affiliation": "University of Duisburg-Essen, Germany",
-            "Key": "Pujan Petersen @ University of Duisburg-Essen, Germany",
-            "Id": "689611feb3",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -17831,17 +15658,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Aminata Sabané",
-            "Affiliation": "Polytechnique Montréal, Canada",
-            "Key": "Aminata Sabané @ Polytechnique Montréal, Canada",
-            "Id": "c2a5b096aa",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Caitlin Sadowski",
             "Affiliation": "Google, USA",
             "Key": "Caitlin Sadowski @ Google, USA",
@@ -17923,17 +15739,6 @@
             "Affiliation": "University of California at Irvine, USA",
             "Key": "Hitesh Sajnani @ University of California at Irvine, USA",
             "Id": "97708a40fa",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Kazunori Sakamoto",
-            "Affiliation": "National Institute of Informatics, Japan",
-            "Key": "Kazunori Sakamoto @ National Institute of Informatics, Japan",
-            "Id": "289f9a0c89",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -18238,28 +16043,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Timothy Shaffer",
-            "Affiliation": "Youngstown State University, USA",
-            "Key": "Timothy Shaffer @ Youngstown State University, USA",
-            "Id": "56a4b5975d",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Mojtaba Shahin",
-            "Affiliation": "Wuhan University, China / Islamic Azad University, Iran",
-            "Key": "Mojtaba Shahin @ Wuhan University, China / Islamic Azad University, Iran",
-            "Id": "01fe2b7d6f",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Zalia Shams",
             "Affiliation": "Virginia Tech, USA",
             "Key": "Zalia Shams @ Virginia Tech, USA",
@@ -18297,17 +16080,6 @@
             "Affiliation": "SRI Computer Science Lab, USA",
             "Key": "Natarajan Shankar @ SRI Computer Science Lab, USA",
             "Id": "610618db55",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Bonita Sharif",
-            "Affiliation": "Youngstown State University, USA",
-            "Key": "Bonita Sharif @ Youngstown State University, USA",
-            "Id": "6836fb0504",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -18392,17 +16164,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Joe F. Shobe",
-            "Affiliation": "Wichita State University, USA",
-            "Key": "Joe F. Shobe @ Wichita State University, USA",
-            "Id": "cc5b840368",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Ben Shreeve",
             "Affiliation": "Lancaster University, UK",
             "Key": "Ben Shreeve @ Lancaster University, UK",
@@ -18458,17 +16219,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Susanna Siebert",
-            "Affiliation": "Washington University, USA",
-            "Key": "Susanna Siebert @ Washington University, USA",
-            "Id": "d3544a15bb",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Janet Siegmund",
             "Affiliation": "University of Passau, Germany",
             "Key": "Janet Siegmund @ University of Passau, Germany",
@@ -18484,17 +16234,6 @@
             "Affiliation": "Fondazione Bruno Kessler, Italy",
             "Key": "Alberto Siena @ Fondazione Bruno Kessler, Italy",
             "Id": "10f08914e7",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Danilo Silva",
-            "Affiliation": "Federal University of Minas Gerais, Brazil",
-            "Key": "Danilo Silva @ Federal University of Minas Gerais, Brazil",
-            "Id": "ae72755ec4",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -18539,17 +16278,6 @@
             "Affiliation": "University of Victoria, Canada",
             "Key": "Leif Singer @ University of Victoria, Canada",
             "Id": "7777b86fbf",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Himanshu Kumar Singh",
-            "Affiliation": "Siemens, India",
-            "Key": "Himanshu Kumar Singh @ Siemens, India",
-            "Id": "4e08816b42",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -18909,28 +16637,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Takayuki Suzuki",
-            "Affiliation": "University of Tokyo, Japan",
-            "Key": "Takayuki Suzuki @ University of Tokyo, Japan",
-            "Id": "88f9c54048",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "George Swartzendruber",
-            "Affiliation": "Wichita State University, USA",
-            "Key": "George Swartzendruber @ Wichita State University, USA",
-            "Id": "6ed8cfd607",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Daniel Sykes",
             "Affiliation": "Imperial College London, UK",
             "Key": "Daniel Sykes @ Imperial College London, UK",
@@ -19041,17 +16747,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Ricardo Terra",
-            "Affiliation": "Federal University of Lavras, Brazil",
-            "Key": "Ricardo Terra @ Federal University of Lavras, Brazil",
-            "Id": "858c492ead",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Kevin Thai",
             "Affiliation": "Facebook, USA",
             "Key": "Kevin Thai @ Facebook, USA",
@@ -19085,28 +16780,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Ferdian Thung",
-            "Affiliation": "Singapore Management University, Singapore",
-            "Key": "Ferdian Thung @ Singapore Management University, Singapore",
-            "Id": "9a5f452710",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Cong Tian",
-            "Affiliation": "Xidian University, China",
-            "Key": "Cong Tian @ Xidian University, China",
-            "Id": "1be4e8675d",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Yuan Tian",
             "Affiliation": "Singapore Management University, Singapore",
             "Key": "Yuan Tian @ Singapore Management University, Singapore",
@@ -19118,32 +16791,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Zhenzhou Tian",
-            "Affiliation": "Xi'an Jiaotong University, China",
-            "Key": "Zhenzhou Tian @ Xi'an Jiaotong University, China",
-            "Id": "77e6606c6a",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Roberto Tiella",
             "Affiliation": "Fondazione Bruno Kessler, Italy",
             "Key": "Roberto Tiella @ Fondazione Bruno Kessler, Italy",
             "Id": "5f3be5e8d4",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Gary Titus",
-            "Affiliation": "Accenture Technology Labs, India",
-            "Key": "Gary Titus @ Accenture Technology Labs, India",
-            "Id": "03b3858861",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -19239,32 +16890,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Vassilios Tzerpos",
-            "Affiliation": "York University, Canada",
-            "Key": "Vassilios Tzerpos @ York University, Canada",
-            "Id": "cb1054fceb",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Sebastian Uchitel",
             "Affiliation": "Imperial College London, UK / Universidad de Buenos Aires, Argentina",
             "Key": "Sebastian Uchitel @ Imperial College London, UK / Universidad de Buenos Aires, Argentina",
             "Id": "ef2a915a1d",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Umesh Uppili",
-            "Affiliation": "Siemens, India",
-            "Key": "Umesh Uppili @ Siemens, India",
-            "Id": "8f81ff0ab4",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -19294,43 +16923,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Marco Tulio Valente",
-            "Affiliation": "Federal University of Minas Gerais, Brazil",
-            "Key": "Marco Tulio Valente @ Federal University of Minas Gerais, Brazil",
-            "Id": "5e542fbcf8",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Renan Vasconcelos",
-            "Affiliation": "COPPE, Brazil / Federal University of Rio de Janeiro, Brazil",
-            "Key": "Renan Vasconcelos @ COPPE, Brazil / Federal University of Rio de Janeiro, Brazil",
-            "Id": "28b530a80b",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Bogdan Vasilescu",
             "Affiliation": "Eindhoven University of Technology, Netherlands",
             "Key": "Bogdan Vasilescu @ Eindhoven University of Technology, Netherlands",
             "Id": "7e6d07178f",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Carmine Vassallo",
-            "Affiliation": "University of Sannio, Italy",
-            "Key": "Carmine Vassallo @ University of Sannio, Italy",
-            "Id": "91fdb5735a",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -19448,17 +17044,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Braden Walters",
-            "Affiliation": "Youngstown State University, USA",
-            "Key": "Braden Walters @ Youngstown State University, USA",
-            "Id": "1d4e726838",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Bow-Yaw Wang",
             "Affiliation": "Academia Sinica, Taiwan",
             "Key": "Bow-Yaw Wang @ Academia Sinica, Taiwan",
@@ -19518,17 +17103,6 @@
             "Affiliation": "Beihang University, China",
             "Key": "Ping Wang @ Beihang University, China",
             "Id": "863cf41aad",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Shaowei Wang",
-            "Affiliation": "Singapore Management University, Singapore",
-            "Key": "Shaowei Wang @ Singapore Management University, Singapore",
-            "Id": "afae59a6b6",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -19668,39 +17242,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Zhihua Wen",
-            "Affiliation": "York University, Canada",
-            "Key": "Zhihua Wen @ York University, Canada",
-            "Id": "6f6873b372",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Tim Weninger",
-            "Affiliation": "University of Notre Dame, USA",
-            "Key": "Tim Weninger @ University of Notre Dame, USA",
-            "Id": "cc2d8a4074",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Cláudia Werner",
-            "Affiliation": "COPPE, Brazil / Federal University of Rio de Janeiro, Brazil",
-            "Key": "Cláudia Werner @ COPPE, Brazil / Federal University of Rio de Janeiro, Brazil",
-            "Id": "6ca46cb6b5",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Danny Weyns",
             "Affiliation": "Linnaeus University, Sweden",
             "Key": "Danny Weyns @ Linnaeus University, Sweden",
@@ -19716,17 +17257,6 @@
             "Affiliation": "",
             "Key": "Michael Whalen @",
             "Id": "eb2fcfba20",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "David H. White",
-            "Affiliation": "University of Bamberg, Germany",
-            "Key": "David H. White @ University of Bamberg, Germany",
-            "Id": "a56367196e",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -19943,17 +17473,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Zijiang Yang",
-            "Affiliation": "Western Michigan University, USA / Xi’an University of Technology, China",
-            "Key": "Zijiang Yang @ Western Michigan University, USA / Xi’an University of Technology, China",
-            "Id": "3c8c2ed201",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Xiangjuan Yao",
             "Affiliation": "China University of Mining and Technology, China",
             "Key": "Xiangjuan Yao @ China University of Mining and Technology, China",
@@ -19980,17 +17499,6 @@
             "Affiliation": "Peking University, China",
             "Key": "Chih-Yi Yeh @ Peking University, China",
             "Id": "8db87a9814",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Srinivas Kalyan Yellanki",
-            "Affiliation": "University of Nevada at Las Vegas, USA",
-            "Key": "Srinivas Kalyan Yellanki @ University of Nevada at Las Vegas, USA",
-            "Id": "4e6e6591f3",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -20097,28 +17605,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Motahareh Bahrami Zanjani",
-            "Affiliation": "Wichita State University, USA",
-            "Key": "Motahareh Bahrami Zanjani @ Wichita State University, USA",
-            "Id": "db929dcc85",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Vanius Zapalowski",
-            "Affiliation": "Federal University of Rio Grande do Sul, Brazil",
-            "Key": "Vanius Zapalowski @ Federal University of Rio Grande do Sul, Brazil",
-            "Id": "741cf3661c",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Dina Zayan",
             "Affiliation": "University of Waterloo, Canada",
             "Key": "Dina Zayan @ University of Waterloo, Canada",
@@ -20167,17 +17653,6 @@
             "Affiliation": "Hong Kong University of Science and Technology, China",
             "Key": "Charles Zhang @ Hong Kong University of Science and Technology, China",
             "Id": "34d2a93676",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Chenyi Zhang",
-            "Affiliation": "Zhejiang University, China",
-            "Key": "Chenyi Zhang @ Zhejiang University, China",
-            "Id": "163804b852",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -20273,17 +17748,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Xiaodong Zhang",
-            "Affiliation": "Xi'an Jiaotong University, China",
-            "Key": "Xiaodong Zhang @ Xi'an Jiaotong University, China",
-            "Id": "687c6a8bc1",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Yingjun Zhang",
             "Affiliation": "Institute of Software at Chinese Academy of Sciences, China",
             "Key": "Yingjun Zhang @ Institute of Software at Chinese Academy of Sciences, China",
@@ -20321,17 +17785,6 @@
             "Affiliation": "Peking University, China",
             "Key": "Qimu Zheng @ Peking University, China",
             "Id": "3734b70b0a",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Qinghua Zheng",
-            "Affiliation": "Xi'an Jiaotong University, China",
-            "Key": "Qinghua Zheng @ Xi'an Jiaotong University, China",
-            "Id": "4714773770",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
