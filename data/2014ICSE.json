@@ -1,6 +1,5 @@
-
 {
-    "DataRevision": 1399266515,
+    "DataRevision": 1400182936,
     "Preliminary": false,
     "Event": "ICSE 2014",
     "Name": "ICSE 2014",
@@ -8,7 +7,7 @@
     "Location": "Hyderabad, India",
     "Sponsors": "",
     "URL": "http://2014.icse-conferences.org/",
-    "MultiTrack": "false",
+    "MultiTrack": "true",
     "Organization": {
         "General Chairs": [
                 "Pankaj Jalote"
@@ -64,6 +63,32 @@
         "Other"
     ],
     "Items": [
+        {
+            "Title": "NFS - Junior faculty and researchers",
+            "Type": "New Faculty and Researcher Symposium",
+            "Key": "Christian Bird; Emerson Murphy-Hill; Yuriy Brun; Jun Sun; Aditya Kanade @  : NFS - Junior faculty and researchers",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "PersonsString": "Christian Bird, Emerson Murphy-Hill, Yuriy Brun, Jun Sun, and Aditya Kanade",
+            "AffiliationsString": "",
+            "Authors": [
+                "Christian Bird @",
+                "Emerson Murphy-Hill @",
+                "Yuriy Brun @",
+                "Jun Sun @",
+                "Aditya Kanade @"
+            ],
+            "Affiliations": [
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
         {
             "Title": "Cowboys, Ankle Sprains, and Keepers of Quality: How Is Video Game Development Different from Software Development?",
             "Type": "Full Paper",
@@ -1400,7 +1425,7 @@
                 "University of California at Berkeley, USA"
             ],
             "Abstract": "There are many tools that help programmers find code fragments, but most are inexpressive and rely on static information. We present a new technique for synthesizing code that is dynamic (giving accurate results and allowing programmers to reason about concrete executions), easy-to-use (supporting a wide range of correctness specifications), and interactive (allowing users to refine the candidate code snippets). Our implementation, which we call CodeHint, generates and evaluates code at runtime and hence can synthesize real-world Java code that involves I/O, reflection, native calls, and other advanced language features. We have evaluated CodeHint in two user studies and show that its algorithms are efficient and that it improves programmer productivity by more than a factor of two.",
-            "Award": "Awarded as R. Narsihman Lecture"
+            "Award": "Awarded as Prof. R. Narasimhan Lecture"
         },
         {
             "Title": "Spotting Working Code Examples",
@@ -1989,25 +2014,25 @@
             "Award": ""
         },
         {
-            "Title": "Feature Maintenance with Emergent Interfaces",
+            "Title": "Effects of Using Examples on Structural Model Comprehension: A Controlled Experiment",
             "Type": "Full Paper",
-            "Key": "icse14main-p351-p",
-            "URL": "http%3A%2F%2Fwww.cs.cmu.edu%2F%7Eckaestne%2Fpdf%2Ficse14_emergo.pdf",
+            "Key": "icse14main-p258-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDina+Zayan%2C+Micha%C5%82+Antkiewicz%2C+and+Krzysztof+Czarnecki+%22Effects+of+Using+Examples+on+Structural+Model+Comprehension%3A+A+Controlled+Experiment%22",
             "URLvideo": "",
-            "URLinfo": "http%3A%2F%2Ftwiki.cin.ufpe.br%2Ftwiki%2Fbin%2Fview%2FSPG%2FEmergentInterfaces",
-            "PersonsString": "Márcio Ribeiro, Paulo Borba, and Christian Kästner",
-            "AffiliationsString": "Federal University of Alagoas, Brazil; Federal University of Pernambuco, Brazil; Carnegie Mellon University, USA",
+            "URLinfo": "http%3A%2F%2Fgsd.uwaterloo.ca%2Fnode%2F541",
+            "PersonsString": "Dina Zayan, Michał Antkiewicz, and Krzysztof Czarnecki",
+            "AffiliationsString": "University of Waterloo, Canada",
             "Authors": [
-                "Márcio Ribeiro @ Federal University of Alagoas, Brazil",
-                "Paulo Borba @ Federal University of Pernambuco, Brazil",
-                "Christian Kästner @ Carnegie Mellon University, USA"
+                "Dina Zayan @ University of Waterloo, Canada",
+                "Michał Antkiewicz @ University of Waterloo, Canada",
+                "Krzysztof Czarnecki @ University of Waterloo, Canada"
             ],
             "Affiliations": [
-                "Federal University of Alagoas, Brazil",
-                "Federal University of Pernambuco, Brazil",
-                "Carnegie Mellon University, USA"
+                "University of Waterloo, Canada",
+                "University of Waterloo, Canada",
+                "University of Waterloo, Canada"
             ],
-            "Abstract": "Hidden code dependencies are responsible for many complications in maintenance tasks. With the introduction of variable features in configurable systems, dependencies may even cross feature boundaries, causing problems that are prone to be detected late. Many current implementation techniques for product lines lack proper interfaces, which could make such dependencies explicit. As alternative to changing the implementation approach, we provide a tool-based solution to support developers in recognizing and dealing with feature dependencies: emergent interfaces. Emergent interfaces are inferred on demand, based on feature-sensitive intraprocedural and interprocedural data-flow analysis. They emerge in the IDE and emulate modularity benefits not available in the host language. To evaluate the potential of emergent interfaces, we conducted and replicated a controlled experiment, and found, in the studied context, that emergent interfaces can improve performance of code change tasks by up to 3 times while also reducing the number of errors.",
+            "Abstract": "We present a controlled experiment for the empirical evaluation of Example-Driven Modeling (EDM), an approach that systematically uses examples for model comprehension and domain knowledge transfer. We conducted the experiment with 26 graduate and undergraduate students from electrical and computer engineering (ECE), computer science (CS), and software engineering (SE) programs at the University of Waterloo. The experiment involves a domain model, with UML class diagrams representing the domain abstractions and UML object diagrams representing examples of using these abstractions. The goal is to provide empirical evidence of the effects of suitable examples in model comprehension, compared to having model abstractions only, by having the participants perform model comprehension tasks. Our results show that EDM is superior to having model abstractions only, with an improvement of 39% for diagram completeness, 30% for questions completeness, 71% for efficiency, and a reduction of 80% for the number of mistakes. We provide qualitative results showing that participants receiving model abstractions augmented with examples experienced lower perceived difficulty in performing the comprehension tasks, higher perceived confidence in their tasks&#039; solutions, and asked fewer clarifying domain questions, a reduction of 90%. We also present participants&#039; feedback regarding the usefulness of the provided examples, their number and types, as well as, the use of partial examples.",
             "Award": ""
         },
         {
@@ -2036,7 +2061,7 @@
             "Title": "Controlled Modeling Environment using Flexibly-Formatted Spreadsheets",
             "Type": "Full Paper",
             "Key": "icse14main-p024-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHisashi+Miyashita%2C+Hideki+Tai%2C+and+Shunichi+Amano+%22Controlled+Modeling+Environment+using+Flexibly-Formatted+Spreadsheets%22",
+            "URL": "http%3A%2F%2Fresearcher.watson.ibm.com%2Fresearcher%2Ffiles%2Fjp-E35063%2Fmain.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Hisashi Miyashita, Hideki Tai, and Shunichi Amano",
@@ -2055,25 +2080,25 @@
             "Award": ""
         },
         {
-            "Title": "Effects of Using Examples on Structural Model Comprehension: A Controlled Experiment",
+            "Title": "Feature Maintenance with Emergent Interfaces",
             "Type": "Full Paper",
-            "Key": "icse14main-p258-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDina+Zayan%2C+Micha%C5%82+Antkiewicz%2C+and+Krzysztof+Czarnecki+%22Effects+of+Using+Examples+on+Structural+Model+Comprehension%3A+A+Controlled+Experiment%22",
+            "Key": "icse14main-p351-p",
+            "URL": "http%3A%2F%2Fwww.cs.cmu.edu%2F%7Eckaestne%2Fpdf%2Ficse14_emergo.pdf",
             "URLvideo": "",
-            "URLinfo": "http%3A%2F%2Fgsd.uwaterloo.ca%2Fnode%2F541",
-            "PersonsString": "Dina Zayan, Michał Antkiewicz, and Krzysztof Czarnecki",
-            "AffiliationsString": "University of Waterloo, Canada",
+            "URLinfo": "http%3A%2F%2Ftwiki.cin.ufpe.br%2Ftwiki%2Fbin%2Fview%2FSPG%2FEmergentInterfaces",
+            "PersonsString": "Márcio Ribeiro, Paulo Borba, and Christian Kästner",
+            "AffiliationsString": "Federal University of Alagoas, Brazil; Federal University of Pernambuco, Brazil; Carnegie Mellon University, USA",
             "Authors": [
-                "Dina Zayan @ University of Waterloo, Canada",
-                "Michał Antkiewicz @ University of Waterloo, Canada",
-                "Krzysztof Czarnecki @ University of Waterloo, Canada"
+                "Márcio Ribeiro @ Federal University of Alagoas, Brazil",
+                "Paulo Borba @ Federal University of Pernambuco, Brazil",
+                "Christian Kästner @ Carnegie Mellon University, USA"
             ],
             "Affiliations": [
-                "University of Waterloo, Canada",
-                "University of Waterloo, Canada",
-                "University of Waterloo, Canada"
+                "Federal University of Alagoas, Brazil",
+                "Federal University of Pernambuco, Brazil",
+                "Carnegie Mellon University, USA"
             ],
-            "Abstract": "We present a controlled experiment for the empirical evaluation of Example-Driven Modeling (EDM), an approach that systematically uses examples for model comprehension and domain knowledge transfer. We conducted the experiment with 26 graduate and undergraduate students from electrical and computer engineering (ECE), computer science (CS), and software engineering (SE) programs at the University of Waterloo. The experiment involves a domain model, with UML class diagrams representing the domain abstractions and UML object diagrams representing examples of using these abstractions. The goal is to provide empirical evidence of the effects of suitable examples in model comprehension, compared to having model abstractions only, by having the participants perform model comprehension tasks. Our results show that EDM is superior to having model abstractions only, with an improvement of 39% for diagram completeness, 30% for questions completeness, 71% for efficiency, and a reduction of 80% for the number of mistakes. We provide qualitative results showing that participants receiving model abstractions augmented with examples experienced lower perceived difficulty in performing the comprehension tasks, higher perceived confidence in their tasks&#039; solutions, and asked fewer clarifying domain questions, a reduction of 90%. We also present participants&#039; feedback regarding the usefulness of the provided examples, their number and types, as well as, the use of partial examples.",
+            "Abstract": "Hidden code dependencies are responsible for many complications in maintenance tasks. With the introduction of variable features in configurable systems, dependencies may even cross feature boundaries, causing problems that are prone to be detected late. Many current implementation techniques for product lines lack proper interfaces, which could make such dependencies explicit. As alternative to changing the implementation approach, we provide a tool-based solution to support developers in recognizing and dealing with feature dependencies: emergent interfaces. Emergent interfaces are inferred on demand, based on feature-sensitive intraprocedural and interprocedural data-flow analysis. They emerge in the IDE and emulate modularity benefits not available in the host language. To evaluate the potential of emergent interfaces, we conducted and replicated a controlled experiment, and found, in the studied context, that emergent interfaces can improve performance of code change tasks by up to 3 times while also reducing the number of errors.",
             "Award": ""
         },
         {
@@ -2180,7 +2205,7 @@
             "Title": "Patch Verification via Multiversion Interprocedural Control Flow Graphs",
             "Type": "Full Paper",
             "Key": "icse14main-p411-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DWei+Le+and+Shannon+D.+Pattison+%22Patch+Verification+via+Multiversion+Interprocedural+Control+Flow+Graphs%22",
+            "URL": "http%3A%2F%2Fphd.gccis.rit.edu%2Fweile%2Fdocs%2Fle_icse14.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Wei Le and Shannon D. Pattison",
@@ -5748,7 +5773,7 @@
             "Title": "Software Testing: A Research Travelogue (2000–2014)",
             "Type": "Full Paper",
             "Key": "fose14main-id4-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAlessandro+Orso+and+Gregg+Rothermel+%22Software+Testing%3A+A+Research+Travelogue+%282000%E2%80%932014%29%22",
+            "URL": "http%3A%2F%2Fwww.cc.gatech.edu%2Fhome%2Forso%2Fpapers%2Forso.rothermel.ICSE2014-FOSE.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Alessandro Orso and Gregg Rothermel",
@@ -7154,7 +7179,7 @@
             "Day": "2014-06-02",
             "Time": "08:45 - 09:00",
             "Location": "",
-            "LocationIndex": "29",
+            "LocationIndex": "30",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7254,7 +7279,7 @@
             "Day": "2014-06-02",
             "Time": "09:00 - 09:50",
             "Location": "",
-            "LocationIndex": "29",
+            "LocationIndex": "30",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7397,7 +7422,7 @@
             "Day": "2014-06-02",
             "Time": "09:50 - 10:30",
             "Location": "",
-            "LocationIndex": "29",
+            "LocationIndex": "30",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7441,7 +7466,7 @@
             "Day": "2014-06-02",
             "Time": "11:00 - 12:30",
             "Location": "",
-            "LocationIndex": "29",
+            "LocationIndex": "30",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7489,7 +7514,7 @@
             "Day": "2014-06-02",
             "Time": "13:45 - 15:30",
             "Location": "",
-            "LocationIndex": "29",
+            "LocationIndex": "30",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7578,7 +7603,7 @@
             "Day": "2014-06-02",
             "Time": "16:00 - 17:05",
             "Location": "",
-            "LocationIndex": "29",
+            "LocationIndex": "30",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7604,7 +7629,7 @@
             "Day": "2014-06-02",
             "Time": "17:05 - 18:00",
             "Location": "",
-            "LocationIndex": "29",
+            "LocationIndex": "30",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7634,26 +7659,6 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICPC14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "oGhai7aphu",
-            "Title": "New Faculty and Researcher Symposium",
-            "ShortTitle": "New Faculty and Researcher Symposium",
-            "Type": "Meeting",
-            "ShortType": "Meeting",
-            "Key": "2014-06-03 09:00 New Faculty and Researcher Symposium",
-            "Day": "2014-06-03",
-            "Time": "09:00 - 17:30",
-            "Location": "",
-            "LocationIndex": "2",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSE14",
             "URL": "",
             "Abstract": ""
         },
@@ -7767,7 +7772,7 @@
             "Day": "2014-06-03",
             "Time": "09:00 - 09:30",
             "Location": "",
-            "LocationIndex": "29",
+            "LocationIndex": "30",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7790,7 +7795,7 @@
             "Day": "2014-06-03",
             "Time": "09:00 - 10:30",
             "Location": "",
-            "LocationIndex": "27",
+            "LocationIndex": "28",
             "ChairsString": "Shing-Chi Cheung",
             "Chairs": [
                 "Shing-Chi Cheung @"
@@ -7962,6 +7967,26 @@
             "Abstract": ""
         },
         {
+            "Id": "Rohpa1vu",
+            "Title": "NFS - David Rosenblum",
+            "ShortTitle": "NFS - David Rosenblum",
+            "Type": "New Faculty and Researcher Symposium",
+            "ShortType": "New Faculty and Researcher Symposium",
+            "Key": "2014-06-03 09:15 NFS - David Rosenblum",
+            "Day": "2014-06-03",
+            "Time": "09:15 - 10:00",
+            "Location": "",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "udaic5Hi5f",
             "Title": "Innovating in India: Designing for Constraint, Computing for Inclusion (Keynote)",
             "ShortTitle": "Innovating in India: Designing for Constraint, Computing for Inclusion (Keynote)",
@@ -7971,7 +7996,7 @@
             "Day": "2014-06-03",
             "Time": "09:30 - 10:30",
             "Location": "",
-            "LocationIndex": "29",
+            "LocationIndex": "30",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8005,6 +8030,46 @@
             "Abstract": ""
         },
         {
+            "Id": "Aisi7ahZ",
+            "Title": "NFS - Group activity",
+            "ShortTitle": "NFS - Group activity",
+            "Type": "New Faculty and Researcher Symposium",
+            "ShortType": "New Faculty and Researcher Symposium",
+            "Key": "2014-06-03 10:30 NFS - Group activity",
+            "Day": "2014-06-03",
+            "Time": "10:30 - 11:00",
+            "Location": "",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "eik4Ao5U",
+            "Title": "NFS - Sriram Rajamani",
+            "ShortTitle": "NFS - Sriram Rajamani",
+            "Type": "New Faculty and Researcher Symposium",
+            "ShortType": "New Faculty and Researcher Symposium",
+            "Key": "2014-06-03 11:00 NFS - Sriram Rajamani",
+            "Day": "2014-06-03",
+            "Time": "11:00 - 11:45",
+            "Location": "",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "gohsh2Pha5",
             "Title": "Understanding Comprehension",
             "ShortTitle": "Understanding Comprehension",
@@ -8014,7 +8079,7 @@
             "Day": "2014-06-03",
             "Time": "11:00 - 12:30",
             "Location": "",
-            "LocationIndex": "29",
+            "LocationIndex": "30",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8042,7 +8107,7 @@
             "Day": "2014-06-03",
             "Time": "11:00 - 12:30",
             "Location": "",
-            "LocationIndex": "27",
+            "LocationIndex": "28",
             "ChairsString": "Leonardo Mariani",
             "Chairs": [
                 "Leonardo Mariani @"
@@ -8068,7 +8133,7 @@
             "Day": "2014-06-03",
             "Time": "11:00 - 12:30",
             "Location": "",
-            "LocationIndex": "27",
+            "LocationIndex": "28",
             "ChairsString": "Shing-Chi Cheung",
             "Chairs": [
                 "Shing-Chi Cheung @"
@@ -8083,6 +8148,26 @@
                 "icsecomp14doc-docp016-p",
                 "icsecomp14doc-docp031-p"
             ]
+        },
+        {
+            "Id": "phaiVa2u",
+            "Title": "NFS - Jim Herbsleb",
+            "ShortTitle": "NFS - Jim Herbsleb",
+            "Type": "New Faculty and Researcher Symposium",
+            "ShortType": "New Faculty and Researcher Symposium",
+            "Key": "2014-06-03 11:45 NFS - Jim Herbsleb",
+            "Day": "2014-06-03",
+            "Time": "11:45 - 12:30",
+            "Location": "",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
         },
         {
             "Id": "Vah8be1Eip",
@@ -8114,7 +8199,7 @@
             "Day": "2014-06-03",
             "Time": "13:45 - 15:30",
             "Location": "",
-            "LocationIndex": "29",
+            "LocationIndex": "30",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8133,6 +8218,26 @@
                 "icpc14main-eraid100-p",
                 "icpc14main-eraid77-p"
             ]
+        },
+        {
+            "Id": "ob8Ix4ae",
+            "Title": "NFS - Jo Atlee",
+            "ShortTitle": "NFS - Jo Atlee",
+            "Type": "New Faculty and Researcher Symposium",
+            "ShortType": "New Faculty and Researcher Symposium",
+            "Key": "2014-06-03 14:00 NFS - Jo Atlee",
+            "Day": "2014-06-03",
+            "Time": "14:00 - 14:45",
+            "Location": "",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
         },
         {
             "Id": "eech2Shi2u",
@@ -8244,7 +8349,7 @@
             "Day": "2014-06-03",
             "Time": "14:00 - 15:30",
             "Location": "",
-            "LocationIndex": "27",
+            "LocationIndex": "28",
             "ChairsString": "Wolfgang Emmerich",
             "Chairs": [
                 "Wolfgang Emmerich @"
@@ -8272,7 +8377,7 @@
             "Day": "2014-06-03",
             "Time": "14:00 - 15:30",
             "Location": "",
-            "LocationIndex": "27",
+            "LocationIndex": "28",
             "ChairsString": "Shing-Chi Cheung",
             "Chairs": [
                 "Shing-Chi Cheung @"
@@ -8300,7 +8405,7 @@
             "Day": "2014-06-03",
             "Time": "14:00 - 15:30",
             "Location": "",
-            "LocationIndex": "27",
+            "LocationIndex": "28",
             "ChairsString": "Leonardo Mariani",
             "Chairs": [
                 "Leonardo Mariani @"
@@ -8316,6 +8421,29 @@
                 "icsecomp14doc-docp014-p",
                 "icsecomp14doc-docp019-p",
                 "icsecomp14doc-docp023-p"
+            ]
+        },
+        {
+            "Id": "quoh2Ohx",
+            "Title": "NFS - Junior faculty and researchers",
+            "ShortTitle": "NFS - Junior faculty and researchers",
+            "Type": "New Faculty and Researcher Symposium",
+            "ShortType": "New Faculty and Researcher Symposium",
+            "Key": "2014-06-03 14:45 NFS - Junior faculty and researchers",
+            "Day": "2014-06-03",
+            "Time": "14:45 - 16:00",
+            "Location": "",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "Christian Bird; Emerson Murphy-Hill; Yuriy Brun; Jun Sun; Aditya Kanade @  : NFS - Junior faculty and researchers"
             ]
         },
         {
@@ -8348,7 +8476,7 @@
             "Day": "2014-06-03",
             "Time": "16:00 - 17:30",
             "Location": "",
-            "LocationIndex": "29",
+            "LocationIndex": "30",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8376,13 +8504,33 @@
             "Day": "2014-06-03",
             "Time": "16:00 - 17:00",
             "Location": "",
-            "LocationIndex": "27",
+            "LocationIndex": "28",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICSECOMP14DOC",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "oBoo2ies",
+            "Title": "NFS - Andreas Zeller",
+            "ShortTitle": "NFS - Andreas Zeller",
+            "Type": "New Faculty and Researcher Symposium",
+            "ShortType": "New Faculty and Researcher Symposium",
+            "Key": "2014-06-03 16:30 NFS - Andreas Zeller",
+            "Day": "2014-06-03",
+            "Time": "16:30 - 17:15",
+            "Location": "",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
             "URL": "",
             "Abstract": ""
         },
@@ -8396,7 +8544,7 @@
             "Day": "2014-06-03",
             "Time": "17:00 - 17:30",
             "Location": "",
-            "LocationIndex": "27",
+            "LocationIndex": "28",
             "ChairsString": "Shing-Chi Cheung, Leonardo Mariani",
             "Chairs": [
                 "Shing-Chi Cheung, Leonardo Mariani @"
@@ -8404,6 +8552,26 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICSECOMP14DOC",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "ooch5Fie",
+            "Title": "NFS - Discussion and Wrapup",
+            "ShortTitle": "NFS - Discussion and Wrapup",
+            "Type": "New Faculty and Researcher Symposium",
+            "ShortType": "New Faculty and Researcher Symposium",
+            "Key": "2014-06-03 17:15 NFS - Discussion and Wrapup",
+            "Day": "2014-06-03",
+            "Time": "17:15 - 18:00",
+            "Location": "",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
             "URL": "",
             "Abstract": ""
         },
@@ -8417,7 +8585,7 @@
             "Day": "2014-06-03",
             "Time": "17:30 - 18:00",
             "Location": "",
-            "LocationIndex": "29",
+            "LocationIndex": "30",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8454,6 +8622,46 @@
             "Type": "Social",
             "ShortType": "Social",
             "Key": "2014-06-03 19:00 FSE PC Dinner",
+            "Day": "2014-06-03",
+            "Time": "19:00 - 21:30",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Eisog1kie9",
+            "Title": "ICPC Banquet",
+            "ShortTitle": "ICPC Banquet",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-06-03 19:00 ICPC Banquet",
+            "Day": "2014-06-03",
+            "Time": "19:00 - 21:30",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "fu9AiJ7nah",
+            "Title": "MOBILESoft Banquet",
+            "ShortTitle": "MOBILESoft Banquet",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-06-03 19:00 MOBILESoft Banquet",
             "Day": "2014-06-03",
             "Time": "19:00 - 21:30",
             "Location": "",
@@ -8506,7 +8714,7 @@
             "Workshop": false,
             "Comment": "ICSECOMP14KEYNOTES",
             "URL": "",
-            "Abstract": "",
+            "Abstract": "James Herbsleb is a Professor in the Institute for Software Research in the School of Computer Science at Carnegie Mellon University, where he serves as Director of the PhD program in Computation, Organizations, and Society. His research interests lie primarily in the intersection of software engineering, computer-supported cooperative work, and socio-technical systems, focusing on such areas as geographically distributed development teams and large-scale open source development. He holds a PhD in psychology, and an MS in computer science. His research has won several awards at ICSE, including the Most Influential Paper award in 2010, Honorable Mention for Most Influential Paper award in 2011, and ACM Distinguished Paper Award in 2011. For no apparent reason, he also holds a Juris Doctor degree and is a member of the Michigan Bar Association (inactive). For about two decades, he has worked with assorted colleagues and minions to try to understand the complex and dynamic relationship between human collaboration and the software that the humans are designing and using. On his optimistic days, he feels he has made a bit of progress.",
             "Items": [
                 "icsecomp14keynotes-keynotesid1-p"
             ]
@@ -8541,7 +8749,7 @@
             "Day": "2014-06-04",
             "Time": "10:30 - 12:30",
             "Location": "2.1",
-            "LocationIndex": "25",
+            "LocationIndex": "26",
             "ChairsString": "Matthew Dwyer",
             "Chairs": [
                 "Matthew Dwyer @"
@@ -8568,7 +8776,7 @@
             "Day": "2014-06-04",
             "Time": "10:30 - 12:30",
             "Location": "2.3",
-            "LocationIndex": "6",
+            "LocationIndex": "7",
             "ChairsString": "Audris Mockus",
             "Chairs": [
                 "Audris Mockus @"
@@ -8595,7 +8803,7 @@
             "Day": "2014-06-04",
             "Time": "10:30 - 12:30",
             "Location": "2.4",
-            "LocationIndex": "7",
+            "LocationIndex": "8",
             "ChairsString": "Paolo Tonella",
             "Chairs": [
                 "Paolo Tonella @"
@@ -8622,7 +8830,7 @@
             "Day": "2014-06-04",
             "Time": "10:30 - 12:30",
             "Location": "2.6",
-            "LocationIndex": "8",
+            "LocationIndex": "9",
             "ChairsString": "Joanne Atlee",
             "Chairs": [
                 "Joanne Atlee @"
@@ -8649,7 +8857,7 @@
             "Day": "2014-06-04",
             "Time": "10:30 - 12:30",
             "Location": "2.7",
-            "LocationIndex": "9",
+            "LocationIndex": "10",
             "ChairsString": "Katsuro Inoue",
             "Chairs": [
                 "Katsuro Inoue @"
@@ -8668,23 +8876,24 @@
         },
         {
             "Id": "sheiz7Chai",
-            "Title": "Panel: Ready-Set-Transfer: Exploring the Technology Transfer Readiness of Academic Research Projects",
-            "ShortTitle": "Panel: Ready-Set-Transfer: Exploring the Technology Transfer Readiness of Academic Research Projects",
+            "Title": "Panel Session 1",
+            "ShortTitle": "Panel Session 1",
             "Type": "Software Engineering in Practice",
             "ShortType": "Software Engineering in Practice",
-            "Key": "2014-06-04 10:30 Panel: Ready-Set-Transfer: Exploring the Technology Transfer Readiness of Academic Research Projects",
+            "Key": "2014-06-04 10:30 Panel Session 1",
             "Day": "2014-06-04",
             "Time": "10:30 - 12:30",
             "Location": "2.2",
-            "LocationIndex": "20",
-            "ChairsString": "",
+            "LocationIndex": "21",
+            "ChairsString": "Gautam Shroff",
             "Chairs": [
+                "Gautam Shroff @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICSECOMP14SEIP",
             "URL": "",
-            "Abstract": "",
+            "Abstract": "Rohan Naryana Murthy …Biography…",
             "Items": [
                 "icsecomp14seip-seipid104-p",
                 "icsecomp14seip-seipid111-p"
@@ -8700,7 +8909,7 @@
             "Day": "2014-06-04",
             "Time": "10:30 - 12:30",
             "Location": "2.5",
-            "LocationIndex": "18",
+            "LocationIndex": "19",
             "ChairsString": "Raghu Reddy",
             "Chairs": [
                 "Raghu Reddy @"
@@ -8808,7 +9017,7 @@
             "Day": "2014-06-04",
             "Time": "14:00 - 16:00",
             "Location": "3.1",
-            "LocationIndex": "26",
+            "LocationIndex": "27",
             "ChairsString": "James Herbsleb",
             "Chairs": [
                 "James Herbsleb @"
@@ -8834,7 +9043,7 @@
             "Day": "2014-06-04",
             "Time": "14:00 - 16:00",
             "Location": "3.4",
-            "LocationIndex": "10",
+            "LocationIndex": "11",
             "ChairsString": "Christian Bird",
             "Chairs": [
                 "Christian Bird @"
@@ -8861,7 +9070,7 @@
             "Day": "2014-06-04",
             "Time": "14:00 - 16:00",
             "Location": "3.6",
-            "LocationIndex": "11",
+            "LocationIndex": "12",
             "ChairsString": "Mark Harman",
             "Chairs": [
                 "Mark Harman @"
@@ -8888,7 +9097,7 @@
             "Day": "2014-06-04",
             "Time": "14:00 - 16:00",
             "Location": "3.7",
-            "LocationIndex": "12",
+            "LocationIndex": "13",
             "ChairsString": "Vittorio Cortellessa",
             "Chairs": [
                 "Vittorio Cortellessa @"
@@ -8915,9 +9124,10 @@
             "Day": "2014-06-04",
             "Time": "14:00 - 16:00",
             "Location": "3.2",
-            "LocationIndex": "21",
-            "ChairsString": "",
+            "LocationIndex": "22",
+            "ChairsString": "Rene Just",
             "Chairs": [
+                "Rene Just @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -8941,7 +9151,7 @@
             "Day": "2014-06-04",
             "Time": "14:00 - 16:00",
             "Location": "3.3",
-            "LocationIndex": "23",
+            "LocationIndex": "24",
             "ChairsString": "Alessandro Garcia",
             "Chairs": [
                 "Alessandro Garcia @"
@@ -8966,7 +9176,7 @@
             "Day": "2014-06-04",
             "Time": "14:00 - 16:00",
             "Location": "3.5",
-            "LocationIndex": "19",
+            "LocationIndex": "20",
             "ChairsString": "Benoit Baudry",
             "Chairs": [
                 "Benoit Baudry @"
@@ -9055,7 +9265,7 @@
             "Day": "2014-06-04",
             "Time": "16:30 - 18:30",
             "Location": "4.1",
-            "LocationIndex": "17",
+            "LocationIndex": "18",
             "ChairsString": "Satish Chandra",
             "Chairs": [
                 "Satish Chandra @"
@@ -9081,7 +9291,7 @@
             "Day": "2014-06-04",
             "Time": "16:30 - 18:30",
             "Location": "4.3",
-            "LocationIndex": "13",
+            "LocationIndex": "14",
             "ChairsString": "Leonardo Murta",
             "Chairs": [
                 "Leonardo Murta @"
@@ -9108,7 +9318,7 @@
             "Day": "2014-06-04",
             "Time": "16:30 - 18:30",
             "Location": "4.4",
-            "LocationIndex": "14",
+            "LocationIndex": "15",
             "ChairsString": "Margaret M. Burnett",
             "Chairs": [
                 "Margaret M. Burnett @"
@@ -9135,7 +9345,7 @@
             "Day": "2014-06-04",
             "Time": "16:30 - 18:30",
             "Location": "4.6",
-            "LocationIndex": "15",
+            "LocationIndex": "16",
             "ChairsString": "Per Runeson",
             "Chairs": [
                 "Per Runeson @"
@@ -9162,7 +9372,7 @@
             "Day": "2014-06-04",
             "Time": "16:30 - 18:30",
             "Location": "4.7",
-            "LocationIndex": "16",
+            "LocationIndex": "17",
             "ChairsString": "Henry Muccini",
             "Chairs": [
                 "Henry Muccini @"
@@ -9189,9 +9399,10 @@
             "Day": "2014-06-04",
             "Time": "16:30 - 19:00",
             "Location": "4.2",
-            "LocationIndex": "22",
-            "ChairsString": "",
+            "LocationIndex": "23",
+            "ChairsString": "T.S. Mohan",
             "Chairs": [
+                "T.S. Mohan @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -9216,7 +9427,7 @@
             "Day": "2014-06-04",
             "Time": "16:30 - 18:30",
             "Location": "4.5",
-            "LocationIndex": "24",
+            "LocationIndex": "25",
             "ChairsString": "Lilliana Pasquale",
             "Chairs": [
                 "Lilliana Pasquale @"
@@ -9294,7 +9505,7 @@
             "Workshop": false,
             "Comment": "ICSE14",
             "URL": "",
-            "Abstract": ""
+            "Abstract": "Charles Lee Isbell, Jr. received his B.S. in Computer Science in 1990 from the Georgia Institute of Technology and his Ph.D. in Computer Science from the Massachusetts Institute of Technology in 1998. After four years at AT&T Labs/Research, he returned to Georgia Tech to join the faculty of the College of Computing. Charles’ research interests are varied, but recently he has been building autonomous agents that engage in life-long learning when in the presence of thousands of other intelligent agents, including humans. His work has been featured in the popular media, including the New York Times and the Washington Post as well as in technical collections. Charles also pursues reform in computing education. He was a developer of Threads, Georgia Tech’s new structuring principle for computing curricula. Recently, he has assumed the role of the Senior Associate Dean for the College."
         },
         {
             "Id": "eeB5eipaen",
@@ -9326,7 +9537,7 @@
             "Day": "2014-06-05",
             "Time": "10:30 - 12:30",
             "Location": "2.3",
-            "LocationIndex": "6",
+            "LocationIndex": "7",
             "ChairsString": "Massimiliano Di Penta",
             "Chairs": [
                 "Massimiliano Di Penta @"
@@ -9352,7 +9563,7 @@
             "Day": "2014-06-05",
             "Time": "10:30 - 12:30",
             "Location": "2.4",
-            "LocationIndex": "7",
+            "LocationIndex": "8",
             "ChairsString": "Phil McMinn",
             "Chairs": [
                 "Phil McMinn @"
@@ -9379,7 +9590,7 @@
             "Day": "2014-06-05",
             "Time": "10:30 - 12:30",
             "Location": "2.6",
-            "LocationIndex": "8",
+            "LocationIndex": "9",
             "ChairsString": "Andreas Zeller",
             "Chairs": [
                 "Andreas Zeller @"
@@ -9398,17 +9609,18 @@
         },
         {
             "Id": "Uash5lieG8",
-            "Title": "Panel: Analyzing Software Data: After the Gold Rush (A Goldfish-Bowl Panel)",
-            "ShortTitle": "Panel: Analyzing Software Data: After the Gold Rush (A Goldfish-Bowl Panel)",
+            "Title": "Panel Session 2",
+            "ShortTitle": "Panel Session 2",
             "Type": "Software Engineering in Practice",
             "ShortType": "Software Engineering in Practice",
-            "Key": "2014-06-05 10:30 Panel: Analyzing Software Data: After the Gold Rush (A Goldfish-Bowl Panel)",
+            "Key": "2014-06-05 10:30 Panel Session 2",
             "Day": "2014-06-05",
             "Time": "10:30 - 12:30",
             "Location": "2.2",
-            "LocationIndex": "20",
-            "ChairsString": "",
+            "LocationIndex": "21",
+            "ChairsString": "Arnaud Gotlieb",
             "Chairs": [
+                "Arnaud Gotlieb @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -9430,7 +9642,7 @@
             "Day": "2014-06-05",
             "Time": "10:30 - 12:30",
             "Location": "2.5",
-            "LocationIndex": "18",
+            "LocationIndex": "19",
             "ChairsString": "Emerson Murphy-Hill",
             "Chairs": [
                 "Emerson Murphy-Hill @"
@@ -9459,7 +9671,7 @@
             "Day": "2014-06-05",
             "Time": "10:30 - 12:30",
             "Location": "2.1",
-            "LocationIndex": "25",
+            "LocationIndex": "26",
             "ChairsString": "Andrew Begel",
             "Chairs": [
                 "Andrew Begel @"
@@ -9589,7 +9801,7 @@
             "Day": "2014-06-05",
             "Time": "14:00 - 16:00",
             "Location": "3.4",
-            "LocationIndex": "10",
+            "LocationIndex": "11",
             "ChairsString": "Yuriy Brun",
             "Chairs": [
                 "Yuriy Brun @"
@@ -9616,7 +9828,7 @@
             "Day": "2014-06-05",
             "Time": "14:00 - 16:00",
             "Location": "3.6",
-            "LocationIndex": "11",
+            "LocationIndex": "12",
             "ChairsString": "Sam Malek",
             "Chairs": [
                 "Sam Malek @"
@@ -9643,9 +9855,10 @@
             "Day": "2014-06-05",
             "Time": "14:00 - 16:00",
             "Location": "3.2",
-            "LocationIndex": "21",
-            "ChairsString": "",
+            "LocationIndex": "22",
+            "ChairsString": "R.D. Naik",
             "Chairs": [
+                "R.D. Naik @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -9669,7 +9882,7 @@
             "Day": "2014-06-05",
             "Time": "14:00 - 16:00",
             "Location": "3.3",
-            "LocationIndex": "23",
+            "LocationIndex": "24",
             "ChairsString": "Carlo Ghezzi",
             "Chairs": [
                 "Carlo Ghezzi @"
@@ -9697,7 +9910,7 @@
             "Day": "2014-06-05",
             "Time": "14:00 - 16:00",
             "Location": "3.5",
-            "LocationIndex": "19",
+            "LocationIndex": "20",
             "ChairsString": "Abhik Roychoudhury",
             "Chairs": [
                 "Abhik Roychoudhury @"
@@ -9726,7 +9939,7 @@
             "Day": "2014-06-05",
             "Time": "14:00 - 16:00",
             "Location": "3.1",
-            "LocationIndex": "26",
+            "LocationIndex": "27",
             "ChairsString": "Tim Menzies",
             "Chairs": [
                 "Tim Menzies @"
@@ -9756,7 +9969,7 @@
             "Day": "2014-06-05",
             "Time": "15:30 - 16:30",
             "Location": "",
-            "LocationIndex": "28",
+            "LocationIndex": "29",
             "ChairsString": "Romain Robbes, Aditya Nori",
             "Chairs": [
                 "Romain Robbes, Aditya Nori @"
@@ -9848,7 +10061,7 @@
             "Day": "2014-06-05",
             "Time": "16:30 - 18:30",
             "Location": "4.1",
-            "LocationIndex": "17",
+            "LocationIndex": "18",
             "ChairsString": "Arie van Deursen",
             "Chairs": [
                 "Arie van Deursen @"
@@ -9875,7 +10088,7 @@
             "Day": "2014-06-05",
             "Time": "16:30 - 18:30",
             "Location": "4.4",
-            "LocationIndex": "14",
+            "LocationIndex": "15",
             "ChairsString": "Premkumar Devanbu",
             "Chairs": [
                 "Premkumar Devanbu @"
@@ -9902,7 +10115,7 @@
             "Day": "2014-06-05",
             "Time": "16:30 - 18:30",
             "Location": "4.6",
-            "LocationIndex": "15",
+            "LocationIndex": "16",
             "ChairsString": "Tim Menzies",
             "Chairs": [
                 "Tim Menzies @"
@@ -9929,9 +10142,10 @@
             "Day": "2014-06-05",
             "Time": "16:30 - 18:30",
             "Location": "4.2",
-            "LocationIndex": "22",
-            "ChairsString": "",
+            "LocationIndex": "23",
+            "ChairsString": "Vibha Sinha",
             "Chairs": [
+                "Vibha Sinha @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -9955,7 +10169,7 @@
             "Day": "2014-06-05",
             "Time": "16:30 - 18:30",
             "Location": "4.3",
-            "LocationIndex": "13",
+            "LocationIndex": "14",
             "ChairsString": "Ashish Sureka",
             "Chairs": [
                 "Ashish Sureka @"
@@ -9982,7 +10196,7 @@
             "Day": "2014-06-05",
             "Time": "16:30 - 18:30",
             "Location": "4.5",
-            "LocationIndex": "24",
+            "LocationIndex": "25",
             "ChairsString": "Jane Cleland-Huang",
             "Chairs": [
                 "Jane Cleland-Huang @"
@@ -10040,7 +10254,7 @@
             "Workshop": false,
             "Comment": "ICSE14",
             "URL": "",
-            "Abstract": ""
+            "Abstract": "K. Ananth Krishnan is an M. Tech. in Computer Science and an M.Sc in Physics from the Indian Institute of Technology, Delhi. He also has a Bachelor's degree in Physics from Fergusson College, Pune. He joined TCS in February 1988, straight from campus. Ananth is currently the Chief Technology Officer of TCS and chairs the TCS Corporate Technology Board. He is a member of the TCS Corporate Think-Tank since 1999, and has led several strategic initiatives. He has been a Principal Architect and Lead Consultant in the Architecture and Technology Consulting Practice, and earlier the head of the TCS Systems Management and the Systems Software Group.<br/><br/><br/><br/>Jeannette M. Wing is Corporate Vice President, Microsoft Research. She is on leave from Carnegie Mellon University, where she is President’s Professor of Computer Science and twice served as the Head of the Computer Science Department. From 2007-2010 she was the Assistant Director of the Computer and Information Science and Engineering Directorate at the National Science Foundation. She received her B.S and M.S. degrees in Computer Science and Engineering in 1979 and her Ph.D. degree in Computer Science in 1983, all from the Massachusetts Institute of Technology. Her general research interests are in the areas of trustworthy computing, specification and verification, concurrent and distributed systems, programming languages, and software engineering. Her current interests are in the foundations of security and privacy. She was or is on the editorial board of twelve journals, including the Journal of the ACM and Communications of the ACM. <br/><br/><br/><br/>Rohan Naryana Murthy …Biography…"
         },
         {
             "Id": "iChiT0ohgh",
@@ -10072,7 +10286,7 @@
             "Day": "2014-06-06",
             "Time": "10:30 - 12:30",
             "Location": "2.1",
-            "LocationIndex": "25",
+            "LocationIndex": "26",
             "ChairsString": "Margaret Burnett",
             "Chairs": [
                 "Margaret Burnett @"
@@ -10098,7 +10312,7 @@
             "Day": "2014-06-06",
             "Time": "10:30 - 12:30",
             "Location": "2.4",
-            "LocationIndex": "7",
+            "LocationIndex": "8",
             "ChairsString": "Daniel Amyot",
             "Chairs": [
                 "Daniel Amyot @"
@@ -10125,7 +10339,7 @@
             "Day": "2014-06-06",
             "Time": "10:30 - 12:30",
             "Location": "2.5",
-            "LocationIndex": "18",
+            "LocationIndex": "19",
             "ChairsString": "Alessandro Orso",
             "Chairs": [
                 "Alessandro Orso @"
@@ -10152,7 +10366,7 @@
             "Day": "2014-06-06",
             "Time": "10:30 - 12:30",
             "Location": "2.6",
-            "LocationIndex": "8",
+            "LocationIndex": "9",
             "ChairsString": "Sven Apel",
             "Chairs": [
                 "Sven Apel @"
@@ -10163,25 +10377,26 @@
             "URL": "",
             "Abstract": "",
             "Items": [
-                "icse14main-p351-p",
+                "icse14main-p258-p",
                 "icse14main-p063-p",
                 "icse14main-p024-p",
-                "icse14main-p258-p"
+                "icse14main-p351-p"
             ]
         },
         {
             "Id": "Iezaajo0xu",
-            "Title": "Industrial Panel (Intro)",
-            "ShortTitle": "Industrial Panel (Intro)",
+            "Title": "Panel Session 3 (Intro)",
+            "ShortTitle": "Panel Session 3 (Intro)",
             "Type": "Software Engineering in Practice",
             "ShortType": "Software Engineering in Practice",
-            "Key": "2014-06-06 10:30 Industrial Panel (Intro)",
+            "Key": "2014-06-06 10:30 Panel Session 3 (Intro)",
             "Day": "2014-06-06",
             "Time": "10:30 - 11:30",
             "Location": "2.2",
-            "LocationIndex": "20",
-            "ChairsString": "",
+            "LocationIndex": "21",
+            "ChairsString": "T.S. Mohan",
             "Chairs": [
+                "T.S. Mohan @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -10199,7 +10414,7 @@
             "Day": "2014-06-06",
             "Time": "10:30 - 12:30",
             "Location": "2.3",
-            "LocationIndex": "6",
+            "LocationIndex": "7",
             "ChairsString": "Ivica Crnkovic",
             "Chairs": [
                 "Ivica Crnkovic @"
@@ -10218,17 +10433,18 @@
         },
         {
             "Id": "Amo1aa7cho",
-            "Title": "Industrial Panel",
-            "ShortTitle": "Industrial Panel",
+            "Title": "Panel Session 3",
+            "ShortTitle": "Panel Session 3",
             "Type": "Software Engineering in Practice",
             "ShortType": "Software Engineering in Practice",
-            "Key": "2014-06-06 11:30 Industrial Panel",
+            "Key": "2014-06-06 11:30 Panel Session 3",
             "Day": "2014-06-06",
             "Time": "11:30 - 12:30",
             "Location": "2.2",
-            "LocationIndex": "20",
-            "ChairsString": "",
+            "LocationIndex": "21",
+            "ChairsString": "T.S. Mohan",
             "Chairs": [
+                "T.S. Mohan @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -10290,7 +10506,7 @@
             "Day": "2014-06-06",
             "Time": "14:00 - 16:00",
             "Location": "3.1",
-            "LocationIndex": "26",
+            "LocationIndex": "27",
             "ChairsString": "Matthew Dwyer",
             "Chairs": [
                 "Matthew Dwyer @"
@@ -10316,7 +10532,7 @@
             "Day": "2014-06-06",
             "Time": "14:00 - 16:00",
             "Location": "3.4",
-            "LocationIndex": "10",
+            "LocationIndex": "11",
             "ChairsString": "Luciano Baresi",
             "Chairs": [
                 "Luciano Baresi @"
@@ -10343,7 +10559,7 @@
             "Day": "2014-06-06",
             "Time": "14:00 - 16:00",
             "Location": "3.5",
-            "LocationIndex": "19",
+            "LocationIndex": "20",
             "ChairsString": "Michael Whalen",
             "Chairs": [
                 "Michael Whalen @"
@@ -10370,7 +10586,7 @@
             "Day": "2014-06-06",
             "Time": "14:00 - 16:00",
             "Location": "3.6",
-            "LocationIndex": "11",
+            "LocationIndex": "12",
             "ChairsString": "Miryung Kim",
             "Chairs": [
                 "Miryung Kim @"
@@ -10397,9 +10613,10 @@
             "Day": "2014-06-06",
             "Time": "14:00 - 16:00",
             "Location": "3.2",
-            "LocationIndex": "21",
-            "ChairsString": "",
+            "LocationIndex": "22",
+            "ChairsString": "Rene Just",
             "Chairs": [
+                "Rene Just @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -10423,7 +10640,7 @@
             "Day": "2014-06-06",
             "Time": "14:00 - 16:00",
             "Location": "3.3",
-            "LocationIndex": "23",
+            "LocationIndex": "24",
             "ChairsString": "Nelio Cacho",
             "Chairs": [
                 "Nelio Cacho @"
@@ -13346,6 +13563,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Arnaud Gotlieb",
+            "Affiliation": "",
+            "Key": "Arnaud Gotlieb @",
+            "Id": "08a5a46844",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Georgios Gousios",
             "Affiliation": "Delft University of Technology, Netherlands",
             "Key": "Georgios Gousios @ Delft University of Technology, Netherlands",
@@ -14391,6 +14619,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Rene Just",
+            "Affiliation": "",
+            "Key": "Rene Just @",
+            "Id": "5a881ff109",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Christian Kästner",
             "Affiliation": "Carnegie Mellon University, USA",
             "Key": "Christian Kästner @ Carnegie Mellon University, USA",
@@ -14461,6 +14700,17 @@
             "Affiliation": "IIIT Delhi, India",
             "Key": "Damodaram Kamma @ IIIT Delhi, India",
             "Id": "d0b21806f2",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Aditya Kanade",
+            "Affiliation": "",
+            "Key": "Aditya Kanade @",
+            "Id": "47307c9aa3",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -16019,6 +16269,17 @@
             "URLgs": ""
         },
         {
+            "Name": "T.S. Mohan",
+            "Affiliation": "",
+            "Key": "T.S. Mohan @",
+            "Id": "d7a2ec9f21",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Rahul Mohanani",
             "Affiliation": "Lancaster University, UK",
             "Key": "Rahul Mohanani @ Lancaster University, UK",
@@ -16265,6 +16526,17 @@
             "Affiliation": "Microsoft Research, USA",
             "Key": "Nachiappan Nagappan @ Microsoft Research, USA",
             "Id": "da10cfd150",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "R.D. Naik",
+            "Affiliation": "",
+            "Key": "R.D. Naik @",
+            "Id": "3f83eb0c76",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -18142,6 +18414,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Gautam Shroff",
+            "Affiliation": "",
+            "Key": "Gautam Shroff @",
+            "Id": "a7d32bdc26",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Mark Shtern",
             "Affiliation": "York University, Canada",
             "Key": "Mark Shtern @ York University, Canada",
@@ -18289,6 +18572,17 @@
             "Affiliation": "IBM Research, India",
             "Key": "Saurabh Sinha @ IBM Research, India",
             "Id": "dc564d16ad",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Vibha Sinha",
+            "Affiliation": "",
+            "Key": "Vibha Sinha @",
+            "Id": "116c22c893",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -18542,6 +18836,17 @@
             "Affiliation": "Zhejiang University, China",
             "Key": "Jianling Sun @ Zhejiang University, China",
             "Id": "7b5b52b2c2",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jun Sun",
+            "Affiliation": "",
+            "Key": "Jun Sun @",
+            "Id": "545ec5adb1",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
