@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1400560217,
+    "DataRevision": 1401017363,
     "Preliminary": false,
     "Event": "ICSE 2014",
     "Name": "ICSE 2014",
@@ -64,9 +64,9 @@
     ],
     "Items": [
         {
-            "Title": "NFS - Junior faculty and researchers",
+            "Title": "NFS - Junior Faculty and Researchers",
             "Type": "New Faculty and Researcher Symposium",
-            "Key": "Christian Bird; Emerson Murphy-Hill; Yuriy Brun; Jun Sun; Aditya Kanade @  : NFS - Junior faculty and researchers",
+            "Key": "Christian Bird; Emerson Murphy-Hill; Yuriy Brun; Jun Sun; Aditya Kanade @  : NFS - Junior Faculty and Researchers",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -441,7 +441,7 @@
             "Title": "Achieving Accuracy and Scalability Simultaneously in Detecting Application Clones on Android Markets",
             "Type": "Full Paper",
             "Key": "icse14main-p339-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKai+Chen%2C+Peng+Liu%2C+and+Yingjun+Zhang+%22Achieving+Accuracy+and+Scalability+Simultaneously+in+Detecting+Application+Clones+on+Android+Markets%22",
+            "URL": "http%3A%2F%2Fsites.psu.edu%2Fkaichen%2Fwp-content%2Fuploads%2Fsites%2F10220%2F2014%2F05%2Fappclones.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "PersonsString": "Kai Chen, Peng Liu, and Yingjun Zhang",
@@ -2969,7 +2969,7 @@
                 "ABB, USA"
             ],
             "Abstract": "Many industrial systems are highly-configurable, complicating the testing and debugging process. While researchers have developed techniques to statically extract, quantify and manipulate the valid system configurations, we conjecture that many of these techniques will fail in practice. In this paper we analyze a highly-configurable industrial application and two open source applications in order to quantify the true challenges that configurability creates for software testing and debugging. We find that (1) all three applications consist of multiple programming languages, hence static analyses need to cross programming language barriers to work, (2) there are many access points and methods to modify configurations, implying that practitioners need configuration traceability and should gather and merge metadata from more than one source and (3) the configuration state of an application on failure cannot be reliably determined by reading persistent data; a runtime memory dump or other heuristics must be used for accurate debugging. We conclude with a roadmap and lessons learned to help practitioners better handle configurability now, and that may lead to new configuration-aware testing and debugging techniques in the future.",
-            "Award": ""
+            "Award": "Best SEIP Paper"
         },
         {
             "Title": "Software Feature Location in Practice: Debugging Aircraft Simulation Systems",
@@ -5948,6 +5948,46 @@
     ],
     "Sessions": [
         {
+            "Id": "een0Re9eeP",
+            "Title": "MSR 2014 Day 1",
+            "ShortTitle": "MSR 2014 Day 1",
+            "Type": "Co-located Event",
+            "ShortType": "Co-located Event",
+            "Key": "2014-05-31 08:15 MSR 2014 Day 1",
+            "Day": "2014-05-31",
+            "Time": "08:15 - 18:00",
+            "Location": "MR.G.1-3",
+            "LocationIndex": "27",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "maeGh3oola",
+            "Title": "MoSEMInA&#039;14",
+            "ShortTitle": "MoSEMInA&#039;14",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-05-31 08:45 MoSEMInA&#039;14",
+            "Day": "2014-05-31",
+            "Time": "08:45 - 17:30",
+            "Location": "MR.G.4",
+            "LocationIndex": "34",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSEWS14MOSEMINA",
+            "URL": "https://sites.google.com/site/mosemina2014/",
+            "Abstract": ""
+        },
+        {
             "Id": "ahngahl0Da",
             "Title": "AST&#039;14 Day 1",
             "ShortTitle": "AST&#039;14 Day 1",
@@ -5955,9 +5995,9 @@
             "ShortType": "Workshop",
             "Key": "2014-05-31 09:00 AST&#039;14 Day 1",
             "Day": "2014-05-31",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.2.1",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5975,9 +6015,9 @@
             "ShortType": "Workshop",
             "Key": "2014-05-31 09:00 CSTVA&#039;14",
             "Day": "2014-05-31",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.G.6",
+            "LocationIndex": "29",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5988,36 +6028,16 @@
             "Abstract": ""
         },
         {
-            "Id": "maeGh3oola",
-            "Title": "MoSEMInA&#039;14",
-            "ShortTitle": "MoSEMInA&#039;14",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2014-05-31 09:00 MoSEMInA&#039;14",
-            "Day": "2014-05-31",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSEWS14MOSEMINA",
-            "URL": "https://sites.google.com/site/mosemina2014/",
-            "Abstract": ""
-        },
-        {
             "Id": "Oa9oas4ahM",
             "Title": "PESOS&#039;14",
             "ShortTitle": "PESOS&#039;14",
             "Type": "Workshop",
             "ShortType": "Workshop",
-            "Key": "2014-05-31 09:00 PESOS&#039;14",
+            "Key": "2014-05-31 09:15 PESOS&#039;14",
             "Day": "2014-05-31",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
+            "Time": "09:15 - 15:00",
+            "Location": "MR.G.5",
+            "LocationIndex": "33",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6036,8 +6056,28 @@
             "Key": "2014-05-31 19:00 MSR Banquet",
             "Day": "2014-05-31",
             "Time": "19:00 - 21:30",
-            "Location": "",
-            "LocationIndex": "10",
+            "Location": "Novotel Pool Lawns",
+            "LocationIndex": "17",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "IKaig0OoT5",
+            "Title": "MSR 2014 Day 2",
+            "ShortTitle": "MSR 2014 Day 2",
+            "Type": "Co-located Event",
+            "ShortType": "Co-located Event",
+            "Key": "2014-06-01 08:30 MSR 2014 Day 2",
+            "Day": "2014-06-01",
+            "Time": "08:30 - 18:10",
+            "Location": "MR.G.1-3",
+            "LocationIndex": "27",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6049,17 +6089,20 @@
         },
         {
             "Id": "Zae4eeg9oo",
-            "Title": "T7",
-            "ShortTitle": "T7",
+            "Title": "T7: How Software Engineering Research can Benefit from Ethnographic Methods",
+            "ShortTitle": "T7: How Software Engineering Research can Benefit from Ethnographic Methods",
             "Type": "Tutorial",
             "ShortType": "Tutorial",
-            "Key": "2014-06-01 09:00 T7",
+            "Key": "2014-06-01 09:00 T7: How Software Engineering Research can Benefit from Ethnographic Methods",
             "Day": "2014-06-01",
             "Time": "09:00 - 17:30",
-            "Location": "",
-            "LocationIndex": "13",
-            "ChairsString": "",
+            "Location": "MR.1.3",
+            "LocationIndex": "20",
+            "ChairsString": "Yvonne Dittrich, Cleidson de Souza, and Helen Sharp",
             "Chairs": [
+                "Yvonne Dittrich @",
+                "Cleidson de Souza @",
+                "Helen Sharp @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6068,23 +6111,23 @@
             "Abstract": ""
         },
         {
-            "Id": "AhkahDohp0",
-            "Title": "GREENS&#039;14",
-            "ShortTitle": "GREENS&#039;14",
+            "Id": "opaerie4Ha",
+            "Title": "TwinPeaks&#039;14",
+            "ShortTitle": "TwinPeaks&#039;14",
             "Type": "Workshop",
             "ShortType": "Workshop",
-            "Key": "2014-06-01 09:00 GREENS&#039;14",
+            "Key": "2014-06-01 09:00 TwinPeaks&#039;14",
             "Day": "2014-06-01",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.1.1",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "ICSEWS14GREENS",
-            "URL": "http://greens.cs.vu.nl/",
+            "Comment": "ICSEWS14TWINPEAKS",
+            "URL": "http://re.cs.depaul.edu/twinpeaks/",
             "Abstract": ""
         },
         {
@@ -6095,9 +6138,9 @@
             "ShortType": "Workshop",
             "Key": "2014-06-01 09:00 SE4SG&#039;14",
             "Day": "2014-06-01",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.1.2",
+            "LocationIndex": "7",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6115,9 +6158,9 @@
             "ShortType": "Workshop",
             "Key": "2014-06-01 09:00 AST&#039;14 Day 2",
             "Day": "2014-06-01",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.2.1",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6128,43 +6171,23 @@
             "Abstract": ""
         },
         {
-            "Id": "opaerie4Ha",
-            "Title": "TwinPeaks&#039;14",
-            "ShortTitle": "TwinPeaks&#039;14",
+            "Id": "AhkahDohp0",
+            "Title": "GREENS&#039;14",
+            "ShortTitle": "GREENS&#039;14",
             "Type": "Workshop",
             "ShortType": "Workshop",
-            "Key": "2014-06-01 09:00 TwinPeaks&#039;14",
+            "Key": "2014-06-01 09:00 GREENS&#039;14",
             "Day": "2014-06-01",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.G.4",
+            "LocationIndex": "34",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "ICSEWS14TWINPEAKS",
-            "URL": "http://re.cs.depaul.edu/twinpeaks/",
-            "Abstract": ""
-        },
-        {
-            "Id": "Thaax8ooyi",
-            "Title": "SER&amp;IPs&#039;14",
-            "ShortTitle": "SER&amp;IPs&#039;14",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2014-06-01 09:00 SER&amp;IPs&#039;14",
-            "Day": "2014-06-01",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSEWS14SERIPS",
-            "URL": "https://sites.google.com/site/serips2014",
+            "Comment": "ICSEWS14GREENS",
+            "URL": "http://greens.cs.vu.nl/",
             "Abstract": ""
         },
         {
@@ -6175,9 +6198,9 @@
             "ShortType": "Workshop",
             "Key": "2014-06-01 09:00 IWP&#039;14",
             "Day": "2014-06-01",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.G.5",
+            "LocationIndex": "33",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6188,16 +6211,121 @@
             "Abstract": ""
         },
         {
-            "Id": "Aishaazee6",
-            "Title": "T5",
-            "ShortTitle": "T5",
+            "Id": "Thaax8ooyi",
+            "Title": "SER&amp;IPs&#039;14",
+            "ShortTitle": "SER&amp;IPs&#039;14",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-06-01 09:00 SER&amp;IPs&#039;14",
+            "Day": "2014-06-01",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.G.6",
+            "LocationIndex": "29",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSEWS14SERIPS",
+            "URL": "https://sites.google.com/site/serips2014",
+            "Abstract": ""
+        },
+        {
+            "Id": "puYexee1wu",
+            "Title": "SEAMS 2014 Day 1",
+            "ShortTitle": "SEAMS 2014 Day 1",
+            "Type": "Co-located Event",
+            "ShortType": "Co-located Event",
+            "Key": "2014-06-02 08:30 SEAMS 2014 Day 1",
+            "Day": "2014-06-02",
+            "Time": "08:30 - 17:30",
+            "Location": "MR.G.6",
+            "LocationIndex": "29",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "AidaC1OWae",
+            "Title": "ICPC 2014 Day 1",
+            "ShortTitle": "ICPC 2014 Day 1",
+            "Type": "Co-located Event",
+            "ShortType": "Co-located Event",
+            "Key": "2014-06-02 08:45 ICPC 2014 Day 1",
+            "Day": "2014-06-02",
+            "Time": "08:45 - 18:00",
+            "Location": "MR.G.1-2",
+            "LocationIndex": "28",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Zeeleem1th",
+            "Title": "CSI-SE&#039;14",
+            "ShortTitle": "CSI-SE&#039;14",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-06-02 08:50 CSI-SE&#039;14",
+            "Day": "2014-06-02",
+            "Time": "08:50 - 17:30",
+            "Location": "MR.1.1",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSEWS14CSISE",
+            "URL": "http://www.lta.disco.unimib.it/csi-se/",
+            "Abstract": ""
+        },
+        {
+            "Id": "vaNg8Ithud",
+            "Title": "T1: The Art and Science of Analyzing Software Data",
+            "ShortTitle": "T1: The Art and Science of Analyzing Software Data",
             "Type": "Tutorial",
             "ShortType": "Tutorial",
-            "Key": "2014-06-02 09:00 T5",
+            "Key": "2014-06-02 09:00 T1: The Art and Science of Analyzing Software Data",
             "Day": "2014-06-02",
             "Time": "09:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "13",
+            "Location": "MR.1.2",
+            "LocationIndex": "7",
+            "ChairsString": "Tim Menzies, Christian Bird, Thomas Zimmermann, Leandro L. Minku, and Burak Turhan",
+            "Chairs": [
+                "Tim Menzies @",
+                "Christian Bird @",
+                "Thomas Zimmermann @",
+                "Leandro L. Minku @",
+                "Burak Turhan @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "OobaiX3ien",
+            "Title": "MOBILESoft 2014 Day 1",
+            "ShortTitle": "MOBILESoft 2014 Day 1",
+            "Type": "Co-located Event",
+            "ShortType": "Co-located Event",
+            "Key": "2014-06-02 09:00 MOBILESoft 2014 Day 1",
+            "Day": "2014-06-02",
+            "Time": "09:00 - 17:40",
+            "Location": "MR.1.3",
+            "LocationIndex": "20",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6209,17 +6337,44 @@
         },
         {
             "Id": "Eimee9fohv",
-            "Title": "T3",
-            "ShortTitle": "T3",
+            "Title": "T3: Efficiently Mining Source Code with Boa",
+            "ShortTitle": "T3: Efficiently Mining Source Code with Boa",
             "Type": "Tutorial",
             "ShortType": "Tutorial",
-            "Key": "2014-06-02 09:00 T3",
+            "Key": "2014-06-02 09:00 T3: Efficiently Mining Source Code with Boa",
             "Day": "2014-06-02",
             "Time": "09:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "13",
-            "ChairsString": "",
+            "Location": "MR.1.5",
+            "LocationIndex": "21",
+            "ChairsString": "Robert Dyer, Haam Nguyen, Hridesh Rajan, and Tien Nguyen",
             "Chairs": [
+                "Robert Dyer @",
+                "Haam Nguyen @",
+                "Hridesh Rajan @",
+                "Tien Nguyen @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Aishaazee6",
+            "Title": "T5: Best Practices and Pitfalls for Statistical Analysis of SE Data",
+            "ShortTitle": "T5: Best Practices and Pitfalls for Statistical Analysis of SE Data",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2014-06-02 09:00 T5: Best Practices and Pitfalls for Statistical Analysis of SE Data",
+            "Day": "2014-06-02",
+            "Time": "09:00 - 12:30",
+            "Location": "MR.1.6",
+            "LocationIndex": "22",
+            "ChairsString": "Audris Mockus, Meiyappan Nagappan, and Ahmed E. Hassan",
+            "Chairs": [
+                "Audris Mockus @",
+                "Meiyappan Nagappan @",
+                "Ahmed E. Hassan @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6229,37 +6384,18 @@
         },
         {
             "Id": "Gohthee3yo",
-            "Title": "T2",
-            "ShortTitle": "T2",
+            "Title": "T2: Fundamentals of Dependable Computing for Software Engineers",
+            "ShortTitle": "T2: Fundamentals of Dependable Computing for Software Engineers",
             "Type": "Tutorial",
             "ShortType": "Tutorial",
-            "Key": "2014-06-02 09:00 T2",
+            "Key": "2014-06-02 09:00 T2: Fundamentals of Dependable Computing for Software Engineers",
             "Day": "2014-06-02",
             "Time": "09:00 - 17:30",
-            "Location": "",
-            "LocationIndex": "13",
-            "ChairsString": "",
+            "Location": "MR.1.9",
+            "LocationIndex": "2",
+            "ChairsString": "John Knight",
             "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSE14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "vaNg8Ithud",
-            "Title": "T1",
-            "ShortTitle": "T1",
-            "Type": "Tutorial",
-            "ShortType": "Tutorial",
-            "Key": "2014-06-02 09:00 T1",
-            "Day": "2014-06-02",
-            "Time": "09:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "13",
-            "ChairsString": "",
-            "Chairs": [
+                "John Knight @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6275,9 +6411,9 @@
             "ShortType": "Workshop",
             "Key": "2014-06-02 09:00 GTSE&#039;14",
             "Day": "2014-06-02",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.1.4",
+            "LocationIndex": "26",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6288,26 +6424,6 @@
             "Abstract": ""
         },
         {
-            "Id": "Ang2Yaijaf",
-            "Title": "SBST&#039;14 Day 1",
-            "ShortTitle": "SBST&#039;14 Day 1",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2014-06-02 09:00 SBST&#039;14 Day 1",
-            "Day": "2014-06-02",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSEWS14SBST",
-            "URL": "http://www.searchbasedsoftwaretesting.org/",
-            "Abstract": ""
-        },
-        {
             "Id": "eir7aiSh4m",
             "Title": "MiSE&#039;14 Day 1",
             "ShortTitle": "MiSE&#039;14 Day 1",
@@ -6315,9 +6431,9 @@
             "ShortType": "Workshop",
             "Key": "2014-06-02 09:00 MiSE&#039;14 Day 1",
             "Day": "2014-06-02",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.2.2",
+            "LocationIndex": "35",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6335,8 +6451,8 @@
             "ShortType": "Workshop",
             "Key": "2014-06-02 09:00 CHASE&#039;14 Day 1",
             "Day": "2014-06-02",
-            "Time": "09:00 - 18:00",
-            "Location": "",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.G.3",
             "LocationIndex": "12",
             "ChairsString": "",
             "Chairs": [
@@ -6348,6 +6464,26 @@
             "Abstract": ""
         },
         {
+            "Id": "Ang2Yaijaf",
+            "Title": "SBST&#039;14 Day 1",
+            "ShortTitle": "SBST&#039;14 Day 1",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-06-02 09:00 SBST&#039;14 Day 1",
+            "Day": "2014-06-02",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.G.4",
+            "LocationIndex": "34",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSEWS14SBST",
+            "URL": "http://www.searchbasedsoftwaretesting.org/",
+            "Abstract": ""
+        },
+        {
             "Id": "reeZeicei5",
             "Title": "CESI&#039;14",
             "ShortTitle": "CESI&#039;14",
@@ -6355,9 +6491,9 @@
             "ShortType": "Workshop",
             "Key": "2014-06-02 09:00 CESI&#039;14",
             "Day": "2014-06-02",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.G.5",
+            "LocationIndex": "33",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6368,36 +6504,59 @@
             "Abstract": ""
         },
         {
-            "Id": "Zeeleem1th",
-            "Title": "CSI-SE&#039;14",
-            "ShortTitle": "CSI-SE&#039;14",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2014-06-02 09:00 CSI-SE&#039;14",
+            "Id": "Aequu9waew",
+            "Title": "T4: Software Fault Tolerance for NextGen Systems: Milieu of Models and Methods",
+            "ShortTitle": "T4: Software Fault Tolerance for NextGen Systems: Milieu of Models and Methods",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2014-06-02 14:00 T4: Software Fault Tolerance for NextGen Systems: Milieu of Models and Methods",
             "Day": "2014-06-02",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
-            "ChairsString": "",
+            "Time": "14:00 - 17:30",
+            "Location": "MR.1.2",
+            "LocationIndex": "7",
+            "ChairsString": "Santonu Sarkar and Rajeshwari Ganesan",
             "Chairs": [
+                "Santonu Sarkar @",
+                "Rajeshwari Ganesan @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "ICSEWS14CSISE",
-            "URL": "http://www.lta.disco.unimib.it/csi-se/",
+            "Comment": "ICSE14",
+            "URL": "",
             "Abstract": ""
         },
         {
-            "Id": "Aequu9waew",
-            "Title": "T4",
-            "ShortTitle": "T4",
+            "Id": "Moh3ohdies",
+            "Title": "T6: Presentation Techniques: Structure, Story and Support of a Scientific Talk",
+            "ShortTitle": "T6: Presentation Techniques: Structure, Story and Support of a Scientific Talk",
             "Type": "Tutorial",
             "ShortType": "Tutorial",
-            "Key": "2014-06-02 14:00 T4",
+            "Key": "2014-06-02 14:00 T6: Presentation Techniques: Structure, Story and Support of a Scientific Talk",
             "Day": "2014-06-02",
             "Time": "14:00 - 17:30",
-            "Location": "",
-            "LocationIndex": "13",
+            "Location": "MR.1.5",
+            "LocationIndex": "21",
+            "ChairsString": "Felienne Hermans",
+            "Chairs": [
+                "Felienne Hermans @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Eisog1kie9",
+            "Title": "ICPC, MOBILESoft &amp; SEAMS Banquet",
+            "ShortTitle": "ICPC, MOBILESoft &amp; SEAMS Banquet",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-06-02 19:00 ICPC, MOBILESoft &amp; SEAMS Banquet",
+            "Day": "2014-06-02",
+            "Time": "19:00 - 21:30",
+            "Location": "Hall 5-6",
+            "LocationIndex": "16",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6408,16 +6567,56 @@
             "Abstract": ""
         },
         {
-            "Id": "Moh3ohdies",
-            "Title": "T6",
-            "ShortTitle": "T6",
-            "Type": "Tutorial",
-            "ShortType": "Tutorial",
-            "Key": "2014-06-02 14:00 T6",
-            "Day": "2014-06-02",
-            "Time": "14:00 - 17:30",
-            "Location": "",
-            "LocationIndex": "13",
+            "Id": "aiLi9aexai",
+            "Title": "SEAMS 2014 Day 2",
+            "ShortTitle": "SEAMS 2014 Day 2",
+            "Type": "Co-located Event",
+            "ShortType": "Co-located Event",
+            "Key": "2014-06-03 08:30 SEAMS 2014 Day 2",
+            "Day": "2014-06-03",
+            "Time": "08:30 - 17:40",
+            "Location": "MR.G.6",
+            "LocationIndex": "29",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "ha0pee4ieN",
+            "Title": "WETSoM&#039;14",
+            "ShortTitle": "WETSoM&#039;14",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-06-03 08:30 WETSoM&#039;14",
+            "Day": "2014-06-03",
+            "Time": "08:30 - 18:00",
+            "Location": "MR.1.5",
+            "LocationIndex": "21",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSEWS14WETSOM",
+            "URL": "http://www.rcost.unisannio.it/wetsom2014/",
+            "Abstract": ""
+        },
+        {
+            "Id": "ii3Quichiz",
+            "Title": "MOBILESoft 2014 Day 2",
+            "ShortTitle": "MOBILESoft 2014 Day 2",
+            "Type": "Co-located Event",
+            "ShortType": "Co-located Event",
+            "Key": "2014-06-03 09:00 MOBILESoft 2014 Day 2",
+            "Day": "2014-06-03",
+            "Time": "09:00 - 17:45",
+            "Location": "MR.1.3",
+            "LocationIndex": "20",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6429,37 +6628,18 @@
         },
         {
             "Id": "Eeng2ohn5A",
-            "Title": "TB1 and TB2",
-            "ShortTitle": "TB1 and TB2",
+            "Title": "TB1: Theory and Practice of Software Requirements Patterns",
+            "ShortTitle": "TB1: Theory and Practice of Software Requirements Patterns",
             "Type": "Tutorial",
             "ShortType": "Tutorial",
-            "Key": "2014-06-03 09:00 TB1 and TB2",
+            "Key": "2014-06-03 09:00 TB1: Theory and Practice of Software Requirements Patterns",
             "Day": "2014-06-03",
             "Time": "09:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "13",
-            "ChairsString": "",
+            "Location": "MR.1.7",
+            "LocationIndex": "3",
+            "ChairsString": "Xavier Franch",
             "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSE14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "iti9eepahX",
-            "Title": "T10",
-            "ShortTitle": "T10",
-            "Type": "Tutorial",
-            "ShortType": "Tutorial",
-            "Key": "2014-06-03 09:00 T10",
-            "Day": "2014-06-03",
-            "Time": "09:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "13",
-            "ChairsString": "",
-            "Chairs": [
+                "Xavier Franch @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6469,37 +6649,18 @@
         },
         {
             "Id": "lae2Eer8ei",
-            "Title": "T14",
-            "ShortTitle": "T14",
+            "Title": "T14: Understanding Active Learning - MOOCs, SPOCs &amp; Blended Learning",
+            "ShortTitle": "T14: Understanding Active Learning - MOOCs, SPOCs &amp; Blended Learning",
             "Type": "Tutorial",
             "ShortType": "Tutorial",
-            "Key": "2014-06-03 09:00 T14",
+            "Key": "2014-06-03 09:00 T14: Understanding Active Learning - MOOCs, SPOCs &amp; Blended Learning",
             "Day": "2014-06-03",
             "Time": "09:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "13",
-            "ChairsString": "",
+            "Location": "MR.1.9",
+            "LocationIndex": "2",
+            "ChairsString": "Adam A. Porter",
             "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSE14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "Oja1eefae5",
-            "Title": "T9",
-            "ShortTitle": "T9",
-            "Type": "Tutorial",
-            "ShortType": "Tutorial",
-            "Key": "2014-06-03 09:00 T9",
-            "Day": "2014-06-03",
-            "Time": "09:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "13",
-            "ChairsString": "",
-            "Chairs": [
+                "Adam A. Porter @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6509,17 +6670,108 @@
         },
         {
             "Id": "zohth9ooTh",
-            "Title": "T8",
-            "ShortTitle": "T8",
+            "Title": "T8: Essence - A Foundation for Software Development Games",
+            "ShortTitle": "T8: Essence - A Foundation for Software Development Games",
             "Type": "Tutorial",
             "ShortType": "Tutorial",
-            "Key": "2014-06-03 09:00 T8",
+            "Key": "2014-06-03 09:00 T8: Essence - A Foundation for Software Development Games",
             "Day": "2014-06-03",
             "Time": "09:00 - 12:30",
-            "Location": "",
-            "LocationIndex": "13",
+            "Location": "MR.2.3-4",
+            "LocationIndex": "5",
+            "ChairsString": "Shihong Huang, Ivar Jacobson, Panwei Ng, Mira Kajko-Mattsson, and Arne Berre",
+            "Chairs": [
+                "Shihong Huang @",
+                "Ivar Jacobson @",
+                "Panwei Ng @",
+                "Mira Kajko-Mattsson @",
+                "Arne Berre @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "iti9eepahX",
+            "Title": "T10: Case Study Research Methodology for Software Engineering: Observational Case Studies and Technical Action Research",
+            "ShortTitle": "T10: Case Study Research Methodology for Software Engineering: Observational Case Studies and Technical Action Research",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2014-06-03 09:00 T10: Case Study Research Methodology for Software Engineering: Observational Case Studies and Technical Action Research",
+            "Day": "2014-06-03",
+            "Time": "09:00 - 12:30",
+            "Location": "MR.2.5",
+            "LocationIndex": "24",
+            "ChairsString": "Roel Wieringa",
+            "Chairs": [
+                "Roel Wieringa @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Oja1eefae5",
+            "Title": "T9: Software Design Quality in Practice",
+            "ShortTitle": "T9: Software Design Quality in Practice",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2014-06-03 09:00 T9: Software Design Quality in Practice",
+            "Day": "2014-06-03",
+            "Time": "09:00 - 12:30",
+            "Location": "MR.2.6",
+            "LocationIndex": "23",
+            "ChairsString": "Ganesh Samarthyam, Tushar Sharma, and Girish Suryanaraya",
+            "Chairs": [
+                "Ganesh Samarthyam @",
+                "Tushar Sharma @",
+                "Girish Suryanaraya @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "IeL4eeNah8",
+            "Title": "ICPC 2014 Day 2",
+            "ShortTitle": "ICPC 2014 Day 2",
+            "Type": "Co-located Event",
+            "ShortType": "Co-located Event",
+            "Key": "2014-06-03 09:00 ICPC 2014 Day 2",
+            "Day": "2014-06-03",
+            "Time": "09:00 - 18:00",
+            "Location": "MR.G.1-2",
+            "LocationIndex": "28",
             "ChairsString": "",
             "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Ubai3uic9G",
+            "Title": "TB2: Modeling and Verification of Multi-Agent Systems",
+            "ShortTitle": "TB2: Modeling and Verification of Multi-Agent Systems",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2014-06-03 09:00 TB2: Modeling and Verification of Multi-Agent Systems",
+            "Day": "2014-06-03",
+            "Time": "09:00 - 12:30",
+            "Location": "Speaker's Preparation Office 2.1",
+            "LocationIndex": "25",
+            "ChairsString": "Neha Rungta and Franco Raimondi",
+            "Chairs": [
+                "Neha Rungta @",
+                "Franco Raimondi @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6537,7 +6789,7 @@
             "Day": "2014-06-03",
             "Time": "09:00 - 10:30",
             "Location": "MR.2.1",
-            "LocationIndex": "2",
+            "LocationIndex": "1",
             "ChairsString": "Shing-Chi Cheung",
             "Chairs": [
                 "Shing-Chi Cheung @"
@@ -6549,6 +6801,86 @@
             "Abstract": ""
         },
         {
+            "Id": "ied7Cheiwa",
+            "Title": "RSSE&#039;14",
+            "ShortTitle": "RSSE&#039;14",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-06-03 09:00 RSSE&#039;14",
+            "Day": "2014-06-03",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.1.1",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSEWS14RSSE",
+            "URL": "https://sites.google.com/site/rsseresearch/rsse-2014",
+            "Abstract": ""
+        },
+        {
+            "Id": "loogh2uSie",
+            "Title": "RAISE&#039;14",
+            "ShortTitle": "RAISE&#039;14",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-06-03 09:00 RAISE&#039;14",
+            "Day": "2014-06-03",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.1.2",
+            "LocationIndex": "7",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSEWS14RAISE",
+            "URL": "http://promisedata.org/raise/2014/",
+            "Abstract": ""
+        },
+        {
+            "Id": "laeShah7wi",
+            "Title": "RCoSE&#039;14",
+            "ShortTitle": "RCoSE&#039;14",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-06-03 09:00 RCoSE&#039;14",
+            "Day": "2014-06-03",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.1.6",
+            "LocationIndex": "22",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSEWS14RCOSE",
+            "URL": "http://continuous-se.org/",
+            "Abstract": ""
+        },
+        {
+            "Id": "yaeweeD2ie",
+            "Title": "MiSE&#039;14 Day 2",
+            "ShortTitle": "MiSE&#039;14 Day 2",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-06-03 09:00 MiSE&#039;14 Day 2",
+            "Day": "2014-06-03",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.2.2",
+            "LocationIndex": "35",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSEWS14MISE",
+            "URL": "https://sselab.de/lab2/public/wiki/MiSE/index.php?title=Main_Page",
+            "Abstract": ""
+        },
+        {
             "Id": "aerie6Phai",
             "Title": "CHASE&#039;14 Day 2",
             "ShortTitle": "CHASE&#039;14 Day 2",
@@ -6556,8 +6888,8 @@
             "ShortType": "Workshop",
             "Key": "2014-06-03 09:00 CHASE&#039;14 Day 2",
             "Day": "2014-06-03",
-            "Time": "09:00 - 18:00",
-            "Location": "",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.G.3",
             "LocationIndex": "12",
             "ChairsString": "",
             "Chairs": [
@@ -6576,9 +6908,9 @@
             "ShortType": "Workshop",
             "Key": "2014-06-03 09:00 SBST&#039;14 Day 2",
             "Day": "2014-06-03",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.G.4",
+            "LocationIndex": "34",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6589,86 +6921,6 @@
             "Abstract": ""
         },
         {
-            "Id": "ha0pee4ieN",
-            "Title": "WETSoM&#039;14",
-            "ShortTitle": "WETSoM&#039;14",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2014-06-03 09:00 WETSoM&#039;14",
-            "Day": "2014-06-03",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSEWS14WETSOM",
-            "URL": "http://www.rcost.unisannio.it/wetsom2014/",
-            "Abstract": ""
-        },
-        {
-            "Id": "ied7Cheiwa",
-            "Title": "RSSE&#039;14",
-            "ShortTitle": "RSSE&#039;14",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2014-06-03 09:00 RSSE&#039;14",
-            "Day": "2014-06-03",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSEWS14RSSE",
-            "URL": "https://sites.google.com/site/rsseresearch/rsse-2014",
-            "Abstract": ""
-        },
-        {
-            "Id": "laeShah7wi",
-            "Title": "RCoSE&#039;14",
-            "ShortTitle": "RCoSE&#039;14",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2014-06-03 09:00 RCoSE&#039;14",
-            "Day": "2014-06-03",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSEWS14RCOSE",
-            "URL": "http://continuous-se.org/",
-            "Abstract": ""
-        },
-        {
-            "Id": "loogh2uSie",
-            "Title": "RAISE&#039;14",
-            "ShortTitle": "RAISE&#039;14",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2014-06-03 09:00 RAISE&#039;14",
-            "Day": "2014-06-03",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSEWS14RAISE",
-            "URL": "http://promisedata.org/raise/2014/",
-            "Abstract": ""
-        },
-        {
             "Id": "Veipei0aiv",
             "Title": "FormaliSE&#039;14",
             "ShortTitle": "FormaliSE&#039;14",
@@ -6676,9 +6928,9 @@
             "ShortType": "Workshop",
             "Key": "2014-06-03 09:00 FormaliSE&#039;14",
             "Day": "2014-06-03",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.G.5",
+            "LocationIndex": "33",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6686,26 +6938,6 @@
             "Workshop": false,
             "Comment": "ICSEWS14FORMALISE",
             "URL": "http://www.formalise.org/",
-            "Abstract": ""
-        },
-        {
-            "Id": "yaeweeD2ie",
-            "Title": "MiSE&#039;14 Day 2",
-            "ShortTitle": "MiSE&#039;14 Day 2",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2014-06-03 09:00 MiSE&#039;14 Day 2",
-            "Day": "2014-06-03",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSEWS14MISE",
-            "URL": "https://sselab.de/lab2/public/wiki/MiSE/index.php?title=Main_Page",
             "Abstract": ""
         },
         {
@@ -6718,7 +6950,7 @@
             "Day": "2014-06-03",
             "Time": "09:15 - 10:00",
             "Location": "MR.1.4",
-            "LocationIndex": "14",
+            "LocationIndex": "26",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6730,15 +6962,15 @@
         },
         {
             "Id": "Aisi7ahZ",
-            "Title": "NFS - Group activity",
-            "ShortTitle": "NFS - Group activity",
+            "Title": "NFS - Group Activity",
+            "ShortTitle": "NFS - Group Activity",
             "Type": "New Faculty and Researcher Symposium",
             "ShortType": "New Faculty and Researcher Symposium",
-            "Key": "2014-06-03 10:30 NFS - Group activity",
+            "Key": "2014-06-03 10:30 NFS - Group Activity",
             "Day": "2014-06-03",
             "Time": "10:30 - 11:00",
             "Location": "MR.1.4",
-            "LocationIndex": "14",
+            "LocationIndex": "26",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6758,7 +6990,7 @@
             "Day": "2014-06-03",
             "Time": "11:00 - 11:45",
             "Location": "MR.1.4",
-            "LocationIndex": "14",
+            "LocationIndex": "26",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6777,8 +7009,8 @@
             "Key": "2014-06-03 11:00 Mature B",
             "Day": "2014-06-03",
             "Time": "11:00 - 12:30",
-            "Location": "MR.2.1",
-            "LocationIndex": "2",
+            "Location": "MR.1.10",
+            "LocationIndex": "32",
             "ChairsString": "Leonardo Mariani",
             "Chairs": [
                 "Leonardo Mariani @"
@@ -6804,7 +7036,7 @@
             "Day": "2014-06-03",
             "Time": "11:00 - 12:30",
             "Location": "MR.2.1",
-            "LocationIndex": "2",
+            "LocationIndex": "1",
             "ChairsString": "Shing-Chi Cheung",
             "Chairs": [
                 "Shing-Chi Cheung @"
@@ -6830,7 +7062,7 @@
             "Day": "2014-06-03",
             "Time": "11:45 - 12:30",
             "Location": "MR.1.4",
-            "LocationIndex": "14",
+            "LocationIndex": "26",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6850,27 +7082,7 @@
             "Day": "2014-06-03",
             "Time": "14:00 - 14:45",
             "Location": "MR.1.4",
-            "LocationIndex": "14",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSE14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "eech2Shi2u",
-            "Title": "T11",
-            "ShortTitle": "T11",
-            "Type": "Tutorial",
-            "ShortType": "Tutorial",
-            "Key": "2014-06-03 14:00 T11",
-            "Day": "2014-06-03",
-            "Time": "14:00 - 17:30",
-            "Location": "",
-            "LocationIndex": "13",
+            "LocationIndex": "26",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6882,37 +7094,19 @@
         },
         {
             "Id": "eeL9ahcah8",
-            "Title": "T13",
-            "ShortTitle": "T13",
+            "Title": "T13: Meta Models and Meta Execution Models",
+            "ShortTitle": "T13: Meta Models and Meta Execution Models",
             "Type": "Tutorial",
             "ShortType": "Tutorial",
-            "Key": "2014-06-03 14:00 T13",
+            "Key": "2014-06-03 14:00 T13: Meta Models and Meta Execution Models",
             "Day": "2014-06-03",
             "Time": "14:00 - 17:30",
-            "Location": "",
-            "LocationIndex": "13",
-            "ChairsString": "",
+            "Location": "MR.1.9",
+            "LocationIndex": "2",
+            "ChairsString": "P. Radha Krishna and Kamal Karlapalem",
             "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSE14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "heb1ohJ7Ei",
-            "Title": "T12",
-            "ShortTitle": "T12",
-            "Type": "Tutorial",
-            "ShortType": "Tutorial",
-            "Key": "2014-06-03 14:00 T12",
-            "Day": "2014-06-03",
-            "Time": "14:00 - 17:30",
-            "Location": "",
-            "LocationIndex": "13",
-            "ChairsString": "",
-            "Chairs": [
+                "P. Radha Krishna @",
+                "Kamal Karlapalem @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6922,17 +7116,63 @@
         },
         {
             "Id": "Ohciechu4X",
-            "Title": "T15",
-            "ShortTitle": "T15",
+            "Title": "T15: Reinvigorating Software Engineering Education with SaaS, Cloud Computing, MOOCs, and SPOCs",
+            "ShortTitle": "T15: Reinvigorating Software Engineering Education with SaaS, Cloud Computing, MOOCs, and SPOCs",
             "Type": "Tutorial",
             "ShortType": "Tutorial",
-            "Key": "2014-06-03 14:00 T15",
+            "Key": "2014-06-03 14:00 T15: Reinvigorating Software Engineering Education with SaaS, Cloud Computing, MOOCs, and SPOCs",
             "Day": "2014-06-03",
             "Time": "14:00 - 17:30",
-            "Location": "",
-            "LocationIndex": "13",
-            "ChairsString": "",
+            "Location": "MR.2.3-4",
+            "LocationIndex": "5",
+            "ChairsString": "Armando Fox",
             "Chairs": [
+                "Armando Fox @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "heb1ohJ7Ei",
+            "Title": "T12: Social Network Analysis for Software Engineering",
+            "ShortTitle": "T12: Social Network Analysis for Software Engineering",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2014-06-03 14:00 T12: Social Network Analysis for Software Engineering",
+            "Day": "2014-06-03",
+            "Time": "14:00 - 17:30",
+            "Location": "MR.2.5",
+            "LocationIndex": "24",
+            "ChairsString": "Ramsuri Narayanam, Seema Nagar, and Amit A. Nanavati",
+            "Chairs": [
+                "Ramsuri Narayanam @",
+                "Seema Nagar @",
+                "Amit A. Nanavati @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "eech2Shi2u",
+            "Title": "T11: Software Engineering for Mobile Development: Challenges, Tools, and Techniques",
+            "ShortTitle": "T11: Software Engineering for Mobile Development: Challenges, Tools, and Techniques",
+            "Type": "Tutorial",
+            "ShortType": "Tutorial",
+            "Key": "2014-06-03 14:00 T11: Software Engineering for Mobile Development: Challenges, Tools, and Techniques",
+            "Day": "2014-06-03",
+            "Time": "14:00 - 17:30",
+            "Location": "MR.2.6",
+            "LocationIndex": "23",
+            "ChairsString": "Yael Dubinsky and Aharon Abadi",
+            "Chairs": [
+                "Yael Dubinsky @",
+                "Aharon Abadi @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6942,51 +7182,24 @@
         },
         {
             "Id": "ooz4Chooc0",
-            "Title": "TB3",
-            "ShortTitle": "TB3",
+            "Title": "TB3: Goal Modeling Requirements Engineering in the i* Framework",
+            "ShortTitle": "TB3: Goal Modeling Requirements Engineering in the i* Framework",
             "Type": "Tutorial",
             "ShortType": "Tutorial",
-            "Key": "2014-06-03 14:00 TB3",
+            "Key": "2014-06-03 14:00 TB3: Goal Modeling Requirements Engineering in the i* Framework",
             "Day": "2014-06-03",
             "Time": "14:00 - 17:30",
-            "Location": "",
-            "LocationIndex": "13",
-            "ChairsString": "",
+            "Location": "Speaker's Preparation Office 2.1",
+            "LocationIndex": "25",
+            "ChairsString": "Xavier Franch",
             "Chairs": [
+                "Xavier Franch @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICSE14",
             "URL": "",
             "Abstract": ""
-        },
-        {
-            "Id": "aith2Ahkee",
-            "Title": "Initial B",
-            "ShortTitle": "Initial B",
-            "Type": "Doctoral Symposium",
-            "ShortType": "Doctoral Symposium",
-            "Key": "2014-06-03 14:00 Initial B",
-            "Day": "2014-06-03",
-            "Time": "14:00 - 15:30",
-            "Location": "MR.2.1",
-            "LocationIndex": "2",
-            "ChairsString": "Wolfgang Emmerich",
-            "Chairs": [
-                "Wolfgang Emmerich @"
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSECOMP14DOC",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "icsecomp14doc-docp003-p",
-                "icsecomp14doc-docp004-p",
-                "icsecomp14doc-docp006-p",
-                "icsecomp14doc-docp011-p",
-                "icsecomp14doc-docp026-p"
-            ]
         },
         {
             "Id": "oVeFie5kai",
@@ -6997,8 +7210,8 @@
             "Key": "2014-06-03 14:00 Initial C",
             "Day": "2014-06-03",
             "Time": "14:00 - 15:30",
-            "Location": "MR.2.1",
-            "LocationIndex": "2",
+            "Location": "MR.1.7",
+            "LocationIndex": "3",
             "ChairsString": "Shing-Chi Cheung",
             "Chairs": [
                 "Shing-Chi Cheung @"
@@ -7017,6 +7230,34 @@
             ]
         },
         {
+            "Id": "aith2Ahkee",
+            "Title": "Initial B",
+            "ShortTitle": "Initial B",
+            "Type": "Doctoral Symposium",
+            "ShortType": "Doctoral Symposium",
+            "Key": "2014-06-03 14:00 Initial B",
+            "Day": "2014-06-03",
+            "Time": "14:00 - 15:30",
+            "Location": "MR.1.10",
+            "LocationIndex": "32",
+            "ChairsString": "Wolfgang Emmerich",
+            "Chairs": [
+                "Wolfgang Emmerich @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSECOMP14DOC",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "icsecomp14doc-docp003-p",
+                "icsecomp14doc-docp004-p",
+                "icsecomp14doc-docp006-p",
+                "icsecomp14doc-docp011-p",
+                "icsecomp14doc-docp026-p"
+            ]
+        },
+        {
             "Id": "Woh8ThohJ9",
             "Title": "Initial A",
             "ShortTitle": "Initial A",
@@ -7026,7 +7267,7 @@
             "Day": "2014-06-03",
             "Time": "14:00 - 15:30",
             "Location": "MR.2.1",
-            "LocationIndex": "2",
+            "LocationIndex": "1",
             "ChairsString": "Leonardo Mariani",
             "Chairs": [
                 "Leonardo Mariani @"
@@ -7046,15 +7287,15 @@
         },
         {
             "Id": "quoh2Ohx",
-            "Title": "NFS - Junior faculty and researchers",
-            "ShortTitle": "NFS - Junior faculty and researchers",
+            "Title": "NFS - Junior Faculty and Researchers",
+            "ShortTitle": "NFS - Junior Faculty and Researchers",
             "Type": "New Faculty and Researcher Symposium",
             "ShortType": "New Faculty and Researcher Symposium",
-            "Key": "2014-06-03 14:45 NFS - Junior faculty and researchers",
+            "Key": "2014-06-03 14:45 NFS - Junior Faculty and Researchers",
             "Day": "2014-06-03",
             "Time": "14:45 - 16:00",
             "Location": "MR.1.4",
-            "LocationIndex": "14",
+            "LocationIndex": "26",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7064,7 +7305,7 @@
             "URL": "",
             "Abstract": "",
             "Items": [
-                "Christian Bird; Emerson Murphy-Hill; Yuriy Brun; Jun Sun; Aditya Kanade @  : NFS - Junior faculty and researchers"
+                "Christian Bird; Emerson Murphy-Hill; Yuriy Brun; Jun Sun; Aditya Kanade @  : NFS - Junior Faculty and Researchers"
             ]
         },
         {
@@ -7077,7 +7318,7 @@
             "Day": "2014-06-03",
             "Time": "16:00 - 17:00",
             "Location": "MR.2.1",
-            "LocationIndex": "2",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7097,7 +7338,7 @@
             "Day": "2014-06-03",
             "Time": "16:30 - 17:15",
             "Location": "MR.1.4",
-            "LocationIndex": "14",
+            "LocationIndex": "26",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7117,10 +7358,11 @@
             "Day": "2014-06-03",
             "Time": "17:00 - 17:30",
             "Location": "MR.2.1",
-            "LocationIndex": "2",
-            "ChairsString": "Shing-Chi Cheung, Leonardo Mariani",
+            "LocationIndex": "1",
+            "ChairsString": "Shing-Chi Cheung and Leonardo Mariani",
             "Chairs": [
-                "Shing-Chi Cheung, Leonardo Mariani @"
+                "Shing-Chi Cheung @",
+                "Leonardo Mariani @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -7138,7 +7380,7 @@
             "Day": "2014-06-03",
             "Time": "17:15 - 18:00",
             "Location": "MR.1.4",
-            "LocationIndex": "14",
+            "LocationIndex": "26",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7157,88 +7399,8 @@
             "Key": "2014-06-03 19:00 ICSE Reception",
             "Day": "2014-06-03",
             "Time": "19:00 - 21:00",
-            "Location": "",
-            "LocationIndex": "10",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSE14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "Ceayei0thu",
-            "Title": "FSE PC Dinner",
-            "ShortTitle": "FSE PC Dinner",
-            "Type": "Social",
-            "ShortType": "Social",
-            "Key": "2014-06-03 19:00 FSE PC Dinner",
-            "Day": "2014-06-03",
-            "Time": "19:00 - 21:30",
-            "Location": "",
-            "LocationIndex": "10",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSE14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "Eisog1kie9",
-            "Title": "ICPC Banquet",
-            "ShortTitle": "ICPC Banquet",
-            "Type": "Social",
-            "ShortType": "Social",
-            "Key": "2014-06-03 19:00 ICPC Banquet",
-            "Day": "2014-06-03",
-            "Time": "19:00 - 21:30",
-            "Location": "",
-            "LocationIndex": "10",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSE14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "fu9AiJ7nah",
-            "Title": "MOBILESoft Banquet",
-            "ShortTitle": "MOBILESoft Banquet",
-            "Type": "Social",
-            "ShortType": "Social",
-            "Key": "2014-06-03 19:00 MOBILESoft Banquet",
-            "Day": "2014-06-03",
-            "Time": "19:00 - 21:30",
-            "Location": "",
-            "LocationIndex": "10",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSE14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "Johquoht8a",
-            "Title": "SEAMS Banquet",
-            "ShortTitle": "SEAMS Banquet",
-            "Type": "Social",
-            "ShortType": "Social",
-            "Key": "2014-06-03 19:00 SEAMS Banquet",
-            "Day": "2014-06-03",
-            "Time": "19:00 - 21:30",
-            "Location": "",
-            "LocationIndex": "10",
+            "Location": "Hall 5-6",
+            "LocationIndex": "16",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7282,7 +7444,7 @@
             "Day": "2014-06-04",
             "Time": "10:00 - 10:30",
             "Location": "",
-            "LocationIndex": "10",
+            "LocationIndex": "14",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7301,8 +7463,8 @@
             "Key": "2014-06-04 10:30 Future of Software Engineering 1",
             "Day": "2014-06-04",
             "Time": "10:30 - 12:30",
-            "Location": "2.1",
-            "LocationIndex": "20",
+            "Location": "Hall 1",
+            "LocationIndex": "8",
             "ChairsString": "Matthew Dwyer",
             "Chairs": [
                 "Matthew Dwyer @"
@@ -7329,7 +7491,7 @@
             "Day": "2014-06-04",
             "Time": "10:30 - 12:30",
             "Location": "Hall 2",
-            "LocationIndex": "5",
+            "LocationIndex": "4",
             "ChairsString": "Joanne Atlee",
             "Chairs": [
                 "Joanne Atlee @"
@@ -7383,7 +7545,7 @@
             "Day": "2014-06-04",
             "Time": "10:30 - 12:30",
             "Location": "MR.1.1-2",
-            "LocationIndex": "16",
+            "LocationIndex": "30",
             "ChairsString": "Katsuro Inoue",
             "Chairs": [
                 "Katsuro Inoue @"
@@ -7410,7 +7572,7 @@
             "Day": "2014-06-04",
             "Time": "10:30 - 12:30",
             "Location": "MR.G.1-3",
-            "LocationIndex": "15",
+            "LocationIndex": "27",
             "ChairsString": "Paolo Tonella",
             "Chairs": [
                 "Paolo Tonella @"
@@ -7437,7 +7599,7 @@
             "Day": "2014-06-04",
             "Time": "10:30 - 12:30",
             "Location": "MR.1.5-6",
-            "LocationIndex": "19",
+            "LocationIndex": "15",
             "ChairsString": "Gautam Shroff",
             "Chairs": [
                 "Gautam Shroff @"
@@ -7462,7 +7624,7 @@
             "Day": "2014-06-04",
             "Time": "10:30 - 12:30",
             "Location": "MR.1.3-4",
-            "LocationIndex": "18",
+            "LocationIndex": "19",
             "ChairsString": "Raghu Reddy",
             "Chairs": [
                 "Raghu Reddy @"
@@ -7490,7 +7652,7 @@
             "Day": "2014-06-04",
             "Time": "12:30 - 14:00",
             "Location": "MR.1.7",
-            "LocationIndex": "4",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7510,7 +7672,7 @@
             "Day": "2014-06-04",
             "Time": "12:30 - 14:00",
             "Location": "MR.1.9",
-            "LocationIndex": "3",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7530,7 +7692,7 @@
             "Day": "2014-06-04",
             "Time": "12:30 - 14:00",
             "Location": "MR.2.1",
-            "LocationIndex": "2",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7550,7 +7712,27 @@
             "Day": "2014-06-04",
             "Time": "12:30 - 14:00",
             "Location": "",
-            "LocationIndex": "10",
+            "LocationIndex": "14",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "ceij4Mushu",
+            "Title": "Executive Committee Meeting",
+            "ShortTitle": "Executive Committee Meeting",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2014-06-04 14:00 Executive Committee Meeting",
+            "Day": "2014-06-04",
+            "Time": "14:00 - 18:30",
+            "Location": "MR 1.9",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7569,8 +7751,8 @@
             "Key": "2014-06-04 14:00 Future of Software Engineering 2",
             "Day": "2014-06-04",
             "Time": "14:00 - 16:00",
-            "Location": "3.1",
-            "LocationIndex": "21",
+            "Location": "Hall 1",
+            "LocationIndex": "8",
             "ChairsString": "James Herbsleb",
             "Chairs": [
                 "James Herbsleb @"
@@ -7596,7 +7778,7 @@
             "Day": "2014-06-04",
             "Time": "14:00 - 16:00",
             "Location": "Hall 2",
-            "LocationIndex": "5",
+            "LocationIndex": "4",
             "ChairsString": "Christian Bird",
             "Chairs": [
                 "Christian Bird @"
@@ -7623,7 +7805,7 @@
             "Day": "2014-06-04",
             "Time": "14:00 - 16:00",
             "Location": "MR.1.1-2",
-            "LocationIndex": "16",
+            "LocationIndex": "30",
             "ChairsString": "Vittorio Cortellessa",
             "Chairs": [
                 "Vittorio Cortellessa @"
@@ -7650,7 +7832,7 @@
             "Day": "2014-06-04",
             "Time": "14:00 - 16:00",
             "Location": "MR.G.1-3",
-            "LocationIndex": "15",
+            "LocationIndex": "27",
             "ChairsString": "Mark Harman",
             "Chairs": [
                 "Mark Harman @"
@@ -7677,7 +7859,7 @@
             "Day": "2014-06-04",
             "Time": "14:00 - 16:00",
             "Location": "MR.1.5-6",
-            "LocationIndex": "19",
+            "LocationIndex": "15",
             "ChairsString": "Rene Just",
             "Chairs": [
                 "Rene Just @"
@@ -7729,7 +7911,7 @@
             "Day": "2014-06-04",
             "Time": "14:00 - 16:00",
             "Location": "MR.1.3-4",
-            "LocationIndex": "18",
+            "LocationIndex": "19",
             "ChairsString": "Benoit Baudry",
             "Chairs": [
                 "Benoit Baudry @"
@@ -7749,26 +7931,6 @@
             ]
         },
         {
-            "Id": "aoChoo4iKe",
-            "Title": "SCORE/SRC Posters",
-            "ShortTitle": "SCORE/SRC Posters",
-            "Type": "Posters",
-            "ShortType": "Posters",
-            "Key": "2014-06-04 15:30 SCORE/SRC Posters",
-            "Day": "2014-06-04",
-            "Time": "15:30 - 16:30",
-            "Location": "MR.G.4-6",
-            "LocationIndex": "1",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSE14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
             "Id": "thaeb4Ban0",
             "Title": "PM Break",
             "ShortTitle": "PM Break",
@@ -7778,33 +7940,13 @@
             "Day": "2014-06-04",
             "Time": "16:00 - 16:30",
             "Location": "",
-            "LocationIndex": "10",
+            "LocationIndex": "14",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICSE14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "uF0taishoh",
-            "Title": "Doctoral Symposium Posters",
-            "ShortTitle": "Doctoral Symposium Posters",
-            "Type": "Posters",
-            "ShortType": "Posters",
-            "Key": "2014-06-04 16:00 Doctoral Symposium Posters",
-            "Day": "2014-06-04",
-            "Time": "16:00 - 19:00",
-            "Location": "MR.G.4-6",
-            "LocationIndex": "1",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSECOMP14DOC",
             "URL": "",
             "Abstract": ""
         },
@@ -7817,8 +7959,8 @@
             "Key": "2014-06-04 16:30 Future of Software Engineering 3",
             "Day": "2014-06-04",
             "Time": "16:30 - 18:30",
-            "Location": "4.1",
-            "LocationIndex": "22",
+            "Location": "Hall 1",
+            "LocationIndex": "8",
             "ChairsString": "Satish Chandra",
             "Chairs": [
                 "Satish Chandra @"
@@ -7844,7 +7986,7 @@
             "Day": "2014-06-04",
             "Time": "16:30 - 18:30",
             "Location": "Hall 2",
-            "LocationIndex": "5",
+            "LocationIndex": "4",
             "ChairsString": "Per Runeson",
             "Chairs": [
                 "Per Runeson @"
@@ -7898,7 +8040,7 @@
             "Day": "2014-06-04",
             "Time": "16:30 - 18:30",
             "Location": "MR.1.1-2",
-            "LocationIndex": "16",
+            "LocationIndex": "30",
             "ChairsString": "Henry Muccini",
             "Chairs": [
                 "Henry Muccini @"
@@ -7925,7 +8067,7 @@
             "Day": "2014-06-04",
             "Time": "16:30 - 18:30",
             "Location": "MR.G.1-3",
-            "LocationIndex": "15",
+            "LocationIndex": "27",
             "ChairsString": "Margaret M. Burnett",
             "Chairs": [
                 "Margaret M. Burnett @"
@@ -7952,7 +8094,7 @@
             "Day": "2014-06-04",
             "Time": "16:30 - 19:00",
             "Location": "MR.1.5-6",
-            "LocationIndex": "19",
+            "LocationIndex": "15",
             "ChairsString": "T.S. Mohan",
             "Chairs": [
                 "T.S. Mohan @"
@@ -7980,7 +8122,7 @@
             "Day": "2014-06-04",
             "Time": "16:30 - 18:30",
             "Location": "MR.1.3-4",
-            "LocationIndex": "18",
+            "LocationIndex": "19",
             "ChairsString": "Lilliana Pasquale",
             "Chairs": [
                 "Lilliana Pasquale @"
@@ -8009,7 +8151,7 @@
             "Day": "2014-06-04",
             "Time": "18:30 - 19:30",
             "Location": "Hall 2",
-            "LocationIndex": "5",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8029,7 +8171,7 @@
             "Day": "2014-06-04",
             "Time": "19:00 - 21:00",
             "Location": "MR.2.3-4",
-            "LocationIndex": "6",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8041,11 +8183,11 @@
         },
         {
             "Id": "paeDobah1i",
-            "Title": "Keynote by Charles Lee Isbell, Jr.",
-            "ShortTitle": "Keynote by Charles Lee Isbell, Jr.",
+            "Title": "Some Lessons Learned while Creating a Real MOOC-based Masters of Science (Keynote)",
+            "ShortTitle": "Some Lessons Learned while Creating a Real MOOC-based Masters of Science (Keynote)",
             "Type": "Keynotes",
             "ShortType": "Keynotes",
-            "Key": "2014-06-05 08:30 Keynote by Charles Lee Isbell, Jr.",
+            "Key": "2014-06-05 08:30 Some Lessons Learned while Creating a Real MOOC-based Masters of Science (Keynote)",
             "Day": "2014-06-05",
             "Time": "08:30 - 10:00",
             "Location": "Hall 3",
@@ -8070,7 +8212,7 @@
             "Day": "2014-06-05",
             "Time": "10:00 - 10:30",
             "Location": "",
-            "LocationIndex": "10",
+            "LocationIndex": "14",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8090,7 +8232,7 @@
             "Day": "2014-06-05",
             "Time": "10:30 - 12:30",
             "Location": "Hall 1",
-            "LocationIndex": "17",
+            "LocationIndex": "8",
             "ChairsString": "Phil McMinn",
             "Chairs": [
                 "Phil McMinn @"
@@ -8117,7 +8259,7 @@
             "Day": "2014-06-05",
             "Time": "10:30 - 12:30",
             "Location": "Hall 2",
-            "LocationIndex": "5",
+            "LocationIndex": "4",
             "ChairsString": "Andreas Zeller",
             "Chairs": [
                 "Andreas Zeller @"
@@ -8170,7 +8312,7 @@
             "Day": "2014-06-05",
             "Time": "10:30 - 12:30",
             "Location": "MR.1.5-6",
-            "LocationIndex": "19",
+            "LocationIndex": "15",
             "ChairsString": "Arnaud Gotlieb",
             "Chairs": [
                 "Arnaud Gotlieb @"
@@ -8195,7 +8337,7 @@
             "Day": "2014-06-05",
             "Time": "10:30 - 12:30",
             "Location": "MR.1.3-4",
-            "LocationIndex": "18",
+            "LocationIndex": "19",
             "ChairsString": "Emerson Murphy-Hill",
             "Chairs": [
                 "Emerson Murphy-Hill @"
@@ -8218,13 +8360,13 @@
             "Id": "Cae1SohCee",
             "Title": "Automated Programming Support",
             "ShortTitle": "Automated Programming Support",
-            "Type": "Tool Demonstrations",
-            "ShortType": "Tool Demonstrations",
+            "Type": "Formal Demonstrations",
+            "ShortType": "Formal Demonstrations",
             "Key": "2014-06-05 10:30 Automated Programming Support",
             "Day": "2014-06-05",
             "Time": "10:30 - 12:30",
             "Location": "MR.G.1-3",
-            "LocationIndex": "15",
+            "LocationIndex": "27",
             "ChairsString": "Andrew Begel",
             "Chairs": [
                 "Andrew Begel @"
@@ -8245,16 +8387,16 @@
             ]
         },
         {
-            "Id": "ohQuah3bav",
-            "Title": "IEEE TSE Editorial Board",
-            "ShortTitle": "IEEE TSE Editorial Board",
+            "Id": "OophoX8Aem",
+            "Title": "ICSE 2015 Organizing Committee Meeting",
+            "ShortTitle": "ICSE 2015 Organizing Committee Meeting",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2014-06-05 12:30 IEEE TSE Editorial Board",
+            "Key": "2014-06-05 12:30 ICSE 2015 Organizing Committee Meeting",
             "Day": "2014-06-05",
             "Time": "12:30 - 14:00",
             "Location": "MR.1.1",
-            "LocationIndex": "7",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8265,15 +8407,15 @@
             "Abstract": ""
         },
         {
-            "Id": "OophoX8Aem",
-            "Title": "ICSE 2015 Organizing Committee Meeting",
-            "ShortTitle": "ICSE 2015 Organizing Committee Meeting",
+            "Id": "ohQuah3bav",
+            "Title": "IEEE TSE Editorial Board",
+            "ShortTitle": "IEEE TSE Editorial Board",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2014-06-05 12:30 ICSE 2015 Organizing Committee Meeting",
+            "Key": "2014-06-05 12:30 IEEE TSE Editorial Board",
             "Day": "2014-06-05",
             "Time": "12:30 - 14:00",
-            "Location": "MR.1.1",
+            "Location": "MR.1.2",
             "LocationIndex": "7",
             "ChairsString": "",
             "Chairs": [
@@ -8294,7 +8436,7 @@
             "Day": "2014-06-05",
             "Time": "12:30 - 14:00",
             "Location": "MR.1.9",
-            "LocationIndex": "3",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8314,7 +8456,47 @@
             "Day": "2014-06-05",
             "Time": "12:30 - 14:00",
             "Location": "MR.2.1",
-            "LocationIndex": "2",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "rooFisho1d",
+            "Title": "ISSTA Steering Committee Meeting",
+            "ShortTitle": "ISSTA Steering Committee Meeting",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2014-06-05 12:30 ISSTA Steering Committee Meeting",
+            "Day": "2014-06-05",
+            "Time": "12:30 - 14:00",
+            "Location": "MR 1.7",
+            "LocationIndex": "10",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Niesoh8shu",
+            "Title": "JSS Editorial Board Meeting",
+            "ShortTitle": "JSS Editorial Board Meeting",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2014-06-05 12:30 JSS Editorial Board Meeting",
+            "Day": "2014-06-05",
+            "Time": "12:30 - 14:00",
+            "Location": "MR 2.2",
+            "LocationIndex": "11",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8334,7 +8516,7 @@
             "Day": "2014-06-05",
             "Time": "12:30 - 14:00",
             "Location": "",
-            "LocationIndex": "10",
+            "LocationIndex": "14",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8354,7 +8536,7 @@
             "Day": "2014-06-05",
             "Time": "14:00 - 16:00",
             "Location": "Hall 1",
-            "LocationIndex": "17",
+            "LocationIndex": "8",
             "ChairsString": "Yuriy Brun",
             "Chairs": [
                 "Yuriy Brun @"
@@ -8381,7 +8563,7 @@
             "Day": "2014-06-05",
             "Time": "14:00 - 16:00",
             "Location": "Hall 2",
-            "LocationIndex": "5",
+            "LocationIndex": "4",
             "ChairsString": "Sam Malek",
             "Chairs": [
                 "Sam Malek @"
@@ -8408,7 +8590,7 @@
             "Day": "2014-06-05",
             "Time": "14:00 - 16:00",
             "Location": "MR.1.5-6",
-            "LocationIndex": "19",
+            "LocationIndex": "15",
             "ChairsString": "R.D. Naik",
             "Chairs": [
                 "R.D. Naik @"
@@ -8463,7 +8645,7 @@
             "Day": "2014-06-05",
             "Time": "14:00 - 16:00",
             "Location": "MR.1.3-4",
-            "LocationIndex": "18",
+            "LocationIndex": "19",
             "ChairsString": "Abhik Roychoudhury",
             "Chairs": [
                 "Abhik Roychoudhury @"
@@ -8486,13 +8668,13 @@
             "Id": "iuDahkieP8",
             "Title": "Software Understanding for Programmers and Researchers",
             "ShortTitle": "Software Understanding for Programmers and Researchers",
-            "Type": "Tool Demonstrations",
-            "ShortType": "Tool Demonstrations",
+            "Type": "Formal Demonstrations",
+            "ShortType": "Formal Demonstrations",
             "Key": "2014-06-05 14:00 Software Understanding for Programmers and Researchers",
             "Day": "2014-06-05",
             "Time": "14:00 - 16:00",
             "Location": "MR.G.1-3",
-            "LocationIndex": "15",
+            "LocationIndex": "27",
             "ChairsString": "Tim Menzies",
             "Chairs": [
                 "Tim Menzies @"
@@ -8522,16 +8704,17 @@
             "Day": "2014-06-05",
             "Time": "15:30 - 16:30",
             "Location": "MR.2.1",
-            "LocationIndex": "2",
-            "ChairsString": "Romain Robbes, Aditya Nori",
+            "LocationIndex": "1",
+            "ChairsString": "Romain Robbes and Aditya Nori",
             "Chairs": [
-                "Romain Robbes, Aditya Nori @"
+                "Romain Robbes @",
+                "Aditya Nori @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICSECOMP14SRC",
             "URL": "",
-            "Abstract": "Presentations",
+            "Abstract": "",
             "Items": [
                 "icsecomp14src-srcp003-p",
                 "icsecomp14src-srcp009-p",
@@ -8553,7 +8736,7 @@
             "Day": "2014-06-05",
             "Time": "16:00 - 16:30",
             "Location": "",
-            "LocationIndex": "10",
+            "LocationIndex": "14",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8565,15 +8748,15 @@
         },
         {
             "Id": "gaej7Oameo",
-            "Title": "Posters",
-            "ShortTitle": "Posters",
+            "Title": "ICSE Posters",
+            "ShortTitle": "ICSE Posters",
             "Type": "Posters",
             "ShortType": "Posters",
-            "Key": "2014-06-05 16:00 Posters",
+            "Key": "2014-06-05 16:00 ICSE Posters",
             "Day": "2014-06-05",
             "Time": "16:00 - 18:30",
             "Location": "MR.G.4-6",
-            "LocationIndex": "1",
+            "LocationIndex": "31",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8614,7 +8797,7 @@
             "Day": "2014-06-05",
             "Time": "16:30 - 18:30",
             "Location": "Hall 1",
-            "LocationIndex": "17",
+            "LocationIndex": "8",
             "ChairsString": "Arie van Deursen",
             "Chairs": [
                 "Arie van Deursen @"
@@ -8641,7 +8824,7 @@
             "Day": "2014-06-05",
             "Time": "16:30 - 18:30",
             "Location": "Hall 2",
-            "LocationIndex": "5",
+            "LocationIndex": "4",
             "ChairsString": "Premkumar Devanbu",
             "Chairs": [
                 "Premkumar Devanbu @"
@@ -8668,7 +8851,7 @@
             "Day": "2014-06-05",
             "Time": "16:30 - 18:30",
             "Location": "MR.G.1-3",
-            "LocationIndex": "15",
+            "LocationIndex": "27",
             "ChairsString": "Tim Menzies",
             "Chairs": [
                 "Tim Menzies @"
@@ -8695,7 +8878,7 @@
             "Day": "2014-06-05",
             "Time": "16:30 - 18:30",
             "Location": "MR.1.5-6",
-            "LocationIndex": "19",
+            "LocationIndex": "15",
             "ChairsString": "Vibha Sinha",
             "Chairs": [
                 "Vibha Sinha @"
@@ -8749,7 +8932,7 @@
             "Day": "2014-06-05",
             "Time": "16:30 - 18:30",
             "Location": "MR.1.3-4",
-            "LocationIndex": "18",
+            "LocationIndex": "19",
             "ChairsString": "Jane Cleland-Huang",
             "Chairs": [
                 "Jane Cleland-Huang @"
@@ -8769,6 +8952,46 @@
             ]
         },
         {
+            "Id": "ooK7Thohti",
+            "Title": "ESEC Steering Committee Meeting",
+            "ShortTitle": "ESEC Steering Committee Meeting",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2014-06-05 18:00 ESEC Steering Committee Meeting",
+            "Day": "2014-06-05",
+            "Time": "18:00 - 21:00",
+            "Location": "MR.1.9",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Quoh7ainae",
+            "Title": "SRC Committee Meeting",
+            "ShortTitle": "SRC Committee Meeting",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2014-06-05 18:00 SRC Committee Meeting",
+            "Day": "2014-06-05",
+            "Time": "18:00 - 21:00",
+            "Location": "MR.G.3",
+            "LocationIndex": "12",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "aiKaecu2yi",
             "Title": "ICSE Banquet",
             "ShortTitle": "ICSE Banquet",
@@ -8777,8 +9000,8 @@
             "Key": "2014-06-05 19:00 ICSE Banquet",
             "Day": "2014-06-05",
             "Time": "19:00 - 22:00",
-            "Location": "",
-            "LocationIndex": "10",
+            "Location": "N Convention",
+            "LocationIndex": "13",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8790,11 +9013,11 @@
         },
         {
             "Id": "ex7phuGhai",
-            "Title": "CTO Round Table",
-            "ShortTitle": "CTO Round Table",
+            "Title": "Round Table on Emerging Software Engineering Challenges (Panel)",
+            "ShortTitle": "Round Table on Emerging Software Engineering Challenges (Panel)",
             "Type": "Keynotes",
             "ShortType": "Keynotes",
-            "Key": "2014-06-06 08:30 CTO Round Table",
+            "Key": "2014-06-06 08:30 Round Table on Emerging Software Engineering Challenges (Panel)",
             "Day": "2014-06-06",
             "Time": "08:30 - 10:00",
             "Location": "Hall 3",
@@ -8807,7 +9030,7 @@
             "Workshop": false,
             "Comment": "ICSE14",
             "URL": "",
-            "Abstract": "K. Ananth Krishnan is an M. Tech. in Computer Science and an M.Sc in Physics from the Indian Institute of Technology, Delhi. He also has a Bachelor's degree in Physics from Fergusson College, Pune. He joined TCS in February 1988, straight from campus. Ananth is currently the Chief Technology Officer of TCS and chairs the TCS Corporate Technology Board. He is a member of the TCS Corporate Think-Tank since 1999, and has led several strategic initiatives. He has been a Principal Architect and Lead Consultant in the Architecture and Technology Consulting Practice, and earlier the head of the TCS Systems Management and the Systems Software Group.<br/><br/><br/><br/>Jeannette M. Wing is Corporate Vice President, Microsoft Research. She is on leave from Carnegie Mellon University, where she is President’s Professor of Computer Science and twice served as the Head of the Computer Science Department. From 2007-2010 she was the Assistant Director of the Computer and Information Science and Engineering Directorate at the National Science Foundation. She received her B.S and M.S. degrees in Computer Science and Engineering in 1979 and her Ph.D. degree in Computer Science in 1983, all from the Massachusetts Institute of Technology. Her general research interests are in the areas of trustworthy computing, specification and verification, concurrent and distributed systems, programming languages, and software engineering. Her current interests are in the foundations of security and privacy. She was or is on the editorial board of twelve journals, including the Journal of the ACM and Communications of the ACM. <br/><br/><br/><br/>Rohan Naryana Murthy …Biography…"
+            "Abstract": "K. Ananth Krishnan is an M. Tech. in Computer Science and an M.Sc in Physics from the Indian Institute of Technology, Delhi. He also has a Bachelor's degree in Physics from Fergusson College, Pune. He joined TCS in February 1988, straight from campus. Ananth is currently the Chief Technology Officer of TCS and chairs the TCS Corporate Technology Board. He is a member of the TCS Corporate Think-Tank since 1999, and has led several strategic initiatives. He has been a Principal Architect and Lead Consultant in the Architecture and Technology Consulting Practice, and earlier the head of the TCS Systems Management and the Systems Software Group.<br/><br/><br/><br/>Jeannette M. Wing is Corporate Vice President, Microsoft Research. She is on leave from Carnegie Mellon University, where she is President’s Professor of Computer Science and twice served as the Head of the Computer Science Department. From 2007-2010 she was the Assistant Director of the Computer and Information Science and Engineering Directorate at the National Science Foundation. She received her B.S and M.S. degrees in Computer Science and Engineering in 1979 and her Ph.D. degree in Computer Science in 1983, all from the Massachusetts Institute of Technology. Her general research interests are in the areas of trustworthy computing, specification and verification, concurrent and distributed systems, programming languages, and software engineering. Her current interests are in the foundations of security and privacy. She was or is on the editorial board of twelve journals, including the Journal of the ACM and Communications of the ACM. <br/><br/><br/><br/>Vishnu Bhat (@BhatVishnu) heads the Cloud, Mobility and Infrastructure Management Services units and drives the vision of delivering digital transformation and infrastructure management initiatives for clients. Vishnu has been with Infosys for 21 years and earlier led the Cloud and System Integration unit at Infosys. Prior to that, he was Chief Operating Officer (COO) for Infosys Australia. As COO, he integrated an acquired subsidiary, building a strong footprint in the market. He also headed the Global Development Centre in Toronto and delivery operations for Canada. Vishnu represents Infosys as a steering committee member at the Open Data Center Alliance (ODCA) and has joined the ODCA Board of Directors. Vishnu is a widely recognized leader in the industry for his vision and expertise in delivering transformational impact for enterprises through digital technologies such as Cloud, Big Data and Mobility. He has been recognized as one of the 101 Trust Leaders in Cloud and Hosting, 2014 by Total Product Marketing."
         },
         {
             "Id": "iChiT0ohgh",
@@ -8819,7 +9042,7 @@
             "Day": "2014-06-06",
             "Time": "10:00 - 10:30",
             "Location": "",
-            "LocationIndex": "10",
+            "LocationIndex": "14",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -8828,32 +9051,6 @@
             "Comment": "ICSE14",
             "URL": "",
             "Abstract": ""
-        },
-        {
-            "Id": "ahSei2eev0",
-            "Title": "Future of Software Engineering 4",
-            "ShortTitle": "Future of Software Engineering 4",
-            "Type": "FOSE",
-            "ShortType": "FOSE",
-            "Key": "2014-06-06 10:30 Future of Software Engineering 4",
-            "Day": "2014-06-06",
-            "Time": "10:30 - 12:30",
-            "Location": "2.1",
-            "LocationIndex": "20",
-            "ChairsString": "Margaret Burnett",
-            "Chairs": [
-                "Margaret Burnett @"
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FOSE14MAIN",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "fose14main-id6-p",
-                "fose14main-id8-p",
-                "fose14main-id15-p"
-            ]
         },
         {
             "Id": "tah7av4ooT",
@@ -8865,7 +9062,7 @@
             "Day": "2014-06-06",
             "Time": "10:30 - 12:30",
             "Location": "Hall 1",
-            "LocationIndex": "17",
+            "LocationIndex": "8",
             "ChairsString": "Alessandro Orso",
             "Chairs": [
                 "Alessandro Orso @"
@@ -8883,6 +9080,32 @@
             ]
         },
         {
+            "Id": "ahSei2eev0",
+            "Title": "Future of Software Engineering 4",
+            "ShortTitle": "Future of Software Engineering 4",
+            "Type": "FOSE",
+            "ShortType": "FOSE",
+            "Key": "2014-06-06 10:30 Future of Software Engineering 4",
+            "Day": "2014-06-06",
+            "Time": "10:30 - 12:30",
+            "Location": "Hall 2",
+            "LocationIndex": "4",
+            "ChairsString": "Margaret Burnett",
+            "Chairs": [
+                "Margaret Burnett @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FOSE14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "fose14main-id6-p",
+                "fose14main-id8-p",
+                "fose14main-id15-p"
+            ]
+        },
+        {
             "Id": "iefohDaa2e",
             "Title": "Modeling and Interfaces",
             "ShortTitle": "Modeling and Interfaces",
@@ -8892,7 +9115,7 @@
             "Day": "2014-06-06",
             "Time": "10:30 - 12:30",
             "Location": "MR.1.3-4",
-            "LocationIndex": "18",
+            "LocationIndex": "19",
             "ChairsString": "Sven Apel",
             "Chairs": [
                 "Sven Apel @"
@@ -8919,7 +9142,7 @@
             "Day": "2014-06-06",
             "Time": "10:30 - 12:30",
             "Location": "MR.G.1-3",
-            "LocationIndex": "15",
+            "LocationIndex": "27",
             "ChairsString": "Daniel Amyot",
             "Chairs": [
                 "Daniel Amyot @"
@@ -8946,7 +9169,7 @@
             "Day": "2014-06-06",
             "Time": "10:30 - 11:30",
             "Location": "MR.1.5-6",
-            "LocationIndex": "19",
+            "LocationIndex": "15",
             "ChairsString": "T.S. Mohan",
             "Chairs": [
                 "T.S. Mohan @"
@@ -8955,7 +9178,7 @@
             "Workshop": false,
             "Comment": "ICSECOMP14SEIP",
             "URL": "",
-            "Abstract": ""
+            "Abstract": "Industry Panel Discussion<br/><br/>Panelists: Sanjoy Paul, Pranav Tiwari, Prasad Dhanyamraju, and Pradeep Balachandran (Google, HCL, IBM, Accenture)<br/><br/>Moderator: Jim Herbsleb (Carnegie Mellon University)"
         },
         {
             "Id": "oori5Iquae",
@@ -8994,7 +9217,7 @@
             "Day": "2014-06-06",
             "Time": "11:30 - 12:30",
             "Location": "MR.1.5-6",
-            "LocationIndex": "19",
+            "LocationIndex": "15",
             "ChairsString": "T.S. Mohan",
             "Chairs": [
                 "T.S. Mohan @"
@@ -9019,7 +9242,7 @@
             "Day": "2014-06-06",
             "Time": "12:30 - 14:00",
             "Location": "MR.1.2",
-            "LocationIndex": "8",
+            "LocationIndex": "7",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -9039,7 +9262,7 @@
             "Day": "2014-06-06",
             "Time": "12:30 - 14:00",
             "Location": "",
-            "LocationIndex": "10",
+            "LocationIndex": "14",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -9048,32 +9271,6 @@
             "Comment": "ICSE14",
             "URL": "",
             "Abstract": ""
-        },
-        {
-            "Id": "OThari7lie",
-            "Title": "Future of Software Engineering 5",
-            "ShortTitle": "Future of Software Engineering 5",
-            "Type": "FOSE",
-            "ShortType": "FOSE",
-            "Key": "2014-06-06 14:00 Future of Software Engineering 5",
-            "Day": "2014-06-06",
-            "Time": "14:00 - 16:00",
-            "Location": "3.1",
-            "LocationIndex": "21",
-            "ChairsString": "Matthew Dwyer",
-            "Chairs": [
-                "Matthew Dwyer @"
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FOSE14MAIN",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "fose14main-id14-p",
-                "fose14main-id10-p",
-                "fose14main-id16-p"
-            ]
         },
         {
             "Id": "tuo7Io3iep",
@@ -9085,7 +9282,7 @@
             "Day": "2014-06-06",
             "Time": "14:00 - 16:00",
             "Location": "Hall 1",
-            "LocationIndex": "17",
+            "LocationIndex": "8",
             "ChairsString": "Michael Whalen",
             "Chairs": [
                 "Michael Whalen @"
@@ -9103,6 +9300,32 @@
             ]
         },
         {
+            "Id": "OThari7lie",
+            "Title": "Future of Software Engineering 5",
+            "ShortTitle": "Future of Software Engineering 5",
+            "Type": "FOSE",
+            "ShortType": "FOSE",
+            "Key": "2014-06-06 14:00 Future of Software Engineering 5",
+            "Day": "2014-06-06",
+            "Time": "14:00 - 16:00",
+            "Location": "Hall 2",
+            "LocationIndex": "4",
+            "ChairsString": "Matthew Dwyer",
+            "Chairs": [
+                "Matthew Dwyer @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FOSE14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "fose14main-id14-p",
+                "fose14main-id10-p",
+                "fose14main-id16-p"
+            ]
+        },
+        {
             "Id": "ukaiwohV3A",
             "Title": "Refactoring and Reverse Engineering",
             "ShortTitle": "Refactoring and Reverse Engineering",
@@ -9112,7 +9335,7 @@
             "Day": "2014-06-06",
             "Time": "14:00 - 16:00",
             "Location": "MR.1.3-4",
-            "LocationIndex": "18",
+            "LocationIndex": "19",
             "ChairsString": "Miryung Kim",
             "Chairs": [
                 "Miryung Kim @"
@@ -9139,7 +9362,7 @@
             "Day": "2014-06-06",
             "Time": "14:00 - 16:00",
             "Location": "MR.G.1-3",
-            "LocationIndex": "15",
+            "LocationIndex": "27",
             "ChairsString": "Luciano Baresi",
             "Chairs": [
                 "Luciano Baresi @"
@@ -9166,7 +9389,7 @@
             "Day": "2014-06-06",
             "Time": "14:00 - 16:00",
             "Location": "MR.1.5-6",
-            "LocationIndex": "19",
+            "LocationIndex": "15",
             "ChairsString": "Rene Just",
             "Chairs": [
                 "Rene Just @"
@@ -9220,7 +9443,7 @@
             "Day": "2014-06-06",
             "Time": "16:00 - 16:30",
             "Location": "",
-            "LocationIndex": "10",
+            "LocationIndex": "14",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -9271,16 +9494,56 @@
             "Abstract": ""
         },
         {
+            "Id": "eiqueb0OoK",
+            "Title": "SEIF Awards Dinner",
+            "ShortTitle": "SEIF Awards Dinner",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-06-06 18:00 SEIF Awards Dinner",
+            "Day": "2014-06-06",
+            "Time": "18:00 - 21:00",
+            "Location": "MR.2.3-4",
+            "LocationIndex": "5",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "eaT9Wigahd",
-            "Title": "ICSE OC Final get-together",
-            "ShortTitle": "ICSE OC Final get-together",
+            "Title": "ICSE OC Final Get-Together",
+            "ShortTitle": "ICSE OC Final Get-Together",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2014-06-06 19:30 ICSE OC Final get-together",
+            "Key": "2014-06-06 19:30 ICSE OC Final Get-Together",
             "Day": "2014-06-06",
             "Time": "19:30 - 22:00",
-            "Location": "",
-            "LocationIndex": "9",
+            "Location": "Hall 1",
+            "LocationIndex": "8",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ICSE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Toejaenis7",
+            "Title": "The Business Side of Software - Emerging Challenges and Opportunities",
+            "ShortTitle": "The Business Side of Software - Emerging Challenges and Opportunities",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-06-07 09:00 The Business Side of Software - Emerging Challenges and Opportunities",
+            "Day": "2014-06-07",
+            "Time": "09:00 - 17:30",
+            "Location": "MR.1.3-4",
+            "LocationIndex": "19",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -9299,8 +9562,8 @@
             "Key": "2014-06-07 09:00 FSE 2014 PC Meeting Day 1",
             "Day": "2014-06-07",
             "Time": "09:00 - 17:30",
-            "Location": "MR.1.6",
-            "LocationIndex": "11",
+            "Location": "MR.1.5-6",
+            "LocationIndex": "15",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -9311,16 +9574,16 @@
             "Abstract": ""
         },
         {
-            "Id": "Toejaenis7",
-            "Title": "Business Side of Software",
-            "ShortTitle": "Business Side of Software",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2014-06-07 09:00 Business Side of Software",
+            "Id": "Ceayei0thu",
+            "Title": "FSE PC Dinner",
+            "ShortTitle": "FSE PC Dinner",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-06-07 19:00 FSE PC Dinner",
             "Day": "2014-06-07",
-            "Time": "09:00 - 18:00",
-            "Location": "",
-            "LocationIndex": "12",
+            "Time": "19:00 - 22:00",
+            "Location": "Rubaiyat Restaurant",
+            "LocationIndex": "18",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -9339,8 +9602,8 @@
             "Key": "2014-06-08 09:00 FSE 2014 PC Meeting Day 2",
             "Day": "2014-06-08",
             "Time": "09:00 - 17:30",
-            "Location": "MR.1.6",
-            "LocationIndex": "11",
+            "Location": "MR.1.5-6",
+            "LocationIndex": "15",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -9357,6 +9620,17 @@
             "Affiliation": "Lund University, Sweden",
             "Key": "Karl-Erik Årzén @ Lund University, Sweden",
             "Id": "1bb1f7dce4",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Aharon Abadi",
+            "Affiliation": "",
+            "Key": "Aharon Abadi @",
+            "Id": "0564c41a24",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9984,6 +10258,17 @@
             "Affiliation": "University of Waterloo, Canada",
             "Key": "Thorsten Berger @ University of Waterloo, Canada",
             "Id": "4d46db7963",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Arne Berre",
+            "Affiliation": "",
+            "Key": "Arne Berre @",
+            "Id": "feb49ee118",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10948,6 +11233,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Cleidson de Souza",
+            "Affiliation": "",
+            "Key": "Cleidson de Souza @",
+            "Id": "ad661d2376",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Patrick Desrosiers",
             "Affiliation": "CAE, Canada",
             "Key": "Patrick Desrosiers @ CAE, Canada",
@@ -11113,6 +11409,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Yvonne Dittrich",
+            "Affiliation": "",
+            "Key": "Yvonne Dittrich @",
+            "Id": "00c1956a16",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Sidney D'Mello",
             "Affiliation": "University of Notre Dame, USA",
             "Key": "Sidney D'Mello @ University of Notre Dame, USA",
@@ -11201,6 +11508,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Yael Dubinsky",
+            "Affiliation": "",
+            "Key": "Yael Dubinsky @",
+            "Id": "dd0388b4e6",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Evelyn Duesterwald",
             "Affiliation": "IBM Research, USA",
             "Key": "Evelyn Duesterwald @ IBM Research, USA",
@@ -11227,6 +11545,17 @@
             "Affiliation": "University of Nebraska-Lincoln, USA",
             "Key": "Matthew B. Dwyer @ University of Nebraska-Lincoln, USA",
             "Id": "e8edce181c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Robert Dyer",
+            "Affiliation": "",
+            "Key": "Robert Dyer @",
+            "Id": "b0ea8a5f24",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -11477,9 +11806,31 @@
         },
         {
             "Name": "Armando Fox",
+            "Affiliation": "",
+            "Key": "Armando Fox @",
+            "Id": "150ce1cfdd",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Armando Fox",
             "Affiliation": "University of California at Berkeley, USA",
             "Key": "Armando Fox @ University of California at Berkeley, USA",
             "Id": "86f438db7a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xavier Franch",
+            "Affiliation": "",
+            "Key": "Xavier Franch @",
+            "Id": "88084fb68b",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -11557,6 +11908,17 @@
             "Affiliation": "Fraunhofer CESE, USA",
             "Key": "Dharmalingam Ganesan @ Fraunhofer CESE, USA",
             "Id": "36d9e22b06",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rajeshwari Ganesan",
+            "Affiliation": "",
+            "Key": "Rajeshwari Ganesan @",
+            "Id": "1549a3735a",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -12148,6 +12510,17 @@
         },
         {
             "Name": "Ahmed E. Hassan",
+            "Affiliation": "",
+            "Key": "Ahmed E. Hassan @",
+            "Id": "410bd7a878",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ahmed E. Hassan",
             "Affiliation": "Queen's University, Canada",
             "Key": "Ahmed E. Hassan @ Queen's University, Canada",
             "Id": "b8aa3f3ff7",
@@ -12272,6 +12645,17 @@
             "Affiliation": "Carnegie Mellon University, USA",
             "Key": "James Herbsleb @ Carnegie Mellon University, USA",
             "Id": "ca5d363558",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Felienne Hermans",
+            "Affiliation": "",
+            "Key": "Felienne Hermans @",
+            "Id": "59e2de1824",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -12456,6 +12840,17 @@
         },
         {
             "Name": "Shihong Huang",
+            "Affiliation": "",
+            "Key": "Shihong Huang @",
+            "Id": "2fdf451e18",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shihong Huang",
             "Affiliation": "Florida Atlantic University, USA",
             "Key": "Shihong Huang @ Florida Atlantic University, USA",
             "Id": "0ea043f094",
@@ -12602,6 +12997,17 @@
             "Affiliation": "University of Texas at Austin, USA",
             "Key": "John Jacobellis @ University of Texas at Austin, USA",
             "Id": "eff80f67fb",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ivar Jacobson",
+            "Affiliation": "",
+            "Key": "Ivar Jacobson @",
+            "Id": "c9e070a1d9",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -12851,6 +13257,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Mira Kajko-Mattsson",
+            "Affiliation": "",
+            "Key": "Mira Kajko-Mattsson @",
+            "Id": "8ee3bb8d7c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Zbigniew Kalbarczyk",
             "Affiliation": "University of Illinois at Urbana-Champaign, USA",
             "Key": "Zbigniew Kalbarczyk @ University of Illinois at Urbana-Champaign, USA",
@@ -12921,6 +13338,17 @@
             "Affiliation": "University of New Mexico, USA",
             "Key": "Deepak Kapur @ University of New Mexico, USA",
             "Id": "49452569ba",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kamal Karlapalem",
+            "Affiliation": "",
+            "Key": "Kamal Karlapalem @",
+            "Id": "54b55cec4a",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -13115,6 +13543,17 @@
             "URLgs": ""
         },
         {
+            "Name": "John Knight",
+            "Affiliation": "",
+            "Key": "John Knight @",
+            "Id": "c34b794baa",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Dean Knudson",
             "Affiliation": "North Dakota State University, USA",
             "Key": "Dean Knudson @ North Dakota State University, USA",
@@ -13196,6 +13635,17 @@
             "Affiliation": "Imperial College London, UK",
             "Key": "Jeff Kramer @ Imperial College London, UK",
             "Id": "c66b231c77",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "P. Radha Krishna",
+            "Affiliation": "",
+            "Key": "P. Radha Krishna @",
+            "Id": "c9914a8705",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -13874,17 +14324,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Shing-Chi Cheung, Leonardo Mariani",
-            "Affiliation": "",
-            "Key": "Shing-Chi Cheung, Leonardo Mariani @",
-            "Id": "afb015a82e",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Joao Marques-Silva",
             "Affiliation": "University College Dublin, Ireland / INESC-ID, Portugal",
             "Key": "Joao Marques-Silva @ University College Dublin, Ireland / INESC-ID, Portugal",
@@ -14164,6 +14603,17 @@
             "Affiliation": "EPFL, Switzerland",
             "Key": "Heather Miller @ EPFL, Switzerland",
             "Id": "471ac5f704",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Leandro L. Minku",
+            "Affiliation": "",
+            "Key": "Leandro L. Minku @",
+            "Id": "221cc3f4bb",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -14468,6 +14918,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Meiyappan Nagappan",
+            "Affiliation": "",
+            "Key": "Meiyappan Nagappan @",
+            "Id": "f723a29bd4",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Nachiappan Nagappan",
             "Affiliation": "Microsoft, USA",
             "Key": "Nachiappan Nagappan @ Microsoft, USA",
@@ -14483,6 +14944,17 @@
             "Affiliation": "Microsoft Research, USA",
             "Key": "Nachiappan Nagappan @ Microsoft Research, USA",
             "Id": "da10cfd150",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Seema Nagar",
+            "Affiliation": "",
+            "Key": "Seema Nagar @",
+            "Id": "deae579d40",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -14516,6 +14988,28 @@
             "Affiliation": "NAIST, Japan",
             "Key": "Takao Nakagawa @ NAIST, Japan",
             "Id": "ed220bb1ce",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Amit A. Nanavati",
+            "Affiliation": "",
+            "Key": "Amit A. Nanavati @",
+            "Id": "e7b7e5a509",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ramsuri Narayanam",
+            "Affiliation": "",
+            "Key": "Ramsuri Narayanam @",
+            "Id": "365880c295",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -14578,6 +15072,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Panwei Ng",
+            "Affiliation": "",
+            "Key": "Panwei Ng @",
+            "Id": "d791ac23d2",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Anh Tuan Nguyen",
             "Affiliation": "Iowa State University, USA",
             "Key": "Anh Tuan Nguyen @ Iowa State University, USA",
@@ -14593,6 +15098,17 @@
             "Affiliation": "University of Luxembourg, Luxembourg",
             "Key": "Cu Duy Nguyen @ University of Luxembourg, Luxembourg",
             "Id": "d0b9d27558",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Haam Nguyen",
+            "Affiliation": "",
+            "Key": "Haam Nguyen @",
+            "Id": "948897998c",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -14626,6 +15142,17 @@
             "Affiliation": "University of New Mexico, USA",
             "Key": "ThanhVu Nguyen @ University of New Mexico, USA",
             "Id": "5d041c7eaa",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tien Nguyen",
+            "Affiliation": "",
+            "Key": "Tien Nguyen @",
+            "Id": "c5abcb7574",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -14699,10 +15226,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Aditya V. Nori",
-            "Affiliation": "Microsoft Research, India",
-            "Key": "Aditya V. Nori @ Microsoft Research, India",
-            "Id": "64c8d6e309",
+            "Name": "Aditya Nori",
+            "Affiliation": "",
+            "Key": "Aditya Nori @",
+            "Id": "80791e346e",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -14710,10 +15237,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Romain Robbes, Aditya Nori",
-            "Affiliation": "",
-            "Key": "Romain Robbes, Aditya Nori @",
-            "Id": "b6670323b9",
+            "Name": "Aditya V. Nori",
+            "Affiliation": "Microsoft Research, India",
+            "Key": "Aditya V. Nori @ Microsoft Research, India",
+            "Id": "64c8d6e309",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -15183,6 +15710,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Adam A. Porter",
+            "Affiliation": "",
+            "Key": "Adam A. Porter @",
+            "Id": "975f550d7d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Denys Poshyvanyk",
             "Affiliation": "College of William and Mary, USA",
             "Key": "Denys Poshyvanyk @ College of William and Mary, USA",
@@ -15271,10 +15809,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Franco Raimondi",
+            "Affiliation": "",
+            "Key": "Franco Raimondi @",
+            "Id": "0da9ad516b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Sriram K. Rajamani",
             "Affiliation": "Microsoft Research, India",
             "Key": "Sriram K. Rajamani @ Microsoft Research, India",
             "Id": "dbc6f93559",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hridesh Rajan",
+            "Affiliation": "",
+            "Key": "Hridesh Rajan @",
+            "Id": "938bb8b3df",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -15481,6 +16041,17 @@
         },
         {
             "Name": "Romain Robbes",
+            "Affiliation": "",
+            "Key": "Romain Robbes @",
+            "Id": "f6758a0733",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Romain Robbes",
             "Affiliation": "University of Chile, Chile",
             "Key": "Romain Robbes @ University of Chile, Chile",
             "Id": "5e68ba6262",
@@ -15638,6 +16209,17 @@
             "Affiliation": "",
             "Key": "Per Runeson @",
             "Id": "6da1eddaf7",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Neha Rungta",
+            "Affiliation": "",
+            "Key": "Neha Rungta @",
+            "Id": "de12a71f17",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -15810,6 +16392,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Ganesh Samarthyam",
+            "Affiliation": "",
+            "Key": "Ganesh Samarthyam @",
+            "Id": "ed6a4d9031",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Raghvinder S. Sangwan",
             "Affiliation": "SEI, USA / Pennsylvania State University, USA",
             "Key": "Raghvinder S. Sangwan @ SEI, USA / Pennsylvania State University, USA",
@@ -15836,6 +16429,17 @@
             "Affiliation": "COPPE, Brazil / Federal University of Rio de Janeiro, Brazil",
             "Key": "Rodrigo Pereira dos Santos @ COPPE, Brazil / Federal University of Rio de Janeiro, Brazil",
             "Id": "404ad55e23",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Santonu Sarkar",
+            "Affiliation": "",
+            "Key": "Santonu Sarkar @",
+            "Id": "612e11d667",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -16111,6 +16715,28 @@
             "Affiliation": "National University of Singapore, Singapore",
             "Key": "Asankhaya Sharma @ National University of Singapore, Singapore",
             "Id": "5c3e403b39",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tushar Sharma",
+            "Affiliation": "",
+            "Key": "Tushar Sharma @",
+            "Id": "7941c31bc5",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Helen Sharp",
+            "Affiliation": "",
+            "Key": "Helen Sharp @",
+            "Id": "67b97e8058",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -16646,6 +17272,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Girish Suryanaraya",
+            "Affiliation": "",
+            "Key": "Girish Suryanaraya @",
+            "Id": "151e94d3e2",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Angelo Susi",
             "Affiliation": "Fondazione Bruno Kessler, Italy",
             "Key": "Angelo Susi @ Fondazione Bruno Kessler, Italy",
@@ -16903,6 +17540,17 @@
             "Affiliation": "Indian Institute of Science, India",
             "Key": "Varun Tulsian @ Indian Institute of Science, India",
             "Id": "5ef88ff932",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Burak Turhan",
+            "Affiliation": "",
+            "Key": "Burak Turhan @",
+            "Id": "d8e03d0a1c",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -17288,6 +17936,17 @@
             "Affiliation": "Lancaster University, UK",
             "Key": "Jon Whittle @ Lancaster University, UK",
             "Id": "28860fbef9",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Roel Wieringa",
+            "Affiliation": "",
+            "Key": "Roel Wieringa @",
+            "Id": "1b3b0f8f74",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -17915,6 +18574,17 @@
             "Affiliation": "Wuhan University, China / Nanjing University of Posts and Telecommunications, China",
             "Key": "Yang-Ping Zhu @ Wuhan University, China / Nanjing University of Posts and Telecommunications, China",
             "Id": "f37baa94a3",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Thomas Zimmermann",
+            "Affiliation": "",
+            "Key": "Thomas Zimmermann @",
+            "Id": "717738373e",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
