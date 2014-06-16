@@ -3,6 +3,17 @@
     
 "Events": [
     {
+        "Id" : "RE2014",
+        "Name" : "RE 2014",
+        "Version" : 1,
+        "File" : "2014RE.json",
+        "StartDate" : "2014-08-25",
+        "EndDate" : "2014-08-29",
+        "Description" : "International Requirements Engineering Conference",
+		"Icon" : "2014RE.png",
+		"Image" : "2014RE.png"
+	},
+    {
         "Id" : "ICPC2014",
         "Name" : "ICPC 2014",
         "Version" : 1,
