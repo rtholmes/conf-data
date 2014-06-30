@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1404152746,
+    "DataRevision": 1404156813,
     "Preliminary": false,
     "Event": "RE 2014",
     "Name": "RE 2014",
@@ -739,6 +739,27 @@
             "Award": ""
         },
         {
+            "Title": "The Effect of Variability Modeling on Requirements Satisfaction for the Configuration and Implementation of Off-the-Shelf Software Packages",
+            "Type": "Industry Paper",
+            "Key": "re14ind-indp015-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNeil+Maiden+and+Amanda+Rubython+%22The+Effect+of+Variability+Modeling+on+Requirements+Satisfaction+for+the+Configuration+and+Implementation+of+Off-the-Shelf+Software+Packages%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Neil Maiden and Amanda Rubython",
+            "AffiliationsString": "City University London, UK; Kineo, UK",
+            "Authors": [
+                "Neil Maiden @ City University London, UK",
+                "Amanda Rubython @ Kineo, UK"
+            ],
+            "Affiliations": [
+                "City University London, UK",
+                "Kineo, UK"
+            ],
+            "Abstract": "An industrial experience of the use of a method for discovering customer requirements with which to configure an off-the-shelf software package for implementation is reported. The method uses an adapted form of product variability model to provide common ground between the customer and supplier about requirements and capabilities. An associated decision support software tool guides the supplier and customer through a model-based walkthrough to discover new requirements, based on equivalent capabilities described in the product variability model. We applied the method in the work processes of the commercial provider of a software-based learning management system, and collected quantitative and qualitative data from supplier-customer interactions. Our first experienc-es with the method led to an increased exposure and expression of customer requirements in the customer-supplier dialogue, compared to the baseline dialogue during software package demonstrations. The paper also reports some first lessons learned to improve the method and adopt its use with other software supplier organizations.",
+            "Award": ""
+        },
+        {
             "Title": "Language Extended Lexicon Points: Estimating the Size of an Application using Its Language",
             "Type": "Full Paper",
             "Key": "re14main-mainp019-p",
@@ -1407,27 +1428,6 @@
             "Award": ""
         },
         {
-            "Title": "The Effect of Variability Modeling on Requirements Satisfaction for the Configuration and Implementation of Off-the-Shelf Software Packages",
-            "Type": "Industry Paper",
-            "Key": "re14ind-indp015-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNeil+Maiden+and+Amanda+Rubython+%22The+Effect+of+Variability+Modeling+on+Requirements+Satisfaction+for+the+Configuration+and+Implementation+of+Off-the-Shelf+Software+Packages%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "DOI": "",
-            "PersonsString": "Neil Maiden and Amanda Rubython",
-            "AffiliationsString": "City University London, UK; Kineo, UK",
-            "Authors": [
-                "Neil Maiden @ City University London, UK",
-                "Amanda Rubython @ Kineo, UK"
-            ],
-            "Affiliations": [
-                "City University London, UK",
-                "Kineo, UK"
-            ],
-            "Abstract": "An industrial experience of the use of a method for discovering customer requirements with which to configure an off-the-shelf software package for implementation is reported. The method uses an adapted form of product variability model to provide common ground between the customer and supplier about requirements and capabilities. An associated decision support software tool guides the supplier and customer through a model-based walkthrough to discover new requirements, based on equivalent capabilities described in the product variability model. We applied the method in the work processes of the commercial provider of a software-based learning management system, and collected quantitative and qualitative data from supplier-customer interactions. Our first experienc-es with the method led to an increased exposure and expression of customer requirements in the customer-supplier dialogue, compared to the baseline dialogue during software package demonstrations. The paper also reports some first lessons learned to improve the method and adopt its use with other software supplier organizations.",
-            "Award": ""
-        },
-        {
             "Title": "From Architecture to Requirements: Relating Requirements and Architecture for Better Requirements Engineering",
             "Type": "Doctoral Symposium",
             "Key": "re14doc-docid4-p",
@@ -1650,7 +1650,7 @@
             "Day": "1970-01-01",
             "Time": "00:00 - 01:00",
             "Location": "",
-            "LocationIndex": "4",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1719,13 +1719,13 @@
             "Id": "Uw1eito0qu",
             "Title": "Startups and Requirements (Keynote)",
             "ShortTitle": "Startups and Requirements (Keynote)",
-            "Type": "Plenary",
-            "ShortType": "Plenary",
+            "Type": "Keynotes",
+            "ShortType": "Keynotes",
             "Key": "2014-08-27 09:00 Startups and Requirements (Keynote)",
             "Day": "2014-08-27",
             "Time": "09:00 - 10:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1798,7 +1798,7 @@
             "Day": "2014-08-27",
             "Time": "10:30 - 12:00",
             "Location": "",
-            "LocationIndex": "2",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1873,7 +1873,7 @@
             "Day": "2014-08-27",
             "Time": "13:30 - 15:00",
             "Location": "",
-            "LocationIndex": "2",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1898,7 +1898,7 @@
             "Day": "2014-08-27",
             "Time": "15:30 - 17:00",
             "Location": "",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1943,7 +1943,7 @@
             "Day": "2014-08-27",
             "Time": "15:30 - 17:00",
             "Location": "",
-            "LocationIndex": "2",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1962,13 +1962,13 @@
             "Id": "chaeye8Mie",
             "Title": "Now More Than Ever: Privacy and Security Are Required (Keynote)",
             "ShortTitle": "Now More Than Ever: Privacy and Security Are Required (Keynote)",
-            "Type": "Plenary",
-            "ShortType": "Plenary",
+            "Type": "Keynotes",
+            "ShortType": "Keynotes",
             "Key": "2014-08-28 08:45 Now More Than Ever: Privacy and Security Are Required (Keynote)",
             "Day": "2014-08-28",
             "Time": "08:45 - 10:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1991,7 +1991,7 @@
             "Day": "2014-08-28",
             "Time": "10:30 - 12:00",
             "Location": "",
-            "LocationIndex": "2",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2061,7 +2061,7 @@
             "Day": "2014-08-28",
             "Time": "13:30 - 15:00",
             "Location": "",
-            "LocationIndex": "2",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2106,7 +2106,7 @@
             "Day": "2014-08-28",
             "Time": "13:30 - 15:00",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2129,7 +2129,7 @@
             "Day": "2014-08-28",
             "Time": "15:30 - 17:00",
             "Location": "",
-            "LocationIndex": "2",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2160,7 +2160,8 @@
             "Abstract": "",
             "Items": [
                 "re14main-mainp110-p",
-                "re14main-mainp039-p"
+                "re14main-mainp039-p",
+                "re14ind-indp015-p"
             ]
         },
         {
@@ -2200,13 +2201,13 @@
             "Id": "iup1einoXo",
             "Title": "TBA (Keynote Anthony Finkelstein)",
             "ShortTitle": "TBA (Keynote Anthony Finkelstein)",
-            "Type": "Plenary",
-            "ShortType": "Plenary",
+            "Type": "Keynotes",
+            "ShortType": "Keynotes",
             "Key": "2014-08-29 08:45 TBA (Keynote Anthony Finkelstein)",
             "Day": "2014-08-29",
             "Time": "08:45 - 10:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2226,7 +2227,7 @@
             "Day": "2014-08-29",
             "Time": "10:30 - 12:00",
             "Location": "",
-            "LocationIndex": "3",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2271,7 +2272,7 @@
             "Day": "2014-08-29",
             "Time": "10:30 - 12:00",
             "Location": "",
-            "LocationIndex": "2",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2283,8 +2284,7 @@
             "Items": [
                 "re14ind-indp018-p",
                 "re14ind-indp032-p",
-                "re14ind-indp028-p",
-                "re14ind-indp015-p"
+                "re14ind-indp028-p"
             ]
         },
         {
@@ -2297,7 +2297,7 @@
             "Day": "2014-08-29",
             "Time": "13:30 - 14:30",
             "Location": "",
-            "LocationIndex": "2",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2317,7 +2317,7 @@
             "Day": "2014-08-29",
             "Time": "13:30 - 14:30",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
