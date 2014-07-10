@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1402811595,
+    "DataRevision": 1404977335,
     "Preliminary": false,
     "Event": "RE 2014",
     "Name": "RE 2014",
@@ -10,10 +10,10 @@
     "MultiTrack": "false",
     "Organization": {
         "General Chairs": [
-                "Tony Gorschek"
+                "Tony Gorschek (General Chair)"
         ],
         "PC Chairs": [
-                "Robyn Lutz"
+                "Robyn Lutz (PC Chair)"
         ]
     },
     "SocialFeeds": [
@@ -56,6 +56,63 @@
     ],
     "Items": [
         {
+            "Title": "Startups and Requirements (Keynote)",
+            "Type": "Keynote Abstract",
+            "Key": "re14key-key01-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAnthony+I.+Wasserman+%22Startups+and+Requirements+%28Keynote%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Anthony I. Wasserman",
+            "AffiliationsString": "Carnegie Mellon University, USA",
+            "Authors": [
+                "Anthony I. Wasserman @ Carnegie Mellon University, USA"
+            ],
+            "Affiliations": [
+                "Carnegie Mellon University, USA"
+            ],
+            "Abstract": "Tech startups typically approach requirements gathering differently from the process that is used to develop requirements in existing businesses and for existing products. Many of these startups operate in &quot;stealth mode&quot;, taking care to minimize the number of people with whom they share their innovative ideas. It&#039;s common for these startups to create a succession of early releases, and apply user feedback from those releases to evolve the features and functions of their products.  This talk describes various approaches used by tech startups to define product requirements, and contrasts those approaches with those used in more traditional requirements engineering activities.",
+            "Award": ""
+        },
+        {
+            "Title": "Now More Than Ever: Privacy and Security Are Required (Keynote)",
+            "Type": "Keynote Abstract",
+            "Key": "re14key-key02-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAnnie+I.+Ant%C3%B3n+%22Now+More+Than+Ever%3A+Privacy+and+Security+Are+Required+%28Keynote%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Annie I. Antón",
+            "AffiliationsString": "Georgia Tech, USA",
+            "Authors": [
+                "Annie I. Antón @ Georgia Tech, USA"
+            ],
+            "Affiliations": [
+                "Georgia Tech, USA"
+            ],
+            "Abstract": "Properly protecting information is in all our best interests, but it is a complex undertaking. The fact that regulation is often written by non-technologists, introduces additional challenges and obstacles. Moreover, those who design systems that collect, store, and maintain sensitive information have an obligation to design systems holistically within this broader context of regulatory and legal compliance. There are questions that should be asked when developing new requirements for information systems. For example, how do we build systems to handle data that must be kept secure and private when relevant regulations tie your hands? When building a system that maintains health or financial records for a large number of people, what do we need to do to protect the information against theft and abuse, keep the information private, AND at the same time, satisfy all governing privacy/security laws and restrictions? Moreover, how do we know that we&#039;ve satisfied those laws? How do we monitor for compliance while ensuring that we&#039;re monitoring the right things? And, how do you accomplish all this in a way that can be expressed clearly to end-users and legislators (or auditors) so they can be confident you are doing the right things? We&#039;ve been working on technologies to make these tasks simpler, and in some senses, automatic. In this talk, I will describe some of the research that we have been conducting to address these problems.",
+            "Award": ""
+        },
+        {
+            "Title": "Rethinking Software: Business Change and the Consequences for Software Engineering (Keynote)",
+            "Type": "Keynote Abstract",
+            "Key": "re14key-key03-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAnthony+Finkelstein+%22Rethinking+Software%3A+Business+Change+and+the+Consequences+for+Software+Engineering+%28Keynote%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Anthony Finkelstein",
+            "AffiliationsString": "University College London, UK",
+            "Authors": [
+                "Anthony Finkelstein @ University College London, UK"
+            ],
+            "Affiliations": [
+                "University College London, UK"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
             "Title": "How Practitioners Approach Gameplay Requirements? An Exploration into the Context of Massive Multiplayer Online Role-Playing Games",
             "Type": "Full Paper",
             "Key": "re14main-mainp126-p",
@@ -71,7 +128,7 @@
             "Affiliations": [
                 "University of Twente, Netherlands"
             ],
-            "Abstract": "Gameplay requirements are central to game development. In the business context of massive multiplayer online role-playing games (MMOGs) where game companies’ revenues rely on players&#039; monthly subscriptions, gameplay is also recognized as the key to player retention. However, information on what gameplay requirements are and how practitioners &#039;engineer&#039; them in real life is scarce. This exploratory study investigates how practitioners developing MMOGs reason about gameplay requirements and handle them in their projects. 12 practitioners from three leading MMOGs-producing companies were interviewed and their gameplay requirements documents were reviewed. The study’s most important findings are that in MMOG projects: (1) gameplay requirements are co-created with players, (2) are perceived and treated by practitioners as sets of choices and consequences, (3) gameplay is endless within a MMOG, and while gameplay requirements do not support any game-end goal, they do support a level-end goal, (4) &#039;paper-prototyping&#039; and play-testing are pivotal to gameplay validation, (5) balancing the elements of the gameplay is an on-going task, perceived as the most difficult and labor-consuming, (6) gameplay happens both in-game and out-of-the game. We conclude with discussion on implication for research and practice and on validity threats to our results.",
+            "Abstract": "Gameplay requirements are central to game development. In the business context of massive multiplayer online role-playing games (MMOGs) where game companies’ revenues rely on players&#039; monthly subscriptions, gameplay is also recognized as the key to player retention. However, information on what gameplay requirements are and how practitioners &#039;engineer&#039; them in real life is scarce. This exploratory study investigates how practitioners developing MMOGs reason about gameplay requirements and handle them in their projects. 12 practitioners from three leading MMOGs-producing companies were interviewed and their gameplay requirements documents were reviewed. The study’s most important findings are that in MMOG projects: (1) gameplay requirements are co-created with players, (2) are perceived and treated by practitioners as sets of choices and consequences, (3) gameplay is endless within a MMOG, and while gameplay requirements do not support any game-end goal, they do support a level-end goal, (4) &#039;paper-prototyping&#039; and play-testing are pivotal to gameplay validation, (5) balancing the elements of the gameplay is an on-going task, perceived as the most difficult and labor-consuming, (6) gameplay happens both in-game and out-of-the game. We conclude with discussion on validity threats to our results and on implications for research and practice.",
             "Award": ""
         },
         {
@@ -113,7 +170,7 @@
                 "Rochester Institute of Technology, USA",
                 "Rochester Institute of Technology, USA"
             ],
-            "Abstract": "Requirements elicitation can be a challenging process in many systems. This challenge can be greater with a non-standard user population, such as visually impaired users. In this work, we report our experience and results of eliciting user requirements for a situation awareness indoor orientation system dedicated to the visually impaired. We elicited our initial system requirements through three different studies that focus on users along with orientation and mobility instructors. Also, we performed a knowledge elicitation through our studies to formulate our system’s situation awareness requirements. Keywords—Visual impairment, requirements elicitation, situation awareness requirements, assistive technology, and qualitative analysis.",
+            "Abstract": "Requirements elicitation can be a challenging process in many systems. This challenge can be greater with a non-standard user population, such as visually impaired users. In this work, we report our experience and results of eliciting user requirements for a situation awareness indoor orientation system dedicated to the visually impaired. We elicited our initial system requirements through three different studies that focus on users along with orientation and mobility instructors. Also, we performed a knowledge elicitation through our studies to formulate our system’s situation awareness requirements.",
             "Award": ""
         },
         {
@@ -138,14 +195,14 @@
                 "University of Toronto, Canada",
                 "University of Toronto, Canada"
             ],
-            "Abstract": "The Requirements Engineering (RE) process involves eliciting, understanding, and capturing system requirements, which naturally involves much uncertainty. During RE, analysts choose among alternative requirements, gradually narrowing down the system scope, and it is unlikely that all requirements uncertainties can be resolved before such decisions are made. There is a need for methods to support early requirements decision-making in the presence of uncertainty. We address this need by describing a novel technique for early decision-making and tradeoff analysis using goal models with uncertainty. The technique analyzes goal satisfaction over sets of models that can result from resolving uncertainty. Users make choices over possible analysis results, allowing our tool to find critical uncertainty reductions which must be resolved. An iterative methodology guides the resolution of uncertainties necessary to achieve desired levels of goal satisfaction, supporting trade-off analysis in the presence of uncertainty.",
+            "Abstract": "Requirements Engineering (RE) involves eliciting, understanding, and capturing system requirements, which naturally involves much uncertainty. During RE, analysts choose among alternative requirements, gradually narrowing down the system scope, and it is unlikely that all requirements uncertainties can be resolved before such decisions are made. There is a need for methods to support early requirements decision-making in the presence of uncertainty. We address this need by describing a novel technique for early decision-making and tradeoff analysis using goal models with uncertainty. The technique analyzes goal satisfaction over sets of models that can result from resolving uncertainty. Users make choices over possible analysis results, allowing our tool to find critical uncertainty reductions which must be resolved. An iterative methodology guides the resolution of uncertainties necessary to achieve desired levels of goal satisfaction, supporting trade-off analysis in the presence of uncertainty.",
             "Award": ""
         },
         {
-            "Title": "Integrating Exceptions in Goal Models",
+            "Title": "Integrating Exception Handling in Goal Models",
             "Type": "Full Paper",
             "Key": "re14main-mainp076-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAntoine+Cailliau+and+Axel+van+Lamsweerde+%22Integrating+Exceptions+in+Goal+Models%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAntoine+Cailliau+and+Axel+van+Lamsweerde+%22Integrating+Exception+Handling+in+Goal+Models%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
@@ -159,26 +216,26 @@
                 "Université Catholique de Louvain, Belgium",
                 "Université Catholique de Louvain, Belgium"
             ],
-            "Abstract": "Missing requirements are known to be among the major sources of software failure. Incompleteness often results from poor anticipation of what could go wrong with an over-ideal system. Obstacle analysis is a model-based, goal-anchored form of risk analysis aimed at identifying, assessing and resolving exceptional conditions that may obstruct the behavioral goals of the target system. The obstacle resolution step is obviously crucial as it should result in more adequate and more complete requirements. In contrast with obstacle identification and assessment, however, this step has little support beyond a palette of resolution operators encoding tactics for producing isolated countermeasures to single risks. In particular, there is no single clue to date as to where and how such countermeasures should be integrated within a more robust goal model. To address this problem, the paper describes a systematic technique for integrating obstacle resolutions as countermeasure goals into goal models. The technique is shown to guarantee progress towards a complete goal model; it preserves the correctness of refinements in the overall model; and keeps the original, ideal model visible to avoid cluttering the latter with a combinatorial explosion of exceptional cases. To allow for this, the goal specification language is slightly extended in order to capture exceptions to goals seperately and distinguish normal situations from exceptional ones. The proposed technique is evaluated on a non-trivial ambulance dispatching system.",
+            "Abstract": "Missing requirements are known to be among the major sources of software failure. Incompleteness often results from poor anticipation of what could go wrong with an over-ideal system. Obstacle analysis is a model-based, goal-anchored form of risk analysis aimed at identifying, assessing and resolving exceptional conditions that may obstruct the behavioral goals of the target system. The obstacle resolution step is obviously crucial as it should result in more adequate and more complete requirements. In contrast with obstacle identification and assessment, however, this step has little support beyond a palette of resolution operators encoding tactics for producing isolated countermeasures to single risks. In particular, there is no single clue to date as to where and how such countermeasures should be integrated within a more robust goal model.  To address this problem, the paper describes a systematic technique for integrating obstacle resolutions as countermeasure goals into goal models. The technique is shown to guarantee progress towards a complete goal model; it preserves the correctness of refinements in the overall model; and keeps the original, ideal model visible to avoid cluttering the latter with a combinatorial blow-up of exceptional cases. To allow for this, the goal specification language is slightly extended in order to capture exceptions to goals seperately and distinguish normal situations from exceptional ones. The proposed technique is evaluated on a non-trivial ambulance dispatching system.",
             "Award": ""
         },
         {
             "Title": "Protos: Foundations for Engineering Innovative Sociotechnical Systems",
             "Type": "Full Paper",
             "Key": "re14main-mainp093-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAmit+Chopra%2C+Fabiano+Dalpiaz%2C+Fatma+Ba%C5%9Fak+Aydemir%2C+Paolo+Giorgini%2C+John+Mylopoulos%2C+and+Munindar+Singh+%22Protos%3A+Foundations+for+Engineering+Innovative+Sociotechnical+Systems%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAmit+K.+Chopra%2C+Fabiano+Dalpiaz%2C+F.+Ba%C5%9Fak+Aydemir%2C+Paolo+Giorgini%2C+John+Mylopoulos%2C+and+Munindar+P.+Singh+%22Protos%3A+Foundations+for+Engineering+Innovative+Sociotechnical+Systems%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Amit Chopra, Fabiano Dalpiaz, Fatma Başak Aydemir, Paolo Giorgini, John Mylopoulos, and Munindar Singh",
+            "PersonsString": "Amit K. Chopra, Fabiano Dalpiaz, F. Başak Aydemir, Paolo Giorgini, John Mylopoulos, and Munindar P. Singh",
             "AffiliationsString": "Lancaster University, UK; Utrecht University, Netherlands; University of Trento, Italy; North Carolina State University, USA",
             "Authors": [
-                "Amit Chopra @ Lancaster University, UK",
+                "Amit K. Chopra @ Lancaster University, UK",
                 "Fabiano Dalpiaz @ Utrecht University, Netherlands",
-                "Fatma Başak Aydemir @ University of Trento, Italy",
+                "F. Başak Aydemir @ University of Trento, Italy",
                 "Paolo Giorgini @ University of Trento, Italy",
                 "John Mylopoulos @ University of Trento, Italy",
-                "Munindar Singh @ North Carolina State University, USA"
+                "Munindar P. Singh @ North Carolina State University, USA"
             ],
             "Affiliations": [
                 "Lancaster University, UK",
@@ -188,7 +245,7 @@
                 "University of Trento, Italy",
                 "North Carolina State University, USA"
             ],
-            "Abstract": "Requirements engineering approaches are concerned with eliciting, modeling, and reasoning about the requirements of multiple stakeholders so that a suitable specification of a software system may be produced. We motivate an expanded scope of requirements engineering that is better aligned with sociotechnical systems in which humans and organizations interact with one another, supported by technical artifacts such as software systems. Accordingly, we present a new conception and formal foundation for requirements engineering geared to developing specifications for sociotechnical systems. We demonstrate the application of its design reductions in modeling the London Ambulance System described in the literature.",
+            "Abstract": "We address the challenge of requirements engineering for sociotechnical systems, wherein humans and organizations supported by technical artifacts such as software interact with one another. Traditional requirements models emphasize the goals of the stakeholders above their interactions. However, the participants in a sociotechnical system may not adopt the goals of the stakeholders involved in its specification. We motivate, Protos, a requirements engineering approach that gives prominence to the interactions of autonomous parties and specifies a sociotechnical system in terms of its participants&#039; social relationships, specifically, commitments. The participants can adopt any goal they like, a key basis for innovative behavior, as long as they interact according to the commitments. Protos describes an abstract requirements engineering process as a series of refinements that seek to satisfy stakeholder requirements by incrementally expanding a specification set and an assumption set, and reducing requirements until all requirements are accommodated. We demonstrate this process via the London Ambulance System described in the literature.",
             "Award": ""
         },
         {
@@ -211,30 +268,30 @@
                 "University of Luxembourg, Luxembourg",
                 "University of Luxembourg, Luxembourg"
             ],
-            "Abstract": "When identifying and elaborating compliance requirements, analysts often need to follow the cross references in the underlying legal texts and consider the additional information in the cited provisions. To enable easier navigation and handling of cross references, automation is necessary for recognizing the natural language patterns used in cross reference expressions (cross reference detection), and for interpreting these expressions and linking them to the target provisions (cross reference resolution). Numerous approaches have been developed over the years to automate the detection and resolution of cross references in legal texts; however, certain facets, e.g., the natural language patterns used in cross references, remain under-explored. Salient gaps further remain towards a systematic understanding of the cross reference resolution process. In this paper, we propose a flexible solution for automated detection and resolution of cross references in legal texts, aimed at addressing the observed gaps. We ground our work on Luxembourg&#039;s legislative texts, both for studying the natural language patterns in cross reference expressions and for evaluating the effectiveness of our solution. Keywords: Legal Compliance, Cross References, Natural Language Processing",
+            "Abstract": "When elaborating compliance requirements, analysts need to follow the cross references in the underlying legal texts and consider the additional information in the cited provisions. To enable easier navigation and handling of cross references, automation is necessary for recognizing the natural language patterns used in cross reference expressions (cross reference detection), and for interpreting these expressions and linking them to the target provisions (cross reference resolution). In this paper, we propose a solution for automated detection and resolution of legal cross references. We ground our work on Luxembourg&#039;s legislative texts, both for studying the natural language patterns in cross reference expressions and for evaluating the accuracy and scalability of our solution.",
             "Award": ""
         },
         {
             "Title": "Goal-Oriented Compliance with Multiple Regulations",
             "Type": "Full Paper",
             "Key": "re14main-mainp098-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSepideh+Ghanavati%2C+Daniel+Amyot%2C+Andr%C3%A9+Rifaut%2C+and+Eric+Dubois+%22Goal-Oriented+Compliance+with+Multiple+Regulations%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSepideh+Ghanavati%2C+Andr%C3%A9+Rifaut%2C+Eric+Dubois%2C+and+Daniel+Amyot+%22Goal-Oriented+Compliance+with+Multiple+Regulations%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Sepideh Ghanavati, Daniel Amyot, André Rifaut, and Eric Dubois",
+            "PersonsString": "Sepideh Ghanavati, André Rifaut, Eric Dubois, and Daniel Amyot",
             "AffiliationsString": "CRP Henri Tudor, Luxembourg; University of Ottawa, Canada",
             "Authors": [
                 "Sepideh Ghanavati @ CRP Henri Tudor, Luxembourg",
-                "Daniel Amyot @ University of Ottawa, Canada",
                 "André Rifaut @ CRP Henri Tudor, Luxembourg",
-                "Eric Dubois @ CRP Henri Tudor, Luxembourg"
+                "Eric Dubois @ CRP Henri Tudor, Luxembourg",
+                "Daniel Amyot @ University of Ottawa, Canada"
             ],
             "Affiliations": [
                 "CRP Henri Tudor, Luxembourg",
-                "University of Ottawa, Canada",
                 "CRP Henri Tudor, Luxembourg",
-                "CRP Henri Tudor, Luxembourg"
+                "CRP Henri Tudor, Luxembourg",
+                "University of Ottawa, Canada"
             ],
             "Abstract": "Most systems and business processes in organizations need to comply with more than one law or regulation. Different regulations can partially overlap (e.g., one can be more detailed than the other) or even conflict with each other. In addition, one regulation can permit an action whereas the same action in another regulation might be mandatory or forbidden. In each of these cases, an organization needs to take different strategies. This paper presents an approach to handle different situations when comparing and attempting to comply with multiple regulations as part of a goal-oriented modeling framework named LEGAL-URN. This framework helps organizations find suitable trade-offs and priorities when complying with multiple regulations while at the same time trying to meet their own business objectives. The approach is illustrated with a case study involving a Canadian health care organization that must comply with four laws related to privacy, quality of care, freedom of information, and care consent.",
             "Award": ""
@@ -243,17 +300,17 @@
             "Title": "Identifying and Classifying Ambiguity for Regulatory Requirements",
             "Type": "Full Paper",
             "Key": "re14main-mainp071-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAaron+K.+Massey%2C+Richard+Rutledge%2C+Annie+I.+Ant%C3%B3n%2C+and+Peter+Swire+%22Identifying+and+Classifying+Ambiguity+for+Regulatory+Requirements%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAaron+K.+Massey%2C+Richard+L.+Rutledge%2C+Annie+I.+Ant%C3%B3n%2C+and+Peter+P.+Swire+%22Identifying+and+Classifying+Ambiguity+for+Regulatory+Requirements%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Aaron K. Massey, Richard Rutledge, Annie I. Antón, and Peter Swire",
+            "PersonsString": "Aaron K. Massey, Richard L. Rutledge, Annie I. Antón, and Peter P. Swire",
             "AffiliationsString": "Georgia Tech, USA",
             "Authors": [
                 "Aaron K. Massey @ Georgia Tech, USA",
-                "Richard Rutledge @ Georgia Tech, USA",
+                "Richard L. Rutledge @ Georgia Tech, USA",
                 "Annie I. Antón @ Georgia Tech, USA",
-                "Peter Swire @ Georgia Tech, USA"
+                "Peter P. Swire @ Georgia Tech, USA"
             ],
             "Affiliations": [
                 "Georgia Tech, USA",
@@ -309,7 +366,7 @@
                 "Leibniz Universität Hannover, Germany",
                 "TU Dortmund, Germany"
             ],
-            "Abstract": "Security is an increasingly important quality facet in modern information systems and needs to be retained. Due to a constantly changing environment, long-living software systems age not by wearing out, but by failing to keep up-to-date with their environment. The problem is that requirements engineers usually do not have a complete overview of the security-related knowledge necessary to retain security of long-living software systems. This includes security standards, principles and guidelines as well as occured security incidents. In this paper, we focus on the identification of known vulnerabilities (and their variations) in natural-language requirements by leveraging security knowledge. For this purpose, we present an integrative security knowledge model and a heuristic method to predict vulnerabilities in requirements based on reported security incidents. To support knowledge evolution, we further propose a method to refine and adapt security knowledge based on natural language analysis. Our evaluation indicates that the proposed assessment approach detects vulnerable requirements more reliable than other methods (Bayes, SVM, k-NN). Thus, requirements engineers can react faster and more effectively to changing environments that have an impact on the desired security level of the information systems.",
+            "Abstract": "Security is an increasingly important quality facet in modern information systems and needs to be retained. Due to a constantly changing environment, long-living software systems &quot;age&quot; not by wearing out, but by failing to keep up-to-date with their environment. The problem is that requirements engineers usually do not have a complete overview of the security-related knowledge necessary to retain security of long-living software systems. This includes security standards, principles and guidelines as well as reported security incidents. In this paper, we focus on the identification of known vulnerabilities (and their variations) in natural-language requirements by leveraging security knowledge. For this purpose, we present an integrative security knowledge model and a heuristic method to detect vulnerabilities in requirements based on reported security incidents. To support knowledge evolution, we further propose a method based on natural language analysis to refine and to adapt security knowledge. Our evaluation indicates that the proposed assessment approach detects vulnerable requirements more reliable than other methods (Bayes, SVM, k-NN). Thus, requirements engineers can react faster and more effectively to a changing environment that has an impact on the desired security level of the information system.",
             "Award": ""
         },
         {
@@ -338,25 +395,25 @@
                 "Fudan University, China",
                 "Fudan University, China"
             ],
-            "Abstract": "Requirements-driven approaches provide an effective mechanism for self-adaptive systems by reasoning over their runtime requirements models to make adaptation decisions. However, such approaches usually assume that the relations among alternative behaviours, environmental parameters and requirements are clearly understood, which is often simply not true. Moreover, they do not consider the influence of the current behaviour of an executing system on adaptation decisions. In this paper, we propose an improved requirementsdriven self-adaptation approach that combines goal reasoning and case-based reasoning. In the approach, past experiences of successful adaptations are retained as adaptation cases, which are described by not only requirements violations and contexts, but also currently deployed behaviours. The approach does not depend on a set of original adaptation cases, but employs goal reasoning to provide adaptation solutions when no similar cases are available. And case-based reasoning is used to provide more precise adaptation decisions that better reflect the complex relations among requirements violations, contexts, and current behaviours by utilizing past experiences. Our experimental study with an online shopping benchmark shows that our approach outperforms both requirements-driven approach and case-based reasoning approach in terms of adaptation effectiveness and overall utility.",
+            "Abstract": "Requirements-driven approaches provide an effective mechanism for self-adaptive systems by reasoning over their runtime requirements models to make adaptation decisions. However, such approaches usually assume that the relations among alternative behaviours, environmental parameters and requirements are clearly understood, which is often simply not true. Moreover, they do not consider the influence of the current behaviour of an executing system on adaptation decisions. In this paper, we propose an improved requirementsdriven self-adaptation approach that combines goal reasoning and case-based reasoning. In the approach, past experiences of successful adaptations are retained as adaptation cases, which are described by not only requirements violations and contexts, but also currently deployed behaviours. The approach does not depend on a set of original adaptation cases, but employs goal reasoning to provide adaptation solutions when no similar cases are available. And case-based reasoning is used to provide more precise adaptation decisions that better reflect the complex relations among requirements violations, contexts, and current behaviours by utilizing past experiences. Our experimental study with an online shopping benchmark shows that our approach outperforms both requirements-driven approach and case-based reasoning approach in terms of adaptation effectiveness and overall quality of the system.",
             "Award": ""
         },
         {
             "Title": "TiQi: Towards Natural Language Trace Queries",
             "Type": "Full Paper",
             "Key": "re14main-mainp038-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPiotr+Pruski%2C+Sugandha+Lohar%2C+Greg+Ott%2C+Rundale+Aquanette%2C+Sorawit+Amornvorbornwong%2C+Alexander+Rasin%2C+and+Jane+Cleland-Huang+%22TiQi%3A+Towards+Natural+Language+Trace+Queries%22",
+            "URL": "http%3A%2F%2Fre.cs.depaul.edu%2Fpapers%2F2014-RE-TIQI.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Piotr Pruski, Sugandha Lohar, Greg Ott, Rundale Aquanette, Sorawit Amornvorbornwong, Alexander Rasin, and Jane Cleland-Huang",
+            "PersonsString": "Piotr Pruski, Sugandha Lohar, Rundale Aquanette, Greg Ott, Sorawit Amornborvornwong, Alexander Rasin, and Jane Cleland-Huang",
             "AffiliationsString": "DePaul University, USA",
             "Authors": [
                 "Piotr Pruski @ DePaul University, USA",
                 "Sugandha Lohar @ DePaul University, USA",
-                "Greg Ott @ DePaul University, USA",
                 "Rundale Aquanette @ DePaul University, USA",
-                "Sorawit Amornvorbornwong @ DePaul University, USA",
+                "Greg Ott @ DePaul University, USA",
+                "Sorawit Amornborvornwong @ DePaul University, USA",
                 "Alexander Rasin @ DePaul University, USA",
                 "Jane Cleland-Huang @ DePaul University, USA"
             ],
@@ -369,14 +426,14 @@
                 "DePaul University, USA",
                 "DePaul University, USA"
             ],
-            "Abstract": "One of the surprising observations of traceability in practice is the under-utilization of existing trace links. Organizations often create links in order to meet compliance requirements, but then fail to capitalize on the potential benefits of those links to provide support for activities such as impact analysis, test regression selection, and coverage analysis. One of the major adoption barriers is caused by the lack of accessibility to the underlying trace data and the lack of skills many project stakeholders have for formulating complex trace queries. To address these challenges we introduce TiQi, a natural language approach, which allows users to write or speak trace queries in their own words. TiQi includes a vocabulary and associated grammar learned from analyzing NL queries collected from trace practitioners. It is evaluated against trace queries gathered from trace practitioners for three different project environments.",
+            "Abstract": "One of the surprising observations of traceability in practice is the under-utilization of existing trace links. Organizations often create links in order to meet compliance requirements, but then fail to capitalize on the potential benefits of those links to provide support for activities such as impact analysis, test regression selection, and coverage analysis. One of the major adoption barriers is caused by the lack of accessibility to the underlying trace data and the lack of skills many project stakeholders have for formulating complex trace queries. To address these challenges we introduce TiQi, a natural language approach, which allows users to write or speak trace queries in their own words. TiQi includes a vocabulary and associated grammar learned from analyzing NL queries collected from trace practitioners. It is evaluated against trace queries gathered from trace practitioners for two different project environments.",
             "Award": ""
         },
         {
             "Title": "Traceability-Enabled Refactoring for Managing Just-In-Time Requirements",
             "Type": "Full Paper",
             "Key": "re14main-mainp114-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNan+Niu%2C+Tanmay+Bhowmik%2C+Hui+Liu%2C+and+Zhendong+Niu+%22Traceability-Enabled+Refactoring+for+Managing+Just-In-Time+Requirements%22",
+            "URL": "http%3A%2F%2Fwww.cse.msstate.edu%2F%7Eniu%2Fpapers%2FRE14-Refactoring.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
@@ -436,7 +493,7 @@
                 "TU München, Germany",
                 "University of Hamburg, Germany"
             ],
-            "Abstract": "App stores allow users to submit feedback for downloaded apps in form of star ratings and text reviews. Recent studies analyzed this feedback and found that it includes information useful for app developers, such as user requirements, ideas for improvements, user sentiments about specific features, and descriptions of experiences with these features. However, for many apps, the amount of reviews is too large to be processed manually and their quality varies largely. Moreover, the star ratings are given to the whole app and developers do not have a mean to analyze the feedback for the single features. In this paper we propose an automated approach which helps developers filter, aggregate, and analyze user reviews. We use natural language processing techniques to identify fine-grained app features in the reviews. We then extract the user sentiments about the identified features and give them a general score across all user reviews. Finally, we use topic modeling techniques to group fine-grained features into more meaningful high-level features.We evaluated our approach with 7 apps from the Apple Store and Google Play Store and compared its results with a manually, peer-conducted review analysis. We found that our approach has a precision of up to 91% with the recall largely varying depending on the app category. The extracted features were coherent and relevant to requirements evolution tasks. Our approach can help app developers to systematically analyze user opinions about single features and filter irrelevant reviews.",
+            "Abstract": "App stores allow users to submit feedback for downloaded apps in form of star ratings and text reviews. Recent studies analyzed this feedback and found that it includes information useful for app developers, such as user requirements, ideas for improvements, user sentiments about specific features, and descriptions of experiences with these features. However, for many apps, the amount of reviews is too large to be processed manually and their quality varies largely. The star ratings are given to the whole app and developers do not have a mean to analyze the feedback for the single features.In this paper we propose an automated approach that helps developers filter,aggregate, and analyze user reviews. We use natural language processing techniques to identify fine-grained app features in the reviews. We then extract the user sentiments about the identified features and give them a general score across all reviews. Finally, we use topic modeling techniques to group fine-grained features into more meaningful high-level features. We evaluated our approach with 7 apps from the Apple App Store and Google Play Store and compared its results with a manually, peer-conducted analysis of the reviews. On average, our approach has a precision of 0.59 and a recall of 0.51. The extracted features were coherent and relevant to requirements evolution tasks. Our approach can help app developers to systematically analyze user opinions about single features and filter irrelevant reviews.",
             "Award": ""
         },
         {
@@ -491,7 +548,7 @@
             "Key": "re14main-mainp037-p",
             "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMaria+Riaz%2C+Jason+King%2C+John+Slankas%2C+and+Laurie+Williams+%22Hidden+in+Plain+Sight%3A+Automatically+Identifying+Security+Requirements+from+Natural+Language+Artifacts%22",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fgo.ncsu.edu%2Fsecuritydiscoverer%2F",
             "DOI": "",
             "PersonsString": "Maria Riaz, Jason King, John Slankas, and Laurie Williams",
             "AffiliationsString": "North Carolina State University, USA",
@@ -507,7 +564,7 @@
                 "North Carolina State University, USA",
                 "North Carolina State University, USA"
             ],
-            "Abstract": "Abstract: Natural language artifacts, such as requirements specifications, often explicitly state the security requirements for software systems. However, these artifacts may also imply additional security requirements that developers may overlook but should consider to strengthen the overall security of the system. The goal of this research is to aid requirements engineers in producing a more comprehensive and classified set of security requirements by (1) automatically identifying security-relevant statements in natural language project artifacts, and (2) providing context-specific security requirements templates to help translate the security-relevant statements into functional security requirements. Using machine learning techniques, we have developed a tool-assisted process that takes as input a set of natural language artifacts. Our process automatically identifies security-relevant statements in project artifacts and classifies them according to the security objectives, either explicitly stated or implied by the statements. We classified 10,963 statements in six different documents from healthcare domain and extracted corresponding security objectives. Our manual analysis showed that 46% of the statements were security-relevant. Of these, 28% explicitly mention security while 72% of the statements are functional requirements with security implications. Using our tool, we correctly predict and classify 82% of the security objectives for all the statements (precision). We identify 79% of all security objectives implied by the statements within the documents (recall). Based on our analysis, we develop context-specific templates for the requirements engineer to consider when instantiating key information from security-relevant statements into a set of functional security requirements. Keywords: Security Requirements; Security Objectives; Natural Language Artifacts; Machine Learning;",
+            "Abstract": "Abstract: Natural language artifacts, such as requirements specifications, often explicitly state the security requirements for software systems. However, these artifacts may also imply additional security requirements that developers may overlook but should consider to strengthen the overall security of the system. The goal of this research is to aid requirements engineers in producing a more comprehensive and classified set of security requirements by (1) automatically identifying security-relevant sentences in natural language requirements artifacts, and (2) providing context-specific security requirements templates to help translate the security-relevant sentences into functional security requirements. Using machine learning techniques, we have developed a tool-assisted process that takes as input a set of natural language artifacts. Our process automatically identifies security-relevant sentences in the artifacts and classifies them according to the security objectives, either explicitly stated or implied by the sentences. We classified 10,963 sentences in six different documents from healthcare domain and extracted corresponding security objectives. Our manual analysis showed that 46% of the sentences were security-relevant. Of these, 28% explicitly mention security while 72% of the sentences are functional requirements with security implications. Using our tool, we correctly predict and classify 82% of the security objectives for all the sentences (precision). We identify 79% of all security objectives implied by the sentences within the documents (recall). Based on our analysis, we develop context-specific templates that can be instantiated into a set of functional security requirements by filling in key information from security-relevant sentences. Keywords: Security Requirements; Security Objectives; Natural Language Artifacts; Machine Learning;",
             "Award": ""
         },
         {
@@ -532,7 +589,7 @@
                 "University of Texas at San Antonio, USA",
                 "Carnegie Mellon University, USA"
             ],
-            "Abstract": "Security requirements patterns represent reusable security practices that software engineers can apply to improve security in their system. Reusing best practices that others have employed could have a number of benefits, such as decreasing the time spent in the requirements elicitation process or improving the quality of the product by reducing product failure risk. Pattern selection can be difficult due to the diversity of applicable patterns from which an analyst has to choose. The challenge is that identifying the most appropriate pattern for a situation can be cumbersome and time-consuming. We propose a new method that combines an inquiry-cycle based approach with the feature diagram notation to review only relevant patterns and quickly select the most appropriate patterns for the situation. Similar to patterns themselves, our approach captures expert knowledge to relate patterns based on decisions made by the pattern user. The resulting pattern hierarchies allow users to be guided through these decisions by questions, which elicit and refine requirements as well as introduce related patterns. Furthermore, our approach is unique in the way that pattern forces are interpreted as quality attributes to balance trade-offs in the resulting requirements. We evaluate our approach using access control patterns in a pattern user study.",
+            "Abstract": "Security requirements patterns represent reusable security practices that software engineers can apply to improve security in their system. Reusing best practices that others have employed could have a number of benefits, such as decreasing the time spent in the requirements elicitation process or improving the quality of the product by reducing product failure risk. Pattern selection can be difficult due to the diversity of applicable patterns from which an analyst has to choose. The challenge is that identifying the most appropriate pattern for a situation can be cumbersome and time-consuming. We propose a new method that combines an inquiry-cycle based approach with the feature diagram notation to review only relevant patterns and quickly select the most appropriate patterns for the situation. Similar to patterns themselves, our approach captures expert knowledge to relate patterns based on decisions made by the pattern user. The resulting pattern hierarchies allow users to be guided through these decisions by questions, which introduce related patterns in order to help the pattern user select the most appropriate patterns for their situation, thus resulting in better requirement generation. We evaluate our approach using access control patterns in a pattern user study.",
             "Award": ""
         },
         {
@@ -550,16 +607,16 @@
                 "Liliana Pasquale @ Lero, Ireland",
                 "Claudio Menghi @ Politecnico di Milano, Italy",
                 "Carlo Ghezzi @ Politecnico di Milano, Italy",
-                "Bashar Nuseibeh @ Open University, UK"
+                "Bashar Nuseibeh @ Open University, UK / Lero, Ireland"
             ],
             "Affiliations": [
                 "Politecnico di Milano, Italy",
                 "Lero, Ireland",
                 "Politecnico di Milano, Italy",
                 "Politecnico di Milano, Italy",
-                "Open University, UK"
+                "Open University, UK / Lero, Ireland"
             ],
-            "Abstract": "Adaptive security systems aim to protect critical assets in the face of changes in their operational environment. We have argued that incorporating an explicit representation of the topology of this environment enables reasoning on the location of assets being protected and the proximity of potentially harmful agents. This paper proposes to engineer topology aware adaptive security systems by identifying violations of security requirements that may be caused by topological changes, and selecting a set of security controls that prevent such violations. Our approach focuses on physical topologies; it maintains at runtime a live representation of the topology which is updated when assets or agents move, or when the structure of the physical space is altered. When the topology changes, a subset of the future system states is looked-ahead. These states are reachable when the agents perform a sequence of movements within the physical space. If security requirements can be violated in future system states, a configuration of security controls is proactively applied to prevent the system from reaching those states. Thus, the system continuously adapts to topological stimuli, while maintaining requirements satisfaction. Security requirements are formally expressed using a propositional temporal logic, encoding spatial properties in Computation Tree Logic (CTL). The Ambient Calculus is used to represent the topology of the operational environment - including location of assets and agents - as well as to identify future system states that are reachable from the current one. The approach is demonstrated and evaluated using a substantive example concerned with physical access control. Adaptive Security, Requirements Verification, Topology",
+            "Abstract": "Adaptive security systems aim to protect critical assets in the face of changes in their operational environment. We have argued that incorporating an explicit representation of the environment&#039;s topology enables reasoning on the location of assets being protected and the proximity of potentially harmful agents. This paper proposes to engineer topology aware adaptive security systems by identifying violations of security requirements that may be caused by topological changes, and selecting a set of security controls that prevent such violations. Our approach focuses on physical topologies; it maintains at runtime a live representation of the topology which is updated when assets or agents move, or when the structure of the physical space is altered. When the topology changes, we look ahead at a subset of the future system states. These states are reachable when the agents move within the physical space. If security requirements can be violated in future system states, a configuration of security controls is proactively applied to prevent the system from reaching those states. Thus, the system continuously adapts to topological stimuli, while maintaining requirements satisfaction. Security requirements are formally expressed using a propositional temporal logic, encoding spatial properties in Computation Tree Logic (CTL). The Ambient Calculus is used to represent the topology of the operational environment - including location of assets and agents - as well as to identify future system states that are reachable from the current one. The approach is demonstrated and evaluated using a substantive example concerned with physical access control.",
             "Award": ""
         },
         {
@@ -584,14 +641,14 @@
                 "University of Victoria, Canada",
                 "University of Victoria, Canada"
             ],
-            "Abstract": "A growing number of software systems is characterized by continuous evolution as well as by significant interdependence with other systems (e.g. services, apps, social media). Running such systems as software ecosystems promises to increase innovation power and to support evolution of consumer oriented software services at scale, but implies a certain level of openness of information flows. While such openness supports project and reputation management, it also brings some challenges to Requirements Engineering (RE) within the ecosystem. Here we report from a mixed-method study of the RE activities within IBM&#039;s CLM ecosystem that uses an open commercial development model. From insights we gathered from interviews within several ecosystem actors, participatory observation, and analysis of software repositories, we describe the flow of product requirements information through the ecosystem, how the open communication paradigm in software ecosystems provides opportunities for &#039;just-in-time&#039; RE, but also that there are significant challenges that traditional requirements engineering approaches can only partly cover. More importantly, we discuss two tradeoffs brought about the openness in software ecosystems: i) between open transparent communication models and the need to keep intellectual property confidential, and ii) between the ability to act globally on a long-term strategy and the ability to act locally to answer end-users&#039;s context specific needs timely.",
+            "Abstract": "A growing number of software systems is characterized by continuous evolution as well as by significant interdependence with other systems (e.g. services, apps). Such software ecosystems promise increased innovation power and support for consumer oriented software services at scale, and are characterized by a certain openness of their information flows. While such openness supports project and reputation management, it also brings some challenges to Requirements Engineering (RE) within the ecosystem. We report from a mixed-method study of IBM&#039;s CLM ecosystem that uses an open commercial development model. We analyzed data from from interviews within several ecosystem actors, participatory observation, and software repositories, to describe the flow of product requirements information through the ecosystem, how the open communication paradigm in software ecosystems provides opportunities for &#039;just-in-time&#039; RE, as well as some of the challenges faced when traditional requirements engineering approaches are applied within such an ecosystem. More importantly, we discuss two tradeoffs brought about the openness in software ecosystems: i) allowing open, transparent communication while keeping intellectual property confidential within the ecosystem, and ii) having the ability to act globally on a long-term strategy while empowering product teams to act locally to answer end-users&#039; context specific needs in a timely manner.",
             "Award": ""
         },
         {
-            "Title": "RISDM: A Requirements Inspection Systems Design Methodology",
+            "Title": "RISDM: A Requirements Inspection Systems Design Methodology: Perspective-Based Design of the Pragmatic Quality Model and Question Set to SRS",
             "Type": "Full Paper",
             "Key": "re14main-mainp018-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShinobu+Saito%2C+Mutsuki+Takeuchi%2C+Setsuo+Yamada%2C+and+Mikio+Aoyama+%22RISDM%3A+A+Requirements+Inspection+Systems+Design+Methodology%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShinobu+Saito%2C+Mutsuki+Takeuchi%2C+Setsuo+Yamada%2C+and+Mikio+Aoyama+%22RISDM%3A+A+Requirements+Inspection+Systems+Design+Methodology%3A+Perspective-Based+Design+of+the+Pragmatic+Quality+Model+and+Question+Set+to+SRS%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
@@ -621,23 +678,23 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Maria Pinto-Albuquerque and Awais Rashid",
-            "AffiliationsString": "Inst.Univ.Lisboa, Portugal; Lancaster University, UK",
+            "AffiliationsString": "Lisbon University Institute, Portugal; Lancaster University, UK",
             "Authors": [
-                "Maria Pinto-Albuquerque @ Inst.Univ.Lisboa, Portugal / Lancaster University, UK",
+                "Maria Pinto-Albuquerque @ Lisbon University Institute, Portugal / Lancaster University, UK",
                 "Awais Rashid @ Lancaster University, UK"
             ],
             "Affiliations": [
-                "Inst.Univ.Lisboa, Portugal / Lancaster University, UK",
+                "Lisbon University Institute, Portugal / Lancaster University, UK",
                 "Lancaster University, UK"
             ],
-            "Abstract": "Abstract—A key challenge during stakeholders meetings is that of presenting the requirements and conflicts to stakeholders in a way that fosters co-responsibility and co-ownership regarding the conflicts and their resolution. In this paper, we propose a jigsaw puzzle metaphor to make identified conflicts explicit as well as an associated method to utilise this metaphor during stakeholder meetings. The metaphor provides an easy to understand language for stakeholders from otherwise diverse backgrounds. Furthermore, it enables stakeholders to work with a well-understood concept - that of building a system from misshapen pieces. These characteristics foster communication and team work, which improve commitment of stakeholders in co-authoring of requirements and co-responsibility in conflict handling. The gamification of conflict resolution also promotes a relaxed environment which in turn improves team cooperation and creativity. Our experience in three case studies demonstrates that the jigsaw puzzle indeed improves such co-responsibility and co-ownership when compared with typical text-based representations of requirements. Index Terms— Requirements, conflict, creativity, game, jigsaw puzzle, stakeholders, team work, communication, metaphor, visualization.",
+            "Abstract": "Abstract—A key challenge during stakeholder meetings is that of presenting the requirements and conflicts to stakeholders in a way that fosters co-responsibility and co-ownership regarding the conflicts and their resolution. In this paper, we propose a jigsaw puzzle metaphor to make identified conflicts explicit as well as an associated method to utilise this metaphor during stakeholder meetings. The metaphor provides an easy to understand language for stakeholders from otherwise diverse backgrounds. It enables stakeholders to work with a well-understood concept - that of building a system from misshapen pieces. These characteristics foster communication and team work, which improve commitment of stakeholders in co-authoring of requirements and co-responsibility in conflict handling. The gamification of conflict resolution also promotes a relaxed environment, which in turn improves team cooperation and creativity. Our experience in three user studies demonstrates that the jigsaw puzzle indeed improves such co-responsibility and co-ownership when compared with typical text-based representations of requirements. Index Terms—Requirements, conflict, creativity, game, jigsaw puzzle, stakeholders, team work, communication, metaphor, visualization.",
             "Award": ""
         },
         {
             "Title": "Automated Support for Combinational Creativity in Requirements Engineering",
             "Type": "Full Paper",
             "Key": "re14main-mainp110-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTanmay+Bhowmik%2C+Nan+Niu%2C+Anas+Mahmoud%2C+and+Juha+Savolainen+%22Automated+Support+for+Combinational+Creativity+in+Requirements+Engineering%22",
+            "URL": "http%3A%2F%2Fwww.cse.msstate.edu%2F%7Eniu%2Fpapers%2FRE14-Creativity.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
@@ -682,19 +739,40 @@
             "Award": ""
         },
         {
-            "Title": "Language Extended Lexicon Points: Estimating the Size of an Application using Its Language",
-            "Type": "Full Paper",
-            "Key": "re14main-mainp019-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLeandro+Antonelli%2C+Gustavo+Rossi%2C+Julio+Leite%2C+and+Alejandro+Oliveros+%22Language+Extended+Lexicon+Points%3A+Estimating+the+Size+of+an+Application+using+Its+Language%22",
+            "Title": "The Effect of Variability Modeling on Requirements Satisfaction for the Configuration and Implementation of Off-The-Shelf Software Packages",
+            "Type": "Industry Paper",
+            "Key": "re14ind-indp015-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAmanda+Rubython+and+Neil+Maiden+%22The+Effect+of+Variability+Modeling+on+Requirements+Satisfaction+for+the+Configuration+and+Implementation+of+Off-The-Shelf+Software+Packages%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Leandro Antonelli, Gustavo Rossi, Julio Leite, and Alejandro Oliveros",
+            "PersonsString": "Amanda Rubython and Neil Maiden",
+            "AffiliationsString": "City&Guilds Kineo, UK; City University London, UK",
+            "Authors": [
+                "Amanda Rubython @ City&Guilds Kineo, UK",
+                "Neil Maiden @ City University London, UK"
+            ],
+            "Affiliations": [
+                "City&Guilds Kineo, UK",
+                "City University London, UK"
+            ],
+            "Abstract": "An industrial experience of the use of a method for discovering customer requirements with which to configure an off-the-shelf software package for implementation is reported. The method uses an adapted form of product variability model to provide common ground between the customer and supplier about requirements and capabilities. An associated decision support software tool guides the supplier and customer through a model-based walkthrough to discover new requirements, based on equivalent capabilities described in the product variability model. We applied the method in the work processes of the commercial provider of a software-based learning management system, and collected quantitative and qualitative data from supplier-customer interactions. Our first experienc-es with the method led to an increased exposure and expression of customer requirements in the customer-supplier dialogue, compared to the baseline dialogue during software package demonstrations. The paper also reports some first lessons learned to improve the method and adopt its use with other software supplier organizations.",
+            "Award": ""
+        },
+        {
+            "Title": "Language Extended Lexicon Points: Estimating the Size of an Application using Its Language",
+            "Type": "Full Paper",
+            "Key": "re14main-mainp019-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLeandro+Antonelli%2C+Gustavo+Rossi%2C+Julio+Cesar+Sampaio+do+Prado+Leite%2C+and+Alejandro+Oliveros+%22Language+Extended+Lexicon+Points%3A+Estimating+the+Size+of+an+Application+using+Its+Language%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Leandro Antonelli, Gustavo Rossi, Julio Cesar Sampaio do Prado Leite, and Alejandro Oliveros",
             "AffiliationsString": "Universidad Nacional de La Plata, Argentina; PUC-Rio, Brazil; Universidad Argentina de la Empresa, Argentina",
             "Authors": [
                 "Leandro Antonelli @ Universidad Nacional de La Plata, Argentina",
                 "Gustavo Rossi @ Universidad Nacional de La Plata, Argentina",
-                "Julio Leite @ PUC-Rio, Brazil",
+                "Julio Cesar Sampaio do Prado Leite @ PUC-Rio, Brazil",
                 "Alejandro Oliveros @ Universidad Argentina de la Empresa, Argentina"
             ],
             "Affiliations": [
@@ -703,7 +781,7 @@
                 "PUC-Rio, Brazil",
                 "Universidad Argentina de la Empresa, Argentina"
             ],
-            "Abstract": "Abstract — Estimating the size of a software system is a critical task due to the nature of the activity and the implications the estimation has in the management of the development project. There are some widely accepted estimation techniques: Function Points, Use Case Points and Cosmic Points, but these techniques can only be applied after the availability of a requirements specification. In this paper, we propose an approach to estimate the size of an application previous to a requirements specification by using the application language itself, captured by the Language Extended Lexicon (LEL). Our approach is based on Use Case Points and on a technique which derives Use Cases from LEL. The proposed approach provides a measure of the application’s size earlier than the usual techniques, thus reducing the effort needed to apply it. An initial experiment was conducted to evaluate the proposal. Index Terms — Requirements specifications, Domain Analysis, Language Extended Lexicon, Use Case Points, software sizing.",
+            "Abstract": "Abstract—Estimating the size of a software system is a critical task due to the implications the estimation has in the management of the development project. There are some widely accepted estimation techniques: Function Points, Use Case Points and Cosmic Points, but these techniques can only be applied after the availability of a requirements specification. In this paper, we propose an approach to estimate the size of an application previous to its requirements specification by using the application language itself, captured by the Language Extended Lexicon (LEL). Our approach is based on Use Case Points and on a technique which derives Use Cases from the LEL. The proposed approach provides a measure of the application’s size earlier than the usual techniques, thus reducing the effort needed to apply them. An initial experiment was conducted to evaluate the proposal.",
             "Award": ""
         },
         {
@@ -724,7 +802,7 @@
                 "Carnegie Mellon University, USA",
                 "Carnegie Mellon University, USA"
             ],
-            "Abstract": "Government laws and regulations increasingly place requirements on software systems. Ideally, experts trained in law will analyze and interpret legal texts to inform the software requirements process. However, in small companies and development teams with short launch cycles, individuals with little or no legal training will be responsible for compliance. Two specific challenges commonly faced by non-experts are deciding if their system is covered by a law, and then deciding whether two legal requirements are similar or different. In this study, we assess legal expertise and participant ability to decide legal coverage and requirements similarity. In this study, we assess the ability of laypersons, technical professionals, and legal experts to judge the similarity between legal coverage conditions and requirements. In so doing, we discovered that legal experts achieved higher rates of consensus more frequently (40%) than technical professionals or laypersons (25% and 20%, respectively), and that all groups had slightly greater agreement when judging legal coverage than requirements (Fleiss’ K of .23 vs. .18). When comparing judgments between groups using a consensus-based Cohen’s K, we found that technical professionals and legal experts exhibited consistently greater agreement than that found between laypersons and legal experts, and that each group tended towards different justifications, such as laypersons and technical professionals tendency towards categorizing different coverage conditions or requirements as equivalent if they believed them to possess the same underlying intent. These results indicate that there may be value in technical professionals performing basic preliminary analysis of laws that may affect them, and that this value may be increased by adopting specific analysis approaches.",
+            "Abstract": "Government laws and regulations increasingly place requirements on software systems. Ideally, experts trained in law will analyze and interpret legal texts to inform the software requirements process. However, in small companies and development teams with short launch cycles, individuals with little or no legal training will be responsible for compliance. Two specific challenges commonly faced by non-experts are deciding if their system is covered by a law, and then deciding whether two legal requirements are similar or different. In this study, we assess the ability of laypersons, technical professionals, and legal experts to judge the similarity between legal coverage conditions and requirements. In so doing, we discovered that legal experts achieved higher rates of consensus more frequently than technical professionals or laypersons and that all groups had slightly greater agreement when judging coverage conditions than requirements, measured by Fleiss’ Κ. When comparing judgments between groups using a consensus-based Cohen’s Kappa, we found that technical professionals and legal experts exhibited consistently greater agreement than that found between laypersons and legal experts, and that each group tended towards different justifications, such as laypersons and technical professionals tendency towards categorizing different coverage conditions or requirements as equivalent if they believed them to possess the same underlying intent.",
             "Award": ""
         },
         {
@@ -747,38 +825,38 @@
                 "Aalto University, Finland",
                 "University of Helsinki, Finland"
             ],
-            "Abstract": "Abstract - Evaluating the multidimensional and dynamic nature of IT business value is a continuous challenge. This paper examines how system dynamics can be used in evaluating IT business value in a company level. We approach IT business value as a web of impacts, where benefits and sacrifices are ultimately evaluated against company earnings logic. This study is based on an action research and covers a pilot project within two co-operating companies. System dynamics was utilised to construct a value creation model for an existing Gaming Management System. This value creation modelling covered two dimensions: 1) structural evaluation of IT impacts with cause-and-effect models, 2) dynamic evaluation and simulation of value realisation over time. As a result, value creation modelling was able to provide a visual overview of how IT impacts were linked to business value through value paths, and how much and when value was realised. Value creation modelling enabled prototyping of value realisation that can provide value based insights for development activities like requirements elicitation and analysis. The examined approach proved its potential for providing a common language for technology and business parties, thus improving IT business alignment. Keywords — IT business value, evaluation, system dynamics",
+            "Abstract": "Abstract - Evaluating the multidimensional and dynamic nature of IT business value is a continuous challenge. This paper examines how system dynamics can be used in evaluating IT business value in a company level. We approach IT business value as a web of impacts, where benefits and sacrifices are ultimately evaluated against company earnings logic. This study is based on an action research and covers a pilot project within two co-operating companies. System dynamics was utilised to construct a value creation model for an existing Gaming Management System. This value creation modelling covered two dimensions: 1) structural evaluation of IT impacts with cause-and-effect models, 2) dynamic evaluation and simulation of value realisation over time. As a result, value creation modelling was able to provide a visual overview of how IT impacts were linked to business value through value paths, and how much and when value was realised. Value creation modelling enabled prototyping of value realisation that can provide value based insights for development activities like requirements elicitation and analysis. The examined approach proved its potential for providing a common language for technology and business parties, thus improving IT business alignment. Index Terms — IT business value, evaluation, system dynamics",
             "Award": ""
         },
         {
-            "Title": "Non-functional Requirements as Qualities: An Ontological Perspective",
+            "Title": "Non-functional Requirements as Qualities, with a Spice of Ontology",
             "Type": "Full Paper",
             "Key": "re14main-mainp070-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFeng-Lin+Li%2C+Jennifer+Horkoff%2C+Alexander+Borgida%2C+Renata+S.+S.+Guizzardi%2C+Giancarlo+Guizzardi%2C+John+Mylopoulos%2C+and+Lin+Liu+%22Non-functional+Requirements+as+Qualities%3A+An+Ontological+Perspective%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFeng-Lin+Li%2C+Jennifer+Horkoff%2C+John+Mylopoulos%2C+Alexander+Borgida%2C+Renata+S.+S.+Guizzardi%2C+Giancarlo+Guizzardi%2C+and+Lin+Liu+%22Non-functional+Requirements+as+Qualities%2C+with+a+Spice+of+Ontology%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Feng-Lin Li, Jennifer Horkoff, Alexander Borgida, Renata S. S. Guizzardi, Giancarlo Guizzardi, John Mylopoulos, and Lin Liu",
+            "PersonsString": "Feng-Lin Li, Jennifer Horkoff, John Mylopoulos, Alexander Borgida, Renata S. S. Guizzardi, Giancarlo Guizzardi, and Lin Liu",
             "AffiliationsString": "University of Trento, Italy; Rutgers University, USA; Federal University of Espírito Santo, Brazil; Tsinghua University, China",
             "Authors": [
                 "Feng-Lin Li @ University of Trento, Italy",
                 "Jennifer Horkoff @ University of Trento, Italy",
+                "John Mylopoulos @ University of Trento, Italy",
                 "Alexander Borgida @ Rutgers University, USA",
                 "Renata S. S. Guizzardi @ Federal University of Espírito Santo, Brazil",
                 "Giancarlo Guizzardi @ Federal University of Espírito Santo, Brazil",
-                "John Mylopoulos @ University of Trento, Italy",
                 "Lin Liu @ Tsinghua University, China"
             ],
             "Affiliations": [
                 "University of Trento, Italy",
                 "University of Trento, Italy",
+                "University of Trento, Italy",
                 "Rutgers University, USA",
                 "Federal University of Espírito Santo, Brazil",
                 "Federal University of Espírito Santo, Brazil",
-                "University of Trento, Italy",
                 "Tsinghua University, China"
             ],
-            "Abstract": "Non-functional requirements (NFRs) remain a dark corner of Requirements Engineering (RE) with little consensus on what they are, how to formalize and reason about them, or how to analyze them for purposes of producing a specification. We propose to treat NFRs as qualities (in an ontological sense), which existentially depend on the subjects they qualify. In our proposal, NFRs are treated as quality goals that can be systematically refined from informal requirements elicited from stakeholders, and can be analyzed to make them unambiguous, de-idealized, and measurable. Our proposal includes three meta-qualities that measure the quality of fulfillment of other requirements and capture the essence of probabilistic goals and fuzzy goals as proposed in the literature. For evaluation, we have applied our framework to the PROMISE requirements dataset that includes 370 NFRs crossing 15 projects. The results suggest that our framework can adequately handle NFRs used in practice.",
+            "Abstract": "We propose a modeling language for non-functional requirements (NFRs) that views NFRs as requirements over qualities, mapping a software-related domain to a quality space. The language is compositional in that it allows (recursively) complex NFRs to be constructed in several ways. Importantly, the language allows the definition of requirements about the quality of fulfillment of other requirements, thus capturing, among others, the essence of probabilistic and fuzzy goals as proposed in the literature. We also offer a methodology for systematically refining informal NFRs elicited from stakeholders, resulting in unambiguous, de-idealized, and measurable requirements. The proposal is evaluated with a requirements dataset that includes 370 NFRs crossing 15 projects. The results suggest that our framework can adequately handle and clarify NFRs generated in practice.",
             "Award": ""
         },
         {
@@ -801,30 +879,30 @@
                 "Blekinge Institute of Technology, Sweden",
                 "Blekinge Institute of Technology, Sweden"
             ],
-            "Abstract": "Quality requirements, an important class of non-functional requirements, are inherently difficult to elicit. Particularly challenging is the definition of good-enough quality. The problem cannot be avoided though, because hitting the right quality level is critical. Too little quality leads to churn for the software product. Excessive quality generates unnecessary cost and drains the resources of the operating platform. To address this problem, we propose to elicit the specific relationships between software quality characteristics and the impacts of potential quality levels. An understanding of each such relationship can then be used to specify the right quality level by deciding about acceptable impacts. This paper describes an approach to elicit such quality–impact relationships and use them for specifying quality requirements. The approach has been applied with user representatives in requirements workshops and used for determining Quality of Service (QoS) requirements based the involved users’ Quality of Experience (QoE). The paper describes the approach in detail and reports experiences from applying the approach in software projects. Requirement elicitation, quality attributes, non-functional requirements, QoE, QoS",
+            "Abstract": "Quality requirements, an important class of non-functional requirements, are inherently difficult to elicit. Particularly challenging is the definition of good-enough quality. The problem cannot be avoided though, because hitting the right quality level is critical. Too little quality leads to churn for the software product. Excessive quality generates unnecessary cost and drains the resources of the operating platform. To address this problem, we propose to elicit the specific relationships between software quality levels and their impacts for given quality attributes and stakeholders. An understanding of each such relationship can then be used to specify the right level of quality by deciding about acceptable impacts. The quality-impact relationships can be used to design and dimension a software system appropriately and, in a second step, to develop service level agreements that allow re-use of the obtained knowledge of good-enough quality. This paper describes an approach to elicit such quality–impact relationships and to use them for specifying quality requirements. The approach has been applied with user representatives in requirements workshops and used for determining Quality of Service (QoS) requirements based the involved users’ Quality of Experience (QoE). The paper describes the approach in detail and reports early experiences from applying the approach.",
             "Award": ""
         },
         {
-            "Title": "Nomos 3: Reasoning about Regulatory Compliance of Requirements",
+            "Title": "Nòmos 3: Reasoning about Regulatory Compliance of Requirements",
             "Type": "Poster/Demo",
             "Key": "re14demoposters-demopostersid5-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSilvia+Ingolfo%2C+Alberto+Siena%2C+and+John+Mylopoulos+%22Nomos+3%3A+Reasoning+about+Regulatory+Compliance+of+Requirements%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSilvia+Ingolfo%2C+Alberto+Siena%2C+and+John+Mylopoulos+%22N%C3%B2mos+3%3A+Reasoning+about+Regulatory+Compliance+of+Requirements%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Silvia Ingolfo, Alberto Siena, and John Mylopoulos",
-            "AffiliationsString": "University of Trento, Italy; University of Toronto, Canada",
+            "AffiliationsString": "University of Trento, Italy",
             "Authors": [
                 "Silvia Ingolfo @ University of Trento, Italy",
                 "Alberto Siena @ University of Trento, Italy",
-                "John Mylopoulos @ University of Toronto, Canada"
+                "John Mylopoulos @ University of Trento, Italy"
             ],
             "Affiliations": [
                 "University of Trento, Italy",
                 "University of Trento, Italy",
-                "University of Toronto, Canada"
+                "University of Trento, Italy"
             ],
-            "Abstract": "",
+            "Abstract": "The great impact that law has in the RE-process has called for new techniques and procedures to evaluate the alignment of requirements with applicable laws. In this paper we present a modeling language for the evaluation of compliance of requirements with a piece of law: Nomos3. We introduce our language and show the reasoning capabilities of our proposal.",
             "Award": ""
         },
         {
@@ -870,7 +948,7 @@
                 "University of Manchester, UK",
                 "University of Manchester, UK"
             ],
-            "Abstract": "",
+            "Abstract": "Smart driver assistive technologies (DAT) have been developed to alleviate accident risk by either reducing driver workload or assessing driver attentiveness. Such systems aim to draw drivers’ attention on critical cues that improve decision making. However, in some cases, these systems can have a negative effect due to the extra information load they incur to the driver. Therefore, in addition to specifying the functional requirements for such systems there is an urgent need to address the human requirements. This work describes a simulation-based requirements discovery method that utilises the benefits of a modular simulator that models future designs of DAT.",
             "Award": ""
         },
         {
@@ -891,7 +969,7 @@
                 "Chalmers, Sweden / University of Gothenburg, Sweden",
                 "Chalmers, Sweden / University of Gothenburg, Sweden"
             ],
-            "Abstract": "",
+            "Abstract": "In this extended abstract, we present the ecosystemability assessment method as a means to assess the extent to which a software system, represented by its architecture and its development environment, supports the vision of ecosystem.",
             "Award": ""
         },
         {
@@ -923,21 +1001,21 @@
             "Title": "Decisively: Application of Quantitative Analysis and Decision Science in Agile Requirements Engineering",
             "Type": "Poster/Demo",
             "Key": "re14demoposters-demopostersid1-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSanjaya+Saxena+and+Rachna+Chakraborty+%22Decisively%3A+Application+of+Quantitative+Analysis+and+Decision+Science+in+Agile+Requirements+Engineering%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSanjaya+Kumar+Saxena+and+Rachna+Chakraborty+%22Decisively%3A+Application+of+Quantitative+Analysis+and+Decision+Science+in+Agile+Requirements+Engineering%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Sanjaya Saxena and Rachna Chakraborty",
+            "PersonsString": "Sanjaya Kumar Saxena and Rachna Chakraborty",
             "AffiliationsString": "GrayPE Systems, India",
             "Authors": [
-                "Sanjaya Saxena @ GrayPE Systems, India",
+                "Sanjaya Kumar Saxena @ GrayPE Systems, India",
                 "Rachna Chakraborty @ GrayPE Systems, India"
             ],
             "Affiliations": [
                 "GrayPE Systems, India",
                 "GrayPE Systems, India"
             ],
-            "Abstract": "",
+            "Abstract": "While many mature Requirements Engineering (RE) tools for Agile exist, RE professionals at large have not been able to benefit from Quantitative Analysis and Decision Science (QUADS) techniques in this context. In this paper we present an Agile RE tool, Decisively, which brings a new perspective to automation in the RE process through application of QUADS to address Requirement Discovery, Analysis, Estimation and Prioritization. Techniques explored in Decisively include Analytical Hierarchical Process (AHP) for prioritization and estimation, Lorenz function to shortlist user stories by analyzing the distribution of votes, Box Plot Analysis to predict velocity, and Text Mining to discover implied requirements from documents.",
             "Award": ""
         },
         {
@@ -960,7 +1038,7 @@
                 "Boeing, USA",
                 "NASA, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Requirements are a part of every project life cycle; everything going forward in a project depends on them. The VARED tool chain aims to provide an integrated environment to analyze and verify the requirements and early design of a system. Natural language requirements are processed automatically into formal specifications using a state model of the system under design and its environment. The specifications are formally checked and then are used to verify the controller model meets the requirements.",
             "Award": ""
         },
         {
@@ -983,7 +1061,7 @@
                 "fortiss, Germany",
                 "fortiss, Germany"
             ],
-            "Abstract": "",
+            "Abstract": "The growth of software complexity and high degree of dependencies between functionalities motivates the use of models during requirements engineering. Hence, readability and comprehensibility of currently requirements specification techniques should be increased. Additionally, multi-view modeling and tabular expression are widely accepted techniques in requirements documentation. We present a tool that allows structured multi-view modeling of the behavior of the system by means of tabular notation. Our tool provides various table patterns to support different behavior views, which leverage the advantages of tabular specification, e.g., unambiguous, precise, and easier to read, analyses and communicate. Our aim is to reduce the complexity in the development of software systems.",
             "Award": ""
         },
         {
@@ -1029,7 +1107,7 @@
                 "Glushkov Institute of Cybernetics, Ukraine",
                 "Uniquesoft LLC, USA"
             ],
-            "Abstract": "",
+            "Abstract": "VRS (Verification Requirements Specifications) system is a tool for processing formal requirements during the initial stage of software, hardware, or system development. Symbolic modeling and deductive methods are used for detection of issues such as safety violations, deadlocks, nondeterminism, or livelocks. The formal representation of requirements also supports the generation of test suites as well as the synthesis of a design model.",
             "Award": ""
         },
         {
@@ -1054,34 +1132,159 @@
                 "Kiel University, Germany",
                 "Kiel University, Germany"
             ],
-            "Abstract": "",
+            "Abstract": "(Business) Process models are common artifacts in requirements engineering. The models can be enriched with plenty of (detailed) information and their at least semi formal character even enables model driven approaches or direct execution in workflow engines. Validity of process models is crucial. Manual checking is expensive and error-prone, especially for requirements that regard the content level (e.g. compliance). To enable automated checking, an adequate method for formal specification is necessary. We present the Business Application Modeler (BAM), which is a modeling and Validation &amp; Verification tool that integrates modeling of processes and formal graphical validation rules. These rules can be automatically applied to process models. In particular, the modeler is supported by visualizations of checking results directly in the process models. Next to highlighting mechanisms this support includes recommendations for the correction of errors.",
             "Award": ""
         },
         {
             "Title": "Handling Design-Level Requirements across Distributed Teams: Developing a New Feature for 12 Danish Mobile Banking Apps",
             "Type": "Industry Paper",
             "Key": "re14ind-indp002-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJens+B%C3%A6k+J%C3%B8rgensen%2C+Lars+Bruun%2C+Mikkel+Bovbjerg+Hansen%2C+J%C3%B8rgen+B%C3%B8ndergaard+Iversen%2C+and+Bjarne+Knudsen+%22Handling+Design-Level+Requirements+across+Distributed+Teams%3A+Developing+a+New+Feature+for+12+Danish+Mobile+Banking+Apps%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLars+Bruun%2C+Mikkel+Bovbjerg+Hansen%2C+J%C3%B8rgen+B%C3%B8ndergaard+Iversen%2C+Jens+B%C3%A6k+J%C3%B8rgensen%2C+and+Bjarne+Knudsen+%22Handling+Design-Level+Requirements+across+Distributed+Teams%3A+Developing+a+New+Feature+for+12+Danish+Mobile+Banking+Apps%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Jens Bæk Jørgensen, Lars Bruun, Mikkel Bovbjerg Hansen, Jørgen Bøndergaard Iversen, and Bjarne Knudsen",
-            "AffiliationsString": "Mjølner Informatics, Denmark; Bankdata, Denmark",
+            "PersonsString": "Lars Bruun, Mikkel Bovbjerg Hansen, Jørgen Bøndergaard Iversen, Jens Bæk Jørgensen, and Bjarne Knudsen",
+            "AffiliationsString": "Bankdata, Denmark; Mjølner Informatics, Denmark",
             "Authors": [
-                "Jens Bæk Jørgensen @ Mjølner Informatics, Denmark",
                 "Lars Bruun @ Bankdata, Denmark",
                 "Mikkel Bovbjerg Hansen @ Bankdata, Denmark",
                 "Jørgen Bøndergaard Iversen @ Mjølner Informatics, Denmark",
+                "Jens Bæk Jørgensen @ Mjølner Informatics, Denmark",
                 "Bjarne Knudsen @ Mjølner Informatics, Denmark"
             ],
             "Affiliations": [
+                "Bankdata, Denmark",
+                "Bankdata, Denmark",
                 "Mjølner Informatics, Denmark",
-                "Bankdata, Denmark",
-                "Bankdata, Denmark",
                 "Mjølner Informatics, Denmark",
                 "Mjølner Informatics, Denmark"
             ],
-            "Abstract": "Bankdata and Mjølner have cooperated in the development of a new feature for 12 Danish mobile banking apps. Bankdata is the main system provider and Mjølner is subcontractor. Different teams from Bankdata have collected requirements, developed the necessary backend and middleware software, and designed the user interface. One team from Mjølner has implemented the app feature. The cooperation between the teams was centered around design-level requirements. Our contribution is to describe and discuss a number of lessons learned regarding requirements representations, requirements tools, and cooperation process; we have faced challenges, which were amplified by our distributed teams set-up. We also describe a number of initiatives we have launched to alleviate the problems and improve the handling of design-level requirements in our future cooperation.",
+            "Abstract": "Bankdata and Mjølner have cooperated in the development of a new feature for 12 Danish mobile banking apps. Bankdata is the main system provider and Mjølner is subcontractor. Different teams from Bankdata have collected requirements, developed the necessary backend and middleware software, and designed the user interface. One team from Mjølner has implemented the app feature. The cooperation between the teams was centered around design-level requirements. Our contribution is to describe and discuss a number of lessons learned regarding requirements representations, requirements tools, and cooperation process; we have faced challenges, which were amplified by our distributed teams set-up. We also briefly describe a number of initiatives we have launched recently to alleviate the problems and improve the handling of design-level requirements in our future cooperation.",
+            "Award": ""
+        },
+        {
+            "Title": "Experience of Pragmatically Combining RE Methods for Performance Requirements in Industry",
+            "Type": "Industry Paper",
+            "Key": "re14ind-indp027-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRebekka+Wohlrab%2C+Thijmen+de+Gooijer%2C+Anne+Koziolek%2C+and+Steffen+Becker+%22Experience+of+Pragmatically+Combining+RE+Methods+for+Performance+Requirements+in+Industry%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Rebekka Wohlrab, Thijmen de Gooijer, Anne Koziolek, and Steffen Becker",
+            "AffiliationsString": "ABB Research, Sweden; KIT, Germany; University of Paderborn, Germany",
+            "Authors": [
+                "Rebekka Wohlrab @ ABB Research, Sweden",
+                "Thijmen de Gooijer @ ABB Research, Sweden",
+                "Anne Koziolek @ KIT, Germany",
+                "Steffen Becker @ University of Paderborn, Germany"
+            ],
+            "Affiliations": [
+                "ABB Research, Sweden",
+                "ABB Research, Sweden",
+                "KIT, Germany",
+                "University of Paderborn, Germany"
+            ],
+            "Abstract": "To meet end-user performance expectations, precise performance requirements are needed during development and testing, e.g., to conduct detailed performance and load tests. However, in practice, several factors complicate performance requirements elicitation: lacking skills in performance requirements engineering, outdated or unavailable functional specifications and architecture models, the specification of the system&#039;s context, lack of experience to collect good performance requirements in an industrial setting with very limited time, etc. From the small set of available non-functional requirements engineering methods, no method exists that alone leads to precise and complete performance requirements with feasible effort and which has been reported to work in an industrial setting. In this paper, we present our experiences in combining existing requirements engineering methods into a performance requirements method called PROPRE. It has been designed to require no up-to-date system documentation and to be applicable with limited time and effort. We have successfully applied PROPRE in an industrial case study from the process automation domain. Our lessons learned show that the stakeholders gathered good performance requirements which now improve performance testing.",
+            "Award": ""
+        },
+        {
+            "Title": "Lightweight Requirements Engineering Assessments in Software Projects",
+            "Type": "Industry Paper",
+            "Key": "re14ind-indp014-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDaniel+Rapp%2C+Anne+Hess%2C+Norbert+Seyff%2C+Peter+Sp%C3%B6rri%2C+Emmerich+Fuchs%2C+and+Martin+Glinz+%22Lightweight+Requirements+Engineering+Assessments+in+Software+Projects%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Daniel Rapp, Anne Hess, Norbert Seyff, Peter Spörri, Emmerich Fuchs, and Martin Glinz",
+            "AffiliationsString": "Zühlke Management Consultants, Switzerland; Fraunhofer IESE, Germany; University of Zurich, Switzerland",
+            "Authors": [
+                "Daniel Rapp @ Zühlke Management Consultants, Switzerland",
+                "Anne Hess @ Fraunhofer IESE, Germany",
+                "Norbert Seyff @ University of Zurich, Switzerland",
+                "Peter Spörri @ Zühlke Management Consultants, Switzerland",
+                "Emmerich Fuchs @ Zühlke Management Consultants, Switzerland",
+                "Martin Glinz @ University of Zurich, Switzerland"
+            ],
+            "Affiliations": [
+                "Zühlke Management Consultants, Switzerland",
+                "Fraunhofer IESE, Germany",
+                "University of Zurich, Switzerland",
+                "Zühlke Management Consultants, Switzerland",
+                "Zühlke Management Consultants, Switzerland",
+                "University of Zurich, Switzerland"
+            ],
+            "Abstract": "Requirements engineering (RE) is widely recognized as a crucial factor for the success of software projects. Therefore, companies often request assessments of RE processes and resulting artifacts to identify issues and improvement potential. However, industry claims that current assessment approaches do not always fulfill their needs regarding efficiency and effectiveness. Motivated by needs of both, companies asking for an assessment, and a company in the role of an assessor, we have developed a lightweight, tool-supported RE assessment approach. Apart from presenting the approach, we also discuss early experiences we gained from applying our assessment approach in real-world industrial projects.",
+            "Award": ""
+        },
+        {
+            "Title": "Capturing and Sharing Domain Knowledge with Business Rules: Lessons Learned from a Global Software Vendor",
+            "Type": "Industry Paper",
+            "Key": "re14ind-indp037-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DWalid+Maalej+and+Smita+Ghaisas+%22Capturing+and+Sharing+Domain+Knowledge+with+Business+Rules%3A+Lessons+Learned+from+a+Global+Software+Vendor%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Walid Maalej and Smita Ghaisas",
+            "AffiliationsString": "University of Hamburg, Germany; Tata Consultancy Services, India",
+            "Authors": [
+                "Walid Maalej @ University of Hamburg, Germany",
+                "Smita Ghaisas @ Tata Consultancy Services, India"
+            ],
+            "Affiliations": [
+                "University of Hamburg, Germany",
+                "Tata Consultancy Services, India"
+            ],
+            "Abstract": "Business rules represent constraints in a domain, which need to be taken into account either during the development or the usage of a system. Motivated by the knowledge reuse potentials when developing systems within the same domain, we studied business rules in a large software company. We interviewed 11 experienced practitioners on how they understand, capture, and use business rules. We also studied the role of business rules in requirements engineering in the host organization. We found that practitioners have a very broad perception for this term, ranging from flows of business processes to directives for calling external system interfaces. We identified 27 types of rules, which are typically captured as a free text in requirements documents and other project documentation. Practitioners stated the need to capture this tacit form of domain knowledge and to trace it to other artifacts as it impacts all activities in a software engineering project. We distill our results in 17 findings and discuss the implications for researchers and practitioners.",
+            "Award": ""
+        },
+        {
+            "Title": "Building a National E-Service using Sentire: Experience Report on the Use of Sentire: A Volere-Based Requirements Framework Driven by Calibrated Personas and Simulated User Feedback",
+            "Type": "Industry Paper",
+            "Key": "re14ind-indp024-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChris+Porter%2C+Emmanuel+Letier%2C+and+M.+Angela+Sasse+%22Building+a+National+E-Service+using+Sentire%3A+Experience+Report+on+the+Use+of+Sentire%3A+A+Volere-Based+Requirements+Framework+Driven+by+Calibrated+Personas+and+Simulated+User+Feedback%22",
+            "URLvideo": "http%3A%2F%2Fvimeo.com%2F85960146",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Chris Porter, Emmanuel Letier, and M. Angela Sasse",
+            "AffiliationsString": "University College London, UK",
+            "Authors": [
+                "Chris Porter @ University College London, UK",
+                "Emmanuel Letier @ University College London, UK",
+                "M. Angela Sasse @ University College London, UK"
+            ],
+            "Affiliations": [
+                "University College London, UK",
+                "University College London, UK",
+                "University College London, UK"
+            ],
+            "Abstract": "User experience (UX) is difficult to quantify and thus more challenging to require and guarantee. It is also difficult to gauge the potential impact on users’ lived experience, especially at the earlier stages of the development life cycle, particularly before hi fidelity prototypes are developed. We believe that the enrolment process is a major hurdle for e-government service adoption and badly designed processes might result in negative repercussions for both the policy maker and the different user groups involved; non-adoption and resentment are two risks that may result in low return on investment (ROI), lost political goodwill and ultimately a negative lived experience for citizens. Identity assurance requirements need to balance out the real value of the assets being secured (risk) with the user groups’ acceptance thresholds (based on a continuous cost-benefit exercise factoring in cognitive and physical workload). Sentire is a persona-centric requirements framework built on and extending the Volere requirements process with UX-analytics, reusable user behavioural models and simulated user feedback through calibrated personas. In this paper we present a story on how Sentire was adopted in the development of a national public-facing e-service. Daily journaling was used throughout the project and a custom built cloud-based CASE tool was used to manage the whole process. This paper outlines our experiences and lessons learnt.",
+            "Award": ""
+        },
+        {
+            "Title": "Competition and Collaboration in Requirements Engineering: A Case Study of an Emerging Software Ecosystem",
+            "Type": "Industry Paper",
+            "Key": "re14ind-indp025-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DGeorge+Valen%C3%A7a%2C+Carina+Alves%2C+Virg%C3%ADnia+Heimann%2C+Slinger+Jansen%2C+and+Sjaak+Brinkkemper+%22Competition+and+Collaboration+in+Requirements+Engineering%3A+A+Case+Study+of+an+Emerging+Software+Ecosystem%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "George Valença, Carina Alves, Virgínia Heimann, Slinger Jansen, and Sjaak Brinkkemper",
+            "AffiliationsString": "Federal Rural University of Pernambuco, Brazil; Federal University of Pernambuco, Brazil; Utrecht University, Netherlands",
+            "Authors": [
+                "George Valença @ Federal Rural University of Pernambuco, Brazil",
+                "Carina Alves @ Federal University of Pernambuco, Brazil",
+                "Virgínia Heimann @ Federal University of Pernambuco, Brazil",
+                "Slinger Jansen @ Utrecht University, Netherlands",
+                "Sjaak Brinkkemper @ Utrecht University, Netherlands"
+            ],
+            "Affiliations": [
+                "Federal Rural University of Pernambuco, Brazil",
+                "Federal University of Pernambuco, Brazil",
+                "Federal University of Pernambuco, Brazil",
+                "Utrecht University, Netherlands",
+                "Utrecht University, Netherlands"
+            ],
+            "Abstract": "Increasingly, small to medium software producing organisations are working together in collaboration networks to supply complex compositions of their products and services to customers. In this paper, we present a case study of two software companies that are evolving their partnership towards the creation of a software ecosystem. We investigate the impacts of their tightening partnership on software product management, with a focus on requirements engineering practices. We observe that the requirements definition and negotiation processes are directly affected by their fluid collaborative and competitive relationships. Power disputes, volatile roles and mismatches in release synchronisation are also aspects observed in the studied software ecosystem. We extract several observations from the case study that support small to medium software firms in making decisions within their software ecosystem.",
             "Award": ""
         },
         {
@@ -1106,57 +1309,28 @@
                 "State University of Rio de Janeiro, Brazil",
                 "Federal University of Rio de Janeiro, Brazil"
             ],
-            "Abstract": "Sustainability is one of the main driving forces in our society. IT can also contribute to sustainable development, which goes beyond the energy consumed to produce and run the software product. Software is normally part of a wider context, social-technical systems, whose development can have a significant impact on the sustainability of its surroundings. A particular type of system with considerable sustainability impact are procurement systems. They normally affect the three pillars of sustainability: social, economic and environmental. This paper describes an experience on using goal modelling to incorporate sustainability into the procurement system of a large multinational energy company. The study highlights the advantages and challenges of introducing sustainability into private procurement systems, as well as the suitability of the technique for such a purpose. Furthermore, we believe this experience and its resulting model can be useful to other companies wishing to implement sustainable procurement processes.",
+            "Abstract": "Sustainability is one of the main driving forces in our society. IT can also contribute to sustainable development, which goes beyond the energy consumed to produce and run the software product. Software is normally part of a wider context, social-technical systems, whose development can have a significant impact on the sustainability of its surroundings. A particular type of system with considerable sustainability impact are procurement systems. They normally affect the three pillars of sustainability: social, economic and environmental. This paper describes an experience on using goal modelling to incorporate sustainability into the procurement system of a large multinational energy company. The study highlights the advantages and challenges of introducing sustainability into private procurement systems, as well as the suitability of the technique for such a purpose. We believe this experience and its resulting model can be useful to other companies wishing to implement sustainable procurement processes.",
             "Award": ""
         },
         {
-            "Title": "Lightweight Requirements Engineering Assessments in Software Projects",
+            "Title": "A Case Study using a Protocol to Derive Safety Functional Requirements from Fault Tree Analysis",
             "Type": "Industry Paper",
-            "Key": "re14ind-indp014-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDaniel+Rapp%2C+Anne+Hess%2C+Norbert+Seyff%2C+Peter+Sp%C3%B6rri%2C+Martin+Glinz%2C+and+Emmerich+Fuchs+%22Lightweight+Requirements+Engineering+Assessments+in+Software+Projects%22",
+            "Key": "re14ind-indp022-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLuiz+Eduardo+Galv%C3%A3o+Martins+and+Tiago+de+Oliveira+%22A+Case+Study+using+a+Protocol+to+Derive+Safety+Functional+Requirements+from+Fault+Tree+Analysis%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Daniel Rapp, Anne Hess, Norbert Seyff, Peter Spörri, Martin Glinz, and Emmerich Fuchs",
-            "AffiliationsString": "Zühlke Management Consultants, Switzerland; Fraunhofer IESE, Germany; University of Zurich, Switzerland",
+            "PersonsString": "Luiz Eduardo Galvão Martins and Tiago de Oliveira",
+            "AffiliationsString": "Federal University of São Paulo, Brazil",
             "Authors": [
-                "Daniel Rapp @ Zühlke Management Consultants, Switzerland",
-                "Anne Hess @ Fraunhofer IESE, Germany",
-                "Norbert Seyff @ University of Zurich, Switzerland",
-                "Peter Spörri @ Zühlke Management Consultants, Switzerland",
-                "Martin Glinz @ University of Zurich, Switzerland",
-                "Emmerich Fuchs @ Zühlke Management Consultants, Switzerland"
+                "Luiz Eduardo Galvão Martins @ Federal University of São Paulo, Brazil",
+                "Tiago de Oliveira @ Federal University of São Paulo, Brazil"
             ],
             "Affiliations": [
-                "Zühlke Management Consultants, Switzerland",
-                "Fraunhofer IESE, Germany",
-                "University of Zurich, Switzerland",
-                "Zühlke Management Consultants, Switzerland",
-                "University of Zurich, Switzerland",
-                "Zühlke Management Consultants, Switzerland"
+                "Federal University of São Paulo, Brazil",
+                "Federal University of São Paulo, Brazil"
             ],
-            "Abstract": "Requirements engineering (RE) is widely recognized as a crucial factor for the success of software projects. Therefore, companies often request assessments of RE processes and resulting artifacts to identify issues and improvement potential. However, industry claims that current assessment approaches do not always fulfill their needs regarding efficiency and effectiveness. This paper introduces a lightweight, tool-supported RE assessment approach that has been designed to satisfy those demands from industry. We discuss the perspective of companies asking for an assessment and also highlight needs from the perspective of a company in the role of an assessor. Furthermore, we present lessons learned gained from the initial applications of the assessment approach in industry projects.",
-            "Award": ""
-        },
-        {
-            "Title": "The Effect of Variability Modeling on Requirements Satisfaction for the Configuration and Implementation of Off-the-Shelf Software Packages",
-            "Type": "Industry Paper",
-            "Key": "re14ind-indp015-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNeil+Maiden+and+Amanda+Rubython+%22The+Effect+of+Variability+Modeling+on+Requirements+Satisfaction+for+the+Configuration+and+Implementation+of+Off-the-Shelf+Software+Packages%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "DOI": "",
-            "PersonsString": "Neil Maiden and Amanda Rubython",
-            "AffiliationsString": "City University London, UK; Kineo, UK",
-            "Authors": [
-                "Neil Maiden @ City University London, UK",
-                "Amanda Rubython @ Kineo, UK"
-            ],
-            "Affiliations": [
-                "City University London, UK",
-                "Kineo, UK"
-            ],
-            "Abstract": "An industrial experience of the use of a method for discovering customer requirements with which to configure an off-the-shelf software package for implementation is reported. The method uses an adapted form of product variability model to provide common ground between the customer and supplier about requirements and capabilities. An associated decision support software tool guides the supplier and customer through a model-based walkthrough to discover new requirements, based on equivalent capabilities described in the product variability model. We applied the method in the work processes of the commercial provider of a software-based learning management system, and collected quantitative and qualitative data from supplier-customer interactions. Our first experienc-es with the method led to an increased exposure and expression of customer requirements in the customer-supplier dialogue, compared to the baseline dialogue during software package demonstrations. The paper also reports some first lessons learned to improve the method and adopt its use with other software supplier organizations.",
+            "Abstract": "State-of-the-art in Requirements Engineering offers many frameworks and techniques to enable requirements engineers in their work. However, for critical systems there are gaps in state-of-the-art, and these can result in dire consequences, potentially putting lives in danger and damage infrastructure and threaten the environment. A well known technique used to help requirements engineers to understand safety hazards situations in the context of safety-critical software is Fault Tree Analysis (FTA). This technique is a good one to decompose hazards identified in the system context into events that may put the system functionalities in risk. However, FTA does not offer a protocol of how to derive safety functional requirements from fault trees. In this paper we present a case study adopting a protocol to help requirements engineers to derive safety functional requirements from FTA. The proposed protocol was based on a study performed in a Brazilian company in the area of electronic medical devices. The development of prototype of a low cost insulin infusion pump, which is a critical system, offered the basis to propose and test a protocol to derive safety functional requirements from FTA. During the case study we collected evidences that help us to discuss if FTA is sufficient to guide software engineers to implement the corresponding control software and also if FTA offers enough information to help requirements engineers to derive safety functional requirements.",
             "Award": ""
         },
         {
@@ -1189,120 +1363,45 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Jiale Zhou, Yue Lu, Kristina Lundqvist, Henrik Lönn, Daniel Karlsson, and Bo Liwång",
-            "AffiliationsString": "Mälardalen University, Sweden; Volvo Technology, Sweden; Swedish Radiation Safety Authority, Sweden",
+            "AffiliationsString": "Mälardalen University, Sweden; Volvo, Sweden; Swedish Radiation Safety Authority, Sweden",
             "Authors": [
                 "Jiale Zhou @ Mälardalen University, Sweden",
                 "Yue Lu @ Mälardalen University, Sweden",
                 "Kristina Lundqvist @ Mälardalen University, Sweden",
-                "Henrik Lönn @ Volvo Technology, Sweden",
-                "Daniel Karlsson @ Volvo Technology, Sweden",
+                "Henrik Lönn @ Volvo, Sweden",
+                "Daniel Karlsson @ Volvo, Sweden",
                 "Bo Liwång @ Swedish Radiation Safety Authority, Sweden"
             ],
             "Affiliations": [
                 "Mälardalen University, Sweden",
                 "Mälardalen University, Sweden",
                 "Mälardalen University, Sweden",
-                "Volvo Technology, Sweden",
-                "Volvo Technology, Sweden",
+                "Volvo, Sweden",
+                "Volvo, Sweden",
                 "Swedish Radiation Safety Authority, Sweden"
             ],
             "Abstract": "In the modern automotive industry, feature models have been widely used as a domain-specific requirements model, which can capture commonality and variability of a software product line through a set of features. Product variants can thus be configured by selecting different sets of features from the feature model. For feature-oriented requirements validation, the variability of feature sets often makes the hidden flaws such as behavioral inconsistencies of features, hardly to avoid. In this paper, we present an approach to feature-oriented requirements validation for automotive systems w.r.t both functional behaviors and non-functional properties. Our approach first starts with the behavioral specification of features and the associated requirements by following a restricted use case modeling approach, and then formalizes such specifications by using a formal yet literate language for analysis. We demonstrate the applicability of our approach through an industrial application of a vehicle locking-unlocking system.",
             "Award": ""
         },
         {
-            "Title": "A Case Study using a Protocol to Derive Safety Functional Requirements from Fault Tree Analysis",
+            "Title": "Product Knowledge Configurator for Requirements Gap Analysis and Customizations",
             "Type": "Industry Paper",
-            "Key": "re14ind-indp022-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLuiz+Eduardo+Galv%C3%A3o+Martins+and+Tiago+de+Oliveira+%22A+Case+Study+using+a+Protocol+to+Derive+Safety+Functional+Requirements+from+Fault+Tree+Analysis%22",
+            "Key": "re14ind-indp032-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPreethu+Rose+Anish+and+Smita+Ghaisas+%22Product+Knowledge+Configurator+for+Requirements+Gap+Analysis+and+Customizations%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Luiz Eduardo Galvão Martins and Tiago de Oliveira",
-            "AffiliationsString": "Federal University of São Paulo, Brazil",
+            "PersonsString": "Preethu Rose Anish and Smita Ghaisas",
+            "AffiliationsString": "Tata Consultancy Services, India",
             "Authors": [
-                "Luiz Eduardo Galvão Martins @ Federal University of São Paulo, Brazil",
-                "Tiago de Oliveira @ Federal University of São Paulo, Brazil"
+                "Preethu Rose Anish @ Tata Consultancy Services, India",
+                "Smita Ghaisas @ Tata Consultancy Services, India"
             ],
             "Affiliations": [
-                "Federal University of São Paulo, Brazil",
-                "Federal University of São Paulo, Brazil"
+                "Tata Consultancy Services, India",
+                "Tata Consultancy Services, India"
             ],
-            "Abstract": "State-of-the-art in Requirements Engineering offers many frameworks and techniques to enable requirements engineers in their work. However, for critical systems there are gaps in state-of-the-art, and these can result in dire consequences, potentially putting lives in danger and damage infrastructure and threaten the environment. A well known technique used to help requirements engineers to understand safety hazards situations in the context of safety-critical software is Fault Tree Analysis (FTA). This technique is a good one to decompose hazards identified in the system context into events that may put the system functionalities in risk. However, FTA does not offer a protocol of how to derive safety functional requirements from fault trees. In this paper we present a case study adopting a protocol to help requirements engineers to derive safety functional requirements from FTA. The proposed protocol was based on a study performed in a Brazilian industry in the area of electronic medical devices. The development of prototype of a low cost insulin infusion pump, which is a critical system, offered the basis to propose and test a protocol to derive safety functional requirements from FTA. During the case study we collected evidences that help us to discuss if FTA is sufficient to guide software engineers to implement the corresponding control software and also if FTA offers enough information to help requirements engineers to derive safety functional requirements.",
-            "Award": ""
-        },
-        {
-            "Title": "Building a National E-Service using Sentire: Experience Report on the Use of Sentire: A Volere-Based Requirements Framework Driven by Calibrated Personas and Simulated User Feedback",
-            "Type": "Industry Paper",
-            "Key": "re14ind-indp024-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChris+Porter%2C+Emmanuel+Letier%2C+and+M.+Angela+Sasse+%22Building+a+National+E-Service+using+Sentire%3A+Experience+Report+on+the+Use+of+Sentire%3A+A+Volere-Based+Requirements+Framework+Driven+by+Calibrated+Personas+and+Simulated+User+Feedback%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "DOI": "",
-            "PersonsString": "Chris Porter, Emmanuel Letier, and M. Angela Sasse",
-            "AffiliationsString": "University College London, UK",
-            "Authors": [
-                "Chris Porter @ University College London, UK",
-                "Emmanuel Letier @ University College London, UK",
-                "M. Angela Sasse @ University College London, UK"
-            ],
-            "Affiliations": [
-                "University College London, UK",
-                "University College London, UK",
-                "University College London, UK"
-            ],
-            "Abstract": "User experience is difficult to quantify and thus more challenging to require and guarantee. It is also difficult to gauge the potential impact on users’ lived experience, especially at the earlier stages of the development life cycle, particularly before hi-fidelity prototypes are developed. We believe that the enrolment process is a major hurdle for e-government service adoption and badly designed processes might result in negative repercussions for both the policy maker and the different user groups involved; non-adoption and resentment are two risks that may result in low return on investment (ROI), lost political goodwill and ultimately a negative lived experience for citizens. Identity assurance requirements need to balance out the real value of the assets being secured (risk) with the user groups’ acceptance thresholds (based on a continuous cost-benefit exercise factoring in cognitive and physical workload). Sentire is a persona-centric requirements framework built on and extending the Volere requirements process with UX-analytics, reusable user behavioural models and simulated user feedback through calibrated personas. In this paper we present a story on how Sentire was adopted in the development of a national public-facing e-service. Daily journaling was used throughout the project and a custom built CASE tool was used to manage to whole process. This paper outlines our experiences and lessons learnt",
-            "Award": ""
-        },
-        {
-            "Title": "Competition and Collaboration in Requirements Engineering: A Case Study of an Emerging Software Ecosystem",
-            "Type": "Industry Paper",
-            "Key": "re14ind-indp025-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DGeorge+Valen%C3%A7a%2C+Carina+Alves%2C+Virg%C3%ADnia+Heimann%2C+Slinger+Jansen%2C+and+Sjaak+Brinkkemper+%22Competition+and+Collaboration+in+Requirements+Engineering%3A+A+Case+Study+of+an+Emerging+Software+Ecosystem%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "DOI": "",
-            "PersonsString": "George Valença, Carina Alves, Virgínia Heimann, Slinger Jansen, and Sjaak Brinkkemper",
-            "AffiliationsString": "Federal Rural University of Pernambuco, Brazil; Federal University of Pernambuco, Brazil; Utrecht University, Netherlands",
-            "Authors": [
-                "George Valença @ Federal Rural University of Pernambuco, Brazil",
-                "Carina Alves @ Federal University of Pernambuco, Brazil",
-                "Virgínia Heimann @ Federal University of Pernambuco, Brazil",
-                "Slinger Jansen @ Utrecht University, Netherlands",
-                "Sjaak Brinkkemper @ Utrecht University, Netherlands"
-            ],
-            "Affiliations": [
-                "Federal Rural University of Pernambuco, Brazil",
-                "Federal University of Pernambuco, Brazil",
-                "Federal University of Pernambuco, Brazil",
-                "Utrecht University, Netherlands",
-                "Utrecht University, Netherlands"
-            ],
-            "Abstract": "Increasingly, small to medium software producing organisations are working together in collaboration networks to supply complex compositions of their products and services to customers. In this paper, we present a case study of two software companies that are evolving their partnership towards the creation of a software ecosystem. We investigate the impacts of their tightening partnership on software product management, with a focus on requirements engineering practices. We observe that the requirements definition and negotiation processes are directly affected by their fluid collaborative and competitive relationships. Power disputes, volatile roles and mismatches in release synchronisation are also aspects observed in the studied software ecosystem. We extract several observations from the case study that support small to medium software firms in making decisions within their software ecosystem.",
-            "Award": ""
-        },
-        {
-            "Title": "Experience of Pragmatically Combining RE Methods for Performance Requirements in Industry",
-            "Type": "Industry Paper",
-            "Key": "re14ind-indp027-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRebekka+Wohlrab%2C+Thijmen+de+Gooijer%2C+Anne+Koziolek%2C+and+Steffen+Becker+%22Experience+of+Pragmatically+Combining+RE+Methods+for+Performance+Requirements+in+Industry%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "DOI": "",
-            "PersonsString": "Rebekka Wohlrab, Thijmen de Gooijer, Anne Koziolek, and Steffen Becker",
-            "AffiliationsString": "ABB Research, Germany; ABB Research, Sweden; KIT, Germany; University of Paderborn, Germany",
-            "Authors": [
-                "Rebekka Wohlrab @ ABB Research, Germany",
-                "Thijmen de Gooijer @ ABB Research, Sweden",
-                "Anne Koziolek @ KIT, Germany",
-                "Steffen Becker @ University of Paderborn, Germany"
-            ],
-            "Affiliations": [
-                "ABB Research, Germany",
-                "ABB Research, Sweden",
-                "KIT, Germany",
-                "University of Paderborn, Germany"
-            ],
-            "Abstract": "To meet end-user performance expectations, precise performance requirements are needed during development and testing, e.g., to conduct detailed performance and load tests. However, in practice, several factors complicate performance requirements elicitation: lacking skills in performance requirements engineering, outdated or unavailable functional specifications and architecture models, the specification of the system&#039;s context, lack of experience to collect good performance requirements in an industrial setting with very limited time, etc. From the small set of available quality requirements engineering methods, no methods exist that lead to precise and complete performance requirements with feasible effort and which has been reported to work in an industrial setting. In this paper, we present our experiences in combining existing requirements elicitation and specification methods in a performance requirements method called PROPRE. It has been designed to require no up-to-date system documentation and to be applicable with limited time and effort. We have successfully applied PROPRE in an industrial case study from the process automation domain. Our lessons learned show that the stakeholders gathered good performance requirements which now improve performance testing.",
+            "Abstract": "Product knowledge plays an important role in identifying the requirements of the desired variant and configuring the existing product to the present needs of a customer. The success of a product-based business depends to a great extent on how efficiently and accurately the existing product knowledge is utilized for customization needs. Oftentimes however, product knowledge resides with few key individuals in an organization. In the absence of their involvement, project teams may redevelop product features unnecessarily, resulting in an effort overhead. Such overdependence poses a risk to projects. To identify the requirements for the variants accurately and efficiently, we need to have a thorough knowledge of the existing product features. In this paper, we discuss our work on representing product knowledge and reusing it in a Requirements Engineering (RE) exercise for a large project involving product customization. We present our experience from using the configurator for requirements gap analysis and customizations.",
             "Award": ""
         },
         {
@@ -1325,49 +1424,7 @@
                 "Scania, Sweden",
                 "Mälardalen University, Sweden"
             ],
-            "Abstract": "The importance of using formal methods and techniques for verification of requirements in the automotive industry has been greatly emphasized with the introduction of the new ISO26262 standard for road vehicles functional safety. The lack of support for formal modeling of requirements still represents an obstacle for the adoption of the formal methods in industry. This paper presents a case study that has been conducted in order to evaluate the difficulties inherent to the process of transforming the system requirements from their traditional written form into semi-formal notation. The case study takes a complete set of non-structured requirements from a major truck manufacturer, written in natural language, and reassesses the applicability of the extended Specification Pattern System (SPS) represented in a restricted English grammar. Correlating this experience with former studies, we observe that, as previously claimed, the concept of patterns is likely to be generally applicable for the automotive domain. Additionally, we have identified some potential difficulties in the transformation process, which were not reported by the previous studies and will be used as a basis for further research.",
-            "Award": ""
-        },
-        {
-            "Title": "Product Knowledge Configurator for Requirements Gap Analysis and Customizations",
-            "Type": "Industry Paper",
-            "Key": "re14ind-indp032-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPreethu+Rose+Anish+and+Smita+Ghaisas+%22Product+Knowledge+Configurator+for+Requirements+Gap+Analysis+and+Customizations%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "DOI": "",
-            "PersonsString": "Preethu Rose Anish and Smita Ghaisas",
-            "AffiliationsString": "Tata Consultancy Services, India",
-            "Authors": [
-                "Preethu Rose Anish @ Tata Consultancy Services, India",
-                "Smita Ghaisas @ Tata Consultancy Services, India"
-            ],
-            "Affiliations": [
-                "Tata Consultancy Services, India",
-                "Tata Consultancy Services, India"
-            ],
-            "Abstract": "Product knowledge plays an important role in identifying the requirements of the desired variant and configuring the existing product to the present needs of a customer. The success of a product-based business depends to a great extent on how efficiently and accurately the existing product knowledge is utilized for customization needs. Oftentimes however, product knowledge resides with few key individuals in an organization. In the absence of their involvement, project teams may redevelop product features unnecessarily, resulting in an effort overhead. To identify the requirements for the variants accurately and efficiently, we need to have a thorough knowledge of the existing product features.In this paper, we discuss our work on a Product Knowledge Configurator to represent product knowledge and reuse it in Requirements Engineering (RE) exercises for large projects. We present our experience from using the configurator for requirements gap analysis and demonstrate the productivity and quality gains in a large Insurance project.",
-            "Award": ""
-        },
-        {
-            "Title": "Capturing and Sharing Domain Knowledge with Business Rules: Lessons Learned from a Global Software Vendor",
-            "Type": "Industry Paper",
-            "Key": "re14ind-indp037-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DWalid+Maalej+and+Smita+Ghaisas+%22Capturing+and+Sharing+Domain+Knowledge+with+Business+Rules%3A+Lessons+Learned+from+a+Global+Software+Vendor%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "DOI": "",
-            "PersonsString": "Walid Maalej and Smita Ghaisas",
-            "AffiliationsString": "University of Hamburg, Germany; Tata Consultancy Services, India",
-            "Authors": [
-                "Walid Maalej @ University of Hamburg, Germany",
-                "Smita Ghaisas @ Tata Consultancy Services, India"
-            ],
-            "Affiliations": [
-                "University of Hamburg, Germany",
-                "Tata Consultancy Services, India"
-            ],
-            "Abstract": "Business rules represent constraints in a domain, which need to be taken into account either during the development or the usage of a system. Motivated by the knowledge reuse potentials when developing systems within the same domain, we studied business rules in a large outsourcing company and a global software vendor. We interviewed 11 experienced practitioners on how they understand, capture, and use business rules. We also studied the role of business rules in requirements engineering in the host organization. We found that practitioners have a very broad perception for this term, ranging from flows of business processes to directives for calling external system interfaces. We identified 27 types of rules, which are typically captured as a free text in requirements documents and other project documentation. Practitioners stated the need to capture this tacit form of domain knowledge and to trace it to other artifacts as it impacts all activities in their projects. We distill our findings in 17 lessons learned and discuss the implications for researchers and practitioners.",
+            "Abstract": "The importance of using formal methods and techniques for verification of requirements in the automotive industry has been greatly emphasized with the introduction of the new ISO26262 standard for road vehicles functional safety. The lack of support for formal modeling of requirements still represents an obstacle for the adoption of the formal methods in industry. This paper presents a case study that has been conducted in order to evaluate the difficulties inherent to the process of transforming the system requirements from their traditional written form into semi-formal notation. The case study focuses on a set of non-structured functional requirements for the Electrical and Electronic (E/E) systems inside heavy road vehicles, written in natural language, and reassesses the applicability of the extended Specification Pattern System (SPS) represented in a restricted English grammar. Correlating this experience with former studies, we observe that, as previously claimed, the concept of patterns is likely to be generally applicable for the automotive domain. Additionally, we have identified some potential difficulties in the transformation process, which were not reported by the previous studies and will be used as a basis for further research.",
             "Award": ""
         },
         {
@@ -1379,14 +1436,14 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Feng Chen",
-            "AffiliationsString": "University of Limerick, Ireland",
+            "AffiliationsString": "University of Limerick, Ireland; Lero, Ireland",
             "Authors": [
-                "Feng Chen @ University of Limerick, Ireland"
+                "Feng Chen @ University of Limerick, Ireland / Lero, Ireland"
             ],
             "Affiliations": [
-                "University of Limerick, Ireland"
+                "University of Limerick, Ireland / Lero, Ireland"
             ],
-            "Abstract": "",
+            "Abstract": "The importance of software requirements is widely acknowledged. However, many software projects still exhibit inadequate Requirements Engineering (RE) practice. More importantly, dealing with Non-Functional Requirements (NFRs) remains as a challenge for software practitioners. This research aims at advancing RE practice through the co-development of requirements and architecture by utilizing the relationship between Architecturally Significant Requirements (ASRs) and Architectural Design Decisions (ADDs).",
             "Award": ""
         },
         {
@@ -1405,26 +1462,26 @@
             "Affiliations": [
                 "University of Leicester, UK"
             ],
-            "Abstract": "",
+            "Abstract": "Software, as any other product, must be account for its effects on sustainability of its production and use environments. This research focuses on the social aspect of sustainable development. Currently, there are neither clear methods for evaluating social sustainability of a software system at requirements level nor a comprehensive set of metrics for social sustainability useable in requirements analysis. This research aims to develop a set of such metrics and an accompanying method for analyzing social sustainability requirements of software systems.",
             "Award": ""
         },
         {
             "Title": "Improving Collaborative and Post-WIMP Systems through Requirements Specification",
             "Type": "Doctoral Symposium",
             "Key": "re14doc-docid2-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMiguel+A.+Teruel+%22Improving+Collaborative+and+Post-WIMP+Systems+through+Requirements+Specification%22",
-            "URLvideo": "",
-            "URLinfo": "",
+            "URL": "http%3A%2F%2Fwww.mteruel.es%2Fpapers%2FREDS2014_preprint.pdf",
+            "URLvideo": "https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DQUWFo1Lw8Q8",
+            "URLinfo": "http%3A%2F%2Fwww.mteruel.es",
             "DOI": "",
             "PersonsString": "Miguel A. Teruel",
-            "AffiliationsString": "University of Castilla - La Mancha, Spain",
+            "AffiliationsString": "University of Castile–La Mancha, Spain",
             "Authors": [
-                "Miguel A. Teruel @ University of Castilla - La Mancha, Spain"
+                "Miguel A. Teruel @ University of Castile–La Mancha, Spain"
             ],
             "Affiliations": [
-                "University of Castilla - La Mancha, Spain"
+                "University of Castile–La Mancha, Spain"
             ],
-            "Abstract": "",
+            "Abstract": "A proper requirements specification is paramount for achieving the quality of the developed software products. However, well-known Requirements Engineering (RE) techniques lack of enough expressiveness to model the requirements of CSCW systems (Computer Supported Collaborative Work). This is due to the inherent complexity of collaboration among users and their need of awareness. Moreover, the way in which users interact with CSCW systems have evolved greatly to more sophisticated interfaces, beyond the classical desktop computer environments, to those called Post-WIMP (Windows, Icons, Menus, Pointer). Awareness is magnified in such a way that users have to be aware of their context: the artifacts with which to interact, his/her own capabilities as well as those of the others. All this awareness is necessary to allow them to collaborate in virtual and/or augmented environments. This PhD thesis aims at solving this problem by developing a RE framework able to deal with the requirements of CSCW and Post-WIMP systems, making emphasis on the awareness requirements about user’s context.",
             "Award": ""
         },
         {
@@ -1443,26 +1500,26 @@
             "Affiliations": [
                 "Mississippi State University, USA"
             ],
-            "Abstract": "",
+            "Abstract": "Requirements engineering (RE) involves human-centric activities that require interaction among different stakeholders. Traditionally, RE has been considered as a centralized, collocated, and phase-specific process. However, in open-source software (OSS) development environment, the core RE activities are iterative and dynamic and follow a rather decentralized software engineering paradigm. This crosscutting characteristic of open-source RE can be conceptualized using the &quot;Twin Peaks&quot; model that weaves RE together with software architecture. Although many weaving mechanisms have been proposed in recent years, lack of theoretical underpinning limits a mechanism&#039;s applicability and usefulness in different scenarios. In this research proposal, we hypothesize stakeholders&#039; social interaction as an ecologically valid weaving mechanism of the &quot;Twin Peaks&quot; in open-source RE. We further outline a concrete research plan to examine the generalizability of this weaving mechanism for three activities: requirements identification, requirements implementation, and creativity in RE. Carrying out this research plan will enable us to gain valuable insights to generate guidelines for enhancing software engineering practice in relevant areas.",
             "Award": ""
         },
         {
-            "Title": "A user-centered method for aligning services to requirements",
+            "Title": "Aligning Services and Requirements with User Feedback",
             "Type": "Doctoral Symposium",
             "Key": "re14doc-docid3-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMuneera+Bano+%22A+user-centered+method+for+aligning+services+to+requirements%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMuneera+Bano+%22Aligning+Services+and+Requirements+with+User+Feedback%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Muneera Bano",
-            "AffiliationsString": "Faculty of Engineering and IT, University of Technology Sydney, Australia",
+            "AffiliationsString": "University of Technology Sydney, Australia",
             "Authors": [
-                "Muneera Bano @ Faculty of Engineering and IT, University of Technology Sydney, Australia"
+                "Muneera Bano @ University of Technology Sydney, Australia"
             ],
             "Affiliations": [
-                "Faculty of Engineering and IT, University of Technology Sydney, Australia"
+                "University of Technology Sydney, Australia"
             ],
-            "Abstract": "",
+            "Abstract": "For analysts the alignment between the requirements and the available services presents a significant challenge in service oriented paradigm. To address this challenge various technical solutions have already been proposed. Although technical issues play an important role in this selection but organizational and social factors are equally as important in selecting an optimally aligned service for a specific requirement. The users of services are mostly ignored in the alignment process. User feedback analysis has recently gained a lot of research focus, but these benefits have not been fully explored and utilized in service oriented software development. In this paper I present a method for aligning services to requirements that is designed using the Situational Method Engineering approach and it incorporates user feedback about the services. This feedback assists the analysts in extracting required information for making informed decisions while selecting services among available options that satisfies both the user requirements and customer preferences. The method is supported by a proposed tool. The method and the supporting tool will be validated by a controlled experiment and focus group feedback from the practitioners.",
             "Award": ""
         },
         {
@@ -1481,14 +1538,14 @@
             "Affiliations": [
                 "Mälardalen University, Sweden"
             ],
-            "Abstract": "",
+            "Abstract": "It is well recognized that most of the anomalies, discovered in the development of embedded real-time systems, belong to requirement and specification phases. To ease the situation, many efforts have been investigated into the area. For requirements development, especially requirements validation and verification, model-driven architecture techniques can be considered as a cost-efficient solution. In order to utilize such advantages, the design of the proposed system is often specified in terms of analyzable models at the certain level of abstraction. Further, different levels of requirements are translated into verifiable queries and fed into the models to be either validated or verified. For requirements management, requirements traceability provides critical support for performing change impact analysis, risk analysis, regression testing, etc. In this thesis, we cover several topics about requirements validation, requirements verification, and requirements traceability. In particular, the technical contributions are three-fold: 1) we propose an approach to requirements validation by using the extended Timed Abstract State Machine (TASM) language with newly defined TASM constructs and, 2) we present a simulation-based method which is powered up by statistical techniques to conduct requirements verification, working with industrial applications and, 3) we introduce an improved VSM-based requirements traceability recovery approach using a novel context analysis. Further, we have demonstrated the applicability of our contributions in real world usage through various case studies.",
             "Award": ""
         },
         {
-            "Title": "Context-sensitive information security risk identification and evaluation techniques",
+            "Title": "Context-Sensitive Information Security Risk Identification and Evaluation Techniques",
             "Type": "Doctoral Symposium",
             "Key": "re14doc-docid1-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDan+Ionita+%22Context-sensitive+information+security+risk+identification+and+evaluation+techniques%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DDan+Ionita+%22Context-Sensitive+Information+Security+Risk+Identification+and+Evaluation+Techniques%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
@@ -1500,7 +1557,7 @@
             "Affiliations": [
                 "University of Twente, Netherlands"
             ],
-            "Abstract": "",
+            "Abstract": "The objective of my research is to improve and support the process of Information security Risk Assessment by designing a scalable Risk argumentation framework for socio-digital- technical Risk. Due to the various types of IT systems, diversity of architectures and dynamic nature of Risk, there is no one-size-fits all RA method. As such, the research hopes to identify guidelines for conducting Risk Assessments in contexts that raise special challenges such as Telecom and virtualized infrastructures. Finally, it will suggest ways of qualitatively and quantitatively evaluating Information Security Risks in such scenarios by using argumentation and/or modelling attacker business cases.",
             "Award": ""
         },
         {
@@ -1519,47 +1576,45 @@
             "Affiliations": [
                 "Riga Technical University, Latvia"
             ],
-            "Abstract": "",
+            "Abstract": "Organizations must comply with a number of external and internal regulations for business governance and must ensure that their processes are running accordingly to requirements of regulations. Therefore business process and regulations compliance analysis audit and management tasks take a very important role in daily operational activities for each organization. Due to high complexity this task can become challenging. In some domains regulations are changing rapidly. Process models must be flexible and easy adjustable to changing requirements, since the lack of ability to comply with regulations can lower down the competitiveness of an organizations. Thus, rapid changes of regulations require rapid changes of related business processes. The goal of the PhD work is to develop business process and regulations compliance management technology which should enable business process construction from regulations and change monitoring of regulations and business processes to ensure easy and rapid modification of business process model or regulations, thus also ensuring compliance.",
             "Award": ""
         },
         {
             "Title": "Creative Strategic Scenarios for Preparation to Requirements Evolution",
             "Type": "Doctoral Symposium",
             "Key": "re14doc-docid12-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMarilia+Guterres+Ferreira+and+Julio+Cesar+Leite+%22Creative+Strategic+Scenarios+for+Preparation+to+Requirements+Evolution%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMar%C3%ADlia+Guterres+Ferreira+%22Creative+Strategic+Scenarios+for+Preparation+to+Requirements+Evolution%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Marilia Guterres Ferreira and Julio Cesar Leite",
-            "AffiliationsString": "Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio), Brazil; PUC-Rio, Brazil",
+            "PersonsString": "Marília Guterres Ferreira",
+            "AffiliationsString": "PUC-Rio, Brazil",
             "Authors": [
-                "Marilia Guterres Ferreira @ Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio), Brazil",
-                "Julio Cesar Leite @ PUC-Rio, Brazil"
+                "Marília Guterres Ferreira @ PUC-Rio, Brazil"
             ],
             "Affiliations": [
-                "Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio), Brazil",
                 "PUC-Rio, Brazil"
             ],
-            "Abstract": "",
+            "Abstract": "The focus of this research is Creative Strategic Scenarios as predictive models of software evolution for socio-technical systems in organizations. This research seeks to combine theories of Strategic Planning and Creativity to generate strategic scenarios that could predict Organizational Changes. The work will integrate scenarios and the i* goal modelling mechanism to analyse the impacts of organizational change through strategic scenarios.",
             "Award": ""
         },
         {
-            "Title": "Towards media supported agile release planning in distributed work environments",
+            "Title": "Towards Media Supported Agile Release Planning in Distributed Work Environments",
             "Type": "Doctoral Symposium",
             "Key": "re14doc-docid10-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DIngo+Richter+%22Towards+media+supported+agile+release+planning+in+distributed+work+environments%22",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DIngo+Richter+%22Towards+Media+Supported+Agile+Release+Planning+in+Distributed+Work+Environments%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Ingo Richter",
-            "AffiliationsString": "Munich University of Applied Sciences, Germany",
+            "AffiliationsString": "Munich University of Applied Sciences, Germany; Ulm University, Germany",
             "Authors": [
-                "Ingo Richter @ Munich University of Applied Sciences, Germany"
+                "Ingo Richter @ Munich University of Applied Sciences, Germany / Ulm University, Germany"
             ],
             "Affiliations": [
-                "Munich University of Applied Sciences, Germany"
+                "Munich University of Applied Sciences, Germany / Ulm University, Germany"
             ],
-            "Abstract": "",
+            "Abstract": "Agile software development is getting more popular in research and practice. It is said to bring different advantages in contrast to traditional software development, especially when applied in small teams. Numerous studies have already shown evidence for these claims. But companies are not only using agile methods for small scale projects; nowadays agile methods are regularly used in complex distributed projects. Agility fosters the use of paper based media, which is a problem in distributed projects, because of the physical bonding of paper based media to a specific location. Whether a project is using agile or traditional software development methods: Distributed projects face many other problems, e.g. different participating companies, distributed team members, organizational and cultural differences. To narrow down this broad field of research, we have conducted a literature research and interview study. We found that a key challenge in distributed agile software development projects is insular thinking among the stakeholders. In practice, this hinders agile release planning in distributed work environments. Thus, we focus our research on how to break up insular thinking among the stakeholders of distributed agile projects. We believe that this can be possible through the targeted application of different virtual media in the agile process. For this reason we plan to develop a semantic model for distributed agile release planning. We intend to advance agile release planning in distributed work environments through the application of this model using virtual media. A software prototype will realize our model for distributed agile release planning in parts. The model will be evaluated by applying the prototype within a real project, observing and interviewing the project participants involved and analyzing the qualitative data obtained.",
             "Award": ""
         },
         {
@@ -1580,7 +1635,7 @@
                 "University of Kentucky, USA",
                 "University of Technology Sydney, Australia"
             ],
-            "Abstract": "",
+            "Abstract": "Though the primary goal of requirements engineering research is to propose, develop, and validate effective solutions for important practical problems, practice has shown that successful projects take from 20-25 years to reach full industry adoption, while many projects fade and never advance beyond the initial research phase. In this interactive panel, teams of researchers, representing different requirements engineering research areas, bring ideas for technology transfer to a panel of industrial and government practitioners. The teams make interactive presentations and receive feedback from panelists. Beneath the game-show genre of the panel is the serious goal to foster conversation between practitioners and researchers to improve the effectiveness of technology transfer in the requirements engineering community.",
             "Award": ""
         }
     ],
@@ -1595,7 +1650,7 @@
             "Day": "2014-08-25",
             "Time": "09:00 - 17:00",
             "Location": "",
-            "LocationIndex": "5",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1625,7 +1680,7 @@
             "ShortType": "Plenary",
             "Key": "2014-08-27 08:30 Opening",
             "Day": "2014-08-27",
-            "Time": "08:30 - 08:45",
+            "Time": "08:30 - 09:00",
             "Location": "",
             "LocationIndex": "0",
             "ChairsString": "",
@@ -1639,23 +1694,26 @@
         },
         {
             "Id": "Uw1eito0qu",
-            "Title": "Startups and Requirements (Keynote Tony Wasserman)",
-            "ShortTitle": "Startups and Requirements (Keynote Tony Wasserman)",
-            "Type": "Plenary",
-            "ShortType": "Plenary",
-            "Key": "2014-08-27 08:45 Startups and Requirements (Keynote Tony Wasserman)",
+            "Title": "Startups and Requirements (Keynote)",
+            "ShortTitle": "Startups and Requirements (Keynote)",
+            "Type": "Keynotes",
+            "ShortType": "Keynotes",
+            "Key": "2014-08-27 09:00 Startups and Requirements (Keynote)",
             "Day": "2014-08-27",
-            "Time": "08:45 - 10:00",
+            "Time": "09:00 - 10:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "RE14",
+            "Comment": "RE14KEY",
             "URL": "",
-            "Abstract": "Tech startups typically approach requirements gathering differently from the process that is used to develop requirements in existing businesses and for existing products. Many of these startups operate in \"stealth mode\", taking care to minimize the number of people with whom they share their innovative ideas. It's common for these startups to create a succession of early releases, and apply user feedback from those releases to evolve the features and functions of their products.<br/><br/><br/><br/>This talk describes various approaches used by tech startups to define product requirements, and contrasts those approaches with those used in more traditional requirements engineering activities."
+            "Abstract": "",
+            "Items": [
+                "re14key-key01-p"
+            ]
         },
         {
             "Id": "soot0pheiV",
@@ -1667,7 +1725,7 @@
             "Day": "2014-08-27",
             "Time": "10:30 - 12:00",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1692,7 +1750,7 @@
             "Day": "2014-08-27",
             "Time": "10:30 - 12:00",
             "Location": "",
-            "LocationIndex": "2",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1708,16 +1766,16 @@
             ]
         },
         {
-            "Id": "Sae7ait7ae",
-            "Title": "Industry Research",
-            "ShortTitle": "Industry Research",
-            "Type": "Industry Research",
-            "ShortType": "Industry Research",
-            "Key": "2014-08-27 10:30 Industry Research",
+            "Id": "alaevae1Ph",
+            "Title": "Lightweight RE Methods",
+            "ShortTitle": "Lightweight RE Methods",
+            "Type": "Industry Track",
+            "ShortType": "Industry Track",
+            "Key": "2014-08-27 10:30 Lightweight RE Methods",
             "Day": "2014-08-27",
             "Time": "10:30 - 12:00",
             "Location": "",
-            "LocationIndex": "4",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1728,18 +1786,8 @@
             "Abstract": "",
             "Items": [
                 "re14ind-indp002-p",
-                "re14ind-indp012-p",
-                "re14ind-indp014-p",
-                "re14ind-indp015-p",
-                "re14ind-indp017-p",
-                "re14ind-indp018-p",
-                "re14ind-indp022-p",
-                "re14ind-indp024-p",
-                "re14ind-indp025-p",
                 "re14ind-indp027-p",
-                "re14ind-indp028-p",
-                "re14ind-indp032-p",
-                "re14ind-indp037-p"
+                "re14ind-indp014-p"
             ]
         },
         {
@@ -1752,7 +1800,7 @@
             "Day": "2014-08-27",
             "Time": "13:30 - 15:00",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1777,7 +1825,7 @@
             "Day": "2014-08-27",
             "Time": "13:30 - 15:00",
             "Location": "",
-            "LocationIndex": "2",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1793,6 +1841,51 @@
             ]
         },
         {
+            "Id": "Oidobahh1i",
+            "Title": "Stakeholder Collaboration",
+            "ShortTitle": "Stakeholder Collaboration",
+            "Type": "Industry Track",
+            "ShortType": "Industry Track",
+            "Key": "2014-08-27 13:30 Stakeholder Collaboration",
+            "Day": "2014-08-27",
+            "Time": "13:30 - 15:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE14IND",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "re14ind-indp037-p",
+                "re14ind-indp024-p",
+                "re14ind-indp025-p"
+            ]
+        },
+        {
+            "Id": "Eical4gai5",
+            "Title": "Most Influential Paper 10 Years Later (from RE’04) and Posters Lightning Round",
+            "ShortTitle": "Most Influential Paper 10 Years Later (from RE’04) and Posters Lightning Round",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2014-08-27 15:30 Most Influential Paper 10 Years Later (from RE’04) and Posters Lightning Round",
+            "Day": "2014-08-27",
+            "Time": "15:30 - 17:00",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "neiSh8eev7",
             "Title": "Traceability",
             "ShortTitle": "Traceability",
@@ -1802,7 +1895,7 @@
             "Day": "2014-08-27",
             "Time": "15:30 - 17:00",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1818,16 +1911,64 @@
             ]
         },
         {
-            "Id": "chaeye8Mie",
-            "Title": "TBA (Keynote Annie I. Antón)",
-            "ShortTitle": "TBA (Keynote Annie I. Antón)",
-            "Type": "Plenary",
-            "ShortType": "Plenary",
-            "Key": "2014-08-28 09:00 TBA (Keynote Annie I. Antón)",
-            "Day": "2014-08-28",
-            "Time": "09:00 - 10:00",
+            "Id": "eKahjee7ai",
+            "Title": "RE in Practice: Experiences from the Field I",
+            "ShortTitle": "RE in Practice: Experiences from the Field I",
+            "Type": "Industry Track",
+            "ShortType": "Industry Track",
+            "Key": "2014-08-27 15:30 RE in Practice: Experiences from the Field I",
+            "Day": "2014-08-27",
+            "Time": "15:30 - 17:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE14IND",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "re14ind-indp012-p",
+                "re14ind-indp022-p",
+                "re14ind-indp017-p"
+            ]
+        },
+        {
+            "Id": "chaeye8Mie",
+            "Title": "Now More Than Ever: Privacy and Security Are Required (Keynote)",
+            "ShortTitle": "Now More Than Ever: Privacy and Security Are Required (Keynote)",
+            "Type": "Keynotes",
+            "ShortType": "Keynotes",
+            "Key": "2014-08-28 08:45 Now More Than Ever: Privacy and Security Are Required (Keynote)",
+            "Day": "2014-08-28",
+            "Time": "08:45 - 10:00",
+            "Location": "",
+            "LocationIndex": "4",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE14KEY",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "re14key-key02-p"
+            ]
+        },
+        {
+            "Id": "aCae6ea4ve",
+            "Title": "Industry Laboratory 1: Invited company talks",
+            "ShortTitle": "Industry Laboratory 1: Invited company talks",
+            "Type": "Industry Track",
+            "ShortType": "Industry Track",
+            "Key": "2014-08-28 10:30 Industry Laboratory 1: Invited company talks",
+            "Day": "2014-08-28",
+            "Time": "10:30 - 12:00",
+            "Location": "",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1847,7 +1988,7 @@
             "Day": "2014-08-28",
             "Time": "10:30 - 12:00",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1872,7 +2013,7 @@
             "Day": "2014-08-28",
             "Time": "10:30 - 12:00",
             "Location": "",
-            "LocationIndex": "2",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1888,6 +2029,26 @@
             ]
         },
         {
+            "Id": "hoo4Taotae",
+            "Title": "Industry Laboratory 2",
+            "ShortTitle": "Industry Laboratory 2",
+            "Type": "Industry Track",
+            "ShortType": "Industry Track",
+            "Key": "2014-08-28 13:30 Industry Laboratory 2",
+            "Day": "2014-08-28",
+            "Time": "13:30 - 15:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "iyu5Ahlei5",
             "Title": "Communicating Requirements",
             "ShortTitle": "Communicating Requirements",
@@ -1897,7 +2058,7 @@
             "Day": "2014-08-28",
             "Time": "13:30 - 15:00",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1922,7 +2083,7 @@
             "Day": "2014-08-28",
             "Time": "13:30 - 15:00",
             "Location": "",
-            "LocationIndex": "6",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1936,6 +2097,26 @@
             ]
         },
         {
+            "Id": "lah5Choo5o",
+            "Title": "Industry Laboratory 3: Invited company talks",
+            "ShortTitle": "Industry Laboratory 3: Invited company talks",
+            "Type": "Industry Track",
+            "ShortType": "Industry Track",
+            "Key": "2014-08-28 15:30 Industry Laboratory 3: Invited company talks",
+            "Day": "2014-08-28",
+            "Time": "15:30 - 17:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "ieTohsao3n",
             "Title": "Automated Support for Eliciting Requirements",
             "ShortTitle": "Automated Support for Eliciting Requirements",
@@ -1945,7 +2126,7 @@
             "Day": "2014-08-28",
             "Time": "15:30 - 17:00",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1956,7 +2137,8 @@
             "Abstract": "",
             "Items": [
                 "re14main-mainp110-p",
-                "re14main-mainp039-p"
+                "re14main-mainp039-p",
+                "re14ind-indp015-p"
             ]
         },
         {
@@ -1969,7 +2151,7 @@
             "Day": "2014-08-28",
             "Time": "15:30 - 17:00",
             "Location": "",
-            "LocationIndex": "3",
+            "LocationIndex": "7",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1993,16 +2175,39 @@
             ]
         },
         {
-            "Id": "iup1einoXo",
-            "Title": "TBA (Keynote Anthony Finkelstein)",
-            "ShortTitle": "TBA (Keynote Anthony Finkelstein)",
-            "Type": "Plenary",
-            "ShortType": "Plenary",
-            "Key": "2014-08-29 09:00 TBA (Keynote Anthony Finkelstein)",
+            "Id": "ieBook8doo",
+            "Title": "Rethinking Software: Business Change and the Consequences for Software Engineering (Keynote)",
+            "ShortTitle": "Rethinking Software: Business Change and the Consequences for Software Engineering (Keynote)",
+            "Type": "Keynotes",
+            "ShortType": "Keynotes",
+            "Key": "2014-08-29 08:45 Rethinking Software: Business Change and the Consequences for Software Engineering (Keynote)",
             "Day": "2014-08-29",
-            "Time": "09:00 - 10:00",
+            "Time": "08:45 - 10:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "4",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE14KEY",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "re14key-key03-p"
+            ]
+        },
+        {
+            "Id": "miVie6ahCi",
+            "Title": "Workshop highlights",
+            "ShortTitle": "Workshop highlights",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2014-08-29 10:30 Workshop highlights",
+            "Day": "2014-08-29",
+            "Time": "10:30 - 12:00",
+            "Location": "",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2022,7 +2227,7 @@
             "Day": "2014-08-29",
             "Time": "10:30 - 12:00",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2038,6 +2243,71 @@
             ]
         },
         {
+            "Id": "iesheo0ioN",
+            "Title": "RE in Practice: Experiences from the Field II",
+            "ShortTitle": "RE in Practice: Experiences from the Field II",
+            "Type": "Industry Track",
+            "ShortType": "Industry Track",
+            "Key": "2014-08-29 10:30 RE in Practice: Experiences from the Field II",
+            "Day": "2014-08-29",
+            "Time": "10:30 - 12:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE14IND",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "re14ind-indp018-p",
+                "re14ind-indp032-p",
+                "re14ind-indp028-p"
+            ]
+        },
+        {
+            "Id": "Ceeph0mooJ",
+            "Title": "Mini-tutorial: How to write an industrial RE paper",
+            "ShortTitle": "Mini-tutorial: How to write an industrial RE paper",
+            "Type": "Industry Track",
+            "ShortType": "Industry Track",
+            "Key": "2014-08-29 13:30 Mini-tutorial: How to write an industrial RE paper",
+            "Day": "2014-08-29",
+            "Time": "13:30 - 14:30",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Seaph7thai",
+            "Title": "Panel: Educational and industrial RE needs",
+            "ShortTitle": "Panel: Educational and industrial RE needs",
+            "Type": "Panel",
+            "ShortType": "Panel",
+            "Key": "2014-08-29 13:30 Panel: Educational and industrial RE needs",
+            "Day": "2014-08-29",
+            "Time": "13:30 - 14:30",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "quee5xiePh",
             "Title": "Quality Goals",
             "ShortTitle": "Quality Goals",
@@ -2045,9 +2315,9 @@
             "ShortType": "Research Track A",
             "Key": "2014-08-29 13:30 Quality Goals",
             "Day": "2014-08-29",
-            "Time": "13:30 - 15:00",
+            "Time": "13:30 - 14:30",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2060,6 +2330,26 @@
                 "re14main-mainp070-p",
                 "re14main-mainp120-p"
             ]
+        },
+        {
+            "Id": "pu5ka4Ri8e",
+            "Title": "Closing session: “Farewell with ice-cream” and presentation of next year’s RE",
+            "ShortTitle": "Closing session: “Farewell with ice-cream” and presentation of next year’s RE",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-08-29 14:30 Closing session: “Farewell with ice-cream” and presentation of next year’s RE",
+            "Day": "2014-08-29",
+            "Time": "14:30 - 15:15",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE14",
+            "URL": "",
+            "Abstract": ""
         }
     ],
     "People": [
@@ -2108,10 +2398,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Sorawit Amornvorbornwong",
+            "Name": "Sorawit Amornborvornwong",
             "Affiliation": "DePaul University, USA",
-            "Key": "Sorawit Amornvorbornwong @ DePaul University, USA",
-            "Id": "8c5854783d",
+            "Key": "Sorawit Amornborvornwong @ DePaul University, USA",
+            "Id": "410501aab0",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2185,10 +2475,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Fatma Başak Aydemir",
+            "Name": "F. Başak Aydemir",
             "Affiliation": "University of Trento, Italy",
-            "Key": "Fatma Başak Aydemir @ University of Trento, Italy",
-            "Id": "fbe8413f8e",
+            "Key": "F. Başak Aydemir @ University of Trento, Italy",
+            "Id": "39ddcb0079",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2208,9 +2498,9 @@
         },
         {
             "Name": "Muneera Bano",
-            "Affiliation": "Faculty of Engineering and IT, University of Technology Sydney, Australia",
-            "Key": "Muneera Bano @ Faculty of Engineering and IT, University of Technology Sydney, Australia",
-            "Id": "3fd5ad02b6",
+            "Affiliation": "University of Technology Sydney, Australia",
+            "Key": "Muneera Bano @ University of Technology Sydney, Australia",
+            "Id": "a4c818b426",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2406,9 +2696,9 @@
         },
         {
             "Name": "Feng Chen",
-            "Affiliation": "University of Limerick, Ireland",
-            "Key": "Feng Chen @ University of Limerick, Ireland",
-            "Id": "dd76f67150",
+            "Affiliation": "University of Limerick, Ireland / Lero, Ireland",
+            "Key": "Feng Chen @ University of Limerick, Ireland / Lero, Ireland",
+            "Id": "bc37e4432e",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2427,10 +2717,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Amit Chopra",
+            "Name": "Amit K. Chopra",
             "Affiliation": "Lancaster University, UK",
-            "Key": "Amit Chopra @ Lancaster University, UK",
-            "Id": "9b8ab82b89",
+            "Key": "Amit K. Chopra @ Lancaster University, UK",
+            "Id": "ac1d3a1e08",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2559,10 +2849,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Marilia Guterres Ferreira",
-            "Affiliation": "Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio), Brazil",
-            "Key": "Marilia Guterres Ferreira @ Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio), Brazil",
-            "Id": "d8f8825fc5",
+            "Name": "Marília Guterres Ferreira",
+            "Affiliation": "PUC-Rio, Brazil",
+            "Key": "Marília Guterres Ferreira @ PUC-Rio, Brazil",
+            "Id": "4febf00a1e",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2585,6 +2875,17 @@
             "Affiliation": "Mälardalen University, Sweden",
             "Key": "Predrag Filipovikj @ Mälardalen University, Sweden",
             "Id": "9565115a05",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Anthony Finkelstein",
+            "Affiliation": "University College London, UK",
+            "Key": "Anthony Finkelstein @ University College London, UK",
+            "Id": "70d984a6cb",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2934,9 +3235,9 @@
         },
         {
             "Name": "Daniel Karlsson",
-            "Affiliation": "Volvo Technology, Sweden",
-            "Key": "Daniel Karlsson @ Volvo Technology, Sweden",
-            "Id": "167d24a86a",
+            "Affiliation": "Volvo, Sweden",
+            "Key": "Daniel Karlsson @ Volvo, Sweden",
+            "Id": "57f5d605a9",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3043,21 +3344,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Julio Leite",
+            "Name": "Julio Cesar Sampaio do Prado Leite",
             "Affiliation": "PUC-Rio, Brazil",
-            "Key": "Julio Leite @ PUC-Rio, Brazil",
-            "Id": "9aab984098",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Julio Cesar Leite",
-            "Affiliation": "PUC-Rio, Brazil",
-            "Key": "Julio Cesar Leite @ PUC-Rio, Brazil",
-            "Id": "3a4f20d815",
+            "Key": "Julio Cesar Sampaio do Prado Leite @ PUC-Rio, Brazil",
+            "Id": "e4fe326f28",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3143,9 +3433,9 @@
         },
         {
             "Name": "Henrik Lönn",
-            "Affiliation": "Volvo Technology, Sweden",
-            "Key": "Henrik Lönn @ Volvo Technology, Sweden",
-            "Id": "7dcd683265",
+            "Affiliation": "Volvo, Sweden",
+            "Key": "Henrik Lönn @ Volvo, Sweden",
+            "Id": "a010c5d5c4",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3319,17 +3609,6 @@
         },
         {
             "Name": "John Mylopoulos",
-            "Affiliation": "University of Toronto, Canada",
-            "Key": "John Mylopoulos @ University of Toronto, Canada",
-            "Id": "31f4e97a1d",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "John Mylopoulos",
             "Affiliation": "University of Trento, Italy",
             "Key": "John Mylopoulos @ University of Trento, Italy",
             "Id": "46a66c3c54",
@@ -3407,9 +3686,9 @@
         },
         {
             "Name": "Bashar Nuseibeh",
-            "Affiliation": "Open University, UK",
-            "Key": "Bashar Nuseibeh @ Open University, UK",
-            "Id": "0c63d2ab7e",
+            "Affiliation": "Open University, UK / Lero, Ireland",
+            "Key": "Bashar Nuseibeh @ Open University, UK / Lero, Ireland",
+            "Id": "9f80335fa8",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3484,9 +3763,9 @@
         },
         {
             "Name": "Maria Pinto-Albuquerque",
-            "Affiliation": "Inst.Univ.Lisboa, Portugal / Lancaster University, UK",
-            "Key": "Maria Pinto-Albuquerque @ Inst.Univ.Lisboa, Portugal / Lancaster University, UK",
-            "Id": "38d9fa2a76",
+            "Affiliation": "Lisbon University Institute, Portugal / Lancaster University, UK",
+            "Key": "Maria Pinto-Albuquerque @ Lisbon University Institute, Portugal / Lancaster University, UK",
+            "Id": "bef32aed03",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3616,9 +3895,9 @@
         },
         {
             "Name": "Ingo Richter",
-            "Affiliation": "Munich University of Applied Sciences, Germany",
-            "Key": "Ingo Richter @ Munich University of Applied Sciences, Germany",
-            "Id": "6024a67c77",
+            "Affiliation": "Munich University of Applied Sciences, Germany / Ulm University, Germany",
+            "Key": "Ingo Richter @ Munich University of Applied Sciences, Germany / Ulm University, Germany",
+            "Id": "690c8e2826",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3660,9 +3939,9 @@
         },
         {
             "Name": "Amanda Rubython",
-            "Affiliation": "Kineo, UK",
-            "Key": "Amanda Rubython @ Kineo, UK",
-            "Id": "ea56f5b06e",
+            "Affiliation": "City&Guilds Kineo, UK",
+            "Key": "Amanda Rubython @ City&Guilds Kineo, UK",
+            "Id": "756143c7a7",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3681,10 +3960,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Richard Rutledge",
+            "Name": "Richard L. Rutledge",
             "Affiliation": "Georgia Tech, USA",
-            "Key": "Richard Rutledge @ Georgia Tech, USA",
-            "Id": "ab17559fa7",
+            "Key": "Richard L. Rutledge @ Georgia Tech, USA",
+            "Id": "2415b2826e",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3758,10 +4037,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Sanjaya Saxena",
+            "Name": "Sanjaya Kumar Saxena",
             "Affiliation": "GrayPE Systems, India",
-            "Key": "Sanjaya Saxena @ GrayPE Systems, India",
-            "Id": "5b11334ba6",
+            "Key": "Sanjaya Kumar Saxena @ GrayPE Systems, India",
+            "Id": "574866ef59",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3824,10 +4103,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Munindar Singh",
+            "Name": "Munindar P. Singh",
             "Affiliation": "North Carolina State University, USA",
-            "Key": "Munindar Singh @ North Carolina State University, USA",
-            "Id": "dbb3d0efa5",
+            "Key": "Munindar P. Singh @ North Carolina State University, USA",
+            "Id": "2f9a5259e3",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3923,10 +4202,10 @@
             "URLgs": ""
         },
         {
-            "Name": "Peter Swire",
+            "Name": "Peter P. Swire",
             "Affiliation": "Georgia Tech, USA",
-            "Key": "Peter Swire @ Georgia Tech, USA",
-            "Id": "b25e3cd53e",
+            "Key": "Peter P. Swire @ Georgia Tech, USA",
+            "Id": "19c0f845df",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3946,9 +4225,9 @@
         },
         {
             "Name": "Miguel A. Teruel",
-            "Affiliation": "University of Castilla - La Mancha, Spain",
-            "Key": "Miguel A. Teruel @ University of Castilla - La Mancha, Spain",
-            "Id": "e35b5803aa",
+            "Affiliation": "University of Castile–La Mancha, Spain",
+            "Key": "Miguel A. Teruel @ University of Castile–La Mancha, Spain",
+            "Id": "c6f83f620b",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4022,6 +4301,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Anthony I. Wasserman",
+            "Affiliation": "Carnegie Mellon University, USA",
+            "Key": "Anthony I. Wasserman @ Carnegie Mellon University, USA",
+            "Id": "26444e8541",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Thomas Weigert",
             "Affiliation": "Uniquesoft LLC, USA",
             "Key": "Thomas Weigert @ Uniquesoft LLC, USA",
@@ -4067,9 +4357,9 @@
         },
         {
             "Name": "Rebekka Wohlrab",
-            "Affiliation": "ABB Research, Germany",
-            "Key": "Rebekka Wohlrab @ ABB Research, Germany",
-            "Id": "3d1c362bfa",
+            "Affiliation": "ABB Research, Sweden",
+            "Key": "Rebekka Wohlrab @ ABB Research, Sweden",
+            "Id": "867a363ac5",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
