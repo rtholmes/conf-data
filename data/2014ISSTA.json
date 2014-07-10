@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1404973350,
+    "DataRevision": 1404975116,
     "Preliminary": false,
     "Event": "ISSTA 2014",
     "Name": "ISSTA 2014",
@@ -55,6 +55,25 @@
         "Other"
     ],
     "Items": [
+        {
+            "Title": "Message from the Chairs",
+            "Type": "Frontmatter",
+            "Key": "issta14foreword-fm001-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3D+%22Message+from+the+Chairs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "",
+            "AffiliationsString": "",
+            "Authors": [
+                "@"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
         {
             "Title": "Runtime Prevention of Concurrency Related Type-State Violations in Multithreaded Applications",
             "Type": "Full Paper",
@@ -934,9 +953,553 @@
             ],
             "Abstract": "The reuse of software components is a common practice in commercial applications and increasingly appearing in safety critical systems as driven also by cost considerations. This practice puts dependability at risk, as differing operating conditions in different reuse scenarios may expose residual software faults in the components. Consequently, software fault injection techniques are used to assess how residual faults of reused software components may affect the system, and to identify appropriate counter-measures. As fault injection in components’ code suffers from a number of practical disadvantages, it is often replaced by error injection at the component interface level. However, it is still an open issue, whether such injected errors are actually representative of the effects of residual faults. To this end, we propose a method for analyzing how software faults turn into interface errors, with the ultimate aim of supporting more representative interface error injection experiments. Our analysis in the context of widely used software libraries reveals that existing interface error models are not suitable for emulating software faults, and provides useful insights for improving the representativeness of interface error injection.",
             "Award": ""
+        },
+        {
+            "Title": "Legend: An Agile DSL Toolset for Web Acceptance Testing",
+            "Type": "Short Paper",
+            "Key": "issta14demo-demoid1-p",
+            "URL": "https%3A%2F%2Fdl.dropboxusercontent.com%2Fs%2Fihoeueja677qzit%2Fissta-tooldemo-legend-preprint.pdf%3Fdl%3D1",
+            "URLvideo": "http%3A%2F%2Fyoutu.be%2FZ5K6plr7cNA",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2610384.2628048",
+            "PersonsString": "Tariq M. King, Gabriel Nunez, Dionny Santiago, Adam Cando, and Cody Mack",
+            "AffiliationsString": "Ultimate Software, USA",
+            "Authors": [
+                "Tariq M. King @ Ultimate Software, USA",
+                "Gabriel Nunez @ Ultimate Software, USA",
+                "Dionny Santiago @ Ultimate Software, USA",
+                "Adam Cando @ Ultimate Software, USA",
+                "Cody Mack @ Ultimate Software, USA"
+            ],
+            "Affiliations": [
+                "Ultimate Software, USA",
+                "Ultimate Software, USA",
+                "Ultimate Software, USA",
+                "Ultimate Software, USA",
+                "Ultimate Software, USA"
+            ],
+            "Abstract": "Agile development emphasizes collaborations among customers, business analysts, domain experts, developers, and testers. However, the large scale and rapid pace of many agile projects presents challenges during testing activities. Large sets of test artifacts must be comprehensible and available to various stakeholders, traceable to requirements, and easily maintainable as the software evolves. In this paper we describe Legend, a toolset that leverages domain-specific language to streamline functional testing in agile projects. Some key features of the toolset include test template generation from user stories, model-based automation, test inventory synchronization, and centralized test tagging.",
+            "Award": ""
+        },
+        {
+            "Title": "ProCrawl: Mining Test Models from Multi-user Web Applications",
+            "Type": "Short Paper",
+            "Key": "issta14demo-demoid6-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMatthias+Schur%2C+Andreas+Roth%2C+and+Andreas+Zeller+%22ProCrawl%3A+Mining+Test+Models+from+Multi-user+Web+Applications%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2610384.2628051",
+            "PersonsString": "Matthias Schur, Andreas Roth, and Andreas Zeller",
+            "AffiliationsString": "SAP, Germany; Saarland University, Germany",
+            "Authors": [
+                "Matthias Schur @ SAP, Germany",
+                "Andreas Roth @ SAP, Germany",
+                "Andreas Zeller @ Saarland University, Germany"
+            ],
+            "Affiliations": [
+                "SAP, Germany",
+                "SAP, Germany",
+                "Saarland University, Germany"
+            ],
+            "Abstract": "Today&#039;s web applications demand very high release cycles--and consequently, frequent tests. Automating these tests typically requires a behavior model: A description of the states the application can be in, the transitions between these states, and the expected results. Furthermore one needs scripts to make the abstract actions (transitions) in the model executable. However, specifying such behavior models and writing the necessary scripts manually is a hard task. We present ProCrawl (Process Crawler), a tool that automatically mines (extended) finite-state machines from (multi-user) web applications and generates executable test scripts. ProCrawl explores the behavior of the application by systematically generating program runs and observing changes on the application&#039;s user interface. The resulting models can be directly used for effective model-based testing, in particular regression testing.",
+            "Award": ""
+        },
+        {
+            "Title": "X-PERT: A Web Application Testing Tool for Cross-Browser Inconsistency Detection",
+            "Type": "Short Paper",
+            "Key": "issta14demo-demoid16-p",
+            "URL": "http%3A%2F%2Fshauvik.com%2Fpublic%2Fpubs%2Froychoudhary14issta_tool.pdf",
+            "URLvideo": "http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DGripTvNa-cQ",
+            "URLinfo": "http%3A%2F%2Fgatech.github.io%2Fxpert",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2610384.2628057",
+            "PersonsString": "Shauvik Roy Choudhary, Mukul R. Prasad, and Alessandro Orso",
+            "AffiliationsString": "Georgia Tech, USA; Fujitsu Labs, USA",
+            "Authors": [
+                "Shauvik Roy Choudhary @ Georgia Tech, USA",
+                "Mukul R. Prasad @ Fujitsu Labs, USA",
+                "Alessandro Orso @ Georgia Tech, USA"
+            ],
+            "Affiliations": [
+                "Georgia Tech, USA",
+                "Fujitsu Labs, USA",
+                "Georgia Tech, USA"
+            ],
+            "Abstract": "Web applications are popular among developers because of the ease of development and deployment through the ubiquitous web browsing platform. However, differences in a web application&#039;s execution across different web browsers manifest as Cross-browser Inconsistencies (XBIs), which are a serious concern for web developers. Testing for XBIs manually is a laborious and error-prone process. In this demo we present X-PERT, which is a tool to identify XBIs in web applications automatically, without requiring any effort from the developer. X-PERT implements a comprehensive technique to identify XBIs and has been found to be effective in detecting real-world XBIs in our empirical evaluation. The source code of X-PERT and XBI reports from our evaluation are available at http://gatech.github.io/xpert.",
+            "Award": ""
+        },
+        {
+            "Title": "Extending a Search-Based Test Generator with Adaptive Dynamic Symbolic Execution",
+            "Type": "Short Paper",
+            "Key": "issta14demo-demoid3-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJuan+Pablo+Galeotti%2C+Gordon+Fraser%2C+and+Andrea+Arcuri+%22Extending+a+Search-Based+Test+Generator+with+Adaptive+Dynamic+Symbolic+Execution%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2610384.2628049",
+            "PersonsString": "Juan Pablo Galeotti, Gordon Fraser, and Andrea Arcuri",
+            "AffiliationsString": "Saarland University, Germany; University of Sheffield, UK; Simula Research Laboratory, Norway",
+            "Authors": [
+                "Juan Pablo Galeotti @ Saarland University, Germany",
+                "Gordon Fraser @ University of Sheffield, UK",
+                "Andrea Arcuri @ Simula Research Laboratory, Norway"
+            ],
+            "Affiliations": [
+                "Saarland University, Germany",
+                "University of Sheffield, UK",
+                "Simula Research Laboratory, Norway"
+            ],
+            "Abstract": "Automatic unit test generation aims to support developers by alleviating the burden of test writing. Different techniques have been proposed over the years, each with distinct limitations. To overcome these limitations, we present an extension to the EvoSuite unit test generator that combines two of the most popular techniques for test case generation: Search-Based Software Testing (SBST) and Dynamic Symbolic Execution (DSE). A novel integration of DSE as a step of local improvement in a genetic algorithm results in an adaptive approach, such that the best test generation technique for the problem at hand is favoured, resulting in overall higher code coverage.",
+            "Award": ""
+        },
+        {
+            "Title": "Canalyze: A Static Bug-Finding Tool for C Programs",
+            "Type": "Short Paper",
+            "Key": "issta14demo-demoid4-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DZhenbo+Xu%2C+Jian+Zhang%2C+Zhongxing+Xu%2C+and+Jiteng+Wang+%22Canalyze%3A+A+Static+Bug-Finding+Tool+for+C+Programs%22",
+            "URLvideo": "https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DTMBpVFnlNFE",
+            "URLinfo": "http%3A%2F%2Flcs.ios.ac.cn%2F%7Ezj%2Fpa.html",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2610384.2628050",
+            "PersonsString": "Zhenbo Xu, Jian Zhang, Zhongxing Xu, and Jiteng Wang",
+            "AffiliationsString": "University of Science and Technology of China, China; Institute of Software at Chinese Academy of Sciences, China; Beijing University of Posts and Telecommunications, China",
+            "Authors": [
+                "Zhenbo Xu @ University of Science and Technology of China, China",
+                "Jian Zhang @ Institute of Software at Chinese Academy of Sciences, China",
+                "Zhongxing Xu @ Institute of Software at Chinese Academy of Sciences, China",
+                "Jiteng Wang @ Beijing University of Posts and Telecommunications, China"
+            ],
+            "Affiliations": [
+                "University of Science and Technology of China, China",
+                "Institute of Software at Chinese Academy of Sciences, China",
+                "Institute of Software at Chinese Academy of Sciences, China",
+                "Beijing University of Posts and Telecommunications, China"
+            ],
+            "Abstract": "Symbolic analysis is a commonly used approach for static bug finding. It usually performs a precise path-by-path symbolic simulation from program inputs. A major challenge is its scalability and precision on interprocedural analysis. The former limits the application to large programs. The latter may lead to many false alarms.  This paper presents a flexible, scalable and practical static bug detection tool, called Canalyze, for C programs. The flexibility is embodied in our modular design that supports different precision-level constraint solvers and interprocedural analyses. Based on these options, one can enable the less precise options to achieve a more scalable analysis or the more time-consuming options to perform a more precise analysis. Our tool is also practical to analyze real-world applications. It has been applied to some industry systems and open source programs like httpd, lighttpd, etc. And hundreds of newly found bugs were confirmed by the maintainers of our benchmarks.",
+            "Award": ""
+        },
+        {
+            "Title": "MuCheck: An Extensible Tool for Mutation Testing of Haskell Programs",
+            "Type": "Short Paper",
+            "Key": "issta14demo-demoid7-p",
+            "URL": "http%3A%2F%2Fweb.engr.oregonstate.edu%2F%7Ealipour%2Fpub%2Fmucheck.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2610384.2628052",
+            "PersonsString": "Duc Le, Mohammad Amin Alipour, Rahul Gopinath, and Alex Groce",
+            "AffiliationsString": "Oregon State University, USA",
+            "Authors": [
+                "Duc Le @ Oregon State University, USA",
+                "Mohammad Amin Alipour @ Oregon State University, USA",
+                "Rahul Gopinath @ Oregon State University, USA",
+                "Alex Groce @ Oregon State University, USA"
+            ],
+            "Affiliations": [
+                "Oregon State University, USA",
+                "Oregon State University, USA",
+                "Oregon State University, USA",
+                "Oregon State University, USA"
+            ],
+            "Abstract": "This paper presents MuCheck, a mutation testing tool for Haskell programs. MuCheck is a counterpart to the widely used QuickCheck random testing tool for functional programs, and can be used to evaluate the efficacy of QuickCheck property definitions. The tool implements mutation operators that are specifically designed for functional programs, and makes use of the type system of Haskell to achieve a more relevant set of mutants than otherwise possible. Mutation coverage is particularly valuable for functional programs due to highly compact code, referential transparency, and clean semantics; these make augmenting a test suite or specification based on surviving mutants a practical method for improved testing.",
+            "Award": ""
+        },
+        {
+            "Title": "The Major Mutation Framework: Efficient and Scalable Mutation Analysis for Java",
+            "Type": "Short Paper",
+            "Key": "issta14demo-demoid9-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRen%C3%A9+Just+%22The+Major+Mutation+Framework%3A+Efficient+and+Scalable+Mutation+Analysis+for+Java%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2610384.2628053",
+            "PersonsString": "René Just",
+            "AffiliationsString": "University of Washington, USA",
+            "Authors": [
+                "René Just @ University of Washington, USA"
+            ],
+            "Affiliations": [
+                "University of Washington, USA"
+            ],
+            "Abstract": "Mutation analysis seeds artificial faults (mutants) into a pro- gram and evaluates testing techniques by measuring how well they detect those mutants. Mutation analysis is well- established in software engineering research but hardly used in practice due to inherent scalability problems and the lack of proper tool support. In response to those challenges, this paper presents Major, a framework for mutation analysis and fault seeding. Major provides a compiler-integrated mu- tator and a mutation analyzer for JUnit tests. Major implements a large set of optimizations to enable efficient and scalable mutation analysis of large software sys- tems. It has already been applied to programs with more than 200,000 lines of code and 150,000 mutants. Moreover, Major features its own domain specific language and is de- signed to be highly configurable to support fundamental re- search in software engineering. Due to its efficiency and flexibility, the Major mutation framework is suitable for the application of mutation analysis in research and practice. It is publicly available at http://mutation-testing.org.",
+            "Award": ""
+        },
+        {
+            "Title": "Defects4J: A Database of Existing Faults to Enable Controlled Testing Studies for Java Programs",
+            "Type": "Short Paper",
+            "Key": "issta14demo-demoid11-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRen%C3%A9+Just%2C+Darioush+Jalali%2C+and+Michael+D.+Ernst+%22Defects4J%3A+A+Database+of+Existing+Faults+to+Enable+Controlled+Testing+Studies+for+Java+Programs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2610384.2628055",
+            "PersonsString": "René Just, Darioush Jalali, and Michael D. Ernst",
+            "AffiliationsString": "University of Washington, USA",
+            "Authors": [
+                "René Just @ University of Washington, USA",
+                "Darioush Jalali @ University of Washington, USA",
+                "Michael D. Ernst @ University of Washington, USA"
+            ],
+            "Affiliations": [
+                "University of Washington, USA",
+                "University of Washington, USA",
+                "University of Washington, USA"
+            ],
+            "Abstract": "Empirical studies in software testing research may not be comparable, reproducible, or characteristic of practice. One reason is that real bugs are too infrequently used in software testing research. Extracting and reproducing real bugs is challenging and as a result hand-seeded faults or mutants are commonly used as a substitute. This paper presents Defects4J, a database and extensible framework providing real bugs to enable reproducible studies in software testing research. The initial version of Defects4J contains 357 real bugs from 5 real-world open source pro- grams. Each real bug is accompanied by a comprehensive test suite that can expose (demonstrate) that bug. Defects4J is extensible and builds on top of each program’s version con- trol system. Once a program is configured in Defects4J, new bugs can be added to the database with little or no effort. Defects4J features a framework to easily access faulty and fixed program versions and corresponding test suites. This framework also provides a high-level interface to common tasks in software testing research, making it easy to con- duct and reproduce empirical studies. Defects4J is publicly available at http://defects4j.org.",
+            "Award": ""
+        },
+        {
+            "Title": "A Format String Checker for Java",
+            "Type": "Short Paper",
+            "Key": "issta14demo-demoid12-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKonstantin+Weitz%2C+Siwakorn+Srisakaokul%2C+Gene+Kim%2C+and+Michael+D.+Ernst+%22A+Format+String+Checker+for+Java%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2610384.2628056",
+            "PersonsString": "Konstantin Weitz, Siwakorn Srisakaokul, Gene Kim, and Michael D. Ernst",
+            "AffiliationsString": "University of Washington, USA",
+            "Authors": [
+                "Konstantin Weitz @ University of Washington, USA",
+                "Siwakorn Srisakaokul @ University of Washington, USA",
+                "Gene Kim @ University of Washington, USA",
+                "Michael D. Ernst @ University of Washington, USA"
+            ],
+            "Affiliations": [
+                "University of Washington, USA",
+                "University of Washington, USA",
+                "University of Washington, USA",
+                "University of Washington, USA"
+            ],
+            "Abstract": "Java supports format strings, but their use is error prone because: Java’s type system does not find any but the most trivial mistakes, Java’s format methods fail silently, and for- mat methods are often executed infrequently.  This paper presents the Format String Checker that is based on the format string type system presented in [3]. The Format String Checker guarantees that calls to Java’s Formatter API will not throw exceptions.  We evaluate the Format String Checker on 6 large and well-maintained open-source projects. Format string bugs are common in practice (we found 104 bugs), and the an- notation burden on the user of our type system is low (on average, for every bug found, only 1.0 annotations need to be written).",
+            "Award": ""
+        },
+        {
+            "Title": "Constructing Coding Duels in Pex4Fun and Code Hunt",
+            "Type": "Short Paper",
+            "Key": "issta14demo-demoid10-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNikolai+Tillmann%2C+Jonathan+de+Halleux%2C+Tao+Xie%2C+and+Judith+Bishop+%22Constructing+Coding+Duels+in+Pex4Fun+and+Code+Hunt%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2610384.2628054",
+            "PersonsString": "Nikolai Tillmann, Jonathan de Halleux, Tao Xie, and Judith Bishop",
+            "AffiliationsString": "Microsoft Research, USA; University of Illinois at Urbana-Champaign, USA",
+            "Authors": [
+                "Nikolai Tillmann @ Microsoft Research, USA",
+                "Jonathan de Halleux @ Microsoft Research, USA",
+                "Tao Xie @ University of Illinois at Urbana-Champaign, USA",
+                "Judith Bishop @ Microsoft Research, USA"
+            ],
+            "Affiliations": [
+                "Microsoft Research, USA",
+                "Microsoft Research, USA",
+                "University of Illinois at Urbana-Champaign, USA",
+                "Microsoft Research, USA"
+            ],
+            "Abstract": "Pex is an automatic white-box test-generation tool for .NET. We have established that games can be built on top of Pex to open the tool to students and to the general public. In particular, we have released Pex4Fun (www.pexforfun.com) and its successor Code Hunt (www.codehunt.com) as web-based educational gaming environments for teaching and learning programming and software engineering. In Pex4Fun and Code Hunt, the main game type is a coding duel, where a player writes code in a method to achieve the same functionality as the secret method implementation, based on feedback provided by the underlying Pex tool. Players iteratively modify their code to match the functional behavior of the secret method. The scope of duels extends from the simplest one-line method to those including advanced concepts such as writing parameterized unit tests and code contracts. We have also used the game type for competitions with thousands of players, and have found that it differentiates well between beginners and top coders. This tool demonstration shows how coding duels in Pex4Fun and Code Hunt can be constructed and used in teaching and training programming and software engineering.",
+            "Award": ""
+        },
+        {
+            "Title": "Reusing Constraint Proofs for Scalable Program Analysis",
+            "Type": "Short Paper",
+            "Key": "issta14doc-docid1-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMeixian+Chen+%22Reusing+Constraint+Proofs+for+Scalable+Program+Analysis%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2610384.2631831",
+            "PersonsString": "Meixian Chen",
+            "AffiliationsString": "University of Lugano, Switzerland",
+            "Authors": [
+                "Meixian Chen @ University of Lugano, Switzerland"
+            ],
+            "Affiliations": [
+                "University of Lugano, Switzerland"
+            ],
+            "Abstract": "Despite the recent advances of research and technology in the area of automated constraint solvers, constraint solving remains a major bottleneck for the scalability of many techniques for program analysis. Recent studies indicate that this problem can be mitigated by caching the proofs for the constraints that occur repeatedly during the analysis of the same or similar programs, showing preliminary evidence that this can result in significantly reducing the analysis time. My PhD research draws on this initial results and aims to bring the technology for storing and reusing constraint proofs at an entirely new stage of maturity. We believe that equivalent constraints occur frequently across programs, and aim to turn the problem of solving the constraints into a fast and reliable search over proofs shared among different projects and teams through distributed data stores.",
+            "Award": ""
+        },
+        {
+            "Title": "Effective Test Generation and Adequacy Assessment for JavaScript-Based Web Applications",
+            "Type": "Short Paper",
+            "Key": "issta14doc-docid2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShabnam+Mirshokraie+%22Effective+Test+Generation+and+Adequacy+Assessment+for+JavaScript-Based+Web+Applications%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2610384.2631832",
+            "PersonsString": "Shabnam Mirshokraie",
+            "AffiliationsString": "University of British Columbia, Canada",
+            "Authors": [
+                "Shabnam Mirshokraie @ University of British Columbia, Canada"
+            ],
+            "Affiliations": [
+                "University of British Columbia, Canada"
+            ],
+            "Abstract": "Modern web applications rely heavily on JavaScript and client-side runtime manipulation of the DOM (Document Object Model) tree. However, JavaScript is loosely typed, dynamic, and challenging to analyze and test. We propose an automated technique to generate regression test cases at two complementary levels: (1) individual JavaScript functions, and (2) DOM event sequences. Moreover, to assess the quality of the test cases we propose a mutation testing technique that leverages static and dynamic program analysis to guide the mutation generation process towards parts of the code that are error-prone or likely to influence the program&#039;s output.",
+            "Award": ""
+        },
+        {
+            "Title": "Efficient Statistical Debugging via Hierarchical Instrumentation",
+            "Type": "Short Paper",
+            "Key": "issta14doc-docid3-p",
+            "URL": "http%3A%2F%2Fwww.comp.nus.edu.sg%2F%7Ea0068965%2Fresearch%2Fissta-2014-ds%2FHI.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2610384.2631833",
+            "PersonsString": "Zhiqiang Zuo",
+            "AffiliationsString": "National University of Singapore, Singapore",
+            "Authors": [
+                "Zhiqiang Zuo @ National University of Singapore, Singapore"
+            ],
+            "Affiliations": [
+                "National University of Singapore, Singapore"
+            ],
+            "Abstract": "Debugging is known to be a notoriously painstaking and time-consuming task. As one major family of automated debugging, statistical debugging approaches have been well investigated over the past decade to assist in debugging. All these approaches instrument the entire buggy program to produce execution profiles for debugging. Consequently, they often incur hefty instrumentation and analysis cost. However, as in fact major part of the program code is error-free, full-scale program instrumentation is wasteful and unnecessary. In this doctoral research, a novel hierarchical instrumentation (HI) technique is devised to perform selective instrumentation so as to make statistical debugging more efficient while upholding the debugging effectiveness. We apply HI to two different categories of statistical debugging: in-house and cooperative debugging. The experiments validate that HI can greatly improve the efficiency of debugging.",
+            "Award": ""
+        },
+        {
+            "Title": "Dynamic Analyses for Reliable Concurrency (Keynote)",
+            "Type": "Keynote",
+            "Key": "Cormac Flanagan @ University of California, Santa Cruz, USA : Dynamic Analyses for Reliable Concurrency (Keynote)",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Cormac Flanagan",
+            "AffiliationsString": "University of California, Santa Cruz, USA",
+            "Authors": [
+                "Cormac Flanagan @ University of California, Santa Cruz, USA"
+            ],
+            "Affiliations": [
+                "University of California, Santa Cruz, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Practical Aspects of Testing Your Code as You Develop It (Keynote)",
+            "Type": "Keynote",
+            "Key": "Andreas Kuehlmann @ Coverity, USA : Practical Aspects of Testing Your Code as You Develop It (Keynote)",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Andreas Kuehlmann",
+            "AffiliationsString": "Coverity, USA",
+            "Authors": [
+                "Andreas Kuehlmann @ Coverity, USA"
+            ],
+            "Affiliations": [
+                "Coverity, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "DARPA's Cyber Grand Challenge (Keynote)",
+            "Type": "Keynote",
+            "Key": "Mike Walker @ Defense Advanced Research Projects Agency, USA : DARPA&#039;s Cyber Grand Challenge (Keynote)",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Mike Walker",
+            "AffiliationsString": "Defense Advanced Research Projects Agency, USA",
+            "Authors": [
+                "Mike Walker @ Defense Advanced Research Projects Agency, USA"
+            ],
+            "Affiliations": [
+                "Defense Advanced Research Projects Agency, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
         }
     ],
     "Sessions": [
+        {
+            "Id": "mooThaag2z",
+            "Title": "JAMAICA 2014",
+            "ShortTitle": "JAMAICA 2014",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-07-21 08:30 JAMAICA 2014",
+            "Day": "2014-07-21",
+            "Time": "08:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "sheeWa3eig",
+            "Title": "SPIN 2014 - Day 1",
+            "ShortTitle": "SPIN 2014 - Day 1",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-07-21 08:30 SPIN 2014 - Day 1",
+            "Day": "2014-07-21",
+            "Time": "08:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Ohchah6iew",
+            "Title": "Doctoral Symposium",
+            "ShortTitle": "Doctoral Symposium",
+            "Type": "Doctoral Symposium",
+            "ShortType": "Doctoral Symposium",
+            "Key": "2014-07-22 08:30 Doctoral Symposium",
+            "Day": "2014-07-22",
+            "Time": "08:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14DOC",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "issta14doc-docid1-p",
+                "issta14doc-docid2-p",
+                "issta14doc-docid3-p"
+            ]
+        },
+        {
+            "Id": "fei0Leihei",
+            "Title": "WODA+PERTEA 2014",
+            "ShortTitle": "WODA+PERTEA 2014",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-07-22 08:30 WODA+PERTEA 2014",
+            "Day": "2014-07-22",
+            "Time": "08:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "kae4eu4Cae",
+            "Title": "SPIN 2014 - Day 1",
+            "ShortTitle": "SPIN 2014 - Day 1",
+            "Type": "Workshop",
+            "ShortType": "Workshop",
+            "Key": "2014-07-22 08:30 SPIN 2014 - Day 1",
+            "Day": "2014-07-22",
+            "Time": "08:30 - 18:00",
+            "Location": "",
+            "LocationIndex": "6",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Chee1Eeph6",
+            "Title": "Message from the Chairs",
+            "ShortTitle": "Message from the Chairs",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-07-23 08:30 Message from the Chairs",
+            "Day": "2014-07-23",
+            "Time": "08:30 - 08:40",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14FOREWORD",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "issta14foreword-fm001-p"
+            ]
+        },
+        {
+            "Id": "Chee1Eeph6",
+            "Title": "Welcome Message from the Chairs",
+            "ShortTitle": "Welcome Message from the Chairs",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-07-23 08:30 Welcome Message from the Chairs",
+            "Day": "2014-07-23",
+            "Time": "08:30 - 08:40",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "OoCh7geyei",
+            "Title": "Dynamic Analyses for Reliable Concurrency (Keynote)",
+            "ShortTitle": "Dynamic Analyses for Reliable Concurrency (Keynote)",
+            "Type": "Keynote",
+            "ShortType": "Keynote",
+            "Key": "2014-07-23 08:40 Dynamic Analyses for Reliable Concurrency (Keynote)",
+            "Day": "2014-07-23",
+            "Time": "08:40 - 10:00",
+            "Location": "",
+            "LocationIndex": "4",
+            "ChairsString": "Darko Marinov",
+            "Chairs": [
+                "Darko Marinov @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": "Multithreaded software systems effectively exploit multi-core and multi-processor machines. However developing reliable multithreaded software is extremely difficult, due to problems caused by unexpected interference between concurrent threads. Given their non-deterministic, scheduler-dependent nature, bugs caused by unintended thread interference are notoriously difficult to detect, reproduce, and eliminate. At the same time, their presence can have severe consequences. This talk explores dynamic analysis techniques to find concurrency errors in large-scale software systems, covering the theoretical underpinnings, implementation techniques, and reusable infrastructure used to build state-of-the-art analysis tools for verifying a variety of important concurrency properties, such as data race freedom, atomicity or serializability, and determinism.",
+            "Items": [
+                "Cormac Flanagan @ University of California, Santa Cruz, USA : Dynamic Analyses for Reliable Concurrency (Keynote)"
+            ]
+        },
+        {
+            "Id": "eiSh5efais",
+            "Title": "Break Morning",
+            "ShortTitle": "Break Morning",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-07-23 10:00 Break Morning",
+            "Day": "2014-07-23",
+            "Time": "10:00 - 10:30",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
         {
             "Id": "ahtej3Do7p",
             "Title": "Concurrency and Verification",
@@ -947,7 +1510,7 @@
             "Day": "2014-07-23",
             "Time": "10:30 - 12:10",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -964,6 +1527,26 @@
             ]
         },
         {
+            "Id": "QuaB0yahl5",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-07-23 12:10 Lunch",
+            "Day": "2014-07-23",
+            "Time": "12:10 - 13:30",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "eesh7Tai8k",
             "Title": "Web Testing",
             "ShortTitle": "Web Testing",
@@ -973,7 +1556,7 @@
             "Day": "2014-07-23",
             "Time": "13:30 - 15:10",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -990,6 +1573,26 @@
             ]
         },
         {
+            "Id": "euNg2aeJ3K",
+            "Title": "Break Afternoon",
+            "ShortTitle": "Break Afternoon",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-07-23 15:10 Break Afternoon",
+            "Day": "2014-07-23",
+            "Time": "15:10 - 15:40",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "pai5eige8B",
             "Title": "Artifact Studies",
             "ShortTitle": "Artifact Studies",
@@ -999,7 +1602,7 @@
             "Day": "2014-07-23",
             "Time": "15:40 - 16:30",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1014,6 +1617,142 @@
             ]
         },
         {
+            "Id": "hai4Foh3ah",
+            "Title": "Lightning Talks 1:ISSTA Demo",
+            "ShortTitle": "Lightning Talks 1:ISSTA Demo",
+            "Type": "Lightning Talk",
+            "ShortType": "Lightning Talk",
+            "Key": "2014-07-23 16:30 Lightning Talks 1:ISSTA Demo",
+            "Day": "2014-07-23",
+            "Time": "16:30 - 16:55",
+            "Location": "",
+            "LocationIndex": "5",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "wahShahl0o",
+            "Title": "Lightning Talks 2:SPIN short papers",
+            "ShortTitle": "Lightning Talks 2:SPIN short papers",
+            "Type": "Lightning Talk",
+            "ShortType": "Lightning Talk",
+            "Key": "2014-07-23 16:55 Lightning Talks 2:SPIN short papers",
+            "Day": "2014-07-23",
+            "Time": "16:55 - 17:20",
+            "Location": "",
+            "LocationIndex": "5",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "phoh9Nie1p",
+            "Title": "Tool Demonstrations",
+            "ShortTitle": "Tool Demonstrations",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-07-23 18:00 Tool Demonstrations",
+            "Day": "2014-07-23",
+            "Time": "18:00 - 22:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14DEMO",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "issta14demo-demoid1-p",
+                "issta14demo-demoid6-p",
+                "issta14demo-demoid16-p",
+                "issta14demo-demoid3-p",
+                "issta14demo-demoid4-p",
+                "issta14demo-demoid7-p",
+                "issta14demo-demoid9-p",
+                "issta14demo-demoid11-p",
+                "issta14demo-demoid12-p",
+                "issta14demo-demoid10-p"
+            ]
+        },
+        {
+            "Id": "phoh9Nie1p",
+            "Title": "Reception Posters/Demos",
+            "ShortTitle": "Reception Posters/Demos",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-07-23 18:00 Reception Posters/Demos",
+            "Day": "2014-07-23",
+            "Time": "18:00 - 22:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "pheec4Ua0v",
+            "Title": "Practical Aspects of Testing Your Code as You Develop It (Keynote)",
+            "ShortTitle": "Practical Aspects of Testing Your Code as You Develop It (Keynote)",
+            "Type": "Keynote",
+            "ShortType": "Keynote",
+            "Key": "2014-07-24 08:30 Practical Aspects of Testing Your Code as You Develop It (Keynote)",
+            "Day": "2014-07-24",
+            "Time": "08:30 - 10:00",
+            "Location": "",
+            "LocationIndex": "4",
+            "ChairsString": "Corina Pasareanu",
+            "Chairs": [
+                "Corina Pasareanu @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": "There has been a significant research focus on new software verification technologies ranging from model checking to test automation. However, these efforts often ignore practical aspect such as usability and adoption. For development tools to be successful in practice they must provide sufficient value to developers for the amount of effort required to use them. In this talk we will discuss a number of technological and socialogical challenges to make testing tools work in development. The presentation will be based on our practical experience in developing and deploying static analysis technology to a large set of development organizations in various industries.",
+            "Items": [
+                "Andreas Kuehlmann @ Coverity, USA : Practical Aspects of Testing Your Code as You Develop It (Keynote)"
+            ]
+        },
+        {
+            "Id": "eh6yeeth8Y",
+            "Title": "Break Morning",
+            "ShortTitle": "Break Morning",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-07-24 10:00 Break Morning",
+            "Day": "2014-07-24",
+            "Time": "10:00 - 10:30",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "Phiekooze4",
             "Title": "Static Analyses and Transformations",
             "ShortTitle": "Static Analyses and Transformations",
@@ -1023,7 +1762,7 @@
             "Day": "2014-07-24",
             "Time": "10:30 - 12:10",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1040,6 +1779,26 @@
             ]
         },
         {
+            "Id": "eSuphik5za",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-07-24 12:10 Lunch",
+            "Day": "2014-07-24",
+            "Time": "12:10 - 13:30",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "eip2Joh4Au",
             "Title": "Test Selection and Reduction",
             "ShortTitle": "Test Selection and Reduction",
@@ -1049,7 +1808,7 @@
             "Day": "2014-07-24",
             "Time": "13:30 - 15:10",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1066,6 +1825,26 @@
             ]
         },
         {
+            "Id": "jee2Ic0uJ0",
+            "Title": "Break Afternoon",
+            "ShortTitle": "Break Afternoon",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-07-24 15:10 Break Afternoon",
+            "Day": "2014-07-24",
+            "Time": "15:10 - 15:40",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "oiNgahd5iw",
             "Title": "Localization and Repair",
             "ShortTitle": "Localization and Repair",
@@ -1075,7 +1854,7 @@
             "Day": "2014-07-24",
             "Time": "15:40 - 17:20",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1092,6 +1871,26 @@
             ]
         },
         {
+            "Id": "eiphohR6ek",
+            "Title": "Banquet",
+            "ShortTitle": "Banquet",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-07-24 18:00 Banquet",
+            "Day": "2014-07-24",
+            "Time": "18:00 - 22:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "yeihae2Uga",
             "Title": "Security",
             "ShortTitle": "Security",
@@ -1101,7 +1900,7 @@
             "Day": "2014-07-25",
             "Time": "08:30 - 10:10",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1116,6 +1915,50 @@
             ]
         },
         {
+            "Id": "chai2AiMah",
+            "Title": "DARPA&#039;s Cyber Grand Challenge (Keynote)",
+            "ShortTitle": "DARPA&#039;s Cyber Grand Challenge (Keynote)",
+            "Type": "Keynote",
+            "ShortType": "Keynote",
+            "Key": "2014-07-25 08:30 DARPA&#039;s Cyber Grand Challenge (Keynote)",
+            "Day": "2014-07-25",
+            "Time": "08:30 - 10:10",
+            "Location": "",
+            "LocationIndex": "4",
+            "ChairsString": "TBD",
+            "Chairs": [
+                "TBD @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": "The Defense Advanced Research Projects Agency (DARPA) intends to hold the Cyber Grand Challenge (CGC)-the first-ever tournament for fully automatic network defense systems. Top computer security experts test their skill head-to-head in competitive \"Capture the Flag\" contests. These contests provide a competition rating for the ability of experts to locate and comprehend security weaknesses. Cyber Grand Challenge will bring Capture-the-Flag to the realm of automation technologies, challenging unmanned systems that combine techniques such as Dynamic Analysis, Static Analysis, Symbolic Execution, Constraint Solving, Data Flow Tracking, Fuzz Testing, and a multitude of related technologies. Competitor systems will be challenged to autonomously reason about novel program flaws, prove the existence of flaws in networked applications, and formulate effective defenses. The performance of these automated systems will be evaluated through head-to-head tournament style competition.",
+            "Items": [
+                "Mike Walker @ Defense Advanced Research Projects Agency, USA : DARPA&#039;s Cyber Grand Challenge (Keynote)"
+            ]
+        },
+        {
+            "Id": "Phi4jooseg",
+            "Title": "Break Morning",
+            "ShortTitle": "Break Morning",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-07-25 10:10 Break Morning",
+            "Day": "2014-07-25",
+            "Time": "10:10 - 10:30",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "Quu9ga2et7",
             "Title": "UI Testing",
             "ShortTitle": "UI Testing",
@@ -1125,7 +1968,7 @@
             "Day": "2014-07-25",
             "Time": "10:30 - 12:10",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1142,6 +1985,26 @@
             ]
         },
         {
+            "Id": "Bahx7rai0j",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-07-25 12:10 Lunch",
+            "Day": "2014-07-25",
+            "Time": "12:10 - 13:30",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "Boog5zao6u",
             "Title": "Efficiency and Optimizations",
             "ShortTitle": "Efficiency and Optimizations",
@@ -1151,7 +2014,7 @@
             "Day": "2014-07-25",
             "Time": "13:30 - 15:10",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1168,6 +2031,26 @@
             ]
         },
         {
+            "Id": "OhZoh8mi3v",
+            "Title": "Break Afternoon",
+            "ShortTitle": "Break Afternoon",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-07-25 15:10 Break Afternoon",
+            "Day": "2014-07-25",
+            "Time": "15:10 - 15:40",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "miisahch7U",
             "Title": "Generation and Propagation",
             "ShortTitle": "Generation and Propagation",
@@ -1177,7 +2060,7 @@
             "Day": "2014-07-25",
             "Time": "15:40 - 17:20",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1192,6 +2075,26 @@
                 "issta14main-mainid91-p",
                 "issta14main-mainid50-p"
             ]
+        },
+        {
+            "Id": "oob3Do7in6",
+            "Title": "Closing",
+            "ShortTitle": "Closing",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-07-25 17:20 Closing",
+            "Day": "2014-07-25",
+            "Time": "17:20 - 17:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": ""
         }
     ],
     "People": [
@@ -1284,6 +2187,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Andrea Arcuri",
+            "Affiliation": "Simula Research Laboratory, Norway",
+            "Key": "Andrea Arcuri @ Simula Research Laboratory, Norway",
+            "Id": "62e1c2fd06",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Stephan Arlt",
             "Affiliation": "University of Luxembourg, Luxembourg",
             "Key": "Stephan Arlt @ University of Luxembourg, Luxembourg",
@@ -1350,6 +2264,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Judith Bishop",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Judith Bishop @ Microsoft Research, USA",
+            "Id": "41113333dd",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Marcel Böhme",
             "Affiliation": "Saarland University, Germany",
             "Key": "Marcel Böhme @ Saarland University, Germany",
@@ -1405,10 +2330,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Adam Cando",
+            "Affiliation": "Ultimate Software, USA",
+            "Key": "Adam Cando @ Ultimate Software, USA",
+            "Id": "46236d5efc",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Satish Chandra",
             "Affiliation": "Samsung Research, USA",
             "Key": "Satish Chandra @ Samsung Research, USA",
             "Id": "86435d37f6",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Meixian Chen",
+            "Affiliation": "University of Lugano, Switzerland",
+            "Key": "Meixian Chen @ University of Lugano, Switzerland",
+            "Id": "b1f97cab6a",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -1471,6 +2418,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Jonathan de Halleux",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Jonathan de Halleux @ Microsoft Research, USA",
+            "Id": "a6b65b7672",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Michael D. Ernst",
             "Affiliation": "University of Washington, USA",
             "Key": "Michael D. Ernst @ University of Washington, USA",
@@ -1504,10 +2462,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Cormac Flanagan",
+            "Affiliation": "University of California, Santa Cruz, USA",
+            "Key": "Cormac Flanagan @ University of California, Santa Cruz, USA",
+            "Id": "269f5eb715",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Gordon Fraser",
             "Affiliation": "University of Sheffield, UK",
             "Key": "Gordon Fraser @ University of Sheffield, UK",
             "Id": "6773c90dc3",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Juan Pablo Galeotti",
+            "Affiliation": "Saarland University, Germany",
+            "Key": "Juan Pablo Galeotti @ Saarland University, Germany",
+            "Id": "52bddb265b",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -1530,6 +2510,17 @@
             "Affiliation": "Nanjing University, China / University of Maryland at College Park, USA",
             "Key": "Zebao Gao @ Nanjing University, China / University of Maryland at College Park, USA",
             "Id": "a3fcf6447b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rahul Gopinath",
+            "Affiliation": "Oregon State University, USA",
+            "Key": "Rahul Gopinath @ Oregon State University, USA",
+            "Id": "a36e98b584",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -1768,10 +2759,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Tariq M. King",
+            "Affiliation": "Ultimate Software, USA",
+            "Key": "Tariq M. King @ Ultimate Software, USA",
+            "Id": "60f1079048",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "In-Young Ko",
             "Affiliation": "KAIST, South Korea",
             "Key": "In-Young Ko @ KAIST, South Korea",
             "Id": "7bc4bfccd1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andreas Kuehlmann",
+            "Affiliation": "Coverity, USA",
+            "Key": "Andreas Kuehlmann @ Coverity, USA",
+            "Id": "748603ce99",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -1812,6 +2825,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Duc Le",
+            "Affiliation": "Oregon State University, USA",
+            "Key": "Duc Le @ Oregon State University, USA",
+            "Id": "79aced25ab",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Ding Li",
             "Affiliation": "University of Southern California, USA",
             "Key": "Ding Li @ University of Southern California, USA",
@@ -1838,6 +2862,17 @@
             "Affiliation": "University of Chile, Chile",
             "Key": "Pablo Loyola @ University of Chile, Chile",
             "Id": "090179a3e7",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Cody Mack",
+            "Affiliation": "Ultimate Software, USA",
+            "Key": "Cody Mack @ Ultimate Software, USA",
+            "Id": "ce7f0ea087",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -1889,6 +2924,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Darko Marinov",
+            "Affiliation": "",
+            "Key": "Darko Marinov @",
+            "Id": "40cf46fbce",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Ali Mesbah",
             "Affiliation": "University of British Columbia, Canada",
             "Key": "Ali Mesbah @ University of British Columbia, Canada",
@@ -1904,6 +2950,17 @@
             "Affiliation": "National University of Singapore, Singapore",
             "Key": "Narcisa Andreea Milea @ National University of Singapore, Singapore",
             "Id": "81fd03eff4",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shabnam Mirshokraie",
+            "Affiliation": "University of British Columbia, Canada",
+            "Key": "Shabnam Mirshokraie @ University of British Columbia, Canada",
+            "Id": "653036e5bc",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2010,10 +3067,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Gabriel Nunez",
+            "Affiliation": "Ultimate Software, USA",
+            "Key": "Gabriel Nunez @ Ultimate Software, USA",
+            "Id": "7395c98aef",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Alessandro Orso",
             "Affiliation": "Georgia Tech, USA",
             "Key": "Alessandro Orso @ Georgia Tech, USA",
             "Id": "8d64bd1adf",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Corina Pasareanu",
+            "Affiliation": "",
+            "Key": "Corina Pasareanu @",
+            "Id": "2bef00f52c",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2131,6 +3210,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Andreas Roth",
+            "Affiliation": "SAP, Germany",
+            "Key": "Andreas Roth @ SAP, Germany",
+            "Id": "13447f6d07",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Gregg Rothermel",
             "Affiliation": "University of Nebraska-Lincoln, USA",
             "Key": "Gregg Rothermel @ University of Nebraska-Lincoln, USA",
@@ -2197,10 +3287,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Dionny Santiago",
+            "Affiliation": "Ultimate Software, USA",
+            "Key": "Dionny Santiago @ Ultimate Software, USA",
+            "Id": "b7db2f7fe8",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Mauro Santoro",
             "Affiliation": "University of Milano-Bicocca, Italy",
             "Key": "Mauro Santoro @ University of Milano-Bicocca, Italy",
             "Id": "42d5b0f37a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Matthias Schur",
+            "Affiliation": "SAP, Germany",
+            "Key": "Matthias Schur @ SAP, Germany",
+            "Id": "f987aa8d00",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2296,10 +3408,32 @@
             "URLgs": ""
         },
         {
+            "Name": "TBD",
+            "Affiliation": "",
+            "Key": "TBD @",
+            "Id": "9294ce5e3e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Suresh Thummalapenta",
             "Affiliation": "Microsoft, USA",
             "Key": "Suresh Thummalapenta @ Microsoft, USA",
             "Id": "eaef2f4d63",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nikolai Tillmann",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Nikolai Tillmann @ Microsoft Research, USA",
+            "Id": "94139f251c",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2329,10 +3463,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Mike Walker",
+            "Affiliation": "Defense Advanced Research Projects Agency, USA",
+            "Key": "Mike Walker @ Defense Advanced Research Projects Agency, USA",
+            "Id": "f9cfee9a7d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Chao Wang",
             "Affiliation": "Virginia Tech, USA",
             "Key": "Chao Wang @ Virginia Tech, USA",
             "Id": "13bfb1daa3",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jiteng Wang",
+            "Affiliation": "Beijing University of Posts and Telecommunications, China",
+            "Key": "Jiteng Wang @ Beijing University of Posts and Telecommunications, China",
+            "Id": "9f38b7020f",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2417,6 +3573,39 @@
             "URLgs": ""
         },
         {
+            "Name": "Tao Xie",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
+            "Key": "Tao Xie @ University of Illinois at Urbana-Champaign, USA",
+            "Id": "00f96960c7",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zhenbo Xu",
+            "Affiliation": "University of Science and Technology of China, China",
+            "Key": "Zhenbo Xu @ University of Science and Technology of China, China",
+            "Id": "fddeef3d4c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zhongxing Xu",
+            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China",
+            "Key": "Zhongxing Xu @ Institute of Software at Chinese Academy of Sciences, China",
+            "Id": "546831f9d1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Eran Yahav",
             "Affiliation": "Technion, Israel",
             "Key": "Eran Yahav @ Technion, Israel",
@@ -2472,6 +3661,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Andreas Zeller",
+            "Affiliation": "Saarland University, Germany",
+            "Key": "Andreas Zeller @ Saarland University, Germany",
+            "Id": "776b26ebad",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Benwen Zhang",
             "Affiliation": "University of Delaware, USA",
             "Key": "Benwen Zhang @ University of Delaware, USA",
@@ -2498,6 +3698,17 @@
             "Affiliation": "Microsoft Research, China",
             "Key": "Hongyu Zhang @ Microsoft Research, China",
             "Id": "62b2321fd4",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jian Zhang",
+            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China",
+            "Key": "Jian Zhang @ Institute of Software at Chinese Academy of Sciences, China",
+            "Id": "f29a452012",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
