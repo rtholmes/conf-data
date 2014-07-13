@@ -1,13 +1,15 @@
 {
-    "DataRevision": 1404975116,
-    "Preliminary": false,
+    "DataRevision": 1405250408,
+    "Preliminary": "false",
     "Event": "ISSTA 2014",
     "Name": "ISSTA 2014",
     "Description": "",
     "Location": "San Jose, CA, USA",
     "Sponsors": "",
     "URL": "http://issta2014.org/",
-    "MultiTrack": "false",
+    "MultiTrack": "true",
+    "UseMiniPage": "false",
+    "NewPagePerDay": "true",
     "Organization": {
         "General Chairs": [
                 "Corina S. Păsăreanu"
@@ -56,22 +58,100 @@
     ],
     "Items": [
         {
-            "Title": "Message from the Chairs",
-            "Type": "Frontmatter",
-            "Key": "issta14foreword-fm001-p",
-            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3D+%22Message+from+the+Chairs%22",
+            "Title": "Doctoral Symposium Keynote",
+            "Type": "Doctoral Symposium",
+            "Key": "Rastislav Bodik @ University of California, Berkeley : Doctoral Symposium Keynote",
+            "URL": "",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "",
-            "AffiliationsString": "",
+            "PersonsString": "Rastislav Bodik",
+            "AffiliationsString": "University of California, Berkeley",
             "Authors": [
-                "@"
+                "Rastislav Bodik @ University of California, Berkeley"
             ],
             "Affiliations": [
-                ""
+                "University of California, Berkeley"
             ],
             "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Dynamic Analyses for Reliable Concurrency (Keynote)",
+            "Type": "Keynote",
+            "Key": "Cormac Flanagan @ University of California, Santa Cruz, USA : Dynamic Analyses for Reliable Concurrency (Keynote)",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Cormac Flanagan",
+            "AffiliationsString": "University of California, Santa Cruz, USA",
+            "Authors": [
+                "Cormac Flanagan @ University of California, Santa Cruz, USA"
+            ],
+            "Affiliations": [
+                "University of California, Santa Cruz, USA"
+            ],
+            "Abstract": "Multithreaded software systems effectively exploit multi-core and multi-processor machines. However developing reliable multithreaded software is extremely difficult, due to problems caused by unexpected interference between concurrent threads. Given their non-deterministic, scheduler-dependent nature, bugs caused by unintended thread interference are notoriously difficult to detect, reproduce, and eliminate. At the same time, their presence can have severe consequences. This talk explores dynamic analysis techniques to find concurrency errors in large-scale software systems, covering the theoretical underpinnings, implementation techniques, and reusable infrastructure used to build state-of-the-art analysis tools for verifying a variety of important concurrency properties, such as data race freedom, atomicity or serializability, and determinism.",
+            "Award": ""
+        },
+        {
+            "Title": "Practical Aspects of Testing Your Code as You Develop It (Keynote)",
+            "Type": "Keynote",
+            "Key": "Andreas Kuehlmann @ Coverity, USA : Practical Aspects of Testing Your Code as You Develop It (Keynote)",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Andreas Kuehlmann",
+            "AffiliationsString": "Coverity, USA",
+            "Authors": [
+                "Andreas Kuehlmann @ Coverity, USA"
+            ],
+            "Affiliations": [
+                "Coverity, USA"
+            ],
+            "Abstract": "There has been a significant research focus on new software verification technologies ranging from model checking to test automation. However, these efforts often ignore practical aspect such as usability and adoption. For development tools to be successful in practice they must provide sufficient value to developers for the amount of effort required to use them. In this talk we will discuss a number of technological and socialogical challenges to make testing tools work in development. The presentation will be based on our practical experience in developing and deploying static analysis technology to a large set of development organizations in various industries.",
+            "Award": ""
+        },
+        {
+            "Title": "DARPA's Cyber Grand Challenge (Keynote)",
+            "Type": "Keynote",
+            "Key": "Mike Walker @ Defense Advanced Research Projects Agency, USA : DARPA&#039;s Cyber Grand Challenge (Keynote)",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Mike Walker",
+            "AffiliationsString": "Defense Advanced Research Projects Agency, USA",
+            "Authors": [
+                "Mike Walker @ Defense Advanced Research Projects Agency, USA"
+            ],
+            "Affiliations": [
+                "Defense Advanced Research Projects Agency, USA"
+            ],
+            "Abstract": "The Defense Advanced Research Projects Agency (DARPA) intends to hold the Cyber Grand Challenge (CGC)-the first-ever tournament for fully automatic network defense systems. Top computer security experts test their skill head-to-head in competitive &quot;Capture the Flag&quot; contests. These contests provide a competition rating for the ability of experts to locate and comprehend security weaknesses. Cyber Grand Challenge will bring Capture-the-Flag to the realm of automation technologies, challenging unmanned systems that combine techniques such as Dynamic Analysis, Static Analysis, Symbolic Execution, Constraint Solving, Data Flow Tracking, Fuzz Testing, and a multitude of related technologies. Competitor systems will be challenged to autonomously reason about novel program flaws, prove the existence of flaws in networked applications, and formulate effective defenses. The performance of these automated systems will be evaluated through head-to-head tournament style competition.",
+            "Award": ""
+        },
+        {
+            "Title": "Message from the Chairs",
+            "Type": "Frontmatter",
+            "Key": "issta14foreword-fm001-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCorina+S.+P%C4%83s%C4%83reanu+and+Darko+Marinov+%22Message+from+the+Chairs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Corina S. Păsăreanu and Darko Marinov",
+            "AffiliationsString": "NASA Ames, USA; University of Illinois at Urbana-Champaign, USA",
+            "Authors": [
+                "Corina S. Păsăreanu @ NASA Ames, USA",
+                "Darko Marinov @ University of Illinois at Urbana-Champaign, USA"
+            ],
+            "Affiliations": [
+                "NASA Ames, USA",
+                "University of Illinois at Urbana-Champaign, USA"
+            ],
+            "Abstract": "It is our great pleasure to welcome you to ISSTA 2014, the 23rd International Symposium on Software Testing and Analysis, to be held in San Jose, California, on July 21-25, 2014. ISSTA is the leading research symposium on software testing and analysis, bringing together academics, industrial researchers, and practitioners to exchange new ideas, problems, and experience on how to analyze and test software systems.",
             "Award": ""
         },
         {
@@ -1250,95 +1330,1279 @@
             "Award": ""
         },
         {
-            "Title": "Dynamic Analyses for Reliable Concurrency (Keynote)",
-            "Type": "Keynote",
-            "Key": "Cormac Flanagan @ University of California, Santa Cruz, USA : Dynamic Analyses for Reliable Concurrency (Keynote)",
+            "Title": "LADEE Flight Software: Verification Techniques (Keynote)",
+            "Type": "SPIN Keynote",
+            "Key": "Karen Gundy-Burlet @  : LADEE Flight Software: Verification Techniques (Keynote)",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Cormac Flanagan",
-            "AffiliationsString": "University of California, Santa Cruz, USA",
+            "PersonsString": "Karen Gundy-Burlet",
+            "AffiliationsString": "",
             "Authors": [
-                "Cormac Flanagan @ University of California, Santa Cruz, USA"
+                "Karen Gundy-Burlet @"
             ],
             "Affiliations": [
-                "University of California, Santa Cruz, USA"
+                ""
             ],
             "Abstract": "",
             "Award": ""
         },
         {
-            "Title": "Practical Aspects of Testing Your Code as You Develop It (Keynote)",
-            "Type": "Keynote",
-            "Key": "Andreas Kuehlmann @ Coverity, USA : Practical Aspects of Testing Your Code as You Develop It (Keynote)",
+            "Title": "Analysis of x86 Executables using Abstract Interpretation (Keynote)",
+            "Type": "SPIN Keynote",
+            "Key": "Henny Sipma @  : Analysis of x86 Executables using Abstract Interpretation (Keynote)",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Andreas Kuehlmann",
-            "AffiliationsString": "Coverity, USA",
+            "PersonsString": "Henny Sipma",
+            "AffiliationsString": "",
             "Authors": [
-                "Andreas Kuehlmann @ Coverity, USA"
+                "Henny Sipma @"
             ],
             "Affiliations": [
-                "Coverity, USA"
+                ""
             ],
             "Abstract": "",
             "Award": ""
         },
         {
-            "Title": "DARPA's Cyber Grand Challenge (Keynote)",
-            "Type": "Keynote",
-            "Key": "Mike Walker @ Defense Advanced Research Projects Agency, USA : DARPA&#039;s Cyber Grand Challenge (Keynote)",
+            "Title": "Keynote",
+            "Type": "JAMAICA Keynote",
+            "Key": "Rajesh Subramanyan @ Siemens Healthcare Diagnostics : Keynote",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Mike Walker",
-            "AffiliationsString": "Defense Advanced Research Projects Agency, USA",
+            "PersonsString": "Rajesh Subramanyan",
+            "AffiliationsString": "Siemens Healthcare Diagnostics",
             "Authors": [
-                "Mike Walker @ Defense Advanced Research Projects Agency, USA"
+                "Rajesh Subramanyan @ Siemens Healthcare Diagnostics"
             ],
             "Affiliations": [
-                "Defense Advanced Research Projects Agency, USA"
+                "Siemens Healthcare Diagnostics"
             ],
             "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Message from the Chairs",
+            "Type": "Frontmatter",
+            "Key": "spin14foreword-fm001-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNeha+Rungta+and+Oksana+Tkachuk+%22Message+from+the+Chairs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Neha Rungta and Oksana Tkachuk",
+            "AffiliationsString": "NASA Ames Research Center",
+            "Authors": [
+                "Neha Rungta @ NASA Ames Research Center",
+                "Oksana Tkachuk @ NASA Ames Research Center"
+            ],
+            "Affiliations": [
+                "NASA Ames Research Center",
+                "NASA Ames Research Center"
+            ],
+            "Abstract": "This volume contains proceedings for the 21st International Symposium on Model Checking of Software - SPIN 2014 that was held in San Jose, California from July 21-23, 2014. SPIN 2014 was co-located with International Symposium on Software Testing and Analysis. SPIN and ISSTA held joint sessions on July 23rd.",
+            "Award": ""
+        },
+        {
+            "Title": "Local State Space Construction for Compositional Verification of Concurrent Systems",
+            "Type": "Full Paper",
+            "Key": "spin14main-mainid3-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHao+Zheng+%22Local+State+Space+Construction+for+Compositional+Verification+of+Concurrent+Systems%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632366",
+            "PersonsString": "Hao Zheng",
+            "AffiliationsString": "University of South Florida, USA",
+            "Authors": [
+                "Hao Zheng @ University of South Florida, USA"
+            ],
+            "Affiliations": [
+                "University of South Florida, USA"
+            ],
+            "Abstract": "Local state space construction is crucial for efficient compositional verification of local and global properties of concurrent systems. This paper presents such an approach where local state transition models are built by iteratively searching the joint state space of communicating processes. The resulting local models contain less unreachable states, which would reduce false counter-examples for verifying local safety properties. Alternatively, more precise transition dependence relations can be extracted from these local models for more effective partial order reduction when the global state space is searched. The prototype of this approach has been implemented in an explicit model checker, and experimented on several concurrent examples. The initial results are encouraging.",
+            "Award": ""
+        },
+        {
+            "Title": "Exploiting Synchronization in the Analysis of Shared-Memory Asynchronous Programs",
+            "Type": "Full Paper",
+            "Key": "spin14main-mainid32-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMichael+Emmi%2C+Burcu+Kulahcioglu+Ozkan%2C+and+Serdar+Tasiran+%22Exploiting+Synchronization+in+the+Analysis+of+Shared-Memory+Asynchronous+Programs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632370",
+            "PersonsString": "Michael Emmi, Burcu Kulahcioglu Ozkan, and Serdar Tasiran",
+            "AffiliationsString": "IMDEA Software Institute, Spain; Koç University, Turkey",
+            "Authors": [
+                "Michael Emmi @ IMDEA Software Institute, Spain",
+                "Burcu Kulahcioglu Ozkan @ Koç University, Turkey",
+                "Serdar Tasiran @ Koç University, Turkey"
+            ],
+            "Affiliations": [
+                "IMDEA Software Institute, Spain",
+                "Koç University, Turkey",
+                "Koç University, Turkey"
+            ],
+            "Abstract": "As asynchronous programming becomes more mainstream, program analyses capable of automatically uncovering programming errors are increasingly in demand. Since asynchronous program analysis is computationally costly, current approaches sacrifice completeness and focus on limited sets of asynchronous task schedules that are likely to expose programming errors. These approaches are based on parameterized task schedulers, each of which admits schedules which are variations of a default deterministic schedule. By increasing the parameter value, a larger variety of schedules is explored, at a higher cost. The efficacy of these approaches depends largely on the default deterministic scheduler on which varying schedules are fashioned.  We find that the limited exploration of asynchronous program behaviors can be made more efficient by designing parameterized schedulers which better match the inherent ordering of program events, e.g., arising from waiting for an asynchronous task to complete. We follow a reduction-based &quot;sequentialization&quot; approach to analyzing asynchronous programs, which leverages existing (sequential) program analysis tools by encoding asynchronous program executions, according to a particular scheduler, as the executions of a sequential program. Analysis based on our new scheduler comes at no greater computational cost, and provides strictly greater behavioral coverage than analysis based on existing parameterized schedulers; we validate these claims both conceptually, with complexity and behavioral-inclusion arguments, and empirically, by discovering actual reported bugs faster with smaller parameter values.",
+            "Award": ""
+        },
+        {
+            "Title": "Toward Parameterized Verification of Synchronous Distributed Applications",
+            "Type": "Short Paper",
+            "Key": "spin14main-mainid22-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSagar+Chaki+and+James+Edmondson+%22Toward+Parameterized+Verification+of+Synchronous+Distributed+Applications%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632368",
+            "PersonsString": "Sagar Chaki and James Edmondson",
+            "AffiliationsString": "Carnegie Mellon University, USA",
+            "Authors": [
+                "Sagar Chaki @ Carnegie Mellon University, USA",
+                "James Edmondson @ Carnegie Mellon University, USA"
+            ],
+            "Affiliations": [
+                "Carnegie Mellon University, USA",
+                "Carnegie Mellon University, USA"
+            ],
+            "Abstract": "We present preliminary results on parameterized verification of distributed applications that assume a synchronous model of computation. Our theoretical results are negative -- the problem is undecidable even if each node has a single bit of non-determinism and the property is a 1-index safety property. Further, even if each node is completely deterministic, and the property is again a 1-index safety, parameterized verification cannot be solved via the cutoff method. Empirically, we show how to encode such applications as Array-Based Systems and verify them using existing model checkers. We demonstrate this approach on protocols for distributed mutual exclusion and collision avoidance.",
+            "Award": ""
+        },
+        {
+            "Title": "Incremental Bounded Software Model Checking",
+            "Type": "Full Paper",
+            "Key": "spin14main-mainid26-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHenning+G%C3%BCnther+and+Georg+Weissenbacher+%22Incremental+Bounded+Software+Model+Checking%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632374",
+            "PersonsString": "Henning Günther and Georg Weissenbacher",
+            "AffiliationsString": "Vienna University of Technology, Austria",
+            "Authors": [
+                "Henning Günther @ Vienna University of Technology, Austria",
+                "Georg Weissenbacher @ Vienna University of Technology, Austria"
+            ],
+            "Affiliations": [
+                "Vienna University of Technology, Austria",
+                "Vienna University of Technology, Austria"
+            ],
+            "Abstract": "Conventional Bounded Software Model Checking tools generate a symbolic representation of all feasible executions of a program up to a predetermined bound. An insufficiently large bound results in missed bugs, and a subsequent increase of the bound necessitates the complete reconstruction of the instance and a restart of the underlying solver. Conversely, exceedingly large bounds result in prohibitively large decision problems, causing the verifier to run out of resources before it can provide a result.  We present an incremental approach to Bounded Software Model Checking, which enables increasing the bound without incurring the overhead of a restart. Further, we provide an LLVM-based open-source implementation which supports a wide range of incremental SMT solvers.  We compare our implementation to other traditional non-incremental software model checkers and show the advantages of performing incremental verification by analyzing the overhead incurred on a common suite of benchmarks.",
+            "Award": ""
+        },
+        {
+            "Title": "Certification for Configurable Program Analysis",
+            "Type": "Full Paper",
+            "Key": "spin14main-mainid4-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMarie-Christine+Jakobs+and+Heike+Wehrheim+%22Certification+for+Configurable+Program+Analysis%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632372",
+            "PersonsString": "Marie-Christine Jakobs and Heike Wehrheim",
+            "AffiliationsString": "University of Paderborn, Germany",
+            "Authors": [
+                "Marie-Christine Jakobs @ University of Paderborn, Germany",
+                "Heike Wehrheim @ University of Paderborn, Germany"
+            ],
+            "Affiliations": [
+                "University of Paderborn, Germany",
+                "University of Paderborn, Germany"
+            ],
+            "Abstract": "Configurable program analysis (CPA) is a generic concept for the formalization of different software analysis techniques in a single framework. With the tool CPAchecker, this framework allows for an easy configuration and subsequent automatic execution of analysis procedures ranging from data-flow analysis to model checking. The focus of the tool CPAchecker is thus on analysis. In this paper, we study configurability from the point of view of software certification. Certification aims at providing (via a prior analysis) a certificate of correctness for a program which is (a) tamper-proof and (b) more efficient to check for validity than a full analysis. Here, we will show how, given an analysis instance of a CPA, to construct a corresponding sound certification instance, thereby arriving at configurable program certification. We report on experiments with certification based on different analysis techniques, and in particular explain which characteristics of an underlying analysis allow us to design an efficient (in the above (b) sense) certification procedure.",
+            "Award": ""
+        },
+        {
+            "Title": "SpinCause: A Tool for Causality Checking",
+            "Type": "Short Paper",
+            "Key": "spin14main-mainid2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFlorian+Leitner-Fischer+and+Stefan+Leue+%22SpinCause%3A+A+Tool+for+Causality+Checking%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632371",
+            "PersonsString": "Florian Leitner-Fischer and Stefan Leue",
+            "AffiliationsString": "University of Konstanz, Germany",
+            "Authors": [
+                "Florian Leitner-Fischer @ University of Konstanz, Germany",
+                "Stefan Leue @ University of Konstanz, Germany"
+            ],
+            "Affiliations": [
+                "University of Konstanz, Germany",
+                "University of Konstanz, Germany"
+            ],
+            "Abstract": "In this paper we present the SpinCause tool for causality checking of Promela and PRISM models. We give an overview of the capabilities of SpinCause and briefly sketch how the causality checking algorithms are integrated into the state-space exploration algorithms used for model checking. In addition we compare the runtime and memory needed for causality checking with the different state-space exploration algorithms and two newly proposed iterative causality checking approaches.",
+            "Award": ""
+        },
+        {
+            "Title": "SpinRCP: The Eclipse Rich Client Platform Integrated Development Environment for the Spin Model Checker",
+            "Type": "Short Paper",
+            "Key": "spin14main-mainid14-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DZmago+Brezo%C4%8Dnik%2C+Bo%C5%A1tjan+Vlaovi%C4%8D%2C+and+Aleksander+Vre%C5%BEe+%22SpinRCP%3A+The+Eclipse+Rich+Client+Platform+Integrated+Development+Environment+for+the+Spin+Model+Checker%22",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Flms.uni-mb.si%2Fspinrcp%2F",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632380",
+            "PersonsString": "Zmago Brezočnik, Boštjan Vlaovič, and Aleksander Vreže",
+            "AffiliationsString": "University of Maribor, Slovenia",
+            "Authors": [
+                "Zmago Brezočnik @ University of Maribor, Slovenia",
+                "Boštjan Vlaovič @ University of Maribor, Slovenia",
+                "Aleksander Vreže @ University of Maribor, Slovenia"
+            ],
+            "Affiliations": [
+                "University of Maribor, Slovenia",
+                "University of Maribor, Slovenia",
+                "University of Maribor, Slovenia"
+            ],
+            "Abstract": "SpinRCP is an integrated development environment for the Spin model checker used for verifying the correctnesses of concurrent and distributed systems. Using SpinRCP, it is easy to enter, edit, examine, and check the syntax of models which represent the systems to be analyzed, to check redundancies in models, to specify the required properties of models, to graphically represent processes and never claims derived from specified properties in the form of nondeterministic final state machines, to enter or select various simulation and verification parameters, to perform verification and random, guided, or interactive simulations and to transform a Spin simulation trail into a standard Message Sequence Chart (MSC). SpinRCP is implemented in Java as an Eclipse Rich Client Platform (RCP) product.",
+            "Award": ""
+        },
+        {
+            "Title": "Towards a GPGPU-Parallel SPIN Model Checker",
+            "Type": "Full Paper",
+            "Key": "spin14main-mainid24-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DEzio+Bartocci%2C+Richard+DeFrancisco%2C+and+Scott+A.+Smolka+%22Towards+a+GPGPU-Parallel+SPIN+Model+Checker%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632379",
+            "PersonsString": "Ezio Bartocci, Richard DeFrancisco, and Scott A. Smolka",
+            "AffiliationsString": "Vienna University of Technology, Austria; Stony Brook University, USA",
+            "Authors": [
+                "Ezio Bartocci @ Vienna University of Technology, Austria",
+                "Richard DeFrancisco @ Stony Brook University, USA",
+                "Scott A. Smolka @ Stony Brook University, USA"
+            ],
+            "Affiliations": [
+                "Vienna University of Technology, Austria",
+                "Stony Brook University, USA",
+                "Stony Brook University, USA"
+            ],
+            "Abstract": "As General-Purpose Graphics Processing Units (GPGPUs)become more powerful, they are being used increasingly often in high-performance computing applications. State space exploration, as employed in model-checking and other verification techniques, is a large, complex problem that has successfully been ported to a variety of parallel architectures. Use of the GPU for this purpose, however, has only recently begun to be studied. We show how the 2012 multicore CPU-parallel state-space exploration algorithm of the SPIN model checker can be re-engineered to take advantage of the unique parallel-processing capabilities of the GPGPU architecture, and demonstrate how to overcome the non-trivial design obstacles presented by this task. Our preliminary results demonstrate significant performance improvements over the traditional sequential model checker for state spaces of appreciable size (&gt;10 million unique states).",
+            "Award": ""
+        },
+        {
+            "Title": "An Improvement of the Piggyback Algorithm for Parallel Model Checking",
+            "Type": "Full Paper",
+            "Key": "spin14main-mainid27-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DIoannis+Filippidis+and+Gerard+J.+Holzmann+%22An+Improvement+of+the+Piggyback+Algorithm+for+Parallel+Model+Checking%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632375",
+            "PersonsString": "Ioannis Filippidis and Gerard J. Holzmann",
+            "AffiliationsString": "California Institute of Technology, USA; Jet Propulsion Laboratory, USA",
+            "Authors": [
+                "Ioannis Filippidis @ California Institute of Technology, USA",
+                "Gerard J. Holzmann @ Jet Propulsion Laboratory, USA"
+            ],
+            "Affiliations": [
+                "California Institute of Technology, USA",
+                "Jet Propulsion Laboratory, USA"
+            ],
+            "Abstract": "This paper extends the piggyback algorithm to enlarge the set of liveness properties it can verify. Its extension is motivated by an attempt to express in logic the counterexamples it can detect and relate them to bounded liveness. The original algorithm is based on parallel breadth-first search and piggybacking of accepting states that are deleted after counting a fixed number of transitions. The main improvement is obtained by renewing the counter of transitions when the same accepting states are visited in the negated property automaton. In addition, we describe piggybacking of multiple states in either sets (exact) or Bloom filters (lossy but conservative), and use of local searches that attempt to connect cycles fragmented among processing cores. Finally it is proved that accepting cycle detection is in NC in the size of the product automaton&#039;s entire state space, including unreachable states.",
+            "Award": ""
+        },
+        {
+            "Title": "TravMC2: Higher-Order Model Checking for Alternating Parity Tree Automata",
+            "Type": "Short Paper",
+            "Key": "spin14main-mainid13-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRobin+P.+Neatherway+and+C.-H.+Luke+Ong+%22TravMC2%3A+Higher-Order+Model+Checking+for+Alternating+Parity+Tree+Automata%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632381",
+            "PersonsString": "Robin P. Neatherway and C.-H. Luke Ong",
+            "AffiliationsString": "University of Oxford, UK",
+            "Authors": [
+                "Robin P. Neatherway @ University of Oxford, UK",
+                "C.-H. Luke Ong @ University of Oxford, UK"
+            ],
+            "Affiliations": [
+                "University of Oxford, UK",
+                "University of Oxford, UK"
+            ],
+            "Abstract": "Higher-order model checking is the problem of model checking (possibly) infinite trees generated by higher-order recursion schemes (HORS). HORS are a natural abstract model of functional programs, and HORS model checkers play a similar role to checkers of Boolean programs in the imperative setting. Most research effort so far has focused on checking safety properties specified using trivial tree automata i.e. Buechi tree automata all of whose states are final. Building on our previous work, we present a higher-order model checker, TravMC2, which supports properties specified using alternating parity tree automata (or equivalently monadic second order logic). Our experimental results offer an encouraging comparison with an existing checker, TrecS-APT.",
+            "Award": ""
+        },
+        {
+            "Title": "Approximating Happens-Before Order: Interplay between Static Analysis and State Space Traversal",
+            "Type": "Full Paper",
+            "Key": "spin14main-mainid7-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPavel+Par%C3%ADzek+and+Pavel+Jan%C4%8D%C3%ADk+%22Approximating+Happens-Before+Order%3A+Interplay+between+Static+Analysis+and+State+Space+Traversal%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632365",
+            "PersonsString": "Pavel Parízek and Pavel Jančík",
+            "AffiliationsString": "Charles University, Czech Republic",
+            "Authors": [
+                "Pavel Parízek @ Charles University, Czech Republic",
+                "Pavel Jančík @ Charles University, Czech Republic"
+            ],
+            "Affiliations": [
+                "Charles University, Czech Republic",
+                "Charles University, Czech Republic"
+            ],
+            "Abstract": "Techniques and tools for verification of multi-threaded programs must cope with the huge number of possible thread interleavings. Tools based on systematic exploration of a program state space employ partial order reduction to avoid redundant thread interleavings. The key idea is to make non-deterministic thread scheduling choices only at statements that read or modify the global state shared by multiple threads. We focus on the approach to partial order reduction used in tools such as Java Pathfinder (JPF), which construct the program state space on-the-fly, and therefore can use only information available in the current program state and execution history to identify statements that may be globally-relevant. In our previous work, we developed a field access analysis that provides information about fields that may be accessed during program execution, and used it in JPF for more precise identification of globally-relevant statements. We build upon that and propose a may-happen-before analysis that computes a sound approximation of the happens-before ordering. Partial order reduction techniques can use the happens-before ordering to detect pairs of globally-relevant field access statements that cannot be interleaved arbitrarily (due to thread synchronization), and based on that avoid making unnecessary thread scheduling choices. The may-happen-before analysis combines static analysis with knowledge of information available from the dynamic program state. Results of experiments with several Java programs show that usage of the may-happen-before analysis further improves the performance of JPF.",
+            "Award": ""
+        },
+        {
+            "Title": "Is There a Best Büchi Automaton for Explicit Model Checking?",
+            "Type": "Full Paper",
+            "Key": "spin14main-mainid35-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DFranti%C5%A1ek+Blahoudek%2C+Alexandre+Duret-Lutz%2C+Mojm%C3%ADr+K%C5%99et%C3%ADnsk%C3%BD%2C+and+Jan+Strej%C4%8Dek+%22Is+There+a+Best+B%C3%BCchi+Automaton+for+Explicit+Model+Checking%3F%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632377",
+            "PersonsString": "František Blahoudek, Alexandre Duret-Lutz, Mojmír Křetínský, and Jan Strejček",
+            "AffiliationsString": "Masaryk University, Czech Republic; LRDE EPITA, France",
+            "Authors": [
+                "František Blahoudek @ Masaryk University, Czech Republic",
+                "Alexandre Duret-Lutz @ LRDE EPITA, France",
+                "Mojmír Křetínský @ Masaryk University, Czech Republic",
+                "Jan Strejček @ Masaryk University, Czech Republic"
+            ],
+            "Affiliations": [
+                "Masaryk University, Czech Republic",
+                "LRDE EPITA, France",
+                "Masaryk University, Czech Republic",
+                "Masaryk University, Czech Republic"
+            ],
+            "Abstract": "LTL to Büchi automata (BA) translators are traditionally optimized to produce automata with a small number of states or a small number of non-deterministic states. In this paper, we search for properties of Büchi automata that really influence the performance of explicit model checkers. We do that by manual analysis of several automata and by experiments with common LTL-to-BA translators and realistic verification tasks. As a result of these experiences, we gain a better insight into the characteristics of automata that work well with Spin.",
+            "Award": ""
+        },
+        {
+            "Title": "Automatic Handling of Native Methods in Java PathFinder",
+            "Type": "Short Paper",
+            "Key": "spin14main-mainid21-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNastaran+Shafiei+and+Franck+van+Breugel+%22Automatic+Handling+of+Native+Methods+in+Java+PathFinder%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632363",
+            "PersonsString": "Nastaran Shafiei and Franck van Breugel",
+            "AffiliationsString": "NASA Ames Research Center, USA; York University, Canada",
+            "Authors": [
+                "Nastaran Shafiei @ NASA Ames Research Center, USA",
+                "Franck van Breugel @ York University, Canada"
+            ],
+            "Affiliations": [
+                "NASA Ames Research Center, USA",
+                "York University, Canada"
+            ],
+            "Abstract": "Java PathFinder (JPF) is a model checker for Java applications. Despite its maturity, JPF cannot be used to verify any realistic Java application without a nontrivial amount of work done by its user. One of the main limiting factors towards model checking such applications is handling native calls. JPF provides ways for users to handle such calls. However, those require modeling the behaviour of the native methods in Java which is labour intensive and hinders the uptake of JPF by developers. This paper presents our tool that extends JPF to address this problem. Our work alleviates this burden for users by automatically handling native calls. Our approach is based on delegating the execution of native calls from JPF to their original execution environment. We showcase our extension by applying it to a variety of simple yet realistic Java applications that JPF, without our extension, cannot handle.",
+            "Award": ""
+        },
+        {
+            "Title": "Generic and Efficient Attacker Models in SPIN",
+            "Type": "Full Paper",
+            "Key": "spin14main-mainid18-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNoomene+Ben+Henda+%22Generic+and+Efficient+Attacker+Models+in+SPIN%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632378",
+            "PersonsString": "Noomene Ben Henda",
+            "AffiliationsString": "Ericsson Research, Sweden",
+            "Authors": [
+                "Noomene Ben Henda @ Ericsson Research, Sweden"
+            ],
+            "Affiliations": [
+                "Ericsson Research, Sweden"
+            ],
+            "Abstract": "In telecommunication networks, it is common that security protocol procedures rely on context information and other parameters of the global system state. Current security ver- ification tools are well suited for analyzing protocols in iso- lation and it is not clear how they can be used for protocols intended to be run in more“dynamic”settings. Think of pro- tocol procedures sharing parameters, arbitrarily interleaved or used as building blocks in more complex compound proce- dures. SPIN is a well established general purpose verification tool that has good support for modeling such systems. In contrast to specialized tools, SPIN lacks support for crypto- graphic primitives and intruder model which are necessary for checking security properties. We consider a special class of security protocols that fit well in the SPIN framework. Our modeling method is systematic, generic and efficient enough so that SPIN could find all the expected attacks on several of the classical key distribution protocols.",
+            "Award": ""
+        },
+        {
+            "Title": "Quantifying Information Leaks using Reliability Analysis",
+            "Type": "Short Paper",
+            "Key": "spin14main-mainid10-p",
+            "URL": "http%3A%2F%2Fwww.eecs.qmul.ac.uk%2F%7Eqsp30%2Fpapers%2Fspin2014.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632367",
+            "PersonsString": "Quoc-Sang Phan, Pasquale Malacaria, Corina S. Păsăreanu, and Marcelo d'Amorim",
+            "AffiliationsString": "Queen Mary University of London, UK; Carnegie Mellon University, USA; NASA Ames Research Center, USA; Federal University of Pernambuco, Brazil",
+            "Authors": [
+                "Quoc-Sang Phan @ Queen Mary University of London, UK",
+                "Pasquale Malacaria @ Queen Mary University of London, UK",
+                "Corina S. Păsăreanu @ Carnegie Mellon University, USA / NASA Ames Research Center, USA",
+                "Marcelo d'Amorim @ Federal University of Pernambuco, Brazil"
+            ],
+            "Affiliations": [
+                "Queen Mary University of London, UK",
+                "Queen Mary University of London, UK",
+                "Carnegie Mellon University, USA / NASA Ames Research Center, USA",
+                "Federal University of Pernambuco, Brazil"
+            ],
+            "Abstract": "We report on our work-in-progress into the use of reliability analysis to quantify information leaks. In recent work we have proposed a software reliability analysis technique that uses symbolic execution and model counting to quantify the probability of reaching designated program states, e.g. assert violations, under uncertainty conditions in the environment. The technique has many applications beyond reliability analysis, ranging from program understanding and debugging to analysis of cyber-physical systems. In this paper we report on a novel application of the technique, namely Quantitative Information Flow analysis (QIF). The goal of QIF is to measure information leakage of a program by using information-theoretic metrics such as Shannon entropy or Renyi entropy. We exploit the model counting engine of the reliability analyzer over symbolic program paths, to compute an upper bound of the maximum leakage over all possible distributions of the confidential data.  We have implemented our approach into a prototype tool, called QILURA, and explore its effectiveness on a number of case studies.",
+            "Award": ""
+        },
+        {
+            "Title": "Unit Testing for SPIN: runspin and parsepan",
+            "Type": "Short Paper",
+            "Key": "spin14main-mainid20-p",
+            "URL": "http%3A%2F%2Fruwise.nl%2Fspin-2014%2Frunspin-parsepan.pdf",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Fruwise.nl%2Fspin-2014%2F",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632382",
+            "PersonsString": "Theo C. Ruys",
+            "AffiliationsString": "RUwise, Netherlands",
+            "Authors": [
+                "Theo C. Ruys @ RUwise, Netherlands"
+            ],
+            "Affiliations": [
+                "RUwise, Netherlands"
+            ],
+            "Abstract": "This paper presents runspin and parsepan, two utilities to ease the verification process with the SPIN model checker. runspin allows the management of verification configurations within PROMELA models and takes care of the automatic verification.Moreover, runspin adds essential data to the verification report. parsepan is used to selectively retrieve information from verification reports. Used together the two tools can act as unit testing engine for PROMELA models.",
+            "Award": ""
+        },
+        {
+            "Title": "Verige: Verification with Invariant Generation Engine",
+            "Type": "Short Paper",
+            "Key": "spin14main-mainid15-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DNicolas+Latorre%2C+Francesco+Alberti%2C+and+Natasha+Sharygina+%22Verige%3A+Verification+with+Invariant+Generation+Engine%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632373",
+            "PersonsString": "Nicolas Latorre, Francesco Alberti, and Natasha Sharygina",
+            "AffiliationsString": "University of Lugano, Switzerland",
+            "Authors": [
+                "Nicolas Latorre @ University of Lugano, Switzerland",
+                "Francesco Alberti @ University of Lugano, Switzerland",
+                "Natasha Sharygina @ University of Lugano, Switzerland"
+            ],
+            "Affiliations": [
+                "University of Lugano, Switzerland",
+                "University of Lugano, Switzerland",
+                "University of Lugano, Switzerland"
+            ],
+            "Abstract": "Program verification systems fail in verifying programs if appropriate loop invariants are not suggested. Generation of loop invariants in general is an art and providing them manually is a highly complex task (if possible at all). In this paper we present VERIGE, a tool that integrates a verifier with an invariant generator engine. VERIGE implements a novel generic algorithm that can alleviate the load on the invariant generator and consequently achieve a general speed-up of program verification.",
+            "Award": ""
+        },
+        {
+            "Title": "Satisfiability Modulo Abstraction for Separation Logic with Linked Lists",
+            "Type": "Full Paper",
+            "Key": "spin14main-mainid33-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAditya+Thakur%2C+Jason+Breck%2C+and+Thomas+Reps+%22Satisfiability+Modulo+Abstraction+for+Separation+Logic+with+Linked+Lists%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632376",
+            "PersonsString": "Aditya Thakur, Jason Breck, and Thomas Reps",
+            "AffiliationsString": "University of Wisconsin-Madison, USA; GrammaTech, USA",
+            "Authors": [
+                "Aditya Thakur @ University of Wisconsin-Madison, USA",
+                "Jason Breck @ University of Wisconsin-Madison, USA",
+                "Thomas Reps @ University of Wisconsin-Madison, USA / GrammaTech, USA"
+            ],
+            "Affiliations": [
+                "University of Wisconsin-Madison, USA",
+                "University of Wisconsin-Madison, USA",
+                "University of Wisconsin-Madison, USA / GrammaTech, USA"
+            ],
+            "Abstract": "Separation logic is an expressive logic for reasoning about heap structures in programs. This paper presents a semi-decision procedure for checking unsatisfiability of formulas in a fragment of separation logic that includes points-to assertions (x |-&gt; y), acyclic-list-segment assertions (ls(x,y)), logical-and, logical-or, separating conjunction, and septraction (the DeMorgan-dual of separating implication). The fragment that we consider allows negation at leaves, and includes formulas that lie outside other separation-logic fragments considered in the literature.  The semi-decision procedure is designed using concepts from abstract interpretation. The procedure uses an abstract domain of shape graphs to represent a set of heap structures, and computes an abstraction that over-approximates the set of satisfying models of a given formula. If the over-approximation is empty, then the formula is unsatisfiable.  We have implemented the method, and evaluated it on a set of formulas taken from the literature. The implementation is able to establish the unsatisfiability of formulas that cannot be handled by previous approaches.",
+            "Award": ""
+        },
+        {
+            "Title": "CTL+FO Verification as Constraint Solving",
+            "Type": "Short Paper",
+            "Key": "spin14main-mainid31-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DTewodros+A.+Beyene%2C+Marc+Brockschmidt%2C+and+Andrey+Rybalchenko+%22CTL%2BFO+Verification+as+Constraint+Solving%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632364",
+            "PersonsString": "Tewodros A. Beyene, Marc Brockschmidt, and Andrey Rybalchenko",
+            "AffiliationsString": "TU München, Germany; Microsoft Research, UK",
+            "Authors": [
+                "Tewodros A. Beyene @ TU München, Germany",
+                "Marc Brockschmidt @ Microsoft Research, UK",
+                "Andrey Rybalchenko @ Microsoft Research, UK"
+            ],
+            "Affiliations": [
+                "TU München, Germany",
+                "Microsoft Research, UK",
+                "Microsoft Research, UK"
+            ],
+            "Abstract": "Expressing program correctness often requires relating program data throughout (different branches of) an execution. Such properties can be represented using CTL+FO, a logic that allows mixing temporal and first-order quantification. Verifying that a program satisfies a CTL+FO property is a challenging problem that requires both temporal and data reasoning. Temporal quantifiers require discovery of invariants and ranking functions, while first-order quantifiers demand instantiation techniques. In this paper, we present a constraint-based method for proving CTL+FO properties automatically. Our method makes the interplay between the temporal and first-order quantification explicit in a constraint encoding that combines recursion and existential quantification. By integrating this constraint encoding with an off-the-shelf solver we obtain an automatic verifier for CTL+FO.",
+            "Award": ""
+        },
+        {
+            "Title": "Towards a Test Automation Framework for Alloy",
+            "Type": "Short Paper",
+            "Key": "spin14main-mainid37-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAllison+Sullivan%2C+Razieh+Nokhbeh+Zaeem%2C+Sarfraz+Khurshid%2C+and+Darko+Marinov+%22Towards+a+Test+Automation+Framework+for+Alloy%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632362.2632369",
+            "PersonsString": "Allison Sullivan, Razieh Nokhbeh Zaeem, Sarfraz Khurshid, and Darko Marinov",
+            "AffiliationsString": "University of Texas at Austin, USA; University of Illinois at Urbana-Champaign, USA",
+            "Authors": [
+                "Allison Sullivan @ University of Texas at Austin, USA",
+                "Razieh Nokhbeh Zaeem @ University of Texas at Austin, USA",
+                "Sarfraz Khurshid @ University of Texas at Austin, USA",
+                "Darko Marinov @ University of Illinois at Urbana-Champaign, USA"
+            ],
+            "Affiliations": [
+                "University of Texas at Austin, USA",
+                "University of Texas at Austin, USA",
+                "University of Texas at Austin, USA",
+                "University of Illinois at Urbana-Champaign, USA"
+            ],
+            "Abstract": "Writing declarative models of software designs and analyzing them to detect defects is an effective methodology for developing more dependable software systems. However, writing such models correctly can be challenging for practitioners who may not be proficient in declarative programming, and their models themselves may be buggy. We introduce the foundations of a novel test automation framework, AUnit, which we envision for testing declarative models written in Alloy -- a first-order, relational language that is supported by its SAT-based analyzer. We take inspiration from the success of the family of xUnit frameworks that are used widely in practice for test automation, albeit for imperative or object-oriented programs. The key novelty of our work is to define a basis for unit testing for Alloy, specifically, to define the concepts of test case and coverage, and coverage criteria for declarative models. We reduce the problems of declarative test execution and coverage computation to evaluation without requiring SAT solving. Our vision is to blend how developers write unit tests in commonly used programming languages with how Alloy users formulate their models in Alloy, thereby facilitating the development and testing of Alloy models for both new Alloy users as well as experts. We illustrate our ideas using a small but complex Alloy model. While we focus on Alloy, our ideas generalize to other declarative languages (such as Z, B, ASM).",
+            "Award": ""
+        },
+        {
+            "Title": "Message from the Chairs",
+            "Type": "Frontmatter",
+            "Key": "isstaws14jamaicaforeword-fm001-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChristof+Budnik%2C+Gabriella+Carrozza%2C+David+Farag%C3%B3%2C+Baris+G%C3%BCldali%2C+Barath+Kumar%2C+Vittorio+Manetti%2C+Roberto+Pietrantuono%2C+and+Stephan+Wei%C3%9Fleder+%22Message+from+the+Chairs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Christof Budnik, Gabriella Carrozza, David Faragó, Baris Güldali, Barath Kumar, Vittorio Manetti, Roberto Pietrantuono, and Stephan Weißleder",
+            "AffiliationsString": "Siemens, USA; SESM, Italy; KIT, Germany; s-lab Paderborn, Germany; inIT, Germany; UNINA, Italy; Thales Transportation Systems, Germany",
+            "Authors": [
+                "Christof Budnik @ Siemens, USA",
+                "Gabriella Carrozza @ SESM, Italy",
+                "David Faragó @ KIT, Germany",
+                "Baris Güldali @ s-lab Paderborn, Germany",
+                "Barath Kumar @ inIT, Germany",
+                "Vittorio Manetti @ SESM, Italy",
+                "Roberto Pietrantuono @ UNINA, Italy",
+                "Stephan Weißleder @ Thales Transportation Systems, Germany"
+            ],
+            "Affiliations": [
+                "Siemens, USA",
+                "SESM, Italy",
+                "KIT, Germany",
+                "s-lab Paderborn, Germany",
+                "inIT, Germany",
+                "SESM, Italy",
+                "UNINA, Italy",
+                "Thales Transportation Systems, Germany"
+            ],
+            "Abstract": "Welcome to JAMAICA 2014, the second international workshop on “Joining AcadeMiA and Industry Contributions to Test Automation and Model-based Testing”, held in San Jose on July 21st 2014, co-located with ISSTA 2014. The main focus are approaches that push industry toward better test automation, to minimize manual, error-prone activities in test case generation and execution.",
+            "Award": ""
+        },
+        {
+            "Title": "Testing Methods Used in the Automotive Industry: Results from a Survey",
+            "Type": "Full Paper",
+            "Key": "isstaws14jamaicamain-jamaicaid5-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHarald+Altinger%2C+Franz+Wotawa%2C+and+Markus+Schurius+%22Testing+Methods+Used+in+the+Automotive+Industry%3A+Results+from+a+Survey%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2631890.2631891",
+            "PersonsString": "Harald Altinger, Franz Wotawa, and Markus Schurius",
+            "AffiliationsString": "Audi Electronics Venture, Germany; Graz University of Technology, Austria",
+            "Authors": [
+                "Harald Altinger @ Audi Electronics Venture, Germany",
+                "Franz Wotawa @ Graz University of Technology, Austria",
+                "Markus Schurius @ Audi Electronics Venture, Germany"
+            ],
+            "Affiliations": [
+                "Audi Electronics Venture, Germany",
+                "Graz University of Technology, Austria",
+                "Audi Electronics Venture, Germany"
+            ],
+            "Abstract": "About 90% of all the current car innovations are based on electronics and software. The software used in a car has increased a lot reaching the size of 100 Million lines of code. Therefore, testing of automotive software has become a very critical task. In this paper we report on a questionnaire survey we carried out asking for information about testing activities within the automotive industry. We report on testing and test automation methods and tools in current use. In the survey we distinguished the different fields in the automotive industry where software development happens, i.e., research, pre-development, and series development. In addition we also discuss the opinions of the survey participants to various outlook topics.",
+            "Award": ""
+        },
+        {
+            "Title": "A Framework-Based Approach for Automated Testing of CNC Firmware",
+            "Type": "Full Paper",
+            "Key": "isstaws14jamaicamain-jamaicaid6-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMarcus+Thoss%2C+Kai+Beckmann%2C+Reinhold+Kroeger%2C+Marco+Muenchhof%2C+and+Christian+Mellert+%22A+Framework-Based+Approach+for+Automated+Testing+of+CNC+Firmware%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2631890.2631892",
+            "PersonsString": "Marcus Thoss, Kai Beckmann, Reinhold Kroeger, Marco Muenchhof, and Christian Mellert",
+            "AffiliationsString": "RheinMain University of Applied Sciences, Germany; Eckelmann, Germany",
+            "Authors": [
+                "Marcus Thoss @ RheinMain University of Applied Sciences, Germany",
+                "Kai Beckmann @ RheinMain University of Applied Sciences, Germany",
+                "Reinhold Kroeger @ RheinMain University of Applied Sciences, Germany",
+                "Marco Muenchhof @ Eckelmann, Germany",
+                "Christian Mellert @ Eckelmann, Germany"
+            ],
+            "Affiliations": [
+                "RheinMain University of Applied Sciences, Germany",
+                "RheinMain University of Applied Sciences, Germany",
+                "RheinMain University of Applied Sciences, Germany",
+                "Eckelmann, Germany",
+                "Eckelmann, Germany"
+            ],
+            "Abstract": "The product- and technology-specific nature of embedded software components often results in a high overhead for the setup and automation of testing procedures. This paper presents the adaptation of the generic, modular Eclipse Test and Performance Tools Platform Project (TPTP) framework for managing and running automated tests and creating test reports for firmware releases of a computerized numerical control (CNC) device product. TPTP, built upon the development and user interface context of the Eclipse platform, is extended by product-specific plugins and TPTP module extensions. The actual test execution is performed remotely on CNC devices, controlled and evaluated by the testing framework. CNC firmware releases, configuration setups and the test results become manageable as TPTP resources. To facilitate modelling of test oracles and complex algorithms for CNC track evaluation, dynamic MATLAB code execution in the course of test procedures is supported.",
+            "Award": ""
+        },
+        {
+            "Title": "Echo: A Middleware Architecture for Domain-Specific UI Test Automation",
+            "Type": "Short Paper",
+            "Key": "isstaws14jamaicamain-jamaicaid10-p",
+            "URL": "https%3A%2F%2Fdl.dropboxusercontent.com%2Fs%2Fp56bp8lorl3hxm9%2Fissta-workshop-echo-preprint.pdf%3Fdl%3D1",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2631890.2631893",
+            "PersonsString": "Jorge Martinez, Troy Thomas, and Tariq M. King",
+            "AffiliationsString": "Ultimate Software, USA",
+            "Authors": [
+                "Jorge Martinez @ Ultimate Software, USA",
+                "Troy Thomas @ Ultimate Software, USA",
+                "Tariq M. King @ Ultimate Software, USA"
+            ],
+            "Affiliations": [
+                "Ultimate Software, USA",
+                "Ultimate Software, USA",
+                "Ultimate Software, USA"
+            ],
+            "Abstract": "Model-driven engineering (MDE) continues to raise the level of abstraction used in software development. Software testing researchers and practitioners have been adopting MDE principles, and applying them to software testing activities. Examples include the use of domain-specific languages for functional testing and test automation. In this paper we present the design of a layered middleware architecture to support domain-specific, functional UI test automation. Building on experiences gained implementing a Selenium-based framework for a large-scale agile project, we present design ideas that raise the abstraction level in UI test automation frameworks. Design considerations are discussed to provoke thoughts and ideas on automation frameworks.",
+            "Award": ""
+        },
+        {
+            "Title": "On the Applicability of Combinatorial Testing to Web Application Security Testing: A Case Study",
+            "Type": "Full Paper",
+            "Key": "isstaws14jamaicamain-jamaicaid9-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBernhard+Garn%2C+Ioannis+Kapsalis%2C+Dimitris+E.+Simos%2C+and+Severin+Winkler+%22On+the+Applicability+of+Combinatorial+Testing+to+Web+Application+Security+Testing%3A+A+Case+Study%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2631890.2631894",
+            "PersonsString": "Bernhard Garn, Ioannis Kapsalis, Dimitris E. Simos, and Severin Winkler",
+            "AffiliationsString": "SBA Research, Austria; Security Research, Austria",
+            "Authors": [
+                "Bernhard Garn @ SBA Research, Austria",
+                "Ioannis Kapsalis @ SBA Research, Austria",
+                "Dimitris E. Simos @ SBA Research, Austria",
+                "Severin Winkler @ Security Research, Austria"
+            ],
+            "Affiliations": [
+                "SBA Research, Austria",
+                "SBA Research, Austria",
+                "SBA Research, Austria",
+                "Security Research, Austria"
+            ],
+            "Abstract": "Case studies for evaluating tools in security testing are powerful. Although they cannot achieve the scientific rigor of formal experiments, the results can provide sufficient information to help professionals judge if a specific technology being evaluated will benefit their organization. This paper reports on a case study done for evaluating and revisiting a recently introduced combinatorial testing methodology used for web application security purposes. It further reports on undertaken practical experiments thus strengthening the applicability of combinatorial testing to web application security testing.",
+            "Award": ""
+        },
+        {
+            "Title": "Towards an Automated Approach to Use Expert Systems in the Performance Testing of Distributed Systems",
+            "Type": "Full Paper",
+            "Key": "isstaws14jamaicamain-jamaicaid3-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DA.+Omar+Portillo-Dominguez%2C+Miao+Wang%2C+John+Murphy%2C+Damien+Magoni%2C+Nick+Mitchell%2C+Peter+F.+Sweeney%2C+and+Erik+Altman+%22Towards+an+Automated+Approach+to+Use+Expert+Systems+in+the+Performance+Testing+of+Distributed+Systems%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2631890.2631895",
+            "PersonsString": "A. Omar Portillo-Dominguez, Miao Wang, John Murphy, Damien Magoni, Nick Mitchell, Peter F. Sweeney, and Erik Altman",
+            "AffiliationsString": "Lero, Ireland; University College Dublin, Ireland; University of Bordeaux, France; IBM Research, USA",
+            "Authors": [
+                "A. Omar Portillo-Dominguez @ Lero, Ireland / University College Dublin, Ireland",
+                "Miao Wang @ Lero, Ireland / University College Dublin, Ireland",
+                "John Murphy @ Lero, Ireland / University College Dublin, Ireland",
+                "Damien Magoni @ University of Bordeaux, France",
+                "Nick Mitchell @ IBM Research, USA",
+                "Peter F. Sweeney @ IBM Research, USA",
+                "Erik Altman @ IBM Research, USA"
+            ],
+            "Affiliations": [
+                "Lero, Ireland / University College Dublin, Ireland",
+                "Lero, Ireland / University College Dublin, Ireland",
+                "Lero, Ireland / University College Dublin, Ireland",
+                "University of Bordeaux, France",
+                "IBM Research, USA",
+                "IBM Research, USA",
+                "IBM Research, USA"
+            ],
+            "Abstract": "Performance testing in distributed environments is challenging. Specifically, the identification of performance issues and their root causes are time-consuming and complex tasks which heavily rely on expertise. To simplify these tasks, many researchers have been developing tools with built-in expertise. However limitations exist in these tools, such as managing huge volumes of distributed data, that prevent their efficient usage for performance testing of highly distributed environments. To address these limitations, this paper presents an adaptive framework to automate the usage of expert systems in performance testing. Our validation assessed the accuracy of the framework and the time savings that it brings to testers. The results proved the benefits of the framework by achieving a significant decrease in the time invested in performance analysis and testing.",
+            "Award": ""
+        },
+        {
+            "Title": "Modeling Mobile Application Test Platform and Environment: Testing Criteria and Complexity Analysis",
+            "Type": "Full Paper",
+            "Key": "isstaws14jamaicamain-jamaicaid8-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChuanqi+Tao+and+Jerry+Gao+%22Modeling+Mobile+Application+Test+Platform+and+Environment%3A+Testing+Criteria+and+Complexity+Analysis%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2631890.2631896",
+            "PersonsString": "Chuanqi Tao and Jerry Gao",
+            "AffiliationsString": "Nanjing University of Science and Technology, China; San Jose State University, USA",
+            "Authors": [
+                "Chuanqi Tao @ Nanjing University of Science and Technology, China",
+                "Jerry Gao @ San Jose State University, USA"
+            ],
+            "Affiliations": [
+                "Nanjing University of Science and Technology, China",
+                "San Jose State University, USA"
+            ],
+            "Abstract": "With the rapid advance of mobile computing technology and wireless networking, there is a significant increase of mobile subscriptions. This drives a strong demand on mobile application testing on mobile devices. Since mobile APPs are native to mobile devices, an underlying mobile platform becomes the basic foundation of their test environments. To achieve effective test automation, test solutions must be compatible, deployable, and executable on different mobile platforms, devices, network, and appliance APIs. This paper is written to provide an approach to modeling mobile test environments based on a Mobile Test Environment Semantic Tree (MTE_ST). Based on this model, the paper discusses test complexity evaluation methods for test environment. Furthermore, some case study results are reported to demonstrate and analyze the proposed testing models.",
+            "Award": ""
+        },
+        {
+            "Title": "Message from the Chairs",
+            "Type": "Frontmatter",
+            "Key": "isstaws14wodaforeword-fm001-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DHarry+Xu%2C+Tao+Xie%2C+Shan+Lu%2C+Dongmei+Zhang%2C+Santosh+Nagarakatte%2C+and+Christoph+Csallner+%22Message+from+the+Chairs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Harry Xu, Tao Xie, Shan Lu, Dongmei Zhang, Santosh Nagarakatte, and Christoph Csallner",
+            "AffiliationsString": "University of California at Irvine, USA; University of Illinois at Urbana-Champaign, USA; University of Wisconsin at Madison, USA; Microsoft Research, China; Rutgers University, USA; University of Texas at Arlington, USA",
+            "Authors": [
+                "Harry Xu @ University of California at Irvine, USA",
+                "Tao Xie @ University of Illinois at Urbana-Champaign, USA",
+                "Shan Lu @ University of Wisconsin at Madison, USA",
+                "Dongmei Zhang @ Microsoft Research, China",
+                "Santosh Nagarakatte @ Rutgers University, USA",
+                "Christoph Csallner @ University of Texas at Arlington, USA"
+            ],
+            "Affiliations": [
+                "University of California at Irvine, USA",
+                "University of Illinois at Urbana-Champaign, USA",
+                "University of Wisconsin at Madison, USA",
+                "Microsoft Research, China",
+                "Rutgers University, USA",
+                "University of Texas at Arlington, USA"
+            ],
+            "Abstract": "Welcome to the joint WODA+PERTEA 2014 workshop. WODA 2014 is the 12th International Workshop on Dynamic Analysis. PERTEA 2014 is the Workshop on Software and System Performance Testing, Debugging, and Analytics. WODA+PERTEA 2014 is co-located with the International Symposium on Software Testing and Analysis (ISSTA 2014). WODA+PERTEA 2014 takes place on Tuesday, July 22nd, 2014 in the Hilton in San Jose, California. The main focus of WODA+PERTEA 2014 is dynamic analysis (WODA) as well as performance testing, debugging, and analytics (PERTEA).",
+            "Award": ""
+        },
+        {
+            "Title": "P: A Domain-Specific Language for Asynchronous Event-Driven Programming (Invited Talk Abstract)",
+            "Type": "Invited Talk Abstract",
+            "Key": "isstaws14wodainv-wodainvinv3-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DShaz+Qadeer+%22P%3A+A+Domain-Specific+Language+for+Asynchronous+Event-Driven+Programming+%28Invited+Talk+Abstract%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632168.2638830",
+            "PersonsString": "Shaz Qadeer",
+            "AffiliationsString": "Microsoft Research, USA",
+            "Authors": [
+                "Shaz Qadeer @ Microsoft Research, USA"
+            ],
+            "Affiliations": [
+                "Microsoft Research, USA"
+            ],
+            "Abstract": "Asynchrony is fundamental to a broad class of software systems such as device drivers, cloud infrastructure, interacting web services, and client-server web applications. These software systems exhibit reactive and concurrent execution whose control requires carefully designed and implemented protocols. Traditional programming languages provide little support to specify and validate protocols. To address this gap, we have developed a domain-specific language called P for specification, implementation, and validation of protocols in asynchronous software. P is being used inside Microsoft in Windows and Windows Phone for developing device drivers; the USB device driver stack that ships with Windows and Windows Phone is implemented in P. In this talk, I will present the design and implementation of the language features and the systematic testing framework of P. I will also touch upon our current work extending P for programming fault-tolerant distributed services.",
+            "Award": ""
+        },
+        {
+            "Title": "Usable Program Analysis at Google-Scale (Invited Talk Abstract)",
+            "Type": "Invited Talk Abstract",
+            "Key": "isstaws14wodainv-wodainvinv2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCaitlin+Sadowski+%22Usable+Program+Analysis+at+Google-Scale+%28Invited+Talk+Abstract%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632168.2638829",
+            "PersonsString": "Caitlin Sadowski",
+            "AffiliationsString": "Google, USA",
+            "Authors": [
+                "Caitlin Sadowski @ Google, USA"
+            ],
+            "Affiliations": [
+                "Google, USA"
+            ],
+            "Abstract": "Scalability and usability problems have hindered many attempts at integrating program analysis tools into the developer workflow at Google. This talk introduces the program analysis landscape at Google, and how we have overcome those problems. I will discuss Google&#039;s unique software development environment, and how program analysis fits into that environment, including a variety of AST-matching-based compiler analyses for Java and C++ based on the error-prone and clang-tidy open-source projects.",
+            "Award": ""
+        },
+        {
+            "Title": "Automated Test Generation for API Proxy Code (Invited Talk Abstract)",
+            "Type": "Invited Talk Abstract",
+            "Key": "isstaws14wodainv-wodainvinv1-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DQing+Xie+%22Automated+Test+Generation+for+API+Proxy+Code+%28Invited+Talk+Abstract%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632168.2638828",
+            "PersonsString": "Qing Xie",
+            "AffiliationsString": "Accenture, USA",
+            "Authors": [
+                "Qing Xie @ Accenture, USA"
+            ],
+            "Affiliations": [
+                "Accenture, USA"
+            ],
+            "Abstract": "As part of exposing APIs, API Management tools apply policy workflows to implement various functionalities such as security, caching, traffic management, and analytics. A policy workflow is a set of conditionals where testing involves executing various paths in the workflow. As a workflow becomes more complex, manual writing of tests to cover various paths in the workflow can be laborious, time-consuming, and error prone. To address the preceding problem, we propose a framework for automated test generation to cover various paths in the policy workflow. The generated tests can be used to find faults in the policy workflow implementations. In addition, the generated tests can serve as regression tests to guard against the changes made to a back-end service or to policy workflow.",
+            "Award": ""
+        },
+        {
+            "Title": "Effective Race Detection for Event-Driven Programs (Invited Talk Abstract)",
+            "Type": "Invited Talk Abstract",
+            "Key": "isstaws14wodainv-wodainvinv4-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DManu+Sridharan+%22Effective+Race+Detection+for+Event-Driven+Programs+%28Invited+Talk+Abstract%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632168.2638831",
+            "PersonsString": "Manu Sridharan",
+            "AffiliationsString": "Samsung Research, USA",
+            "Authors": [
+                "Manu Sridharan @ Samsung Research, USA"
+            ],
+            "Affiliations": [
+                "Samsung Research, USA"
+            ],
+            "Abstract": "Like shared-memory multi-threaded programs, event-driven programs are susceptible to non-deterministic errors that are hard to reproduce and debug. Mobile application platforms and the web require writing event-driven code, motivating the need for better tools to detect these types of errors. In the first part of this talk, we will show how techniques from data race detection for multi-threaded programs can be applied to detect these bugs, by defining an appropriate notion of a happens-before relation and memory accesses for the underlying platform. While extant data race detectors can be applied to event-driven programs based on the above, the pervasive use of ad hoc synchronization in such programs can lead a race detector to report too many false positives. Race detection for such programs also faces a scalability challenge, as a large number of short-running event handlers can overwhelm standard vector-clock-based techniques. We present a novel race detector EventRacer that addresses both of these challenges. We introduce race coverage, a systematic method for exposing ad hoc synchronization and other key races to the user, significantly reducing false positives. We also present an efficient connectivity algorithm that uses chain decomposition to dramatically decrease the overhead of vector clocks. We show that for client-side web applications, our techniques lead to large performance and precision improvements over state-of-the-art techniques.",
+            "Award": ""
+        },
+        {
+            "Title": "On the Probabilistic Analysis of Software (Invited Talk Abstract)",
+            "Type": "Invited Talk Abstract",
+            "Key": "isstaws14wodainv-wodainvinv5-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DCorina+S.+P%C4%83s%C4%83reanu+%22On+the+Probabilistic+Analysis+of+Software+%28Invited+Talk+Abstract%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632168.2638832",
+            "PersonsString": "Corina S. Păsăreanu",
+            "AffiliationsString": "NASA Ames Research Center, USA",
+            "Authors": [
+                "Corina S. Păsăreanu @ NASA Ames Research Center, USA"
+            ],
+            "Affiliations": [
+                "NASA Ames Research Center, USA"
+            ],
+            "Abstract": "Probabilistic software analysis aims at quantifying how likely a target event is to occur, given a probabilistic characterization of the behavior of a program or of its execution environment. Examples of target events may include an uncaught exception, the invocation of a certain method, or the access to confidential information.We are working on a symbolic execution approach to probabilistic software analysis that first computes the conditions to reach the target event, and then tries to quantify the fraction of the input domain satisfying these conditions. Unlike past approaches, that were mostly performed at model level, and were thus only applicable to early software design stages or required explicit (and hard to maintain) abstraction from the code, our techniques are performed directly at the code level. Our techniques are built on top of the Symbolic PathFinder symbolic execution tool. We discuss applications to the analysis of Unmanned Aerial Systems developed at NASA Ames.",
+            "Award": ""
+        },
+        {
+            "Title": "Context-Sensitive Delta Inference for Identifying Workload-Dependent Performance Bottlenecks (Invited Talk Abstract)",
+            "Type": "Invited Talk Abstract",
+            "Key": "isstaws14wodainv-wodainvinv6-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DXusheng+Xiao+%22Context-Sensitive+Delta+Inference+for+Identifying+Workload-Dependent+Performance+Bottlenecks+%28Invited+Talk+Abstract%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632168.2638833",
+            "PersonsString": "Xusheng Xiao",
+            "AffiliationsString": "NEC Labs, USA",
+            "Authors": [
+                "Xusheng Xiao @ NEC Labs, USA"
+            ],
+            "Affiliations": [
+                "NEC Labs, USA"
+            ],
+            "Abstract": "Software hangs can be caused by expensive operations in responsive actions (such as time-consuming operations in UI threads). Some of the expensive operations depend on the input workloads, referred to as workload-dependent performance bottlenecks (WDPBs). WDPBs are usually caused by workload-dependent loops (i.e., WDPB loops) that contain relatively expensive operations. Traditional performance testing and single-execution profiling may not reveal WDPBs due to incorrect assumptions of workloads. To address these issues, we propose the Infer approach that predicts WDPB loops under large workloads via inferring iteration counts of WDPB loops using complexity models for the workload size. Infer incorporates a novel concept named context-sensitive delta inference that consists of two parts: temporal inference for inferring the complexity models of different program locations, and spatial inference for identifying WDPB loops as WDPB candidates. We conducted evaluations on two popular open-source GUI applications, and identified impactful WDPBs that caused 10 performance bugs.",
+            "Award": ""
+        },
+        {
+            "Title": "Detecting and Repairing Performance Bugs using Execution and Code Patterns (Invited Talk Abstract)",
+            "Type": "Invited Talk Abstract",
+            "Key": "isstaws14wodainv-wodainvinv7-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAdrian+Nistor+%22Detecting+and+Repairing+Performance+Bugs+using+Execution+and+Code+Patterns+%28Invited+Talk+Abstract%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632168.2638834",
+            "PersonsString": "Adrian Nistor",
+            "AffiliationsString": "Chapman University, USA",
+            "Authors": [
+                "Adrian Nistor @ Chapman University, USA"
+            ],
+            "Affiliations": [
+                "Chapman University, USA"
+            ],
+            "Abstract": "Software performance is critical for the overall success of a software project. Performance bugs are programming mistakes that slow down program execution. Performance bugs create poor user experience and affect the user-perceived software quality. Even expert programmers can introduce performance bugs, which have already caused serious and highly publicized incidents. Well tested commercial products such as Windows Explorer and Acrobat Reader are also affected by performance bugs. In this talk, we will discuss Toddler, SunCat, and Caramel, three novel techniques for automatically detecting and repairing performance bugs. Unlike profilers, which focus on methods that take a long time to execute, Toddler, SunCat, and Caramel focus on code and execution patterns that are indicative of common programming mistakes affecting performance. The additional information provided by these patterns enable Toddler, SunCat, and Caramel to have better results more automation, fewer false negatives, fewer false positives, automated repair---than profilers for the bugs Toddler, SunCat, and Caramel are designed to find. Toddler, SunCat, and Caramel employ novel dynamic and static analyses. Toddler, SunCat, and Caramel found over 150 previously unknown performance bugs in widely used Java, C/C++, and C# applications, including in mobile applications. Over 100 of these bugs have already been fixed by developers.",
+            "Award": ""
+        },
+        {
+            "Title": "Language, Compiler, and Runtime System Support towards Highly Scalable Big Data Application (Invited Talk Abstract)",
+            "Type": "Invited Talk Abstract",
+            "Key": "isstaws14wodainv-wodainvinv8-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DGuoqing+Xu+%22Language%2C+Compiler%2C+and+Runtime+System+Support+towards+Highly+Scalable+Big+Data+Application+%28Invited+Talk+Abstract%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632168.2638835",
+            "PersonsString": "Guoqing Xu",
+            "AffiliationsString": "University of California at Irvine, USA",
+            "Authors": [
+                "Guoqing Xu @ University of California at Irvine, USA"
+            ],
+            "Affiliations": [
+                "University of California at Irvine, USA"
+            ],
+            "Abstract": "Modern computing has entered the era of Big Data. Analyzing data from Twitter, Google, Facebook, Wikipedia, or the Human Genome Project requires the development of scalable platforms that can quickly extract useful information from an ocean of records collected from customers, clinical trial participants, program execution logs, or the Internet. Most of the existing Big Data applications, including Hadoop, Giraph, Hive, Pig, Mahout, or Hyracks are written managed, object-oriented languages such as Java. While the use of such languages simplifies development tasks, the (memory and execution) inefficiencies inherent in these languages can have large impact on the application performance and scalability. When object-orientation meets Big Data, performance problems are significantly magnified, making data-intensive computing systems fail to scale to large datasets. I will talk about several projects we are currently working on to scale Big Data applications by reducing the cost of a managed runtime. Particularly, I will talk about Facade, a compiler and runtime system we have developed to transform a Big Data application into an almost object-bounded application which has been shown to be much more efficient and scale to much larger datasets. I will also briefly mention two other projects, one attempting to provide a memory-oblivious programming model for developers to allow them to write a program without worrying about how to create threads and use memory, and second aiming to trim a big dataset with probabilistic guarantees to facilitate debugging/testing of a Big Data application.",
+            "Award": ""
+        },
+        {
+            "Title": "Improving Energy Efficiency of Work-Stealing Parallel Languages (Invited Talk Abstract)",
+            "Type": "Invited Talk Abstract",
+            "Key": "isstaws14wodainv-wodainvinv9-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DYu+David+Liu+%22Improving+Energy+Efficiency+of+Work-Stealing+Parallel+Languages+%28Invited+Talk+Abstract%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632168.2638836",
+            "PersonsString": "Yu David Liu",
+            "AffiliationsString": "SUNY Binghamton, USA",
+            "Authors": [
+                "Yu David Liu @ SUNY Binghamton, USA"
+            ],
+            "Affiliations": [
+                "SUNY Binghamton, USA"
+            ],
+            "Abstract": "At a time when power-hungry data centers and cloud servers become increasingly prevalent, energy efficiency is looming as a first-class design goal for parallel computing. More established solutions to address this challenging problem come from innovations on parallel architectures and operating systems. In this talk, we bring in a new perspective into green parallel computing, improving energy efficiency at the level of programming language runtimes. Our concrete solution is Hermes, a work-stealing language runtime that favorably balances the trade-off between energy and performance. The key insight is that threads in a work-stealing environment -- thieves and victims have varying impacts on the overall program running time, and a coordination of their execution ``tempos&#039;&#039; can lead to energy efficiency with minimal performance loss. The centerpiece of Hermes is two complementary algorithms to coordinate thread tempo: a workpath-sensitive algorithm to determine tempo for each thread based on thief-victim relationships on the execution path, and a workload-sensitive algorithm to select appropriate tempo based on the size of work-stealing deques. On the highest level, Hermes can be viewed as a semantics-aware energy management strategy unifying the language runtime and the hardware, with the language runtime offering clues for judicious tempo settings, and the hardware physically enabling tempo adjustment through standard Dynamic Voltage and Frequency Scaling (DVFS). Hermes is a joint work with Ph.D. student Haris Ribic.",
+            "Award": ""
+        },
+        {
+            "Title": "Intent Fuzzer: Crafting Intents of Death",
+            "Type": "Full Paper",
+            "Key": "isstaws14wodamain-wodamainid2-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DRaimondas+Sasnauskas+and+John+Regehr+%22Intent+Fuzzer%3A+Crafting+Intents+of+Death%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2632168.2632169",
+            "PersonsString": "Raimondas Sasnauskas and John Regehr",
+            "AffiliationsString": "University of Utah, USA",
+            "Authors": [
+                "Raimondas Sasnauskas @ University of Utah, USA",
+                "John Regehr @ University of Utah, USA"
+            ],
+            "Affiliations": [
+                "University of Utah, USA",
+                "University of Utah, USA"
+            ],
+            "Abstract": "We present a fuzzing framework for Intents: the core IPC mechanism for intra- and inter-app communication in Android. Since intents lie at a trust boundary between apps, their correctness is important and thorough testing is warranted. The key challenge is to balance the tension between generating intents that applications expect, permitting deep penetration into application logic, and generating intents that trigger interesting bugs that have not been previously uncovered. Our work strikes this balance using a novel combination of static analysis and random test-case generation. Our intent fuzzer crashed dozens of Google core and top Google Play apps, resulting in app restarts or even in a complete OS reboot.",
             "Award": ""
         }
     ],
     "Sessions": [
         {
-            "Id": "mooThaag2z",
-            "Title": "JAMAICA 2014",
-            "ShortTitle": "JAMAICA 2014",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2014-07-21 08:30 JAMAICA 2014",
+            "Id": "ahH6ui8pie",
+            "Title": "Message from the Chairs",
+            "ShortTitle": "Message from the Chairs",
+            "Type": "SPIN Plenary",
+            "ShortType": "SPIN Plenary",
+            "Key": "2014-07-21 08:30 Message from the Chairs",
             "Day": "2014-07-21",
-            "Time": "08:30 - 18:00",
-            "Location": "",
+            "Time": "08:30 - 08:45",
+            "Location": "Santa Clara Room",
             "LocationIndex": "6",
-            "ChairsString": "",
+            "ChairsString": "Neha Rungta and Oksana Tkachuk",
             "Chairs": [
+                "Neha Rungta @",
+                "Oksana Tkachuk @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "ISSTA14",
+            "Comment": "SPIN14FOREWORD",
             "URL": "",
-            "Abstract": ""
+            "Abstract": "",
+            "Items": [
+                "spin14foreword-fm001-p"
+            ]
         },
         {
-            "Id": "sheeWa3eig",
-            "Title": "SPIN 2014 - Day 1",
-            "ShortTitle": "SPIN 2014 - Day 1",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2014-07-21 08:30 SPIN 2014 - Day 1",
+            "Id": "aTaod0fi8o",
+            "Title": "LADEE Flight Software: Verification Techniques (Keynote)",
+            "ShortTitle": "LADEE Flight Software: Verification Techniques (Keynote)",
+            "Type": "SPIN Keynote",
+            "ShortType": "SPIN Keynote",
+            "Key": "2014-07-21 08:45 LADEE Flight Software: Verification Techniques (Keynote)",
             "Day": "2014-07-21",
-            "Time": "08:30 - 18:00",
-            "Location": "",
+            "Time": "08:45 - 10:00",
+            "Location": "Santa Clara Room",
             "LocationIndex": "6",
+            "ChairsString": "Oksana Tkachuk",
+            "Chairs": [
+                "Oksana Tkachuk @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SPIN14",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "Karen Gundy-Burlet @  : LADEE Flight Software: Verification Techniques (Keynote)"
+            ]
+        },
+        {
+            "Id": "Eepo3ophuo",
+            "Title": "Message from the Chairs",
+            "ShortTitle": "Message from the Chairs",
+            "Type": "JAMAICA Plenary",
+            "ShortType": "JAMAICA Plenary",
+            "Key": "2014-07-21 09:00 Message from the Chairs",
+            "Day": "2014-07-21",
+            "Time": "09:00 - 09:10",
+            "Location": "University Room",
+            "LocationIndex": "8",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTAWS14JAMAICAFOREWORD",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "isstaws14jamaicaforeword-fm001-p"
+            ]
+        },
+        {
+            "Id": "thahpa5Pea",
+            "Title": "Keynote",
+            "ShortTitle": "Keynote",
+            "Type": "JAMAICA Keynote",
+            "ShortType": "JAMAICA Keynote",
+            "Key": "2014-07-21 09:10 Keynote",
+            "Day": "2014-07-21",
+            "Time": "09:10 - 10:00",
+            "Location": "University Room",
+            "LocationIndex": "8",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SPIN14",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "Rajesh Subramanyan @ Siemens Healthcare Diagnostics : Keynote"
+            ]
+        },
+        {
+            "Id": "aerop2aeB7",
+            "Title": "Concurrent, Synchronous, and Asynchronous Systems",
+            "ShortTitle": "Concurrent, Synchronous, and Asynchronous Systems",
+            "Type": "SPIN",
+            "ShortType": "SPIN",
+            "Key": "2014-07-21 10:30 Concurrent, Synchronous, and Asynchronous Systems",
+            "Day": "2014-07-21",
+            "Time": "10:30 - 11:50",
+            "Location": "Santa Clara Room",
+            "LocationIndex": "6",
+            "ChairsString": "Willem Visser",
+            "Chairs": [
+                "Willem Visser @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SPIN14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "spin14main-mainid3-p",
+                "spin14main-mainid32-p",
+                "spin14main-mainid22-p"
+            ]
+        },
+        {
+            "Id": "lee3oi7Eoz",
+            "Title": "Testing Techniques",
+            "ShortTitle": "Testing Techniques",
+            "Type": "JAMAICA",
+            "ShortType": "JAMAICA",
+            "Key": "2014-07-21 10:30 Testing Techniques",
+            "Day": "2014-07-21",
+            "Time": "10:30 - 12:00",
+            "Location": "University Room",
+            "LocationIndex": "8",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTAWS14JAMAICAMAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "isstaws14jamaicamain-jamaicaid5-p",
+                "isstaws14jamaicamain-jamaicaid6-p",
+                "isstaws14jamaicamain-jamaicaid10-p"
+            ]
+        },
+        {
+            "Id": "Fu5shaexio",
+            "Title": "Model Checking I",
+            "ShortTitle": "Model Checking I",
+            "Type": "SPIN",
+            "ShortType": "SPIN",
+            "Key": "2014-07-21 13:30 Model Checking I",
+            "Day": "2014-07-21",
+            "Time": "13:30 - 15:10",
+            "Location": "Santa Clara Room",
+            "LocationIndex": "6",
+            "ChairsString": "Sarfraz Khurshid",
+            "Chairs": [
+                "Sarfraz Khurshid @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SPIN14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "spin14main-mainid26-p",
+                "spin14main-mainid4-p",
+                "spin14main-mainid2-p",
+                "spin14main-mainid14-p"
+            ]
+        },
+        {
+            "Id": "eisho3ahTh",
+            "Title": "Web and Distributed Applications",
+            "ShortTitle": "Web and Distributed Applications",
+            "Type": "JAMAICA",
+            "ShortType": "JAMAICA",
+            "Key": "2014-07-21 13:30 Web and Distributed Applications",
+            "Day": "2014-07-21",
+            "Time": "13:30 - 15:00",
+            "Location": "University Room",
+            "LocationIndex": "8",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTAWS14JAMAICAMAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "isstaws14jamaicamain-jamaicaid9-p",
+                "isstaws14jamaicamain-jamaicaid3-p",
+                "isstaws14jamaicamain-jamaicaid8-p"
+            ]
+        },
+        {
+            "Id": "uxahd9Coxo",
+            "Title": "Discussion",
+            "ShortTitle": "Discussion",
+            "Type": "JAMAICA",
+            "ShortType": "JAMAICA",
+            "Key": "2014-07-21 15:30 Discussion",
+            "Day": "2014-07-21",
+            "Time": "15:30 - 16:30",
+            "Location": "University Room",
+            "LocationIndex": "8",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SPIN14",
+            "URL": "",
+            "Abstract": "Overall discussion (in the fishbowl format) on how the presented techniques and approaches influence the ROI of testing. The main goal is to get a better overview of the presented subjects, their relationships and relevance in industry."
+        },
+        {
+            "Id": "Eiphah5aeM",
+            "Title": "Parallel and Higher-Order Verification",
+            "ShortTitle": "Parallel and Higher-Order Verification",
+            "Type": "SPIN",
+            "ShortType": "SPIN",
+            "Key": "2014-07-21 15:40 Parallel and Higher-Order Verification",
+            "Day": "2014-07-21",
+            "Time": "15:40 - 17:00",
+            "Location": "Santa Clara Room",
+            "LocationIndex": "6",
+            "ChairsString": "Sagar Chaki",
+            "Chairs": [
+                "Sagar Chaki @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SPIN14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "spin14main-mainid24-p",
+                "spin14main-mainid27-p",
+                "spin14main-mainid13-p"
+            ]
+        },
+        {
+            "Id": "bieS7oor9i",
+            "Title": "Message from the Chairs",
+            "ShortTitle": "Message from the Chairs",
+            "Type": "WODA+PERTEA Plenary",
+            "ShortType": "WODA+PERTEA Plenary",
+            "Key": "2014-07-22 08:30 Message from the Chairs",
+            "Day": "2014-07-22",
+            "Time": "08:30 - 08:50",
+            "Location": "University Room",
+            "LocationIndex": "8",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTAWS14WODAFOREWORD",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "isstaws14wodaforeword-fm001-p"
+            ]
+        },
+        {
+            "Id": "Oog9iegh9I",
+            "Title": "Analysis of x86 Executables using Abstract Interpretation (Keynote)",
+            "ShortTitle": "Analysis of x86 Executables using Abstract Interpretation (Keynote)",
+            "Type": "SPIN Keynote",
+            "ShortType": "SPIN Keynote",
+            "Key": "2014-07-22 08:45 Analysis of x86 Executables using Abstract Interpretation (Keynote)",
+            "Day": "2014-07-22",
+            "Time": "08:45 - 10:00",
+            "Location": "Santa Clara Room",
+            "LocationIndex": "6",
+            "ChairsString": "Neha Rungta",
+            "Chairs": [
+                "Neha Rungta @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SPIN14",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "Henny Sipma @  : Analysis of x86 Executables using Abstract Interpretation (Keynote)"
+            ]
+        },
+        {
+            "Id": "aeweefaeR3",
+            "Title": "Invited Talks 1",
+            "ShortTitle": "Invited Talks 1",
+            "Type": "WODA+PERTEA",
+            "ShortType": "WODA+PERTEA",
+            "Key": "2014-07-22 08:50 Invited Talks 1",
+            "Day": "2014-07-22",
+            "Time": "08:50 - 09:30",
+            "Location": "University Room",
+            "LocationIndex": "8",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTAWS14WODAINV",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "isstaws14wodainv-wodainvinv3-p",
+                "isstaws14wodainv-wodainvinv2-p"
+            ]
+        },
+        {
+            "Id": "ohjee8Ox0y",
+            "Title": "Model Checking II",
+            "ShortTitle": "Model Checking II",
+            "Type": "SPIN",
+            "ShortType": "SPIN",
+            "Key": "2014-07-22 10:30 Model Checking II",
+            "Day": "2014-07-22",
+            "Time": "10:30 - 11:50",
+            "Location": "Santa Clara Room",
+            "LocationIndex": "6",
+            "ChairsString": "Stefan Leue",
+            "Chairs": [
+                "Stefan Leue @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SPIN14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "spin14main-mainid7-p",
+                "spin14main-mainid35-p",
+                "spin14main-mainid21-p"
+            ]
+        },
+        {
+            "Id": "chie3Ahcoo",
+            "Title": "Doctoral Symposium Keynote",
+            "ShortTitle": "Doctoral Symposium Keynote",
+            "Type": "Doctoral Symposium",
+            "ShortType": "Doctoral Symposium",
+            "Key": "2014-07-22 10:30 Doctoral Symposium Keynote",
+            "Day": "2014-07-22",
+            "Time": "10:30 - 11:20",
+            "Location": "Pacific Room",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1346,7 +2610,34 @@
             "Workshop": false,
             "Comment": "ISSTA14",
             "URL": "",
-            "Abstract": ""
+            "Abstract": "",
+            "Items": [
+                "Rastislav Bodik @ University of California, Berkeley : Doctoral Symposium Keynote"
+            ]
+        },
+        {
+            "Id": "Gesh6moaxo",
+            "Title": "Invited Talks 2",
+            "ShortTitle": "Invited Talks 2",
+            "Type": "WODA+PERTEA",
+            "ShortType": "WODA+PERTEA",
+            "Key": "2014-07-22 10:40 Invited Talks 2",
+            "Day": "2014-07-22",
+            "Time": "10:40 - 12:00",
+            "Location": "University Room",
+            "LocationIndex": "8",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTAWS14WODAINV",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "isstaws14wodainv-wodainvinv1-p",
+                "isstaws14wodainv-wodainvinv4-p"
+            ]
         },
         {
             "Id": "Ohchah6iew",
@@ -1354,11 +2645,11 @@
             "ShortTitle": "Doctoral Symposium",
             "Type": "Doctoral Symposium",
             "ShortType": "Doctoral Symposium",
-            "Key": "2014-07-22 08:30 Doctoral Symposium",
+            "Key": "2014-07-22 11:20 Doctoral Symposium",
             "Day": "2014-07-22",
-            "Time": "08:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "3",
+            "Time": "11:20 - 14:50",
+            "Location": "Pacific Room",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1374,44 +2665,169 @@
             ]
         },
         {
-            "Id": "fei0Leihei",
-            "Title": "WODA+PERTEA 2014",
-            "ShortTitle": "WODA+PERTEA 2014",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2014-07-22 08:30 WODA+PERTEA 2014",
+            "Id": "Ar5phi7Tah",
+            "Title": "Accepted Paper",
+            "ShortTitle": "Accepted Paper",
+            "Type": "WODA+PERTEA",
+            "ShortType": "WODA+PERTEA",
+            "Key": "2014-07-22 13:20 Accepted Paper",
             "Day": "2014-07-22",
-            "Time": "08:30 - 18:00",
-            "Location": "",
+            "Time": "13:20 - 13:40",
+            "Location": "University Room",
+            "LocationIndex": "8",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTAWS14WODAMAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "isstaws14wodamain-wodamainid2-p"
+            ]
+        },
+        {
+            "Id": "eeghahD1ch",
+            "Title": "Testing and Security",
+            "ShortTitle": "Testing and Security",
+            "Type": "SPIN",
+            "ShortType": "SPIN",
+            "Key": "2014-07-22 13:30 Testing and Security",
+            "Day": "2014-07-22",
+            "Time": "13:30 - 15:00",
+            "Location": "Santa Clara Room",
+            "LocationIndex": "6",
+            "ChairsString": "Nastaran Shafiei",
+            "Chairs": [
+                "Nastaran Shafiei @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SPIN14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "spin14main-mainid18-p",
+                "spin14main-mainid10-p",
+                "spin14main-mainid20-p",
+                "spin14main-mainid15-p"
+            ]
+        },
+        {
+            "Id": "Sohlo3lied",
+            "Title": "Invited Talks 3",
+            "ShortTitle": "Invited Talks 3",
+            "Type": "WODA+PERTEA",
+            "ShortType": "WODA+PERTEA",
+            "Key": "2014-07-22 13:40 Invited Talks 3",
+            "Day": "2014-07-22",
+            "Time": "13:40 - 15:00",
+            "Location": "University Room",
+            "LocationIndex": "8",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTAWS14WODAINV",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "isstaws14wodainv-wodainvinv5-p",
+                "isstaws14wodainv-wodainvinv6-p"
+            ]
+        },
+        {
+            "Id": "sieNgai0co",
+            "Title": "Constraint-Based Analysis",
+            "ShortTitle": "Constraint-Based Analysis",
+            "Type": "SPIN",
+            "ShortType": "SPIN",
+            "Key": "2014-07-22 15:30 Constraint-Based Analysis",
+            "Day": "2014-07-22",
+            "Time": "15:30 - 16:40",
+            "Location": "Santa Clara Room",
+            "LocationIndex": "6",
+            "ChairsString": "Franjo Ivancic",
+            "Chairs": [
+                "Franjo Ivancic @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SPIN14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "spin14main-mainid33-p",
+                "spin14main-mainid31-p",
+                "spin14main-mainid37-p"
+            ]
+        },
+        {
+            "Id": "Coozai9Bei",
+            "Title": "Invited Talks 4",
+            "ShortTitle": "Invited Talks 4",
+            "Type": "WODA+PERTEA",
+            "ShortType": "WODA+PERTEA",
+            "Key": "2014-07-22 15:40 Invited Talks 4",
+            "Day": "2014-07-22",
+            "Time": "15:40 - 17:40",
+            "Location": "University Room",
+            "LocationIndex": "8",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTAWS14WODAINV",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "isstaws14wodainv-wodainvinv7-p",
+                "isstaws14wodainv-wodainvinv8-p",
+                "isstaws14wodainv-wodainvinv9-p"
+            ]
+        },
+        {
+            "Id": "Ai1oeh8sha",
+            "Title": "SPIN 2015 Announcement",
+            "ShortTitle": "SPIN 2015 Announcement",
+            "Type": "SPIN",
+            "ShortType": "SPIN",
+            "Key": "2014-07-22 16:40 SPIN 2015 Announcement",
+            "Day": "2014-07-22",
+            "Time": "16:40 - 17:00",
+            "Location": "Santa Clara Room",
             "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "ISSTA14",
+            "Comment": "SPIN14",
             "URL": "",
             "Abstract": ""
         },
         {
-            "Id": "kae4eu4Cae",
-            "Title": "SPIN 2014 - Day 1",
-            "ShortTitle": "SPIN 2014 - Day 1",
-            "Type": "Workshop",
-            "ShortType": "Workshop",
-            "Key": "2014-07-22 08:30 SPIN 2014 - Day 1",
+            "Id": "ieFaev9tha",
+            "Title": "SPIN Banquet",
+            "ShortTitle": "SPIN Banquet",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2014-07-22 18:00 SPIN Banquet",
             "Day": "2014-07-22",
-            "Time": "08:30 - 18:00",
-            "Location": "",
-            "LocationIndex": "6",
+            "Time": "18:00 - 22:00",
+            "Location": "Paolo’s Restaurant",
+            "LocationIndex": "7",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "ISSTA14",
+            "Comment": "SPIN14",
             "URL": "",
-            "Abstract": ""
+            "Abstract": "333 W San Carlos St, #150, San Jose"
         },
         {
             "Id": "Chee1Eeph6",
@@ -1422,10 +2838,12 @@
             "Key": "2014-07-23 08:30 Message from the Chairs",
             "Day": "2014-07-23",
             "Time": "08:30 - 08:40",
-            "Location": "",
-            "LocationIndex": "0",
-            "ChairsString": "",
+            "Location": "Almaden Ballroom",
+            "LocationIndex": "1",
+            "ChairsString": "Corina Pasareanu and Darko Marinov",
             "Chairs": [
+                "Corina Pasareanu @",
+                "Darko Marinov @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1437,26 +2855,6 @@
             ]
         },
         {
-            "Id": "Chee1Eeph6",
-            "Title": "Welcome Message from the Chairs",
-            "ShortTitle": "Welcome Message from the Chairs",
-            "Type": "Plenary",
-            "ShortType": "Plenary",
-            "Key": "2014-07-23 08:30 Welcome Message from the Chairs",
-            "Day": "2014-07-23",
-            "Time": "08:30 - 08:40",
-            "Location": "",
-            "LocationIndex": "0",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ISSTA14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
             "Id": "OoCh7geyei",
             "Title": "Dynamic Analyses for Reliable Concurrency (Keynote)",
             "ShortTitle": "Dynamic Analyses for Reliable Concurrency (Keynote)",
@@ -1465,8 +2863,8 @@
             "Key": "2014-07-23 08:40 Dynamic Analyses for Reliable Concurrency (Keynote)",
             "Day": "2014-07-23",
             "Time": "08:40 - 10:00",
-            "Location": "",
-            "LocationIndex": "4",
+            "Location": "Almaden Ballroom",
+            "LocationIndex": "1",
             "ChairsString": "Darko Marinov",
             "Chairs": [
                 "Darko Marinov @"
@@ -1475,7 +2873,7 @@
             "Workshop": false,
             "Comment": "ISSTA14",
             "URL": "",
-            "Abstract": "Multithreaded software systems effectively exploit multi-core and multi-processor machines. However developing reliable multithreaded software is extremely difficult, due to problems caused by unexpected interference between concurrent threads. Given their non-deterministic, scheduler-dependent nature, bugs caused by unintended thread interference are notoriously difficult to detect, reproduce, and eliminate. At the same time, their presence can have severe consequences. This talk explores dynamic analysis techniques to find concurrency errors in large-scale software systems, covering the theoretical underpinnings, implementation techniques, and reusable infrastructure used to build state-of-the-art analysis tools for verifying a variety of important concurrency properties, such as data race freedom, atomicity or serializability, and determinism.",
+            "Abstract": "",
             "Items": [
                 "Cormac Flanagan @ University of California, Santa Cruz, USA : Dynamic Analyses for Reliable Concurrency (Keynote)"
             ]
@@ -1489,8 +2887,8 @@
             "Key": "2014-07-23 10:00 Break Morning",
             "Day": "2014-07-23",
             "Time": "10:00 - 10:30",
-            "Location": "",
-            "LocationIndex": "2",
+            "Location": "Almaden Ballroom Foyer",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1509,10 +2907,11 @@
             "Key": "2014-07-23 10:30 Concurrency and Verification",
             "Day": "2014-07-23",
             "Time": "10:30 - 12:10",
-            "Location": "",
+            "Location": "Almaden Ballroom",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Sarfraz Khurshid",
             "Chairs": [
+                "Sarfraz Khurshid @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1535,7 +2934,7 @@
             "Key": "2014-07-23 12:10 Lunch",
             "Day": "2014-07-23",
             "Time": "12:10 - 13:30",
-            "Location": "",
+            "Location": "Market Room",
             "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
@@ -1555,10 +2954,11 @@
             "Key": "2014-07-23 13:30 Web Testing",
             "Day": "2014-07-23",
             "Time": "13:30 - 15:10",
-            "Location": "",
+            "Location": "Almaden Ballroom",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Gregg Rothermel",
             "Chairs": [
+                "Gregg Rothermel @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1581,8 +2981,8 @@
             "Key": "2014-07-23 15:10 Break Afternoon",
             "Day": "2014-07-23",
             "Time": "15:10 - 15:40",
-            "Location": "",
-            "LocationIndex": "2",
+            "Location": "Almaden Ballroom Foyer",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1601,10 +3001,11 @@
             "Key": "2014-07-23 15:40 Artifact Studies",
             "Day": "2014-07-23",
             "Time": "15:40 - 16:30",
-            "Location": "",
+            "Location": "Almaden Ballroom",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Milos Gligoric",
             "Chairs": [
+                "Milos Gligoric @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1618,17 +3019,19 @@
         },
         {
             "Id": "hai4Foh3ah",
-            "Title": "Lightning Talks 1:ISSTA Demo",
-            "ShortTitle": "Lightning Talks 1:ISSTA Demo",
+            "Title": "Lightning Talks 1: ISSTA Demo",
+            "ShortTitle": "Lightning Talks 1: ISSTA Demo",
             "Type": "Lightning Talk",
             "ShortType": "Lightning Talk",
-            "Key": "2014-07-23 16:30 Lightning Talks 1:ISSTA Demo",
+            "Key": "2014-07-23 16:30 Lightning Talks 1: ISSTA Demo",
             "Day": "2014-07-23",
             "Time": "16:30 - 16:55",
-            "Location": "",
-            "LocationIndex": "5",
-            "ChairsString": "",
+            "Location": "Almaden Ballroom",
+            "LocationIndex": "1",
+            "ChairsString": "Indradeep Ghosh and John Penix",
             "Chairs": [
+                "Indradeep Ghosh @",
+                "John Penix @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1638,17 +3041,19 @@
         },
         {
             "Id": "wahShahl0o",
-            "Title": "Lightning Talks 2:SPIN short papers",
-            "ShortTitle": "Lightning Talks 2:SPIN short papers",
+            "Title": "Lightning Talks 2: SPIN short papers",
+            "ShortTitle": "Lightning Talks 2: SPIN short papers",
             "Type": "Lightning Talk",
             "ShortType": "Lightning Talk",
-            "Key": "2014-07-23 16:55 Lightning Talks 2:SPIN short papers",
+            "Key": "2014-07-23 16:55 Lightning Talks 2: SPIN short papers",
             "Day": "2014-07-23",
             "Time": "16:55 - 17:20",
-            "Location": "",
-            "LocationIndex": "5",
-            "ChairsString": "",
+            "Location": "Almaden Ballroom",
+            "LocationIndex": "1",
+            "ChairsString": "Neha Rungta and Oksana Tkachuk",
             "Chairs": [
+                "Neha Rungta @",
+                "Oksana Tkachuk @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1665,8 +3070,8 @@
             "Key": "2014-07-23 18:00 Tool Demonstrations",
             "Day": "2014-07-23",
             "Time": "18:00 - 22:00",
-            "Location": "",
-            "LocationIndex": "2",
+            "Location": "Winchester Room",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1697,8 +3102,8 @@
             "Key": "2014-07-23 18:00 Reception Posters/Demos",
             "Day": "2014-07-23",
             "Time": "18:00 - 22:00",
-            "Location": "",
-            "LocationIndex": "2",
+            "Location": "Winchester Room",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1717,8 +3122,8 @@
             "Key": "2014-07-24 08:30 Practical Aspects of Testing Your Code as You Develop It (Keynote)",
             "Day": "2014-07-24",
             "Time": "08:30 - 10:00",
-            "Location": "",
-            "LocationIndex": "4",
+            "Location": "Almaden Ballroom",
+            "LocationIndex": "1",
             "ChairsString": "Corina Pasareanu",
             "Chairs": [
                 "Corina Pasareanu @"
@@ -1727,7 +3132,7 @@
             "Workshop": false,
             "Comment": "ISSTA14",
             "URL": "",
-            "Abstract": "There has been a significant research focus on new software verification technologies ranging from model checking to test automation. However, these efforts often ignore practical aspect such as usability and adoption. For development tools to be successful in practice they must provide sufficient value to developers for the amount of effort required to use them. In this talk we will discuss a number of technological and socialogical challenges to make testing tools work in development. The presentation will be based on our practical experience in developing and deploying static analysis technology to a large set of development organizations in various industries.",
+            "Abstract": "",
             "Items": [
                 "Andreas Kuehlmann @ Coverity, USA : Practical Aspects of Testing Your Code as You Develop It (Keynote)"
             ]
@@ -1741,8 +3146,8 @@
             "Key": "2014-07-24 10:00 Break Morning",
             "Day": "2014-07-24",
             "Time": "10:00 - 10:30",
-            "Location": "",
-            "LocationIndex": "2",
+            "Location": "Almaden Ballroom Foyer",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1761,10 +3166,11 @@
             "Key": "2014-07-24 10:30 Static Analyses and Transformations",
             "Day": "2014-07-24",
             "Time": "10:30 - 12:10",
-            "Location": "",
+            "Location": "Almaden Ballroom",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Satish Chandra",
             "Chairs": [
+                "Satish Chandra @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1787,7 +3193,7 @@
             "Key": "2014-07-24 12:10 Lunch",
             "Day": "2014-07-24",
             "Time": "12:10 - 13:30",
-            "Location": "",
+            "Location": "Market Room",
             "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
@@ -1807,10 +3213,11 @@
             "Key": "2014-07-24 13:30 Test Selection and Reduction",
             "Day": "2014-07-24",
             "Time": "13:30 - 15:10",
-            "Location": "",
+            "Location": "Almaden Ballroom",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Neha Rungta",
             "Chairs": [
+                "Neha Rungta @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1833,8 +3240,8 @@
             "Key": "2014-07-24 15:10 Break Afternoon",
             "Day": "2014-07-24",
             "Time": "15:10 - 15:40",
-            "Location": "",
-            "LocationIndex": "2",
+            "Location": "Almaden Ballroom Foyer",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1853,10 +3260,11 @@
             "Key": "2014-07-24 15:40 Localization and Repair",
             "Day": "2014-07-24",
             "Time": "15:40 - 17:20",
-            "Location": "",
+            "Location": "Almaden Ballroom",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Indradeep Ghosh",
             "Chairs": [
+                "Indradeep Ghosh @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1879,8 +3287,8 @@
             "Key": "2014-07-24 18:00 Banquet",
             "Day": "2014-07-24",
             "Time": "18:00 - 22:00",
-            "Location": "",
-            "LocationIndex": "2",
+            "Location": "Tech Museum",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1888,7 +3296,31 @@
             "Workshop": false,
             "Comment": "ISSTA14",
             "URL": "",
-            "Abstract": ""
+            "Abstract": "201 S Market St, San Jose"
+        },
+        {
+            "Id": "chai2AiMah",
+            "Title": "DARPA&#039;s Cyber Grand Challenge (Keynote)",
+            "ShortTitle": "DARPA&#039;s Cyber Grand Challenge (Keynote)",
+            "Type": "Keynote",
+            "ShortType": "Keynote",
+            "Key": "2014-07-25 08:30 DARPA&#039;s Cyber Grand Challenge (Keynote)",
+            "Day": "2014-07-25",
+            "Time": "08:30 - 09:20",
+            "Location": "Almaden Ballroom",
+            "LocationIndex": "1",
+            "ChairsString": "Alex Orso",
+            "Chairs": [
+                "Alex Orso @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "ISSTA14",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "Mike Walker @ Defense Advanced Research Projects Agency, USA : DARPA&#039;s Cyber Grand Challenge (Keynote)"
+            ]
         },
         {
             "Id": "yeihae2Uga",
@@ -1896,13 +3328,14 @@
             "ShortTitle": "Security",
             "Type": "Main Research",
             "ShortType": "Main Research",
-            "Key": "2014-07-25 08:30 Security",
+            "Key": "2014-07-25 09:20 Security",
             "Day": "2014-07-25",
-            "Time": "08:30 - 10:10",
-            "Location": "",
+            "Time": "09:20 - 10:10",
+            "Location": "Almaden Ballroom",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Alex Orso",
             "Chairs": [
+                "Alex Orso @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1915,30 +3348,6 @@
             ]
         },
         {
-            "Id": "chai2AiMah",
-            "Title": "DARPA&#039;s Cyber Grand Challenge (Keynote)",
-            "ShortTitle": "DARPA&#039;s Cyber Grand Challenge (Keynote)",
-            "Type": "Keynote",
-            "ShortType": "Keynote",
-            "Key": "2014-07-25 08:30 DARPA&#039;s Cyber Grand Challenge (Keynote)",
-            "Day": "2014-07-25",
-            "Time": "08:30 - 10:10",
-            "Location": "",
-            "LocationIndex": "4",
-            "ChairsString": "TBD",
-            "Chairs": [
-                "TBD @"
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ISSTA14",
-            "URL": "",
-            "Abstract": "The Defense Advanced Research Projects Agency (DARPA) intends to hold the Cyber Grand Challenge (CGC)-the first-ever tournament for fully automatic network defense systems. Top computer security experts test their skill head-to-head in competitive \"Capture the Flag\" contests. These contests provide a competition rating for the ability of experts to locate and comprehend security weaknesses. Cyber Grand Challenge will bring Capture-the-Flag to the realm of automation technologies, challenging unmanned systems that combine techniques such as Dynamic Analysis, Static Analysis, Symbolic Execution, Constraint Solving, Data Flow Tracking, Fuzz Testing, and a multitude of related technologies. Competitor systems will be challenged to autonomously reason about novel program flaws, prove the existence of flaws in networked applications, and formulate effective defenses. The performance of these automated systems will be evaluated through head-to-head tournament style competition.",
-            "Items": [
-                "Mike Walker @ Defense Advanced Research Projects Agency, USA : DARPA&#039;s Cyber Grand Challenge (Keynote)"
-            ]
-        },
-        {
             "Id": "Phi4jooseg",
             "Title": "Break Morning",
             "ShortTitle": "Break Morning",
@@ -1947,8 +3356,8 @@
             "Key": "2014-07-25 10:10 Break Morning",
             "Day": "2014-07-25",
             "Time": "10:10 - 10:30",
-            "Location": "",
-            "LocationIndex": "2",
+            "Location": "Almaden Ballroom Foyer",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -1967,10 +3376,11 @@
             "Key": "2014-07-25 10:30 UI Testing",
             "Day": "2014-07-25",
             "Time": "10:30 - 12:10",
-            "Location": "",
+            "Location": "Almaden Ballroom",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Andreas Zeller",
             "Chairs": [
+                "Andreas Zeller @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -1993,7 +3403,7 @@
             "Key": "2014-07-25 12:10 Lunch",
             "Day": "2014-07-25",
             "Time": "12:10 - 13:30",
-            "Location": "",
+            "Location": "Market Room",
             "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
@@ -2013,10 +3423,11 @@
             "Key": "2014-07-25 13:30 Efficiency and Optimizations",
             "Day": "2014-07-25",
             "Time": "13:30 - 15:10",
-            "Location": "",
+            "Location": "Almaden Ballroom",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Zhendong Su",
             "Chairs": [
+                "Zhendong Su @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2039,8 +3450,8 @@
             "Key": "2014-07-25 15:10 Break Afternoon",
             "Day": "2014-07-25",
             "Time": "15:10 - 15:40",
-            "Location": "",
-            "LocationIndex": "2",
+            "Location": "Almaden Ballroom Foyer",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2059,10 +3470,11 @@
             "Key": "2014-07-25 15:40 Generation and Propagation",
             "Day": "2014-07-25",
             "Time": "15:40 - 17:20",
-            "Location": "",
+            "Location": "Almaden Ballroom",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Oksana Tkachuk",
             "Chairs": [
+                "Oksana Tkachuk @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2085,10 +3497,13 @@
             "Key": "2014-07-25 17:20 Closing",
             "Day": "2014-07-25",
             "Time": "17:20 - 17:30",
-            "Location": "",
-            "LocationIndex": "0",
-            "ChairsString": "",
+            "Location": "Almaden Ballroom",
+            "LocationIndex": "1",
+            "ChairsString": "Corina Pasareanu, Michal Young, and Tao Xie",
             "Chairs": [
+                "Corina Pasareanu @",
+                "Michal Young @",
+                "Tao Xie @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -2114,6 +3529,17 @@
             "Affiliation": "Stanford University, USA",
             "Key": "Alex Aiken @ Stanford University, USA",
             "Id": "398b80bb9d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Francesco Alberti",
+            "Affiliation": "University of Lugano, Switzerland",
+            "Key": "Francesco Alberti @ University of Lugano, Switzerland",
+            "Id": "d25795a9e1",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2176,6 +3602,28 @@
             "URLgs": ""
         },
         {
+            "Name": "Harald Altinger",
+            "Affiliation": "Audi Electronics Venture, Germany",
+            "Key": "Harald Altinger @ Audi Electronics Venture, Germany",
+            "Id": "704fc47831",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Erik Altman",
+            "Affiliation": "IBM Research, USA",
+            "Key": "Erik Altman @ IBM Research, USA",
+            "Id": "a037ed2cd9",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Dennis Appelt",
             "Affiliation": "University of Luxembourg, Luxembourg",
             "Key": "Dennis Appelt @ University of Luxembourg, Luxembourg",
@@ -2231,6 +3679,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Ezio Bartocci",
+            "Affiliation": "Vienna University of Technology, Austria",
+            "Key": "Ezio Bartocci @ Vienna University of Technology, Austria",
+            "Id": "b88ace44cf",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Benoit Baudry",
             "Affiliation": "INRIA, France",
             "Key": "Benoit Baudry @ INRIA, France",
@@ -2253,10 +3712,43 @@
             "URLgs": ""
         },
         {
+            "Name": "Kai Beckmann",
+            "Affiliation": "RheinMain University of Applied Sciences, Germany",
+            "Key": "Kai Beckmann @ RheinMain University of Applied Sciences, Germany",
+            "Id": "255161c6e1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "David Benavides",
             "Affiliation": "University of Seville, Spain",
             "Key": "David Benavides @ University of Seville, Spain",
             "Id": "60111febc5",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Noomene Ben Henda",
+            "Affiliation": "Ericsson Research, Sweden",
+            "Key": "Noomene Ben Henda @ Ericsson Research, Sweden",
+            "Id": "06303b1ba4",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tewodros A. Beyene",
+            "Affiliation": "TU München, Germany",
+            "Key": "Tewodros A. Beyene @ TU München, Germany",
+            "Id": "aa304d7707",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2275,10 +3767,65 @@
             "URLgs": ""
         },
         {
+            "Name": "František Blahoudek",
+            "Affiliation": "Masaryk University, Czech Republic",
+            "Key": "František Blahoudek @ Masaryk University, Czech Republic",
+            "Id": "a988fdc8d8",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rastislav Bodik",
+            "Affiliation": "University of California, Berkeley",
+            "Key": "Rastislav Bodik @ University of California, Berkeley",
+            "Id": "5157f4082e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Marcel Böhme",
             "Affiliation": "Saarland University, Germany",
             "Key": "Marcel Böhme @ Saarland University, Germany",
             "Id": "cc5738f8cc",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jason Breck",
+            "Affiliation": "University of Wisconsin-Madison, USA",
+            "Key": "Jason Breck @ University of Wisconsin-Madison, USA",
+            "Id": "d61b2b5f31",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Franck van Breugel",
+            "Affiliation": "York University, Canada",
+            "Key": "Franck van Breugel @ York University, Canada",
+            "Id": "6d4a6423ef",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zmago Brezočnik",
+            "Affiliation": "University of Maribor, Slovenia",
+            "Key": "Zmago Brezočnik @ University of Maribor, Slovenia",
+            "Id": "c427daba9f",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2297,10 +3844,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Marc Brockschmidt",
+            "Affiliation": "Microsoft Research, UK",
+            "Key": "Marc Brockschmidt @ Microsoft Research, UK",
+            "Id": "40fb9ed92e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Nathan Bronson",
             "Affiliation": "Stanford University, USA",
             "Key": "Nathan Bronson @ Stanford University, USA",
             "Id": "fb537e476f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christof Budnik",
+            "Affiliation": "Siemens, USA",
+            "Key": "Christof Budnik @ Siemens, USA",
+            "Id": "96b49a374e",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2334,6 +3903,50 @@
             "Affiliation": "Ultimate Software, USA",
             "Key": "Adam Cando @ Ultimate Software, USA",
             "Id": "46236d5efc",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gabriella Carrozza",
+            "Affiliation": "SESM, Italy",
+            "Key": "Gabriella Carrozza @ SESM, Italy",
+            "Id": "724d621271",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sagar Chaki",
+            "Affiliation": "",
+            "Key": "Sagar Chaki @",
+            "Id": "11b9b2d033",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sagar Chaki",
+            "Affiliation": "Carnegie Mellon University, USA",
+            "Key": "Sagar Chaki @ Carnegie Mellon University, USA",
+            "Id": "2f5dce8b30",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Satish Chandra",
+            "Affiliation": "",
+            "Key": "Satish Chandra @",
+            "Id": "9f8bcf1987",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2418,6 +4031,39 @@
             "URLgs": ""
         },
         {
+            "Name": "Christoph Csallner",
+            "Affiliation": "University of Texas at Arlington, USA",
+            "Key": "Christoph Csallner @ University of Texas at Arlington, USA",
+            "Id": "97ce70e132",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marcelo D'Amorim",
+            "Affiliation": "Federal University of Pernambuco, Brazil",
+            "Key": "Marcelo D'Amorim @ Federal University of Pernambuco, Brazil",
+            "Id": "133c16f4af",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Richard DeFrancisco",
+            "Affiliation": "Stony Brook University, USA",
+            "Key": "Richard DeFrancisco @ Stony Brook University, USA",
+            "Id": "35732c93db",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Jonathan de Halleux",
             "Affiliation": "Microsoft Research, USA",
             "Key": "Jonathan de Halleux @ Microsoft Research, USA",
@@ -2429,10 +4075,54 @@
             "URLgs": ""
         },
         {
+            "Name": "Alexandre Duret-Lutz",
+            "Affiliation": "LRDE EPITA, France",
+            "Key": "Alexandre Duret-Lutz @ LRDE EPITA, France",
+            "Id": "1b20035df5",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "James Edmondson",
+            "Affiliation": "Carnegie Mellon University, USA",
+            "Key": "James Edmondson @ Carnegie Mellon University, USA",
+            "Id": "7e789c199f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michael Emmi",
+            "Affiliation": "IMDEA Software Institute, Spain",
+            "Key": "Michael Emmi @ IMDEA Software Institute, Spain",
+            "Id": "4a3103f511",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Michael D. Ernst",
             "Affiliation": "University of Washington, USA",
             "Key": "Michael D. Ernst @ University of Washington, USA",
             "Id": "59f317f35f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "David Faragó",
+            "Affiliation": "KIT, Germany",
+            "Key": "David Faragó @ KIT, Germany",
+            "Id": "d846ac6ba2",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2455,6 +4145,17 @@
             "Affiliation": "IBM Research, USA",
             "Key": "Pietro Ferrara @ IBM Research, USA",
             "Id": "95cfc807ce",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ioannis Filippidis",
+            "Affiliation": "California Institute of Technology, USA",
+            "Key": "Ioannis Filippidis @ California Institute of Technology, USA",
+            "Id": "ff78c30fab",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2506,10 +4207,54 @@
             "URLgs": ""
         },
         {
+            "Name": "Jerry Gao",
+            "Affiliation": "San Jose State University, USA",
+            "Key": "Jerry Gao @ San Jose State University, USA",
+            "Id": "f070249314",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Zebao Gao",
             "Affiliation": "Nanjing University, China / University of Maryland at College Park, USA",
             "Key": "Zebao Gao @ Nanjing University, China / University of Maryland at College Park, USA",
             "Id": "a3fcf6447b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bernhard Garn",
+            "Affiliation": "SBA Research, Austria",
+            "Key": "Bernhard Garn @ SBA Research, Austria",
+            "Id": "bc75d15816",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Indradeep Ghosh",
+            "Affiliation": "",
+            "Key": "Indradeep Ghosh @",
+            "Id": "3be887db5a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Milos Gligoric",
+            "Affiliation": "",
+            "Key": "Milos Gligoric @",
+            "Id": "84431611b0",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2561,10 +4306,43 @@
             "URLgs": ""
         },
         {
+            "Name": "Baris Güldali",
+            "Affiliation": "s-lab Paderborn, Germany",
+            "Key": "Baris Güldali @ s-lab Paderborn, Germany",
+            "Id": "514ee14b90",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Henning Günther",
+            "Affiliation": "Vienna University of Technology, Austria",
+            "Key": "Henning Günther @ Vienna University of Technology, Austria",
+            "Id": "56c931e8d2",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Guy Golan Gueta",
             "Affiliation": "Yahoo Labs, Israel",
             "Key": "Guy Golan Gueta @ Yahoo Labs, Israel",
             "Id": "2cc2aaf3a2",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Karen Gundy-Burlet",
+            "Affiliation": "",
+            "Key": "Karen Gundy-Burlet @",
+            "Id": "09c8cef25b",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2616,6 +4394,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Gerard J. Holzmann",
+            "Affiliation": "Jet Propulsion Laboratory, USA",
+            "Key": "Gerard J. Holzmann @ Jet Propulsion Laboratory, USA",
+            "Id": "21b8871509",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Petr Hosek",
             "Affiliation": "Imperial College London, UK",
             "Key": "Petr Hosek @ Imperial College London, UK",
@@ -2660,6 +4449,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Franjo Ivancic",
+            "Affiliation": "",
+            "Key": "Franjo Ivancic @",
+            "Id": "5ee0ecc5ec",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Franjo Ivančić",
             "Affiliation": "Google, USA",
             "Key": "Franjo Ivančić @ Google, USA",
@@ -2671,10 +4471,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Marie-Christine Jakobs",
+            "Affiliation": "University of Paderborn, Germany",
+            "Key": "Marie-Christine Jakobs @ University of Paderborn, Germany",
+            "Id": "c926a78b24",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Darioush Jalali",
             "Affiliation": "University of Washington, USA",
             "Key": "Darioush Jalali @ University of Washington, USA",
             "Id": "387e4478ad",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Pavel Jančík",
+            "Affiliation": "Charles University, Czech Republic",
+            "Key": "Pavel Jančík @ Charles University, Czech Republic",
+            "Id": "fbc236db05",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2715,10 +4537,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Ioannis Kapsalis",
+            "Affiliation": "SBA Research, Austria",
+            "Key": "Ioannis Kapsalis @ SBA Research, Austria",
+            "Id": "38b652c09a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Siau-Cheng Khoo",
             "Affiliation": "National University of Singapore, Singapore",
             "Key": "Siau-Cheng Khoo @ National University of Singapore, Singapore",
             "Id": "b432242119",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sarfraz Khurshid",
+            "Affiliation": "",
+            "Key": "Sarfraz Khurshid @",
+            "Id": "e83f096a9c",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2781,6 +4625,28 @@
             "URLgs": ""
         },
         {
+            "Name": "Mojmír Křetínský",
+            "Affiliation": "Masaryk University, Czech Republic",
+            "Key": "Mojmír Křetínský @ Masaryk University, Czech Republic",
+            "Id": "106e731689",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Reinhold Kroeger",
+            "Affiliation": "RheinMain University of Applied Sciences, Germany",
+            "Key": "Reinhold Kroeger @ RheinMain University of Applied Sciences, Germany",
+            "Id": "7352637243",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Andreas Kuehlmann",
             "Affiliation": "Coverity, USA",
             "Key": "Andreas Kuehlmann @ Coverity, USA",
@@ -2796,6 +4662,17 @@
             "Affiliation": "Michigan State University, USA",
             "Key": "Sandeep S. Kulkarni @ Michigan State University, USA",
             "Id": "6aae9efb6a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Barath Kumar",
+            "Affiliation": "inIT, Germany",
+            "Key": "Barath Kumar @ inIT, Germany",
+            "Id": "9983d64cb8",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2825,10 +4702,54 @@
             "URLgs": ""
         },
         {
+            "Name": "Nicolas Latorre",
+            "Affiliation": "University of Lugano, Switzerland",
+            "Key": "Nicolas Latorre @ University of Lugano, Switzerland",
+            "Id": "5ea53def5f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Duc Le",
             "Affiliation": "Oregon State University, USA",
             "Key": "Duc Le @ Oregon State University, USA",
             "Id": "79aced25ab",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Florian Leitner-Fischer",
+            "Affiliation": "University of Konstanz, Germany",
+            "Key": "Florian Leitner-Fischer @ University of Konstanz, Germany",
+            "Id": "84db7fffa2",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Stefan Leue",
+            "Affiliation": "",
+            "Key": "Stefan Leue @",
+            "Id": "4a8ef43782",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Stefan Leue",
+            "Affiliation": "University of Konstanz, Germany",
+            "Key": "Stefan Leue @ University of Konstanz, Germany",
+            "Id": "8710da39e5",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2858,10 +4779,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Yu David Liu",
+            "Affiliation": "SUNY Binghamton, USA",
+            "Key": "Yu David Liu @ SUNY Binghamton, USA",
+            "Id": "cd69427652",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Pablo Loyola",
             "Affiliation": "University of Chile, Chile",
             "Key": "Pablo Loyola @ University of Chile, Chile",
             "Id": "090179a3e7",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shan Lu",
+            "Affiliation": "University of Wisconsin at Madison, USA",
+            "Key": "Shan Lu @ University of Wisconsin at Madison, USA",
+            "Id": "83a4e6c35f",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2884,6 +4827,39 @@
             "Affiliation": "NEC, Japan",
             "Key": "Naoto Maeda @ NEC, Japan",
             "Id": "33257833d7",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Damien Magoni",
+            "Affiliation": "University of Bordeaux, France",
+            "Key": "Damien Magoni @ University of Bordeaux, France",
+            "Id": "8210892143",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Pasquale Malacaria",
+            "Affiliation": "Queen Mary University of London, UK",
+            "Key": "Pasquale Malacaria @ Queen Mary University of London, UK",
+            "Id": "5dcdf2bf75",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Vittorio Manetti",
+            "Affiliation": "SESM, Italy",
+            "Key": "Vittorio Manetti @ SESM, Italy",
+            "Id": "0a528c7c14",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -2935,6 +4911,39 @@
             "URLgs": ""
         },
         {
+            "Name": "Darko Marinov",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
+            "Key": "Darko Marinov @ University of Illinois at Urbana-Champaign, USA",
+            "Id": "42f8151d6a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jorge Martinez",
+            "Affiliation": "Ultimate Software, USA",
+            "Key": "Jorge Martinez @ Ultimate Software, USA",
+            "Id": "1372531351",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christian Mellert",
+            "Affiliation": "Eckelmann, Germany",
+            "Key": "Christian Mellert @ Eckelmann, Germany",
+            "Id": "314f3730d5",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Ali Mesbah",
             "Affiliation": "University of British Columbia, Canada",
             "Key": "Ali Mesbah @ University of British Columbia, Canada",
@@ -2979,10 +4988,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Nick Mitchell",
+            "Affiliation": "IBM Research, USA",
+            "Key": "Nick Mitchell @ IBM Research, USA",
+            "Id": "f5c2242192",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Martin Monperrus",
             "Affiliation": "University of Lille, France / INRIA, France",
             "Key": "Martin Monperrus @ University of Lille, France / INRIA, France",
             "Id": "43f3c5dc2d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marco Muenchhof",
+            "Affiliation": "Eckelmann, Germany",
+            "Key": "Marco Muenchhof @ Eckelmann, Germany",
+            "Id": "4ba7172586",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3001,6 +5032,17 @@
             "URLgs": ""
         },
         {
+            "Name": "John Murphy",
+            "Affiliation": "Lero, Ireland / University College Dublin, Ireland",
+            "Key": "John Murphy @ Lero, Ireland / University College Dublin, Ireland",
+            "Id": "11c4faf855",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Kıvanç Muşlu",
             "Affiliation": "University of Washington, USA",
             "Key": "Kıvanç Muşlu @ University of Washington, USA",
@@ -3012,10 +5054,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Santosh Nagarakatte",
+            "Affiliation": "Rutgers University, USA",
+            "Key": "Santosh Nagarakatte @ Rutgers University, USA",
+            "Id": "f4d7723247",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Roberto Natella",
             "Affiliation": "Federico II University of Naples, Italy",
             "Key": "Roberto Natella @ Federico II University of Naples, Italy",
             "Id": "7764944b42",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Robin P. Neatherway",
+            "Affiliation": "University of Oxford, UK",
+            "Key": "Robin P. Neatherway @ University of Oxford, UK",
+            "Id": "527743f239",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3078,10 +5142,54 @@
             "URLgs": ""
         },
         {
+            "Name": "C.-H. Luke Ong",
+            "Affiliation": "University of Oxford, UK",
+            "Key": "C.-H. Luke Ong @ University of Oxford, UK",
+            "Id": "645dc6e73c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Alessandro Orso",
             "Affiliation": "Georgia Tech, USA",
             "Key": "Alessandro Orso @ Georgia Tech, USA",
             "Id": "8d64bd1adf",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alex Orso",
+            "Affiliation": "",
+            "Key": "Alex Orso @",
+            "Id": "77d9462d11",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Burcu Kulahcioglu Ozkan",
+            "Affiliation": "Koç University, Turkey",
+            "Key": "Burcu Kulahcioglu Ozkan @ Koç University, Turkey",
+            "Id": "db5b3bafc0",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Pavel Parízek",
+            "Affiliation": "Charles University, Czech Republic",
+            "Key": "Pavel Parízek @ Charles University, Czech Republic",
+            "Id": "6725562d23",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3100,10 +5208,54 @@
             "URLgs": ""
         },
         {
+            "Name": "Corina S. Păsăreanu",
+            "Affiliation": "Carnegie Mellon University, USA / NASA Ames Research Center, USA",
+            "Key": "Corina S. Păsăreanu @ Carnegie Mellon University, USA / NASA Ames Research Center, USA",
+            "Id": "fb2367ade1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Corina S. Păsăreanu",
+            "Affiliation": "NASA Ames, USA",
+            "Key": "Corina S. Păsăreanu @ NASA Ames, USA",
+            "Id": "2bd74f7a93",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Corina S. Păsăreanu",
+            "Affiliation": "NASA Ames Research Center, USA",
+            "Key": "Corina S. Păsăreanu @ NASA Ames Research Center, USA",
+            "Id": "3953a57738",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Fabrizio Pastore",
             "Affiliation": "University of Milano-Bicocca, Italy",
             "Key": "Fabrizio Pastore @ University of Milano-Bicocca, Italy",
             "Id": "4ebecf7c2a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "John Penix",
+            "Affiliation": "",
+            "Key": "John Penix @",
+            "Id": "00299682bb",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3133,6 +5285,28 @@
             "URLgs": ""
         },
         {
+            "Name": "Quoc-Sang Phan",
+            "Affiliation": "Queen Mary University of London, UK",
+            "Key": "Quoc-Sang Phan @ Queen Mary University of London, UK",
+            "Id": "7e77b6c2be",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Roberto Pietrantuono",
+            "Affiliation": "UNINA, Italy",
+            "Key": "Roberto Pietrantuono @ UNINA, Italy",
+            "Id": "33a835dd7d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Marco Pistoia",
             "Affiliation": "IBM Research, USA",
             "Key": "Marco Pistoia @ IBM Research, USA",
@@ -3148,6 +5322,17 @@
             "Affiliation": "University of Freiburg, Germany",
             "Key": "Andreas Podelski @ University of Freiburg, Germany",
             "Id": "f0348eceee",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "A. Omar Portillo-Dominguez",
+            "Affiliation": "Lero, Ireland / University College Dublin, Ireland",
+            "Key": "A. Omar Portillo-Dominguez @ Lero, Ireland / University College Dublin, Ireland",
+            "Id": "983bb925ab",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3188,10 +5373,43 @@
             "URLgs": ""
         },
         {
+            "Name": "Shaz Qadeer",
+            "Affiliation": "Microsoft Research, USA",
+            "Key": "Shaz Qadeer @ Microsoft Research, USA",
+            "Id": "75d00e4de0",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Lenin Ravindranath",
             "Affiliation": "Massachusetts Institute of Technology, USA",
             "Key": "Lenin Ravindranath @ Massachusetts Institute of Technology, USA",
             "Id": "9364755394",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "John Regehr",
+            "Affiliation": "University of Utah, USA",
+            "Key": "John Regehr @ University of Utah, USA",
+            "Id": "1e8ad95818",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Thomas Reps",
+            "Affiliation": "University of Wisconsin-Madison, USA / GrammaTech, USA",
+            "Key": "Thomas Reps @ University of Wisconsin-Madison, USA / GrammaTech, USA",
+            "Id": "f21dec6b43",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3214,6 +5432,17 @@
             "Affiliation": "SAP, Germany",
             "Key": "Andreas Roth @ SAP, Germany",
             "Id": "13447f6d07",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gregg Rothermel",
+            "Affiliation": "",
+            "Key": "Gregg Rothermel @",
+            "Id": "dd997f821a",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3255,9 +5484,64 @@
         },
         {
             "Name": "Neha Rungta",
+            "Affiliation": "",
+            "Key": "Neha Rungta @",
+            "Id": "de12a71f17",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Neha Rungta",
+            "Affiliation": "NASA Ames Research Center",
+            "Key": "Neha Rungta @ NASA Ames Research Center",
+            "Id": "dd3d8393a2",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Neha Rungta",
             "Affiliation": "NASA Ames Research Center, USA",
             "Key": "Neha Rungta @ NASA Ames Research Center, USA",
             "Id": "1d9fbfa26b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Theo C. Ruys",
+            "Affiliation": "RUwise, Netherlands",
+            "Key": "Theo C. Ruys @ RUwise, Netherlands",
+            "Id": "49dea52411",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrey Rybalchenko",
+            "Affiliation": "Microsoft Research, UK",
+            "Key": "Andrey Rybalchenko @ Microsoft Research, UK",
+            "Id": "57554c3c1a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Caitlin Sadowski",
+            "Affiliation": "Google, USA",
+            "Key": "Caitlin Sadowski @ Google, USA",
+            "Id": "61b1cebc25",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3309,10 +5593,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Raimondas Sasnauskas",
+            "Affiliation": "University of Utah, USA",
+            "Key": "Raimondas Sasnauskas @ University of Utah, USA",
+            "Id": "a109afec16",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Matthias Schur",
             "Affiliation": "SAP, Germany",
             "Key": "Matthias Schur @ SAP, Germany",
             "Id": "f987aa8d00",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Markus Schurius",
+            "Affiliation": "Audi Electronics Venture, Germany",
+            "Key": "Markus Schurius @ Audi Electronics Venture, Germany",
+            "Id": "22edb36a0e",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3342,6 +5648,28 @@
             "URLgs": ""
         },
         {
+            "Name": "Nastaran Shafiei",
+            "Affiliation": "",
+            "Key": "Nastaran Shafiei @",
+            "Id": "f542fa5618",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nastaran Shafiei",
+            "Affiliation": "NASA Ames Research Center, USA",
+            "Key": "Nastaran Shafiei @ NASA Ames Research Center, USA",
+            "Id": "f1f6d9eb6d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Natasha Sharygina",
             "Affiliation": "University of Lugano, Switzerland",
             "Key": "Natasha Sharygina @ University of Lugano, Switzerland",
@@ -3353,10 +5681,54 @@
             "URLgs": ""
         },
         {
+            "Name": "Dimitris E. Simos",
+            "Affiliation": "SBA Research, Austria",
+            "Key": "Dimitris E. Simos @ SBA Research, Austria",
+            "Id": "6e337cebf9",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Saurabh Sinha",
             "Affiliation": "IBM Research, India",
             "Key": "Saurabh Sinha @ IBM Research, India",
             "Id": "dc564d16ad",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Henny Sipma",
+            "Affiliation": "",
+            "Key": "Henny Sipma @",
+            "Id": "a02c246d22",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Scott A. Smolka",
+            "Affiliation": "Stony Brook University, USA",
+            "Key": "Scott A. Smolka @ Stony Brook University, USA",
+            "Id": "29caf85042",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Manu Sridharan",
+            "Affiliation": "Samsung Research, USA",
+            "Key": "Manu Sridharan @ Samsung Research, USA",
+            "Id": "33db1291bc",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3386,6 +5758,50 @@
             "URLgs": ""
         },
         {
+            "Name": "Jan Strejček",
+            "Affiliation": "Masaryk University, Czech Republic",
+            "Key": "Jan Strejček @ Masaryk University, Czech Republic",
+            "Id": "aca20c3037",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zhendong Su",
+            "Affiliation": "",
+            "Key": "Zhendong Su @",
+            "Id": "68e6560b17",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rajesh Subramanyan",
+            "Affiliation": "Siemens Healthcare Diagnostics",
+            "Key": "Rajesh Subramanyan @ Siemens Healthcare Diagnostics",
+            "Id": "b9c9a5ebb9",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Allison Sullivan",
+            "Affiliation": "University of Texas at Austin, USA",
+            "Key": "Allison Sullivan @ University of Texas at Austin, USA",
+            "Id": "0210ab3ddb",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Chengnian Sun",
             "Affiliation": "University of California at Davis, USA",
             "Key": "Chengnian Sun @ University of California at Davis, USA",
@@ -3408,10 +5824,65 @@
             "URLgs": ""
         },
         {
-            "Name": "TBD",
-            "Affiliation": "",
-            "Key": "TBD @",
-            "Id": "9294ce5e3e",
+            "Name": "Peter F. Sweeney",
+            "Affiliation": "IBM Research, USA",
+            "Key": "Peter F. Sweeney @ IBM Research, USA",
+            "Id": "f92a1d45c4",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Chuanqi Tao",
+            "Affiliation": "Nanjing University of Science and Technology, China",
+            "Key": "Chuanqi Tao @ Nanjing University of Science and Technology, China",
+            "Id": "30b18dcbb9",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Serdar Tasiran",
+            "Affiliation": "Koç University, Turkey",
+            "Key": "Serdar Tasiran @ Koç University, Turkey",
+            "Id": "a5e5a89c30",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Aditya Thakur",
+            "Affiliation": "University of Wisconsin-Madison, USA",
+            "Key": "Aditya Thakur @ University of Wisconsin-Madison, USA",
+            "Id": "af59a3437e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Troy Thomas",
+            "Affiliation": "Ultimate Software, USA",
+            "Key": "Troy Thomas @ Ultimate Software, USA",
+            "Id": "019b44151e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marcus Thoss",
+            "Affiliation": "RheinMain University of Applied Sciences, Germany",
+            "Key": "Marcus Thoss @ RheinMain University of Applied Sciences, Germany",
+            "Id": "271af4c6cd",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3441,6 +5912,28 @@
             "URLgs": ""
         },
         {
+            "Name": "Oksana Tkachuk",
+            "Affiliation": "",
+            "Key": "Oksana Tkachuk @",
+            "Id": "ec8bba5f63",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Oksana Tkachuk",
+            "Affiliation": "NASA Ames Research Center",
+            "Key": "Oksana Tkachuk @ NASA Ames Research Center",
+            "Id": "1e189937d7",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Omer Tripp",
             "Affiliation": "IBM Research, USA",
             "Key": "Omer Tripp @ IBM Research, USA",
@@ -3456,6 +5949,39 @@
             "Affiliation": "ETH Zurich, Switzerland",
             "Key": "Martin Vechev @ ETH Zurich, Switzerland",
             "Id": "34f4227aeb",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Willem Visser",
+            "Affiliation": "",
+            "Key": "Willem Visser @",
+            "Id": "4111046a99",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Boštjan Vlaovič",
+            "Affiliation": "University of Maribor, Slovenia",
+            "Key": "Boštjan Vlaovič @ University of Maribor, Slovenia",
+            "Id": "9e3bd15419",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Aleksander Vreže",
+            "Affiliation": "University of Maribor, Slovenia",
+            "Key": "Aleksander Vreže @ University of Maribor, Slovenia",
+            "Id": "c4184dfcd9",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3496,10 +6022,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Miao Wang",
+            "Affiliation": "Lero, Ireland / University College Dublin, Ireland",
+            "Key": "Miao Wang @ Lero, Ireland / University College Dublin, Ireland",
+            "Id": "a99982dfed",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Xujiewen Wang",
             "Affiliation": "Syracuse University, USA",
             "Key": "Xujiewen Wang @ Syracuse University, USA",
             "Id": "00f99d91e5",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Heike Wehrheim",
+            "Affiliation": "University of Paderborn, Germany",
+            "Key": "Heike Wehrheim @ University of Paderborn, Germany",
+            "Id": "1c81cd45c7",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3518,6 +6066,28 @@
             "URLgs": ""
         },
         {
+            "Name": "Georg Weissenbacher",
+            "Affiliation": "Vienna University of Technology, Austria",
+            "Key": "Georg Weissenbacher @ Vienna University of Technology, Austria",
+            "Id": "3c594fa7f3",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Stephan Weißleder",
+            "Affiliation": "Thales Transportation Systems, Germany",
+            "Key": "Stephan Weißleder @ Thales Transportation Systems, Germany",
+            "Id": "4a51f6d490",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Konstantin Weitz",
             "Affiliation": "University of Washington, USA",
             "Key": "Konstantin Weitz @ University of Washington, USA",
@@ -3529,10 +6099,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Severin Winkler",
+            "Affiliation": "Security Research, Austria",
+            "Key": "Severin Winkler @ Security Research, Austria",
+            "Id": "4d5dc65be8",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Stefan Winter",
             "Affiliation": "TU Darmstadt, Germany",
             "Key": "Stefan Winter @ TU Darmstadt, Germany",
             "Id": "08f4ea7510",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Franz Wotawa",
+            "Affiliation": "Graz University of Technology, Austria",
+            "Key": "Franz Wotawa @ Graz University of Technology, Austria",
+            "Id": "b2f28624af",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3563,9 +6155,42 @@
         },
         {
             "Name": "Xusheng Xiao",
+            "Affiliation": "NEC Labs, USA",
+            "Key": "Xusheng Xiao @ NEC Labs, USA",
+            "Id": "bfd971efbd",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xusheng Xiao",
             "Affiliation": "NEC Labs, USA / North Carolina State University, USA",
             "Key": "Xusheng Xiao @ NEC Labs, USA / North Carolina State University, USA",
             "Id": "1f554342f0",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Qing Xie",
+            "Affiliation": "Accenture, USA",
+            "Key": "Qing Xie @ Accenture, USA",
+            "Id": "c6eb769a0c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tao Xie",
+            "Affiliation": "",
+            "Key": "Tao Xie @",
+            "Id": "b260e8d209",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3577,6 +6202,28 @@
             "Affiliation": "University of Illinois at Urbana-Champaign, USA",
             "Key": "Tao Xie @ University of Illinois at Urbana-Champaign, USA",
             "Id": "00f96960c7",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Guoqing Xu",
+            "Affiliation": "University of California at Irvine, USA",
+            "Key": "Guoqing Xu @ University of California at Irvine, USA",
+            "Id": "c878384ff3",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Harry Xu",
+            "Affiliation": "University of California at Irvine, USA",
+            "Key": "Harry Xu @ University of California at Irvine, USA",
+            "Id": "0fa79a96a1",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3661,6 +6308,39 @@
             "URLgs": ""
         },
         {
+            "Name": "Michal Young",
+            "Affiliation": "",
+            "Key": "Michal Young @",
+            "Id": "3ccec7c1cf",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Razieh Nokhbeh Zaeem",
+            "Affiliation": "University of Texas at Austin, USA",
+            "Key": "Razieh Nokhbeh Zaeem @ University of Texas at Austin, USA",
+            "Id": "f761eeb61a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andreas Zeller",
+            "Affiliation": "",
+            "Key": "Andreas Zeller @",
+            "Id": "318521d609",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Andreas Zeller",
             "Affiliation": "Saarland University, Germany",
             "Key": "Andreas Zeller @ Saarland University, Germany",
@@ -3687,6 +6367,17 @@
             "Affiliation": "Oregon State University, USA",
             "Key": "Chaoqiang Zhang @ Oregon State University, USA",
             "Id": "098caf42ec",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dongmei Zhang",
+            "Affiliation": "Microsoft Research, China",
+            "Key": "Dongmei Zhang @ Microsoft Research, China",
+            "Id": "b7f530db7b",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3753,6 +6444,17 @@
             "Affiliation": "Purdue University, USA",
             "Key": "Xiangyu Zhang @ Purdue University, USA",
             "Id": "8e3ec59fd4",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hao Zheng",
+            "Affiliation": "University of South Florida, USA",
+            "Key": "Hao Zheng @ University of South Florida, USA",
+            "Id": "2dc51babf9",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
