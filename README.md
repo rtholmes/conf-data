@@ -1,5 +1,5 @@
-conf-data
-=========
+Confero Conference Data
+===========================
 
 This repository contains academic conference metadata. To add Confero support for your conference you need to provide two icons (62px square and 200px square) and a ```json``` data file. These should be submitted via a Github pull request. The data file should conform to the description below; additional samples can be found in the repository itself (```https://github.com/rtholmes/conf-data/tree/master/data```).
 
