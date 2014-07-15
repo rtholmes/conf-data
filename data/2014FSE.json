@@ -1,0 +1,68 @@
+{
+    "DataRevision": 1405439931,
+    "Preliminary": "false",
+    "Event": "FSE 2014",
+    "Name": "FSE 2014",
+    "Description": "",
+    "Location": "Hong Kong, China",
+    "Sponsors": "",
+    "URL": "http://fse22.gatech.edu/",
+    "MultiTrack": "false",
+    "UseMiniPage": "true",
+    "NewPagePerDay": "false",
+    "Organization": {
+        "General Chairs": [
+                "Shing-Chi Cheung"
+        ],
+        "PC Chairs": [
+                "Alessandro Orso",
+                "Margaret-Anne Storey"
+        ]
+    },
+    "SocialFeeds": [
+    ],
+    "VenueInfo": {
+        "Name": "",
+        "GPS": {
+            "Latitude": 0,
+            "Longitude": 0
+        }
+    },
+    "InfoPage": {
+        "xaml": "foo",
+        "Elements": [
+            {
+                "XamlName": "ConferenceCenterMap",
+                "Type": "Map",
+                "GPS": {
+                    "Latitude": 0,
+                    "Longitude": 0
+                },
+                "MapLabel": ""
+            },
+            {
+                "XamlName": "LicenseButton",
+                "Type": "WebLink",
+                "URL": "http://research.microsoft.com/en-US/projects/confapp/terms.aspx"
+            },
+            {
+                "XamlName": "PrivacyButton",
+                "Type": "WebLink",
+                "URL": "http://privacy.microsoft.com/en-us/default.msp"
+            }
+        ]
+    },
+    "SessionPriorities": [
+        "Award",
+        "Invited Talk",
+        "Other"
+    ],
+    "Items": [
+    ],
+    "Sessions": [
+    ],
+    "People": [
+    ]
+}
+ 
+
