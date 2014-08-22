@@ -1,0 +1,1353 @@
+{
+    "DataRevision": 1408548483,
+    "Preliminary": "false",
+    "Event": "GPCE 2014",
+    "Name": "GPCE 2014",
+    "Description": "",
+    "Location": "Västerås, Sweden",
+    "Sponsors": "",
+    "URL": "http://program-transformation.org/GPCE14/WebHome",
+    "MultiTrack": "false",
+    "UseMiniPage": "false",
+    "NewPagePerDay": "true",
+    "Organization": {
+        "General Chairs": [
+                "Ulrik Pagh Schultz"
+        ],
+        "PC Chairs": [
+                "Matthew Flatt"
+        ]
+    },
+    "SocialFeeds": [
+    ],
+    "VenueInfo": {
+        "Name": "",
+        "GPS": {
+            "Latitude": 0,
+            "Longitude": 0
+        }
+    },
+    "InfoPage": {
+        "xaml": "foo",
+        "Elements": [
+            {
+                "XamlName": "ConferenceCenterMap",
+                "Type": "Map",
+                "GPS": {
+                    "Latitude": 0,
+                    "Longitude": 0
+                },
+                "MapLabel": ""
+            },
+            {
+                "XamlName": "LicenseButton",
+                "Type": "WebLink",
+                "URL": "http://research.microsoft.com/en-US/projects/confapp/terms.aspx"
+            },
+            {
+                "XamlName": "PrivacyButton",
+                "Type": "WebLink",
+                "URL": "http://privacy.microsoft.com/en-us/default.msp"
+            }
+        ]
+    },
+    "SessionPriorities": [
+        "Award",
+        "Invited Talk",
+        "Other"
+    ],
+    "Items": [
+        {
+            "Title": "Specializing Planners for Hierarchical Multi-way Dataflow Constraint Systems",
+            "Type": "Full Paper",
+            "Key": "gpce14main-mainid48-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DJaakko+J%C3%A4rvi%2C+Gabriel+Foust%2C+and+Magne+Haveraaen+%22Specializing+Planners+for+Hierarchical+Multi-way+Dataflow+Constraint+Systems%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658762",
+            "PersonsString": "Jaakko Järvi, Gabriel Foust, and Magne Haveraaen",
+            "AffiliationsString": "Texas A&M University, USA; University of Bergen, Norway",
+            "Authors": [
+                "Jaakko Järvi @ Texas A&M University, USA",
+                "Gabriel Foust @ Texas A&M University, USA",
+                "Magne Haveraaen @ University of Bergen, Norway"
+            ],
+            "Affiliations": [
+                "Texas A&M University, USA",
+                "Texas A&M University, USA",
+                "University of Bergen, Norway"
+            ],
+            "Abstract": "A constraint system consists of variables and a set of constraints on those  variables. To solve a constraint system is to find a valuation that  satisfies all constraints; or the &quot;best&quot; subset of constraints  if not all can simultaneously be satisfied. In a multi-way dataflow  constraint system, solving requires selecting a set of user-defined  functions which, when executed, will enforce the constraints. The task of  selecting these functions is called planning.  The planner has two kinds of input: the specification of the constraints and an  order of priority for those constraints.  The former typically changes seldom, while the latter frequently, making  constraint planning a potential application for program specialization.  This paper shows how to generate specialized planners for  hierarchical multi-way dataflow constraint systems when the  constraints are known in advance.  The specialized planners are DFAs; they can be an order of magnitude or more faster  than a general purpose planner for the same system.  Our applications for constraint systems are in user interface  programming, where constraint systems determine how a GUI should  react to user interaction---specialized planners can help to ensure that  GUIs&#039; responses to user interaction are instantaneous.",
+            "Award": ""
+        },
+        {
+            "Title": "Code Specialization for Memory Efficient Hash Tries (Short Paper)",
+            "Type": "Short Paper",
+            "Key": "gpce14main-mainid29-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMichael+J.+Steindorfer+and+Jurgen+J.+Vinju+%22Code+Specialization+for+Memory+Efficient+Hash+Tries+%28Short+Paper%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658763",
+            "PersonsString": "Michael J. Steindorfer and Jurgen J. Vinju",
+            "AffiliationsString": "CWI, Netherlands",
+            "Authors": [
+                "Michael J. Steindorfer @ CWI, Netherlands",
+                "Jurgen J. Vinju @ CWI, Netherlands"
+            ],
+            "Affiliations": [
+                "CWI, Netherlands",
+                "CWI, Netherlands"
+            ],
+            "Abstract": "The hash trie data structure is a common part in standard collection libraries of JVM programming languages such as Clojure and Scala. It enables fast immutable implementations of maps, sets, and vectors, but it requires considerably more memory than an equivalent array-based data structure. This hinders the scalability of functional programs and the further adoption of this otherwise attractive style of programming.  In this paper we present a product family of hash tries. We generate Java source code to specialize them using knowledge of JVM object memory layout. The number of possible specializations is exponential. The optimization challenge is thus to find a minimal set of variants which lead to a maximal loss in memory footprint on any given data. Using a set of experiments we measured the distribution of internal tree node sizes in hash tries. We used the results as a guidance to decide which variants of the family to generate and which variants should be left to the generic implementation.  A preliminary validating experiment on the implementation of sets and maps shows that this technique leads to a median decrease of 55% in memory footprint for maps (and 78% for sets), while still maintaining comparable performance. Our combination of data analysis and code specialization proved to be effective.",
+            "Award": ""
+        },
+        {
+            "Title": "Emergent Gummy Modules: Modular Representation of Emergent Behavior",
+            "Type": "Full Paper",
+            "Key": "gpce14main-mainid7-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSomayeh+Malakuti+and+Mehmet+Aksit+%22Emergent+Gummy+Modules%3A+Modular+Representation+of+Emergent+Behavior%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658764",
+            "PersonsString": "Somayeh Malakuti and Mehmet Aksit",
+            "AffiliationsString": "TU Dresden, Germany; University of Twente, Netherlands",
+            "Authors": [
+                "Somayeh Malakuti @ TU Dresden, Germany",
+                "Mehmet Aksit @ University of Twente, Netherlands"
+            ],
+            "Affiliations": [
+                "TU Dresden, Germany",
+                "University of Twente, Netherlands"
+            ],
+            "Abstract": "Emergent behavior is generally defined as the appearance of complex behavior out of multiplicity of relatively simple interactions. Nowadays, there are various kinds of software systems that deal with detecting the emergence of certain behavior in environment, representing it in the software and providing means to manipulate the behavior. Where significant amount of research has been dedicated to develop algorithms for detecting emergent behavior, there is no dedicated attempt to provide suitable linguistic abstractions to modularize emergent behavior and its related concerns. This results in implementations that are complex and hard to maintain. In this paper, we identify three characteristic features of emergent behavior, and outline the shortcomings of current languages to properly program and modularize emergent behavior. We introduce emergent gummy modules as dedicated linguistic abstractions, which facilitate defining the appearance and disappearance conditions of emergent behavior as well as its utilization operations as one holistic module. We explain the implementation of emergent gummy modules in the GummyJ language, and illustrate that they improve the modularity of implementations. We represent the event processing semantics of GummyJ programs in UPPAAL model checker and verify their correctness.",
+            "Award": ""
+        },
+        {
+            "Title": "Extensible Language Implementation with Object Algebras (Short Paper)",
+            "Type": "Short Paper",
+            "Key": "gpce14main-mainid31-p",
+            "URL": "http%3A%2F%2Fwww.cwi.nl%2F%7Estorm%2Fpublications%2Feli-oalg-gpce14.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658765",
+            "PersonsString": "Maria Gouseti, Chiel Peters, and Tijs van der Storm",
+            "AffiliationsString": "CWI, Netherlands",
+            "Authors": [
+                "Maria Gouseti @ CWI, Netherlands",
+                "Chiel Peters @ CWI, Netherlands",
+                "Tijs van der Storm @ CWI, Netherlands"
+            ],
+            "Affiliations": [
+                "CWI, Netherlands",
+                "CWI, Netherlands",
+                "CWI, Netherlands"
+            ],
+            "Abstract": "Object Algebras are a recently introduced design pattern to make the implementation of recursive data types more extensible. In this short paper we report our experience in using Object Algebras in building a realistic domain specific language (DSL) for questionnaires, called QL. This experience has led to a simple, yet powerful set of tools for the practical and flexible implementation of highly extensible languages.",
+            "Award": ""
+        },
+        {
+            "Title": "Projectional Editing of Variational Software",
+            "Type": "Full Paper",
+            "Key": "gpce14main-mainid17-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DEric+Walkingshaw+and+Klaus+Ostermann+%22Projectional+Editing+of+Variational+Software%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658766",
+            "PersonsString": "Eric Walkingshaw and Klaus Ostermann",
+            "AffiliationsString": "University of Marburg, Germany",
+            "Authors": [
+                "Eric Walkingshaw @ University of Marburg, Germany",
+                "Klaus Ostermann @ University of Marburg, Germany"
+            ],
+            "Affiliations": [
+                "University of Marburg, Germany",
+                "University of Marburg, Germany"
+            ],
+            "Abstract": "Editing the source code of variational software is complicated by the presence of variation annotations, such as #ifdef statements, and by code that is only included in some configurations. When editing some configurations and not others, it would be easier to edit a simplified version of the source code that includes only the configurations we currently care about. In this paper, we present a projectional editing model for variational software. Using our approach, a programmer can partially configure a variational program, edit this simplified view of the code, and then automatically update the original, fully variational source code. The model is based on an isolation principle where edits affect only the variants that are visible in the view. We show that this principle has several nice properties that are suggested by related work on bidirectional transformations.",
+            "Award": ""
+        },
+        {
+            "Title": "Automatic Feature Selection in Large-Scale System-Software Product Lines",
+            "Type": "Full Paper",
+            "Key": "gpce14main-mainid20-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DAndreas+Ruprecht%2C+Bernhard+Heinloth%2C+and+Daniel+Lohmann+%22Automatic+Feature+Selection+in+Large-Scale+System-Software+Product+Lines%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658767",
+            "PersonsString": "Andreas Ruprecht, Bernhard Heinloth, and Daniel Lohmann",
+            "AffiliationsString": "University of Erlangen-Nuremberg, Germany",
+            "Authors": [
+                "Andreas Ruprecht @ University of Erlangen-Nuremberg, Germany",
+                "Bernhard Heinloth @ University of Erlangen-Nuremberg, Germany",
+                "Daniel Lohmann @ University of Erlangen-Nuremberg, Germany"
+            ],
+            "Affiliations": [
+                "University of Erlangen-Nuremberg, Germany",
+                "University of Erlangen-Nuremberg, Germany",
+                "University of Erlangen-Nuremberg, Germany"
+            ],
+            "Abstract": "System software can typically be configured at compile time via a comfortable feature-based interface to tailor its functionality towards a specific use case. However, with the growing number of features, this tailoring process becomes increasingly difficult: As a prominent example, the Linux kernel in v3.14 provides nearly 14 000 configuration options to choose from. Even developers of embedded systems refrain from trying to build a minimized distinctive kernel configuration for their device – and thereby waste memory and money for unneeded functionality. In this paper, we present an approach for the automatic use-case specific tailoring of system software for special-purpose embedded systems. We evaluate the effectiveness of our approach on the example of Linux by generating tailored kernels for well-known applications of the Rasperry Pi and a Google Nexus 4 smartphone. Compared to the original configurations, our approach leads to memory savings of 15–70 percent and requires only very little manual intervention.",
+            "Award": ""
+        },
+        {
+            "Title": "Efficient Testing of Software Product Lines via Centralization (Short Paper)",
+            "Type": "Short Paper",
+            "Key": "gpce14main-mainid9-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DLei+Ma%2C+Cyrille+Artho%2C+Cheng+Zhang%2C+and+Hiroyuki+Sato+%22Efficient+Testing+of+Software+Product+Lines+via+Centralization+%28Short+Paper%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658768",
+            "PersonsString": "Lei Ma, Cyrille Artho, Cheng Zhang, and Hiroyuki Sato",
+            "AffiliationsString": "University of Tokyo, Japan; AIST, Japan; University of Waterloo, Canada",
+            "Authors": [
+                "Lei Ma @ University of Tokyo, Japan",
+                "Cyrille Artho @ AIST, Japan",
+                "Cheng Zhang @ University of Waterloo, Canada",
+                "Hiroyuki Sato @ University of Tokyo, Japan"
+            ],
+            "Affiliations": [
+                "University of Tokyo, Japan",
+                "AIST, Japan",
+                "University of Waterloo, Canada",
+                "University of Tokyo, Japan"
+            ],
+            "Abstract": "Software product line~(SPL) engineering manages families of software products that share common features. However, cost-effective test case generation for an SPL is challenging. Applying existing test case generation techniques to each product variant separately may test common code in a redundant way. Moreover, it is difficult to share the test results among multiple product variants.  In this paper, we propose the use of centralization, which combines multiple product variants from the same SPL and generates test cases for the entire system. By taking into account all variants, our technique generally avoids generating redundant test cases for common software components. Our case study on three SPLs shows that compared with testing each variant independently, our technique is more efficient and achieves higher test coverage.",
+            "Award": ""
+        },
+        {
+            "Title": "A Transformational Approach to Data Visualization",
+            "Type": "Full Paper",
+            "Key": "gpce14main-mainid36-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKarl+Smeltzer%2C+Martin+Erwig%2C+and+Ronald+Metoyer+%22A+Transformational+Approach+to+Data+Visualization%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658769",
+            "PersonsString": "Karl Smeltzer, Martin Erwig, and Ronald Metoyer",
+            "AffiliationsString": "Oregon State University, USA",
+            "Authors": [
+                "Karl Smeltzer @ Oregon State University, USA",
+                "Martin Erwig @ Oregon State University, USA",
+                "Ronald Metoyer @ Oregon State University, USA"
+            ],
+            "Affiliations": [
+                "Oregon State University, USA",
+                "Oregon State University, USA",
+                "Oregon State University, USA"
+            ],
+            "Abstract": "Information visualization construction tools generally tend to fall in one of two disparate categories. Either they offer simple but inflexible visualization templates, or else they offer low-level graphical primitives which need to be assembled manually. Those that do offer flexible, domain-specific abstractions rarely focus on incrementally building and transforming visualizations, which could reduce limitations on the style of workflows supported. We present a Haskell-embedded DSL for data visualization that is designed to provide such abstractions and transformations. This DSL achieves additional expressiveness and flexibility through common functional programming idioms and the Haskell type class hierarchy.",
+            "Award": ""
+        },
+        {
+            "Title": "LibDSL: A Library for Developing Embedded Domain Specific Languages in D via Template Metaprogramming",
+            "Type": "Full Paper",
+            "Key": "gpce14main-mainid14-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DMasato+Shioda%2C+Hideya+Iwasaki%2C+and+Shigeyuki+Sato+%22LibDSL%3A+A+Library+for+Developing+Embedded+Domain+Specific+Languages+in+D+via+Template+Metaprogramming%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658770",
+            "PersonsString": "Masato Shioda, Hideya Iwasaki, and Shigeyuki Sato",
+            "AffiliationsString": "University of Electro-Communications, Japan",
+            "Authors": [
+                "Masato Shioda @ University of Electro-Communications, Japan",
+                "Hideya Iwasaki @ University of Electro-Communications, Japan",
+                "Shigeyuki Sato @ University of Electro-Communications, Japan"
+            ],
+            "Affiliations": [
+                "University of Electro-Communications, Japan",
+                "University of Electro-Communications, Japan",
+                "University of Electro-Communications, Japan"
+            ],
+            "Abstract": "This paper presents a library called LibDSL that helps the implementer of an embedded domain specific language (EDSL) effectively develop it in D language. The LibDSL library accepts as input some kinds of ``specifications&#039;&#039; of the EDSL that the implementer is going to develop and a D program within which an EDSL source program written by the user is embedded. It produces the front-end code of an LALR parser for the EDSL program and back-end code of the execution engine. LibDSL is able to produce two kinds of execution engines, namely compiler-based and interpreter-based engines, either of which the user can properly choose depending on whether an EDSL program is known at compile time or not. We have implemented the LibDSL system by using template metaprogramming and other advanced facilities such as compile-time function execution of D language. EDSL programs developed by means of LibDSL have a nice integrativeness with the host language.",
+            "Award": ""
+        },
+        {
+            "Title": "Yin-Yang: Concealing the Deep Embedding of DSLs",
+            "Type": "Full Paper",
+            "Key": "gpce14main-mainid34-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DVojin+Jovanovic%2C+Amir+Shaikhha%2C+Sandro+Stucki%2C+Vladimir+Nikolaev%2C+Christoph+Koch%2C+and+Martin+Odersky+%22Yin-Yang%3A+Concealing+the+Deep+Embedding+of+DSLs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658771",
+            "PersonsString": "Vojin Jovanovic, Amir Shaikhha, Sandro Stucki, Vladimir Nikolaev, Christoph Koch, and Martin Odersky",
+            "AffiliationsString": "EPFL, Switzerland; ITMO, Russia",
+            "Authors": [
+                "Vojin Jovanovic @ EPFL, Switzerland",
+                "Amir Shaikhha @ EPFL, Switzerland",
+                "Sandro Stucki @ EPFL, Switzerland",
+                "Vladimir Nikolaev @ ITMO, Russia",
+                "Christoph Koch @ EPFL, Switzerland",
+                "Martin Odersky @ EPFL, Switzerland"
+            ],
+            "Affiliations": [
+                "EPFL, Switzerland",
+                "EPFL, Switzerland",
+                "EPFL, Switzerland",
+                "ITMO, Russia",
+                "EPFL, Switzerland",
+                "EPFL, Switzerland"
+            ],
+            "Abstract": "Deeply embedded domain-specific languages (EDSLs) intrinsically compromise programmer experience for improved program performance. Shallow EDSLs complement them by trading program performance for good programmer experience. We present Yin-Yang, a framework for DSL embedding that uses Scala macros to reliably translate shallow EDSL programs to the corresponding deep EDSL programs. The translation allows program prototyping and development in the user friendly shallow embedding, while the corresponding deep embedding is used where performance is important. The reliability of the translation completely conceals the deep em- bedding from the user. For the DSL author, Yin-Yang automatically generates the deep DSL embeddings from their shallow counterparts by reusing the core translation. This obviates the need for code duplication and leads to reliability by construction.",
+            "Award": ""
+        },
+        {
+            "Title": "Automatic Locality-Friendly Interface Extension of Numerical Functions",
+            "Type": "Full Paper",
+            "Key": "gpce14main-mainid6-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DBenjamin+Hess%2C+Thomas+R.+Gross%2C+and+Markus+P%C3%BCschel+%22Automatic+Locality-Friendly+Interface+Extension+of+Numerical+Functions%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658772",
+            "PersonsString": "Benjamin Hess, Thomas R. Gross, and Markus Püschel",
+            "AffiliationsString": "ETH Zurich, Switzerland",
+            "Authors": [
+                "Benjamin Hess @ ETH Zurich, Switzerland",
+                "Thomas R. Gross @ ETH Zurich, Switzerland",
+                "Markus Püschel @ ETH Zurich, Switzerland"
+            ],
+            "Affiliations": [
+                "ETH Zurich, Switzerland",
+                "ETH Zurich, Switzerland",
+                "ETH Zurich, Switzerland"
+            ],
+            "Abstract": "Raising the level of abstraction is a key concern of software engineering, and libraries (either used directly or as a target of a program generation system) are a successful technique to raise programmer productivity and to improve software quality. Unfortunately successful libraries may contain functions that may not be general enough. For example, many numeric performance libraries contain functions that work on one- or higher-dimensional arrays. A problem arises if a program wants to invoke such a function on a non-contiguous subarray (e.g., in C the column of a matrix or a subarray of an image). If the library developer did not foresee this scenario, the client program must include explicit copy steps before and after the library function call, incurring a possibly high performance penalty. A better solution would be an enhanced library function that allows for the desired access pattern. Exposing the access pattern allows the compiler to optimize for the intended usage scenario(s). As we do not want the library developer to generate all interesting versions manually,  we present a tool that takes a library function written in C and generates such a customized function for typical accesses. We describe the approach, discuss limitations, and report on the performance. As example access patterns we consider those most common in numerical applications: striding and block striding, general permutations, as well as scaling. We evaluate the tool on various library functions including filters, scans, reductions, sorting, FFTs, and linear algebra operations. The automatically generated custom version is in most cases significantly faster than using individual steps, offering speed-ups that are typically in the range of 1.2-1.8x.",
+            "Award": ""
+        },
+        {
+            "Title": "Optimization by Runtime Specialization for Sparse Matrix-Vector Multiplication",
+            "Type": "Full Paper",
+            "Key": "gpce14main-mainid25-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DSam+Kamin%2C+Mar%C3%ADa+Jes%C3%BAs+Garzar%C3%A1n%2C+Bar%C4%B1%C5%9F+Aktemur%2C+Danqing+Xu%2C+Buse+Y%C4%B1lmaz%2C+and+Zhongbo+Chen+%22Optimization+by+Runtime+Specialization+for+Sparse+Matrix-Vector+Multiplication%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658773",
+            "PersonsString": "Sam Kamin, María Jesús Garzarán, Barış Aktemur, Danqing Xu, Buse Yılmaz, and Zhongbo Chen",
+            "AffiliationsString": "University of Illinois at Urbana-Champaign, USA; Özyeğin University, Turkey",
+            "Authors": [
+                "Sam Kamin @ University of Illinois at Urbana-Champaign, USA",
+                "María Jesús Garzarán @ University of Illinois at Urbana-Champaign, USA",
+                "Barış Aktemur @ Özyeğin University, Turkey",
+                "Danqing Xu @ University of Illinois at Urbana-Champaign, USA",
+                "Buse Yılmaz @ Özyeğin University, Turkey",
+                "Zhongbo Chen @ University of Illinois at Urbana-Champaign, USA"
+            ],
+            "Affiliations": [
+                "University of Illinois at Urbana-Champaign, USA",
+                "University of Illinois at Urbana-Champaign, USA",
+                "Özyeğin University, Turkey",
+                "University of Illinois at Urbana-Champaign, USA",
+                "Özyeğin University, Turkey",
+                "University of Illinois at Urbana-Champaign, USA"
+            ],
+            "Abstract": "Runtime specialization optimizes programs based on partial information available only at run time. It is applicable when some input data is used repeatedly while other input data varies. This technique has the potential of generating highly efficient codes.  In this paper, we explore the potential for obtaining speedups for sparse matrix-dense vector multiplication using runtime specialization, in the case where a single matrix is to be multiplied by many vectors. We experiment with five methods involving runtime specialization, comparing them to methods that do not (including Intel&#039;s MKL library). For this work, our focus is the evaluation of the speedups that can be obtained with runtime specialization without considering the overheads of the code generation.  Our experiments use 23 matrices from the Matrix Market and Florida collections, and run on five different machines. In 94 of those 115 cases, the specialized code runs faster than any version without specialization. If we only use specialization, the average speedup with respect to Intel&#039;s MKL library ranges from 1.44x to 1.77x, depending on the machine. We have also found that the best method depends on the matrix and machine; no method is best for all matrices and machines.",
+            "Award": ""
+        },
+        {
+            "Title": "Specialization through Dynamic Staging",
+            "Type": "Full Paper",
+            "Key": "gpce14main-mainid23-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DPiotr+Danilewski%2C+Marcel+K%C3%B6ster%2C+Roland+Lei%C3%9Fa%2C+Richard+Membarth%2C+and+Philipp+Slusallek+%22Specialization+through+Dynamic+Staging%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658774",
+            "PersonsString": "Piotr Danilewski, Marcel Köster, Roland Leißa, Richard Membarth, and Philipp Slusallek",
+            "AffiliationsString": "Saarland University, Germany; Intel VCI, Germany; DFKI, Germany",
+            "Authors": [
+                "Piotr Danilewski @ Saarland University, Germany / Intel VCI, Germany",
+                "Marcel Köster @ Saarland University, Germany",
+                "Roland Leißa @ Saarland University, Germany",
+                "Richard Membarth @ Saarland University, Germany / Intel VCI, Germany / DFKI, Germany",
+                "Philipp Slusallek @ Saarland University, Germany / Intel VCI, Germany / DFKI, Germany"
+            ],
+            "Affiliations": [
+                "Saarland University, Germany / Intel VCI, Germany",
+                "Saarland University, Germany",
+                "Saarland University, Germany",
+                "Saarland University, Germany / Intel VCI, Germany / DFKI, Germany",
+                "Saarland University, Germany / Intel VCI, Germany / DFKI, Germany"
+            ],
+            "Abstract": "Partial evaluation allows for specialization of program fragments. This can be realized by staging, where one fragment is executed earlier than its surrounding code. However, taking advantage of these capabilities is often a cumbersome endeavor. In this paper, we present a new metaprogramming concept using staging parameters that are first-class citizen entities and define the order of execution of the program. Staging parameters can be used to define MetaML-like quotations, but can also allow stages to be created and resolved dynamically. The programmer can write generic, polyvariant code which can be reused in the context of different stages. We demonstrate how our approach can be used to define and apply domain-specific optimizations. Our implementation of the proposed metaprogramming concept generates code which is on a par with templated C++ code in terms of execution time.",
+            "Award": ""
+        },
+        {
+            "Title": "Compiling a Reflective Language using MetaOCaml",
+            "Type": "Full Paper",
+            "Key": "gpce14main-mainid40-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DKenichi+Asai+%22Compiling+a+Reflective+Language+using+MetaOCaml%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658775",
+            "PersonsString": "Kenichi Asai",
+            "AffiliationsString": "Ochanomizu University, Japan",
+            "Authors": [
+                "Kenichi Asai @ Ochanomizu University, Japan"
+            ],
+            "Affiliations": [
+                "Ochanomizu University, Japan"
+            ],
+            "Abstract": "A reflective language makes the language semantics open to user programs and allows them to access, extend, and modify it from within the same language framework. Because of its high flexibility and expressiveness, it can be an ideal platform for programming language research as well as practical applications in dynamic environments. However, efficient implementation of a reflective language is extremely difficult. Under the circumstance where the language semantics can change, a partial evaluator is required for compilation. This paper reports on the experience of using MetaOCaml as a compiler for a reflective language. With staging annotations, MetaOCaml achieves the same effect as using a partial evaluator. Unlike the standard partial evaluator, the run mechanism of MetaOCaml enables us to use the specialized (compiled) code in the current runtime environment. On the other hand, the lack of a binding-time analysis in MetaOCaml prohibits us from compiling a user program under modified compiled semantics.",
+            "Award": ""
+        },
+        {
+            "Title": "A Domain-Specific Language for Building Self-Optimizing AST Interpreters",
+            "Type": "Full Paper",
+            "Key": "gpce14main-mainid22-p",
+            "URL": "http%3A%2F%2Fscholar.google.ca%2Fscholar%3Fq%3DChristian+Humer%2C+Christian+Wimmer%2C+Christian+Wirth%2C+Andreas+W%C3%B6%C3%9F%2C+and+Thomas+W%C3%BCrthinger+%22A+Domain-Specific+Language+for+Building+Self-Optimizing+AST+Interpreters%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658776",
+            "PersonsString": "Christian Humer, Christian Wimmer, Christian Wirth, Andreas Wöß, and Thomas Würthinger",
+            "AffiliationsString": "JKU Linz, Austria; Oracle Labs, USA; Oracle Labs, Austria",
+            "Authors": [
+                "Christian Humer @ JKU Linz, Austria",
+                "Christian Wimmer @ Oracle Labs, USA",
+                "Christian Wirth @ Oracle Labs, Austria",
+                "Andreas Wöß @ JKU Linz, Austria",
+                "Thomas Würthinger @ Oracle Labs, Austria"
+            ],
+            "Affiliations": [
+                "JKU Linz, Austria",
+                "Oracle Labs, USA",
+                "Oracle Labs, Austria",
+                "JKU Linz, Austria",
+                "Oracle Labs, Austria"
+            ],
+            "Abstract": "Self-optimizing AST interpreters dynamically adapt to the provided input for faster execution. This adaptation includes initial tests of the input, changes to AST nodes, and insertion of guards that ensure assumptions still hold. Such specialization and speculation is essential for the performance of dynamic programming languages such as JavaScript. In traditional procedural and objectoriented programming languages it can be tedious to write selfoptimizing AST interpreters, as those languages fail to provide constructs that would specifically support that. This paper introduces a declarative domain-specific language (DSL) that greatly simplifies writing self-optimizing AST interpreters. The DSL supports specialization of operations based on types of the input and other properties. It can then use these specializations directly or chain them to represent the operation with the minimum amount of code possible. The DSL significantly reduces the complexity of expressing specializations for those interpreters. We use it in our high-performance implementation of JavaScript, where 274 language operations have an average of about 4 and a maximum of 190 specializations. In addition, the DSL is used in implementations of Ruby, Python, R, and Smalltalk.",
+            "Award": ""
+        },
+        {
+            "Title": "Pin++: An Object-Oriented Framework for Writing Pintools",
+            "Type": "Full Paper",
+            "Key": "gpce14main-mainid11-p",
+            "URL": "http%3A%2F%2Fsebox.cs.iupui.edu%2FPDF%2FGPCE2014-PinPP.pdf",
+            "URLvideo": "",
+            "URLinfo": "https%3A%2F%2Fgithub.com%2FSEDS%2FPinPP%2F",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2658761.2658777",
+            "PersonsString": "James H. Hill and Dennis C. Feiock",
+            "AffiliationsString": "Indiana University-Purdue University at Indianapolis, USA",
+            "Authors": [
+                "James H. Hill @ Indiana University-Purdue University at Indianapolis, USA",
+                "Dennis C. Feiock @ Indiana University-Purdue University at Indianapolis, USA"
+            ],
+            "Affiliations": [
+                "Indiana University-Purdue University at Indianapolis, USA",
+                "Indiana University-Purdue University at Indianapolis, USA"
+            ],
+            "Abstract": "This paper presents a framework named Pin++. Pin++ is an object-oriented framework that uses template metaprogramming to implement Pintools, which are analysis tools for the dynamic binary instrumentation tool named Pin. The goal of Pin++ is to simplify programming a Pintool and promote reuse of its components across different Pintools. Our results show that Pintools implemented using Pin++ can have a 54% reduction in complexity, increase its modularity, and up to 60% reduction in instrumentation overhead.",
+            "Award": ""
+        },
+        {
+            "Title": "SLE Keynote",
+            "Type": "Plenary",
+            "Key": "Colin Atkinson @  : SLE Keynote",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Colin Atkinson",
+            "AffiliationsString": "",
+            "Authors": [
+                "Colin Atkinson @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "GPCE Keynote",
+            "Type": "Plenary",
+            "Key": "Nikolai Tillmann @  : GPCE Keynote",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Nikolai Tillmann",
+            "AffiliationsString": "",
+            "Authors": [
+                "Nikolai Tillmann @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Building mbeddr: a Language Engineering Experiment",
+            "Type": "TechTalk",
+            "Key": "Markus Völter @  : Building mbeddr: a Language Engineering Experiment",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Markus Völter",
+            "AffiliationsString": "",
+            "Authors": [
+                "Markus Völter @"
+            ],
+            "Affiliations": [
+                ""
+            ],
+            "Abstract": "",
+            "Award": ""
+        }
+    ],
+    "Sessions": [
+        {
+            "Id": "Luo0za4iev",
+            "Title": "Welcome and Introduction",
+            "ShortTitle": "Welcome and Introduction",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-09-15 08:30 Welcome and Introduction",
+            "Day": "2014-09-15",
+            "Time": "08:30 - 09:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "GPCE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Oorool2oes",
+            "Title": "SLE Keynote",
+            "ShortTitle": "SLE Keynote",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-09-15 09:00 SLE Keynote",
+            "Day": "2014-09-15",
+            "Time": "09:00 - 10:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "GPCE14",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "Colin Atkinson @  : SLE Keynote"
+            ]
+        },
+        {
+            "Id": "auti6WuWoo",
+            "Title": "Specialization and Modularity",
+            "ShortTitle": "Specialization and Modularity",
+            "Type": "Session",
+            "ShortType": "Session",
+            "Key": "2014-09-15 10:30 Specialization and Modularity",
+            "Day": "2014-09-15",
+            "Time": "10:30 - 12:10",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "GPCE14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "gpce14main-mainid48-p",
+                "gpce14main-mainid29-p",
+                "gpce14main-mainid7-p",
+                "gpce14main-mainid31-p"
+            ]
+        },
+        {
+            "Id": "iBae4aihae",
+            "Title": "Variation and Product Lines",
+            "ShortTitle": "Variation and Product Lines",
+            "Type": "Session",
+            "ShortType": "Session",
+            "Key": "2014-09-15 14:00 Variation and Product Lines",
+            "Day": "2014-09-15",
+            "Time": "14:00 - 15:20",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "GPCE14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "gpce14main-mainid17-p",
+                "gpce14main-mainid20-p",
+                "gpce14main-mainid9-p"
+            ]
+        },
+        {
+            "Id": "noorohm4Sa",
+            "Title": "DSLs",
+            "ShortTitle": "DSLs",
+            "Type": "Session",
+            "ShortType": "Session",
+            "Key": "2014-09-15 16:00 DSLs",
+            "Day": "2014-09-15",
+            "Time": "16:00 - 17:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "GPCE14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "gpce14main-mainid36-p",
+                "gpce14main-mainid14-p",
+                "gpce14main-mainid34-p"
+            ]
+        },
+        {
+            "Id": "mii7ap1ahR",
+            "Title": "GPCE Keynote",
+            "ShortTitle": "GPCE Keynote",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-09-16 09:00 GPCE Keynote",
+            "Day": "2014-09-16",
+            "Time": "09:00 - 10:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "GPCE14",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "Nikolai Tillmann @  : GPCE Keynote"
+            ]
+        },
+        {
+            "Id": "Ou5okohviv",
+            "Title": "Specialization and Cross-Cutting",
+            "ShortTitle": "Specialization and Cross-Cutting",
+            "Type": "Session",
+            "ShortType": "Session",
+            "Key": "2014-09-16 10:30 Specialization and Cross-Cutting",
+            "Day": "2014-09-16",
+            "Time": "10:30 - 12:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "GPCE14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "gpce14main-mainid6-p",
+                "gpce14main-mainid25-p",
+                "gpce14main-mainid23-p"
+            ]
+        },
+        {
+            "Id": "hi7Shooph0",
+            "Title": "Language Tools",
+            "ShortTitle": "Language Tools",
+            "Type": "Session",
+            "ShortType": "Session",
+            "Key": "2014-09-16 14:00 Language Tools",
+            "Day": "2014-09-16",
+            "Time": "14:00 - 15:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "GPCE14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "gpce14main-mainid40-p",
+                "gpce14main-mainid22-p",
+                "gpce14main-mainid11-p"
+            ]
+        },
+        {
+            "Id": "oongon8Mai",
+            "Title": "Building mbeddr: a Language Engineering Experiment",
+            "ShortTitle": "Building mbeddr: a Language Engineering Experiment",
+            "Type": "TechTalk",
+            "ShortType": "TechTalk",
+            "Key": "2014-09-16 16:00 Building mbeddr: a Language Engineering Experiment",
+            "Day": "2014-09-16",
+            "Time": "16:00 - 17:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "GPCE14",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "Markus Völter @  : Building mbeddr: a Language Engineering Experiment"
+            ]
+        },
+        {
+            "Id": "tieH0hee2K",
+            "Title": "Closing Remarks",
+            "ShortTitle": "Closing Remarks",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2014-09-16 17:00 Closing Remarks",
+            "Day": "2014-09-16",
+            "Time": "17:00 - 17:15",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "GPCE14",
+            "URL": "",
+            "Abstract": ""
+        }
+    ],
+    "People": [
+        {
+            "Name": "Mehmet Aksit",
+            "Affiliation": "University of Twente, Netherlands",
+            "Key": "Mehmet Aksit @ University of Twente, Netherlands",
+            "Id": "53e70af062",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Barış Aktemur",
+            "Affiliation": "Özyeğin University, Turkey",
+            "Key": "Barış Aktemur @ Özyeğin University, Turkey",
+            "Id": "bccc395ad0",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Cyrille Artho",
+            "Affiliation": "AIST, Japan",
+            "Key": "Cyrille Artho @ AIST, Japan",
+            "Id": "e7d65a92f7",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kenichi Asai",
+            "Affiliation": "Ochanomizu University, Japan",
+            "Key": "Kenichi Asai @ Ochanomizu University, Japan",
+            "Id": "521ffad8e0",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Colin Atkinson",
+            "Affiliation": "",
+            "Key": "Colin Atkinson @",
+            "Id": "3bf60a1762",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zhongbo Chen",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
+            "Key": "Zhongbo Chen @ University of Illinois at Urbana-Champaign, USA",
+            "Id": "0ffbaa8021",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Piotr Danilewski",
+            "Affiliation": "Saarland University, Germany / Intel VCI, Germany",
+            "Key": "Piotr Danilewski @ Saarland University, Germany / Intel VCI, Germany",
+            "Id": "16627ad77d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Martin Erwig",
+            "Affiliation": "Oregon State University, USA",
+            "Key": "Martin Erwig @ Oregon State University, USA",
+            "Id": "8343423c73",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dennis C. Feiock",
+            "Affiliation": "Indiana University-Purdue University at Indianapolis, USA",
+            "Key": "Dennis C. Feiock @ Indiana University-Purdue University at Indianapolis, USA",
+            "Id": "6c4f146bfd",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gabriel Foust",
+            "Affiliation": "Texas A&M University, USA",
+            "Key": "Gabriel Foust @ Texas A&M University, USA",
+            "Id": "9410fb8ae8",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "María Jesús Garzarán",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
+            "Key": "María Jesús Garzarán @ University of Illinois at Urbana-Champaign, USA",
+            "Id": "5c248b537a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Maria Gouseti",
+            "Affiliation": "CWI, Netherlands",
+            "Key": "Maria Gouseti @ CWI, Netherlands",
+            "Id": "2a0b6fbfd2",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Thomas R. Gross",
+            "Affiliation": "ETH Zurich, Switzerland",
+            "Key": "Thomas R. Gross @ ETH Zurich, Switzerland",
+            "Id": "44c617db52",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Magne Haveraaen",
+            "Affiliation": "University of Bergen, Norway",
+            "Key": "Magne Haveraaen @ University of Bergen, Norway",
+            "Id": "bad45533ec",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bernhard Heinloth",
+            "Affiliation": "University of Erlangen-Nuremberg, Germany",
+            "Key": "Bernhard Heinloth @ University of Erlangen-Nuremberg, Germany",
+            "Id": "6e1c7e139e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Benjamin Hess",
+            "Affiliation": "ETH Zurich, Switzerland",
+            "Key": "Benjamin Hess @ ETH Zurich, Switzerland",
+            "Id": "5662164668",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "James H. Hill",
+            "Affiliation": "Indiana University-Purdue University at Indianapolis, USA",
+            "Key": "James H. Hill @ Indiana University-Purdue University at Indianapolis, USA",
+            "Id": "346229f4ea",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christian Humer",
+            "Affiliation": "JKU Linz, Austria",
+            "Key": "Christian Humer @ JKU Linz, Austria",
+            "Id": "1aec782cbc",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hideya Iwasaki",
+            "Affiliation": "University of Electro-Communications, Japan",
+            "Key": "Hideya Iwasaki @ University of Electro-Communications, Japan",
+            "Id": "284744dc4f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jaakko Järvi",
+            "Affiliation": "Texas A&M University, USA",
+            "Key": "Jaakko Järvi @ Texas A&M University, USA",
+            "Id": "cff21efbbf",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Vojin Jovanovic",
+            "Affiliation": "EPFL, Switzerland",
+            "Key": "Vojin Jovanovic @ EPFL, Switzerland",
+            "Id": "fc1320de96",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sam Kamin",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
+            "Key": "Sam Kamin @ University of Illinois at Urbana-Champaign, USA",
+            "Id": "69556793f3",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christoph Koch",
+            "Affiliation": "EPFL, Switzerland",
+            "Key": "Christoph Koch @ EPFL, Switzerland",
+            "Id": "7bf98c356b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marcel Köster",
+            "Affiliation": "Saarland University, Germany",
+            "Key": "Marcel Köster @ Saarland University, Germany",
+            "Id": "aaff80f3e3",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Roland Leißa",
+            "Affiliation": "Saarland University, Germany",
+            "Key": "Roland Leißa @ Saarland University, Germany",
+            "Id": "2c9a4d43c9",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Daniel Lohmann",
+            "Affiliation": "University of Erlangen-Nuremberg, Germany",
+            "Key": "Daniel Lohmann @ University of Erlangen-Nuremberg, Germany",
+            "Id": "4b4da4ffbb",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lei Ma",
+            "Affiliation": "University of Tokyo, Japan",
+            "Key": "Lei Ma @ University of Tokyo, Japan",
+            "Id": "7b9a515477",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Somayeh Malakuti",
+            "Affiliation": "TU Dresden, Germany",
+            "Key": "Somayeh Malakuti @ TU Dresden, Germany",
+            "Id": "2bd762c7d2",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Richard Membarth",
+            "Affiliation": "Saarland University, Germany / Intel VCI, Germany / DFKI, Germany",
+            "Key": "Richard Membarth @ Saarland University, Germany / Intel VCI, Germany / DFKI, Germany",
+            "Id": "939c6f6240",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ronald Metoyer",
+            "Affiliation": "Oregon State University, USA",
+            "Key": "Ronald Metoyer @ Oregon State University, USA",
+            "Id": "c2c1c61454",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Vladimir Nikolaev",
+            "Affiliation": "ITMO, Russia",
+            "Key": "Vladimir Nikolaev @ ITMO, Russia",
+            "Id": "d835fc4305",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Martin Odersky",
+            "Affiliation": "EPFL, Switzerland",
+            "Key": "Martin Odersky @ EPFL, Switzerland",
+            "Id": "ee0346fe1a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Klaus Ostermann",
+            "Affiliation": "University of Marburg, Germany",
+            "Key": "Klaus Ostermann @ University of Marburg, Germany",
+            "Id": "eeddf1040a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Chiel Peters",
+            "Affiliation": "CWI, Netherlands",
+            "Key": "Chiel Peters @ CWI, Netherlands",
+            "Id": "5eff8f011a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Markus Püschel",
+            "Affiliation": "ETH Zurich, Switzerland",
+            "Key": "Markus Püschel @ ETH Zurich, Switzerland",
+            "Id": "0421e3639d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andreas Ruprecht",
+            "Affiliation": "University of Erlangen-Nuremberg, Germany",
+            "Key": "Andreas Ruprecht @ University of Erlangen-Nuremberg, Germany",
+            "Id": "47398f1283",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hiroyuki Sato",
+            "Affiliation": "University of Tokyo, Japan",
+            "Key": "Hiroyuki Sato @ University of Tokyo, Japan",
+            "Id": "d2a89a102c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shigeyuki Sato",
+            "Affiliation": "University of Electro-Communications, Japan",
+            "Key": "Shigeyuki Sato @ University of Electro-Communications, Japan",
+            "Id": "0c5a7f25de",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Amir Shaikhha",
+            "Affiliation": "EPFL, Switzerland",
+            "Key": "Amir Shaikhha @ EPFL, Switzerland",
+            "Id": "c33f197395",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Masato Shioda",
+            "Affiliation": "University of Electro-Communications, Japan",
+            "Key": "Masato Shioda @ University of Electro-Communications, Japan",
+            "Id": "a96a49111e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Philipp Slusallek",
+            "Affiliation": "Saarland University, Germany / Intel VCI, Germany / DFKI, Germany",
+            "Key": "Philipp Slusallek @ Saarland University, Germany / Intel VCI, Germany / DFKI, Germany",
+            "Id": "849fc63442",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Karl Smeltzer",
+            "Affiliation": "Oregon State University, USA",
+            "Key": "Karl Smeltzer @ Oregon State University, USA",
+            "Id": "5ff22257e5",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michael J. Steindorfer",
+            "Affiliation": "CWI, Netherlands",
+            "Key": "Michael J. Steindorfer @ CWI, Netherlands",
+            "Id": "520be0f91b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tijs van der Storm",
+            "Affiliation": "CWI, Netherlands",
+            "Key": "Tijs van der Storm @ CWI, Netherlands",
+            "Id": "cd7cf860cb",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sandro Stucki",
+            "Affiliation": "EPFL, Switzerland",
+            "Key": "Sandro Stucki @ EPFL, Switzerland",
+            "Id": "2cf1131861",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nikolai Tillmann",
+            "Affiliation": "",
+            "Key": "Nikolai Tillmann @",
+            "Id": "0bfd784395",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jurgen J. Vinju",
+            "Affiliation": "CWI, Netherlands",
+            "Key": "Jurgen J. Vinju @ CWI, Netherlands",
+            "Id": "b61dae5eea",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Markus Völter",
+            "Affiliation": "",
+            "Key": "Markus Völter @",
+            "Id": "e77d2f217a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Eric Walkingshaw",
+            "Affiliation": "University of Marburg, Germany",
+            "Key": "Eric Walkingshaw @ University of Marburg, Germany",
+            "Id": "efdbfbcecc",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christian Wimmer",
+            "Affiliation": "Oracle Labs, USA",
+            "Key": "Christian Wimmer @ Oracle Labs, USA",
+            "Id": "c7c6ffa7f5",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christian Wirth",
+            "Affiliation": "Oracle Labs, Austria",
+            "Key": "Christian Wirth @ Oracle Labs, Austria",
+            "Id": "90e48ed5af",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andreas Wöß",
+            "Affiliation": "JKU Linz, Austria",
+            "Key": "Andreas Wöß @ JKU Linz, Austria",
+            "Id": "94c6d2bcde",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Thomas Würthinger",
+            "Affiliation": "Oracle Labs, Austria",
+            "Key": "Thomas Würthinger @ Oracle Labs, Austria",
+            "Id": "3a076d6e40",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Danqing Xu",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
+            "Key": "Danqing Xu @ University of Illinois at Urbana-Champaign, USA",
+            "Id": "488f422789",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Buse Yılmaz",
+            "Affiliation": "Özyeğin University, Turkey",
+            "Key": "Buse Yılmaz @ Özyeğin University, Turkey",
+            "Id": "d27faf575b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Cheng Zhang",
+            "Affiliation": "University of Waterloo, Canada",
+            "Key": "Cheng Zhang @ University of Waterloo, Canada",
+            "Id": "1bf16ab68d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        }
+    ]
+}
+ 
+
