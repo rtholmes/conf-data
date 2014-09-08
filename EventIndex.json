@@ -2,6 +2,19 @@
 "DummyCheckSums" : "-1393793961,-567785358,-533442047,-1393793961",
     
 "Events": [
+
+{
+    "Id" : "ASE2014",
+    "Name" : "ASE 2014",
+    "Version" : 1,
+    "File" : "2014ASE.json",
+    "StartDate" : "2014-09-15",
+    "EndDate" : "2014-09-19",
+    "Description" : "International Conference on Automated Software Engineering ",
+	"Icon" : "2014ASE.png",
+	"Image" : "2014ASE.png"
+},
+
 {
     "Id" : "FSE2014",
     "Name" : "FSE 2014",
@@ -9,7 +22,7 @@
     "File" : "2014FSE.json",
     "StartDate" : "2014-11-16",
     "EndDate" : "2014-11-21",
-    "Description" : "ACM SIGSOFT Symposium on Foundations of Software Engineering",
+    "Description" : "Symposium on Foundations of Software Engineering",
 	"Icon" : "2014FSE.png",
 	"Image" : "2014FSE.png"
 },
