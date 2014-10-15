@@ -7,27 +7,35 @@
             "Title": "Paper Title",
             "Type": "Paper, Demo, etc.",
             "Key": "paper-key-1",
+			"PersonsString": "John Doe and Jane Doe",
+			"AffiliationsString": "University of Foo, University of Bar",
             "Authors": [
                 "John Doe",
                 "Jane Doe"
             ],
             "Affiliations": [
-                "University of Foo"
+                "University of Foo",
+				"University of Bar"
             ],
-            "Abstract": "Abstract text."
+            "Abstract": "Abstract text.",
+			"Award": ""
         },
         {
             "Title": "Paper Title2",
             "Type": "Paper, Demo, etc.",
             "Key": "paper-key-2",
+			"PersonsString": "John Doe and Jane Doe",
+			"AffiliationsString": "University of Foo, University of Bar",
             "Authors": [
                 "John Doe",
                 "Jane Doe"
             ],
             "Affiliations": [
-                "University of Foo"
+                "University of Foo",
+				"University of Bar"
             ],
-            "Abstract": "Abstract text."
+            "Abstract": "Abstract text.",
+			"Award": ""
         }
     ],
     "Sessions": [
@@ -35,8 +43,8 @@
             "Title": "Session Title",
             "Type": "Research Track, Industry Track, etc.",
             "Key": "session-key",
-            "Day": "5/18/2013",
-            "Time": "8:30 am - 10:00 am",
+            "Day": "2013-05-18",
+            "Time": "8:30 - 10:00",
             "Location": "Room name/number",
             "Abstract": "Session abstract (can be blank)",
             "Items": [
@@ -44,13 +52,13 @@
             ]
         },
         {
-            "Title": "WORK: workshop",
+            "Title": "WORK: Workshop",
             "ShortTitle": "WORK 2012",
             "Type": "Workshop / Co-located Event",
             "ShortType": "Workshop / Co-located Event",
             "Key": "work-unique-key",
-            "Day": "6/2/2012",
-            "Time": "9:00 am - 5:30 pm",
+            "Day": "2012-02-16",
+            "Time": "9:00 - 17:30",
             "Location": "Room name/number",
             "Abstract": "Abstract text",
             "Workshop": true,
@@ -67,11 +75,11 @@
     "People": [
         {
             "Name": "John Doe",
-            "Affiliation": "University of XXX, Canada"
+            "Affiliation": "University of Foo, Canada"
         },
         {
             "Name": "Jane Doe",
-            "Affiliation": "University of XXX, USA"
+            "Affiliation": "University of Bar, USA"
         }
     ]
 }
