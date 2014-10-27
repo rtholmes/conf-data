@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1414444630,
+    "DataRevision": 1414447109,
     "Preliminary": "false",
     "Event": "FSE 2014",
     "Name": "FSE 2014",
@@ -3707,6 +3707,531 @@
             ],
             "Abstract": "In large scale software development ecosystems, there is a common perception that higher developer involvement leads to faster resolution of bugs. This is based on conjectures around more ``eyeballs&quot; making bugs ``shallow&quot; -- whose validity and applicability are not without dispute. In this paper, we posit that the level of developer attention as well as its extent of diversity influence how quickly bugs get resolved. We report results from a study of 1,000+ Android bugs. We find statistically significant evidence that attention and diversity have contrasting relationships with the resolution time of bugs, even after controlling for factors such as interest, importance, dependency etc. Our results can offer helpful insights on team dynamics and project governance.",
             "Award": ""
+        },
+        {
+            "Title": "Bug Localization via Searching Crowd-Contributed Code",
+            "Type": "Full Paper",
+            "Key": "internetware14main-mainid4-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DQianxiang+Wang+and+Xuan+Li+%22Bug+Localization+via+Searching+Crowd-Contributed+Code%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677833",
+            "PersonsString": "Qianxiang Wang and Xuan Li",
+            "AffiliationsString": "Peking University, China",
+            "Authors": [
+                "Qianxiang Wang @ Peking University, China",
+                "Xuan Li @ Peking University, China"
+            ],
+            "Affiliations": [
+                "Peking University, China",
+                "Peking University, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Linking Stack Overflow to Issue Tracker for Issue Resolution",
+            "Type": "Short Paper",
+            "Key": "internetware14main-mainid7-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DTao+Wang%2C+Gang+Yin%2C+Huaimin+Wang%2C+Cheng+Yang%2C+and+Peng+Zou+%22Linking+Stack+Overflow+to+Issue+Tracker+for+Issue+Resolution%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677839",
+            "PersonsString": "Tao Wang, Gang Yin, Huaimin Wang, Cheng Yang, and Peng Zou",
+            "AffiliationsString": "National University of Defense Technology, China; Academy of Equipment Command and Technology, China",
+            "Authors": [
+                "Tao Wang @ National University of Defense Technology, China",
+                "Gang Yin @ National University of Defense Technology, China",
+                "Huaimin Wang @ National University of Defense Technology, China",
+                "Cheng Yang @ National University of Defense Technology, China",
+                "Peng Zou @ Academy of Equipment Command and Technology, China"
+            ],
+            "Affiliations": [
+                "National University of Defense Technology, China",
+                "National University of Defense Technology, China",
+                "National University of Defense Technology, China",
+                "National University of Defense Technology, China",
+                "Academy of Equipment Command and Technology, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "A Graph Database Based Crowdsourcing Infrastructure for Modelling and Searching Code Structure",
+            "Type": "Full Paper",
+            "Key": "internetware14main-mainid33-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DZeqi+Lin%2C+Junfeng+Zhao%2C+and+Bing+Xie+%22A+Graph+Database+Based+Crowdsourcing+Infrastructure+for+Modelling+and+Searching+Code+Structure%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677847",
+            "PersonsString": "Zeqi Lin, Junfeng Zhao, and Bing Xie",
+            "AffiliationsString": "Peking University, China",
+            "Authors": [
+                "Zeqi Lin @ Peking University, China",
+                "Junfeng Zhao @ Peking University, China",
+                "Bing Xie @ Peking University, China"
+            ],
+            "Affiliations": [
+                "Peking University, China",
+                "Peking University, China",
+                "Peking University, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "User Preference Based Autonomic Generation of Self-Adaptive Rules",
+            "Type": "Full Paper",
+            "Key": "internetware14main-mainid13-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DTianqi+Zhao%2C+Haiyan+Zhao%2C+Wei+Zhang%2C+and+Zhi+Jin+%22User+Preference+Based+Autonomic+Generation+of+Self-Adaptive+Rules%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677835",
+            "PersonsString": "Tianqi Zhao, Haiyan Zhao, Wei Zhang, and Zhi Jin",
+            "AffiliationsString": "Peking University, China",
+            "Authors": [
+                "Tianqi Zhao @ Peking University, China",
+                "Haiyan Zhao @ Peking University, China",
+                "Wei Zhang @ Peking University, China",
+                "Zhi Jin @ Peking University, China"
+            ],
+            "Affiliations": [
+                "Peking University, China",
+                "Peking University, China",
+                "Peking University, China",
+                "Peking University, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "EasyCache: A Transparent In-Memory Data Caching Approach for Internetware",
+            "Type": "Full Paper",
+            "Key": "internetware14main-mainid18-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DWei+Wang%2C+Zhaohui+Liu%2C+Yong+Jiang%2C+Xinchen+Yuan%2C+and+Jun+Wei+%22EasyCache%3A+A+Transparent+In-Memory+Data+Caching+Approach+for+Internetware%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677837",
+            "PersonsString": "Wei Wang, Zhaohui Liu, Yong Jiang, Xinchen Yuan, and Jun Wei",
+            "AffiliationsString": "Institute of Software at Chinese Academy of Sciences, China",
+            "Authors": [
+                "Wei Wang @ Institute of Software at Chinese Academy of Sciences, China",
+                "Zhaohui Liu @ Institute of Software at Chinese Academy of Sciences, China",
+                "Yong Jiang @ Institute of Software at Chinese Academy of Sciences, China",
+                "Xinchen Yuan @ Institute of Software at Chinese Academy of Sciences, China",
+                "Jun Wei @ Institute of Software at Chinese Academy of Sciences, China"
+            ],
+            "Affiliations": [
+                "Institute of Software at Chinese Academy of Sciences, China",
+                "Institute of Software at Chinese Academy of Sciences, China",
+                "Institute of Software at Chinese Academy of Sciences, China",
+                "Institute of Software at Chinese Academy of Sciences, China",
+                "Institute of Software at Chinese Academy of Sciences, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "What Makes a Good App Description?",
+            "Type": "Full Paper",
+            "Key": "internetware14main-mainid24-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DHe+Jiang%2C+Hongjing+Ma%2C+Zhilei+Ren%2C+Jingxuan+Zhang%2C+and+Xiaochen+Li+%22What+Makes+a+Good+App+Description%3F%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677842",
+            "PersonsString": "He Jiang, Hongjing Ma, Zhilei Ren, Jingxuan Zhang, and Xiaochen Li",
+            "AffiliationsString": "Dalian University of Technology, China",
+            "Authors": [
+                "He Jiang @ Dalian University of Technology, China",
+                "Hongjing Ma @ Dalian University of Technology, China",
+                "Zhilei Ren @ Dalian University of Technology, China",
+                "Jingxuan Zhang @ Dalian University of Technology, China",
+                "Xiaochen Li @ Dalian University of Technology, China"
+            ],
+            "Affiliations": [
+                "Dalian University of Technology, China",
+                "Dalian University of Technology, China",
+                "Dalian University of Technology, China",
+                "Dalian University of Technology, China",
+                "Dalian University of Technology, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "FuAET: A Tool for Developing Fuzzy Self-Adaptive Software Systems",
+            "Type": "Full Paper",
+            "Key": "internetware14main-mainid19-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DQiliang+Yang%2C+Xianping+Tao%2C+Hongwei+Xie%2C+Jianchun+Xing%2C+and+Wei+Song+%22FuAET%3A+A+Tool+for+Developing+Fuzzy+Self-Adaptive+Software+Systems%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677840",
+            "PersonsString": "Qiliang Yang, Xianping Tao, Hongwei Xie, Jianchun Xing, and Wei Song",
+            "AffiliationsString": "PLA University of Science and Technology, China; Nanjing University, China; Nanjing University of Science and Technology, China",
+            "Authors": [
+                "Qiliang Yang @ PLA University of Science and Technology, China / Nanjing University, China",
+                "Xianping Tao @ Nanjing University, China",
+                "Hongwei Xie @ Nanjing University, China",
+                "Jianchun Xing @ PLA University of Science and Technology, China",
+                "Wei Song @ Nanjing University of Science and Technology, China"
+            ],
+            "Affiliations": [
+                "PLA University of Science and Technology, China / Nanjing University, China",
+                "Nanjing University, China",
+                "Nanjing University, China",
+                "PLA University of Science and Technology, China",
+                "Nanjing University of Science and Technology, China"
+            ],
+            "Abstract": "Handling uncertainty in software self-adaptation has become an important and challenging issue. In our previous work, we proposed a fuzzy control based approach named Software Fuzzy Self-Adaptation (SFSA) to address fuzziness, a kind of uncertainty in software self-adaptation. However, our SFSA approach still lacks a tool to efficiently support the implementation process of SFSA. Existing tools for realizing self-adaptive applications does not directly deal with fuzziness in self-adaption loops. In this paper, we present the FuAET, a tool designed for building fuzzy self-adaptive software systems. The novelty of the tool is that it can not only provide a friendly GUI for editing and testing fuzzy self-adaptation strategies in intelligible domain specific language (DSL), but also automatically convert DSL-based fuzzy selfadaptation strategies into aspect-based programming code in native-language (NL), e.g., C++. This paper describes the design framework and implementation principles of FuAET, and then proposes a general development process using FuAET for reference to developers. Finally, we conduct an empirical study for evaluation of FuAET using an industrial control application. The results show that FuAET can automate the development of SFSA and ease the burden of the software engineers.",
+            "Award": ""
+        },
+        {
+            "Title": "A Smart Mobile Contact Recommender Based on Smart Phone Data",
+            "Type": "Short Paper",
+            "Key": "internetware14main-mainid21-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DXiwei+Zhuang%2C+Yanchun+Sun%2C+and+Kui+Wei+%22A+Smart+Mobile+Contact+Recommender+Based+on+Smart+Phone+Data%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677841",
+            "PersonsString": "Xiwei Zhuang, Yanchun Sun, and Kui Wei",
+            "AffiliationsString": "Peking University, China",
+            "Authors": [
+                "Xiwei Zhuang @ Peking University, China",
+                "Yanchun Sun @ Peking University, China",
+                "Kui Wei @ Peking University, China"
+            ],
+            "Affiliations": [
+                "Peking University, China",
+                "Peking University, China",
+                "Peking University, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Characterizing Cache Usage for Mobile Web Applications",
+            "Type": "Short Paper",
+            "Key": "internetware14main-mainid31-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DYun+Ma%2C+Xuanzhe+Liu%2C+Shuhui+Zhang%2C+and+Xuan+Lu+%22Characterizing+Cache+Usage+for+Mobile+Web+Applications%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677843",
+            "PersonsString": "Yun Ma, Xuanzhe Liu, Shuhui Zhang, and Xuan Lu",
+            "AffiliationsString": "Key Laboratory of High Confidence Software Technologies, China",
+            "Authors": [
+                "Yun Ma @ Key Laboratory of High Confidence Software Technologies, China",
+                "Xuanzhe Liu @ Key Laboratory of High Confidence Software Technologies, China",
+                "Shuhui Zhang @ Key Laboratory of High Confidence Software Technologies, China",
+                "Xuan Lu @ Key Laboratory of High Confidence Software Technologies, China"
+            ],
+            "Affiliations": [
+                "Key Laboratory of High Confidence Software Technologies, China",
+                "Key Laboratory of High Confidence Software Technologies, China",
+                "Key Laboratory of High Confidence Software Technologies, China",
+                "Key Laboratory of High Confidence Software Technologies, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "SmartRelationship: A VM Relationship Detection Framework for Cloud Management",
+            "Type": "Short Paper",
+            "Key": "internetware14main-mainid25-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DXiaodong+Zhang%2C+Ying+Zhang%2C+Xing+Zhao%2C+Gang+Huang%2C+and+Qiang+Lin+%22SmartRelationship%3A+A+VM+Relationship+Detection+Framework+for+Cloud+Management%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677845",
+            "PersonsString": "Xiaodong Zhang, Ying Zhang, Xing Zhao, Gang Huang, and Qiang Lin",
+            "AffiliationsString": "Peking University, China; Guangdong Power Grid, China",
+            "Authors": [
+                "Xiaodong Zhang @ Peking University, China",
+                "Ying Zhang @ Peking University, China",
+                "Xing Zhao @ Peking University, China",
+                "Gang Huang @ Peking University, China",
+                "Qiang Lin @ Guangdong Power Grid, China"
+            ],
+            "Affiliations": [
+                "Peking University, China",
+                "Peking University, China",
+                "Peking University, China",
+                "Peking University, China",
+                "Guangdong Power Grid, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Measuring the Quality of Issue Tracking Data",
+            "Type": "Short Paper",
+            "Key": "internetware14main-mainid34-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DFeifei+Tu+and+Feixue+Zhang+%22Measuring+the+Quality+of+Issue+Tracking+Data%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677844",
+            "PersonsString": "Feifei Tu and Feixue Zhang",
+            "AffiliationsString": "Key Laboratory of High Confidence Software Technologies, China",
+            "Authors": [
+                "Feifei Tu @ Key Laboratory of High Confidence Software Technologies, China",
+                "Feixue Zhang @ Key Laboratory of High Confidence Software Technologies, China"
+            ],
+            "Affiliations": [
+                "Key Laboratory of High Confidence Software Technologies, China",
+                "Key Laboratory of High Confidence Software Technologies, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "AspectBreeze: Integrating Trustworthiness Aspects into Graph Grammar Supported Architecture Description Language",
+            "Type": "Full Paper",
+            "Key": "internetware14main-mainid11-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJingzhou+Liu%2C+Yuting+Chen%2C+Chen+Li%2C+and+Jianjun+Zhao+%22AspectBreeze%3A+Integrating+Trustworthiness+Aspects+into+Graph+Grammar+Supported+Architecture+Description+Language%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677834",
+            "PersonsString": "Jingzhou Liu, Yuting Chen, Chen Li, and Jianjun Zhao",
+            "AffiliationsString": "Shanghai Jiao Tong University, China",
+            "Authors": [
+                "Jingzhou Liu @ Shanghai Jiao Tong University, China",
+                "Yuting Chen @ Shanghai Jiao Tong University, China",
+                "Chen Li @ Shanghai Jiao Tong University, China",
+                "Jianjun Zhao @ Shanghai Jiao Tong University, China"
+            ],
+            "Affiliations": [
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Using Entropy Weight-Based TOPSIS to Implement Failure Mode and Effects Analysis",
+            "Type": "Full Paper",
+            "Key": "internetware14main-mainid15-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DXiaoyu+Fu%2C+Linpeng+Huang%2C+Guannan+Su%2C+Luxi+Chen%2C+Chen+Li%2C+and+Linzhu+Wu+%22Using+Entropy+Weight-Based+TOPSIS+to+Implement+Failure+Mode+and+Effects+Analysis%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677836",
+            "PersonsString": "Xiaoyu Fu, Linpeng Huang, Guannan Su, Luxi Chen, Chen Li, and Linzhu Wu",
+            "AffiliationsString": "Shanghai Jiao Tong University, China",
+            "Authors": [
+                "Xiaoyu Fu @ Shanghai Jiao Tong University, China",
+                "Linpeng Huang @ Shanghai Jiao Tong University, China",
+                "Guannan Su @ Shanghai Jiao Tong University, China",
+                "Luxi Chen @ Shanghai Jiao Tong University, China",
+                "Chen Li @ Shanghai Jiao Tong University, China",
+                "Linzhu Wu @ Shanghai Jiao Tong University, China"
+            ],
+            "Affiliations": [
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China"
+            ],
+            "Abstract": "Failure mode and effects analysis (FMEA) is a widely used technique for designing, identifying and eliminating known and/or potential failures from system, design and process. Increasingly, this methodology has been adapted to modeling software systems for improving safety and reliability. In the traditional FMEA, for each failure mode, risk factors of Occurrence, Severity and Detection are evaluated and simply multiplied to obtain a risk priority number. Besides, the weights of three risk factors are also ignored. To overcome these shortcomings of traditional FMEA, we propose a novel FMEA approach for obtaining a more rational ranking of failure modes by integrating entropy weighting method with ‘Technique for Order Performance by Similarity to Ideal Solution’(TOPSIS). Finally, a case study about purchasing website is provided to demonstrate the feasibility and benefits of the proposed approach. We also develop a plugin in our tool-Breeze to support the proposed approach.",
+            "Award": ""
+        },
+        {
+            "Title": "Towards Realisation of Evolvable Runtime Variability in Internet-Based Service Systems via Dynamical Software Update",
+            "Type": "Full Paper",
+            "Key": "internetware14main-mainid28-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJiwei+Liu+and+Xinjun+Mao+%22Towards+Realisation+of+Evolvable+Runtime+Variability+in+Internet-Based+Service+Systems+via+Dynamical+Software+Update%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677838",
+            "PersonsString": "Jiwei Liu and Xinjun Mao",
+            "AffiliationsString": "Hunan University, China; National University of Defense Technology, China",
+            "Authors": [
+                "Jiwei Liu @ Hunan University, China",
+                "Xinjun Mao @ National University of Defense Technology, China"
+            ],
+            "Affiliations": [
+                "Hunan University, China",
+                "National University of Defense Technology, China"
+            ],
+            "Abstract": "Today’s Internet-based service systems tend to run in open environments and try to satisfy varying requirements. In the context, the changes of requirements and environments can emerge at any point of their life cycle, and their runtime variability is supposed to be evolvable to deal with the changes. In other words, the number, type or attribute of variability elements (variation points and their associated variants) in the systems is regarded to be changeable, especially at runtime. How to realise evolvable runtime variability in software systems is a challenge in the community of software engineering. Software architecture is supposed to support updating software without interrupting service if runtime variability is to be changed. Besides, the relevant mechanisms have to be provided to achieve dynamic update. Thus, we propose a dynamically reconfigurable reference architecture to construct the systems with evolvable software variability. The resultant system established using our approach consists of variability units and their containers. Variability units embody the variability elements that can be changed through local relay, i.e., starting a new version of variability unit to take place of older ones. Containers are mainly used to carry out the dynamic updating for variability units and realise the functionality invocation among different variability units. They can also be added, removed or replaced without shutting down the entire system. We analyse the requirements and scenarios of evolvable runtime variability in the case of Personal Data Resource Network, and further show the effectiveness and applicability of our approach by constructing the system using our class library and solving the issues proposed in the case.",
+            "Award": ""
+        },
+        {
+            "Title": "Guarantee High Reliability and Effectiveness for Softwares in Internetware",
+            "Type": "Full Paper",
+            "Key": "internetware14main-mainid26-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DXiaoda+Zhang%2C+Haiyan+Chen%2C+Xin+Li%2C+Zhuzhong+Qian%2C+Sheng+Zhang%2C+and+Sanglu+Lu+%22Guarantee+High+Reliability+and+Effectiveness+for+Softwares+in+Internetware%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677846",
+            "PersonsString": "Xiaoda Zhang, Haiyan Chen, Xin Li, Zhuzhong Qian, Sheng Zhang, and Sanglu Lu",
+            "AffiliationsString": "Nanjing University, China; Nanjing University of Aeronautics and Astronautics, China",
+            "Authors": [
+                "Xiaoda Zhang @ Nanjing University, China",
+                "Haiyan Chen @ Nanjing University of Aeronautics and Astronautics, China",
+                "Xin Li @ Nanjing University, China",
+                "Zhuzhong Qian @ Nanjing University, China",
+                "Sheng Zhang @ Nanjing University, China",
+                "Sanglu Lu @ Nanjing University, China"
+            ],
+            "Affiliations": [
+                "Nanjing University, China",
+                "Nanjing University of Aeronautics and Astronautics, China",
+                "Nanjing University, China",
+                "Nanjing University, China",
+                "Nanjing University, China",
+                "Nanjing University, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Model Defined Fault Tolerance in Cloud",
+            "Type": "Short Paper",
+            "Key": "internetware14main-mainid20-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DYihan+Wu%2C+Hui+Song%2C+Yingfei+Xiong%2C+Zibin+Zheng%2C+Ying+Zhang%2C+and+Gang+Huang+%22Model+Defined+Fault+Tolerance+in+Cloud%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677851",
+            "PersonsString": "Yihan Wu, Hui Song, Yingfei Xiong, Zibin Zheng, Ying Zhang, and Gang Huang",
+            "AffiliationsString": "Peking University, China; SINTEF, Norway; Chinese University of Hong Kong, China",
+            "Authors": [
+                "Yihan Wu @ Peking University, China",
+                "Hui Song @ SINTEF, Norway",
+                "Yingfei Xiong @ Peking University, China",
+                "Zibin Zheng @ Chinese University of Hong Kong, China",
+                "Ying Zhang @ Peking University, China",
+                "Gang Huang @ Peking University, China"
+            ],
+            "Affiliations": [
+                "Peking University, China",
+                "SINTEF, Norway",
+                "Peking University, China",
+                "Chinese University of Hong Kong, China",
+                "Peking University, China",
+                "Peking University, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Flourishing Creativity in Software Development via Internetware Paradigm",
+            "Type": "Full Paper",
+            "Key": "internetware14main-mainid2-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DLin+Liu%2C+Jianmin+Wang%2C+Xiaojun+Ye%2C+Xuezhe+Li%2C+and+Hongji+Yang+%22Flourishing+Creativity+in+Software+Development+via+Internetware+Paradigm%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677848",
+            "PersonsString": "Lin Liu, Jianmin Wang, Xiaojun Ye, Xuezhe Li, and Hongji Yang",
+            "AffiliationsString": "Tsinghua University, China; Bath Spa University, UK",
+            "Authors": [
+                "Lin Liu @ Tsinghua University, China",
+                "Jianmin Wang @ Tsinghua University, China",
+                "Xiaojun Ye @ Tsinghua University, China",
+                "Xuezhe Li @ Tsinghua University, China",
+                "Hongji Yang @ Bath Spa University, UK"
+            ],
+            "Affiliations": [
+                "Tsinghua University, China",
+                "Tsinghua University, China",
+                "Tsinghua University, China",
+                "Tsinghua University, China",
+                "Bath Spa University, UK"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Service Retrieval Based on Hybrid SLVM of WSDL",
+            "Type": "Full Paper",
+            "Key": "internetware14main-mainid6-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJun+Long%2C+Lu-Da+Wang%2C+Zu-De+Li%2C+and+Zu-Ping+Zhang+%22Service+Retrieval+Based+on+Hybrid+SLVM+of+WSDL%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677849",
+            "PersonsString": "Jun Long, Lu-Da Wang, Zu-De Li, and Zu-Ping Zhang",
+            "AffiliationsString": "Central South University, China",
+            "Authors": [
+                "Jun Long @ Central South University, China",
+                "Lu-Da Wang @ Central South University, China",
+                "Zu-De Li @ Central South University, China",
+                "Zu-Ping Zhang @ Central South University, China"
+            ],
+            "Affiliations": [
+                "Central South University, China",
+                "Central South University, China",
+                "Central South University, China",
+                "Central South University, China"
+            ],
+            "Abstract": "Two practicable approaches were proposed for Web service retrieval, bipartite-graph matching and KbSM. But their models and similarity metrics of WSDL analysis may ignore some term or semantic feature, and involve formal method problem of representation or difficulty of parameter verification. SLVM and its improved model depend on statistical term measures to implement XML document representation. As a result, they ignore the lexical semantics and the distilled mutual information, leading to text analysis errors. This work proposed a service retrieval method, hybrid SLVM of WSDL, to address the problem of feature extraction. Using WordNet, this method constructed a lexical semantic spectrum to characterize the lexical semantics, and built a special term spectrum based on TF-IDF. Then, feature matrix for WSDL representation was built in the hybrid SLVM. Applying to NWKNN algorithm, on OWLS-TC version 2 dataset, the experimental results show that the feature matrix of our method performs F1 measure and query precisions better than bipartite-graph matching and KbSM.",
+            "Award": ""
+        },
+        {
+            "Title": "Extending Execution Plan with Execution Path Set Partitions",
+            "Type": "Full Paper",
+            "Key": "internetware14main-mainid16-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMingkun+Yang%2C+Qimin+Peng%2C+and+Xiaohui+Hu+%22Extending+Execution+Plan+with+Execution+Path+Set+Partitions%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677850",
+            "PersonsString": "Mingkun Yang, Qimin Peng, and Xiaohui Hu",
+            "AffiliationsString": "Institute of Software at Chinese Academy of Sciences, China",
+            "Authors": [
+                "Mingkun Yang @ Institute of Software at Chinese Academy of Sciences, China",
+                "Qimin Peng @ Institute of Software at Chinese Academy of Sciences, China",
+                "Xiaohui Hu @ Institute of Software at Chinese Academy of Sciences, China"
+            ],
+            "Affiliations": [
+                "Institute of Software at Chinese Academy of Sciences, China",
+                "Institute of Software at Chinese Academy of Sciences, China",
+                "Institute of Software at Chinese Academy of Sciences, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Automated Recommendation of Dynamic Software Update Points",
+            "Type": "Full Paper",
+            "Key": "internetware14main-mainid23-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DZelin+Zhao%2C+Xiaoxing+Ma%2C+Chang+Xu%2C+and+Wenhua+Yang+%22Automated+Recommendation+of+Dynamic+Software+Update+Points%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677853",
+            "PersonsString": "Zelin Zhao, Xiaoxing Ma, Chang Xu, and Wenhua Yang",
+            "AffiliationsString": "Nanjing University, China",
+            "Authors": [
+                "Zelin Zhao @ Nanjing University, China",
+                "Xiaoxing Ma @ Nanjing University, China",
+                "Chang Xu @ Nanjing University, China",
+                "Wenhua Yang @ Nanjing University, China"
+            ],
+            "Affiliations": [
+                "Nanjing University, China",
+                "Nanjing University, China",
+                "Nanjing University, China",
+                "Nanjing University, China"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Inferring Loop Invariants of Programs with Polynomial Post-conditions",
+            "Type": "Full Paper",
+            "Key": "internetware14main-mainid27-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DLi+Mengjun+%22Inferring+Loop+Invariants+of+Programs+with+Polynomial+Post-conditions%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677852",
+            "PersonsString": "Li Mengjun",
+            "AffiliationsString": "National University of Defense Technology, China",
+            "Authors": [
+                "Li Mengjun @ National University of Defense Technology, China"
+            ],
+            "Affiliations": [
+                "National University of Defense Technology, China"
+            ],
+            "Abstract": "",
+            "Award": ""
         }
     ],
     "Sessions": [
@@ -3980,6 +4505,26 @@
             ]
         },
         {
+            "Id": "Nephoh1oop",
+            "Title": "Opening",
+            "ShortTitle": "Opening",
+            "Type": "Internetware 2014",
+            "ShortType": "Internetware 2014",
+            "Key": "2014-11-17 09:00 Opening",
+            "Day": "2014-11-17",
+            "Time": "09:00 - 09:05",
+            "Location": "Conference Hall 3",
+            "LocationIndex": "10",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "INTERNETWARE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "joocu7aeTh",
             "Title": "CrowdSoft 2014",
             "ShortTitle": "CrowdSoft 2014",
@@ -4135,6 +4680,26 @@
             ]
         },
         {
+            "Id": "Aiphie6lie",
+            "Title": "Keynote",
+            "ShortTitle": "Keynote",
+            "Type": "Internetware 2014",
+            "ShortType": "Internetware 2014",
+            "Key": "2014-11-17 09:05 Keynote",
+            "Day": "2014-11-17",
+            "Time": "09:05 - 09:50",
+            "Location": "Conference Hall 3",
+            "LocationIndex": "10",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "INTERNETWARE14",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "SheiKohke8",
             "Title": "Tutorial 1: Educating Diverse Software Engineering Students",
             "ShortTitle": "Tutorial 1: Educating Diverse Software Engineering Students",
@@ -4228,6 +4793,31 @@
             ]
         },
         {
+            "Id": "Phoo6pheit",
+            "Title": "Mining Data",
+            "ShortTitle": "Mining Data",
+            "Type": "Internetware 2014",
+            "ShortType": "Internetware 2014",
+            "Key": "2014-11-17 09:50 Mining Data",
+            "Day": "2014-11-17",
+            "Time": "09:50 - 10:30",
+            "Location": "Conference Hall 3",
+            "LocationIndex": "10",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "INTERNETWARE14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "internetware14main-mainid4-p",
+                "internetware14main-mainid7-p",
+                "internetware14main-mainid33-p"
+            ]
+        },
+        {
             "Id": "pho0Ahtaek",
             "Title": "Technical Presentations 1",
             "ShortTitle": "Technical Presentations 1",
@@ -4292,6 +4882,35 @@
             "Comment": "FSE14",
             "URL": "",
             "Abstract": ""
+        },
+        {
+            "Id": "ookoh7Ooza",
+            "Title": "Mobile and Cloud",
+            "ShortTitle": "Mobile and Cloud",
+            "Type": "Internetware 2014",
+            "ShortType": "Internetware 2014",
+            "Key": "2014-11-17 11:00 Mobile and Cloud",
+            "Day": "2014-11-17",
+            "Time": "11:00 - 12:30",
+            "Location": "Conference Hall 3",
+            "LocationIndex": "10",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "INTERNETWARE14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "internetware14main-mainid13-p",
+                "internetware14main-mainid18-p",
+                "internetware14main-mainid24-p",
+                "internetware14main-mainid19-p",
+                "internetware14main-mainid21-p",
+                "internetware14main-mainid31-p",
+                "internetware14main-mainid25-p"
+            ]
         },
         {
             "Id": "einoh4aeMe",
@@ -4480,6 +5099,34 @@
             "Comment": "FSE14",
             "URL": "",
             "Abstract": ""
+        },
+        {
+            "Id": "AiPheidoo7",
+            "Title": "Software / Data Quality",
+            "ShortTitle": "Software / Data Quality",
+            "Type": "Internetware 2014",
+            "ShortType": "Internetware 2014",
+            "Key": "2014-11-17 14:00 Software / Data Quality",
+            "Day": "2014-11-17",
+            "Time": "14:00 - 15:30",
+            "Location": "Conference Hall 3",
+            "LocationIndex": "10",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "INTERNETWARE14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "internetware14main-mainid34-p",
+                "internetware14main-mainid11-p",
+                "internetware14main-mainid15-p",
+                "internetware14main-mainid28-p",
+                "internetware14main-mainid26-p",
+                "internetware14main-mainid20-p"
+            ]
         },
         {
             "Id": "zoh2Thah8l",
@@ -4692,6 +5339,33 @@
             "Abstract": ""
         },
         {
+            "Id": "eetaitho8A",
+            "Title": "Development Support",
+            "ShortTitle": "Development Support",
+            "Type": "Internetware 2014",
+            "ShortType": "Internetware 2014",
+            "Key": "2014-11-17 16:00 Development Support",
+            "Day": "2014-11-17",
+            "Time": "16:00 - 17:20",
+            "Location": "Conference Hall 3",
+            "LocationIndex": "10",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "INTERNETWARE14MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "internetware14main-mainid2-p",
+                "internetware14main-mainid6-p",
+                "internetware14main-mainid16-p",
+                "internetware14main-mainid23-p",
+                "internetware14main-mainid27-p"
+            ]
+        },
+        {
             "Id": "zang0cheeJ",
             "Title": "Technical Presentations 4",
             "ShortTitle": "Technical Presentations 4",
@@ -4869,6 +5543,26 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSEWS14SEES",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Goo2shieB3",
+            "Title": "Panel: Future of Internetware",
+            "ShortTitle": "Panel: Future of Internetware",
+            "Type": "Internetware 2014",
+            "ShortType": "Internetware 2014",
+            "Key": "2014-11-17 17:20 Panel: Future of Internetware",
+            "Day": "2014-11-17",
+            "Time": "17:20 - 18:00",
+            "Location": "Conference Hall 3",
+            "LocationIndex": "10",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "INTERNETWARE14",
             "URL": "",
             "Abstract": ""
         },
@@ -6426,6 +7120,39 @@
             "URLgs": ""
         },
         {
+            "Name": "Haiyan Chen",
+            "Affiliation": "Nanjing University of Aeronautics and Astronautics, China",
+            "Key": "Haiyan Chen @ Nanjing University of Aeronautics and Astronautics, China",
+            "Id": "d4e4f05bf6",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Luxi Chen",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Luxi Chen @ Shanghai Jiao Tong University, China",
+            "Id": "c0970ca8f2",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yuting Chen",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Yuting Chen @ Shanghai Jiao Tong University, China",
+            "Id": "588afbfcb6",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Shing-Chi Cheung",
             "Affiliation": "",
             "Key": "Shing-Chi Cheung @",
@@ -6987,6 +7714,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Xiaoyu Fu",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Xiaoyu Fu @ Shanghai Jiao Tong University, China",
+            "Id": "fe5a33fbd3",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Juan Pablo Galeotti",
             "Affiliation": "Saarland University, Germany",
             "Key": "Juan Pablo Galeotti @ Saarland University, Germany",
@@ -7449,10 +8187,43 @@
             "URLgs": ""
         },
         {
+            "Name": "Xiaohui Hu",
+            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China",
+            "Key": "Xiaohui Hu @ Institute of Software at Chinese Academy of Sciences, China",
+            "Id": "12c2419181",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Chin-Yu Huang",
             "Affiliation": "National Tsing Hua University, Taiwan",
             "Key": "Chin-Yu Huang @ National Tsing Hua University, Taiwan",
             "Id": "500bbf3b08",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gang Huang",
+            "Affiliation": "Peking University, China",
+            "Key": "Gang Huang @ Peking University, China",
+            "Id": "7064af5f1e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Linpeng Huang",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Linpeng Huang @ Shanghai Jiao Tong University, China",
+            "Id": "e7dd91d91c",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -7570,6 +8341,17 @@
             "URLgs": ""
         },
         {
+            "Name": "He Jiang",
+            "Affiliation": "Dalian University of Technology, China",
+            "Key": "He Jiang @ Dalian University of Technology, China",
+            "Id": "4448545661",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Lingxiao Jiang",
             "Affiliation": "Singapore Management University, Singapore",
             "Key": "Lingxiao Jiang @ Singapore Management University, Singapore",
@@ -7581,10 +8363,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Yong Jiang",
+            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China",
+            "Key": "Yong Jiang @ Institute of Software at Chinese Academy of Sciences, China",
+            "Id": "792ca0fbf0",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Yu Jiang",
             "Affiliation": "Tsinghua University, China",
             "Key": "Yu Jiang @ Tsinghua University, China",
             "Id": "44299b6263",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zhi Jin",
+            "Affiliation": "Peking University, China",
+            "Key": "Zhi Jin @ Peking University, China",
+            "Id": "2bc21de7fd",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -7999,6 +8803,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Chen Li",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Chen Li @ Shanghai Jiao Tong University, China",
+            "Id": "d2a1e65e2a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Guodong Li",
             "Affiliation": "Fujitsu Labs, USA",
             "Key": "Guodong Li @ Fujitsu Labs, USA",
@@ -8043,10 +8858,65 @@
             "URLgs": ""
         },
         {
+            "Name": "Xiaochen Li",
+            "Affiliation": "Dalian University of Technology, China",
+            "Key": "Xiaochen Li @ Dalian University of Technology, China",
+            "Id": "b53c0097b6",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xin Li",
+            "Affiliation": "Nanjing University, China",
+            "Key": "Xin Li @ Nanjing University, China",
+            "Id": "f673f1f467",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xuan Li",
+            "Affiliation": "Peking University, China",
+            "Key": "Xuan Li @ Peking University, China",
+            "Id": "7bb5e27de1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xuezhe Li",
+            "Affiliation": "Tsinghua University, China",
+            "Key": "Xuezhe Li @ Tsinghua University, China",
+            "Id": "60fc21bc95",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Yu Ning Li",
             "Affiliation": "Kyushu University, Japan",
             "Key": "Yu Ning Li @ Kyushu University, Japan",
             "Id": "d47a8dc480",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zu-De Li",
+            "Affiliation": "Central South University, China",
+            "Key": "Zu-De Li @ Central South University, China",
+            "Id": "3ada397217",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -8065,10 +8935,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Qiang Lin",
+            "Affiliation": "Guangdong Power Grid, China",
+            "Key": "Qiang Lin @ Guangdong Power Grid, China",
+            "Id": "97ee67b3d1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Yu Lin",
             "Affiliation": "University of Illinois, USA",
             "Key": "Yu Lin @ University of Illinois, USA",
             "Id": "885d0635d4",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zeqi Lin",
+            "Affiliation": "Peking University, China",
+            "Key": "Zeqi Lin @ Peking University, China",
+            "Id": "84192b2a61",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -8120,6 +9012,39 @@
             "URLgs": ""
         },
         {
+            "Name": "Jingzhou Liu",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Jingzhou Liu @ Shanghai Jiao Tong University, China",
+            "Id": "2aeeb82cab",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jiwei Liu",
+            "Affiliation": "Hunan University, China",
+            "Key": "Jiwei Liu @ Hunan University, China",
+            "Id": "8cbcfb355f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lin Liu",
+            "Affiliation": "Tsinghua University, China",
+            "Key": "Lin Liu @ Tsinghua University, China",
+            "Id": "cc79576123",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Peng Liu",
             "Affiliation": "Pennsylvania State University, USA",
             "Key": "Peng Liu @ Pennsylvania State University, USA",
@@ -8142,6 +9067,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Xuanzhe Liu",
+            "Affiliation": "Key Laboratory of High Confidence Software Technologies, China",
+            "Key": "Xuanzhe Liu @ Key Laboratory of High Confidence Software Technologies, China",
+            "Id": "de04c3bab3",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Yang Liu",
             "Affiliation": "Nanyang Technological University, Singapore",
             "Key": "Yang Liu @ Nanyang Technological University, Singapore",
@@ -8157,6 +9093,17 @@
             "Affiliation": "North China Electric Power University, China",
             "Key": "Yuzhen Liu @ North China Electric Power University, China",
             "Id": "c31910a79f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zhaohui Liu",
+            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China",
+            "Key": "Zhaohui Liu @ Institute of Software at Chinese Academy of Sciences, China",
+            "Id": "8051f4264a",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -8197,6 +9144,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Jun Long",
+            "Affiliation": "Central South University, China",
+            "Key": "Jun Long @ Central South University, China",
+            "Id": "3e79f27aea",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Antonio A. Lopez-Lorca",
             "Affiliation": "Swinburne University of Technology, Australia",
             "Key": "Antonio A. Lopez-Lorca @ Swinburne University of Technology, Australia",
@@ -8219,10 +9177,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Sanglu Lu",
+            "Affiliation": "Nanjing University, China",
+            "Key": "Sanglu Lu @ Nanjing University, China",
+            "Id": "79d703c3dd",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Shan Lu",
             "Affiliation": "University of Wisconsin-Madison, USA",
             "Key": "Shan Lu @ University of Wisconsin-Madison, USA",
             "Id": "13d4d110f5",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xuan Lu",
+            "Affiliation": "Key Laboratory of High Confidence Software Technologies, China",
+            "Key": "Xuan Lu @ Key Laboratory of High Confidence Software Technologies, China",
+            "Id": "d0f5390d10",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -8245,6 +9225,39 @@
             "Affiliation": "University of Illinois at Urbana-Champaign, USA",
             "Key": "Qingzhou Luo @ University of Illinois at Urbana-Champaign, USA",
             "Id": "f8240e0595",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hongjing Ma",
+            "Affiliation": "Dalian University of Technology, China",
+            "Key": "Hongjing Ma @ Dalian University of Technology, China",
+            "Id": "9019ec3d72",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xiaoxing Ma",
+            "Affiliation": "Nanjing University, China",
+            "Key": "Xiaoxing Ma @ Nanjing University, China",
+            "Id": "46b3cf8da6",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yun Ma",
+            "Affiliation": "Key Laboratory of High Confidence Software Technologies, China",
+            "Key": "Yun Ma @ Key Laboratory of High Confidence Software Technologies, China",
+            "Id": "39813f203b",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -8300,6 +9313,17 @@
             "Affiliation": "IBM Research, India",
             "Key": "Senthil Mani @ IBM Research, India",
             "Id": "2a64ab32ba",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xinjun Mao",
+            "Affiliation": "National University of Defense Technology, China",
+            "Key": "Xinjun Mao @ National University of Defense Technology, China",
+            "Id": "770730c2f4",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -8410,6 +9434,17 @@
             "Affiliation": "RIT",
             "Key": "Andy Meneely @ RIT",
             "Id": "38be26a56c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Li Mengjun",
+            "Affiliation": "National University of Defense Technology, China",
+            "Key": "Li Mengjun @ National University of Defense Technology, China",
+            "Id": "b298167280",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -8868,6 +9903,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Qimin Peng",
+            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China",
+            "Key": "Qimin Peng @ Institute of Software at Chinese Academy of Sciences, China",
+            "Id": "262aed7446",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "John Penix",
             "Affiliation": "Google, USA",
             "Key": "John Penix @ Google, USA",
@@ -9022,6 +10068,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Zhuzhong Qian",
+            "Affiliation": "Nanjing University, China",
+            "Key": "Zhuzhong Qian @ Nanjing University, China",
+            "Id": "82abe2c14d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Ivan Radiček",
             "Affiliation": "Vienna University of Technology, Austria",
             "Key": "Ivan Radiček @ Vienna University of Technology, Austria",
@@ -9103,6 +10160,17 @@
             "Affiliation": "Tsinghua University, China",
             "Key": "Jinglei Ren @ Tsinghua University, China",
             "Id": "2e1127757b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zhilei Ren",
+            "Affiliation": "Dalian University of Technology, China",
+            "Key": "Zhilei Ren @ Dalian University of Technology, China",
+            "Id": "e45bd5b078",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9462,6 +10530,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Hui Song",
+            "Affiliation": "SINTEF, Norway",
+            "Key": "Hui Song @ SINTEF, Norway",
+            "Id": "4cb720da52",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Myoungkyu Song",
             "Affiliation": "University of Texas at Austin, USA",
             "Key": "Myoungkyu Song @ University of Texas at Austin, USA",
@@ -9488,6 +10567,17 @@
             "Affiliation": "Nanjing University, China",
             "Key": "Shuo Song @ Nanjing University, China",
             "Id": "fedf5c4e1a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Wei Song",
+            "Affiliation": "Nanjing University of Science and Technology, China",
+            "Key": "Wei Song @ Nanjing University of Science and Technology, China",
+            "Id": "c1ee393910",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9539,6 +10629,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Guannan Su",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Guannan Su @ Shanghai Jiao Tong University, China",
+            "Id": "ce4cc0673c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Zhendong Su",
             "Affiliation": "University of California at Davis, USA",
             "Key": "Zhendong Su @ University of California at Davis, USA",
@@ -9583,6 +10684,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Yanchun Sun",
+            "Affiliation": "Peking University, China",
+            "Key": "Yanchun Sun @ Peking University, China",
+            "Id": "ef95967bc1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Charles Sutton",
             "Affiliation": "University of Edinburgh, UK",
             "Key": "Charles Sutton @ University of Edinburgh, UK",
@@ -9620,6 +10732,17 @@
             "Affiliation": "",
             "Key": "Xianping Tao @",
             "Id": "50c5ff0816",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xianping Tao",
+            "Affiliation": "Nanjing University, China",
+            "Key": "Xianping Tao @ Nanjing University, China",
+            "Id": "5754c73e84",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9770,6 +10893,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Feifei Tu",
+            "Affiliation": "Key Laboratory of High Confidence Software Technologies, China",
+            "Key": "Feifei Tu @ Key Laboratory of High Confidence Software Technologies, China",
+            "Id": "c9c89093a8",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Zhaopeng Tu",
             "Affiliation": "University of California at Davis, USA",
             "Key": "Zhaopeng Tu @ University of California at Davis, USA",
@@ -9858,6 +10992,39 @@
             "URLgs": ""
         },
         {
+            "Name": "Huaimin Wang",
+            "Affiliation": "National University of Defense Technology, China",
+            "Key": "Huaimin Wang @ National University of Defense Technology, China",
+            "Id": "d10f5f34a2",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jianmin Wang",
+            "Affiliation": "Tsinghua University, China",
+            "Key": "Jianmin Wang @ Tsinghua University, China",
+            "Id": "3528f378af",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lu-Da Wang",
+            "Affiliation": "Central South University, China",
+            "Key": "Lu-Da Wang @ Central South University, China",
+            "Id": "a9542beb72",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Pin-Heng Wang",
             "Affiliation": "Alpha Networks, Taiwan",
             "Key": "Pin-Heng Wang @ Alpha Networks, Taiwan",
@@ -9884,6 +11051,61 @@
             "Affiliation": "",
             "Key": "Qianxiang Wang @",
             "Id": "71a3ecfdab",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Qianxiang Wang",
+            "Affiliation": "Peking University, China",
+            "Key": "Qianxiang Wang @ Peking University, China",
+            "Id": "86800badc6",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tao Wang",
+            "Affiliation": "National University of Defense Technology, China",
+            "Key": "Tao Wang @ National University of Defense Technology, China",
+            "Id": "6401a94579",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Wei Wang",
+            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China",
+            "Key": "Wei Wang @ Institute of Software at Chinese Academy of Sciences, China",
+            "Id": "004dd3a16d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jun Wei",
+            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China",
+            "Key": "Jun Wei @ Institute of Software at Chinese Academy of Sciences, China",
+            "Id": "86db831cab",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kui Wei",
+            "Affiliation": "Peking University, China",
+            "Key": "Kui Wei @ Peking University, China",
+            "Id": "b5db0c766c",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9968,6 +11190,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Linzhu Wu",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Linzhu Wu @ Shanghai Jiao Tong University, China",
+            "Id": "dd98587f33",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Rongxin Wu",
             "Affiliation": "Hong Kong University of Science and Technology, China",
             "Key": "Rongxin Wu @ Hong Kong University of Science and Technology, China",
@@ -9983,6 +11216,17 @@
             "Affiliation": "City University of Hong Kong, China",
             "Key": "Shangru Wu @ City University of Hong Kong, China",
             "Id": "72e4aab2ad",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yihan Wu",
+            "Affiliation": "Peking University, China",
+            "Key": "Yihan Wu @ Peking University, China",
+            "Id": "135b2bdd7f",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10012,6 +11256,28 @@
             "URLgs": ""
         },
         {
+            "Name": "Bing Xie",
+            "Affiliation": "Peking University, China",
+            "Key": "Bing Xie @ Peking University, China",
+            "Id": "1c0951258f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hongwei Xie",
+            "Affiliation": "Nanjing University, China",
+            "Key": "Hongwei Xie @ Nanjing University, China",
+            "Id": "4abb096b51",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Tao Xie",
             "Affiliation": "",
             "Key": "Tao Xie @",
@@ -10027,6 +11293,28 @@
             "Affiliation": "NCSU",
             "Key": "Tao Xie @ NCSU",
             "Id": "fbe86dd95c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jianchun Xing",
+            "Affiliation": "PLA University of Science and Technology, China",
+            "Key": "Jianchun Xing @ PLA University of Science and Technology, China",
+            "Id": "47a0cbedc9",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yingfei Xiong",
+            "Affiliation": "Peking University, China",
+            "Key": "Yingfei Xiong @ Peking University, China",
+            "Id": "d486590c7c",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10089,6 +11377,61 @@
             "URLgs": ""
         },
         {
+            "Name": "Cheng Yang",
+            "Affiliation": "National University of Defense Technology, China",
+            "Key": "Cheng Yang @ National University of Defense Technology, China",
+            "Id": "3d89c4c506",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hongji Yang",
+            "Affiliation": "Bath Spa University, UK",
+            "Key": "Hongji Yang @ Bath Spa University, UK",
+            "Id": "d20c6a4029",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mingkun Yang",
+            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China",
+            "Key": "Mingkun Yang @ Institute of Software at Chinese Academy of Sciences, China",
+            "Id": "eb1d6d1cce",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Qiliang Yang",
+            "Affiliation": "PLA University of Science and Technology, China / Nanjing University, China",
+            "Key": "Qiliang Yang @ PLA University of Science and Technology, China / Nanjing University, China",
+            "Id": "bcff73a7ad",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Wenhua Yang",
+            "Affiliation": "Nanjing University, China",
+            "Key": "Wenhua Yang @ Nanjing University, China",
+            "Id": "7c4f781e12",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Xin Yang",
             "Affiliation": "Nara Institute of Science and Technology, Japan",
             "Key": "Xin Yang @ Nara Institute of Science and Technology, Japan",
@@ -10122,10 +11465,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Xiaojun Ye",
+            "Affiliation": "Tsinghua University, China",
+            "Key": "Xiaojun Ye @ Tsinghua University, China",
+            "Id": "e1b33e652c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Xin Ye",
             "Affiliation": "Ohio University, USA",
             "Key": "Xin Ye @ Ohio University, USA",
             "Id": "fddb63143b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gang Yin",
+            "Affiliation": "National University of Defense Technology, China",
+            "Key": "Gang Yin @ National University of Defense Technology, China",
+            "Id": "f7a001255f",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10170,6 +11535,17 @@
             "Affiliation": "NCUT",
             "Key": "Fang Yu @ NCUT",
             "Id": "3e717a1327",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xinchen Yuan",
+            "Affiliation": "Institute of Software at Chinese Academy of Sciences, China",
+            "Key": "Xinchen Yuan @ Institute of Software at Chinese Academy of Sciences, China",
+            "Id": "1ed55819d2",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10243,6 +11619,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Feixue Zhang",
+            "Affiliation": "Key Laboratory of High Confidence Software Technologies, China",
+            "Key": "Feixue Zhang @ Key Laboratory of High Confidence Software Technologies, China",
+            "Id": "e419169bf8",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Haidong Zhang",
             "Affiliation": "Microsoft Research, China",
             "Key": "Haidong Zhang @ Microsoft Research, China",
@@ -10287,6 +11674,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Jingxuan Zhang",
+            "Affiliation": "Dalian University of Technology, China",
+            "Key": "Jingxuan Zhang @ Dalian University of Technology, China",
+            "Id": "0e299208d3",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Lijun Zhang",
             "Affiliation": "Institute of Software at Chinese Academy of Sciences, China",
             "Key": "Lijun Zhang @ Institute of Software at Chinese Academy of Sciences, China",
@@ -10309,10 +11707,76 @@
             "URLgs": ""
         },
         {
+            "Name": "Sheng Zhang",
+            "Affiliation": "Nanjing University, China",
+            "Key": "Sheng Zhang @ Nanjing University, China",
+            "Id": "7dbda87f5e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shuhui Zhang",
+            "Affiliation": "Key Laboratory of High Confidence Software Technologies, China",
+            "Key": "Shuhui Zhang @ Key Laboratory of High Confidence Software Technologies, China",
+            "Id": "05922cbfe1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Tianyi Zhang",
             "Affiliation": "University of California at Los Angeles, USA",
             "Key": "Tianyi Zhang @ University of California at Los Angeles, USA",
             "Id": "89159e9973",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Wei Zhang",
+            "Affiliation": "Peking University, China",
+            "Key": "Wei Zhang @ Peking University, China",
+            "Id": "309bf0d476",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xiaoda Zhang",
+            "Affiliation": "Nanjing University, China",
+            "Key": "Xiaoda Zhang @ Nanjing University, China",
+            "Id": "c986278f19",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xiaodong Zhang",
+            "Affiliation": "Peking University, China",
+            "Key": "Xiaodong Zhang @ Peking University, China",
+            "Id": "810812faea",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ying Zhang",
+            "Affiliation": "Peking University, China",
+            "Key": "Ying Zhang @ Peking University, China",
+            "Id": "f9129994bc",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10331,6 +11795,72 @@
             "URLgs": ""
         },
         {
+            "Name": "Zu-Ping Zhang",
+            "Affiliation": "Central South University, China",
+            "Key": "Zu-Ping Zhang @ Central South University, China",
+            "Id": "052d8bffbc",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Haiyan Zhao",
+            "Affiliation": "Peking University, China",
+            "Key": "Haiyan Zhao @ Peking University, China",
+            "Id": "43706d6c71",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jianjun Zhao",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Jianjun Zhao @ Shanghai Jiao Tong University, China",
+            "Id": "abde219b1d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Junfeng Zhao",
+            "Affiliation": "Peking University, China",
+            "Key": "Junfeng Zhao @ Peking University, China",
+            "Id": "152b818d37",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tianqi Zhao",
+            "Affiliation": "Peking University, China",
+            "Key": "Tianqi Zhao @ Peking University, China",
+            "Id": "4891824d43",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xing Zhao",
+            "Affiliation": "Peking University, China",
+            "Key": "Xing Zhao @ Peking University, China",
+            "Id": "3d1560bb1f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Xinyan Zhao",
             "Affiliation": "Tsinghua University, China",
             "Key": "Xinyan Zhao @ Tsinghua University, China",
@@ -10342,10 +11872,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Zelin Zhao",
+            "Affiliation": "Nanjing University, China",
+            "Key": "Zelin Zhao @ Nanjing University, China",
+            "Id": "bca2bbf73f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Weimin Zheng",
             "Affiliation": "Tsinghua University, China",
             "Key": "Weimin Zheng @ Tsinghua University, China",
             "Id": "2a3c619372",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zibin Zheng",
+            "Affiliation": "Chinese University of Hong Kong, China",
+            "Key": "Zibin Zheng @ Chinese University of Hong Kong, China",
+            "Id": "ee9aaf2ae9",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10386,10 +11938,32 @@
             "URLgs": ""
         },
         {
+            "Name": "Xiwei Zhuang",
+            "Affiliation": "Peking University, China",
+            "Key": "Xiwei Zhuang @ Peking University, China",
+            "Id": "1270e4e411",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Thomas Zimmermann",
             "Affiliation": "Microsoft Research, USA",
             "Key": "Thomas Zimmermann @ Microsoft Research, USA",
             "Id": "68eee09b14",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Peng Zou",
+            "Affiliation": "Academy of Equipment Command and Technology, China",
+            "Key": "Peng Zou @ Academy of Equipment Command and Technology, China",
+            "Id": "77c9d28781",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
