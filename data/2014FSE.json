@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1414537646,
+    "DataRevision": 1415304669,
     "Preliminary": "false",
     "Event": "FSE 2014",
     "Name": "FSE 2014",
@@ -722,7 +722,7 @@
             "Title": "Static Analysis Driven Performance and Energy Testing",
             "Type": "Short Paper",
             "Key": "fse14doc-docid12-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAbhijeet+Banerjee+%22Static+Analysis+Driven+Performance+and+Energy+Testing%22",
+            "URL": "http%3A%2F%2Fwww.comp.nus.edu.sg%2F%7Eabhijeet%2Fdsymp_fse.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2635868.2666602",
@@ -2028,7 +2028,7 @@
             "Title": "SAFEWAPI: Web API Misuse Detector for Web Applications",
             "Type": "Full Paper",
             "Key": "fse14main-mainid222-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DSungGyeong+Bae%2C+Hyunghun+Cho%2C+Inho+Lim%2C+and+Sukyoung+Ryu+%22SAFEWAPI%3A+Web+API+Misuse+Detector+for+Web+Applications%22",
+            "URL": "http%3A%2F%2Fplrg.kaist.ac.kr%2F_media%2Fresearch%2Fpublications%2Ffse14final.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2635868.2635916",
@@ -2191,7 +2191,7 @@
             "Title": "Detecting Energy Bugs and Hotspots in Mobile Apps",
             "Type": "Full Paper",
             "Key": "fse14main-mainid31-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAbhijeet+Banerjee%2C+Lee+Kee+Chong%2C+Sudipta+Chattopadhyay%2C+and+Abhik+Roychoudhury+%22Detecting+Energy+Bugs+and+Hotspots+in+Mobile+Apps%22",
+            "URL": "http%3A%2F%2Fwww.comp.nus.edu.sg%2F%7Eabhijeet%2Fmain_fse.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2635868.2635871",
@@ -2481,7 +2481,7 @@
             "Title": "Estimating the Effectiveness of Spectrum-Based Fault Localization",
             "Type": "Abstract",
             "Key": "fse14src-srcid10-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DShuo+Song+%22Estimating+the+Effectiveness+of+Spectrum-Based+Fault+Localization%22",
+            "URL": "http%3A%2F%2Fsoftware.nju.edu.cn%2Fise%2Flib%2Fexe%2Ffetch.php%3Fmedia%3Dpublication%3Aproofread-final.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2635868.2661680",
@@ -2500,7 +2500,7 @@
             "Title": "Managing Lots of Models: The FaMine Approach",
             "Type": "Abstract",
             "Key": "fse14src-srcid1-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DDavid+Wille+%22Managing+Lots+of+Models%3A+The+FaMine+Approach%22",
+            "URL": "https%3A%2F%2Fwww.isf.cs.tu-bs.de%2Fcms%2Fteam%2Fwille%2Fwille_preprint_fse2014.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2635868.2661681",
@@ -2576,7 +2576,7 @@
             "Title": "Methodology and Culture: Drivers of Mediocrity in Software Engineering?",
             "Type": "Short Paper",
             "Key": "fse14vc-vcid21-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMarian+Petre+and+Daniela+Damian+%22Methodology+and+Culture%3A+Drivers+of+Mediocrity+in+Software+Engineering%3F%22",
+            "URL": "http%3A%2F%2Fthesegalgroup.org%2Fwp-content%2Fuploads%2F2013%2F04%2Ffse14vc-vcid21-p-25853-b3c4028-22161-final.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2635868.2666607",
@@ -2729,25 +2729,6 @@
                 "Universidad Católica de Santiago del Estero, Argentina"
             ],
             "Abstract": "abstract Software maintenance exhibits many differences regarding how other engineering disciplines carry out maintenance on their artifacts. Such dissimilarity is caused due to the fact that it is easy to get a copy from the original artifact to be used in maintenance, and also because the flat dimension of the software text facilitates access to the components by simply using a text editor. Other engineering disciplines resort to different artifact versions (obtained by dissassembling) where the introduction of modifications (previous comprehension) is easier. After which the artifact is reassembled. In software engineering this approach can be simulated by combining program transformation techniques, search-based software engineering technology and design attributes. %%This easiness (absent in the other engineering sciences) as well as the intangible software nature can lead to the belief %%that a software maintenance model similar to those of the other engineering sciences is unnecessary or unfeasible. %%This paper states the opposite, and as a consequence, an entirely new and more robust software maintenance model emerges. abstract",
-            "Award": ""
-        },
-        {
-            "Title": "Finding Code Artifacts with Context",
-            "Type": "CSD 2014",
-            "Key": "James Herbsleb @ Carnegie Melon University, USA : Finding Code Artifacts with Context",
-            "URL": "",
-            "URLvideo": "",
-            "URLinfo": "",
-            "DOI": "",
-            "PersonsString": "James Herbsleb",
-            "AffiliationsString": "Carnegie Melon University, USA",
-            "Authors": [
-                "James Herbsleb @ Carnegie Melon University, USA"
-            ],
-            "Affiliations": [
-                "Carnegie Melon University, USA"
-            ],
-            "Abstract": "Context in Code Search. Lee Martie and André van der Hoek \n Towards Developer- and Task-Tailored Navigation Models. Katja Kevic and Thomas Fritz \n Recommending Task Context: Automation Meets Crowd. Rafael Leano, Bakhtiar Kasi and Anita Sarma",
             "Award": ""
         },
         {
@@ -3139,6 +3120,25 @@
             "Award": ""
         },
         {
+            "Title": "Theories of Context (Keynote)",
+            "Type": "CSD 2014",
+            "Key": "James Herbsleb @ Carnegie Melon University, USA : Theories of Context (Keynote)",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "James Herbsleb",
+            "AffiliationsString": "Carnegie Melon University, USA",
+            "Authors": [
+                "James Herbsleb @ Carnegie Melon University, USA"
+            ],
+            "Affiliations": [
+                "Carnegie Melon University, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
             "Title": "Opening",
             "Type": "DeMobile 2014",
             "Key": "Aharon Abadi @  : Opening",
@@ -3327,7 +3327,7 @@
             "Title": "Energy-Aware Design Patterns for Mobile Application Development (Invited Talk)",
             "Type": "Extended Abstract",
             "Key": "fsews14demobilemain-demobilemainid6-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAbhijeet+Banerjee+and+Abhik+Roychoudhury+%22Energy-Aware+Design+Patterns+for+Mobile+Application+Development+%28Invited+Talk%29%22",
+            "URL": "http%3A%2F%2Fwww.comp.nus.edu.sg%2F%7Eabhijeet%2Fdemobile_fse.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2661694.2661698",
@@ -4043,6 +4043,25 @@
             "Award": ""
         },
         {
+            "Title": "What is the Big Idea behind Big Data? (Keynote)",
+            "Type": "Internetware 2014",
+            "Key": "Lionel M. Ni @ Hong Kong University of Science and Technology : What is the Big Idea behind Big Data? (Keynote)",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Lionel M. Ni",
+            "AffiliationsString": "Hong Kong University of Science and Technology",
+            "Authors": [
+                "Lionel M. Ni @ Hong Kong University of Science and Technology"
+            ],
+            "Affiliations": [
+                "Hong Kong University of Science and Technology"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
             "Title": "Bug Localization via Searching Crowd-Contributed Code",
             "Type": "Full Paper",
             "Key": "internetware14main-mainid4-p",
@@ -4060,7 +4079,7 @@
                 "Peking University, China",
                 "Peking University, China"
             ],
-            "Abstract": "",
+            "Abstract": "Bug localization, i.e., locating bugs in code snippets, is a frequent task in software development. Although static bug-finding tools are available to reduce manual effort in bug localization, these tools typically detect bugs with known project-independent bug patterns. However, many bugs in real-world code snippets are project-specific. To address this issue, in this paper, we propose a novel approach for LOcating Bugs By Searching the most similar sample snippet (LOBBYS). LOBBYS detects bugs with the help of crowd-contributed correct code, which implement the function that buggy code is expected to implement. Given a buggy code snippet, LOBBYS takes two steps to locate the bug: (1) normalize the bug-gy snippet, and then search for the most similar sample snippet from the code base; (2) align the buggy code and sample code snip-pets, find the difference between the two code snippets, and generate a bug report based on the difference. To evaluate LOBBYS, we build one algorithm-oriented code base and select some buggy snippets from two real-world systems. The result shows that LOBBYS can effectively locate bugs for buggy snippets with high precision. Under the similarity of 50%, 70% and 90%, LOBBYS achieves bug-localization precision as 67%, 83%, and 92%.",
             "Award": ""
         },
         {
@@ -4087,7 +4106,7 @@
                 "National University of Defense Technology, China",
                 "Academy of Equipment Command and Technology, China"
             ],
-            "Abstract": "",
+            "Abstract": "Issue resolution is a central task for software development. The efficiency of issue fixing largely relies on the issue report quality. Stack Overflow, which hosts rich and real-time posts about programming-specific problems, is a valuable external source of knowledge for issue resolution. In this paper, we present CrossLink, an analysis framework that automatically introduce related posts in Stack Overflow to issues in Android Issue Tracker. This helps developers to leverage the abundant and professional knowledge from massive programmers in Stack Overflow for issue resolution. CrossLink explores the semantic similarities as well as the temporal associations between the two types of repositories to recommend Stack Overflow posts to Android issues. The internal links in Stack Overflow are also employed to improve the linking accuracy. The experiments prove the effectiveness of CrossLink with precision of 62.51% for top-10 recommendations, which is significantly higher than the state-of-art method.",
             "Award": ""
         },
         {
@@ -4110,7 +4129,7 @@
                 "Peking University, China",
                 "Peking University, China"
             ],
-            "Abstract": "",
+            "Abstract": "Software reuse offers a solution to eliminate repeated work and improve efficiency and quality in the software development. In order to reuse existing software resources, software developers usually need to understand code structure of them. However, code structure is usually too complex to figure out. Therefore, it is helpful to demonstrate software developers the code structure they want to know. This paper presents a graph database based crowdsourcing infrastructure for modelling and searching code structure. In this paper, a graph based modelling paradigm of code structure is provided, which solves the problem that how code structure should be demonstrated. Software developers&#039; search purposes are analyzed by natural language processing technique. A crowdsourcing mechanism is provided to integrate different code structure analysis algorithms for these different search purposes. Our work improves the efficiency of software reuse, and it is validated through an industrial case study.",
             "Award": ""
         },
         {
@@ -4135,7 +4154,7 @@
                 "Peking University, China",
                 "Peking University, China"
             ],
-            "Abstract": "",
+            "Abstract": "The internetware system is a complex and distributed self-adaptive system, which challenges the method for making adaptation plans. Rule based approaches are very efficient to make plans in adaptive systems. To enable effective rule-based adaptation, we need to write a set of well behaved self-adaptive rules which could always lead to desirable states. This adaptive rules-set needs to be correct, com- plete, conflicts-free and well satisfy user goals, and it should updates according to user preferences. However, it is a difficult task for sys- tem users to define such a set of rules. To resolve this problem, we provide an rule generation engine, which could automatically generate well behaved self-adaptive rules according to user pref- erences. The rule generation engine is realized by a three-stage algorithm: stage 1 integrates user goals and user preferences, stage 2 establishes 1-1 tracing relationship between a context state and its desirable software configuration, stage 3 extracts self-adaptive rules from the tracing relationship between context states and software configurations. We will apply this engine to generate self-adaptive rules for a smart phone system, and evaluate the quality of generated self-adaptive rules.",
             "Award": ""
         },
         {
@@ -4162,7 +4181,7 @@
                 "Institute of Software at Chinese Academy of Sciences, China",
                 "Institute of Software at Chinese Academy of Sciences, China"
             ],
-            "Abstract": "",
+            "Abstract": "Developers usually use in-memory data caching system like Hazelcast with the application server to offload the backend database for scaling Internetware. Unfortunately, such caches do not integrate well with the database or the application. Developers need to take a large effort to rewrite the existing data access logic and manually manage the caching data. In this paper, we present EasyCache, a novel data caching approach, which provides transparent cache pre-loading, accessing and consistency maintenance to relieve developers of the burden of cache using and management. First, EasyCache translates each row of data in the existing database table into application cached object to pre-load cache data. Second, EasyCache allows applications to access the data cache using SQL statements and translates them into key/value based cache operations. Finally, EasyCache provides asynchronous/synchronous strategies to persist the cache data changes into the backend database. We design and implement EasyCache as a JDBC driver with Hazelcast as the caching layer. To evaluate our prototype, a detailed set of experiments were performed using the TPC-W benchmark. In the experiments, the only programming effort with EasyCache is point the application to the EasyCache JDBC driver. In contrast, when using Hazelcast as a traditional application-level caching system, we need to modify the TPC-W code over 2000 lines for 15 man days. Our experiments also show that, compared to a system with no cache and with query result cache, using EasyCache leads to up to 692× and 77× performance improvement respectively.",
             "Award": ""
         },
         {
@@ -4239,7 +4258,7 @@
                 "Peking University, China",
                 "Peking University, China"
             ],
-            "Abstract": "",
+            "Abstract": "This paper presents SMoCoR, a smart mobile contact recommender based on smart phone data. It recommends the most appropriate way to contact friends according to friends’ current condition. In no emergency condition, SMoCoR achieves two goals. First, the recommended contacts disturb friends least, that means, it will tell whether it’s suitable to call friends. Second, the recommended contact makes the communication information accessible to the friends and gets replies from the friends as soon as possible. For the goals above, SMoCoR takes friends’ calendar data and smart phone data as inputs, and after several steps of calculation it will recommend a list of contacts ranked by intelligent algorithm according to the appropriateness. The recommendation includes two aspects. Firstly, SMoCoR recommends whether it is suitable to make calls, which is named call recommendation. Secondly, SMoCoR recommends a list of the ranked text contacts, which is named text contact recommendation. The experimental results based on real-user data show that SMoCoR provides an effective method for contact recommendation.",
             "Award": ""
         },
         {
@@ -4264,7 +4283,7 @@
                 "Key Laboratory of High Confidence Software Technologies, China",
                 "Key Laboratory of High Confidence Software Technologies, China"
             ],
-            "Abstract": "",
+            "Abstract": "Web application is a key app on mobile devices. However, the performance of mobile Web applications is known to be poor. Resource loading is a key factor influencing Web applications performance. Cache is an effective mechanism to accelerate resource loading by enabling to access resources directly from local storage. In this paper, we make a quantitative study to characterize how mobile Web applications leverage cache to improve its performance. The results show that mobile Web cache is not so efficient. On one hand, redundant transfers are always there to waste data traffic and energy consumption no matter the client support is perfect or not. On the other hand, changed resources are not replaced from cache in time, leading to incorrect functions.",
             "Award": ""
         },
         {
@@ -4291,7 +4310,7 @@
                 "Peking University, China",
                 "Guangdong Power Grid, China"
             ],
-            "Abstract": "",
+            "Abstract": "With the rapid development of Cloud computing technologies, a large number of Cloud management systems have emerged in recent years, such as Amazon EC2, Eucalyptus, CloudStack and OpenStack. To the best of our knowledge, all of these systems treat virtual machines (VMs) independent with each other and ignore the relationships between them. However, the relationship information between VMs can greatly impact the resource utilization, application performance and so on. Therefore, in this paper, we present SmartRelationship – a relationship detection framework for Cloud management. The framework detects the relationship between VMs in Cloud, which can be used to optimize Cloud management services such as VM dynamic placement, fault detection and security inspection.",
             "Award": ""
         },
         {
@@ -4312,7 +4331,7 @@
                 "Key Laboratory of High Confidence Software Technologies, China",
                 "Key Laboratory of High Confidence Software Technologies, China"
             ],
-            "Abstract": "",
+            "Abstract": "Source code and its development history can represent the output and process of developing software. [1] But little attention has been devoted to the data quality. To help researchers and practioners preliminary evaluate the software development data they used in studies, we design a tool, Data Quality Evaluator (DQE), to measure the software development data, especially the data completeness of issue reports in an open source software (OSS) project’s issue tracking system (ITS). It is judged from three metrics -- the coherence of issue reports’ ID, the existence of an issue report’s basic information and activity information, and the completeness of changes on an issue report status. DQE will analyze the data submitted by users, and show users the data quality evaluation chart from three aspects. We had DQE applied to the GNOME community’s issue-tracking data that we collected for research, and we obtained the result of data quality evaluation. Next, we will continue to apply DQE to more software development data, so that we can help researchers and practioners conveniently get an initial evaluation of data quality.",
             "Award": ""
         },
         {
@@ -4378,13 +4397,13 @@
             "URLinfo": "",
             "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677838",
             "PersonsString": "Jiwei Liu and Xinjun Mao",
-            "AffiliationsString": "Hunan University, China; National University of Defense Technology, China",
+            "AffiliationsString": "National University of Defense Technology, China",
             "Authors": [
-                "Jiwei Liu @ Hunan University, China",
+                "Jiwei Liu @ National University of Defense Technology, China",
                 "Xinjun Mao @ National University of Defense Technology, China"
             ],
             "Affiliations": [
-                "Hunan University, China",
+                "National University of Defense Technology, China",
                 "National University of Defense Technology, China"
             ],
             "Abstract": "Today’s Internet-based service systems tend to run in open environments and try to satisfy varying requirements. In the context, the changes of requirements and environments can emerge at any point of their life cycle, and their runtime variability is supposed to be evolvable to deal with the changes. In other words, the number, type or attribute of variability elements (variation points and their associated variants) in the systems is regarded to be changeable, especially at runtime. How to realise evolvable runtime variability in software systems is a challenge in the community of software engineering. Software architecture is supposed to support updating software without interrupting service if runtime variability is to be changed. Besides, the relevant mechanisms have to be provided to achieve dynamic update. Thus, we propose a dynamically reconfigurable reference architecture to construct the systems with evolvable software variability. The resultant system established using our approach consists of variability units and their containers. Variability units embody the variability elements that can be changed through local relay, i.e., starting a new version of variability unit to take place of older ones. Containers are mainly used to carry out the dynamic updating for variability units and realise the functionality invocation among different variability units. They can also be added, removed or replaced without shutting down the entire system. We analyse the requirements and scenarios of evolvable runtime variability in the case of Personal Data Resource Network, and further show the effectiveness and applicability of our approach by constructing the system using our class library and solving the issues proposed in the case.",
@@ -4416,7 +4435,7 @@
                 "Nanjing University, China",
                 "Nanjing University, China"
             ],
-            "Abstract": "",
+            "Abstract": "Internetware challenges distributed systems in aspects from operating platforms, programming models, to engineering approaches, etc. Cloud computing based on virtualization is now a popular paradigm which can meet the dynamic resource allocation requirements of Internetware. Software entities dispersed on distributed nodes over the Internet, now are evolving into self-contained, autonomous software services. These software entities which are often deployed on virtual machines (VMs), are coordinated dynamically to achieve flexible design objectives. To improve the utilization of infrastructure resource, VMs processing components of a software should be consolidated to fewer physical machines (PMs). However, as the increasing trends of communication-intensive softwares, data traffic among VMs should be considered as well. And for the sake of safety and QoS (Quality of Service), certain VMs (e.g. backup nodes) are mutually-exclusive which means some VMs require to be placed on different PMs. In this paper, we investigate the online software placement problem with the target to minimize the network traffic cost, while taking into account the mutually-exclusiveness of VMs. We provide a formal problem description and its NP-hardness analysis. The proposed algorithm places the VMs that have heavy traffic on the same PM, while isolating the mutually-exclusive VMs simultaneously, which can guarantee high effectiveness and reliability for softwares in Internetware, respectively. The simulations show our algorithm reduces the traffic cost by 29% compared against the existing approaches.",
             "Award": ""
         },
         {
@@ -4445,7 +4464,7 @@
                 "Peking University, China",
                 "Peking University, China"
             ],
-            "Abstract": "",
+            "Abstract": "Fault tolerance (FT) is one of the most important ways to achieve high availability (HA). However, as for cloud, with diverse user requirements, heterogeneous cloud providers, complex FT implementation as well as error-prone configuration, it is a real challenge. To cope with it, we proposed a model defined FT approach which automatically deploys FT mechanisms following a high-level model. With the help of FT model, the existing FT mechanisms will be optimized by reusability. We implemented a prototype of our approach and evaluated it on a popular IaaS cloud - CloudStack.",
             "Award": ""
         },
         {
@@ -4472,7 +4491,7 @@
                 "Tsinghua University, China",
                 "Bath Spa University, UK"
             ],
-            "Abstract": "",
+            "Abstract": "While culture being &quot;software&quot; controlling human mind, computer software development becomes one of the most creative activities that human undertake since the civilisation began. The only limitation in software creation is human imagination, and that limit is often self-imposed. The “Internetware”, referring to a software paradigm, aims to satisfy the need of human kind using Internet as an integrated development and execution platform. Such software systems composed of entities distributed through the Internetwork, allowing connections that would be impossible or difficult to make otherwise [32, 33]. One of the tasks for the Internetware is to accommodate creativity, which is ever demanding currently. In particular, this is about: (1) to better understand human creativity and to formulate an algorithmic perspective on creative behavior in human and (2) to design programs that can enhance human creativity without necessarily being creative themselves. Therefore, it can be summarised that an environment needs to be built under Internetware to best support human-level creativity.",
             "Award": ""
         },
         {
@@ -4520,14 +4539,14 @@
                 "Institute of Software at Chinese Academy of Sciences, China",
                 "Institute of Software at Chinese Academy of Sciences, China"
             ],
-            "Abstract": "",
+            "Abstract": "Due to the increase in web services, non-functional or QoS parameters have been widely addressed. QoS-aware service selection is commonly formulated as an optimization problem aimed at achieving the execution plan that optimize the overall QoS parameter of the composed application while satisfying all the constraints on individual QoS parameters and considering all of the possible execution scenarios. In existing work, execution plans commonly assign one service for each task. For composed applications containing exclusive branches, some tasks may appear in multiple execution scenarios. Unfortunately, since one-fit-all services for these tasks considering every execution scenario are not always available, execution plans have to make compromise. As a result, when some users have strict QoS constraints, feasible execution plans may not exist for the composed application but exist for every execution scenario. This problem becomes more important and challenging for self-adaptive systems, due to the overhead of unwanted runtime adaptations. In this paper, we breaking such one-one mapping between services and tasks. We provide methods to divide all execution scenarios a task involved into exclusive groups (i.e. execution path set partitions) and show that a distinct service can be bound to this task for each group without causing any confusion. In order to find the optimal execution plan, we modify existing MILP based approaches to cooperate with our method. We also evaluate our approach experimentally using real dataset.The results show that it is more flexible, robust to QoS constraints, and can possibly improve the overall QoS associated with the optimal execution plan.",
             "Award": ""
         },
         {
-            "Title": "Automated Recommendation of Dynamic Software Update Points",
+            "Title": "Automated Recommendation of Dynamic Software Update Points: An Exploratory Study",
             "Type": "Full Paper",
             "Key": "internetware14main-mainid23-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DZelin+Zhao%2C+Xiaoxing+Ma%2C+Chang+Xu%2C+and+Wenhua+Yang+%22Automated+Recommendation+of+Dynamic+Software+Update+Points%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DZelin+Zhao%2C+Xiaoxing+Ma%2C+Chang+Xu%2C+and+Wenhua+Yang+%22Automated+Recommendation+of+Dynamic+Software+Update+Points%3A+An+Exploratory+Study%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2677832.2677853",
@@ -4545,7 +4564,7 @@
                 "Nanjing University, China",
                 "Nanjing University, China"
             ],
-            "Abstract": "",
+            "Abstract": "Due to the demand for bugs fixing and feature enhancements, developers inevitably need to update in-use software systems. Instead of shutting down a running system before updating, it is often desirable and sometimes mandatory to patch the running software system on the fly, with a mechanism generally referred as dynamic software updating (DSU). Practical DSU strategies often require manual specification of update points in the program for performing dynamic updates. At these points DSU systems will update the program code, and also migrate the program state to the new version program (using transformation functions). However, finding appropriate update points is non-trivial because the choice of update points has great influence on two competing factors: the timeliness of DSU and the complexity of transformation functions; and to strike a good balance between them requires a deep understanding of both versions of the program. In this exploratory paper, we conceive an automated approach to the recommendation of update points for developers. We conduct a set of preliminary experiments with a real world software update case to examine the feasibility of the approach.",
             "Award": ""
         },
         {
@@ -4564,7 +4583,7 @@
             "Affiliations": [
                 "National University of Defense Technology, China"
             ],
-            "Abstract": "",
+            "Abstract": "Based on the term dropping heuristics and dynamic approach, this paper presents a practical approach to infer loop invariants of programs with polynomial post-conditions, the inferred invariants include both the polynomial equality loop invariants and the polynomial inequality loop invariants. The effectiveness of the approach is demonstrated on examples.",
             "Award": ""
         }
     ],
@@ -4579,15 +4598,15 @@
             "Day": "2014-11-16",
             "Time": "09:00 - 10:30",
             "Location": "Hall 5",
-            "LocationIndex": "7",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "FSEWS14",
+            "Comment": "FSEWS14CSD",
             "URL": "",
-            "Abstract": "Welcome and Icebreaker <br/><br/> Code Hunt: Context-Driven Interactive Gaming for Learning Programming and Software Engineering. Nikolai Tillmann, Jonathan de Halleux, Judith Bishop, Tao Xie, R. Nigel Horspool, Daniel Perelman <br/><br/> Harnessing the Crowd: Decontextualizing Software Work. Thomas D. Latoza, W. Ben Towne and André van der Hoek <br/><br/> A Canvas for Capturing Context of Agile Adoption. Pan-Wei Ng"
+            "Abstract": "Welcome and Icebreaker <br/><br/> Code Hunt: Context-Driven Interactive Gaming for Learning Programming and Software Engineering. Nikolai Tillmann, Jonathan de Halleux, Judith Bishop, Tao Xie, R. Nigel Horspool, Daniel Perelman <br/><br/> Harnessing the Crowd: Decontextualizing Software Work. Thomas D. Latoza, W. Ben Towne and André van der Hoek <br/><br/> A Canvas for Capturing Context of Agile Adoption. Pan-Wei Ng<br/><br/>Context in Code Search. Lee Martie and André van der Hoek<br/><br/>Towards Developer- and Task-Tailored Navigation Models. Katja Kevic and Thomas Fritz<br/><br/>Recommending Task Context: Automation Meets Crowd. Rafael Leano, Bakhtiar Kasi and Anita Sarma"
         },
         {
             "Id": "Oodies2uno",
@@ -4599,7 +4618,7 @@
             "Day": "2014-11-16",
             "Time": "09:20 - 09:30",
             "Location": "Hall 4",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4619,7 +4638,7 @@
             "Day": "2014-11-16",
             "Time": "09:30 - 10:30",
             "Location": "Hall 4",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4642,7 +4661,7 @@
             "Day": "2014-11-16",
             "Time": "09:40 - 10:30",
             "Location": "Hall 6",
-            "LocationIndex": "9",
+            "LocationIndex": "10",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4665,34 +4684,14 @@
             "Key": "2014-11-16 10:30 Morning Break",
             "Day": "2014-11-16",
             "Time": "10:30 - 11:00",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Hall 4 Foyer",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "FSE14",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "ahSie7EeMo",
-            "Title": "Theories of Context (Keynote)",
-            "ShortTitle": "Theories of Context (Keynote)",
-            "Type": "CSD 2014",
-            "ShortType": "CSD 2014",
-            "Key": "2014-11-16 11:00 Theories of Context (Keynote)",
-            "Day": "2014-11-16",
-            "Time": "11:00 - 12:30",
-            "Location": "Hall 5",
-            "LocationIndex": "7",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSEWS14",
+            "Comment": "FSE14ALL",
             "URL": "",
             "Abstract": ""
         },
@@ -4706,7 +4705,7 @@
             "Day": "2014-11-16",
             "Time": "11:00 - 12:30",
             "Location": "Hall 4",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4721,6 +4720,29 @@
             ]
         },
         {
+            "Id": "ahSie7EeMo",
+            "Title": "Theories of Context (Keynote)",
+            "ShortTitle": "Theories of Context (Keynote)",
+            "Type": "CSD 2014",
+            "ShortType": "CSD 2014",
+            "Key": "2014-11-16 11:00 Theories of Context (Keynote)",
+            "Day": "2014-11-16",
+            "Time": "11:00 - 12:30",
+            "Location": "Hall 5",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSEWS14CSD",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "James Herbsleb @ Carnegie Melon University, USA : Theories of Context (Keynote)"
+            ]
+        },
+        {
             "Id": "otei0phohH",
             "Title": "Testing and Verification",
             "ShortTitle": "Testing and Verification",
@@ -4730,7 +4752,7 @@
             "Day": "2014-11-16",
             "Time": "11:00 - 12:35",
             "Location": "Hall 6",
-            "LocationIndex": "9",
+            "LocationIndex": "10",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4755,39 +4777,16 @@
             "Key": "2014-11-16 12:30 Lunch",
             "Day": "2014-11-16",
             "Time": "12:30 - 14:00",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Red House",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "FSE14",
+            "Comment": "FSE14ALL",
             "URL": "",
             "Abstract": ""
-        },
-        {
-            "Id": "ep7ahBuigh",
-            "Title": "Finding Code Artifacts with Context",
-            "ShortTitle": "Finding Code Artifacts with Context",
-            "Type": "CSD 2014",
-            "ShortType": "CSD 2014",
-            "Key": "2014-11-16 14:00 Finding Code Artifacts with Context",
-            "Day": "2014-11-16",
-            "Time": "14:00 - 15:30",
-            "Location": "Hall 5",
-            "LocationIndex": "7",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "FSEWS14",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "James Herbsleb @ Carnegie Melon University, USA : Finding Code Artifacts with Context"
-            ]
         },
         {
             "Id": "pheetat9Ee",
@@ -4799,13 +4798,33 @@
             "Day": "2014-11-16",
             "Time": "14:00 - 15:30",
             "Location": "Hall 4",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSEWS14AOASIA",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "ep7ahBuigh",
+            "Title": "Posters Revisited and Discussion",
+            "ShortTitle": "Posters Revisited and Discussion",
+            "Type": "CSD 2014",
+            "ShortType": "CSD 2014",
+            "Key": "2014-11-16 14:00 Posters Revisited and Discussion",
+            "Day": "2014-11-16",
+            "Time": "14:00 - 15:30",
+            "Location": "Hall 5",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSEWS14CSD",
             "URL": "",
             "Abstract": ""
         },
@@ -4819,7 +4838,7 @@
             "Day": "2014-11-16",
             "Time": "14:00 - 15:30",
             "Location": "Hall 6",
-            "LocationIndex": "9",
+            "LocationIndex": "10",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4844,14 +4863,14 @@
             "Key": "2014-11-16 15:30 Afternoon Break",
             "Day": "2014-11-16",
             "Time": "15:30 - 16:00",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Hall 4 Foyer",
+            "LocationIndex": "2",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "FSE14",
+            "Comment": "FSE14ALL",
             "URL": "",
             "Abstract": ""
         },
@@ -4865,13 +4884,13 @@
             "Day": "2014-11-16",
             "Time": "16:00 - 17:30",
             "Location": "Hall 5",
-            "LocationIndex": "7",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "FSEWS14",
+            "Comment": "FSEWS14CSD",
             "URL": "",
             "Abstract": ""
         },
@@ -4885,7 +4904,7 @@
             "Day": "2014-11-16",
             "Time": "16:00 - 17:30",
             "Location": "Hall 6",
-            "LocationIndex": "9",
+            "LocationIndex": "10",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4911,7 +4930,7 @@
             "Day": "2014-11-17",
             "Time": "09:00 - 09:05",
             "Location": "Hall 4",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4931,7 +4950,7 @@
             "Day": "2014-11-17",
             "Time": "09:00 - 17:30",
             "Location": "Hall 6",
-            "LocationIndex": "9",
+            "LocationIndex": "10",
             "ChairsString": "Huaimin Wang",
             "Chairs": [
                 "Huaimin Wang @"
@@ -4952,7 +4971,7 @@
             "Day": "2014-11-17",
             "Time": "09:00 - 10:00",
             "Location": "Meeting Room 4",
-            "LocationIndex": "5",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4975,7 +4994,7 @@
             "Day": "2014-11-17",
             "Time": "09:00 - 09:15",
             "Location": "Hall 5",
-            "LocationIndex": "7",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -4998,7 +5017,7 @@
             "Day": "2014-11-17",
             "Time": "09:00 - 10:30",
             "Location": "Hall 1",
-            "LocationIndex": "3",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5021,7 +5040,7 @@
             "Day": "2014-11-17",
             "Time": "09:00 - 10:30",
             "Location": "Hall 2",
-            "LocationIndex": "4",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5044,7 +5063,7 @@
             "Day": "2014-11-17",
             "Time": "09:00 - 09:10",
             "Location": "Hall 3",
-            "LocationIndex": "10",
+            "LocationIndex": "12",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5064,7 +5083,7 @@
             "Day": "2014-11-17",
             "Time": "09:00 - 09:10",
             "Location": "Hall 7",
-            "LocationIndex": "11",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5079,15 +5098,15 @@
         },
         {
             "Id": "Aiphie6lie",
-            "Title": "Keynote",
-            "ShortTitle": "Keynote",
+            "Title": "What is the Big Idea behind Big Data? (Keynote)",
+            "ShortTitle": "What is the Big Idea behind Big Data? (Keynote)",
             "Type": "Internetware 2014",
             "ShortType": "Internetware 2014",
-            "Key": "2014-11-17 09:05 Keynote",
+            "Key": "2014-11-17 09:05 What is the Big Idea behind Big Data? (Keynote)",
             "Day": "2014-11-17",
             "Time": "09:05 - 09:50",
             "Location": "Hall 4",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5095,7 +5114,10 @@
             "Workshop": false,
             "Comment": "INTERNETWARE14",
             "URL": "",
-            "Abstract": ""
+            "Abstract": "",
+            "Items": [
+                "Lionel M. Ni @ Hong Kong University of Science and Technology : What is the Big Idea behind Big Data? (Keynote)"
+            ]
         },
         {
             "Id": "gi5aiShoo8",
@@ -5107,7 +5129,7 @@
             "Day": "2014-11-17",
             "Time": "09:10 - 09:50",
             "Location": "Hall 6",
-            "LocationIndex": "9",
+            "LocationIndex": "10",
             "ChairsString": "Gang Yin",
             "Chairs": [
                 "Gang Yin @"
@@ -5131,7 +5153,7 @@
             "Day": "2014-11-17",
             "Time": "09:10 - 10:00",
             "Location": "Hall 3",
-            "LocationIndex": "10",
+            "LocationIndex": "12",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5154,7 +5176,7 @@
             "Day": "2014-11-17",
             "Time": "09:10 - 10:30",
             "Location": "Hall 7",
-            "LocationIndex": "11",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5177,7 +5199,7 @@
             "Day": "2014-11-17",
             "Time": "09:15 - 09:45",
             "Location": "Hall 5",
-            "LocationIndex": "7",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5200,7 +5222,7 @@
             "Day": "2014-11-17",
             "Time": "09:45 - 10:30",
             "Location": "Hall 5",
-            "LocationIndex": "7",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5224,7 +5246,7 @@
             "Day": "2014-11-17",
             "Time": "09:50 - 10:30",
             "Location": "Hall 4",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5249,7 +5271,7 @@
             "Day": "2014-11-17",
             "Time": "09:50 - 11:30",
             "Location": "Hall 6",
-            "LocationIndex": "9",
+            "LocationIndex": "10",
             "ChairsString": "Gang Yin",
             "Chairs": [
                 "Gang Yin @"
@@ -5276,7 +5298,7 @@
             "Day": "2014-11-17",
             "Time": "10:00 - 10:30",
             "Location": "Meeting Room 4",
-            "LocationIndex": "5",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5299,7 +5321,7 @@
             "Day": "2014-11-17",
             "Time": "10:00 - 10:50",
             "Location": "Hall 3",
-            "LocationIndex": "10",
+            "LocationIndex": "12",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5321,14 +5343,14 @@
             "Key": "2014-11-17 10:30 Morning Break",
             "Day": "2014-11-17",
             "Time": "10:30 - 11:00",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Hall 3/4 Foyer",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "FSE14",
+            "Comment": "FSE14ALL",
             "URL": "",
             "Abstract": ""
         },
@@ -5342,7 +5364,7 @@
             "Day": "2014-11-17",
             "Time": "11:00 - 12:30",
             "Location": "Hall 4",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5371,7 +5393,7 @@
             "Day": "2014-11-17",
             "Time": "11:00 - 12:30",
             "Location": "Meeting Room 4",
-            "LocationIndex": "5",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5397,7 +5419,7 @@
             "Day": "2014-11-17",
             "Time": "11:00 - 12:30",
             "Location": "Hall 1",
-            "LocationIndex": "3",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5420,7 +5442,7 @@
             "Day": "2014-11-17",
             "Time": "11:00 - 12:30",
             "Location": "Hall 2",
-            "LocationIndex": "4",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5443,7 +5465,7 @@
             "Day": "2014-11-17",
             "Time": "11:00 - 12:00",
             "Location": "Hall 5",
-            "LocationIndex": "7",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5468,7 +5490,7 @@
             "Day": "2014-11-17",
             "Time": "11:00 - 12:20",
             "Location": "Hall 7",
-            "LocationIndex": "11",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5492,7 +5514,7 @@
             "Day": "2014-11-17",
             "Time": "11:20 - 12:10",
             "Location": "Hall 3",
-            "LocationIndex": "10",
+            "LocationIndex": "12",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5515,7 +5537,7 @@
             "Day": "2014-11-17",
             "Time": "11:30 - 12:30",
             "Location": "Hall 6",
-            "LocationIndex": "9",
+            "LocationIndex": "10",
             "ChairsString": "Wei Wang",
             "Chairs": [
                 "Wei Wang @"
@@ -5541,7 +5563,7 @@
             "Day": "2014-11-17",
             "Time": "12:00 - 12:30",
             "Location": "Hall 5",
-            "LocationIndex": "7",
+            "LocationIndex": "1",
             "ChairsString": "Aharon Abadi",
             "Chairs": [
                 "Aharon Abadi @"
@@ -5565,7 +5587,7 @@
             "Day": "2014-11-17",
             "Time": "12:20 - 12:30",
             "Location": "Hall 7",
-            "LocationIndex": "11",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5584,14 +5606,14 @@
             "Key": "2014-11-17 12:30 Lunch",
             "Day": "2014-11-17",
             "Time": "12:30 - 14:00",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Red House",
+            "LocationIndex": "4",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "FSE14",
+            "Comment": "FSE14ALL",
             "URL": "",
             "Abstract": ""
         },
@@ -5605,7 +5627,7 @@
             "Day": "2014-11-17",
             "Time": "14:00 - 15:30",
             "Location": "Hall 4",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5633,7 +5655,7 @@
             "Day": "2014-11-17",
             "Time": "14:00 - 14:40",
             "Location": "Hall 6",
-            "LocationIndex": "9",
+            "LocationIndex": "10",
             "ChairsString": "Tao Wang",
             "Chairs": [
                 "Tao Wang @"
@@ -5657,7 +5679,7 @@
             "Day": "2014-11-17",
             "Time": "14:00 - 15:30",
             "Location": "Meeting Room 4",
-            "LocationIndex": "5",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5683,7 +5705,7 @@
             "Day": "2014-11-17",
             "Time": "14:00 - 14:50",
             "Location": "Hall 5",
-            "LocationIndex": "7",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5706,7 +5728,7 @@
             "Day": "2014-11-17",
             "Time": "14:00 - 15:30",
             "Location": "Hall 1",
-            "LocationIndex": "3",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5729,7 +5751,7 @@
             "Day": "2014-11-17",
             "Time": "14:00 - 15:30",
             "Location": "Hall 2",
-            "LocationIndex": "4",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5752,7 +5774,7 @@
             "Day": "2014-11-17",
             "Time": "14:00 - 14:50",
             "Location": "Hall 3",
-            "LocationIndex": "10",
+            "LocationIndex": "12",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5775,7 +5797,7 @@
             "Day": "2014-11-17",
             "Time": "14:00 - 15:30",
             "Location": "Hall 7",
-            "LocationIndex": "11",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5800,7 +5822,7 @@
             "Day": "2014-11-17",
             "Time": "14:40 - 16:30",
             "Location": "Hall 6",
-            "LocationIndex": "9",
+            "LocationIndex": "10",
             "ChairsString": "Tao Wang",
             "Chairs": [
                 "Tao Wang @"
@@ -5827,7 +5849,7 @@
             "Day": "2014-11-17",
             "Time": "14:50 - 15:30",
             "Location": "Hall 5",
-            "LocationIndex": "7",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5851,7 +5873,7 @@
             "Day": "2014-11-17",
             "Time": "14:50 - 15:40",
             "Location": "Hall 3",
-            "LocationIndex": "10",
+            "LocationIndex": "12",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5873,14 +5895,14 @@
             "Key": "2014-11-17 15:30 Afternoon Break",
             "Day": "2014-11-17",
             "Time": "15:30 - 16:00",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Hall 3/4 Foyer",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
             "SponsoredBy": "",
             "Workshop": false,
-            "Comment": "FSE14",
+            "Comment": "FSE14ALL",
             "URL": "",
             "Abstract": ""
         },
@@ -5894,7 +5916,7 @@
             "Day": "2014-11-17",
             "Time": "16:00 - 17:20",
             "Location": "Hall 4",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5921,7 +5943,7 @@
             "Day": "2014-11-17",
             "Time": "16:00 - 16:30",
             "Location": "Meeting Room 4",
-            "LocationIndex": "5",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5944,7 +5966,7 @@
             "Day": "2014-11-17",
             "Time": "16:00 - 17:30",
             "Location": "Hall 5",
-            "LocationIndex": "7",
+            "LocationIndex": "1",
             "ChairsString": "Yael Dubinsky and Aharon Abadi",
             "Chairs": [
                 "Yael Dubinsky @",
@@ -5966,7 +5988,7 @@
             "Day": "2014-11-17",
             "Time": "16:00 - 17:30",
             "Location": "Hall 1",
-            "LocationIndex": "3",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5989,7 +6011,7 @@
             "Day": "2014-11-17",
             "Time": "16:00 - 17:30",
             "Location": "Hall 2",
-            "LocationIndex": "4",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6012,7 +6034,7 @@
             "Day": "2014-11-17",
             "Time": "16:00 - 17:00",
             "Location": "Hall 7",
-            "LocationIndex": "11",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6036,7 +6058,7 @@
             "Day": "2014-11-17",
             "Time": "16:10 - 17:10",
             "Location": "Hall 3",
-            "LocationIndex": "10",
+            "LocationIndex": "12",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6059,7 +6081,7 @@
             "Day": "2014-11-17",
             "Time": "16:30 - 17:30",
             "Location": "Meeting Room 4",
-            "LocationIndex": "5",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6082,7 +6104,7 @@
             "Day": "2014-11-17",
             "Time": "17:00 - 17:30",
             "Location": "Hall 7",
-            "LocationIndex": "11",
+            "LocationIndex": "6",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6102,7 +6124,7 @@
             "Day": "2014-11-17",
             "Time": "17:10 - 17:20",
             "Location": "Hall 3",
-            "LocationIndex": "10",
+            "LocationIndex": "12",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6122,7 +6144,7 @@
             "Day": "2014-11-17",
             "Time": "17:20 - 18:00",
             "Location": "Hall 4",
-            "LocationIndex": "8",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6136,13 +6158,13 @@
             "Id": "eec0HuNgai",
             "Title": "Mary Jean Memorial",
             "ShortTitle": "Mary Jean Memorial",
-            "Type": "Social",
-            "ShortType": "Social",
+            "Type": "SEES 2014",
+            "ShortType": "SEES 2014",
             "Key": "2014-11-17 17:30 Mary Jean Memorial",
             "Day": "2014-11-17",
             "Time": "17:30 - 19:30",
             "Location": "Hall 3",
-            "LocationIndex": "10",
+            "LocationIndex": "12",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6154,15 +6176,15 @@
         },
         {
             "Id": "hei7ahChoo",
-            "Title": "SEES dinner",
-            "ShortTitle": "SEES dinner",
+            "Title": "SEES/Internetware dinner",
+            "ShortTitle": "SEES/Internetware dinner",
             "Type": "Social",
             "ShortType": "Social",
-            "Key": "2014-11-17 19:30 SEES dinner",
+            "Key": "2014-11-17 19:30 SEES/Internetware dinner",
             "Day": "2014-11-17",
             "Time": "19:30 - 21:30",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Happiness Cuisine",
+            "LocationIndex": "12",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6182,7 +6204,7 @@
             "Day": "2014-11-18",
             "Time": "09:00 - 09:20",
             "Location": "Auditorium",
-            "LocationIndex": "2",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6205,7 +6227,7 @@
             "Day": "2014-11-18",
             "Time": "09:20 - 10:20",
             "Location": "Auditorium",
-            "LocationIndex": "2",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6228,7 +6250,7 @@
             "Day": "2014-11-18",
             "Time": "10:20 - 10:40",
             "Location": "Pre-function Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6248,9 +6270,10 @@
             "Day": "2014-11-18",
             "Time": "10:40 - 12:20",
             "Location": "Auditorium",
-            "LocationIndex": "2",
-            "ChairsString": "",
+            "LocationIndex": "5",
+            "ChairsString": "Martin Robillard",
             "Chairs": [
+                "Martin Robillard @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6274,9 +6297,10 @@
             "Day": "2014-11-18",
             "Time": "10:40 - 12:20",
             "Location": "Hall 4-7",
-            "LocationIndex": "6",
-            "ChairsString": "",
+            "LocationIndex": "7",
+            "ChairsString": "Satish Chandra",
             "Chairs": [
+                "Satish Chandra @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6299,7 +6323,7 @@
             "Key": "2014-11-18 12:20 Lunch",
             "Day": "2014-11-18",
             "Time": "12:20 - 13:30",
-            "Location": "",
+            "Location": "Happiness Cuisine",
             "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
@@ -6320,9 +6344,10 @@
             "Day": "2014-11-18",
             "Time": "13:30 - 15:10",
             "Location": "Auditorium",
-            "LocationIndex": "2",
-            "ChairsString": "",
+            "LocationIndex": "5",
+            "ChairsString": "Jianjun Zhao",
             "Chairs": [
+                "Jianjun Zhao @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6346,9 +6371,10 @@
             "Day": "2014-11-18",
             "Time": "13:30 - 15:10",
             "Location": "Hall 4-7",
-            "LocationIndex": "6",
-            "ChairsString": "",
+            "LocationIndex": "7",
+            "ChairsString": "Thomas Zimmermann",
             "Chairs": [
+                "Thomas Zimmermann @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6372,7 +6398,7 @@
             "Day": "2014-11-18",
             "Time": "15:10 - 15:30",
             "Location": "Pre-function Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6392,9 +6418,10 @@
             "Day": "2014-11-18",
             "Time": "15:30 - 17:10",
             "Location": "Auditorium",
-            "LocationIndex": "2",
-            "ChairsString": "",
+            "LocationIndex": "5",
+            "ChairsString": "Tevfik Bultan",
             "Chairs": [
+                "Tevfik Bultan @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6418,9 +6445,10 @@
             "Day": "2014-11-18",
             "Time": "15:30 - 17:10",
             "Location": "Hall 4-7",
-            "LocationIndex": "6",
-            "ChairsString": "",
+            "LocationIndex": "7",
+            "ChairsString": "Willem Visser",
             "Chairs": [
+                "Willem Visser @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6443,7 +6471,7 @@
             "Day": "2014-11-18",
             "Time": "17:15 - 18:00",
             "Location": "Auditorium",
-            "LocationIndex": "2",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6480,7 +6508,7 @@
             "Day": "2014-11-18",
             "Time": "18:00 - 20:30",
             "Location": "Pre-function Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6508,7 +6536,7 @@
             "Day": "2014-11-18",
             "Time": "18:00 - 20:30",
             "Location": "Pre-function Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6528,7 +6556,7 @@
             "Day": "2014-11-19",
             "Time": "09:00 - 10:20",
             "Location": "Auditorium",
-            "LocationIndex": "2",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6551,7 +6579,7 @@
             "Day": "2014-11-19",
             "Time": "10:20 - 10:40",
             "Location": "Pre-function Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6571,9 +6599,10 @@
             "Day": "2014-11-19",
             "Time": "10:40 - 12:20",
             "Location": "Auditorium",
-            "LocationIndex": "2",
-            "ChairsString": "",
+            "LocationIndex": "5",
+            "ChairsString": "Nenad Medvidovic",
             "Chairs": [
+                "Nenad Medvidovic @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6597,9 +6626,10 @@
             "Day": "2014-11-19",
             "Time": "10:40 - 12:20",
             "Location": "Hall 4-7",
-            "LocationIndex": "6",
-            "ChairsString": "",
+            "LocationIndex": "7",
+            "ChairsString": "W.K. Chan",
             "Chairs": [
+                "W.K. Chan @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6622,7 +6652,7 @@
             "Key": "2014-11-19 12:20 Lunch",
             "Day": "2014-11-19",
             "Time": "12:20 - 13:30",
-            "Location": "",
+            "Location": "Happiness Cuisine",
             "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
@@ -6643,9 +6673,10 @@
             "Day": "2014-11-19",
             "Time": "13:30 - 15:10",
             "Location": "Auditorium",
-            "LocationIndex": "2",
-            "ChairsString": "",
+            "LocationIndex": "5",
+            "ChairsString": "Sebastian Uchitel",
             "Chairs": [
+                "Sebastian Uchitel @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6669,9 +6700,10 @@
             "Day": "2014-11-19",
             "Time": "13:30 - 15:10",
             "Location": "Hall 4-7",
-            "LocationIndex": "6",
-            "ChairsString": "",
+            "LocationIndex": "7",
+            "ChairsString": "Charles Zhang",
             "Chairs": [
+                "Charles Zhang @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6695,7 +6727,7 @@
             "Day": "2014-11-19",
             "Time": "15:10 - 15:30",
             "Location": "Pre-function Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6715,9 +6747,10 @@
             "Day": "2014-11-19",
             "Time": "15:30 - 16:45",
             "Location": "Auditorium",
-            "LocationIndex": "2",
-            "ChairsString": "",
+            "LocationIndex": "5",
+            "ChairsString": "Jane Cleland-Huang",
             "Chairs": [
+                "Jane Cleland-Huang @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6740,9 +6773,10 @@
             "Day": "2014-11-19",
             "Time": "15:30 - 16:45",
             "Location": "Hall 4-7",
-            "LocationIndex": "6",
-            "ChairsString": "",
+            "LocationIndex": "7",
+            "ChairsString": "Luciano Baresi",
             "Chairs": [
+                "Luciano Baresi @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6765,7 +6799,7 @@
             "Day": "2014-11-19",
             "Time": "16:45 - 17:30",
             "Location": "Auditorium",
-            "LocationIndex": "2",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6785,7 +6819,7 @@
             "Day": "2014-11-19",
             "Time": "17:30 - 18:30",
             "Location": "Pre-function Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6804,8 +6838,8 @@
             "Key": "2014-11-19 19:30 Banquet",
             "Day": "2014-11-19",
             "Time": "19:30 - 22:00",
-            "Location": "",
-            "LocationIndex": "0",
+            "Location": "Laguna Palace Restaurant",
+            "LocationIndex": "1",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6825,7 +6859,7 @@
             "Day": "2014-11-20",
             "Time": "09:00 - 10:20",
             "Location": "Auditorium",
-            "LocationIndex": "2",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6833,7 +6867,7 @@
             "Workshop": false,
             "Comment": "FSE14VC",
             "URL": "",
-            "Abstract": "10+1 min per paper",
+            "Abstract": "",
             "Items": [
                 "fse14vc-vcid21-p",
                 "fse14vc-vcid10-p",
@@ -6854,7 +6888,7 @@
             "Day": "2014-11-20",
             "Time": "10:20 - 10:40",
             "Location": "Pre-function Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6874,9 +6908,10 @@
             "Day": "2014-11-20",
             "Time": "10:40 - 12:20",
             "Location": "Auditorium",
-            "LocationIndex": "2",
-            "ChairsString": "",
+            "LocationIndex": "5",
+            "ChairsString": "James Herbsleb",
             "Chairs": [
+                "James Herbsleb @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6900,9 +6935,10 @@
             "Day": "2014-11-20",
             "Time": "10:40 - 12:20",
             "Location": "Hall 4-7",
-            "LocationIndex": "6",
-            "ChairsString": "",
+            "LocationIndex": "7",
+            "ChairsString": "Antonio Carzaniga",
             "Chairs": [
+                "Antonio Carzaniga @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6925,7 +6961,7 @@
             "Key": "2014-11-20 12:20 Lunch",
             "Day": "2014-11-20",
             "Time": "12:20 - 13:30",
-            "Location": "",
+            "Location": "Happiness Cuisine",
             "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
@@ -6946,9 +6982,10 @@
             "Day": "2014-11-20",
             "Time": "13:30 - 15:10",
             "Location": "Auditorium",
-            "LocationIndex": "2",
-            "ChairsString": "",
+            "LocationIndex": "5",
+            "ChairsString": "Prem Devanbu",
             "Chairs": [
+                "Prem Devanbu @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6972,9 +7009,10 @@
             "Day": "2014-11-20",
             "Time": "13:30 - 15:10",
             "Location": "Hall 4-7",
-            "LocationIndex": "6",
-            "ChairsString": "",
+            "LocationIndex": "7",
+            "ChairsString": "Massimiliano Di Penta",
             "Chairs": [
+                "Massimiliano Di Penta @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6998,7 +7036,7 @@
             "Day": "2014-11-20",
             "Time": "15:10 - 15:30",
             "Location": "Pre-function Hall",
-            "LocationIndex": "1",
+            "LocationIndex": "9",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -7018,7 +7056,7 @@
             "Day": "2014-11-20",
             "Time": "15:30 - 17:00",
             "Location": "Auditorium",
-            "LocationIndex": "2",
+            "LocationIndex": "5",
             "ChairsString": "Wolfgang Emmerich",
             "Chairs": [
                 "Wolfgang Emmerich @"
@@ -7027,7 +7065,7 @@
             "Workshop": false,
             "Comment": "FSE14INDUSTRY",
             "URL": "",
-            "Abstract": "30 min each talk",
+            "Abstract": "",
             "Items": [
                 "fse14industry-industryid1-p",
                 "fse14industry-industryid3-p",
@@ -7044,7 +7082,7 @@
             "Day": "2014-11-20",
             "Time": "17:00 - 17:15",
             "Location": "Auditorium",
-            "LocationIndex": "2",
+            "LocationIndex": "5",
             "ChairsString": "Will Tracz",
             "Chairs": [
                 "Will Tracz @"
@@ -7065,7 +7103,7 @@
             "Day": "2014-11-20",
             "Time": "17:15 - 17:45",
             "Location": "Auditorium",
-            "LocationIndex": "2",
+            "LocationIndex": "5",
             "ChairsString": "Will Tracz",
             "Chairs": [
                 "Will Tracz @"
@@ -7089,7 +7127,7 @@
             "Day": "2014-11-20",
             "Time": "17:45 - 18:00",
             "Location": "Auditorium",
-            "LocationIndex": "2",
+            "LocationIndex": "5",
             "ChairsString": "Shing-Chi Cheung",
             "Chairs": [
                 "Shing-Chi Cheung @"
@@ -7316,6 +7354,17 @@
             "Affiliation": "National University of Singapore, Singapore",
             "Key": "Abhijeet Banerjee @ National University of Singapore, Singapore",
             "Id": "23eb4a336e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Luciano Baresi",
+            "Affiliation": "",
+            "Key": "Luciano Baresi @",
+            "Id": "c0e7e9e6c8",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -7566,6 +7615,17 @@
         },
         {
             "Name": "Tevfik Bultan",
+            "Affiliation": "",
+            "Key": "Tevfik Bultan @",
+            "Id": "15c6352026",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tevfik Bultan",
             "Affiliation": "UCSB",
             "Key": "Tevfik Bultan @ UCSB",
             "Id": "8fd7819c0f",
@@ -7642,10 +7702,43 @@
             "URLgs": ""
         },
         {
+            "Name": "Antonio Carzaniga",
+            "Affiliation": "",
+            "Key": "Antonio Carzaniga @",
+            "Id": "a718898fc7",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "W. K. Chan",
             "Affiliation": "City University of Hong Kong, China",
             "Key": "W. K. Chan @ City University of Hong Kong, China",
             "Id": "8d54d5477c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "W.K. Chan",
+            "Affiliation": "",
+            "Key": "W.K. Chan @",
+            "Id": "12de7ac8d6",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Satish Chandra",
+            "Affiliation": "",
+            "Key": "Satish Chandra @",
+            "Id": "9f8bcf1987",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -7808,6 +7901,17 @@
         },
         {
             "Name": "Jane Cleland-Huang",
+            "Affiliation": "",
+            "Key": "Jane Cleland-Huang @",
+            "Id": "0bb19ef9ba",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jane Cleland-Huang",
             "Affiliation": "DePaul University, USA",
             "Key": "Jane Cleland-Huang @ DePaul University, USA",
             "Id": "64f5ba02ff",
@@ -7917,6 +8021,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Prem Devanbu",
+            "Affiliation": "",
+            "Key": "Prem Devanbu @",
+            "Id": "866b50b0f2",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Premkumar Devanbu",
             "Affiliation": "University of California at Davis, USA",
             "Key": "Premkumar Devanbu @ University of California at Davis, USA",
@@ -8009,6 +8124,17 @@
             "Affiliation": "University of Illinois at Urbana-Champaign, USA",
             "Key": "Peter Dinges @ University of Illinois at Urbana-Champaign, USA",
             "Id": "968bd68ebe",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Massimiliano Di Penta",
+            "Affiliation": "",
+            "Key": "Massimiliano Di Penta @",
+            "Id": "c5d616b2c3",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -8680,6 +8806,17 @@
             "Affiliation": "Fraunhofer IPT, Germany",
             "Key": "Christian Heinzemann @ Fraunhofer IPT, Germany",
             "Id": "0da744ab8d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "James Herbsleb",
+            "Affiliation": "",
+            "Key": "James Herbsleb @",
+            "Id": "0eb2c11600",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -9689,9 +9826,9 @@
         },
         {
             "Name": "Jiwei Liu",
-            "Affiliation": "Hunan University, China",
-            "Key": "Jiwei Liu @ Hunan University, China",
-            "Id": "8cbcfb355f",
+            "Affiliation": "National University of Defense Technology, China",
+            "Key": "Jiwei Liu @ National University of Defense Technology, China",
+            "Id": "f6ea011761",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10107,6 +10244,17 @@
         },
         {
             "Name": "Nenad Medvidovic",
+            "Affiliation": "",
+            "Key": "Nenad Medvidovic @",
+            "Id": "caf857691d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nenad Medvidovic",
             "Affiliation": "University of Southern California, USA",
             "Key": "Nenad Medvidovic @ University of Southern California, USA",
             "Id": "94bf22b69a",
@@ -10429,6 +10577,17 @@
             "Affiliation": "Singapore University of Technology and Design, Singapore",
             "Key": "Truong Khanh Nguyen @ Singapore University of Technology and Design, Singapore",
             "Id": "853e95917c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lionel M. Ni",
+            "Affiliation": "Hong Kong University of Science and Technology",
+            "Key": "Lionel M. Ni @ Hong Kong University of Science and Technology",
+            "Id": "1153a84802",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -10913,6 +11072,17 @@
             "Affiliation": "University of Wisconsin-Madison, USA / GrammaTech, USA",
             "Key": "Thomas Reps @ University of Wisconsin-Madison, USA / GrammaTech, USA",
             "Id": "f21dec6b43",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Martin Robillard",
+            "Affiliation": "",
+            "Key": "Martin Robillard @",
+            "Id": "6d15ccceb5",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -11690,6 +11860,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Sebastian Uchitel",
+            "Affiliation": "",
+            "Key": "Sebastian Uchitel @",
+            "Id": "69c31d2f8a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Tsuyoshi Ushio",
             "Affiliation": "SimpleArchitect, Japan",
             "Key": "Tsuyoshi Ushio @ SimpleArchitect, Japan",
@@ -11716,6 +11897,17 @@
             "Affiliation": "Universidad Católica de Santiago del Estero, Argentina",
             "Key": "Gustavo Villavicencio @ Universidad Católica de Santiago del Estero, Argentina",
             "Id": "04ab5a6f32",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Willem Visser",
+            "Affiliation": "",
+            "Key": "Willem Visser @",
+            "Id": "4111046a99",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -12461,6 +12653,17 @@
         },
         {
             "Name": "Charles Zhang",
+            "Affiliation": "",
+            "Key": "Charles Zhang @",
+            "Id": "2420673322",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Charles Zhang",
             "Affiliation": "Hong Kong University of Science and Technology, China",
             "Key": "Charles Zhang @ Hong Kong University of Science and Technology, China",
             "Id": "34d2a93676",
@@ -12714,6 +12917,17 @@
         },
         {
             "Name": "Jianjun Zhao",
+            "Affiliation": "",
+            "Key": "Jianjun Zhao @",
+            "Id": "44ac6d8f4f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jianjun Zhao",
             "Affiliation": "Shanghai Jiao Tong University, China",
             "Key": "Jianjun Zhao @ Shanghai Jiao Tong University, China",
             "Id": "abde219b1d",
@@ -12871,6 +13085,17 @@
             "Affiliation": "Peking University, China",
             "Key": "Xiwei Zhuang @ Peking University, China",
             "Id": "1270e4e411",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Thomas Zimmermann",
+            "Affiliation": "",
+            "Key": "Thomas Zimmermann @",
+            "Id": "717738373e",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
