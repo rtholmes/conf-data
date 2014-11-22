@@ -1,0 +1,748 @@
+{
+	"DataRevision": 1,
+		"Event": "Tiny ToCS Volume 2",
+		"URL": "http://tinytocs.org/vol2/",
+		"Description": "Tiny ToCS is a forum for high-quality scholarly discourse that challenges researchers to engage with their work in new capacities. Not only does the restricted format require a concise distillation of scholarly results, but the short format will be more accessible to the Computer Science community at large. Tiny ToCS favors accessible, carefully crafted, creative research, and invites submissions both about novel ideas as well as summaries or distillations of existing work.",
+		"Items": [
+		{
+			"Title": "Is Ordering of Disk Updates Required to Maintain File-System Crash-Consistency?",
+			"Key": "1-1",
+			"PersonsString": "Vijay Chidambaram",
+			"AffiliationsString": "University of Wisconsin - Madison",
+			"Authors": [
+				"Vijay Chidambaram"
+				],
+			"Affiliations": [
+				"University of Wisconsin - Madison"
+				],
+			"Body": "Not only is it possible to maintain file-system crash-consistency without ordering updates, but doing so may actually increase performance.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-chidambaram.pdf"
+		},
+		{
+			"Title": "Smart Thread Scheduling is the Key for OLTP",
+			"Key": "1-2",
+			"PersonsString": "Pinar Tözün and Ippokratis Pandis",
+			"AffiliationsString": "EPFL, IBM Almaden Research Center",
+			"Authors": [
+				"Pinar Tözün",
+			"Ippokratis Pandis"
+				],
+			"Affiliations": [
+				"EPFL",
+			"IBM Almaden Research Center"
+				],
+			"Body": "Instructions need capacity: Use multiple L1-I. Data misses are compulsory: Share within a socket. Thread scheduling is the key for OLTP.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-tozun.pdf"
+		},
+
+		{
+			"Title": "C/C++ Causal Cycles Confound Compositionality",
+			"Key": "1-3",
+			"PersonsString": "Mike Dodds, Mark Batty and Alexey Gotsman",
+			"AffiliationsString": "University of York, University of Cambridge and IMDEA Software Institute",
+			"Authors": [
+				"Mike Dodds",
+			"Mark Batty",
+			"Alexey Gotsman"
+				],
+			"Affiliations": [
+				"University of York",
+			"University of Cambridge",
+			"IMDEA Software Institute"
+				],
+			"Body": "C/C++ permit seemingly-impossible cycles in causality. This breaks compositionality: two apparently safe programs may fault when composed.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-dodds.pdf"
+		},
+
+		{
+			"Title": "Clustering reveals ubiquitous heterogeneity and asymmetry of genomic signals at functional elements",
+			"Key": "2-1",
+			"PersonsString": "Anshul Kundaje, Sofia Kyriazopoulou-Panagiotopoulou, Max W. Libbrecht, Cheryl L. Smith, Debasish Raha, Elliott E. Winters, Steven M. Johnson, Michael Snyder, Serafim Batzoglou and Arend Sidow",
+			"AffiliationsString": "Stanford, Yale and Brigham Young",
+			"Authors": [
+				"Anshul Kundaje",
+			"Sofia Kyriazopoulou-Panagiotopoulou",
+			"Max W. Libbrecht",
+			"Cheryl L. Smith",
+			"Debasish Raha",
+			"Elliott E. Winters",
+			"Steven M. Johnson",
+			"Michael Snyder",
+			"Serafim Batzoglou",
+			"Arend Sidow"
+				],
+			"Affiliations": [
+				"Stanford",
+			"Stanford",
+			"Stanford",
+			"Stanford",
+			"Yale",
+			"Brigham Young",
+			"Brigham Young",
+			"Stanford",
+			"Stanford",
+			"Stanford"
+				],
+			"Body": "Aggregation plots cannot represent asymmetrical signals around sets of unoriented sites. Clustering is necessary for such analysis.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-kundaje.pdf"
+		},
+
+		{
+			"Title": "First-order theorem proving in the exploration of Andrews-Curtis conjecture",
+			"Key": "2-2",
+			"PersonsString": "Alexei Lisitsa",
+			"AffiliationsString": "University of Liverpool",
+			"Authors": [
+				"Alexei Lisitsa"
+				],
+			"Affiliations": [
+				"University of Liverpool"
+				],
+			"Body": "Potential counterexamples to Andrews-Courtis conjecture can be refuted efficiently by automated theorem proving.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-lisitsa.pdf"
+		},
+
+		{
+			"Title": "Towards Provable Remote Data Deletion Through Quantum Entanglement",
+			"Key": "2-3",
+			"PersonsString": "Jon Crowcroft and Gerard Briscoe",
+			"AffiliationsString": "University of Cambridge and Queen Mary University London",
+			"Authors": [
+				"Jon Crowcroft",
+			"Gerard Briscoe"
+				],
+			"Affiliations": [
+				"University of Cambridge",
+			"Queen Mary University London"
+				],
+			"Body": "If we connect two qubits via quantum entanglement, the fate of one can be controlled by the other so shared secrets can be deleted remotely.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-crowcroft.pdf"
+		},
+
+		{
+			"Title": "Predicting Recommender System Performance from an Information Retrieval Perspective",
+			"Key": "3-1",
+			"PersonsString": "Alejandrio Bellogín, Pablo Castells and Iván Cantador",
+			"AffiliationsString": "Universidad Autonoma de Madrid",
+			"Authors": [
+				"Alejandrio Bellogín",
+			"Pablo Castells",
+			"Iván Cantador"
+				],
+			"Affiliations": [
+				"Universidad Autonoma de Madrid",
+			"Universidad Autonoma de Madrid",
+			"Universidad Autonoma de Madrid"
+				],
+			"Body": "We develop new recommendation effectiveness prediction methods based on query clarity. Recommendation performance is, in fact, predictable.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-bellogin.pdf"
+		},
+
+		{
+			"Title": "Experienced old eyes can look young in HCI research",
+			"Key": "3-2",
+			"PersonsString": "Robin L. Hill, Anna Dickinson and John L. Arnott",
+			"AffiliationsString": "University of Edinburgh and University of Dundee",
+			"Authors": [
+				"Robin L. Hill",
+			"Anna Dickinson",
+			"John L. Arnott"
+				],
+			"Affiliations": [
+				"University of Edinburgh",
+			"University of Dundee",
+			"University of Dundee"
+				],
+			"Body": "When experience is controlled for, older adults' eye movements resemble younger adults. Age alone is less important than previously assumed.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-hill.pdf"
+		},
+
+		{
+			"Title": "Punctuation has a point, so use it!",
+			"Key": "3-3",
+			"PersonsString": "Robin L. Hill and Wayne S. Murray",
+			"AffiliationsString": "University of Edinburgh and University of Dundee",
+			"Authors": [
+				"Robin L. Hill",
+			"Wayne S. Murray"
+				],
+			"Affiliations": [
+				"University of Edinburgh",
+			"University of Dundee"
+				],
+			"Body": "Too many TTS and ASR systems ignore punctuation. Mistake! Little things can make a difference for the better.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-hill2.pdf"
+		},
+
+		{
+			"Title": "A Restriction-Centered Theory of Reasoning and Computation to materialize a Web 3.0",
+			"Key": "3-4",
+			"PersonsString": "Edy Portmann",
+			"AffiliationsString": "University of California Berkeley",
+			"Authors": [
+				"Edy Portmann"
+				],
+			"Affiliations": [
+				"University of California Berkeley"
+				],
+			"Body": "Mimicking human thinking, the RRC theory allows building reasoners, which can deal with fuzzy reality. Such reasoners may enable a Web 3.0.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-portmann.pdf"
+		},
+
+		{
+			"Title": "HW Databases, Where art Thou?",
+			"Key": "3-5",
+			"PersonsString": "Sangjin Han, Aurojit Panda and Sylvia Ratnasamy",
+			"AffiliationsString": "University of California Berkeley",
+			"Authors": [
+				"Sangjin Han",
+			"Aurojit Panda",
+			"Sylvia Ratnasamy"
+				],
+			"Affiliations": [
+				"University of California Berkeley",
+			"University of California Berkeley",
+			"University of California Berkeley"
+				],
+			"Body": "We need an open HW specification database that is comprehensive, extensible, maintainable, and accessible by both humans and machines.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-han.pdf"
+		},
+
+		{
+			"Title": "See straight through data center bandwidth limitations with X-Rays",
+			"Key": "4-1",
+			"PersonsString": "George Porter",
+			"AffiliationsString": "University of California San Diego",
+			"Authors": [
+				"George Porter"
+				],
+			"Affiliations": [
+				"University of California San Diego"
+				],
+			"Body": "Reconfigurable wireless X-Ray links in data centers could deliver 40 Pb/sec, but would have to be turned off while operators are present.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-porter.pdf"
+		},
+
+		{
+			"Title": "Using MOOCs as a global testbed for network measurement",
+			"Key": "4-2",
+			"PersonsString": "Ravi Bhoraskar",
+			"AffiliationsString": "University of Washington",
+			"Authors": [
+				"Ravi Bhoraskar"
+				],
+			"Affiliations": [
+				"University of Washington"
+				],
+			"Body": "Researchers gain insights on global scale internet by using #MOOC students as vantage points. Students learn from the assignments. Win win.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-bhoraskar.pdf"
+		},
+
+		{
+			"Title": "Detecting DNS Censorship without an internal vantage point",
+			"Key": "4-3",
+			"PersonsString": "Will Scott, Sujit Packiaraj and Arvind Krishnamurthy",
+			"AffiliationsString": "University of Washington",
+			"Authors": [
+				"Will Scott",
+			"Sujit Packiaraj",
+			"Arvind Krishnamurthy"
+				],
+			"Affiliations": [
+				"University of Washington",
+			"University of Washington",
+			"University of Washington"
+				],
+			"Body": "DNS censorship can be detected through anomalies when querying public DNS servers. At least 13 countries block otherwise available sites.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-scott.pdf"
+		},
+
+		{
+			"Title": "Securing Two-factor Authentication for Smartphones in a Usable Way by Adding a Connected Token",
+			"Key": "5-1",
+			"PersonsString": "Matthias Lange",
+			"AffiliationsString": "Technische Universität Berlin",
+			"Authors": [
+				"Matthias Lange"
+				],
+			"Affiliations": [
+				"Technische Universität Berlin"
+				],
+			"Body": "Two-factor authentication for smartphones is easy to break and can be secured by using a smart watch which acts as a connected token.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-lange.pdf"
+		},
+
+		{
+			"Title": "Don't show your hand: on the security leakages of *BFT systems",
+			"Key": "5-2",
+			"PersonsString": "Antonio Davoli",
+			"AffiliationsString": "Sapienza University of Rome",
+			"Authors": [
+				"Antonio Davoli"
+				],
+			"Affiliations": [
+				"Sapienza University of Rome"
+				],
+			"Body": "The reply messages of the *BFT distributed systems expose the status of your servers and turn you into a target for malicious attackers.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-chidambaram.pdf"
+		},
+
+		{
+			"Title": "How soon can you decide whether Alice is permitted to communicate or share resources with Bob?",
+			"Key": "5-3",
+			"PersonsString": "Bernard Butler and Brendan Jennings",
+			"AffiliationsString": "Waterford Institute of Technology",
+			"Authors": [
+				"Bernard Butler",
+			"Brendan Jennings"
+				],
+			"Affiliations": [
+				"Waterford Institute of Technology",
+			"Waterford Institute of Technology"
+				],
+			"Body": "Guaranteeing access control policy evaluation performance is hard. Results from scalable web systems and semantic analysis show promise.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-butler.pdf"
+		},
+
+		{
+			"Title": "Android Apps: What are they doing with your precious Internet?",
+			"Key": "5-4",
+			"PersonsString": "Amy Tang, Ashwin Rao, Justine Sherry and Dave Choffnes",
+			"AffiliationsString": "University of California Berkeley, INRIA and University of Washington",
+			"Authors": [
+				"Amy Tang",
+			"Ashwin Rao",
+			"Justine Sherry",
+			"Dave Choffnes"
+				],
+			"Affiliations": [
+				"University of California Berkeley",
+			"INRIA",
+			"University of California Berkeley",
+			"University of Washington"
+				],
+			"Body": "The majority of Android apps are not malicious, but use internet access in ways that are not compatible with the user's interests.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-tang.pdf"
+		},
+
+		{
+			"Title": "Recency is good: expanding with fresh news improves event detection in Twitter",
+			"Key": "6-1",
+			"PersonsString": "Saša Petrović, Miles Osborne and Victor Lavrenko",
+			"AffiliationsString": "University of Edinburgh",
+			"Authors": [
+				"Saša Petrović",
+			"Miles Osborne",
+			"Victor Lavrenko"
+				],
+			"Affiliations": [
+				"University of Edinburgh",
+			"University of Edinburgh",
+			"University of Edinburgh"
+				],
+			"Body": "Expanding tweets with fresh and with stale newswire improves event detection by 21% and 17% respectively, compared to not using expansion.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-petrovic.pdf"
+		},
+
+		{
+			"Title": "Men at work: the StackOverflow case",
+			"Key": "6-2",
+			"PersonsString": "Bogdan Vasilescu, Andrea Capiluppi and Alexander Serebrenik",
+			"AffiliationsString": "Eindhoven University of Technology and Brunel University",
+			"Authors": [
+				"Bogdan Vasilescu",
+			"Andrea Capiluppi",
+			"Alexander Serebrenik"
+				],
+			"Affiliations": [
+				"Eindhoven University of Technology",
+			"Brunel University",
+			"Eindhoven University of Technology"
+				],
+			"Body": "StackOverflow users presenting themselves as women participate less and earn less reputation than those presenting themselves as men.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-vasilescu.pdf"
+		},
+
+		{
+			"Title": "Exploiting User Behaviors from Today's Online Social Networks to Build Distributed Alternatives",
+			"Key": "6-3",
+			"PersonsString": "Rammohan Narendula",
+			"AffiliationsString": "EPFL",
+			"Authors": [
+				"Rammohan Narendula"
+				],
+			"Affiliations": [
+				"EPFL"
+				],
+			"Body": "Can we make decentralized online social networks highly available by mining online trends of users on today's OSNs?",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-narendula.pdf"
+		},
+
+		{
+			"Title": "The Case of Coopetition: Facebook and Decentralized Alternatives",
+			"Key": "6-4",
+			"PersonsString": "Rammohan Narendula",
+			"AffiliationsString": "EPFL",
+			"Authors": [
+				"Rammohan Narendula"
+				],
+			"Affiliations": [
+				"EPFL"
+				],
+			"Body": "A new way of social networking: decentralized alternatives can plug into Facebook as 3rd party apps to overcome the network effect.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-narendula2.pdf"
+		},
+
+		{
+			"Title": "The next step in software metrics research",
+			"Key": "7-1",
+			"PersonsString": "Eric Bouwers",
+			"AffiliationsString": "Software Improvement Group",
+			"Authors": [
+				"Eric Bouwers"
+				],
+			"Affiliations": [
+				"Software Improvement Group"
+				],
+			"Body": "To enable the effective application of software metrics, a pattern catalog based on real-world usage scenarios must be developed.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-bouwers.pdf"
+		},
+
+		{
+			"Title": "Adaptation is a Game",
+			"Key": "7-2",
+			"PersonsString": "Roberto Bruni, Andrea Corradini, Fabio Gadducci, Alberto Lluch Lafuente and Andrea Vandin",
+			"AffiliationsString": "Universita di Pisa and IMT Institute for Advanced Studies Lucca",
+			"Authors": [
+				"Roberto Bruni",
+			"Andrea Corradini",
+			"Fabio Gadducci",
+			"Alberto Lluch Lafuente",
+			"Andrea Vandin"
+				],
+			"Affiliations": [
+				"Universita di Pisa",
+			"Universita di Pisa",
+			"Universita di Pisa",
+			"IMT Institute for Advanced Studies Lucca",
+			"IMT Institute for Advanced Studies Lucca"
+				],
+			"Body": "Control data variants of game models such as Interface Automata are suitable for the design and analysis of self-adaptive systems.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-bruni.pdf"
+		},
+
+		{
+			"Title": "Applying existing software metrics to development release cycles",
+			"Key": "7-3",
+			"PersonsString": "Jos Kraaijeveld",
+			"AffiliationsString": "Delft University of Technology",
+			"Authors": [
+				"Jos Kraaijeveld"
+				],
+			"Affiliations": [
+				"Delft University of Technology"
+				],
+			"Body": "We think product metrics can help us understand release cycles. This understanding can in turn improve the software development process.",
+			"URL": "http://tinytocs.org/vol2/papers/tinytocs2-kraaijeveld.pdf"
+		}
+	],
+		"Sessions": [
+		{
+			"Title": "Concurrency and Consistency",
+			"Key": "session-1",
+			"Items": [
+				"1-1",
+			"1-2",
+			"1-3"
+				]
+		},
+		{
+			"Title": "Genomes, Theory, and Quantum Computing",
+			"Key": "session-2",
+			"Items": [
+				"2-1",
+			"2-2",
+			"2-3"
+				]
+		},
+		{
+			"Title": "Information, Data, Language, and HCI",
+			"Key": "session-3",
+			"Items": [
+				"3-1",
+			"3-2",
+			"3-3",
+			"3-4",
+			"3-5"
+				]
+		},
+		{
+			"Title": "Networking",
+			"Key": "session-4",
+			"Items": [
+				"4-1",
+			"4-2",
+			"4-3"
+				]
+		},
+		{
+			"Title": "Security and Privacy",
+			"Key": "session-5",
+			"Items": [
+				"5-1",
+			"5-2",
+			"5-3",
+			"5-4"
+				]
+		},
+		{
+			"Title": "Social Networks",
+			"Key": "session-6",
+			"Items": [
+				"6-1",
+			"6-2",
+			"6-3",
+			"6-4"
+				]
+		},
+		{
+			"Title": "Software Engineering",
+			"Key": "session-7",
+			"Items": [
+				"7-1",
+			"7-2",
+			"7-3"
+				]
+		}
+	],
+		"People": [
+		{
+			"Name": 	  "Vijay Chidambaram",
+			"Affiliation": 	  "University of Wisconsin - Madison"
+		},
+		{
+			"Name": 	  "Pinar Tözün",
+			"Affiliation": 	  "EPFL"
+		},
+		{
+			"Name": 	  "Ippokratis Pandis",
+			"Affiliation": 	  "IBM Almaden Research Center"
+		},
+		{
+			"Name": 	  "Mark Batty",
+			"Affiliation": 	  "University of York"
+		},
+		{
+			"Name": 	  "Mike Dodds",
+			"Affiliation": 	  "University of Cambridge"
+		},
+		{
+			"Name": 	  "Alexey Gotsman",
+			"Affiliation": 	  "IMDEA Software Institute"
+		},
+		{
+			"Name": 	  "Anshul Kundaje",
+			"Affiliation": 	  "Stanford"
+		},
+		{
+			"Name": 	  "Sofia Kyriazopoulou-Panagiotopoulou",
+			"Affiliation": 	  "Stanford"
+		},
+		{
+			"Name": 	  "Max W. Libbrecht",
+			"Affiliation": 	  "Stanford"
+		},
+		{
+			"Name": 	  "Cheryl L. Smith",
+			"Affiliation": 	  "Stanford"
+		},
+		{
+			"Name": 	  "Debasish Raha",
+			"Affiliation": 	  "Yale"
+		},
+		{
+			"Name": 	  "Elliott E. Winters",
+			"Affiliation": 	  "Brigham Young"
+		},
+		{
+			"Name": 	  "Steven M. Johnson",
+			"Affiliation": 	  "Brigham Young"
+		},
+		{
+			"Name": 	  "Michael Snyder",
+			"Affiliation": 	  "Stanford"
+		},
+		{
+			"Name": 	  "Serafim Batzoglou",
+			"Affiliation": 	  "Stanford"
+		},
+		{
+			"Name": 	  "Arend Sidow",
+			"Affiliation": 	  "Stanford"
+		},
+		{
+			"Name": 	  "Alexei Lisitsa",
+			"Affiliation": 	  "University of Liverpool"
+		},
+		{
+			"Name": 	  "Jon Crowcroft",
+			"Affiliation": 	  "University of Cambridge"
+		},
+		{
+			"Name": 	  "Gerard Briscoe",
+			"Affiliation": 	  "Queen Mary University London"
+		},
+		{
+			"Name": 	  "Alejandrio Bellogín",
+			"Affiliation": 	  "Universidad Autonoma de Madrid"
+		},
+		{
+			"Name": 	  "Pablo Castells",
+			"Affiliation": 	  "Universidad Autonoma de Madrid"
+		},
+		{
+			"Name": 	  "Iván Cantador",
+			"Affiliation": 	  "Universidad Autonoma de Madrid"
+		},
+		{
+			"Name": 	  "Robin L. Hill",
+			"Affiliation": 	  "University of Edinburgh"
+		},
+		{
+			"Name": 	  "Anna Dickinson",
+			"Affiliation": 	  "University of Dundee"
+		},
+		{
+			"Name": 	  "John L. Arnott",
+			"Affiliation": 	  "University of Dundee"
+		},
+		{
+			"Name": 	  "Wayne S. Murray",
+			"Affiliation": 	  "University of Dundee"
+		},
+		{
+			"Name": 	  "Edy Portmann",
+			"Affiliation": 	  "University of California Berkeley"
+		},
+		{
+			"Name": 	  "Sangjin Han",
+			"Affiliation": 	  "University of California Berkeley"
+		},
+		{
+			"Name": 	  "Aurojit Panda",
+			"Affiliation": 	  "University of California Berkeley"
+		},
+		{
+			"Name": 	  "Sylvia Ratnasamy",
+			"Affiliation": 	  "University of California Berkeley"
+		},
+		{
+			"Name": 	  "George Porter",
+			"Affiliation": 	  "University of California San Diego"
+		},
+		{
+			"Name": 	  "Ravi Bhoraskar",
+			"Affiliation": 	  "University of Washington"
+		},
+		{
+			"Name": 	  "Will Scott",
+			"Affiliation": 	  "University of Washington"
+		},
+		{
+			"Name": 	  "Sujit Packiaraj",
+			"Affiliation": 	  "University of Washington"
+		},
+		{
+			"Name": 	  "Arvind Krishnamurthy",
+			"Affiliation": 	  "University of Washington"
+		},
+		{
+			"Name": 	  "Matthias Lange",
+			"Affiliation": 	  "Technische Universität Berlin"
+		},
+		{
+			"Name": 	  "Antonio Davoli",
+			"Affiliation": 	  "Sapienza University of Rome"
+		},
+		{
+			"Name": 	  "Bernard Butler",
+			"Affiliation": 	  "Waterford Institute of Technology"
+		},
+		{
+			"Name": 	  "Brendan Jennings",
+			"Affiliation": 	  "Waterford Institute of Technology"
+		},
+		{
+			"Name": 	  "Amy Tang",
+			"Affiliation": 	  "University of California Berkeley"
+		},
+		{
+			"Name": 	  "Ashwin Rao",
+			"Affiliation": 	  "INRIA"
+		},
+		{
+			"Name": 	  "Justine Sherry",
+			"Affiliation": 	  "University of California Berkeley"
+		},
+		{
+			"Name": 	  "Dave Choffnes",
+			"Affiliation": 	  "University of Washington"
+		},
+		{
+			"Name": 	  "Saša Petrović",
+			"Affiliation": 	  "University of Edinburgh"
+		},
+		{
+			"Name": 	  "Miles Osborne",
+			"Affiliation": 	  "University of Edinburgh"
+		},
+		{
+			"Name": 	  "Victor Lavrenko",
+			"Affiliation": 	  "University of Edinburgh"
+		},
+		{
+			"Name": 	  "Bogdan Vasilescu",
+			"Affiliation": 	  "Eindhoven University of Technology"
+		},
+		{
+			"Name": 	  "Andrea Capiluppi",
+			"Affiliation": 	  "Brunel University"
+		},
+		{
+			"Name": 	  "Alexander Serebrenik",
+			"Affiliation": 	  "Eindhoven University of Technology"
+		},
+		{
+			"Name": 	  "Rammohan Narendula",
+			"Affiliation": 	  "EPFL"
+		},
+		{
+			"Name": 	  "Eric Bouwers",
+			"Affiliation": 	  "Software Improvement Group"
+		},
+		{
+			"Name": 	  "Roberto Bruni",
+			"Affiliation": 	  "Universita di Pisa"
+		},
+		{
+			"Name": 	  "Andrea Corradini",
+			"Affiliation": 	  "Universita di Pisa"
+		},
+		{
+			"Name": 	  "Fabio Gadducci",
+			"Affiliation": 	  "Universita di Pisa"
+		},
+		{
+			"Name": 	  "Alberto Lluch Lafuente",
+			"Affiliation": 	  "IMT Institute for Advanced Studies Lucca"
+		},
+		{
+			"Name": 	  "Andrea Vandin",
+			"Affiliation": 	  "IMT Institute for Advanced Studies Lucca"
+		},
+		{
+			"Name": 	  "Jos Kraaijeveld",
+			"Affiliation": 	  "Delft University of Technology"
+		}
+	]
+}
