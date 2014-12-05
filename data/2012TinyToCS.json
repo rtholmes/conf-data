@@ -1,0 +1,1492 @@
+{
+	"DataRevision": 1,
+	"Event": "Tiny ToCS Volume 1",
+	"URL": "http://tinytocs.org/vol1/",
+	"Description": "Tiny ToCS is a forum for high-quality scholarly discourse that challenges researchers to engage with their work in new capacities. Not only does the restricted format require a concise distillation of scholarly results, but the short format will be more accessible to the Computer Science community at large. Tiny ToCS favors accessible, carefully crafted, creative research, and invites submissions both about novel ideas as well as summaries or distillations of existing work.",
+	"Items": [
+	{
+		"Title": "TinyToCS Volume 1 Chairs' Note",
+		"Key": "1-1",
+		"Type": "Full Paper",
+		"Abstract": "TinyToCS shows promise. We are encouraged by these proceedings, and the broader dialogue is only beginning. Stay tuned.",
+		"PersonsString": "Peter Bailis, Justine Sherry",
+		"Authors": [
+		  "Peter Bailis",
+		  "Justine Sherry"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-chairsnote.pdf",
+		"AffiliationsString": "UC Berkeley, UC Berkeley",
+		"Affiliations": [
+		  "UC Berkeley",
+		  "UC Berkeley"
+		]
+	},
+	{
+		"Title": "Improving Data Management Applications Using Microtask Platforms",
+		"Key": "2-1",
+		"Type": "Full Paper",
+		"Abstract": "Judiciously leveraging microtask platforms can enable more powerful data management applications that are otherwise impossible.",
+		"PersonsString": "Jiannan Wang, Reynold Xin",
+		"Authors": [
+		  "Jiannan Wang",
+		  "Reynold Xin"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-wang.pdf",
+		"AffiliationsString": "Tsinghua University, UC Berkeley",
+		"Affiliations": [
+		  "Tsinghua University",
+		  "UC Berkeley"
+		]
+	},
+	{
+		"Title": "Sorting it All Out with Humans in the Loop",
+		"Key": "2-2",
+		"Type": "Full Paper",
+		"Abstract": "When ranking with humans, ratings are cheap and nice. To improve quality, please compare, for a price. Hammertime.",
+		"PersonsString": "Adam Marcus, Eugene Wu, David Karger, Samuel Madden, Robert Miller",
+		"Authors": [
+		  "Adam Marcus",
+		  "Eugene Wu",
+		  "David Karger",
+		  "Samuel Madden",
+		  "Robert Miller"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-marcus.pdf",
+		"AffiliationsString": "MIT CSAIL, MIT CSAIL, MIT CSAIL, MIT CSAIL, MIT CSAIL",
+		"Affiliations": [
+		  "MIT CSAIL",
+		  "MIT CSAIL",
+		  "MIT CSAIL",
+		  "MIT CSAIL",
+		  "MIT CSAIL"
+		]
+	},
+	{
+		"Title": "Relative Comfort of People with Acting Robots by Theatre and Technology Experience",
+		"Key": "2-3",
+		"Type": "Full Paper",
+		"Abstract": "People involved with both theatre & technology are more comfortable with acting robots than just theatre people, but less so than techies.",
+		"PersonsString": "David V. Lu",
+		"Authors": [
+		  "David V. Lu"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-lu.pdf",
+		"AffiliationsString": "Washington University in St. Louis",
+		"Affiliations": [
+		  "Washington University in St. Louis"
+		]
+	},
+	{
+		"Title": "Bots are Users, Too! Rethinking the Roles of Software Agents in HCI",
+		"Key": "2-4",
+		"Type": "Full Paper",
+		"Abstract": "Bots are users of systems just as humans are. HCI practitioners must not forget to design for both bot-computer and human-bot interaction.",
+		"PersonsString": "R. Stuart Geiger",
+		"Authors": [
+		  "R. Stuart Geiger"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-geiger.pdf",
+		"AffiliationsString": "UC Berkeley",
+		"Affiliations": [
+		  "UC Berkeley"
+		]
+	},
+	{
+		"Title": "Towards an Emergent Semantic Web",
+		"Key": "3-1",
+		"Type": "Full Paper",
+		"Abstract": "Inductive fuzzy grassroots ontologies form a basis for computing with words. In time they will allow the Web to merge with the Semantic Web.",
+		"PersonsString": "Edy Portmann",
+		"Authors": [
+		  "Edy Portmann"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-portmann.pdf",
+		"AffiliationsString": "UC Berkeley",
+		"Affiliations": [
+		  "UC Berkeley"
+		]
+	},
+	{
+		"Title": "Fast Semantic Relatedness: WordNet::Similarity vs Roget's Thesaurus",
+		"Key": "3-2",
+		"Type": "Full Paper",
+		"Abstract": "The fastest & best-correlated WordNet MSRs, respectively, take 82 & 182 times longer than Roget's MSR, yet all are statistically equivalent.",
+		"PersonsString": "Alistair Kennedy, Stan Szpakowicz",
+		"Authors": [
+		  "Alistair Kennedy",
+		  "Stan Szpakowicz"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-kennedy.pdf",
+		"AffiliationsString": "University of Ottawa, University of Ottawa",
+		"Affiliations": [
+		  "University of Ottawa",
+		  "University of Ottawa"
+		]
+	},
+	{
+		"Title": "ConceptNet 5",
+		"Key": "3-3",
+		"Type": "Full Paper",
+		"Abstract": "ConceptNet 5 is released. It's a free semantic network in many languages, enabling reasoning and machine learning about what words mean.",
+		"PersonsString": "Rob Speer, Catherine Havasi",
+		"Authors": [
+		  "Rob Speer",
+		  "Catherine Havasi"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-speer.pdf",
+		"AffiliationsString": "MIT Media Lab, MIT Media Lab",
+		"Affiliations": [
+		  "MIT Media Lab",
+		  "MIT Media Lab"
+		]
+	},
+	{
+		"Title": "Please mind the gap between intra- and inter-chassis parallelism! (and how it can be closed)",
+		"Key": "4-1",
+		"Type": "Full Paper",
+		"Abstract": "Existing, easy-to-use distributed programming models are sufficient to enable multiscale parallel computation inside and across machines.",
+		"PersonsString": "Malte Schwarzkopf, Derek G. Murray, Steven Hand",
+		"Authors": [
+		  "Malte Schwarzkopf",
+		  "Derek G. Murray",
+		  "Steven Hand"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-schwarzkopf.pdf",
+		"AffiliationsString": "University of Cambridge Computer Laboratory, Microsoft Research Silicon Valley, University of Cambridge Computer Laboratory",
+		"Affiliations": [
+		  "University of Cambridge Computer Laboratory",
+		  "Microsoft Research Silicon Valley",
+		  "University of Cambridge Computer Laboratory"
+		]
+	},
+	{
+		"Title": "Lifting cloud infrastructure service consumers to providers",
+		"Key": "4-2",
+		"Type": "Full Paper",
+		"Abstract": "Nested virtualisation is a low-overhead mechanism to partially repurpose leased compute resources. This leads to recursive cloud providers.",
+		"PersonsString": "Josef Spillner, Andrey Brito",
+		"Authors": [
+		  "Josef Spillner",
+		  "Andrey Brito"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-spillner-brito.pdf",
+		"AffiliationsString": "Technische Universitat Dresden, Universidade Federal de Campina Grande",
+		"Affiliations": [
+		  "Technische Universitat Dresden",
+		  "Universidade Federal de Campina Grande"
+		]
+	},
+	{
+		"Title": "A Novel Approach for Fault Diagnosis on Computational Grids",
+		"Key": "4-3",
+		"Type": "Full Paper",
+		"Abstract": "The automatic tests written during software's development phase can also be used to identify faulty components during its production stage.",
+		"PersonsString": "Alexandre Duarte",
+		"Authors": [
+		  "Alexandre Duarte"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-duarte.pdf",
+		"AffiliationsString": "Universidade Federal da Paraiba",
+		"Affiliations": [
+		  "Universidade Federal da Paraiba"
+		]
+	},
+	{
+		"Title": "Fast Deterministic Single-Linkage 2D-Spatial Cluster Analysis",
+		"Key": "5-1",
+		"Type": "Full Paper",
+		"Abstract": "Find the Delaunay triangulation of the points with Sweephull, then Kruskal's MST until the required cluster count is reached. O(n log n).",
+		"PersonsString": "Daniel Goldbach",
+		"Authors": [
+		  "Daniel Goldbach"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-goldbach.pdf",
+		"AffiliationsString": "University of New South Wales",
+		"Affiliations": [
+		  "University of New South Wales"
+		]
+	},
+	{
+		"Title": "Beating brute-force: Improved algorithms for finding correlations, and related problems",
+		"Key": "5-2",
+		"Type": "Full Paper",
+		"Abstract": "One can find correlated variables in time O(n1.6 ). Similar ideas give faster algorithms for Closest-Pair, and learning juntas/parities.",
+		"PersonsString": "Gregory Valiant",
+		"Authors": [
+		  "Gregory Valiant"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-valiant.pdf",
+		"AffiliationsString": "Microsoft Research",
+		"Affiliations": [
+		  "Microsoft Research"
+		]
+	},
+	{
+		"Title": "Persistency for higher-order pseudo-boolean maximization",
+		"Key": "5-3",
+		"Type": "Full Paper",
+		"Abstract": "A pseudo-Boolean function is a posiform [1]. Write its maximization as vertex packing. Solve a bipartite problem [3]; et voila: persistency!",
+		"PersonsString": "Petter Strandmark",
+		"Authors": [
+		  "Petter Strandmark"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-strandmark.pdf",
+		"AffiliationsString": "Lund University",
+		"Affiliations": [
+		  "Lund University"
+		]
+	},
+	{
+		"Title": "The End of an Architectural Era for Analytical Databases",
+		"Key": "6-1",
+		"Type": "Full Paper",
+		"Abstract": "Data warehouse systems should be modular, flexible, easy to provision, and support machine learning. It's time to rethink the system design.",
+		"PersonsString": "Reynold Xin",
+		"Authors": [
+		  "Reynold Xin"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-xin.pdf",
+		"AffiliationsString": "UC Berkeley",
+		"Affiliations": [
+		  "UC Berkeley"
+		]
+	},
+	{
+		"Title": "Exact and Near-miss Clone Detection in Spreadsheets",
+		"Key": "6-2",
+		"Type": "Full Paper",
+		"Abstract": "Clone detection in spreadsheets is useful both to reveal opportunities for improving the spreadsheet and to detect actual errors.",
+		"PersonsString": "Felienne Hermans",
+		"Authors": [
+		  "Felienne Hermans"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-hermans.pdf",
+		"AffiliationsString": "Delft University of Technology",
+		"Affiliations": [
+		  "Delft University of Technology"
+		]
+	},
+	{
+		"Title": "Tastes Great, Less Filling: Low-Impact OLAP MapReduce Queries on High-Performance OLTP Systems",
+		"Key": "6-3",
+		"Type": "Full Paper",
+		"Abstract": "OLAP queries executed as MapReduce jobs in an OLTP DBMS achieve same latency as distributed transactions but improve throughput by 20%-50%",
+		"PersonsString": "Xin Jia, Andrew Pavlo, Stanley Zdonik",
+		"Authors": [
+		  "Xin Jia",
+		  "Andrew Pavlo",
+		  "Stanley Zdonik"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-jia.pdf",
+		"AffiliationsString": "Brown University, Brown University, Brown University ",
+		"Affiliations": [
+		  "Brown University",
+		  "Brown University",
+		  "Brown University "
+		]
+	},
+	{
+		"Title": "Is Internet traffic becoming less centralized over time?",
+		"Key": "7-1",
+		"Type": "Full Paper",
+		"Abstract": "In 2002, 18 of 10000 ASes controlled 45% of Internet traffic. In 2010, 18 of 35000 controlled 45%. Internet traffic is not decentralizing.",
+		"PersonsString": "Peter Boothe",
+		"Authors": [
+		  "Peter Boothe"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-boothe.pdf",
+		"AffiliationsString": "Manhattan College",
+		"Affiliations": [
+		  "Manhattan College"
+		]
+	},
+	{
+		"Title": "Conceptualizing Transparency on Online Social Networks",
+		"Key": "7-2",
+		"Type": "Full Paper",
+		"Abstract": "Sharing decisions on Online Social Networks are reducible to RBAC concepts, making Visual Role Mining applicable to increase transparency.",
+		"PersonsString": "Michael Netter",
+		"Authors": [
+		  "Michael Netter"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-netter.pdf",
+		"AffiliationsString": "University of Regensburg",
+		"Affiliations": [
+		  "University of Regensburg"
+		]
+	},
+	{
+		"Title": "On the Security of Conference and Journal Submission Sites",
+		"Key": "7-3",
+		"Type": "Full Paper",
+		"Abstract": "HotCRP sites should use SSL. It should suffice to add \"SSLRequireSSL\" to HOTCRPDIR/.htaccess. You might need a valid certificate, too [1].",
+		"PersonsString": "Jeffrey C. Mogul, Eddie Kohler",
+		"Authors": [
+		  "Jeffrey C. Mogul",
+		  "Eddie Kohler"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-mogul.pdf",
+		"AffiliationsString": "HP Labs, Harvard University",
+		"Affiliations": [
+		  "HP Labs",
+		  "Harvard University"
+		]
+	},
+	{
+		"Title": "Inferring Visibility: Who's (Not) Talking to Whom?",
+		"Key": "7-4",
+		"Type": "Full Paper",
+		"Abstract": "Most network operators don't know what routes pass through their network. They can find out using statistical inference on observed traffic.",
+		"PersonsString": "Gonca Gursun, Natali Ruchansky, Evimaria Terzi, Mark Crovella",
+		"Authors": [
+		  "Gonca Gursun",
+		  "Natali Ruchansky",
+		  "Evimaria Terzi",
+		  "Mark Crovella"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-gursun.pdf",
+		"AffiliationsString": "Boston University, Boston University, Boston University, Boston University",
+		"Affiliations": [
+		  "Boston University",
+		  "Boston University",
+		  "Boston University",
+		  "Boston University"
+		]
+	},
+	{
+		"Title": "Safe Haskell",
+		"Key": "8-1",
+		"Type": "Full Paper",
+		"Abstract": "Safe Haskell enforces type safety in Haskell and adds a notion of trust to modules. This allows security to be built at the language level.",
+		"PersonsString": "David Terei, Simon Marlow, Simon Peyton Jones, David Mazieres",
+		"Authors": [
+		  "David Terei",
+		  "Simon Marlow",
+		  "Simon Peyton Jones",
+		  "David Mazieres"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-terei.pdf",
+		"AffiliationsString": "Stanford University, Microsoft Research, Microsoft Research, Stanford University",
+		"Affiliations": [
+		  "Stanford University",
+		  "Microsoft Research",
+		  "Microsoft Research",
+		  "Stanford University"
+		]
+	},
+	{
+		"Title": "Fake Emulation Environment to Prevent Malware from Executing",
+		"Key": "8-2",
+		"Type": "Full Paper",
+		"Abstract": "Faking just enough of common emulation and analysis environments might prevent certain kinds malware from executing their malicious payload.",
+		"PersonsString": "Collin Mulliner",
+		"Authors": [
+		  "Collin Mulliner"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-mulliner.pdf",
+		"AffiliationsString": "Technische Universitat Berlin",
+		"Affiliations": [
+		  "Technische Universitat Berlin"
+		]
+	},
+	{
+		"Title": "Secure Programming via Safety Games",
+		"Key": "8-3",
+		"Type": "Full Paper",
+		"Abstract": "To write a correct and secure program, one can find a winning Defender strategy for a two-player turn-based safety game.",
+		"PersonsString": "William Harris",
+		"Authors": [
+		  "William Harris"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-harris.pdf",
+		"AffiliationsString": "University of Wisconsin Madison",
+		"Affiliations": [
+		  "University of Wisconsin Madison"
+		]
+	},
+	{
+		"Title": "33 Bits of Entropy: Myths and Fallacies of \"Personally Identifiable Information\"",
+		"Key": "8-4",
+		"Type": "Full Paper",
+		"Abstract": "Anonymization of rich consumer data is infeasible--people are unique, and any piece of data can help reidentify. 33 bits of entropy will do.",
+		"PersonsString": "Arvind Narayanan",
+		"Authors": [
+		  "Arvind Narayanan"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-narayanan.pdf",
+		"AffiliationsString": "Princeton University",
+		"Affiliations": [
+		  "Princeton University"
+		]
+	},
+	{
+		"Title": "User-Friendly Failure Diagnosis",
+		"Key": "9-1",
+		"Type": "Full Paper",
+		"Abstract": "Crash the system every-which-way with failure injection. Build table of error messages. When users hit trouble, look up error msgs in table.",
+		"PersonsString": "Ariel Rabkin",
+		"Authors": [
+		  "Ariel Rabkin"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-rabkin.pdf",
+		"AffiliationsString": "Princeton University",
+		"Affiliations": [
+		  "Princeton University"
+		]
+	},
+	{
+		"Title": "How to aggregate software metrics?",
+		"Key": "9-2",
+		"Type": "Full Paper",
+		"Abstract": "When aggregating metrics to assess software maintainability, Gini, Theil, Hoover, and Atkinson strongly correlate.",
+		"PersonsString": "Bogdan Vasilescu, Alexander Serebrenik, Mark G.J. van den Brand",
+		"Authors": [
+		  "Bogdan Vasilescu",
+		  "Alexander Serebrenik",
+		  "Mark G.J. van den Brand"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-vasilescu.pdf",
+		"AffiliationsString": "Eindhoven University of Technology, Eindhoven University of Technology, Eindhoven University of Technology",
+		"Affiliations": [
+		  "Eindhoven University of Technology",
+		  "Eindhoven University of Technology",
+		  "Eindhoven University of Technology"
+		]
+	},
+	{
+		"Title": "effects of Centralized and Distributed Version Control on Commit Granularity",
+		"Key": "9-3",
+		"Type": "Full Paper",
+		"Abstract": "In a study of six CVC and six DVC repositories we found that the median size of code commits in DVC is 38% larger than in CVC.",
+		"PersonsString": "Jochen Wuttke, Ivan Beschastnikh, Yuriy Brun",
+		"Authors": [
+		  "Jochen Wuttke",
+		  "Ivan Beschastnikh",
+		  "Yuriy Brun"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-wuttke.pdf",
+		"AffiliationsString": "University of Washington, University of Washington, University of Massachusetts",
+		"Affiliations": [
+		  "University of Washington",
+		  "University of Washington",
+		  "University of Massachusetts"
+		]
+	},
+	{
+		"Title": "Portably solving the access(2)/open(2) race",
+		"Key": "9-4",
+		"Type": "Full Paper",
+		"Abstract": "access(2)/open(2) file-system races can be prevented by omitting access(2) and using seteuid(2)/setegid(2) before open(2) on a modern OS.",
+		"PersonsString": "Stephen Checkoway",
+		"Authors": [
+		  "Stephen Checkoway"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-checkoway.pdf",
+		"AffiliationsString": "Johns Hopkins University",
+		"Affiliations": [
+		  "Johns Hopkins University"
+		]
+	},
+	{
+		"Title": "Extending Simultaneous Localization and Mapping to Resource Limited Micro-Aerial Vehicle Swarms",
+		"Key": "10-1",
+		"Type": "Full Paper",
+		"Abstract": "Designing hierarchical data structures for map representation key to scaling SLAM algorithms to large swarms of resource-constrained robots",
+		"PersonsString": "Markus Burkardt, Karthik Dantu",
+		"Authors": [
+		  "Markus Burkardt",
+		  "Karthik Dantu"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-burkardt.pdf",
+		"AffiliationsString": "Cornell University, Harvard University",
+		"Affiliations": [
+		  "Cornell University",
+		  "Harvard University"
+		]
+	},
+	{
+		"Title": "Robots Building With Goop",
+		"Key": "10-2",
+		"Type": "Full Paper",
+		"Abstract": "Physical systems have uncertainty. We embrace it and design robust algorithms for robotic construction with continuous, goopy materials.",
+		"PersonsString": "Nils Napp, Radhika Nagpal",
+		"Authors": [
+		  "Nils Napp",
+		  "Radhika Nagpal"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-napp.pdf",
+		"AffiliationsString": "Harvard University, Harvard University",
+		"Affiliations": [
+		  "Harvard University",
+		  "Harvard University"
+		]
+	},
+	{
+		"Title": "Impact of Mobility on Link Quality and Packet Loss in Low-Power Radios",
+		"Key": "10-3",
+		"Type": "Full Paper",
+		"Abstract": "Continuous broadcast rather than low-power alternatives are most efficient for coordination of a swarm of micro-aerial vehicles",
+		"PersonsString": "Michael Bechard, Karthik Dantu",
+		"Authors": [
+		  "Michael Bechard",
+		  "Karthik Dantu"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-bechard.pdf",
+		"AffiliationsString": "Eastern Nazarene College, Harvard University",
+		"Affiliations": [
+		  "Eastern Nazarene College",
+		  "Harvard University"
+		]
+	},
+	{
+		"Title": "From Peaks to Valleys, Running Up and Down: Fast Permutation Pattern Matching",
+		"Key": "11-1",
+		"Type": "Full Paper",
+		"Abstract": "We designed a PPM algorithm with O (1.8run(T)) runtime [2]. This improves both base and exponent. For T with few runs it is especially fast.",
+		"PersonsString": "Marie-Louise Bruner, Martin Lackner",
+		"Authors": [
+		  "Marie-Louise Bruner",
+		  "Martin Lackner"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-bruner.pdf",
+		"AffiliationsString": "Vienna University of Technology, Vienna University of Technology",
+		"Affiliations": [
+		  "Vienna University of Technology",
+		  "Vienna University of Technology"
+		]
+	},
+	{
+		"Title": "Approximate string matching as an algebraic computation",
+		"Key": "11-2",
+		"Type": "Full Paper",
+		"Abstract": "Matching a pattern approximately to every substring in a text = computing in the classical braid group, where crossings are made idempotent.",
+		"PersonsString": "Alexander Tiskin",
+		"Authors": [
+		  "Alexander Tiskin"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-tiskin.pdf",
+		"AffiliationsString": "University of Warwick",
+		"Affiliations": [
+		  "University of Warwick"
+		]
+	},
+	{
+		"Title": "On finding cross-lingual article pairs",
+		"Key": "11-3",
+		"Type": "Full Paper",
+		"Abstract": "Cross-lingual merging of Honduran geotagged Wikipedia articles based on article names and locations alone results in 99.4% correct pairs.",
+		"PersonsString": "Dirk Ahlers",
+		"Authors": [
+		  "Dirk Ahlers"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-ahlers.pdf",
+		"AffiliationsString": "Search Consultant",
+		"Affiliations": [
+		  "Search Consultant"
+		]
+	},
+	{
+		"Title": "Alice and Bob's Adventures in Barterland",
+		"Key": "11-4",
+		"Type": "Full Paper",
+		"Abstract": "Meetings as information exchange mechanisms can be featured, integrated and used as inference engines for solving problems like NLP [1, 2, 3].",
+		"PersonsString": "Michele Bottone",
+		"Authors": [
+		  "Michele Bottone"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-bottone.pdf",
+		"AffiliationsString": "Matroid",
+		"Affiliations": [
+		  "Matroid"
+		]
+	},
+	{
+		"Title": "Torii-HLMAC: Distributed, Fault-tolerant Data Center Architecture with Multiple Tree-based Addressing and Forwarding",
+		"Key": "12-1",
+		"Type": "Full Paper",
+		"Abstract": "Just a few messages exchanged once the architecture is built and done! Have a high-bandwidth, load-balanced data center network forever",
+		"PersonsString": "Elisa Rojas, Guillermo Ibanez",
+		"Authors": [
+		  "Elisa Rojas",
+		  "Guillermo Ibanez"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-rojas.pdf",
+		"AffiliationsString": "Universidad de Alcala Madrid, Universidad de Alcala Madrid",
+		"Affiliations": [
+		  "Universidad de Alcala Madrid",
+		  "Universidad de Alcala Madrid"
+		]
+	},
+	{
+		"Title": "Achieving Collision Freedom without Modifying Communication Protocols in Wireless Rechargeable Sensor Networks",
+		"Key": "12-2",
+		"Type": "Full Paper",
+		"Abstract": "Control charging patterns to wake up nodes at different time intervals. Now your wireless rechargeable sensor network is collision-free!",
+		"PersonsString": "Yuanchao Shu, Yuelong Tian, Yu Gu, Jiming Chen",
+		"Authors": [
+		  "Yuanchao Shu",
+		  "Yuelong Tian",
+		  "Yu Gu",
+		  "Jiming Chen"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-shu.pdf",
+		"AffiliationsString": "Zhejiang University, Zhejiang University, Singapore University of Technology and Design, Zhejiang University",
+		"Affiliations": [
+		  "Zhejiang University",
+		  "Zhejiang University",
+		  "Singapore University of Technology and Design",
+		  "Zhejiang University"
+		]
+	},
+	{
+		"Title": "All-path: Finding Simply Fastest Path and Balancing Load by Flooding ARP Packets as Path Probes",
+		"Key": "12-3",
+		"Type": "Full Paper",
+		"Abstract": "To select the fastest path in network, start a race of ARP Request replicas at the edge bridge and lock it with first-arrival port learning",
+		"PersonsString": "Guillermo Ibanez, Elisa Rojas",
+		"Authors": [
+		  "Guillermo Ibanez",
+		  "Elisa Rojas"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-ibanez.pdf",
+		"AffiliationsString": "Universidad de Alcala Madrid, Universidad de Alcala Madrid",
+		"Affiliations": [
+		  "Universidad de Alcala Madrid",
+		  "Universidad de Alcala Madrid"
+		]
+	},
+	{
+		"Title": "Weaker Links for Synchronization",
+		"Key": "12-4",
+		"Type": "Full Paper",
+		"Abstract": "Weak links can be a better choice than reliable links for clock synchronization in a wireless sensor network.",
+		"PersonsString": "Ted Herman",
+		"Authors": [
+		  "Ted Herman"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-herman.pdf",
+		"AffiliationsString": "University of Iowa",
+		"Affiliations": [
+		  "University of Iowa"
+		]
+	},
+	{
+		"Title": "Constrained Videogame Content Generation with Answer Set Programming",
+		"Key": "13-1",
+		"Type": "Full Paper",
+		"Abstract": "Answer set programming allows the rapid development of tightly-constrained videogame content generators without inventing new algorithms.",
+		"PersonsString": "Adam M. Smith",
+		"Authors": [
+		  "Adam M. Smith"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-smith.pdf",
+		"AffiliationsString": "Expressive Intelligence Studio and UC Santa Cruz",
+		"Affiliations": [
+		  "Expressive Intelligence Studio and UC Santa Cruz"
+		]
+	},
+	{
+		"Title": "Simplified Harvest Moon is NP-Complete",
+		"Key": "13-2",
+		"Type": "Full Paper",
+		"Abstract": "There exists a trivial bijection from all instances of BKP to all instances of Simplified Harvest Moon (SHM). Therefore, SHM is NP-complete.",
+		"PersonsString": "Steven Braeger",
+		"Authors": [
+		  "Steven Braeger"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-braeger.pdf",
+		"AffiliationsString": "University of Central Florida",
+		"Affiliations": [
+		  "University of Central Florida"
+		]
+	},
+	{
+		"Title": "Collecting Things Under Time Pressure is Hard",
+		"Key": "13-3",
+		"Type": "Full Paper",
+		"Abstract": "3D games with gravity that require gathering objects to ensure traversing edges within a time-limit can be reduced from the NP-complete CPP.",
+		"PersonsString": "Jayson Lynch",
+		"Authors": [
+		  "Jayson Lynch"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-lynch.pdf",
+		"AffiliationsString": "Massachusetts Institute of Technology",
+		"Affiliations": [
+		  "Massachusetts Institute of Technology"
+		]
+	},
+	{
+		"Title": "Google Scholar Metrics h5-index correlated with Impact Factor",
+		"Key": "14-1",
+		"Type": "Full Paper",
+		"Abstract": "Google Scholar Metrics h5-index is correlated with Impact Factor ranking some Computer Science conferences close to top-tier journals",
+		"PersonsString": "Michael O'Neill",
+		"Authors": [
+		  "Michael O'Neill"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-o'neill.pdf",
+		"AffiliationsString": "University College Dublin",
+		"Affiliations": [
+		  "University College Dublin"
+		]
+	},
+	{
+		"Title": "Data Publishing Using Nanopublications",
+		"Key": "14-2",
+		"Type": "Full Paper",
+		"Abstract": "The nanopublication model incentivizes rapid, citable data dissemination, interoperability, semantic reasoning, and knowledge discovery.",
+		"PersonsString": "Mark Thompson, Erik Schultes, Marco Roos, Barend Mons",
+		"Authors": [
+		  "Mark Thompson",
+		  "Erik Schultes",
+		  "Marco Roos",
+		  "Barend Mons"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-thompson.pdf",
+		"AffiliationsString": "LUMC, LUMC, LUMC, LUMC",
+		"Affiliations": [
+		  "LUMC",
+		  "LUMC",
+		  "LUMC",
+		  "LUMC"
+		]
+	},
+	{
+		"Title": "Narrowing the Readability Gap Between Scientific Papers and the World Wide Web",
+		"Key": "14-3",
+		"Type": "Full Paper",
+		"Abstract": "Paper references as anchor hyperlinks can improve the readability and, ultimately, increase the entropy of the scientific corpora.",
+		"PersonsString": "Michele Catasta",
+		"Authors": [
+		  "Michele Catasta"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-catasta.pdf",
+		"AffiliationsString": "EPFL",
+		"Affiliations": [
+		  "EPFL"
+		]
+	},
+	{
+		"Title": "TinyTOCS as an Experimental Laboratory",
+		"Key": "15-1",
+		"Type": "Full Paper",
+		"Abstract": "When rethinking academic publishing, don't retrofit a cathedral onto what should be a bazaar [1].",
+		"PersonsString": "George Porter",
+		"Authors": [
+		  "George Porter"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-porter.pdf",
+		"AffiliationsString": "University of California San Diego",
+		"Affiliations": [
+		  "University of California San Diego"
+		]
+	},
+	{
+		"Title": "An Upper-Bound on Information Contained Within a Tweet",
+		"Key": "15-2",
+		"Type": "Full Paper",
+		"Abstract": "Max bits/tweet? UTF8=31b/chr Can use chrs forbidden by RFC3629 Composing chars count as distinct codepts Max bits is 4339 (-1 for ctrl chrs)",
+		"PersonsString": "Karl Koscher",
+		"Authors": [
+		  "Karl Koscher"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-koscher.pdf",
+		"AffiliationsString": "University of Washington",
+		"Affiliations": [
+		  "University of Washington"
+		]
+	},
+	{
+		"Title": "TweeCards: Tweets Go Postal",
+		"Key": "15-3",
+		"Type": "Full Paper",
+		"Abstract": "I cn snd postcards 2 all my tweeps! w/photos & QR 2! Prvcy? addr escrow via DHT! @USPS&@Twitter make $$ via ads&estamps. OMG!! #tweecards [1]",
+		"PersonsString": "Mary Baker, Jeffrey C. Mogul, Ian Robinson",
+		"Authors": [
+		  "Mary Baker",
+		  "Jeffrey C. Mogul",
+		  "Ian Robinson"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-baker.pdf",
+		"AffiliationsString": "HP Labs, HP Labs, HP Labs",
+		"Affiliations": [
+		  "HP Labs",
+		  "HP Labs",
+		  "HP Labs"
+		]
+	},
+	{
+		"Title": "The end of TinyToCS is nigh",
+		"Key": "15-4",
+		"Type": "Full Paper",
+		"Abstract": "The upper bound for meaningful distinct Tiny ToCS articles, assuming ASCII encoding, is 95140 - just above 7.6 unnonagintillion (10276).",
+		"PersonsString": "Josef Spillner",
+		"Authors": [
+		  "Josef Spillner"
+		],
+		"URL": "http://tinytocs.org/vol1/papers/tinytocs-v1-spillner.pdf",
+		"AffiliationsString": "Technische Universitat Dresden",
+		"Affiliations": [
+		  "Technische Universitat Dresden"
+		]
+	}
+	],
+	"Sessions": [
+	{
+		"Title": "TinyToCS Volume 1 Chairs' Note",
+		"Key": "session-1",
+        "ShortTitle": "TinyToCS Volume 1 Chairs' Note",
+        "Type": "",
+        "ShortType": "",
+        "Day": "2013-04-02",
+        "Time": "",
+        "Location": "",
+        "LocationIndex": "1",
+		"Items": [
+		"1-1"
+			]
+	},
+	{
+		"Title": "Humans and Computers Unite!",
+		"Key": "session-2",
+        "ShortTitle": "Humans and Computers Unite!",
+        "Type": "",
+        "ShortType": "",
+        "Day": "2013-04-02",
+        "Time": "",
+        "Location": "",
+        "LocationIndex": "2",
+		"Items": [
+			"2-1",
+			"2-2",
+			"2-3",
+			"2-4"
+			]
+	},
+	{
+		"Title": "Semantics, Semantics",
+		"Key": "session-3",
+        "ShortTitle": "Semantics, Semantics",
+        "Type": "",
+        "ShortType": "",
+        "Day": "2013-04-02",
+        "Time": "",
+        "Location": "",
+        "LocationIndex": "3",
+		"Items": [
+			"3-1",
+			"3-2",
+			"3-3"
+			]
+	},
+	{
+		"Title": "Of Clusters and Clouds",
+		"Key": "session-4",
+        "ShortTitle": "Of Clusters and Clouds",
+        "Type": "",
+        "ShortType": "",
+        "Day": "2013-04-02",
+        "Time": "",
+        "Location": "",
+        "LocationIndex": "4",
+		"Items": [
+			"4-1",
+			"4-2",
+			"4-3"
+			]
+	},
+	{
+		"Title": "Clustering, Correlation, and Optimization",
+		"Key": "session-5",
+        "ShortTitle": "Clustering, Correlation, and Optimization",
+        "Type": "",
+        "ShortType": "",
+        "Day": "2013-04-02",
+        "Time": "",
+        "Location": "",
+        "LocationIndex": "5",
+		"Items": [
+			"5-1",
+			"5-2",
+			"5-3"
+			]
+	},
+	{
+		"Title": "Data and Data Manipulation",
+		"Key": "session-6",
+        "ShortTitle": "Data and Data Manipulation",
+        "Type": "",
+        "ShortType": "",
+        "Day": "2013-04-02",
+        "Time": "",
+        "Location": "",
+        "LocationIndex": "6",
+		"Items": [
+			"6-1",
+			"6-2",
+			"6-3"
+			]
+	},
+	{
+		"Title": "Life on the Web",
+		"Key": "session-7",
+        "ShortTitle": "Life on the Web",
+        "Type": "",
+        "ShortType": "",
+        "Day": "2013-04-02",
+        "Time": "",
+        "Location": "",
+        "LocationIndex": "7",
+		"Items": [
+			"7-1",
+			"7-2",
+			"7-3",
+			"7-4"
+			]
+	},
+	{
+		"Title": "Out, out, damn bugs! (and security holes)",
+		"Key": "session-8",
+        "ShortTitle": "Out, out, damn bugs! (and security holes)",
+        "Type": "",
+        "ShortType": "",
+        "Day": "2013-04-02",
+        "Time": "",
+        "Location": "",
+        "LocationIndex": "8",
+		"Items": [
+			"8-1",
+			"8-2",
+			"8-3",
+			"8-4"
+			]
+	},
+	{
+		"Title": "Software Systems and Development",
+		"Key": "session-9",
+        "ShortTitle": "Software Systems and Development",
+        "Type": "",
+        "ShortType": "",
+        "Day": "2013-04-02",
+        "Time": "",
+        "Location": "",
+        "LocationIndex": "9",
+		"Items": [
+			"9-1",
+			"9-2",
+			"9-3",
+			"9-4"
+			]
+	},
+	{
+		"Title": "Bots and Robots",
+		"Key": "session-10",
+        "ShortTitle": "Bots and Robots",
+        "Type": "",
+        "ShortType": "",
+        "Day": "2013-04-02",
+        "Time": "",
+        "Location": "",
+        "LocationIndex": "10",
+		"Items": [
+			"10-1",
+			"10-2",
+			"10-3"
+			]
+	},
+	{
+		"Title": "Sequences, Strings, and Natural Languages",
+		"Key": "session-11",
+        "ShortTitle": "Sequences, Strings, and Natural Languages",
+        "Type": "",
+        "ShortType": "",
+        "Day": "2013-04-02",
+        "Time": "",
+        "Location": "",
+        "LocationIndex": "11",
+		"Items": [
+			"11-1",
+			"11-2",
+			"11-3",
+			"11-4"
+			]
+	},
+	{
+		"Title": "Networks and Networked Systems",
+		"Key": "session-12",
+        "ShortTitle": "Networks and Networked Systems",
+        "Type": "",
+        "ShortType": "",
+        "Day": "2013-04-02",
+        "Time": "",
+        "Location": "",
+        "LocationIndex": "12",
+		"Items": [
+			"12-1",
+			"12-2",
+			"12-3",
+			"12-4"
+			]
+	},
+	{
+		"Title": "Videogame Theory",
+		"Key": "session-13",
+        "ShortTitle": "Videogame Theory",
+        "Type": "",
+        "ShortType": "",
+        "Day": "2013-04-02",
+        "Time": "",
+        "Location": "",
+        "LocationIndex": "13",
+		"Items": [
+			"13-1",
+			"13-2",
+			"13-3"
+			]
+	},
+	{
+		"Title": "Publishing and Publications",
+		"Key": "session-14",
+        "ShortTitle": "Publishing and Publications",
+        "Type": "",
+        "ShortType": "",
+        "Day": "2013-04-02",
+        "Time": "",
+        "Location": "",
+        "LocationIndex": "14",
+		"Items": [
+			"14-1",
+			"14-2",
+			"14-3"
+			]
+	},
+	{ "Title": "TinyToCS and Twitter",
+		"Key": "session-15",
+        "ShortTitle": "TinyToCS and Twitter",
+        "Type": "",
+        "ShortType": "",
+        "Day": "2013-04-02",
+        "Time": "",
+        "Location": "",
+        "LocationIndex": "15",
+		"Items": [
+			"15-1",
+			"15-2",
+			"15-3",
+			"15-4"
+			]
+	}
+	],
+	"People": [
+	{
+		"Name": "Peter Bailis",
+		"Key": "Peter Bailis",
+		"Affiliation": "UC Berkeley"
+	},
+	{
+		"Name": "Justine Sherry",
+		"Key": "Justine Sherry",
+		"Affiliation": "UC Berkeley"
+	},
+	{
+		"Name": "Jiannan Wang",
+		"Key": "Jiannan Wang",
+		"Affiliation": "Tsinghua University"
+	},
+	{
+		"Name": "Reynold Xin",
+		"Key": "Reynold Xin",
+		"Affiliation": "UC Berkeley"
+	},
+	{
+		"Name": "Adam Marcus",
+		"Key": "Adam Marcus",
+		"Affiliation": "MIT CSAIL"
+	},
+	{
+		"Name": "Eugene Wu",
+		"Key": "Eugene Wu",
+		"Affiliation": "MIT CSAIL"
+	},
+	{
+		"Name": "David Karger",
+		"Key": "David Karger",
+		"Affiliation": "MIT CSAIL"
+	},
+	{
+		"Name": "Samuel Madden",
+		"Key": "Samuel Madden",
+		"Affiliation": "MIT CSAIL"
+	},
+	{
+		"Name": "Robert Miller",
+		"Key": "Robert Miller",
+		"Affiliation": "MIT CSAIL"
+	},
+	{
+		"Name": "David V. Lu",
+		"Key": "David V. Lu",
+		"Affiliation": "Washington University in St. Louis"
+	},
+	{
+		"Name": "R. Stuart Geiger",
+		"Key": "R. Stuart Geiger",
+		"Affiliation": "UC Berkeley"
+	},
+	{
+		"Name": "Edy Portmann",
+		"Key": "Edy Portmann",
+		"Affiliation": "UC Berkeley"
+	},
+	{
+		"Name": "Alistair Kennedy",
+		"Key": "Alistair Kennedy",
+		"Affiliation": "University of Ottawa"
+	},
+	{
+		"Name": "Stan Szpakowicz",
+		"Key": "Stan Szpakowicz",
+		"Affiliation": "University of Ottawa"
+	},
+	{
+		"Name": "Rob Speer",
+		"Key": "Rob Speer",
+		"Affiliation": "MIT Media Lab"
+	},
+	{
+		"Name": "Catherine Havasi",
+		"Key": "Catherine Havasi",
+		"Affiliation": "MIT Media Lab"
+	},
+	{
+		"Name": "Malte Schwarzkopf",
+		"Key": "Malte Schwarzkopf",
+		"Affiliation": "University of Cambridge Computer Laboratory"
+	},
+	{
+		"Name": "Derek G. Murray",
+		"Key": "Derek G. Murray",
+		"Affiliation": "Microsoft Research Silicon Valley"
+	},
+	{
+		"Name": "Steven Hand",
+		"Key": "Steven Hand",
+		"Affiliation": "University of Cambridge Computer Laboratory"
+	},
+	{
+		"Name": "Josef Spillner",
+		"Key": "Josef Spillner",
+		"Affiliation": "Technische Universitat Dresden"
+	},
+	{
+		"Name": "Andrey Brito",
+		"Key": "Andrey Brito",
+		"Affiliation": "Universidade Federal de Campina Grande"
+	},
+	{
+		"Name": "Alexandre Duarte",
+		"Key": "Alexandre Duarte",
+		"Affiliation": "Universidade Federal da Paraiba"
+	},
+	{
+		"Name": "Daniel Goldbach",
+		"Key": "Daniel Goldbach",
+		"Affiliation": "University of New South Wales"
+	},
+	{
+		"Name": "Gregory Valiant",
+		"Key": "Gregory Valiant",
+		"Affiliation": "Microsoft Research"
+	},
+	{
+		"Name": "Petter Strandmark",
+		"Key": "Petter Strandmark",
+		"Affiliation": "Lund University"
+	},
+	{
+		"Name": "Felienne Hermans",
+		"Key": "Felienne Hermans",
+		"Affiliation": "Delft University of Technology"
+	},
+	{
+		"Name": "Xin Jia",
+		"Key": "Xin Jia",
+		"Affiliation": "Brown University"
+	},
+	{
+		"Name": "Andrew Pavlo",
+		"Key": "Andrew Pavlo",
+		"Affiliation": "Brown University"
+	},
+	{
+		"Name": "Stanley Zdonik",
+		"Key": "Stanley Zdonik",
+		"Affiliation": "Brown University "
+	},
+	{
+		"Name": "Peter Boothe",
+		"Key": "Peter Boothe",
+		"Affiliation": "Manhattan College"
+	},
+	{
+		"Name": "Michael Netter",
+		"Key": "Michael Netter",
+		"Affiliation": "University of Regensburg"
+	},
+	{
+		"Name": "Jeffrey C. Mogul",
+		"Key": "Jeffrey C. Mogul",
+		"Affiliation": "HP Labs"
+	},
+	{
+		"Name": "Eddie Kohler",
+		"Key": "Eddie Kohler",
+		"Affiliation": "Harvard University"
+	},
+	{
+		"Name": "Gonca Gursun",
+		"Key": "Gonca Gursun",
+		"Affiliation": "Boston University"
+	},
+	{
+		"Name": "Natali Ruchansky",
+		"Key": "Natali Ruchansky",
+		"Affiliation": "Boston University"
+	},
+	{
+		"Name": "Evimaria Terzi",
+		"Key": "Evimaria Terzi",
+		"Affiliation": "Boston University"
+	},
+	{
+		"Name": "Mark Crovella",
+		"Key": "Mark Crovella",
+		"Affiliation": "Boston University"
+	},
+	{
+		"Name": "David Terei",
+		"Key": "David Terei",
+		"Affiliation": "Stanford University"
+	},
+	{
+		"Name": "Simon Marlow",
+		"Key": "Simon Marlow",
+		"Affiliation": "Microsoft Research"
+	},
+	{
+		"Name": "Simon Peyton Jones",
+		"Key": "Simon Peyton Jones",
+		"Affiliation": "Microsoft Research"
+	},
+	{
+		"Name": "David Mazieres",
+		"Key": "David Mazieres",
+		"Affiliation": "Stanford University"
+	},
+	{
+		"Name": "Collin Mulliner",
+		"Key": "Collin Mulliner",
+		"Affiliation": "Technische Universitat Berlin"
+	},
+	{
+		"Name": "William Harris",
+		"Key": "William Harris",
+		"Affiliation": "University of Wisconsin Madison"
+	},
+	{
+		"Name": "Arvind Narayanan",
+		"Key": "Arvind Narayanan",
+		"Affiliation": "Princeton University"
+	},
+	{
+		"Name": "Ariel Rabkin",
+		"Key": "Ariel Rabkin",
+		"Affiliation": "Princeton University"
+	},
+	{
+		"Name": "Bogdan Vasilescu",
+		"Key": "Bogdan Vasilescu",
+		"Affiliation": "Eindhoven University of Technology"
+	},
+	{
+		"Name": "Alexander Serebrenik",
+		"Key": "Alexander Serebrenik",
+		"Affiliation": "Eindhoven University of Technology"
+	},
+	{
+		"Name": "Mark G.J. van den Brand",
+		"Key": "Mark G.J. van den Brand",
+		"Affiliation": "Eindhoven University of Technology"
+	},
+	{
+		"Name": "Jochen Wuttke",
+		"Key": "Jochen Wuttke",
+		"Affiliation": "University of Washington"
+	},
+	{
+		"Name": "Ivan Beschastnikh",
+		"Key": "Ivan Beschastnikh",
+		"Affiliation": "University of Washington"
+	},
+	{
+		"Name": "Yuriy Brun",
+		"Key": "Yuriy Brun",
+		"Affiliation": "University of Massachusetts"
+	},
+	{
+		"Name": "Stephen Checkoway",
+		"Key": "Stephen Checkoway",
+		"Affiliation": "Johns Hopkins University"
+	},
+	{
+		"Name": "Markus Burkardt",
+		"Key": "Markus Burkardt",
+		"Affiliation": "Cornell University"
+	},
+	{
+		"Name": "Karthik Dantu",
+		"Key": "Karthik Dantu",
+		"Affiliation": "Harvard University"
+	},
+	{
+		"Name": "Nils Napp",
+		"Key": "Nils Napp",
+		"Affiliation": "Harvard University"
+	},
+	{
+		"Name": "Radhika Nagpal",
+		"Key": "Radhika Nagpal",
+		"Affiliation": "Harvard University"
+	},
+	{
+		"Name": "Michael Bechard",
+		"Key": "Michael Bechard",
+		"Affiliation": "Eastern Nazarene College"
+	},
+	{
+		"Name": "Marie-Louise Bruner",
+		"Key": "Marie-Louise Bruner",
+		"Affiliation": "Vienna University of Technology"
+	},
+	{
+		"Name": "Martin Lackner",
+		"Key": "Martin Lackner",
+		"Affiliation": "Vienna University of Technology"
+	},
+	{
+		"Name": "Alexander Tiskin",
+		"Key": "Alexander Tiskin",
+		"Affiliation": "University of Warwick"
+	},
+	{
+		"Name": "Dirk Ahlers",
+		"Key": "Dirk Ahlers",
+		"Affiliation": "Search Consultant"
+	},
+	{
+		"Name": "Michele Bottone",
+		"Key": "Michele Bottone",
+		"Affiliation": "Matroid"
+	},
+	{
+		"Name": "Elisa Rojas",
+		"Key": "Elisa Rojas",
+		"Affiliation": "Universidad de Alcala Madrid"
+	},
+	{
+		"Name": "Guillermo Ibanez",
+		"Key": "Guillermo Ibanez",
+		"Affiliation": "Universidad de Alcala Madrid"
+	},
+	{
+		"Name": "Yuanchao Shu",
+		"Key": "Yuanchao Shu",
+		"Affiliation": "Zhejiang University"
+	},
+	{
+		"Name": "Yuelong Tian",
+		"Key": "Yuelong Tian",
+		"Affiliation": "Zhejiang University"
+	},
+	{
+		"Name": "Yu Gu",
+		"Key": "Yu Gu",
+		"Affiliation": "Singapore University of Technology and Design"
+	},
+	{
+		"Name": "Jiming Chen",
+		"Key": "Jiming Chen",
+		"Affiliation": "Zhejiang University"
+	},
+	{
+		"Name": "Ted Herman",
+		"Key": "Ted Herman",
+		"Affiliation": "University of Iowa"
+	},
+	{
+		"Name": "Adam M. Smith",
+		"Key": "Adam M. Smith",
+		"Affiliation": "Expressive Intelligence Studio and UC Santa Cruz"
+	},
+	{
+		"Name": "Steven Braeger",
+		"Key": "Steven Braeger",
+		"Affiliation": "University of Central Florida"
+	},
+	{
+		"Name": "Jayson Lynch",
+		"Key": "Jayson Lynch",
+		"Affiliation": "Massachusetts Institute of Technology"
+	},
+	{
+		"Name": "Michael O'Neill",
+		"Key": "Michael O'Neill",
+		"Affiliation": "University College Dublin"
+	},
+	{
+		"Name": "Mark Thompson",
+		"Key": "Mark Thompson",
+		"Affiliation": "LUMC"
+	},
+	{
+		"Name": "Erik Schultes",
+		"Key": "Erik Schultes",
+		"Affiliation": "LUMC"
+	},
+	{
+		"Name": "Marco Roos",
+		"Key": "Marco Roos",
+		"Affiliation": "LUMC"
+	},
+	{
+		"Name": "Barend Mons",
+		"Key": "Barend Mons",
+		"Affiliation": "LUMC"
+	},
+	{
+		"Name": "Michele Catasta",
+		"Key": "Michele Catasta",
+		"Affiliation": "EPFL"
+	},
+	{
+		"Name": "George Porter",
+		"Key": "George Porter",
+		"Affiliation": "University of California San Diego"
+	},
+	{
+		"Name": "Karl Koscher",
+		"Key": "Karl Koscher",
+		"Affiliation": "University of Washington"
+	},
+	{
+		"Name": "Mary Baker",
+		"Key": "Mary Baker",
+		"Affiliation": "HP Labs"
+	},
+	{
+		"Name": "Ian Robinson",
+		"Key": "Ian Robinson",
+		"Affiliation": "HP Labs"
+	}
+	]
+}
