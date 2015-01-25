@@ -1,0 +1,3466 @@
+{
+    "DataRevision": 1422150222,
+    "Preliminary": "false",
+    "Event": "PPoPP 2015",
+    "Name": "PPoPP 2015",
+    "Description": "",
+    "Date": "February 7–11, 2015",
+    "DateStart": "2015-02-07",
+    "DateEnd": "2015-02-11",
+    "Location": "San Francisco, CA, USA",
+    "Sponsors": "",
+    "URL": "http://ppopp15.soe.ucsc.edu/",
+    "MultiTrack": "false",
+    "UseMiniPage": "true",
+    "NewPagePerDay": "false",
+    "NumOfParallelTracks": 1,
+    "Organization": {
+        "General Chairs": [
+                "Albert Cohen"
+        ],
+        "PC Chairs": [
+                "David Grove"
+        ]
+    },
+    "SocialFeeds": [
+    ],
+    "VenueInfo": {
+        "Name": "",
+        "GPS": {
+            "Latitude": 0,
+            "Longitude": 0
+        }
+    },
+    "InfoPage": {
+        "xaml": "foo",
+        "Elements": [
+            {
+                "XamlName": "ConferenceCenterMap",
+                "Type": "Map",
+                "GPS": {
+                    "Latitude": 0,
+                    "Longitude": 0
+                },
+                "MapLabel": ""
+            },
+            {
+                "XamlName": "LicenseButton",
+                "Type": "WebLink",
+                "URL": "http://research.microsoft.com/en-US/projects/confapp/terms.aspx"
+            },
+            {
+                "XamlName": "PrivacyButton",
+                "Type": "WebLink",
+                "URL": "http://privacy.microsoft.com/en-us/default.msp"
+            }
+        ]
+    },
+    "SessionPriorities": [
+        "Award",
+        "Invited Talk",
+        "Other"
+    ],
+    "Items": [
+        {
+            "Title": "Message from the Chairs",
+            "Type": "Frontmatter",
+            "Key": "ppopp15foreword-fm001-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAlbert+Cohen+and+David+Grove+%22Message+from+the+Chairs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Albert Cohen and David Grove",
+            "AffiliationsString": "INRIA, France; IBM Research, USA",
+            "Authors": [
+                "Albert Cohen @ INRIA, France",
+                "David Grove @ IBM Research, USA"
+            ],
+            "Affiliations": [
+                "INRIA, France",
+                "IBM Research, USA"
+            ],
+            "Abstract": "It is our great pleasure to welcome you to 20th ACM Symposium on Principles and Practice of Parallel Programming – PPoPP’15. PPoPP is the leading forum for work on all aspects of parallel programming, including foundational and theoretical aspects, techniques, tools, and practical experiences. Given the rise of parallel architectures into the consumer market (desktops, laptops, and mobile devices), we made an effort to attract work that addresses new parallel workloads, techniques and tools that attempt to improve the productivity of parallel programming, and work towards improved synergy with such emerging architectures.",
+            "Award": ""
+        },
+        {
+            "Title": "More Than You Ever Wanted to Know about Synchronization: Synchrobench, Measuring the Impact of the Synchronization on Concurrent Algorithms",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-36-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DVincent+Gramoli+%22More+Than+You+Ever+Wanted+to+Know+about+Synchronization%3A+Synchrobench%2C+Measuring+the+Impact+of+the+Synchronization+on+Concurrent+Algorithms%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688501",
+            "PersonsString": "Vincent Gramoli",
+            "AffiliationsString": "NICTA, Australia; University of Sydney, Australia",
+            "Authors": [
+                "Vincent Gramoli @ NICTA, Australia / University of Sydney, Australia"
+            ],
+            "Affiliations": [
+                "NICTA, Australia / University of Sydney, Australia"
+            ],
+            "Abstract": "In this paper, we present the most extensive comparison of synchronization techniques. We evaluate 5 different synchronization techniques through a series of 31 data structure algorithms from the recent literature on 3 multicore platforms from Intel, Sun Microsystems and AMD. To this end, we developed in C/C++ and Java a new micro-benchmark suite, called Synchrobench, hence helping the community evaluate new data structures and synchronization techniques. The main conclusion of this evaluation is threefold: (i) although compare-and-swap helps achieving the best performance on multicores, doing so correctly is hard; (ii) optimistic locking offers varying performance results while transactional memory offers more consistent results; and (iii) copy-on-write and read-copy-update suffer more from contention than any other technique but could be combined with others to derive efficient algorithms.",
+            "Award": ""
+        },
+        {
+            "Title": "The SprayList: A Scalable Relaxed Priority Queue",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-187-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DDan+Alistarh%2C+Justin+Kopinsky%2C+Jerry+Li%2C+and+Nir+Shavit+%22The+SprayList%3A+A+Scalable+Relaxed+Priority+Queue%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688523",
+            "PersonsString": "Dan Alistarh, Justin Kopinsky, Jerry Li, and Nir Shavit",
+            "AffiliationsString": "Microsoft Research, UK; Massachusetts Institute of Technology, USA; Tel Aviv University, Israel",
+            "Authors": [
+                "Dan Alistarh @ Microsoft Research, UK",
+                "Justin Kopinsky @ Massachusetts Institute of Technology, USA",
+                "Jerry Li @ Massachusetts Institute of Technology, USA",
+                "Nir Shavit @ Massachusetts Institute of Technology, USA / Tel Aviv University, Israel"
+            ],
+            "Affiliations": [
+                "Microsoft Research, UK",
+                "Massachusetts Institute of Technology, USA",
+                "Massachusetts Institute of Technology, USA",
+                "Massachusetts Institute of Technology, USA / Tel Aviv University, Israel"
+            ],
+            "Abstract": "High-performance concurrent priority queues are essential for applications such as task scheduling and discrete event simulation. Unfortunately, even the best performing implementations do not scale past a number of threads in the single digits. This is because of the sequential bottleneck in accessing the elements at the head of the queue in order to perform a DeleteMin operation. In this paper, we present the SprayList, a scalable priority queue with relaxed ordering semantics. Starting from a non-blocking SkipList, the main innovation behind our design is that the DeleteMin operations avoid a sequential bottleneck by ``spraying&#039;&#039; themselves onto the head of the SkipList list in a coordinated fashion. The spraying is implemented using a carefully designed random walk, so that DeleteMin returns an element among the first O(p log^3 p) in the list, with high probability, where p is the number of threads. We prove that the running time of a DeleteMin operation is O(log^3 p), with high probability, independent of the size of the list. Our experiments show that the relaxed semantics allow the data structure to scale for high thread counts, comparable to a classic unordered SkipList. Furthermore, we observe that, for reasonably parallel workloads, the scalability benefits of relaxation considerably outweigh the additional work due to out-of-order execution.",
+            "Award": ""
+        },
+        {
+            "Title": "Predicate RCU: An RCU for Scalable Concurrent Updates",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-145-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMaya+Arbel+and+Adam+Morrison+%22Predicate+RCU%3A+An+RCU+for+Scalable+Concurrent+Updates%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688518",
+            "PersonsString": "Maya Arbel and Adam Morrison",
+            "AffiliationsString": "Technion, Israel",
+            "Authors": [
+                "Maya Arbel @ Technion, Israel",
+                "Adam Morrison @ Technion, Israel"
+            ],
+            "Affiliations": [
+                "Technion, Israel",
+                "Technion, Israel"
+            ],
+            "Abstract": "Read-copy update (RCU) is a shared memory synchronization mechanism with scalable synchronization-free reads that nevertheless execute correctly with concurrent updates. To guarantee the consistency of such reads, an RCU update transitioning the data structure between certain states must wait for the completion of all existing reads. Unfortunately, these waiting periods quickly become a bottleneck, and thus RCU remains unused in data structures that require scalable, fine-grained, update operations. To solve this problem, we present Predicate RCU (PRCU), an RCU variant in which an update waits only for the reads whose consistency it affects, which are specified by a user-supplied predicate. We explore the trade-offs in implementing PRCU, describing implementations that reduce wait times by 10--100x with varying overhead on reads on modern x86 multiprocessor machines. We demonstrate the applicability of PRCU by applying it to two RCU-based concurrent algorithms---the Citrus binary search tree and a resizable hash table---and show experimentally that PRCU significantly improves the performance of both algorithms.",
+            "Award": ""
+        },
+        {
+            "Title": "Automatic Scalable Atomicity via Semantic Locking",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-74-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DGuy+Golan-Gueta%2C+G.+Ramalingam%2C+Mooly+Sagiv%2C+and+Eran+Yahav+%22Automatic+Scalable+Atomicity+via+Semantic+Locking%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688511",
+            "PersonsString": "Guy Golan-Gueta, G. Ramalingam, Mooly Sagiv, and Eran Yahav",
+            "AffiliationsString": "Yahoo Labs, Israel; Microsoft Research, India; Tel Aviv University, Israel; Technion, Israel",
+            "Authors": [
+                "Guy Golan-Gueta @ Yahoo Labs, Israel",
+                "G. Ramalingam @ Microsoft Research, India",
+                "Mooly Sagiv @ Tel Aviv University, Israel",
+                "Eran Yahav @ Technion, Israel"
+            ],
+            "Affiliations": [
+                "Yahoo Labs, Israel",
+                "Microsoft Research, India",
+                "Tel Aviv University, Israel",
+                "Technion, Israel"
+            ],
+            "Abstract": "In this paper, we consider concurrent programs in which the shared state consists of instances of linearizable ADTs (abstract data types). We present an automated approach to concurrency control that addresses a common need: the need to atomically execute a code fragment, which may contain multiple ADT operations on multiple ADT instances. We present a synthesis algorithm that automatically enforces atomicity of given code fragments (in a client program) by inserting pessimistic synchronization that guarantees atomicity and deadlock-freedom (without using any rollback mechanism). Our algorithm takes a commutativity specification as an extra input. This specification indicates for every pair of ADT operations the conditions under which the operations commute. Our algorithm enables greater parallelism by permitting commuting operations to execute concurrently. We have implemented the synthesis algorithm in a Java compiler, and applied it to several Java programs. Our results show that our approach produces efficient and scalable synchronization.",
+            "Award": ""
+        },
+        {
+            "Title": "A Framework for Practical Parallel Fast Matrix Multiplication",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-81-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAustin+R.+Benson+and+Grey+Ballard+%22A+Framework+for+Practical+Parallel+Fast+Matrix+Multiplication%22",
+            "URLvideo": "",
+            "URLinfo": "https%3A%2F%2Fgithub.com%2Farbenson%2Ffast-matmul",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688513",
+            "PersonsString": "Austin R. Benson and Grey Ballard",
+            "AffiliationsString": "Stanford University, USA; Sandia National Laboratories, USA",
+            "Authors": [
+                "Austin R. Benson @ Stanford University, USA",
+                "Grey Ballard @ Sandia National Laboratories, USA"
+            ],
+            "Affiliations": [
+                "Stanford University, USA",
+                "Sandia National Laboratories, USA"
+            ],
+            "Abstract": "Matrix multiplication is a fundamental computation in many scientific disciplines. In this paper, we show that novel fast matrix multiplication algorithms can significantly outperform vendor implementations of the classical algorithm and Strassen&#039;s fast algorithm on modest problem sizes and shapes. Furthermore, we show that the best choice of fast algorithm depends not only on the size of the matrices but also the shape. We develop a code generation tool to automatically implement multiple sequential and shared-memory parallel variants of each fast algorithm, including our novel parallelization scheme. This allows us to rapidly benchmark over 20 fast algorithms on several problem sizes. Furthermore, we discuss a number of practical implementation issues for these algorithms on shared-memory machines that can direct further research on making fast algorithms practical.",
+            "Award": ""
+        },
+        {
+            "Title": "PLUTO+: Near-Complete Modeling of Affine Transformations for Parallelism and Locality",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-76-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAravind+Acharya+and+Uday+Bondhugula+%22PLUTO%2B%3A+Near-Complete+Modeling+of+Affine+Transformations+for+Parallelism+and+Locality%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688512",
+            "PersonsString": "Aravind Acharya and Uday Bondhugula",
+            "AffiliationsString": "Indian Institute of Science, India",
+            "Authors": [
+                "Aravind Acharya @ Indian Institute of Science, India",
+                "Uday Bondhugula @ Indian Institute of Science, India"
+            ],
+            "Affiliations": [
+                "Indian Institute of Science, India",
+                "Indian Institute of Science, India"
+            ],
+            "Abstract": "Affine transformations have proven to be very powerful for loop restructuring due to their ability to model a very wide range of transformations. A single multi-dimensional affine function can represent a long and complex sequence of simpler transformations. Existing affine transformation frameworks like the Pluto algorithm, that include a cost function for modern multicore architectures where coarse-grained parallelism and locality are crucial, consider only a sub-space of transformations to avoid a combinatorial explosion in finding the transformations. The ensuing practical trade-offs lead to the exclusion of certain useful transformations, in particular, transformation compositions involving loop reversals and loop skewing by negative factors. In this paper, we propose an approach to address this limitation by modeling a much larger space of affine transformations in conjunction with the Pluto algorithm&#039;s cost function. We perform an experimental evaluation of both, the effect on compilation time, and performance of generated codes. The evaluation shows that our new framework, Pluto+, provides no degradation in performance in any of the Polybench benchmarks. For Lattice Boltzmann Method (LBM) codes with periodic boundary conditions, it provides a mean speedup of 1.33x over Pluto. We also show that Pluto+ does not increase compile times significantly. Experimental results on Polybench show that Pluto+ increases overall polyhedral source-to-source optimization time only by 15%. In cases where it improves execution time significantly, it increased polyhedral optimization time only by 2.04x.",
+            "Award": ""
+        },
+        {
+            "Title": "Distributed Memory Code Generation for Mixed Irregular/Regular Computations",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-101-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMahesh+Ravishankar%2C+Roshan+Dathathri%2C+Venmugil+Elango%2C+Louis-No%C3%ABl+Pouchet%2C+J.+Ramanujam%2C+Atanas+Rountev%2C+and+P.+Sadayappan+%22Distributed+Memory+Code+Generation+for+Mixed+Irregular%2FRegular+Computations%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688515",
+            "PersonsString": "Mahesh Ravishankar, Roshan Dathathri, Venmugil Elango, Louis-Noël Pouchet, J. Ramanujam, Atanas Rountev, and P. Sadayappan",
+            "AffiliationsString": "Ohio State University, USA; Louisiana State University, USA",
+            "Authors": [
+                "Mahesh Ravishankar @ Ohio State University, USA",
+                "Roshan Dathathri @ Ohio State University, USA",
+                "Venmugil Elango @ Ohio State University, USA",
+                "Louis-Noël Pouchet @ Ohio State University, USA",
+                "J. Ramanujam @ Louisiana State University, USA",
+                "Atanas Rountev @ Ohio State University, USA",
+                "P. Sadayappan @ Ohio State University, USA"
+            ],
+            "Affiliations": [
+                "Ohio State University, USA",
+                "Ohio State University, USA",
+                "Ohio State University, USA",
+                "Ohio State University, USA",
+                "Louisiana State University, USA",
+                "Ohio State University, USA",
+                "Ohio State University, USA"
+            ],
+            "Abstract": "Many applications feature a mix of irregular and regular computational structures. For example, codes using adaptive mesh refinement (AMR) typically use a collection of regular blocks, where the number of blocks and the relationship between blocks is irregular. The computational structure in such applications generally involves regular (affine) loop computations within some number of innermost loops, while outer loops exhibit irregularity due to data-dependent control flow and indirect array access patterns. Prior approaches to distributed memory parallelization do not handle such computations effectively. They either target loop nests that are completely affine using polyhedral frameworks, or treat all loops as irregular. Consequently, the generated distributed memory code contains artifacts that disrupt the regular nature of previously affine innermost loops of the computation. This hampers subsequent optimizations to improve on-node performance. We propose a code generation framework that can effectively transform such applications for execution on distributed memory systems. Our approach generates distributed memory code which preserves program properties that enable subsequent polyhederal optimizations. Simultaneously, it addresses a major memory bottleneck of prior techniques that limits the scalability of the generated code. The effectiveness of the proposed framework is demonstrated on computations that are mixed regular/irregular, completely regular, and completely irregular.",
+            "Award": ""
+        },
+        {
+            "Title": "Software Partitioning of Hardware Transactions",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-50-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DLingxiang+Xiang+and+Michael+L.+Scott+%22Software+Partitioning+of+Hardware+Transactions%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688506",
+            "PersonsString": "Lingxiang Xiang and Michael L. Scott",
+            "AffiliationsString": "University of Rochester, USA",
+            "Authors": [
+                "Lingxiang Xiang @ University of Rochester, USA",
+                "Michael L. Scott @ University of Rochester, USA"
+            ],
+            "Affiliations": [
+                "University of Rochester, USA",
+                "University of Rochester, USA"
+            ],
+            "Abstract": "Best-effort hardware transactional memory (HTM) allows complex operations to execute atomically and in parallel, so long as hardware buffers do not overflow, and conflicts are not encountered with concurrent operations. We describe a programming technique and compiler support to reduce both overflow and conflict rates by partitioning common operations into read-mostly (planning) and write-mostly (completion) operations, which then execute separately. The completion operation remains transactional; planning can often occur in ordinary code. High-level (semantic) atomicity for the overall operation is ensured by passing an application-specific validator object between planning and completion. Transparent composition of partitioned operations is made possible through fully-automated compiler support, which migrates all planning operations out of the parent transaction while respecting all program data flow and dependences. For both micro- and macro-benchmarks, experiments on IBM z-Series and Intel Haswell machines demonstrate that partitioning can lead to dramatically lower abort rates and higher scalability.",
+            "Award": ""
+        },
+        {
+            "Title": "Performance Implications of Dynamic Memory Allocators on Transactional Memory Systems",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-44-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAlexandro+Baldassin%2C+Edson+Borin%2C+and+Guido+Araujo+%22Performance+Implications+of+Dynamic+Memory+Allocators+on+Transactional+Memory+Systems%22",
+            "URLvideo": "",
+            "URLinfo": "https%3A%2F%2Fgithub.com%2Fbaldas%2Ftm-study-malloc",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688504",
+            "PersonsString": "Alexandro Baldassin, Edson Borin, and Guido Araujo",
+            "AffiliationsString": "UNESP, Brazil; UNICAMP, Brazil",
+            "Authors": [
+                "Alexandro Baldassin @ UNESP, Brazil",
+                "Edson Borin @ UNICAMP, Brazil",
+                "Guido Araujo @ UNICAMP, Brazil"
+            ],
+            "Affiliations": [
+                "UNESP, Brazil",
+                "UNICAMP, Brazil",
+                "UNICAMP, Brazil"
+            ],
+            "Abstract": "Although dynamic memory management accounts for a significant part of the execution time on many modern software systems, its impact on the performance of transactional memory systems has been mostly overlooked. In order to shed some light into this subject, this paper conducts a thorough investigation of the interplay between memory allocators and software transactional memory (STM) systems. We show that allocators can interfere with the way memory addresses are mapped to versioned locks on state-of-the-art software transactional memory implementations. Moreover, we observed that key aspects of allocators such as false sharing avoidance, scalability, and locality have a drastic impact on the final performance. For instance, we have detected performance differences of up to 171% in the STAMP applications when using distinct allocators. Moreover, we show that optimizations at the STM-level (such as caching transactional objects) are not effective when a modern allocator is already in use. All in all, our study highlights the importance of reporting the allocator utilized in the performance evaluation of transactional memory systems.",
+            "Award": ""
+        },
+        {
+            "Title": "Low-Overhead Software Transactional Memory with Progress Guarantees and Strong Semantics",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-72-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMinjia+Zhang%2C+Jipeng+Huang%2C+Man+Cao%2C+and+Michael+D.+Bond+%22Low-Overhead+Software+Transactional+Memory+with+Progress+Guarantees+and+Strong+Semantics%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688510",
+            "PersonsString": "Minjia Zhang, Jipeng Huang, Man Cao, and Michael D. Bond",
+            "AffiliationsString": "Ohio State University, USA",
+            "Authors": [
+                "Minjia Zhang @ Ohio State University, USA",
+                "Jipeng Huang @ Ohio State University, USA",
+                "Man Cao @ Ohio State University, USA",
+                "Michael D. Bond @ Ohio State University, USA"
+            ],
+            "Affiliations": [
+                "Ohio State University, USA",
+                "Ohio State University, USA",
+                "Ohio State University, USA",
+                "Ohio State University, USA"
+            ],
+            "Abstract": "Software transactional memory offers an appealing alternative to locks by improving programmability, reliability, and scalability. However, existing STMs are impractical because they add high instrumentation costs and often provide weak progress guarantees and/or semantics. This paper introduces a novel STM called LarkTM that provides three significant features. (1) Its instrumentation adds low overhead except when accesses actually conflict, enabling low single-thread overhead and scaling well on low-contention workloads. (2) It uses eager concurrency control mechanisms, yet naturally supports flexible conflict resolution, enabling strong progress guarantees. (3) It naturally provides strong atomicity semantics at low cost. LarkTM&#039;s design works well for low-contention workloads, but adds significant overhead under higher contention, so we design an adaptive version of LarkTM that uses alternative concurrency control for high-contention objects. An implementation and evaluation in a Java virtual machine show that the basic and adaptive versions of LarkTM not only provide low single-thread overhead, but their multithreaded performance compares favorably with existing high-performance STMs.",
+            "Award": ""
+        },
+        {
+            "Title": "Barrier Elision for Production Parallel Programs",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-41-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMilind+Chabbi%2C+Wim+Lavrijsen%2C+Wibe+de+Jong%2C+Koushik+Sen%2C+John+Mellor-Crummey%2C+and+Costin+Iancu+%22Barrier+Elision+for+Production+Parallel+Programs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688502",
+            "PersonsString": "Milind Chabbi, Wim Lavrijsen, Wibe de Jong, Koushik Sen, John Mellor-Crummey, and Costin Iancu",
+            "AffiliationsString": "Rice University, USA; Lawrence Berkeley National Laboratory, USA; University of California at Berkeley, USA",
+            "Authors": [
+                "Milind Chabbi @ Rice University, USA",
+                "Wim Lavrijsen @ Lawrence Berkeley National Laboratory, USA",
+                "Wibe de Jong @ Lawrence Berkeley National Laboratory, USA",
+                "Koushik Sen @ University of California at Berkeley, USA",
+                "John Mellor-Crummey @ Rice University, USA",
+                "Costin Iancu @ Lawrence Berkeley National Laboratory, USA"
+            ],
+            "Affiliations": [
+                "Rice University, USA",
+                "Lawrence Berkeley National Laboratory, USA",
+                "Lawrence Berkeley National Laboratory, USA",
+                "University of California at Berkeley, USA",
+                "Rice University, USA",
+                "Lawrence Berkeley National Laboratory, USA"
+            ],
+            "Abstract": "Large scientific code bases are often composed of several layers of runtime libraries, implemented in multiple programming languages. In such situation, programmers often choose conservative synchronization patterns leading to suboptimal performance. In this paper, we present context-sensitive dynamic optimizations that elide barriers redundant during the program execution. In our technique, we perform data race detection alongside the program to identify redundant barriers in their calling contexts; after an initial learning, we start eliding all future instances of barriers occurring in the same calling context. We present an automatic on-the-fly optimization and a multi-pass guided optimization. We apply our techniques to NWChem--a 6 million line computational chemistry code written in C/C++/Fortran that uses several runtime libraries such as Global Arrays, ComEx, DMAPP, and MPI. Our technique elides a surprisingly high fraction of barriers (as many as 63%) in production runs. This redundancy elimination translates to application speedups as high as 14% on 2048 cores. Our techniques also provided valuable insight about the application behavior, later used by NWChem developers. Overall, we demonstrate the value of holistic context-sensitive analyses that consider the domain science in conjunction with the associated runtime software stack.",
+            "Award": ""
+        },
+        {
+            "Title": "Scalable and Efficient Implementation of 3D Unstructured Meshes Computation: A Case Study on Matrix Assembly",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-140-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DLo%C3%AFc+Th%C3%A9bault%2C+Eric+Petit%2C+and+Quang+Dinh+%22Scalable+and+Efficient+Implementation+of+3D+Unstructured+Meshes+Computation%3A+A+Case+Study+on+Matrix+Assembly%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688517",
+            "PersonsString": "Loïc Thébault, Eric Petit, and Quang Dinh",
+            "AffiliationsString": "University of Versailles, France; Dassault Aviation, France",
+            "Authors": [
+                "Loïc Thébault @ University of Versailles, France",
+                "Eric Petit @ University of Versailles, France",
+                "Quang Dinh @ Dassault Aviation, France"
+            ],
+            "Affiliations": [
+                "University of Versailles, France",
+                "University of Versailles, France",
+                "Dassault Aviation, France"
+            ],
+            "Abstract": "Exposing massive parallelism on 3D unstructured meshes computation with efficient load balancing and minimal synchronizations is challenging. Current approaches relying on domain decomposition and mesh coloring struggle to scale with the increasing number of cores per nodes, especially with new many-core processors. In this paper, we propose an hybrid approach using domain decomposition to exploit distributed memory parallelism, Divide-and-Conquer, D&amp;C, to exploit shared memory parallelism and improve locality, and mesh coloring at core level to exploit vectors. It illustrates a new trade-off for many-cores between structuredness, memory locality, and vectorization. We evaluate our approach on the finite element matrix assembly of an industrial fluid dynamic code developed by Dassault Aviation. We compare our D&amp;C approach to domain decomposition and to mesh coloring. D&amp;C achieves a high parallel efficiency, a good data locality as well as an improved bandwidth usage. It competes on current nodes with the optimized pure MPI version with a minimum 10% speed-up. D&amp;C shows an impressive 319x strong scaling on 512 cores (32 nodes) with only 2000 vertices per core. Finally, the Intel Xeon Phi version has a performance similar to 10 Intel E5-2665 Xeon Sandy Bridge cores and 95% parallel efficiency on the 60 physical cores. Running on 4 Xeon Phi (240 cores), D&amp;C has 92% efficiency on the physical cores and performance similar to 33 Intel E5-2665 Xeon Sandy Bridge cores.",
+            "Award": ""
+        },
+        {
+            "Title": "Diagnosing the Causes and Severity of One-Sided Message Contention",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-125-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DNathan+R.+Tallent%2C+Abhinav+Vishnu%2C+Hubertus+Van+Dam%2C+Jeff+Daily%2C+Darren+J.+Kerbyson%2C+and+Adolfy+Hoisie+%22Diagnosing+the+Causes+and+Severity+of+One-Sided+Message+Contention%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688516",
+            "PersonsString": "Nathan R. Tallent, Abhinav Vishnu, Hubertus Van Dam, Jeff Daily, Darren J. Kerbyson, and Adolfy Hoisie",
+            "AffiliationsString": "Pacific Northwest National Laboratory, USA",
+            "Authors": [
+                "Nathan R. Tallent @ Pacific Northwest National Laboratory, USA",
+                "Abhinav Vishnu @ Pacific Northwest National Laboratory, USA",
+                "Hubertus Van Dam @ Pacific Northwest National Laboratory, USA",
+                "Jeff Daily @ Pacific Northwest National Laboratory, USA",
+                "Darren J. Kerbyson @ Pacific Northwest National Laboratory, USA",
+                "Adolfy Hoisie @ Pacific Northwest National Laboratory, USA"
+            ],
+            "Affiliations": [
+                "Pacific Northwest National Laboratory, USA",
+                "Pacific Northwest National Laboratory, USA",
+                "Pacific Northwest National Laboratory, USA",
+                "Pacific Northwest National Laboratory, USA",
+                "Pacific Northwest National Laboratory, USA",
+                "Pacific Northwest National Laboratory, USA"
+            ],
+            "Abstract": "Two trends suggest network contention for one-sided messages is poised to become a performance problem that concerns application developers: an increased interest in one-sided programming models and a rising ratio of hardware threads to network injection bandwidth. Often it is difficult to reason about when one-sided tasks decrease or increase network contention. We present effective and portable techniques for diagnosing the causes and severity of one-sided message contention. To detect that a message is affected by contention, we maintain statistics representing instantaneous network resource demand. Using lightweight measurement and modeling, we identify the portion of a message&#039;s latency that is due to contention and whether contention occurs at the initiator or target. We attribute these metrics to program statements in their full static and dynamic context. We characterize contention for an important computational chemistry benchmark on InfiniBand, Cray Aries, and IBM Blue Gene/Q interconnects. We pinpoint the sources of contention, estimate their severity, and show that when message delivery time deviates from an ideal model, there are other messages contending for the same network links. With a small change to the benchmark, we reduce contention by 50% and improve total runtime by 20%.",
+            "Award": ""
+        },
+        {
+            "Title": "A Parallel Algorithm for Global States Enumeration in Concurrent Systems",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-164-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DYen-Jung+Chang+and+Vijay+K.+Garg+%22A+Parallel+Algorithm+for+Global+States+Enumeration+in+Concurrent+Systems%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688520",
+            "PersonsString": "Yen-Jung Chang and Vijay K. Garg",
+            "AffiliationsString": "University of Texas at Austin, USA",
+            "Authors": [
+                "Yen-Jung Chang @ University of Texas at Austin, USA",
+                "Vijay K. Garg @ University of Texas at Austin, USA"
+            ],
+            "Affiliations": [
+                "University of Texas at Austin, USA",
+                "University of Texas at Austin, USA"
+            ],
+            "Abstract": "Verifying the correctness of the executions of a concurrent program is difficult because of its nondeterministic behavior. One of the verification methods is predicate detection, which predicts whether the user specified condition (predicate) could become true in any global states of the program. The method is predictive because it generates inferred execution paths from the observed execution path and then checks the predicate on the global states of inferred paths. One important part of predicate detection is global states enumeration, which generates the global states on inferred paths. Cooper and Marzullo gave the first enumeration algorithm based on a breadth first strategy (BFS). Later, many algorithms have been proposed to improve space and time complexity. None of them, however, takes parallelism into consideration. In this paper, we present the first parallel and online algorithm, named ParaMount, for global state enumeration. Our experimental results show that ParaMount speeds up the existing sequential algorithms by a factor of 6 with 8 threads. We have implemented an online predicate detector using ParaMount. For predicate detection, our detector based on ParaMount is 10 to 50 times faster than RV runtime (a verification tool that uses Cooper and Marzullo’s BFS enumeration algorithm).",
+            "Award": ""
+        },
+        {
+            "Title": "Dynamic Deadlock Verification for General Barrier Synchronisation",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-146-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DTiago+Cogumbreiro%2C+Raymond+Hu%2C+Francisco+Martins%2C+and+Nobuko+Yoshida+%22Dynamic+Deadlock+Verification+for+General+Barrier+Synchronisation%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688519",
+            "PersonsString": "Tiago Cogumbreiro, Raymond Hu, Francisco Martins, and Nobuko Yoshida",
+            "AffiliationsString": "Imperial College London, UK; University of Lisbon, Portugal",
+            "Authors": [
+                "Tiago Cogumbreiro @ Imperial College London, UK",
+                "Raymond Hu @ Imperial College London, UK",
+                "Francisco Martins @ University of Lisbon, Portugal",
+                "Nobuko Yoshida @ Imperial College London, UK"
+            ],
+            "Affiliations": [
+                "Imperial College London, UK",
+                "Imperial College London, UK",
+                "University of Lisbon, Portugal",
+                "Imperial College London, UK"
+            ],
+            "Abstract": "We present Armus, a dynamic verification tool for deadlock detection and avoidance specialised in barrier synchronisation. Barriers are used to coordinate the execution of groups of tasks, and serve as a building block of parallel computing. Our tool verifies more barrier synchronisation patterns than current state-of-the-art. To improve the scalability of verification, we introduce a novel event-based representation of concurrency constraints, and a graph-based technique for deadlock analysis. The implementation is distributed and fault-tolerant, and can verify X10 and Java programs. To formalise the notion of barrier deadlock, we introduce a core language expressive enough to represent the three most widespread barrier synchronisation patterns: group, split-phase, and dynamic membership. We propose a graph analysis technique that selects from two alternative graph representations: the Wait-For Graph, that favours programs with more tasks than barriers; and the State Graph, optimised for programs with more barriers than tasks. We prove that finding a deadlock in either representation is equivalent, and that the verification algorithm is sound and complete with respect to the notion of deadlock in our core language. Armus is evaluated with three benchmark suites in local and distributed scenarios. The benchmarks show that graph analysis with automatic graph-representation selection can record a 7-fold execution increase versus the traditional fixed graph representation. The performance measurements for distributed deadlock detection between 64 processes show negligible overheads.",
+            "Award": ""
+        },
+        {
+            "Title": "VirtCL: A Framework for OpenCL Device Abstraction and Management",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-48-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DYi-Ping+You%2C+Hen-Jung+Wu%2C+Yeh-Ning+Tsai%2C+and+Yen-Ting+Chao+%22VirtCL%3A+A+Framework+for+OpenCL+Device+Abstraction+and+Management%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688505",
+            "PersonsString": "Yi-Ping You, Hen-Jung Wu, Yeh-Ning Tsai, and Yen-Ting Chao",
+            "AffiliationsString": "National Chiao Tung University, Taiwan",
+            "Authors": [
+                "Yi-Ping You @ National Chiao Tung University, Taiwan",
+                "Hen-Jung Wu @ National Chiao Tung University, Taiwan",
+                "Yeh-Ning Tsai @ National Chiao Tung University, Taiwan",
+                "Yen-Ting Chao @ National Chiao Tung University, Taiwan"
+            ],
+            "Affiliations": [
+                "National Chiao Tung University, Taiwan",
+                "National Chiao Tung University, Taiwan",
+                "National Chiao Tung University, Taiwan",
+                "National Chiao Tung University, Taiwan"
+            ],
+            "Abstract": "The interest in using multiple graphics processing units (GPUs) to accelerate applications has increased in recent years. However, the existing heterogeneous programming models (e.g., OpenCL) abstract details of GPU devices at the per-device level and require programmers to explicitly schedule their kernel tasks on a system equipped with multiple GPU devices. Unfortunately, multiple applications running on a multi-GPU system may compete for some of the GPU devices while leaving other GPU devices unused. Moreover, the distributed memory model defined in OpenCL, where each device has its own memory space, increases the complexity of managing the memory among multiple GPU devices. In this article we propose a framework (called VirtCL) that reduces the programming burden by acting as a layer between the programmer and the native OpenCL run-time system for abstracting multiple devices into a single virtual device and for scheduling computations and communications among the multiple devices. VirtCL comprises two main components: (1) a front-end library, which exposes primary OpenCL APIs and the virtual device, and (2) a back-end run-time system (called CLDaemon) for scheduling and dispatching kernel tasks based on a history-based scheduler. The front-end library forwards computation requests to the back-end CLDaemon, which then schedules and dispatches the requests. We also propose a history-based scheduler that is able to schedule kernel tasks in a contention- and communication-aware manner. Experiments demonstrated that the VirtCL framework introduced a small overhead (mean of 6%) but outperformed the native OpenCL run-time system for most benchmarks in the Rodinia benchmark suite, which was due to the abstraction layer eliminating the time-consuming initialization of OpenCL contexts. We also evaluated different scheduling policies in VirtCL with a real-world application (clsurf) and various synthetic workload traces. The results indicated that the VirtCL framework provides scalability for multiple kernel tasks running on multi-GPU systems.",
+            "Award": ""
+        },
+        {
+            "Title": "On Optimizing Machine Learning Workloads via Kernel Fusion",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-170-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DArash+Ashari%2C+Shirish+Tatikonda%2C+Matthias+Boehm%2C+Berthold+Reinwald%2C+Keith+Campbell%2C+John+Keenleyside%2C+and+P.+Sadayappan+%22On+Optimizing+Machine+Learning+Workloads+via+Kernel+Fusion%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688521",
+            "PersonsString": "Arash Ashari, Shirish Tatikonda, Matthias Boehm, Berthold Reinwald, Keith Campbell, John Keenleyside, and P. Sadayappan",
+            "AffiliationsString": "Ohio State University, USA; IBM, USA; IBM, Canada",
+            "Authors": [
+                "Arash Ashari @ Ohio State University, USA",
+                "Shirish Tatikonda @ IBM, USA",
+                "Matthias Boehm @ IBM, USA",
+                "Berthold Reinwald @ IBM, USA",
+                "Keith Campbell @ IBM, Canada",
+                "John Keenleyside @ IBM, Canada",
+                "P. Sadayappan @ Ohio State University, USA"
+            ],
+            "Affiliations": [
+                "Ohio State University, USA",
+                "IBM, USA",
+                "IBM, USA",
+                "IBM, USA",
+                "IBM, Canada",
+                "IBM, Canada",
+                "Ohio State University, USA"
+            ],
+            "Abstract": "Exploitation of parallel architectures has become critical to scalable machine learning (ML). Since a wide range of ML algorithms employ linear algebraic operators, GPUs with BLAS libraries are a natural choice for such an exploitation. Two approaches are commonly pursued: (i) developing specific GPU accelerated implementations of complete ML algorithms; and (ii) developing GPU kernels for primitive linear algebraic operators like matrix-vector multiplication, which are then used in developing ML algorithms. This paper extends the latter approach by developing fused kernels for a combination of primitive operators that are commonly found in popular ML algorithms. We identify the generic pattern of computation (alpha * X^T (v * (X * y)) + beta * z) and its various instantiations. We develop a fused kernel to optimize this computation on GPUs -- with specialized techniques to handle both sparse and dense matrices. This approach not only reduces the cost of data loads due to improved temporal locality but also enables other optimizations like coarsening and hierarchical aggregation of partial results. We also present an analytical model that considers input data characteristics and available GPU resources to estimate near-optimal settings for kernel launch parameters. The proposed approach provides speedups ranging from 2 to 67 for different instances of the generic pattern compared to launching multiple operator-level kernels using GPU accelerated libraries. We conclude by demonstrating the effectiveness of the approach in improving end-to-end performance on an entire ML algorithm.",
+            "Award": ""
+        },
+        {
+            "Title": "NUMA-Aware Graph-Structured Analytics",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-57-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DKaiyuan+Zhang%2C+Rong+Chen%2C+and+Haibo+Chen+%22NUMA-Aware+Graph-Structured+Analytics%22",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Fipads.se.sjtu.edu.cn%2Fprojects%2Fpolymer.html",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688507",
+            "PersonsString": "Kaiyuan Zhang, Rong Chen, and Haibo Chen",
+            "AffiliationsString": "Shanghai Jiao Tong University, China",
+            "Authors": [
+                "Kaiyuan Zhang @ Shanghai Jiao Tong University, China",
+                "Rong Chen @ Shanghai Jiao Tong University, China",
+                "Haibo Chen @ Shanghai Jiao Tong University, China"
+            ],
+            "Affiliations": [
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China"
+            ],
+            "Abstract": "Graph-structured analytics has been widely adopted in a number of big data applications such as social computation, web-search and recommendation systems. Though much prior research focuses on scaling graph-analytics on distributed environments, the strong desire on performance per core, dollar and joule has generated considerable interests of processing large-scale graphs on a single server-class machine, which may have several terabytes of RAM and 80 or more cores. However, prior graph-analytics systems are largely neutral to NUMA characteristics and thus have suboptimal performance. This paper presents a detailed study of NUMA characteristics and their impact on the efficiency of graph-analytics. Our study uncovers two insights: 1) either random or interleaved allocation of graph data will significantly hamper data locality and parallelism; 2) sequential inter-node (i.e., remote) memory accesses have much higher bandwidth than both intra- and inter-node random ones. Based on them, this paper describes Polymer, a NUMA-aware graph-analytics system on multicore with two key design decisions. First, Polymer differentially allocates and places topology data, application-defined data and mutable runtime states of a graph system according to their access patterns to minimize remote accesses. Second, for some remaining random accesses, Polymer carefully converts random remote accesses into sequential remote accesses, by using lightweight replication of vertices across NUMA nodes. To improve load balance and vertex convergence, Polymer is further built with a hierarchical barrier to boost parallelism and locality, an edge-oriented balanced partitioning for skewed graphs, and adaptive data structures according to the proportion of active vertices. A detailed evaluation on an 80-core machine shows that Polymer often outperforms the state-of-the-art single-machine graph-analytics systems, including Ligra, X-Stream and Galois, for a set of popular real-world and synthetic graphs.",
+            "Award": ""
+        },
+        {
+            "Title": "SYNC or ASYNC: Time to Fuse for Distributed Graph-Parallel Computation",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-58-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DChenning+Xie%2C+Rong+Chen%2C+Haibing+Guan%2C+Binyu+Zang%2C+and+Haibo+Chen+%22SYNC+or+ASYNC%3A+Time+to+Fuse+for+Distributed+Graph-Parallel+Computation%22",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Fipads.se.sjtu.edu.cn%2Fprojects%2Fpowerswitch.html",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688508",
+            "PersonsString": "Chenning Xie, Rong Chen, Haibing Guan, Binyu Zang, and Haibo Chen",
+            "AffiliationsString": "Shanghai Jiao Tong University, China",
+            "Authors": [
+                "Chenning Xie @ Shanghai Jiao Tong University, China",
+                "Rong Chen @ Shanghai Jiao Tong University, China",
+                "Haibing Guan @ Shanghai Jiao Tong University, China",
+                "Binyu Zang @ Shanghai Jiao Tong University, China",
+                "Haibo Chen @ Shanghai Jiao Tong University, China"
+            ],
+            "Affiliations": [
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China",
+                "Shanghai Jiao Tong University, China"
+            ],
+            "Abstract": "Large-scale graph-structured computation usually exhibits iterative and convergence-oriented computing nature, where input data is computed iteratively until a convergence condition is reached. Such features have led to the development of two different computation modes for graph-structured programs, namely synchronous (Sync) and asynchronous (Async) modes. Unfortunately, there is currently no in-depth study on their execution properties and thus programmers have to manually choose a mode, either requiring a deep understanding of underlying graph engines, or suffering from suboptimal performance. This paper makes the first comprehensive characterization on the performance of the two modes on a set of typical graph-parallel applications. Our study shows that the performance of the two modes varies significantly with different graph algorithms, partitioning methods, execution stages, input graphs and cluster scales, and no single mode consistently outperforms the other. To this end, this paper proposes Hsync, a hybrid graph computation mode that adaptively switches a graph-parallel program between the two modes for optimal performance. Hsync constantly collects execution statistics on-the-fly and leverages a set of heuristics to predict future performance and determine when a mode switch could be profitable. We have built online sampling and offline profiling approaches combined with a set of heuristics to accurately predicting future performance in the two modes. A prototype called PowerSwitch has been built based on PowerGraph, a state-of-the-art distributed graph-parallel system, to support adaptive execution of graph algorithms. On a 48-node EC2-like cluster, PowerSwitch consistently outperforms the best of both modes, with a speedup ranging from 9% to 73% due to timely switch between two modes.",
+            "Award": ""
+        },
+        {
+            "Title": "Cache-Oblivious Wavefront: Improving Parallelism of Recursive Dynamic Programming Algorithms without Losing Cache-Efficiency",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-97-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DYuan+Tang%2C+Ronghui+You%2C+Haibin+Kan%2C+Jesmin+Jahan+Tithi%2C+Pramod+Ganapathi%2C+and+Rezaul+A.+Chowdhury+%22Cache-Oblivious+Wavefront%3A+Improving+Parallelism+of+Recursive+Dynamic+Programming+Algorithms+without+Losing+Cache-Efficiency%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688514",
+            "PersonsString": "Yuan Tang, Ronghui You, Haibin Kan, Jesmin Jahan Tithi, Pramod Ganapathi, and Rezaul A. Chowdhury",
+            "AffiliationsString": "Fudan University, China; Stony Brook University, USA",
+            "Authors": [
+                "Yuan Tang @ Fudan University, China",
+                "Ronghui You @ Fudan University, China",
+                "Haibin Kan @ Fudan University, China",
+                "Jesmin Jahan Tithi @ Stony Brook University, USA",
+                "Pramod Ganapathi @ Stony Brook University, USA",
+                "Rezaul A. Chowdhury @ Stony Brook University, USA"
+            ],
+            "Affiliations": [
+                "Fudan University, China",
+                "Fudan University, China",
+                "Fudan University, China",
+                "Stony Brook University, USA",
+                "Stony Brook University, USA",
+                "Stony Brook University, USA"
+            ],
+            "Abstract": "State-of-the-art cache-oblivious parallel algorithms for dynamic programming (DP) problems usually guarantee asymptotically optimal cache performance without any tuning of cache parameters, but they often fail to exploit the theoretically best parallelism at the same time. While these algorithms achieve cache-optimality through the use of a recursive divide-and-conquer (DAC) strategy, scheduling tasks at the granularity of task dependency introduces artificial dependencies in addition to those arising from the defining recurrence equations. We removed the artificial dependency by scheduling tasks ready for execution as soon as all its real dependency constraints are satisfied, while preserving the cache-optimality by inheriting the DAC strategy. We applied our approach to a set of widely known dynamic programming problems, such as Floyd-Warshall&#039;s All-Pairs Shortest Paths, Stencil, and LCS. Theoretical analyses show that our techniques improve the span of 2-way DAC-based Floyd Warshall&#039;s algorithm on an $n$ node graph from $Thn^2n$ to $Thn$, stencil computations on a $d$-dimensional hypercubic grid of width $w$ for $h$ time steps from $Th(d^2 h) w^ (d+2) - 1$ to $Thh$, and LCS on two sequences of length $n$ each from $Thn^_2 3$ to $Thn$. In each case, the total work and cache complexity remain asymptotically optimal. Experimental measurements exhibit a $3$ - $5$ times improvement in absolute running time, $10$ - $20$ times improvement in burdened span by Cilkview, and approximately the same L1/L2 cache misses by PAPI.",
+            "Award": ""
+        },
+        {
+            "Title": "High Performance Locks for Multi-level NUMA Systems",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-42-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMilind+Chabbi%2C+Michael+Fagan%2C+and+John+Mellor-Crummey+%22High+Performance+Locks+for+Multi-level+NUMA+Systems%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688503",
+            "PersonsString": "Milind Chabbi, Michael Fagan, and John Mellor-Crummey",
+            "AffiliationsString": "Rice University, USA",
+            "Authors": [
+                "Milind Chabbi @ Rice University, USA",
+                "Michael Fagan @ Rice University, USA",
+                "John Mellor-Crummey @ Rice University, USA"
+            ],
+            "Affiliations": [
+                "Rice University, USA",
+                "Rice University, USA",
+                "Rice University, USA"
+            ],
+            "Abstract": "Efficient locking mechanisms are critically important for high performance computers. On highly-threaded systems with a deep memory hierarchy, the throughput of traditional queueing locks, e.g., MCS locks, falls off due to NUMA effects. Two-level cohort locks perform better on NUMA systems, but fail to deliver top performance for deep NUMA hierarchies. In this paper, we describe a hierarchical variant of the MCS lock that adapts the principles of cohort locking for architectures with deep NUMA hierarchies. We describe analytical models for throughput and fairness of Cohort-MCS (C-MCS) and Hierarchical MCS (HMCS) locks that enable us to tailor these locks for high performance on any target platform without empirical tuning. Using these models, one can select parameters such that an HMCS lock will deliver better fairness than a C-MCS lock for a given throughput, or deliver better throughput for a given fairness. Our experiments show that, under high contention, a three-level HMCS lock delivers up to 7.6x higher lock throughput than a C-MCS lock on a 128-thread IBM Power 755 and a five-level HMCS lock delivers up to 72x higher lock throughput on a 4096-thread SGI UV 1000. On the K-means clustering code from the MineBench suit, a three-level HMCS lock reduces the running time by up to 55% compared to the C-MCS lock on a IBM Power 755.",
+            "Award": ""
+        },
+        {
+            "Title": "A Library for Portable and Composable Data Locality Optimizations for NUMA Systems",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-68-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DZoltan+Majo+and+Thomas+R.+Gross+%22A+Library+for+Portable+and+Composable+Data+Locality+Optimizations+for+NUMA+Systems%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688509",
+            "PersonsString": "Zoltan Majo and Thomas R. Gross",
+            "AffiliationsString": "ETH Zurich, Switzerland",
+            "Authors": [
+                "Zoltan Majo @ ETH Zurich, Switzerland",
+                "Thomas R. Gross @ ETH Zurich, Switzerland"
+            ],
+            "Affiliations": [
+                "ETH Zurich, Switzerland",
+                "ETH Zurich, Switzerland"
+            ],
+            "Abstract": "Many recent multiprocessor systems are realized with a non-uniform memory architecture (NUMA) and accesses to remote memory locations take more time than local memory accesses. Optimizing NUMA memory system performance is difficult and costly for three principal reasons: (1) today&#039;s programming languages/libraries have no explicit support for NUMA systems, (2) NUMA optimizations are not~portable, and (3) optimizations are not~composable (i.e., they can become ineffective or worsen performance in environments that support composable parallel software). This paper presents TBB-NUMA, a parallel programming library based on Intel Threading Building Blocks (TBB) that supports portable and composable NUMA-aware programming. TBB-NUMA provides a model of task affinity that captures a programmer&#039;s insights on mapping tasks to resources. NUMA-awareness affects all layers of the library (i.e., resource management, task scheduling, and high-level parallel algorithm templates) and requires close coupling between all these layers. Optimizations implemented with TBB-NUMA (for a set of standard benchmark programs) result in up to 44% performance improvement over standard TBB, but more important, optimized programs are portable across different NUMA architectures and preserve data locality also when composed with other parallel computations.",
+            "Award": ""
+        },
+        {
+            "Title": "MPI+Threads: Runtime Contention and Remedies",
+            "Type": "Full Paper",
+            "Key": "ppopp15main-mainppopp15-171-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAbdelhalim+Amer%2C+Huiwei+Lu%2C+Yanjie+Wei%2C+Pavan+Balaji%2C+and+Satoshi+Matsuoka+%22MPI%2BThreads%3A+Runtime+Contention+and+Remedies%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688522",
+            "PersonsString": "Abdelhalim Amer, Huiwei Lu, Yanjie Wei, Pavan Balaji, and Satoshi Matsuoka",
+            "AffiliationsString": "Tokyo Institute of Technology, Japan; Argonne National Laboratory, USA; Shenzhen Institute of Advanced Technologies at Chinese Academy of Sciences, China",
+            "Authors": [
+                "Abdelhalim Amer @ Tokyo Institute of Technology, Japan",
+                "Huiwei Lu @ Argonne National Laboratory, USA",
+                "Yanjie Wei @ Shenzhen Institute of Advanced Technologies at Chinese Academy of Sciences, China",
+                "Pavan Balaji @ Argonne National Laboratory, USA",
+                "Satoshi Matsuoka @ Tokyo Institute of Technology, Japan"
+            ],
+            "Affiliations": [
+                "Tokyo Institute of Technology, Japan",
+                "Argonne National Laboratory, USA",
+                "Shenzhen Institute of Advanced Technologies at Chinese Academy of Sciences, China",
+                "Argonne National Laboratory, USA",
+                "Tokyo Institute of Technology, Japan"
+            ],
+            "Abstract": "Hybrid MPI+Threads programming has emerged as an alternative model to the “MPI everywhere” model to better handle the increasing core density in cluster nodes. While the MPI standard allows multithreaded concurrent communication, such flexibility comes with the cost of maintaining thread safety within the MPI implementation, typically implemented using critical sections. In contrast to previous works that studied the importance of critical-section granularity in MPI implementations, in this paper we investigate the implication of critical-section arbitration on communication performance. We first analyze the MPI runtime when multithreaded concurrent communication takes place on hierarchical memory systems. Our results indicate that the mutex-based approach that most MPI implementations use today can incur performance penalties due to unfair arbitration. We then present methods to mitigate these penalties with a first-come, first-served arbitration and a priority locking scheme that favors threads doing useful work. Through evaluations using several benchmarks and applications, we demonstrate up to 5-fold improvement in performance.",
+            "Award": ""
+        },
+        {
+            "Title": "Fence Placement for Legacy Data-Race-Free Programs via Synchronization Read Detection",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-12-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAndrew+J.+McPherson%2C+Vijay+Nagarajan%2C+Susmit+Sarkar%2C+and+Marcelo+Cintra+%22Fence+Placement+for+Legacy+Data-Race-Free+Programs+via+Synchronization+Read+Detection%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688524",
+            "PersonsString": "Andrew J. McPherson, Vijay Nagarajan, Susmit Sarkar, and Marcelo Cintra",
+            "AffiliationsString": "University of Edinburgh, UK; University of St. Andrews, UK; Intel, Germany",
+            "Authors": [
+                "Andrew J. McPherson @ University of Edinburgh, UK",
+                "Vijay Nagarajan @ University of Edinburgh, UK",
+                "Susmit Sarkar @ University of St. Andrews, UK",
+                "Marcelo Cintra @ Intel, Germany"
+            ],
+            "Affiliations": [
+                "University of Edinburgh, UK",
+                "University of Edinburgh, UK",
+                "University of St. Andrews, UK",
+                "Intel, Germany"
+            ],
+            "Abstract": "Fence placement is required to ensure legacy parallel programs operate correctly on relaxed architectures. The challenge is to place as few fences as possible without compromising correctness. By identifying necessary conditions for a read to be an acquire we improve upon the state of the art for legacy DRF programs by up to 2.64x.",
+            "Award": ""
+        },
+        {
+            "Title": "JAWS: A JavaScript Framework for Adaptive CPU-GPU Work Sharing",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-21-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DXianglan+Piao%2C+Channoh+Kim%2C+Younghwan+Oh%2C+Huiying+Li%2C+Jincheon+Kim%2C+Hanjun+Kim%2C+and+Jae+W.+Lee+%22JAWS%3A+A+JavaScript+Framework+for+Adaptive+CPU-GPU+Work+Sharing%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688525",
+            "PersonsString": "Xianglan Piao, Channoh Kim, Younghwan Oh, Huiying Li, Jincheon Kim, Hanjun Kim, and Jae W. Lee",
+            "AffiliationsString": "Sungkyunkwan University, South Korea; Company 100, South Korea; POSTECH, South Korea",
+            "Authors": [
+                "Xianglan Piao @ Sungkyunkwan University, South Korea",
+                "Channoh Kim @ Sungkyunkwan University, South Korea",
+                "Younghwan Oh @ Sungkyunkwan University, South Korea",
+                "Huiying Li @ Sungkyunkwan University, South Korea",
+                "Jincheon Kim @ Company 100, South Korea",
+                "Hanjun Kim @ POSTECH, South Korea",
+                "Jae W. Lee @ Sungkyunkwan University, South Korea"
+            ],
+            "Affiliations": [
+                "Sungkyunkwan University, South Korea",
+                "Sungkyunkwan University, South Korea",
+                "Sungkyunkwan University, South Korea",
+                "Sungkyunkwan University, South Korea",
+                "Company 100, South Korea",
+                "POSTECH, South Korea",
+                "Sungkyunkwan University, South Korea"
+            ],
+            "Abstract": "This paper introduces jAWS, a JavaScript framework for adaptive work sharing between CPU and GPU for data-parallel workloads. Unlike conventional heterogeneous parallel programming environments for JavaScript, which use only one compute device when executing a single kernel, jAWS accelerates kernel execution by exploiting both devices to realize full performance potential of heterogeneous multicores. jAWS employs an efficient work partitioning algorithm that finds an optimal work distribution between the two devices without requiring offline profiling. The jAWS runtime provides shared arrays for multiple parallel contexts, hence eliminating extra copy overhead for input and output data. Our preliminary evaluation with both CPU-friendly and GPU-friendly benchmarks demonstrates that jAWS provides good load balancing and efficient data communication between parallel contexts, to significantly outperform best single-device execution.",
+            "Award": ""
+        },
+        {
+            "Title": "GStream: A Graph Streaming Processing Method for Large-Scale Graphs on GPUs",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-23-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DHyunseok+Seo%2C+Jinwook+Kim%2C+and+Min-Soo+Kim+%22GStream%3A+A+Graph+Streaming+Processing+Method+for+Large-Scale+Graphs+on+GPUs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688526",
+            "PersonsString": "Hyunseok Seo, Jinwook Kim, and Min-Soo Kim",
+            "AffiliationsString": "DGIST, South Korea",
+            "Authors": [
+                "Hyunseok Seo @ DGIST, South Korea",
+                "Jinwook Kim @ DGIST, South Korea",
+                "Min-Soo Kim @ DGIST, South Korea"
+            ],
+            "Affiliations": [
+                "DGIST, South Korea",
+                "DGIST, South Korea",
+                "DGIST, South Korea"
+            ],
+            "Abstract": "Fast processing graph algorithms for large-scale graphs becomes increasingly important. Besides, there have been many attempts to process graph applications by exploiting the massive amount of parallelism of GPUs. However, most of the existing methods fail to process large-scale graphs that do not fit in GPU device memory. We propose a fast and scalable parallel processing method GStream that fully exploits the computational power of GPUs for processing large-scale graphs (e.g., billions vertices) very efficiently. It exploits the concept of nested-loop theta-join and multiple asynchronous GPU streams. Extensive experimental results show that GStream consistently and significantly outperforms the state-of-the art method.",
+            "Award": ""
+        },
+        {
+            "Title": "SemCache++: Semantics-Aware Caching for Efficient Multi-GPU Offloading",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-24-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DNabeel+Al-Saber+and+Milind+Kulkarni+%22SemCache%2B%2B%3A+Semantics-Aware+Caching+for+Efficient+Multi-GPU+Offloading%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688527",
+            "PersonsString": "Nabeel Al-Saber and Milind Kulkarni",
+            "AffiliationsString": "Purdue University, USA",
+            "Authors": [
+                "Nabeel Al-Saber @ Purdue University, USA",
+                "Milind Kulkarni @ Purdue University, USA"
+            ],
+            "Affiliations": [
+                "Purdue University, USA",
+                "Purdue University, USA"
+            ],
+            "Abstract": "Offloading computations to multiple GPUs is not an easy task. It requires decomposing data, distributing computations and handling communication manually. Drop-in GPU libraries have made it easy to offload computations to multiple GPUs by hiding this complexity inside library calls. Such encapsulation prevents the reuse of the data between successive kernel invocations resulting in redundant communication. This limitation exists in multi-GPU libraries like CUBLASXT. In this paper, we introduce SemCache++, a semantics-aware GPU cache that automatically manages communication between the CPU and multiple GPUs in addition to optimizing communication by eliminating redundant transfers using caching. SemCache++ is used to build the first multi-GPU drop-in replacement library that (a) uses the virtual memory to automatically manage and optimize multi-GPU communication and (b) requires no program rewriting or annotations. Our caching technique is efficient; it uses a two level caching directory to track matrices and sub-matrices. Experimental results show that our system can eliminate redundant communication and deliver significant performance improvements over multi-GPU libraries like CUBLASXT.",
+            "Award": ""
+        },
+        {
+            "Title": "An OpenACC-Based Unified Programming Model for Multi-accelerator Systems",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-40-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJungwon+Kim%2C+Seyong+Lee%2C+and+Jeffrey+S.+Vetter+%22An+OpenACC-Based+Unified+Programming+Model+for+Multi-accelerator+Systems%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688531",
+            "PersonsString": "Jungwon Kim, Seyong Lee, and Jeffrey S. Vetter",
+            "AffiliationsString": "Oak Ridge National Laboratory, USA; Georgia Tech, USA",
+            "Authors": [
+                "Jungwon Kim @ Oak Ridge National Laboratory, USA",
+                "Seyong Lee @ Oak Ridge National Laboratory, USA",
+                "Jeffrey S. Vetter @ Oak Ridge National Laboratory, USA / Georgia Tech, USA"
+            ],
+            "Affiliations": [
+                "Oak Ridge National Laboratory, USA",
+                "Oak Ridge National Laboratory, USA",
+                "Oak Ridge National Laboratory, USA / Georgia Tech, USA"
+            ],
+            "Abstract": "This paper proposes a novel SPMD programming model of OpenACC. Our model integrates the different granularities of parallelism from vector-level parallelism to node-level parallelism into a single, unified model based on OpenACC. It allows programmers to write programs for multiple accelerators using a uniform programming model whether they are in shared or distributed memory systems. We implement a prototype of our model and evaluate its performance with a GPU-based supercomputer using three benchmark applications.",
+            "Award": ""
+        },
+        {
+            "Title": "The Lazy Happens-Before Relation: Better Partial-Order Reduction for Systematic Concurrency Testing",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-61-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DPaul+Thomson+and+Alastair+F.+Donaldson+%22The+Lazy+Happens-Before+Relation%3A+Better+Partial-Order+Reduction+for+Systematic+Concurrency+Testing%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688533",
+            "PersonsString": "Paul Thomson and Alastair F. Donaldson",
+            "AffiliationsString": "Imperial College London, UK",
+            "Authors": [
+                "Paul Thomson @ Imperial College London, UK",
+                "Alastair F. Donaldson @ Imperial College London, UK"
+            ],
+            "Affiliations": [
+                "Imperial College London, UK",
+                "Imperial College London, UK"
+            ],
+            "Abstract": "We present the lazy happens-before relation (lazy HBR), which ignores mutex-induced edges to provide a more precise notion of state equivalence compared with the traditional happens-before relation. We demonstrate experimentally that the lazy HBR has the potential to provide greater schedule reduction during systematic concurrency testing with respect to a set of 79 Java benchmarks.",
+            "Award": ""
+        },
+        {
+            "Title": "Towards Batched Linear Solvers on Accelerated Hardware Platforms",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-63-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAzzam+Haidar%2C+Tingxing+Dong%2C+Piotr+Luszczek%2C+Stanimire+Tomov%2C+and+Jack+Dongarra+%22Towards+Batched+Linear+Solvers+on+Accelerated+Hardware+Platforms%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688534",
+            "PersonsString": "Azzam Haidar, Tingxing Dong, Piotr Luszczek, Stanimire Tomov, and Jack Dongarra",
+            "AffiliationsString": "University of Tennessee, USA; Oak Ridge National Laboratory, USA; University of Manchester, UK",
+            "Authors": [
+                "Azzam Haidar @ University of Tennessee, USA",
+                "Tingxing Dong @ University of Tennessee, USA",
+                "Piotr Luszczek @ University of Tennessee, USA",
+                "Stanimire Tomov @ University of Tennessee, USA",
+                "Jack Dongarra @ University of Tennessee, USA / Oak Ridge National Laboratory, USA / University of Manchester, UK"
+            ],
+            "Affiliations": [
+                "University of Tennessee, USA",
+                "University of Tennessee, USA",
+                "University of Tennessee, USA",
+                "University of Tennessee, USA",
+                "University of Tennessee, USA / Oak Ridge National Laboratory, USA / University of Manchester, UK"
+            ],
+            "Abstract": "As hardware evolves, an increasingly effective approach to develop energy efficient, high-performance solvers, is to design them to work on many small and independent problems. Indeed, many applications already need this functionality, especially for GPUs, which are known to be currently about four to five times more energy efficient than multicore CPUs for every floating-point operation. In this paper, we describe the development of the main one-sided factorizations: LU, QR, and Cholesky; that are needed for a set of small dense matrices to work in parallel. We refer to such algorithms as batched factorizations. Our approach is based on representing the algorithms as a sequence of batched BLAS routines for GPU-contained execution. Note that this is similar in functionality to the LAPACK and the hybrid MAGMA algorithms for large-matrix factorizations. But it is different from a straightforward approach, whereby each of GPU&#039;s symmetric multiprocessors factorizes a single problem at a time. We illustrate how our performance analysis together with the profiling and tracing tools guided the development of batched factorizations to achieve up to 2-fold speedup and 3-fold better energy efficiency compared to our highly optimized batched CPU implementations based on the MKL library on a two-sockets, Intel Sandy Bridge server. Compared to a batched LU factorization featured in the NVIDIA&#039;s CUBLAS library for GPUs, we achieves up to 2.5-fold speedup on the K40 GPU.",
+            "Award": ""
+        },
+        {
+            "Title": "A Collection-Oriented Programming Model for Performance Portability",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-77-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DSaurav+Muralidharan%2C+Michael+Garland%2C+Bryan+Catanzaro%2C+Albert+Sidelnik%2C+and+Mary+Hall+%22A+Collection-Oriented+Programming+Model+for+Performance+Portability%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688537",
+            "PersonsString": "Saurav Muralidharan, Michael Garland, Bryan Catanzaro, Albert Sidelnik, and Mary Hall",
+            "AffiliationsString": "University of Utah, USA; NVIDIA, USA; Baidu, USA",
+            "Authors": [
+                "Saurav Muralidharan @ University of Utah, USA",
+                "Michael Garland @ NVIDIA, USA",
+                "Bryan Catanzaro @ Baidu, USA",
+                "Albert Sidelnik @ NVIDIA, USA",
+                "Mary Hall @ University of Utah, USA"
+            ],
+            "Affiliations": [
+                "University of Utah, USA",
+                "NVIDIA, USA",
+                "Baidu, USA",
+                "NVIDIA, USA",
+                "University of Utah, USA"
+            ],
+            "Abstract": "This paper describes Surge, a collection-oriented programming model that enables programmers to compose parallel computations using nested high-level data collections and operators. Surge exposes a code generation interface, decoupled from the core computation, that enables programmers and autotuners to easily generate multiple implementations of the same computation on various parallel architectures such as multi-core CPUs and GPUs. By decoupling computations from architecture-specific implementation, programmers can target multiple architectures more easily, and generate a search space that facilitates optimization and customization for specific architectures. We express in Surge four real-world benchmarks from domains such as sparse linear-algebra and machine learning and from the same performance-portable specification, generate OpenMP and CUDA C++ implementations. Surge generates efficient, scalable code which achieves up to 1.32x speedup over handcrafted, well-optimized CUDA code.",
+            "Award": ""
+        },
+        {
+            "Title": "Gunrock: A High-Performance Graph Processing Library on the GPU",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-79-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DYangzihao+Wang%2C+Andrew+Davidson%2C+Yuechao+Pan%2C+Yuduo+Wu%2C+Andy+Riffel%2C+and+John+D.+Owens+%22Gunrock%3A+A+High-Performance+Graph+Processing+Library+on+the+GPU%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688538",
+            "PersonsString": "Yangzihao Wang, Andrew Davidson, Yuechao Pan, Yuduo Wu, Andy Riffel, and John D. Owens",
+            "AffiliationsString": "University of California at Davis, USA",
+            "Authors": [
+                "Yangzihao Wang @ University of California at Davis, USA",
+                "Andrew Davidson @ University of California at Davis, USA",
+                "Yuechao Pan @ University of California at Davis, USA",
+                "Yuduo Wu @ University of California at Davis, USA",
+                "Andy Riffel @ University of California at Davis, USA",
+                "John D. Owens @ University of California at Davis, USA"
+            ],
+            "Affiliations": [
+                "University of California at Davis, USA",
+                "University of California at Davis, USA",
+                "University of California at Davis, USA",
+                "University of California at Davis, USA",
+                "University of California at Davis, USA",
+                "University of California at Davis, USA"
+            ],
+            "Abstract": "For large-scale graph analytics on the GPU, the irregularity of data access and control flow and the complexity of programming GPUs have been two significant challenges for developing a programmable high-performance graph library. &quot;Gunrock&quot;, our graph-processing system, uses a high-level bulk-synchronous abstraction with traversal and computation steps, designed specifically for the GPU. Gunrock couples high performance with a high-level programming model that allows programmers to quickly develop new graph primitives with less than 300 lines of code. We evaluate Gunrock on five graph primitives and show that Gunrock has at least an order of magnitude speedup over Boost and PowerGraph, comparable performance to the fastest GPU hardwired primitives, and better performance than any other GPU high-level graph library.",
+            "Award": ""
+        },
+        {
+            "Title": "Decoupled Load Balancing",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-83-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DOlga+Pearce%2C+Todd+Gamblin%2C+Bronis+R.+de+Supinski%2C+Martin+Schulz%2C+and+Nancy+M.+Amato+%22Decoupled+Load+Balancing%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688539",
+            "PersonsString": "Olga Pearce, Todd Gamblin, Bronis R. de Supinski, Martin Schulz, and Nancy M. Amato",
+            "AffiliationsString": "Texas A&M University, USA; Lawrence Livermore National Laboratory, USA",
+            "Authors": [
+                "Olga Pearce @ Texas A&M University, USA / Lawrence Livermore National Laboratory, USA",
+                "Todd Gamblin @ Lawrence Livermore National Laboratory, USA",
+                "Bronis R. de Supinski @ Lawrence Livermore National Laboratory, USA",
+                "Martin Schulz @ Lawrence Livermore National Laboratory, USA",
+                "Nancy M. Amato @ Texas A&M University, USA"
+            ],
+            "Affiliations": [
+                "Texas A&M University, USA / Lawrence Livermore National Laboratory, USA",
+                "Lawrence Livermore National Laboratory, USA",
+                "Lawrence Livermore National Laboratory, USA",
+                "Lawrence Livermore National Laboratory, USA",
+                "Texas A&M University, USA"
+            ],
+            "Abstract": "Modern scientific simulations divide work between parallel processors by decomposing a spatial domain of mesh cells, particles, or other elements. A balanced assignment of the computational load is critical for parallel performance. If the computation per element changes over the simulation time, simulations can use dynamic load balance algorithms to evenly redistribute work to processes. Graph partitioners are widely used and balance very effectively, but they do not strong scale well. Typical SPMD simulations wait while a load balance algorithm runs on all processors, so a poorly scaling algorithm can itself become a bottleneck. We observe that the load balance algorithm is separate from the main application computation and has its own scaling properties. We propose to decouple the load balance algorithm from the application, and to offload the load balance computation so that it runs concurrently with the application on a smaller number of processors. We demonstrate the costs of decoupling and offloading the load balancing algorithm from a Barnes-Hut application.",
+            "Award": ""
+        },
+        {
+            "Title": "Combining Phase Identification and Statistic Modeling for Automated Parallel Benchmark Generation",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-96-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DYe+Jin%2C+Mingliang+Liu%2C+Xiaosong+Ma%2C+Qing+Liu%2C+Jeremy+Logan%2C+Norbert+Podhorszki%2C+Jong+Youl+Choi%2C+and+Scott+Klasky+%22Combining+Phase+Identification+and+Statistic+Modeling+for+Automated+Parallel+Benchmark+Generation%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688541",
+            "PersonsString": "Ye Jin, Mingliang Liu, Xiaosong Ma, Qing Liu, Jeremy Logan, Norbert Podhorszki, Jong Youl Choi, and Scott Klasky",
+            "AffiliationsString": "North Carolina State University, USA; Qatar Computing Research Institute, Qatar; Oak Ridge National Laboratory, USA",
+            "Authors": [
+                "Ye Jin @ North Carolina State University, USA / Qatar Computing Research Institute, Qatar",
+                "Mingliang Liu @ North Carolina State University, USA / Qatar Computing Research Institute, Qatar",
+                "Xiaosong Ma @ North Carolina State University, USA / Qatar Computing Research Institute, Qatar",
+                "Qing Liu @ Oak Ridge National Laboratory, USA",
+                "Jeremy Logan @ Oak Ridge National Laboratory, USA",
+                "Norbert Podhorszki @ Oak Ridge National Laboratory, USA",
+                "Jong Youl Choi @ Oak Ridge National Laboratory, USA",
+                "Scott Klasky @ Oak Ridge National Laboratory, USA"
+            ],
+            "Affiliations": [
+                "North Carolina State University, USA / Qatar Computing Research Institute, Qatar",
+                "North Carolina State University, USA / Qatar Computing Research Institute, Qatar",
+                "North Carolina State University, USA / Qatar Computing Research Institute, Qatar",
+                "Oak Ridge National Laboratory, USA",
+                "Oak Ridge National Laboratory, USA",
+                "Oak Ridge National Laboratory, USA",
+                "Oak Ridge National Laboratory, USA",
+                "Oak Ridge National Laboratory, USA"
+            ],
+            "Abstract": "Parallel application benchmarks are indispensable for evaluating/optimizing HPC software and hardware. However, it is very challenging and costly to obtain high-fidelity benchmarks reflecting the scale and complexity of state-of-the-art parallel applications. Hand-extracted synthetic benchmarks are time- and labor-intensive to create. Real applications themselves, while offering most accurate performance evaluation, are expensive to compile, port, recon- figure, and often plainly inaccessible due to security or ownership concerns. This work contributes APPRIME, a novel tool for trace-based automatic parallel benchmark generation. Taking as input standard communication-I/O traces of an application’s execution, it couples accurate automatic phase identification with statistical regeneration of event parameters to create compact, portable, and to some degree reconfigurable parallel application benchmarks. Experiments with four NAS Parallel Benchmarks (NPB) and three real scientific simulation codes confirm the fidelity of APPRIME benchmarks. They retain the original applications’ performance characteristics, in particular the relative performance across platforms.",
+            "Award": ""
+        },
+        {
+            "Title": "Optimization of Asynchronous Graph Processing on GPU with Hybrid Coloring Model",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-110-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DXuanhua+Shi%2C+Junling+Liang%2C+Sheng+Di%2C+Bingsheng+He%2C+Hai+Jin%2C+Lu+Lu%2C+Zhixiang+Wang%2C+Xuan+Luo%2C+and+Jianlong+Zhong+%22Optimization+of+Asynchronous+Graph+Processing+on+GPU+with+Hybrid+Coloring+Model%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688542",
+            "PersonsString": "Xuanhua Shi, Junling Liang, Sheng Di, Bingsheng He, Hai Jin, Lu Lu, Zhixiang Wang, Xuan Luo, and Jianlong Zhong",
+            "AffiliationsString": "Huazhong University of Science and Technology, China; Argonne National Laboratory, USA; Nanyang Technological University, Singapore",
+            "Authors": [
+                "Xuanhua Shi @ Huazhong University of Science and Technology, China",
+                "Junling Liang @ Huazhong University of Science and Technology, China",
+                "Sheng Di @ Argonne National Laboratory, USA",
+                "Bingsheng He @ Nanyang Technological University, Singapore",
+                "Hai Jin @ Huazhong University of Science and Technology, China",
+                "Lu Lu @ Huazhong University of Science and Technology, China",
+                "Zhixiang Wang @ Huazhong University of Science and Technology, China",
+                "Xuan Luo @ Huazhong University of Science and Technology, China",
+                "Jianlong Zhong @ Nanyang Technological University, Singapore"
+            ],
+            "Affiliations": [
+                "Huazhong University of Science and Technology, China",
+                "Huazhong University of Science and Technology, China",
+                "Argonne National Laboratory, USA",
+                "Nanyang Technological University, Singapore",
+                "Huazhong University of Science and Technology, China",
+                "Huazhong University of Science and Technology, China",
+                "Huazhong University of Science and Technology, China",
+                "Huazhong University of Science and Technology, China",
+                "Nanyang Technological University, Singapore"
+            ],
+            "Abstract": "Modern GPUs have been widely used to accelerate the graph processing for complicated computational problems regarding graph theory. Many parallel graph algorithms adopt the asynchronous computing model to accelerate the iterative convergence. Unfortunately, the consistent asynchronous computing requires locking or the atomic operations, leading to significant penalties/overheads when implemented on GPUs. To this end, coloring algorithm is adopted to separate the vertices with potential updating conflicts, guaranteeing the consistency/correctness of the parallel processing. We propose a light-weight asynchronous processing framework called Frog with a hybrid coloring model. We find that majority of vertices (about 80%) are colored with only a few colors, such that they can be read and updated in a very high degree of parallelism without violating the sequential consistency. Accordingly, our solution will separate the processing of the vertices based on the distribution of colors.",
+            "Award": ""
+        },
+        {
+            "Title": "Efficient and Reasonable Object-Oriented Concurrency",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-118-p",
+            "URL": "http%3A%2F%2Farxiv.org%2Fpdf%2F1405.7153.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688545",
+            "PersonsString": "Scott West, Sebastian Nanz, and Bertrand Meyer",
+            "AffiliationsString": "ETH Zurich, Switzerland",
+            "Authors": [
+                "Scott West @ ETH Zurich, Switzerland",
+                "Sebastian Nanz @ ETH Zurich, Switzerland",
+                "Bertrand Meyer @ ETH Zurich, Switzerland"
+            ],
+            "Affiliations": [
+                "ETH Zurich, Switzerland",
+                "ETH Zurich, Switzerland",
+                "ETH Zurich, Switzerland"
+            ],
+            "Abstract": "Making threaded programs safe and easy to reason about is one of the chief difficulties in modern programming. This work provides an efficient execution model and implementation for SCOOP, a concurrency approach that provides not only data-race freedom but also pre/postcondition reasoning guarantees between threads. The extensions we propose influence the underlying semantics to increase the amount of concurrent execution that is possible, exclude certain classes of deadlocks, and enable greater performance.",
+            "Award": ""
+        },
+        {
+            "Title": "A Programming Model and Runtime System for Significance-Aware Energy-Efficient Computing",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-119-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DVassilis+Vassiliadis%2C+Konstantinos+Parasyris%2C+Charalambos+Chalios%2C+Christos+D.+Antonopoulos%2C+Spyros+Lalis%2C+Nikolaos+Bellas%2C+Hans+Vandierendonck%2C+and+Dimitrios+S.+Nikolopoulos+%22A+Programming+Model+and+Runtime+System+for+Significance-Aware+Energy-Efficient+Computing%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688546",
+            "PersonsString": "Vassilis Vassiliadis, Konstantinos Parasyris, Charalambos Chalios, Christos D. Antonopoulos, Spyros Lalis, Nikolaos Bellas, Hans Vandierendonck, and Dimitrios S. Nikolopoulos",
+            "AffiliationsString": "University of Thessaly, Greece; Centre for Research and Technology Hellas, Greece; Queen's University of Belfast, UK",
+            "Authors": [
+                "Vassilis Vassiliadis @ University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+                "Konstantinos Parasyris @ University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+                "Charalambos Chalios @ Queen's University of Belfast, UK",
+                "Christos D. Antonopoulos @ University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+                "Spyros Lalis @ University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+                "Nikolaos Bellas @ University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+                "Hans Vandierendonck @ Queen's University of Belfast, UK",
+                "Dimitrios S. Nikolopoulos @ Queen's University of Belfast, UK"
+            ],
+            "Affiliations": [
+                "University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+                "University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+                "Queen's University of Belfast, UK",
+                "University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+                "University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+                "University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+                "Queen's University of Belfast, UK",
+                "Queen's University of Belfast, UK"
+            ],
+            "Abstract": "We introduce a task-based programming model and runtime system that exploit the observation that not all parts of a program are equally significant for the accuracy of the end-result, in order to trade off the quality of program outputs for increased energy-efficiency. This is done in a structured and flexible way, allowing for easy exploitation of different points in the quality/energy space, without adversely affecting application performance. The runtime system can apply a number of different policies to decide whether it will execute less-significant tasks accurately or approximately. The experimental evaluation indicates that our system can achieve an energy reduction of up to 83% compared with a fully accurate execution and up to 35% compared with an approximate version employing loop perforation. At the same time, our approach always results in graceful quality degradation.",
+            "Award": ""
+        },
+        {
+            "Title": "The Lock-Free k-LSM Relaxed Priority Queue",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-121-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMartin+Wimmer%2C+Jakob+Gruber%2C+Jesper+Larsson+Tr%C3%A4ff%2C+and+Philippas+Tsigas+%22The+Lock-Free+k-LSM+Relaxed+Priority+Queue%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688547",
+            "PersonsString": "Martin Wimmer, Jakob Gruber, Jesper Larsson Träff, and Philippas Tsigas",
+            "AffiliationsString": "TU Vienna, Austria; Chalmers University of Technology, Sweden",
+            "Authors": [
+                "Martin Wimmer @ TU Vienna, Austria",
+                "Jakob Gruber @ TU Vienna, Austria",
+                "Jesper Larsson Träff @ TU Vienna, Austria",
+                "Philippas Tsigas @ Chalmers University of Technology, Sweden"
+            ],
+            "Affiliations": [
+                "TU Vienna, Austria",
+                "TU Vienna, Austria",
+                "TU Vienna, Austria",
+                "Chalmers University of Technology, Sweden"
+            ],
+            "Abstract": "We present a new, concurrent, lock-free priority queue that relaxes the delete-min operation to allow deletion of any of the ρ smallest keys instead of only a minimal one, where ρ is a parameter that can be configured at runtime. It is built from a logarithmic number of sorted arrays, similar to log-structured merge-trees (LSM). For keys added and removed by the same thread the behavior is identical to a non-relaxed priority queue. We compare to state-of-the-art lock-free priority queues with both relaxed and non-relaxed semantics, showing high performance and good scalability of our approach.",
+            "Award": ""
+        },
+        {
+            "Title": "Static/Dynamic Validation of MPI Collective Communications in Multi-threaded Context",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-138-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DEmmanuelle+Saillard%2C+Patrick+Carribault%2C+and+Denis+Barthou+%22Static%2FDynamic+Validation+of+MPI+Collective+Communications+in+Multi-threaded+Context%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688548",
+            "PersonsString": "Emmanuelle Saillard, Patrick Carribault, and Denis Barthou",
+            "AffiliationsString": "CEA, France; Bordeaux Institute of Technology, France; LaBRI, France; INRIA, France",
+            "Authors": [
+                "Emmanuelle Saillard @ CEA, France",
+                "Patrick Carribault @ CEA, France",
+                "Denis Barthou @ Bordeaux Institute of Technology, France / LaBRI, France / INRIA, France"
+            ],
+            "Affiliations": [
+                "CEA, France",
+                "CEA, France",
+                "Bordeaux Institute of Technology, France / LaBRI, France / INRIA, France"
+            ],
+            "Abstract": "Scientific applications mainly rely on the MPI parallel programming model to reach high performance on supercomputers. The advent of manycore architectures (larger number of cores and lower amount of memory per core) leads to mix MPI with a thread-based model like OpenMP. But integrating two different programming models inside the same application can be tricky and generate complex bugs. Thus, the correctness of hybrid programs requires a special care regarding MPI calls location. For example, identical MPI collective operations cannot be performed by multiple non-synchronized threads. To tackle this issue, this paper proposes a static analysis and a reduced dynamic instrumentation to detect bugs related to misuse of MPI collective operations inside or outside threaded regions. This work extends PARCOACH designed for MPI-only applications and keeps the compatibility with these algorithms. We validated our method on multiple hybrid benchmarks and applications with a low overhead.",
+            "Award": ""
+        },
+        {
+            "Title": "CASTLE: Fast Concurrent Internal Binary Search Tree using Edge-Based Locking",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-149-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DArunmoezhi+Ramachandran+and+Neeraj+Mittal+%22CASTLE%3A+Fast+Concurrent+Internal+Binary+Search+Tree+using+Edge-Based+Locking%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688551",
+            "PersonsString": "Arunmoezhi Ramachandran and Neeraj Mittal",
+            "AffiliationsString": "University of Texas at Dallas, USA",
+            "Authors": [
+                "Arunmoezhi Ramachandran @ University of Texas at Dallas, USA",
+                "Neeraj Mittal @ University of Texas at Dallas, USA"
+            ],
+            "Affiliations": [
+                "University of Texas at Dallas, USA",
+                "University of Texas at Dallas, USA"
+            ],
+            "Abstract": "We present a new lock-based algorithm for concurrent manipulation of a binary search tree in an asynchronous shared memory system that supports search, insert and delete operations. Some of the desirable characteristics of our algorithm are: (i) a search operation uses only read and write instructions, (ii) an insert operation does not acquire any locks, and (iii) a delete operation only needs to lock up to four edges in the absence of contention. Our algorithm is based on an internal representation of a search tree and it operates at edge-level (locks edges) rather than at node-level (locks nodes); this minimizes the contention window of a write operation and improves the system throughput. Our experiments indicate that our lock-based algorithm outperforms existing algorithms for a concurrent binary search tree for medium-sized and larger trees, achieving up to 59% higher throughput than the next best algorithm.",
+            "Award": ""
+        },
+        {
+            "Title": "Section Based Program Analysis to Reduce Overhead of Detecting Unsynchronized Thread Communication",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-168-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMadan+Das%2C+Gabriel+Southern%2C+and+Jose+Renau+%22Section+Based+Program+Analysis+to+Reduce+Overhead+of+Detecting+Unsynchronized+Thread+Communication%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688552",
+            "PersonsString": "Madan Das, Gabriel Southern, and Jose Renau",
+            "AffiliationsString": "University of California at Santa Cruz, USA",
+            "Authors": [
+                "Madan Das @ University of California at Santa Cruz, USA",
+                "Gabriel Southern @ University of California at Santa Cruz, USA",
+                "Jose Renau @ University of California at Santa Cruz, USA"
+            ],
+            "Affiliations": [
+                "University of California at Santa Cruz, USA",
+                "University of California at Santa Cruz, USA",
+                "University of California at Santa Cruz, USA"
+            ],
+            "Abstract": "We propose Section Based Program Analysis (SBPA), a novel way to decompose programs into disjoint sections to identify non-communicating loads and stores during program compilation. We implemented SBPA for a deterministic execution runtime environment and reduced 63% of dynamic memory access instrumentations. We also integrated SBPA with ThreadSanitizer, and achieved a speed-up of 2.74 on a geometric mean basis.",
+            "Award": ""
+        },
+        {
+            "Title": "A Hierarchical Approach to Reducing Communication in Parallel Graph Algorithms",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-178-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DHarshvardhan%2C+Nancy+M.+Amato%2C+and+Lawrence+Rauchwerger+%22A+Hierarchical+Approach+to+Reducing+Communication+in+Parallel+Graph+Algorithms%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2700994",
+            "PersonsString": "Harshvardhan, Nancy M. Amato, and Lawrence Rauchwerger",
+            "AffiliationsString": "Texas A&M University, USA",
+            "Authors": [
+                "Harshvardhan @ Texas A&M University, USA",
+                "Nancy M. Amato @ Texas A&M University, USA",
+                "Lawrence Rauchwerger @ Texas A&M University, USA"
+            ],
+            "Affiliations": [
+                "Texas A&M University, USA",
+                "Texas A&M University, USA",
+                "Texas A&M University, USA"
+            ],
+            "Abstract": "Large-scale graph computing has become critical due to the ever-increasing size of data. However, distributed graph computations are limited in their scalability and performance due to the heavy communication inherent in such computations. This is exacerbated in scale-free networks, such as social and web graphs, which contain hub vertices that have large degrees and therefore send a large number of messages over the network. Furthermore, many graph algorithms and computations send the same data to each of the neighbors of a vertex. Our proposed approach recognizes this, and reduces communication performed by the algorithm without change to user-code, through a hierarchical machine model imposed upon the input graph. The hierarchical model takes advantage of locale information of the neighboring vertices to reduce communication, both in message volume and total number of bytes sent. It is also able to better exploit the machine hierarchy to further reduce the communication costs, by aggregating traffic between different levels of the machine hierarchy. Results of an implementation in the STAPL GL shows improved scalability and performance over the traditional level-synchronous approach, with 2.5×-8× improvement for a variety of graph algorithms at 12,000+ cores.",
+            "Award": ""
+        },
+        {
+            "Title": "Tiles: A New Language Mechanism for Heterogeneous Parallelism",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-188-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DYifeng+Chen%2C+Xiang+Cui%2C+and+Hong+Mei+%22Tiles%3A+A+New+Language+Mechanism+for+Heterogeneous+Parallelism%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2688555",
+            "PersonsString": "Yifeng Chen, Xiang Cui, and Hong Mei",
+            "AffiliationsString": "Peking University, China",
+            "Authors": [
+                "Yifeng Chen @ Peking University, China",
+                "Xiang Cui @ Peking University, China",
+                "Hong Mei @ Peking University, China"
+            ],
+            "Affiliations": [
+                "Peking University, China",
+                "Peking University, China",
+                "Peking University, China"
+            ],
+            "Abstract": "This paper studies the essence of heterogeneity from the perspective of language mechanism design. The proposed mechanism, called tiles, is a program construct that bridges two relative levels of computation: an outer level of source data in larger, slower or more distributed memory and an inner level of data blocks in smaller, faster or more localized memory.",
+            "Award": ""
+        },
+        {
+            "Title": "Are Web Applications Ready for Parallelism?",
+            "Type": "Abstract",
+            "Key": "ppopp15main-mainppopp15-213-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DCosmin+Radoi%2C+Stephan+Herhut%2C+Jaswanth+Sreeram%2C+and+Danny+Dig+%22Are+Web+Applications+Ready+for+Parallelism%3F%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2688500.2700995",
+            "PersonsString": "Cosmin Radoi, Stephan Herhut, Jaswanth Sreeram, and Danny Dig",
+            "AffiliationsString": "University of Illinois at Urbana-Champaign, USA; Intel, USA; Oregon State University, USA",
+            "Authors": [
+                "Cosmin Radoi @ University of Illinois at Urbana-Champaign, USA",
+                "Stephan Herhut @ Intel, USA",
+                "Jaswanth Sreeram @ Intel, USA",
+                "Danny Dig @ Oregon State University, USA"
+            ],
+            "Affiliations": [
+                "University of Illinois at Urbana-Champaign, USA",
+                "Intel, USA",
+                "Intel, USA",
+                "Oregon State University, USA"
+            ],
+            "Abstract": "In recent years, web applications have become pervasive. Their backbone is JavaScript, the only programming language supported by all major web browsers. Most browsers run on desktop or mobile devices with parallel hardware. However, JavaScript is by design sequential, and current web applications make little use of hardware parallelism. Are web applications ready to exploit parallel hardware? We answer the question in two steps: First, we survey 174 web developers about the potential and challenges of using parallelism. Then, we study the performance and computation shape of a set of web applications that are representative for the emerging web. Our findings indicate that emerging web applications do have latent data parallelism, and JavaScript developers&#039; programming style is not a significant impediment to exploiting this parallelism.",
+            "Award": ""
+        }
+    ],
+    "Sessions": [
+        {
+            "Id": "Rae3aquoe5",
+            "Title": "Welcome Reception",
+            "ShortTitle": "Welcome Reception",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2015-02-08 18:00 Welcome Reception",
+            "Day": "2015-02-08",
+            "Time": "18:00 - 20:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "PPOPP15",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Jua2eeloh1",
+            "Title": "Poster Abstracts",
+            "ShortTitle": "Poster Abstracts",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2015-02-08 18:15 Poster Abstracts",
+            "Day": "2015-02-08",
+            "Time": "18:15 - 20:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "PPOPP15MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "ppopp15main-mainppopp15-12-p",
+                "ppopp15main-mainppopp15-21-p",
+                "ppopp15main-mainppopp15-23-p",
+                "ppopp15main-mainppopp15-24-p",
+                "ppopp15main-mainppopp15-40-p",
+                "ppopp15main-mainppopp15-61-p",
+                "ppopp15main-mainppopp15-63-p",
+                "ppopp15main-mainppopp15-77-p",
+                "ppopp15main-mainppopp15-79-p",
+                "ppopp15main-mainppopp15-83-p",
+                "ppopp15main-mainppopp15-96-p",
+                "ppopp15main-mainppopp15-110-p",
+                "ppopp15main-mainppopp15-118-p",
+                "ppopp15main-mainppopp15-119-p",
+                "ppopp15main-mainppopp15-121-p",
+                "ppopp15main-mainppopp15-138-p",
+                "ppopp15main-mainppopp15-149-p",
+                "ppopp15main-mainppopp15-168-p",
+                "ppopp15main-mainppopp15-178-p",
+                "ppopp15main-mainppopp15-188-p",
+                "ppopp15main-mainppopp15-213-p"
+            ]
+        },
+        {
+            "Id": "cie8eixaiL",
+            "Title": "Message from the Chairs",
+            "ShortTitle": "Message from the Chairs",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2015-02-09 08:30 Message from the Chairs",
+            "Day": "2015-02-09",
+            "Time": "08:30 - 08:50",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "PPOPP15FOREWORD",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "ppopp15foreword-fm001-p"
+            ]
+        },
+        {
+            "Id": "GiepieTh0e",
+            "Title": "Keynote Talk  (Joint with CGO/HPCA)",
+            "ShortTitle": "Keynote Talk  (Joint with CGO/HPCA)",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2015-02-09 08:50 Keynote Talk  (Joint with CGO/HPCA)",
+            "Day": "2015-02-09",
+            "Time": "08:50 - 10:00",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "PPOPP15",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "oothohth0Z",
+            "Title": "Concurrency",
+            "ShortTitle": "Concurrency",
+            "Type": "Session",
+            "ShortType": "Session",
+            "Key": "2015-02-09 10:20 Concurrency",
+            "Day": "2015-02-09",
+            "Time": "10:20 - 12:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "PPOPP15MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "ppopp15main-mainppopp15-36-p",
+                "ppopp15main-mainppopp15-187-p",
+                "ppopp15main-mainppopp15-145-p",
+                "ppopp15main-mainppopp15-74-p"
+            ]
+        },
+        {
+            "Id": "mievah4aeT",
+            "Title": "Code Generation",
+            "ShortTitle": "Code Generation",
+            "Type": "Session",
+            "ShortType": "Session",
+            "Key": "2015-02-09 13:30 Code Generation",
+            "Day": "2015-02-09",
+            "Time": "13:30 - 14:45",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "PPOPP15MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "ppopp15main-mainppopp15-81-p",
+                "ppopp15main-mainppopp15-76-p",
+                "ppopp15main-mainppopp15-101-p"
+            ]
+        },
+        {
+            "Id": "Pho1To7iet",
+            "Title": "Transactional Memory",
+            "ShortTitle": "Transactional Memory",
+            "Type": "Session",
+            "ShortType": "Session",
+            "Key": "2015-02-09 15:10 Transactional Memory",
+            "Day": "2015-02-09",
+            "Time": "15:10 - 16:25",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "PPOPP15MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "ppopp15main-mainppopp15-50-p",
+                "ppopp15main-mainppopp15-44-p",
+                "ppopp15main-mainppopp15-72-p"
+            ]
+        },
+        {
+            "Id": "Oothixei7u",
+            "Title": "Artifact Evaluation Discussion (Joint with CGO)",
+            "ShortTitle": "Artifact Evaluation Discussion (Joint with CGO)",
+            "Type": "Meeting",
+            "ShortType": "Meeting",
+            "Key": "2015-02-09 17:15 Artifact Evaluation Discussion (Joint with CGO)",
+            "Day": "2015-02-09",
+            "Time": "17:15 - 17:45",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "PPOPP15",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "zeiDeeyee7",
+            "Title": "Large Scale Parallelism",
+            "ShortTitle": "Large Scale Parallelism",
+            "Type": "Session",
+            "ShortType": "Session",
+            "Key": "2015-02-10 08:25 Large Scale Parallelism",
+            "Day": "2015-02-10",
+            "Time": "08:25 - 09:40",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "PPOPP15MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "ppopp15main-mainppopp15-41-p",
+                "ppopp15main-mainppopp15-140-p",
+                "ppopp15main-mainppopp15-125-p"
+            ]
+        },
+        {
+            "Id": "ogoCh2shon",
+            "Title": "Verification and Accelerators",
+            "ShortTitle": "Verification and Accelerators",
+            "Type": "Session",
+            "ShortType": "Session",
+            "Key": "2015-02-10 10:05 Verification and Accelerators",
+            "Day": "2015-02-10",
+            "Time": "10:05 - 11:45",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "PPOPP15MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "ppopp15main-mainppopp15-164-p",
+                "ppopp15main-mainppopp15-146-p",
+                "ppopp15main-mainppopp15-48-p",
+                "ppopp15main-mainppopp15-170-p"
+            ]
+        },
+        {
+            "Id": "ahqu1Eepae",
+            "Title": "Algorithms",
+            "ShortTitle": "Algorithms",
+            "Type": "Session",
+            "ShortType": "Session",
+            "Key": "2015-02-10 14:45 Algorithms",
+            "Day": "2015-02-10",
+            "Time": "14:45 - 16:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "PPOPP15MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "ppopp15main-mainppopp15-57-p",
+                "ppopp15main-mainppopp15-58-p",
+                "ppopp15main-mainppopp15-97-p"
+            ]
+        },
+        {
+            "Id": "ak1taThiQu",
+            "Title": "Excursion",
+            "ShortTitle": "Excursion",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2015-02-10 16:00 Excursion",
+            "Day": "2015-02-10",
+            "Time": "16:00 - 22:00",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "PPOPP15",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "zaayaig1Fu",
+            "Title": "Keynote Talk  (Joint with CGO/HPCA)",
+            "ShortTitle": "Keynote Talk  (Joint with CGO/HPCA)",
+            "Type": "Plenary",
+            "ShortType": "Plenary",
+            "Key": "2015-02-11 08:15 Keynote Talk  (Joint with CGO/HPCA)",
+            "Day": "2015-02-11",
+            "Time": "08:15 - 09:25",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "PPOPP15",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "eech7ahD7o",
+            "Title": "Locking and Locality",
+            "ShortTitle": "Locking and Locality",
+            "Type": "Session",
+            "ShortType": "Session",
+            "Key": "2015-02-11 09:40 Locking and Locality",
+            "Day": "2015-02-11",
+            "Time": "09:40 - 10:55",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "PPOPP15MAIN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "ppopp15main-mainppopp15-42-p",
+                "ppopp15main-mainppopp15-68-p",
+                "ppopp15main-mainppopp15-171-p"
+            ]
+        }
+    ],
+    "People": [
+        {
+            "Name": "Aravind Acharya",
+            "Affiliation": "Indian Institute of Science, India",
+            "Key": "Aravind Acharya @ Indian Institute of Science, India",
+            "Id": "f5407ae0a2",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dan Alistarh",
+            "Affiliation": "Microsoft Research, UK",
+            "Key": "Dan Alistarh @ Microsoft Research, UK",
+            "Id": "6a9495e09b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nabeel Al-Saber",
+            "Affiliation": "Purdue University, USA",
+            "Key": "Nabeel Al-Saber @ Purdue University, USA",
+            "Id": "84d27bd1e9",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nancy M. Amato",
+            "Affiliation": "Texas A&M University, USA",
+            "Key": "Nancy M. Amato @ Texas A&M University, USA",
+            "Id": "b06a14dcd1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Abdelhalim Amer",
+            "Affiliation": "Tokyo Institute of Technology, Japan",
+            "Key": "Abdelhalim Amer @ Tokyo Institute of Technology, Japan",
+            "Id": "35e2abd6e1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Christos D. Antonopoulos",
+            "Affiliation": "University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+            "Key": "Christos D. Antonopoulos @ University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+            "Id": "503e028c03",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Guido Araujo",
+            "Affiliation": "UNICAMP, Brazil",
+            "Key": "Guido Araujo @ UNICAMP, Brazil",
+            "Id": "2a4b2236d9",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Maya Arbel",
+            "Affiliation": "Technion, Israel",
+            "Key": "Maya Arbel @ Technion, Israel",
+            "Id": "e6e90642a0",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Arash Ashari",
+            "Affiliation": "Ohio State University, USA",
+            "Key": "Arash Ashari @ Ohio State University, USA",
+            "Id": "17b97aaa72",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Pavan Balaji",
+            "Affiliation": "Argonne National Laboratory, USA",
+            "Key": "Pavan Balaji @ Argonne National Laboratory, USA",
+            "Id": "4b95e3ce23",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alexandro Baldassin",
+            "Affiliation": "UNESP, Brazil",
+            "Key": "Alexandro Baldassin @ UNESP, Brazil",
+            "Id": "737d686f1a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Grey Ballard",
+            "Affiliation": "Sandia National Laboratories, USA",
+            "Key": "Grey Ballard @ Sandia National Laboratories, USA",
+            "Id": "3d955a4434",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Denis Barthou",
+            "Affiliation": "Bordeaux Institute of Technology, France / LaBRI, France / INRIA, France",
+            "Key": "Denis Barthou @ Bordeaux Institute of Technology, France / LaBRI, France / INRIA, France",
+            "Id": "c62e16519d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nikolaos Bellas",
+            "Affiliation": "University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+            "Key": "Nikolaos Bellas @ University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+            "Id": "71530b512e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Austin R. Benson",
+            "Affiliation": "Stanford University, USA",
+            "Key": "Austin R. Benson @ Stanford University, USA",
+            "Id": "cca6d3a166",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Matthias Boehm",
+            "Affiliation": "IBM, USA",
+            "Key": "Matthias Boehm @ IBM, USA",
+            "Id": "b4a191f0b4",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michael D. Bond",
+            "Affiliation": "Ohio State University, USA",
+            "Key": "Michael D. Bond @ Ohio State University, USA",
+            "Id": "171ddfa9cf",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Uday Bondhugula",
+            "Affiliation": "Indian Institute of Science, India",
+            "Key": "Uday Bondhugula @ Indian Institute of Science, India",
+            "Id": "e70a3681a9",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Edson Borin",
+            "Affiliation": "UNICAMP, Brazil",
+            "Key": "Edson Borin @ UNICAMP, Brazil",
+            "Id": "2377dc12ae",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Keith Campbell",
+            "Affiliation": "IBM, Canada",
+            "Key": "Keith Campbell @ IBM, Canada",
+            "Id": "c064057859",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Man Cao",
+            "Affiliation": "Ohio State University, USA",
+            "Key": "Man Cao @ Ohio State University, USA",
+            "Id": "f5294027dd",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Patrick Carribault",
+            "Affiliation": "CEA, France",
+            "Key": "Patrick Carribault @ CEA, France",
+            "Id": "495705bdae",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bryan Catanzaro",
+            "Affiliation": "Baidu, USA",
+            "Key": "Bryan Catanzaro @ Baidu, USA",
+            "Id": "8eed1a9946",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Milind Chabbi",
+            "Affiliation": "Rice University, USA",
+            "Key": "Milind Chabbi @ Rice University, USA",
+            "Id": "42ef43accf",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Charalambos Chalios",
+            "Affiliation": "Queen's University of Belfast, UK",
+            "Key": "Charalambos Chalios @ Queen's University of Belfast, UK",
+            "Id": "e20ecaac95",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yen-Jung Chang",
+            "Affiliation": "University of Texas at Austin, USA",
+            "Key": "Yen-Jung Chang @ University of Texas at Austin, USA",
+            "Id": "ed4667b882",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yen-Ting Chao",
+            "Affiliation": "National Chiao Tung University, Taiwan",
+            "Key": "Yen-Ting Chao @ National Chiao Tung University, Taiwan",
+            "Id": "855d646037",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Haibo Chen",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Haibo Chen @ Shanghai Jiao Tong University, China",
+            "Id": "a0df61bf0c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rong Chen",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Rong Chen @ Shanghai Jiao Tong University, China",
+            "Id": "7eff2dc95c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yifeng Chen",
+            "Affiliation": "Peking University, China",
+            "Key": "Yifeng Chen @ Peking University, China",
+            "Id": "0ed7efc30e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jong Youl Choi",
+            "Affiliation": "Oak Ridge National Laboratory, USA",
+            "Key": "Jong Youl Choi @ Oak Ridge National Laboratory, USA",
+            "Id": "8e4fa51e4f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Rezaul A. Chowdhury",
+            "Affiliation": "Stony Brook University, USA",
+            "Key": "Rezaul A. Chowdhury @ Stony Brook University, USA",
+            "Id": "5820bfa114",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Marcelo Cintra",
+            "Affiliation": "Intel, Germany",
+            "Key": "Marcelo Cintra @ Intel, Germany",
+            "Id": "1fb949acad",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tiago Cogumbreiro",
+            "Affiliation": "Imperial College London, UK",
+            "Key": "Tiago Cogumbreiro @ Imperial College London, UK",
+            "Id": "d624974026",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Albert Cohen",
+            "Affiliation": "INRIA, France",
+            "Key": "Albert Cohen @ INRIA, France",
+            "Id": "17e7cd3c2c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xiang Cui",
+            "Affiliation": "Peking University, China",
+            "Key": "Xiang Cui @ Peking University, China",
+            "Id": "7b3ea0c7ef",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jeff Daily",
+            "Affiliation": "Pacific Northwest National Laboratory, USA",
+            "Key": "Jeff Daily @ Pacific Northwest National Laboratory, USA",
+            "Id": "9de404277b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Madan Das",
+            "Affiliation": "University of California at Santa Cruz, USA",
+            "Key": "Madan Das @ University of California at Santa Cruz, USA",
+            "Id": "5a0583e1f1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Roshan Dathathri",
+            "Affiliation": "Ohio State University, USA",
+            "Key": "Roshan Dathathri @ Ohio State University, USA",
+            "Id": "650dd59868",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrew Davidson",
+            "Affiliation": "University of California at Davis, USA",
+            "Key": "Andrew Davidson @ University of California at Davis, USA",
+            "Id": "17c7a80249",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Wibe de Jong",
+            "Affiliation": "Lawrence Berkeley National Laboratory, USA",
+            "Key": "Wibe de Jong @ Lawrence Berkeley National Laboratory, USA",
+            "Id": "ddb1a29560",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bronis R. de Supinski",
+            "Affiliation": "Lawrence Livermore National Laboratory, USA",
+            "Key": "Bronis R. de Supinski @ Lawrence Livermore National Laboratory, USA",
+            "Id": "0c8af78819",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sheng Di",
+            "Affiliation": "Argonne National Laboratory, USA",
+            "Key": "Sheng Di @ Argonne National Laboratory, USA",
+            "Id": "25265f4cce",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Danny Dig",
+            "Affiliation": "Oregon State University, USA",
+            "Key": "Danny Dig @ Oregon State University, USA",
+            "Id": "9309d8a4ef",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Quang Dinh",
+            "Affiliation": "Dassault Aviation, France",
+            "Key": "Quang Dinh @ Dassault Aviation, France",
+            "Id": "c9b25584b8",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Alastair F. Donaldson",
+            "Affiliation": "Imperial College London, UK",
+            "Key": "Alastair F. Donaldson @ Imperial College London, UK",
+            "Id": "1818776a31",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Tingxing Dong",
+            "Affiliation": "University of Tennessee, USA",
+            "Key": "Tingxing Dong @ University of Tennessee, USA",
+            "Id": "35a137820e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jack Dongarra",
+            "Affiliation": "University of Tennessee, USA / Oak Ridge National Laboratory, USA / University of Manchester, UK",
+            "Key": "Jack Dongarra @ University of Tennessee, USA / Oak Ridge National Laboratory, USA / University of Manchester, UK",
+            "Id": "2d48dc58cc",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Venmugil Elango",
+            "Affiliation": "Ohio State University, USA",
+            "Key": "Venmugil Elango @ Ohio State University, USA",
+            "Id": "2424e1c80b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michael Fagan",
+            "Affiliation": "Rice University, USA",
+            "Key": "Michael Fagan @ Rice University, USA",
+            "Id": "514def0d23",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Todd Gamblin",
+            "Affiliation": "Lawrence Livermore National Laboratory, USA",
+            "Key": "Todd Gamblin @ Lawrence Livermore National Laboratory, USA",
+            "Id": "d733a796c9",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Pramod Ganapathi",
+            "Affiliation": "Stony Brook University, USA",
+            "Key": "Pramod Ganapathi @ Stony Brook University, USA",
+            "Id": "5d22ecccfb",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Vijay K. Garg",
+            "Affiliation": "University of Texas at Austin, USA",
+            "Key": "Vijay K. Garg @ University of Texas at Austin, USA",
+            "Id": "c8132600f5",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michael Garland",
+            "Affiliation": "NVIDIA, USA",
+            "Key": "Michael Garland @ NVIDIA, USA",
+            "Id": "794c7290c1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Guy Golan-Gueta",
+            "Affiliation": "Yahoo Labs, Israel",
+            "Key": "Guy Golan-Gueta @ Yahoo Labs, Israel",
+            "Id": "2890ad40f4",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Vincent Gramoli",
+            "Affiliation": "NICTA, Australia / University of Sydney, Australia",
+            "Key": "Vincent Gramoli @ NICTA, Australia / University of Sydney, Australia",
+            "Id": "b198aaa806",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Thomas R. Gross",
+            "Affiliation": "ETH Zurich, Switzerland",
+            "Key": "Thomas R. Gross @ ETH Zurich, Switzerland",
+            "Id": "44c617db52",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "David Grove",
+            "Affiliation": "IBM Research, USA",
+            "Key": "David Grove @ IBM Research, USA",
+            "Id": "dd37b19be4",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jakob Gruber",
+            "Affiliation": "TU Vienna, Austria",
+            "Key": "Jakob Gruber @ TU Vienna, Austria",
+            "Id": "c5f97e9d01",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Haibing Guan",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Haibing Guan @ Shanghai Jiao Tong University, China",
+            "Id": "6c45b360ad",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Azzam Haidar",
+            "Affiliation": "University of Tennessee, USA",
+            "Key": "Azzam Haidar @ University of Tennessee, USA",
+            "Id": "52bb3de026",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mary Hall",
+            "Affiliation": "University of Utah, USA",
+            "Key": "Mary Hall @ University of Utah, USA",
+            "Id": "143d16def0",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Harshvardhan",
+            "Affiliation": "Texas A&M University, USA",
+            "Key": "Harshvardhan @ Texas A&M University, USA",
+            "Id": "023528eb62",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bingsheng He",
+            "Affiliation": "Nanyang Technological University, Singapore",
+            "Key": "Bingsheng He @ Nanyang Technological University, Singapore",
+            "Id": "1063b936ab",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Stephan Herhut",
+            "Affiliation": "Intel, USA",
+            "Key": "Stephan Herhut @ Intel, USA",
+            "Id": "4b99a21e49",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Adolfy Hoisie",
+            "Affiliation": "Pacific Northwest National Laboratory, USA",
+            "Key": "Adolfy Hoisie @ Pacific Northwest National Laboratory, USA",
+            "Id": "6902cb76e8",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Raymond Hu",
+            "Affiliation": "Imperial College London, UK",
+            "Key": "Raymond Hu @ Imperial College London, UK",
+            "Id": "409cfe5001",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jipeng Huang",
+            "Affiliation": "Ohio State University, USA",
+            "Key": "Jipeng Huang @ Ohio State University, USA",
+            "Id": "ce59ec9e5a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Costin Iancu",
+            "Affiliation": "Lawrence Berkeley National Laboratory, USA",
+            "Key": "Costin Iancu @ Lawrence Berkeley National Laboratory, USA",
+            "Id": "0a53f562b0",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hai Jin",
+            "Affiliation": "Huazhong University of Science and Technology, China",
+            "Key": "Hai Jin @ Huazhong University of Science and Technology, China",
+            "Id": "7efe3baed2",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ye Jin",
+            "Affiliation": "North Carolina State University, USA / Qatar Computing Research Institute, Qatar",
+            "Key": "Ye Jin @ North Carolina State University, USA / Qatar Computing Research Institute, Qatar",
+            "Id": "4b6c51176f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Haibin Kan",
+            "Affiliation": "Fudan University, China",
+            "Key": "Haibin Kan @ Fudan University, China",
+            "Id": "ef4e59caa8",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "John Keenleyside",
+            "Affiliation": "IBM, Canada",
+            "Key": "John Keenleyside @ IBM, Canada",
+            "Id": "dfda068464",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Darren J. Kerbyson",
+            "Affiliation": "Pacific Northwest National Laboratory, USA",
+            "Key": "Darren J. Kerbyson @ Pacific Northwest National Laboratory, USA",
+            "Id": "231d3b77ec",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Channoh Kim",
+            "Affiliation": "Sungkyunkwan University, South Korea",
+            "Key": "Channoh Kim @ Sungkyunkwan University, South Korea",
+            "Id": "00c7607bb0",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hanjun Kim",
+            "Affiliation": "POSTECH, South Korea",
+            "Key": "Hanjun Kim @ POSTECH, South Korea",
+            "Id": "3ebd94e6ed",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jincheon Kim",
+            "Affiliation": "Company 100, South Korea",
+            "Key": "Jincheon Kim @ Company 100, South Korea",
+            "Id": "8f632eecb8",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jinwook Kim",
+            "Affiliation": "DGIST, South Korea",
+            "Key": "Jinwook Kim @ DGIST, South Korea",
+            "Id": "09e294030c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jungwon Kim",
+            "Affiliation": "Oak Ridge National Laboratory, USA",
+            "Key": "Jungwon Kim @ Oak Ridge National Laboratory, USA",
+            "Id": "11f4717fad",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Min-Soo Kim",
+            "Affiliation": "DGIST, South Korea",
+            "Key": "Min-Soo Kim @ DGIST, South Korea",
+            "Id": "b439ad99c8",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Scott Klasky",
+            "Affiliation": "Oak Ridge National Laboratory, USA",
+            "Key": "Scott Klasky @ Oak Ridge National Laboratory, USA",
+            "Id": "6a4b2bf096",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Justin Kopinsky",
+            "Affiliation": "Massachusetts Institute of Technology, USA",
+            "Key": "Justin Kopinsky @ Massachusetts Institute of Technology, USA",
+            "Id": "996e42d2cf",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Milind Kulkarni",
+            "Affiliation": "Purdue University, USA",
+            "Key": "Milind Kulkarni @ Purdue University, USA",
+            "Id": "4a3f039da1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Spyros Lalis",
+            "Affiliation": "University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+            "Key": "Spyros Lalis @ University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+            "Id": "0796345335",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Wim Lavrijsen",
+            "Affiliation": "Lawrence Berkeley National Laboratory, USA",
+            "Key": "Wim Lavrijsen @ Lawrence Berkeley National Laboratory, USA",
+            "Id": "bb0a3017b6",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jae W. Lee",
+            "Affiliation": "Sungkyunkwan University, South Korea",
+            "Key": "Jae W. Lee @ Sungkyunkwan University, South Korea",
+            "Id": "9ae238b40f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Seyong Lee",
+            "Affiliation": "Oak Ridge National Laboratory, USA",
+            "Key": "Seyong Lee @ Oak Ridge National Laboratory, USA",
+            "Id": "0f14ad9d0b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Huiying Li",
+            "Affiliation": "Sungkyunkwan University, South Korea",
+            "Key": "Huiying Li @ Sungkyunkwan University, South Korea",
+            "Id": "905184eaf1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jerry Li",
+            "Affiliation": "Massachusetts Institute of Technology, USA",
+            "Key": "Jerry Li @ Massachusetts Institute of Technology, USA",
+            "Id": "a1b0a376d1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Junling Liang",
+            "Affiliation": "Huazhong University of Science and Technology, China",
+            "Key": "Junling Liang @ Huazhong University of Science and Technology, China",
+            "Id": "f5208e553d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mingliang Liu",
+            "Affiliation": "North Carolina State University, USA / Qatar Computing Research Institute, Qatar",
+            "Key": "Mingliang Liu @ North Carolina State University, USA / Qatar Computing Research Institute, Qatar",
+            "Id": "ed03489152",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Qing Liu",
+            "Affiliation": "Oak Ridge National Laboratory, USA",
+            "Key": "Qing Liu @ Oak Ridge National Laboratory, USA",
+            "Id": "c8da69a55e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jeremy Logan",
+            "Affiliation": "Oak Ridge National Laboratory, USA",
+            "Key": "Jeremy Logan @ Oak Ridge National Laboratory, USA",
+            "Id": "4c6ee152fc",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Huiwei Lu",
+            "Affiliation": "Argonne National Laboratory, USA",
+            "Key": "Huiwei Lu @ Argonne National Laboratory, USA",
+            "Id": "ece5037950",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lu Lu",
+            "Affiliation": "Huazhong University of Science and Technology, China",
+            "Key": "Lu Lu @ Huazhong University of Science and Technology, China",
+            "Id": "d25e580ce7",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xuan Luo",
+            "Affiliation": "Huazhong University of Science and Technology, China",
+            "Key": "Xuan Luo @ Huazhong University of Science and Technology, China",
+            "Id": "94cad83d9e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Piotr Luszczek",
+            "Affiliation": "University of Tennessee, USA",
+            "Key": "Piotr Luszczek @ University of Tennessee, USA",
+            "Id": "a024448b37",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xiaosong Ma",
+            "Affiliation": "North Carolina State University, USA / Qatar Computing Research Institute, Qatar",
+            "Key": "Xiaosong Ma @ North Carolina State University, USA / Qatar Computing Research Institute, Qatar",
+            "Id": "844758b6d4",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zoltan Majo",
+            "Affiliation": "ETH Zurich, Switzerland",
+            "Key": "Zoltan Majo @ ETH Zurich, Switzerland",
+            "Id": "abd3c3deef",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Francisco Martins",
+            "Affiliation": "University of Lisbon, Portugal",
+            "Key": "Francisco Martins @ University of Lisbon, Portugal",
+            "Id": "ab0d518e1b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Satoshi Matsuoka",
+            "Affiliation": "Tokyo Institute of Technology, Japan",
+            "Key": "Satoshi Matsuoka @ Tokyo Institute of Technology, Japan",
+            "Id": "99e26538ec",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andrew J. McPherson",
+            "Affiliation": "University of Edinburgh, UK",
+            "Key": "Andrew J. McPherson @ University of Edinburgh, UK",
+            "Id": "1a0de33348",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hong Mei",
+            "Affiliation": "Peking University, China",
+            "Key": "Hong Mei @ Peking University, China",
+            "Id": "857fb60cb5",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "John Mellor-Crummey",
+            "Affiliation": "Rice University, USA",
+            "Key": "John Mellor-Crummey @ Rice University, USA",
+            "Id": "737e6c4b0b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Bertrand Meyer",
+            "Affiliation": "ETH Zurich, Switzerland",
+            "Key": "Bertrand Meyer @ ETH Zurich, Switzerland",
+            "Id": "d04f8f019e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Neeraj Mittal",
+            "Affiliation": "University of Texas at Dallas, USA",
+            "Key": "Neeraj Mittal @ University of Texas at Dallas, USA",
+            "Id": "51cd9fad47",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Adam Morrison",
+            "Affiliation": "Technion, Israel",
+            "Key": "Adam Morrison @ Technion, Israel",
+            "Id": "3b5d00d7d6",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Saurav Muralidharan",
+            "Affiliation": "University of Utah, USA",
+            "Key": "Saurav Muralidharan @ University of Utah, USA",
+            "Id": "dcac02705e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Vijay Nagarajan",
+            "Affiliation": "University of Edinburgh, UK",
+            "Key": "Vijay Nagarajan @ University of Edinburgh, UK",
+            "Id": "285601f807",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Sebastian Nanz",
+            "Affiliation": "ETH Zurich, Switzerland",
+            "Key": "Sebastian Nanz @ ETH Zurich, Switzerland",
+            "Id": "4cf5f53a2c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Dimitrios S. Nikolopoulos",
+            "Affiliation": "Queen's University of Belfast, UK",
+            "Key": "Dimitrios S. Nikolopoulos @ Queen's University of Belfast, UK",
+            "Id": "d4a08a2772",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Younghwan Oh",
+            "Affiliation": "Sungkyunkwan University, South Korea",
+            "Key": "Younghwan Oh @ Sungkyunkwan University, South Korea",
+            "Id": "af21c1436e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "John D. Owens",
+            "Affiliation": "University of California at Davis, USA",
+            "Key": "John D. Owens @ University of California at Davis, USA",
+            "Id": "903d077452",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yuechao Pan",
+            "Affiliation": "University of California at Davis, USA",
+            "Key": "Yuechao Pan @ University of California at Davis, USA",
+            "Id": "a96bdf6880",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Konstantinos Parasyris",
+            "Affiliation": "University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+            "Key": "Konstantinos Parasyris @ University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+            "Id": "eb98720d68",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Olga Pearce",
+            "Affiliation": "Texas A&M University, USA / Lawrence Livermore National Laboratory, USA",
+            "Key": "Olga Pearce @ Texas A&M University, USA / Lawrence Livermore National Laboratory, USA",
+            "Id": "cc7b66f00a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Eric Petit",
+            "Affiliation": "University of Versailles, France",
+            "Key": "Eric Petit @ University of Versailles, France",
+            "Id": "8df7c16718",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xianglan Piao",
+            "Affiliation": "Sungkyunkwan University, South Korea",
+            "Key": "Xianglan Piao @ Sungkyunkwan University, South Korea",
+            "Id": "c382d9c629",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Norbert Podhorszki",
+            "Affiliation": "Oak Ridge National Laboratory, USA",
+            "Key": "Norbert Podhorszki @ Oak Ridge National Laboratory, USA",
+            "Id": "c84ef97997",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Louis-Noël Pouchet",
+            "Affiliation": "Ohio State University, USA",
+            "Key": "Louis-Noël Pouchet @ Ohio State University, USA",
+            "Id": "7c59216323",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Cosmin Radoi",
+            "Affiliation": "University of Illinois at Urbana-Champaign, USA",
+            "Key": "Cosmin Radoi @ University of Illinois at Urbana-Champaign, USA",
+            "Id": "32940d107f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Arunmoezhi Ramachandran",
+            "Affiliation": "University of Texas at Dallas, USA",
+            "Key": "Arunmoezhi Ramachandran @ University of Texas at Dallas, USA",
+            "Id": "b11b9e5c0d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "G. Ramalingam",
+            "Affiliation": "Microsoft Research, India",
+            "Key": "G. Ramalingam @ Microsoft Research, India",
+            "Id": "cdf0f403a5",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "J. Ramanujam",
+            "Affiliation": "Louisiana State University, USA",
+            "Key": "J. Ramanujam @ Louisiana State University, USA",
+            "Id": "298e3c4d07",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lawrence Rauchwerger",
+            "Affiliation": "Texas A&M University, USA",
+            "Key": "Lawrence Rauchwerger @ Texas A&M University, USA",
+            "Id": "49e46bc8d9",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mahesh Ravishankar",
+            "Affiliation": "Ohio State University, USA",
+            "Key": "Mahesh Ravishankar @ Ohio State University, USA",
+            "Id": "1edabe2322",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Berthold Reinwald",
+            "Affiliation": "IBM, USA",
+            "Key": "Berthold Reinwald @ IBM, USA",
+            "Id": "1fc452910d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jose Renau",
+            "Affiliation": "University of California at Santa Cruz, USA",
+            "Key": "Jose Renau @ University of California at Santa Cruz, USA",
+            "Id": "1f5cacb162",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Andy Riffel",
+            "Affiliation": "University of California at Davis, USA",
+            "Key": "Andy Riffel @ University of California at Davis, USA",
+            "Id": "da47bcc74a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Atanas Rountev",
+            "Affiliation": "Ohio State University, USA",
+            "Key": "Atanas Rountev @ Ohio State University, USA",
+            "Id": "52234a9da5",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "P. Sadayappan",
+            "Affiliation": "Ohio State University, USA",
+            "Key": "P. Sadayappan @ Ohio State University, USA",
+            "Id": "191a211c3f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Mooly Sagiv",
+            "Affiliation": "Tel Aviv University, Israel",
+            "Key": "Mooly Sagiv @ Tel Aviv University, Israel",
+            "Id": "32623c4016",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Emmanuelle Saillard",
+            "Affiliation": "CEA, France",
+            "Key": "Emmanuelle Saillard @ CEA, France",
+            "Id": "9b45913c20",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Susmit Sarkar",
+            "Affiliation": "University of St. Andrews, UK",
+            "Key": "Susmit Sarkar @ University of St. Andrews, UK",
+            "Id": "523ca69e2e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Martin Schulz",
+            "Affiliation": "Lawrence Livermore National Laboratory, USA",
+            "Key": "Martin Schulz @ Lawrence Livermore National Laboratory, USA",
+            "Id": "3c7fa734fd",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Michael L. Scott",
+            "Affiliation": "University of Rochester, USA",
+            "Key": "Michael L. Scott @ University of Rochester, USA",
+            "Id": "cf6be14e80",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Koushik Sen",
+            "Affiliation": "University of California at Berkeley, USA",
+            "Key": "Koushik Sen @ University of California at Berkeley, USA",
+            "Id": "1adefc9a60",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hyunseok Seo",
+            "Affiliation": "DGIST, South Korea",
+            "Key": "Hyunseok Seo @ DGIST, South Korea",
+            "Id": "84ff29b23a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nir Shavit",
+            "Affiliation": "Massachusetts Institute of Technology, USA / Tel Aviv University, Israel",
+            "Key": "Nir Shavit @ Massachusetts Institute of Technology, USA / Tel Aviv University, Israel",
+            "Id": "1a1a24b6c5",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Xuanhua Shi",
+            "Affiliation": "Huazhong University of Science and Technology, China",
+            "Key": "Xuanhua Shi @ Huazhong University of Science and Technology, China",
+            "Id": "97fa69be1e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Albert Sidelnik",
+            "Affiliation": "NVIDIA, USA",
+            "Key": "Albert Sidelnik @ NVIDIA, USA",
+            "Id": "7593dd33f4",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Gabriel Southern",
+            "Affiliation": "University of California at Santa Cruz, USA",
+            "Key": "Gabriel Southern @ University of California at Santa Cruz, USA",
+            "Id": "d937888136",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jaswanth Sreeram",
+            "Affiliation": "Intel, USA",
+            "Key": "Jaswanth Sreeram @ Intel, USA",
+            "Id": "8fa4e7db0e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nathan R. Tallent",
+            "Affiliation": "Pacific Northwest National Laboratory, USA",
+            "Key": "Nathan R. Tallent @ Pacific Northwest National Laboratory, USA",
+            "Id": "130c8f3333",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yuan Tang",
+            "Affiliation": "Fudan University, China",
+            "Key": "Yuan Tang @ Fudan University, China",
+            "Id": "55f5903ece",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Shirish Tatikonda",
+            "Affiliation": "IBM, USA",
+            "Key": "Shirish Tatikonda @ IBM, USA",
+            "Id": "47223a3adc",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Loïc Thébault",
+            "Affiliation": "University of Versailles, France",
+            "Key": "Loïc Thébault @ University of Versailles, France",
+            "Id": "e63f4b0bc1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Paul Thomson",
+            "Affiliation": "Imperial College London, UK",
+            "Key": "Paul Thomson @ Imperial College London, UK",
+            "Id": "45665a8359",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jesmin Jahan Tithi",
+            "Affiliation": "Stony Brook University, USA",
+            "Key": "Jesmin Jahan Tithi @ Stony Brook University, USA",
+            "Id": "1321f3ac65",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Stanimire Tomov",
+            "Affiliation": "University of Tennessee, USA",
+            "Key": "Stanimire Tomov @ University of Tennessee, USA",
+            "Id": "13cd546ae6",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jesper Larsson Träff",
+            "Affiliation": "TU Vienna, Austria",
+            "Key": "Jesper Larsson Träff @ TU Vienna, Austria",
+            "Id": "ecdd883a4f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yeh-Ning Tsai",
+            "Affiliation": "National Chiao Tung University, Taiwan",
+            "Key": "Yeh-Ning Tsai @ National Chiao Tung University, Taiwan",
+            "Id": "8fdea4a577",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Philippas Tsigas",
+            "Affiliation": "Chalmers University of Technology, Sweden",
+            "Key": "Philippas Tsigas @ Chalmers University of Technology, Sweden",
+            "Id": "cf964c0823",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hubertus Van Dam",
+            "Affiliation": "Pacific Northwest National Laboratory, USA",
+            "Key": "Hubertus Van Dam @ Pacific Northwest National Laboratory, USA",
+            "Id": "c9dc800b59",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hans Vandierendonck",
+            "Affiliation": "Queen's University of Belfast, UK",
+            "Key": "Hans Vandierendonck @ Queen's University of Belfast, UK",
+            "Id": "d106c9f4f9",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Vassilis Vassiliadis",
+            "Affiliation": "University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+            "Key": "Vassilis Vassiliadis @ University of Thessaly, Greece / Centre for Research and Technology Hellas, Greece",
+            "Id": "66bd55110f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jeffrey S. Vetter",
+            "Affiliation": "Oak Ridge National Laboratory, USA / Georgia Tech, USA",
+            "Key": "Jeffrey S. Vetter @ Oak Ridge National Laboratory, USA / Georgia Tech, USA",
+            "Id": "342cca983f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Abhinav Vishnu",
+            "Affiliation": "Pacific Northwest National Laboratory, USA",
+            "Key": "Abhinav Vishnu @ Pacific Northwest National Laboratory, USA",
+            "Id": "06dc5c70c8",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yangzihao Wang",
+            "Affiliation": "University of California at Davis, USA",
+            "Key": "Yangzihao Wang @ University of California at Davis, USA",
+            "Id": "842b6a6682",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Zhixiang Wang",
+            "Affiliation": "Huazhong University of Science and Technology, China",
+            "Key": "Zhixiang Wang @ Huazhong University of Science and Technology, China",
+            "Id": "93977615e3",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yanjie Wei",
+            "Affiliation": "Shenzhen Institute of Advanced Technologies at Chinese Academy of Sciences, China",
+            "Key": "Yanjie Wei @ Shenzhen Institute of Advanced Technologies at Chinese Academy of Sciences, China",
+            "Id": "ac1d6f17a7",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Scott West",
+            "Affiliation": "ETH Zurich, Switzerland",
+            "Key": "Scott West @ ETH Zurich, Switzerland",
+            "Id": "c9fe22ed94",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Martin Wimmer",
+            "Affiliation": "TU Vienna, Austria",
+            "Key": "Martin Wimmer @ TU Vienna, Austria",
+            "Id": "6ac64665c7",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Hen-Jung Wu",
+            "Affiliation": "National Chiao Tung University, Taiwan",
+            "Key": "Hen-Jung Wu @ National Chiao Tung University, Taiwan",
+            "Id": "22586085f1",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yuduo Wu",
+            "Affiliation": "University of California at Davis, USA",
+            "Key": "Yuduo Wu @ University of California at Davis, USA",
+            "Id": "6016fb438c",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Lingxiang Xiang",
+            "Affiliation": "University of Rochester, USA",
+            "Key": "Lingxiang Xiang @ University of Rochester, USA",
+            "Id": "8ad423b49a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Chenning Xie",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Chenning Xie @ Shanghai Jiao Tong University, China",
+            "Id": "9b20abfe3e",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Eran Yahav",
+            "Affiliation": "Technion, Israel",
+            "Key": "Eran Yahav @ Technion, Israel",
+            "Id": "17940ed9ef",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Nobuko Yoshida",
+            "Affiliation": "Imperial College London, UK",
+            "Key": "Nobuko Yoshida @ Imperial College London, UK",
+            "Id": "d6359af01a",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Ronghui You",
+            "Affiliation": "Fudan University, China",
+            "Key": "Ronghui You @ Fudan University, China",
+            "Id": "f8b6644e0f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Yi-Ping You",
+            "Affiliation": "National Chiao Tung University, Taiwan",
+            "Key": "Yi-Ping You @ National Chiao Tung University, Taiwan",
+            "Id": "8fdf43a59d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Binyu Zang",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Binyu Zang @ Shanghai Jiao Tong University, China",
+            "Id": "e3910f8090",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Kaiyuan Zhang",
+            "Affiliation": "Shanghai Jiao Tong University, China",
+            "Key": "Kaiyuan Zhang @ Shanghai Jiao Tong University, China",
+            "Id": "df47bc40e3",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Minjia Zhang",
+            "Affiliation": "Ohio State University, USA",
+            "Key": "Minjia Zhang @ Ohio State University, USA",
+            "Id": "f4044903b7",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Jianlong Zhong",
+            "Affiliation": "Nanyang Technological University, Singapore",
+            "Key": "Jianlong Zhong @ Nanyang Technological University, Singapore",
+            "Id": "ec8f9c4029",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        }
+    ]
+}
+ 
+
