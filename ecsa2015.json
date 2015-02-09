@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1,
+    "DataRevision": 4,
     "Event": "ECSA2015",
     "Name": "9th European Conference on Software Architecture 2015",
     "Description": "The European Conference on Software Architecture (ECSA) is the premier European software architecture conference, providing researchers, practitioners, and educators with a platform to present and discuss the most recent, innovative and significant findings and experiences in the field of software architecture research and practice. The conference will feature a research track, an industrial track, keynotes, workshops, tutorials, tool demonstrations, and panels. ECSA 2015 will be held in Cavtat, Croatia",
@@ -103,7 +103,7 @@
         }
     },
     "InfoPage": {
-        "xaml": "foo",
+        "xaml": "",
         "Elements": [
             {
                 "XamlName": "ConferenceCenterMap",
@@ -130,5 +130,36 @@
         "Award",
         "Invited Talk",
         "Other"
+    ],
+    "Items": [
+        {
+            "Title": "",
+            "Type": "",
+            "Key": "",
+            "PersonsString": "",
+            "AffiliationsString": "",
+            "Authors": "",
+            "Affiliations": "",
+            "Abstract": "",
+            "Award": ""
+        }
+    ],
+    "Sessions": [
+        {
+            "Title": "",
+            "Type": "",
+            "Key": "",
+            "Day": "",
+            "Time": "",
+            "Location": "",
+            "Abstract": "",
+            "Items": ""
+        }
+    ],
+    "People": [
+        {
+            "Name": "",
+            "Affiliation": ""
+        }
     ]
 }
