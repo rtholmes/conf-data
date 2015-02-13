@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1423355119,
+    "DataRevision": 1423835296,
     "Preliminary": "false",
     "Event": "SANER 2015",
     "Name": "SANER 2015",
@@ -83,6 +83,44 @@
                 ""
             ],
             "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "On Whose Shoulders? (Keynote)",
+            "Type": "Invited Talk Abstract",
+            "Key": "saner15keynotes-keynotesid1-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJane+Cleland-Huang+%22On+Whose+Shoulders%3F+%28Keynote%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Jane Cleland-Huang",
+            "AffiliationsString": "DePaul University, USA",
+            "Authors": [
+                "Jane Cleland-Huang @ DePaul University, USA"
+            ],
+            "Affiliations": [
+                "DePaul University, USA"
+            ],
+            "Abstract": "Bernard of Chartres (via Sir Isaac Newton) reminded us that all progress is achieved “on the shoulders of giants” – that our greatest discoveries and innovations build upon the inspirations, triumphs, and foundational truths established by those who have gone before us. However, in our field of Software Engineering, as new ideas are transmitted at the speed of light, rather than the speed of Bernard’s horse, innovations are typically achieved as we, the ordinary people, exchange ideas, deliver incremental improvements, and offer the occasional truly novel idea to advance our field. In this fast-paced environment it is particularly important for us to take the time to build a strong foundation for our knowledge – keeping audit trails of our experiments, sharing our datasets, releasing the code we used to run our experiments, and generally making our work transparent and reproducible, so that we no longer depend on giants to further the field. Instead our successes are a collective effort from our community. Unfortunately, this degree of openness comes with its own challenges. In this talk, Dr. Cleland-Huang will explore some of the success stories in our field and discuss ways to deal with the psychological, philosophical, and practical barriers that impede open collaboration.",
+            "Award": ""
+        },
+        {
+            "Title": "Checkpoint Alpha (Keynote)",
+            "Type": "Invited Talk Abstract",
+            "Key": "saner15keynotes-keynotesid2-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DBoris+Debi%C4%87+%22Checkpoint+Alpha+%28Keynote%29%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Boris Debić",
+            "AffiliationsString": "Google, USA",
+            "Authors": [
+                "Boris Debić @ Google, USA"
+            ],
+            "Affiliations": [
+                "Google, USA"
+            ],
+            "Abstract": "We’re into the 15th year of the 21st century, 1/7th of our way through it. We have spent one day of the 21st century week. It is time to pause, and look at what has changed since the start of the century, perhaps even make an informed proposal as to - how could we best align our engineering and research efforts for the rest of it. Large scale computing (LSC) and computing everywhere in the form of mobile devices are having an irreversible and permanent impact in both the way we engineer our systems, and more importantly in the way we deploy and use these new capabilities. Let me illustrate LSC with some Google numbers; 3.5 billion searches daily, to search through 60 trillion web documents from 230 million domains. All of this powered by over 2.5 GW of renewable energy sources (466 MW in the US signed in 2014 alone, 300 MW Wind and 80 MW of Solar already signed up in the US for 2015). The way these new capabilities, from all of the tech industry, are transforming society is undeniable and profound - from the ubiquity of the Internet of Things to the Collaborative Commons. The pace of change in this first day of the new century is more significant by many measures than the combined preceding ~65 years of computing engineering history (one smartphone is equivalent to ~100,000 times of all NASA’s computing back in the late 60’s during the Apollo missions). However, even with all these advances we are still running into fundamental software engineering limits. Whereas our hardware capabilities followed the exponentials of Moore’s law, our engineering was perfected linearly at best. And what is truly disconcerting, sometimes we are actively working on fragmenting our knowledge and collaboration infrastructure - the Internet. In this talk I will call attention to some of the engineering pain points ahead of us. Also at the opportunities to further accelerate change. I will argue that our research investment should share some of the common goals identified in the talk. Ultimately I will challenge us in how to rethink the way we engineer interactions with end users and design a socially responsible infrastructure. We have some days to go in this century and at this point we should probably start to form an idea of how we want to spend the weekend.",
             "Award": ""
         },
         {
@@ -354,7 +392,7 @@
                 "Ericsson, Sweden"
             ],
             "Abstract": "Due to their inherent complexity, software systems are pledged to be released with bugs. These bugs manifest themselves on client&#039;s computers, causing crashes and undesired behaviors. Field crashes, in particular, are challenging to understand and fix as the information provided by the impacted customers are often scarce and inaccurate. To address this issue, there is a need to find ways for automatically reproducing the crash in a lab environment in order to fully understand its root causes. Crash reproduction is also an important step towards developing adequate patches. In this paper, we propose a novel crash reproduction approach, called JCHARMING (Java CrasH Automatic Reproduction by directed Model checkING). JCHARMING uses crash traces and model checking to identify program statements needed to reproduce a crash. Our approach takes advantage of the completeness provided by model checking while ignoring unneeded system states by means of information found in crash traces combined with static slices. We show the effectiveness of JCHARMING by applying it to seven different open source programs cumulating more than one million lines of code scattered in around 7000 classes. Overall, JCHARMING was able to reproduce 85% of the submitted bugs.",
-            "Award": ""
+            "Award": "Best-Paper Candidate"
         },
         {
             "Title": "Towards a Common Metamodel for Traces of High Performance Computing Systems to Enable Software Analysis Tasks",
@@ -458,7 +496,7 @@
             "Title": "Code Review: Veni, ViDI, Vici",
             "Type": "Research Track",
             "Key": "saner15main-mainid113-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DYuriy+Tymchuk%2C+Andrea+Mocci%2C+and+Michele+Lanza+%22Code+Review%3A+Veni%2C+ViDI%2C+Vici%22",
+            "URL": "http%3A%2F%2Fyuriy.tymchuk.me%2Fpapers%2Fsaner15.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
@@ -481,7 +519,7 @@
             "Title": "Would Static Analysis Tools Help Developers with Code Reviews?",
             "Type": "Research Track",
             "Key": "saner15main-mainid89-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DSebastiano+Panichella%2C+Venera+Arnaoudova%2C+Massimiliano+Di+Penta%2C+and+Giuliano+Antoniol+%22Would+Static+Analysis+Tools+Help+Developers+with+Code+Reviews%3F%22",
+            "URL": "http%3A%2F%2Fwww.ifi.uzh.ch%2Fseal%2Fpeople%2Fpanichella%2FC15.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
@@ -529,7 +567,7 @@
             "Title": "Scaling up Evaluation of Code Search Tools through Developer Usage Metrics",
             "Type": "Research Track",
             "Key": "saner15main-mainid11-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DKostadin+Damevski%2C+David+C.+Shepherd%2C+and+Lori+Pollock+%22Scaling+up+Evaluation+of+Code+Search+Tools+through+Developer+Usage+Metrics%22",
+            "URL": "http%3A%2F%2Fsest.vsu.edu%2F%7Ekdamevski%2Ffiles%2Fcst-eval-metrics.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
@@ -596,7 +634,7 @@
             "Title": "Detecting Duplicate Bug Reports with Software Engineering Domain Knowledge",
             "Type": "Research Track",
             "Key": "saner15main-mainid55-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DKaran+Aggarwal%2C+Tanner+Rutgers%2C+Finbarr+Timbers%2C+Abram+Hindle%2C+Russ+Greiner%2C+and+Eleni+Stroulia+%22Detecting+Duplicate+Bug+Reports+with+Software+Engineering+Domain+Knowledge%22",
+            "URL": "http%3A%2F%2Fwebdocs.cs.ualberta.ca%2F%7Ekaggarwa%2FSANER-dedup.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
@@ -619,7 +657,7 @@
                 "University of Alberta, Canada"
             ],
             "Abstract": "In previous work by Alipour et al., a methodology was proposed for detecting duplicate bug reports by comparing the textual content of bug reports to subject-specific contextual material, namely lists of software-engineering terms, such as non-functional requirements and architecture keywords. When a bug report contains a word in these word-list contexts, the bug report is considered to be associated with that context and this information tends to improve bug-deduplication methods. In this paper, we propose a method to partially automate the extraction of contextual word lists from software-engineering literature. Evaluating this software-literature context method on real-world bug reports produces useful results that indicate this semi-automated method has the potential to substantially decrease the manual effort used in contextual bug deduplication while suffering only a minor loss in accuracy.",
-            "Award": ""
+            "Award": "Best-Paper Candidate"
         },
         {
             "Title": "Impact Analysis Based on a Global Hierarchical Object Graph",
@@ -715,7 +753,7 @@
                 "ITAM, Mexico"
             ],
             "Abstract": "Information workers and software developers are exposed to work fragmentation, an interleaving of activities and interruptions during their normal work day. Small-scale observational studies have shown that this can be detrimental to their work. In this paper, we perform a large-scale study of this phenomenon for the particular case of software developers performing software evolution tasks. Our study is based on several thousands interaction traces collected by Mylyn, for dozens of developers. We observe that work fragmentation is correlated to lower observed productivity at both the macro level (for entire sessions), and at the micro level (around markers of work fragmentation); further, longer activity switches seem to strengthen the effect. These observations are basis for subsequent studies investigating the phenomenon of work fragmentation.",
-            "Award": ""
+            "Award": "Best-Paper Candidate"
         },
         {
             "Title": "Library Functions Identification in Binary Code by Using Graph Isomorphism Testings",
@@ -744,7 +782,7 @@
             "Title": "A Non-convex Abstract Domain for the Value Analysis of Binaries",
             "Type": "Research Track",
             "Key": "saner15main-mainid87-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DSven+Mattsen%2C+Arne+Wichmann%2C+and+Sibylle+Schupp+%22A+Non-convex+Abstract+Domain+for+the+Value+Analysis+of+Binaries%22",
+            "URL": "http%3A%2F%2Fwww.sts.tu-harburg.de%2Fprojects%2FBDDstab%2Fbddstab.pdf",
             "URLvideo": "https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fx-yt-ts%3D1421782837%26v%3DOHKm3L5jNqU",
             "URLinfo": "http%3A%2F%2Fwww.tuhh.de%2Fsts%2Fresearch%2Fprojects%2Fbddstab.html",
             "DOI": "",
@@ -886,7 +924,7 @@
             "Title": "Beyond Support and Confidence: Exploring Interestingness Measures for Rule-Based Specification Mining",
             "Type": "Research Track",
             "Key": "saner15main-mainid37-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DTien-Duy+B.+Le+and+David+Lo+%22Beyond+Support+and+Confidence%3A+Exploring+Interestingness+Measures+for+Rule-Based+Specification+Mining%22",
+            "URL": "https%3A%2F%2Fsites.google.com%2Fsite%2Flebuitienduy%2Fsaner2015.pdf%3Fattredirects%3D0%26d%3D1",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
@@ -928,7 +966,7 @@
                 "INRIA, France / University of Lille, France"
             ],
             "Abstract": "After working for some time, developers commit their code changes to a version control system. When doing so, research shows that they often bundle unrelated changes (e.g., bug fix and refactoring) in a single commit, thus creating a so-called tangled commit. Sharing tangled commits is problematic because it makes review, reversion, and integration of these commits harder and historical analyses of the project less reliable. Researchers have worked at untangling existing commits, i.e., finding which part of a commit relates to which task. In this paper, we contribute to this line of work in two ways: (1) A publicly available dataset of untangled code changes, created with the help of two developers who accurately split their code changes into self contained tasks over a period of four months; (2) based on this dataset we devise and assess EpiceaUntangler, an approach to help developers share untangled commits (aka. atomic commits) by using fine-grained code change information. We further evaluate EpiceaUntangler by deploying it to 7 developers, who used it for 2 weeks. We recorded a median success rate of 91% and average one of 75%, in automatically creating clusters of untangled fine- grained code changes.",
-            "Award": ""
+            "Award": "Best-Paper Candidate"
         },
         {
             "Title": "A Comprehensive and Scalable Method for Analyzing Fine-Grained Source Code Change Patterns",
@@ -978,7 +1016,7 @@
                 "Fudan University, China"
             ],
             "Abstract": "The lifecycle of a large-scale software system can undergo many releases. Each release often involves hundreds or thousands of revisions committed by many developers over time. Many code changes are made in a systematic and collaborative way. However, such systematic and collaborative code changes are often undocumented and hidden in the evolution history of a software system. It is desirable to recover commonalities and associations among dispersed code changes in the evolutionary trajectory of a software system. In this paper, we present SETGA (Summarizing Evolutionary Trajectory by Grouping and Aggregation), an approach to summarizing historical commit records as trajectory patterns by grouping and aggregating relevant code changes committed over time. SETGA extracts change operations from a series of commit records from version control systems. It then groups extracted change operations by their common properties from different dimensions such as change operation types, developers and change locations. After that, SETGA aggregates relevant change operation groups by mining various associations among them. The proposed approach has been implemented and applied to three open-source systems. The results show that SETGA can identify various types of trajectory patterns that are useful for software evolution management and quality assurance.",
-            "Award": ""
+            "Award": "Best-Paper Candidate"
         },
         {
             "Title": "Identifying the Exact Fixing Actions of Static Rule Violation",
@@ -989,19 +1027,19 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Hayatou Oumarou, Nicolas Anquetil, Anne Etien, Stéphane Ducasse, and Kolyang Dina Taiwe",
-            "AffiliationsString": "University of Maroua, Cameroon; INRIA, France",
+            "AffiliationsString": "University of Maroua, Cameroon; INRIA, France; University of Lille, France",
             "Authors": [
                 "Hayatou Oumarou @ University of Maroua, Cameroon",
                 "Nicolas Anquetil @ INRIA, France",
                 "Anne Etien @ INRIA, France",
-                "Stéphane Ducasse @ INRIA, France",
+                "Stéphane Ducasse @ INRIA, France / University of Lille, France",
                 "Kolyang Dina Taiwe @ University of Maroua, Cameroon"
             ],
             "Affiliations": [
                 "University of Maroua, Cameroon",
                 "INRIA, France",
                 "INRIA, France",
-                "INRIA, France",
+                "INRIA, France / University of Lille, France",
                 "University of Maroua, Cameroon"
             ],
             "Abstract": "Abstract— We study good programming practices expressed in rules and detected by static analysis checkers such as PMD or FindBugs. To understand how violations to these rules are corrected and whether this can be automated, we need to identify in the source code where they appear and how they were fixed. This presents some similarities with research on understanding software bugs, their causes, their fixes, and how they could be avoided. The traditional method to identify how a bug or a rule violation were fixed consists in finding the commit that contains this fix and identifying what was changed in this commit. If the commit is small, all the lines changed are ascribed to the fixing of the rule violation or the bug. However, commits are not always atomic, and several fixes and even enhancements can be mixed in a single one (a large commit). In this case, it is impossible to detect which modifications contribute to which fix. In this paper, we are proposing a method that identifies precisely the modifications that are related to the correction of a rule violation. The same method could be applied to bug fixes, providing there is a test illustrating this bug. We validate our solution on a real world system and actual rules.",
@@ -1092,9 +1130,9 @@
             "Title": "Niche vs. Breadth: Calculating Expertise over Time through a Fine-Grained Analysis",
             "Type": "Research Track",
             "Key": "saner15main-mainid46-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJose+Ricardo+da+Silva+Junior%2C+Esteban+Clua%2C+Leonardo+Murta%2C+and+Anita+Sarma+%22Niche+vs.+Breadth%3A+Calculating+Expertise+over+Time+through+a+Fine-Grained+Analysis%22",
+            "URL": "http%3A%2F%2Fjosericardojunior.com%2Fwp-content%2Fuploads%2F2015%2F02%2Fpaper_final_v2.pdf",
             "URLvideo": "",
-            "URLinfo": "",
+            "URLinfo": "http%3A%2F%2Fjosericardojunior.com%2F%3Fpage_id%3D324",
             "DOI": "",
             "PersonsString": "Jose Ricardo da Silva Junior, Esteban Clua, Leonardo Murta, and Anita Sarma",
             "AffiliationsString": "Federal Fluminense University, Brazil; University of Nebraska-Lincoln, USA",
@@ -1523,6 +1561,96 @@
             "Award": ""
         },
         {
+            "Title": "Trusting a Library: A Study of the Latency to Adopt the Latest Maven Release",
+            "Type": "Short Paper 5 pages",
+            "Key": "saner15era-eraid15-p",
+            "URL": "http%3A%2F%2Fsel.ist.osaka-u.ac.jp%2F%7Elab-db%2Fbetuzuri%2Farchive%2F979%2F979.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Raula Gaikovina Kula, Daniel M. German, Takashi Ishio, and Katsuro Inoue",
+            "AffiliationsString": "Osaka University, Japan; University of Victoria, Canada",
+            "Authors": [
+                "Raula Gaikovina Kula @ Osaka University, Japan",
+                "Daniel M. German @ Osaka University, Japan / University of Victoria, Canada",
+                "Takashi Ishio @ Osaka University, Japan",
+                "Katsuro Inoue @ Osaka University, Japan"
+            ],
+            "Affiliations": [
+                "Osaka University, Japan",
+                "Osaka University, Japan / University of Victoria, Canada",
+                "Osaka University, Japan",
+                "Osaka University, Japan"
+            ],
+            "Abstract": "With the popularity of open source library (re)use in both industrial and open source settings, `trust&#039; plays vital role in third-party library adoption. Trust involves the assumption of both functional and non-functional correctness. Even with the aid of dependency management build tools such as Maven and Gradle, research have still found a latency to trust the latest release of a library. In this paper, we investigate the trust of OSS libraries. Our study of 6,374 systems in Maven Super Repository suggests that 82% of systems are more trusting of adopting the latest library release to existing systems. We uncover the impact of maven on latent and trusted library adoptions.",
+            "Award": ""
+        },
+        {
+            "Title": "Evolution of Dynamic Feature Usage in PHP",
+            "Type": "Short Paper 5 pages",
+            "Key": "saner15era-eraid78-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMark+Hills+%22Evolution+of+Dynamic+Feature+Usage+in+PHP%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Mark Hills",
+            "AffiliationsString": "East Carolina University, USA",
+            "Authors": [
+                "Mark Hills @ East Carolina University, USA"
+            ],
+            "Affiliations": [
+                "East Carolina University, USA"
+            ],
+            "Abstract": "PHP includes a number of dynamic features that, if used, make it challenging for both programmers and tools to reason about programs. In this paper we examine how usage of these features has changed over time, looking at usage trends for three categories of dynamic features across the release histories of two popular open-source PHP systems, WordPress and MediaWiki. Our initial results suggest that, while features such as eval are being removed over time, more constrained dynamic features such as variable properties are becoming more common. We believe the results of this analysis provide useful insights for researchers and tool developers into the evolving use of dynamic features in real PHP programs.",
+            "Award": ""
+        },
+        {
+            "Title": "Towards Incremental Model Slicing for Delta-Oriented Software Product Lines",
+            "Type": "Short Paper 5 pages",
+            "Key": "saner15era-eraid30-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DSascha+Lity%2C+Hauke+Baller%2C+and+Ina+Schaefer+%22Towards+Incremental+Model+Slicing+for+Delta-Oriented+Software+Product+Lines%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Sascha Lity, Hauke Baller, and Ina Schaefer",
+            "AffiliationsString": "TU Braunschweig, Germany",
+            "Authors": [
+                "Sascha Lity @ TU Braunschweig, Germany",
+                "Hauke Baller @ TU Braunschweig, Germany",
+                "Ina Schaefer @ TU Braunschweig, Germany"
+            ],
+            "Affiliations": [
+                "TU Braunschweig, Germany",
+                "TU Braunschweig, Germany",
+                "TU Braunschweig, Germany"
+            ],
+            "Abstract": "The analysis of nowadays software systems for supporting, e.g., testing, verification or debugging is becoming more challenging due to their increasing complexity. Model slicing is a promising analysis technique to tackle this issue by abstracting from those parts not influencing the current point of interest. In the context of software product lines, applying model slicing separately for each variant is in general infeasible. Delta modeling allows exploiting the explicit specification of commonality and variability within deltas and enables the reuse of artifacts and already obtained results to reduce the modeling and analysis efforts. In this paper, we propose a novel approach for incremental model slicing for delta-oriented software product lines. Based on the specification of model changes between variants by means of model regression deltas, an incremental adaptation of variant-specific dependency graphs as well as an incremental slice computation is achieved. The slice computation further allows for the derivation of differences between slices for the same point of interest enhancing, e.g., change impact analysis. We provide details of our incremental approach, discuss benefits and present future work.",
+            "Award": ""
+        },
+        {
+            "Title": "Understanding Software Performance Regressions using Differential Flame Graphs",
+            "Type": "Short Paper 5 pages",
+            "Key": "saner15era-eraid10-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DCor-Paul+Bezemer%2C+Johan+Pouwelse%2C+and+Brendan+Gregg+%22Understanding+Software+Performance+Regressions+using+Differential+Flame+Graphs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Cor-Paul Bezemer, Johan Pouwelse, and Brendan Gregg",
+            "AffiliationsString": "Delft University of Technology, Netherlands; Netflix, USA",
+            "Authors": [
+                "Cor-Paul Bezemer @ Delft University of Technology, Netherlands",
+                "Johan Pouwelse @ Delft University of Technology, Netherlands",
+                "Brendan Gregg @ Netflix, USA"
+            ],
+            "Affiliations": [
+                "Delft University of Technology, Netherlands",
+                "Delft University of Technology, Netherlands",
+                "Netflix, USA"
+            ],
+            "Abstract": "Flame graphs are gaining rapidly in popularity in industry to visualize performance profiles collected by stack-trace based profilers. In some cases, for example, during performance regression detection, profiles of different software versions have to be compared. Doing this manually using two or more flame graphs or textual profiles is tedious and error-prone. In this `Early Research Achievements&#039;-track paper, we present our preliminary results on using differential flame graphs instead. Differential flame graphs visualize the differences between two performance profiles. In addition, we discuss which research fields we expect to benefit from using differential flame graphs. We have implemented our approach in an open source prototype called FlameGraphDiff, which is available on GitHub. FlameGraphDiff makes it easy to generate interactive differential flame graphs from two existing performance profiles. These graphs facilitate easy tracing of elements in the different graphs to ease the understanding of the (d)evolution of the performance of an application.",
+            "Award": ""
+        },
+        {
             "Title": "TextRank Based Search Term Identification for Software Change Tasks",
             "Type": "Short Paper 5 pages",
             "Key": "saner15era-eraid74-p",
@@ -1571,45 +1699,51 @@
             "Award": ""
         },
         {
-            "Title": "Evolution of Dynamic Feature Usage in PHP",
+            "Title": "Exploring the Use of Labels to Categorize Issues in Open-Source Software Projects",
             "Type": "Short Paper 5 pages",
-            "Key": "saner15era-eraid78-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMark+Hills+%22Evolution+of+Dynamic+Feature+Usage+in+PHP%22",
+            "Key": "saner15era-eraid39-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJordi+Cabot%2C+Javier+Luis+C%C3%A1novas+Izquierdo%2C+Valerio+Cosentino%2C+and+Bel%C3%A9n+Rolandi+%22Exploring+the+Use+of+Labels+to+Categorize+Issues+in+Open-Source+Software+Projects%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Mark Hills",
-            "AffiliationsString": "East Carolina University, USA",
+            "PersonsString": "Jordi Cabot, Javier Luis Cánovas Izquierdo, Valerio Cosentino, and Belén Rolandi",
+            "AffiliationsString": "AtlanMod, France",
             "Authors": [
-                "Mark Hills @ East Carolina University, USA"
+                "Jordi Cabot @ AtlanMod, France",
+                "Javier Luis Cánovas Izquierdo @ AtlanMod, France",
+                "Valerio Cosentino @ AtlanMod, France",
+                "Belén Rolandi @ AtlanMod, France"
             ],
             "Affiliations": [
-                "East Carolina University, USA"
+                "AtlanMod, France",
+                "AtlanMod, France",
+                "AtlanMod, France",
+                "AtlanMod, France"
             ],
-            "Abstract": "PHP includes a number of dynamic features that, if used, make it challenging for both programmers and tools to reason about programs. In this paper we examine how usage of these features has changed over time, looking at usage trends for three categories of dynamic features across the release histories of two popular open-source PHP systems, WordPress and MediaWiki. Our initial results suggest that, while features such as eval are being removed over time, more constrained dynamic features such as variable properties are becoming more common. We believe the results of this analysis provide useful insights for researchers and tool developers into the evolving use of dynamic features in real PHP programs.",
+            "Abstract": "Reporting bugs, asking for new features and in general giving any kind of feedback is a common way to contribute to an Open-Source Software (OSS) project. This feedback is generally reported in the form of new issues for the project, managed by the so-called issue-trackers. One of the features provided by most issue-trackers is the possibility to define a set of labels/tags to classify the issues and, at least in theory, facilitate their management. Nevertheless, there is little empirical evidence to confirm that taking the time to categorize new issues has indeed a beneficial impact on the project evolution. In this paper we analyze a population of more than three million of GitHub projects and give some insights on how labels are used in them. Our preliminary results reveal that, even if the label mechanism is scarcely used, using labels favors the resolution of issues. Our analysis also suggests that not all projects use labels in the same way (e.g., for some labels are only a way to prioritize the project while others use them to signal their temporal evolution as they move along in the development workflow). Further research is needed to precisely characterize these label &quot;families&quot; and learn more the ideal application scenarios for each of them.",
             "Award": ""
         },
         {
-            "Title": "Understanding Software Performance Regressions using Differential Flame Graphs",
+            "Title": "Explore the Evolution of Development Topics via On-Line LDA",
             "Type": "Short Paper 5 pages",
-            "Key": "saner15era-eraid10-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DCor-Paul+Bezemer%2C+Johan+Pouwelse%2C+and+Brendan+Gregg+%22Understanding+Software+Performance+Regressions+using+Differential+Flame+Graphs%22",
+            "Key": "saner15era-eraid27-p",
+            "URL": "http%3A%2F%2Fwww.risame.net%2Fsun%2Fsaner.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Cor-Paul Bezemer, Johan Pouwelse, and Brendan Gregg",
-            "AffiliationsString": "Delft University of Technology, Netherlands; Netflix, USA",
+            "PersonsString": "Jiajun Hu, Xiaobing Sun, and Bin Li",
+            "AffiliationsString": "Yangzhou University, China; Nanjing University, China",
             "Authors": [
-                "Cor-Paul Bezemer @ Delft University of Technology, Netherlands",
-                "Johan Pouwelse @ Delft University of Technology, Netherlands",
-                "Brendan Gregg @ Netflix, USA"
+                "Jiajun Hu @ Yangzhou University, China",
+                "Xiaobing Sun @ Yangzhou University, China / Nanjing University, China",
+                "Bin Li @ Yangzhou University, China / Nanjing University, China"
             ],
             "Affiliations": [
-                "Delft University of Technology, Netherlands",
-                "Delft University of Technology, Netherlands",
-                "Netflix, USA"
+                "Yangzhou University, China",
+                "Yangzhou University, China / Nanjing University, China",
+                "Yangzhou University, China / Nanjing University, China"
             ],
-            "Abstract": "Flame graphs are gaining rapidly in popularity in industry to visualize performance profiles collected by stack-trace based profilers. In some cases, for example, during performance regression detection, profiles of different software versions have to be compared. Doing this manually using two or more flame graphs or textual profiles is tedious and error-prone. In this `Early Research Achievements&#039;-track paper, we present our preliminary results on using differential flame graphs instead. Differential flame graphs visualize the differences between two performance profiles. In addition, we discuss which research fields we expect to benefit from using differential flame graphs. We have implemented our approach in an open source prototype called FlameGraphDiff, which is available on GitHub. FlameGraphDiff makes it easy to generate interactive differential flame graphs from two existing performance profiles. These graphs facilitate easy tracing of elements in the different graphs to ease the understanding of the (d)evolution of the performance of an application.",
+            "Abstract": "Software repositories such as revision control systems and bug tracking systems are usually used to manage the changes of software projects. During software maintenance and evolution, software developers and stakeholders need to investigate these repositories to identify what tasks were worked on in a particular time interval and how much effort was devoted to them. A typical way of mining software repositories is to use topic analysis models, e.g., Latent Dirichlet Allocation (LDA), to identify and organize the underlying structure in software documents to understand the evolution of development topics. These previously LDA-based topic analysis models can capture either changes on the strength (popularity) of various development topics over time (i.e., strength evolution) or changes in the content (the words that form the topic) of existing topics over time (i.e., content evolution). Unfortunately, few techniques can capture both strength and content evolution simultaneously. However, both pieces of information are necessary for developers to fully understand how software evolves. In this paper, we propose a novel approach to analyze commit messages within a project’s lifetime to capture both strength and content evolution simultaneously via Online Latent Dirichlet Allocation (On-Line LDA). Moreover, the proposed approach also provides an efficient way to detect emerging topics in real development iteration when a new feature request arrives at a particular time, thus helping project stakeholds progress their projects smoothly.",
             "Award": ""
         },
         {
@@ -1633,29 +1767,6 @@
                 "Singapore Management University, Singapore"
             ],
             "Abstract": "During software maintenance, testing is a crucial activity to ensure the quality of program code as it evolves over time. With the increasing size and complexity of software, adequate software testing has become increasingly important. Code coverage is often used as a yardstick to gauge the comprehensiveness of test cases and the adequacy of testing. A test suite quality is often measured by the number of bugs it can find (aka. kill). Previous studies have analysed the quality of a test suite by its ability to kill mutants, i.e., artificially seeded faults. However, mutants do not necessarily represent real bugs. Moreover, many studies use small programs which increases the threat of the applicability of the results on large real-world systems.  In this paper, we analyse two large software systems to measure the relationship of code coverage and its effectiveness in killing real bugs from the software systems. We use Randoop, a random test generation tool to generate test suites with varying levels of coverage and run them to analyse if the test suites can kill each of the real bugs or not. In this preliminary study, we have performed an experiment on 67 and 92 real bugs from Apache HTTPClient and Mozilla Rhino, respectively. Our experiment finds that there is indeed statistically significant correlation between code coverage and bug kill effectiveness. The strengths of the correlation, however, differ for the two software systems. For HTTPClient, the correlation is moderate for both statement and branch coverage. For Rhino, the correlation is strong for both statement and branch coverage.",
-            "Award": ""
-        },
-        {
-            "Title": "Towards Incremental Model Slicing for Delta-Oriented Software Product Lines",
-            "Type": "Short Paper 5 pages",
-            "Key": "saner15era-eraid30-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DSascha+Lity%2C+Hauke+Baller%2C+and+Ina+Schaefer+%22Towards+Incremental+Model+Slicing+for+Delta-Oriented+Software+Product+Lines%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "DOI": "",
-            "PersonsString": "Sascha Lity, Hauke Baller, and Ina Schaefer",
-            "AffiliationsString": "TU Braunschweig, Germany",
-            "Authors": [
-                "Sascha Lity @ TU Braunschweig, Germany",
-                "Hauke Baller @ TU Braunschweig, Germany",
-                "Ina Schaefer @ TU Braunschweig, Germany"
-            ],
-            "Affiliations": [
-                "TU Braunschweig, Germany",
-                "TU Braunschweig, Germany",
-                "TU Braunschweig, Germany"
-            ],
-            "Abstract": "The analysis of nowadays software systems for supporting, e.g., testing, verification or debugging is becoming more challenging due to their increasing complexity. Model slicing is a promising analysis technique to tackle this issue by abstracting from those parts not influencing the current point of interest. In the context of software product lines, applying model slicing separately for each variant is in general infeasible. Delta modeling allows exploiting the explicit specification of commonality and variability within deltas and enables the reuse of artifacts and already obtained results to reduce the modeling and analysis efforts. In this paper, we propose a novel approach for incremental model slicing for delta-oriented software product lines. Based on the specification of model changes between variants by means of model regression deltas, an incremental adaptation of variant-specific dependency graphs as well as an incremental slice computation is achieved. The slice computation further allows for the derivation of differences between slices for the same point of interest enhancing, e.g., change impact analysis. We provide details of our incremental approach, discuss benefits and present future work.",
             "Award": ""
         },
         {
@@ -1686,53 +1797,24 @@
             "Award": ""
         },
         {
-            "Title": "Exploring the Use of Labels to Categorize Issues in Open-Source Software Projects",
+            "Title": "A Comparative Study on the Effectiveness of Part-of-Speech Tagging Techniques on Bug Reports",
             "Type": "Short Paper 5 pages",
-            "Key": "saner15era-eraid39-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJordi+Cabot%2C+Javier+Luis+C%C3%A1novas+Izquierdo%2C+Valerio+Cosentino%2C+and+Bel%C3%A9n+Rolandi+%22Exploring+the+Use+of+Labels+to+Categorize+Issues+in+Open-Source+Software+Projects%22",
+            "Key": "saner15era-eraid31-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DYuan+Tian+and+David+Lo+%22A+Comparative+Study+on+the+Effectiveness+of+Part-of-Speech+Tagging+Techniques+on+Bug+Reports%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Jordi Cabot, Javier Luis Cánovas Izquierdo, Valerio Cosentino, and Belén Rolandi",
-            "AffiliationsString": "AtlanMod, France",
+            "PersonsString": "Yuan Tian and David Lo",
+            "AffiliationsString": "Singapore Management University, Singapore",
             "Authors": [
-                "Jordi Cabot @ AtlanMod, France",
-                "Javier Luis Cánovas Izquierdo @ AtlanMod, France",
-                "Valerio Cosentino @ AtlanMod, France",
-                "Belén Rolandi @ AtlanMod, France"
+                "Yuan Tian @ Singapore Management University, Singapore",
+                "David Lo @ Singapore Management University, Singapore"
             ],
             "Affiliations": [
-                "AtlanMod, France",
-                "AtlanMod, France",
-                "AtlanMod, France",
-                "AtlanMod, France"
+                "Singapore Management University, Singapore",
+                "Singapore Management University, Singapore"
             ],
-            "Abstract": "Reporting bugs, asking for new features and in general giving any kind of feedback is a common way to contribute to an Open-Source Software (OSS) project. This feedback is generally reported in the form of new issues for the project, managed by the so-called issue-trackers. One of the features provided by most issue-trackers is the possibility to define a set of labels/tags to classify the issues and, at least in theory, facilitate their management. Nevertheless, there is little empirical evidence to confirm that taking the time to categorize new issues has indeed a beneficial impact on the project evolution. In this paper we analyze a population of more than three million of GitHub projects and give some insights on how labels are used in them. Our preliminary results reveal that, even if the label mechanism is scarcely used, using labels favors the resolution of issues. Our analysis also suggests that not all projects use labels in the same way (e.g., for some labels are only a way to prioritize the project while others use them to signal their temporal evolution as they move along in the development workflow). Further research is needed to precisely characterize these label &quot;families&quot; and learn more the ideal application scenarios for each of them.",
-            "Award": ""
-        },
-        {
-            "Title": "Trusting a Library: A Study of the Latency to Adopt the Latest Maven Release",
-            "Type": "Short Paper 5 pages",
-            "Key": "saner15era-eraid15-p",
-            "URL": "http%3A%2F%2Fsel.ist.osaka-u.ac.jp%2F%7Eraula-k%2Fpublications%2FlatencyAdoptions2015ERA.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "DOI": "",
-            "PersonsString": "Raula Gaikovina Kula, Daniel M. German, Takashi Ishio, and Katsuro Inoue",
-            "AffiliationsString": "Osaka University, Japan; University of Victoria, Canada",
-            "Authors": [
-                "Raula Gaikovina Kula @ Osaka University, Japan",
-                "Daniel M. German @ Osaka University, Japan / University of Victoria, Canada",
-                "Takashi Ishio @ Osaka University, Japan",
-                "Katsuro Inoue @ Osaka University, Japan"
-            ],
-            "Affiliations": [
-                "Osaka University, Japan",
-                "Osaka University, Japan / University of Victoria, Canada",
-                "Osaka University, Japan",
-                "Osaka University, Japan"
-            ],
-            "Abstract": "With the popularity of open source library (re)use in both industrial and open source settings, `trust&#039; plays vital role in third-party library adoption. Trust involves the assumption of both functional and non-functional correctness. Even with the aid of dependency management build tools such as Maven and Gradle, research have still found a latency to trust the latest release of a library. In this paper, we investigate the trust of OSS libraries. Our study of 6,374 systems in Maven Super Repository suggests that 82% of systems are more trusting of adopting the latest library release to existing systems. We uncover the impact of maven on latent and trusted library adoptions.",
+            "Abstract": "Many software artifacts are written in natural language or contain substantial amount of natural language contents. Thus these artifacts could be analyzed using text analysis techniques from the natural language processing (NLP) community, e.g., the part-of-speech (POS) tagging technique that assigns POS tags (e.g., verb, noun, etc.) to words in a sentence. In the literature, several studies have already applied POS tagging technique on software artifacts to recover important words in them, which are then used for automating various tasks, e.g., locating buggy files for a given bug report, etc. There are many POS tagging techniques proposed and they are trained and evaluated on non software engineering corpus (documents). Thus it is unknown whether they can correctly identify the POS of a word in a software artifact and which of them performs the best. To fill this gap, in this work, we investigate the effectiveness of seven POS taggers on bug reports. We randomly sample 100 bug reports from Eclipse and Mozilla project and create a text corpus that contains 21,713 words. We manually assign POS tags to these words and use them to evaluate the studied POS taggers. Our comparative study shows that the state-of-the-art POS taggers achieve an accuracy of 83.6%-90.5% on bug reports and the Stanford POS tagger and the TreeTagger achieve the highest accuracy on the sampled bug reports. Our findings show that researchers could use these POS taggers to analyze software artifacts, if an accuracy of 80-90% is acceptable for their specific needs, and we recommend using the Stanford POS tagger or the TreeTagger.",
             "Award": ""
         },
         {
@@ -1754,29 +1836,6 @@
                 "University of Chile, Chile"
             ],
             "Abstract": "Most programming environments are shipped with accurate memory profilers. Although efficient in their analyses, memory profilers traditionally output textual listing reports, thus reducing the memory profile exploration as a set of textual pattern-matching operations. Memory blueprint visually reports the memory consumption of a program execution. A number of simple visual cues are provided to identify direct and indirect object production sites, key ingredients to efficiently address memory issues. Scalability is addressed by restricting the scope of interest both in the call graph and the considered classes. Memory blueprint has been implemented in the Pharo programming language, and is available under the MIT license.",
-            "Award": ""
-        },
-        {
-            "Title": "Explore the Evolution of Development Topics via On-Line LDA",
-            "Type": "Short Paper 5 pages",
-            "Key": "saner15era-eraid27-p",
-            "URL": "http%3A%2F%2Fwww.risame.net%2Fsun%2Fsaner.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "DOI": "",
-            "PersonsString": "Jiajun Hu, Xiaobing Sun, and Bin Li",
-            "AffiliationsString": "Yangzhou University, China; Nanjing University, China",
-            "Authors": [
-                "Jiajun Hu @ Yangzhou University, China",
-                "Xiaobing Sun @ Yangzhou University, China / Nanjing University, China",
-                "Bin Li @ Yangzhou University, China / Nanjing University, China"
-            ],
-            "Affiliations": [
-                "Yangzhou University, China",
-                "Yangzhou University, China / Nanjing University, China",
-                "Yangzhou University, China / Nanjing University, China"
-            ],
-            "Abstract": "Software repositories such as revision control systems and bug tracking systems are usually used to manage the changes of software projects. During software maintenance and evolution, software developers and stakeholders need to investigate these repositories to identify what tasks were worked on in a particular time interval and how much effort was devoted to them. A typical way of mining software repositories is to use topic analysis models, e.g., Latent Dirichlet Allocation (LDA), to identify and organize the underlying structure in software documents to understand the evolution of development topics. These previously LDA-based topic analysis models can capture either changes on the strength (popularity) of various development topics over time (i.e., strength evolution) or changes in the content (the words that form the topic) of existing topics over time (i.e., content evolution). Unfortunately, few techniques can capture both strength and content evolution simultaneously. However, both pieces of information are necessary for developers to fully understand how software evolves. In this paper, we propose a novel approach to analyze commit messages within a project’s lifetime to capture both strength and content evolution simultaneously via Online Latent Dirichlet Allocation (On-Line LDA). Moreover, the proposed approach also provides an efficient way to detect emerging topics in real development iteration when a new feature request arrives at a particular time, thus helping project stakeholds progress their projects smoothly.",
             "Award": ""
         },
         {
@@ -1826,27 +1885,6 @@
             "Award": ""
         },
         {
-            "Title": "A Comparative Study on the Effectiveness of Part-of-Speech Tagging Techniques on Bug Reports",
-            "Type": "Short Paper 5 pages",
-            "Key": "saner15era-eraid31-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DYuan+Tian+and+David+Lo+%22A+Comparative+Study+on+the+Effectiveness+of+Part-of-Speech+Tagging+Techniques+on+Bug+Reports%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "DOI": "",
-            "PersonsString": "Yuan Tian and David Lo",
-            "AffiliationsString": "Singapore Management University, Singapore",
-            "Authors": [
-                "Yuan Tian @ Singapore Management University, Singapore",
-                "David Lo @ Singapore Management University, Singapore"
-            ],
-            "Affiliations": [
-                "Singapore Management University, Singapore",
-                "Singapore Management University, Singapore"
-            ],
-            "Abstract": "Many software artifacts are written in natural language or contain substantial amount of natural language contents. Thus these artifacts could be analyzed using text analysis techniques from the natural language processing (NLP) community, e.g., the part-of-speech (POS) tagging technique that assigns POS tags (e.g., verb, noun, etc.) to words in a sentence. In the literature, several studies have already applied POS tagging technique on software artifacts to recover important words in them, which are then used for automating various tasks, e.g., locating buggy files for a given bug report, etc. There are many POS tagging techniques proposed and they are trained and evaluated on non software engineering corpus (documents). Thus it is unknown whether they can correctly identify the POS of a word in a software artifact and which of them performs the best. To fill this gap, in this work, we investigate the effectiveness of seven POS taggers on bug reports. We randomly sample 100 bug reports from Eclipse and Mozilla project and create a text corpus that contains 21,713 words. We manually assign POS tags to these words and use them to evaluate the studied POS taggers. Our comparative study shows that the state-of-the-art POS taggers achieve an accuracy of 83.6%-90.5% on bug reports and the Stanford POS tagger and the TreeTagger achieve the highest accuracy on the sampled bug reports. Our findings show that researchers could use these POS taggers to analyze software artifacts, if an accuracy of 80-90% is acceptable for their specific needs, and we recommend using the Stanford POS tagger or the TreeTagger.",
-            "Award": ""
-        },
-        {
             "Title": "TXL Source Transformation in Practice",
             "Type": "Tutorial",
             "Key": "saner15tut-tutt1-p",
@@ -1874,18 +1912,18 @@
             "URLinfo": "http%3A%2F%2Fwww.sig.eu%2FResearch%2FSoftwareRiskManagementInPractice",
             "DOI": "",
             "PersonsString": "Jens Knodel, Matthias Naab, Eric Bouwers, and Joost Visser",
-            "AffiliationsString": "Fraunhofer IESE, Germany; Software Improvement Group, Netherlands",
+            "AffiliationsString": "Fraunhofer IESE, Germany; Software Improvement Group, Netherlands; Radboud University Nijmegen, Netherlands",
             "Authors": [
                 "Jens Knodel @ Fraunhofer IESE, Germany",
                 "Matthias Naab @ Fraunhofer IESE, Germany",
                 "Eric Bouwers @ Software Improvement Group, Netherlands",
-                "Joost Visser @ Software Improvement Group, Netherlands"
+                "Joost Visser @ Software Improvement Group, Netherlands / Radboud University Nijmegen, Netherlands"
             ],
             "Affiliations": [
                 "Fraunhofer IESE, Germany",
                 "Fraunhofer IESE, Germany",
                 "Software Improvement Group, Netherlands",
-                "Software Improvement Group, Netherlands"
+                "Software Improvement Group, Netherlands / Radboud University Nijmegen, Netherlands"
             ],
             "Abstract": "You can’t control what you can’t measure. And you can’t decide if you are wandering around in the dark. Risk management in practice requires shedding light on the internals of the software product in order to make informed decisions. Thus, in practice, risk management has to be based on information about artifacts (documentation, code, and executables) in order to detect (potentially) critical issues. This tutorial presents experiences from industrial cases world-wide on qualitative and quantitative measurement of software products. We present our lessons learned as well as consolidated experiences from practice and provide a classification scheme of applicable measurement techniques. Participants of the tutorial receive an introduction to the techniques in theory and then apply them in practice in interactive exercises. This enables participants to learn how to shed light on the internals of their software and how to make risk management decisions efficiently and effectively.",
             "Award": ""
@@ -2085,52 +2123,16 @@
     ],
     "Sessions": [
         {
-            "Id": "Aegeu7JooZ",
-            "Title": "Early Research Achievements",
-            "ShortTitle": "Early Research Achievements",
-            "Type": "Early Research Achievements",
-            "ShortType": "Early Research Achievements",
-            "Key": "1970-01-01  Early Research Achievements",
-            "Day": "1970-01-01",
-            "Time": "00:00 - 01:00",
-            "Location": "",
-            "LocationIndex": "0",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "SANER15ERA",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "saner15era-eraid74-p",
-                "saner15era-eraid44-p",
-                "saner15era-eraid78-p",
-                "saner15era-eraid10-p",
-                "saner15era-eraid25-p",
-                "saner15era-eraid30-p",
-                "saner15era-eraid32-p",
-                "saner15era-eraid39-p",
-                "saner15era-eraid15-p",
-                "saner15era-eraid14-p",
-                "saner15era-eraid27-p",
-                "saner15era-eraid50-p",
-                "saner15era-eraid77-p",
-                "saner15era-eraid31-p"
-            ]
-        },
-        {
             "Id": "ahVeiK9ies",
-            "Title": "Tutorials and Briefings",
-            "ShortTitle": "Tutorials and Briefings",
+            "Title": "TXL Source Transformation in Practice",
+            "ShortTitle": "TXL Source Transformation in Practice",
             "Type": "Tutorials and Briefings",
             "ShortType": "Tutorials and Briefings",
-            "Key": "1970-01-01  Tutorials and Briefings",
-            "Day": "1970-01-01",
-            "Time": "00:00 - 01:00",
+            "Key": "2015-03-02 08:45 TXL Source Transformation in Practice",
+            "Day": "2015-03-02",
+            "Time": "08:45 - 18:00",
             "Location": "",
-            "LocationIndex": "1",
+            "LocationIndex": "0",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -2140,10 +2142,7 @@
             "URL": "",
             "Abstract": "",
             "Items": [
-                "saner15tut-tutt1-p",
-                "saner15tut-tutt2-p",
-                "saner15tut-tutt3-p",
-                "saner15tut-tutt4-p"
+                "saner15tut-tutt1-p"
             ]
         },
         {
@@ -2167,6 +2166,29 @@
             "Abstract": "",
             "Items": [
                 "saner15foreword-fm001-p"
+            ]
+        },
+        {
+            "Id": "Ieweewoo0y",
+            "Title": "On Whose Shoulders? (Keynote)",
+            "ShortTitle": "On Whose Shoulders? (Keynote)",
+            "Type": "Keynotes",
+            "ShortType": "Keynotes",
+            "Key": "2015-03-03 09:00 On Whose Shoulders? (Keynote)",
+            "Day": "2015-03-03",
+            "Time": "09:00 - 10:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SANER15KEYNOTES",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "saner15keynotes-keynotesid1-p"
             ]
         },
         {
@@ -2225,6 +2247,32 @@
             ]
         },
         {
+            "Id": "Aegeu7JooZ",
+            "Title": "Evolution and Reuse",
+            "ShortTitle": "Evolution and Reuse",
+            "Type": "Early Research Achievements",
+            "ShortType": "Early Research Achievements",
+            "Key": "2015-03-03 11:00 Evolution and Reuse",
+            "Day": "2015-03-03",
+            "Time": "11:00 - 12:30",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SANER15ERA",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "saner15era-eraid15-p",
+                "saner15era-eraid78-p",
+                "saner15era-eraid30-p",
+                "saner15era-eraid10-p"
+            ]
+        },
+        {
             "Id": "IPie7Cae9m",
             "Title": "APIs and Patterns",
             "ShortTitle": "APIs and Patterns",
@@ -2248,6 +2296,32 @@
                 "saner15main-mainid127-p",
                 "saner15main-mainid49-p",
                 "saner15main-mainid104-p"
+            ]
+        },
+        {
+            "Id": "Nuu3eiph9e",
+            "Title": "Text and Labeling",
+            "ShortTitle": "Text and Labeling",
+            "Type": "Early Research Achievements",
+            "ShortType": "Early Research Achievements",
+            "Key": "2015-03-03 14:00 Text and Labeling",
+            "Day": "2015-03-03",
+            "Time": "14:00 - 15:30",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SANER15ERA",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "saner15era-eraid74-p",
+                "saner15era-eraid44-p",
+                "saner15era-eraid39-p",
+                "saner15era-eraid27-p"
             ]
         },
         {
@@ -2307,6 +2381,49 @@
             ]
         },
         {
+            "Id": "ahwathe1uK",
+            "Title": "Software Architecture Reconstruction: Why? What? How?",
+            "ShortTitle": "Software Architecture Reconstruction: Why? What? How?",
+            "Type": "Tutorials and Briefings",
+            "ShortType": "Tutorials and Briefings",
+            "Key": "2015-03-03 18:00 Software Architecture Reconstruction: Why? What? How?",
+            "Day": "2015-03-03",
+            "Time": "18:00 - 19:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SANER15TUT",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "saner15tut-tutt3-p"
+            ]
+        },
+        {
+            "Id": "quah8eiCuf",
+            "Title": "Welcome Reception",
+            "ShortTitle": "Welcome Reception",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2015-03-03 20:00 Welcome Reception",
+            "Day": "2015-03-03",
+            "Time": "20:00 - 23:00",
+            "Location": "Atrium",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SANER15",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "deQuah6ohs",
             "Title": "On Crashes and Traces",
             "ShortTitle": "On Crashes and Traces",
@@ -2356,6 +2473,31 @@
                 "saner15main-mainid113-p",
                 "saner15main-mainid89-p",
                 "saner15main-mainid147-p"
+            ]
+        },
+        {
+            "Id": "oongie1ieV",
+            "Title": "Bugs and Violations",
+            "ShortTitle": "Bugs and Violations",
+            "Type": "Early Research Achievements",
+            "ShortType": "Early Research Achievements",
+            "Key": "2015-03-04 11:00 Bugs and Violations",
+            "Day": "2015-03-04",
+            "Time": "11:00 - 12:30",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SANER15ERA",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "saner15era-eraid25-p",
+                "saner15era-eraid32-p",
+                "saner15era-eraid31-p"
             ]
         },
         {
@@ -2411,6 +2553,72 @@
             ]
         },
         {
+            "Id": "Aew3raey4a",
+            "Title": "Metamorphic Testing",
+            "ShortTitle": "Metamorphic Testing",
+            "Type": "Tutorials and Briefings",
+            "ShortType": "Tutorials and Briefings",
+            "Key": "2015-03-04 18:00 Metamorphic Testing",
+            "Day": "2015-03-04",
+            "Time": "18:00 - 19:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SANER15TUT",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "saner15tut-tutt4-p"
+            ]
+        },
+        {
+            "Id": "oth2Gogh4o",
+            "Title": "Banquet",
+            "ShortTitle": "Banquet",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2015-03-04 20:00 Banquet",
+            "Day": "2015-03-04",
+            "Time": "20:00 - 23:00",
+            "Location": "Cabaret du Roy",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SANER15",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "Thee4eeKiG",
+            "Title": "Checkpoint Alpha (Keynote)",
+            "ShortTitle": "Checkpoint Alpha (Keynote)",
+            "Type": "Keynotes",
+            "ShortType": "Keynotes",
+            "Key": "2015-03-05 09:00 Checkpoint Alpha (Keynote)",
+            "Day": "2015-03-05",
+            "Time": "09:00 - 10:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SANER15KEYNOTES",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "saner15keynotes-keynotesid2-p"
+            ]
+        },
+        {
             "Id": "Shei5ohLah",
             "Title": "Change Impact Analysis",
             "ShortTitle": "Change Impact Analysis",
@@ -2434,6 +2642,31 @@
                 "saner15main-mainid93-p",
                 "saner15main-mainid118-p",
                 "saner15main-mainid143-p"
+            ]
+        },
+        {
+            "Id": "an7OophaNg",
+            "Title": "Static and Dynamic Analysis",
+            "ShortTitle": "Static and Dynamic Analysis",
+            "Type": "Early Research Achievements",
+            "ShortType": "Early Research Achievements",
+            "Key": "2015-03-05 11:00 Static and Dynamic Analysis",
+            "Day": "2015-03-05",
+            "Time": "11:00 - 12:30",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SANER15ERA",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "saner15era-eraid14-p",
+                "saner15era-eraid50-p",
+                "saner15era-eraid77-p"
             ]
         },
         {
@@ -2463,6 +2696,46 @@
             ]
         },
         {
+            "Id": "leiTu6aigo",
+            "Title": "Soccer Game",
+            "ShortTitle": "Soccer Game",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2015-03-05 18:00 Soccer Game",
+            "Day": "2015-03-05",
+            "Time": "18:00 - 19:30",
+            "Location": "CEPSUM/CC",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SANER15",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "aip1OoFaiz",
+            "Title": "SC Dinner",
+            "ShortTitle": "SC Dinner",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2015-03-05 20:00 SC Dinner",
+            "Day": "2015-03-05",
+            "Time": "20:00 - 23:00",
+            "Location": "Petit Mouton",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SANER15",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "ahd0HieTho",
             "Title": "Mining Software Repositories",
             "ShortTitle": "Mining Software Repositories",
@@ -2486,6 +2759,29 @@
                 "saner15main-mainid83-p",
                 "saner15main-mainid2-p",
                 "saner15main-mainid37-p"
+            ]
+        },
+        {
+            "Id": "umai9Iezai",
+            "Title": "Software Risk Management in Practice: Shed Light on Your Software Product",
+            "ShortTitle": "Software Risk Management in Practice: Shed Light on Your Software Product",
+            "Type": "Tutorials and Briefings",
+            "ShortType": "Tutorials and Briefings",
+            "Key": "2015-03-06 09:00 Software Risk Management in Practice: Shed Light on Your Software Product",
+            "Day": "2015-03-06",
+            "Time": "09:00 - 17:30",
+            "Location": "",
+            "LocationIndex": "0",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "SANER15TUT",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "saner15tut-tutt2-p"
             ]
         },
         {
@@ -2899,6 +3195,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Jane Cleland-Huang",
+            "Affiliation": "DePaul University, USA",
+            "Key": "Jane Cleland-Huang @ DePaul University, USA",
+            "Id": "64f5ba02ff",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Anthony Cleve",
             "Affiliation": "University of Namur, Belgium",
             "Key": "Anthony Cleve @ University of Namur, Belgium",
@@ -2987,6 +3294,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Boris Debić",
+            "Affiliation": "Google, USA",
+            "Key": "Boris Debić @ Google, USA",
+            "Id": "5441150b2d",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Arie van Deursen",
             "Affiliation": "Delft University of Technology, Netherlands",
             "Key": "Arie van Deursen @ Delft University of Technology, Netherlands",
@@ -3035,17 +3353,6 @@
             "Affiliation": "Hainan University, China",
             "Key": "Yucong Duan @ Hainan University, China",
             "Id": "7a154918d6",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Stéphane Ducasse",
-            "Affiliation": "INRIA, France",
-            "Key": "Stéphane Ducasse @ INRIA, France",
-            "Id": "317f529c33",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4850,17 +5157,6 @@
             "Affiliation": "Exact International Development, Netherlands",
             "Key": "Wim Veninga @ Exact International Development, Netherlands",
             "Id": "58793603d7",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Joost Visser",
-            "Affiliation": "Software Improvement Group, Netherlands",
-            "Key": "Joost Visser @ Software Improvement Group, Netherlands",
-            "Id": "88e332d7b6",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
