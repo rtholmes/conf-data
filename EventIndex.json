@@ -3,6 +3,17 @@
     
 "Events": [
 {
+    "Id" : "RE2015",
+    "Name" : "RE 2015",
+    "Version" : 1,
+    "File" : "2015RE.json",
+    "StartDate" : "2015-08-24",
+    "EndDate" : "2015-08-28",
+    "Description" : "IEEE International Requirements Engineering Conference",
+	"Icon" : "2015RE.png",
+	"Image" : "2015RE.png"
+},
+{
     "Id" : "PLDI2015",
     "Name" : "PLDI 2015",
     "Version" : 1,
