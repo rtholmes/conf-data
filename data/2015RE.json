@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1437687387,
+    "DataRevision": 1437792472,
     "Preliminary": "false",
     "Event": "RE 2015",
     "Name": "RE 2015",
@@ -734,58 +734,58 @@
             "Award": ""
         },
         {
-            "Title": "You versus Users - Who owns your roadmap?",
-            "Type": "Keynote",
-            "Key": "Aydin Y. Mirzaee @ FluidReview / SurveyMonkey : You versus Users - Who owns your roadmap?",
-            "URL": "",
+            "Title": "You Versus Users – Who Owns Your Roadmap?",
+            "Type": "Keynote Paper",
+            "Key": "re15keynotes-key1-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAydin+Y.+Mirzaee+%22You+Versus+Users+%E2%80%93+Who+Owns+Your+Roadmap%3F%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Aydin Y. Mirzaee",
-            "AffiliationsString": "FluidReview; SurveyMonkey",
+            "AffiliationsString": "FluidReview, Canada; SurveyMonkey, Canada",
             "Authors": [
-                "Aydin Y. Mirzaee @ FluidReview / SurveyMonkey"
+                "Aydin Y. Mirzaee @ FluidReview, Canada / SurveyMonkey, Canada"
             ],
             "Affiliations": [
-                "FluidReview / SurveyMonkey"
+                "FluidReview, Canada / SurveyMonkey, Canada"
             ],
             "Abstract": "",
             "Award": ""
         },
         {
-            "Title": "Can you intentionally design a product that is cool?",
-            "Type": "Keynote",
-            "Key": "Karen Holtzblatt @ InContext Enterprises : Can you intentionally design a product that is cool?",
-            "URL": "",
+            "Title": "Can You Intentionally Design a Product that is Cool?",
+            "Type": "Keynote Paper",
+            "Key": "re15keynotes-key2-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DKaren+Holtzblatt+%22Can+You+Intentionally+Design+a+Product+that+is+Cool%3F%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Karen Holtzblatt",
-            "AffiliationsString": "InContext Enterprises",
+            "AffiliationsString": "InContext, USA",
             "Authors": [
-                "Karen Holtzblatt @ InContext Enterprises"
+                "Karen Holtzblatt @ InContext, USA"
             ],
             "Affiliations": [
-                "InContext Enterprises"
+                "InContext, USA"
             ],
             "Abstract": "",
             "Award": ""
         },
         {
-            "Title": "Requirements, Behaviours and Software Engineering",
-            "Type": "Keynote",
-            "Key": "Michael Jackson @ The Open University : Requirements, Behaviours and Software Engineering",
-            "URL": "",
+            "Title": "Requirements, Behaviours and Software Engineering (Extended Abstract)",
+            "Type": "Keynote Paper",
+            "Key": "re15keynotes-key3-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMichael+Jackson+%22Requirements%2C+Behaviours+and+Software+Engineering+%28Extended+Abstract%29%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Michael Jackson",
-            "AffiliationsString": "The Open University",
+            "AffiliationsString": "Open University, UK",
             "Authors": [
-                "Michael Jackson @ The Open University"
+                "Michael Jackson @ Open University, UK"
             ],
             "Affiliations": [
-                "The Open University"
+                "Open University, UK"
             ],
             "Abstract": "",
             "Award": ""
@@ -1358,29 +1358,6 @@
             "Award": ""
         },
         {
-            "Title": "The PGR-BSC Cube Business Modeler: From Requirements Elicitation to a Business Model Canvas",
-            "Type": "Poster",
-            "Key": "re15demo-demoid22-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DCarlos+E.+Salgado%2C+Ricardo+J.+Machado%2C+and+Rita+S.+P.+Maciel+%22The+PGR-BSC+Cube+Business+Modeler%3A+From+Requirements+Elicitation+to+a+Business+Model+Canvas%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "DOI": "",
-            "PersonsString": "Carlos E. Salgado, Ricardo J. Machado, and Rita S. P. Maciel",
-            "AffiliationsString": "University of Minho, Portugal; Federal University of Bahia, Brazil",
-            "Authors": [
-                "Carlos E. Salgado @ University of Minho, Portugal",
-                "Ricardo J. Machado @ University of Minho, Portugal",
-                "Rita S. P. Maciel @ Federal University of Bahia, Brazil"
-            ],
-            "Affiliations": [
-                "University of Minho, Portugal",
-                "University of Minho, Portugal",
-                "Federal University of Bahia, Brazil"
-            ],
-            "Abstract": "Business models play a pivotal role in organizations, building bridges and enabling dialogue between business and technological worlds. Accordingly goals and rules associate with processes to compose their base structure, driving and supporting an organization’s strategy. In addition, as balanced scorecards are the reference in strategy management, a combination of these three dimensions (processes, goals and rules, and scorecards) can lead to a stronger, more strategy-oriented, business model. Our PGR-BSC Cube three-dimensional business model covers the elicitation of business goals and rules from process-level use cas-es, and their connection to balanced scorecard, aggregating func-tional, nonfunctional and strategy dimensions. By taking ad-vantage of its cube structure and an associated tailorable method, adaptable to model variations, we propose a business modeler tool to perform the complete requirements elicitation and the concluding generation of a business model canvas. This tool al-lows for the use of different viewpoints to perform diverse busi-ness model transformations.",
-            "Award": ""
-        },
-        {
             "Title": "Challenges of Requirements Engineering in AUTOSAR Ecosystems",
             "Type": "Poster",
             "Key": "re15demo-demoid18-p",
@@ -1513,6 +1490,50 @@
                 "École Centrale Paris, France"
             ],
             "Abstract": "The ambiguity of natural language is an issue which predates requirement engineering. This issue is, in the general case, obviously unsolvable, nor actually needing a solution. However, we think that in particular contexts, it is feasible and desirable to reduce the ambiguity of free text specifications. We look at how specifications are actually handled in a company to be able to propose an useful but not too disruptive method for writing better specifications. We are currently developing and investigating how to validate this method.",
+            "Award": ""
+        },
+        {
+            "Title": "Ready-Set-Transfer! Technology Transfer in the Requirements Engineering Domain",
+            "Type": "Panel Paper",
+            "Key": "re15pan-pan1-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJane+Cleland-Huang%2C+Mona+Rahimi%2C+and+Mehdi+Mirakhorli+%22Ready-Set-Transfer%21+Technology+Transfer+in+the+Requirements+Engineering+Domain%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Jane Cleland-Huang, Mona Rahimi, and Mehdi Mirakhorli",
+            "AffiliationsString": "DePaul University Chicago, USA; Rochester Institute of Technology, USA",
+            "Authors": [
+                "Jane Cleland-Huang @ DePaul University Chicago, USA",
+                "Mona Rahimi @ DePaul University Chicago, USA",
+                "Mehdi Mirakhorli @ Rochester Institute of Technology, USA"
+            ],
+            "Affiliations": [
+                "DePaul University Chicago, USA",
+                "DePaul University Chicago, USA",
+                "Rochester Institute of Technology, USA"
+            ],
+            "Abstract": "",
+            "Award": ""
+        },
+        {
+            "Title": "Technology Transfer – Requirements Engineering Research to Industrial Practice: An Open (Ended) Debate",
+            "Type": "Panel Paper",
+            "Key": "re15pan-pan2-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DCarlos+Henrique+C.+Duarte+and+Tony+Gorschek+%22Technology+Transfer+%E2%80%93+Requirements+Engineering+Research+to+Industrial+Practice%3A+An+Open+%28Ended%29+Debate%22",
+            "URLvideo": "",
+            "URLinfo": "https%3A%2F%2Fsites.google.com%2Fsite%2Ftechtransfersurvey",
+            "DOI": "",
+            "PersonsString": "Carlos Henrique C. Duarte and Tony Gorschek",
+            "AffiliationsString": "Brazilian Development Bank, Brazil; Blekinge Institute of Technology, Sweden",
+            "Authors": [
+                "Carlos Henrique C. Duarte @ Brazilian Development Bank, Brazil",
+                "Tony Gorschek @ Blekinge Institute of Technology, Sweden"
+            ],
+            "Affiliations": [
+                "Brazilian Development Bank, Brazil",
+                "Blekinge Institute of Technology, Sweden"
+            ],
+            "Abstract": "Technology and knowledge have been recognized as main sources of competitive advantage of corporations, industries and nations, particularly in the software domain. They have led to the creation of local ecosystems devoted to development and transfer activities, which ensure not only personal and institutional motivation/recognition, but also social and economic gains. An open (ended) debate panel is proposed in order to develop greater awareness and seek deeper understanding of such activities from Requirements Engineering research to industrial practice. The panel involves researchers and practitioners with the perspective of eliciting: (i) experiences in knowledge and technology development and transfer; (ii) awareness and effectiveness of models and patterns; and (iii) factors for having successful collaboration between academic/research institutions and industry. The organizers also plan to run a survey during and after the conference, summarizing their conclusions in specific postconference reports.",
             "Award": ""
         }
     ],
@@ -2092,9 +2113,30 @@
             "Workshop": false,
             "Comment": "RE15",
             "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "ub1chah7Ae",
+            "Title": "You Versus Users – Who Owns Your Roadmap?",
+            "ShortTitle": "You Versus Users – Who Owns Your Roadmap?",
+            "Type": "Keynote",
+            "ShortType": "Keynote",
+            "Key": "2015-08-26 09:00 You Versus Users – Who Owns Your Roadmap?",
+            "Day": "2015-08-26",
+            "Time": "09:00 - 10:30",
+            "Location": "MRN Auditorium",
+            "LocationIndex": "0",
+            "ChairsString": "Claude Laguë",
+            "Chairs": [
+                "Claude Laguë @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE15KEYNOTES",
+            "URL": "",
             "Abstract": "",
             "Items": [
-                "Aydin Y. Mirzaee @ FluidReview / SurveyMonkey : You versus Users - Who owns your roadmap?"
+                "re15keynotes-key1-p"
             ]
         },
         {
@@ -2271,7 +2313,6 @@
                 "re15demo-demoid20-p",
                 "re15demo-demoid3-p",
                 "re15demo-demoid21-p",
-                "re15demo-demoid22-p",
                 "re15demo-demoid18-p"
             ]
         },
@@ -2355,9 +2396,30 @@
             "Workshop": false,
             "Comment": "RE15",
             "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "oNg1oocohp",
+            "Title": "Can You Intentionally Design a Product that is Cool?",
+            "ShortTitle": "Can You Intentionally Design a Product that is Cool?",
+            "Type": "Keynote",
+            "ShortType": "Keynote",
+            "Key": "2015-08-27 09:00 Can You Intentionally Design a Product that is Cool?",
+            "Day": "2015-08-27",
+            "Time": "09:00 - 10:30",
+            "Location": "MRN Auditorium",
+            "LocationIndex": "0",
+            "ChairsString": "Dan Berry",
+            "Chairs": [
+                "Dan Berry @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE15KEYNOTES",
+            "URL": "",
             "Abstract": "",
             "Items": [
-                "Karen Holtzblatt @ InContext Enterprises : Can you intentionally design a product that is cool?"
+                "re15keynotes-key2-p"
             ]
         },
         {
@@ -2593,6 +2655,31 @@
             ]
         },
         {
+            "Id": "Nah8aecah8",
+            "Title": "Ready-Set-Transfer! Technology Transfer in the Requirements Engineering Domain",
+            "ShortTitle": "Ready-Set-Transfer! Technology Transfer in the Requirements Engineering Domain",
+            "Type": "Panel",
+            "ShortType": "Panel",
+            "Key": "2015-08-27 16:00 Ready-Set-Transfer! Technology Transfer in the Requirements Engineering Domain",
+            "Day": "2015-08-27",
+            "Time": "16:00 - 17:30",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "Carlos Henrique C. Duarte and Tony Gorschek",
+            "Chairs": [
+                "Carlos Henrique C. Duarte @",
+                "Tony Gorschek @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE15PAN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "re15pan-pan1-p"
+            ]
+        },
+        {
             "Id": "aith8ieZoG",
             "Title": "RE&#039;16 Organization Meeting",
             "ShortTitle": "RE&#039;16 Organization Meeting",
@@ -2652,9 +2739,30 @@
             "Workshop": false,
             "Comment": "RE15",
             "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "aiw2Doh6Lo",
+            "Title": "Requirements, Behaviours and Software Engineering (Extended Abstract)",
+            "ShortTitle": "Requirements, Behaviours and Software Engineering (Extended Abstract)",
+            "Type": "Keynote",
+            "ShortType": "Keynote",
+            "Key": "2015-08-28 09:00 Requirements, Behaviours and Software Engineering (Extended Abstract)",
+            "Day": "2015-08-28",
+            "Time": "09:00 - 10:30",
+            "Location": "MRN Auditorium",
+            "LocationIndex": "0",
+            "ChairsString": "Vincenzo Gervasi",
+            "Chairs": [
+                "Vincenzo Gervasi @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE15KEYNOTES",
+            "URL": "",
             "Abstract": "",
             "Items": [
-                "Michael Jackson @ The Open University : Requirements, Behaviours and Software Engineering"
+                "re15keynotes-key3-p"
             ]
         },
         {
@@ -2726,6 +2834,30 @@
                 "re15next-nextp002-p",
                 "re15next-nextp029-p",
                 "re15next-nextp030-p"
+            ]
+        },
+        {
+            "Id": "ahj4diX1vi",
+            "Title": "Technology Transfer – Requirements Engineering Research to Industrial Practice: An Open (Ended) Debate",
+            "ShortTitle": "Technology Transfer – Requirements Engineering Research to Industrial Practice: An Open (Ended) Debate",
+            "Type": "Panel",
+            "ShortType": "Panel",
+            "Key": "2015-08-28 11:00 Technology Transfer – Requirements Engineering Research to Industrial Practice: An Open (Ended) Debate",
+            "Day": "2015-08-28",
+            "Time": "11:00 - 12:30",
+            "Location": "",
+            "LocationIndex": "1",
+            "ChairsString": "Jane Cleland-Huang",
+            "Chairs": [
+                "Jane Cleland-Huang @"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "RE15PAN",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "re15pan-pan2-p"
             ]
         },
         {
@@ -3255,6 +3387,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Jane Cleland-Huang",
+            "Affiliation": "DePaul University Chicago, USA",
+            "Key": "Jane Cleland-Huang @ DePaul University Chicago, USA",
+            "Id": "97137f1c9b",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Vittorio Cortellessa",
             "Affiliation": "University of L'Aquila, Italy",
             "Key": "Vittorio Cortellessa @ University of L'Aquila, Italy",
@@ -3347,6 +3490,17 @@
             "Affiliation": "",
             "Key": "Carlos Henrique C. Duarte @",
             "Id": "375ac7a9b7",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
+            "Name": "Carlos Henrique C. Duarte",
+            "Affiliation": "Brazilian Development Bank, Brazil",
+            "Key": "Carlos Henrique C. Duarte @ Brazilian Development Bank, Brazil",
+            "Id": "3a08c44e51",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3574,6 +3728,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Tony Gorschek",
+            "Affiliation": "Blekinge Institute of Technology, Sweden",
+            "Key": "Tony Gorschek @ Blekinge Institute of Technology, Sweden",
+            "Id": "0ade126c3f",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Miguel Goulão",
             "Affiliation": "Universidade Nova de Lisboa, Portugal",
             "Key": "Miguel Goulão @ Universidade Nova de Lisboa, Portugal",
@@ -3718,9 +3883,9 @@
         },
         {
             "Name": "Karen Holtzblatt",
-            "Affiliation": "InContext Enterprises",
-            "Key": "Karen Holtzblatt @ InContext Enterprises",
-            "Id": "fa01ba0725",
+            "Affiliation": "InContext, USA",
+            "Key": "Karen Holtzblatt @ InContext, USA",
+            "Id": "8036bba79b",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -3795,9 +3960,9 @@
         },
         {
             "Name": "Michael Jackson",
-            "Affiliation": "The Open University",
-            "Key": "Michael Jackson @ The Open University",
-            "Id": "6f95b8f022",
+            "Affiliation": "Open University, UK",
+            "Key": "Michael Jackson @ Open University, UK",
+            "Id": "7376d46765",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4091,28 +4256,6 @@
             "URLgs": ""
         },
         {
-            "Name": "Ricardo J. Machado",
-            "Affiliation": "University of Minho, Portugal",
-            "Key": "Ricardo J. Machado @ University of Minho, Portugal",
-            "Id": "cdac61e5ca",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Rita S. P. Maciel",
-            "Affiliation": "Federal University of Bahia, Brazil",
-            "Key": "Rita S. P. Maciel @ Federal University of Bahia, Brazil",
-            "Id": "913150f3ce",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
             "Name": "Patrick Mäder",
             "Affiliation": "TU Ilmenau, Germany",
             "Key": "Patrick Mäder @ TU Ilmenau, Germany",
@@ -4157,10 +4300,21 @@
             "URLgs": ""
         },
         {
+            "Name": "Mehdi Mirakhorli",
+            "Affiliation": "Rochester Institute of Technology, USA",
+            "Key": "Mehdi Mirakhorli @ Rochester Institute of Technology, USA",
+            "Id": "03e6b3ae78",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "Aydin Y. Mirzaee",
-            "Affiliation": "FluidReview / SurveyMonkey",
-            "Key": "Aydin Y. Mirzaee @ FluidReview / SurveyMonkey",
-            "Id": "ba42e7f523",
+            "Affiliation": "FluidReview, Canada / SurveyMonkey, Canada",
+            "Key": "Aydin Y. Mirzaee @ FluidReview, Canada / SurveyMonkey, Canada",
+            "Id": "6b7cc5f9f2",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4410,6 +4564,17 @@
             "URLgs": ""
         },
         {
+            "Name": "Mona Rahimi",
+            "Affiliation": "DePaul University Chicago, USA",
+            "Key": "Mona Rahimi @ DePaul University Chicago, USA",
+            "Id": "9991aecffb",
+            "Bio": "",
+            "URL": "",
+            "URLphoto": "",
+            "URLmsa": "",
+            "URLgs": ""
+        },
+        {
             "Name": "David Raneburger",
             "Affiliation": "Vienna University of Technology, Austria",
             "Key": "David Raneburger @ Vienna University of Technology, Austria",
@@ -4447,17 +4612,6 @@
             "Affiliation": "University of Luxembourg, Luxembourg",
             "Key": "Mehrdad Sabetzadeh @ University of Luxembourg, Luxembourg",
             "Id": "80f00f8653",
-            "Bio": "",
-            "URL": "",
-            "URLphoto": "",
-            "URLmsa": "",
-            "URLgs": ""
-        },
-        {
-            "Name": "Carlos E. Salgado",
-            "Affiliation": "University of Minho, Portugal",
-            "Key": "Carlos E. Salgado @ University of Minho, Portugal",
-            "Id": "e9ed3a7bd4",
             "Bio": "",
             "URL": "",
             "URLphoto": "",
@@ -4918,3 +5072,4 @@
     ]
 }
  
+
