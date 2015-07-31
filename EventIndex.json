@@ -3,6 +3,17 @@
     
 "Events": [
 {
+    "Id" : "FSE2015",
+    "Name" : "ESEC/FSE 2015",
+    "Version" : 1,
+    "File" : "2015FSE.json",
+    "StartDate" : "2015-08-30",
+    "EndDate" : "2015-09-04",
+    "Description" : "Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on Foundations of Software Engineering",
+	"Icon" : "2015FSE.png",
+	"Image" : "2015FSE.png"
+},
+{
     "Id" : "RE2015",
     "Name" : "RE 2015",
     "Version" : 1,
@@ -227,8 +238,7 @@
 	    "Description" : "Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on Foundations of Software Engineering",
 		"Icon" : "2013FSE.png",
 		"Image" : "2013FSE.png"
-	},
-	
+	},	
 	{
 	    "Id" : "RE2013",
 	    "Name" : "RE 2013",
