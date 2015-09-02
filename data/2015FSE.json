@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1441040572,
+    "DataRevision": 1441170211,
     "Preliminary": "false",
     "Event": "ESEC/FSE 2015",
     "Name": "ESEC/FSE 2015",
@@ -93,7 +93,7 @@
             "Title": "Proactive Self-Adaptation under Uncertainty: A Probabilistic Model Checking Approach",
             "Type": "Full Paper",
             "Key": "fse15main-mainid213-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DGabriel+A.+Moreno%2C+Javier+C%C3%A1mara%2C+David+Garlan%2C+and+Bradley+Schmerl+%22Proactive+Self-Adaptation+under+Uncertainty%3A+A+Probabilistic+Model+Checking+Approach%22",
+            "URL": "http%3A%2F%2Fworks.bepress.com%2Fcgi%2Fviewcontent.cgi%3Farticle%3D1030%26context%3Dgabriel_moreno",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2786853",
@@ -3001,7 +3001,7 @@
             "Title": "Increasing the Efficiency of Search-Based Unit Test Generation using Parameter Control",
             "Type": "Abstract",
             "Key": "fse15src-srcid4-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DThomas+White+%22Increasing+the+Efficiency+of+Search-Based+Unit+Test+Generation+using+Parameter+Control%22",
+            "URL": "https%3A%2F%2Fwww.dropbox.com%2Fs%2F4kabtxr6ei54ky6%2Ffsepaper.pdf%3Fdl%3D1",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2807556",
@@ -3121,7 +3121,7 @@
             "Title": "A Textual Domain Specific Language for Requirement Modelling",
             "Type": "Abstract",
             "Key": "fse15src-srcid8-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DOyindamola+Olajubu+%22A+Textual+Domain+Specific+Language+for+Requirement+Modelling%22",
+            "URL": "https%3A%2F%2Fwww.researchgate.net%2Fprofile%2FOyindamola_Olajubu%2Fpublication%2F281372036_A_Textual_Domain_Specific_Language_for_Requirement_Modelling%2Flinks%2F55e4234e08aecb1a7cc9ea73.pdf%3Forigin%3Dpublication_detail%26ev%3Dpub_int_prw_xdl%26msrp%3DYKrDXULTCw2ytclwvYKFsq%252FTkpwJdLTR5Z9eivJJNuvLjksHMUELuTgL2oa0oHJbvwzQZWa%252B9qdenaUAow7Grw%253D%253D_fgddy6vxEGlWKsPBgY97xfpFmINQs01pLfIBZ%252BMs6OObCS7n1uw0c8WUTeoWD3s7pFso1sEf7K3rKTZAsDEqWg%253D%253D_ZrxQn1uk2%252F1iB%252FJUVDyJ4vfVvzd0J3PyV8h08J3Kveq7wYGTL9m6y2j9Y9O1TSONbVkiSr03%252FnqE4d1TYkOnww%253D%253D",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2807562",
@@ -3198,9 +3198,9 @@
             "Keywords": ""
         },
         {
-            "Title": "TBA",
+            "Title": "Visualization of Test Information to Assist Fault Localization",
             "Type": "SIGSOFT Impact Paper Award Talk",
-            "Key": "James A. Jones @  : TBA",
+            "Key": "James A. Jones @  : Visualization of Test Information to Assist Fault Localization",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -3213,7 +3213,7 @@
             "Affiliations": [
                 ""
             ],
-            "Abstract": "",
+            "Abstract": "The paper &quot;Visualization of Test Information to Assist Fault Localization” published at ICSE 2002 is one of the most cited software-engineering papers and has influenced many subsequent research endeavors, particularly in the popular field of spectra-based fault localization. In this talk, Jones will recount the original idea and review several of the research directions that have ensued. He will also offer his reflections on the progression of the field and the assess work yet to come.",
             "Award": "",
             "Keywords": ""
         },
@@ -3256,6 +3256,348 @@
             "Abstract": "",
             "Award": "",
             "Keywords": ""
+        },
+        {
+            "Title": "JSketch: Sketching for Java",
+            "Type": "Short Paper",
+            "Key": "fse15demo-demoid26-p",
+            "URL": "http%3A%2F%2Farxiv.org%2Fpdf%2F1507.03577v1.pdf",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Fplum-umd.github.io%2Fjava-sketch%2F",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2803189",
+            "PersonsString": "Jinseong Jeon, Xiaokang Qiu, Jeffrey S. Foster, and Armando Solar-Lezama",
+            "AffiliationsString": "University of Maryland, USA; Massachusetts Institute of Technology, USA",
+            "Authors": [
+                "Jinseong Jeon @ University of Maryland, USA",
+                "Xiaokang Qiu @ Massachusetts Institute of Technology, USA",
+                "Jeffrey S. Foster @ University of Maryland, USA",
+                "Armando Solar-Lezama @ Massachusetts Institute of Technology, USA"
+            ],
+            "Affiliations": [
+                "University of Maryland, USA",
+                "Massachusetts Institute of Technology, USA",
+                "University of Maryland, USA",
+                "Massachusetts Institute of Technology, USA"
+            ],
+            "Abstract": "Sketch-based synthesis, epitomized by the Sketch tool, lets developers synthesize software starting from a partial program, also called a sketch or template. This paper presents JSketch, a tool that brings sketch-based synthesis to Java. JSketch&#039;s input is a partial Java program that may include holes, which are unknown constants, expression generators, which range over sets of expressions, and class generators, which are partial classes. JSketch then translates the synthesis problem into a Sketch problem; this translation is complex because Sketch is not object-oriented. Finally, JSketch synthesizes an executable Java program by interpreting the output of Sketch.",
+            "Award": "",
+            "Keywords": "Program Synthesis;  Programming by Example;  Java;  Sketch"
+        },
+        {
+            "Title": "Don&#039;t Panic: Reverse Debugging of Kernel Drivers",
+            "Type": "Short Paper",
+            "Key": "fse15demo-demoid1-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DPavel+Dovgalyuk%2C+Denis+Dmitriev%2C+and+Vladimir+Makarov+%22Don%27t+Panic%3A+Reverse+Debugging+of+Kernel+Drivers%22",
+            "URLvideo": "",
+            "URLinfo": "https%3A%2F%2Fgithub.com%2FDovgalyuk%2Fqemu%2Ftree%2Frr-15",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2803179",
+            "PersonsString": "Pavel Dovgalyuk, Denis Dmitriev, and Vladimir Makarov",
+            "AffiliationsString": "Russian Academy of Sciences, Russia",
+            "Authors": [
+                "Pavel Dovgalyuk @ Russian Academy of Sciences, Russia",
+                "Denis Dmitriev @ Russian Academy of Sciences, Russia",
+                "Vladimir Makarov @ Russian Academy of Sciences, Russia"
+            ],
+            "Affiliations": [
+                "Russian Academy of Sciences, Russia",
+                "Russian Academy of Sciences, Russia",
+                "Russian Academy of Sciences, Russia"
+            ],
+            "Abstract": "Debugging of device drivers&#039; failures is a very tough task because of kernel panics, blue screens of death, hardware volatility, long periods of time required to expose the bug, perturbation of the drivers by the debugger, and non-determinism of multi-threaded environment. This paper shows how reverse debugging reduces the influence of these factors to the process of drivers debugging. We present reverse debugger as a practical tool, which was tested for i386, x86-64, and ARM platforms, for Windows and Linux guest operating systems. We show that our tool incurs very low overhead (about 10%), which allows using it for debugging of the time sensitive applications. The paper also presents the case study which demonstrates reverse debugging of the USB kernel drivers for Linux.",
+            "Award": "",
+            "Keywords": "Debugging;  deterministic replay;  reverse debugging;  kernel debugging;  USB"
+        },
+        {
+            "Title": "UMTG: A Toolset to Automatically Generate System Test Cases from Use Case Specifications",
+            "Type": "Short Paper",
+            "Key": "fse15demo-demoid20-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DChunhui+Wang%2C+Fabrizio+Pastore%2C+Arda+Goknil%2C+Lionel+C.+Briand%2C+and+Zohaib+Iqbal+%22UMTG%3A+A+Toolset+to+Automatically+Generate+System+Test+Cases+from+Use+Case+Specifications%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2803187",
+            "PersonsString": "Chunhui Wang, Fabrizio Pastore, Arda Goknil, Lionel C. Briand, and Zohaib Iqbal",
+            "AffiliationsString": "University of Luxembourg, Luxembourg; University of Luxembourg, Pakistan",
+            "Authors": [
+                "Chunhui Wang @ University of Luxembourg, Luxembourg",
+                "Fabrizio Pastore @ University of Luxembourg, Luxembourg",
+                "Arda Goknil @ University of Luxembourg, Luxembourg",
+                "Lionel C. Briand @ University of Luxembourg, Luxembourg",
+                "Zohaib Iqbal @ University of Luxembourg, Pakistan"
+            ],
+            "Affiliations": [
+                "University of Luxembourg, Luxembourg",
+                "University of Luxembourg, Luxembourg",
+                "University of Luxembourg, Luxembourg",
+                "University of Luxembourg, Luxembourg",
+                "University of Luxembourg, Pakistan"
+            ],
+            "Abstract": "We present UMTG, a toolset for automatically generating executable and traceable system test cases from use case specifications. UMTG employs Natural Language Processing (NLP), a restricted form of use case specifications, and constraint solving. Use cases are expected to follow a template with restriction rules that reduce imprecision and enable NLP. NLP is used to capture the control flow implicitly described in use case specifications. Finally, to generate test input, constraint solving is applied to OCL constraints referring to the domain model of the system. UMTG is integrated with two tools that are widely adopted in industry, IBM Doors and Rhapsody. UMTG has been successfully evaluated on an industrial case study.",
+            "Award": "",
+            "Keywords": "NLP;  Use Case Specifications;  Test Cases Generation"
+        },
+        {
+            "Title": "DexterJS: Robust Testing Platform for DOM-Based XSS Vulnerabilities",
+            "Type": "Short Paper",
+            "Key": "fse15demo-demoid29-p",
+            "URL": "http%3A%2F%2Fwww.comp.nus.edu.sg%2F%7Eenricob%2F2015%2Ffse15-tool.pdf",
+            "URLvideo": "http%3A%2F%2Fwww.comp.nus.edu.sg%2F%7Eenricob%2Fdexterjs%2Fvideo.html",
+            "URLinfo": "https%3A%2F%2Fdexterjs.io%2F",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2803191",
+            "PersonsString": "Inian Parameshwaran, Enrico Budianto, Shweta Shinde, Hung Dang, Atul Sadhu, and Prateek Saxena",
+            "AffiliationsString": "National University of Singapore, Singapore",
+            "Authors": [
+                "Inian Parameshwaran @ National University of Singapore, Singapore",
+                "Enrico Budianto @ National University of Singapore, Singapore",
+                "Shweta Shinde @ National University of Singapore, Singapore",
+                "Hung Dang @ National University of Singapore, Singapore",
+                "Atul Sadhu @ National University of Singapore, Singapore",
+                "Prateek Saxena @ National University of Singapore, Singapore"
+            ],
+            "Affiliations": [
+                "National University of Singapore, Singapore",
+                "National University of Singapore, Singapore",
+                "National University of Singapore, Singapore",
+                "National University of Singapore, Singapore",
+                "National University of Singapore, Singapore",
+                "National University of Singapore, Singapore"
+            ],
+            "Abstract": "DOM-based cross-site scripting (XSS) is a client-side vulnerability that pervades JavaScript applications on the web, and has few known practical defenses. In this paper, we introduce DEXTERJS, a testing platform for detecting and validating DOM-based XSS vulnerabilities on web applications. DEXTERJS leverages source-to source rewriting to carry out character-precise taint tracking when executing in the browser context—thus being able to identify vulnerable information flows in a web page. By scanning a web page, DEXTERJS produces working exploits that validate DOM-based XSS vulnerability on the page. DEXTERJS is robust, has been tested on Alexa’s top 1000 sites, and has found a total of 820 distinct zero-day DOM-XSS confirmed exploits automatically.",
+            "Award": "",
+            "Keywords": "Web Security;  Taint Analysis;  DOM-based XSS"
+        },
+        {
+            "Title": "T3i: A Tool for Generating and Querying Test Suites for Java",
+            "Type": "Short Paper",
+            "Key": "fse15demo-demoid12-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DI.+S.+Wishnu+B.+Prasetya+%22T3i%3A+A+Tool+for+Generating+and+Querying+Test+Suites+for+Java%22",
+            "URLvideo": "https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Ddw1iwBZX2Ww",
+            "URLinfo": "https%3A%2F%2Fcode.google.com%2Fp%2Ft2framework%2F",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2803182",
+            "PersonsString": "I. S. Wishnu B. Prasetya",
+            "AffiliationsString": "Utrecht University, Netherlands",
+            "Authors": [
+                "I. S. Wishnu B. Prasetya @ Utrecht University, Netherlands"
+            ],
+            "Affiliations": [
+                "Utrecht University, Netherlands"
+            ],
+            "Abstract": "T3i is an automated unit-testing tool to test Java classes. To expose interactions T3i generates test-cases in the form of sequences of calls to the methods of the target class. What separates it from other testing tools is that it treats test suites as first class objects and allows users to e.g. combine, query, and filter them. With these operations, the user can construct a test suite with specific properties. Queries can be used to check correctness properties. Hoare triples, LTL formulas, and algebraic equations can be queried. T3i can be used interactively, thus facilitating more exploratory testing, as well as through a script. The familiar Java syntax can be used to control it, or alternatively one can use the much lighter Groovy syntax.",
+            "Award": "",
+            "Keywords": "automated unit testing;  automated testing Java;  automated testing Object Oriented programs"
+        },
+        {
+            "Title": "iTrace: Enabling Eye Tracking on Software Artifacts within the IDE to Support Software Engineering Tasks",
+            "Type": "Short Paper",
+            "Key": "fse15demo-demoid23-p",
+            "URL": "http%3A%2F%2Fseresl.csis.ysu.edu%2Fpublications%2Ffse15demo-submitted.pdf",
+            "URLvideo": "https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D3OUnLCX4dXo",
+            "URLinfo": "http%3A%2F%2Fseresl.csis.ysu.edu%2FiTrace%2F",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2803188",
+            "PersonsString": "Timothy R. Shaffer, Jenna L. Wise, Braden M. Walters, Sebastian C. Müller, Michael Falcone, and Bonita Sharif",
+            "AffiliationsString": "Youngstown State University, USA; University of Zurich, Switzerland",
+            "Authors": [
+                "Timothy R. Shaffer @ Youngstown State University, USA",
+                "Jenna L. Wise @ Youngstown State University, USA",
+                "Braden M. Walters @ Youngstown State University, USA",
+                "Sebastian C. Müller @ University of Zurich, Switzerland",
+                "Michael Falcone @ Youngstown State University, USA",
+                "Bonita Sharif @ Youngstown State University, USA"
+            ],
+            "Affiliations": [
+                "Youngstown State University, USA",
+                "Youngstown State University, USA",
+                "Youngstown State University, USA",
+                "University of Zurich, Switzerland",
+                "Youngstown State University, USA",
+                "Youngstown State University, USA"
+            ],
+            "Abstract": "The paper presents iTrace, an Eclipse plugin that implicitly records developers&#039; eye movements while they work on change tasks. iTrace is the first eye tracking environment that makes it possible for researchers to conduct eye tracking studies on large software systems. An overview of the design and architecture is presented along with features and usage scenarios. iTrace is designed to support a variety of eye trackers. The design is flexible enough to record eye movements on various types of software artifacts (Java code, text/html/xml documents, diagrams), as well as IDE user interface elements. The plugin has been successfully used for software traceability tasks and program comprehension tasks. iTrace is also applicable to other tasks such as code summarization and code recommendations based on developer eye movements. A short video demonstration is available at https://youtu.be/3OUnLCX4dXo.",
+            "Award": "",
+            "Keywords": "eye-tracking;  plugin;  comprehension;  traceability"
+        },
+        {
+            "Title": "Nyx: A Display Energy Optimizer for Mobile Web Apps",
+            "Type": "Short Paper",
+            "Key": "fse15demo-demoid28-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DDing+Li%2C+Angelica+Huyen+Tran%2C+and+William+G.+J.+Halfond+%22Nyx%3A+A+Display+Energy+Optimizer+for+Mobile+Web+Apps%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2803190",
+            "PersonsString": "Ding Li, Angelica Huyen Tran, and William G. J. Halfond",
+            "AffiliationsString": "University of Southern California, USA",
+            "Authors": [
+                "Ding Li @ University of Southern California, USA",
+                "Angelica Huyen Tran @ University of Southern California, USA",
+                "William G. J. Halfond @ University of Southern California, USA"
+            ],
+            "Affiliations": [
+                "University of Southern California, USA",
+                "University of Southern California, USA",
+                "University of Southern California, USA"
+            ],
+            "Abstract": "Energy is a critical resource for current mobile devices. In a smartphone, display is one of the most energy consuming components. Modern smartphones often use OLED screens, which consume much more energy when displaying light colors than displaying dark colors. In our previous study, we proposed a technique to reduce display energy of mo- bile web apps by changing the color scheme automatically. With this approach, we achieved a 40% reduction in display power consumption and 97% user acceptance of the new color scheme. In this tool paper, we describe Nyx, which implements our approach. Nyx is implemented as a self- contained executable file with which users can optimize en- ergy consumption of their web apps with a simple command.",
+            "Award": "",
+            "Keywords": "Energy;  display;  OLED;  mobile"
+        },
+        {
+            "Title": "NARCIA: An Automated Tool for Change Impact Analysis in Natural Language Requirements",
+            "Type": "Short Paper",
+            "Key": "fse15demo-demoid16-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DChetan+Arora%2C+Mehrdad+Sabetzadeh%2C+Arda+Goknil%2C+Lionel+C.+Briand%2C+and+Frank+Zimmer+%22NARCIA%3A+An+Automated+Tool+for+Change+Impact+Analysis+in+Natural+Language+Requirements%22",
+            "URLvideo": "",
+            "URLinfo": "https%3A%2F%2Fsites.google.com%2Fsite%2Fsvvnarcia%2F",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2803185",
+            "PersonsString": "Chetan Arora, Mehrdad Sabetzadeh, Arda Goknil, Lionel C. Briand, and Frank Zimmer",
+            "AffiliationsString": "University of Luxembourg, Luxembourg; SES TechCom, Luxembourg",
+            "Authors": [
+                "Chetan Arora @ University of Luxembourg, Luxembourg",
+                "Mehrdad Sabetzadeh @ University of Luxembourg, Luxembourg",
+                "Arda Goknil @ University of Luxembourg, Luxembourg",
+                "Lionel C. Briand @ University of Luxembourg, Luxembourg",
+                "Frank Zimmer @ SES TechCom, Luxembourg"
+            ],
+            "Affiliations": [
+                "University of Luxembourg, Luxembourg",
+                "University of Luxembourg, Luxembourg",
+                "University of Luxembourg, Luxembourg",
+                "University of Luxembourg, Luxembourg",
+                "SES TechCom, Luxembourg"
+            ],
+            "Abstract": "We present NARCIA, a tool for analyzing the impact of change in natural language requirements. For a given change in a requirements document, NARCIA calculates quantitative scores suggesting how likely each requirements statement in the document is to be impacted. These scores, computed using Natural Language Processing (NLP), are used for sorting the requirements statements, enabling the user to focus on statements that are most likely to be impacted. To increase the accuracy of change impact analysis, NARCIA provides a mechanism for making explicit the rationale behind changes. NARCIA has been empirically evaluated on two industrial case studies. The results of this evaluation are briefly highlighted.",
+            "Award": "",
+            "Keywords": "Natural Language Requirements;  Natural Language Processing (NLP);  Change Impact Analysis"
+        },
+        {
+            "Title": "Commit Guru: Analytics and Risk Prediction of Software Commits",
+            "Type": "Short Paper",
+            "Key": "fse15demo-demoid13-p",
+            "URL": "http%3A%2F%2Fusers.encs.concordia.ca%2F%7Eeshihab%2Fpubs%2FRosen_FSE2015Tool.pdf",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Fwww.commit.guru",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2803183",
+            "PersonsString": "Christoffer Rosen, Ben Grawi, and Emad Shihab",
+            "AffiliationsString": "Rochester Institute of Technology, USA; Concordia University, Canada",
+            "Authors": [
+                "Christoffer Rosen @ Rochester Institute of Technology, USA",
+                "Ben Grawi @ Rochester Institute of Technology, USA",
+                "Emad Shihab @ Concordia University, Canada"
+            ],
+            "Affiliations": [
+                "Rochester Institute of Technology, USA",
+                "Rochester Institute of Technology, USA",
+                "Concordia University, Canada"
+            ],
+            "Abstract": "Software quality is one of the most important research sub-areas of software engineering. Hence, a plethora of research has focused on the prediction of software quality. Much of the software analytics and prediction work has proposed metrics, models and novel approaches that can predict quality with high levels of accuracy. However, adoption of such techniques remain low; one of the reasons for this low adoption of the current analytics and prediction technique is the lack of actionable and publicly available tools. We present Commit Guru, a language agnostic analytics and prediction tool that identifies and predicts risky software commits. Commit Guru is publicly available and is able to mine any GIT SCM repository. Analytics are generated at both, the project and commit levels. In addition, Commit Guru automatically identifies risky (i.e., bug-inducing) commits and builds a prediction model that assess the likelihood of a recent commit introducing a bug in the future. Finally, to facilitate future research in the area, users of Commit Guru can download the data for any project that is processed by Commit Guru with a single click. Several large open source projects have been successfully processed using Commit Guru. Commit Guru is available online at commit.guru. Our source code is also released freely under the MIT license.",
+            "Award": "",
+            "Keywords": "Software Analytics;  Software Metrics;  Risky Software Commits;  Software Prediction"
+        },
+        {
+            "Title": "OSSMETER: A Software Measurement Platform for Automatically Analysing Open Source Software Projects",
+            "Type": "Short Paper",
+            "Key": "fse15demo-demoid19-p",
+            "URL": "http%3A%2F%2Fwww.di.univaq.it%2Fdiruscio%2Fesec-fse2015-ossmeter-tool.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2803186",
+            "PersonsString": "Davide Di Ruscio, Dimitris S. Kolovos, Ioannis Korkontzelos, Nicholas Matragkas, and Jurgen J. Vinju",
+            "AffiliationsString": "University of L'Aquila, Italy; University of York, UK; University of Manchester, UK; CWI, Netherlands",
+            "Authors": [
+                "Davide Di Ruscio @ University of L'Aquila, Italy",
+                "Dimitris S. Kolovos @ University of York, UK",
+                "Ioannis Korkontzelos @ University of Manchester, UK",
+                "Nicholas Matragkas @ University of York, UK",
+                "Jurgen J. Vinju @ CWI, Netherlands"
+            ],
+            "Affiliations": [
+                "University of L'Aquila, Italy",
+                "University of York, UK",
+                "University of Manchester, UK",
+                "University of York, UK",
+                "CWI, Netherlands"
+            ],
+            "Abstract": "Deciding whether an open source software (OSS) project meets the required standards for adoption in terms of quality, maturity, activity of development and user support is not a straightforward process as it involves exploring various sources of information. Such sources include OSS source code repositories, communication channels such as newsgroups, forums, and mailing lists, as well as issue tracking systems. OSSMETER is an extensible and scalable platform that can monitor and incrementally analyse a large number of OSS projects. The results of this analysis can be used to assess various aspects of OSS projects, and to directly compare different OSS projects with each other.",
+            "Award": "",
+            "Keywords": "Open source software;  Source code analysis;  Text mining techniques"
+        },
+        {
+            "Title": "Comprehensive Service Matching with MatchBox",
+            "Type": "Short Paper",
+            "Key": "fse15demo-demoid6-p",
+            "URL": "https%3A%2F%2Fwww.cs.uni-paderborn.de%2F%2Findex.php%3FeID%3Dtx_nawsecuredl%26u%3D0%26g%3D0%26t%3D1436964661%26hash%3D2361ea4c756631d4fc33f5fbb835892ea65d0512%26file%3Dfileadmin%2FInformatik%2FSFB901%2FTeilprojekte%2FB%2FB1%2Ftools%2FESECTOOLS2015.pdf",
+            "URLvideo": "https%3A%2F%2Fgoo.gl%2FMGJTcP",
+            "URLinfo": "http%3A%2F%2Fsfb901.uni-paderborn.de%2Fmatchbox",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2803181",
+            "PersonsString": "Paul Börding, Melanie Bruns, and Marie Christin Platenius",
+            "AffiliationsString": "University of Paderborn, Germany",
+            "Authors": [
+                "Paul Börding @ University of Paderborn, Germany",
+                "Melanie Bruns @ University of Paderborn, Germany",
+                "Marie Christin Platenius @ University of Paderborn, Germany"
+            ],
+            "Affiliations": [
+                "University of Paderborn, Germany",
+                "University of Paderborn, Germany",
+                "University of Paderborn, Germany"
+            ],
+            "Abstract": "Nowadays, many service providers offer software components in the form of Software as a Service. Requesters that want to discover those services in order to use or to integrate them, need to find out which service satisfies their requirements best. For this purpose, service matching approaches determine how well the specifications of provided services satisfy their requirements (including structural, behavioral, and non-functional requirements). In this paper, we describe the tool-suite MatchBox that allows the integration of existing service matchers and their combination as part of flexibly configurable matching processes. Taking requirements and service specifications as an input, MatchBox is able to execute such matching processes and deliver rich matching results. In contrast to related tools, MatchBox allows users to take into account many different kinds of requirements, while it also provides the flexibility to control the matching process in many different ways.",
+            "Award": "",
+            "Keywords": "Service Discovery;  Service Matching;  Matching Processes;  Fuzzy Matching;  Software Requirements;  Framework"
+        },
+        {
+            "Title": "UEDashboard: Awareness of Unusual Events in Commit Histories",
+            "Type": "Short Paper",
+            "Key": "fse15demo-demoid15-p",
+            "URL": "https%3A%2F%2Fctreude.files.wordpress.com%2F2015%2F07%2Fuedashboard.pdf",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Flarissaleite.pythonanywhere.com%2F",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2803184",
+            "PersonsString": "Larissa Leite, Christoph Treude, and Fernando Figueira Filho",
+            "AffiliationsString": "Federal University of Rio Grande do Norte, Brazil",
+            "Authors": [
+                "Larissa Leite @ Federal University of Rio Grande do Norte, Brazil",
+                "Christoph Treude @ Federal University of Rio Grande do Norte, Brazil",
+                "Fernando Figueira Filho @ Federal University of Rio Grande do Norte, Brazil"
+            ],
+            "Affiliations": [
+                "Federal University of Rio Grande do Norte, Brazil",
+                "Federal University of Rio Grande do Norte, Brazil",
+                "Federal University of Rio Grande do Norte, Brazil"
+            ],
+            "Abstract": "To be able to respond to source code modifications with large impact or commits that necessitate further examination, developers and managers in a software development team need to be aware of anything unusual happening in their software projects. To address this need, we introduce UEDashboard, a tool which automatically detects unusual events in a commit history based on metrics and smells, and surfaces them in an event feed. Our preliminary evaluation with a team of professional software developers showed that our conceptualization of unusual correlates with developers&#039; perceptions of task difficulty, and that UEDashboard could be useful in supporting development meetings and for pre-commit warnings.",
+            "Award": "",
+            "Keywords": "Awareness;  unusual events;  commit history"
+        },
+        {
+            "Title": "MatrixMiner: A Red Pill to Architect Informal Product Descriptions in the Matrix",
+            "Type": "Short Paper",
+            "Key": "fse15demo-demoid3-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DSana+Ben+Nasr%2C+Guillaume+B%C3%A9can%2C+Mathieu+Acher%2C+Jo%C3%A3o+Bosco+Ferreira+Filho%2C+Benoit+Baudry%2C+Nicolas+Sannier%2C+and+Jean-Marc+Davril+%22MatrixMiner%3A+A+Red+Pill+to+Architect+Informal+Product+Descriptions+in+the+Matrix%22",
+            "URLvideo": "http%3A%2F%2Ftinyurl.com%2FMatrixMinerCast",
+            "URLinfo": "http%3A%2F%2Fmatrix-miner.variability.io",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2786805.2803180",
+            "PersonsString": "Sana Ben Nasr, Guillaume Bécan, Mathieu Acher, João Bosco Ferreira Filho, Benoit Baudry, Nicolas Sannier, and Jean-Marc Davril",
+            "AffiliationsString": "University of Rennes 1, France; University of Luxembourg, Luxembourg; University of Namur, Belgium",
+            "Authors": [
+                "Sana Ben Nasr @ University of Rennes 1, France",
+                "Guillaume Bécan @ University of Rennes 1, France",
+                "Mathieu Acher @ University of Rennes 1, France",
+                "João Bosco Ferreira Filho @ University of Rennes 1, France",
+                "Benoit Baudry @ University of Rennes 1, France",
+                "Nicolas Sannier @ University of Luxembourg, Luxembourg",
+                "Jean-Marc Davril @ University of Namur, Belgium"
+            ],
+            "Affiliations": [
+                "University of Rennes 1, France",
+                "University of Rennes 1, France",
+                "University of Rennes 1, France",
+                "University of Rennes 1, France",
+                "University of Rennes 1, France",
+                "University of Luxembourg, Luxembourg",
+                "University of Namur, Belgium"
+            ],
+            "Abstract": "Domain analysts, product managers, or customers aim to capture the important features and differences among a set of related products. A case-by-case reviewing of each product description is a laborious and time-consuming task that fails to deliver a condensed view of a product line. This paper introduces MatrixMiner: a tool for automatically synthesizing product comparison matrices (PCMs) from a set of product descriptions written in natural language. MatrixMiner is capable of identifying and organizing features and values in a PCM – despite the informality and absence of structure in the textual descriptions of products. Our empirical results of products mined from BestBuy show that the synthesized PCMs exhibit numerous quantitative, comparable information. Users can exploit MatrixMiner to visualize the matrix through a Web editor and review, refine, or complement the cell values thanks to the traceability with the original product descriptions and technical specifications.",
+            "Award": "",
+            "Keywords": "Software Product Lines;  Variability Mining;  Product Comparison Matrices"
         }
     ],
     "Sessions": [
@@ -3801,11 +4143,11 @@
         },
         {
             "Id": "Ohxeique8y",
-            "Title": "Moda Clouds",
-            "ShortTitle": "Moda Clouds",
+            "Title": "MODAClouds Project",
+            "ShortTitle": "MODAClouds Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-08-31 14:00 Moda Clouds",
+            "Key": "2015-08-31 14:00 MODAClouds Project",
             "Day": "2015-08-31",
             "Time": "14:00 - 15:30",
             "Location": "Novelli",
@@ -3921,11 +4263,11 @@
         },
         {
             "Id": "AX7Oohu4zi",
-            "Title": "Moda Clouds",
-            "ShortTitle": "Moda Clouds",
+            "Title": "MODAClouds Project",
+            "ShortTitle": "MODAClouds Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-08-31 16:00 Moda Clouds",
+            "Key": "2015-08-31 16:00 MODAClouds Project",
             "Day": "2015-08-31",
             "Time": "16:00 - 17:30",
             "Location": "Novelli",
@@ -4068,11 +4410,11 @@
         },
         {
             "Id": "aiDeic0Poo",
-            "Title": "Moda Clouds",
-            "ShortTitle": "Moda Clouds",
+            "Title": "MODAClouds Project",
+            "ShortTitle": "MODAClouds Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-09-01 09:00 Moda Clouds",
+            "Key": "2015-09-01 09:00 MODAClouds Project",
             "Day": "2015-09-01",
             "Time": "09:00 - 10:30",
             "Location": "Novelli",
@@ -4168,11 +4510,11 @@
         },
         {
             "Id": "puy6Oxa3pi",
-            "Title": "Moda Clouds",
-            "ShortTitle": "Moda Clouds",
+            "Title": "MODAClouds Project",
+            "ShortTitle": "MODAClouds Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-09-01 11:00 Moda Clouds",
+            "Key": "2015-09-01 11:00 MODAClouds Project",
             "Day": "2015-09-01",
             "Time": "11:00 - 12:30",
             "Location": "Novelli",
@@ -4288,11 +4630,11 @@
         },
         {
             "Id": "UKeepho2ph",
-            "Title": "Moda Clouds",
-            "ShortTitle": "Moda Clouds",
+            "Title": "MODAClouds Project",
+            "ShortTitle": "MODAClouds Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-09-01 14:00 Moda Clouds",
+            "Key": "2015-09-01 14:00 MODAClouds Project",
             "Day": "2015-09-01",
             "Time": "14:00 - 15:30",
             "Location": "Novelli",
@@ -4408,11 +4750,11 @@
         },
         {
             "Id": "uich6Ra4em",
-            "Title": "Moda Clouds",
-            "ShortTitle": "Moda Clouds",
+            "Title": "MODAClouds Project",
+            "ShortTitle": "MODAClouds Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-09-01 16:00 Moda Clouds",
+            "Key": "2015-09-01 16:00 MODAClouds Project",
             "Day": "2015-09-01",
             "Time": "16:00 - 17:30",
             "Location": "Novelli",
@@ -4494,8 +4836,8 @@
             "ShortType": "Meeting",
             "Key": "2015-09-01 19:00 ICSE Steering Committee",
             "Day": "2015-09-01",
-            "Time": "19:00 - 21:00",
-            "Location": "To be define",
+            "Time": "19:00 - 22:00",
+            "Location": "",
             "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
@@ -4508,11 +4850,11 @@
         },
         {
             "Id": "caChae7oht",
-            "Title": "Dinner committee 25 pax",
-            "ShortTitle": "Dinner committee 25 pax",
+            "Title": "Organizing Committee Dinner",
+            "ShortTitle": "Organizing Committee Dinner",
             "Type": "Social",
             "ShortType": "Social",
-            "Key": "2015-09-01 20:30 Dinner committee 25 pax",
+            "Key": "2015-09-01 20:30 Organizing Committee Dinner",
             "Day": "2015-09-01",
             "Time": "20:30 - 23:00",
             "Location": "",
@@ -4557,8 +4899,9 @@
             "Time": "09:00 - 09:30",
             "Location": "Oggioni",
             "LocationIndex": "0",
-            "ChairsString": "",
+            "ChairsString": "Elisabetta Di Nitto",
             "Chairs": [
+                "Elisabetta Di Nitto @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -4571,11 +4914,11 @@
         },
         {
             "Id": "ahVo4zeing",
-            "Title": "Moda Clouds",
-            "ShortTitle": "Moda Clouds",
+            "Title": "MODAClouds Project",
+            "ShortTitle": "MODAClouds Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-09-02 09:00 Moda Clouds",
+            "Key": "2015-09-02 09:00 MODAClouds Project",
             "Day": "2015-09-02",
             "Time": "09:00 - 11:00",
             "Location": "Novelli",
@@ -4591,11 +4934,11 @@
         },
         {
             "Id": "jie4oNg3bi",
-            "Title": "DICE",
-            "ShortTitle": "DICE",
+            "Title": "DICE Project",
+            "ShortTitle": "DICE Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-09-02 09:00 DICE",
+            "Key": "2015-09-02 09:00 DICE Project",
             "Day": "2015-09-02",
             "Time": "09:00 - 11:00",
             "Location": "Stampa",
@@ -4620,8 +4963,9 @@
             "Time": "09:30 - 10:30",
             "Location": "Oggioni",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Elisabetta Di Nitto",
             "Chairs": [
+                "Elisabetta Di Nitto @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -4634,17 +4978,18 @@
         },
         {
             "Id": "eeheeja4Wi",
-            "Title": "TBA",
-            "ShortTitle": "TBA",
+            "Title": "Visualization of Test Information to Assist Fault Localization",
+            "ShortTitle": "Visualization of Test Information to Assist Fault Localization",
             "Type": "SIGSOFT Impact Paper Award Talk",
             "ShortType": "SIGSOFT Impact Paper Award Talk",
-            "Key": "2015-09-02 10:30 TBA",
+            "Key": "2015-09-02 10:30 Visualization of Test Information to Assist Fault Localization",
             "Day": "2015-09-02",
             "Time": "10:30 - 11:00",
             "Location": "Oggioni",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Nenad Medvidovic",
             "Chairs": [
+                "Nenad Medvidovic @ University of Southern California, USA"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -4652,7 +4997,7 @@
             "URL": "",
             "Abstract": "",
             "Items": [
-                "James A. Jones @  : TBA"
+                "James A. Jones @  : Visualization of Test Information to Assist Fault Localization"
             ]
         },
         {
@@ -4782,11 +5127,11 @@
         },
         {
             "Id": "hiDaihee3a",
-            "Title": "Moda Clouds",
-            "ShortTitle": "Moda Clouds",
+            "Title": "MODAClouds Project",
+            "ShortTitle": "MODAClouds Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-09-02 11:30 Moda Clouds",
+            "Key": "2015-09-02 11:30 MODAClouds Project",
             "Day": "2015-09-02",
             "Time": "11:30 - 13:05",
             "Location": "Novelli",
@@ -4802,11 +5147,11 @@
         },
         {
             "Id": "woWie7Ashe",
-            "Title": "DICE",
-            "ShortTitle": "DICE",
+            "Title": "DICE Project",
+            "ShortTitle": "DICE Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-09-02 11:30 DICE",
+            "Key": "2015-09-02 11:30 DICE Project",
             "Day": "2015-09-02",
             "Time": "11:30 - 13:05",
             "Location": "Stampa",
@@ -4947,11 +5292,11 @@
         },
         {
             "Id": "ooquahDe5G",
-            "Title": "DICE",
-            "ShortTitle": "DICE",
+            "Title": "DICE Project",
+            "ShortTitle": "DICE Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-09-02 14:30 DICE",
+            "Key": "2015-09-02 14:30 DICE Project",
             "Day": "2015-09-02",
             "Time": "14:30 - 16:05",
             "Location": "Stampa",
@@ -5082,15 +5427,15 @@
             "Workshop": false,
             "Comment": "FSE15",
             "URL": "",
-            "Abstract": ""
+            "Abstract": "Wiem Mkaouer, Marouane Kessentini, Slim Bechikh, Kalyanmoy Deb, and Ali Ouni.  Many-Objective Software Remodularization using NSGA-III. ACM TOSEM Issue 24(3)2015<br/><br/><br/><br/>Stefano Di Alesio, Shiva Nejati, and Lionel Briand. Gotlieb, Arnaud Combining Genetic Algorithms and Constraint Programming to Support Stress Testing of Task Deadlines. ACM TOSEM Issue 25(1)2016<br/><br/><br/><br/>J. Krall, T. Menzies, and M. Davies. GALE: Geometric Active Learning for Search-Based Software Engineering. To appear on IEEE TSE (available online at the time of writing)"
         },
         {
             "Id": "anein6Shun",
-            "Title": "DICE",
-            "ShortTitle": "DICE",
+            "Title": "DICE Project",
+            "ShortTitle": "DICE Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-09-02 16:30 DICE",
+            "Key": "2015-09-02 16:30 DICE Project",
             "Day": "2015-09-02",
             "Time": "16:30 - 18:00",
             "Location": "Stampa",
@@ -5114,7 +5459,7 @@
             "Day": "2015-09-02",
             "Time": "19:00 - 22:00",
             "Location": "",
-            "LocationIndex": "9",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5135,8 +5480,9 @@
             "Time": "09:00 - 10:00",
             "Location": "Oggioni",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Patrick Heymans",
             "Chairs": [
+                "Patrick Heymans @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -5149,11 +5495,11 @@
         },
         {
             "Id": "Reithoh1pi",
-            "Title": "DICE",
-            "ShortTitle": "DICE",
+            "Title": "DICE Project",
+            "ShortTitle": "DICE Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-09-03 09:00 DICE",
+            "Key": "2015-09-03 09:00 DICE Project",
             "Day": "2015-09-03",
             "Time": "09:00 - 11:30",
             "Location": "Stampa",
@@ -5178,8 +5524,9 @@
             "Time": "10:00 - 10:10",
             "Location": "Oggioni",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Patrick Heymans",
             "Chairs": [
+                "Patrick Heymans @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -5198,8 +5545,9 @@
             "Time": "10:10 - 10:20",
             "Location": "Oggioni",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Patrick Heymans",
             "Chairs": [
+                "Patrick Heymans @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -5211,8 +5559,8 @@
             "Id": "Faim8eevew",
             "Title": "Tool Demonstrations",
             "ShortTitle": "Tool Demonstrations",
-            "Type": "Posters",
-            "ShortType": "Posters",
+            "Type": "Tool Demonstrations",
+            "ShortType": "Tool Demonstrations",
             "Key": "2015-09-03 10:20 Tool Demonstrations",
             "Day": "2015-09-03",
             "Time": "10:20 - 11:30",
@@ -5398,11 +5746,11 @@
         },
         {
             "Id": "goh9oiw7iK",
-            "Title": "DICE",
-            "ShortTitle": "DICE",
+            "Title": "DICE Project",
+            "ShortTitle": "DICE Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-09-03 11:30 DICE",
+            "Key": "2015-09-03 11:30 DICE Project",
             "Day": "2015-09-03",
             "Time": "11:30 - 13:05",
             "Location": "Stampa",
@@ -5561,11 +5909,11 @@
         },
         {
             "Id": "gooqu2viTh",
-            "Title": "DICE",
-            "ShortTitle": "DICE",
+            "Title": "DICE Project",
+            "ShortTitle": "DICE Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-09-03 14:30 DICE",
+            "Key": "2015-09-03 14:30 DICE Project",
             "Day": "2015-09-03",
             "Time": "14:30 - 16:00",
             "Location": "Stampa",
@@ -5704,11 +6052,11 @@
         },
         {
             "Id": "foo4Ubohg8",
-            "Title": "DICE",
-            "ShortTitle": "DICE",
+            "Title": "DICE Project",
+            "ShortTitle": "DICE Project",
             "Type": "Meeting",
             "ShortType": "Meeting",
-            "Key": "2015-09-03 16:30 DICE",
+            "Key": "2015-09-03 16:30 DICE Project",
             "Day": "2015-09-03",
             "Time": "16:30 - 18:00",
             "Location": "Stampa",
@@ -5753,8 +6101,9 @@
             "Time": "09:00 - 10:00",
             "Location": "Oggioni",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Mark Harman",
             "Chairs": [
+                "Mark Harman @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -5794,8 +6143,8 @@
             "Id": "rohc0eNg9O",
             "Title": "Patterns and Coding Convention",
             "ShortTitle": "Patterns and Coding Convention",
-            "Type": "Research Papers",
-            "ShortType": "Research Papers",
+            "Type": "Patterns and Coding Convention",
+            "ShortType": "Patterns and Coding Convention",
             "Key": "2015-09-04 10:00 Patterns and Coding Convention",
             "Day": "2015-09-04",
             "Time": "10:00 - 11:00",
@@ -5809,7 +6158,7 @@
             "Workshop": false,
             "Comment": "FSE15MAIN",
             "URL": "",
-            "Abstract": "",
+            "Abstract": "A. Ampatzoglou, A. Chatzigeorgiou, S. Charalampidou, and P. Avgeriou.  The Effect of GoF Design Patterns on Stability: A Case Study; To appear on IEEE TSE (available online at the time of writing)",
             "Items": [
                 "fse15main-mainid8-p"
             ]
@@ -5977,7 +6326,15 @@
             "Workshop": false,
             "Comment": "FSE15",
             "URL": "",
-            "Abstract": ""
+            "Abstract": "",
+            "Items": [
+                "fse15demo-demoid26-p",
+                "fse15demo-demoid1-p",
+                "fse15demo-demoid20-p",
+                "fse15demo-demoid29-p",
+                "fse15demo-demoid12-p",
+                "fse15demo-demoid23-p"
+            ]
         },
         {
             "Id": "aa6oSh2ahH",
@@ -6117,7 +6474,16 @@
             "Workshop": false,
             "Comment": "FSE15",
             "URL": "",
-            "Abstract": ""
+            "Abstract": "",
+            "Items": [
+                "fse15demo-demoid28-p",
+                "fse15demo-demoid16-p",
+                "fse15demo-demoid13-p",
+                "fse15demo-demoid19-p",
+                "fse15demo-demoid6-p",
+                "fse15demo-demoid15-p",
+                "fse15demo-demoid3-p"
+            ]
         },
         {
             "Id": "yii8Bae9ji",
@@ -6130,8 +6496,9 @@
             "Time": "16:05 - 16:30",
             "Location": "Oggioni",
             "LocationIndex": "1",
-            "ChairsString": "",
+            "ChairsString": "Mark Harman",
             "Chairs": [
+                "Mark Harman @"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6676,12 +7043,12 @@
             "Affiliation": "University of Milano-Bicocca, Italy",
             "Key": "Pietro Braione @ University of Milano-Bicocca, Italy",
             "Id": "e7455e7b42",
-            "Bio": "Pietro Braione received the Dr.Eng. degree in computer science engineering in 2000 and the Ph.D. degree in information technology in 2004, both from Politecnico di Milano (Italy). Since 2007 he is a full-time researcher at University of Milano-Bicocca (Italy). His research interests include software verification and analysis, and automation of software testing.",
+            "Bio": "",
             "URLhp": "https://sites.google.com/site/pietrobraione",
             "URLphoto": "https://sites.google.com/site/pietrobraione/_/rsrc/1340199840669/home/DSC_0337.jpg",
             "URLgs": "https://scholar.google.it/citations?user=ItCllEUAAAAJ&hl=it&oi=ao",
             "URLmsa": "",
-            "URLtw": "@PBraione",
+            "URLtw": "https://twitter.com/PBraione",
             "URLgp": "",
             "URLfb": "",
             "URLli": "https://it.linkedin.com/in/pietrobraione"
@@ -7276,10 +7643,10 @@
             "Affiliation": "University of California at Berkeley, USA",
             "Key": "Ankush Desai @ University of California at Berkeley, USA",
             "Id": "6a76fc7425",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
+            "Bio": "I am a second year graduate student at University Of California, Berkeley. I am currently co-advised by Prof. Sanjit Seshia and Dr. Shaz Qadeer.  Research Interests Design tools and methodologies for building reliable systems. I am interested in the areas of programming languages, model checking, and verification with focus on building complex real-world systems like a device drivers, distributed systems and distributed embedded systems.",
+            "URLhp": "http://www.eecs.berkeley.edu/~ankush/",
+            "URLphoto": "http://www.eecs.berkeley.edu/~ankush/",
+            "URLgs": "https://scholar.google.com/citations?user=i5s4Ie8AAAAJ&hl=en",
             "URLmsa": "",
             "URLtw": "",
             "URLgp": "",
@@ -7336,6 +7703,21 @@
             "Affiliation": "University of Freiburg, Germany",
             "Key": "Daniel Dietsch @ University of Freiburg, Germany",
             "Id": "1bd0bf9eba",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Elisabetta Di Nitto",
+            "Affiliation": "",
+            "Key": "Elisabetta Di Nitto @",
+            "Id": "3389b5880f",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -8187,6 +8569,21 @@
             "URLli": ""
         },
         {
+            "Name": "Mark Harman",
+            "Affiliation": "",
+            "Key": "Mark Harman @",
+            "Id": "3d7d405667",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
             "Name": "William Harris",
             "Affiliation": "Georgia Tech, USA",
             "Key": "William Harris @ Georgia Tech, USA",
@@ -8272,6 +8669,21 @@
             "URLgs": "http://scholar.google.com/citations?user=axKmIS8AAAAJ",
             "URLmsa": "",
             "URLtw": "https://twitter.com/stefan_heule",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Patrick Heymans",
+            "Affiliation": "",
+            "Key": "Patrick Heymans @",
+            "Id": "10cec0186e",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
             "URLgp": "",
             "URLfb": "",
             "URLli": ""
@@ -8671,10 +9083,10 @@
             "Affiliation": "Slovak University of Technology in Bratislava, Slovakia",
             "Key": "Martin Konopka @ Slovak University of Technology in Bratislava, Slovakia",
             "Id": "8501722a0b",
-            "Bio": "",
+            "Bio": "I am a PhD student at Faculty of Informatics and Information Technologies, Slovak University of Technology in Bratislava, supervised by prof. Pavol Navrat. My research interests are in monitoring software developer’s activity, gathering and processing interaction data, stream reasoning, and identifying hidden relations between artifacts of software projects or developers. His motivation is in understanding software and its source code from different point of view to just analyzing contents of source code.  In addition to my research interests, I am a software and mobile applications developer, mostly for Microsoft platforms, and a Microsoft Student Partner.",
             "URLhp": "http://www2.fiit.stuba.sk/~konopka/",
             "URLphoto": "http://www2.fiit.stuba.sk/~konopka/images/konopka.png",
-            "URLgs": "",
+            "URLgs": "https://scholar.google.com/citations?user=etWOyH8AAAAJ&hl=sk",
             "URLmsa": "",
             "URLtw": "https://twitter.com/@martinkonopka",
             "URLgp": "",
@@ -8914,11 +9326,11 @@
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
-            "URLgs": "",
+            "URLgs": "https://scholar.google.com/citations?user=fk93YOIAAAAJ&hl=en",
             "URLmsa": "",
             "URLtw": "",
             "URLgp": "",
-            "URLfb": "",
+            "URLfb": "https://www.facebook.com/yun.lin.75248",
             "URLli": ""
         },
         {
