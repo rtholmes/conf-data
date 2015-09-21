@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1442821431,
+    "DataRevision": 1442863005,
     "Preliminary": "false",
     "Event": "ICSME 2015 Events",
     "Name": "ICSME 2015 Events",
@@ -885,12 +885,12 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Aiko Yamashita",
-            "AffiliationsString": "Oslo and Akershus University College, Norway",
+            "AffiliationsString": "Oslo and Akershus University College of Applied Sciences, Norway",
             "Authors": [
-                "Aiko Yamashita @ Oslo and Akershus University College, Norway"
+                "Aiko Yamashita @ Oslo and Akershus University College of Applied Sciences, Norway"
             ],
             "Affiliations": [
-                "Oslo and Akershus University College, Norway"
+                "Oslo and Akershus University College of Applied Sciences, Norway"
             ],
             "Abstract": "Software quality assessments are critical in organizations where the software has been produced by external vendors, or when the development and maintenance of a software product has been outsourced to external parties. These assessments are typically challenging because is not always possible to access the original developers (or sometimes is not even allowed), and in rare cases suppliers keep an account of the costs associated to code changes or defect fixes. In those situations, one is left with the artifacts (e.g., database, source code, and documentation) as the only sources of evidence for performing such evaluations. A major challenge is also to provide fact-based conclusions for supporting decision-making, instead of subjective interpretations based on expert assessments (an approach still very predominant in mainstream industrial practice). This paper describes an instance of a software quality evaluation process performed for an international logistics company, which combined: benchmark-based metrics threshold analysis, software visualization, and expert assessment. An interview was carried out afterwards with a member from the business division of the company, to assess the usefulness of the methodology and corresponding findings, and to explore avenues for future improvement.",
             "Award": "",
@@ -1741,9 +1741,9 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "André Hora, Romain Robbes, Nicolas Anquetil, Anne Etien, Stéphane Ducasse, and Marco Tulio Valente",
-            "AffiliationsString": "Federal University of Minas Gerais, France; University of Chile, Chile; INRIA, France; Federal University of Minas Gerais, Brazil",
+            "AffiliationsString": "Federal University of Minas Gerais, Brazil; University of Chile, Chile; INRIA, France",
             "Authors": [
-                "André Hora @ Federal University of Minas Gerais, France",
+                "André Hora @ Federal University of Minas Gerais, Brazil",
                 "Romain Robbes @ University of Chile, Chile",
                 "Nicolas Anquetil @ INRIA, France",
                 "Anne Etien @ INRIA, France",
@@ -1751,7 +1751,7 @@
                 "Marco Tulio Valente @ Federal University of Minas Gerais, Brazil"
             ],
             "Affiliations": [
-                "Federal University of Minas Gerais, France",
+                "Federal University of Minas Gerais, Brazil",
                 "University of Chile, Chile",
                 "INRIA, France",
                 "INRIA, France",
@@ -2715,15 +2715,15 @@
         {
             "Title": "Tutorial Two: Exploration, Analysis, and Manipulation of Source Code with srcML",
             "Type": "MUD",
-            "Key": "Jonathan Maletic : Tutorial Two: Exploration, Analysis, and Manipulation of Source Code with srcML",
+            "Key": "Jonathan I. Maletic : Tutorial Two: Exploration, Analysis, and Manipulation of Source Code with srcML",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Jonathan Maletic",
+            "PersonsString": "Jonathan I. Maletic",
             "AffiliationsString": "Kent State University, USA",
             "Authors": [
-                "Jonathan Maletic @ Kent State University, USA"
+                "Jonathan I. Maletic @ Kent State University, USA"
             ],
             "Affiliations": [
                 "Kent State University, USA"
@@ -5309,7 +5309,7 @@
             "URL": "",
             "Abstract": "",
             "Items": [
-                "Jonathan Maletic : Tutorial Two: Exploration, Analysis, and Manipulation of Source Code with srcML"
+                "Jonathan I. Maletic : Tutorial Two: Exploration, Analysis, and Manipulation of Source Code with srcML"
             ]
         },
         {
@@ -6821,8 +6821,8 @@
             "Key": "Areti Ampatzoglou @ University of Groningen, Netherlands",
             "Id": "c2013814b1",
             "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
+            "URLhp": "http://www.cs.rug.nl/search/People/AretiAmpatzoglou",
+            "URLphoto": "http://www.cs.rug.nl/search/uploads/People/AretiAmpatzoglou.jpg",
             "URLgs": "",
             "URLmsa": "",
             "URLtw": "",
@@ -9426,21 +9426,6 @@
             "URLli": ""
         },
         {
-            "Name": "André Hora",
-            "Affiliation": "Federal University of Minas Gerais, France",
-            "Key": "André Hora @ Federal University of Minas Gerais, France",
-            "Id": "e74b2c7900",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
             "Name": "Amber Horvath",
             "Affiliation": "Oregon State University, USA",
             "Key": "Amber Horvath @ Oregon State University, USA",
@@ -10885,21 +10870,6 @@
             "Affiliation": "Kent State University, USA",
             "Key": "Jonathan I. Maletic @ Kent State University, USA",
             "Id": "544bbfaa65",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
-            "Name": "Jonathan Maletic",
-            "Affiliation": "Kent State University, USA",
-            "Key": "Jonathan Maletic @ Kent State University, USA",
-            "Id": "9840e7f66c",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -13939,21 +13909,6 @@
             "URLgp": "",
             "URLfb": "",
             "URLli": ""
-        },
-        {
-            "Name": "Aiko Yamashita",
-            "Affiliation": "Oslo and Akershus University College, Norway",
-            "Key": "Aiko Yamashita @ Oslo and Akershus University College, Norway",
-            "Id": "3aaa51c22c",
-            "Bio": "Aiko Yamashita holds an Associate Professorship at Oslo and Akershus University College of Applied Sciences. She has worked as a software engineer, consultant and advisor in Costa Rica, USA, Sweden and Norway within diverse organizations. Her research interests include empirical software engineering, software evolution and quality, sustainability and education, and knowledge transfer and innovation processes within software engineering.",
-            "URLhp": "https://www.hioa.no/eng/employee/aikyam",
-            "URLphoto": "https://goo.gl/jN0o4F",
-            "URLgs": "https://scholar.google.no/citations?user=pW9LgZkAAAAJ",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": "https://no.linkedin.com/in/aikofallasyamashita"
         },
         {
             "Name": "Aiko Yamashita",
