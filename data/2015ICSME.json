@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1442467661,
+    "DataRevision": 1442821431,
     "Preliminary": "false",
     "Event": "ICSME 2015 Events",
     "Name": "ICSME 2015 Events",
@@ -196,14 +196,14 @@
             "Title": "Detection Strategies of Smells in Web Software Development",
             "Type": "Pre-doctoral paper",
             "Key": "icsme15doc-doc-4-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMaur%C3%ADcio+Aniche+%22Detection+Strategies+of+Smells+in+Web+Software+Development%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMaur%C3%ADcio+F.+Aniche+%22Detection+Strategies+of+Smells+in+Web+Software+Development%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Maurício Aniche",
+            "PersonsString": "Maurício F. Aniche",
             "AffiliationsString": "University of São Paulo, Brazil",
             "Authors": [
-                "Maurício Aniche @ University of São Paulo, Brazil"
+                "Maurício F. Aniche @ University of São Paulo, Brazil"
             ],
             "Affiliations": [
                 "University of São Paulo, Brazil"
@@ -241,12 +241,12 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Ioana Verebi",
-            "AffiliationsString": "Politehnica Timisoara, Romania",
+            "AffiliationsString": "Politehnica University of Timisoara, Romania",
             "Authors": [
-                "Ioana Verebi @ Politehnica Timisoara, Romania"
+                "Ioana Verebi @ Politehnica University of Timisoara, Romania"
             ],
             "Affiliations": [
-                "Politehnica Timisoara, Romania"
+                "Politehnica University of Timisoara, Romania"
             ],
             "Abstract": "Refactoring is a key activity for any software system, as it ensures that the system is easily maintainable and extensible. However, complex refactorings (restructurings) are largely performed by hand, as there are no automated means of chaining existent basic refactorings. In addition, developers cannot quickly and safely evaluate the effects of a restructuring solution over another. In this context, we introduce a model- based approach to software refactoring, which provides an easy and safe way to explore restructuring alternatives. Restructurings are written as a composition of low-level model transformations, making them reusable in different complex refactorings. In order to support our approach, we implemented a tool named reFactor, which aims to bridge the gap between design flaw detection and correction. It detects design problems and offers a platform to compose model transformations into composite restructurings, while permanently monitoring the overall quality of the code.",
             "Award": "",
@@ -378,15 +378,15 @@
             "Title": "Fitness Workout for Fat Interfaces: Be Slim, Clean, and Flexible",
             "Type": "ERA Paper",
             "Key": "icsme15era-eraid22-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DSpyros+Kranas%2C+Apostolos+Zarras%2C+and+Panos+Vassiliadis+%22Fitness+Workout+for+Fat+Interfaces%3A+Be+Slim%2C+Clean%2C+and+Flexible%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DSpyros+Kranas%2C+Apostolos+V.+Zarras%2C+and+Panos+Vassiliadis+%22Fitness+Workout+for+Fat+Interfaces%3A+Be+Slim%2C+Clean%2C+and+Flexible%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Spyros Kranas, Apostolos Zarras, and Panos Vassiliadis",
+            "PersonsString": "Spyros Kranas, Apostolos V. Zarras, and Panos Vassiliadis",
             "AffiliationsString": "University of Ioannina, Greece",
             "Authors": [
                 "Spyros Kranas @ University of Ioannina, Greece",
-                "Apostolos Zarras @ University of Ioannina, Greece",
+                "Apostolos V. Zarras @ University of Ioannina, Greece",
                 "Panos Vassiliadis @ University of Ioannina, Greece"
             ],
             "Affiliations": [
@@ -431,15 +431,15 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Jalerson Lima, Christoph Treude, Fernando Figueira Filho, and Uirá Kulesza",
-            "AffiliationsString": "IFRN, Brazil; Federal University of Rio Grande do Norte, Brazil",
+            "AffiliationsString": "Federal University of Rio Grande do Norte, Brazil",
             "Authors": [
-                "Jalerson Lima @ IFRN, Brazil",
+                "Jalerson Lima @ Federal University of Rio Grande do Norte, Brazil",
                 "Christoph Treude @ Federal University of Rio Grande do Norte, Brazil",
                 "Fernando Figueira Filho @ Federal University of Rio Grande do Norte, Brazil",
                 "Uirá Kulesza @ Federal University of Rio Grande do Norte, Brazil"
             ],
             "Affiliations": [
-                "IFRN, Brazil",
+                "Federal University of Rio Grande do Norte, Brazil",
                 "Federal University of Rio Grande do Norte, Brazil",
                 "Federal University of Rio Grande do Norte, Brazil",
                 "Federal University of Rio Grande do Norte, Brazil"
@@ -481,15 +481,15 @@
             "URLinfo": "http%3A%2F%2Faserg.labsoft.dcc.ufmg.br%2Fpharo-dataset%2F",
             "DOI": "",
             "PersonsString": "Paloma Oliveira, Marco Tulio Valente, Alexandre Bergel, and Alexander Serebrenik",
-            "AffiliationsString": "IFMG, Brazil; Federal University of Minas Gerais, Brazil; University of Chile, Chile; Eindhoven University of Technology, Netherlands",
+            "AffiliationsString": "Federal University of Minas Gerais, Brazil; University of Chile, Chile; Eindhoven University of Technology, Netherlands",
             "Authors": [
-                "Paloma Oliveira @ IFMG, Brazil",
+                "Paloma Oliveira @ Federal University of Minas Gerais, Brazil",
                 "Marco Tulio Valente @ Federal University of Minas Gerais, Brazil",
                 "Alexandre Bergel @ University of Chile, Chile",
                 "Alexander Serebrenik @ Eindhoven University of Technology, Netherlands"
             ],
             "Affiliations": [
-                "IFMG, Brazil",
+                "Federal University of Minas Gerais, Brazil",
                 "Federal University of Minas Gerais, Brazil",
                 "University of Chile, Chile",
                 "Eindhoven University of Technology, Netherlands"
@@ -529,16 +529,16 @@
             "URLinfo": "https%3A%2F%2Fgithub.com%2Fcscorley%2Fdoc2vec-feature-location%2F",
             "DOI": "",
             "PersonsString": "Christopher S. Corley, Kostadin Damevski, and Nicholas A. Kraft",
-            "AffiliationsString": "University of Alabama, USA; Virginia State University, USA; ABB Research, USA",
+            "AffiliationsString": "University of Alabama, USA; Virginia Commonwealth University, USA; ABB Corporate Research, USA",
             "Authors": [
                 "Christopher S. Corley @ University of Alabama, USA",
-                "Kostadin Damevski @ Virginia State University, USA",
-                "Nicholas A. Kraft @ ABB Research, USA"
+                "Kostadin Damevski @ Virginia Commonwealth University, USA",
+                "Nicholas A. Kraft @ ABB Corporate Research, USA"
             ],
             "Affiliations": [
                 "University of Alabama, USA",
-                "Virginia State University, USA",
-                "ABB Research, USA"
+                "Virginia Commonwealth University, USA",
+                "ABB Corporate Research, USA"
             ],
             "Abstract": "Deep learning models can infer complex patterns present in natural language text. Relative to n-gram models, deep learning models can capture more complex statistical patterns based on smaller training corpora. In this paper we explore the use of a particular deep learning model, document vectors (DVs), for feature location. DVs seem well suited to use with source code, because they both capture the influence of context on each term in a corpus and map terms into a continuous semantic space that encodes semantic relationships such as synonymy. We present preliminary results that show that a feature location technique (FLT) based on DVs can outperform an analogous FLT based on latent Dirichlet allocation (LDA) and then suggest several directions for future work on the use of deep learning models to improve developer effectiveness in feature location.",
             "Award": "",
@@ -548,17 +548,17 @@
             "Title": "Using Stereotypes in the Automatic Generation of Natural Language Summaries for C++ Methods",
             "Type": "ERA Paper",
             "Key": "icsme15era-eraid15-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DNahla+Abid%2C+Natalia+Dragan%2C+Michael+Collard%2C+and+Jonathan+Maletic+%22Using+Stereotypes+in+the+Automatic+Generation+of+Natural+Language+Summaries+for+C%2B%2B+Methods%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DNahla+J.+Abid%2C+Natalia+Dragan%2C+Michael+L.+Collard%2C+and+Jonathan+I.+Maletic+%22Using+Stereotypes+in+the+Automatic+Generation+of+Natural+Language+Summaries+for+C%2B%2B+Methods%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Nahla Abid, Natalia Dragan, Michael Collard, and Jonathan Maletic",
+            "PersonsString": "Nahla J. Abid, Natalia Dragan, Michael L. Collard, and Jonathan I. Maletic",
             "AffiliationsString": "Kent State University, USA; University of Akron, USA",
             "Authors": [
-                "Nahla Abid @ Kent State University, USA",
+                "Nahla J. Abid @ Kent State University, USA",
                 "Natalia Dragan @ Kent State University, USA",
-                "Michael Collard @ University of Akron, USA",
-                "Jonathan Maletic @ Kent State University, USA"
+                "Michael L. Collard @ University of Akron, USA",
+                "Jonathan I. Maletic @ Kent State University, USA"
             ],
             "Affiliations": [
                 "Kent State University, USA",
@@ -574,14 +574,14 @@
             "Title": "Keecle: Mining Key Architecturally Relevant Classes using Dynamic Analysis",
             "Type": "ERA Paper",
             "Key": "icsme15era-eraid41-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DLiliane+Nascimento+Vale+and+Marcelo+de+A.+Maia+%22Keecle%3A+Mining+Key+Architecturally+Relevant+Classes+using+Dynamic+Analysis%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DLiliane+do+Nascimento+Vale+and+Marcelo+de+A.+Maia+%22Keecle%3A+Mining+Key+Architecturally+Relevant+Classes+using+Dynamic+Analysis%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Liliane Nascimento Vale and Marcelo de A. Maia",
+            "PersonsString": "Liliane do Nascimento Vale and Marcelo de A. Maia",
             "AffiliationsString": "Federal University of Uberlândia, Brazil",
             "Authors": [
-                "Liliane Nascimento Vale @ Federal University of Uberlândia, Brazil",
+                "Liliane do Nascimento Vale @ Federal University of Uberlândia, Brazil",
                 "Marcelo de A. Maia @ Federal University of Uberlândia, Brazil"
             ],
             "Affiliations": [
@@ -784,15 +784,15 @@
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Christopher S. Corley, Federico Lois, and Sebastián Fernandez Quezada",
-            "AffiliationsString": "ABB Research, USA; Corvalius, Argentina",
+            "PersonsString": "Christopher S. Corley, Federico Lois, and Sebastián Quezada",
+            "AffiliationsString": "ABB Corporate Research, USA; Corvalius, Argentina",
             "Authors": [
-                "Christopher S. Corley @ ABB Research, USA",
+                "Christopher S. Corley @ ABB Corporate Research, USA",
                 "Federico Lois @ Corvalius, Argentina",
-                "Sebastián Fernandez Quezada @ Corvalius, Argentina"
+                "Sebastián Quezada @ Corvalius, Argentina"
             ],
             "Affiliations": [
-                "ABB Research, USA",
+                "ABB Corporate Research, USA",
                 "Corvalius, Argentina",
                 "Corvalius, Argentina"
             ],
@@ -839,13 +839,13 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Timo Pawelka and Elmar Juergens",
-            "AffiliationsString": "CQSE, Germany",
+            "AffiliationsString": "TU München, Germany; CQSE, Germany",
             "Authors": [
-                "Timo Pawelka @ CQSE, Germany",
+                "Timo Pawelka @ TU München, Germany",
                 "Elmar Juergens @ CQSE, Germany"
             ],
             "Affiliations": [
-                "CQSE, Germany",
+                "TU München, Germany",
                 "CQSE, Germany"
             ],
             "Abstract": "Comments and identifiers are the main source of documentation of source-code and are therefore an integral part of the development and the maintenance of a program. As English is the world language, most comments and identifiers are written in English. However, if they are in any other language, a developer without knowledge of this language will almost perceive the code to be undocumented or even obfuscated. In absence of industrial data, academia is not aware of the extent of the problem of non- English comments and identifiers in practice. In this paper, we propose an approach for the language identification of source- code comments and identifiers. With the approach, a large-scale study has been conducted of the natural language of source-code comments and identifiers, analyzing multiple open-source and industry systems. The results show that a significant amount of the industry projects contain comments and identifiers in more than one language, whereas none of the analyzed open-source systems has this problem.",
@@ -928,21 +928,21 @@
             "Title": "An Empirical Evaluation of the Effectiveness of Inspection Scenarios Developed from a Defect Repository",
             "Type": "Full paper",
             "Key": "icsme15ind-indid27-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DShuji+Morisaki%2C+Kiyotaka+Kasubuchi%2C+Akiko+Yoshida%2C+and+Chikako+Ogawa+%22An+Empirical+Evaluation+of+the+Effectiveness+of+Inspection+Scenarios+Developed+from+a+Defect+Repository%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DKiyotaka+Kasubuchi%2C+Shuji+Morisaki%2C+Akiko+Yoshida%2C+and+Chikako+Ogawa+%22An+Empirical+Evaluation+of+the+Effectiveness+of+Inspection+Scenarios+Developed+from+a+Defect+Repository%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Shuji Morisaki, Kiyotaka Kasubuchi, Akiko Yoshida, and Chikako Ogawa",
-            "AffiliationsString": "Nagoya University, Japan; SCREEN Holdings, Japan; Shizuoka University, Japan",
+            "PersonsString": "Kiyotaka Kasubuchi, Shuji Morisaki, Akiko Yoshida, and Chikako Ogawa",
+            "AffiliationsString": "SCREEN Holdings, Japan; Nagoya University, Japan; Shizuoka University, Japan",
             "Authors": [
-                "Shuji Morisaki @ Nagoya University, Japan",
                 "Kiyotaka Kasubuchi @ SCREEN Holdings, Japan",
+                "Shuji Morisaki @ Nagoya University, Japan",
                 "Akiko Yoshida @ SCREEN Holdings, Japan",
                 "Chikako Ogawa @ Shizuoka University, Japan"
             ],
             "Affiliations": [
-                "Nagoya University, Japan",
                 "SCREEN Holdings, Japan",
+                "Nagoya University, Japan",
                 "SCREEN Holdings, Japan",
                 "Shizuoka University, Japan"
             ],
@@ -981,18 +981,18 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Michael Wahler, Raphael Eidenbenz, Carsten Franke, and Yvonne-Anne Pignolet",
-            "AffiliationsString": "ABB Research, Switzerland",
+            "AffiliationsString": "ABB Corporate Research, Switzerland",
             "Authors": [
-                "Michael Wahler @ ABB Research, Switzerland",
-                "Raphael Eidenbenz @ ABB Research, Switzerland",
-                "Carsten Franke @ ABB Research, Switzerland",
-                "Yvonne-Anne Pignolet @ ABB Research, Switzerland"
+                "Michael Wahler @ ABB Corporate Research, Switzerland",
+                "Raphael Eidenbenz @ ABB Corporate Research, Switzerland",
+                "Carsten Franke @ ABB Corporate Research, Switzerland",
+                "Yvonne-Anne Pignolet @ ABB Corporate Research, Switzerland"
             ],
             "Affiliations": [
-                "ABB Research, Switzerland",
-                "ABB Research, Switzerland",
-                "ABB Research, Switzerland",
-                "ABB Research, Switzerland"
+                "ABB Corporate Research, Switzerland",
+                "ABB Corporate Research, Switzerland",
+                "ABB Corporate Research, Switzerland",
+                "ABB Corporate Research, Switzerland"
             ],
             "Abstract": "This paper reports on a case study on analyzing, structuring and re-using real-time control algorithms which represent a significant amount of intellectual property. As a starting point, legacy code written in ADA together with a Windows-based testing framework is available. The goal is to migrate the code onto a real-time multi-core platform taking advantage of technological progress.  We present a tool-supported three-step approach for such legacy control software: identifying and isolating the control algorithms, preparing these algorithms and their information exchange for execution within a modern execution framework for Linux written in C++, and validating the solution by a) performing regression testing to ensure partial correctness and b) validating its real-time properties.",
             "Award": "",
@@ -1061,13 +1061,13 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Harry M. Sneed and Chris Verhoef",
-            "AffiliationsString": "SoRing, Hungary; VU University Amsterdam, Netherlands",
+            "AffiliationsString": "SoRing, Germany; VU University Amsterdam, Netherlands",
             "Authors": [
-                "Harry M. Sneed @ SoRing, Hungary",
+                "Harry M. Sneed @ SoRing, Germany",
                 "Chris Verhoef @ VU University Amsterdam, Netherlands"
             ],
             "Affiliations": [
-                "SoRing, Hungary",
+                "SoRing, Germany",
                 "VU University Amsterdam, Netherlands"
             ],
             "Abstract": "This paper is an industrial case study of how a VisualAge application system on an IBM mainframe was reverse engineered into a system reference repository. The starting point was the code fragments generated by the VisualAge interactive development tool. The results of the reverse engineering process were a use case documentation, a module documentation and a system reference repository. In these documents, the names of the data and functions were extended to be more understandable. The process was in the end fully automated and took three months to implement. The resulting documentation is now being used as a basis for re-implementing the system in Java.",
@@ -1132,15 +1132,15 @@
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "David Piorkowski, Scott Fleming, Christopher Scaffidi, Margaret M. Burnett, Irwin Kwan, Austin Henley, Jamie Macbeth, Charles Hill, and Amber Horvath",
+            "PersonsString": "David Piorkowski, Scott D. Fleming, Christopher Scaffidi, Margaret Burnett, Irwin Kwan, Austin Z. Henley, Jamie Macbeth, Charles Hill, and Amber Horvath",
             "AffiliationsString": "Oregon State University, USA; University of Memphis, USA; Clemson University, USA",
             "Authors": [
                 "David Piorkowski @ Oregon State University, USA",
-                "Scott Fleming @ University of Memphis, USA",
+                "Scott D. Fleming @ University of Memphis, USA",
                 "Christopher Scaffidi @ Oregon State University, USA",
-                "Margaret M. Burnett @ Oregon State University, USA",
+                "Margaret Burnett @ Oregon State University, USA",
                 "Irwin Kwan @ Oregon State University, USA",
-                "Austin Henley @ University of Memphis, USA",
+                "Austin Z. Henley @ University of Memphis, USA",
                 "Jamie Macbeth @ Clemson University, USA",
                 "Charles Hill @ Oregon State University, USA",
                 "Amber Horvath @ Oregon State University, USA"
@@ -1169,15 +1169,15 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Luciana L. Silva, Marco Tulio Valente, Marcelo de A. Maia, and Nicolas Anquetil",
-            "AffiliationsString": "Federal Institute of Triangulo Mineiro, Brazil; Federal University of Minas Gerais, Brazil; Federal University of Uberlândia, Brazil; INRIA, France",
+            "AffiliationsString": "Federal University of Minas Gerais, Brazil; Federal University of Uberlândia, Brazil; INRIA, France",
             "Authors": [
-                "Luciana L. Silva @ Federal Institute of Triangulo Mineiro, Brazil",
+                "Luciana L. Silva @ Federal University of Minas Gerais, Brazil",
                 "Marco Tulio Valente @ Federal University of Minas Gerais, Brazil",
                 "Marcelo de A. Maia @ Federal University of Uberlândia, Brazil",
                 "Nicolas Anquetil @ INRIA, France"
             ],
             "Affiliations": [
-                "Federal Institute of Triangulo Mineiro, Brazil",
+                "Federal University of Minas Gerais, Brazil",
                 "Federal University of Minas Gerais, Brazil",
                 "Federal University of Uberlândia, Brazil",
                 "INRIA, France"
@@ -1294,17 +1294,17 @@
             "URLvideo": "",
             "URLinfo": "http%3A%2F%2Fchristop.club%2Fpublications%2Fdata%2FCorley-etal_2015%2F",
             "DOI": "",
-            "PersonsString": "Christopher S. Corley, Kelly Kashuda, and Nicholas A. Kraft",
-            "AffiliationsString": "University of Alabama, USA; ABB Research, USA",
+            "PersonsString": "Christopher S. Corley, Kelly L. Kashuda, and Nicholas A. Kraft",
+            "AffiliationsString": "University of Alabama, USA; ABB Corporate Research, USA",
             "Authors": [
                 "Christopher S. Corley @ University of Alabama, USA",
-                "Kelly Kashuda @ University of Alabama, USA",
-                "Nicholas A. Kraft @ ABB Research, USA"
+                "Kelly L. Kashuda @ University of Alabama, USA",
+                "Nicholas A. Kraft @ ABB Corporate Research, USA"
             ],
             "Affiliations": [
                 "University of Alabama, USA",
                 "University of Alabama, USA",
-                "ABB Research, USA"
+                "ABB Corporate Research, USA"
             ],
             "Abstract": "Feature location is a program comprehension activity in which a developer inspects source code to locate the classes or methods that implement a feature of interest. Many feature location techniques (FLTs) are based on text retrieval models, and in such FLTs it is typical for the models to be trained on source code snapshots. However, source code evolution leads to model obsolescence and thus to the need to retrain the model from the latest snapshot. In this paper, we introduce a topic-modeling-based FLT in which the model is built incrementally from source code history. By training an online learning algorithm using changesets, the FLT maintains an up-to-date model without incurring the non-trivial computational cost associated with retraining traditional FLTs. Overall, we studied over 600 defects and features from 4 open-source Java projects. We also present a historical simulation that demonstrates how the FLT performs as a project evolves. Our results indicate that the accuracy of a changeset-based FLT is similar to that of a snapshot-based FLT, but without the retraining costs.",
             "Award": "",
@@ -1417,15 +1417,15 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Aiko Yamashita, Marco Zanoni, Francesca Arcelli Fontana, and Bartosz Walter",
-            "AffiliationsString": "Mesan, Norway; University of Milano-Bicocca, Italy; Poznan University of Technology, Poland",
+            "AffiliationsString": "Oslo and Akershus University College of Applied Sciences, Norway; University of Milano-Bicocca, Italy; Poznan University of Technology, Poland",
             "Authors": [
-                "Aiko Yamashita @ Mesan, Norway",
+                "Aiko Yamashita @ Oslo and Akershus University College of Applied Sciences, Norway",
                 "Marco Zanoni @ University of Milano-Bicocca, Italy",
                 "Francesca Arcelli Fontana @ University of Milano-Bicocca, Italy",
                 "Bartosz Walter @ Poznan University of Technology, Poland"
             ],
             "Affiliations": [
-                "Mesan, Norway",
+                "Oslo and Akershus University College of Applied Sciences, Norway",
                 "University of Milano-Bicocca, Italy",
                 "University of Milano-Bicocca, Italy",
                 "Poznan University of Technology, Poland"
@@ -1608,15 +1608,15 @@
             "Title": "An Empirical Evaluation of Ant Build Maintenance using Formiga",
             "Type": "Research",
             "Key": "icsme15main-mainid6-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DRyan+Hardt+and+Ethan+Munson+%22An+Empirical+Evaluation+of+Ant+Build+Maintenance+using+Formiga%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DRyan+Hardt+and+Ethan+V.+Munson+%22An+Empirical+Evaluation+of+Ant+Build+Maintenance+using+Formiga%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Ryan Hardt and Ethan Munson",
+            "PersonsString": "Ryan Hardt and Ethan V. Munson",
             "AffiliationsString": "University of Wisconsin-Eau Claire, USA; University of Wisconsin-Milwaukee, USA",
             "Authors": [
                 "Ryan Hardt @ University of Wisconsin-Eau Claire, USA",
-                "Ethan Munson @ University of Wisconsin-Milwaukee, USA"
+                "Ethan V. Munson @ University of Wisconsin-Milwaukee, USA"
             ],
             "Affiliations": [
                 "University of Wisconsin-Eau Claire, USA",
@@ -1741,9 +1741,9 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "André Hora, Romain Robbes, Nicolas Anquetil, Anne Etien, Stéphane Ducasse, and Marco Tulio Valente",
-            "AffiliationsString": "Federal University of Minas Gerais, Brazil; University of Chile, Chile; INRIA, France",
+            "AffiliationsString": "Federal University of Minas Gerais, France; University of Chile, Chile; INRIA, France; Federal University of Minas Gerais, Brazil",
             "Authors": [
-                "André Hora @ Federal University of Minas Gerais, Brazil",
+                "André Hora @ Federal University of Minas Gerais, France",
                 "Romain Robbes @ University of Chile, Chile",
                 "Nicolas Anquetil @ INRIA, France",
                 "Anne Etien @ INRIA, France",
@@ -1751,7 +1751,7 @@
                 "Marco Tulio Valente @ Federal University of Minas Gerais, Brazil"
             ],
             "Affiliations": [
-                "Federal University of Minas Gerais, Brazil",
+                "Federal University of Minas Gerais, France",
                 "University of Chile, Chile",
                 "INRIA, France",
                 "INRIA, France",
@@ -1792,17 +1792,17 @@
             "Title": "Exploring API Method Parameter Recommendations",
             "Type": "Research",
             "Key": "icsme15main-mainid162-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMuhammad+Asaduzzaman%2C+Chanchal+K.+Roy%2C+Kevin+A.+Schneider%2C+and+Samiul+Monir+%22Exploring+API+Method+Parameter+Recommendations%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMuhammad+Asaduzzaman%2C+Chanchal+K.+Roy%2C+Samiul+Monir%2C+and+Kevin+A.+Schneider+%22Exploring+API+Method+Parameter+Recommendations%22",
             "URLvideo": "",
             "URLinfo": "https%3A%2F%2Fasaduzzamanparvez.wordpress.com%2Fapi_parameter_study%2F",
             "DOI": "",
-            "PersonsString": "Muhammad Asaduzzaman, Chanchal K. Roy, Kevin A. Schneider, and Samiul Monir",
+            "PersonsString": "Muhammad Asaduzzaman, Chanchal K. Roy, Samiul Monir, and Kevin A. Schneider",
             "AffiliationsString": "University of Saskatchewan, Canada",
             "Authors": [
                 "Muhammad Asaduzzaman @ University of Saskatchewan, Canada",
                 "Chanchal K. Roy @ University of Saskatchewan, Canada",
-                "Kevin A. Schneider @ University of Saskatchewan, Canada",
-                "Samiul Monir @ University of Saskatchewan, Canada"
+                "Samiul Monir @ University of Saskatchewan, Canada",
+                "Kevin A. Schneider @ University of Saskatchewan, Canada"
             ],
             "Affiliations": [
                 "University of Saskatchewan, Canada",
@@ -1822,13 +1822,13 @@
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Sebastiano Panichella, Andrea Di Sorbo, Emitza Guzman, Corrado Aaron Visaggio, Gerardo Canfora, and Harald C. Gall",
+            "PersonsString": "Sebastiano Panichella, Andrea Di Sorbo, Emitza Guzman, Corrado A. Visaggio, Gerardo Canfora, and Harald C. Gall",
             "AffiliationsString": "University of Zurich, Switzerland; University of Sannio, Italy; TU München, Germany",
             "Authors": [
                 "Sebastiano Panichella @ University of Zurich, Switzerland",
                 "Andrea Di Sorbo @ University of Sannio, Italy",
                 "Emitza Guzman @ TU München, Germany",
-                "Corrado Aaron Visaggio @ University of Sannio, Italy",
+                "Corrado A. Visaggio @ University of Sannio, Italy",
                 "Gerardo Canfora @ University of Sannio, Italy",
                 "Harald C. Gall @ University of Zurich, Switzerland"
             ],
@@ -2052,17 +2052,19 @@
             "Title": "WSDarwin: A Web Application for the Support of REST Service Evolution",
             "Type": "Tool Demonstration Paper",
             "Key": "icsme15tool-toolid6-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMarios+Fokaefs+and+Eleni+Stroulia+%22WSDarwin%3A+A+Web+Application+for+the+Support+of+REST+Service+Evolution%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMarios+Fokaefs%2C+Mihai+Oprescu%2C+and+Eleni+Stroulia+%22WSDarwin%3A+A+Web+Application+for+the+Support+of+REST+Service+Evolution%22",
             "URLvideo": "http%3A%2F%2Fyoutu.be%2F52CclMbJt6M",
             "URLinfo": "http%3A%2F%2Fssrg17.cs.ualberta.ca%2Fwsdarwin%2F",
             "DOI": "",
-            "PersonsString": "Marios Fokaefs and Eleni Stroulia",
+            "PersonsString": "Marios Fokaefs, Mihai Oprescu, and Eleni Stroulia",
             "AffiliationsString": "University of Alberta, Canada",
             "Authors": [
                 "Marios Fokaefs @ University of Alberta, Canada",
+                "Mihai Oprescu @ University of Alberta, Canada",
                 "Eleni Stroulia @ University of Alberta, Canada"
             ],
             "Affiliations": [
+                "University of Alberta, Canada",
                 "University of Alberta, Canada",
                 "University of Alberta, Canada"
             ],
@@ -2121,12 +2123,12 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Harry M. Sneed",
-            "AffiliationsString": "SoRing, Hungary",
+            "AffiliationsString": "SoRing, Germany",
             "Authors": [
-                "Harry M. Sneed @ SoRing, Hungary"
+                "Harry M. Sneed @ SoRing, Germany"
             ],
             "Affiliations": [
-                "SoRing, Hungary"
+                "SoRing, Germany"
             ],
             "Abstract": "This presentation discusses a strategy for migrating to a service-oriented architecture. The starting point is legacy code in a procedural or object-oriented language. The result is a set of web services that can be accessed in a private or public cloud. The technique used is to cut out selected portions of code and to wrap them behind a service interface. The code itself can be left in the original language. The service interface is in WSDL. The speaker describes how to go about selecting code for reuse and how to extract that code from its current environment. Case studies are given for the languages COBOL and Java. The presentation then goes on to describe how to test the services using a web service testing tool which generates artificial requests from the service interface definition and validates the responses against the assertions provided by the tester.",
             "Award": "",
@@ -2214,18 +2216,18 @@
             "Title": "Sustainability Forecast for Cloud Migration",
             "Type": "short papers",
             "Key": "icsmews15mesocamain-mesocamainid6-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAlifah+Aida+Binti+Lope+Abdul+Rahman+and+Shareeful+Islam+%22Sustainability+Forecast+for+Cloud+Migration%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAlifah+Aida+Lope+Abdul+Rahman+and+Shareeful+Islam+%22Sustainability+Forecast+for+Cloud+Migration%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Alifah Aida Binti Lope Abdul Rahman and Shareeful Islam",
-            "AffiliationsString": "University of East London, UK",
+            "PersonsString": "Alifah Aida Lope Abdul Rahman and Shareeful Islam",
+            "AffiliationsString": "National Audit Department, UK; University of East London, UK",
             "Authors": [
-                "Alifah Aida Binti Lope Abdul Rahman @ University of East London, UK",
+                "Alifah Aida Lope Abdul Rahman @ National Audit Department, UK",
                 "Shareeful Islam @ University of East London, UK"
             ],
             "Affiliations": [
-                "University of East London, UK",
+                "National Audit Department, UK",
                 "University of East London, UK"
             ],
             "Abstract": "In this paper, a sustainability driven approach is proposed to measure the viability of cloud migration. The decision on cloud migration is based on sustainability dimensions, i.e., economic, environmental, social and technology, and risks associated with in these dimensions. We use Analytic Hierarchy Process and fuzzy scale to prioritize the sustainability dimensions based on a migration context to calculate Total Sustainability Index (TSI). TSI is then used to determine the viability of cloud migration according to three different scales, i.e., convincing, moderate, and ineffective. Finally, we used a practical migration use case from Ministry of Health (MoH), Malaysia to demonstrate the applicability of our work. The results from the studied context concluded that economic and business continuity are the key influential concerns for a sustainable cloud migration.",
@@ -2339,13 +2341,13 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Harry M. Sneed and Chris Verhoef",
-            "AffiliationsString": "SoRing, Hungary; VU University Amsterdam, Netherlands",
+            "AffiliationsString": "SoRing, Germany; VU University Amsterdam, Netherlands",
             "Authors": [
-                "Harry M. Sneed @ SoRing, Hungary",
+                "Harry M. Sneed @ SoRing, Germany",
                 "Chris Verhoef @ VU University Amsterdam, Netherlands"
             ],
             "Affiliations": [
-                "SoRing, Hungary",
+                "SoRing, Germany",
                 "VU University Amsterdam, Netherlands"
             ],
             "Abstract": "One of the challenges of testing in a SoA environment is that testers do not have access to the source code of the services they are testing. Therefore they are not able to measure test coverage at the code level, as is done in conventional white-box testing. They are compelled to measure test coverage in other ways which satisfy the constraints of black-box testing. We propose some alternate means of measuring test coverage by focusing on the structure and content of the service interface without regarding the code. The result is a new way of measuring test coverage which can apply to testing in a SoA environment.",
@@ -2353,20 +2355,20 @@
             "Keywords": "SoA Testing;  Black-Box Testing;  Test coverage measurement;  data coverage;  interface coverage;  test coverage modes;  service quality evaluation;  test metrics"
         },
         {
-            "Title": "TBA (Keynote)",
+            "Title": "Lehman versus Lehman: Dealing with Debt (Keynote)",
             "Type": "MTD",
-            "Key": "Arie van Deursen : TBA (Keynote)",
+            "Key": "Arie van Deursen : Lehman versus Lehman: Dealing with Debt (Keynote)",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Arie van Deursen",
-            "AffiliationsString": "",
+            "AffiliationsString": "TU Delft",
             "Authors": [
-                "Arie van Deursen @ ,"
+                "Arie van Deursen @ TU Delft, TU Delft"
             ],
             "Affiliations": [
-                ""
+                "TU Delft"
             ],
             "Abstract": "",
             "Award": "",
@@ -2446,16 +2448,16 @@
             "Title": "A Contextualized Vocabulary Model for Identifying Technical Debt on Code Comments",
             "Type": "Full Paper",
             "Key": "icsmews15mtdmain-mtdmainid18-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DM%C3%A1rio+Andr%C3%A9+Freitas+Farias%2C+Andr%C3%A9+Batista+Silva%2C+Manoel+G.+De+Mendon%C3%A7a+Neto%2C+and+Rodrigo+Oliveira+Sp%C3%ADnola+%22A+Contextualized+Vocabulary+Model+for+Identifying+Technical+Debt+on+Code+Comments%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DM%C3%A1rio+Andr%C3%A9+de+Freitas+Farias%2C+Andr%C3%A9+Batista+da+Silva%2C+Manoel+Gomes+de+Mendon%C3%A7a+Neto%2C+and+Rodrigo+Oliveira+Sp%C3%ADnola+%22A+Contextualized+Vocabulary+Model+for+Identifying+Technical+Debt+on+Code+Comments%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Mário André Freitas Farias, André Batista Silva, Manoel G. De Mendonça Neto, and Rodrigo Oliveira Spínola",
+            "PersonsString": "Mário André de Freitas Farias, André Batista da Silva, Manoel Gomes de Mendonça Neto, and Rodrigo Oliveira Spínola",
             "AffiliationsString": "Federal Institute of Sergipe, Brazil; Federal University of Sergipe, Brazil; Federal University of Bahia, Brazil; Salvador University, Brazil",
             "Authors": [
-                "Mário André Freitas Farias @ Federal Institute of Sergipe, Brazil",
-                "André Batista Silva @ Federal University of Sergipe, Brazil",
-                "Manoel G. De Mendonça Neto @ Federal University of Bahia, Brazil",
+                "Mário André de Freitas Farias @ Federal Institute of Sergipe, Brazil",
+                "André Batista da Silva @ Federal University of Sergipe, Brazil",
+                "Manoel Gomes de Mendonça Neto @ Federal University of Bahia, Brazil",
                 "Rodrigo Oliveira Spínola @ Salvador University, Brazil"
             ],
             "Affiliations": [
@@ -2577,13 +2579,13 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Kristóf Szabados and Attila Kovács",
-            "AffiliationsString": "Ericsson Hungary, Hungary; Eötvös Loránd University, Hungary",
+            "AffiliationsString": "Eötvös Loránd University, Hungary",
             "Authors": [
-                "Kristóf Szabados @ Ericsson Hungary, Hungary",
+                "Kristóf Szabados @ Eötvös Loránd University, Hungary",
                 "Attila Kovács @ Eötvös Loránd University, Hungary"
             ],
             "Affiliations": [
-                "Ericsson Hungary, Hungary",
+                "Eötvös Loránd University, Hungary",
                 "Eötvös Loránd University, Hungary"
             ],
             "Abstract": "Recently, technical debt investigations became more and more important in the software development industry. In this paper we show that the same challenges are valid for the automated test systems. We present an internal quality analysis of standardized test software developed by ETSI and 3GPP, performed on the systems publicly available at www.ttcn-3.org.",
@@ -2633,16 +2635,16 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Carlos Fernández-Sánchez, Juan Garbajosa, and Agustín Yagüe",
-            "AffiliationsString": "Universidad Politécnica de Madrid, Spain",
+            "AffiliationsString": "Technical University of Madrid, Spain",
             "Authors": [
-                "Carlos Fernández-Sánchez @ Universidad Politécnica de Madrid, Spain",
-                "Juan Garbajosa @ Universidad Politécnica de Madrid, Spain",
-                "Agustín Yagüe @ Universidad Politécnica de Madrid, Spain"
+                "Carlos Fernández-Sánchez @ Technical University of Madrid, Spain",
+                "Juan Garbajosa @ Technical University of Madrid, Spain",
+                "Agustín Yagüe @ Technical University of Madrid, Spain"
             ],
             "Affiliations": [
-                "Universidad Politécnica de Madrid, Spain",
-                "Universidad Politécnica de Madrid, Spain",
-                "Universidad Politécnica de Madrid, Spain"
+                "Technical University of Madrid, Spain",
+                "Technical University of Madrid, Spain",
+                "Technical University of Madrid, Spain"
             ],
             "Abstract": "Current technical debt management approaches mainly address specific types of technical debt. This paper introduces a framework to aid in decision making for technical debt management, and it includes those elements considered in technical debt management in the available literature, which are classified in three groups and mapped into three stakeholders’ points of view. The research method was systematic mapping. In contrast to current approaches, the framework is not constrained by a concrete type of technical debt. Using this framework it will be possible to build specific models to assist in decision making for technical debt management.",
             "Award": "",
@@ -2734,17 +2736,17 @@
             "Title": "Heuristic-Based Part-of-Speech Tagging of Source Code Identifiers and Comments",
             "Type": "Short Paper",
             "Key": "icsmews15mudmain-mudmainid3-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DReem+Alsuhaibani%2C+Christian+Newman%2C+Michael+Collard%2C+and+Jonathan+Maletic+%22Heuristic-Based+Part-of-Speech+Tagging+of+Source+Code+Identifiers+and+Comments%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DReem+S.+AlSuhaibani%2C+Christian+D.+Newman%2C+Michael+L.+Collard%2C+and+Jonathan+I.+Maletic+%22Heuristic-Based+Part-of-Speech+Tagging+of+Source+Code+Identifiers+and+Comments%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Reem Alsuhaibani, Christian Newman, Michael Collard, and Jonathan Maletic",
+            "PersonsString": "Reem S. AlSuhaibani, Christian D. Newman, Michael L. Collard, and Jonathan I. Maletic",
             "AffiliationsString": "Kent State University, USA; University of Akron, USA",
             "Authors": [
-                "Reem Alsuhaibani @ Kent State University, USA",
-                "Christian Newman @ Kent State University, USA",
-                "Michael Collard @ University of Akron, USA",
-                "Jonathan Maletic @ Kent State University, USA"
+                "Reem S. AlSuhaibani @ Kent State University, USA",
+                "Christian D. Newman @ Kent State University, USA",
+                "Michael L. Collard @ University of Akron, USA",
+                "Jonathan I. Maletic @ Kent State University, USA"
             ],
             "Affiliations": [
                 "Kent State University, USA",
@@ -2884,16 +2886,16 @@
             "Title": "The Use of C++ Exception Handling Constructs: A Comprehensive Study",
             "Type": "Research Paper",
             "Key": "scam15main-mainid88-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DRodrigo+Bonifacio%2C+Fausto+Carvalho%2C+Guilherme+Ramos%2C+Uir%C3%A1+Kulesza%2C+and+Roberta+Coelho+%22The+Use+of+C%2B%2B+Exception+Handling+Constructs%3A+A+Comprehensive+Study%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DRodrigo+Bonif%C3%A1cio%2C+Fausto+Carvalho%2C+Guilherme+N.+Ramos%2C+Uir%C3%A1+Kulesza%2C+and+Roberta+Coelho+%22The+Use+of+C%2B%2B+Exception+Handling+Constructs%3A+A+Comprehensive+Study%22",
             "URLvideo": "",
             "URLinfo": "http%3A%2F%2Frbonifacio.net%2Fpapers%2Fscam2015%2F",
             "DOI": "",
-            "PersonsString": "Rodrigo Bonifacio, Fausto Carvalho, Guilherme Ramos, Uirá Kulesza, and Roberta Coelho",
+            "PersonsString": "Rodrigo Bonifácio, Fausto Carvalho, Guilherme N. Ramos, Uirá Kulesza, and Roberta Coelho",
             "AffiliationsString": "University of Brasília, Brazil; Federal University of Rio Grande do Norte, Brazil",
             "Authors": [
-                "Rodrigo Bonifacio @ University of Brasília, Brazil",
+                "Rodrigo Bonifácio @ University of Brasília, Brazil",
                 "Fausto Carvalho @ University of Brasília, Brazil",
-                "Guilherme Ramos @ University of Brasília, Brazil",
+                "Guilherme N. Ramos @ University of Brasília, Brazil",
                 "Uirá Kulesza @ Federal University of Rio Grande do Norte, Brazil",
                 "Roberta Coelho @ Federal University of Rio Grande do Norte, Brazil"
             ],
@@ -2934,15 +2936,15 @@
             "Title": "Can the Use of Types and Query Expansion Help Improve Large-Scale Code Search?",
             "Type": "Research Paper",
             "Key": "scam15main-mainid32-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DOt%C3%A1vio+A.+L.+Lemos%2C+Adriano+de+Paula%2C+Hitesh+Sajnani%2C+and+Cristina+V.+Lopes+%22Can+the+Use+of+Types+and+Query+Expansion+Help+Improve+Large-Scale+Code+Search%3F%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DOt%C3%A1vio+Augusto+Lazzarini+Lemos%2C+Adriano+Carvalho+de+Paula%2C+Hitesh+Sajnani%2C+and+Cristina+V.+Lopes+%22Can+the+Use+of+Types+and+Query+Expansion+Help+Improve+Large-Scale+Code+Search%3F%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Otávio A. L. Lemos, Adriano de Paula, Hitesh Sajnani, and Cristina V. Lopes",
+            "PersonsString": "Otávio Augusto Lazzarini Lemos, Adriano Carvalho de Paula, Hitesh Sajnani, and Cristina V. Lopes",
             "AffiliationsString": "Federal University of São Paulo, Brazil; University of California at Irvine, USA",
             "Authors": [
-                "Otávio A. L. Lemos @ Federal University of São Paulo, Brazil",
-                "Adriano de Paula @ Federal University of São Paulo, Brazil",
+                "Otávio Augusto Lazzarini Lemos @ Federal University of São Paulo, Brazil",
+                "Adriano Carvalho de Paula @ Federal University of São Paulo, Brazil",
                 "Hitesh Sajnani @ University of California at Irvine, USA",
                 "Cristina V. Lopes @ University of California at Irvine, USA"
             ],
@@ -2965,14 +2967,14 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Muslim Chochlov, Michael English, and Jim Buckley",
-            "AffiliationsString": "Lero, Ireland; University of Limerick, Ireland",
+            "AffiliationsString": "University of Limerick, Ireland",
             "Authors": [
-                "Muslim Chochlov @ Lero, Ireland",
+                "Muslim Chochlov @ University of Limerick, Ireland",
                 "Michael English @ University of Limerick, Ireland",
                 "Jim Buckley @ University of Limerick, Ireland"
             ],
             "Affiliations": [
-                "Lero, Ireland",
+                "University of Limerick, Ireland",
                 "University of Limerick, Ireland",
                 "University of Limerick, Ireland"
             ],
@@ -3104,19 +3106,19 @@
             "Title": "Data Tainting and Obfuscation: Improving Plausibility of Incorrect Taint",
             "Type": "Research Paper",
             "Key": "scam15main-mainid50-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DSandrine+Blazy%2C+Stephanie+Riaud%2C+and+Thomas+Sirvent+%22Data+Tainting+and+Obfuscation%3A+Improving+Plausibility+of+Incorrect+Taint%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DSandrine+Blazy%2C+St%C3%A9phanie+Riaud%2C+and+Thomas+Sirvent+%22Data+Tainting+and+Obfuscation%3A+Improving+Plausibility+of+Incorrect+Taint%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Sandrine Blazy, Stephanie Riaud, and Thomas Sirvent",
-            "AffiliationsString": "IRISA, France; DGA, France",
+            "PersonsString": "Sandrine Blazy, Stéphanie Riaud, and Thomas Sirvent",
+            "AffiliationsString": "University of Rennes 1, France; DGA, France",
             "Authors": [
-                "Sandrine Blazy @ IRISA, France",
-                "Stephanie Riaud @ DGA, France",
+                "Sandrine Blazy @ University of Rennes 1, France",
+                "Stéphanie Riaud @ DGA, France",
                 "Thomas Sirvent @ DGA, France"
             ],
             "Affiliations": [
-                "IRISA, France",
+                "University of Rennes 1, France",
                 "DGA, France",
                 "DGA, France"
             ],
@@ -3318,14 +3320,14 @@
             "Title": "Automating the Performance Deviation Analysis for Multiple System Releases: An Evolutionary Study",
             "Type": "Research Paper",
             "Key": "scam15main-mainid78-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DFelipe+A.+P.+Pinto%2C+Uir%C3%A1+Kulesza%2C+and+Christoph+Treude+%22Automating+the+Performance+Deviation+Analysis+for+Multiple+System+Releases%3A+An+Evolutionary+Study%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DFelipe+Pinto%2C+Uir%C3%A1+Kulesza%2C+and+Christoph+Treude+%22Automating+the+Performance+Deviation+Analysis+for+Multiple+System+Releases%3A+An+Evolutionary+Study%22",
             "URLvideo": "",
             "URLinfo": "https%3A%2F%2Fsites.google.com%2Fsite%2Fperfevolutionarystudy",
             "DOI": "",
-            "PersonsString": "Felipe A. P. Pinto, Uirá Kulesza, and Christoph Treude",
+            "PersonsString": "Felipe Pinto, Uirá Kulesza, and Christoph Treude",
             "AffiliationsString": "Federal University of Rio Grande do Norte, Brazil",
             "Authors": [
-                "Felipe A. P. Pinto @ Federal University of Rio Grande do Norte, Brazil",
+                "Felipe Pinto @ Federal University of Rio Grande do Norte, Brazil",
                 "Uirá Kulesza @ Federal University of Rio Grande do Norte, Brazil",
                 "Christoph Treude @ Federal University of Rio Grande do Norte, Brazil"
             ],
@@ -3364,23 +3366,23 @@
             "Title": "Recording and Replaying System Specific, Source Code Transformations",
             "Type": "Research Paper",
             "Key": "scam15main-mainid86-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DGustavo+Santos%2C+Nicolas+Anquetil%2C+Anne+Etien%2C+St%C3%A9phane+Ducasse%2C+and+Marco+Tulio+Valente+%22Recording+and+Replaying+System+Specific%2C+Source+Code+Transformations%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DGustavo+Santos%2C+Anne+Etien%2C+Nicolas+Anquetil%2C+St%C3%A9phane+Ducasse%2C+and+Marco+Tulio+Valente+%22Recording+and+Replaying+System+Specific%2C+Source+Code+Transformations%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Gustavo Santos, Nicolas Anquetil, Anne Etien, Stéphane Ducasse, and Marco Tulio Valente",
-            "AffiliationsString": "INRIA, France; University of Lille, France; Federal University of Minas Gerais, Brazil",
+            "PersonsString": "Gustavo Santos, Anne Etien, Nicolas Anquetil, Stéphane Ducasse, and Marco Tulio Valente",
+            "AffiliationsString": "INRIA, France; Federal University of Minas Gerais, Brazil",
             "Authors": [
                 "Gustavo Santos @ INRIA, France",
-                "Nicolas Anquetil @ University of Lille, France",
-                "Anne Etien @ University of Lille, France",
+                "Anne Etien @ INRIA, France",
+                "Nicolas Anquetil @ INRIA, France",
                 "Stéphane Ducasse @ INRIA, France",
                 "Marco Tulio Valente @ Federal University of Minas Gerais, Brazil"
             ],
             "Affiliations": [
                 "INRIA, France",
-                "University of Lille, France",
-                "University of Lille, France",
+                "INRIA, France",
+                "INRIA, France",
                 "INRIA, France",
                 "Federal University of Minas Gerais, Brazil"
             ],
@@ -3396,18 +3398,18 @@
             "URLvideo": "",
             "URLinfo": "https%3A%2F%2Fsites.google.com%2Fa%2Fncsu.edu%2Fapisim%2F",
             "DOI": "",
-            "PersonsString": "Rahul Pandita, Raoul Jetley, Sithu Sudarsan, and Laurie Williams",
-            "AffiliationsString": "North Carolina State University, USA; ABB Research, India",
+            "PersonsString": "Rahul Pandita, Raoul Praful Jetley, Sithu D Sudarsan, and Laurie Williams",
+            "AffiliationsString": "North Carolina State University, USA; ABB Corporate Research, India",
             "Authors": [
                 "Rahul Pandita @ North Carolina State University, USA",
-                "Raoul Jetley @ ABB Research, India",
-                "Sithu Sudarsan @ ABB Research, India",
+                "Raoul Praful Jetley @ ABB Corporate Research, India",
+                "Sithu D Sudarsan @ ABB Corporate Research, India",
                 "Laurie Williams @ North Carolina State University, USA"
             ],
             "Affiliations": [
                 "North Carolina State University, USA",
-                "ABB Research, India",
-                "ABB Research, India",
+                "ABB Corporate Research, India",
+                "ABB Corporate Research, India",
                 "North Carolina State University, USA"
             ],
             "Abstract": "Developers often release different versions of their applications to support various platform/programming-language application programming interfaces (APIs). To migrate an application written using one API (source) to another API (target), a developer must know how the methods in the source API map to the methods in the target API. Given a typical platform or language exposes a large number of API methods, manually writing API mappings is prohibitively resource-intensive and may be error prone. Recently, researchers proposed to automate the mapping process by mining API mappings from existing code-bases. However, these approaches require as input a manually ported (or at least functionally similar) code across source and target APIs. To address the shortcoming, this paper proposes TMAP: Text Mining based approach to discover likely API mappings using the similarity in the textual description of the source and target API documents. To evaluate our approach, we used TMAP to discover API mappings for 15 classes across: 1) Java and C# API, and 2) Java ME and Android API. We compared the discovered mappings with state-of-the-art source code analysis based approaches: Rosetta and StaMiner. Our results indicate that TMAP on average found relevant mappings for 57% more methods compared to previous approaches. Furthermore, our results also indicate that TMAP on average found exact mappings for 6.5 more methods per class with a maximum of 21 additional exact mappings for a single class as compared to previous approaches.",
@@ -3651,14 +3653,14 @@
             "URLinfo": "https%3A%2F%2Fwww.lgeorget.eu%2Fcode-panel%2F2015%2F05%2F31%2Fkayrebt_viewer%2F",
             "DOI": "",
             "PersonsString": "Laurent Georget, Frédéric Tronel, and Valérie Viet Triem Tong",
-            "AffiliationsString": "University of Rennes 1, France; CentraleSupélec, France",
+            "AffiliationsString": "CentraleSupélec, France",
             "Authors": [
-                "Laurent Georget @ University of Rennes 1, France",
+                "Laurent Georget @ CentraleSupélec, France",
                 "Frédéric Tronel @ CentraleSupélec, France",
                 "Valérie Viet Triem Tong @ CentraleSupélec, France"
             ],
             "Affiliations": [
-                "University of Rennes 1, France",
+                "CentraleSupélec, France",
                 "CentraleSupélec, France",
                 "CentraleSupélec, France"
             ],
@@ -3675,18 +3677,18 @@
             "URLinfo": "",
             "DOI": "",
             "PersonsString": "Gustavo Santos, Nicolas Anquetil, Anne Etien, Stéphane Ducasse, and Marco Tulio Valente",
-            "AffiliationsString": "University of Lille, France; INRIA, France; Federal University of Minas Gerais, Brazil",
+            "AffiliationsString": "INRIA, France; Federal University of Minas Gerais, Brazil",
             "Authors": [
-                "Gustavo Santos @ University of Lille, France",
-                "Nicolas Anquetil @ University of Lille, France",
-                "Anne Etien @ University of Lille, France",
+                "Gustavo Santos @ INRIA, France",
+                "Nicolas Anquetil @ INRIA, France",
+                "Anne Etien @ INRIA, France",
                 "Stéphane Ducasse @ INRIA, France",
                 "Marco Tulio Valente @ Federal University of Minas Gerais, Brazil"
             ],
             "Affiliations": [
-                "University of Lille, France",
-                "University of Lille, France",
-                "University of Lille, France",
+                "INRIA, France",
+                "INRIA, France",
+                "INRIA, France",
                 "INRIA, France",
                 "Federal University of Minas Gerais, Brazil"
             ],
@@ -3751,17 +3753,17 @@
             "Keywords": "software engineering;  development tool usage;  Pharo"
         },
         {
-            "Title": "SPIDER SENSE: Software-Engineering, Networked, System Evaluation",
+            "Title": "Spider SENSE: Software-Engineering, Networked, System Evaluation",
             "Type": "Tool",
             "Key": "vissoft15main-mainid64-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DNishaanth+Reddy%2C+Junghun+Kim%2C+Vijay+Krishna+Palepu%2C+and+James+A.+Jones+%22SPIDER+SENSE%3A+Software-Engineering%2C+Networked%2C+System+Evaluation%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DNishaanth+H.+Reddy%2C+Junghun+Kim%2C+Vijay+Krishna+Palepu%2C+and+James+A.+Jones+%22Spider+SENSE%3A+Software-Engineering%2C+Networked%2C+System+Evaluation%22",
             "URLvideo": "",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Nishaanth Reddy, Junghun Kim, Vijay Krishna Palepu, and James A. Jones",
+            "PersonsString": "Nishaanth H. Reddy, Junghun Kim, Vijay Krishna Palepu, and James A. Jones",
             "AffiliationsString": "University of California at Irvine, USA",
             "Authors": [
-                "Nishaanth Reddy @ University of California at Irvine, USA",
+                "Nishaanth H. Reddy @ University of California at Irvine, USA",
                 "Junghun Kim @ University of California at Irvine, USA",
                 "Vijay Krishna Palepu @ University of California at Irvine, USA",
                 "James A. Jones @ University of California at Irvine, USA"
@@ -3906,16 +3908,16 @@
             "Title": "Vestige: A Visualization Framework for Engineering Geometry-Related Software",
             "Type": "Full Paper",
             "Key": "vissoft15main-mainid7-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DTeseo+Schneider%2C+Patrick+Zulian%2C+Mohammad+Reza+Azadmanesh%2C+Rolf+Krause%2C+and+Matthias+Hauswirth+%22Vestige%3A+A+Visualization+Framework+for+Engineering+Geometry-Related+Software%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DTeseo+Schneider%2C+Patrick+Zulian%2C+Mohammad+R.+Azadmanesh%2C+Rolf+Krause%2C+and+Matthias+Hauswirth+%22Vestige%3A+A+Visualization+Framework+for+Engineering+Geometry-Related+Software%22",
             "URLvideo": "https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWs8tPkhfG8I",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Teseo Schneider, Patrick Zulian, Mohammad Reza Azadmanesh, Rolf Krause, and Matthias Hauswirth",
+            "PersonsString": "Teseo Schneider, Patrick Zulian, Mohammad R. Azadmanesh, Rolf Krause, and Matthias Hauswirth",
             "AffiliationsString": "University of Lugano, Switzerland",
             "Authors": [
                 "Teseo Schneider @ University of Lugano, Switzerland",
                 "Patrick Zulian @ University of Lugano, Switzerland",
-                "Mohammad Reza Azadmanesh @ University of Lugano, Switzerland",
+                "Mohammad R. Azadmanesh @ University of Lugano, Switzerland",
                 "Rolf Krause @ University of Lugano, Switzerland",
                 "Matthias Hauswirth @ University of Lugano, Switzerland"
             ],
@@ -4100,19 +4102,19 @@
             "URLvideo": "https%3A%2F%2Fyoutu.be%2FB1EjPwHXVQg",
             "URLinfo": "",
             "DOI": "",
-            "PersonsString": "Eric Papenhausen, Bing Wang, M. Harper Langston, Benoit Meister, Muthu Baskaran, Tom Henretty, Taku Izubuchi, Ann Johnson, Chulwoo Jung, Meifeng Lin, Klaus Mueller, and Richard Lethin",
+            "PersonsString": "Eric Papenhausen, Bing Wang, M. Harper Langston, Muthu Baskaran, Tom Henretty, Taku Izubuchi, Ann Johnson, Chulwoo Jung, Meifeng Lin, Benoit Meister, Klaus Mueller, and Richard Lethin",
             "AffiliationsString": "Stony Brook University, USA; Reservoir Labs, USA; Brookhaven National Laboratory, USA",
             "Authors": [
                 "Eric Papenhausen @ Stony Brook University, USA",
                 "Bing Wang @ Stony Brook University, USA",
                 "M. Harper Langston @ Reservoir Labs, USA",
-                "Benoit Meister @ Reservoir Labs, USA",
                 "Muthu Baskaran @ Reservoir Labs, USA",
                 "Tom Henretty @ Reservoir Labs, USA",
                 "Taku Izubuchi @ Brookhaven National Laboratory, USA",
                 "Ann Johnson @ Reservoir Labs, USA",
                 "Chulwoo Jung @ Brookhaven National Laboratory, USA",
                 "Meifeng Lin @ Brookhaven National Laboratory, USA",
+                "Benoit Meister @ Reservoir Labs, USA",
                 "Klaus Mueller @ Stony Brook University, USA",
                 "Richard Lethin @ Reservoir Labs, USA"
             ],
@@ -4122,11 +4124,11 @@
                 "Reservoir Labs, USA",
                 "Reservoir Labs, USA",
                 "Reservoir Labs, USA",
-                "Reservoir Labs, USA",
                 "Brookhaven National Laboratory, USA",
                 "Reservoir Labs, USA",
                 "Brookhaven National Laboratory, USA",
                 "Brookhaven National Laboratory, USA",
+                "Reservoir Labs, USA",
                 "Stony Brook University, USA",
                 "Reservoir Labs, USA"
             ],
@@ -4449,9 +4451,10 @@
             "Time": "09:15 - 10:30",
             "Location": "HS 1010",
             "LocationIndex": "12",
-            "ChairsString": "David Lo, Foutse Khomh",
+            "ChairsString": "David Lo and Foutse Khomh",
             "Chairs": [
-                "David Lo, Foutse Khomh @ ,"
+                "David Lo @ ,",
+                "Foutse Khomh @ ,"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -4773,7 +4776,7 @@
             "Key": "2015-09-27 18:45 Dinner",
             "Day": "2015-09-27",
             "Time": "18:45 - 22:00",
-            "Location": "Boat on River Weser",
+            "Location": "Boat on River Weser, Martinianleger, Martinistraße 12, 28195 Bremen",
             "LocationIndex": "15",
             "ChairsString": "",
             "Chairs": [
@@ -4793,7 +4796,7 @@
             "Key": "2015-09-27 19:30 Dinner",
             "Day": "2015-09-27",
             "Time": "19:30 - 23:00",
-            "Location": "Schüttinger",
+            "Location": "Restaurant Schüttinger, Hinter dem Schütting 12-13, 28195 Bremen",
             "LocationIndex": "12",
             "ChairsString": "",
             "Chairs": [
@@ -4810,9 +4813,9 @@
             "ShortTitle": "Registration",
             "Type": "Registration",
             "ShortType": "Registration",
-            "Key": "2015-09-28 07:30 Registration",
+            "Key": "2015-09-28 08:00 Registration",
             "Day": "2015-09-28",
-            "Time": "07:30 - 08:30",
+            "Time": "08:00 - 09:00",
             "Location": "GW2 Lobby",
             "LocationIndex": "3",
             "ChairsString": "",
@@ -4821,26 +4824,6 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICSME15ALL",
-            "URL": "",
-            "Abstract": ""
-        },
-        {
-            "Id": "hu3GoufoW3",
-            "Title": "Software Risk Management in Practice",
-            "ShortTitle": "Software Risk Management in Practice",
-            "Type": "Tutorial",
-            "ShortType": "Tutorial",
-            "Key": "2015-09-28 08:30 Software Risk Management in Practice",
-            "Day": "2015-09-28",
-            "Time": "08:30 - 18:00",
-            "Location": "GW2 B2880",
-            "LocationIndex": "8",
-            "ChairsString": "",
-            "Chairs": [
-            ],
-            "SponsoredBy": "",
-            "Workshop": false,
-            "Comment": "ICSME15",
             "URL": "",
             "Abstract": ""
         },
@@ -5022,9 +5005,9 @@
             "ShortTitle": "Tutorial One: Put Your Hands in the Mud: What Technique, Why, and How?",
             "Type": "MUD",
             "ShortType": "MUD",
-            "Key": "2015-09-28 11:30 Tutorial One: Put Your Hands in the Mud: What Technique, Why, and How?",
+            "Key": "2015-09-28 11:00 Tutorial One: Put Your Hands in the Mud: What Technique, Why, and How?",
             "Day": "2015-09-28",
-            "Time": "11:30 - 12:30",
+            "Time": "11:00 - 12:30",
             "Location": "GW2 B2900",
             "LocationIndex": "11",
             "ChairsString": "",
@@ -5090,8 +5073,9 @@
             "Time": "13:30 - 15:30",
             "Location": "HS 1010",
             "LocationIndex": "12",
-            "ChairsString": "",
+            "ChairsString": "Jurgen Vinju",
             "Chairs": [
+                "Jurgen Vinju @ ,"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -5137,9 +5121,10 @@
             "Time": "13:30 - 15:00",
             "Location": "GW2 B2890",
             "LocationIndex": "5",
-            "ChairsString": "Eleni Stroulia, Massimiliano Di Penta",
+            "ChairsString": "Eleni Stroulia and Massimiliano Di Penta",
             "Chairs": [
-                "Eleni Stroulia, Massimiliano Di Penta @ ,"
+                "Eleni Stroulia @ ,",
+                "Massimiliano Di Penta @ ,"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -5215,9 +5200,10 @@
             "Time": "15:30 - 17:00",
             "Location": "GW2 B2890",
             "LocationIndex": "11",
-            "ChairsString": "Eleni Stroulia, Massimiliano Di Penta",
+            "ChairsString": "Eleni Stroulia and Massimiliano Di Penta",
             "Chairs": [
-                "Eleni Stroulia, Massimiliano Di Penta @ ,"
+                "Eleni Stroulia @ ,",
+                "Massimiliano Di Penta @ ,"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -5417,9 +5403,11 @@
             "Time": "08:30 - 09:10",
             "Location": "HS 1020",
             "LocationIndex": "0",
-            "ChairsString": "Rainer Koschke, Jens Krinke, Martin Robillard",
+            "ChairsString": "Rainer Koschke, Jens Krinke, and Martin Robillard",
             "Chairs": [
-                "Rainer Koschke, Jens Krinke, Martin Robillard @ ,"
+                "Rainer Koschke @ ,",
+                "Jens Krinke @ ,",
+                "Martin Robillard @ ,"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -5508,9 +5496,10 @@
             "Time": "10:40 - 12:20",
             "Location": "GW2 B2890",
             "LocationIndex": "3",
-            "ChairsString": "Jochen Quante, David Shepherd",
+            "ChairsString": "Jochen Quante and David Shepherd",
             "Chairs": [
-                "Jochen Quante, David Shepherd @ ,"
+                "Jochen Quante @ ,",
+                "David Shepherd @ ,"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -5582,9 +5571,10 @@
             "Time": "13:50 - 15:30",
             "Location": "GW2 B2890",
             "LocationIndex": "3",
-            "ChairsString": "Jochen Quante, David Shepherd",
+            "ChairsString": "Jochen Quante and David Shepherd",
             "Chairs": [
-                "Jochen Quante, David Shepherd @ ,"
+                "Jochen Quante @ ,",
+                "David Shepherd @ ,"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -5656,9 +5646,10 @@
             "Time": "16:00 - 17:40",
             "Location": "GW2 B2890",
             "LocationIndex": "3",
-            "ChairsString": "Jochen Quante, David Shepherd",
+            "ChairsString": "Jochen Quante and David Shepherd",
             "Chairs": [
-                "Jochen Quante, David Shepherd @ ,"
+                "Jochen Quante @ ,",
+                "David Shepherd @ ,"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -5752,9 +5743,12 @@
             "Time": "08:30 - 10:10",
             "Location": "GW2 B2890",
             "LocationIndex": "4",
-            "ChairsString": "Lin Tan, Serge Demeyer",
+            "ChairsString": "Coen De Roover, Foutse Khomh, Lin Tan, and Serge Demeyer",
             "Chairs": [
-                "Lin Tan, Serge Demeyer @ ,"
+                "Coen De Roover @ ,",
+                "Foutse Khomh @ ,",
+                "Lin Tan @ ,",
+                "Serge Demeyer @ ,"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -5828,9 +5822,10 @@
             "Time": "10:40 - 12:20",
             "Location": "GW2 B2890",
             "LocationIndex": "3",
-            "ChairsString": "Jochen Quante, David Shepherd",
+            "ChairsString": "Jochen Quante and David Shepherd",
             "Chairs": [
-                "Jochen Quante, David Shepherd @ ,"
+                "Jochen Quante @ ,",
+                "David Shepherd @ ,"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -5902,9 +5897,10 @@
             "Time": "13:50 - 15:30",
             "Location": "GW2 B2890",
             "LocationIndex": "2",
-            "ChairsString": "Collin MacMillan, Nicholas A. Kraft",
+            "ChairsString": "Collin McMillan and Nicholas A. Kraft",
             "Chairs": [
-                "Collin MacMillan, Nicholas A. Kraft @ ,"
+                "Collin McMillan @ ,",
+                "Nicholas A. Kraft @ ,"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -5993,7 +5989,7 @@
             "Key": "2015-09-30 17:45 Tour Downtown / Wine Cellar",
             "Day": "2015-09-30",
             "Time": "17:45 - 18:45",
-            "Location": "Downtown",
+            "Location": "Downtown, Am Markt 11, 28195 Bremen",
             "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
@@ -6010,10 +6006,10 @@
             "ShortTitle": "Dinner",
             "Type": "Social",
             "ShortType": "Social",
-            "Key": "2015-09-30 19:00 Dinner",
+            "Key": "2015-09-30 19:30 Dinner",
             "Day": "2015-09-30",
-            "Time": "19:00 - 22:00",
-            "Location": "Ratskeller, Downtown Bremen",
+            "Time": "19:30 - 22:00",
+            "Location": "Ratskeller, Am Markt 11, 28195 Bremen",
             "LocationIndex": "7",
             "ChairsString": "",
             "Chairs": [
@@ -6105,9 +6101,10 @@
             "Time": "10:40 - 12:20",
             "Location": "GW2 B2890",
             "LocationIndex": "4",
-            "ChairsString": "Lin Tan, Serge Demeyer",
+            "ChairsString": "Fabian Beck and Latifa Guerrouj",
             "Chairs": [
-                "Lin Tan, Serge Demeyer @ ,"
+                "Fabian Beck @ ,",
+                "Latifa Guerrouj @ ,"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6160,9 +6157,10 @@
             "Time": "13:50 - 15:30",
             "Location": "GW2 B2890",
             "LocationIndex": "4",
-            "ChairsString": "Lin Tan, Serge Demeyer",
+            "ChairsString": "Ferenc Rudolf and Giuseppe Scanniello",
             "Chairs": [
-                "Lin Tan, Serge Demeyer @ ,"
+                "Ferenc Rudolf @ ,",
+                "Giuseppe Scanniello @ ,"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6189,9 +6187,11 @@
             "Time": "16:00 - 16:15",
             "Location": "GW2 B3009",
             "LocationIndex": "2",
-            "ChairsString": "Rainer Koschke, Jens Krinke, Martin Robillard",
+            "ChairsString": "Rainer Koschke, Jens Krinke, and Martin Robillard",
             "Chairs": [
-                "Rainer Koschke, Jens Krinke, Martin Robillard @ ,"
+                "Rainer Koschke @ ,",
+                "Jens Krinke @ ,",
+                "Martin Robillard @ ,"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6229,7 +6229,7 @@
             "Day": "2015-10-01",
             "Time": "20:30 - 22:30",
             "Location": "Downtown",
-            "LocationIndex": "5",
+            "LocationIndex": "8",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6303,11 +6303,11 @@
         },
         {
             "Id": "aKa8Jie4Si",
-            "Title": "TBA (Keynote)",
-            "ShortTitle": "TBA (Keynote)",
+            "Title": "Lehman versus Lehman: Dealing with Debt (Keynote)",
+            "ShortTitle": "Lehman versus Lehman: Dealing with Debt (Keynote)",
             "Type": "MTD",
             "ShortType": "MTD",
-            "Key": "2015-10-02 09:10 TBA (Keynote)",
+            "Key": "2015-10-02 09:10 Lehman versus Lehman: Dealing with Debt (Keynote)",
             "Day": "2015-10-02",
             "Time": "09:10 - 10:30",
             "Location": "GW2 B2900",
@@ -6322,7 +6322,7 @@
             "URL": "",
             "Abstract": "",
             "Items": [
-                "Arie van Deursen : TBA (Keynote)"
+                "Arie van Deursen : Lehman versus Lehman: Dealing with Debt (Keynote)"
             ]
         },
         {
@@ -6505,9 +6505,9 @@
             "Time": "14:00 - 15:30",
             "Location": "GW2 B2900",
             "LocationIndex": "10",
-            "ChairsString": "Alexander Serebnik",
+            "ChairsString": "Alexander Serebrenik",
             "Chairs": [
-                "Alexander Serebnik @ ,"
+                "Alexander Serebrenik @ ,"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -6619,10 +6619,10 @@
             "ShortTitle": "Dinner",
             "Type": "MTD",
             "ShortType": "MTD",
-            "Key": "2015-10-02 18:00 Dinner",
+            "Key": "2015-10-02 18:30 Dinner",
             "Day": "2015-10-02",
-            "Time": "18:00 - 21:00",
-            "Location": "",
+            "Time": "18:30 - 22:00",
+            "Location": "Restaurant 'Emma' am See, Bürgerpark 1, 28209 Bremen",
             "LocationIndex": "10",
             "ChairsString": "",
             "Chairs": [
@@ -6630,16 +6630,16 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICSMEWS15MTD",
-            "URL": "",
+            "URL": "http://www.emma-am-see.de/",
             "Abstract": ""
         }
     ],
     "People": [
         {
-            "Name": "Nahla Abid",
+            "Name": "Nahla J. Abid",
             "Affiliation": "Kent State University, USA",
-            "Key": "Nahla Abid @ Kent State University, USA",
-            "Id": "0bfbb2f674",
+            "Key": "Nahla J. Abid @ Kent State University, USA",
+            "Id": "b63c0e45f7",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -6745,7 +6745,7 @@
             "Affiliation": "University of Salford, UK",
             "Key": "Shaymaa Al-Shammari @ University of Salford, UK",
             "Id": "b75bc5487e",
-            "Bio": "",
+            "Bio": "Shaymaa Al-Shammari is a PhD student in the school of Computing, Science, and Engineering at the University of Salford, Manchester, UK. She received her BSc. (2005) and MSc. (2008) in Computer Engineering from Al-Nahrain University in Baghdad, Iraq. Her current research interests include monitoring cloud computing, RESTful services, and middleware.",
             "URLhp": "",
             "URLphoto": "",
             "URLgs": "",
@@ -6756,10 +6756,10 @@
             "URLli": ""
         },
         {
-            "Name": "Reem Alsuhaibani",
+            "Name": "Reem S. AlSuhaibani",
             "Affiliation": "Kent State University, USA",
-            "Key": "Reem Alsuhaibani @ Kent State University, USA",
-            "Id": "1c6a7b0db3",
+            "Key": "Reem S. AlSuhaibani @ Kent State University, USA",
+            "Id": "412f831a66",
             "Bio": "Academic researcher",
             "URLhp": "",
             "URLphoto": "",
@@ -6861,10 +6861,10 @@
             "URLli": ""
         },
         {
-            "Name": "Maurício Aniche",
+            "Name": "Maurício F. Aniche",
             "Affiliation": "University of São Paulo, Brazil",
-            "Key": "Maurício Aniche @ University of São Paulo, Brazil",
-            "Id": "e1e5f6302c",
+            "Key": "Maurício F. Aniche @ University of São Paulo, Brazil",
+            "Id": "a55322e5d8",
             "Bio": "PhD candidate in Computer Science at University of São Paulo. Maurício&#039;s research focus on improving the accuracy of code metrics.",
             "URLhp": "www.aniche.com.br",
             "URLphoto": "https://www.dropbox.com/s/jq23j0t2z1vfeq8/aniche-photo.jpg?dl=0",
@@ -6880,21 +6880,6 @@
             "Affiliation": "INRIA, France",
             "Key": "Nicolas Anquetil @ INRIA, France",
             "Id": "8e78697851",
-            "Bio": "",
-            "URLhp": "http://researchers.lille.inria.fr/~nanqueti/",
-            "URLphoto": "",
-            "URLgs": "https://scholar.google.com/citations?hl=en&user=DSMdD9UAAAAJ&view_op=list_works&gmla=AJsN-F4x6qeC4coW9jOgAipmTrJCU8r6hV1IEggH3vyCqc4XvBnlzJ6Zg-OQhreQWzrURp3LlLumQpf2gPDhD9qJIvNUx3FKxKh8tq1QnNeOvJ1VlLnwZ_o",
-            "URLmsa": "http://academic.research.microsoft.com/Author/872006/nicolas-anquetil",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": "https://www.linkedin.com/pub/nicolas-anquetil/7/a78/9b5"
-        },
-        {
-            "Name": "Nicolas Anquetil",
-            "Affiliation": "University of Lille, France",
-            "Key": "Nicolas Anquetil @ University of Lille, France",
-            "Id": "9866c0682d",
             "Bio": "",
             "URLhp": "http://researchers.lille.inria.fr/~nanqueti/",
             "URLphoto": "",
@@ -6996,10 +6981,10 @@
             "URLli": ""
         },
         {
-            "Name": "Mohammad Reza Azadmanesh",
+            "Name": "Mohammad R. Azadmanesh",
             "Affiliation": "University of Lugano, Switzerland",
-            "Key": "Mohammad Reza Azadmanesh @ University of Lugano, Switzerland",
-            "Id": "c24b5f81e0",
+            "Key": "Mohammad R. Azadmanesh @ University of Lugano, Switzerland",
+            "Id": "6b1d61bbcc",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -7300,7 +7285,7 @@
             "Affiliation": "University of Szeged, Hungary",
             "Key": "Árpád Beszédes @ University of Szeged, Hungary",
             "Id": "c6cbbba54c",
-            "Bio": "Dr. Árpád Beszédes (m) obtained his MSc degree in computer science and mathematics in 1997 from the Attila József University, Szeged, Hungary, and his PhD degree in computer science from the University of Szeged in 2005. Árpád Beszédes is an assistant professor, currently the deputy head, at SED. His research areas are software quality assurance, static and dynamic program analysis including program slicing and dependence analysis, but he is involved in other topics as well, such as compiler optimizations, software testing, and reverse engineering. Árpád Beszédes has more than 50 publications with about 400 citations in the mentioned fields. He actively participates in several R&amp;D projects at SED, some of which as the project leader, funded by either state or EU grants or by industrial partners. He participated in the organization of the 21st International Conference on Software Maintenance, which was held in Budapest in 2005, and serves different roles in international software engineering conferences including membership in program committees. He was the program co-chair of the 2011 IEEE Conference on Source Code Analysis and Manipulation, and served as the local organization chair of the 2011 ESEC/FSE conference. Árpád Beszédes is a founding member and currently the director of accreditation for the Hungarian Testing Board, the national representative of the board of the International Software Testing Qualifications Board. He holds ISTQB Certified Tester Advanced Level (Full), Agile Tester Foundation Extension and IREB Certified Professional for Requirements Engineering Foundation Level certificates.",
+            "Bio": "Dr. Árpád Beszédes (m) obtained his MSc degree in computer science and mathematics in 1997 from the Attila József University, Szeged, Hungary, and his PhD degree in computer science from the University of Szeged in 2005. Árpád Beszédes is an assistant professor, currently the deputy head at the Software Engineering Department of the University of Szeged.",
             "URLhp": "http://www.inf.u-szeged.hu/~beszedes/",
             "URLphoto": "http://www.inf.u-szeged.hu/~beszedes/ba.jpg",
             "URLgs": "https://scholar.google.hu/citations?user=hW0ICKsAAAAJ&hl=hu&oi=ao",
@@ -7372,9 +7357,9 @@
         },
         {
             "Name": "Sandrine Blazy",
-            "Affiliation": "IRISA, France",
-            "Key": "Sandrine Blazy @ IRISA, France",
-            "Id": "800dfa6c68",
+            "Affiliation": "University of Rennes 1, France",
+            "Key": "Sandrine Blazy @ University of Rennes 1, France",
+            "Id": "1e3f0ac898",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -7401,10 +7386,10 @@
             "URLli": ""
         },
         {
-            "Name": "Rodrigo Bonifacio",
+            "Name": "Rodrigo Bonifácio",
             "Affiliation": "University of Brasília, Brazil",
-            "Key": "Rodrigo Bonifacio @ University of Brasília, Brazil",
-            "Id": "f8eaef1e79",
+            "Key": "Rodrigo Bonifácio @ University of Brasília, Brazil",
+            "Id": "bb765f8921",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -7491,10 +7476,10 @@
             "URLli": ""
         },
         {
-            "Name": "Margaret M. Burnett",
+            "Name": "Margaret Burnett",
             "Affiliation": "Oregon State University, USA",
-            "Key": "Margaret M. Burnett @ Oregon State University, USA",
-            "Id": "fb2d4980bc",
+            "Key": "Margaret Burnett @ Oregon State University, USA",
+            "Id": "6ab0b12650",
             "Bio": "",
             "URLhp": "http://web.engr.oregonstate.edu/~burnett/",
             "URLphoto": "",
@@ -7642,9 +7627,9 @@
         },
         {
             "Name": "Muslim Chochlov",
-            "Affiliation": "Lero, Ireland",
-            "Key": "Muslim Chochlov @ Lero, Ireland",
-            "Id": "9fd126695c",
+            "Affiliation": "University of Limerick, Ireland",
+            "Key": "Muslim Chochlov @ University of Limerick, Ireland",
+            "Id": "196704030b",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -7716,10 +7701,10 @@
             "URLli": ""
         },
         {
-            "Name": "Michael Collard",
+            "Name": "Michael L. Collard",
             "Affiliation": "University of Akron, USA",
-            "Key": "Michael Collard @ University of Akron, USA",
-            "Id": "284bb5ea50",
+            "Key": "Michael L. Collard @ University of Akron, USA",
+            "Id": "cd3c8d98d7",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -7777,9 +7762,9 @@
         },
         {
             "Name": "Christopher S. Corley",
-            "Affiliation": "ABB Research, USA",
-            "Key": "Christopher S. Corley @ ABB Research, USA",
-            "Id": "93b16b049c",
+            "Affiliation": "ABB Corporate Research, USA",
+            "Key": "Christopher S. Corley @ ABB Corporate Research, USA",
+            "Id": "f89e4cb550",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -7867,9 +7852,9 @@
         },
         {
             "Name": "Kostadin Damevski",
-            "Affiliation": "Virginia State University, USA",
-            "Key": "Kostadin Damevski @ Virginia State University, USA",
-            "Id": "94b960ff66",
+            "Affiliation": "Virginia Commonwealth University, USA",
+            "Key": "Kostadin Damevski @ Virginia Commonwealth University, USA",
+            "Id": "2ee7d740bd",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -7956,10 +7941,10 @@
             "URLli": ""
         },
         {
-            "Name": "Lin Tan, Serge Demeyer",
+            "Name": "Serge Demeyer",
             "Affiliation": ", ",
-            "Key": "Lin Tan, Serge Demeyer @ ,",
-            "Id": "902b1fb466",
+            "Key": "Serge Demeyer @ ,",
+            "Id": "07e722ca8f",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -7971,10 +7956,25 @@
             "URLli": ""
         },
         {
-            "Name": "Adriano de Paula",
+            "Name": "Adriano Carvalho de Paula",
             "Affiliation": "Federal University of São Paulo, Brazil",
-            "Key": "Adriano de Paula @ Federal University of São Paulo, Brazil",
-            "Id": "b0c243e4cd",
+            "Key": "Adriano Carvalho de Paula @ Federal University of São Paulo, Brazil",
+            "Id": "b5d98fca3e",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Coen De Roover",
+            "Affiliation": ", ",
+            "Key": "Coen De Roover @ ,",
+            "Id": "70b212e5ed",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -8017,9 +8017,9 @@
         },
         {
             "Name": "Arie van Deursen",
-            "Affiliation": ", ",
-            "Key": "Arie van Deursen @ ,",
-            "Id": "f5c5eefdd7",
+            "Affiliation": "TU Delft, TU Delft",
+            "Key": "Arie van Deursen @ TU Delft, TU Delft",
+            "Id": "353c482a4a",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -8091,10 +8091,10 @@
             "URLli": "https://it.linkedin.com/pub/dario-di-nucci/44/926/654/en"
         },
         {
-            "Name": "Eleni Stroulia, Massimiliano Di Penta",
+            "Name": "Massimiliano Di Penta",
             "Affiliation": ", ",
-            "Key": "Eleni Stroulia, Massimiliano Di Penta @ ,",
-            "Id": "308e3860ec",
+            "Key": "Massimiliano Di Penta @ ,",
+            "Id": "9f6ec17a62",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -8257,9 +8257,9 @@
         },
         {
             "Name": "Raphael Eidenbenz",
-            "Affiliation": "ABB Research, Switzerland",
-            "Key": "Raphael Eidenbenz @ ABB Research, Switzerland",
-            "Id": "954ef336bf",
+            "Affiliation": "ABB Corporate Research, Switzerland",
+            "Key": "Raphael Eidenbenz @ ABB Corporate Research, Switzerland",
+            "Id": "b9241c9c9c",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -8376,21 +8376,6 @@
             "URLli": ""
         },
         {
-            "Name": "Anne Etien",
-            "Affiliation": "University of Lille, France",
-            "Key": "Anne Etien @ University of Lille, France",
-            "Id": "5bd9756a3d",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
             "Name": "Johan Fabry",
             "Affiliation": "University of Chile, Chile",
             "Key": "Johan Fabry @ University of Chile, Chile",
@@ -8451,10 +8436,10 @@
             "URLli": ""
         },
         {
-            "Name": "Mário André Freitas Farias",
+            "Name": "Mário André de Freitas Farias",
             "Affiliation": "Federal Institute of Sergipe, Brazil",
-            "Key": "Mário André Freitas Farias @ Federal Institute of Sergipe, Brazil",
-            "Id": "6da72feeb3",
+            "Key": "Mário André de Freitas Farias @ Federal Institute of Sergipe, Brazil",
+            "Id": "b46bf51772",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -8557,9 +8542,9 @@
         },
         {
             "Name": "Carlos Fernández-Sánchez",
-            "Affiliation": "Universidad Politécnica de Madrid, Spain",
-            "Key": "Carlos Fernández-Sánchez @ Universidad Politécnica de Madrid, Spain",
-            "Id": "624b73cbf9",
+            "Affiliation": "Technical University of Madrid, Spain",
+            "Key": "Carlos Fernández-Sánchez @ Technical University of Madrid, Spain",
+            "Id": "05bba1a8d3",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -8631,10 +8616,10 @@
             "URLli": ""
         },
         {
-            "Name": "Scott Fleming",
+            "Name": "Scott D. Fleming",
             "Affiliation": "University of Memphis, USA",
-            "Key": "Scott Fleming @ University of Memphis, USA",
-            "Id": "c76c08a17e",
+            "Key": "Scott D. Fleming @ University of Memphis, USA",
+            "Id": "abea0fd18b",
             "Bio": "",
             "URLhp": "http://www.cs.memphis.edu/~sdf/",
             "URLphoto": "http://www.cs.memphis.edu/~sdf/Scott_Fleming.jpg",
@@ -8692,9 +8677,9 @@
         },
         {
             "Name": "Carsten Franke",
-            "Affiliation": "ABB Research, Switzerland",
-            "Key": "Carsten Franke @ ABB Research, Switzerland",
-            "Id": "e77dd3e0c0",
+            "Affiliation": "ABB Corporate Research, Switzerland",
+            "Key": "Carsten Franke @ ABB Corporate Research, Switzerland",
+            "Id": "06d0520d22",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -8782,9 +8767,9 @@
         },
         {
             "Name": "Juan Garbajosa",
-            "Affiliation": "Universidad Politécnica de Madrid, Spain",
-            "Key": "Juan Garbajosa @ Universidad Politécnica de Madrid, Spain",
-            "Id": "4279fff5d6",
+            "Affiliation": "Technical University of Madrid, Spain",
+            "Key": "Juan Garbajosa @ Technical University of Madrid, Spain",
+            "Id": "af36934844",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -8812,9 +8797,9 @@
         },
         {
             "Name": "Laurent Georget",
-            "Affiliation": "University of Rennes 1, France",
-            "Key": "Laurent Georget @ University of Rennes 1, France",
-            "Id": "46410d658a",
+            "Affiliation": "CentraleSupélec, France",
+            "Key": "Laurent Georget @ CentraleSupélec, France",
+            "Id": "2925410a7e",
             "Bio": "I&#039;m a second year PhD student in CIDRE team. CIDRE is a joint research team between CentraleSupélec, CNRS (French national research center), Inria (a French mathematics/informatics research center), and the University of Rennes I. It is specialized in security and has a few research projects on security visualizations. http://www.rennes.supelec.fr/ren/rd/cidre. My main research interests are the security of operating systems and the use of formal models and methods for security purposes.",
             "URLhp": "",
             "URLphoto": "",
@@ -9010,6 +8995,21 @@
             "Affiliation": "Stellenbosch University, South Africa",
             "Key": "Gillian J. Greene @ Stellenbosch University, South Africa",
             "Id": "3446e16ce3",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Latifa Guerrouj",
+            "Affiliation": ", ",
+            "Key": "Latifa Guerrouj @ ,",
+            "Id": "2106e9e8a3",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -9276,10 +9276,10 @@
             "URLli": ""
         },
         {
-            "Name": "Austin Henley",
+            "Name": "Austin Z. Henley",
             "Affiliation": "University of Memphis, USA",
-            "Key": "Austin Henley @ University of Memphis, USA",
-            "Id": "808eae1003",
+            "Key": "Austin Z. Henley @ University of Memphis, USA",
+            "Id": "c968462974",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -9415,6 +9415,21 @@
             "Affiliation": "Federal University of Minas Gerais, Brazil",
             "Key": "André Hora @ Federal University of Minas Gerais, Brazil",
             "Id": "31741d607f",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "André Hora",
+            "Affiliation": "Federal University of Minas Gerais, France",
+            "Key": "André Hora @ Federal University of Minas Gerais, France",
+            "Id": "e74b2c7900",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -9696,10 +9711,10 @@
             "URLli": ""
         },
         {
-            "Name": "Raoul Jetley",
-            "Affiliation": "ABB Research, India",
-            "Key": "Raoul Jetley @ ABB Research, India",
-            "Id": "272054aba4",
+            "Name": "Raoul Praful Jetley",
+            "Affiliation": "ABB Corporate Research, India",
+            "Key": "Raoul Praful Jetley @ ABB Corporate Research, India",
+            "Id": "f63c7d2882",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -9831,10 +9846,10 @@
             "URLli": ""
         },
         {
-            "Name": "Kelly Kashuda",
+            "Name": "Kelly L. Kashuda",
             "Affiliation": "University of Alabama, USA",
-            "Key": "Kelly Kashuda @ University of Alabama, USA",
-            "Id": "1cd703b12c",
+            "Key": "Kelly L. Kashuda @ University of Alabama, USA",
+            "Id": "863346cf09",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -9936,10 +9951,10 @@
             "URLli": "https://www.linkedin.com/pub/taimur-khan/ba/304/871"
         },
         {
-            "Name": "David Lo, Foutse Khomh",
+            "Name": "Foutse Khomh",
             "Affiliation": ", ",
-            "Key": "David Lo, Foutse Khomh @ ,",
-            "Id": "33e3788c90",
+            "Key": "Foutse Khomh @ ,",
+            "Id": "a0a8a96105",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -10072,6 +10087,21 @@
         },
         {
             "Name": "Rainer Koschke",
+            "Affiliation": ", ",
+            "Key": "Rainer Koschke @ ,",
+            "Id": "48b6112e78",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Rainer Koschke",
             "Affiliation": "University of Bremen, Germany",
             "Key": "Rainer Koschke @ University of Bremen, Germany",
             "Id": "4581f50201",
@@ -10116,10 +10146,10 @@
             "URLli": ""
         },
         {
-            "Name": "Collin MacMillan, Nicholas A. Kraft",
+            "Name": "Nicholas A. Kraft",
             "Affiliation": ", ",
-            "Key": "Collin MacMillan, Nicholas A. Kraft @ ,",
-            "Id": "aad5e30947",
+            "Key": "Nicholas A. Kraft @ ,",
+            "Id": "e5ee0ab130",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -10132,9 +10162,9 @@
         },
         {
             "Name": "Nicholas A. Kraft",
-            "Affiliation": "ABB Research, USA",
-            "Key": "Nicholas A. Kraft @ ABB Research, USA",
-            "Id": "f3f3f1c562",
+            "Affiliation": "ABB Corporate Research, USA",
+            "Key": "Nicholas A. Kraft @ ABB Corporate Research, USA",
+            "Id": "64dd4f0a92",
             "Bio": "",
             "URLhp": "http://nicholasakraft.com",
             "URLphoto": "",
@@ -10180,6 +10210,21 @@
             "Affiliation": "University of Lugano, Switzerland",
             "Key": "Rolf Krause @ University of Lugano, Switzerland",
             "Id": "ddbca18271",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Jens Krinke",
+            "Affiliation": ", ",
+            "Key": "Jens Krinke @ ,",
+            "Id": "7216670a1b",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -10446,10 +10491,10 @@
             "URLli": ""
         },
         {
-            "Name": "Otávio A. L. Lemos",
+            "Name": "Otávio Augusto Lazzarini Lemos",
             "Affiliation": "Federal University of São Paulo, Brazil",
-            "Key": "Otávio A. L. Lemos @ Federal University of São Paulo, Brazil",
-            "Id": "da9f93487c",
+            "Key": "Otávio Augusto Lazzarini Lemos @ Federal University of São Paulo, Brazil",
+            "Id": "a05965ca0c",
             "Bio": "I received my MSc (2005) and DSc (2009) degrees in Computer Science and Mathematical Computing from the University of São Paulo, Brazil. In 2007 and 2012 I was a visiting researcher at ICS-UCIrvine, under the supervision of Crista Lopes, to where I will return for a sabbatical period in 2016. I currently hold an Assistant Professor position at the Federal University of São Paulo, Brazil. During my academic career, I have published a number of papers in important conference proceedings (such as ICSE 2012 and ISSRE 2015) and journals (such as JSS and IST). I have also received some academic awards, such as the first place at the ACM Student Research Competition, OOPSLA 2007 edition, and the FAPESP Young Investigators Award. I&#039;m erdos number 4 (Erdos - Specker - Lieberherr - Lopes - me).",
             "URLhp": "http://www.ict.unifesp.br/otaviolemos/",
             "URLphoto": "http://www.ict.unifesp.br/otaviolemos/images/otavio.jpg",
@@ -10537,9 +10582,9 @@
         },
         {
             "Name": "Jalerson Lima",
-            "Affiliation": "IFRN, Brazil",
-            "Key": "Jalerson Lima @ IFRN, Brazil",
-            "Id": "4976c659a9",
+            "Affiliation": "Federal University of Rio Grande do Norte, Brazil",
+            "Key": "Jalerson Lima @ Federal University of Rio Grande do Norte, Brazil",
+            "Id": "735b7d5502",
             "Bio": "Professor of Information Systems at the Federal Institute of Education at Rio Grande do Norte. Researcher at the Laboratory of Technology Innovations in Healthcare. Master in Systems and Computing at the Federal University of Rio Grande do Norte.",
             "URLhp": "http://jalerson.me",
             "URLphoto": "http://jalerson.me/images/foto.jpg",
@@ -10604,6 +10649,21 @@
             "URLhp": "http://www.yorku.ca/mlitoiu",
             "URLphoto": "",
             "URLgs": "https://scholar.google.ca/citations?user=FWASYv0AAAAJ&hl=en",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "David Lo",
+            "Affiliation": ", ",
+            "Key": "David Lo @ ,",
+            "Id": "2b335941fa",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
             "URLmsa": "",
             "URLtw": "",
             "URLgp": "",
@@ -10821,6 +10881,21 @@
             "URLli": "https://ca.linkedin.com/pub/everton-maldonado/34/b5/a62"
         },
         {
+            "Name": "Jonathan I. Maletic",
+            "Affiliation": "Kent State University, USA",
+            "Key": "Jonathan I. Maletic @ Kent State University, USA",
+            "Id": "544bbfaa65",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
             "Name": "Jonathan Maletic",
             "Affiliation": "Kent State University, USA",
             "Key": "Jonathan Maletic @ Kent State University, USA",
@@ -10919,6 +10994,21 @@
             "URLhp": "",
             "URLphoto": "",
             "URLgs": "https://scholar.google.com/citations?user=DriJBNQAAAAJ&hl=en",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Collin McMillan",
+            "Affiliation": ", ",
+            "Key": "Collin McMillan @ ,",
+            "Id": "e60f1e4c62",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
             "URLmsa": "",
             "URLtw": "",
             "URLgp": "",
@@ -11211,10 +11301,10 @@
             "URLli": ""
         },
         {
-            "Name": "Ethan Munson",
+            "Name": "Ethan V. Munson",
             "Affiliation": "University of Wisconsin-Milwaukee, USA",
-            "Key": "Ethan Munson @ University of Wisconsin-Milwaukee, USA",
-            "Id": "a785140bd2",
+            "Key": "Ethan V. Munson @ University of Wisconsin-Milwaukee, USA",
+            "Id": "f7e0bb6141",
             "Bio": "",
             "URLhp": "http://www.uwm.edu/~munson",
             "URLphoto": "",
@@ -11331,10 +11421,10 @@
             "URLli": ""
         },
         {
-            "Name": "Manoel G. De Mendonça Neto",
+            "Name": "Manoel Gomes de Mendonça Neto",
             "Affiliation": "Federal University of Bahia, Brazil",
-            "Key": "Manoel G. De Mendonça Neto @ Federal University of Bahia, Brazil",
-            "Id": "551613f53d",
+            "Key": "Manoel Gomes de Mendonça Neto @ Federal University of Bahia, Brazil",
+            "Id": "ef98a78082",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -11346,10 +11436,10 @@
             "URLli": ""
         },
         {
-            "Name": "Christian Newman",
+            "Name": "Christian D. Newman",
             "Affiliation": "Kent State University, USA",
-            "Key": "Christian Newman @ Kent State University, USA",
-            "Id": "391d6da7bd",
+            "Key": "Christian D. Newman @ Kent State University, USA",
+            "Id": "6880c430be",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -11497,9 +11587,9 @@
         },
         {
             "Name": "Paloma Oliveira",
-            "Affiliation": "IFMG, Brazil",
-            "Key": "Paloma Oliveira @ IFMG, Brazil",
-            "Id": "956c4f2893",
+            "Affiliation": "Federal University of Minas Gerais, Brazil",
+            "Key": "Paloma Oliveira @ Federal University of Minas Gerais, Brazil",
+            "Id": "00c0402ed6",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -11524,6 +11614,21 @@
             "URLgp": "https://plus.google.com/108641429934862001566/posts",
             "URLfb": "https://www.facebook.com/rocco.oliveto.1",
             "URLli": "https://it.linkedin.com/pub/rocco-oliveto/54/5b/114"
+        },
+        {
+            "Name": "Mihai Oprescu",
+            "Affiliation": "University of Alberta, Canada",
+            "Key": "Mihai Oprescu @ University of Alberta, Canada",
+            "Id": "f610276b60",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
         },
         {
             "Name": "Leire Orue-Echevarria",
@@ -11647,9 +11752,9 @@
         },
         {
             "Name": "Timo Pawelka",
-            "Affiliation": "CQSE, Germany",
-            "Key": "Timo Pawelka @ CQSE, Germany",
-            "Id": "5c5438ee40",
+            "Affiliation": "TU München, Germany",
+            "Key": "Timo Pawelka @ TU München, Germany",
+            "Id": "6eefae1a58",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -11692,9 +11797,9 @@
         },
         {
             "Name": "Yvonne-Anne Pignolet",
-            "Affiliation": "ABB Research, Switzerland",
-            "Key": "Yvonne-Anne Pignolet @ ABB Research, Switzerland",
-            "Id": "2226f7f382",
+            "Affiliation": "ABB Corporate Research, Switzerland",
+            "Key": "Yvonne-Anne Pignolet @ ABB Corporate Research, Switzerland",
+            "Id": "a025d37412",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -11721,10 +11826,10 @@
             "URLli": ""
         },
         {
-            "Name": "Felipe A. P. Pinto",
+            "Name": "Felipe Pinto",
             "Affiliation": "Federal University of Rio Grande do Norte, Brazil",
-            "Key": "Felipe A. P. Pinto @ Federal University of Rio Grande do Norte, Brazil",
-            "Id": "35b29775a9",
+            "Key": "Felipe Pinto @ Federal University of Rio Grande do Norte, Brazil",
+            "Id": "811ec89e24",
             "Bio": "Felipe Pinto is a Ph.D. student at Federal University of Rio Grande do Norte (UFRN) under the supervision of professor Uirá Kulesza. In Felipe’s empirical studies, he often deals with static and dynamic analysis, mining software repositories, software maintenance and evolution, and performance deviation analysis. Felipe has been a teacher at Federal Institute of Rio Grande do Norte (IFRN) since 2010. His actual research tries to improve the tool support to identify sources of performance deviation over system evolutions.",
             "URLhp": "",
             "URLphoto": "",
@@ -11916,10 +12021,25 @@
             "URLli": ""
         },
         {
-            "Name": "Sebastián Fernandez Quezada",
+            "Name": "Jochen Quante",
+            "Affiliation": ", ",
+            "Key": "Jochen Quante @ ,",
+            "Id": "c20ccea0c1",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Sebastián Quezada",
             "Affiliation": "Corvalius, Argentina",
-            "Key": "Sebastián Fernandez Quezada @ Corvalius, Argentina",
-            "Id": "19ff1ba59d",
+            "Key": "Sebastián Quezada @ Corvalius, Argentina",
+            "Id": "6076a73380",
             "Bio": "Founder, CEO. He is in charge of strategy, business development and is a consultant at Corvalius. He has graduated as a Software Engineer from the Universidad Abierta Interamericana at Buenos Aires, Argentina. After obtaining his degree, he completed its post graduate studies in Management and Administration also in the Universidad Abierta Interamericana. He&#039;s also worked there as a Professor. He&#039;s also a co-founder at Codealike, a SaaS that tracks and analyzes software developers&#039; activity. Before Corvalius, Sebastian worked at Huddle Group from 2007 as a Project Leader and lately as a Pre-Sales Technical Leader. He also was a Software Factory Manager, Functional Analyst, Software Developer and Web Designer in its more than 14 years’ of industry experience.",
             "URLhp": "https://about.me/soke",
             "URLphoto": "https://www.dropbox.com/s/55no74u17o5fj51/codealike-sfq.jpg",
@@ -11946,10 +12066,10 @@
             "URLli": ""
         },
         {
-            "Name": "Alifah Aida Binti Lope Abdul Rahman",
-            "Affiliation": "University of East London, UK",
-            "Key": "Alifah Aida Binti Lope Abdul Rahman @ University of East London, UK",
-            "Id": "52b324ff88",
+            "Name": "Alifah Aida Lope Abdul Rahman",
+            "Affiliation": "National Audit Department, UK",
+            "Key": "Alifah Aida Lope Abdul Rahman @ National Audit Department, UK",
+            "Id": "a355d19e4b",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -11991,10 +12111,10 @@
             "URLli": ""
         },
         {
-            "Name": "Guilherme Ramos",
+            "Name": "Guilherme N. Ramos",
             "Affiliation": "University of Brasília, Brazil",
-            "Key": "Guilherme Ramos @ University of Brasília, Brazil",
-            "Id": "af995e9b9d",
+            "Key": "Guilherme N. Ramos @ University of Brasília, Brazil",
+            "Id": "1878946fa3",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -12021,10 +12141,10 @@
             "URLli": ""
         },
         {
-            "Name": "Nishaanth Reddy",
+            "Name": "Nishaanth H. Reddy",
             "Affiliation": "University of California at Irvine, USA",
-            "Key": "Nishaanth Reddy @ University of California at Irvine, USA",
-            "Id": "ddb11a3d43",
+            "Key": "Nishaanth H. Reddy @ University of California at Irvine, USA",
+            "Id": "2f394c4073",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -12096,10 +12216,10 @@
             "URLli": ""
         },
         {
-            "Name": "Stephanie Riaud",
+            "Name": "Stéphanie Riaud",
             "Affiliation": "DGA, France",
-            "Key": "Stephanie Riaud @ DGA, France",
-            "Id": "10b6e586e5",
+            "Key": "Stéphanie Riaud @ DGA, France",
+            "Id": "619877dd63",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -12156,10 +12276,10 @@
             "URLli": ""
         },
         {
-            "Name": "Rainer Koschke, Jens Krinke, Martin Robillard",
+            "Name": "Martin Robillard",
             "Affiliation": ", ",
-            "Key": "Rainer Koschke, Jens Krinke, Martin Robillard @ ,",
-            "Id": "c6cfe172ba",
+            "Key": "Martin Robillard @ ,",
+            "Id": "3098727ee3",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -12252,6 +12372,21 @@
             "Id": "b8e1f12352",
             "Bio": "",
             "URLhp": "https://w.comp.nus.edu.sg/~rubinov/",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Ferenc Rudolf",
+            "Affiliation": ", ",
+            "Key": "Ferenc Rudolf @ ,",
+            "Id": "1bf82bcd56",
+            "Bio": "",
+            "URLhp": "",
             "URLphoto": "",
             "URLgs": "",
             "URLmsa": "",
@@ -12426,21 +12561,6 @@
             "URLli": ""
         },
         {
-            "Name": "Gustavo Santos",
-            "Affiliation": "University of Lille, France",
-            "Key": "Gustavo Santos @ University of Lille, France",
-            "Id": "4b33d275c1",
-            "Bio": "",
-            "URLhp": "http://gustavojss.github.io/",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
             "Name": "Dipankar Sarkar",
             "Affiliation": "IIT Kharagpur, India",
             "Key": "Dipankar Sarkar @ IIT Kharagpur, India",
@@ -12505,6 +12625,21 @@
             "Affiliation": ", ",
             "Key": "Giuseppe Scaniello @ ,",
             "Id": "3f9b4357aa",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Giuseppe Scanniello",
+            "Affiliation": ", ",
+            "Key": "Giuseppe Scanniello @ ,",
+            "Id": "0dc61d8fc8",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -12636,21 +12771,6 @@
             "URLli": ""
         },
         {
-            "Name": "Alexander Serebnik",
-            "Affiliation": ", ",
-            "Key": "Alexander Serebnik @ ,",
-            "Id": "0eb0fbdc39",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
             "Name": "Alexander Serebrenik",
             "Affiliation": ", ",
             "Key": "Alexander Serebrenik @ ,",
@@ -12715,21 +12835,6 @@
             "Affiliation": ", ",
             "Key": "David Shepherd @ ,",
             "Id": "b515a55366",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
-            "Name": "Jochen Quante, David Shepherd",
-            "Affiliation": ", ",
-            "Key": "Jochen Quante, David Shepherd @ ,",
-            "Id": "b29fc61b43",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -12816,10 +12921,10 @@
             "URLli": ""
         },
         {
-            "Name": "André Batista Silva",
+            "Name": "André Batista da Silva",
             "Affiliation": "Federal University of Sergipe, Brazil",
-            "Key": "André Batista Silva @ Federal University of Sergipe, Brazil",
-            "Id": "5ce15d1661",
+            "Key": "André Batista da Silva @ Federal University of Sergipe, Brazil",
+            "Id": "84acf7a153",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -12832,9 +12937,9 @@
         },
         {
             "Name": "Luciana L. Silva",
-            "Affiliation": "Federal Institute of Triangulo Mineiro, Brazil",
-            "Key": "Luciana L. Silva @ Federal Institute of Triangulo Mineiro, Brazil",
-            "Id": "07431a917f",
+            "Affiliation": "Federal University of Minas Gerais, Brazil",
+            "Key": "Luciana L. Silva @ Federal University of Minas Gerais, Brazil",
+            "Id": "bdc2b07e6e",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -12892,9 +12997,9 @@
         },
         {
             "Name": "Harry M. Sneed",
-            "Affiliation": "SoRing, Hungary",
-            "Key": "Harry M. Sneed @ SoRing, Hungary",
-            "Id": "15b9c2d2af",
+            "Affiliation": "SoRing, Germany",
+            "Key": "Harry M. Sneed @ SoRing, Germany",
+            "Id": "b2b45d61c3",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -12967,6 +13072,21 @@
         },
         {
             "Name": "Eleni Stroulia",
+            "Affiliation": ", ",
+            "Key": "Eleni Stroulia @ ,",
+            "Id": "84ca325c7c",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Eleni Stroulia",
             "Affiliation": "University of Alberta, Canada",
             "Key": "Eleni Stroulia @ University of Alberta, Canada",
             "Id": "a3cbe4dfc7",
@@ -12981,10 +13101,10 @@
             "URLli": "https://www.linkedin.com/profile/view?id=AAMAAABKrOwByHLnslbdP_EYS-y8LHD0cATS8Ik&trk=hp-identity-name"
         },
         {
-            "Name": "Sithu Sudarsan",
-            "Affiliation": "ABB Research, India",
-            "Key": "Sithu Sudarsan @ ABB Research, India",
-            "Id": "1cd10ea0f0",
+            "Name": "Sithu D Sudarsan",
+            "Affiliation": "ABB Corporate Research, India",
+            "Key": "Sithu D Sudarsan @ ABB Corporate Research, India",
+            "Id": "6305028353",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -13057,9 +13177,9 @@
         },
         {
             "Name": "Kristóf Szabados",
-            "Affiliation": "Ericsson Hungary, Hungary",
-            "Key": "Kristóf Szabados @ Ericsson Hungary, Hungary",
-            "Id": "336274faae",
+            "Affiliation": "Eötvös Loránd University, Hungary",
+            "Key": "Kristóf Szabados @ Eötvös Loránd University, Hungary",
+            "Id": "c0abef1074",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -13105,6 +13225,21 @@
             "Affiliation": "Chinese Academy of Sciences, China",
             "Key": "Chun Tan @ Chinese Academy of Sciences, China",
             "Id": "527583011b",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Lin Tan",
+            "Affiliation": ", ",
+            "Key": "Lin Tan @ ,",
+            "Id": "a89a79c572",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -13311,10 +13446,10 @@
             "URLli": ""
         },
         {
-            "Name": "Liliane Nascimento Vale",
+            "Name": "Liliane do Nascimento Vale",
             "Affiliation": "Federal University of Uberlândia, Brazil",
-            "Key": "Liliane Nascimento Vale @ Federal University of Uberlândia, Brazil",
-            "Id": "3c367c211f",
+            "Key": "Liliane do Nascimento Vale @ Federal University of Uberlândia, Brazil",
+            "Id": "bdb89b7ab6",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -13402,9 +13537,9 @@
         },
         {
             "Name": "Ioana Verebi",
-            "Affiliation": "Politehnica Timisoara, Romania",
-            "Key": "Ioana Verebi @ Politehnica Timisoara, Romania",
-            "Id": "a8db1e6bdc",
+            "Affiliation": "Politehnica University of Timisoara, Romania",
+            "Key": "Ioana Verebi @ Politehnica University of Timisoara, Romania",
+            "Id": "b7441f614a",
             "Bio": "The main focus of my research are high level correction strategies (refactorings), in the context of design flaw correction.",
             "URLhp": "http://loose.upt.ro/~ioanav/about.html",
             "URLphoto": "http://loose.upt.ro/~ioanav/ioana.jpg",
@@ -13461,10 +13596,25 @@
             "URLli": ""
         },
         {
-            "Name": "Corrado Aaron Visaggio",
+            "Name": "Jurgen Vinju",
+            "Affiliation": ", ",
+            "Key": "Jurgen Vinju @ ,",
+            "Id": "2c4d290550",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Corrado A. Visaggio",
             "Affiliation": "University of Sannio, Italy",
-            "Key": "Corrado Aaron Visaggio @ University of Sannio, Italy",
-            "Id": "4db0535acf",
+            "Key": "Corrado A. Visaggio @ University of Sannio, Italy",
+            "Id": "1ed86c1759",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -13507,9 +13657,9 @@
         },
         {
             "Name": "Michael Wahler",
-            "Affiliation": "ABB Research, Switzerland",
-            "Key": "Michael Wahler @ ABB Research, Switzerland",
-            "Id": "349e294242",
+            "Affiliation": "ABB Corporate Research, Switzerland",
+            "Key": "Michael Wahler @ ABB Corporate Research, Switzerland",
+            "Id": "e8226a2226",
             "Bio": "Michael is the Group Leader for Software Systems at ABB Corporate Research, Switzerland. His research focus is on software architecture for embedded multi-core real-time systems. Michael’s hobbies include model-driven development, formal methods, software testing, and debugging C++ code. Michael hold&#039;s a diploma degree (equivalent to MSc) from the Technical University of Munich and a PhD degree from ETH Zurich.",
             "URLhp": "http://wwwahler.ch/michael/",
             "URLphoto": "http://wwwahler.ch/michael/bilder/wah_june_09.png",
@@ -13777,9 +13927,9 @@
         },
         {
             "Name": "Agustín Yagüe",
-            "Affiliation": "Universidad Politécnica de Madrid, Spain",
-            "Key": "Agustín Yagüe @ Universidad Politécnica de Madrid, Spain",
-            "Id": "0ee59e4d36",
+            "Affiliation": "Technical University of Madrid, Spain",
+            "Key": "Agustín Yagüe @ Technical University of Madrid, Spain",
+            "Id": "f110fc2859",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -13792,9 +13942,9 @@
         },
         {
             "Name": "Aiko Yamashita",
-            "Affiliation": "Mesan, Norway",
-            "Key": "Aiko Yamashita @ Mesan, Norway",
-            "Id": "f7b5cfed84",
+            "Affiliation": "Oslo and Akershus University College, Norway",
+            "Key": "Aiko Yamashita @ Oslo and Akershus University College, Norway",
+            "Id": "3aaa51c22c",
             "Bio": "Aiko Yamashita holds an Associate Professorship at Oslo and Akershus University College of Applied Sciences. She has worked as a software engineer, consultant and advisor in Costa Rica, USA, Sweden and Norway within diverse organizations. Her research interests include empirical software engineering, software evolution and quality, sustainability and education, and knowledge transfer and innovation processes within software engineering.",
             "URLhp": "https://www.hioa.no/eng/employee/aikyam",
             "URLphoto": "https://goo.gl/jN0o4F",
@@ -13807,9 +13957,9 @@
         },
         {
             "Name": "Aiko Yamashita",
-            "Affiliation": "Oslo and Akershus University College, Norway",
-            "Key": "Aiko Yamashita @ Oslo and Akershus University College, Norway",
-            "Id": "3aaa51c22c",
+            "Affiliation": "Oslo and Akershus University College of Applied Sciences, Norway",
+            "Key": "Aiko Yamashita @ Oslo and Akershus University College of Applied Sciences, Norway",
+            "Id": "cbdf7b7532",
             "Bio": "Aiko Yamashita holds an Associate Professorship at Oslo and Akershus University College of Applied Sciences. She has worked as a software engineer, consultant and advisor in Costa Rica, USA, Sweden and Norway within diverse organizations. Her research interests include empirical software engineering, software evolution and quality, sustainability and education, and knowledge transfer and innovation processes within software engineering.",
             "URLhp": "https://www.hioa.no/eng/employee/aikyam",
             "URLphoto": "https://goo.gl/jN0o4F",
@@ -13956,10 +14106,10 @@
             "URLli": "https://it.linkedin.com/pub/marco-zanoni/40/412/981"
         },
         {
-            "Name": "Apostolos Zarras",
+            "Name": "Apostolos V. Zarras",
             "Affiliation": "University of Ioannina, Greece",
-            "Key": "Apostolos Zarras @ University of Ioannina, Greece",
-            "Id": "ed3450f659",
+            "Key": "Apostolos V. Zarras @ University of Ioannina, Greece",
+            "Id": "2a2ac705ab",
             "Bio": "",
             "URLhp": "http://www.cs.uoi.gr/~zarras/",
             "URLphoto": "",
