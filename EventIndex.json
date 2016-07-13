@@ -3,6 +3,16 @@
     
 "Events": [
 {
+	"Id" : "ECOOP2016",
+    "Name" : "ECOOP 2016",
+	"Version" : 1,
+    "File" : "2016ECOOP.json",
+	"StartDate" : "2016-07-17",	    "EndDate" : "2016-07-23",
+    "Description" : "European Conference on Object-Oriented Programming",
+	"Icon" : "2016ECOOP.png",
+	"Image" : "2016ECOOP.png"
+},
+{
     "Id" : "ISSTA2016",
     "Name" : "ISSTA 2016",
     "Version" : 1,
