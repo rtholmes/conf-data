@@ -1,6 +1,6 @@
 {
-  "DataRevision": -350805790,
-  "Description": "The European Conference on Object-Oriented Programming covers all areas of object technology and related software development technologies. Come celebrate the 30th edition in Rome, Italy, on July 17-22, 2016. This year Curry On, the ECOOP Summer School, the PhD Symposium, and 11 workshops will be all co-located with ECOOP! \n   \n \n \n \n \n   \n      \n    We are happy to announce the AITO Dahl-Nygaard Prizes for 2016. The Junior Prize is awarded to Emina Torlak for her great research potential. The Senior Prize is awarded to James Noble for his outstanding career contributions. The awards will be given during the conference.  Check AITO's DN Prizes page to find out more!  \n      \n   \n \n \n\nVisit our Facebook and Google+ pages, and stay tuned by following @ECOOPConf:\n\n \n\n \n \n   \n   Sun, July 17 \n   Mon, July 18 \n   Tue, July 19 \n   Wed, July 20 \n   Thu, July 21 \n   Fri, July 22 \n   \n   \n    PMLDC Distributed Computing  \n    Curry On  \n    ECOOP  \n   \n   \n    LIVE Live Prog. Systems  \n    ICOOOLPS OO Implementation  \n    FTfJP FormalTechniques  \n   \n   \n    STOP Scripts to Programs  \n    IWACO Aliasing &amp; Ownership  \n    GRACE Educational Programming  \n  \n   \n    DoctoralSymposium  \n    VORTEX Runtime Verification  \n    JSTools JavascriptAnalysis  \n    Summer School  \n   \n   \n    PX Programming Experience  \n    COP Context Orientation  \n   \n \n \n\n Latest from @ECOOPconf",
+  "DataRevision": -276954265,
+  "Description": "The European Conference on Object-Oriented Programming covers all areas of object technology and related software development technologies. Come celebrate the 30th edition in Rome, Italy, on July 17-22, 2016. This year Curry On, the ECOOP Summer School, the PhD Symposium, and 11 workshops will be all co-located with ECOOP! \n   \n \n \n \n \n   \n      \n    We are happy to announce the AITO Dahl-Nygaard Prizes for 2016. The Junior Prize is awarded to Emina Torlak for her great research potential. The Senior Prize is awarded to James Noble for his outstanding career contributions. The awards will be given on Wednesday, July 20 at 11:45.  Check AITO's DN Prizes page to find out more!  \n      \n   \n \n \n\nVisit our Facebook and Google+ pages, and stay tuned by following @ECOOPConf:\n\n \n\n \n \n   \n   Sun, July 17 \n   Mon, July 18 \n   Tue, July 19 \n   Wed, July 20 \n   Thu, July 21 \n   Fri, July 22 \n   \n   \n    PMLDC Distributed Computing  \n    Curry On  \n    ECOOP  \n   \n   \n    LIVE Live Prog. Systems  \n    ICOOOLPS OO Implementation  \n    FTfJP FormalTechniques  \n   \n   \n    STOP Scripts to Programs  \n    IWACO Aliasing &amp; Ownership  \n    GRACE Educational Programming  \n  \n   \n    DoctoralSymposium  \n    VORTEX Runtime Verification  \n    JSTools JavascriptAnalysis  \n    Summer School  \n   \n   \n    PX Programming Experience  \n    COP Context Orientation  \n   \n \n \n\n Latest from @ECOOPconf",
   "Event": "ecoop-2016",
   "Items": [
     {
@@ -481,17 +481,6 @@
     },
     {
       "Abstract": "",
-      "Affiliations": ["University of California, Berkeley"],
-      "AffiliationsString": "University of California, Berkeley",
-      "Authors": ["koushiksen"],
-      "Key": "vortex-2016-monitoring-javascript-programs-with-jalangi",
-      "PersonsString": "Koushik Sen",
-      "Title": " Monitoring JavaScript Programs with Jalangi",
-      "Type": "Event",
-      "URL": "http://2016.ecoop.org/event/vortex-2016-monitoring-javascript-programs-with-jalangi"
-    },
-    {
-      "Abstract": "",
       "Affiliations": ["University of Gothenburg"],
       "AffiliationsString": "University of Gothenburg",
       "Authors": ["gerardoschneider"],
@@ -503,177 +492,14 @@
     },
     {
       "Abstract": "",
-      "Affiliations": [
-        "Hasso Plattner Institute",
-        "Hasso-Plattner-Institute, Potsdam",
-        "Hasso Plattner Institute",
-        "HPI"
-      ],
-      "AffiliationsString": "Hasso Plattner Institute, Hasso-Plattner-Institute, Potsdam, HPI",
-      "Authors": [
-        "patrickrein",
-        "stefanlehmann",
-        "tonimattis",
-        "roberthirschfeld"
-      ],
-      "Key": "px-2016-how-live-are-live-programming-systems-benchmarking-the-response-times-of-live-programming-environments-",
-      "PersonsString": "Patrick Rein, Stefan Lehmann, Toni Mattis and Robert Hirschfeld",
-      "Title": "How Live are Live Programming Systems? \u2013 Benchmarking the Response Times of Live Programming Environments.",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/px-2016-how-live-are-live-programming-systems-benchmarking-the-response-times-of-live-programming-environments-"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "px-2016-introduction",
-      "PersonsString": "",
-      "Title": "Introduction",
-      "Type": "Day opening",
-      "URL": "http://2016.ecoop.org/event/px-2016-introduction"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "ETH Zurich"
-      ],
-      "AffiliationsString": ", ETH Zurich",
-      "Authors": [
-        "dimitarasenov",
-        "petermller"
-      ],
-      "Key": "px-2016-reinventing-the-ide-",
-      "PersonsString": "Dimitar Asenov and Peter Müller",
-      "Title": "Reinventing the IDE.",
-      "Type": "Demonstration",
-      "URL": "http://2016.ecoop.org/event/px-2016-reinventing-the-ide-"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "amirkirsh",
-        "irisgaber"
-      ],
-      "Key": "px-2016-satisfaction-time-investment-and-success-in-students-programming-exercise-",
-      "PersonsString": "Amir Kirsh and Iris Gaber",
-      "Title": "Satisfaction, Time Investment and Success in Students' Programming Exercise.",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/px-2016-satisfaction-time-investment-and-success-in-students-programming-exercise-"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "Viewpoints Research Institute",
-        "HARC / Y Combinator Research",
-        "",
-        "",
-        "University of California at Los Angeles, USA"
-      ],
-      "AffiliationsString": "Viewpoints Research Institute, HARC / Y Combinator Research, , University of California at Los Angeles, USA",
-      "Authors": [
-        "yoshikiohshima",
-        "alessandrowarth",
-        "bertfreudenberg",
-        "aranlunzer",
-        "alankay"
-      ],
-      "Key": "px-2016-towards-making-a-computer-tutor-for-children-of-all-ages-a-memo-",
-      "PersonsString": "Yoshiki Ohshima, Alessandro Warth, Bert Freudenberg, Aran Lunzer and Alan Kay",
-      "Title": "Towards Making a Computer Tutor for Children of All Ages - A Memo.",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/px-2016-towards-making-a-computer-tutor-for-children-of-all-ages-a-memo-"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["matthewhuebert"],
-      "Key": "px-2016-i-sit-down-at-my-editor-and-feel-relaxed-",
-      "PersonsString": "Matthew Huebert",
-      "Title": "I sit down at my editor, and feel relaxed.",
-      "Type": "Demonstration",
-      "URL": "http://2016.ecoop.org/event/px-2016-i-sit-down-at-my-editor-and-feel-relaxed-"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "",
-        "Hasso Plattner Institute",
-        "HPI"
-      ],
-      "AffiliationsString": ", Hasso Plattner Institute, HPI",
-      "Authors": [
-        "astridthomschke",
-        "danielstolpe",
-        "marceltaeumel",
-        "roberthirschfeld"
-      ],
-      "Key": "px-2016-towards-gaze-control-in-programming-environments-",
-      "PersonsString": "Astrid Thomschke, Daniel Stolpe, Marcel Taeumel and Robert Hirschfeld",
-      "Title": "Towards Gaze Control in Programming Environments.",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/px-2016-towards-gaze-control-in-programming-environments-"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "Hasso Plattner Institute",
-        "HPI"
-      ],
-      "AffiliationsString": "Hasso Plattner Institute, HPI",
-      "Authors": [
-        "marceltaeumel",
-        "roberthirschfeld"
-      ],
-      "Key": "px-2016-evolving-user-interfaces-within-self-sustaining-programming-environments-exploring-the-project-concept-of-squeak-smalltalk-to-bootstrap-uis-",
-      "PersonsString": "Marcel Taeumel and Robert Hirschfeld",
-      "Title": "Evolving User Interfaces Within Self-sustaining Programming Environments: Exploring the Project Concept of Squeak/Smalltalk to Bootstrap UIs.",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/px-2016-evolving-user-interfaces-within-self-sustaining-programming-environments-exploring-the-project-concept-of-squeak-smalltalk-to-bootstrap-uis-"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "University of Bern, Switzerland",
-        "CompuGroup Medical Schweiz AG",
-        "University of Chile",
-        "University of Bern, Switzerland",
-        "",
-        "University of Bern"
-      ],
-      "AffiliationsString": "University of Bern, Switzerland, CompuGroup Medical Schweiz AG, University of Chile, , University of Bern",
-      "Authors": [
-        "andreichis",
-        "tudorgirba",
-        "jurajkubelka",
-        "oscarnierstrasz",
-        "stefanreichhart",
-        "aliakseisyrel"
-      ],
-      "Key": "px-2016-exemplifying-moldable-development-",
-      "PersonsString": "Andrei Chiş, Tudor Gîrba, Juraj Kubelka, Oscar Nierstrasz, Stefan Reichhart and Aliaksei Syrel",
-      "Title": "Exemplifying Moldable Development.",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/px-2016-exemplifying-moldable-development-"
-    },
-    {
-      "Abstract": "",
       "Affiliations": ["University of California, Berkeley"],
       "AffiliationsString": "University of California, Berkeley",
       "Authors": ["koushiksen"],
-      "Key": "jstools-2016-monitoring-javascript-programs-with-jalangi",
+      "Key": "vortex-2016-monitoring-javascript-programs-with-jalangi",
       "PersonsString": "Koushik Sen",
-      "Title": "Invited Talk - Monitoring JavaScript Programs with Jalangi",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/jstools-2016-monitoring-javascript-programs-with-jalangi"
+      "Title": " Monitoring JavaScript Programs with Jalangi",
+      "Type": "Event",
+      "URL": "http://2016.ecoop.org/event/vortex-2016-monitoring-javascript-programs-with-jalangi"
     },
     {
       "Abstract": "",
@@ -922,6 +748,180 @@
     },
     {
       "Abstract": "",
+      "Affiliations": ["University of California, Berkeley"],
+      "AffiliationsString": "University of California, Berkeley",
+      "Authors": ["koushiksen"],
+      "Key": "jstools-2016-monitoring-javascript-programs-with-jalangi",
+      "PersonsString": "Koushik Sen",
+      "Title": "Invited Talk - Monitoring JavaScript Programs with Jalangi",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/jstools-2016-monitoring-javascript-programs-with-jalangi"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "Hasso Plattner Institute",
+        "Hasso-Plattner-Institute, Potsdam",
+        "Hasso Plattner Institute",
+        "HPI"
+      ],
+      "AffiliationsString": "Hasso Plattner Institute, Hasso-Plattner-Institute, Potsdam, HPI",
+      "Authors": [
+        "patrickrein",
+        "stefanlehmann",
+        "tonimattis",
+        "roberthirschfeld"
+      ],
+      "Key": "px-2016-how-live-are-live-programming-systems-benchmarking-the-response-times-of-live-programming-environments-",
+      "PersonsString": "Patrick Rein, Stefan Lehmann, Toni Mattis and Robert Hirschfeld",
+      "Title": "How Live are Live Programming Systems? \u2013 Benchmarking the Response Times of Live Programming Environments.",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/px-2016-how-live-are-live-programming-systems-benchmarking-the-response-times-of-live-programming-environments-"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "px-2016-introduction",
+      "PersonsString": "",
+      "Title": "Introduction",
+      "Type": "Day opening",
+      "URL": "http://2016.ecoop.org/event/px-2016-introduction"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "ETH Zurich"
+      ],
+      "AffiliationsString": ", ETH Zurich",
+      "Authors": [
+        "dimitarasenov",
+        "petermller"
+      ],
+      "Key": "px-2016-reinventing-the-ide-",
+      "PersonsString": "Dimitar Asenov and Peter Müller",
+      "Title": "Reinventing the IDE.",
+      "Type": "Demonstration",
+      "URL": "http://2016.ecoop.org/event/px-2016-reinventing-the-ide-"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "amirkirsh",
+        "irisgaber"
+      ],
+      "Key": "px-2016-satisfaction-time-investment-and-success-in-students-programming-exercise-",
+      "PersonsString": "Amir Kirsh and Iris Gaber",
+      "Title": "Satisfaction, Time Investment and Success in Students' Programming Exercise.",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/px-2016-satisfaction-time-investment-and-success-in-students-programming-exercise-"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "Viewpoints Research Institute",
+        "HARC / Y Combinator Research",
+        "",
+        "",
+        "University of California at Los Angeles, USA"
+      ],
+      "AffiliationsString": "Viewpoints Research Institute, HARC / Y Combinator Research, , University of California at Los Angeles, USA",
+      "Authors": [
+        "yoshikiohshima",
+        "alessandrowarth",
+        "bertfreudenberg",
+        "aranlunzer",
+        "alankay"
+      ],
+      "Key": "px-2016-towards-making-a-computer-tutor-for-children-of-all-ages-a-memo-",
+      "PersonsString": "Yoshiki Ohshima, Alessandro Warth, Bert Freudenberg, Aran Lunzer and Alan Kay",
+      "Title": "Towards Making a Computer Tutor for Children of All Ages - A Memo.",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/px-2016-towards-making-a-computer-tutor-for-children-of-all-ages-a-memo-"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["matthewhuebert"],
+      "Key": "px-2016-i-sit-down-at-my-editor-and-feel-relaxed-",
+      "PersonsString": "Matthew Huebert",
+      "Title": "I sit down at my editor, and feel relaxed.",
+      "Type": "Demonstration",
+      "URL": "http://2016.ecoop.org/event/px-2016-i-sit-down-at-my-editor-and-feel-relaxed-"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "",
+        "Hasso Plattner Institute",
+        "HPI"
+      ],
+      "AffiliationsString": ", Hasso Plattner Institute, HPI",
+      "Authors": [
+        "astridthomschke",
+        "danielstolpe",
+        "marceltaeumel",
+        "roberthirschfeld"
+      ],
+      "Key": "px-2016-towards-gaze-control-in-programming-environments-",
+      "PersonsString": "Astrid Thomschke, Daniel Stolpe, Marcel Taeumel and Robert Hirschfeld",
+      "Title": "Towards Gaze Control in Programming Environments.",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/px-2016-towards-gaze-control-in-programming-environments-"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "Hasso Plattner Institute",
+        "HPI"
+      ],
+      "AffiliationsString": "Hasso Plattner Institute, HPI",
+      "Authors": [
+        "marceltaeumel",
+        "roberthirschfeld"
+      ],
+      "Key": "px-2016-evolving-user-interfaces-within-self-sustaining-programming-environments-exploring-the-project-concept-of-squeak-smalltalk-to-bootstrap-uis-",
+      "PersonsString": "Marcel Taeumel and Robert Hirschfeld",
+      "Title": "Evolving User Interfaces Within Self-sustaining Programming Environments: Exploring the Project Concept of Squeak/Smalltalk to Bootstrap UIs.",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/px-2016-evolving-user-interfaces-within-self-sustaining-programming-environments-exploring-the-project-concept-of-squeak-smalltalk-to-bootstrap-uis-"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "University of Bern, Switzerland",
+        "CompuGroup Medical Schweiz AG",
+        "University of Chile",
+        "University of Bern, Switzerland",
+        "",
+        "University of Bern"
+      ],
+      "AffiliationsString": "University of Bern, Switzerland, CompuGroup Medical Schweiz AG, University of Chile, , University of Bern",
+      "Authors": [
+        "andreichis",
+        "tudorgirba",
+        "jurajkubelka",
+        "oscarnierstrasz",
+        "stefanreichhart",
+        "aliakseisyrel"
+      ],
+      "Key": "px-2016-exemplifying-moldable-development-",
+      "PersonsString": "Andrei Chiş, Tudor Gîrba, Juraj Kubelka, Oscar Nierstrasz, Stefan Reichhart and Aliaksei Syrel",
+      "Title": "Exemplifying Moldable Development.",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/px-2016-exemplifying-moldable-development-"
+    },
+    {
+      "Abstract": "",
       "Affiliations": ["Independent Consultant"],
       "AffiliationsString": "Independent Consultant",
       "Authors": ["carllerche"],
@@ -999,25 +999,6 @@
       "URL": "http://2016.ecoop.org/event/ftfjp-2016-towards-modular-reasoning-for-context-oriented-programs"
     },
     {
-      "Abstract": "Updating running programs is a well-researched and increasingly popular feature of programming language implementations. While there are solutions targeting specific languages and platforms, implementing dynamic update for new languages can require significant effort. We have built TruffleReloader, a reusable dynamic updating solution, on top of the Truffle language implementation framework, and adapted the Truffle implementations of Python, Ruby and JavaScript to use this feature. We show how TruffleReloader adds reloading capabilities to these implementations requiring limited language-specific modifications. With Truffle\u2019s just-in-time compiler enabled, our solution incurs close to zero overhead on steady-state performance. This approach reduces the effort required to add dynamic update support for existing and future languages.",
-      "Affiliations": [
-        "ZeroTurnaround / University of Tartu",
-        "ZeroTurnaround",
-        "University of Tartu"
-      ],
-      "AffiliationsString": "ZeroTurnaround / University of Tartu, ZeroTurnaround, University of Tartu",
-      "Authors": [
-        "tonispool",
-        "allanraundahlgregersen",
-        "vesalvojdani"
-      ],
-      "Key": "icooolps-2016-trufflereloader-a-low-overhead-language-neutral-reloader",
-      "PersonsString": "Tõnis Pool, Allan Raundahl Gregersen and Vesal Vojdani",
-      "Title": "TruffleReloader: A Low-Overhead Language-Neutral Reloader",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/icooolps-2016-trufflereloader-a-low-overhead-language-neutral-reloader"
-    },
-    {
       "Abstract": "",
       "Affiliations": [
         "Indiana University",
@@ -1050,42 +1031,6 @@
       "Title": " Towards Aggregate Programming in Scala",
       "Type": "Event",
       "URL": "http://2016.ecoop.org/event/pmldc-2016-towards-aggregate-programming-in-scala"
-    },
-    {
-      "Abstract": "We investigate how to represent objects when JavaScript is used as a compilation target.This is an interesting question because JavaScript is the object language of choice for compiler writers who wish to \u201dthe Internet\u201c, and because JavaScript offers many ways to say the same thing. \nWe looked at three axes of variability: whether an object\u2019s methods are stored in the object itself, or in a prototype; whether the object uses Javascript\u2019s closures or builds its own, and whether an object\u2019s fields are accessed directly or via accessor methods.The results reveal that certain variations are more than a hundred times faster than others. We conclude that the particular choices we make may be critical.",
-      "Affiliations": [
-        "Portland State University",
-        "Portland State University"
-      ],
-      "AffiliationsString": "Portland State University",
-      "Authors": [
-        "forrestalexander",
-        "andrewblack"
-      ],
-      "Key": "icooolps-2016-the-performance-of-object-encodings-in-javascript",
-      "PersonsString": "Forrest Alexander and Andrew Black",
-      "Title": "The Performance of Object Encodings in JavaScript",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/icooolps-2016-the-performance-of-object-encodings-in-javascript"
-    },
-    {
-      "Abstract": "A method handle (MH) is a reference to an underlying Java method with potential method type transformations. Multiple interconnected method handles form a method handle graph (MHG). Together with the Java Virtual Machine (JVM) instruction, invokedynamic, the implementation of MHGs is significant to dynamically typed language implementations on the JVM. Addressing the abundance of equivalent MHGs during program runtime, this paper presents an MHG equivalence model and an online Method Handle Deduplication System (MHDeS). The equivalence model determines the equivalence of two MHGs in terms of two kinds of keys, i.e., MH key and MHG key, which uniquely identify the transformation of an MH and an MHG, respectively. MHDeS is an implementation of the equivalence model. Instead of creating equivalent MHGs and then detecting their equivalency, MHDeS employs a light-weight structure, the MHG index key, which wraps constructor parameters of an MH. MHDeS uses a transformation index, fast-path comparison, and filters, to speed up the equivalency detection of an MHG index key. Our experimental results with the Computer Language Benchmark Game (CLBG) JRuby micro-indy show that 1) MHDeS with filter off can speed up the benchmark by 4.67% and reduces memory usage by 7.19% on average; 2) the deduplication result can be affected by the choice of MH transformations for filtering; 3) MHDeS can have the MH JIT compilation performed earlier; and 4) as much as 32% of MHG index keys are detected as non-unique and eliminated by MHDeS, and the expense for a single detection is trivial.",
-      "Affiliations": [
-        "University of New Brunswick",
-        "University of New Brunswick",
-        "IBM"
-      ],
-      "AffiliationsString": "University of New Brunswick, IBM",
-      "Authors": [
-        "shijiexu",
-        "davidbremner",
-        "danielheidinga"
-      ],
-      "Key": "icooolps-2016-mhdes-deduplicate-method-handle-graph-for-efficient-dynamic-jvm-language-implementations",
-      "PersonsString": "Shijie Xu, David Bremner and Daniel Heidinga",
-      "Title": "MHDeS: Deduplicate Method Handle Graph for Efficient Dynamic JVM Language Implementations",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/icooolps-2016-mhdes-deduplicate-method-handle-graph-for-efficient-dynamic-jvm-language-implementations"
     },
     {
       "Abstract": "",
@@ -1124,28 +1069,6 @@
       "Title": " On the Potential of Event Sourcing for Retroactive Actor-based Programming",
       "Type": "Event",
       "URL": "http://2016.ecoop.org/event/pmldc-2016-on-the-potential-of-event-sourcing-for-retroactive-actor-based-programming"
-    },
-    {
-      "Abstract": "This paper presents a technique for assembling Smalltalk programs out of pieces using propositional Horn clauses. The technique allows the dependencies and restrictions of a piece to be stated inside the piece or outside, allowing components from other dialects to be used. The technique is applicable to any OO language allowing class extensions.",
-      "Affiliations": ["Computer Science, University of Otago"],
-      "AffiliationsString": "Computer Science, University of Otago",
-      "Authors": ["richardokeefe"],
-      "Key": "icooolps-2016-building-object-oriented-programs-out-of-pieces",
-      "PersonsString": "Richard O'Keefe",
-      "Title": "Building Object-Oriented Programs out of Pieces",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/icooolps-2016-building-object-oriented-programs-out-of-pieces"
-    },
-    {
-      "Abstract": "Many dynamic program analysis (DPA) tools for profiling, debugging, and monitoring programs executing on managed platforms such as the Java Virtual Machine (JVM) rely on bytecode instrumentation (sometimes combined with agents utilizing the JVM Tool Interface and native code libraries) to observe the base program behavior. While this is both the recommended and preferred technique for implementing DPA tools, it has certain noticeable drawbacks.\nOne, the analysis runs in the same process as the base program, and often shares the Java Class Library (JCL) and other resources with the base program. This creates potential for interference that may result in deadlocks, or state corruption in code that does not expect reentrancy. Two, certain parts of the JCL are typically off-limits for instrumentation, because they either play a vital role during the JVM bootstrap, or the JVM implementation makes certain assumptions about properties of specific classes, or both. These two issues are typically solved by reducing the scope of the instrumentation, leading to under-approximation of the program\u2019s behavior.\nAnd three, bytecode instrumentation only allows observig base program events at the bytecode level. The instrumentation code remains oblivious to optimizations performed by the dynamic compiler, and conversely, the compiler is completely unaware of the presence of the instrumentation code. Because the instrumentation code may significantly inflate the base program code and create additional data dependencies as a result of observing the program\u2019s behavior, various optimizations performed by the dynamic compiler (e.g., inlining, partial escape analysis, code motion) will be perturbed by the presence of the instrumentation code. As a result, the dynamic analysis may observe events that would not have happened in the base program had it been left alone, thus over-approximating the actual behavior.\nIn this talk, we will discuss some of the challenges in making the JVM more observable for instrumentation-based DPA tools, with specific focus on getting accurate profiling information in presence of an optimizing dynamic compiler.",
-      "Affiliations": ["Charles University"],
-      "AffiliationsString": "Charles University",
-      "Authors": ["lubomirbulej"],
-      "Key": "icooolps-2016-invited-talk-1-tba-",
-      "PersonsString": "Lubomír Bulej",
-      "Title": "Beneath the Bytecode: Observing the JVM at Work Using Bytecode Instrumentation",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/icooolps-2016-invited-talk-1-tba-"
     },
     {
       "Abstract": "",
@@ -1344,44 +1267,6 @@
       "URL": "http://2016.ecoop.org/event/ftfjp-2016-a-mechanical-soundness-proof-for-subtyping-over-recursive-types"
     },
     {
-      "Abstract": "For the last decade, the Java Virtual Machine (JVM) has been a popular platform to host languages other than Java. Language implementation frameworks like Truffle allow the implementation of dynamic languages such as JavaScript or Ruby with competitive performance and completeness. However, statically typed languages are still rare under Truffle. We present Sulong, an LLVM IR interpreter that brings all LLVM-based languages including C, C++, and Fortran in one stroke to the JVM. Executing these languages on the JVM enables a wide area of future research, including high- performance interoperability between high-level and low- level languages, combination of static and dynamic optimizations, and a memory-safe execution of otherwise unsafe and unmanaged languages.",
-      "Affiliations": [
-        "Johannes Kepler University, Linz, Austria",
-        "Johannes Kepler University Linz",
-        "Johannes Kepler University Linz"
-      ],
-      "AffiliationsString": "Johannes Kepler University, Linz, Austria, Johannes Kepler University Linz",
-      "Authors": [
-        "manuelrigger",
-        "matthiasgrimmer",
-        "hanspetermossenbock"
-      ],
-      "Key": "icooolps-2016-sulong-execution-of-llvm-based-languages-on-the-jvm",
-      "PersonsString": "Manuel Rigger, Matthias Grimmer and Hanspeter Mössenböck",
-      "Title": "Sulong - Execution of LLVM-Based Languages on the JVM",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/icooolps-2016-sulong-execution-of-llvm-based-languages-on-the-jvm"
-    },
-    {
-      "Abstract": "Applications employing the actor model of concurrent computation are becoming popular nowadays. On the one hand, the foundational characteristics of the actor model make it attractive in parallel and distributed settings. On the other hand, effective investigation of poor performance in actor-based applications requires dedicated metrics and profiling methods. Unfortunately, little research has been conducted on this topic to date, and developers are forced to investigate suboptimal performance with general-purpose profilers that fall short in locating scalability bottlenecks and performance inefficiencies. This position paper advocates the need for dedicated profiling techniques and tools for actor-based applications, focusing specifically on inter-actor communication and actor utilization. Our preliminary results support the importance of dedicated actor profiling and motivate further research on this topic.",
-      "Affiliations": [
-        "Università della Svizzera italiana",
-        "IBM Research Lab Zurich",
-        "University of Lugano"
-      ],
-      "AffiliationsString": "Università della Svizzera italiana, IBM Research Lab Zurich, University of Lugano",
-      "Authors": [
-        "andrearosa",
-        "lydiaychen",
-        "walterbinder"
-      ],
-      "Key": "icooolps-2016-efficient-profiling-of-actor-based-applications-in-parallel-and-distributed-systems",
-      "PersonsString": "Andrea Rosà, Lydia Y. Chen and Walter Binder",
-      "Title": "Efficient Profiling of Actor-based Applications in Parallel and Distributed Systems",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/icooolps-2016-efficient-profiling-of-actor-based-applications-in-parallel-and-distributed-systems"
-    },
-    {
       "Abstract": "",
       "Affiliations": [
         "Università della Svizzera italiana",
@@ -1437,6 +1322,176 @@
       "Title": " Integration Challenges of Pure Operation-based CRDTs in Redis",
       "Type": "Event",
       "URL": "http://2016.ecoop.org/event/pmldc-2016-integration-challenges-of-pure-operation-based-crdts-in-redis"
+    },
+    {
+      "Abstract": "We face the problem of providing a denotational semantics for corecursive methods with default, a programming feature for manipulating cyclic structures without ad-hoc machinery. To this aim, we study new lattices for which the theorem of Kleene is applicable so that the semantics of a corecursive method with default corresponds to the greatest fixed point computed as the greatest lower bound of a descending chain. The proposed definition allows us to prove correctness of some kinds of corecursive methods. This solution is only partly satisfactory, and a different and more general approach is currently under development.",
+      "Affiliations": [
+        "University of Genova",
+        "",
+        "University of Genova"
+      ],
+      "AffiliationsString": "University of Genova, ",
+      "Authors": [
+        "davideancona",
+        "francescodagnino",
+        "elenazucca"
+      ],
+      "Key": "ftfjp-2016-towards-a-model-of-corecursion-with-default",
+      "PersonsString": "Davide Ancona, Francesco Dagnino and Elena Zucca",
+      "Title": "Towards a Model of Corecursion with Default",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/ftfjp-2016-towards-a-model-of-corecursion-with-default"
+    },
+    {
+      "Abstract": "Updating running programs is a well-researched and increasingly popular feature of programming language implementations. While there are solutions targeting specific languages and platforms, implementing dynamic update for new languages can require significant effort. We have built TruffleReloader, a reusable dynamic updating solution, on top of the Truffle language implementation framework, and adapted the Truffle implementations of Python, Ruby and JavaScript to use this feature. We show how TruffleReloader adds reloading capabilities to these implementations requiring limited language-specific modifications. With Truffle\u2019s just-in-time compiler enabled, our solution incurs close to zero overhead on steady-state performance. This approach reduces the effort required to add dynamic update support for existing and future languages.",
+      "Affiliations": [
+        "ZeroTurnaround / University of Tartu",
+        "ZeroTurnaround",
+        "University of Tartu"
+      ],
+      "AffiliationsString": "ZeroTurnaround / University of Tartu, ZeroTurnaround, University of Tartu",
+      "Authors": [
+        "tonispool",
+        "allanraundahlgregersen",
+        "vesalvojdani"
+      ],
+      "Key": "icooolps-2016-trufflereloader-a-low-overhead-language-neutral-reloader",
+      "PersonsString": "Tõnis Pool, Allan Raundahl Gregersen and Vesal Vojdani",
+      "Title": "TruffleReloader: A Low-Overhead Language-Neutral Reloader",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/icooolps-2016-trufflereloader-a-low-overhead-language-neutral-reloader"
+    },
+    {
+      "Abstract": "We investigate how to represent objects when JavaScript is used as a compilation target.This is an interesting question because JavaScript is the object language of choice for compiler writers who wish to \u201dthe Internet\u201c, and because JavaScript offers many ways to say the same thing. \nWe looked at three axes of variability: whether an object\u2019s methods are stored in the object itself, or in a prototype; whether the object uses Javascript\u2019s closures or builds its own, and whether an object\u2019s fields are accessed directly or via accessor methods.The results reveal that certain variations are more than a hundred times faster than others. We conclude that the particular choices we make may be critical.",
+      "Affiliations": [
+        "Portland State University",
+        "Portland State University"
+      ],
+      "AffiliationsString": "Portland State University",
+      "Authors": [
+        "forrestalexander",
+        "andrewblack"
+      ],
+      "Key": "icooolps-2016-the-performance-of-object-encodings-in-javascript",
+      "PersonsString": "Forrest Alexander and Andrew Black",
+      "Title": "The Performance of Object Encodings in JavaScript",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/icooolps-2016-the-performance-of-object-encodings-in-javascript"
+    },
+    {
+      "Abstract": "A method handle (MH) is a reference to an underlying Java method with potential method type transformations. Multiple interconnected method handles form a method handle graph (MHG). Together with the Java Virtual Machine (JVM) instruction, invokedynamic, the implementation of MHGs is significant to dynamically typed language implementations on the JVM. Addressing the abundance of equivalent MHGs during program runtime, this paper presents an MHG equivalence model and an online Method Handle Deduplication System (MHDeS). The equivalence model determines the equivalence of two MHGs in terms of two kinds of keys, i.e., MH key and MHG key, which uniquely identify the transformation of an MH and an MHG, respectively. MHDeS is an implementation of the equivalence model. Instead of creating equivalent MHGs and then detecting their equivalency, MHDeS employs a light-weight structure, the MHG index key, which wraps constructor parameters of an MH. MHDeS uses a transformation index, fast-path comparison, and filters, to speed up the equivalency detection of an MHG index key. Our experimental results with the Computer Language Benchmark Game (CLBG) JRuby micro-indy show that 1) MHDeS with filter off can speed up the benchmark by 4.67% and reduces memory usage by 7.19% on average; 2) the deduplication result can be affected by the choice of MH transformations for filtering; 3) MHDeS can have the MH JIT compilation performed earlier; and 4) as much as 32% of MHG index keys are detected as non-unique and eliminated by MHDeS, and the expense for a single detection is trivial.",
+      "Affiliations": [
+        "University of New Brunswick",
+        "University of New Brunswick",
+        "IBM"
+      ],
+      "AffiliationsString": "University of New Brunswick, IBM",
+      "Authors": [
+        "shijiexu",
+        "davidbremner",
+        "danielheidinga"
+      ],
+      "Key": "icooolps-2016-mhdes-deduplicate-method-handle-graph-for-efficient-dynamic-jvm-language-implementations",
+      "PersonsString": "Shijie Xu, David Bremner and Daniel Heidinga",
+      "Title": "MHDeS: Deduplicate Method Handle Graph for Efficient Dynamic JVM Language Implementations",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/icooolps-2016-mhdes-deduplicate-method-handle-graph-for-efficient-dynamic-jvm-language-implementations"
+    },
+    {
+      "Abstract": "This paper presents a technique for assembling Smalltalk programs out of pieces using propositional Horn clauses. The technique allows the dependencies and restrictions of a piece to be stated inside the piece or outside, allowing components from other dialects to be used. The technique is applicable to any OO language allowing class extensions.",
+      "Affiliations": ["Computer Science, University of Otago"],
+      "AffiliationsString": "Computer Science, University of Otago",
+      "Authors": ["richardokeefe"],
+      "Key": "icooolps-2016-building-object-oriented-programs-out-of-pieces",
+      "PersonsString": "Richard O'Keefe",
+      "Title": "Building Object-Oriented Programs out of Pieces",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/icooolps-2016-building-object-oriented-programs-out-of-pieces"
+    },
+    {
+      "Abstract": "Many dynamic program analysis (DPA) tools for profiling, debugging, and monitoring programs executing on managed platforms such as the Java Virtual Machine (JVM) rely on bytecode instrumentation (sometimes combined with agents utilizing the JVM Tool Interface and native code libraries) to observe the base program behavior. While this is both the recommended and preferred technique for implementing DPA tools, it has certain noticeable drawbacks.\nOne, the analysis runs in the same process as the base program, and often shares the Java Class Library (JCL) and other resources with the base program. This creates potential for interference that may result in deadlocks, or state corruption in code that does not expect reentrancy. Two, certain parts of the JCL are typically off-limits for instrumentation, because they either play a vital role during the JVM bootstrap, or the JVM implementation makes certain assumptions about properties of specific classes, or both. These two issues are typically solved by reducing the scope of the instrumentation, leading to under-approximation of the program\u2019s behavior.\nAnd three, bytecode instrumentation only allows observig base program events at the bytecode level. The instrumentation code remains oblivious to optimizations performed by the dynamic compiler, and conversely, the compiler is completely unaware of the presence of the instrumentation code. Because the instrumentation code may significantly inflate the base program code and create additional data dependencies as a result of observing the program\u2019s behavior, various optimizations performed by the dynamic compiler (e.g., inlining, partial escape analysis, code motion) will be perturbed by the presence of the instrumentation code. As a result, the dynamic analysis may observe events that would not have happened in the base program had it been left alone, thus over-approximating the actual behavior.\nIn this talk, we will discuss some of the challenges in making the JVM more observable for instrumentation-based DPA tools, with specific focus on getting accurate profiling information in presence of an optimizing dynamic compiler.",
+      "Affiliations": ["Charles University"],
+      "AffiliationsString": "Charles University",
+      "Authors": ["lubomirbulej"],
+      "Key": "icooolps-2016-invited-talk-1-tba-",
+      "PersonsString": "Lubomír Bulej",
+      "Title": "Beneath the Bytecode: Observing the JVM at Work Using Bytecode Instrumentation",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/icooolps-2016-invited-talk-1-tba-"
+    },
+    {
+      "Abstract": "Virtual Machines (VMs) with Just-In-Time (JIT) compilers are traditionally thought to execute programs in two phases: first the \\emph{warmup} phase determines which parts of a program would most benefit from dynamic compilation; after compilation has occurred the program is said to be at \\emph{peak performance}. When measuring the performance of JIT compiling VMs, data collected during the warmup phase is generally discarded, placing the focus on peak performance. In this paper we run a number of small, deterministic benchmarks on a variety of well known VMs. In our experiment, less than one quarter of the benchmark/VM pairs conform to the traditional notion of warmup, and none of the VMs we tested consistently warms up in the traditional notion. This raises a number of questions about VM benchmarking, which are of interest to both VM authors and end users.",
+      "Affiliations": [
+        "King's College London",
+        "King's College London ",
+        "Department of Mathematics and Statistics, University of Lancaster",
+        "School of Mathematics, Cardiff University",
+        "King's College London",
+        "King's College London"
+      ],
+      "AffiliationsString": "King's College London, King's College London , Department of Mathematics and Statistics, University of Lancaster, School of Mathematics, Cardiff University",
+      "Authors": [
+        "eddbarrett",
+        "carlfriedrichbolz",
+        "rebeccakillick",
+        "vincentknight",
+        "sarahmount",
+        "laurietratt"
+      ],
+      "Key": "icooolps-2016-virtual-machine-warm-up-blows-hot-and-cold",
+      "PersonsString": "Edd Barrett, Carl Friedrich Bolz, Rebecca Killick, Vincent Knight, Sarah Mount and Laurence Tratt",
+      "Title": "Virtual Machine Warm-up Blows Hot and Cold",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/icooolps-2016-virtual-machine-warm-up-blows-hot-and-cold"
+    },
+    {
+      "Abstract": "For the last decade, the Java Virtual Machine (JVM) has been a popular platform to host languages other than Java. Language implementation frameworks like Truffle allow the implementation of dynamic languages such as JavaScript or Ruby with competitive performance and completeness. However, statically typed languages are still rare under Truffle. We present Sulong, an LLVM IR interpreter that brings all LLVM-based languages including C, C++, and Fortran in one stroke to the JVM. Executing these languages on the JVM enables a wide area of future research, including high- performance interoperability between high-level and low- level languages, combination of static and dynamic optimizations, and a memory-safe execution of otherwise unsafe and unmanaged languages.",
+      "Affiliations": [
+        "Johannes Kepler University, Linz, Austria",
+        "Johannes Kepler University Linz",
+        "Johannes Kepler University Linz"
+      ],
+      "AffiliationsString": "Johannes Kepler University, Linz, Austria, Johannes Kepler University Linz",
+      "Authors": [
+        "manuelrigger",
+        "matthiasgrimmer",
+        "hanspetermossenbock"
+      ],
+      "Key": "icooolps-2016-sulong-execution-of-llvm-based-languages-on-the-jvm",
+      "PersonsString": "Manuel Rigger, Matthias Grimmer and Hanspeter Mössenböck",
+      "Title": "Sulong - Execution of LLVM-Based Languages on the JVM",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/icooolps-2016-sulong-execution-of-llvm-based-languages-on-the-jvm"
+    },
+    {
+      "Abstract": "Applications employing the actor model of concurrent computation are becoming popular nowadays. On the one hand, the foundational characteristics of the actor model make it attractive in parallel and distributed settings. On the other hand, effective investigation of poor performance in actor-based applications requires dedicated metrics and profiling methods. Unfortunately, little research has been conducted on this topic to date, and developers are forced to investigate suboptimal performance with general-purpose profilers that fall short in locating scalability bottlenecks and performance inefficiencies. This position paper advocates the need for dedicated profiling techniques and tools for actor-based applications, focusing specifically on inter-actor communication and actor utilization. Our preliminary results support the importance of dedicated actor profiling and motivate further research on this topic.",
+      "Affiliations": [
+        "Università della Svizzera italiana",
+        "IBM Research Lab Zurich",
+        "University of Lugano"
+      ],
+      "AffiliationsString": "Università della Svizzera italiana, IBM Research Lab Zurich, University of Lugano",
+      "Authors": [
+        "andrearosa",
+        "lydiaychen",
+        "walterbinder"
+      ],
+      "Key": "icooolps-2016-efficient-profiling-of-actor-based-applications-in-parallel-and-distributed-systems",
+      "PersonsString": "Andrea Rosà, Lydia Y. Chen and Walter Binder",
+      "Title": "Efficient Profiling of Actor-based Applications in Parallel and Distributed Systems",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/icooolps-2016-efficient-profiling-of-actor-based-applications-in-parallel-and-distributed-systems"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Johannes Kepler University Linz"],
+      "AffiliationsString": "Johannes Kepler University Linz",
+      "Authors": ["stefanmarr"],
+      "Key": "icooolps-2016-welcome",
+      "PersonsString": "Stefan Marr",
+      "Title": "Welcome",
+      "Type": "Day opening",
+      "URL": "http://2016.ecoop.org/event/icooolps-2016-welcome"
     },
     {
       "Abstract": "",
@@ -1504,50 +1559,6 @@
       "Title": "Growing an Abstract Grammar: Teaching Language Engineering",
       "Type": "Talk",
       "URL": "http://2016.ecoop.org/event/icooolps-2016-invited-talk-2-tba-"
-    },
-    {
-      "Abstract": "We face the problem of providing a denotational semantics for corecursive methods with default, a programming feature for manipulating cyclic structures without ad-hoc machinery. To this aim, we study new lattices for which the theorem of Kleene is applicable so that the semantics of a corecursive method with default corresponds to the greatest fixed point computed as the greatest lower bound of a descending chain. The proposed definition allows us to prove correctness of some kinds of corecursive methods. This solution is only partly satisfactory, and a different and more general approach is currently under development.",
-      "Affiliations": [
-        "University of Genova",
-        "",
-        "University of Genova"
-      ],
-      "AffiliationsString": "University of Genova, ",
-      "Authors": [
-        "davideancona",
-        "francescodagnino",
-        "elenazucca"
-      ],
-      "Key": "ftfjp-2016-towards-a-model-of-corecursion-with-default",
-      "PersonsString": "Davide Ancona, Francesco Dagnino and Elena Zucca",
-      "Title": "Towards a Model of Corecursion with Default",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/ftfjp-2016-towards-a-model-of-corecursion-with-default"
-    },
-    {
-      "Abstract": "Virtual Machines (VMs) with Just-In-Time (JIT) compilers are traditionally thought to execute programs in two phases: first the \\emph{warmup} phase determines which parts of a program would most benefit from dynamic compilation; after compilation has occurred the program is said to be at \\emph{peak performance}. When measuring the performance of JIT compiling VMs, data collected during the warmup phase is generally discarded, placing the focus on peak performance. In this paper we run a number of small, deterministic benchmarks on a variety of well known VMs. In our experiment, less than one quarter of the benchmark/VM pairs conform to the traditional notion of warmup, and none of the VMs we tested consistently warms up in the traditional notion. This raises a number of questions about VM benchmarking, which are of interest to both VM authors and end users.",
-      "Affiliations": [
-        "King's College London",
-        "King's College London ",
-        "Department of Mathematics and Statistics, University of Lancaster",
-        "School of Mathematics, Cardiff University",
-        "King's College London",
-        "King's College London"
-      ],
-      "AffiliationsString": "King's College London, King's College London , Department of Mathematics and Statistics, University of Lancaster, School of Mathematics, Cardiff University",
-      "Authors": [
-        "eddbarrett",
-        "carlfriedrichbolz",
-        "rebeccakillick",
-        "vincentknight",
-        "sarahmount",
-        "laurietratt"
-      ],
-      "Key": "icooolps-2016-virtual-machine-warm-up-blows-hot-and-cold",
-      "PersonsString": "Edd Barrett, Carl Friedrich Bolz, Rebecca Killick, Vincent Knight, Sarah Mount and Laurence Tratt",
-      "Title": "Virtual Machine Warm-up Blows Hot and Cold",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/icooolps-2016-virtual-machine-warm-up-blows-hot-and-cold"
     },
     {
       "Abstract": "We would like to see live programming applied to language development, to get live language development. With live language development, a language developer gets fast feedback when they change their language, enabling experimentation with language design and development.\nIn this paper, we describe what live language development is and why it is useful, and we analyze what is needed to achieve live language development. Moreover, we describe our work in progress in supporting live language development in the Spoofax language workbench.",
@@ -2117,17 +2128,6 @@
       "URL": "http://2016.ecoop.org/event/curryon-2016-catering-break"
     },
     {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "curryon-2016-curry-on-party-",
-      "PersonsString": "",
-      "Title": "Curry On Party!",
-      "Type": "Social Event",
-      "URL": "http://2016.ecoop.org/event/curryon-2016-curry-on-party-"
-    },
-    {
       "Abstract": "Live programming aims to provide programmers with useful continuous feedback from a live executing program. Realizing the \u201cuseful\u201d part is not easy: automatic re-execution and even time travel debugging do not significantly augment the general abstract reasoning that makes programming hard. This talk show how lessons learned from research on direct manipulation; example-centric, conversational, learnable, and visual programming; live coding; and even Hollywood\u2019s fictional interfaces, can help us envision and design amazing new programming experiences.",
       "Affiliations": ["Microsoft Research"],
       "AffiliationsString": "Microsoft Research",
@@ -2243,6 +2243,17 @@
       "Title": "Distributed Iterative Computation in TensorFlow",
       "Type": "Talk",
       "URL": "http://2016.ecoop.org/event/curryon-2016-distributed-iterative-computation-in-tensorflow"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "curryon-2016-curry-on-party-",
+      "PersonsString": "",
+      "Title": "Curry On Party!",
+      "Type": "Social Event",
+      "URL": "http://2016.ecoop.org/event/curryon-2016-curry-on-party-"
     },
     {
       "Abstract": "A programming language design must strike a balance between validatability, expressiveness, and efficiency. Bridging the gap between domain concepts and the encoding of these concepts in a programming language is one of the core challenges of software engineering. The validatability of a language is a measure of the size of this gap. In a language with a high validatability index, one can express intent with relatively little encoding, which makes it straightforward to establish that a program \u2018does the right thing\u2019. Validatability decreases with increasing encoding.\nThe objective of my thesis work is to do a case study to investigate this balance in the domain of information systems. Information systems are systems for the collection, organization, storage, and communication of information. Information systems aim to support operations, management and decision-making. In order to do this, the data in information systems is filtered and processed to create new data.",
@@ -2685,6 +2696,27 @@
       "URL": "http://2016.ecoop.org/event/ecoop-2016-papers-icedust-incremental-and-eventually-consistent-computation-of-derived-values-in-persisted-object-graphs"
     },
     {
+      "Abstract": "This artefact to accompanies the paper \u201cFine-grained Language Composition: A Case Study\u201d. The artefact is a VirtualBox image containing: pre-built binaries and source code for VMs used in the paper, the benchmarks (ready to run), the Eco examples from the screenshots, and preconfigured instances of the case studies described in the paper.",
+      "Affiliations": [
+        "King's College London",
+        "King's College London ",
+        "King's College London",
+        "King's College London"
+      ],
+      "AffiliationsString": "King's College London, King's College London ",
+      "Authors": [
+        "eddbarrett",
+        "carlfriedrichbolz",
+        "lukasdiekmann",
+        "laurietratt"
+      ],
+      "Key": "ecoop-2016-artifacts-fine-grained-language-composition-a-case-study",
+      "PersonsString": "Edd Barrett, Carl Friedrich Bolz, Lukas Diekmann and Laurence Tratt",
+      "Title": "Fine-grained Language Composition: A Case Study",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/ecoop-2016-artifacts-fine-grained-language-composition-a-case-study"
+    },
+    {
       "Abstract": "While DataBase Management Systems (DBMSs) are highly optimized, interactions across the Programming Language (PL) / DBMS boundary are costly, even for in-process embedded DBMSs. In this paper we show that programs that interact with the widely-used embedded DBMS SQLite can be significantly optimized \u2013 by a factor of 3.4 in our benchmarks \u2013 by inlining across the PL / DBMS boundary. We achieved this speed-up by replacing parts of SQLite\u2019s C interpreter with RPython code and composing the resulting meta-tracing VM \u2013 called SQPyte \u2013 with the PyPy VM. SQPyte does not compromise stand-alone SQL performance: it is 2.2% faster than SQLite on the widely used TPC-H benchmark suite.",
       "Affiliations": [
         "King's College London ",
@@ -2792,17 +2824,6 @@
       "Title": "Staccato: A Bug Finder for Dynamic Configuration Updates",
       "Type": "Talk",
       "URL": "http://2016.ecoop.org/event/ecoop-2016-papers-staccato-a-bug-finder-for-dynamic-configuration-updates"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "ecoop-2016-catering-ecoop-banquet",
-      "PersonsString": "",
-      "Title": "ECOOP Banquet",
-      "Type": "Dinner",
-      "URL": "http://2016.ecoop.org/event/ecoop-2016-catering-ecoop-banquet"
     },
     {
       "Abstract": "Application-level energy management is emerging in the form of frameworks and languages that treat energy management as a first-class concern. One major advantage to this approach is that it helps programmers reason about the energy behaviors of their programs instead of viewing said behaviors as merely a side-effect of computation. We introduce Ent, a novel programming language that encourages proactive and adaptive mode-based energy management at the application level. The proactive model allows programmers to leverage knowledge of their application by characterizing the energy behaviors of different program fragments with modes. The adaptive model allows such characterization to be delayed until run time, useful for capturing dynamic program behaviors dependent on program states, configuration settings, and external battery levels or CPU temperatures. Our key insight is both models can be unified under a hybrid type system with static and dynamic typing. We have implemented Ent as an extension of Java; in addition, Ent ships with an auxiliary library for querying battery and temperature information, abstracting away tedious hardware communication for Ent programmers. Ent has been ported to two mobile-platforms: an Intel CPU laptop and the Raspberry Pi. Empirical studies show Ent may improve the programmability, debuggability, energy efficiency, and productivity of battery-aware and temperature-aware programs. Future work will focus on porting Ent to the Android platform.",
@@ -3075,31 +3096,6 @@
       "Title": "The Elements of Decision Alignment: Large programs as complex organizations",
       "Type": "Talk",
       "URL": "http://2016.ecoop.org/event/ecoop-2016-papers-plenary-speaker-"
-    },
-    {
-      "Abstract": "Recent years have seen growing interest in the retrofitting of type systems onto dynamically-typed programming languages, in order to improve type safety, programmer productivity, or performance. In such cases, type system developers must strike a delicate balance between disallowing popular coding patterns in order to keep the type system simple and intuitively appealing, or including them at the expense of additional complexity and effort. Thus far, the process for designing retrofitted type systems has been largely ad-hoc, because evaluating multiple variations of a type system on large bodies of existing code is a significant undertaking.\nWe present trace typing: a framework for automatically and quantitatively evaluating variations of a retrofitted type system on large code bases. The trace typing approach involves gathering traces of program executions, inferring types for instances of variables and expressions occurring in a trace, and merging types according to merge strategies that reflect specific (combinations of) choices in the source-level type system design space.\nWe evaluate trace typing through several experiments. We compare several variations of type systems retrofitted onto JavaScript, and measuring the number of program locations with type errors reported in each case on a benchmark suite of over two hundred thousand lines of JavaScript code. We also report on using trace typing to validate and guide the design of a new retrofitted type system, whose purpose is to enable ahead-of-time compilation for JavaScript. Finally, we leverage the types computed by trace typing to automatically identify tag tests - dynamic checks that refine a type - and examine the variety of tests identified.",
-      "Affiliations": [
-        "Aarhus University",
-        "Drexel University",
-        "Samsung Research America",
-        "Samsung Research America",
-        "Samsung Research America",
-        "University of California, Berkeley"
-      ],
-      "AffiliationsString": "Aarhus University, Drexel University, Samsung Research America, University of California, Berkeley",
-      "Authors": [
-        "esbenandreasen",
-        "colingordon",
-        "satishchandra",
-        "manusridharan",
-        "franktip",
-        "koushiksen"
-      ],
-      "Key": "ecoop-2016-papers-trace-typing-an-approach-for-evaluating-retrofitted-type-systems",
-      "PersonsString": "Esben Andreasen, Colin Gordon, Satish Chandra, Manu Sridharan, Frank Tip and Koushik Sen",
-      "Title": "Trace Typing: An Approach for Evaluating Retrofitted Type Systems",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/ecoop-2016-papers-trace-typing-an-approach-for-evaluating-retrofitted-type-systems"
     },
     {
       "Abstract": "As was shown in earlier studies, mainstream object-oriented (OO) languages C# and Java provide weaker support for generic programming (GP) as compared with functional languages such as Haskell or SML. Having explored the instruments for GP in modern OO languages Scala, Ceylon, Kotlin, Rust, and Swift, we have found out that all of them, as well as C# and Java, stick to the same approach to constraining type parameters, which we called the \u201cConstraints-are-Types\u201d approach. It turns out that the approach has several inevitable limitations, and because of that Haskell type classes still provide better support for GP than modern object-oriented languages do. This research is aimed to discover a mechanism that would allow to radically improve the support for generic programming in OO languages. We identify the requirements that such mechanism should satisfy, present a design of the appropriate mechanism (concept parameters), and propose a sketch of its implementation for the C# language.",
@@ -3624,6 +3620,27 @@
       "URL": "http://2016.ecoop.org/event/ecoop-2016-artifacts-c-const-and-immutability-an-empirical-study-of-writes-through-const"
     },
     {
+      "Abstract": "Although run-time language composition is common, it normally takes the form of a crude Foreign Function Interface (FFI). While useful, such compositions tend to be coarse-grained and slow. In this paper we introduce a novel fine-grained syntactic composition of PHP and Python which allows users to embed each language inside the other, including referencing variables across languages. This composition raises novel design and implementation challenges. We show that good solutions can be found to the design challenges; and that the resulting implementation imposes an acceptable performance overhead of, at most, just over 2x.",
+      "Affiliations": [
+        "King's College London",
+        "King's College London ",
+        "King's College London",
+        "King's College London"
+      ],
+      "AffiliationsString": "King's College London, King's College London ",
+      "Authors": [
+        "eddbarrett",
+        "carlfriedrichbolz",
+        "lukasdiekmann",
+        "laurietratt"
+      ],
+      "Key": "ecoop-2016-papers-fine-grained-language-composition-a-case-study",
+      "PersonsString": "Edd Barrett, Carl Friedrich Bolz, Lukas Diekmann and Laurence Tratt",
+      "Title": "Fine-grained Language Composition: A Case Study",
+      "Type": "Talk",
+      "URL": "http://2016.ecoop.org/event/ecoop-2016-papers-fine-grained-language-composition-a-case-study"
+    },
+    {
       "Abstract": "While DataBase Management Systems (DBMSs) are highly optimized, interactions across the Programming Language (PL) / DBMS boundary are costly, even for in-process embedded DBMSs. In this paper we show that programs that interact with the widely-used embedded DBMS SQLite can be significantly optimized \u2013 by a factor of 3.4 in our benchmarks \u2013 by inlining across the PL / DBMS boundary. We achieved this speed-up by replacing parts of SQLite\u2019s C interpreter with RPython code and composing the resulting meta-tracing VM \u2013 called SQPyte \u2013 with the PyPy VM. SQPyte does not compromise stand-alone SQL performance: it is 2.2% faster than SQLite on the widely used TPC-H benchmark suite.",
       "Affiliations": [
         "King's College London ",
@@ -3711,46 +3728,40 @@
       "URL": "http://2016.ecoop.org/event/posters-icedust-incremental-and-eventual-computation-of-derived-values-in-persistent-object-graphs"
     },
     {
-      "Abstract": "This artefact to accompanies the paper \u201cFine-grained Language Composition: A Case Study\u201d. The artefact is a VirtualBox image containing: pre-built binaries and source code for VMs used in the paper, the benchmarks (ready to run), the Eco examples from the screenshots, and preconfigured instances of the case studies described in the paper.",
-      "Affiliations": [
-        "King's College London",
-        "King's College London ",
-        "King's College London",
-        "King's College London"
-      ],
-      "AffiliationsString": "King's College London, King's College London ",
-      "Authors": [
-        "eddbarrett",
-        "carlfriedrichbolz",
-        "lukasdiekmann",
-        "laurietratt"
-      ],
-      "Key": "ecoop-2016-artifacts-fine-grained-language-composition-a-case-study",
-      "PersonsString": "Edd Barrett, Carl Friedrich Bolz, Lukas Diekmann and Laurence Tratt",
-      "Title": "Fine-grained Language Composition: A Case Study",
-      "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/ecoop-2016-artifacts-fine-grained-language-composition-a-case-study"
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "ecoop-2016-catering-ecoop-banquet",
+      "PersonsString": "",
+      "Title": "ECOOP Banquet",
+      "Type": "Dinner",
+      "URL": "http://2016.ecoop.org/event/ecoop-2016-catering-ecoop-banquet"
     },
     {
-      "Abstract": "Although run-time language composition is common, it normally takes the form of a crude Foreign Function Interface (FFI). While useful, such compositions tend to be coarse-grained and slow. In this paper we introduce a novel fine-grained syntactic composition of PHP and Python which allows users to embed each language inside the other, including referencing variables across languages. This composition raises novel design and implementation challenges. We show that good solutions can be found to the design challenges; and that the resulting implementation imposes an acceptable performance overhead of, at most, just over 2x.",
+      "Abstract": "Recent years have seen growing interest in the retrofitting of type systems onto dynamically-typed programming languages, in order to improve type safety, programmer productivity, or performance. In such cases, type system developers must strike a delicate balance between disallowing popular coding patterns in order to keep the type system simple and intuitively appealing, or including them at the expense of additional complexity and effort. Thus far, the process for designing retrofitted type systems has been largely ad-hoc, because evaluating multiple variations of a type system on large bodies of existing code is a significant undertaking.\nWe present trace typing: a framework for automatically and quantitatively evaluating variations of a retrofitted type system on large code bases. The trace typing approach involves gathering traces of program executions, inferring types for instances of variables and expressions occurring in a trace, and merging types according to merge strategies that reflect specific (combinations of) choices in the source-level type system design space.\nWe evaluate trace typing through several experiments. We compare several variations of type systems retrofitted onto JavaScript, and measuring the number of program locations with type errors reported in each case on a benchmark suite of over two hundred thousand lines of JavaScript code. We also report on using trace typing to validate and guide the design of a new retrofitted type system, whose purpose is to enable ahead-of-time compilation for JavaScript. Finally, we leverage the types computed by trace typing to automatically identify tag tests - dynamic checks that refine a type - and examine the variety of tests identified.",
       "Affiliations": [
-        "King's College London",
-        "King's College London ",
-        "King's College London",
-        "King's College London"
+        "Aarhus University",
+        "Drexel University",
+        "Samsung Research America",
+        "Samsung Research America",
+        "Samsung Research America",
+        "University of California, Berkeley"
       ],
-      "AffiliationsString": "King's College London, King's College London ",
+      "AffiliationsString": "Aarhus University, Drexel University, Samsung Research America, University of California, Berkeley",
       "Authors": [
-        "eddbarrett",
-        "carlfriedrichbolz",
-        "lukasdiekmann",
-        "laurietratt"
+        "esbenandreasen",
+        "colingordon",
+        "satishchandra",
+        "manusridharan",
+        "franktip",
+        "koushiksen"
       ],
-      "Key": "ecoop-2016-papers-fine-grained-language-composition-a-case-study",
-      "PersonsString": "Edd Barrett, Carl Friedrich Bolz, Lukas Diekmann and Laurence Tratt",
-      "Title": "Fine-grained Language Composition: A Case Study",
+      "Key": "ecoop-2016-papers-trace-typing-an-approach-for-evaluating-retrofitted-type-systems",
+      "PersonsString": "Esben Andreasen, Colin Gordon, Satish Chandra, Manu Sridharan, Frank Tip and Koushik Sen",
+      "Title": "Trace Typing: An Approach for Evaluating Retrofitted Type Systems",
       "Type": "Talk",
-      "URL": "http://2016.ecoop.org/event/ecoop-2016-papers-fine-grained-language-composition-a-case-study"
+      "URL": "http://2016.ecoop.org/event/ecoop-2016-papers-trace-typing-an-approach-for-evaluating-retrofitted-type-systems"
     }
   ],
   "Name": "ECOOP 2016",
@@ -3939,6 +3950,13 @@
       "Affiliation": "",
       "Key": "franzjhauck",
       "Name": "Franz J. Hauck"
+    },
+    {
+      "Affiliation": "University of Waterloo",
+      "Key": "gregorrichards",
+      "Name": "Gregor Richards",
+      "URL": "http://the.gregor.institute/",
+      "URLphoto": "http://2016.ecoop.org/getProfileImage/gregorrichards/115a84f2-eb20-407a-a7d4-5d069fbd4324/small.jpg"
     },
     {
       "Affiliation": "CWI, Netherlands",
@@ -4221,6 +4239,11 @@
       "Name": "Alex Potanin",
       "URL": "http://ecs.victoria.ac.nz/Main/AlexPotanin",
       "URLphoto": "http://2016.ecoop.org/getProfileImage/alexpotanin/2a231877-8f67-4b16-ba02-1b903219e59e/small.jpg"
+    },
+    {
+      "Affiliation": "",
+      "Key": "erikernst1",
+      "Name": "Erik Ernst"
     },
     {
       "Affiliation": "University of California, Irvine",
@@ -5585,7 +5608,9 @@
     {
       "Affiliation": "University of East Anglia",
       "Key": "adamziolkowski",
-      "Name": "Adam Ziolkowski"
+      "Name": "Adam Ziolkowski",
+      "URL": "http://seg.cmp.uea.ac.uk",
+      "URLphoto": "http://2016.ecoop.org/getProfileImage/adamziolkowski/e64c43c3-d7fe-496c-88cc-e0f96532af1a/small.jpg"
     },
     {
       "Affiliation": "Oregon State University",
@@ -6071,7 +6096,7 @@
     },
     {
       "Affiliation": "Brown University",
-      "Bio": "I am a Professor of Computer Science at Brown University, Providence, RI, USA. You can learn more about me from my Web site.",
+      "Bio": "I am the Vice President for Programming Languages at Brown University in Providence, RI, USA. I\u2019m not, really, but that\u2019s what it says on my business card. I believe tropical fruit are superior to all other kinds. I\u2019d almost certainly rather be out riding a bike up a mountain (slowly) than being at whatever event this bio sketch is being shown for. I am terrified of success, because I may be forced to buy a suit. You can learn other things about me from my very serious Web site. I am also known to interrogate my audiences to ensure they\u2019re paying attention. So, be alert. You can read email later.",
       "Key": "shriramkrishnamurthi",
       "Name": "Shriram Krishnamurthi",
       "URL": "http://cs.brown.edu/~sk/",
@@ -7435,7 +7460,7 @@
       "ChairsString": "Stefan Marr",
       "Day": "2016-07-18",
       "Items": [
-        "icooolps-2016-building-object-oriented-programs-out-of-pieces",
+        "icooolps-2016-welcome",
         "icooolps-2016-source-language-representation-of-function-summaries-in-static-analysis"
       ],
       "Key": "ef6480cf-172a-46f8-9e52-58f8cd394976",
@@ -7566,7 +7591,7 @@
       "Location": "Ariosto",
       "Time": "09:45 - 10:05",
       "Title": "Catering: Coffee break",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7576,17 +7601,7 @@
       "Location": "Ariosto",
       "Time": "12:25 - 13:50",
       "Title": "Catering: Lunch",
-      "Type": "Accepted Papers"
-    },
-    {
-      "Abstract": "Lunch, Diner, Coffee-breaks",
-      "Day": "2016-07-21",
-      "Items": ["ecoop-2016-catering-ecoop-banquet"],
-      "Key": "5efa8dc8-e308-4611-ba1a-c374c1804e78",
-      "Location": "Pinacoteca del Tesoriere",
-      "Time": "19:30 - 23:00",
-      "Title": "Catering: Banquet",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7596,7 +7611,7 @@
       "Location": "Ariosto",
       "Time": "15:20 - 16:00",
       "Title": "Catering: Coffee break",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7606,7 +7621,7 @@
       "Location": "Manzoni",
       "Time": "17:30 - 18:30",
       "Title": "Poster Session & Workshops Reception",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7616,7 +7631,7 @@
       "Location": "Ariosto + Manzoni",
       "Time": "12:00 - 13:30",
       "Title": "Catering: Lunch",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7626,7 +7641,7 @@
       "Location": "Ariosto + Manzoni",
       "Time": "15:20 - 16:00",
       "Title": "Catering: Coffee break",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7636,7 +7651,7 @@
       "Location": "Ariosto + Manzoni",
       "Time": "09:45 - 10:05",
       "Title": "Catering: Coffee break",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7646,7 +7661,7 @@
       "Location": "Ariosto + Manzoni",
       "Time": "12:25 - 13:50",
       "Title": "Catering: Lunch",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7656,7 +7671,7 @@
       "Location": "Ariosto + Manzoni",
       "Time": "15:00 - 15:30",
       "Title": "Catering: Coffee break",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7666,7 +7681,7 @@
       "Location": "Ariosto + Manzoni",
       "Time": "10:00 - 10:30",
       "Title": "Catering: Coffee break",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7676,7 +7691,7 @@
       "Location": "Ariosto + Manzoni",
       "Time": "15:20 - 16:00",
       "Title": "Catering: Coffee break",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7686,7 +7701,7 @@
       "Location": "Ariosto + Manzoni",
       "Time": "09:45 - 10:05",
       "Title": "Catering: Coffee break",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7696,7 +7711,7 @@
       "Location": "Ariosto + Manzoni",
       "Time": "15:00 - 15:30",
       "Title": "Catering: Coffee break",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7706,7 +7721,7 @@
       "Location": "Ariosto + Manzoni",
       "Time": "11:45 - 13:30",
       "Title": "Catering: Lunch",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7716,7 +7731,7 @@
       "Location": "Ariosto + Manzoni",
       "Time": "10:00 - 10:30",
       "Title": "Catering: Coffee break",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7726,7 +7741,7 @@
       "Location": "Ariosto + Manzoni",
       "Time": "11:45 - 13:30",
       "Title": "Catering: Lunch",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7736,7 +7751,7 @@
       "Location": "Ariosto + Manzoni",
       "Time": "12:25 - 13:50",
       "Title": "Catering: Lunch",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7746,7 +7761,7 @@
       "Location": "Ariosto + Manzoni",
       "Time": "10:00 - 10:30",
       "Title": "Catering: Coffee break",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
     },
     {
       "Abstract": "Lunch, Diner, Coffee-breaks",
@@ -7756,7 +7771,17 @@
       "Location": "Manzoni",
       "Time": "15:20 - 16:20",
       "Title": "Catering: Ice Cream Social",
-      "Type": "Accepted Papers"
+      "Type": "Catering Session"
+    },
+    {
+      "Abstract": "Lunch, Diner, Coffee-breaks",
+      "Day": "2016-07-21",
+      "Items": ["ecoop-2016-catering-ecoop-banquet"],
+      "Key": "5efa8dc8-e308-4611-ba1a-c374c1804e78",
+      "Location": "Pinacoteca del Tesoriere",
+      "Time": "19:30 - 23:00",
+      "Title": "Catering: Banquet",
+      "Type": "Catering Session"
     },
     {
       "Abstract": "ECOOP is a programming languages conference. Its primary focus has been object-orientation, though it is liberal in its taste and, in recent years, has accepted quality papers over a much broader range of programming language and programming topics. Its sweet spot tends to be the theory, design, implementation, optimization, and analysis of programming languages that enable or enforce abstractions\u2014data, control, security, performance\u2014across various programming styles, from object-orientation to reactivity to spreadsheets. It encourages both innovative and creative solutions to real problems, and evaluations of existing solutions in ways that shed new insights. Following recent precedent, it also encourages the submission of reproduction studies.\nECOOP 2016 solicits high quality submissions describing original and unpublished results, as outlined in the Call for Papers [plain-text version].",
@@ -7941,16 +7966,6 @@
       "Location": "Foscolo",
       "Time": "16:00 - 17:30",
       "Title": "CurryOn: Session 6a",
-      "Type": "Accepted Presentations"
-    },
-    {
-      "Abstract": "Curry On is a new conference focused on the intersection of emerging languages and emerging challenges in industry (e.g. big data or security), as well as new ideas and paradigms in software development. \nCurry On also seeks to act as a conduit for ferrying understanding and ideas back and forth between industry and academic programming languages, software engineering, and systems research communities (amongst others). Curry On is a rare event where academic minds responsible for concepts and tools now invaluable to everyday software development \u2013 like functional programming, or generics in Java \u2013 collide with the movers and shakers in industry that are building next-generation systems and developing software engineering practices central to our entire industry. \nCurry On will be held in a different European city year-to-year, and it will always be co-located with one of the top academic conferences in programming languages. \nJoin us for two days of fruitful and mind-altering ideas and discussions, and maybe a few beers.\nwww.curry-on.org",
-      "Day": "2016-07-18",
-      "Items": ["curryon-2016-curry-on-party-"],
-      "Key": "af91e484-27a6-4fcf-a5eb-45a4fc83e089",
-      "Location": "Mercati di Traiano",
-      "Time": "19:30 - 23:00",
-      "Title": "CurryOn: Curry On Party!",
       "Type": "Accepted Presentations"
     },
     {
@@ -8142,6 +8157,16 @@
       "Time": "10:05 - 12:25",
       "Title": "CurryOn: Session 1b",
       "Type": "Accepted Presentations"
+    },
+    {
+      "Abstract": "Curry On is a new conference focused on the intersection of emerging languages and emerging challenges in industry (e.g. big data or security), as well as new ideas and paradigms in software development. \nCurry On also seeks to act as a conduit for ferrying understanding and ideas back and forth between industry and academic programming languages, software engineering, and systems research communities (amongst others). Curry On is a rare event where academic minds responsible for concepts and tools now invaluable to everyday software development \u2013 like functional programming, or generics in Java \u2013 collide with the movers and shakers in industry that are building next-generation systems and developing software engineering practices central to our entire industry. \nCurry On will be held in a different European city year-to-year, and it will always be co-located with one of the top academic conferences in programming languages. \nJoin us for two days of fruitful and mind-altering ideas and discussions, and maybe a few beers.\nwww.curry-on.org",
+      "Day": "2016-07-18",
+      "Items": ["curryon-2016-curry-on-party-"],
+      "Key": "af91e484-27a6-4fcf-a5eb-45a4fc83e089",
+      "Location": "Mercati di Traiano",
+      "Time": "19:30 - 23:00",
+      "Title": "CurryOn: Curry On Party!",
+      "Type": "Social Event"
     }
   ],
   "Sponsors": "Facebook, NSF, Google, Oracle Labs, Mozilla Research, Sapienza, Huawei, IBM Research, Six, Computer Science Department, Brown University, Northeastern University, AITO, Mercati di Traiano - Musei dei Fori Imperiali",
