@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1477063362,
+    "DataRevision": 1477068620,
     "Preliminary": "false",
     "Event": "FSE 2016",
     "Name": "FSE 2016",
@@ -3175,6 +3175,227 @@
             "Abstract": "One goal of performance testing is to find specific test input data for exposing performance bottlenecks and identify the methods responsible for these performance bottlenecks. A big and important challenges of performance testing is how to deeply understand the performance behaviors of a nontrivial software system in terms of test input data to properly select the specific test input values for finding the problematic methods. Thus, we propose this research program to automatically analyze performance behaviors in software and link these behaviors with test input data for selecting the specific ones that can expose performance bottlenecks. In addition, this research further examines the corresponding execution traces of selected inputs for targeting the problematic methods.",
             "Award": "",
             "Keywords": "Performance testing;  machine learning algorithms;  genetic algorithms;  change impact analysis"
+        },
+        {
+            "Title": "Sustainable Software Design",
+            "Type": "Short Paper",
+            "Key": "fse16var-varid12-p",
+            "URL": "http%3A%2F%2Fwww.cs.mcgill.ca%2F%7Emartin%2Fpapers%2Ffse2016.pdf",
+            "URLvideo": "",
+            "URLinfo": "p922-robillard.pdf",
+            "URLmaterial": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2950290.2983983",
+            "PersonsString": "Martin P. Robillard",
+            "AffiliationsString": "McGill University, Canada",
+            "Authors": [
+                "Martin P. Robillard @ McGill University, Canada"
+            ],
+            "Affiliations": [
+                "McGill University, Canada"
+            ],
+            "Abstract": "Although design plays a central role in software development, the information produced in this activity is often left to progressively evaporate as the result of software evolution, loss of artifacts, or the fading of related knowledge held by the development team. This paper introduces the concept of sustainability for software design, and calls for its integration into the existing catalog of design quality attributes. Applied to software design, sustainability conveys the idea that a particular set of design decisions and their rationale can be succinctly reflected in the host technology and/or described in documentation in a way that is checkable for conformance with the code and generally resistant to evaporation. The paper discusses the relation between sustainability and existing research areas in software engineering, and highlights future research challenges related to sustainable software design.",
+            "Award": "",
+            "Keywords": "Software Design;  Software Evolution"
+        },
+        {
+            "Title": "Designing for Dystopia: Software Engineering Research for the Post-apocalypse",
+            "Type": "Short Paper",
+            "Key": "fse16var-varid15-p",
+            "URL": "http%3A%2F%2Fgo.barik.net%2Fomgzombies",
+            "URLvideo": "",
+            "URLinfo": "p926-barik.pdf",
+            "URLmaterial": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2950290.2983986",
+            "PersonsString": "Titus Barik, Rahul Pandita, Justin Middleton, and Emerson Murphy-Hill",
+            "AffiliationsString": "North Carolina State University, USA",
+            "Authors": [
+                "Titus Barik @ North Carolina State University, USA",
+                "Rahul Pandita @ North Carolina State University, USA",
+                "Justin Middleton @ North Carolina State University, USA",
+                "Emerson Murphy-Hill @ North Carolina State University, USA"
+            ],
+            "Affiliations": [
+                "North Carolina State University, USA",
+                "North Carolina State University, USA",
+                "North Carolina State University, USA",
+                "North Carolina State University, USA"
+            ],
+            "Abstract": "Software engineering researchers have a tendency to be optimistic about the future. Though useful, optimism bias bolsters unrealistic expectations towards desirable outcomes. We argue that explicitly framing software engineering research through pessimistic futures, or dystopias, will mitigate optimism bias and engender more diverse and thought-provoking research directions. We demonstrate through three pop culture dystopias, Battlestar Galactica, Fallout 3, and Children of Men, how reflecting on dystopian scenarios provides research opportunities as well as implications, such as making research accessible to non-experts, that are relevant to our present.",
+            "Award": "",
+            "Keywords": "culture;  design fiction;  dystopia;  ideation;  post-apocalypse;  software engineering"
+        },
+        {
+            "Title": "Disrupting Developer Productivity One Bot at a Time",
+            "Type": "Short Paper",
+            "Key": "fse16var-varid29-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMargaret-Anne+Storey+and+Alexey+Zagalsky+%22Disrupting+Developer+Productivity+One+Bot+at+a+Time%22",
+            "URLvideo": "",
+            "URLinfo": "p930-storey.pdf",
+            "URLmaterial": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2950290.2983989",
+            "PersonsString": "Margaret-Anne Storey and Alexey Zagalsky",
+            "AffiliationsString": "University of Victoria, Canada",
+            "Authors": [
+                "Margaret-Anne Storey @ University of Victoria, Canada",
+                "Alexey Zagalsky @ University of Victoria, Canada"
+            ],
+            "Affiliations": [
+                "University of Victoria, Canada",
+                "University of Victoria, Canada"
+            ],
+            "Abstract": "Bots are used to support different software development activities, from automating repetitive tasks to bridging knowledge and communication gaps in software teams. We anticipate the use of Bots will increase and lead to improvements in software quality and developer and team productivity, but what if the disruptive effect is not what we expect?  Our goal in this paper is to provoke and inspire researchers to study the impact (positive and negative) of Bots on software development. We outline the modern Bot landscape and use examples to describe the common roles Bots occupy in software teams. We propose a preliminary cognitive support framework that can be used to understand these roles and to reflect on the impact of Bots in software development on productivity. Finally, we consider challenges that Bots may bring and propose some directions for future research.",
+            "Award": "",
+            "Keywords": "Human computer interaction;  computer supported collaborative work;  productivity;  software engineering"
+        },
+        {
+            "Title": "Training the Future Workforce through Task Curation in an OSS Ecosystem",
+            "Type": "Short Paper",
+            "Key": "fse16var-varid13-p",
+            "URL": "http%3A%2F%2Figor.pro.br%2Fpublica%2Fpapers%2FFSE_VaR2016.pdf",
+            "URLvideo": "",
+            "URLinfo": "p934-sarma.pdf",
+            "URLmaterial": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2950290.2983984",
+            "PersonsString": "Anita Sarma, Marco Gerosa, Igor Steinmacher, and Rafael Leaño",
+            "AffiliationsString": "Oregon State University, USA; University of São Paulo, Brazil; Federal University of Technology Paraná, Brazil",
+            "Authors": [
+                "Anita Sarma @ Oregon State University, USA",
+                "Marco Gerosa @ University of São Paulo, Brazil",
+                "Igor Steinmacher @ Federal University of Technology Paraná, Brazil",
+                "Rafael Leaño @ Oregon State University, USA"
+            ],
+            "Affiliations": [
+                "Oregon State University, USA",
+                "University of São Paulo, Brazil",
+                "Federal University of Technology Paraná, Brazil",
+                "Oregon State University, USA"
+            ],
+            "Abstract": "Volunteers to Open Source Software (OSS) projects contribute not only to help creating software that they use, but also to gain skills and enrich their expertise and resumes. However, newcomers to OSS face several challenges when joining a project. Particularly, they do not know where to start, or choose tasks that they can be successful at. Here, we describe our vision towards BugExchange, a system that curates tasks from OSS projects and helps train newcomers. While evaluating and executing these tasks, newcomers can gain an understanding about the project, its technology, and concepts. There are many challenges in designing such a system. For example, identifying the information needs of newcomers, creating task recommendations that match newcomers’ skills and career goals, and providing mentoring and networking support. We plan to leverage our previous work to conceive and prototype our system, which will include multiple research lines. BugExchange has the potential to improve newcomer learning experiences, reduce dropouts, and foster community building.",
+            "Award": "",
+            "Keywords": "Newcomers;  onboarding;  open source projects;  task labeling"
+        },
+        {
+            "Title": "Reaching the Masses: A New Subdiscipline of App Programmer Education",
+            "Type": "Short Paper",
+            "Key": "fse16var-varid3-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DCharles+Weir%2C+Awais+Rashid%2C+and+James+Noble+%22Reaching+the+Masses%3A+A+New+Subdiscipline+of+App+Programmer+Education%22",
+            "URLvideo": "",
+            "URLinfo": "p938-weir.pdf",
+            "URLmaterial": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2950290.2983981",
+            "PersonsString": "Charles Weir, Awais Rashid, and James Noble",
+            "AffiliationsString": "Security Lancaster, UK; Victoria University of Wellington, New Zealand",
+            "Authors": [
+                "Charles Weir @ Security Lancaster, UK",
+                "Awais Rashid @ Security Lancaster, UK",
+                "James Noble @ Victoria University of Wellington, New Zealand"
+            ],
+            "Affiliations": [
+                "Security Lancaster, UK",
+                "Security Lancaster, UK",
+                "Victoria University of Wellington, New Zealand"
+            ],
+            "Abstract": "Programmers’ lack of knowledge and interest in secure development threatens everyone who uses mobile apps. The rise of apps has engaged millions of independent app developers, who rarely encounter any but low level security techniques. But what if software security were presented as a game, or a story, or a discussion? What if learning app security techniques could be fun as well as empowering? Only by introducing the powerful motivating techniques developed for other disciplines can we hope to upskill independent app developers, and achieve the security that we’ll need in 2025 to safeguard our identities and our data.",
+            "Award": "",
+            "Keywords": "app developer;  app development;  app programmer;  app security;  application security;  continued learning;  mobile app;  programmer education;  secure app;  secure app development;  security technique;  software development;  software security;  whole system security"
+        },
+        {
+            "Title": "Studying Developer Gaze to Empower Software Engineering Research and Practice",
+            "Type": "Short Paper",
+            "Key": "fse16var-varid26-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DBonita+Sharif%2C+Benjamin+Clark%2C+and+Jonathan+I.+Maletic+%22Studying+Developer+Gaze+to+Empower+Software+Engineering+Research+and+Practice%22",
+            "URLvideo": "",
+            "URLinfo": "p942-sharif.pdf",
+            "URLmaterial": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2950290.2983988",
+            "PersonsString": "Bonita Sharif, Benjamin Clark, and Jonathan I. Maletic",
+            "AffiliationsString": "Youngstown State University, USA; Kent State University, USA",
+            "Authors": [
+                "Bonita Sharif @ Youngstown State University, USA",
+                "Benjamin Clark @ Youngstown State University, USA",
+                "Jonathan I. Maletic @ Kent State University, USA"
+            ],
+            "Affiliations": [
+                "Youngstown State University, USA",
+                "Youngstown State University, USA",
+                "Kent State University, USA"
+            ],
+            "Abstract": "A new research paradigm is proposed that leverages developer eye gaze to improve the state of the art in software engineering research and practice. The vision of this new paradigm for use on software engineering tasks such as code summarization, code recommendations, prediction, and continuous traceability is described. Based on this new paradigm, it is foreseen that new benchmarks will emerge based on developer gaze. The research borrows from cognitive psychology, artificial intelligence, information retrieval, and data mining. It is hypothesized that new algorithms will be discovered that work with eye gaze data to help improve current IDEs, thus improving developer productivity. Conducting empirical studies using an eye tracker will lead to inventing, evaluating, and applying innovative methods and tools that use eye gaze to support the developer. The implications and challenges of this paradigm for future software engineering research is discussed.",
+            "Award": "",
+            "Keywords": "Eye tracking;  summarizations;  recommendations;  continuous traceability;  predictions;  benchmarks;  mining gaze data"
+        },
+        {
+            "Title": "DeepSoft: A Vision for a Deep Model of Software",
+            "Type": "Short Paper",
+            "Key": "fse16var-varid14-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DHoa+Khanh+Dam%2C+Truyen+Tran%2C+John+Grundy%2C+and+Aditya+Ghose+%22DeepSoft%3A+A+Vision+for+a+Deep+Model+of+Software%22",
+            "URLvideo": "",
+            "URLinfo": "p946-dam.pdf",
+            "URLmaterial": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2950290.2983985",
+            "PersonsString": "Hoa Khanh Dam, Truyen Tran, John Grundy, and Aditya Ghose",
+            "AffiliationsString": "University of Wollongong, Australia; Deakin University, Australia",
+            "Authors": [
+                "Hoa Khanh Dam @ University of Wollongong, Australia",
+                "Truyen Tran @ Deakin University, Australia",
+                "John Grundy @ Deakin University, Australia",
+                "Aditya Ghose @ University of Wollongong, Australia"
+            ],
+            "Affiliations": [
+                "University of Wollongong, Australia",
+                "Deakin University, Australia",
+                "Deakin University, Australia",
+                "University of Wollongong, Australia"
+            ],
+            "Abstract": "Although software analytics has experienced rapid growth as a research area, it has not yet reached its full potential for wide industrial adoption. Most of the existing work in software analytics still relies heavily on costly manual feature engineering processes, and they mainly address the traditional classification problems, as opposed to predicting future events. We present a vision for DeepSoft, an end-to-end generic framework for modeling software and its development process to predict future risks and recommend interventions. DeepSoft, partly inspired by human memory, is built upon the powerful deep learning-based Long Short Term Memory architecture that is capable of learning long-term temporal dependencies that occur in software evolution. Such deep learned patterns of software can be used to address a range of challenging problems such as code and task recommendation and prediction. DeepSoft provides a new approach for research into modeling of source code, risk prediction and mitigation, developer modeling, and automatically generating code patches from bug reports.",
+            "Award": "",
+            "Keywords": "Software Analytics;  Mining Software Repositories"
+        },
+        {
+            "Title": "Budgeted Testing through an Algorithmic Lens",
+            "Type": "Short Paper",
+            "Key": "fse16var-varid23-p",
+            "URL": "http%3A%2F%2Fcse.unl.edu%2F%7Emyra%2Fpapers%2Fbudgeted_final.pdf",
+            "URLvideo": "",
+            "URLinfo": "p950-cohen.pdf",
+            "URLmaterial": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2950290.2983987",
+            "PersonsString": "Myra B. Cohen, A. Pavan, and N. V. Vinodchandran",
+            "AffiliationsString": "University of Nebraska-Lincoln, USA; Iowa State University, USA",
+            "Authors": [
+                "Myra B. Cohen @ University of Nebraska-Lincoln, USA",
+                "A. Pavan @ Iowa State University, USA",
+                "N. V. Vinodchandran @ University of Nebraska-Lincoln, USA"
+            ],
+            "Affiliations": [
+                "University of Nebraska-Lincoln, USA",
+                "Iowa State University, USA",
+                "University of Nebraska-Lincoln, USA"
+            ],
+            "Abstract": "Automated testing has been a focus of research for a long time. As such, we tend to think about this in a coverage centric manner. Testing budgets have also driven research such as prioritization and test selection, but as a secondary concern. As our systems get larger, are more dynamic, and impact more people with each change, we argue that we should switch from a coverage centric view to a budgeted testing centric view. Researchers in other fields have designed approximation algorithms for such budgeted scenarios and these are often simple to implement and run. In this paper we present an exemplar study on combinatorial interaction testing (CIT) to show that a budgeted greedy algorithm, when adapted to our problem for various budgets, does almost as well coverage-wise as a state of the art greedy CIT algorithm, better in some cases than a state of the art simulated annealing, and always improves over random. This suggests that we might benefit from switching our focus in large systems, from coverage to budgets.",
+            "Award": "",
+            "Keywords": "Software Testing;  Algorithms;  Combinatorial Testing"
+        },
+        {
+            "Title": "Reasoning with Imprecise Privacy Preferences",
+            "Type": "Short Paper",
+            "Key": "fse16var-varid9-p",
+            "URL": "http%3A%2F%2Fwww.dcs.gla.ac.uk%2F%7Einah%2Frc_images%2Ffse_vision_cr.pdf",
+            "URLvideo": "",
+            "URLinfo": "p954-omoronyia.pdf",
+            "URLmaterial": "",
+            "DOI": "http%3A%2F%2Fdx.doi.org%2F10.1145%2F2950290.2983982",
+            "PersonsString": "Inah Omoronyia",
+            "AffiliationsString": "University of Glasgow, UK",
+            "Authors": [
+                "Inah Omoronyia @ University of Glasgow, UK"
+            ],
+            "Affiliations": [
+                "University of Glasgow, UK"
+            ],
+            "Abstract": "User reluctance and context-dependent factors during information disclosure imply that people cannot always be counted on to indicate their appropriate privacy preference. This phenomenon is the well-known &#039;privacy paradox&#039;, which shows that users of modern technologies are constantly concerned about their privacy, but do not apply these concerns to their usage behaviour accordingly. The problem is that this mismatch between privacy concerns and the indicated privacy preference in software, is not considered when reasoning about the satisfaction of privacy requirements.  This paper is a research vision that draws connections between the imprecisions in user privacy preferences, and reasoning about the satisfaction of privacy requirements. We outline the close relationship between privacy and user beliefs and uncertainties. We then propose a multi-agent framework that leverage on this relationship when reasoning about the satisfaction of privacy requirements. We anticipate that this vision will help reduce the gap between an increasingly complex information age and the software techniques needed to protect user privacy.",
+            "Award": "",
+            "Keywords": "privacy;  belief;  uncertainty;  requirements verification"
         }
     ],
     "Sessions": [
@@ -3259,6 +3480,51 @@
             ]
         },
         {
+            "Id": "aiS2eih2Ch",
+            "Title": "Visions 1",
+            "ShortTitle": "Visions 1",
+            "Type": "Visions and Reflections",
+            "ShortType": "Visions and Reflections",
+            "Key": "2016-11-15 10:00 Visions 1",
+            "Day": "2016-11-15",
+            "Time": "10:00 - 10:30",
+            "Location": "",
+            "LocationIndex": "4",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE16",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "fse16var-varid12-p",
+                "fse16var-varid15-p",
+                "fse16var-varid29-p"
+            ]
+        },
+        {
+            "Id": "BoeDohc8eg",
+            "Title": "Break",
+            "ShortTitle": "Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2016-11-15 10:30 Break",
+            "Day": "2016-11-15",
+            "Time": "10:30 - 11:00",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE16",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "je1uHuh8Oo",
             "Title": "Session 1: Specification",
             "ShortTitle": "Session 1: Specification",
@@ -3338,6 +3604,26 @@
                 "fse16main-mainid234-p",
                 "fse16demo-demoid8-p"
             ]
+        },
+        {
+            "Id": "aigaisae9J",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2016-11-15 12:30 Lunch",
+            "Day": "2016-11-15",
+            "Time": "12:30 - 14:00",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE16",
+            "URL": "",
+            "Abstract": ""
         },
         {
             "Id": "JeXoochi4u",
@@ -3436,6 +3722,26 @@
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "FSE16SRC",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "waeB5orie8",
+            "Title": "Break",
+            "ShortTitle": "Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2016-11-15 15:30 Break",
+            "Day": "2016-11-15",
+            "Time": "15:30 - 16:30",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE16",
             "URL": "",
             "Abstract": ""
         },
@@ -3566,6 +3872,26 @@
             ]
         },
         {
+            "Id": "oM8iuXiiro",
+            "Title": "Break",
+            "ShortTitle": "Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2016-11-16 10:30 Break",
+            "Day": "2016-11-16",
+            "Time": "10:30 - 11:00",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE16",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "Rahlee5cha",
             "Title": "Session 10: Static Analysis",
             "ShortTitle": "Session 10: Static Analysis",
@@ -3644,6 +3970,26 @@
                 "fse16main-mainid264-p",
                 "fse16ind-indid10-p"
             ]
+        },
+        {
+            "Id": "thiaj3zeeF",
+            "Title": "Lunch",
+            "ShortTitle": "Lunch",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2016-11-16 12:30 Lunch",
+            "Day": "2016-11-16",
+            "Time": "12:30 - 14:00",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE16",
+            "URL": "",
+            "Abstract": ""
         },
         {
             "Id": "nool1xeiGu",
@@ -3762,6 +4108,26 @@
             ]
         },
         {
+            "Id": "Ahcai5wuki",
+            "Title": "Break",
+            "ShortTitle": "Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2016-11-16 15:30 Break",
+            "Day": "2016-11-16",
+            "Time": "15:30 - 16:30",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE16",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
             "Id": "eer2ahRaip",
             "Title": "Panel: TBA",
             "ShortTitle": "Panel: TBA",
@@ -3823,6 +4189,54 @@
             "Items": [
                 "fse16inv-inv2-p"
             ]
+        },
+        {
+            "Id": "fei3aeNg1d",
+            "Title": "Visions 2",
+            "ShortTitle": "Visions 2",
+            "Type": "Visions and Reflections",
+            "ShortType": "Visions and Reflections",
+            "Key": "2016-11-17 09:30 Visions 2",
+            "Day": "2016-11-17",
+            "Time": "09:30 - 10:30",
+            "Location": "",
+            "LocationIndex": "4",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE16",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "fse16var-varid13-p",
+                "fse16var-varid3-p",
+                "fse16var-varid26-p",
+                "fse16var-varid14-p",
+                "fse16var-varid23-p",
+                "fse16var-varid9-p"
+            ]
+        },
+        {
+            "Id": "eibiey7Phu",
+            "Title": "Break",
+            "ShortTitle": "Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2016-11-17 10:30 Break",
+            "Day": "2016-11-17",
+            "Time": "10:30 - 11:00",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE16",
+            "URL": "",
+            "Abstract": ""
         },
         {
             "Id": "VahK7YuT1a",
@@ -3889,6 +4303,26 @@
             "Time": "11:00 - 12:30",
             "Location": "",
             "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE16",
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "shaiYiuch3",
+            "Title": "Lunch (on Your Own)",
+            "ShortTitle": "Lunch (on Your Own)",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2016-11-17 12:30 Lunch (on Your Own)",
+            "Day": "2016-11-17",
+            "Time": "12:30 - 14:30",
+            "Location": "",
+            "LocationIndex": "3",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -3979,6 +4413,26 @@
                 "fse16ind-indid23-p",
                 "fse16demo-demoid26-p"
             ]
+        },
+        {
+            "Id": "she3Ox1ohy",
+            "Title": "Break",
+            "ShortTitle": "Break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2016-11-17 16:00 Break",
+            "Day": "2016-11-17",
+            "Time": "16:00 - 16:30",
+            "Location": "",
+            "LocationIndex": "3",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "FSE16",
+            "URL": "",
+            "Abstract": ""
         },
         {
             "Id": "phahS6EiCo",
@@ -4249,6 +4703,21 @@
             "URLgp": "",
             "URLfb": "",
             "URLli": ""
+        },
+        {
+            "Name": "Titus Barik",
+            "Affiliation": "North Carolina State University, USA",
+            "Key": "Titus Barik @ North Carolina State University, USA",
+            "Id": "1b6efb6d75",
+            "Bio": "My research lies at the intersection of software development tools and human-computer interaction. I use mixed-methods approaches to understand the challenges of software developers as they build high-quality software, and use those insights to provide developers with usable tools. I previously worked on software development productivity as a Research Scientist at ABB, and have also conducted studies at Microsoft Research and Google.",
+            "URLhp": "http://www.barik.net",
+            "URLphoto": "http://static.barik.net/barik/tbarik_dsc.jpg",
+            "URLgs": "https://scholar.google.com/citations?user=o5Q3xxoAAAAJ",
+            "URLmsa": "",
+            "URLtw": "https://twitter.com/barik",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": "http://www.linkedin.com/in/barik"
         },
         {
             "Name": "Earl T. Barr",
@@ -4791,6 +5260,21 @@
             "URLli": ""
         },
         {
+            "Name": "Benjamin Clark",
+            "Affiliation": "Youngstown State University, USA",
+            "Key": "Benjamin Clark @ Youngstown State University, USA",
+            "Id": "a0fdf54a69",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
             "Name": "Jane Cleland-Huang",
             "Affiliation": "University of Notre Dame, USA",
             "Key": "Jane Cleland-Huang @ University of Notre Dame, USA",
@@ -4836,6 +5320,21 @@
             "URLli": "https://br.linkedin.com/in/roberta-coelho-72b29916"
         },
         {
+            "Name": "Myra B. Cohen",
+            "Affiliation": "University of Nebraska-Lincoln, USA",
+            "Key": "Myra B. Cohen @ University of Nebraska-Lincoln, USA",
+            "Id": "305362f567",
+            "Bio": "",
+            "URLhp": "http://cse.unl.edu/~myra",
+            "URLphoto": "",
+            "URLgs": "https://scholar.google.com/citations?user=i_XdxLcAAAAJ&hl=en",
+            "URLmsa": "",
+            "URLtw": "http://twitter.com/myra_cohen",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
             "Name": "Tyson Condie",
             "Affiliation": "University of California at Los Angeles, USA",
             "Key": "Tyson Condie @ University of California at Los Angeles, USA",
@@ -4876,6 +5375,21 @@
             "URLgs": "https://scholar.google.pt/citations?user=aT3gF_cAAAAJ",
             "URLmsa": "",
             "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Hoa Khanh Dam",
+            "Affiliation": "University of Wollongong, Australia",
+            "Key": "Hoa Khanh Dam @ University of Wollongong, Australia",
+            "Id": "4532980677",
+            "Bio": "Dr Hoa Khanh Dam is a Senior Lecturer in the School of Computing and Information Technology, University of Wollongong in Australia. His research interests lie primarily in the intersection of software engineering, business process maangement and service-oriented computing, focusing on such areas as software engineering analytics, process analytics and service analytics. He holds PhD and Master degrees in Computer Science from RMIT University, and Bachelor of Computer Science degree from the University of Melbourne in Australia. His research has won multiple Best Paper Awards (at WICSA, APCCM, and ASWEC) and ACM SIGSOFT Distinguished Paper Award (at MSR). His work has been published in the top venues in software engineering (ICSE, ASE, ICSM, JSS), AI/intelligent agents (AAMAS, JAAMAS), and service-oriented computing (ICSOC, SCC, BPM). He served as Program Co-Chair for the International Conference on Principles and Practice of Multi-Agent Systems (PRIMA) in 2014 and is on the Senior Program Committee panel for this conference series with a recognition of the Best Senior Program Committee Member Award in 2013. Other major international conferences and journals that he has been involved with include AAMAS (PC), ICSOC (Publication Chair and PC), ASWEC and EDOC (Publicity Chair), and Journal of Systems and Software and the Science of Computer Programming journal (expert reviewer). Prior to his academic career, he spent a number of years in the industry at various positions, including technical architect, project manager and software engineer.",
+            "URLhp": "http://www.uow.edu.au/~hoa/",
+            "URLphoto": "http://www.uow.edu.au/~hoa/Hoa-UOW.jpg",
+            "URLgs": "https://scholar.google.com.au/citations?user=LzBiAcsAAAAJ&hl=en",
+            "URLmsa": "",
+            "URLtw": "https://twitter.com/hoa_dam",
             "URLgp": "",
             "URLfb": "",
             "URLli": ""
@@ -5361,6 +5875,21 @@
             "URLli": ""
         },
         {
+            "Name": "Marco Gerosa",
+            "Affiliation": "University of São Paulo, Brazil",
+            "Key": "Marco Gerosa @ University of São Paulo, Brazil",
+            "Id": "6aae9d7cad",
+            "Bio": "Marco Aurélio Gerosa is an Associate Professor in the Computer Science Department at the University of São Paulo, Brazil. His research lies in the intersection between Software Engineering and Social Computing, focusing on the fields of empirical software engineering, mining software repositories, software evolution, and social dimensions of software development. He receives productivity fellowship from the Brazilian Council for Scientific and Technological Development. In addition to his research, he also coordinates award-winning open source projects. For more information, visit http://www.ime.usp.br/~gerosa.",
+            "URLhp": "http://www.marcoagerosa.com",
+            "URLphoto": "http://www.ime.usp.br/~gerosa/images/foto.jpg",
+            "URLgs": "http://scholar.google.com.br/citations?user=kjtuhEQAAAAJ",
+            "URLmsa": "",
+            "URLtw": "https://twitter.com/gerosa_marco",
+            "URLgp": "https://plus.google.com/+MarcoGerosaBR",
+            "URLfb": "https://www.facebook.com/marco.a.gerosa",
+            "URLli": "http://br.linkedin.com/pub/marco-aur%C3%A9lio-gerosa/1a/462/322"
+        },
+        {
             "Name": "Elaheh Ghassabani",
             "Affiliation": "University of Minnesota, USA",
             "Key": "Elaheh Ghassabani @ University of Minnesota, USA",
@@ -5374,6 +5903,21 @@
             "URLgp": "",
             "URLfb": "https://www.facebook.com/ela.ghs",
             "URLli": "https://www.linkedin.com/in/elahehghs"
+        },
+        {
+            "Name": "Aditya Ghose",
+            "Affiliation": "University of Wollongong, Australia",
+            "Key": "Aditya Ghose @ University of Wollongong, Australia",
+            "Id": "9e07024bf0",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
         },
         {
             "Name": "Indradeep Ghosh",
@@ -5479,6 +6023,21 @@
             "URLgp": "",
             "URLfb": "",
             "URLli": "https://www.linkedin.com/in/alex-groce-742a528"
+        },
+        {
+            "Name": "John Grundy",
+            "Affiliation": "Deakin University, Australia",
+            "Key": "John Grundy @ Deakin University, Australia",
+            "Id": "e628be29a7",
+            "Bio": "John Grundy is professor of software engineering and pro Vice-chancellor ICT innovation and translation at Deakin University. He is Fellow of ASE and Fellow of Engineers Australia. he is associate editor in chief of IEEE transactions on software engineering and associate editor of ASE journal and IEEE Software magazine.",
+            "URLhp": "https://sites.google.com/site/johncgrundy/Home/",
+            "URLphoto": "https://www.deakin.edu.au/media/data-sources/profiles-images/web-profiles-image-proxy-secure?pid=22403",
+            "URLgs": "https://scholar.google.com/citations?hl=en&user=bbEQGY8AAAAJ",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": "https://www.linkedin.com/in/jgrundy"
         },
         {
             "Name": "Xiaodong Gu",
@@ -6546,6 +7105,21 @@
             "URLli": ""
         },
         {
+            "Name": "Rafael Leaño",
+            "Affiliation": "Oregon State University, USA",
+            "Key": "Rafael Leaño @ Oregon State University, USA",
+            "Id": "5879c651b8",
+            "Bio": "Phd student at the Electrical Engineering and Computer Science Department at Oregon State University (OSU). I work as a Research Assistant under the supervision of Dr. Anita Sarma.          I have a Master Degree in Software Engineering from the University of Los Andes in Bogota, Colombia; where I focused in Model-Driven Software Development and code generation.           Currently, I focus on collaborative software development. I address issues such as task assignment and conflict resolution. My aim is to build tools that aid developers to work better together and find the right task for them. My goal is to make software development a more streamline activity where developers can learn at the right pace, reduce reassignment, keep developers motivated, reduce bug injection due to skill mismatch, and simplify management.",
+            "URLhp": "https://rleano.github.io",
+            "URLphoto": "https://rleano.github.io/img/avatar_med.jpg",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": "https://www.linkedin.com/in/rafael-leano-166a052b"
+        },
+        {
             "Name": "Kyu Hyung Lee",
             "Affiliation": "University of Georgia, USA",
             "Key": "Kyu Hyung Lee @ University of Georgia, USA",
@@ -6996,6 +7570,21 @@
             "URLli": ""
         },
         {
+            "Name": "Jonathan I. Maletic",
+            "Affiliation": "Kent State University, USA",
+            "Key": "Jonathan I. Maletic @ Kent State University, USA",
+            "Id": "544bbfaa65",
+            "Bio": "Jonathan I. Maletic, Ph.D. is Professor in the Department of Computer Science at Kent State University, Kent Ohio USA. He received the Ph.D. and M.S., both in Computer Science, from Wayne State University in 1995 and 1989 respectively. He received the B.S. in Computer Science in 1986 from The University of Michigan-Flint. His research interests are centered on software evolution, with a focus on the comprehension, analysis, manipulation, transformation, reverse engineering, traceability, and visualization of large-scale software systems. He has authored over 115 refereed publications. Prof. Maletic has graduated 14 doctoral students, 12 of whom hold an academic position. Five of these individuals have been awarded US NSF funding and two of these have received NSF CAREER awards.",
+            "URLhp": "http://www.cs.kent.edu/~jmaletic/",
+            "URLphoto": "http://www.cs.kent.edu/~jmaletic/maletic2009.JPG",
+            "URLgs": "https://scholar.google.com/citations?hl=en&user=n9_W4kYAAAAJ&view_op=list_works",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
             "Name": "Felix Mandoux",
             "Affiliation": "Delphi Automotive Systems, Luxembourg",
             "Key": "Felix Mandoux @ Delphi Automotive Systems, Luxembourg",
@@ -7189,6 +7778,21 @@
             "URLgp": "",
             "URLfb": "",
             "URLli": ""
+        },
+        {
+            "Name": "Justin Middleton",
+            "Affiliation": "North Carolina State University, USA",
+            "Key": "Justin Middleton @ North Carolina State University, USA",
+            "Id": "158017fd38",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": "https://www.linkedin.com/in/justin-middleton-29442111a"
         },
         {
             "Name": "Aleksandar Milicevic",
@@ -7521,6 +8125,21 @@
             "URLli": ""
         },
         {
+            "Name": "James Noble",
+            "Affiliation": "Victoria University of Wellington, New Zealand",
+            "Key": "James Noble @ Victoria University of Wellington, New Zealand",
+            "Id": "10a9bb0722",
+            "Bio": "James Noble is Professor of Computer Science and Software Engineering     at Victoria University New Zealand. He has published many papers on     object-orientation design and programming, aspects, software     visualisation and software engineering in international academic     conferences and journals. He is the author of Small Memory Systems:     Patterns for Systems with Limited Memory (with Charles Weir), editor     of Prototype-Based Programming, Pattern Languages of Program Design 5,     and Aliasing in Object-Oriented Programming (with various co-editors),     a Foundation Editor-In-Chief of Springer-Verlag Transactions on     Pattern Languages of Progrmaming, and on the Editorial Boards of IET     Software, Systems Signs and Actions, and the International Journal of     Agile and Extreme Software Development. He has been on the Programme     Committees of a number of conferences such as ECOOP (including program     chair) OOPSLA (including Chair of Onward! and the Dynamic Languages     and Doctoral Symposia), AOSD, TOOLS, ACCPM, AUIC, ACSC, CATS,     EuroPLOP, KoalaPLoP (including as chair), and VL/HCC. He was awarded     the 2016 Dahl-Nygaard Prize for research in Object-Oriented Programming.",
+            "URLhp": "http://ecs.vuw.ac.nz/~kjx/",
+            "URLphoto": "http://homepages.ecs.vuw.ac.nz/~kjx/bio/JamesNoble20121.jpg",
+            "URLgs": "https://scholar.google.com/citations?user=SSUL-D8AAAAJ&hl=en&oi=ao",
+            "URLmsa": "",
+            "URLtw": "https://twitter.com/jameskjx",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
             "Name": "Jeff Offutt",
             "Affiliation": "George Mason University, USA",
             "Key": "Jeff Offutt @ George Mason University, USA",
@@ -7529,6 +8148,21 @@
             "URLhp": "http://cs.gmu.edu/~offutt/",
             "URLphoto": "http://cs.gmu.edu/~offutt/pictures-jeff/JeffOffutt-2013-small.jpg",
             "URLgs": "https://scholar.google.com/citations?hl=en&user=fAeRp3kAAAAJ",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Inah Omoronyia",
+            "Affiliation": "University of Glasgow, UK",
+            "Key": "Inah Omoronyia @ University of Glasgow, UK",
+            "Id": "d50e053872",
+            "Bio": "Dr Inah Omoronyia is a lecturer in software engineering and information security, University of Glasgow. He is a recipient of European Research Consortium for Informatics and Mathematics (ERCIM) fellowship. His research interest is in the software engineering of secure systems, with specific focus on managing security and privacy of complex and adaptive systems.            Prior to starting as a lecturer in October 2012, Dr Omoronyia spent 2 years as a research fellow at Lero -(The Irish software engineering research centre, Limerick, Ireland), and another 2 years as a research scientist at NTNU (Norwegian University of Science and Technology, Trondheim, Norway). He obtained his PhD in Computer Science from the University of Strathclyde in 2008. Previously, he obtained an MSc in Computation at The University of Manchester.          He investigates better ways to managing the changing security needs of long lived systems, as well as the runtime, dynamic needs of mobile and ubiquitous applications.",
+            "URLhp": "http://www.dcs.gla.ac.uk/~inah/",
+            "URLphoto": "http://www.dcs.gla.ac.uk/~inah/me.jpeg",
+            "URLgs": "",
             "URLmsa": "",
             "URLtw": "",
             "URLgp": "",
@@ -7638,6 +8272,21 @@
             "URLtw": "",
             "URLgp": "",
             "URLfb": "https://www.facebook.com/",
+            "URLli": ""
+        },
+        {
+            "Name": "A. Pavan",
+            "Affiliation": "Iowa State University, USA",
+            "Key": "A. Pavan @ Iowa State University, USA",
+            "Id": "81af91f80c",
+            "Bio": "Pavan is a professor of computer science at Iowa State University. He works in foundational aspects of computer science including complexity theory and combinatorial and graph algorithms.",
+            "URLhp": "http://www.cs.iastate.edu/~pavan",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
             "URLli": ""
         },
         {
@@ -7851,6 +8500,21 @@
             "URLli": ""
         },
         {
+            "Name": "Awais Rashid",
+            "Affiliation": "Security Lancaster, UK",
+            "Key": "Awais Rashid @ Security Lancaster, UK",
+            "Id": "63bb4d0631",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
             "Name": "Orna Raz",
             "Affiliation": "IBM Research, Israel",
             "Key": "Orna Raz @ IBM Research, Israel",
@@ -7969,6 +8633,21 @@
             "URLgp": "",
             "URLfb": "",
             "URLli": ""
+        },
+        {
+            "Name": "Martin P. Robillard",
+            "Affiliation": "McGill University, Canada",
+            "Key": "Martin P. Robillard @ McGill University, Canada",
+            "Id": "488d3c5ce0",
+            "Bio": "Martin Robillard is an Associate Professor of Computer Science at McGill University. His current research focuses on problems related to API usability, information discovery, and knowledge management in software engineering. He served as the Program Co-Chair for the 20th ACM SIGSOFT International Symposium on the Foundations of Software Engineering and is the Program Co-Chair of the 39th ACM/IEEE International Conference on Software Engineering. He received his Ph.D. and M.Sc. in Computer Science from the University of British Columbia and a B.Eng. from École Polytechnique de Montréal.",
+            "URLhp": "http://www.cs.mcgill.ca/~martin/",
+            "URLphoto": "http://www.cs.mcgill.ca/~martin/images/mpr.jpg",
+            "URLgs": "https://scholar.google.ca/citations?user=XlDo0wgAAAAJ&hl=en&oi=sra",
+            "URLmsa": "",
+            "URLtw": "https://twitter.com/mp_robillard",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": "https://ca.linkedin.com/in/mrobillard"
         },
         {
             "Name": "Reudismam Rolim",
@@ -8256,6 +8935,21 @@
             "URLli": ""
         },
         {
+            "Name": "Bonita Sharif",
+            "Affiliation": "Youngstown State University, USA",
+            "Key": "Bonita Sharif @ Youngstown State University, USA",
+            "Id": "6836fb0504",
+            "Bio": "Bonita Sharif, Ph.D. is an Associate Professor in the Department of Computer Science at Youngstown State University, Youngstown, Ohio USA. Prior to this position, she was an adjunct Assistant Professor at Ohio University. She received her Ph.D. in 2010 and MS in 2003 in Computer Science from Kent State University, U.S.A and B.S. in Computer Science from Cyprus College, Nicosia Cyprus. Her research interests are in eye tracking related to software engineering, empirical software engineering, software traceability, and software visualization to support maintenance of large systems. She has authored over 30 refereed publications. She serves on numerous program committees including ICSME, VISSOFT, SANER and ICPC. She is serving as general chair of VISSOFT 2016 and ETRA 2018 and served as program chair for VISSOFT 2014 and OCWIC 2017. Sharif is also a recent recipient of the NSF CAREER award.",
+            "URLhp": "http://www.csis.ysu.edu/~bsharif/",
+            "URLphoto": "",
+            "URLgs": "https://scholar.google.com/citations?user=2WeXBokAAAAJ&hl",
+            "URLmsa": "",
+            "URLtw": "https://twitter.com/shbonita",
+            "URLgp": "",
+            "URLfb": "https://www.facebook.com/bonita.sharif",
+            "URLli": "http://www.linkedin.com/in/bonitasharif"
+        },
+        {
             "Name": "Subodh Sharma",
             "Affiliation": "IIT Delhi, India",
             "Key": "Subodh Sharma @ IIT Delhi, India",
@@ -8421,6 +9115,21 @@
             "URLli": ""
         },
         {
+            "Name": "Igor Steinmacher",
+            "Affiliation": "Federal University of Technology Paraná, Brazil",
+            "Key": "Igor Steinmacher @ Federal University of Technology Paraná, Brazil",
+            "Id": "dcba71dc7d",
+            "Bio": "I completed a PhD in Computer Science at the Institute of Mathematics and Statistics at University of São Paulo in February 2015. Currently, I am an Assistant Professor at the Federal University of Technology – Paraná (UTFPR), Brazil, working in the Academic Department of Computing (DACOM), where I coordinate the Software Engineering and Collaborative Systems Research Lab. I was a visiting scholar at the University of California, Irvine from July 2013 to January 2014. I am also a member of the Software Engineering and Collaborative Systems Research Group from University of São Paulo, and the Research Group on Information Systems from State University of Maringá (UEM). I research the intersections of Software Engineering (SE) and Computer Supported Cooperative Work (CSCW). Currently, I am working on the support of newcomers to Open Source Software development communities. I am interested in Open Source Software, Human Aspects of Software Engineering, Empirical Software Engineering, and Mining Software Repositories techniques.",
+            "URLhp": "",
+            "URLphoto": "https://scontent.fbfh1-2.fna.fbcdn.net/v/t1.0-9/13895044_10210172897588005_321465845211214005_n.jpg?oh=3d109c5081d783fdd3557de5f52cbbe2&oe=58565485",
+            "URLgs": "https://scholar.google.com.br/citations?user=I8o8rfoAAAAJ&hl=en",
+            "URLmsa": "",
+            "URLtw": "http://twitter.com/igorsteinmacher",
+            "URLgp": "",
+            "URLfb": "http://facebook.com/igorsteinmacher",
+            "URLli": ""
+        },
+        {
             "Name": "Thierry Stephany",
             "Affiliation": "IEE, Luxembourg",
             "Key": "Thierry Stephany @ IEE, Luxembourg",
@@ -8449,6 +9158,21 @@
             "URLgp": "",
             "URLfb": "",
             "URLli": "https://www.linkedin.com/in/andreastocco"
+        },
+        {
+            "Name": "Margaret-Anne Storey",
+            "Affiliation": "University of Victoria, Canada",
+            "Key": "Margaret-Anne Storey @ University of Victoria, Canada",
+            "Id": "83bbb991a2",
+            "Bio": "Dr. Margaret-Anne Storey is a Professor of Computer Science and the Director of the Software Engineering program at the University of Victoria. She holds a Canada Research Chair in Human and Social Aspects of Software Engineering. Her research goal is to understand how technology can help people explore, understand, and share complex information and knowledge. She evaluates and applies techniques from knowledge engineering, social software, and visual interface design to applications such as collaborative software development, program comprehension, biomedical ontology development, and learning in Web-based environments.",
+            "URLhp": "http://www.cs.uvic.ca/~mstorey",
+            "URLphoto": "",
+            "URLgs": "https://scholar.google.ca/citations?user=WhjQewkAAAAJ&hl=en",
+            "URLmsa": "",
+            "URLtw": "https://twitter.com/margaretstorey",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
         },
         {
             "Name": "Michael Stumm",
@@ -8661,6 +9385,21 @@
             "URLli": ""
         },
         {
+            "Name": "Truyen Tran",
+            "Affiliation": "Deakin University, Australia",
+            "Key": "Truyen Tran @ Deakin University, Australia",
+            "Id": "d576bdfa46",
+            "Bio": "Truyen Tran is a lecturer at Deakin University, Australia. He works in broad range of data analytics fields with current focus in deep learning, healthcare and software engineering. He received multiple paper awards and prizes including UAI 2009, CRESP 2014, Kaggle 2014 (where he is Kaggle Master), PAKDD 2015, and ACM SIGSOFT 2015. He obtained a Bachelor of Science from University of Melbourne and a PhD in Computer Science from Curtin University in 2001 and 2008, respectively.",
+            "URLhp": "http://prada-research.net/~truyen/",
+            "URLphoto": "http://prada-research.net/~truyen/figs/13053_4806553394040_1532430269_n.jpg",
+            "URLgs": "https://scholar.google.com.au/citations?user=zvspVLwAAAAJ&hl=en",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": "https://www.linkedin.com/in/truyen-tran-4ba90413"
+        },
+        {
             "Name": "Omer Tripp",
             "Affiliation": "Google, USA",
             "Key": "Omer Tripp @ Google, USA",
@@ -8740,6 +9479,21 @@
             "Affiliation": "IBM, USA",
             "Key": "Mandana Vaziri @ IBM, USA",
             "Id": "65829ac19c",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "N. V. Vinodchandran",
+            "Affiliation": "University of Nebraska-Lincoln, USA",
+            "Key": "N. V. Vinodchandran @ University of Nebraska-Lincoln, USA",
+            "Id": "f6391a2ea6",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -8944,6 +9698,21 @@
             "URLgp": "",
             "URLfb": "",
             "URLli": ""
+        },
+        {
+            "Name": "Charles Weir",
+            "Affiliation": "Security Lancaster, UK",
+            "Key": "Charles Weir @ Security Lancaster, UK",
+            "Id": "571a36d3f7",
+            "Bio": "Charles Weir has thirty years of experience as a software architect, design consultant and company MD, specialising in applications for terminals and mobile devices. He was Symbian technical lead for the Ericsson R380, the first smartphone, and app security lead for EE Cash on Tap, the UK’s first commercial Android payments app.          Charles is researching at Security Lancaster how to improve the security skills of app developers: how to motivate developers, their best security learning resources, and what they most need to learn.",
+            "URLhp": "http://www.charlesweir.com",
+            "URLphoto": "http://www.research.lancs.ac.uk/portal/files/95748307/CwHeadCut.jpg",
+            "URLgs": "https://scholar.google.com/citations?user=E5Y_ScMAAAAJ&hl=en",
+            "URLmsa": "",
+            "URLtw": "https://scholar.google.com/citations?user=E5Y_ScMAAAAJ&hl=en",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": "https://www.linkedin.com/in/charlesweir"
         },
         {
             "Name": "Danny Weyns",
@@ -9274,6 +10043,21 @@
             "URLgp": "",
             "URLfb": "",
             "URLli": ""
+        },
+        {
+            "Name": "Alexey Zagalsky",
+            "Affiliation": "University of Victoria, Canada",
+            "Key": "Alexey Zagalsky @ University of Victoria, Canada",
+            "Id": "498fc7745c",
+            "Bio": "Alexey Zagalsky is a PhD candidate under the guidance of Margaret-Anne Storey at the University of Victoria. He focuses on software engineering, studying the interplay between developers, tools, their activities, and how all of it affects collaboration and communication. His current research aims to form a theory of knowledge in software engineering. He is also interested in human-computer interaction, human aspects in software engineering, and computer supported collaborative learning.",
+            "URLhp": "http://alexeyza.com/",
+            "URLphoto": "",
+            "URLgs": "http://scholar.google.ca/citations?user=WWYRn7AAAAAJ",
+            "URLmsa": "",
+            "URLtw": "https://twitter.com/alexeyzagalsky",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": "https://linkedin.com/in/alexeyza"
         },
         {
             "Name": "Marcel Zalmanovici",
