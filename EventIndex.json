@@ -3,6 +3,17 @@
     
 "Events": [
 {
+    "Id" : "FSE2016",
+    "Name" : "FSE 2016",
+    "Version" : 1,
+    "File" : "2016FSE.json",
+    "StartDate" : "2016-11-13",
+    "EndDate" : "2016-11-18",
+    "Description" : "International Symposium on the Foundations of Software Engineering",
+	"Icon" : "2016FSE.png",
+	"Image" : "2016FSE.png"
+},
+{
     "Id" : "ICFP2016",
     "Name" : "ICFP 2016",
     "Version" : 1,
