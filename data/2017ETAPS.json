@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1486200914,
+    "DataRevision": 1486231493,
     "Preliminary": "false",
     "Event": "ETAPS 2017",
     "Name": "ETAPS 2017",
@@ -11,11 +11,11 @@
     "Location": "Uppsala, Sweden",
     "Sponsors": "",
     "URL": "http://www.etaps.org/2017",
-    "MultiTrack": "false",
+    "MultiTrack": "true",
     "UseMiniPage": "true",
     "NewPagePerDay": "false",
     "TableLayout": "false",
-    "NumOfParallelTracks": 1,
+    "NumOfParallelTracks": 4,
     "Organization": {
         "General Chairs": [
                 "Parosh Aziz Abdulla"
@@ -66,7 +66,7 @@
             "Title": "Opening",
             "Type": "Plenary",
             "Track": "",
-            "Key": "Joost-PieterKatoen:Opening",
+            "Key": "Joost-PieterKatoen;ParoshAzizAbdulla:Opening",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -74,12 +74,14 @@
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Joost-Pieter Katoen",
+            "PersonsString": "Joost-Pieter Katoen and Parosh Aziz Abdulla",
             "AffiliationsString": "",
             "Authors": [
-                "Joost-Pieter Katoen @ RWTH Aachen University, Germany"
+                "Joost-Pieter Katoen @ RWTH Aachen University, Germany",
+                "Parosh Aziz Abdulla @ Uppsala University, Sweden"
             ],
             "Affiliations": [
+                "",
                 ""
             ],
             "Abstract": "",
@@ -357,6 +359,66 @@
             "Keywords": ""
         },
         {
+            "Title": "Confluence of Graph Rewriting with Interfaces",
+            "Type": "Regular Research Paper",
+            "Track": "ESOP",
+            "Key": "etaps17esop-id53-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DFilippo+Bonchi%2C+Fabio+Gadducci%2C+Aleks+Kissinger%2C+Pawel+Sobocinski%2C+and+Fabio+Zanasi+%22Confluence+of+Graph+Rewriting+with+Interfaces%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Filippo Bonchi, Fabio Gadducci, Aleks Kissinger, Pawel Sobocinski, and Fabio Zanasi",
+            "AffiliationsString": "University of Pisa, Italy; Radboud University Nijmegen, Netherlands; University of Southampton, UK; University College London, UK",
+            "Authors": [
+                "Filippo Bonchi @ University of Pisa, Italy",
+                "Fabio Gadducci @ University of Pisa, Italy",
+                "Aleks Kissinger @ Radboud University Nijmegen, Netherlands",
+                "Pawel Sobocinski @ University of Southampton, UK",
+                "Fabio Zanasi @ University College London, UK"
+            ],
+            "Affiliations": [
+                "University of Pisa, Italy",
+                "University of Pisa, Italy",
+                "Radboud University Nijmegen, Netherlands",
+                "University of Southampton, UK",
+                "University College London, UK"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Incremental Update for Graph Rewriting",
+            "Type": "Regular Research Paper",
+            "Track": "ESOP",
+            "Key": "etaps17esop-id71-p",
+            "URL": "https%3A%2F%2Fwww.irif.fr%2F%7Ejkrivine%2Fhomepage%2FResearch_files%2FfinalEsop17.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Pierre Boutillier, Thomas Ehrhard, and Jean Krivine",
+            "AffiliationsString": "Harvard Medical School, USA; IRIF, France; CNRS, France",
+            "Authors": [
+                "Pierre Boutillier @ Harvard Medical School, USA",
+                "Thomas Ehrhard @ IRIF, France",
+                "Jean Krivine @ CNRS, France"
+            ],
+            "Affiliations": [
+                "Harvard Medical School, USA",
+                "IRIF, France",
+                "CNRS, France"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
             "Title": "Abstract Specifications for Concurrent Maps",
             "Type": "Regular Research Paper",
             "Track": "ESOP",
@@ -571,6 +633,100 @@
                 "University of Koblenz-Landau, Germany",
                 "University of Koblenz-Landau, Germany",
                 "University of Koblenz-Landau, UK"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Is Your Software on Dope? Formal Analysis of Surreptitiously Enhanced Programs",
+            "Type": "Regular Research Paper",
+            "Track": "ESOP",
+            "Key": "etaps17esop-id62-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DGilles+Barthe%2C+Sebastian+Biewer%2C+Pedro+R.+D%27Argenio%2C+Bernd+Finkbeiner%2C+and+Holger+Hermanns+%22Is+Your+Software+on+Dope%3F+Formal+Analysis+of+Surreptitiously+Enhanced+Programs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Gilles Barthe, Sebastian Biewer, Pedro R. D'Argenio, Bernd Finkbeiner, and Holger Hermanns",
+            "AffiliationsString": "IMDEA Software Institute, Spain; Saarland University, Germany; Universidad Nacional de Córdoba, Germany",
+            "Authors": [
+                "Gilles Barthe @ IMDEA Software Institute, Spain",
+                "Sebastian Biewer @ Saarland University, Germany",
+                "Pedro R. D'Argenio @ Universidad Nacional de Córdoba, Germany",
+                "Bernd Finkbeiner @ Saarland University, Germany",
+                "Holger Hermanns @ Saarland University, Germany"
+            ],
+            "Affiliations": [
+                "IMDEA Software Institute, Spain",
+                "Saarland University, Germany",
+                "Universidad Nacional de Córdoba, Germany",
+                "Saarland University, Germany",
+                "Saarland University, Germany"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Modular Verification of Procedure Equivalence in the Presence of Memory Allocation",
+            "Type": "Regular Research Paper",
+            "Track": "ESOP",
+            "Key": "etaps17esop-id105-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DTim+Wood%2C+Shuvendu+K.+Lahiri%2C+Sophia+Drossopoulou%2C+and+Susan+Eisenbach+%22Modular+Verification+of+Procedure+Equivalence+in+the+Presence+of+Memory+Allocation%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Tim Wood, Shuvendu K. Lahiri, Sophia Drossopoulou, and Susan Eisenbach",
+            "AffiliationsString": "Imperial College London, UK; Microsoft Research, USA",
+            "Authors": [
+                "Tim Wood @ Imperial College London, UK",
+                "Shuvendu K. Lahiri @ Microsoft Research, USA",
+                "Sophia Drossopoulou @ Imperial College London, UK",
+                "Susan Eisenbach @ Imperial College London, UK"
+            ],
+            "Affiliations": [
+                "Imperial College London, UK",
+                "Microsoft Research, USA",
+                "Imperial College London, UK",
+                "Imperial College London, UK"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Verifying Robustness of Event-Driven Asynchronous Programs against Concurrency",
+            "Type": "Regular Research Paper",
+            "Track": "ESOP",
+            "Key": "etaps17esop-id82-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAhmed+Bouajjani%2C+Michael+Emmi%2C+Constantin+Enea%2C+Burcu+Kulahcioglu+Ozkan%2C+and+Serdar+Tasiran+%22Verifying+Robustness+of+Event-Driven+Asynchronous+Programs+against+Concurrency%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Ahmed Bouajjani, Michael Emmi, Constantin Enea, Burcu Kulahcioglu Ozkan, and Serdar Tasiran",
+            "AffiliationsString": "University of Paris Diderot, France; Nokia Bell Labs, USA; Koç University, Turkey",
+            "Authors": [
+                "Ahmed Bouajjani @ University of Paris Diderot, France",
+                "Michael Emmi @ Nokia Bell Labs, USA",
+                "Constantin Enea @ University of Paris Diderot, France",
+                "Burcu Kulahcioglu Ozkan @ Koç University, Turkey",
+                "Serdar Tasiran @ Koç University, Turkey"
+            ],
+            "Affiliations": [
+                "University of Paris Diderot, France",
+                "Nokia Bell Labs, USA",
+                "University of Paris Diderot, France",
+                "Koç University, Turkey",
+                "Koç University, Turkey"
             ],
             "Abstract": "",
             "Award": "",
@@ -1105,160 +1261,6 @@
             "Affiliations": [
                 "McGill University, Canada",
                 "McGill University, Canada"
-            ],
-            "Abstract": "",
-            "Award": "",
-            "Keywords": ""
-        },
-        {
-            "Title": "Is Your Software on Dope? Formal Analysis of Surreptitiously Enhanced Programs",
-            "Type": "Regular Research Paper",
-            "Track": "ESOP",
-            "Key": "etaps17esop-id62-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DGilles+Barthe%2C+Sebastian+Biewer%2C+Pedro+R.+D%27Argenio%2C+Bernd+Finkbeiner%2C+and+Holger+Hermanns+%22Is+Your+Software+on+Dope%3F+Formal+Analysis+of+Surreptitiously+Enhanced+Programs%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "URLmaterial": "",
-            "DOI": "",
-            "AuthorizerURL": "",
-            "AuthorizerRef": "",
-            "PersonsString": "Gilles Barthe, Sebastian Biewer, Pedro R. D'Argenio, Bernd Finkbeiner, and Holger Hermanns",
-            "AffiliationsString": "IMDEA Software Institute, Spain; Saarland University, Germany; Universidad Nacional de Córdoba, Germany",
-            "Authors": [
-                "Gilles Barthe @ IMDEA Software Institute, Spain",
-                "Sebastian Biewer @ Saarland University, Germany",
-                "Pedro R. D'Argenio @ Universidad Nacional de Córdoba, Germany",
-                "Bernd Finkbeiner @ Saarland University, Germany",
-                "Holger Hermanns @ Saarland University, Germany"
-            ],
-            "Affiliations": [
-                "IMDEA Software Institute, Spain",
-                "Saarland University, Germany",
-                "Universidad Nacional de Córdoba, Germany",
-                "Saarland University, Germany",
-                "Saarland University, Germany"
-            ],
-            "Abstract": "",
-            "Award": "",
-            "Keywords": ""
-        },
-        {
-            "Title": "Modular Verification of Procedure Equivalence in the Presence of Memory Allocation",
-            "Type": "Regular Research Paper",
-            "Track": "ESOP",
-            "Key": "etaps17esop-id105-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DTim+Wood%2C+Shuvendu+K.+Lahiri%2C+Sophia+Drossopoulou%2C+and+Susan+Eisenbach+%22Modular+Verification+of+Procedure+Equivalence+in+the+Presence+of+Memory+Allocation%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "URLmaterial": "",
-            "DOI": "",
-            "AuthorizerURL": "",
-            "AuthorizerRef": "",
-            "PersonsString": "Tim Wood, Shuvendu K. Lahiri, Sophia Drossopoulou, and Susan Eisenbach",
-            "AffiliationsString": "Imperial College London, UK; Microsoft Research, USA",
-            "Authors": [
-                "Tim Wood @ Imperial College London, UK",
-                "Shuvendu K. Lahiri @ Microsoft Research, USA",
-                "Sophia Drossopoulou @ Imperial College London, UK",
-                "Susan Eisenbach @ Imperial College London, UK"
-            ],
-            "Affiliations": [
-                "Imperial College London, UK",
-                "Microsoft Research, USA",
-                "Imperial College London, UK",
-                "Imperial College London, UK"
-            ],
-            "Abstract": "",
-            "Award": "",
-            "Keywords": ""
-        },
-        {
-            "Title": "Verifying Robustness of Event-Driven Asynchronous Programs against Concurrency",
-            "Type": "Regular Research Paper",
-            "Track": "ESOP",
-            "Key": "etaps17esop-id82-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAhmed+Bouajjani%2C+Michael+Emmi%2C+Constantin+Enea%2C+Burcu+Kulahcioglu+Ozkan%2C+and+Serdar+Tasiran+%22Verifying+Robustness+of+Event-Driven+Asynchronous+Programs+against+Concurrency%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "URLmaterial": "",
-            "DOI": "",
-            "AuthorizerURL": "",
-            "AuthorizerRef": "",
-            "PersonsString": "Ahmed Bouajjani, Michael Emmi, Constantin Enea, Burcu Kulahcioglu Ozkan, and Serdar Tasiran",
-            "AffiliationsString": "University of Paris Diderot, France; Nokia Bell Labs, USA; Koç University, Turkey",
-            "Authors": [
-                "Ahmed Bouajjani @ University of Paris Diderot, France",
-                "Michael Emmi @ Nokia Bell Labs, USA",
-                "Constantin Enea @ University of Paris Diderot, France",
-                "Burcu Kulahcioglu Ozkan @ Koç University, Turkey",
-                "Serdar Tasiran @ Koç University, Turkey"
-            ],
-            "Affiliations": [
-                "University of Paris Diderot, France",
-                "Nokia Bell Labs, USA",
-                "University of Paris Diderot, France",
-                "Koç University, Turkey",
-                "Koç University, Turkey"
-            ],
-            "Abstract": "",
-            "Award": "",
-            "Keywords": ""
-        },
-        {
-            "Title": "Confluence of Graph Rewriting with Interfaces",
-            "Type": "Regular Research Paper",
-            "Track": "ESOP",
-            "Key": "etaps17esop-id53-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DFilippo+Bonchi%2C+Fabio+Gadducci%2C+Aleks+Kissinger%2C+Pawel+Sobocinski%2C+and+Fabio+Zanasi+%22Confluence+of+Graph+Rewriting+with+Interfaces%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "URLmaterial": "",
-            "DOI": "",
-            "AuthorizerURL": "",
-            "AuthorizerRef": "",
-            "PersonsString": "Filippo Bonchi, Fabio Gadducci, Aleks Kissinger, Pawel Sobocinski, and Fabio Zanasi",
-            "AffiliationsString": "University of Pisa, Italy; Radboud University Nijmegen, Netherlands; University of Southampton, UK; University College London, UK",
-            "Authors": [
-                "Filippo Bonchi @ University of Pisa, Italy",
-                "Fabio Gadducci @ University of Pisa, Italy",
-                "Aleks Kissinger @ Radboud University Nijmegen, Netherlands",
-                "Pawel Sobocinski @ University of Southampton, UK",
-                "Fabio Zanasi @ University College London, UK"
-            ],
-            "Affiliations": [
-                "University of Pisa, Italy",
-                "University of Pisa, Italy",
-                "Radboud University Nijmegen, Netherlands",
-                "University of Southampton, UK",
-                "University College London, UK"
-            ],
-            "Abstract": "",
-            "Award": "",
-            "Keywords": ""
-        },
-        {
-            "Title": "Incremental Update for Graph Rewriting",
-            "Type": "Regular Research Paper",
-            "Track": "ESOP",
-            "Key": "etaps17esop-id71-p",
-            "URL": "https%3A%2F%2Fwww.irif.fr%2F%7Ejkrivine%2Fhomepage%2FResearch_files%2FfinalEsop17.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "URLmaterial": "",
-            "DOI": "",
-            "AuthorizerURL": "",
-            "AuthorizerRef": "",
-            "PersonsString": "Pierre Boutillier, Thomas Ehrhard, and Jean Krivine",
-            "AffiliationsString": "Harvard Medical School, USA; IRIF, France; CNRS, France",
-            "Authors": [
-                "Pierre Boutillier @ Harvard Medical School, USA",
-                "Thomas Ehrhard @ IRIF, France",
-                "Jean Krivine @ CNRS, France"
-            ],
-            "Affiliations": [
-                "Harvard Medical School, USA",
-                "IRIF, France",
-                "CNRS, France"
             ],
             "Abstract": "",
             "Award": "",
@@ -2427,6 +2429,56 @@
             "Keywords": ""
         },
         {
+            "Title": "Cyclic Arithmetic Is Equivalent to Peano Arithmetic",
+            "Type": "Full Paper",
+            "Track": "FOSSACS",
+            "Key": "etaps17fossacs-fossacsid60-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAlex+Simpson+%22Cyclic+Arithmetic+Is+Equivalent+to+Peano+Arithmetic%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Alex Simpson",
+            "AffiliationsString": "University of Ljubljana, Slovenia",
+            "Authors": [
+                "Alex Simpson @ University of Ljubljana, Slovenia"
+            ],
+            "Affiliations": [
+                "University of Ljubljana, Slovenia"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Martin-Lof&#039;s Inductive Definitions Are Not Equivalent to Cyclic Proofs",
+            "Type": "Full Paper",
+            "Track": "FOSSACS",
+            "Key": "etaps17fossacs-fossacsid22-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DStefano+Berardi+and+Makoto+Tatsuta+%22Martin-Lof%27s+Inductive+Definitions+Are+Not+Equivalent+to+Cyclic+Proofs%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Stefano Berardi and Makoto Tatsuta",
+            "AffiliationsString": "University of Turin, Italy; National Institute of Informatics, Japan",
+            "Authors": [
+                "Stefano Berardi @ University of Turin, Italy",
+                "Makoto Tatsuta @ National Institute of Informatics, Japan"
+            ],
+            "Affiliations": [
+                "University of Turin, Italy",
+                "National Institute of Informatics, Japan"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
             "Title": "On the Relationship between Bisimulation and Trace Equivalence in an Approximate Probabilistic Context",
             "Type": "Full Paper",
             "Track": "FOSSACS",
@@ -2541,112 +2593,6 @@
             "Keywords": ""
         },
         {
-            "Title": "A Light Modality for Recursion",
-            "Type": "Full Paper",
-            "Track": "FOSSACS",
-            "Key": "etaps17fossacs-fossacsid55-p",
-            "URL": "http%3A%2F%2Fwww.cs.le.ac.uk%2Fpeople%2Fps56%2FFossacs2017.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "URLmaterial": "",
-            "DOI": "",
-            "AuthorizerURL": "",
-            "AuthorizerRef": "",
-            "PersonsString": "Paula Severi",
-            "AffiliationsString": "University of Leicester, UK",
-            "Authors": [
-                "Paula Severi @ University of Leicester, UK"
-            ],
-            "Affiliations": [
-                "University of Leicester, UK"
-            ],
-            "Abstract": "",
-            "Award": "",
-            "Keywords": ""
-        },
-        {
-            "Title": "Unifying Guarded and Unguarded Iteration",
-            "Type": "Full Paper",
-            "Track": "FOSSACS",
-            "Key": "etaps17fossacs-fossacsid70-p",
-            "URL": "https%3A%2F%2Fwww8.cs.fau.de%2F_media%2Fresearch%3Apapers%3Aelgot-retract.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "URLmaterial": "",
-            "DOI": "",
-            "AuthorizerURL": "",
-            "AuthorizerRef": "",
-            "PersonsString": "Sergey Goncharov, Lutz Schröder, Christoph Rauch, and Maciej Piróg",
-            "AffiliationsString": "University of Erlangen-Nuremberg, Germany; KU Leuven, Belgium",
-            "Authors": [
-                "Sergey Goncharov @ University of Erlangen-Nuremberg, Germany",
-                "Lutz Schröder @ University of Erlangen-Nuremberg, Germany",
-                "Christoph Rauch @ University of Erlangen-Nuremberg, Germany",
-                "Maciej Piróg @ KU Leuven, Belgium"
-            ],
-            "Affiliations": [
-                "University of Erlangen-Nuremberg, Germany",
-                "University of Erlangen-Nuremberg, Germany",
-                "University of Erlangen-Nuremberg, Germany",
-                "KU Leuven, Belgium"
-            ],
-            "Abstract": "",
-            "Award": "",
-            "Keywords": ""
-        },
-        {
-            "Title": "Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type",
-            "Type": "Full Paper",
-            "Track": "FOSSACS",
-            "Key": "etaps17fossacs-fossacsid8-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DThorsten+Altenkirch%2C+Nils+Anders+Danielsson%2C+and+Nicolai+Kraus+%22Partiality%2C+Revisited%3A+The+Partiality+Monad+as+a+Quotient+Inductive-Inductive+Type%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "URLmaterial": "",
-            "DOI": "",
-            "AuthorizerURL": "",
-            "AuthorizerRef": "",
-            "PersonsString": "Thorsten Altenkirch, Nils Anders Danielsson, and Nicolai Kraus",
-            "AffiliationsString": "University of Nottingham, UK; University of Gothenburg, Sweden",
-            "Authors": [
-                "Thorsten Altenkirch @ University of Nottingham, UK",
-                "Nils Anders Danielsson @ University of Gothenburg, Sweden",
-                "Nicolai Kraus @ University of Nottingham, UK"
-            ],
-            "Affiliations": [
-                "University of Nottingham, UK",
-                "University of Gothenburg, Sweden",
-                "University of Nottingham, UK"
-            ],
-            "Abstract": "",
-            "Award": "",
-            "Keywords": ""
-        },
-        {
-            "Title": "On the Semantics of Intensionality",
-            "Type": "Full Paper",
-            "Track": "FOSSACS",
-            "Key": "etaps17fossacs-fossacsid81-p",
-            "URL": "https%3A%2F%2Farxiv.org%2Fpdf%2F1602.01365v5.pdf",
-            "URLvideo": "",
-            "URLinfo": "",
-            "URLmaterial": "",
-            "DOI": "",
-            "AuthorizerURL": "",
-            "AuthorizerRef": "",
-            "PersonsString": "G. A. Kavvos",
-            "AffiliationsString": "University of Oxford, UK",
-            "Authors": [
-                "G. A. Kavvos @ University of Oxford, UK"
-            ],
-            "Affiliations": [
-                "University of Oxford, UK"
-            ],
-            "Abstract": "",
-            "Award": "",
-            "Keywords": ""
-        },
-        {
             "Title": "A Truly Concurrent Game Semantics of the Asynchronous Pi-Calculus",
             "Type": "Full Paper",
             "Track": "FOSSACS",
@@ -2753,56 +2699,6 @@
             "Keywords": ""
         },
         {
-            "Title": "Cyclic Arithmetic Is Equivalent to Peano Arithmetic",
-            "Type": "Full Paper",
-            "Track": "FOSSACS",
-            "Key": "etaps17fossacs-fossacsid60-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAlex+Simpson+%22Cyclic+Arithmetic+Is+Equivalent+to+Peano+Arithmetic%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "URLmaterial": "",
-            "DOI": "",
-            "AuthorizerURL": "",
-            "AuthorizerRef": "",
-            "PersonsString": "Alex Simpson",
-            "AffiliationsString": "University of Ljubljana, Slovenia",
-            "Authors": [
-                "Alex Simpson @ University of Ljubljana, Slovenia"
-            ],
-            "Affiliations": [
-                "University of Ljubljana, Slovenia"
-            ],
-            "Abstract": "",
-            "Award": "",
-            "Keywords": ""
-        },
-        {
-            "Title": "Martin-Lof&#039;s Inductive Definitions Are Not Equivalent to Cyclic Proofs",
-            "Type": "Full Paper",
-            "Track": "FOSSACS",
-            "Key": "etaps17fossacs-fossacsid22-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DStefano+Berardi+and+Makoto+Tatsuta+%22Martin-Lof%27s+Inductive+Definitions+Are+Not+Equivalent+to+Cyclic+Proofs%22",
-            "URLvideo": "",
-            "URLinfo": "",
-            "URLmaterial": "",
-            "DOI": "",
-            "AuthorizerURL": "",
-            "AuthorizerRef": "",
-            "PersonsString": "Stefano Berardi and Makoto Tatsuta",
-            "AffiliationsString": "University of Turin, Italy; National Institute of Informatics, Japan",
-            "Authors": [
-                "Stefano Berardi @ University of Turin, Italy",
-                "Makoto Tatsuta @ National Institute of Informatics, Japan"
-            ],
-            "Affiliations": [
-                "University of Turin, Italy",
-                "National Institute of Informatics, Japan"
-            ],
-            "Abstract": "",
-            "Award": "",
-            "Keywords": ""
-        },
-        {
             "Title": "A Lambda-Free Higher-Order Recursive Path Order",
             "Type": "Full Paper",
             "Track": "FOSSACS",
@@ -2855,54 +2751,218 @@
             "Keywords": ""
         },
         {
-            "Title": "Compositional Synthesis of Leakage Resilient Programs",
-            "Type": "REGULAR PAPER",
-            "Track": "POST",
-            "Key": "etaps17post-mainid20-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DArthur+Blot%2C+Masaki+Yamamoto%2C+and+Tachio+Terauchi+%22Compositional+Synthesis+of+Leakage+Resilient+Programs%22",
+            "Title": "A Light Modality for Recursion",
+            "Type": "Full Paper",
+            "Track": "FOSSACS",
+            "Key": "etaps17fossacs-fossacsid55-p",
+            "URL": "http%3A%2F%2Fwww.cs.le.ac.uk%2Fpeople%2Fps56%2FFossacs2017.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Arthur Blot, Masaki Yamamoto, and Tachio Terauchi",
-            "AffiliationsString": "ENS Lyon, France; Nagoya University, Japan; JAIST, Japan",
+            "PersonsString": "Paula Severi",
+            "AffiliationsString": "University of Leicester, UK",
             "Authors": [
-                "Arthur Blot @ ENS Lyon, France",
-                "Masaki Yamamoto @ Nagoya University, Japan",
-                "Tachio Terauchi @ JAIST, Japan"
+                "Paula Severi @ University of Leicester, UK"
             ],
             "Affiliations": [
-                "ENS Lyon, France",
-                "Nagoya University, Japan",
-                "JAIST, Japan"
+                "University of Leicester, UK"
             ],
             "Abstract": "",
             "Award": "",
             "Keywords": ""
         },
         {
-            "Title": "Combining Differential Privacy and Mutual Information for Analyzing Leakages in Workflows",
-            "Type": "REGULAR PAPER",
-            "Track": "POST",
-            "Key": "etaps17post-mainid8-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMartin+Pettai+and+Peeter+Laud+%22Combining+Differential+Privacy+and+Mutual+Information+for+Analyzing+Leakages+in+Workflows%22",
+            "Title": "Unifying Guarded and Unguarded Iteration",
+            "Type": "Full Paper",
+            "Track": "FOSSACS",
+            "Key": "etaps17fossacs-fossacsid70-p",
+            "URL": "https%3A%2F%2Fwww8.cs.fau.de%2F_media%2Fresearch%3Apapers%3Aelgot-retract.pdf",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Martin Pettai and Peeter Laud",
-            "AffiliationsString": "Cybernetica, Estonia",
+            "PersonsString": "Sergey Goncharov, Lutz Schröder, Christoph Rauch, and Maciej Piróg",
+            "AffiliationsString": "University of Erlangen-Nuremberg, Germany; KU Leuven, Belgium",
             "Authors": [
-                "Martin Pettai @ Cybernetica, Estonia",
-                "Peeter Laud @ Cybernetica, Estonia"
+                "Sergey Goncharov @ University of Erlangen-Nuremberg, Germany",
+                "Lutz Schröder @ University of Erlangen-Nuremberg, Germany",
+                "Christoph Rauch @ University of Erlangen-Nuremberg, Germany",
+                "Maciej Piróg @ KU Leuven, Belgium"
             ],
             "Affiliations": [
-                "Cybernetica, Estonia",
-                "Cybernetica, Estonia"
+                "University of Erlangen-Nuremberg, Germany",
+                "University of Erlangen-Nuremberg, Germany",
+                "University of Erlangen-Nuremberg, Germany",
+                "KU Leuven, Belgium"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type",
+            "Type": "Full Paper",
+            "Track": "FOSSACS",
+            "Key": "etaps17fossacs-fossacsid8-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DThorsten+Altenkirch%2C+Nils+Anders+Danielsson%2C+and+Nicolai+Kraus+%22Partiality%2C+Revisited%3A+The+Partiality+Monad+as+a+Quotient+Inductive-Inductive+Type%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Thorsten Altenkirch, Nils Anders Danielsson, and Nicolai Kraus",
+            "AffiliationsString": "University of Nottingham, UK; University of Gothenburg, Sweden",
+            "Authors": [
+                "Thorsten Altenkirch @ University of Nottingham, UK",
+                "Nils Anders Danielsson @ University of Gothenburg, Sweden",
+                "Nicolai Kraus @ University of Nottingham, UK"
+            ],
+            "Affiliations": [
+                "University of Nottingham, UK",
+                "University of Gothenburg, Sweden",
+                "University of Nottingham, UK"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "On the Semantics of Intensionality",
+            "Type": "Full Paper",
+            "Track": "FOSSACS",
+            "Key": "etaps17fossacs-fossacsid81-p",
+            "URL": "https%3A%2F%2Farxiv.org%2Fpdf%2F1602.01365v5.pdf",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "G. A. Kavvos",
+            "AffiliationsString": "University of Oxford, UK",
+            "Authors": [
+                "G. A. Kavvos @ University of Oxford, UK"
+            ],
+            "Affiliations": [
+                "University of Oxford, UK"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Timing-Sensitive Noninterference through Composition",
+            "Type": "REGULAR PAPER",
+            "Track": "POST",
+            "Key": "etaps17post-mainid18-p",
+            "URL": "http%3A%2F%2Fresearch.precise.li%2Fpub%2F2017post%2F2017post-rafnsson-jia-bauer.pdf",
+            "URLvideo": "",
+            "URLinfo": "http%3A%2F%2Fresearch.precise.li%2Fpub%2F2017post%2F",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Willard Rafnsson, Limin Jia, and Lujo Bauer",
+            "AffiliationsString": "MPI-SWS, Germany; Carnegie Mellon University, USA",
+            "Authors": [
+                "Willard Rafnsson @ MPI-SWS, Germany",
+                "Limin Jia @ Carnegie Mellon University, USA",
+                "Lujo Bauer @ Carnegie Mellon University, USA"
+            ],
+            "Affiliations": [
+                "MPI-SWS, Germany",
+                "Carnegie Mellon University, USA",
+                "Carnegie Mellon University, USA"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Quantifying Vulnerability of Secret Generation using Hyper-distributions",
+            "Type": "REGULAR PAPER",
+            "Track": "POST",
+            "Key": "etaps17post-mainid17-p",
+            "URL": "http%3A%2F%2Fwww.dcc.ufmg.br%2F%7Emsalvim%2Fpublications%2F2017-POST.pdf",
+            "URLvideo": "",
+            "URLinfo": "https%3A%2F%2Farxiv.org%2Fabs%2F1701.04174",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Mário S. Alvim, Piotr Mardziel, and Michael Hicks",
+            "AffiliationsString": "Federal University of Minas Gerais, Brazil; Carnegie Mellon University, USA; University of Maryland at College Park, USA",
+            "Authors": [
+                "Mário S. Alvim @ Federal University of Minas Gerais, Brazil",
+                "Piotr Mardziel @ Carnegie Mellon University, USA",
+                "Michael Hicks @ University of Maryland at College Park, USA"
+            ],
+            "Affiliations": [
+                "Federal University of Minas Gerais, Brazil",
+                "Carnegie Mellon University, USA",
+                "University of Maryland at College Park, USA"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "A Principled Approach to Tracking Information Flow in the Presence of Libraries",
+            "Type": "REGULAR PAPER",
+            "Track": "POST",
+            "Key": "etaps17post-mainid43-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DDaniel+Hedin%2C+Alexander+Sj%C3%B6sten%2C+Frank+Piessens%2C+and+Andrei+Sabelfeld+%22A+Principled+Approach+to+Tracking+Information+Flow+in+the+Presence+of+Libraries%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Daniel Hedin, Alexander Sjösten, Frank Piessens, and Andrei Sabelfeld",
+            "AffiliationsString": "Mälardalen University, Sweden; Chalmers University of Technology, Sweden; KU Leuven, Belgium",
+            "Authors": [
+                "Daniel Hedin @ Mälardalen University, Sweden",
+                "Alexander Sjösten @ Chalmers University of Technology, Sweden",
+                "Frank Piessens @ KU Leuven, Belgium",
+                "Andrei Sabelfeld @ Chalmers University of Technology, Sweden"
+            ],
+            "Affiliations": [
+                "Mälardalen University, Sweden",
+                "Chalmers University of Technology, Sweden",
+                "KU Leuven, Belgium",
+                "Chalmers University of Technology, Sweden"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Secure Multi-party Computation: Information Flow of Outputs and Game Theory",
+            "Type": "REGULAR PAPER",
+            "Track": "POST",
+            "Key": "etaps17post-mainid16-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DPatrick+Ah-Fat+and+Michael+Huth+%22Secure+Multi-party+Computation%3A+Information+Flow+of+Outputs+and+Game+Theory%22",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Patrick Ah-Fat and Michael Huth",
+            "AffiliationsString": "Imperial College London, UK",
+            "Authors": [
+                "Patrick Ah-Fat @ Imperial College London, UK",
+                "Michael Huth @ Imperial College London, UK"
+            ],
+            "Affiliations": [
+                "Imperial College London, UK",
+                "Imperial College London, UK"
             ],
             "Abstract": "",
             "Award": "",
@@ -3131,112 +3191,54 @@
             "Keywords": ""
         },
         {
-            "Title": "Timing-Sensitive Noninterference through Composition",
+            "Title": "Compositional Synthesis of Leakage Resilient Programs",
             "Type": "REGULAR PAPER",
             "Track": "POST",
-            "Key": "etaps17post-mainid18-p",
-            "URL": "http%3A%2F%2Fresearch.precise.li%2Fpub%2F2017post%2F2017post-rafnsson-jia-bauer.pdf",
-            "URLvideo": "",
-            "URLinfo": "http%3A%2F%2Fresearch.precise.li%2Fpub%2F2017post%2F",
-            "URLmaterial": "",
-            "DOI": "",
-            "AuthorizerURL": "",
-            "AuthorizerRef": "",
-            "PersonsString": "Willard Rafnsson, Limin Jia, and Lujo Bauer",
-            "AffiliationsString": "MPI-SWS, Germany; Carnegie Mellon University, USA",
-            "Authors": [
-                "Willard Rafnsson @ MPI-SWS, Germany",
-                "Limin Jia @ Carnegie Mellon University, USA",
-                "Lujo Bauer @ Carnegie Mellon University, USA"
-            ],
-            "Affiliations": [
-                "MPI-SWS, Germany",
-                "Carnegie Mellon University, USA",
-                "Carnegie Mellon University, USA"
-            ],
-            "Abstract": "",
-            "Award": "",
-            "Keywords": ""
-        },
-        {
-            "Title": "Quantifying Vulnerability of Secret Generation using Hyper-distributions",
-            "Type": "REGULAR PAPER",
-            "Track": "POST",
-            "Key": "etaps17post-mainid17-p",
-            "URL": "http%3A%2F%2Fwww.dcc.ufmg.br%2F%7Emsalvim%2Fpublications%2F2017-POST.pdf",
-            "URLvideo": "",
-            "URLinfo": "https%3A%2F%2Farxiv.org%2Fabs%2F1701.04174",
-            "URLmaterial": "",
-            "DOI": "",
-            "AuthorizerURL": "",
-            "AuthorizerRef": "",
-            "PersonsString": "Mário S. Alvim, Piotr Mardziel, and Michael Hicks",
-            "AffiliationsString": "Federal University of Minas Gerais, Brazil; Carnegie Mellon University, USA; University of Maryland at College Park, USA",
-            "Authors": [
-                "Mário S. Alvim @ Federal University of Minas Gerais, Brazil",
-                "Piotr Mardziel @ Carnegie Mellon University, USA",
-                "Michael Hicks @ University of Maryland at College Park, USA"
-            ],
-            "Affiliations": [
-                "Federal University of Minas Gerais, Brazil",
-                "Carnegie Mellon University, USA",
-                "University of Maryland at College Park, USA"
-            ],
-            "Abstract": "",
-            "Award": "",
-            "Keywords": ""
-        },
-        {
-            "Title": "A Principled Approach to Tracking Information Flow in the Presence of Libraries",
-            "Type": "REGULAR PAPER",
-            "Track": "POST",
-            "Key": "etaps17post-mainid43-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DDaniel+Hedin%2C+Alexander+Sj%C3%B6sten%2C+Frank+Piessens%2C+and+Andrei+Sabelfeld+%22A+Principled+Approach+to+Tracking+Information+Flow+in+the+Presence+of+Libraries%22",
+            "Key": "etaps17post-mainid20-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DArthur+Blot%2C+Masaki+Yamamoto%2C+and+Tachio+Terauchi+%22Compositional+Synthesis+of+Leakage+Resilient+Programs%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Daniel Hedin, Alexander Sjösten, Frank Piessens, and Andrei Sabelfeld",
-            "AffiliationsString": "Mälardalen University, Sweden; Chalmers University of Technology, Sweden; KU Leuven, Belgium",
+            "PersonsString": "Arthur Blot, Masaki Yamamoto, and Tachio Terauchi",
+            "AffiliationsString": "ENS Lyon, France; Nagoya University, Japan; JAIST, Japan",
             "Authors": [
-                "Daniel Hedin @ Mälardalen University, Sweden",
-                "Alexander Sjösten @ Chalmers University of Technology, Sweden",
-                "Frank Piessens @ KU Leuven, Belgium",
-                "Andrei Sabelfeld @ Chalmers University of Technology, Sweden"
+                "Arthur Blot @ ENS Lyon, France",
+                "Masaki Yamamoto @ Nagoya University, Japan",
+                "Tachio Terauchi @ JAIST, Japan"
             ],
             "Affiliations": [
-                "Mälardalen University, Sweden",
-                "Chalmers University of Technology, Sweden",
-                "KU Leuven, Belgium",
-                "Chalmers University of Technology, Sweden"
+                "ENS Lyon, France",
+                "Nagoya University, Japan",
+                "JAIST, Japan"
             ],
             "Abstract": "",
             "Award": "",
             "Keywords": ""
         },
         {
-            "Title": "Secure Multi-party Computation: Information Flow of Outputs and Game Theory",
+            "Title": "Combining Differential Privacy and Mutual Information for Analyzing Leakages in Workflows",
             "Type": "REGULAR PAPER",
             "Track": "POST",
-            "Key": "etaps17post-mainid16-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DPatrick+Ah-Fat+and+Michael+Huth+%22Secure+Multi-party+Computation%3A+Information+Flow+of+Outputs+and+Game+Theory%22",
+            "Key": "etaps17post-mainid8-p",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMartin+Pettai+and+Peeter+Laud+%22Combining+Differential+Privacy+and+Mutual+Information+for+Analyzing+Leakages+in+Workflows%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Patrick Ah-Fat and Michael Huth",
-            "AffiliationsString": "Imperial College London, UK",
+            "PersonsString": "Martin Pettai and Peeter Laud",
+            "AffiliationsString": "Cybernetica, Estonia",
             "Authors": [
-                "Patrick Ah-Fat @ Imperial College London, UK",
-                "Michael Huth @ Imperial College London, UK"
+                "Martin Pettai @ Cybernetica, Estonia",
+                "Peeter Laud @ Cybernetica, Estonia"
             ],
             "Affiliations": [
-                "Imperial College London, UK",
-                "Imperial College London, UK"
+                "Cybernetica, Estonia",
+                "Cybernetica, Estonia"
             ],
             "Abstract": "",
             "Award": "",
@@ -5218,7 +5220,7 @@
             "Day": "2017-04-24",
             "Time": "08:30 - 09:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5228,7 +5230,7 @@
             "URL": "",
             "Abstract": "",
             "Items": [
-                "Joost-PieterKatoen:Opening"
+                "Joost-PieterKatoen;ParoshAzizAbdulla:Opening"
             ]
         },
         {
@@ -5241,7 +5243,7 @@
             "Day": "2017-04-24",
             "Time": "09:00 - 10:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5420,7 +5422,7 @@
             "Day": "2017-04-24",
             "Time": "16:30 - 18:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5468,7 +5470,7 @@
             "Day": "2017-04-25",
             "Time": "09:00 - 10:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -5671,7 +5673,7 @@
             "Day": "2017-04-25",
             "Time": "16:30 - 18:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6046,7 +6048,7 @@
             "Day": "2017-04-27",
             "Time": "09:00 - 10:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6260,7 +6262,7 @@
             "Day": "2017-04-27",
             "Time": "16:30 - 18:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
@@ -6308,7 +6310,7 @@
             "Day": "2017-04-28",
             "Time": "09:00 - 10:00",
             "Location": "",
-            "LocationIndex": "0",
+            "LocationIndex": "5",
             "ChairsString": "",
             "Chairs": [
             ],
