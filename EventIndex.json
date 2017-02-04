@@ -3,13 +3,24 @@
     
 "Events": [
 {
+    "Id" : "ETAPS2017",
+    "Name" : "ETAPS 2017",
+    "Version" : 1,
+    "File" : "2017ETAPS.json",
+    "StartDate" : "2017-04-24",
+    "EndDate" : "2017-04-28",
+    "Description" : "European Joint Conferences on Theory and Practice of Software",
+    "Icon" : "2017ETAPS.png",
+    "Image" : "2017ETAPS.png"
+},
+{
     "Id" : "SPLASH2016",
     "Name" : "SPLASH 2016",
     "Version" : 2,
     "File" : "2016SPLASH.json",
     "StartDate" : "2016-10-30",
     "EndDate" : "2016-11-04",
-    "Description" : " ACM SIGPLAN Conference on Systems, Programming, Languages and Applications: Software for Humanity",
+    "Description" : "ACM SIGPLAN Conference on Systems, Programming, Languages and Applications: Software for Humanity",
     "Icon" : "2016SPLASH.png",
     "Image" : "2016SPLASH.png"
 },
