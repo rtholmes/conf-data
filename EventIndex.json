@@ -3,6 +3,28 @@
     
 "Events": [
 {
+    "Id" : "VR2017",
+    "Name" : "VR 2017",
+    "Version" : 1,
+    "File" : "2017VR.json",
+    "StartDate" : "2017-03-18",
+    "EndDate" : "2017-03-22",
+    "Description" : "IEEE Virtual Reality",
+    "Icon" : "2017VR.png",
+    "Image" : "2017VR.png"
+},
+{
+    "Id" : "TDUI2017",
+    "Name" : "3DUI 2017",
+    "Version" : 1,
+    "File" : "2017TDUI.json",
+    "StartDate" : "2017-03-18",
+    "EndDate" : "2017-03-19",
+    "Description" : "IEEE Symposium on 3D User Interfaces",
+    "Icon" : "2017TDUI.png",
+    "Image" : "2017TDUI.png"
+},
+{
     "Id" : "ETAPS2017",
     "Name" : "ETAPS 2017",
     "Version" : 1,
