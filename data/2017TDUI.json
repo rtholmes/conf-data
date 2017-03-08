@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1487831380,
+    "DataRevision": 1488971288,
     "Preliminary": "false",
     "Event": "3DUI 2017",
     "Name": "3DUI 2017",
@@ -89,7 +89,7 @@
                 "Carleton University, Canada",
                 "University of South Australia, Australia"
             ],
-            "Abstract": "",
+            "Abstract": "Welcome to the IEEE Symposium on 3D User Interfaces 2017 (3DUI 2017), taking place in Los Angeles, California, on March 18th-19th, 2017.",
             "Award": "",
             "Keywords": ""
         },
@@ -141,9 +141,9 @@
                 "Vienna University of Technology, Austria",
                 "Vienna University of Technology, Austria"
             ],
-            "Abstract": "Space available for any virtual reality experience is often strictly limited and abridges the virtual world to a size of a room. To extend the amount of virtual space accessible by walking within the same real workspace the methods of spatial compression were proposed. Scene manipulation with a controlled spatial overlap has been shown to be an efficient method. However, in order to apply space compression effectively for a dynamic, scalable and robust 3D user interface, it is important to study how the human perceives different layouts with overlapping spaces. In this paper, we explore the influence of the properties of the layout used on human spatial perception in a physically impossible spatial arrangement. Our first reported study focuses on the following parameters of the path within a simple self-overlapping layout: number of turns, relative door positions, sequences of counter- and clockwise turns, symmetry and asymmetry of the path used. In addition, in the second study we explore the effect of path smoothing by substituting the right-angled corridors by smooth curves. Our studies show that usage of the smooth curved corridors is more beneficial for spatial compression than the conventional right-angled approach.",
+            "Abstract": "Space available for any virtual reality experience is often strictly limited and abridges the virtual world to a size of a room. To extend the amount of virtual space accessible by walking within the same real workspace the methods of spatial compression were proposed. Scene manipulation with a controlled spatial overlap has been shown to be an efficient method. However, in order to apply space compression effectively for a dynamic, scalable and robust 3D user interface, it is important to study how the human perceives different layouts with overlapping spaces.  In this paper, we explore the influence of the properties of the layout used on human spatial perception in a physically impossible spatial arrangement. Our first reported study focuses on the following parameters of the path within a simple self-overlapping layout: number of turns, relative door positions, sequences of counter- and clockwise turns, symmetry and asymmetry of the path used. In addition, in the second study we explore the effect of path smoothing by substituting the right-angled corridors by smooth curves. Our studies show that usage of the smooth curved corridors is more beneficial for spatial compression than the conventional right-angled approach.",
             "Award": "",
-            "Keywords": "Perception;  user study;  virtual reality"
+            "Keywords": "Spatial perception;  spatial manipulation;  spatial compression;  redirected walking;  user study;  virtual reality"
         },
         {
             "Title": "Increasing Optical Tracking Workspace of VR Applications using Controlled Cameras",
@@ -180,19 +180,19 @@
             "Type": "Paper",
             "Track": "Papers",
             "Key": "tdui17main-papers-118-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DThomas+Young%2C+Robert+Teather%2C+and+Scott+MacKenzie+%22An+Arm-Mounted+Inertial+Controller+for+6DOF+Input%3A+Design+and+Evaluation%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DThomas+S.+Young%2C+Robert+J.+Teather%2C+and+I.+Scott+MacKenzie+%22An+Arm-Mounted+Inertial+Controller+for+6DOF+Input%3A+Design+and+Evaluation%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Thomas Young, Robert Teather, and Scott MacKenzie",
+            "PersonsString": "Thomas S. Young, Robert J. Teather, and I. Scott MacKenzie",
             "AffiliationsString": "York University, Canada; Carleton University, Canada",
             "Authors": [
-                "Thomas Young @ York University, Canada",
-                "Robert Teather @ Carleton University, Canada",
-                "Scott MacKenzie @ York University, Canada"
+                "Thomas S. Young @ York University, Canada",
+                "Robert J. Teather @ Carleton University, Canada",
+                "I. Scott MacKenzie @ York University, Canada"
             ],
             "Affiliations": [
                 "York University, Canada",
@@ -208,25 +208,25 @@
             "Type": "Paper",
             "Track": "Papers",
             "Key": "tdui17main-papers-121-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DThammathip+Piumsomboon%2C+Gun+Lee%2C+Robert+Lindeman%2C+and+Mark+Billinghurst+%22Exploring+Natural+Eye-Gaze-Based+Interaction+for+Immersive+Virtual+Reality%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DThammathip+Piumsomboon%2C+Gun+Lee%2C+Robert+W.+Lindeman%2C+and+Mark+Billinghurst+%22Exploring+Natural+Eye-Gaze-Based+Interaction+for+Immersive+Virtual+Reality%22",
             "URLvideo": "https%3A%2F%2Fyoutu.be%2FEpCGqxkmBKE",
             "URLinfo": "http%3A%2F%2Fwww.empathiccomputing.org%2F",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Thammathip Piumsomboon, Gun Lee, Robert Lindeman, and Mark Billinghurst",
-            "AffiliationsString": "University of South Australia, Australia; HIT Lab, New Zealand",
+            "PersonsString": "Thammathip Piumsomboon, Gun Lee, Robert W. Lindeman, and Mark Billinghurst",
+            "AffiliationsString": "University of South Australia, Australia; University of Canterbury, New Zealand",
             "Authors": [
                 "Thammathip Piumsomboon @ University of South Australia, Australia",
                 "Gun Lee @ University of South Australia, Australia",
-                "Robert Lindeman @ HIT Lab, New Zealand",
+                "Robert W. Lindeman @ University of Canterbury, New Zealand",
                 "Mark Billinghurst @ University of South Australia, Australia"
             ],
             "Affiliations": [
                 "University of South Australia, Australia",
                 "University of South Australia, Australia",
-                "HIT Lab, New Zealand",
+                "University of Canterbury, New Zealand",
                 "University of South Australia, Australia"
             ],
             "Abstract": "Eye tracking technology in a head-mounted display has undergone rapid advancement in recent years, making it possible for researchers to explore new interaction techniques using natural eye movements. This paper explores three novel eye-gaze-based interaction techniques: (1) Duo-Reticles, eye-gaze selection based on eye-gaze and inertial reticles, (2) Radial Pursuit, cluttered-object selection that takes advantage of smooth pursuit, and (3) Nod and Roll, head-gesture-based interaction based on the vestibulo-ocular reflex. In an initial user study, we compare each technique against a baseline condition in a scenario that demonstrates its strengths and weaknesses.",
@@ -268,17 +268,17 @@
             "Type": "Paper",
             "Track": "Papers",
             "Key": "tdui17main-papers-176-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DDavid+Zielinski%2C+Derek+Nankivil%2C+and+Regis+Kopper+%22Specimen+Box%3A+A+Tangible+Interaction+Technique+for+World-Fixed+Virtual+Reality+Displays%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DDavid+J.+Zielinski%2C+Derek+Nankivil%2C+and+Regis+Kopper+%22Specimen+Box%3A+A+Tangible+Interaction+Technique+for+World-Fixed+Virtual+Reality+Displays%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "David Zielinski, Derek Nankivil, and Regis Kopper",
+            "PersonsString": "David J. Zielinski, Derek Nankivil, and Regis Kopper",
             "AffiliationsString": "Duke University, USA",
             "Authors": [
-                "David Zielinski @ Duke University, USA",
+                "David J. Zielinski @ Duke University, USA",
                 "Derek Nankivil @ Duke University, USA",
                 "Regis Kopper @ Duke University, USA"
             ],
@@ -414,21 +414,21 @@
             "Type": "Paper",
             "Track": "Papers",
             "Key": "tdui17main-papers-197-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAida+Erfanian%2C+Stanley+Tarng%2C+Yaoping+Hu%2C+J%C3%A9r%C3%A9my+Plouzeau%2C+and+Frederic+Merienne+%22Force+and+Vibrotactile+Integration+for+3D+User+Interaction+within+Virtual+Environments%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAida+Erfanian%2C+Stanley+Tarng%2C+Yaoping+Hu%2C+J%C3%A9r%C3%A9my+Plouzeau%2C+and+Fr%C3%A9d%C3%A9ric+Merienne+%22Force+and+Vibrotactile+Integration+for+3D+User+Interaction+within+Virtual+Environments%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Aida Erfanian, Stanley Tarng, Yaoping Hu, Jérémy Plouzeau, and Frederic Merienne",
+            "PersonsString": "Aida Erfanian, Stanley Tarng, Yaoping Hu, Jérémy Plouzeau, and Frédéric Merienne",
             "AffiliationsString": "University of Calgary, Canada; LE2I, France",
             "Authors": [
                 "Aida Erfanian @ University of Calgary, Canada",
                 "Stanley Tarng @ University of Calgary, Canada",
                 "Yaoping Hu @ University of Calgary, Canada",
                 "Jérémy Plouzeau @ LE2I, France",
-                "Frederic Merienne @ LE2I, France"
+                "Frédéric Merienne @ LE2I, France"
             ],
             "Affiliations": [
                 "University of Calgary, Canada",
@@ -446,26 +446,26 @@
             "Type": "Paper",
             "Track": "Papers",
             "Key": "tdui17main-papers-173-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMarkus+Lange%2C+Oscar+Javier+Ariza+N%C3%BA%C3%B1ez%2C+Gerd+Bruder%2C+and+Frank+Steinicke+%22Vibrotactile+Assistance+for+User+Guidance+Towards+Selection+Targets+in+VR+and+the+Cognitive+Resources+Involved%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DOscar+J.+Ariza+N.%2C+Markus+Lange%2C+Frank+Steinicke%2C+and+Gerd+Bruder+%22Vibrotactile+Assistance+for+User+Guidance+Towards+Selection+Targets+in+VR+and+the+Cognitive+Resources+Involved%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Markus Lange, Oscar Javier Ariza Núñez, Gerd Bruder, and Frank Steinicke",
-            "AffiliationsString": "University of Würzburg, Germany; University of Hamburg, Germany; University of Central Florida, USA",
+            "PersonsString": "Oscar J. Ariza N., Markus Lange, Frank Steinicke, and Gerd Bruder",
+            "AffiliationsString": "University of Hamburg, Germany; University of Würzburg, Germany; University of Central Florida, USA",
             "Authors": [
+                "Oscar J. Ariza N. @ University of Hamburg, Germany",
                 "Markus Lange @ University of Würzburg, Germany",
-                "Oscar Javier Ariza Núñez @ University of Hamburg, Germany",
-                "Gerd Bruder @ University of Central Florida, USA",
-                "Frank Steinicke @ University of Hamburg, Germany"
+                "Frank Steinicke @ University of Hamburg, Germany",
+                "Gerd Bruder @ University of Central Florida, USA"
             ],
             "Affiliations": [
+                "University of Hamburg, Germany",
                 "University of Würzburg, Germany",
                 "University of Hamburg, Germany",
-                "University of Central Florida, USA",
-                "University of Hamburg, Germany"
+                "University of Central Florida, USA"
             ],
             "Abstract": "The selection of objects in virtual reality (VR) located on the periphery and outside the field of view (FOV) requires a visual search by rotations of the HMD, which can reduce the performance of interaction. Our work explores the use of a pair of self-made wireless and wearable devices which once attached to the user’s head provide assistive vibrotactile cues for guidance in order to reduce the time used to turn and locate a target object. We present an experiment based on a dual-tasking method to analyze cognitive demands and performance metrics during a selection task.",
             "Award": "",
@@ -484,16 +484,16 @@
             "AuthorizerURL": "",
             "AuthorizerRef": "",
             "PersonsString": "Céphise Louison, Fabien Ferlay, and Daniel R. Mestre",
-            "AffiliationsString": "CEA, France; Institute of Movement Sciences, France",
+            "AffiliationsString": "CEA, France; Aix-Marseille University, France",
             "Authors": [
                 "Céphise Louison @ CEA, France",
                 "Fabien Ferlay @ CEA, France",
-                "Daniel R. Mestre @ Institute of Movement Sciences, France"
+                "Daniel R. Mestre @ Aix-Marseille University, France"
             ],
             "Affiliations": [
                 "CEA, France",
                 "CEA, France",
-                "Institute of Movement Sciences, France"
+                "Aix-Marseille University, France"
             ],
             "Abstract": "In virtual reality (VR), spatial awareness is a dominant research topic. It plays an essential role in the assessment of human operators’ behavior within virtual environments (VE), notably for the evaluation of the feasibility of manual maintenance tasks in cluttered industrial settings. In such contexts, it is decisive to evaluate the spatial and temporal correspondence between the operator’s movement kinematics and that of his/her virtual avatar in the virtual environment. Often, in a cluttered VE, direct kinesthetic (force) feedback is limited or absent. We tested whether vibrotactile (cutaneous) feedback would increase visuo-proprioceptive consistency, spatial awareness, and thus the validity of VR studies, by augmenting the perception of the operator’s contact(s) with virtual objects. We present preliminary experimental results, obtained using a head-mounted display (HMD) during a goal-directed task in a cluttered VE. Data suggest that spatialized vibrotactile feedback contributes to visuo-proprioceptive consistency.",
             "Award": "",
@@ -504,21 +504,21 @@
             "Type": "Paper",
             "Track": "Papers",
             "Key": "tdui17main-papers-213-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMerwan+Achibet%2C+Beno%C3%AEt+Le+Gouis%2C+Maud+Marchal%2C+Pierre-Alexandre+L%C3%A9ziart%2C+Fernando+Argelaguet-Sanz%2C+Adrien+Girard%2C+Anatole+L%C3%A9cuyer%2C+and+Hiroyuki+Kajimoto+%22FlexiFingers%3A+Multi-finger+Interaction+in+VR+Combining+Passive+Haptics+and+Pseudo-Haptics%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMerwan+Achibet%2C+Beno%C3%AEt+Le+Gouis%2C+Maud+Marchal%2C+Pierre-Alexandre+L%C3%A9ziart%2C+Ferran+Argelaguet%2C+Adrien+Girard%2C+Anatole+L%C3%A9cuyer%2C+and+Hiroyuki+Kajimoto+%22FlexiFingers%3A+Multi-finger+Interaction+in+VR+Combining+Passive+Haptics+and+Pseudo-Haptics%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Merwan Achibet, Benoît Le Gouis, Maud Marchal, Pierre-Alexandre Léziart, Fernando Argelaguet-Sanz, Adrien Girard, Anatole Lécuyer, and Hiroyuki Kajimoto",
+            "PersonsString": "Merwan Achibet, Benoît Le Gouis, Maud Marchal, Pierre-Alexandre Léziart, Ferran Argelaguet, Adrien Girard, Anatole Lécuyer, and Hiroyuki Kajimoto",
             "AffiliationsString": "Inria, France; IRISA, France; ENS, France; University of Electro-Communications, Japan",
             "Authors": [
                 "Merwan Achibet @ Inria, France",
                 "Benoît Le Gouis @ IRISA, France",
                 "Maud Marchal @ IRISA, France",
                 "Pierre-Alexandre Léziart @ ENS, France",
-                "Fernando Argelaguet-Sanz @ Inria, France",
+                "Ferran Argelaguet @ Inria, France",
                 "Adrien Girard @ Inria, France",
                 "Anatole Lécuyer @ Inria, France",
                 "Hiroyuki Kajimoto @ University of Electro-Communications, Japan"
@@ -570,23 +570,23 @@
             "Type": "Paper",
             "Track": "Papers",
             "Key": "tdui17main-papers-198-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DRun+Yu%2C+Wallace+Lages%2C+Mahdi+Nabiyouni%2C+Brandon+Ray%2C+Navyaram+Kondur%2C+Vikram+Chandrashekar%2C+and+Doug+Bowman+%22Bookshelf+and+Bird%3A+Enabling+Real+Walking+in+Large+VR+Spaces+through+Cell-Based+Redirection%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DRun+Yu%2C+Wallace+S.+Lages%2C+Mahdi+Nabiyouni%2C+Brandon+Ray%2C+Navyaram+Kondur%2C+Vikram+Chandrashekar%2C+and+Doug+A.+Bowman+%22Bookshelf+and+Bird%3A+Enabling+Real+Walking+in+Large+VR+Spaces+through+Cell-Based+Redirection%22",
             "URLvideo": "https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAS65-h_CvVs",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Run Yu, Wallace Lages, Mahdi Nabiyouni, Brandon Ray, Navyaram Kondur, Vikram Chandrashekar, and Doug Bowman",
+            "PersonsString": "Run Yu, Wallace S. Lages, Mahdi Nabiyouni, Brandon Ray, Navyaram Kondur, Vikram Chandrashekar, and Doug A. Bowman",
             "AffiliationsString": "Virginia Tech, USA",
             "Authors": [
                 "Run Yu @ Virginia Tech, USA",
-                "Wallace Lages @ Virginia Tech, USA",
+                "Wallace S. Lages @ Virginia Tech, USA",
                 "Mahdi Nabiyouni @ Virginia Tech, USA",
                 "Brandon Ray @ Virginia Tech, USA",
                 "Navyaram Kondur @ Virginia Tech, USA",
                 "Vikram Chandrashekar @ Virginia Tech, USA",
-                "Doug Bowman @ Virginia Tech, USA"
+                "Doug A. Bowman @ Virginia Tech, USA"
             ],
             "Affiliations": [
                 "Virginia Tech, USA",
@@ -686,11 +686,11 @@
             "Keywords": ""
         },
         {
-            "Title": "Gesture Elicitation for 3D Travel via Multi-touch and Mid-Air Systems for Procedurally Generated Pseudo-Universe",
+            "Title": "Gesture Elicitation for 3D Travel via Multi-Touch and Mid-Air Systems for Procedurally Generated Pseudo-Universe",
             "Type": "Paper",
             "Track": "Papers",
             "Key": "tdui17main-papers-214-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DFrancisco+R.+Ortega%2C+Alain+Galvan%2C+Katherine+Tarre%2C+Armando+Barreto%2C+Naphtali+Rishe%2C+Jonathan+Bernal%2C+Ruben+Balcazar%2C+and+Jason-Lee+Thomas+%22Gesture+Elicitation+for+3D+Travel+via+Multi-touch+and+Mid-Air+Systems+for+Procedurally+Generated+Pseudo-Universe%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DFrancisco+R.+Ortega%2C+Alain+Galvan%2C+Katherine+Tarre%2C+Armando+Barreto%2C+Naphtali+Rishe%2C+Jonathan+Bernal%2C+Ruben+Balcazar%2C+and+Jason-Lee+Thomas+%22Gesture+Elicitation+for+3D+Travel+via+Multi-Touch+and+Mid-Air+Systems+for+Procedurally+Generated+Pseudo-Universe%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
@@ -728,21 +728,21 @@
             "Type": "Paper",
             "Track": "Papers",
             "Key": "tdui17main-papers-182-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DDaniel+Mendes%2C+Daniel+Medeiros%2C+Maur%C3%ADcio+Sousa%2C+Ricardo+Ferreira%2C+Alberto+Barbosa+Raposo%2C+Alfredo+Ferreira%2C+and+Joaquim+Jorge+%22Mid-Air+Modeling+with+Boolean+Operations+in+VR%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DDaniel+Mendes%2C+Daniel+Medeiros%2C+Maur%C3%ADcio+Sousa%2C+Ricardo+Ferreira%2C+Alberto+Raposo%2C+Alfredo+Ferreira%2C+and+Joaquim+Jorge+%22Mid-Air+Modeling+with+Boolean+Operations+in+VR%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Daniel Mendes, Daniel Medeiros, Maurício Sousa, Ricardo Ferreira, Alberto Barbosa Raposo, Alfredo Ferreira, and Joaquim Jorge",
-            "AffiliationsString": "INESC-ID, Portugal; Técnico Lisboa, Portugal; PUC-Rio, Brazil",
+            "PersonsString": "Daniel Mendes, Daniel Medeiros, Maurício Sousa, Ricardo Ferreira, Alberto Raposo, Alfredo Ferreira, and Joaquim Jorge",
+            "AffiliationsString": "INESC-ID, Portugal; PUC-Rio, Brazil",
             "Authors": [
                 "Daniel Mendes @ INESC-ID, Portugal",
                 "Daniel Medeiros @ INESC-ID, Portugal",
                 "Maurício Sousa @ INESC-ID, Portugal",
-                "Ricardo Ferreira @ Técnico Lisboa, Portugal",
-                "Alberto Barbosa Raposo @ PUC-Rio, Brazil",
+                "Ricardo Ferreira @ INESC-ID, Portugal",
+                "Alberto Raposo @ PUC-Rio, Brazil",
                 "Alfredo Ferreira @ INESC-ID, Portugal",
                 "Joaquim Jorge @ INESC-ID, Portugal"
             ],
@@ -750,7 +750,7 @@
                 "INESC-ID, Portugal",
                 "INESC-ID, Portugal",
                 "INESC-ID, Portugal",
-                "Técnico Lisboa, Portugal",
+                "INESC-ID, Portugal",
                 "PUC-Rio, Brazil",
                 "INESC-ID, Portugal",
                 "INESC-ID, Portugal"
@@ -764,20 +764,20 @@
             "Type": "Paper",
             "Track": "Papers",
             "Key": "tdui17main-papers-215-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DFerran+Argelaguet%2C+M%C3%A9lanie+Ducoffe%2C+Remi+Gribonval%2C+and+Anatole+L%C3%A9cuyer+%22Spatial+and+Rotation+Invariant+3D+Gesture+Recognition+Based+on+Sparse+Representation%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DFerran+Argelaguet%2C+M%C3%A9lanie+Ducoffe%2C+Anatole+L%C3%A9cuyer%2C+and+Remi+Gribonval+%22Spatial+and+Rotation+Invariant+3D+Gesture+Recognition+Based+on+Sparse+Representation%22",
             "URLvideo": "https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F4225888%2FVideos%2F2017-GestureRecognition.mpg",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Ferran Argelaguet, Mélanie Ducoffe, Remi Gribonval, and Anatole Lécuyer",
+            "PersonsString": "Ferran Argelaguet, Mélanie Ducoffe, Anatole Lécuyer, and Remi Gribonval",
             "AffiliationsString": "Inria, France; ENS, France",
             "Authors": [
                 "Ferran Argelaguet @ Inria, France",
                 "Mélanie Ducoffe @ ENS, France",
-                "Remi Gribonval @ Inria, France",
-                "Anatole Lécuyer @ Inria, France"
+                "Anatole Lécuyer @ Inria, France",
+                "Remi Gribonval @ Inria, France"
             ],
             "Affiliations": [
                 "Inria, France",
@@ -886,20 +886,20 @@
             "Type": "Paper",
             "Track": "Papers",
             "Key": "tdui17main-papers-141-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DYun+Suk+Chang%2C+Benjamin+Nuernberger%2C+Bo+Luan%2C+and+Tobias+Hollerer+%22Evaluating+Gesture-Based+Augmented+Reality+Annotation%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DYun+Suk+Chang%2C+Benjamin+Nuernberger%2C+Bo+Luan%2C+and+Tobias+H%C3%B6llerer+%22Evaluating+Gesture-Based+Augmented+Reality+Annotation%22",
             "URLvideo": "https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D0HacoNGjOtg",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Yun Suk Chang, Benjamin Nuernberger, Bo Luan, and Tobias Hollerer",
+            "PersonsString": "Yun Suk Chang, Benjamin Nuernberger, Bo Luan, and Tobias Höllerer",
             "AffiliationsString": "University of California at Santa Barbara, USA",
             "Authors": [
                 "Yun Suk Chang @ University of California at Santa Barbara, USA",
                 "Benjamin Nuernberger @ University of California at Santa Barbara, USA",
                 "Bo Luan @ University of California at Santa Barbara, USA",
-                "Tobias Hollerer @ University of California at Santa Barbara, USA"
+                "Tobias Höllerer @ University of California at Santa Barbara, USA"
             ],
             "Affiliations": [
                 "University of California at Santa Barbara, USA",
@@ -943,8 +943,8 @@
             "Track": "Papers",
             "Key": "tdui17main-papers-163-p",
             "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJoan+Sol+Roo+and+Martin+Hachet+%22Towards+a+Hybrid+Space+Combining+Spatial+Augmented+Reality+and+Virtual+Reality%22",
-            "URLvideo": "",
-            "URLinfo": "",
+            "URLvideo": "https%3A%2F%2Fvimeo.com%2F206561196",
+            "URLinfo": "https%3A%2F%2Fteam.inria.fr%2Fpotioc%2Fscientific-subjects%2Fhybrid-mixed-reality%2F",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
@@ -976,15 +976,15 @@
             "AuthorizerURL": "",
             "AuthorizerRef": "",
             "PersonsString": "Jace Regenbrecht, Alireza Tavakkoli, and Donald Loffredo",
-            "AffiliationsString": "University of Houston-Victoria, USA; Univeristy of Houston-Victoria, USA",
+            "AffiliationsString": "University of Houston-Victoria, USA",
             "Authors": [
                 "Jace Regenbrecht @ University of Houston-Victoria, USA",
-                "Alireza Tavakkoli @ Univeristy of Houston-Victoria, USA",
+                "Alireza Tavakkoli @ University of Houston-Victoria, USA",
                 "Donald Loffredo @ University of Houston-Victoria, USA"
             ],
             "Affiliations": [
                 "University of Houston-Victoria, USA",
-                "Univeristy of Houston-Victoria, USA",
+                "University of Houston-Victoria, USA",
                 "University of Houston-Victoria, USA"
             ],
             "Abstract": "In this paper an intuitive human interface is presented which allows for an operator immersed in a virtual environment to remotely control a teleoperated agent with minimal cognitive overload and minimal risk of accidental input. Additionally, a cursor-based interface is presented allowing for the placement of navigation nodes for the agent, thus facilitating robot&#039;s autonomous navigation functions to be executed.",
@@ -996,36 +996,36 @@
             "Type": "Poster",
             "Track": "Posters",
             "Key": "tdui17posters-posters-108-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DSalam+Daher%2C+Kangsoo+Kim%2C+Myungho+Lee%2C+Ryan+Schubert%2C+Jeremy+Bailenson%2C+Gerd+Bruder%2C+and+Gregory+Welch+%22Can+Social+Presence+Be+Contagious%3F+Effects+of+Social+Presence+Priming+on+Interaction+with+Virtual+Humans%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DSalam+Daher%2C+Kangsoo+Kim%2C+Myungho+Lee%2C+Gerd+Bruder%2C+Ryan+Schubert%2C+Jeremy+Bailenson%2C+and+Gregory+F.+Welch+%22Can+Social+Presence+Be+Contagious%3F+Effects+of+Social+Presence+Priming+on+Interaction+with+Virtual+Humans%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Salam Daher, Kangsoo Kim, Myungho Lee, Ryan Schubert, Jeremy Bailenson, Gerd Bruder, and Gregory Welch",
+            "PersonsString": "Salam Daher, Kangsoo Kim, Myungho Lee, Gerd Bruder, Ryan Schubert, Jeremy Bailenson, and Gregory F. Welch",
             "AffiliationsString": "University of Central Florida, USA; Stanford University, USA",
             "Authors": [
                 "Salam Daher @ University of Central Florida, USA",
                 "Kangsoo Kim @ University of Central Florida, USA",
                 "Myungho Lee @ University of Central Florida, USA",
+                "Gerd Bruder @ University of Central Florida, USA",
                 "Ryan Schubert @ University of Central Florida, USA",
                 "Jeremy Bailenson @ Stanford University, USA",
-                "Gerd Bruder @ University of Central Florida, USA",
-                "Gregory Welch @ University of Central Florida, USA"
+                "Gregory F. Welch @ University of Central Florida, USA"
             ],
             "Affiliations": [
                 "University of Central Florida, USA",
                 "University of Central Florida, USA",
                 "University of Central Florida, USA",
                 "University of Central Florida, USA",
-                "Stanford University, USA",
                 "University of Central Florida, USA",
+                "Stanford University, USA",
                 "University of Central Florida, USA"
             ],
             "Abstract": "We explore whether a peripheral observation of apparent mutual social presence between a virtual human (VH) and a virtual human confederate (VHC) can increase a subject’s sense of social presence with the VH. Human subjects were asked to play a game with a VH. Half of the subjects were primed by being exposed to a brief but apparently engaging conversation between the VHC and the VH. The primed subjects reported being significantly more excited, alert, had significantly higher measures of Co-Presence, Attentional Allocation, and Message Understanding dimensions of social presence for the VH, compared to those who were not primed.",
             "Award": "",
-            "Keywords": ""
+            "Keywords": "H.5.1 [Information Interfaces and Presentation]: Multimedia Information Systems—Artificial;  Augmented;  and Virtual Realities;  I.3.7 [Computer Graphics]: Three-Dimensional Graphics and Realism—Virtual reality;  I.68 [Simulation and Modeling]: Types of Simulation—Animation;  J.4 [Computer Applications]: Social and Behavioral Sciences—Psychology;  Sociology"
         },
         {
             "Title": "Design and Preliminary Evaluation of an Ego-Exocentric Technique for Cooperative Manipulation",
@@ -1114,18 +1114,18 @@
             "Type": "Poster",
             "Track": "Posters",
             "Key": "tdui17posters-posters-115-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DPrabhakar+Vemavarapu+and+Christoph+Borst+%22Indirect+Touch+Interaction+with+Stereoscopic+Displays+using+a+Two-Sided+Handheld+Touch+Device%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DPrabhakar+V.+Vemavarapu+and+Christoph+W.+Borst+%22Indirect+Touch+Interaction+with+Stereoscopic+Displays+using+a+Two-Sided+Handheld+Touch+Device%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Prabhakar Vemavarapu and Christoph Borst",
+            "PersonsString": "Prabhakar V. Vemavarapu and Christoph W. Borst",
             "AffiliationsString": "University of Louisiana at Lafayette, USA",
             "Authors": [
-                "Prabhakar Vemavarapu @ University of Louisiana at Lafayette, USA",
-                "Christoph Borst @ University of Louisiana at Lafayette, USA"
+                "Prabhakar V. Vemavarapu @ University of Louisiana at Lafayette, USA",
+                "Christoph W. Borst @ University of Louisiana at Lafayette, USA"
             ],
             "Affiliations": [
                 "University of Louisiana at Lafayette, USA",
@@ -1232,29 +1232,29 @@
             "Type": "Poster",
             "Track": "Posters",
             "Key": "tdui17posters-postersposters-126-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAna+Grassiele+Correa%2C+Eduardo+Zilles+Borba%2C+Roseli+Lopes%2C+Marcelo+Zuffo%2C+Astolfo+Araujo%2C+and+Regis+Kopper+%22User+Experience+Evaluation+with+Archaeometry+Interactive+Tools+in+Virtual+Reality+Environment%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DAna+Grasielle+Corr%C3%AAa%2C+Eduardo+Zilles+Borba%2C+Roseli+Lopes%2C+Marcelo+Knorich+Zuffo%2C+Astolfo+Araujo%2C+and+Regis+Kopper+%22User+Experience+Evaluation+with+Archaeometry+Interactive+Tools+in+Virtual+Reality+Environment%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Ana Grassiele Correa, Eduardo Zilles Borba, Roseli Lopes, Marcelo Zuffo, Astolfo Araujo, and Regis Kopper",
-            "AffiliationsString": "University of São Paulo, Brasil; Duke University, USA",
+            "PersonsString": "Ana Grasielle Corrêa, Eduardo Zilles Borba, Roseli Lopes, Marcelo Knorich Zuffo, Astolfo Araujo, and Regis Kopper",
+            "AffiliationsString": "University of São Paulo, Brazil; Duke University, USA",
             "Authors": [
-                "Ana Grassiele Correa @ University of São Paulo, Brasil",
-                "Eduardo Zilles Borba @ University of São Paulo, Brasil",
-                "Roseli Lopes @ University of São Paulo, Brasil",
-                "Marcelo Zuffo @ University of São Paulo, Brasil",
-                "Astolfo Araujo @ University of São Paulo, Brasil",
+                "Ana Grasielle Corrêa @ University of São Paulo, Brazil",
+                "Eduardo Zilles Borba @ University of São Paulo, Brazil",
+                "Roseli Lopes @ University of São Paulo, Brazil",
+                "Marcelo Knorich Zuffo @ University of São Paulo, Brazil",
+                "Astolfo Araujo @ University of São Paulo, Brazil",
                 "Regis Kopper @ Duke University, USA"
             ],
             "Affiliations": [
-                "University of São Paulo, Brasil",
-                "University of São Paulo, Brasil",
-                "University of São Paulo, Brasil",
-                "University of São Paulo, Brasil",
-                "University of São Paulo, Brasil",
+                "University of São Paulo, Brazil",
+                "University of São Paulo, Brazil",
+                "University of São Paulo, Brazil",
+                "University of São Paulo, Brazil",
+                "University of São Paulo, Brazil",
                 "Duke University, USA"
             ],
             "Abstract": "In this work we present a study about usability experience of users in a cyber-archeological environment. We researched how they explore a realistic 3D environment in Virtual Reality (VR) through archaeometry conventional techniques. Our objective is to evaluate users experiences with interactive archaeometry tools with archaeologist (not a VR expert) and compare results with VR experts (not an archeology expert). Two hypothesis will be tested: a) it’s possible to simulate the virtual world realistically as the real one?; b) if this VR model is passive of exploration, is it possible to create 3DUI analytical tools to help archaeologist to manipulate archaeometry tools? To explore these hypotheses we conducted experimental tests with ten users and the results are promising.",
@@ -1294,27 +1294,27 @@
             "Type": "Poster",
             "Track": "Posters",
             "Key": "tdui17posters-postersposters-129-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJose+Dorado%2C+Pablo+Figueroa%2C+Jean-Remy+Chardonnet%2C+Frederic+Merienne%2C+and+Tiberio+Hern%C3%A1ndez+%22Comparing+VR+Environments+for+Seat+Selection+in+an+Opera+Theater%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJos%C3%A9+Luis+Dorado%2C+Pablo+Figueroa%2C+Jean-R%C3%A9my+Chardonnet%2C+Fr%C3%A9d%C3%A9ric+Merienne%2C+and+Jos%C3%A9+Tiberio+Hern%C3%A1ndez+%22Comparing+VR+Environments+for+Seat+Selection+in+an+Opera+Theater%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Jose Dorado, Pablo Figueroa, Jean-Remy Chardonnet, Frederic Merienne, and Tiberio Hernández",
-            "AffiliationsString": "University of Andes, Colombia; CNRS, France",
+            "PersonsString": "José Luis Dorado, Pablo Figueroa, Jean-Rémy Chardonnet, Frédéric Merienne, and José Tiberio Hernández",
+            "AffiliationsString": "University of Andes, France; University of Andes, Colombia; LE2I, France",
             "Authors": [
-                "Jose Dorado @ University of Andes, Colombia",
+                "José Luis Dorado @ University of Andes, France",
                 "Pablo Figueroa @ University of Andes, Colombia",
-                "Jean-Remy Chardonnet @ CNRS, France",
-                "Frederic Merienne @ CNRS, France",
-                "Tiberio Hernández @ University of Andes, Colombia"
+                "Jean-Rémy Chardonnet @ LE2I, France",
+                "Frédéric Merienne @ LE2I, France",
+                "José Tiberio Hernández @ University of Andes, Colombia"
             ],
             "Affiliations": [
+                "University of Andes, France",
                 "University of Andes, Colombia",
-                "University of Andes, Colombia",
-                "CNRS, France",
-                "CNRS, France",
+                "LE2I, France",
+                "LE2I, France",
                 "University of Andes, Colombia"
             ],
             "Abstract": "This study presents a comparison of the influence of different VR environments in the task of selecting a preferred seat in an opera theater. We used gaze-based raycasting and headsets in a low-cost head-mounted display (HMD) (GearVR); and a virtual wand, head tracking, and headsets in a CAVE, two somewhat opposing technologies in the spectrum of current VR systems. Visual rendering and the selection technique depend on the capabilities of each environment, whereas the sound is approximated in both environments. Results show that subjects can select similar seats but their decisions differ between both environments. The results obtained can be useful in guiding the development of future VR applications.",
@@ -1354,19 +1354,19 @@
             "Type": "Poster",
             "Track": "Posters",
             "Key": "tdui17posters-postersposters-132-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DOliver+Basting%2C+Stefan+Gr%C3%BCnvogel%2C+and+Arnulph+Fuhrmann+%22The+Effectiveness+of+Changing+the+Field+of+View+in+a+HMD+on+the+Perceived+Self-Motion%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DOliver+Basting%2C+Arnulph+Fuhrmann%2C+and+Stefan+M.+Gr%C3%BCnvogel+%22The+Effectiveness+of+Changing+the+Field+of+View+in+a+HMD+on+the+Perceived+Self-Motion%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Oliver Basting, Stefan Grünvogel, and Arnulph Fuhrmann",
+            "PersonsString": "Oliver Basting, Arnulph Fuhrmann, and Stefan M. Grünvogel",
             "AffiliationsString": "TH Köln, Germany",
             "Authors": [
                 "Oliver Basting @ TH Köln, Germany",
-                "Stefan Grünvogel @ TH Köln, Germany",
-                "Arnulph Fuhrmann @ TH Köln, Germany"
+                "Arnulph Fuhrmann @ TH Köln, Germany",
+                "Stefan M. Grünvogel @ TH Köln, Germany"
             ],
             "Affiliations": [
                 "TH Köln, Germany",
@@ -1457,7 +1457,7 @@
                 "University of Strasbourg, France",
                 "University of Strasbourg, France"
             ],
-            "Abstract": "Stereo and head tracking are considered as distance perception cues in virtual environment. Several studies have investigated their influence on several tasks. Results were different among studies. In this paper, we conducted a complete experiment investigating the influence of the stereo and head tracking in the specific context of virtual visits of houses during architectural project review with client. We manipulated the stereo and head tracking in four conditions and we examined the effects of the two factors on distance perception (room dimensions, habitability, etc.), task difficulty, presence and simulator sickness. Results reveal a significant effect of the stereo on the estimation of the habitability, the dimensions of the rooms and task difficulty. However, the effect of stereo and head tracking was not significant on the presence and simulator sickness.",
+            "Abstract": "Stereo and head tracking are considered as distance perception cues in virtual environment. Several studies have investigated their influence on several tasks. Results were different among studies. In this paper, we conducted a complete experiment investigating the influence of the stereo and head tracking in the specific context of virtual visits of houses during architectural project review with clients. We manipulated the stereo and head tracking in four conditions and we examined effects of the two factors on distance perception (room dimensions, habitability, etc.), task difficulty, presence and simulator sickness. Results reveal a significant effect of the stereo on the estimation of the habitability, the dimensions of the rooms and task difficulty. However, the effect of stereo and head tracking was not significant on the presence and simulator sickness.",
             "Award": "",
             "Keywords": "Virtual reality;  virtual visis;  stereo;  head tracking;  distance estimation;  presence;  simulator sickness;  architectural project review"
         },
@@ -1494,19 +1494,19 @@
             "Type": "Poster",
             "Track": "Posters",
             "Key": "tdui17posters-postersposters-139-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DIevgeniia+Gutenko%2C+Seyedkoosha+Mirhosseini%2C+and+Arie+Kaufman+%22Angle+and+Pressure-Based+Volumetric+Picking+on+Touchscreen+Devices%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DIevgeniia+Gutenko%2C+Seyedkoosha+Mirhosseini%2C+and+Arie+E.+Kaufman+%22Angle+and+Pressure-Based+Volumetric+Picking+on+Touchscreen+Devices%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Ievgeniia Gutenko, Seyedkoosha Mirhosseini, and Arie Kaufman",
+            "PersonsString": "Ievgeniia Gutenko, Seyedkoosha Mirhosseini, and Arie E. Kaufman",
             "AffiliationsString": "Stony Brook University, USA",
             "Authors": [
                 "Ievgeniia Gutenko @ Stony Brook University, USA",
                 "Seyedkoosha Mirhosseini @ Stony Brook University, USA",
-                "Arie Kaufman @ Stony Brook University, USA"
+                "Arie E. Kaufman @ Stony Brook University, USA"
             ],
             "Affiliations": [
                 "Stony Brook University, USA",
@@ -1522,20 +1522,20 @@
             "Type": "Poster",
             "Track": "Posters",
             "Key": "tdui17posters-postersposters-140-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DDaniel+Mendes%2C+Daniel+Medeiros%2C+Eduardo+Cordeiro%2C+Maurecio+Sousa%2C+Alfredo+Ferreira%2C+and+Joaquim+Jorge+%22PRECIOUS%21+Out-of-Reach+Selection+using+Iterative+Refinement+in+VR%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DDaniel+Mendes%2C+Daniel+Medeiros%2C+Eduardo+Cordeiro%2C+Maur%C3%ADcio+Sousa%2C+Alfredo+Ferreira%2C+and+Joaquim+Jorge+%22PRECIOUS%21+Out-of-Reach+Selection+using+Iterative+Refinement+in+VR%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Daniel Mendes, Daniel Medeiros, Eduardo Cordeiro, Maurecio Sousa, Alfredo Ferreira, and Joaquim Jorge",
+            "PersonsString": "Daniel Mendes, Daniel Medeiros, Eduardo Cordeiro, Maurício Sousa, Alfredo Ferreira, and Joaquim Jorge",
             "AffiliationsString": "INESC-ID, Portugal; University of Lisbon, Portugal",
             "Authors": [
                 "Daniel Mendes @ INESC-ID, Portugal",
                 "Daniel Medeiros @ INESC-ID, Portugal",
                 "Eduardo Cordeiro @ University of Lisbon, Portugal",
-                "Maurecio Sousa @ INESC-ID, Portugal",
+                "Maurício Sousa @ INESC-ID, Portugal",
                 "Alfredo Ferreira @ INESC-ID, Portugal",
                 "Joaquim Jorge @ INESC-ID, Portugal"
             ],
@@ -1556,19 +1556,19 @@
             "Type": "Poster",
             "Track": "Posters",
             "Key": "tdui17posters-postersposters-141-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DRory+Clifford%2C+Nikita+Tuanquin%2C+and+Robert+Lindeman+%22Jedi+ForceExtension%3A+Telekinesis+as+a+Virtual+Reality+Interaction+Metaphor%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DRory+M.+S.+Clifford%2C+Nikita+Mae+B.+Tuanquin%2C+and+Robert+W.+Lindeman+%22Jedi+ForceExtension%3A+Telekinesis+as+a+Virtual+Reality+Interaction+Metaphor%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Rory Clifford, Nikita Tuanquin, and Robert Lindeman",
+            "PersonsString": "Rory M. S. Clifford, Nikita Mae B. Tuanquin, and Robert W. Lindeman",
             "AffiliationsString": "University of Canterbury, New Zealand",
             "Authors": [
-                "Rory Clifford @ University of Canterbury, New Zealand",
-                "Nikita Tuanquin @ University of Canterbury, New Zealand",
-                "Robert Lindeman @ University of Canterbury, New Zealand"
+                "Rory M. S. Clifford @ University of Canterbury, New Zealand",
+                "Nikita Mae B. Tuanquin @ University of Canterbury, New Zealand",
+                "Robert W. Lindeman @ University of Canterbury, New Zealand"
             ],
             "Affiliations": [
                 "University of Canterbury, New Zealand",
@@ -1584,30 +1584,30 @@
             "Type": "Poster",
             "Track": "Posters",
             "Key": "tdui17posters-postersposters-142-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJeremy+Plouzeau%2C+Jose+Luis+Dorado%2C+Damien+Paillot%2C+and+Frederic+Merienne+%22Effect+of+Footstep+Vibrations+and+Proprioceptive+Vibrations+Used+with+an+Innovative+Navigation+Method%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJ%C3%A9r%C3%A9my+Plouzeau%2C+Jos%C3%A9+Luis+Dorado%2C+Damien+Paillot%2C+and+Fr%C3%A9d%C3%A9ric+Merienne+%22Effect+of+Footstep+Vibrations+and+Proprioceptive+Vibrations+Used+with+an+Innovative+Navigation+Method%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Jeremy Plouzeau, Jose Luis Dorado, Damien Paillot, and Frederic Merienne",
-            "AffiliationsString": "CNRS, France",
+            "PersonsString": "Jérémy Plouzeau, José Luis Dorado, Damien Paillot, and Frédéric Merienne",
+            "AffiliationsString": "LE2I, France",
             "Authors": [
-                "Jeremy Plouzeau @ CNRS, France",
-                "Jose Luis Dorado @ CNRS, France",
-                "Damien Paillot @ CNRS, France",
-                "Frederic Merienne @ CNRS, France"
+                "Jérémy Plouzeau @ LE2I, France",
+                "José Luis Dorado @ LE2I, France",
+                "Damien Paillot @ LE2I, France",
+                "Frédéric Merienne @ LE2I, France"
             ],
             "Affiliations": [
-                "CNRS, France",
-                "CNRS, France",
-                "CNRS, France",
-                "CNRS, France"
+                "LE2I, France",
+                "LE2I, France",
+                "LE2I, France",
+                "LE2I, France"
             ],
-            "Abstract": "This study proposes to investigate the effect of adding vibration feedback to a navigation task in virtual environment. Previous study used footstep vibrations and proprioceptive vibrations in order to decrease the cyber-sickness and increase the sense of presence. In this study, we experiment the same vibration modalities but with a new navigation method.  The results show that proprioceptive vibrations do not impact the sense of presence neither the cybersickness while footstep vibrations increase sense of presence and decrease in a certain way cybersickness.",
+            "Abstract": "This study proposes to investigate the effect of adding vibration feedback to a navigation task in virtual environment. Previous study used footstep vibrations and proprioceptive vibrations in order to decrease the cyber-sickness and increase the sense of presence. In this study, we experiment the same vibration modalities but with a new navigation method.  The results show that proprioceptive vibrations do not impact the sense of presence neither the cyber-sickness while footstep vibrations increase sense of presence and decrease in a certain way cyber-sickness.",
             "Award": "",
-            "Keywords": "Virtual Reality;  Navigation Method;  Vibrations;  Cybersickness;  Presence"
+            "Keywords": "Virtual Reality;  Navigation Method;  Vibrations;  Cyber-sickness;  Presence"
         },
         {
             "Title": "Anatomical 2D/3D Shape-Matching in Virtual Reality: A User Interface for Quantifying Joint Kinematics with Radiographic Imaging",
@@ -1641,7 +1641,7 @@
             ],
             "Abstract": "We introduce a virtual reality 3D user interface (3DUI) for anatomical 2D/3D shape-matching, a challenging task that is part of medical imaging processes required by biomechanics researchers. Manual shape-matching can be thought of as a nuanced version of classic 6 degree-of-freedom docking tasks studied in the 3DUI research community. Our solution combines dynamic gain for precise translation and rotation from 6 degree-of-freedom tracker input, constraints based on both 2D and 3D data, and immersive visualization and visual feedback.",
             "Award": "",
-            "Keywords": ""
+            "Keywords": "Virtual reality"
         },
         {
             "Title": "Redirected Reach in Virtual Reality: Enabling Natural Hand Interaction at Multiple Virtual Locations with Passive Haptics",
@@ -1655,13 +1655,13 @@
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Mohamed Suhail, Shyam Prathish Sargunam, Dustin Han, and Eric Ragan",
+            "PersonsString": "Mohamed Suhail, Shyam Prathish Sargunam, Dustin T. Han, and Eric D. Ragan",
             "AffiliationsString": "Texas A&M University, USA",
             "Authors": [
                 "Mohamed Suhail @ Texas A&M University, USA",
                 "Shyam Prathish Sargunam @ Texas A&M University, USA",
-                "Dustin Han @ Texas A&M University, USA",
-                "Eric Ragan @ Texas A&M University, USA"
+                "Dustin T. Han @ Texas A&M University, USA",
+                "Eric D. Ragan @ Texas A&M University, USA"
             ],
             "Affiliations": [
                 "Texas A&M University, USA",
@@ -1674,11 +1674,11 @@
             "Keywords": ""
         },
         {
-            "Title": "Effect of Hand-Avatar in a Selection Task using a Tablet as Input Device in an Immersive Virtual Environment",
+            "Title": "Effect of Hand-Avatar in a Selection Task Using a Tablet as Input Device in an Immersive Virtual Environment",
             "Type": "Poster",
             "Track": "Posters",
             "Key": "tdui17posters-postersposters-145-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DLuis+Afonso%2C+Paulo+Dias%2C+Carlos+Ferreira%2C+and+Beatriz+Sousa+Santos+%22Effect+of+Hand-Avatar+in+a+Selection+Task+using+a+Tablet+as+Input+Device+in+an+Immersive+Virtual+Environment%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DLuis+Afonso%2C+Paulo+Dias%2C+Carlos+Ferreira%2C+and+Beatriz+Sousa+Santos+%22Effect+of+Hand-Avatar+in+a+Selection+Task+Using+a+Tablet+as+Input+Device+in+an+Immersive+Virtual+Environment%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
@@ -1708,19 +1708,19 @@
             "Type": "Poster",
             "Track": "Posters",
             "Key": "tdui17posters-postersposters-146-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMohamed+Handosa%2C+Denis+Gracanin%2C+Hicham+Elmongui%2C+and+Andrew+Ciambrone+%22Painting+with+Light%3A+Gesture+Based+Light+Control+in+Architectural+Settings%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DMohamed+Handosa%2C+Denis+Gra%C4%8Danin%2C+Hicham+G.+Elmongui%2C+and+Andrew+Ciambrone+%22Painting+with+Light%3A+Gesture+Based+Light+Control+in+Architectural+Settings%22",
             "URLvideo": "https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJE0RiiqyWHw",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Mohamed Handosa, Denis Gracanin, Hicham Elmongui, and Andrew Ciambrone",
+            "PersonsString": "Mohamed Handosa, Denis Gračanin, Hicham G. Elmongui, and Andrew Ciambrone",
             "AffiliationsString": "Virginia Tech, USA; Alexandria University, Egypt",
             "Authors": [
                 "Mohamed Handosa @ Virginia Tech, USA",
-                "Denis Gracanin @ Virginia Tech, USA",
-                "Hicham Elmongui @ Alexandria University, Egypt",
+                "Denis Gračanin @ Virginia Tech, USA",
+                "Hicham G. Elmongui @ Alexandria University, Egypt",
                 "Andrew Ciambrone @ Virginia Tech, USA"
             ],
             "Affiliations": [
@@ -1738,18 +1738,18 @@
             "Type": "Poster",
             "Track": "Posters",
             "Key": "tdui17posters-postersposters-147-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJason+Woodworth+and+Christoph+Borst+%22Visual+Cues+to+Aid+3D+Pointing+in+a+Virtual+Mirror%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DJason+W.+Woodworth+and+Christoph+W.+Borst+%22Visual+Cues+to+Aid+3D+Pointing+in+a+Virtual+Mirror%22",
             "URLvideo": "https%3A%2F%2Fyoutu.be%2FT6gu4vrOV8o",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Jason Woodworth and Christoph Borst",
+            "PersonsString": "Jason W. Woodworth and Christoph W. Borst",
             "AffiliationsString": "University of Louisiana at Lafayette, USA",
             "Authors": [
-                "Jason Woodworth @ University of Louisiana at Lafayette, USA",
-                "Christoph Borst @ University of Louisiana at Lafayette, USA"
+                "Jason W. Woodworth @ University of Louisiana at Lafayette, USA",
+                "Christoph W. Borst @ University of Louisiana at Lafayette, USA"
             ],
             "Affiliations": [
                 "University of Louisiana at Lafayette, USA",
@@ -1785,7 +1785,7 @@
             ],
             "Abstract": "In this paper, we present Augmented-Art Creation Tool (AACT) as our solution to the IEEE 3DUI 2017 challenge. Our solution employs multi-finger touch gestures along with the built-in camera and accelerometer on a mobile device for interaction in an Augmented Reality (AR) setup. We leverage a user&#039;s knowledge of touch gestures like pinching, swiping, etc. and physical device movement to interact with the environment making the metaphor intuitive. The system helps prevent occlusion by using the accelerometer and allowing touch gestures anywhere on the screen. The interaction metaphor allows for successful art piece creation and assembly.",
             "Award": "",
-            "Keywords": ""
+            "Keywords": "H.5.1 [Information Interfaces and Presentation]: Multimedia Information Systems—Artificial;  augmented;  and virtual realities; "
         },
         {
             "Title": "HOT: Hold your Own Tools for AR-Based Constructive Art",
@@ -1851,27 +1851,27 @@
             ],
             "Abstract": "In this work we present an interactive 3D object manipulation system using off the shelf mobile devices coupled with Augmented Reality (AR) technology that allows editing 3D objects by way of natural interactions based on tangible interfaces paradigms. The set-up consists of a mobile device, an interactive wand marker and AR markers laid on a table. The system allows users to change viewpoint and execute operations on 3D objects - simultaneous translation and rotation, scaling, cloning or deleting - by unconstrained natural interactions, leveraging user’s proficiency on daily object manipulation tasks and speeding up such typical 3D manipulation operations. Depth perception was significantly enhanced with dynamic shadows, allowing fast alignment and accurate positioning of objects. The prototype presented here allows successful completion of the three challenges proposed by the 2017 3DUI Contest, as validated by a preliminary informal user study with participants from the target audience and also from the general public.",
             "Award": "",
-            "Keywords": "Human-centered computing ~ Interaction techniques;  Human-centered computing ~ Mixed / augmented reality;  Computing methodologies ~ Graphics systems and interfaces"
+            "Keywords": "I.3.6 [Computer Graphics]: Methodology and Techniques - Interaction Techniques"
         },
         {
             "Title": "SculptAR: An Augmented Reality Interaction System",
             "Type": "3DUI Contest",
             "Track": "Contest",
             "Key": "tdui17contest-contest-04-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DVicenzo+Abichequer+Sangalli%2C+Thomas+Volpato+de+Oliveira%2C+Leonardo+Pavanatto+Soares%2C+and+Marcio+Sarroglia+Pinho+%22SculptAR%3A+An+Augmented+Reality+Interaction+System%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DVicenzo+Abichequer+Sangalli%2C+Thomas+Volpato+de+Oliveira%2C+Leonardo+Pavanatto+Soares%2C+and+M%C3%A1rcio+Sarroglia+Pinho+%22SculptAR%3A+An+Augmented+Reality+Interaction+System%22",
             "URLvideo": "",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Vicenzo Abichequer Sangalli, Thomas Volpato de Oliveira, Leonardo Pavanatto Soares, and Marcio Sarroglia Pinho",
+            "PersonsString": "Vicenzo Abichequer Sangalli, Thomas Volpato de Oliveira, Leonardo Pavanatto Soares, and Márcio Sarroglia Pinho",
             "AffiliationsString": "PUCRS, Brazil",
             "Authors": [
                 "Vicenzo Abichequer Sangalli @ PUCRS, Brazil",
                 "Thomas Volpato de Oliveira @ PUCRS, Brazil",
                 "Leonardo Pavanatto Soares @ PUCRS, Brazil",
-                "Marcio Sarroglia Pinho @ PUCRS, Brazil"
+                "Márcio Sarroglia Pinho @ PUCRS, Brazil"
             ],
             "Affiliations": [
                 "PUCRS, Brazil",
@@ -1888,22 +1888,22 @@
             "Type": "3DUI Contest",
             "Track": "Contest",
             "Key": "tdui17contest-contest-05-p",
-            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DNathanael+Harrell%2C+Grayson+Bonds%2C+Xiaojia+Wang%2C+Sean+Valent%2C+Sabarish+V.+Babu%2C+and+Elham+Ebrahimi+%22Augmented+Reality+Digital+Sculpture%22",
+            "URL": "http%3A%2F%2Fscholar.google.com%2Fscholar%3Fq%3DNathanael+Harrell%2C+Grayson+Bonds%2C+Xiaojia+Wang%2C+Sean+Valent%2C+Elham+Ebrahimi%2C+and+Sabarish+V.+Babu+%22Augmented+Reality+Digital+Sculpture%22",
             "URLvideo": "https%3A%2F%2Fyoutu.be%2FMa4d0V7lGE0",
             "URLinfo": "",
             "URLmaterial": "",
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Nathanael Harrell, Grayson Bonds, Xiaojia Wang, Sean Valent, Sabarish V. Babu, and Elham Ebrahimi",
+            "PersonsString": "Nathanael Harrell, Grayson Bonds, Xiaojia Wang, Sean Valent, Elham Ebrahimi, and Sabarish V. Babu",
             "AffiliationsString": "Clemson University, USA",
             "Authors": [
                 "Nathanael Harrell @ Clemson University, USA",
                 "Grayson Bonds @ Clemson University, USA",
                 "Xiaojia Wang @ Clemson University, USA",
                 "Sean Valent @ Clemson University, USA",
-                "Sabarish V. Babu @ Clemson University, USA",
-                "Elham Ebrahimi @ Clemson University, USA"
+                "Elham Ebrahimi @ Clemson University, USA",
+                "Sabarish V. Babu @ Clemson University, USA"
             ],
             "Affiliations": [
                 "Clemson University, USA",
@@ -1947,7 +1947,7 @@
             ],
             "Abstract": "Interaction in augmented reality environments may be very complex, depending on the degrees of freedom (DOFs) required for the task. In this work we present a 3D user interface for collaborative manipulation of virtual objects in augmented reality (AR) environments. It maps position -- acquired with a camera and fiducial markers -- and touchscreen input of a handheld device into gestures to select, move, rotate and scale virtual objects. As these transformations require the control of multiple DOFs, collaboration is proposed as a solution to coordinate the modification of each and all the available DOFs. Users are free to decide their own manipulation roles. All virtual elements are displayed directly on the mobile device as an overlay of the camera capture, providing an individual point of view of the AR environment to each user.",
             "Award": "",
-            "Keywords": "Augmented reality;  mobile devices;  collaborative 3DUI"
+            "Keywords": "H.5.2. [Information Interfaces and Presentation]: User Interfaces—Input devices and strategies;  H.5.3. [Information Interfaces and Presentation]: Group and Organization Interfaces— Computer-supported cooperative work"
         },
         {
             "Title": "T4T: Tangible Interface for Tuning 3D Object Manipulation Tools",
@@ -2334,9 +2334,9 @@
         },
         {
             "Name": "Astolfo Araujo",
-            "Affiliation": "University of São Paulo, Brasil",
-            "Key": "Astolfo Araujo @ University of São Paulo, Brasil",
-            "Id": "1e535e1d83",
+            "Affiliation": "University of São Paulo, Brazil",
+            "Key": "Astolfo Araujo @ University of São Paulo, Brazil",
+            "Id": "6147bc2008",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -2367,21 +2367,6 @@
             "Affiliation": "Inria, France",
             "Key": "Ferran Argelaguet @ Inria, France",
             "Id": "f600f3b73c",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
-            "Name": "Fernando Argelaguet-Sanz",
-            "Affiliation": "Inria, France",
-            "Key": "Fernando Argelaguet-Sanz @ Inria, France",
-            "Id": "c455d7b106",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -2619,21 +2604,6 @@
         },
         {
             "Name": "Eduardo Zilles Borba",
-            "Affiliation": "University of São Paulo, Brasil",
-            "Key": "Eduardo Zilles Borba @ University of São Paulo, Brasil",
-            "Id": "ff55df82bf",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
-            "Name": "Eduardo Zilles Borba",
             "Affiliation": "University of São Paulo, Brazil",
             "Key": "Eduardo Zilles Borba @ University of São Paulo, Brazil",
             "Id": "cbc92a115b",
@@ -2648,10 +2618,10 @@
             "URLli": ""
         },
         {
-            "Name": "Christoph Borst",
+            "Name": "Christoph W. Borst",
             "Affiliation": "University of Louisiana at Lafayette, USA",
-            "Key": "Christoph Borst @ University of Louisiana at Lafayette, USA",
-            "Id": "c168097abe",
+            "Key": "Christoph W. Borst @ University of Louisiana at Lafayette, USA",
+            "Id": "ea943ee7d2",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -2678,10 +2648,10 @@
             "URLli": ""
         },
         {
-            "Name": "Doug Bowman",
+            "Name": "Doug A. Bowman",
             "Affiliation": "Virginia Tech, USA",
-            "Key": "Doug Bowman @ Virginia Tech, USA",
-            "Id": "26bf2eacab",
+            "Key": "Doug A. Bowman @ Virginia Tech, USA",
+            "Id": "061cce23cf",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -2783,10 +2753,10 @@
             "URLli": ""
         },
         {
-            "Name": "Jean-Remy Chardonnet",
-            "Affiliation": "CNRS, France",
-            "Key": "Jean-Remy Chardonnet @ CNRS, France",
-            "Id": "259bfe4473",
+            "Name": "Jean-Rémy Chardonnet",
+            "Affiliation": "LE2I, France",
+            "Key": "Jean-Rémy Chardonnet @ LE2I, France",
+            "Id": "fbee64834b",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -2918,10 +2888,10 @@
             "URLli": ""
         },
         {
-            "Name": "Rory Clifford",
+            "Name": "Rory M. S. Clifford",
             "Affiliation": "University of Canterbury, New Zealand",
-            "Key": "Rory Clifford @ University of Canterbury, New Zealand",
-            "Id": "cef14c0247",
+            "Key": "Rory M. S. Clifford @ University of Canterbury, New Zealand",
+            "Id": "ac392296f8",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -2948,10 +2918,10 @@
             "URLli": ""
         },
         {
-            "Name": "Ana Grassiele Correa",
-            "Affiliation": "University of São Paulo, Brasil",
-            "Key": "Ana Grassiele Correa @ University of São Paulo, Brasil",
-            "Id": "66d8e06026",
+            "Name": "Ana Grasielle Corrêa",
+            "Affiliation": "University of São Paulo, Brazil",
+            "Key": "Ana Grasielle Corrêa @ University of São Paulo, Brazil",
+            "Id": "9ec8062f92",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -3053,10 +3023,10 @@
             "URLli": ""
         },
         {
-            "Name": "Jose Luis Dorado",
-            "Affiliation": "CNRS, France",
-            "Key": "Jose Luis Dorado @ CNRS, France",
-            "Id": "de2be89958",
+            "Name": "José Luis Dorado",
+            "Affiliation": "LE2I, France",
+            "Key": "José Luis Dorado @ LE2I, France",
+            "Id": "3ca5e78efe",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -3068,10 +3038,10 @@
             "URLli": ""
         },
         {
-            "Name": "Jose Dorado",
-            "Affiliation": "University of Andes, Colombia",
-            "Key": "Jose Dorado @ University of Andes, Colombia",
-            "Id": "7a20f9d8c9",
+            "Name": "José Luis Dorado",
+            "Affiliation": "University of Andes, France",
+            "Key": "José Luis Dorado @ University of Andes, France",
+            "Id": "a8b03319f1",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -3128,10 +3098,10 @@
             "URLli": ""
         },
         {
-            "Name": "Hicham Elmongui",
+            "Name": "Hicham G. Elmongui",
             "Affiliation": "Alexandria University, Egypt",
-            "Key": "Hicham Elmongui @ Alexandria University, Egypt",
-            "Id": "5f66f4e53c",
+            "Key": "Hicham G. Elmongui @ Alexandria University, Egypt",
+            "Id": "a08a224d7d",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -3204,9 +3174,9 @@
         },
         {
             "Name": "Ricardo Ferreira",
-            "Affiliation": "Técnico Lisboa, Portugal",
-            "Key": "Ricardo Ferreira @ Técnico Lisboa, Portugal",
-            "Id": "2a5b5eb507",
+            "Affiliation": "INESC-ID, Portugal",
+            "Key": "Ricardo Ferreira @ INESC-ID, Portugal",
+            "Id": "5cdc6a6b65",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -3293,10 +3263,10 @@
             "URLli": ""
         },
         {
-            "Name": "Denis Gracanin",
+            "Name": "Denis Gračanin",
             "Affiliation": "Virginia Tech, USA",
-            "Key": "Denis Gracanin @ Virginia Tech, USA",
-            "Id": "ced01d7e86",
+            "Key": "Denis Gračanin @ Virginia Tech, USA",
+            "Id": "5068d04d4b",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -3368,10 +3338,10 @@
             "URLli": ""
         },
         {
-            "Name": "Stefan Grünvogel",
+            "Name": "Stefan M. Grünvogel",
             "Affiliation": "TH Köln, Germany",
-            "Key": "Stefan Grünvogel @ TH Köln, Germany",
-            "Id": "e582161a8f",
+            "Key": "Stefan M. Grünvogel @ TH Köln, Germany",
+            "Id": "744efd654b",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -3443,10 +3413,10 @@
             "URLli": ""
         },
         {
-            "Name": "Dustin Han",
+            "Name": "Dustin T. Han",
             "Affiliation": "Texas A&M University, USA",
-            "Key": "Dustin Han @ Texas A&M University, USA",
-            "Id": "26fe24f893",
+            "Key": "Dustin T. Han @ Texas A&M University, USA",
+            "Id": "2b983dbcaf",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -3533,10 +3503,10 @@
             "URLli": ""
         },
         {
-            "Name": "Tiberio Hernández",
+            "Name": "José Tiberio Hernández",
             "Affiliation": "University of Andes, Colombia",
-            "Key": "Tiberio Hernández @ University of Andes, Colombia",
-            "Id": "3e8756a3cf",
+            "Key": "José Tiberio Hernández @ University of Andes, Colombia",
+            "Id": "ccb374931f",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -3548,10 +3518,10 @@
             "URLli": ""
         },
         {
-            "Name": "Tobias Hollerer",
+            "Name": "Tobias Höllerer",
             "Affiliation": "University of California at Santa Barbara, USA",
-            "Key": "Tobias Hollerer @ University of California at Santa Barbara, USA",
-            "Id": "7416cdbf7b",
+            "Key": "Tobias Höllerer @ University of California at Santa Barbara, USA",
+            "Id": "9c92078aad",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -3638,10 +3608,10 @@
             "URLli": ""
         },
         {
-            "Name": "Arie Kaufman",
+            "Name": "Arie E. Kaufman",
             "Affiliation": "Stony Brook University, USA",
-            "Key": "Arie Kaufman @ Stony Brook University, USA",
-            "Id": "67bd893223",
+            "Key": "Arie E. Kaufman @ Stony Brook University, USA",
+            "Id": "fa89e8deab",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -3878,10 +3848,10 @@
             "URLli": ""
         },
         {
-            "Name": "Wallace Lages",
+            "Name": "Wallace S. Lages",
             "Affiliation": "Virginia Tech, USA",
-            "Key": "Wallace Lages @ Virginia Tech, USA",
-            "Id": "76e65c989c",
+            "Key": "Wallace S. Lages @ Virginia Tech, USA",
+            "Id": "e50b265046",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -4043,36 +4013,6 @@
             "URLli": ""
         },
         {
-            "Name": "Robert Lindeman",
-            "Affiliation": "HIT Lab, New Zealand",
-            "Key": "Robert Lindeman @ HIT Lab, New Zealand",
-            "Id": "a9bf68a5e4",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
-            "Name": "Robert Lindeman",
-            "Affiliation": "University of Canterbury, New Zealand",
-            "Key": "Robert Lindeman @ University of Canterbury, New Zealand",
-            "Id": "6443187a12",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
             "Name": "Robert W. Lindeman",
             "Affiliation": "University of Canterbury, New Zealand",
             "Key": "Robert W. Lindeman @ University of Canterbury, New Zealand",
@@ -4119,9 +4059,9 @@
         },
         {
             "Name": "Roseli Lopes",
-            "Affiliation": "University of São Paulo, Brasil",
-            "Key": "Roseli Lopes @ University of São Paulo, Brasil",
-            "Id": "19889d48a8",
+            "Affiliation": "University of São Paulo, Brazil",
+            "Key": "Roseli Lopes @ University of São Paulo, Brazil",
+            "Id": "50d6f3c654",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -4193,10 +4133,10 @@
             "URLli": ""
         },
         {
-            "Name": "Scott MacKenzie",
+            "Name": "I. Scott MacKenzie",
             "Affiliation": "York University, Canada",
-            "Key": "Scott MacKenzie @ York University, Canada",
-            "Id": "c4ce6f7c48",
+            "Key": "I. Scott MacKenzie @ York University, Canada",
+            "Id": "54222896d2",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -4298,25 +4238,10 @@
             "URLli": ""
         },
         {
-            "Name": "Frederic Merienne",
-            "Affiliation": "CNRS, France",
-            "Key": "Frederic Merienne @ CNRS, France",
-            "Id": "56d188877c",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
-            "Name": "Frederic Merienne",
+            "Name": "Frédéric Merienne",
             "Affiliation": "LE2I, France",
-            "Key": "Frederic Merienne @ LE2I, France",
-            "Id": "713463f529",
+            "Key": "Frédéric Merienne @ LE2I, France",
+            "Id": "91afdc865d",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -4329,9 +4254,9 @@
         },
         {
             "Name": "Daniel R. Mestre",
-            "Affiliation": "Institute of Movement Sciences, France",
-            "Key": "Daniel R. Mestre @ Institute of Movement Sciences, France",
-            "Id": "ed78d3c97d",
+            "Affiliation": "Aix-Marseille University, France",
+            "Key": "Daniel R. Mestre @ Aix-Marseille University, France",
+            "Id": "8402492c24",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -4377,6 +4302,21 @@
             "Affiliation": "Politecnico di Torino, Italy",
             "Key": "Paolo Montuschi @ Politecnico di Torino, Italy",
             "Id": "fa1c0752b9",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
+            "Name": "Oscar J. Ariza N.",
+            "Affiliation": "University of Hamburg, Germany",
+            "Key": "Oscar J. Ariza N. @ University of Hamburg, Germany",
+            "Id": "bf4c462fd9",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -4508,21 +4448,6 @@
             "URLli": ""
         },
         {
-            "Name": "Oscar Javier Ariza Núñez",
-            "Affiliation": "University of Hamburg, Germany",
-            "Key": "Oscar Javier Ariza Núñez @ University of Hamburg, Germany",
-            "Id": "53ec692745",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
             "Name": "Francisco R. Ortega",
             "Affiliation": "Florida International University, USA",
             "Key": "Francisco R. Ortega @ Florida International University, USA",
@@ -4584,9 +4509,9 @@
         },
         {
             "Name": "Damien Paillot",
-            "Affiliation": "CNRS, France",
-            "Key": "Damien Paillot @ CNRS, France",
-            "Id": "0d7f5b9c5d",
+            "Affiliation": "LE2I, France",
+            "Key": "Damien Paillot @ LE2I, France",
+            "Id": "7167a2d6d9",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -4658,21 +4583,6 @@
             "URLli": ""
         },
         {
-            "Name": "Marcio Sarroglia Pinho",
-            "Affiliation": "PUCRS, Brazil",
-            "Key": "Marcio Sarroglia Pinho @ PUCRS, Brazil",
-            "Id": "8a0bb8d746",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
             "Name": "Márcio Sarroglia Pinho",
             "Affiliation": "PUCRS, Brazil",
             "Key": "Márcio Sarroglia Pinho @ PUCRS, Brazil",
@@ -4692,21 +4602,6 @@
             "Affiliation": "University of South Australia, Australia",
             "Key": "Thammathip Piumsomboon @ University of South Australia, Australia",
             "Id": "78e67e1b1e",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
-            "Name": "Jeremy Plouzeau",
-            "Affiliation": "CNRS, France",
-            "Key": "Jeremy Plouzeau @ CNRS, France",
-            "Id": "888493885c",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -4778,10 +4673,10 @@
             "URLli": ""
         },
         {
-            "Name": "Eric Ragan",
+            "Name": "Eric D. Ragan",
             "Affiliation": "Texas A&M University, USA",
-            "Key": "Eric Ragan @ Texas A&M University, USA",
-            "Id": "595eb7a4ad",
+            "Key": "Eric D. Ragan @ Texas A&M University, USA",
+            "Id": "c3c21d9fdd",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -4793,10 +4688,10 @@
             "URLli": ""
         },
         {
-            "Name": "Alberto Barbosa Raposo",
+            "Name": "Alberto Raposo",
             "Affiliation": "PUC-Rio, Brazil",
-            "Key": "Alberto Barbosa Raposo @ PUC-Rio, Brazil",
-            "Id": "c6ffaa7293",
+            "Key": "Alberto Raposo @ PUC-Rio, Brazil",
+            "Id": "2aeddf1d54",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -5063,21 +4958,6 @@
             "URLli": ""
         },
         {
-            "Name": "Maurecio Sousa",
-            "Affiliation": "INESC-ID, Portugal",
-            "Key": "Maurecio Sousa @ INESC-ID, Portugal",
-            "Id": "a786c8f02a",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
             "Name": "Maurício Sousa",
             "Affiliation": "INESC-ID, Portugal",
             "Key": "Maurício Sousa @ INESC-ID, Portugal",
@@ -5229,24 +5109,9 @@
         },
         {
             "Name": "Alireza Tavakkoli",
-            "Affiliation": "Univeristy of Houston-Victoria, USA",
-            "Key": "Alireza Tavakkoli @ Univeristy of Houston-Victoria, USA",
-            "Id": "fedeb32b4c",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
-            "Name": "Robert Teather",
-            "Affiliation": "Carleton University, Canada",
-            "Key": "Robert Teather @ Carleton University, Canada",
-            "Id": "17a0f0c992",
+            "Affiliation": "University of Houston-Victoria, USA",
+            "Key": "Alireza Tavakkoli @ University of Houston-Victoria, USA",
+            "Id": "9e7b0b00e4",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -5303,10 +5168,10 @@
             "URLli": ""
         },
         {
-            "Name": "Nikita Tuanquin",
+            "Name": "Nikita Mae B. Tuanquin",
             "Affiliation": "University of Canterbury, New Zealand",
-            "Key": "Nikita Tuanquin @ University of Canterbury, New Zealand",
-            "Id": "7945463b73",
+            "Key": "Nikita Mae B. Tuanquin @ University of Canterbury, New Zealand",
+            "Id": "3f15debe68",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -5348,10 +5213,10 @@
             "URLli": ""
         },
         {
-            "Name": "Prabhakar Vemavarapu",
+            "Name": "Prabhakar V. Vemavarapu",
             "Affiliation": "University of Louisiana at Lafayette, USA",
-            "Key": "Prabhakar Vemavarapu @ University of Louisiana at Lafayette, USA",
-            "Id": "3aa76cd14a",
+            "Key": "Prabhakar V. Vemavarapu @ University of Louisiana at Lafayette, USA",
+            "Id": "6b118ce807",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -5453,10 +5318,10 @@
             "URLli": ""
         },
         {
-            "Name": "Gregory Welch",
+            "Name": "Gregory F. Welch",
             "Affiliation": "University of Central Florida, USA",
-            "Key": "Gregory Welch @ University of Central Florida, USA",
-            "Id": "8c1107b5d9",
+            "Key": "Gregory F. Welch @ University of Central Florida, USA",
+            "Id": "8b3d89eb92",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -5483,10 +5348,10 @@
             "URLli": ""
         },
         {
-            "Name": "Jason Woodworth",
+            "Name": "Jason W. Woodworth",
             "Affiliation": "University of Louisiana at Lafayette, USA",
-            "Key": "Jason Woodworth @ University of Louisiana at Lafayette, USA",
-            "Id": "cc6b0d59fa",
+            "Key": "Jason W. Woodworth @ University of Louisiana at Lafayette, USA",
+            "Id": "6a4086b3b9",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -5543,10 +5408,10 @@
             "URLli": ""
         },
         {
-            "Name": "Thomas Young",
+            "Name": "Thomas S. Young",
             "Affiliation": "York University, Canada",
-            "Key": "Thomas Young @ York University, Canada",
-            "Id": "b26a5bb890",
+            "Key": "Thomas S. Young @ York University, Canada",
+            "Id": "750e1aa981",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -5618,10 +5483,10 @@
             "URLli": ""
         },
         {
-            "Name": "David Zielinski",
+            "Name": "David J. Zielinski",
             "Affiliation": "Duke University, USA",
-            "Key": "David Zielinski @ Duke University, USA",
-            "Id": "3263641d5f",
+            "Key": "David J. Zielinski @ Duke University, USA",
+            "Id": "4d44b41a18",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
@@ -5637,21 +5502,6 @@
             "Affiliation": "University of São Paulo, Brazil",
             "Key": "Marcelo Knorich Zuffo @ University of São Paulo, Brazil",
             "Id": "e0a4b71ce5",
-            "Bio": "",
-            "URLhp": "",
-            "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
-            "URLgp": "",
-            "URLfb": "",
-            "URLli": ""
-        },
-        {
-            "Name": "Marcelo Zuffo",
-            "Affiliation": "University of São Paulo, Brasil",
-            "Key": "Marcelo Zuffo @ University of São Paulo, Brasil",
-            "Id": "1501ed8834",
             "Bio": "",
             "URLhp": "",
             "URLphoto": "",
