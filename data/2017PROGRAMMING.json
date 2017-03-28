@@ -1,36 +1,8 @@
 {
-  "DataRevision": 87201501,
+  "DataRevision": 377960270,
   "Description": "The International Conference on the Art, Science, and Engineering of Programming is a new conference focused on everything to do with programming including the experience of programming. We\u2019ve named it \u2039Programming\u203a for short. Papers are welcome from any part of the programming research lifecycle, as are papers on programming practice and experience.\nRegister online for \u2039Programming\u203a 2017 \nBrowse the conference program \n\nJournal Affiliated\nA new journal has been created as the publication vehicle for \u2039Programming\u203a. Papers submitted to this journal are reviewed by referees chosen by the \u2039Programming\u203a Program Chair, who is an associate editor for the journal. Authors of accepted papers are invited to present at the conference as a requirement for publication.",
   "Event": "programming-2017",
   "Items": [
-    {
-      "Abstract": "Come to this session and hack Racket. Here\u2019s a rough plan to get us started.",
-      "Affiliations": ["Northwestern University"],
-      "AffiliationsString": "Northwestern University",
-      "Authors": ["robbyfindler"],
-      "Key": "cocodo-2017-fractals-in-racket",
-      "PersonsString": "Robby Findler",
-      "Title": "Experimenting with Racket as a Language Workbench",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/cocodo-2017-fractals-in-racket"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "Royal Holloway University of London"
-      ],
-      "AffiliationsString": ", Royal Holloway University of London",
-      "Authors": [
-        "adrianjohnstone",
-        "elizabethscott"
-      ],
-      "Key": "cocodo-2017-attribute-grammars-for-dsls-for-music-and-3d-graphics",
-      "PersonsString": "Adrian Johnstone and Elizabeth Scott",
-      "Title": "Attribute Grammars for DSLs for Music and 3D Graphics",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/cocodo-2017-attribute-grammars-for-dsls-for-music-and-3d-graphics"
-    },
     {
       "Abstract": "The original idea of using pattern languages for design knowledge was proposed by the architect Christopher Alexander in the 1970s. The book he wrote with his colleagues comprises 253 patterns on practical architectural design. Ten years after the book was published, in the late 1980s, Alexander\u2019s idea of a pattern language was adopted in the field of software design by K. Beck and W. Cunningham, followed by the famous book \u201cDesign Patterns\u201d by E. Gamma, et al. Since the 1990s, the fields in which pattern languages have been applied has greatly expanded, encompassing education, innovation, collaboration, and other professional areas and activity in everyday life, which we term these as \u201cPattern Language 3.0\u201d. The challenge for pattern languages is finding ways to share knowledge and how to involve people into the collaborating design process. In this talk, I will give an overview of the history and frontiers of pattern languages, including examples in new domains, creating processes, and new ways for expressing pattern languages.\nBio\nTakashi Iba is an associate professor in the Faculty of Policy Management at Keio University. He received a Ph.D. in Media and Governance from Keio University. He is the president of CreativeShift Lab, Inc. and a board member of The Hillside Group. Collaborating with his students, Dr. Iba created many pattern languages concerning human actions like Learning Patterns (2014), Presentation Patterns (2014), Collaboration Patterns (2014), Words for a Journey (2015), Project Design Patterns (2016) and also academic books in Japanese such as the bestselling Introduction to Complex Systems (1998).",
       "Affiliations": ["Keio University, Japan"],
@@ -41,17 +13,6 @@
       "Title": "Generations of Pattern Language: Architecture, Software, and Human Actions",
       "Type": "Talk",
       "URL": "http://2017.programming-conference.org/event/miniplop-2017-keynote"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": ["Raincode, Belgium"],
-      "AffiliationsString": "Raincode, Belgium",
-      "Authors": ["vadimzaytsev"],
-      "Key": "cocodo-2017-grammar-migrations",
-      "PersonsString": "Vadim Zaytsev",
-      "Title": "Grammar Migrations",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/cocodo-2017-grammar-migrations"
     },
     {
       "Abstract": "",
@@ -66,17 +27,6 @@
     },
     {
       "Abstract": "",
-      "Affiliations": ["University of Koblenz-Landau, Germany"],
-      "AffiliationsString": "University of Koblenz-Landau, Germany",
-      "Authors": ["ralflammel"],
-      "Key": "cocodo-2017-from-compilers-to-software-language-engineering",
-      "PersonsString": "Ralf Lämmel",
-      "Title": "From Compilers to Software Language Engineering",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/cocodo-2017-from-compilers-to-software-language-engineering"
-    },
-    {
-      "Abstract": "",
       "Affiliations": [],
       "AffiliationsString": "",
       "Authors": [],
@@ -85,28 +35,6 @@
       "Title": "Pattern Mining Workshop",
       "Type": "Other",
       "URL": "http://2017.programming-conference.org/event/miniplop-2017-pattern-mining-workshop"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["rikarends"],
-      "Key": "cocodo-2017-live-programming-in-the-21st-century",
-      "PersonsString": "Rik Arends",
-      "Title": "Live Programming in the 21st Century",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/cocodo-2017-live-programming-in-the-21st-century"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["adrianjohnstone"],
-      "Key": "cocodo-2017-funcons-as-the-future-of-compiler-compilers",
-      "PersonsString": "Adrian Johnstone",
-      "Title": "FunCons as the Future of Compiler Compilers",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/cocodo-2017-funcons-as-the-future-of-compiler-compilers"
     },
     {
       "Abstract": "",
@@ -140,312 +68,6 @@
       "Title": "Writers' Workshop",
       "Type": "Other",
       "URL": "http://2017.programming-conference.org/event/miniplop-2017-writers-workshop"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": ["Shirakumo.org"],
-      "AffiliationsString": "Shirakumo.org",
-      "Authors": ["nicolashafner"],
-      "Key": "els-2017-radiance-a-web-application-environment",
-      "PersonsString": "Nicolas Hafner",
-      "Title": "Radiance \u2013 a Web Application Environment",
-      "Type": "Demonstration",
-      "URL": "http://2017.programming-conference.org/event/els-2017-radiance-a-web-application-environment"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "marcoheisig",
-        "nicolasneu"
-      ],
-      "Key": "els-2017-parallelizing-femlisp",
-      "PersonsString": "Marco Heisig and Nicolas Neuß",
-      "Title": "Parallelizing Femlisp",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/els-2017-parallelizing-femlisp"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "Vrije Universiteit Brussel, Belgium",
-        "Vrije Universiteit Brussel, Belgium",
-        "Vrije Universiteit Brussel"
-      ],
-      "AffiliationsString": ", Vrije Universiteit Brussel, Belgium, Vrije Universiteit Brussel",
-      "Authors": [
-        "jonasdebleser",
-        "quentinstievenart",
-        "jensnicolay",
-        "coenderoover"
-      ],
-      "Key": "els-2017-static-taint-analysis-of-event-driven-scheme-programs",
-      "PersonsString": "Jonas De Bleser, Quentin Stiévenart, Jens Nicolay and Coen De Roover",
-      "Title": "Static Taint Analysis of Event-driven Scheme Programs",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/els-2017-static-taint-analysis-of-event-driven-scheme-programs"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["stevelosh"],
-      "Key": "els-2017-general-game-playing-in-common-lisp",
-      "PersonsString": "Steve Losh",
-      "Title": "General Game Playing in Common Lisp",
-      "Type": "Other",
-      "URL": "http://2017.programming-conference.org/event/els-2017-general-game-playing-in-common-lisp"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "Inria Bordeaux",
-        ""
-      ],
-      "AffiliationsString": "Inria Bordeaux, ",
-      "Authors": [
-        "ireneannedurand",
-        "robertstrandh"
-      ],
-      "Key": "els-2017-removing-redundant-tests-by-replicating-control-paths",
-      "PersonsString": "Irène Anne Durand and Robert Strandh",
-      "Title": "Removing redundant tests by replicating control paths",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/els-2017-removing-redundant-tests-by-replicating-control-paths"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "robertgoldman",
-        "eliaspipping",
-        "francoisrenerideau"
-      ],
-      "Key": "els-2017-delivering-common-lisp-applications-with-asdf-3-3",
-      "PersonsString": "Robert Goldman, Elias Pipping and François-René Rideau",
-      "Title": "Delivering Common Lisp Applications with ASDF 3.3",
-      "Type": "Demonstration",
-      "URL": "http://2017.programming-conference.org/event/els-2017-delivering-common-lisp-applications-with-asdf-3-3"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "els-2017-welcome-messages-and-announcements",
-      "PersonsString": "",
-      "Title": "Welcome messages and announcements",
-      "Type": "Day opening",
-      "URL": "http://2017.programming-conference.org/event/els-2017-welcome-messages-and-announcements"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["vsevoloddomkin"],
-      "Key": "els-2017-loading-multiple-versions-of-an-asdf-system-in-the-same-lisp-image",
-      "PersonsString": "Vsevolod Domkin",
-      "Title": "Loading Multiple Versions of an ASDF System in the Same Lisp Image",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/els-2017-loading-multiple-versions-of-an-asdf-system-in-the-same-lisp-image"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "els-2017-lightning-talks",
-      "PersonsString": "",
-      "Title": "Lightning Talks",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/els-2017-lightning-talks"
-    },
-    {
-      "Abstract": "We present a rationale for expanding the presence of the Lisp family of programming languages in bioinformatics and computational biology research. Put simply, Lisp-family languages enable programmers to more quickly write programs that run faster than in other languages. Languages such as Common Lisp, Scheme and Clojure facilitate the creation of powerful and flexible software that is required for complex and rapidly evolving domains like biology. We will point out several important key features that distinguish languages of the Lisp family from other programming languages, and we will explain how these features can aid researchers in becoming more productive and creating better code. We will also show how these features make these languages ideal tools for artificial intelligence and machine learning applications. We will specifically stress the advantages of domain-specific languages (DSLs): languages that are specialized to a particular area, and thus not only facilitate easier research problem formulation, but also aid in the establishment of standards and best programming practices as applied to the specific research field at hand. DSLs are particularly easy to build in Common Lisp, the most comprehensive Lisp dialect, which is commonly referred to as the \u2018programmable programming language\u2019. We are convinced that Lisp grants programmers unprecedented power to build increasingly sophisticated artificial intelligence systems that may ultimately transform machine learning and artificial intelligence research in bioinformatics and computational biology.",
-      "Affiliations": ["University of Miami Miller School of Medicine"],
-      "AffiliationsString": "University of Miami Miller School of Medicine",
-      "Authors": ["bohdankhomtchouk"],
-      "Key": "els-2017-how-the-strengths-of-lisp-family-languages-facilitate-building-complex-and-flexible-bioinformatics-applications",
-      "PersonsString": "Bohdan Khomtchouk",
-      "Title": "How the strengths of Lisp-family languages facilitate building complex and flexible bioinformatics applications",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/els-2017-how-the-strengths-of-lisp-family-languages-facilitate-building-complex-and-flexible-bioinformatics-applications"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["fredericpeschanski"],
-      "Key": "els-2017-a-lisp-way-to-type-theory-and-formal-proofs",
-      "PersonsString": "Frédéric Peschanski",
-      "Title": "A Lisp Way to Type Theory and Formal Proofs",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/els-2017-a-lisp-way-to-type-theory-and-formal-proofs"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "benjaminseppke",
-        "leoniedreschlerfischer"
-      ],
-      "Key": "els-2017-interactive-functional-medical-image-analysis",
-      "PersonsString": "Benjamin Seppke and Leonie Dreschler-Fischer",
-      "Title": "Interactive Functional Medical Image Analysis",
-      "Type": "Demonstration",
-      "URL": "http://2017.programming-conference.org/event/els-2017-interactive-functional-medical-image-analysis"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["alexanderwood"],
-      "Key": "els-2017-type-inference-in-cleavi",
-      "PersonsString": "Alexander Wood",
-      "Title": "Type Inference in Cleavir",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/els-2017-type-inference-in-cleavi"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "els-2017-announcements-wrapup-goodbye",
-      "PersonsString": "",
-      "Title": "Announcements, wrapup, goodbye",
-      "Type": "Day closing",
-      "URL": "http://2017.programming-conference.org/event/els-2017-announcements-wrapup-goodbye"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "ireneannedurand1",
-        "robertstrandh"
-      ],
-      "Key": "els-2017-fast-maintainable-and-portable-sequence-functions",
-      "PersonsString": "Irène Anne Durand and Robert Strandh",
-      "Title": "Fast, Maintainable, and Portable Sequence Functions",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/els-2017-fast-maintainable-and-portable-sequence-functions"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["mikhailraskin"],
-      "Key": "els-2017-writing-a-portable-code-walker-in-common-lisp",
-      "PersonsString": "Mikhail Raskin",
-      "Title": "Writing a portable code walker in Common Lisp",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/els-2017-writing-a-portable-code-walker-in-common-lisp"
-    },
-    {
-      "Abstract": "Data persistence can add a great deal of complexity to application software, and making the gap between application and storage has been a constant field of research, experiments and products. In the object oriented programming paradigm, persistence seems to be a natural extension to object behavior, and even though one could argue that many persistent object systems have flaws and leak their abstractions, there is a large body of prior art and research in that area.\nIn the functional programming world, persistence does not find as natural a partnering abstraction, and it is often either conceptionally pushed to the boundaries of the application, or treated in an ad-hoc fashion interleaved with the beauty and conceptional rigor of pure functions.\nThe presentation discusses these forces and explores how Clojure\u2019s Software Transactional Memory system can be used to implement application data persistence.",
-      "Affiliations": ["LambdaWerk GmbH"],
-      "AffiliationsString": "LambdaWerk GmbH",
-      "Authors": ["hanshubner"],
-      "Key": "els-2017-identity-in-a-world-of-values",
-      "PersonsString": "Hans Hübner",
-      "Title": "Identity in a World of Values",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/els-2017-identity-in-a-world-of-values"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "danielbrunner",
-        "stephanbrunner"
-      ],
-      "Key": "els-2017-teaching-students-of-engineering-some-insights-of-the-internet-of-things-using-racket-and-the-raspberrypi",
-      "PersonsString": "Daniel Brunner and Stephan Brunner",
-      "Title": "Teaching Students of Engineering some Insights of the Internet of Things using Racket and the RaspberryPi",
-      "Type": "Demonstration",
-      "URL": "http://2017.programming-conference.org/event/els-2017-teaching-students-of-engineering-some-insights-of-the-internet-of-things-using-racket-and-the-raspberrypi"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["michaherda"],
-      "Key": "els-2017-common-lisp-ultraspec-a-project-for-modern-common-lisp-documentation",
-      "PersonsString": "Michał Herda",
-      "Title": "Common Lisp UltraSpec - A Project For Modern Common Lisp Documentation",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/els-2017-common-lisp-ultraspec-a-project-for-modern-common-lisp-documentation"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["alainmarty"],
-      "Key": "els-2017-on-the-lambda-way-",
-      "PersonsString": "Alain Marty",
-      "Title": "on the {lambda way}",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/els-2017-on-the-lambda-way-"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "EPITA / LRDE",
-        "EPITA / LRDE",
-        ""
-      ],
-      "AffiliationsString": "EPITA / LRDE, ",
-      "Authors": [
-        "jimnewton",
-        "didierverna",
-        "maximiliencolange"
-      ],
-      "Key": "els-2017-programmatic-manipulation-of-common-lisp-type-specifiers",
-      "PersonsString": "Jim Newton, Didier Verna and Maximilien Colange",
-      "Title": "Programmatic Manipulation of Common Lisp Type Specifiers",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/els-2017-programmatic-manipulation-of-common-lisp-type-specifiers"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "Friedrich-Alexander-Universität Erlangen-Nürnberg",
-        "Friedrich-Alexander-Universität Erlangen-Nürnberg",
-        "Friedrich-Alexander-Universität Erlangen-Nürnberg"
-      ],
-      "AffiliationsString": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
-      "Authors": [
-        "alexanderlier",
-        "kaiselgrad",
-        "marcstamminger"
-      ],
-      "Key": "els-2017-diy-meta-languages-with-common-lisp",
-      "PersonsString": "Alexander Lier, Kai Selgrad and Marc Stamminger",
-      "Title": "DIY Meta Languages with Common Lisp",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/els-2017-diy-meta-languages-with-common-lisp"
     },
     {
       "Abstract": "Business applications are usually data-intensive. The process of designing and implementing such applications benefits from working with realistic data to sharpen requirements and discover pitfalls. However, such data is usually quite extensive and the feedback cycles during programming and design activities can become long and distracting. As a result, programmers might prefer abstract thinking and mental simulations over working with concrete, realistic data. We propose a new approach supporting live programming, with immediate feedback and explorable runtime data, for the domain of data-intensive business applications on top of relational databases. With the integration of streamed access to sampled data, we can employ productive traits of a live programming environment such as Squeak/Smalltalk, which is not optimized for the processing of huge amounts of data and is hence not well-suited for such tasks. We describe two representative scenarios and also discuss limitations by putting our approach in relation to the current development of business applications.",
@@ -648,6 +270,34 @@
       "URL": "http://2017.programming-conference.org/event/px-2017-runtime-metric-meets-developer-augmenting-source-code-with-runtime-information-to-make-programs-live"
     },
     {
+      "Abstract": "Come to this session and hack Racket. Here\u2019s a rough plan to get us started.",
+      "Affiliations": ["Northwestern University"],
+      "AffiliationsString": "Northwestern University",
+      "Authors": ["robbyfindler"],
+      "Key": "cocodo-2017-fractals-in-racket",
+      "PersonsString": "Robby Findler",
+      "Title": "Experimenting with Racket as a Language Workbench",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/cocodo-2017-fractals-in-racket"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "Royal Holloway University of London"
+      ],
+      "AffiliationsString": ", Royal Holloway University of London",
+      "Authors": [
+        "adrianjohnstone",
+        "elizabethscott"
+      ],
+      "Key": "cocodo-2017-attribute-grammars-for-dsls-for-music-and-3d-graphics",
+      "PersonsString": "Adrian Johnstone and Elizabeth Scott",
+      "Title": "Attribute Grammars for DSLs for Music and 3D Graphics",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/cocodo-2017-attribute-grammars-for-dsls-for-music-and-3d-graphics"
+    },
+    {
       "Abstract": "Smart systems are characterised by their ability to analyse measured data in live and to react to changes according to expert rules. Therefore, such systems exploit appropriate data models together with actions triggered by domain-related conditions. Often thousands of updates need to be processed in a short amount of time, to detect which rules need to be triggered. The challenge at hand is that smart systems usually run on restricted hardware, like Raspberry Pi. There have been several approaches investigated to efficiently check conditions on data models, such as OCL-Gremlin or EMF-IncQuery. However, these solutions assume either that rules and data models fit into main memory or rely on high latency persistence storages, which severely damage the reactivity of smart systems. To tackle this challenge, we propose a novel composition process, which weaves executable rules into a data model with lazy loading abilities. Our approach targets models@run.time usages and has been evaluated on a real-world home automation case study. We quantitatively show that our approach can handle, at low latency, big sets of rules on top of large-scale data models, even on restricted hardware.",
       "Affiliations": [
         "",
@@ -684,6 +334,17 @@
       "URL": "http://2017.programming-conference.org/event/momo-2017-papers-invited-talk"
     },
     {
+      "Abstract": "",
+      "Affiliations": ["Raincode, Belgium"],
+      "AffiliationsString": "Raincode, Belgium",
+      "Authors": ["vadimzaytsev"],
+      "Key": "cocodo-2017-final-discussion-and-framework-pitches",
+      "PersonsString": "Vadim Zaytsev",
+      "Title": "Final Discussion and Framework Pitches",
+      "Type": "Day closing",
+      "URL": "http://2017.programming-conference.org/event/cocodo-2017-final-discussion-and-framework-pitches"
+    },
+    {
       "Abstract": "Designing a secure software system requires the ability to represent and reason about a wide variety of security concerns. Existing modelling representations lack a comprehensive set of security building blocks or lack support for composition or refinement of the design under consideration. We propose a new modular meta-model for representing these security designs. This model supports both composition for more complex solutions and representing different levels of abstraction to model the underlying details. This meta-model can subsequently be used for the construction of security solutions, supporting a wide range of mechanisms on a wide variety of abstraction levels, thereby providing a foundation for the security-by-design approach.",
       "Affiliations": [
         "",
@@ -705,6 +366,17 @@
       "URL": "http://2017.programming-conference.org/event/momo-2017-papers-a-modular-meta-model-for-security-solutions"
     },
     {
+      "Abstract": "",
+      "Affiliations": ["University of Koblenz-Landau, Germany"],
+      "AffiliationsString": "University of Koblenz-Landau, Germany",
+      "Authors": ["ralflammel"],
+      "Key": "cocodo-2017-from-compilers-to-software-language-engineering",
+      "PersonsString": "Ralf Lämmel",
+      "Title": "From Compilers to Software Language Engineering",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/cocodo-2017-from-compilers-to-software-language-engineering"
+    },
+    {
       "Abstract": "Over the last 10 years we did a large remodularisation effort on Pharo. This talk will cover some challenges of bringing modularity in a real system. For the record, Pharo 60 as released is about 480 packages for about 80 committers. This talk will present:  \n \n Problems faces. \n Analyses to identify cycles and others. \n Concerns about bringing new abstractions (traits) in an existing system. \n The process we followed to be able to bootstrap a reflective kernel and build the complete system on this core. \n A new module system that we are prototyping. \n\nBio\nSt&eacute;phane is directeur de recherche at Inria. He leads the RMoD (http://rmod.lille.inria.fr) team. He is expert in two domains: object-oriented language design and reengineering. He worked on traits, composable groups of methods. Traits have been introduced in Pharo, Perl, PHP and under a variant into Scala and Fortress. He is also expert on software quality, program understanding, program visualisations, reengineering and metamodeling. He is one of the developer of Moose, an open-source software analysis platform http://www.moosetechnology.org/. He created http://www.synectique.eu/ a company building dedicated tools for advanced software analyses. He is one of the leader of Pharo (http://www.pharo.org/) a dynamic reflective object-oriented language supporting live programming. The objective of Pharo is to create an ecosystem where innovation and business bloom. He wrote several books such as Functional Programming in Scheme, Pharo by Example, Deep into Pharo, Object-oriented Reengineering Patterns, Dynamic web development with Seaside. According to google his h-index is 51 for more than 11000 citations. He would like to thanks all the researchers making reference to his work!",
       "Affiliations": [" INRIA Lille"],
       "AffiliationsString": " INRIA Lille",
@@ -714,6 +386,17 @@
       "Title": "Modularity from the Trenches",
       "Type": "Talk",
       "URL": "http://2017.programming-conference.org/event/modularity-2017-talks-modularity-from-the-trenches"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["University of Bergen"],
+      "AffiliationsString": "University of Bergen",
+      "Authors": ["anyahelenebagge"],
+      "Key": "cocodo-2017-late-phases-of-compilation-in-rascal",
+      "PersonsString": "Anya Helene Bagge",
+      "Title": "Late Phases of Compilation in Rascal",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/cocodo-2017-late-phases-of-compilation-in-rascal"
     },
     {
       "Abstract": "",
@@ -785,6 +468,39 @@
       "Title": "SoC Spaces - Indexes for Composition",
       "Type": "Talk",
       "URL": "http://2017.programming-conference.org/event/modularity-2017-talks-soc-spaces-indexes-for-composition"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["rikarends"],
+      "Key": "cocodo-2017-live-programming-in-the-21st-century",
+      "PersonsString": "Rik Arends",
+      "Title": "Live Programming in the 21st Century",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/cocodo-2017-live-programming-in-the-21st-century"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Raincode, Belgium"],
+      "AffiliationsString": "Raincode, Belgium",
+      "Authors": ["vadimzaytsev"],
+      "Key": "cocodo-2017-welcome-and-introductions",
+      "PersonsString": "Vadim Zaytsev",
+      "Title": "Welcome and Introductions",
+      "Type": "Day opening",
+      "URL": "http://2017.programming-conference.org/event/cocodo-2017-welcome-and-introductions"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["adrianjohnstone"],
+      "Key": "cocodo-2017-funcons-as-the-future-of-compiler-compilers",
+      "PersonsString": "Adrian Johnstone",
+      "Title": "FunCons as the Future of Compiler Compilers",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/cocodo-2017-funcons-as-the-future-of-compiler-compilers"
     },
     {
       "Abstract": "Software driving and using the Cloud (and the web) often count among the largest software systems ever produced and executed. It is therefore of paramount importance to dispose of appropriate structuring mechanisms, notably for their modular construction, execution and evolution. However, due to new constraints on how such systems must scale, new technologies (such as broker-less interacting Clouds, NoSQL databases), and new application domains and requirements (such as stream-oriented business analytics, end-to-end security), popular traditional modularization mechanisms are not sufficient for Cloud programming.\nIn this talk I first present an analysis of which characteristics and trends in Cloud architectures and programming are relevant for the modularization of Cloud infrastructures and applications. This analysis is then complemented by a survey of new means for the modularization of Cloud software.\nBio\nMario S&uuml;dholt is a full professor in Computer Science at IMT Atlantique, Nantes, France. He holds an MSc from U. Koblenz, Germany, a PhD from TU Berlin, Germany, and a habilitation from U. of Nantes, France. He is heading the ASCOLA team, a joint team of IMT Atlantique and Inria that is also part of the LS2N (CNRS) institute. His research interests focus on large-scale, typically distributed, software systems, their formal definition, compositional properties and efficient implementation.\nFrom 2011 to 2013, Prof. S&uuml;dholt has chaired the international association of AOSD, including the steering committee of the AOSD conference. Furthermore, he is a member of the steering committee of the international conference on Programming and serves on the editorial board of the journal Transactions on AOSD. He has published more than 100 international peer-reviewed publications.",
@@ -925,29 +641,6 @@
       "Title": "Utilizing Role-based Models for Distributed On-Demand Service Composition",
       "Type": "Talk",
       "URL": "http://2017.programming-conference.org/event/lassy-2017-papers-utilizing-role-based-models-for-distributed-on-demand-service-composition"
-    },
-    {
-      "Abstract": "The paper introduces an Internet of Tings (IoT) Robot simulator. The aim of this simulator is to discuss issues for Context-Oriented Programming. The context-sensitive and live-adaptive are important features for next-generation systems such as IoT and Industrial 4.0. Context-Oriented Programming (COP) Languages give us adequate modularity to implement those features. However, even if we construct a program on COP, we cannot predict enough for its behavior. We consider a thinking way of Operating Systems (OS) would be help-ful to overcome this problem. In OS, researchers have proposed communication algorithms based on some common problems, such as the five philosophers\u2019 prob-lem. Towards finding typical problems of COP such as the five philosophers\u2019 problem, we propose a simple cooperative robot system simulator. The novel mecha-nism of this system is that the one and same COP pro-gram drive a cooperative robot on both a virtual map and real worlds. We expect the mechanism contributes to imagine realistic issues of context-oriented software for constructing next generation robots. The paper presents a mechanism for this simulator system and shows the sim-ulator finds some issues of context-oriented software.",
-      "Affiliations": [
-        "Kyusyu University",
-        "Tokai University",
-        "Tokyo City University",
-        "Kyushu University",
-        "Kyushu University"
-      ],
-      "AffiliationsString": "Kyusyu University, Tokai University, Tokyo City University, Kyushu University",
-      "Authors": [
-        "ikutatanigawa",
-        "harumiwatanabe",
-        "nobuhikoogura",
-        "kenjihisazumi",
-        "akirafukuda"
-      ],
-      "Key": "lassy-2017-papers-iot-robot-simulator-for-context-sensitive-and-live-adaptive-software-developments",
-      "PersonsString": "Ikuta Tanigawa, Harumi Watanabe, Nobuhiko Ogura, Kenji Hisazumi and Akira Fukuda",
-      "Title": "IoT Robot Simulator for Context-Sensitive and Live-Adaptive Software Developments",
-      "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/lassy-2017-papers-iot-robot-simulator-for-context-sensitive-and-live-adaptive-software-developments"
     },
     {
       "Abstract": "Context-dependent applications are relatively complex due to their multiple variations caused by context activation, especially in the presence of unanticipated adaptation. Testing these systems is challenging, as it is hard to reproduce the same execution environments. Therefore, a software failure caused by bugs is no exception. This paper presents a rollback mechanism to recover from software failures as part of a role-based runtime with support for unanticipated adaptation. The mechanism performs checkpoints before each adaptation and employs specialized sensors to detect bugs resulting from recent configuration changes. When the runtime detects a bug, it assumes that the bug belongs to the latest configuration. The runtime rolls back to the recent checkpoint to recover and subsequently notifies the developer to fix the bug and re-applying the adaptation through unanticipated adaptation. We prototype the concept as part of our role-based runtime engine LyRT and demonstrate the applicability of the rollback recovery mechanism for unanticipated adaptation in erroneous situations.",
@@ -1651,11 +1344,11 @@
     },
     {
       "Abstract": "",
-      "Affiliations": ["University of Cambridge"],
-      "AffiliationsString": "University of Cambridge",
-      "Authors": ["stephenkell"],
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["philiptchernavskij"],
       "Key": "refuses-2017-review-avatars-and-their-embodiments-midi-devices-their-past-and-future",
-      "PersonsString": "Stephen Kell",
+      "PersonsString": "Philip Tchernavskij",
       "Title": "Review: Avatars and their embodiments - MIDI devices, their past and future",
       "Type": "Talk",
       "URL": "http://2017.programming-conference.org/event/refuses-2017-review-avatars-and-their-embodiments-midi-devices-their-past-and-future"
@@ -1681,6 +1374,17 @@
     },
     {
       "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["lukechurch"],
+      "Key": "refuses-2017-review-principles-of-antifragile-software",
+      "PersonsString": "Luke Church",
+      "Title": "Review: Principles of Antifragile Software",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/refuses-2017-review-principles-of-antifragile-software"
+    },
+    {
+      "Abstract": "",
       "Affiliations": ["Alan Turing Institute"],
       "AffiliationsString": "Alan Turing Institute",
       "Authors": ["tomaspetricek"],
@@ -1692,14 +1396,309 @@
     },
     {
       "Abstract": "",
-      "Affiliations": ["Alan Turing Institute"],
-      "AffiliationsString": "Alan Turing Institute",
-      "Authors": ["tomaspetricek"],
-      "Key": "refuses-2017-review-principles-of-antifragile-software",
-      "PersonsString": "Tomas Petricek",
-      "Title": "Review: Principles of Antifragile Software",
+      "Affiliations": [
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "marcoheisig",
+        "nicolasneu"
+      ],
+      "Key": "els-2017-parallelizing-femlisp",
+      "PersonsString": "Marco Heisig and Nicolas Neuß",
+      "Title": "Parallelizing Femlisp",
       "Type": "Talk",
-      "URL": "http://2017.programming-conference.org/event/refuses-2017-review-principles-of-antifragile-software"
+      "URL": "http://2017.programming-conference.org/event/els-2017-parallelizing-femlisp"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["vsevoloddomkin"],
+      "Key": "els-2017-loading-multiple-versions-of-an-asdf-system-in-the-same-lisp-image",
+      "PersonsString": "Vsevolod Domkin",
+      "Title": "Loading Multiple Versions of an ASDF System in the Same Lisp Image",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/els-2017-loading-multiple-versions-of-an-asdf-system-in-the-same-lisp-image"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "ireneannedurand1",
+        "robertstrandh"
+      ],
+      "Key": "els-2017-fast-maintainable-and-portable-sequence-functions",
+      "PersonsString": "Irène Anne Durand and Robert Strandh",
+      "Title": "Fast, Maintainable, and Portable Sequence Functions",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/els-2017-fast-maintainable-and-portable-sequence-functions"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "Inria Bordeaux",
+        ""
+      ],
+      "AffiliationsString": "Inria Bordeaux, ",
+      "Authors": [
+        "ireneannedurand",
+        "robertstrandh"
+      ],
+      "Key": "els-2017-removing-redundant-tests-by-replicating-control-paths",
+      "PersonsString": "Irène Anne Durand and Robert Strandh",
+      "Title": "Removing redundant tests by replicating control paths",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/els-2017-removing-redundant-tests-by-replicating-control-paths"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "els-2017-welcome-messages-and-announcements",
+      "PersonsString": "",
+      "Title": "Welcome messages and announcements",
+      "Type": "Day opening",
+      "URL": "http://2017.programming-conference.org/event/els-2017-welcome-messages-and-announcements"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["michaherda"],
+      "Key": "els-2017-common-lisp-ultraspec-a-project-for-modern-common-lisp-documentation",
+      "PersonsString": "Michał Herda",
+      "Title": "Common Lisp UltraSpec - A Project For Modern Common Lisp Documentation",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/els-2017-common-lisp-ultraspec-a-project-for-modern-common-lisp-documentation"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["alainmarty"],
+      "Key": "els-2017-on-the-lambda-way-",
+      "PersonsString": "Alain Marty",
+      "Title": "on the {lambda way}",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/els-2017-on-the-lambda-way-"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "els-2017-lightning-talks",
+      "PersonsString": "",
+      "Title": "Lightning Talks",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/els-2017-lightning-talks"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["fredericpeschanski"],
+      "Key": "els-2017-a-lisp-way-to-type-theory-and-formal-proofs",
+      "PersonsString": "Frédéric Peschanski",
+      "Title": "A Lisp Way to Type Theory and Formal Proofs",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/els-2017-a-lisp-way-to-type-theory-and-formal-proofs"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["alexanderwood"],
+      "Key": "els-2017-type-inference-in-cleavi",
+      "PersonsString": "Alexander Wood",
+      "Title": "Type Inference in Cleavir",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/els-2017-type-inference-in-cleavi"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "els-2017-announcements-wrapup-goodbye",
+      "PersonsString": "",
+      "Title": "Announcements, wrapup, goodbye",
+      "Type": "Day closing",
+      "URL": "http://2017.programming-conference.org/event/els-2017-announcements-wrapup-goodbye"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Université de Bordeaux / LaBRI"],
+      "AffiliationsString": "Université de Bordeaux / LaBRI",
+      "Authors": ["michaelraskin"],
+      "Key": "els-2017-writing-a-portable-code-walker-in-common-lisp",
+      "PersonsString": "Michael Raskin",
+      "Title": "Writing a portable code walker in Common Lisp",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/els-2017-writing-a-portable-code-walker-in-common-lisp"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["stevelosh"],
+      "Key": "els-2017-general-game-playing-in-common-lisp",
+      "PersonsString": "Steve Losh",
+      "Title": "General Game Playing in Common Lisp",
+      "Type": "Other",
+      "URL": "http://2017.programming-conference.org/event/els-2017-general-game-playing-in-common-lisp"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "EPITA / LRDE",
+        "EPITA / LRDE",
+        ""
+      ],
+      "AffiliationsString": "EPITA / LRDE, ",
+      "Authors": [
+        "jimnewton",
+        "didierverna",
+        "maximiliencolange"
+      ],
+      "Key": "els-2017-programmatic-manipulation-of-common-lisp-type-specifiers",
+      "PersonsString": "Jim Newton, Didier Verna and Maximilien Colange",
+      "Title": "Programmatic Manipulation of Common Lisp Type Specifiers",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/els-2017-programmatic-manipulation-of-common-lisp-type-specifiers"
+    },
+    {
+      "Abstract": "We present a rationale for expanding the presence of the Lisp family of programming languages in bioinformatics and computational biology research. Put simply, Lisp-family languages enable programmers to more quickly write programs that run faster than in other languages. Languages such as Common Lisp, Scheme and Clojure facilitate the creation of powerful and flexible software that is required for complex and rapidly evolving domains like biology. We will point out several important key features that distinguish languages of the Lisp family from other programming languages, and we will explain how these features can aid researchers in becoming more productive and creating better code. We will also show how these features make these languages ideal tools for artificial intelligence and machine learning applications. We will specifically stress the advantages of domain-specific languages (DSLs): languages that are specialized to a particular area, and thus not only facilitate easier research problem formulation, but also aid in the establishment of standards and best programming practices as applied to the specific research field at hand. DSLs are particularly easy to build in Common Lisp, the most comprehensive Lisp dialect, which is commonly referred to as the \u2018programmable programming language\u2019. We are convinced that Lisp grants programmers unprecedented power to build increasingly sophisticated artificial intelligence systems that may ultimately transform machine learning and artificial intelligence research in bioinformatics and computational biology.",
+      "Affiliations": ["University of Miami Miller School of Medicine"],
+      "AffiliationsString": "University of Miami Miller School of Medicine",
+      "Authors": ["bohdankhomtchouk"],
+      "Key": "els-2017-how-the-strengths-of-lisp-family-languages-facilitate-building-complex-and-flexible-bioinformatics-applications",
+      "PersonsString": "Bohdan Khomtchouk",
+      "Title": "How the strengths of Lisp-family languages facilitate building complex and flexible bioinformatics applications",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/els-2017-how-the-strengths-of-lisp-family-languages-facilitate-building-complex-and-flexible-bioinformatics-applications"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "Vrije Universiteit Brussel, Belgium",
+        "Vrije Universiteit Brussel, Belgium",
+        "Vrije Universiteit Brussel"
+      ],
+      "AffiliationsString": ", Vrije Universiteit Brussel, Belgium, Vrije Universiteit Brussel",
+      "Authors": [
+        "jonasdebleser",
+        "quentinstievenart",
+        "jensnicolay",
+        "coenderoover"
+      ],
+      "Key": "els-2017-static-taint-analysis-of-event-driven-scheme-programs",
+      "PersonsString": "Jonas De Bleser, Quentin Stiévenart, Jens Nicolay and Coen De Roover",
+      "Title": "Static Taint Analysis of Event-driven Scheme Programs",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/els-2017-static-taint-analysis-of-event-driven-scheme-programs"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+        "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+        "Friedrich-Alexander-Universität Erlangen-Nürnberg"
+      ],
+      "AffiliationsString": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "Authors": [
+        "alexanderlier",
+        "kaiselgrad",
+        "marcstamminger"
+      ],
+      "Key": "els-2017-diy-meta-languages-with-common-lisp",
+      "PersonsString": "Alexander Lier, Kai Selgrad and Marc Stamminger",
+      "Title": "DIY Meta Languages with Common Lisp",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/els-2017-diy-meta-languages-with-common-lisp"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "robertgoldman",
+        "eliaspipping",
+        "francoisrenerideau"
+      ],
+      "Key": "els-2017-delivering-common-lisp-applications-with-asdf-3-3",
+      "PersonsString": "Robert Goldman, Elias Pipping and François-René Rideau",
+      "Title": "Delivering Common Lisp Applications with ASDF 3.3",
+      "Type": "Demonstration",
+      "URL": "http://2017.programming-conference.org/event/els-2017-delivering-common-lisp-applications-with-asdf-3-3"
+    },
+    {
+      "Abstract": "Data persistence can add a great deal of complexity to application software, and making the gap between application and storage has been a constant field of research, experiments and products. In the object oriented programming paradigm, persistence seems to be a natural extension to object behavior, and even though one could argue that many persistent object systems have flaws and leak their abstractions, there is a large body of prior art and research in that area.\nIn the functional programming world, persistence does not find as natural a partnering abstraction, and it is often either conceptionally pushed to the boundaries of the application, or treated in an ad-hoc fashion interleaved with the beauty and conceptional rigor of pure functions.\nThe presentation discusses these forces and explores how Clojure\u2019s Software Transactional Memory system can be used to implement application data persistence.",
+      "Affiliations": ["LambdaWerk GmbH"],
+      "AffiliationsString": "LambdaWerk GmbH",
+      "Authors": ["hanshubner"],
+      "Key": "els-2017-identity-in-a-world-of-values",
+      "PersonsString": "Hans Hübner",
+      "Title": "Identity in a World of Values",
+      "Type": "Talk",
+      "URL": "http://2017.programming-conference.org/event/els-2017-identity-in-a-world-of-values"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "danielbrunner",
+        "stephanbrunner"
+      ],
+      "Key": "els-2017-teaching-students-of-engineering-some-insights-of-the-internet-of-things-using-racket-and-the-raspberrypi",
+      "PersonsString": "Daniel Brunner and Stephan Brunner",
+      "Title": "Teaching Students of Engineering some Insights of the Internet of Things using Racket and the RaspberryPi",
+      "Type": "Demonstration",
+      "URL": "http://2017.programming-conference.org/event/els-2017-teaching-students-of-engineering-some-insights-of-the-internet-of-things-using-racket-and-the-raspberrypi"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Shirakumo.org"],
+      "AffiliationsString": "Shirakumo.org",
+      "Authors": ["nicolashafner"],
+      "Key": "els-2017-radiance-a-web-application-environment",
+      "PersonsString": "Nicolas Hafner",
+      "Title": "Radiance \u2013 a Web Application Environment",
+      "Type": "Demonstration",
+      "URL": "http://2017.programming-conference.org/event/els-2017-radiance-a-web-application-environment"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "benjaminseppke",
+        "leoniedreschlerfischer"
+      ],
+      "Key": "els-2017-interactive-functional-medical-image-analysis",
+      "PersonsString": "Benjamin Seppke and Leonie Dreschler-Fischer",
+      "Title": "Interactive Functional Medical Image Analysis",
+      "Type": "Demonstration",
+      "URL": "http://2017.programming-conference.org/event/els-2017-interactive-functional-medical-image-analysis"
     },
     {
       "Abstract": "The context of this work is specification, detection and ultimately removal of detectable harmful patterns in source code that are associated with defects in design and implementation of software. In particular, we investigate five code smells and four antipatterns previously defined in papers and books. Our inquiry is about detecting those in source code written in Python programming language, which is substantially different from all prior research, most of which concerns Java or C-like languages. Our approach was that of software engineers: we have processed existing research literature on the topic, extracted both the abstract definitions of nine design defects and their concrete implementation specifications, implemented them all in a tool we have programmed and let it loose on a huge test set obtained from open source code from thousands of GitHub projects. When it comes to knowledge, we have found that more than twice as many methods in Python can be considered too long (statistically extremely longer than their neighbours within the same project) than in Java, but long parameter lists are seven times less likely to be found in Python code than in Java code. We have also found that Functional Decomposition, the way it was defined for Java, is not found in the Python code at all, and Spaghetti Code and God Classes are extremely rare there as well. The grounding and the confidence in these results comes from the fact that we have performed our experiments on 32\u2019058\u2019823 lines of Python code, which is by far the largest test set for a freely available Python parser. We have also designed the experiment in such a way that it aligned with prior research on design defect detection in Java in order to ease the comparison if we treat our own actions as a replication. Thus, the importance of the work is both in the unique open Python grammar of highest quality, tested on millions of lines of code, and in the design defect detection tool which works on something else than Java.",
@@ -1719,7 +1718,7 @@
       "URL": "http://2017.programming-conference.org/event/programming-2017-papers-tbd-17"
     },
     {
-      "Abstract": "",
+      "Abstract": "The Dart virtual machine supports hot reloading of code, e.g., changing the code while it is executing, without the need to restart the program. The Dart workflow for such changes differs from what is done in classical live environments like Smalltalk. The Dart VM monitors changes to source files and updates the program with respect to changes across the program\u2019s code base atomically. The system runs on mobile devices (both Android and iOS).\nThe Dart programming language [1] includes built in support for asynchrony [2] via constructs like async functions, await expressions and await for loops. Debugging asynchronous code is notoriously difficult. When an asynchronous function fails unexpectedly, the code that invoked is no longer active. If no special effort is made, even a stack trace beyond the entry into the asynchronous code is not available. The Dart VM supports complete stack traces for asynchronous code, as well the ability to step into, out of, or over asynchronous code. In addition, the Dart VM supports hot reloading, i.e., the ability to modify code during program execution allowing users to make live fixes, known as fix-and-continue debugging. These features work together seamlessly to provide a high quality debugging experience for asynchronous code.\nThe Dart VM comes with an interactive tool, the Observatory, that allows programmers to debug, profile and monitor the running system in various ways. We plan to demonstrate Observatory updating and debugging a running inter- active mobile application.\nA technical description of the implementation of async debugging in Dart will be presented at the MoreVMs workshop at Programming 17. A paper on hot reloading in the Dart VM is in preparation.\nReferences\n[1] Gilad Bracha. The Dart Programming Language. Addison-Wesley, Boston, Massachusetts, 2015.\n[2] Erik Meijer, Kevin Milliken, and Gilad Bracha. Spicing up Dart with side effects. Queue, 13(3):40:40-40:59, March 2015.",
       "Affiliations": [
         "Google",
         "",
@@ -1900,7 +1899,7 @@
       "URL": "http://2017.programming-conference.org/event/programming-2017-demos-reactive-programming-with-rescala"
     },
     {
-      "Abstract": "",
+      "Abstract": "When debugging, developers often use backwards reasoning to find possible causes for a bug symptom they observed. The popularity of this approach likely stems from the fact that online debuggers, such as jdb, only support stepping forwards through the execution of an application and analyzing the current state of the program.\nIn contrast, omniscient debuggers allow developers to debug back-in-time and freely step through the execution. However, the application run has to be recorded first, which implies a significant runtime overhead of a factor between 20 and 252.\nIn this demo we present RedShell, a prototype that extends the Eclipse Java debugger with back-in-time debugging capabilities in a lightweight fashion.",
       "Affiliations": [
         "Philipps-Universität Marburg",
         "Philipps-Universität Marburg"
@@ -1915,17 +1914,6 @@
       "Title": "RedShell: Online Back-In-Time Debugging",
       "Type": "Demonstration",
       "URL": "http://2017.programming-conference.org/event/programming-2017-demos-redshell-online-back-in-time-debugging"
-    },
-    {
-      "Abstract": "On Monday (April 3rd), there is a beer reception at the conference venue, where you can enjoy many of our Belgian beers.\nMore information",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "programming-2017-social-events-belgian-beer-reception",
-      "PersonsString": "",
-      "Title": "Belgian beer reception",
-      "Type": "Social Event",
-      "URL": "http://2017.programming-conference.org/event/programming-2017-social-events-belgian-beer-reception"
     },
     {
       "Abstract": "Modern software development without reactive programming is hard to imagine. Reactive programming favors a wide class of contemporary software systems that respond to user input, network messages, and other events.\nWhile reactive programming is an active field of research, the implementation of reactive concepts remains challenging. In particular, change detection represents a hard but inevitable necessity when implementing reactive concepts. Typically, change detection mechanisms are not intended for reuse but are tightly coupled to the particular change resolution mechanism. As a result, developers often have to re-implement similar abstractions. A reusable primitive for change detection is still missing.\nTo find a suitable primitive, we identify commonalities in existing reactive concepts. We discover a class of reactive concepts, state-based reactive concepts. All state-based reactive concepts share a common change detection mechanism: they detect changes in the evaluation result of an expression.\nOn the basis of the identified common change detection mechanism, we propose active expressions as a reusable primitive. By abstracting the tedious implementation details of change detection, active expressions can ease the implementation of reactive programming concepts.\nWe evaluate the design of active expressions by re-implementing a number of existing state-based reactive concepts using them. The resulting implementations highlight the expressiveness of active expressions.\nActive expressions enable the separation of essential from non-essential parts when reasoning about reactive programming concepts. By using active expressions as a primitive for change detection, developers of reactive language constructs and runtime support can now focus on the design of how application programmers should be able to react to change. Ultimately, we would like active expressions to encourage experiments with novel reactive programming concepts and with that to yield a wider variety of them to explore.",
@@ -2004,17 +1992,6 @@
       "Title": "Application Embedding: From FishTank to Axiom",
       "Type": "Demonstration",
       "URL": "http://2017.programming-conference.org/event/programming-2017-demos-application-embedding-from-fishtank-to-axiom"
-    },
-    {
-      "Abstract": "The conference banquet will take place in the Museum of Natural Sciences on Wednesday (April 5th).\nMore information",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "programming-2017-social-events-banquet",
-      "PersonsString": "",
-      "Title": "Banquet",
-      "Type": "Social Event",
-      "URL": "http://2017.programming-conference.org/event/programming-2017-social-events-banquet"
     },
     {
       "Abstract": "The context of the reported research is the documentation of software technologies such as object/relational mappers, web-application frameworks, or code generators. We assume that documentation should model a macroscopic view on usage scenarios of technologies in terms of involved artifacts, leveraged soft- ware languages, transformation and conformance relationships, I/O behavior, and others. In previous work, we referred to such documentation also as \u2018linguistic architecture\u2019. The corresponding models may also be referred to as \u2018megamodels\u2019 while adopting this term from the technological space of modeling/model-driven engineering. This work is an inquiry into making such documentation more useful by means of connecting (mega)models, systems, and developer experience in several ways. To this end, we adopt an approach that is primarily based on prototyping (i.e., implementation of a megamodeling infrastructure with all conceivable connections) and experimentation with showcases (i.e., documentation of concrete software technologies). The knowledge gained by this research is a notion of interconnected linguistic architecture on the grounds of connecting primary model elements, inferred model elements, static and runtime system artifacts, traceability links, system contexts, knowledge resources, plugged interpretations of model elements, and IDE views. A corresponding suite of aspects of interconnected linguistic architecture is systematically described. As to the grounding of this research, we describe a literature survey which tracks scattered occurrences and thus demonstrates the relevance of the identified aspects of interconnected linguistic architecture. Further, we describe the MegaL/Xtext+IDE infrastructure which realizes interconnected linguistic architecture. The importance of this work lies in providing relatively formal, ontologically rich, navigable, and verifiable documentation of software technologies, thereby helping developers to better understand how to use technologies in new systems (prescriptive mode) or how technologies are used in existing systems (descriptive mode).",
@@ -2204,17 +2181,6 @@
       "URL": "http://2017.programming-conference.org/event/programming-2017-demos-modularizing-code-by-use-cases-and-tests-for-better-maintainability"
     },
     {
-      "Abstract": "On Tuesday (April 4th), there is a reception at the top floor of the Musical Instruments Museum.\nMore information",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "programming-2017-social-events-reception",
-      "PersonsString": "",
-      "Title": "Reception",
-      "Type": "Social Event",
-      "URL": "http://2017.programming-conference.org/event/programming-2017-social-events-reception"
-    },
-    {
       "Abstract": "Context: This paper presents the concept of open programming language interpreters, a model to support them and a prototype implementation in the Neverlang framework for modular development of programming languages.\nInquiry: We address the problem of dynamic interpreter adaptation to tailor the interpreter\u2019s behaviour on the task to be solved and to introduce new features to fulfil unforeseen requirements. Many languages provide a meta-object protocol (MOP) that to some degree supports reflection. However, MOPs are typically language-specific, their reflective functionality is often restricted, and the adaptation and application logic are often mixed which hardens the understanding and maintenance of the source code. Our system overcomes these limitations.\nApproach: We designed a model and implemented a prototype system to support open programming language interpreters. The implementation is integrated in the Neverlang framework which now exposes the structure, behaviour and the runtime state of any Neverlang-based interpreter with the ability to modify it. \nKnowledge: Our system provides a complete control over interpreter\u2019s structure, behaviour and its runtime state. The approach is applicable to every Neverlang-based interpreter. Adaptation code can potentially be reused across different language implementations. \nGrounding: Having a prototype implementation we focused on feasibility evaluation. The paper shows that our approach well addresses problems commonly found in the research literature. We have a demonstrative video and examples that illustrate our approach on dynamic software adaptation, aspect-oriented programming, debugging and context-aware interpreters.\nImportance: Our paper presents the first reflective approach targeting a general framework for language development. Our system provides full reflective support for free to any Neverlang-based interpreter. Rather than substituting other approaches, we believe our system can be used as a complementary technique in situations where other approaches present serious limitations.",
       "Affiliations": [
         " Università degli Studi di Milano",
@@ -2315,6 +2281,50 @@
       "Title": "An Analysis of Introductory Programming Courses at UK Universities",
       "Type": "Talk",
       "URL": "http://2017.programming-conference.org/event/programming-2017-papers-tbd-15"
+    },
+    {
+      "Abstract": "On Thursday, we\u2019ll end the conference with a \u201cBrussels waffle social\u201d, where you can enjoy our famous waffles. The waffle social will take place at the conference venue.",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "programming-2017-social-events-brussels-waffle-social",
+      "PersonsString": "",
+      "Title": "Brussels waffle social",
+      "Type": "Social Event",
+      "URL": "http://2017.programming-conference.org/event/programming-2017-social-events-brussels-waffle-social"
+    },
+    {
+      "Abstract": "The conference banquet will take place in the Museum of Natural Sciences on Wednesday (April 5th).\nMore information",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "programming-2017-social-events-banquet",
+      "PersonsString": "",
+      "Title": "Banquet",
+      "Type": "Social Event",
+      "URL": "http://2017.programming-conference.org/event/programming-2017-social-events-banquet"
+    },
+    {
+      "Abstract": "On Monday (April 3rd), there is a beer reception at the conference venue, where you can enjoy many of our Belgian beers.\nMore information",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "programming-2017-social-events-belgian-beer-reception",
+      "PersonsString": "",
+      "Title": "Belgian beer reception",
+      "Type": "Social Event",
+      "URL": "http://2017.programming-conference.org/event/programming-2017-social-events-belgian-beer-reception"
+    },
+    {
+      "Abstract": "On Tuesday (April 4th), there is a reception at the top floor of the Musical Instruments Museum.\nMore information",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "programming-2017-social-events-reception",
+      "PersonsString": "",
+      "Title": "Reception",
+      "Type": "Social Event",
+      "URL": "http://2017.programming-conference.org/event/programming-2017-social-events-reception"
     }
   ],
   "Name": "\u2039Programming\u203a 2017",
@@ -2383,7 +2393,7 @@
     },
     {
       "Affiliation": "Open University and Technion IIT",
-      "Bio": "David H. Lorenz is an Associate Professor in the Department of Mathematics and Computer Science at the Open University of Israel. He is currently a Visiting Professor at the Faculty of Computer Science, Technion\u2014Israel Institute of Technology.\nHis research interests include aspect-oriented software engineering and programming, particularly involving domain specific languages. He is the Chair of the Aspect-Oriented Software Association, a non-profit organization whose mission is to be the primary sponsor for the annual Conference on Modularity.\nProf. Lorenz received his PhD in computer science from the Technion\u2014Israel Institute of Technology. He\u2019s a member of the ACM and a member of the IEEE. Contact him at the Dept. of Mathematics and Computer Science, Open University of Israel, Raanana 43107, Israel; lorenz@openu.ac.il.",
+      "Bio": "David H. Lorenz is an Associate Professor in the Department of Mathematics and Computer Science at the Open University of Israel. He is currently a Visiting Professor at the Faculty of Computer Science, Technion\u2014Israel Institute of Technology.\nHis research interests include language-oriented software engineering and programming, particularly involving domain specific languages. He is a steering committee member and the former chair of the AOSA, a non-profit organization whose mission is to be the primary sponsor for the annual conferences: International Conference on Aspect-Oriented Software Development, International Conference on Modularity, and International Conference on the Art, Science, and Engineering of Programming.\nProf. Lorenz received his PhD in computer science from the Technion\u2014Israel Institute of Technology. He\u2019s a member of the ACM and a member of the IEEE. Contact him at the Dept. of Mathematics and Computer Science, Open University of Israel, Raanana 43107, Israel; lorenz@openu.ac.il.",
       "Key": "davidhlorenz",
       "Name": "David H. Lorenz",
       "URL": "http://www.cs.technion.ac.il/people/dhlorenz/",
@@ -2572,6 +2582,13 @@
       "Affiliation": "Katholieke Universiteit Leuven",
       "Key": "wouterjoosen",
       "Name": "Wouter Joosen"
+    },
+    {
+      "Affiliation": "Shirakumo.org",
+      "Key": "nicolashafner",
+      "Name": "Nicolas Hafner",
+      "URL": "https://everything.shinmera.com",
+      "URLphoto": "http://2017.programming-conference.org/getProfileImage/nicolashafner/c79e734e-95ca-4980-9760-9175f2924b31/small.jpg"
     },
     {
       "Affiliation": "University of Occidental  Brittary, France",
@@ -3151,7 +3168,8 @@
     {
       "Affiliation": "University of Florida, USA",
       "Key": "albertoriva",
-      "Name": "Alberto Riva"
+      "Name": "Alberto Riva",
+      "URLphoto": "http://2017.programming-conference.org/getProfileImage/albertoriva/57874a4b-69d2-4edf-8989-4b71bcdd9526/small.jpg"
     },
     {
       "Affiliation": "Tokyo Institute of Technology",
@@ -3444,10 +3462,11 @@
     },
     {
       "Affiliation": "Open University and Technion IIT",
-      "Bio": "David H. Lorenz is an Associate Professor in the Department of Mathematics and Computer Science at the Open University of Israel. He is currently a Visiting Professor at the Faculty of Computer Science, Technion\u2014Israel Institute of Technology.\nHis research interests include aspect-oriented software engineering, modularity, and programming, particularly involving domain specific languages. He is a steering committee member and the former chair of the Aspect-Oriented Software Association, a non-profit organization whose mission is to be the primary sponsor for the International Conference on the Art, Science, and Engineering of Programming.\nProf. Lorenz received his PhD in computer science from the Technion\u2014Israel Institute of Technology. He\u2019s a member of the ACM and a member of the IEEE. Contact him at the Dept. of Mathematics and Computer Science, Open University of Israel, Raanana 43107, Israel; lorenz@openu.ac.il.",
+      "Bio": "David H. Lorenz is an Associate Professor in the Department of Mathematics and Computer Science at the Open University of Israel. He is currently a Visiting Professor at the Faculty of Computer Science, Technion\u2014Israel Institute of Technology.\nHis research interests include language-oriented software engineering, modularity, and programming, particularly involving domain specific languages. He is a steering committee member and the former chair of the AOSA, a non-profit organization whose mission is to be the primary sponsor for the annual conferences: International Conference on Aspect-Oriented Software Development, International Conference on Modularity, and International Conference on the Art, Science, and Engineering of Programming.\nProf. Lorenz received his PhD in computer science from the Technion\u2014Israel Institute of Technology. He\u2019s a member of the ACM and a member of the IEEE. Contact him at the Dept. of Mathematics and Computer Science, Open University of Israel, Raanana 43107, Israel; lorenz@openu.ac.il.",
       "Key": "davidlorenz",
       "Name": "David H. Lorenz",
-      "URL": "http://www.openu.ac.il/home/lorenz"
+      "URL": "http://www.openu.ac.il/home/lorenz",
+      "URLphoto": "http://2017.programming-conference.org/getProfileImage/davidlorenz/d0a8d2b7-30ae-4cb7-8004-2ed968eedf38/small.jpg"
     },
     {
       "Affiliation": "",
@@ -3525,6 +3544,11 @@
       "Name": "Vadim Zaytsev",
       "URL": "http://grammarware.net",
       "URLphoto": "http://2017.programming-conference.org/getProfileImage/vadimzaytsev/fe6c221f-75d5-4fbc-ac41-be9c99349b5d/small.jpg"
+    },
+    {
+      "Affiliation": "",
+      "Key": "nicolasneu",
+      "Name": "Nicolas Neuß"
     },
     {
       "Affiliation": "",
@@ -3627,6 +3651,13 @@
       "URLphoto": "http://2017.programming-conference.org/getProfileImage/juliendeantoni/8d996d69-181b-4952-ba94-51e370f02163/small.jpg"
     },
     {
+      "Affiliation": "University of Bergen",
+      "Key": "anyahelenebagge",
+      "Name": "Anya Helene Bagge",
+      "URL": "http://www.ii.uib.no/~anya/",
+      "URLphoto": "http://2017.programming-conference.org/getProfileImage/anyahelenebagge/0eb096cc-5dbd-4ca8-9b0a-37adff9365a1/small.jpg"
+    },
+    {
       "Affiliation": "Hasso Plattner Institute",
       "Key": "patrickrein",
       "Name": "Patrick Rein",
@@ -3695,7 +3726,8 @@
     {
       "Affiliation": "",
       "Key": "feliennehermans",
-      "Name": "Felienne Hermans"
+      "Name": "Felienne Hermans",
+      "URLphoto": "http://2017.programming-conference.org/getProfileImage/feliennehermans/f1233e68-176f-4ecc-a70f-932b9370f82e/small.jpg"
     },
     {
       "Affiliation": "",
@@ -3758,6 +3790,12 @@
       "Name": "Luke Church"
     },
     {
+      "Affiliation": "Université de Bordeaux / LaBRI",
+      "Key": "michaelraskin",
+      "Name": "Michael Raskin",
+      "URL": "http://mccme.ru/~raskin"
+    },
+    {
       "Affiliation": "Google",
       "Key": "andreasrossberg",
       "Name": "Andreas Rossberg",
@@ -3788,9 +3826,11 @@
       "Name": "Wendy Mackay"
     },
     {
-      "Affiliation": "",
+      "Affiliation": "HARC / Y Combinator Research",
+      "Bio": "Yoshiki Ohshima has research interests in interactive and educational computer systems, software architectures and programming languages. Yoshiki graduated from the Tokyo Institute of Technology in 1994. He was awarded his PhD for the creation of \u201cKedama\u201d, a massively parallel particle programming system, from the Tokyo Institute of Technology in 2006. Yoshiki worked on theme park related research project at Walt Disney Imagineering R&amp;D from 2000 through 2002. In 2002, he joined Twin Sun, Inc. From 2007 he worked at the Viewpoints Research Institute. At VPRI, Yoshiki worked on projects include bringing the etoys environment to children via the \u201cXO\u201d and the One Laptop Per Child (olpc) initiative, multilingualization of software environments, and the STEPS project.",
       "Key": "yoshikiohshima1",
       "Name": "Yoshiki Ohshima",
+      "URL": "http://harc.ycr.org/member/yoshiki_ohshima/",
       "URLphoto": "http://2017.programming-conference.org/getProfileImage/yoshikiohshima1/924354bb-3690-4fde-b09c-8db646d6bf36/small.jpg"
     },
     {
@@ -4081,6 +4121,11 @@
     },
     {
       "Affiliation": "",
+      "Key": "stevelosh",
+      "Name": "Steve Losh"
+    },
+    {
+      "Affiliation": "",
       "Key": "jameseagan",
       "Name": "James Eagan"
     },
@@ -4112,6 +4157,11 @@
       "Name": "James Noble",
       "URL": "http://homepages.mcs.vuw.ac.nz/~kjx/",
       "URLphoto": "http://2017.programming-conference.org/getProfileImage/jamesnoble/397692f7-f014-4032-a93d-bc522e882d80/small.jpg"
+    },
+    {
+      "Affiliation": "",
+      "Key": "leoniedreschlerfischer",
+      "Name": "Leonie Dreschler-Fischer"
     },
     {
       "Affiliation": "HPI, Germany",
@@ -4262,33 +4312,6 @@
       "Affiliation": "University of Luxembourg",
       "Key": "jacquesklein",
       "Name": "Jacques Klein"
-    },
-    {
-      "Affiliation": "Shirakumo.org",
-      "Key": "nicolashafner",
-      "Name": "Nicolas Hafner",
-      "URL": "https://everything.shinmera.com",
-      "URLphoto": "http://2017.programming-conference.org/getProfileImage/nicolashafner/c79e734e-95ca-4980-9760-9175f2924b31/small.jpg"
-    },
-    {
-      "Affiliation": "",
-      "Key": "nicolasneu",
-      "Name": "Nicolas Neuß"
-    },
-    {
-      "Affiliation": "",
-      "Key": "stevelosh",
-      "Name": "Steve Losh"
-    },
-    {
-      "Affiliation": "",
-      "Key": "leoniedreschlerfischer",
-      "Name": "Leonie Dreschler-Fischer"
-    },
-    {
-      "Affiliation": "",
-      "Key": "mikhailraskin",
-      "Name": "Mikhail Raskin"
     }
   ],
   "Sessions": [
@@ -4337,36 +4360,6 @@
       "Type": "Keynote Talks"
     },
     {
-      "Abstract": "We have three exciting social events planned out for you; be sure to take a look: \n \n Monday: Belgian beer reception \n Tuesday: Reception at the Musical Instruments Museum \n Wednesday: Banquet at the Museum of Natural Sciences",
-      "Day": "2017-04-04",
-      "Items": ["programming-2017-social-events-reception"],
-      "Key": "cd4e94ff-1a55-4be2-9e00-402fd9f9e2c7",
-      "Location": "Musical Instruments Museum",
-      "Time": "17:30 - 20:00",
-      "Title": "Social Events: Reception",
-      "Type": "Accepted Papers"
-    },
-    {
-      "Abstract": "We have three exciting social events planned out for you; be sure to take a look: \n \n Monday: Belgian beer reception \n Tuesday: Reception at the Musical Instruments Museum \n Wednesday: Banquet at the Museum of Natural Sciences",
-      "Day": "2017-04-05",
-      "Items": ["programming-2017-social-events-banquet"],
-      "Key": "a41bb385-b8b3-4594-839c-8286abe31c50",
-      "Location": "Museum of Natural Sciences",
-      "Time": "18:10 - 22:00",
-      "Title": "Social Events: Banquet",
-      "Type": "Accepted Papers"
-    },
-    {
-      "Abstract": "We have three exciting social events planned out for you; be sure to take a look: \n \n Monday: Belgian beer reception \n Tuesday: Reception at the Musical Instruments Museum \n Wednesday: Banquet at the Museum of Natural Sciences",
-      "Day": "2017-04-03",
-      "Items": ["programming-2017-social-events-belgian-beer-reception"],
-      "Key": "b4da506a-b90a-4ae6-8a1d-32a40b88698e",
-      "Location": "﻿D - 2nd floor",
-      "Time": "17:00 - 19:00",
-      "Title": "Social Events: Belgian beer reception",
-      "Type": "Accepted Papers"
-    },
-    {
       "Abstract": "The MoreVMs\u201917 workshop aims bring together programmers from industry and academy to discuss the design, implementation, and usage of modern languages and runtimes. This includes aspects such as reuse of language runtimes, modular implementation, or design and compilation strategies to target existing runtimes.",
       "Day": "2017-04-03",
       "Items": [
@@ -4396,7 +4389,7 @@
       "Type": "Accepted Papers"
     },
     {
-      "Abstract": "Welcome to the 2nd Edition of the Programming Experience Workshop \n   \n \n\nImagine a software development task: some sort of requirements and specification including performance goals and perhaps a platform and programming language. A group of developers head into a vast workroom. In that room they discover they need to explore the domain and the nature of potential solutions\u2014they need exploratory programming.\nThe Programming Experience (PX) Workshop is about what happens in that room when one or a couple of programmers sit down in front of computers and produce code, especially when it\u2019s exploratory programming. Do they create text that is transformed into running behavior (the old way), or do they operate on behavior directly (\u201cliveness\u201d); are they exploring the live domain to understand the true nature of the requirements; are they like authors creating new worlds; does visualization matter; is the experience immediate, immersive, vivid and continuous; do fluency, literacy, and learning matter; do they build tools, meta-tools; are they creating languages to express new concepts quickly and easily; and curiously, is joy relevant to the experience?\nCorrectness, performance, standard tools, foundations, and text-as-program are important traditional research areas, but the experience of programming and how to improve and evolve it are the focus of this workshop, and in this edition we would like to focus on exploratory programming.\nFlyer\nhttp://programming-experience.org/px17/media/PX17CfP.pdf\nhttp://programming-experience.org/px17/",
+      "Abstract": "Welcome to the 2nd Edition of the Programming Experience Workshop \n   \n \n\nNote: If you intend to participate in the PX/17 workshop, please note that the workshop will follow the Writers\u2019 Workshop format. For that, please download and read all submissions in advance.\nImagine a software development task: some sort of requirements and specification including performance goals and perhaps a platform and programming language. A group of developers head into a vast workroom. In that room they discover they need to explore the domain and the nature of potential solutions\u2014they need exploratory programming.\nThe Programming Experience (PX) Workshop is about what happens in that room when one or a couple of programmers sit down in front of computers and produce code, especially when it\u2019s exploratory programming. Do they create text that is transformed into running behavior (the old way), or do they operate on behavior directly (\u201cliveness\u201d); are they exploring the live domain to understand the true nature of the requirements; are they like authors creating new worlds; does visualization matter; is the experience immediate, immersive, vivid and continuous; do fluency, literacy, and learning matter; do they build tools, meta-tools; are they creating languages to express new concepts quickly and easily; and curiously, is joy relevant to the experience?\nCorrectness, performance, standard tools, foundations, and text-as-program are important traditional research areas, but the experience of programming and how to improve and evolve it are the focus of this workshop, and in this edition we would like to focus on exploratory programming.\nFlyer\nhttp://programming-experience.org/px17/media/PX17CfP.pdf\nhttp://programming-experience.org/px17/",
       "Chairs": [
         "richardpgabriel",
         "roberthirschfeld",
@@ -4459,7 +4452,7 @@
       "Type": "Accepted Papers"
     },
     {
-      "Abstract": "Welcome to the 2nd Edition of the Programming Experience Workshop \n   \n \n\nImagine a software development task: some sort of requirements and specification including performance goals and perhaps a platform and programming language. A group of developers head into a vast workroom. In that room they discover they need to explore the domain and the nature of potential solutions\u2014they need exploratory programming.\nThe Programming Experience (PX) Workshop is about what happens in that room when one or a couple of programmers sit down in front of computers and produce code, especially when it\u2019s exploratory programming. Do they create text that is transformed into running behavior (the old way), or do they operate on behavior directly (\u201cliveness\u201d); are they exploring the live domain to understand the true nature of the requirements; are they like authors creating new worlds; does visualization matter; is the experience immediate, immersive, vivid and continuous; do fluency, literacy, and learning matter; do they build tools, meta-tools; are they creating languages to express new concepts quickly and easily; and curiously, is joy relevant to the experience?\nCorrectness, performance, standard tools, foundations, and text-as-program are important traditional research areas, but the experience of programming and how to improve and evolve it are the focus of this workshop, and in this edition we would like to focus on exploratory programming.\nFlyer\nhttp://programming-experience.org/px17/media/PX17CfP.pdf\nhttp://programming-experience.org/px17/",
+      "Abstract": "Welcome to the 2nd Edition of the Programming Experience Workshop \n   \n \n\nNote: If you intend to participate in the PX/17 workshop, please note that the workshop will follow the Writers\u2019 Workshop format. For that, please download and read all submissions in advance.\nImagine a software development task: some sort of requirements and specification including performance goals and perhaps a platform and programming language. A group of developers head into a vast workroom. In that room they discover they need to explore the domain and the nature of potential solutions\u2014they need exploratory programming.\nThe Programming Experience (PX) Workshop is about what happens in that room when one or a couple of programmers sit down in front of computers and produce code, especially when it\u2019s exploratory programming. Do they create text that is transformed into running behavior (the old way), or do they operate on behavior directly (\u201cliveness\u201d); are they exploring the live domain to understand the true nature of the requirements; are they like authors creating new worlds; does visualization matter; is the experience immediate, immersive, vivid and continuous; do fluency, literacy, and learning matter; do they build tools, meta-tools; are they creating languages to express new concepts quickly and easily; and curiously, is joy relevant to the experience?\nCorrectness, performance, standard tools, foundations, and text-as-program are important traditional research areas, but the experience of programming and how to improve and evolve it are the focus of this workshop, and in this edition we would like to focus on exploratory programming.\nFlyer\nhttp://programming-experience.org/px17/media/PX17CfP.pdf\nhttp://programming-experience.org/px17/",
       "Chairs": [
         "richardpgabriel",
         "roberthirschfeld",
@@ -4491,7 +4484,7 @@
       "Type": "Accepted Papers"
     },
     {
-      "Abstract": "Welcome to the 2nd Edition of the Programming Experience Workshop \n   \n \n\nImagine a software development task: some sort of requirements and specification including performance goals and perhaps a platform and programming language. A group of developers head into a vast workroom. In that room they discover they need to explore the domain and the nature of potential solutions\u2014they need exploratory programming.\nThe Programming Experience (PX) Workshop is about what happens in that room when one or a couple of programmers sit down in front of computers and produce code, especially when it\u2019s exploratory programming. Do they create text that is transformed into running behavior (the old way), or do they operate on behavior directly (\u201cliveness\u201d); are they exploring the live domain to understand the true nature of the requirements; are they like authors creating new worlds; does visualization matter; is the experience immediate, immersive, vivid and continuous; do fluency, literacy, and learning matter; do they build tools, meta-tools; are they creating languages to express new concepts quickly and easily; and curiously, is joy relevant to the experience?\nCorrectness, performance, standard tools, foundations, and text-as-program are important traditional research areas, but the experience of programming and how to improve and evolve it are the focus of this workshop, and in this edition we would like to focus on exploratory programming.\nFlyer\nhttp://programming-experience.org/px17/media/PX17CfP.pdf\nhttp://programming-experience.org/px17/",
+      "Abstract": "Welcome to the 2nd Edition of the Programming Experience Workshop \n   \n \n\nNote: If you intend to participate in the PX/17 workshop, please note that the workshop will follow the Writers\u2019 Workshop format. For that, please download and read all submissions in advance.\nImagine a software development task: some sort of requirements and specification including performance goals and perhaps a platform and programming language. A group of developers head into a vast workroom. In that room they discover they need to explore the domain and the nature of potential solutions\u2014they need exploratory programming.\nThe Programming Experience (PX) Workshop is about what happens in that room when one or a couple of programmers sit down in front of computers and produce code, especially when it\u2019s exploratory programming. Do they create text that is transformed into running behavior (the old way), or do they operate on behavior directly (\u201cliveness\u201d); are they exploring the live domain to understand the true nature of the requirements; are they like authors creating new worlds; does visualization matter; is the experience immediate, immersive, vivid and continuous; do fluency, literacy, and learning matter; do they build tools, meta-tools; are they creating languages to express new concepts quickly and easily; and curiously, is joy relevant to the experience?\nCorrectness, performance, standard tools, foundations, and text-as-program are important traditional research areas, but the experience of programming and how to improve and evolve it are the focus of this workshop, and in this edition we would like to focus on exploratory programming.\nFlyer\nhttp://programming-experience.org/px17/media/PX17CfP.pdf\nhttp://programming-experience.org/px17/",
       "Chairs": [
         "hidehikomasuhara",
         "richardpgabriel",
@@ -4543,7 +4536,7 @@
     {
       "Abstract": "CoCoDo is a coding dojo where you can enjoy an entire day of compiler programming under gentle guidance of field experts.\nCompiler construction comprises, but is not limited to, lexical analysis, syntactic analysis, preprocessing, context handling, code generation, code optimisation, virtual machines, interpreters, smell detection, clone management, portability, migration, refactoring, domain-specific language design, linking and loading, assembling and disassembling, generics and reflection, numerous paradigms and so much more.\nInformation about Raincode Labs Compiler Coding Dojo can be found on:https://cocodo.github.io/",
       "Day": "2017-04-04",
-      "Items": ["cocodo-2017-grammar-migrations"],
+      "Items": ["cocodo-2017-late-phases-of-compilation-in-rascal"],
       "Key": "b8ff67a9-bf87-4e9f-8c15-4ddfdf332456",
       "Location": "D2.13",
       "Time": "11:00 - 12:00",
@@ -4573,7 +4566,8 @@
       "Items": [
         "cocodo-2017-live-programming-in-the-21st-century",
         "cocodo-2017-from-compilers-to-software-language-engineering",
-        "cocodo-2017-funcons-as-the-future-of-compiler-compilers"
+        "cocodo-2017-funcons-as-the-future-of-compiler-compilers",
+        "cocodo-2017-final-discussion-and-framework-pitches"
       ],
       "Key": "68dad6c4-6bcd-465b-b77c-f2ce3fa4dc8d",
       "Location": "D2.13",
@@ -4612,7 +4606,10 @@
     {
       "Abstract": "CoCoDo is a coding dojo where you can enjoy an entire day of compiler programming under gentle guidance of field experts.\nCompiler construction comprises, but is not limited to, lexical analysis, syntactic analysis, preprocessing, context handling, code generation, code optimisation, virtual machines, interpreters, smell detection, clone management, portability, migration, refactoring, domain-specific language design, linking and loading, assembling and disassembling, generics and reflection, numerous paradigms and so much more.\nInformation about Raincode Labs Compiler Coding Dojo can be found on:https://cocodo.github.io/",
       "Day": "2017-04-04",
-      "Items": ["cocodo-2017-attribute-grammars-for-dsls-for-music-and-3d-graphics"],
+      "Items": [
+        "cocodo-2017-welcome-and-introductions",
+        "cocodo-2017-attribute-grammars-for-dsls-for-music-and-3d-graphics"
+      ],
       "Key": "bdf32583-1468-4543-bf60-7b599732edde",
       "Location": "D2.13",
       "Time": "09:00 - 10:30",
@@ -4652,14 +4649,11 @@
     {
       "Abstract": "When developing current-day software systems, their deployment and usage environments should be considered carefully, in order to understand the adaptations those systems might need to undergo to interact with other systems and with their environment. Moreover, due to the portability, mobility and increasingly evolutionary nature of software systems, such adaptations should be enacted even while the system is running. Developing such software systems can prove challenging, and many seemingly different techniques to address this concern have been proposed over the last couple of years.\nThe intention of the LASSY workshop is to congregate all topics relevant to dynamic adaptation and run-time evolution of software systems, ranging from a computer science perspective covering the domains of programming languages, model-driven software development, software and service composition, context-aware databases, software variability, requirements engineering, UI adaptation and other domains, to a human perspective covering sociological or ethical implications of dynamic software systems. The workshop provides a space for discussion and collaboration between researchers working on the problem of enabling live adaptations to software systems, across the development stack.",
       "Day": "2017-04-03",
-      "Items": [
-        "lassy-2017-papers-iot-robot-simulator-for-context-sensitive-and-live-adaptive-software-developments",
-        "lassy-2017-papers-discussion-and-closing-remarks"
-      ],
+      "Items": ["lassy-2017-papers-discussion-and-closing-remarks"],
       "Key": "56679c91-d9ba-4980-95f3-3b76bf172ebf",
       "Location": "D2.14",
       "Time": "15:30 - 17:00",
-      "Title": "LASSY 2017 - : Invited presentation and closing",
+      "Title": "LASSY 2017 - : Discussion and Closing",
       "Type": "Accepted Papers"
     },
     {
@@ -4790,7 +4784,7 @@
       "Type": "Invited Talks"
     },
     {
-      "Abstract": "Welcome to the 2nd Edition of the Programming Experience Workshop \n   \n \n\nImagine a software development task: some sort of requirements and specification including performance goals and perhaps a platform and programming language. A group of developers head into a vast workroom. In that room they discover they need to explore the domain and the nature of potential solutions\u2014they need exploratory programming.\nThe Programming Experience (PX) Workshop is about what happens in that room when one or a couple of programmers sit down in front of computers and produce code, especially when it\u2019s exploratory programming. Do they create text that is transformed into running behavior (the old way), or do they operate on behavior directly (\u201cliveness\u201d); are they exploring the live domain to understand the true nature of the requirements; are they like authors creating new worlds; does visualization matter; is the experience immediate, immersive, vivid and continuous; do fluency, literacy, and learning matter; do they build tools, meta-tools; are they creating languages to express new concepts quickly and easily; and curiously, is joy relevant to the experience?\nCorrectness, performance, standard tools, foundations, and text-as-program are important traditional research areas, but the experience of programming and how to improve and evolve it are the focus of this workshop, and in this edition we would like to focus on exploratory programming.\nFlyer\nhttp://programming-experience.org/px17/media/PX17CfP.pdf\nhttp://programming-experience.org/px17/",
+      "Abstract": "Welcome to the 2nd Edition of the Programming Experience Workshop \n   \n \n\nNote: If you intend to participate in the PX/17 workshop, please note that the workshop will follow the Writers\u2019 Workshop format. For that, please download and read all submissions in advance.\nImagine a software development task: some sort of requirements and specification including performance goals and perhaps a platform and programming language. A group of developers head into a vast workroom. In that room they discover they need to explore the domain and the nature of potential solutions\u2014they need exploratory programming.\nThe Programming Experience (PX) Workshop is about what happens in that room when one or a couple of programmers sit down in front of computers and produce code, especially when it\u2019s exploratory programming. Do they create text that is transformed into running behavior (the old way), or do they operate on behavior directly (\u201cliveness\u201d); are they exploring the live domain to understand the true nature of the requirements; are they like authors creating new worlds; does visualization matter; is the experience immediate, immersive, vivid and continuous; do fluency, literacy, and learning matter; do they build tools, meta-tools; are they creating languages to express new concepts quickly and easily; and curiously, is joy relevant to the experience?\nCorrectness, performance, standard tools, foundations, and text-as-program are important traditional research areas, but the experience of programming and how to improve and evolve it are the focus of this workshop, and in this edition we would like to focus on exploratory programming.\nFlyer\nhttp://programming-experience.org/px17/media/PX17CfP.pdf\nhttp://programming-experience.org/px17/",
       "Chairs": [
         "richardpgabriel",
         "roberthirschfeld",
@@ -4935,6 +4929,46 @@
       "Location": "D2.15",
       "Time": "09:00 - 10:30",
       "Title": "PASS 2017 - : Invited Talk & Paper Presentation",
+      "Type": "Accepted Papers"
+    },
+    {
+      "Abstract": "We have four exciting social events planned out for you; be sure to take a look: \n \n Monday: Belgian beer reception \n Tuesday: Reception at the Musical Instruments Museum \n Wednesday: Banquet at the Museum of Natural Sciences \n Thursday: Brussels waffle social",
+      "Day": "2017-04-06",
+      "Items": ["programming-2017-social-events-brussels-waffle-social"],
+      "Key": "6f46570d-1468-4ca5-8d39-9671647c5d2e",
+      "Location": "﻿D - 2nd floor",
+      "Time": "17:00 - 18:00",
+      "Title": "Social Events: Brussels waffle social",
+      "Type": "Accepted Papers"
+    },
+    {
+      "Abstract": "We have four exciting social events planned out for you; be sure to take a look: \n \n Monday: Belgian beer reception \n Tuesday: Reception at the Musical Instruments Museum \n Wednesday: Banquet at the Museum of Natural Sciences \n Thursday: Brussels waffle social",
+      "Day": "2017-04-04",
+      "Items": ["programming-2017-social-events-reception"],
+      "Key": "cd4e94ff-1a55-4be2-9e00-402fd9f9e2c7",
+      "Location": "Musical Instruments Museum",
+      "Time": "17:30 - 20:00",
+      "Title": "Social Events: Reception",
+      "Type": "Accepted Papers"
+    },
+    {
+      "Abstract": "We have four exciting social events planned out for you; be sure to take a look: \n \n Monday: Belgian beer reception \n Tuesday: Reception at the Musical Instruments Museum \n Wednesday: Banquet at the Museum of Natural Sciences \n Thursday: Brussels waffle social",
+      "Day": "2017-04-05",
+      "Items": ["programming-2017-social-events-banquet"],
+      "Key": "a41bb385-b8b3-4594-839c-8286abe31c50",
+      "Location": "Museum of Natural Sciences",
+      "Time": "18:10 - 22:00",
+      "Title": "Social Events: Banquet",
+      "Type": "Accepted Papers"
+    },
+    {
+      "Abstract": "We have four exciting social events planned out for you; be sure to take a look: \n \n Monday: Belgian beer reception \n Tuesday: Reception at the Musical Instruments Museum \n Wednesday: Banquet at the Museum of Natural Sciences \n Thursday: Brussels waffle social",
+      "Day": "2017-04-03",
+      "Items": ["programming-2017-social-events-belgian-beer-reception"],
+      "Key": "b4da506a-b90a-4ae6-8a1d-32a40b88698e",
+      "Location": "﻿D - 2nd floor",
+      "Time": "17:00 - 19:00",
+      "Title": "Social Events: Belgian beer reception",
       "Type": "Accepted Papers"
     },
     {
@@ -5156,16 +5190,35 @@
     {
       "Abstract": "External Website\nInformation about the 10th European Lisp Symposium, ELS 2017 can be found on:http://www.european-lisp-symposium.org/ \n\n10th European Lisp Symposium Invited talks:\nHans H&uuml;bner, LambdaWerk GmbH, Berlin, Germany:Identity in a World of Values\nBohdan B. Khomtchouk, University of Miami Miller School of Medicine, Miami:How the strengths of Lisp-family languages facilitate building complex and flexible bioinformatics applications",
       "Day": "2017-04-03",
+      "Items": ["els-2017-lightning-talks"],
+      "Key": "9ac71851-9b55-425e-a3ac-78a6af2f966a",
+      "Location": "D0.07",
+      "Time": "17:00 - 17:30",
+      "Title": "ELS 2017 - : Lightning Talks",
+      "Type": "Talks"
+    },
+    {
+      "Abstract": "External Website\nInformation about the 10th European Lisp Symposium, ELS 2017 can be found on:http://www.european-lisp-symposium.org/ \n\n10th European Lisp Symposium Invited talks:\nHans H&uuml;bner, LambdaWerk GmbH, Berlin, Germany:Identity in a World of Values\nBohdan B. Khomtchouk, University of Miami Miller School of Medicine, Miami:How the strengths of Lisp-family languages facilitate building complex and flexible bioinformatics applications",
+      "Day": "2017-04-04",
+      "Items": ["els-2017-general-game-playing-in-common-lisp"],
+      "Key": "1f476c88-d337-4675-bca3-bff2c6f64b36",
+      "Location": "D0.07",
+      "Time": "11:00 - 12:00",
+      "Title": "ELS 2017 - : Tutorial",
+      "Type": "Talks"
+    },
+    {
+      "Abstract": "External Website\nInformation about the 10th European Lisp Symposium, ELS 2017 can be found on:http://www.european-lisp-symposium.org/ \n\n10th European Lisp Symposium Invited talks:\nHans H&uuml;bner, LambdaWerk GmbH, Berlin, Germany:Identity in a World of Values\nBohdan B. Khomtchouk, University of Miami Miller School of Medicine, Miami:How the strengths of Lisp-family languages facilitate building complex and flexible bioinformatics applications",
+      "Day": "2017-04-04",
       "Items": [
-        "els-2017-delivering-common-lisp-applications-with-asdf-3-3",
-        "els-2017-radiance-a-web-application-environment",
-        "els-2017-teaching-students-of-engineering-some-insights-of-the-internet-of-things-using-racket-and-the-raspberrypi",
-        "els-2017-interactive-functional-medical-image-analysis"
+        "els-2017-on-the-lambda-way-",
+        "els-2017-writing-a-portable-code-walker-in-common-lisp",
+        "els-2017-removing-redundant-tests-by-replicating-control-paths"
       ],
-      "Key": "d704434a-f090-477f-8b90-16190b588177",
+      "Key": "00548731-3f74-4c61-8a8a-b2bfc1b063c6",
       "Location": "D0.07",
       "Time": "15:30 - 17:00",
-      "Title": "ELS 2017 - : Demonstrations",
+      "Title": "ELS 2017 - : Session V: Going Beyond",
       "Type": "Talks"
     },
     {
@@ -5180,16 +5233,6 @@
     },
     {
       "Abstract": "External Website\nInformation about the 10th European Lisp Symposium, ELS 2017 can be found on:http://www.european-lisp-symposium.org/ \n\n10th European Lisp Symposium Invited talks:\nHans H&uuml;bner, LambdaWerk GmbH, Berlin, Germany:Identity in a World of Values\nBohdan B. Khomtchouk, University of Miami Miller School of Medicine, Miami:How the strengths of Lisp-family languages facilitate building complex and flexible bioinformatics applications",
-      "Day": "2017-04-03",
-      "Items": ["els-2017-lightning-talks"],
-      "Key": "9ac71851-9b55-425e-a3ac-78a6af2f966a",
-      "Location": "D0.07",
-      "Time": "17:00 - 17:30",
-      "Title": "ELS 2017 - : Lightning Talks",
-      "Type": "Talks"
-    },
-    {
-      "Abstract": "External Website\nInformation about the 10th European Lisp Symposium, ELS 2017 can be found on:http://www.european-lisp-symposium.org/ \n\n10th European Lisp Symposium Invited talks:\nHans H&uuml;bner, LambdaWerk GmbH, Berlin, Germany:Identity in a World of Values\nBohdan B. Khomtchouk, University of Miami Miller School of Medicine, Miami:How the strengths of Lisp-family languages facilitate building complex and flexible bioinformatics applications",
       "Day": "2017-04-04",
       "Items": [
         "els-2017-lightning-talks",
@@ -5199,30 +5242,6 @@
       "Location": "D0.07",
       "Time": "17:00 - 17:45",
       "Title": "ELS 2017 - : Lightning Talks",
-      "Type": "Talks"
-    },
-    {
-      "Abstract": "External Website\nInformation about the 10th European Lisp Symposium, ELS 2017 can be found on:http://www.european-lisp-symposium.org/ \n\n10th European Lisp Symposium Invited talks:\nHans H&uuml;bner, LambdaWerk GmbH, Berlin, Germany:Identity in a World of Values\nBohdan B. Khomtchouk, University of Miami Miller School of Medicine, Miami:How the strengths of Lisp-family languages facilitate building complex and flexible bioinformatics applications",
-      "Day": "2017-04-04",
-      "Items": [
-        "els-2017-fast-maintainable-and-portable-sequence-functions",
-        "els-2017-diy-meta-languages-with-common-lisp",
-        "els-2017-static-taint-analysis-of-event-driven-scheme-programs"
-      ],
-      "Key": "852db361-201b-4bd6-b683-b6f85dd49353",
-      "Location": "D0.07",
-      "Time": "13:30 - 15:00",
-      "Title": "ELS 2017 - : Session IV: Going Meta",
-      "Type": "Talks"
-    },
-    {
-      "Abstract": "External Website\nInformation about the 10th European Lisp Symposium, ELS 2017 can be found on:http://www.european-lisp-symposium.org/ \n\n10th European Lisp Symposium Invited talks:\nHans H&uuml;bner, LambdaWerk GmbH, Berlin, Germany:Identity in a World of Values\nBohdan B. Khomtchouk, University of Miami Miller School of Medicine, Miami:How the strengths of Lisp-family languages facilitate building complex and flexible bioinformatics applications",
-      "Day": "2017-04-04",
-      "Items": ["els-2017-general-game-playing-in-common-lisp"],
-      "Key": "1f476c88-d337-4675-bca3-bff2c6f64b36",
-      "Location": "D0.07",
-      "Time": "11:00 - 12:00",
-      "Title": "ELS 2017 - : Tutorial",
       "Type": "Talks"
     },
     {
@@ -5243,6 +5262,33 @@
       "Abstract": "External Website\nInformation about the 10th European Lisp Symposium, ELS 2017 can be found on:http://www.european-lisp-symposium.org/ \n\n10th European Lisp Symposium Invited talks:\nHans H&uuml;bner, LambdaWerk GmbH, Berlin, Germany:Identity in a World of Values\nBohdan B. Khomtchouk, University of Miami Miller School of Medicine, Miami:How the strengths of Lisp-family languages facilitate building complex and flexible bioinformatics applications",
       "Day": "2017-04-03",
       "Items": [
+        "els-2017-common-lisp-ultraspec-a-project-for-modern-common-lisp-documentation",
+        "els-2017-loading-multiple-versions-of-an-asdf-system-in-the-same-lisp-image"
+      ],
+      "Key": "86bfd051-38f4-47d7-939a-af51cfe19972",
+      "Location": "D0.07",
+      "Time": "11:00 - 12:00",
+      "Title": "ELS 2017 - : Session I: Tools",
+      "Type": "Talks"
+    },
+    {
+      "Abstract": "External Website\nInformation about the 10th European Lisp Symposium, ELS 2017 can be found on:http://www.european-lisp-symposium.org/ \n\n10th European Lisp Symposium Invited talks:\nHans H&uuml;bner, LambdaWerk GmbH, Berlin, Germany:Identity in a World of Values\nBohdan B. Khomtchouk, University of Miami Miller School of Medicine, Miami:How the strengths of Lisp-family languages facilitate building complex and flexible bioinformatics applications",
+      "Day": "2017-04-04",
+      "Items": [
+        "els-2017-fast-maintainable-and-portable-sequence-functions",
+        "els-2017-diy-meta-languages-with-common-lisp",
+        "els-2017-static-taint-analysis-of-event-driven-scheme-programs"
+      ],
+      "Key": "852db361-201b-4bd6-b683-b6f85dd49353",
+      "Location": "D0.07",
+      "Time": "13:30 - 15:00",
+      "Title": "ELS 2017 - : Session IV: Going Meta",
+      "Type": "Talks"
+    },
+    {
+      "Abstract": "External Website\nInformation about the 10th European Lisp Symposium, ELS 2017 can be found on:http://www.european-lisp-symposium.org/ \n\n10th European Lisp Symposium Invited talks:\nHans H&uuml;bner, LambdaWerk GmbH, Berlin, Germany:Identity in a World of Values\nBohdan B. Khomtchouk, University of Miami Miller School of Medicine, Miami:How the strengths of Lisp-family languages facilitate building complex and flexible bioinformatics applications",
+      "Day": "2017-04-03",
+      "Items": [
         "els-2017-welcome-messages-and-announcements",
         "els-2017-identity-in-a-world-of-values"
       ],
@@ -5250,20 +5296,6 @@
       "Location": "D0.07",
       "Time": "09:00 - 10:30",
       "Title": "ELS 2017 - : Welcome and Keynotes I",
-      "Type": "Talks"
-    },
-    {
-      "Abstract": "External Website\nInformation about the 10th European Lisp Symposium, ELS 2017 can be found on:http://www.european-lisp-symposium.org/ \n\n10th European Lisp Symposium Invited talks:\nHans H&uuml;bner, LambdaWerk GmbH, Berlin, Germany:Identity in a World of Values\nBohdan B. Khomtchouk, University of Miami Miller School of Medicine, Miami:How the strengths of Lisp-family languages facilitate building complex and flexible bioinformatics applications",
-      "Day": "2017-04-04",
-      "Items": [
-        "els-2017-on-the-lambda-way-",
-        "els-2017-writing-a-portable-code-walker-in-common-lisp",
-        "els-2017-removing-redundant-tests-by-replicating-control-paths"
-      ],
-      "Key": "00548731-3f74-4c61-8a8a-b2bfc1b063c6",
-      "Location": "D0.07",
-      "Time": "15:30 - 17:00",
-      "Title": "ELS 2017 - : Session V: Going Beyond",
       "Type": "Talks"
     },
     {
@@ -5280,13 +5312,15 @@
       "Abstract": "External Website\nInformation about the 10th European Lisp Symposium, ELS 2017 can be found on:http://www.european-lisp-symposium.org/ \n\n10th European Lisp Symposium Invited talks:\nHans H&uuml;bner, LambdaWerk GmbH, Berlin, Germany:Identity in a World of Values\nBohdan B. Khomtchouk, University of Miami Miller School of Medicine, Miami:How the strengths of Lisp-family languages facilitate building complex and flexible bioinformatics applications",
       "Day": "2017-04-03",
       "Items": [
-        "els-2017-common-lisp-ultraspec-a-project-for-modern-common-lisp-documentation",
-        "els-2017-loading-multiple-versions-of-an-asdf-system-in-the-same-lisp-image"
+        "els-2017-delivering-common-lisp-applications-with-asdf-3-3",
+        "els-2017-radiance-a-web-application-environment",
+        "els-2017-teaching-students-of-engineering-some-insights-of-the-internet-of-things-using-racket-and-the-raspberrypi",
+        "els-2017-interactive-functional-medical-image-analysis"
       ],
-      "Key": "86bfd051-38f4-47d7-939a-af51cfe19972",
+      "Key": "d704434a-f090-477f-8b90-16190b588177",
       "Location": "D0.07",
-      "Time": "11:00 - 12:00",
-      "Title": "ELS 2017 - : Session I: Tools",
+      "Time": "15:30 - 17:00",
+      "Title": "ELS 2017 - : Demonstrations",
       "Type": "Talks"
     },
     {
