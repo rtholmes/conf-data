@@ -1,0 +1,598 @@
+{
+	"DataRevision": 30520171931,
+	"Preliminary": true,
+	"Event": "ICPC 2017",
+	"Name": "ICPC 2017",
+	"NameFull": "25th IEEE International Conference on Program Comprehension (ICPC)",
+	"Description": "",
+	"Date": "Mary 22-23, 2017",
+    "DateStart": "2017-05-22",
+    "DateEnd": "2017-05-23",
+	"Location": "Buenos Aires, Argentina",
+	"Sponsors": "University of Basilicata, Sigsoft, IEEE Computer Society, Tcse, Sadio",
+	"URL": "http://icpc2017.unibas.it/",
+	"MultiTrack": "true",
+    "UseMiniPage": "true",
+    "NewPagePerDay": "false",
+    "TableLayout": "false",
+    "NumOfParallelTracks": 2,
+    "HorizontalAlign": "false",	
+	"Organization": {
+		"General Chairs": ["Giuseppe Scanniello"],
+		"PC Chairs": ["David Lo", "Alexander Serebrenik"],
+		"Program Committee": [""],
+		"Organizing Committee": ["Sonia Haiduc", "Martin Pinzger", "Felienne Hermans",
+			"David Shepherd", "Latifa Guerrouj", "Simone Romano", "Carmine Gravino",
+			"Lucia Lucia", "Laura Moreno", "Diego Garbervetsky", "Michele Risi"
+		]
+	},
+	"SocialFeeds": [{
+		"Name": "Twitter",
+		"Keywords": ["icpc"],
+		"URL": "https://twitter.com/ICPCConf2017"
+	}, {
+		"Name": "Facebook",
+		"URL": "https://www.facebook.com/icpcconf2017"
+	}],	
+    "Sessions": [
+        {
+            "Id": "o1",
+            "Title": "Opening",
+            "ShortTitle": "Opening",
+            "Type": "ICPC",
+            "ShortType": "ICPC",
+            "Key": "2017-05-22 09:00 Opening",
+            "Day": "2017-05-22",
+            "Time": "09:00 - 10:30",
+            "Location": "Auditorio 1",
+            "LocationIndex": "1",
+            "ChairsString": "David Lo and Alexander Serebrenik",
+            "Chairs": [ "David Lo, Alexander Serebrenik"],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Abstract": ""
+        },
+        {
+            "Id": "k1",
+            "Title": "The ABCs of Software Engineering: Affect, Biometrics, and Cognition",
+            "ShortTitle": "Keynote",
+            "Type": "ICPC",
+            "ShortType": "ICPC",
+            "Key": "2017-05-22 09:30 Keynote",
+            "Day": "2017-05-22",
+            "Time": "09:30 - 10:30",
+            "Location": "Auditorio 1",
+            "LocationIndex": "1",
+            "ChairsString": "David Lo and Alexander Serebrenik",
+            "Chairs": [ "David Lo", "Alexander Serebrenik"],
+            "PersonsString": "Andrew Begel",
+            "AffiliationsString": "Microsoft Research, USA",
+            "Authors": [
+                "Andrew Begel @ Microsoft Research, USA"
+            ],
+            "Affiliations": [
+                "Microsoft Research, USA"
+            ],            
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Abstract": "Researchers have long investigated how people read, write, and speak about software on their computers to identify the skills, education, and practices needed need to acquire expertise and perform development duties effectively and efficiently. However, until now the methods used to study developer comprehension, expression, and communication have been limited and coarse-grained because there was no way to identify what a developer thought or felt unless it was expressed out loud. The world has changed. With the introduction of low-cost, widely available, high-fidelity biometric sensors, we can now more directly observe a software developer's cognitive and affective (emotional) processes. The ABCs of Software Engineering is a set of techniques that modernize classic approaches to program comprehension and human interaction by combining (A) principles governing the influence of human *affect* on behavior, (B) *biometric* sensors, and (C) models of *cognition* informed by advances in cognitive neuroscience. Technologies like electroencephalography (EEG), electro-dermal activity sensors (EDA), capacitive sensors, and eye trackers can reveal a software developer's internal emotional states, for example identifying when the developer is confused, frustrated, surprised, stressed, fatigued, or in a highly productive flow state. These affective states can be correlated with code quality, software complexity, development productivity, and effective communication --- the same software outcomes already correlated with developer activities in other research areas such as mining software repositories (MSR) and cooperative and human aspects of software engineering (CHASE). By developing a better understanding of what programmers think and feel when they create and maintain software, we can design tools and interventions to improve their productivity and reduce the impact of their errors."
+        },
+        {
+            "Id": "cb1",
+            "Title": "Coffee break",
+            "ShortTitle": "Coffee break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2017-05-22 10:00 Coffee break",
+            "Day": "2017-05-22",
+            "Time": "10:30 - 11:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "URL": "",
+            "Abstract": ""
+        },
+        {
+            "Id": "t1",
+            "Title": "Technical Research: Developer Observation",
+            "ShortTitle": "Developer Observation",
+            "Type": "ICPC",
+            "ShortType": "ICPC",
+            "Key": "2017-05-22 11:00 Technical Research: Developer Observation",
+            "Day": "2017-05-22",
+            "Time": "11:00 - 12:30",
+            "Location": "Auditorio 1",
+            "LocationIndex": "1",
+            "ChairsString": "David Shepherd",
+            "Chairs": [ 
+            	"David Shepherd"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "TR1",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "tr1-paper-1",
+                "tr1-paper-2",
+                "tr1-paper-3",
+                "tr1-paper-4"
+            ]
+        },
+        {
+            "Id": "lb1",
+            "Title": "Lunch break",
+            "ShortTitle": "Lunch break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2017-05-22 12:30 Lunch break",
+            "Day": "2017-05-22",
+            "Time": "12:30 - 14:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "URL": "",
+            "Abstract": ""
+        },        
+		{
+            "Id": "t2",
+            "Title": "Technical Research: Naming and Complexity",
+            "ShortTitle": "Naming and Complexity",
+            "Type": "ICPC",
+            "ShortType": "ICPC",
+            "Key": "2017-05-22 14:00 Technical Research: Naming and Complexity",
+            "Day": "2017-05-22",
+            "Time": "14:00 - 15:30",
+            "Location": "Auditorio 1",
+            "LocationIndex": "1",
+            "ChairsString": "Andrew Begel",
+            "Chairs": [ 
+            	"Andrew Begel"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "TR2",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "tr2-paper-1",
+                "tr2-paper-2",
+                "tr2-paper-3",
+                "tr2-paper-4"
+            ]
+        },
+        {
+            "Id": "cb2",
+            "Title": "Coffee break",
+            "ShortTitle": "Coffee break",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2017-05-22 15:30 Coffee break",
+            "Day": "2017-05-22",
+            "Time": "15:30 - 16:00",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "URL": "",
+            "Abstract": ""
+        },        
+		{
+            "Id": "t3",
+            "Title": "Technical Research: Smells and Clones",
+            "ShortTitle": "Smells and Clones",
+            "Type": "ICPC",
+            "ShortType": "ICPC",
+            "Key": "2017-05-22 16:00 Technical Research: Smells and Clones",
+            "Day": "2017-05-22",
+            "Time": "16:00 - 17:30",
+            "Location": "Auditorio 1",
+            "LocationIndex": "1",
+            "ChairsString": "Mike Godfrey",
+            "Chairs": [ 
+            	"Mike Godfrey"
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "Comment": "TR3",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "tr3-paper-1",
+                "tr3-paper-2",
+                "tr3-paper-3",
+                "tr3-paper-4"
+            ]
+        },
+        {
+            "Id": "wr1",
+            "Title": "Welcome Reception",
+            "ShortTitle": "Welcome Reception",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2017-05-22 17:30 Welcome Reception",
+            "Day": "2017-05-22",
+            "Time": "17:30 - 22:30",
+            "Location": "",
+            "LocationIndex": "2",
+            "ChairsString": "",
+            "Chairs": [
+            ],
+            "SponsoredBy": "",
+            "Workshop": false,
+            "URL": "",
+            "Abstract": ""
+        }                   
+       ],
+    "Items": [
+    	{
+            "Title": "Do Software Developers Understand Open Source Licenses?",
+            "Type": "Technical Research Paper",
+            "Track": "Developer Observation",
+            "Key": "tr1-paper-1",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Daniel Almeida, Gail Murphy, Greg Wilson and Mike Hoye",
+            "AffiliationsString": "Department of Computer Science UBC, Vancouver Canada; Department of Computer Science UBC, Vancouver Canada; Software Carpentry Foundation Toronto Canada; Mozilla Corporation Toronto Canada",
+            "Authors": [
+                "Daniel Almeida @ Department of Computer Science UBC, Vancouver Canada",
+                "Gail Murphy @ Department of Computer Science UBC, Vancouver Canada",
+                "Greg Wilson @ Software Carpentry Foundation Toronto Canada",
+                "Mike Hoye @ Mozilla Corporation Toronto Canada"
+            ],
+            "Affiliations": [
+                "Department of Computer Science UBC, Vancouver Canada",
+                "Department of Computer Science UBC, Vancouver Canada",
+                "Software Carpentry Foundation Toronto Canada",
+                "Mozilla Corporation Toronto Canada"
+            ],
+            "Abstract": "Software provided under open source licenses is widely used, from forming high-profile stand-alone applications (e.g., Mozilla Firefox) to being embedded in commercial offerings (e.g., network routers). Despite the high frequency of use of open source licenses, there has been little work about whether software developers understand the open source licenses they use. To our knowledge, only one survey has been conducted, which focused on which licenses developers choose and when they encounter problems with licensing open source software. To help fill the gap of whether or not developers understand the open source licenses they use, we conducted a survey that posed development scenarios involving three popular open source licenses (GNU GPL 3.0, GNU LGPL 3.0 and MPL 2.0) both alone and in combination. The 375 respondents to the survey, who were largely developers, gave answers consistent with those of a legal expert’s opinion in 62% of 42 cases. Although developers clearly understood cases involving one license, they struggled when multiple licenses were involved. An analysis of the quantitative and qualitative results of the study indicate a need for tool support to help guide developers in understanding this critical information attached to software components.",
+            "Award": "",
+            "Keywords": "open source; software licenses; survey"
+        },
+    	{
+            "Title": "Software Engineers' Information Seeking Behavior in Change Impact Analysis – An Interview Study",
+            "Type": "Technical Research Paper",
+            "Track": "Developer Observation",
+            "Key": "tr1-paper-2",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Markus Borg, Emil Alégroth and Per Runeson",
+            "AffiliationsString": "---; ---; ---",
+            "Authors": [
+                "Markus Borg @ ---",
+                "Emil Alégroth @ ---",
+                "Per Runeson @ ---"
+            ],
+            "Affiliations": [
+                "---",
+                "---",
+                "---"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+    	{
+            "Title": "How Developers Document Pull Requests with External References",
+            "Type": "Technical Research Paper",
+            "Track": "Developer Observation",
+            "Key": "tr1-paper-3",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Fiorella Zampetti, Luca Ponzanelli, Andrea Mocci, Gabriele Bavota, Massimiliano Di Penta and Michele Lanza",
+            "AffiliationsString": "---; ---; ---; ---; ---; ---",
+            "Authors": [
+                "Fiorella Zampetti @ ---",
+                "Luca Ponzanelli @ ---",
+                "Andrea Mocci @ ---",
+                "Gabriele Bavota @ ---",
+                "Massimiliano Di Penta @ ---",
+                "Michele Lanza @ ---"                
+            ],
+            "Affiliations": [
+                "---",
+                "---",
+                "---",
+                "---",
+                "---",
+                "---"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+		{
+            "Title": "Variability through the Eyes of the Programmer",
+            "Type": "Technical Research Paper",
+            "Track": "Developer Observation",
+            "Key": "tr1-paper-4",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Jean Melo, Fabricio Batista Narcizo, Dan Witzner Hansen, Claus Brabrand and Andrzej Wasowski",
+            "AffiliationsString": "---; ---; ---; ---; ---",
+            "Authors": [
+                "Jean Melo @ ---",
+                "Fabricio Batista Narcizo @ ---",
+                "Dan Witzner Hansen @ ---",
+                "Claus Brabrand @ ---",
+                "Andrzej Wasowski @ ---"                
+            ],
+            "Affiliations": [
+                "---",
+                "---",
+                "---",
+                "---",
+                "---"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+    	{
+            "Title": "Meaningful Identifier Names: The Case of Single-Letter Variables",
+            "Type": "Technical Research Paper",
+            "Track": "Naming and Complexity",
+            "Key": "tr2-paper-1",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Gal Beniamini, Sarah Gingichashvili, Alon Klein Orbach and Dror Feitelson",
+            "AffiliationsString": "---; ---; ---; ---",
+            "Authors": [
+                "Gal Beniamini @ ---",
+                "Sarah Gingichashvili @ ---",
+                "Alon Klein Orbach @ ---",
+                "Dror Feitelson @ ---"
+            ],
+            "Affiliations": [
+                "---",
+                "---",
+                "---",
+                "---"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        }, 
+		{
+            "Title": "Effects of Variable Names on Comprehension: An Empirical Study",
+            "Type": "Technical Research Paper",
+            "Track": "Naming and Complexity",
+            "Key": "tr2-paper-2",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Eran Avidan and Dror Feitelson",
+            "AffiliationsString": "---; ---",
+            "Authors": [
+                "Eran Avidan @ ---",
+                "Dror Feitelson @ ---"
+            ],
+            "Affiliations": [
+                "---",
+                "---"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+		{
+            "Title": "Syntax, Predicates, Idioms -- What Really Affects Code Complexity?",
+            "Type": "Technical Research Paper",
+            "Track": "Naming and Complexity",
+            "Key": "tr2-paper-3",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Shulamyt Ajami, Yonatan Woodbridge and Dror Feitelson",
+            "AffiliationsString": "---; ---; ---",
+            "Authors": [
+                "Shulamyt Ajami @ ---",
+                "Yonatan Woodbridge @ ---",
+                "Dror Feitelson @ ---"
+            ],
+            "Affiliations": [
+                "---",
+                "---"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+		{
+            "Title": "Exploiting Type Hints in Method Argument Names to Improve Lightweight Type Inference",
+            "Type": "Technical Research Paper",
+            "Track": "Naming and Complexity",
+            "Key": "tr2-paper-4",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Nevena Milojković, Mohammad Ghafari and Oscar Nierstrasz",
+            "AffiliationsString": "---; ---; ---",
+            "Authors": [
+                "Nevena Milojković @ ---",
+                "Mohammad Ghafari @ ---",
+                "Oscar Nierstrasz @ ---"
+            ],
+            "Affiliations": [
+                "---",
+                "---"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Binary Code Clone Detection across Architectures and Compiling Configurations",
+            "Type": "Technical Research Paper",
+            "Track": "Smells and Clones",
+            "Key": "tr3-paper-1",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Yikun Hu, Yuanyuan Zhang, Juanru Li and Dawu Gu",
+            "AffiliationsString": "---; ---; ---; ---",
+            "Authors": [
+                "Yikun Hu @ ---",
+                "Yuanyuan Zhang @ ---",
+                "Juanru Li @ ---",
+                "Dawu Gu @ ---"
+            ],
+            "Affiliations": [
+                "---",
+                "---",
+                "---",
+                "---"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+		{
+            "Title": "Identifying Code Clones having High Possibilities of Containing Bugs",
+            "Type": "Technical Research Paper",
+            "Track": "Smells and Clones",
+            "Key": "tr3-paper-2",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Manishankar Mondal, Chanchal K. Roy and Kevin Schneider",
+            "AffiliationsString": "---; ---; ---",
+            "Authors": [
+                "Manishankar Mondal @ ---",
+                "Chanchal K. Roy @ ---",
+                "Kevin Schneider @ ---"
+            ],
+            "Affiliations": [
+                "---",
+                "---",
+                "---"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        }, 
+		{
+            "Title": "Smells are sensitive to developers! On the efficiency of (un)guided customized detection",
+            "Type": "Technical Research Paper",
+            "Track": "Smells and Clones",
+            "Key": "tr3-paper-3",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Mario Hozano, Alessandro Garcia, Nuno Antunes, Baldoino Fonseca and Evandro Costa",
+            "AffiliationsString": "---; ---; ---; ---; ---",
+            "Authors": [
+                "Mario Hozano @ ---",
+                "Alessandro Garcia @ ---",
+                "Nuno Antunes @ ---",
+                "Baldoino Fonseca @ ---",                
+                "Evandro Costa @ ---"
+            ],
+            "Affiliations": [
+                "---",
+                "---",
+                "---",
+                "---",                
+                "---"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+		{
+            "Title": "On the Uniqueness of Code Redundancies",
+            "Type": "Technical Research Paper",
+            "Track": "Smells and Clones",
+            "Key": "tr3-paper-4",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Bin Lin, Luca Ponzanelli, Andrea Mocci, Gabriele Bavota and Michele Lanza",
+            "AffiliationsString": "---; ---; ---; ---; ---",
+            "Authors": [
+                "Bin Lin @ ---",
+                "Luca Ponzanelli @ ---",
+                "Andrea Mocci @ ---",
+                "Gabriele Bavota @ ---",                
+                "Michele Lanza @ ---"
+            ],
+            "Affiliations": [
+                "---",
+                "---",
+                "---",
+                "---",                
+                "---"
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        }                                                                                  
+    ],       	
+	"People": [  
+	]
+}
