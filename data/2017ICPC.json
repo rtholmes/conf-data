@@ -64,19 +64,16 @@
             "Location": "Auditorio 1",
             "LocationIndex": "2",
             "ChairsString": "David Lo and Alexander Serebrenik",
-            "Chairs": [ "David Lo", "Alexander Serebrenik"],
-            "PersonsString": "Andrew Begel",
-            "AffiliationsString": "Microsoft Research, USA",
-            "Authors": [
-                "Andrew Begel @ Microsoft Research, USA"
-            ],
-            "Affiliations": [
-                "Microsoft Research, USA"
-            ],            
+            "Chairs": [ "David Lo", "Alexander Serebrenik"],        
             "SponsoredBy": "",
             "Workshop": false,
-            "Abstract": "Researchers have long investigated how people read, write, and speak about software on their computers to identify the skills, education, and practices needed need to acquire expertise and perform development duties effectively and efficiently. However, until now the methods used to study developer comprehension, expression, and communication have been limited and coarse-grained because there was no way to identify what a developer thought or felt unless it was expressed out loud. The world has changed. With the introduction of low-cost, widely available, high-fidelity biometric sensors, we can now more directly observe a software developer's cognitive and affective (emotional) processes. The ABCs of Software Engineering is a set of techniques that modernize classic approaches to program comprehension and human interaction by combining (A) principles governing the influence of human *affect* on behavior, (B) *biometric* sensors, and (C) models of *cognition* informed by advances in cognitive neuroscience. Technologies like electroencephalography (EEG), electro-dermal activity sensors (EDA), capacitive sensors, and eye trackers can reveal a software developer's internal emotional states, for example identifying when the developer is confused, frustrated, surprised, stressed, fatigued, or in a highly productive flow state. These affective states can be correlated with code quality, software complexity, development productivity, and effective communication - the same software outcomes already correlated with developer activities in other research areas such as mining software repositories (MSR) and cooperative and human aspects of software engineering (CHASE). By developing a better understanding of what programmers think and feel when they create and maintain software, we can design tools and interventions to improve their productivity and reduce the impact of their errors."
-        },
+            "Comment": "TR1",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "k1-keynote-1"
+            ]        
+            },
         {
             "Id": "cb1",
             "Title": "Coffee break",
@@ -98,10 +95,10 @@
         },
         {
             "Id": "t1",
-            "Title": "Technical Research: Developer Observation",
+            "Title": "Developer Observation",
             "ShortTitle": "Developer Observation",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
             "Key": "2017-05-22 11:00 Technical Research: Developer Observation",
             "Day": "2017-05-22",
             "Time": "11:00 - 12:30",
@@ -144,10 +141,10 @@
         },        
 		{
             "Id": "t2",
-            "Title": "Technical Research: Naming and Complexity",
+            "Title": "Naming and Complexity",
             "ShortTitle": "Naming and Complexity",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
             "Key": "2017-05-22 14:00 Technical Research: Naming and Complexity",
             "Day": "2017-05-22",
             "Time": "14:00 - 15:30",
@@ -190,10 +187,10 @@
         },        
 		{
             "Id": "t3",
-            "Title": "Technical Research: Smells and Clones",
+            "Title": "Smells and Clones",
             "ShortTitle": "Smells and Clones",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
             "Key": "2017-05-22 16:00 Technical Research: Smells and Clones",
             "Day": "2017-05-22",
             "Time": "16:00 - 17:30",
@@ -272,10 +269,10 @@
         },
         {
             "Id": "t4",
-            "Title": "Technical Research: Android and Security",
+            "Title": "Android and Security",
             "ShortTitle": "Android and Security",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
             "Key": "2017-05-23 11:00 Technical Research: Android and Security",
             "Day": "2017-05-23",
             "Time": "11:00 - 12:30",
@@ -301,8 +298,8 @@
             "Id": "i1",
             "Title": "Industry and Tool Demo",
             "ShortTitle": "Industry and Tool Demo",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
+            "Type": "",
+            "ShortType": "",
             "Key": "2017-05-23 11:00 Industry and Tool Demo",
             "Day": "2017-05-23",
             "Time": "11:00 - 12:30",
@@ -349,8 +346,8 @@
             "Id": "is1",
             "Title": "Informal Session for tool demos",
             "ShortTitle": "Informal Session",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
+            "Type": "",
+            "ShortType": "",
             "Key": "2017-05-23 12:30 Informal Session for tool demos",
             "Day": "2017-05-23",
             "Time": "12:30 - 13:30",
@@ -368,10 +365,10 @@
         }, 
         {
             "Id": "t5",
-            "Title": "Technical Research: Communities and Changes",
+            "Title": "Communities and Changes",
             "ShortTitle": "Communities and Changes",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
             "Key": "2017-05-23 14:00 Technical Research: Communities and Changes",
             "Day": "2017-05-23",
             "Time": "14:00 - 15:30",
@@ -397,8 +394,8 @@
             "Id": "era1",
             "Title": "Early Research Achievement",
             "ShortTitle": "Early Research Achievement",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
+            "Type": "ERA",
+            "ShortType": "ERA",
             "Key": "2017-05-23 14:00 Early Research Achievement",
             "Day": "2017-05-23",
             "Time": "14:00 - 15:30",
@@ -444,10 +441,10 @@
         },
 		{
             "Id": "t6",
-            "Title": "Technical Research: Bugs",
+            "Title": "Bugs",
             "ShortTitle": "Bugs",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
             "Key": "2017-05-23 16:00 Technical Research: Bugs",
             "Day": "2017-05-23",
             "Time": "16:00 - 17:30",
@@ -471,10 +468,10 @@
         },
 		{
             "Id": "t7",
-            "Title": "Technical Research: Variability and Comprehensibility",
+            "Title": "Variability and Comprehensibility",
             "ShortTitle": "Variability and Comprehensibility",
-            "Type": "ICPC",
-            "ShortType": "ICPC",
+            "Type": "Technical Research",
+            "ShortType": "Technical Research",
             "Key": "2017-05-23 16:00 Technical Research: Variability and Comprehensibility",
             "Day": "2017-05-23",
             "Time": "16:00 - 17:30",
@@ -535,6 +532,30 @@
         }                                        
        ],
     "Items": [
+    	{
+            "Title": "The ABCs of Software Engineering: Affect, Biometrics, and Cognition",
+            "Type": "ICPC",
+            "Track": "Keynote",
+            "Key": "k1-keynote-1",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "URLmaterial": "",
+            "DOI": "",
+            "AuthorizerURL": "",
+            "AuthorizerRef": "",
+            "PersonsString": "Andrew Begel",
+            "AffiliationsString": "Microsoft Research, USA",
+            "Authors": [
+                "Andrew Begel @ Microsoft Research, USA"
+            ],
+            "Affiliations": [
+                "Microsoft Research, USA"
+            ],
+            "Abstract": "Researchers have long investigated how people read, write, and speak about software on their computers to identify the skills, education, and practices needed need to acquire expertise and perform development duties effectively and efficiently. However, until now the methods used to study developer comprehension, expression, and communication have been limited and coarse-grained because there was no way to identify what a developer thought or felt unless it was expressed out loud. The world has changed. With the introduction of low-cost, widely available, high-fidelity biometric sensors, we can now more directly observe a software developer's cognitive and affective (emotional) processes. The ABCs of Software Engineering is a set of techniques that modernize classic approaches to program comprehension and human interaction by combining (A) principles governing the influence of human *affect* on behavior, (B) *biometric* sensors, and (C) models of *cognition* informed by advances in cognitive neuroscience. Technologies like electroencephalography (EEG), electro-dermal activity sensors (EDA), capacitive sensors, and eye trackers can reveal a software developer's internal emotional states, for example identifying when the developer is confused, frustrated, surprised, stressed, fatigued, or in a highly productive flow state. These affective states can be correlated with code quality, software complexity, development productivity, and effective communication - the same software outcomes already correlated with developer activities in other research areas such as mining software repositories (MSR) and cooperative and human aspects of software engineering (CHASE). By developing a better understanding of what programmers think and feel when they create and maintain software, we can design tools and interventions to improve their productivity and reduce the impact of their errors.",
+            "Award": "",
+            "Keywords": ""
+        },    
     	{
             "Title": "Do Software Developers Understand Open Source Licenses?",
             "Type": "Technical Research Paper",
@@ -1824,8 +1845,14 @@
 "Affiliation": "Universidad de Buenos Aires, Argentina",
 "Key": "Diego Garbervetsky @ Universidad de Buenos Aires, Argentina",
 "If": "cca201711"
-}, 
- 
+},
+{
+"Name": "Andrew Begel",
+"Affiliation": "Microsoft Research, USA",
+"Key": "Andrew Begel @ Microsoft Research, USA",
+"If": "cca201712"
+},
+
 {
 "Name": "Akihiko Matsuo",
 "Affiliation": "Information Systems Technologies Laboratory Fujitsu Laboratories Ltd. Kawasaki, Japan",
