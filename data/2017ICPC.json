@@ -1,6 +1,6 @@
 {
 	"DataRevision": 30520171931,
-	"Preliminary": true,
+	"Preliminary": "false",
 	"Event": "ICPC 2017",
 	"Name": "ICPC 2017",
 	"NameFull": "25th IEEE International Conference on Program Comprehension (ICPC)",
@@ -756,16 +756,16 @@
             "AuthorizerURL": "",
             "AuthorizerRef": "",
             "PersonsString": "Nevena Milojković, Mohammad Ghafari and Oscar Nierstrasz",
-            "AffiliationsString": "Software Composition Group, University of Bern Bern, Switzerland; Software Composition Group, University of Bern Bern, Switzerland; Software Composition Group, University of Bern Bern, Switzerland",
+            "AffiliationsString": "Software Composition Group, University of Bern, Bern, Switzerland; Software Composition Group, University of Bern, Bern, Switzerland; Software Composition Group, University of Bern, Bern, Switzerland",
             "Authors": [
-                "Nevena Milojković @ Software Composition Group, University of Bern Bern, Switzerland",
-                "Mohammad Ghafari @ Software Composition Group, University of Bern Bern, Switzerland",
-                "Oscar Nierstrasz @ Software Composition Group, University of Bern Bern, Switzerland"
+                "Nevena Milojković @ Software Composition Group, University of Bern, Bern, Switzerland",
+                "Mohammad Ghafari @ Software Composition Group, University of Bern, Bern, Switzerland",
+                "Oscar Nierstrasz @ Software Composition Group, University of Bern, Bern, Switzerland"
             ],
             "Affiliations": [
-                "Software Composition Group, University of Bern Bern, Switzerland",
-                "Software Composition Group, University of Bern Bern, Switzerland",
-                "Software Composition Group, University of Bern Bern, Switzerland"
+                "Software Composition Group, University of Bern, Bern, Switzerland",
+                "Software Composition Group, University of Bern, Bern, Switzerland",
+                "Software Composition Group, University of Bern, Bern, Switzerland"
             ],
             "Abstract": "The lack of static type information is one of the main obstacles to program comprehension in dynamically-typed languages. While static type inference algorithms try to remedy this problem, they usually suffer from the problem of false positives or false negatives. In order to partially compensate for the lack of static type information, a common practice in dynamically-typed languages is to name or annotate method arguments in such a way that they reveal their expected type, e.g., aString, anInt, or string: String. Recent studies confirmed that these type annotations are indeed frequently used by developers in dynamically-typed languages. We propose a lightweight heuristic that uses these hints from method argument names to augment the performance of a static type inference algorithm. The evaluation through a proof-of-concept prototype implemented in Pharo Smalltalk shows that the augmented algorithm outperforms the basic algorithm, and correctly infers types for 81% more method arguments.",
             "Award": "",
@@ -1365,10 +1365,10 @@
             "DOI": "",
             "AuthorizerURL": "",
             "AuthorizerRef": "",
-            "PersonsString": "Nevena Milojkovic, Mohammad Ghafari and Oscar Nierstrasz",
+            "PersonsString": "Nevena Milojković, Mohammad Ghafari and Oscar Nierstrasz",
             "AffiliationsString": "Software Composition Group, University of Bern, Bern, Switzerland; Software Composition Group, University of Bern, Bern, Switzerland; Software Composition Group, University of Bern, Bern, Switzerland",
             "Authors": [
-                "Nevena Milojkovic @ Software Composition Group, University of Bern, Bern, Switzerland",                            
+                "Nevena Milojković @ Software Composition Group, University of Bern, Bern, Switzerland",                            
                 "Mohammad Ghafari @ Software Composition Group, University of Bern, Bern, Switzerland",
                 "Oscar Nierstrasz @ Software Composition Group, University of Bern, Bern, Switzerland"
             ],
@@ -1752,12 +1752,907 @@
             "Keywords": ""
         }                                                                                                                                                                                                                        
     ],       	
-	"People": [  
-		{
-            "Name": "Daniel Almeida",
-            "Affiliation": "Department of Computer Science UBC, Vancouver Canada",
-            "Key": "Daniel Almeida @ Department of Computer Science UBC, Vancouver Canada",
-            "Id": "cc2017001"
-        }
+	"People": [ 
+{
+"Name": "Giuseppe Scanniello",
+"Affiliation": "University of Basilicata, Italy",
+"Key": "Giuseppe Scanniello @ University of Basilicata, Italy",
+"If": "cca20170"
+},	
+{
+"Name": "David Lo",
+"Affiliation": "Singapore Management University, Singapore",
+"Key": "David Lo @ Singapore Management University, Singapore",
+"If": "cca20171"
+},	
+{
+"Name": "Alexander Serebrenik",
+"Affiliation": "Eindhoven University of Technology, The Netherlands",
+"Key": "Alexander Serebrenik @ Eindhoven University of Technology, The Netherlands",
+"If": "cca20172"
+},	
+{
+"Name": "Sonia Haiduc",
+"Affiliation": "Florida State University, USA",
+"Key": "Sonia Haiduc @ Florida State University, USA",
+"If": "cca20173"
+},
+{
+"Name": "Martin Pinzger",
+"Affiliation": "University of Klagenfurt, Austria",
+"Key": "Martin Pinzger @ University of Klagenfurt, Austria",
+"If": "cca20174"
+},
+{
+"Name": "David Shepherd",
+"Affiliation": "ABB, USA",
+"Key": "David Shepherd @ ABB, USA",
+"If": "cca20175"
+},
+{
+"Name": "Latifa Guerrouj",
+"Affiliation": "École de Technologie Supérieure, Montreal, Canada",
+"Key": "Latifa Guerrouj @ École de Technologie Supérieure, Montreal, Canada",
+"If": "cca20176"
+}, 
+{
+"Name": "Simone Romano",
+"Affiliation": "University of Basilicata, Italy",
+"Key": "Simone Romano @ University of Basilicata, Italy",
+"If": "cca20177"
+}, 
+{
+"Name": "Carmine Gravino",
+"Affiliation": "University of Salerno, Italy",
+"Key": "Carmine Gravino @ University of Salerno, Italy",
+"If": "cca20178"
+}, 
+{
+"Name": "Lucia Lucia",
+"Affiliation": "University of Luxembourg, Luxembourg",
+"Key": "Lucia Lucia @ University of Luxembourg, Luxembourg",
+"If": "cca20179"
+}, 
+{
+"Name": "Laura Moreno",
+"Affiliation": "Colorado State University, USA",
+"Key": "Laura Moreno @ Colorado State University, USA",
+"If": "cca201710"
+},  			
+{
+"Name": "Diego Garbervetsky",
+"Affiliation": "Universidad de Buenos Aires, Argentina",
+"Key": "Diego Garbervetsky @ Universidad de Buenos Aires, Argentina",
+"If": "cca201711"
+}, 
+ 
+{
+"Name": "Akihiko Matsuo",
+"Affiliation": "Information Systems Technologies Laboratory Fujitsu Laboratories Ltd. Kawasaki, Japan",
+"Key": "Akihiko Matsuo @ Information Systems Technologies Laboratory Fujitsu Laboratories Ltd. Kawasaki, Japan",
+"If": "cc20170"
+},
+{
+"Name": "Aldo Basile",
+"Affiliation": "Politecnico di Torino, Italy",
+"Key": "Aldo Basile @ Politecnico di Torino, Italy",
+"If": "cc20171"
+},
+{
+"Name": "Alessandro Garcia",
+"Affiliation": "Informatics Department, PUC-Rio, Rio de Janeiro, RJ, Brazil",
+"Key": "Alessandro Garcia @ Informatics Department, PUC-Rio, Rio de Janeiro, RJ, Brazil",
+"If": "cc20172"
+},
+{
+"Name": "Alon Klein Orbach",
+"Affiliation": "School of Computer Science and Engineering, The Hebrew University of Jerusalem, Jerusalem, Israel",
+"Key": "Alon Klein Orbach @ School of Computer Science and Engineering, The Hebrew University of Jerusalem, Jerusalem, Israel",
+"If": "cc20173"
+},
+{
+"Name": "Ameer Armaly",
+"Affiliation": "Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, IN, USA",
+"Key": "Ameer Armaly @ Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, IN, USA",
+"If": "cc20174"
+},
+{
+"Name": "An Lam",
+"Affiliation": "Iowa State University, USA",
+"Key": "An Lam @ Iowa State University, USA",
+"If": "cc20175"
+},
+{
+"Name": "Anas Mahmoud",
+"Affiliation": "Division of Computer Science and Engineering, Louisiana State University Baton Rouge, LA",
+"Key": "Anas Mahmoud @ Division of Computer Science and Engineering, Louisiana State University Baton Rouge, LA",
+"If": "cc20176"
+},
+{
+"Name": "Andrea De Lucia",
+"Affiliation": "University of Salerno, Italy",
+"Key": "Andrea De Lucia @ University of Salerno, Italy",
+"If": "cc20177"
+},
+{
+"Name": "Andrea Mocci",
+"Affiliation": "REVEAL, Faculty of Informatics — Università della Svizzera Italiana (USI), Switzerland",
+"Key": "Andrea Mocci @ REVEAL, Faculty of Informatics — Università della Svizzera Italiana (USI), Switzerland",
+"If": "cc20178"
+},
+{
+"Name": "Andrzej Wasowski",
+"Affiliation": "IT University of Copenhagen, Denmark",
+"Key": "Andrzej Wasowski @ IT University of Copenhagen, Denmark",
+"If": "cc20179"
+},
+{
+"Name": "Andy Zaidman",
+"Affiliation": "Delft University of Technology, The Netherlands",
+"Key": "Andy Zaidman @ Delft University of Technology, The Netherlands",
+"If": "cc201710"
+},
+{
+"Name": "Anh Nguyen",
+"Affiliation": "Iowa State University, USA",
+"Key": "Anh Nguyen @ Iowa State University, USA",
+"If": "cc201711"
+},
+{
+"Name": "Baldoino Fonseca",
+"Affiliation": "Computing Institute, UFAL, Brazil",
+"Key": "Baldoino Fonseca @ Computing Institute, UFAL, Brazil",
+"If": "cc201712"
+},
+{
+"Name": "Bart Coppens",
+"Affiliation": "Universiteit Gent, Belgium",
+"Key": "Bart Coppens @ Universiteit Gent, Belgium",
+"If": "cc201713"
+},
+{
+"Name": "Bas Jansen",
+"Affiliation": "Delft University of Technology",
+"Key": "Bas Jansen @ Delft University of Technology",
+"If": "cc201714"
+},
+{
+"Name": "Bin Lin",
+"Affiliation": "REVEAL, Faculty of Informatics — Università della Svizzera Italiana (USI), Switzerland",
+"Key": "Bin Lin @ REVEAL, Faculty of Informatics — Università della Svizzera Italiana (USI), Switzerland",
+"If": "cc201715"
+},
+{
+"Name": "Bjorn De Sutter",
+"Affiliation": "Universiteit Gent, Belgium",
+"Key": "Bjorn De Sutter @ Universiteit Gent, Belgium",
+"If": "cc201716"
+},
+{
+"Name": "Boyang Li",
+"Affiliation": "College of William and Mary, Williamsburg, VA",
+"Key": "Boyang Li @ College of William and Mary, Williamsburg, VA",
+"If": "cc201717"
+},
+{
+"Name": "Bruno Sousa",
+"Affiliation": "Computer Science Department, UFMG, Belo Horizonte, Brazil",
+"Key": "Bruno Sousa @ Computer Science Department, UFMG, Belo Horizonte, Brazil",
+"If": "cc201718"
+},
+{
+"Name": "Carol V. Alexandru",
+"Affiliation": "Software Evolution and Architecture Lab, University of Zurich, Switzerland",
+"Key": "Carol V. Alexandru @ Software Evolution and Architecture Lab, University of Zurich, Switzerland",
+"If": "cc201719"
+},
+{
+"Name": "Chanchal K. Roy",
+"Affiliation": "Department of Computer Science and Engineering, University of Saskatchewan, Canada",
+"Key": "Chanchal K. Roy @ Department of Computer Science and Engineering, University of Saskatchewan, Canada",
+"If": "cc201720"
+},
+{
+"Name": "Chang Xu",
+"Affiliation": "Department of Computer Science and Technology, Nanjing University",
+"Key": "Chang Xu @ Department of Computer Science and Technology, Nanjing University",
+"If": "cc201721"
+},
+{
+"Name": "Claus Brabrand",
+"Affiliation": "IT University of Copenhagen, Denmark",
+"Key": "Claus Brabrand @ IT University of Copenhagen, Denmark",
+"If": "cc201722"
+},
+{
+"Name": "Collin McMillan",
+"Affiliation": "Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, IN, USA",
+"Key": "Collin McMillan @ Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, IN, USA",
+"If": "cc201723"
+},
+{
+"Name": "Dan Witzner Hansen",
+"Affiliation": "IT University of Copenhagen, Denmark",
+"Key": "Dan Witzner Hansen @ IT University of Copenhagen, Denmark",
+"If": "cc201724"
+},
+{
+"Name": "Daniel Almeida",
+"Affiliation": "Department of Computer Science UBC, Vancouver Canada",
+"Key": "Daniel Almeida @ Department of Computer Science UBC, Vancouver Canada",
+"If": "cc201725"
+},
+{
+"Name": "Dawu Gu",
+"Affiliation": "Shanghai Jiao Tong University, Shanghai, China",
+"Key": "Dawu Gu @ Shanghai Jiao Tong University, Shanghai, China",
+"If": "cc201726"
+},
+{
+"Name": "Denys Poshyvanyk",
+"Affiliation": "College of William and Mary, Williamsburg, VA",
+"Key": "Denys Poshyvanyk @ College of William and Mary, Williamsburg, VA",
+"If": "cc201727"
+},
+{
+"Name": "Dror Feitelson",
+"Affiliation": "Department of Computer Science, The Hebrew University, Jerusalem, Israel",
+"Key": "Dror Feitelson @ Department of Computer Science, The Hebrew University, Jerusalem, Israel",
+"If": "cc201728"
+},
+{
+"Name": "Eduardo Fernandes",
+"Affiliation": "Computer Science Department, UFMG, Belo Horizonte, Brazil",
+"Key": "Eduardo Fernandes @ Computer Science Department, UFMG, Belo Horizonte, Brazil",
+"If": "cc201729"
+},
+{
+"Name": "Eduardo Monteiro",
+"Affiliation": "Department of Statistics, University of Brasilia, Brasilia, DF, Brazil",
+"Key": "Eduardo Monteiro @ Department of Statistics, University of Brasilia, Brasilia, DF, Brazil",
+"If": "cc201730"
+},
+{
+"Name": "Elizabeth Poché",
+"Affiliation": "Division of Computer Science and Engineering, Louisiana State University Baton Rouge, LA",
+"Key": "Elizabeth Poché @ Division of Computer Science and Engineering, Louisiana State University Baton Rouge, LA",
+"If": "cc201731"
+},
+{
+"Name": "Emad Aghajani",
+"Affiliation": "REVEAL, Faculty of Informatics - Università della Svizzera italiana (USI), Switzerland",
+"Key": "Emad Aghajani @ REVEAL, Faculty of Informatics - Università della Svizzera italiana (USI), Switzerland",
+"If": "cc201732"
+},
+{
+"Name": "Emil Alégroth",
+"Affiliation": "Blekinge Institute of Technology, Karlskrona, Sweden",
+"Key": "Emil Alégroth @ Blekinge Institute of Technology, Karlskrona, Sweden",
+"If": "cc201733"
+},
+{
+"Name": "Eran Avidan",
+"Affiliation": "School of Computer Science and Engineering, The Hebrew University of Jerusalem, Jerusalem, Israel",
+"Key": "Eran Avidan @ School of Computer Science and Engineering, The Hebrew University of Jerusalem, Jerusalem, Israel",
+"If": "cc201734"
+},
+{
+"Name": "Evandro Costa",
+"Affiliation": "Computing Institute, UFAL, Brazil",
+"Key": "Evandro Costa @ Computing Institute, UFAL, Brazil",
+"If": "cc201735"
+},
+{
+"Name": "Fabio Palomba",
+"Affiliation": "Delft University of Technology, The Netherlands",
+"Key": "Fabio Palomba @ Delft University of Technology, The Netherlands",
+"If": "cc201736"
+},
+{
+"Name": "Fabricio Batista Narcizo",
+"Affiliation": "IT University of Copenhagen, Denmark",
+"Key": "Fabricio Batista Narcizo @ IT University of Copenhagen, Denmark",
+"If": "cc201737"
+},
+{
+"Name": "Felienne Hermans",
+"Affiliation": "Delft University of Technology",
+"Key": "Felienne Hermans @ Delft University of Technology",
+"If": "cc201738"
+},
+{
+"Name": "Filomena Ferrucci",
+"Affiliation": "University of Salerno, Italy",
+"Key": "Filomena Ferrucci @ University of Salerno, Italy",
+"If": "cc201739"
+},
+{
+"Name": "Fiorella Zampetti",
+"Affiliation": "University of Sannio, Italy",
+"Key": "Fiorella Zampetti @ University of Sannio, Italy",
+"If": "cc201740"
+},
+{
+"Name": "Flávio Medeiros",
+"Affiliation": "Rio Largo Campus, Federal Institute of Alagoas, Rio Largo, AL, Brazil",
+"Key": "Flávio Medeiros @ Rio Largo Campus, Federal Institute of Alagoas, Rio Largo, AL, Brazil",
+"If": "cc201741"
+},
+{
+"Name": "Foutse Khomh",
+"Affiliation": "DGIGL, Polytechnique Montréal, Canada",
+"Key": "Foutse Khomh @ DGIGL, Polytechnique Montréal, Canada",
+"If": "cc201742"
+},
+{
+"Name": "Gabriele Bavota",
+"Affiliation": "REVEAL, Faculty of Informatics - Università della Svizzera italiana (USI), Switzerland",
+"Key": "Gabriele Bavota @ REVEAL, Faculty of Informatics - Università della Svizzera italiana (USI), Switzerland",
+"If": "cc201743"
+},
+{
+"Name": "Gail Murphy",
+"Affiliation": "Department of Computer Science UBC, Vancouver Canada",
+"Key": "Gail Murphy @ Department of Computer Science UBC, Vancouver Canada",
+"If": "cc201744"
+},
+{
+"Name": "Gal Beniamini",
+"Affiliation": "School of Computer Science and Engineering, The Hebrew University of Jerusalem, Jerusalem, Israel",
+"Key": "Gal Beniamini @ School of Computer Science and Engineering, The Hebrew University of Jerusalem, Jerusalem, Israel",
+"If": "cc201745"
+},
+{
+"Name": "Gemma Catolino",
+"Affiliation": "University of Salerno, Italy",
+"Key": "Gemma Catolino @ University of Salerno, Italy",
+"If": "cc201746"
+},
+{
+"Name": "Genoveffa Tortora",
+"Affiliation": "Department of Computer Science, University of Salerno, Italy",
+"Key": "Genoveffa Tortora @ Department of Computer Science, University of Salerno, Italy",
+"If": "cc201747"
+},
+{
+"Name": "Giuliano Antoniol",
+"Affiliation": "DGIGL, Polytechnique Montréal, Canada",
+"Key": "Giuliano Antoniol @ DGIGL, Polytechnique Montréal, Canada",
+"If": "cc201748"
+},
+{
+"Name": "Grant Williams",
+"Affiliation": "Division of Computer Science and Engineering, Louisiana State University Baton Rouge, LA",
+"Key": "Grant Williams @ Division of Computer Science and Engineering, Louisiana State University Baton Rouge, LA",
+"If": "cc201749"
+},
+{
+"Name": "Greg Wilson",
+"Affiliation": "Software Carpentry Foundation Toronto Canada",
+"Key": "Greg Wilson @ Software Carpentry Foundation Toronto Canada",
+"If": "cc201750"
+},
+{
+"Name": "Guilherme Bicalho de Padua",
+"Affiliation": "Department of Computer Science and Software Engineering, Concordia University, Montreal, QC, Canada",
+"Key": "Guilherme Bicalho de Padua @ Department of Computer Science and Software Engineering, Concordia University, Montreal, QC, Canada",
+"If": "cc201751"
+},
+{
+"Name": "Harald C. Gall",
+"Affiliation": "Software Evolution and Architecture Lab, University of Zurich, Switzerland",
+"Key": "Harald C. Gall @ Software Evolution and Architecture Lab, University of Zurich, Switzerland",
+"If": "cc201752"
+},
+{
+"Name": "Hareton Leung",
+"Affiliation": "Department of Computing, The Hong Kong Polytechnic University, Hong Kong",
+"Key": "Hareton Leung @ Department of Computing, The Hong Kong Polytechnic University, Hong Kong",
+"If": "cc201753"
+},
+{
+"Name": "He Jiang",
+"Affiliation": "School of Software, Dalian University of Technology, China",
+"Key": "He Jiang @ School of Software, Dalian University of Technology, China",
+"If": "cc201754"
+},
+{
+"Name": "Hoan Nguyen",
+"Affiliation": "Iowa State University, USA",
+"Key": "Hoan Nguyen @ Iowa State University, USA",
+"If": "cc201755"
+},
+{
+"Name": "Hoang H. Nguyen",
+"Affiliation": "School of Information Systems, Singapore Management University, Singapore",
+"Key": "Hoang H. Nguyen @ School of Information Systems, Singapore Management University, Singapore",
+"If": "cc201756"
+},
+{
+"Name": "Héctor Adrián Valdecantos",
+"Affiliation": "Universidad Nacional de Tucumàn, FACET, Departamento de Ciencias de la Computacion, Argentina",
+"Key": "Héctor Adrián Valdecantos @ Universidad Nacional de Tucumàn, FACET, Departamento de Ciencias de la Computacion, Argentina",
+"If": "cc201757"
+},
+{
+"Name": "Ivonne Schroter",
+"Affiliation": "Otto-von-Guericke-University Magdeburg, Germany",
+"Key": "Ivonne Schroter @ Otto-von-Guericke-University Magdeburg, Germany",
+"If": "cc201758"
+},
+{
+"Name": "Jacob Kruger",
+"Affiliation": "Otto-von-Guericke-University Magdeburg, Germany",
+"Key": "Jacob Kruger @ Otto-von-Guericke-University Magdeburg, Germany",
+"If": "cc201759"
+},
+{
+"Name": "James O. Coplien",
+"Affiliation": "Gertrud & Cope, Denmark",
+"Key": "James O. Coplien @ Gertrud & Cope, Denmark",
+"If": "cc201760"
+},
+{
+"Name": "Janet Siegmund",
+"Affiliation": "University of Passau, Germany",
+"Key": "Janet Siegmund @ University of Passau, Germany",
+"If": "cc201761"
+},
+{
+"Name": "Jazmine Staten",
+"Affiliation": "Division of Computer Science and Engineering, Louisiana State University Baton Rouge, LA",
+"Key": "Jazmine Staten @ Division of Computer Science and Engineering, Louisiana State University Baton Rouge, LA",
+"If": "cc201762"
+},
+{
+"Name": "Jean Melo",
+"Affiliation": "IT University of Copenhagen, Denmark",
+"Key": "Jean Melo @ IT University of Copenhagen, Denmark",
+"If": "cc201763"
+},
+{
+"Name": "Jiachi Chen",
+"Affiliation": "Department of Computing, The Hong Kong Polytechnic University, Hong Kong",
+"Key": "Jiachi Chen @ Department of Computing, The Hong Kong Polytechnic University, Hong Kong",
+"If": "cc201764"
+},
+{
+"Name": "Jian Lu",
+"Affiliation": "Department of Computer Science and Technology, Nanjing University",
+"Key": "Jian Lu @ Department of Computer Science and Technology, Nanjing University",
+"If": "cc201765"
+},
+{
+"Name": "Juanru Li",
+"Affiliation": "Shanghai Jiao Tong University, Shanghai, China",
+"Key": "Juanru Li @ Shanghai Jiao Tong University, Shanghai, China",
+"If": "cc201766"
+},
+{
+"Name": "Jun Ma",
+"Affiliation": "Department of Computer Science and Technology, Nanjing University",
+"Key": "Jun Ma @ Department of Computer Science and Technology, Nanjing University",
+"If": "cc201767"
+},
+{
+"Name": "Katy Tarrit",
+"Affiliation": "Rochester Institute of Technology, USA",
+"Key": "Katy Tarrit @ Rochester Institute of Technology, USA",
+"If": "cc201768"
+},
+{
+"Name": "Kecia Ferreira",
+"Affiliation": "Department of Computing, Federal Center of Technological Education, Belo Horizonte, Brazil",
+"Key": "Kecia Ferreira @ Department of Computing, Federal Center of Technological Education, Belo Horizonte, Brazil",
+"If": "cc201769"
+},
+{
+"Name": "Kevin Schneider",
+"Affiliation": "Department of Computer Science and Engineering, University of Saskatchewan, Canada",
+"Key": "Kevin Schneider @ Department of Computer Science and Engineering, University of Saskatchewan, Canada",
+"If": "cc201770"
+},
+{
+"Name": "Liliane Nascimento Vale",
+"Affiliation": "Computer Science Department, Federal University of Goiás, Catalão, GO, Brazil",
+"Key": "Liliane Nascimento Vale @ Computer Science Department, Federal University of Goiás, Catalão, GO, Brazil",
+"If": "cc201771"
+},
+{
+"Name": "Lingming Zhang",
+"Affiliation": "Computer Science, The University of Texas at Dallas, Dallas, TX",
+"Key": "Lingming Zhang @ Computer Science, The University of Texas at Dallas, Dallas, TX",
+"If": "cc201772"
+},
+{
+"Name": "Lingxiao Jiang",
+"Affiliation": "School of Information Systems, Singapore Management University, Singapore",
+"Key": "Lingxiao Jiang @ School of Information Systems, Singapore Management University, Singapore",
+"If": "cc201773"
+},
+{
+"Name": "Luca Ponzanelli",
+"Affiliation": "REVEAL, Faculty of Informatics — Università della Svizzera Italiana (USI), Switzerland",
+"Key": "Luca Ponzanelli @ REVEAL, Faculty of Informatics — Università della Svizzera Italiana (USI), Switzerland",
+"If": "cc201774"
+},
+{
+"Name": "Manishankar Mondal",
+"Affiliation": "Department of Computer Science and Engineering, University of Saskatchewan, Canada",
+"Key": "Manishankar Mondal @ Department of Computer Science and Engineering, University of Saskatchewan, Canada",
+"If": "cc201775"
+},
+{
+"Name": "Marcelo Maia",
+"Affiliation": "Faculty of Computing, Federal University of Uberlândia, Uberlândia, MG, Brazil",
+"Key": "Marcelo Maia @ Faculty of Computing, Federal University of Uberlândia, Uberlândia, MG, Brazil",
+"If": "cc201776"
+},
+{
+"Name": "Marco Torchiano",
+"Affiliation": "Politecnico di Torino, Italy",
+"Key": "Marco Torchiano @ Politecnico di Torino, Italy",
+"If": "cc201777"
+},
+{
+"Name": "Marco Tulio Valente",
+"Affiliation": "Department of Computer Science, Federal University of Minas Gerais, Belo Horizonte, Brazil",
+"Key": "Marco Tulio Valente @ Department of Computer Science, Federal University of Minas Gerais, Belo Horizonte, Brazil",
+"If": "cc201778"
+},
+{
+"Name": "Mariano Ceccato",
+"Affiliation": "Fondazione Bruno Kessler, Trento",
+"Key": "Mariano Ceccato @ Fondazione Bruno Kessler, Trento",
+"If": "cc201779"
+},
+{
+"Name": "Mario Hozano",
+"Affiliation": "Department of Computing Systems, UFCG, Paraíba, Brazil",
+"Key": "Mario Hozano @ Department of Computing Systems, UFCG, Paraíba, Brazil",
+"If": "cc201780"
+},
+{
+"Name": "Mariza Bigonha",
+"Affiliation": "Computer Science Department, UFMG, Belo Horizonte, Brazil",
+"Key": "Mariza Bigonha @ Computer Science Department, UFMG, Belo Horizonte, Brazil",
+"If": "cc201781"
+},
+{
+"Name": "Mark Grechanik",
+"Affiliation": "University of Illinois at Chicago, Chicago, IL",
+"Key": "Mark Grechanik @ University of Illinois at Chicago, Chicago, IL",
+"If": "cc201782"
+},
+{
+"Name": "Markus Borg",
+"Affiliation": "RISE SICS AB, Lund, Sweden",
+"Key": "Markus Borg @ RISE SICS AB, Lund, Sweden",
+"If": "cc201783"
+},
+{
+"Name": "Massimiliano Di Penta",
+"Affiliation": "University of Sannio, Italy",
+"Key": "Massimiliano Di Penta @ University of Sannio, Italy",
+"If": "cc201784"
+},
+{
+"Name": "Matthias Hauswirth",
+"Affiliation": "Università della Svizzera italiana Lugano, Switzerland",
+"Key": "Matthias Hauswirth @ Università della Svizzera italiana Lugano, Switzerland",
+"If": "cc201785"
+},
+{
+"Name": "Mehdi Mirakhorli",
+"Affiliation": "Rochester Institute of Technology, USA",
+"Key": "Mehdi Mirakhorli @ Rochester Institute of Technology, USA",
+"If": "cc201786"
+},
+{
+"Name": "Michael Van De Vanter",
+"Affiliation": "Oracle Labs",
+"Key": "Michael Van De Vanter @ Oracle Labs",
+"If": "cc201787"
+},
+{
+"Name": "Michele Lanza",
+"Affiliation": "REVEAL, Faculty of Informatics - Università della Svizzera italiana (USI), Switzerland",
+"Key": "Michele Lanza @ REVEAL, Faculty of Informatics - Università della Svizzera italiana (USI), Switzerland",
+"If": "cc201788"
+},
+{
+"Name": "Michele Risi",
+"Affiliation": "Department of Computer Science, University of Salerno, Italy",
+"Key": "Michele Risi @ Department of Computer Science, University of Salerno, Italy",
+"If": "cc201789"
+},
+{
+"Name": "Mike Hoye",
+"Affiliation": "Mozilla Corporation Toronto Canada",
+"Key": "Mike Hoye @ Mozilla Corporation Toronto Canada",
+"If": "cc201790"
+},
+{
+"Name": "Miles Visper",
+"Affiliation": "Division of Computer Science and Engineering, Louisiana State University Baton Rouge, LA",
+"Key": "Miles Visper @ Division of Computer Science and Engineering, Louisiana State University Baton Rouge, LA",
+"If": "cc201791"
+},
+{
+"Name": "Mivian Ferreira",
+"Affiliation": "Department of Computer Science, Federal University of Minas Gerais, Belo Horizonte, Brazil",
+"Key": "Mivian Ferreira @ Department of Computer Science, Federal University of Minas Gerais, Belo Horizonte, Brazil",
+"If": "cc201792"
+},
+{
+"Name": "Mohammad Ghafari",
+"Affiliation": "Software Composition Group, University of Bern, Bern, Switzerland",
+"Key": "Mohammad Ghafari @ Software Composition Group, University of Bern, Bern, Switzerland",
+"If": "cc201793"
+},
+{
+"Name": "Mohammad Reza Azadmanesh",
+"Affiliation": "Università della Svizzera italiana Lugano, Switzerland",
+"Key": "Mohammad Reza Azadmanesh @ Università della Svizzera italiana Lugano, Switzerland",
+"If": "cc201794"
+},
+{
+"Name": "Márcio Ribeiro",
+"Affiliation": "Computing Institute, Federal University of Alagoas, Maceio, AL, Brazil",
+"Key": "Márcio Ribeiro @ Computing Institute, Federal University of Alagoas, Maceio, AL, Brazil",
+"If": "cc201795"
+},
+{
+"Name": "Na Meng",
+"Affiliation": "Computer Science, Virginia Tech, Blacksburg, VA",
+"Key": "Na Meng @ Computer Science, Virginia Tech, Blacksburg, VA",
+"If": "cc201796"
+},
+{
+"Name": "Nevena Milojković",
+"Affiliation": "Software Composition Group, University of Bern, Bern, Switzerland",
+"Key": "Nevena Milojković @ Software Composition Group, University of Bern, Bern, Switzerland",
+"If": "cc201797"
+},
+{
+"Name": "Nishant Jha",
+"Affiliation": "Division of Computer Science and Engineering, Louisiana State University Baton Rouge, LA",
+"Key": "Nishant Jha @ Division of Computer Science and Engineering, Louisiana State University Baton Rouge, LA",
+"If": "cc201798"
+},
+{
+"Name": "Nuno Antunes",
+"Affiliation": "CISUC, Department of Informatics Engineering, University of Coimbra, Portugal",
+"Key": "Nuno Antunes @ CISUC, Department of Informatics Engineering, University of Coimbra, Portugal",
+"If": "cc201799"
+},
+{
+"Name": "Oscar Nierstrasz",
+"Affiliation": "Software Composition Group, University of Bern, Bern, Switzerland",
+"Key": "Oscar Nierstrasz @ Software Composition Group, University of Bern, Bern, Switzerland",
+"If": "cc2017100"
+},
+{
+"Name": "Paolo Falcarin",
+"Affiliation": "University of East London, UK",
+"Key": "Paolo Falcarin @ University of East London, UK",
+"If": "cc2017101"
+},
+{
+"Name": "Paolo Tonella",
+"Affiliation": "Fondazione Bruno Kessler, Trento",
+"Key": "Paolo Tonella @ Fondazione Bruno Kessler, Trento",
+"If": "cc2017102"
+},
+{
+"Name": "Per Runeson",
+"Affiliation": "Lund University, Lund, Sweden",
+"Key": "Per Runeson @ Lund University, Lund, Sweden",
+"If": "cc2017103"
+},
+{
+"Name": "Priscila Souza",
+"Affiliation": "Computer Science Department, UFMG, Belo Horizonte, Brazil",
+"Key": "Priscila Souza @ Computer Science Department, UFMG, Belo Horizonte, Brazil",
+"If": "cc2017104"
+},
+{
+"Name": "Qiyu Zhi",
+"Affiliation": "Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, IN, USA",
+"Key": "Qiyu Zhi @ Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, IN, USA",
+"If": "cc2017105"
+},
+{
+"Name": "Rita Francese",
+"Affiliation": "Department of Computer Science, University of Salerno, Italy",
+"Key": "Rita Francese @ Department of Computer Science, University of Salerno, Italy",
+"If": "cc2017106"
+},
+{
+"Name": "Rocco Oliveto",
+"Affiliation": "University of Molise, Italy",
+"Key": "Rocco Oliveto @ University of Molise, Italy",
+"If": "cc2017107"
+},
+{
+"Name": "Rodney Rodriguez",
+"Affiliation": "Department of Computer Science, University of Texas at San Antonio, USA",
+"Key": "Rodney Rodriguez @ Department of Computer Science, University of Texas at San Antonio, USA",
+"If": "cc2017108"
+},
+{
+"Name": "Rodrigo Bonifácio",
+"Affiliation": "Department of Computer Science, University of Brasilia, Brasilia, DF, Brazil",
+"Key": "Rodrigo Bonifácio @ Department of Computer Science, University of Brasilia, Brasilia, DF, Brazil",
+"If": "cc2017109"
+},
+{
+"Name": "Rohit Gheyi",
+"Affiliation": "Department of Computing Systems, Federal University of Campina Grande, Campina Grande, PB, Brazil",
+"Key": "Rohit Gheyi @ Department of Computing Systems, Federal University of Campina Grande, Campina Grande, PB, Brazil",
+"If": "cc2017110"
+},
+{
+"Name": "Romero Malaquias",
+"Affiliation": "Computing Institute, Federal University of Alagoas, Maceio, AL, Brazil",
+"Key": "Romero Malaquias @ Computing Institute, Federal University of Alagoas, Maceio, AL, Brazil",
+"If": "cc2017111"
+},
+{
+"Name": "Ronald Metoyer",
+"Affiliation": "Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, IN, USA",
+"Key": "Ronald Metoyer @ Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, IN, USA",
+"If": "cc2017112"
+},
+{
+"Name": "Rubén Saborido Infantes",
+"Affiliation": "DGIGL, Polytechnique Montréal, Canada",
+"Key": "Rubén Saborido Infantes @ DGIGL, Polytechnique Montréal, Canada",
+"If": "cc2017113"
+},
+{
+"Name": "Sarah Gingichashvili",
+"Affiliation": "School of Computer Science and Engineering, The Hebrew University of Jerusalem, Jerusalem, Israel",
+"Key": "Sarah Gingichashvili @ School of Computer Science and Engineering, The Hebrew University of Jerusalem, Jerusalem, Israel",
+"If": "cc2017114"
+},
+{
+"Name": "Sebastiano Panichella",
+"Affiliation": "Software Evolution and Architecture Lab, University of Zurich, Switzerland",
+"Key": "Sebastiano Panichella @ Software Evolution and Architecture Lab, University of Zurich, Switzerland",
+"If": "cc2017115"
+},
+{
+"Name": "Shaikh Mostafa",
+"Affiliation": "Department of Computer Science, University of Texas at San Antonio, USA",
+"Key": "Shaikh Mostafa @ Department of Computer Science, University of Texas at San Antonio, USA",
+"If": "cc2017116"
+},
+{
+"Name": "Shengtao Yue",
+"Affiliation": "Department of Computer Science and Technology, Nanjing University",
+"Key": "Shengtao Yue @ Department of Computer Science and Technology, Nanjing University",
+"If": "cc2017117"
+},
+{
+"Name": "Shulamyt Ajami",
+"Affiliation": "Department of Computer Science, The Hebrew University, Jerusalem, Israel",
+"Key": "Shulamyt Ajami @ Department of Computer Science, The Hebrew University, Jerusalem, Israel",
+"If": "cc2017118"
+},
+{
+"Name": "Siyuan Jiang",
+"Affiliation": "Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, IN, USA",
+"Key": "Siyuan Jiang @ Department of Computer Science and Engineering, University of Notre Dame, Notre Dame, IN, USA",
+"If": "cc2017119"
+},
+{
+"Name": "Tao Zhang",
+"Affiliation": "College of Computer Science and Technology, Harbin Engineering University, China",
+"Key": "Tao Zhang @ College of Computer Science and Technology, Harbin Engineering University, China",
+"If": "cc2017120"
+},
+{
+"Name": "Tho Quan",
+"Affiliation": "Faculty of Computer Science and Engineering, Bach Khoa University, Vietnam",
+"Key": "Tho Quan @ Faculty of Computer Science and Engineering, Bach Khoa University, Vietnam",
+"If": "cc2017121"
+},
+{
+"Name": "Thomas Leich",
+"Affiliation": "METOP GmbH Magdeburg, Germany",
+"Key": "Thomas Leich @ METOP GmbH Magdeburg, Germany",
+"If": "cc2017122"
+},
+{
+"Name": "Tien Nguyen",
+"Affiliation": "University of Texas at Dallas, USA",
+"Key": "Tien Nguyen @ University of Texas at Dallas, USA",
+"If": "cc2017123"
+},
+{
+"Name": "Tomomi Hatano",
+"Affiliation": "Information Systems Technologies Laboratory Fujitsu Laboratories Ltd. Kawasaki, Japan",
+"Key": "Tomomi Hatano @ Information Systems Technologies Laboratory Fujitsu Laboratories Ltd. Kawasaki, Japan",
+"If": "cc2017124"
+},
+{
+"Name": "Tung Dao",
+"Affiliation": "Computer Science, Virginia Tech, Blacksburg, VA",
+"Key": "Tung Dao @ Computer Science, Virginia Tech, Blacksburg, VA",
+"If": "cc2017125"
+},
+{
+"Name": "Weiyi Shang",
+"Affiliation": "Department of Computer Science and Software Engineering, Concordia University, Montreal, QC, Canada",
+"Key": "Weiyi Shang @ Department of Computer Science and Software Engineering, Concordia University, Montreal, QC, Canada",
+"If": "cc2017126"
+},
+{
+"Name": "Weizan Feng",
+"Affiliation": "Department of Computer Science and Technology, Nanjing University",
+"Key": "Weizan Feng @ Department of Computer Science and Technology, Nanjing University",
+"If": "cc2017127"
+},
+{
+"Name": "Xianping Tao",
+"Affiliation": "Department of Computer Science and Technology, Nanjing University",
+"Key": "Xianping Tao @ Department of Computer Science and Technology, Nanjing University",
+"If": "cc2017128"
+},
+{
+"Name": "Xiaoyin Wang",
+"Affiliation": "Department of Computer Science, University of Texas at San Antonio, USA",
+"Key": "Xiaoyin Wang @ Department of Computer Science, University of Texas at San Antonio, USA",
+"If": "cc2017129"
+},
+{
+"Name": "Xiapu Luo",
+"Affiliation": "Department of Computing, The Hong Kong Polytechnic University, Hong Kong",
+"Key": "Xiapu Luo @ Department of Computing, The Hong Kong Polytechnic University, Hong Kong",
+"If": "cc2017130"
+},
+{
+"Name": "Xin Xia",
+"Affiliation": "Department of Computer Science, University of British Columbia, Canada",
+"Key": "Xin Xia @ Department of Computer Science, University of British Columbia, Canada",
+"If": "cc2017131"
+},
+{
+"Name": "Yann-Gaël Guéhéneuc",
+"Affiliation": "DGIGL, Polytechnique Montréal, Canada",
+"Key": "Yann-Gaël Guéhéneuc @ DGIGL, Polytechnique Montréal, Canada",
+"If": "cc2017132"
+},
+{
+"Name": "Yanyan Jiang",
+"Affiliation": "Department of Computer Science and Technology, Nanjing University",
+"Key": "Yanyan Jiang @ Department of Computer Science and Technology, Nanjing University",
+"If": "cc2017133"
+},
+{
+"Name": "Yikun Hu",
+"Affiliation": "Shanghai Jiao Tong University, Shanghai, China",
+"Key": "Yikun Hu @ Shanghai Jiao Tong University, Shanghai, China",
+"If": "cc2017134"
+},
+{
+"Name": "Yonatan Woodbridge",
+"Affiliation": "Department of Statistics, The Hebrew University, Jerusalem, Israel",
+"Key": "Yonatan Woodbridge @ Department of Statistics, The Hebrew University, Jerusalem, Israel",
+"If": "cc2017135"
+},
+{
+"Name": "Yuanyuan Zhang",
+"Affiliation": "Shanghai Jiao Tong University, Shanghai, China",
+"Key": "Yuanyuan Zhang @ Shanghai Jiao Tong University, Shanghai, China",
+"If": "cc2017136"
+},
+{
+"Name": "Yutian Tang",
+"Affiliation": "Department of Computing, The Hong Kong Polytechnic University, Hong Kong",
+"Key": "Yutian Tang @ Department of Computing, The Hong Kong Polytechnic University, Hong Kong",
+"If": "cc2017137"
+}
 	]
 }
