@@ -1,6 +1,6 @@
 {
-  "DataRevision": 1199384499,
-  "Description": "ICFP 2017 is the 22nd ACM SIGPLAN International Conference on Functional Programming. \nICFP provides a forum for researchers and developers to hear about the latest work on the design, implementations, principles, and uses of functional programming. The conference covers the entire spectrum of work, from practice to theory, including its peripheries. This year, there are keynotes from Chris Martens and Rich Hickey. \nMost of the talks in the main conference will be live-streamed; questions from remote observers will be taken via Slack, for which you will need to sign up. (\n \n  Registered participants will receive a separate personal invitation to Slack.\n  Personal invitations didn\u2019t work very well, so registered participants should feel free to use that shared sign-up link too.) If you want to tweet about the conference, we suggest the hashtag #icfp2017. \nICFP will run in parallel to FSCD 2017, held at the Maths Institute in Oxford. Registrants of either conference can attend talks at both conferences, and the lunch/coffee breaks will be joint. (FSCD workshops take place elsewhere, and must be registered for separately.) \nAdditional local information is provided in the Information Blog. \n Download and print the official ICFP 2017 poster. \nThe 2017 ICFP Programming Contest, organized by the University of Edinburgh, ran August 4-7. More information is available on the contest website.",
+  "DataRevision": 1212246931,
+  "Description": "ICFP 2017 is the 22nd ACM SIGPLAN International Conference on Functional Programming. \nICFP provides a forum for researchers and developers to hear about the latest work on the design, implementations, principles, and uses of functional programming. The conference covers the entire spectrum of work, from practice to theory, including its peripheries. This year, there are keynotes from Chris Martens and John Launchbury; unfortunately, Rich Hickey is unable to attend as originally planned. \nMost of the talks in the main conference will be live-streamed; questions from remote observers will be taken via Slack, for which you will need to sign up. (Registered participants should now have received a separate personal invitation to Slack.) If you want to tweet about the conference, we suggest the hashtag #icfp2017. \nICFP will run in parallel to FSCD 2017, held at the Maths Institute in Oxford. Registrants of either conference can attend talks at both conferences, and the lunch/coffee breaks will be joint. (FSCD workshops take place elsewhere, and must be registered for separately.) \nAdditional local information is provided in the Information Blog. \n Download and print the official ICFP 2017 poster. \nThe 2017 ICFP Programming Contest, organized by the University of Edinburgh, ran August 4-7. More information is available on the contest website.",
   "Event": "icfp-2017",
   "Items": [
     {
@@ -1119,71 +1119,6 @@
       "URL": "http://icfp17.sigplan.org/event/farm-2017-papers-demo-african-polyphony-and-polyrhythm"
     },
     {
-      "Abstract": "Libraries are the basic building blocks of any realistic programming project. It is thus of utmost interest for a programmer to build her software on top of bug-free libraries. We present the ongoing VOCAL project, which aims at building a mechanically verified library of general-purpose data structures and algorithms, written in the OCaml language.",
-      "Affiliations": [
-        "Inria",
-        "CNRS, Paris, France",
-        "LRI - Université Paris-Sud",
-        "Inria, France"
-      ],
-      "AffiliationsString": "Inria, CNRS, Paris, France, LRI - Université Paris-Sud, Inria, France",
-      "Authors": [
-        "arthurchargueraud",
-        "jeanchristophefilliatre",
-        "mariopereira",
-        "francoispottier"
-      ],
-      "Key": "mlfamilyworkshop-2017-papers-vocal-a-verified-ocaml-library",
-      "PersonsString": "Arthur Charguéraud, Jean-Christophe Filliatre, Mário Pereira and François Pottier",
-      "Title": "VOCAL -- a verified OCAml Library",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-vocal-a-verified-ocaml-library"
-    },
-    {
-      "Abstract": "Useful real-world functional programs must often confront the Awkward Squad [7], a range of un-beautiful issues concerning the interplay between concurrency, input/output, exceptions, resources, etc. We show that algebraic effects and their handlers can elegantly express such programs without compromising performance. In particular, we introduce asynchronous effects and their handlers, and show how they elegantly solve the interaction between user-level threads and operating system services.",
-      "Affiliations": [
-        "",
-        "Jane Street Group",
-        "The University of Edinburgh",
-        "OCaml Labs",
-        "University of Cambridge",
-        "Jane Street"
-      ],
-      "AffiliationsString": ", Jane Street Group, The University of Edinburgh, OCaml Labs, University of Cambridge, Jane Street",
-      "Authors": [
-        "stephendolan",
-        "spiroseliopoulos",
-        "danielhillerstrom",
-        "anilmadhavapeddy",
-        "kcsivaramakrishnan",
-        "leowhite"
-      ],
-      "Key": "mlfamilyworkshop-2017-papers-effectively-tackling-the-awkward-squad",
-      "PersonsString": "Stephen Dolan, Spiros Eliopoulos, Daniel Hillerström, Anil Madhavapeddy, KC Sivaramakrishnan and Leo White",
-      "Title": "Effectively tackling the awkward squad",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-effectively-tackling-the-awkward-squad"
-    },
-    {
-      "Abstract": "We show how Lisp-style macros and extensible infix syntax are combined in the programming language Typer, which is a combination of Lisp, ML, and Coq. Its name is an homage to Scheme(r) with which it hares the goal of pushing as much functionality as possible outside of the core and into libraries. While it superficially looks more like Haskell and ML, with infix notation and static polymorphic typing, it tries to preserve the syntactic malleability of Lisp by relying on the traditional Lisp-style S-expressions and macros. \nIts main tool to this end is the use of an infix notation for S-expressions, which still makes it possible to parse sub-expressions before knowing what role they will play.",
-      "Affiliations": [
-        "Université de Montréal",
-        "Université de Montréal",
-        "Université de Montréal"
-      ],
-      "AffiliationsString": "Université de Montréal",
-      "Authors": [
-        "pierredelaunay",
-        "vincentarchambaultbouffard",
-        "stefanmonnier"
-      ],
-      "Key": "mlfamilyworkshop-2017-papers-typer-an-infix-statically-typed-lisp",
-      "PersonsString": "Pierre Delaunay, Vincent Archambault-Bouffard and Stefan Monnier",
-      "Title": "Typer: an infix statically typed Lisp",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-typer-an-infix-statically-typed-lisp"
-    },
-    {
       "Abstract": "",
       "Affiliations": [],
       "AffiliationsString": "",
@@ -1204,70 +1139,6 @@
       "Title": "Towards abductive functional programming",
       "Type": "Talk",
       "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-towards-abductive-functional-programming"
-    },
-    {
-      "Abstract": "We present a module system for Eliom, a tierless web programming language that extends OCaml. Our module language integrates well with both the Eliom and OCaml languages and supports nice properties of module systems such as a strong support for abstraction and separate compilation.",
-      "Affiliations": [
-        "Université Denis Diderot Paris 7, PPS",
-        "Univ Paris Diderot, Sorbonne Paris Cité, BeSport"
-      ],
-      "AffiliationsString": "Université Denis Diderot Paris 7, PPS, Univ Paris Diderot, Sorbonne Paris Cité, BeSport",
-      "Authors": [
-        "gabrielradanne",
-        "jeromevouillon1"
-      ],
-      "Key": "mlfamilyworkshop-2017-papers-tierless-modules",
-      "PersonsString": "Gabriel Radanne and Jérôme Vouillon",
-      "Title": "Tierless modules",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-tierless-modules"
-    },
-    {
-      "Abstract": "When the maximal number of elements that may be inserted into a container is not known in advance, the container needs to grow dynamically. Growable containers are most frequently implemented on top of lists or vectors, yet both are inefficient in terms of space and time usage. We investigate the implementation of OCaml of sequence data structures that store their elements in fixed-capacity arrays, called chunks. For sequences of several thousand elements, we show that our chunked-based sequence data structures save a lot of memory and may deliver better performance than classic container data structures.",
-      "Affiliations": [
-        "Inria",
-        ""
-      ],
-      "AffiliationsString": "Inria, ",
-      "Authors": [
-        "arthurchargueraud",
-        "mikerainey"
-      ],
-      "Key": "mlfamilyworkshop-2017-papers-efficient-representation-of-large-dynamic-sequences-in-ml",
-      "PersonsString": "Arthur Charguéraud and Mike Rainey",
-      "Title": "Efficient representation of large, dynamic sequences in ML",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-efficient-representation-of-large-dynamic-sequences-in-ml"
-    },
-    {
-      "Abstract": "A useful pattern in dependently typed programming is to define a state transition system, for example the states and operations in a network protocol, as an indexed monad. We index each operation by its input and output states, thus guaranteeing that operations satisfy pre- and post-conditions, by typechecking. However, what if we want to write a program using several systems at once? What if we want to define a high level state transition system, such as a network application protocol, in terms of lower level states, such as network sockets and mutable variables? \nIn this talk, I will present an architecture for dependently typed applications based on a hierarchy of state transition systems, implemented in a generic data type ST. This is based on a monad indexed by contexts of resources, allowing us to reason about multiple state transition systems in the type of a function. Using ST, we show: how to implement a state transition system as a dependent type, with type level guarantees on its operations; how to account for operations which could fail; how to combine state transition systems into a larger system; and, how to implement larger systems as a hierarchy of state transition systems. I will illustrate the system with a high level network application protocol, implemented in terms of POSIX network sockets.",
-      "Affiliations": ["University of St. Andrews, UK"],
-      "AffiliationsString": "University of St. Andrews, UK",
-      "Authors": ["edwinbrady"],
-      "Key": "mlfamilyworkshop-2017-papers-state-machines-all-the-way-down",
-      "PersonsString": "Edwin Brady",
-      "Title": "State machines all the way down",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-state-machines-all-the-way-down"
-    },
-    {
-      "Abstract": "We present the progress in the development of high-performance SML#. The key component is the combination of lightweight thread scheduling in system research and memory management in compiler research. This part has already been achieved; the programmer easily writes codes that create and use millions of threads on multicore professors. In the talk, we describe the key features of the high-performance SML# and demonstrate its feasibility through examples running on multicore processors.",
-      "Affiliations": [
-        "Tohoku University, Japan",
-        "The University of Tokyo",
-        "Tohoku University"
-      ],
-      "AffiliationsString": "Tohoku University, Japan, The University of Tokyo, Tohoku University",
-      "Authors": [
-        "atsushiohori",
-        "kenjirotaura",
-        "katsuhiroueno"
-      ],
-      "Key": "mlfamilyworkshop-2017-papers-making-sml-a-general-purpose-high-performance-language",
-      "PersonsString": "Atsushi Ohori, Kenjiro Taura and Katsuhiro Ueno",
-      "Title": "Making SML# a general-purpose high-performance language",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-making-sml-a-general-purpose-high-performance-language"
     },
     {
       "Abstract": "Distributed applications often eschew strong consistency and replicate data asynchronously to improve availability and fault tolerance. However, programming under eventual consistency is significantly more complex and often leads to onerous programming model where inconsistencies must be handled explicitly. We introduce vml, a programming model that extends ML datatypes with mergeability a la version control systems with the ability to define and compose distributed ML computations around such data. Our OCaml implementation instantiates mergeable types on Irmin, a distributed content-addressible store to enable composable and highly-available distributed applications.",
@@ -1308,6 +1179,146 @@
       "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-relational-conversion-for-ocaml"
     },
     {
+      "Abstract": "Useful real-world functional programs must often confront the Awkward Squad [7], a range of un-beautiful issues concerning the interplay between concurrency, input/output, exceptions, resources, etc. We show that algebraic effects and their handlers can elegantly express such programs without compromising performance. In particular, we introduce asynchronous effects and their handlers, and show how they elegantly solve the interaction between user-level threads and operating system services.",
+      "Affiliations": [
+        "",
+        "Jane Street Group",
+        "The University of Edinburgh",
+        "OCaml Labs",
+        "University of Cambridge",
+        "Jane Street"
+      ],
+      "AffiliationsString": ", Jane Street Group, The University of Edinburgh, OCaml Labs, University of Cambridge, Jane Street",
+      "Authors": [
+        "stephendolan",
+        "spiroseliopoulos",
+        "danielhillerstrom",
+        "anilmadhavapeddy",
+        "kcsivaramakrishnan",
+        "leowhite"
+      ],
+      "Key": "mlfamilyworkshop-2017-papers-effectively-tackling-the-awkward-squad",
+      "PersonsString": "Stephen Dolan, Spiros Eliopoulos, Daniel Hillerström, Anil Madhavapeddy, KC Sivaramakrishnan and Leo White",
+      "Title": "Effectively tackling the awkward squad",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-effectively-tackling-the-awkward-squad"
+    },
+    {
+      "Abstract": "Libraries are the basic building blocks of any realistic programming project. It is thus of utmost interest for a programmer to build her software on top of bug-free libraries. We present the ongoing VOCAL project, which aims at building a mechanically verified library of general-purpose data structures and algorithms, written in the OCaml language.",
+      "Affiliations": [
+        "Inria",
+        "CNRS, Paris, France",
+        "LRI - Université Paris-Sud",
+        "Inria, France"
+      ],
+      "AffiliationsString": "Inria, CNRS, Paris, France, LRI - Université Paris-Sud, Inria, France",
+      "Authors": [
+        "arthurchargueraud",
+        "jeanchristophefilliatre",
+        "mariopereira",
+        "francoispottier"
+      ],
+      "Key": "mlfamilyworkshop-2017-papers-vocal-a-verified-ocaml-library",
+      "PersonsString": "Arthur Charguéraud, Jean-Christophe Filliatre, Mário Pereira and François Pottier",
+      "Title": "VOCAL -- a verified OCAml Library",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-vocal-a-verified-ocaml-library"
+    },
+    {
+      "Abstract": "A useful pattern in dependently typed programming is to define a state transition system, for example the states and operations in a network protocol, as an indexed monad. We index each operation by its input and output states, thus guaranteeing that operations satisfy pre- and post-conditions, by typechecking. However, what if we want to write a program using several systems at once? What if we want to define a high level state transition system, such as a network application protocol, in terms of lower level states, such as network sockets and mutable variables? \nIn this talk, I will present an architecture for dependently typed applications based on a hierarchy of state transition systems, implemented in a generic data type ST. This is based on a monad indexed by contexts of resources, allowing us to reason about multiple state transition systems in the type of a function. Using ST, we show: how to implement a state transition system as a dependent type, with type level guarantees on its operations; how to account for operations which could fail; how to combine state transition systems into a larger system; and, how to implement larger systems as a hierarchy of state transition systems. I will illustrate the system with a high level network application protocol, implemented in terms of POSIX network sockets.",
+      "Affiliations": ["University of St. Andrews, UK"],
+      "AffiliationsString": "University of St. Andrews, UK",
+      "Authors": ["edwinbrady"],
+      "Key": "mlfamilyworkshop-2017-papers-state-machines-all-the-way-down",
+      "PersonsString": "Edwin Brady",
+      "Title": "State machines all the way down",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-state-machines-all-the-way-down"
+    },
+    {
+      "Abstract": "When the maximal number of elements that may be inserted into a container is not known in advance, the container needs to grow dynamically. Growable containers are most frequently implemented on top of lists or vectors, yet both are inefficient in terms of space and time usage. We investigate the implementation of OCaml of sequence data structures that store their elements in fixed-capacity arrays, called chunks. For sequences of several thousand elements, we show that our chunked-based sequence data structures save a lot of memory and may deliver better performance than classic container data structures.",
+      "Affiliations": [
+        "Inria",
+        ""
+      ],
+      "AffiliationsString": "Inria, ",
+      "Authors": [
+        "arthurchargueraud",
+        "mikerainey"
+      ],
+      "Key": "mlfamilyworkshop-2017-papers-efficient-representation-of-large-dynamic-sequences-in-ml",
+      "PersonsString": "Arthur Charguéraud and Mike Rainey",
+      "Title": "Efficient representation of large, dynamic sequences in ML",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-efficient-representation-of-large-dynamic-sequences-in-ml"
+    },
+    {
+      "Abstract": "Surprisingly, we can write non-deterministic programs in an ML-like language just as naturally and elegantly as in the functional-logic language Curry \u2013 ML\u2019s call-by-value and the lack of support for monads notwithstanding. The key idea is to forget about (the popular conception of) monads and to write non-deterministic computations in a small, tagless-final embedded DSL, with ML playing the role of the `preprocessor\u2019. The DSL turns out surprisingly small, essentially first-order \u2013 compensated by the richness of the Meta Language.",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["olegkiselyov"],
+      "Key": "mlfamilyworkshop-2017-papers-effects-without-monads-non-determinism",
+      "PersonsString": "Oleg Kiselyov",
+      "Title": "Effects without monads: non-determinism",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-effects-without-monads-non-determinism"
+    },
+    {
+      "Abstract": "We show how Lisp-style macros and extensible infix syntax are combined in the programming language Typer, which is a combination of Lisp, ML, and Coq. Its name is an homage to Scheme(r) with which it hares the goal of pushing as much functionality as possible outside of the core and into libraries. While it superficially looks more like Haskell and ML, with infix notation and static polymorphic typing, it tries to preserve the syntactic malleability of Lisp by relying on the traditional Lisp-style S-expressions and macros. \nIts main tool to this end is the use of an infix notation for S-expressions, which still makes it possible to parse sub-expressions before knowing what role they will play.",
+      "Affiliations": [
+        "Université de Montréal",
+        "Université de Montréal",
+        "Université de Montréal"
+      ],
+      "AffiliationsString": "Université de Montréal",
+      "Authors": [
+        "pierredelaunay",
+        "vincentarchambaultbouffard",
+        "stefanmonnier"
+      ],
+      "Key": "mlfamilyworkshop-2017-papers-typer-an-infix-statically-typed-lisp",
+      "PersonsString": "Pierre Delaunay, Vincent Archambault-Bouffard and Stefan Monnier",
+      "Title": "Typer: an infix statically typed Lisp",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-typer-an-infix-statically-typed-lisp"
+    },
+    {
+      "Abstract": "We present the progress in the development of high-performance SML#. The key component is the combination of lightweight thread scheduling in system research and memory management in compiler research. This part has already been achieved; the programmer easily writes codes that create and use millions of threads on multicore professors. In the talk, we describe the key features of the high-performance SML# and demonstrate its feasibility through examples running on multicore processors.",
+      "Affiliations": [
+        "Tohoku University, Japan",
+        "The University of Tokyo",
+        "Tohoku University"
+      ],
+      "AffiliationsString": "Tohoku University, Japan, The University of Tokyo, Tohoku University",
+      "Authors": [
+        "atsushiohori",
+        "kenjirotaura",
+        "katsuhiroueno"
+      ],
+      "Key": "mlfamilyworkshop-2017-papers-making-sml-a-general-purpose-high-performance-language",
+      "PersonsString": "Atsushi Ohori, Kenjiro Taura and Katsuhiro Ueno",
+      "Title": "Making SML# a general-purpose high-performance language",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-making-sml-a-general-purpose-high-performance-language"
+    },
+    {
+      "Abstract": "We present a module system for Eliom, a tierless web programming language that extends OCaml. Our module language integrates well with both the Eliom and OCaml languages and supports nice properties of module systems such as a strong support for abstraction and separate compilation.",
+      "Affiliations": [
+        "Université Denis Diderot Paris 7, PPS",
+        "Univ Paris Diderot, Sorbonne Paris Cité, BeSport"
+      ],
+      "AffiliationsString": "Université Denis Diderot Paris 7, PPS, Univ Paris Diderot, Sorbonne Paris Cité, BeSport",
+      "Authors": [
+        "gabrielradanne",
+        "jeromevouillon1"
+      ],
+      "Key": "mlfamilyworkshop-2017-papers-tierless-modules",
+      "PersonsString": "Gabriel Radanne and Jérôme Vouillon",
+      "Title": "Tierless modules",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-tierless-modules"
+    },
+    {
       "Abstract": "We present examples and encodings of first-class subtypes, analogous to the type equality witnesses that underlie GADTs.",
       "Affiliations": [
         "University of Cambridge, UK",
@@ -1323,17 +1334,6 @@
       "Title": "First-class subtypes",
       "Type": "Talk",
       "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-first-class-subtypes"
-    },
-    {
-      "Abstract": "Surprisingly, we can write non-deterministic programs in an ML-like language just as naturally and elegantly as in the functional-logic language Curry \u2013 ML\u2019s call-by-value and the lack of support for monads notwithstanding. The key idea is to forget about (the popular conception of) monads and to write non-deterministic computations in a small, tagless-final embedded DSL, with ML playing the role of the `preprocessor\u2019. The DSL turns out surprisingly small, essentially first-order \u2013 compensated by the richness of the Meta Language.",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["olegkiselyov"],
-      "Key": "mlfamilyworkshop-2017-papers-effects-without-monads-non-determinism",
-      "PersonsString": "Oleg Kiselyov",
-      "Title": "Effects without monads: non-determinism",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/mlfamilyworkshop-2017-papers-effects-without-monads-non-determinism"
     },
     {
       "Abstract": "A recurring topic of concern among users of GHC is GHC\u2019s performance, both regarding compilation time and runtime of the generated code, and how GHC\u2019s performance evolves across GHC releases. That concern is aggravated by the long release cycle and the small footprint of libraries in CI builds. As a datapoint that lends credibility to this concern, consider that, although an explicit goal for GHC 8.2 is to improve compilation times, there is evidence that compilation times (for a release candidate) degraded for some packages. \nIn this talk, we will analyse the current situation and propose a scheme that enables the (a) continuous monitoring of GHC performance on (b) a wider range of packages. As our scheme is based on Stackage package sets, we will also argue that widening the range of packages under CI will accelerate the adoption of new GHC releases by the wider community. In particular, we will detail our own plans to work towards an implementation of the proposed scheme as well as outline where we hope for community support. Our focus here is on tracking compilation times, but the proposed scheme will also get us closer to being able to track the runtime performance of GHC generated code beyond nofib. Finally, by widening the surface area of CI, we may also be able to spot functional regressions on code beyond the GHC build and its test suite more quickly.",
@@ -1527,588 +1527,6 @@
       "Title": "Demand Analysis vs. Call Arity",
       "Type": "Talk",
       "URL": "http://icfp17.sigplan.org/event/hiw-2017-demand-analysis-vs-call-arity"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "IRIF, France / University of Paris Diderot, France",
-        ""
-      ],
-      "AffiliationsString": "IRIF, France / University of Paris Diderot, France, ",
-      "Authors": [
-        "deliakesner",
-        "pierrevial"
-      ],
-      "Key": "fscd-2017-types-as-resources-for-classical-natural-deduction",
-      "PersonsString": "Delia Kesner and Pierre Vial",
-      "Title": "Types as Resources for Classical Natural Deduction",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-types-as-resources-for-classical-natural-deduction"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": ["University at Buffalo, SUNY, USA"],
-      "AffiliationsString": "University at Buffalo, SUNY, USA",
-      "Authors": ["marcogaboardi"],
-      "Key": "fscd-2017-type-systems-for-the-relational-verification-of-higher-order-programs",
-      "PersonsString": "Marco Gaboardi",
-      "Title": "Type systems for the relational verification of higher order programs",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-type-systems-for-the-relational-verification-of-higher-order-programs"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["yohjiakama"],
-      "Key": "fscd-2017-the-confluent-terminating-context-free-substitutive-rewriting-system-for-the-calculus-with-surjective-pairing-and-terminal-type",
-      "PersonsString": "Yohji Akama",
-      "Title": "The confluent terminating context-free substitutive rewriting system for the λ-calculus with surjective pairing and terminal type",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-the-confluent-terminating-context-free-substitutive-rewriting-system-for-the-calculus-with-surjective-pairing-and-terminal-type"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "McGill University",
-        "Saarland University"
-      ],
-      "AffiliationsString": ", McGill University, Saarland University",
-      "Authors": [
-        "jonaskaiser",
-        "brigittepientka",
-        "gertsmolka"
-      ],
-      "Key": "fscd-2017-relating-system-f-and-2-a-case-study-in-coq-abella-and-beluga",
-      "PersonsString": "Jonas Kaiser, Brigitte Pientka and Gert Smolka",
-      "Title": "Relating System F and λ2: A Case Study in Coq, Abella and Beluga",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-relating-system-f-and-2-a-case-study-in-coq-abella-and-beluga"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "Computer Laboratory, University of Cambridge",
-        ""
-      ],
-      "AffiliationsString": "Computer Laboratory, University of Cambridge, ",
-      "Authors": [
-        "marcelofiore",
-        "philipsaville"
-      ],
-      "Key": "fscd-2017-list-objects-with-algebraic-structure",
-      "PersonsString": "Marcelo Fiore and Philip Saville",
-      "Title": "List Objects with Algebraic Structure",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-list-objects-with-algebraic-structure"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "benediktahrens",
-        "peterlefanulumsdaine"
-      ],
-      "Key": "fscd-2017-displayed-categories",
-      "PersonsString": "Benedikt Ahrens and Peter Lefanu Lumsdaine",
-      "Title": "Displayed categories",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-displayed-categories"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "Technical University Dortmund",
-        "Technical University Dortmund"
-      ],
-      "AffiliationsString": "Technical University Dortmund",
-      "Authors": [
-        "andrejdudenhefner",
-        "jakobrehof"
-      ],
-      "Key": "fscd-2017-the-complexity-of-principal-inhabitation",
-      "PersonsString": "Andrej Dudenhefner and Jakob Rehof",
-      "Title": "The Complexity of Principal Inhabitation",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-the-complexity-of-principal-inhabitation"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "University of Buenos Aires, Argentina / IRIF, France / University of Paris Diderot, France",
-        "CONICET, Argentina / Universidad Nacional de Quilmes, Argentina"
-      ],
-      "AffiliationsString": "University of Buenos Aires, Argentina / IRIF, France / University of Paris Diderot, France, CONICET, Argentina / Universidad Nacional de Quilmes, Argentina",
-      "Authors": [
-        "pablobarenbaum",
-        "eduardobonelli"
-      ],
-      "Key": "fscd-2017-optimality-and-the-linear-substitution-calculus",
-      "PersonsString": "Pablo Barenbaum and Eduardo Bonelli",
-      "Title": "Optimality and the Linear Substitution Calculus",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-optimality-and-the-linear-substitution-calculus"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "benedettointrigila",
-        "giuliomanzonetto",
-        "andrewpolonsky"
-      ],
-      "Key": "fscd-2017-refutation-of-sall-s-longstanding-conjecture",
-      "PersonsString": "Benedetto Intrigila, Giulio Manzonetto and Andrew Polonsky",
-      "Title": "Refutation of Sallé's Longstanding Conjecture",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-refutation-of-sall-s-longstanding-conjecture"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": ["University College London"],
-      "AffiliationsString": "University College London",
-      "Authors": ["alexandrasilva"],
-      "Key": "fscd-2017-brzozowski-goes-concurrent-a-kleene-theorem-for-pomset-languages",
-      "PersonsString": "Alexandra Silva",
-      "Title": "Brzozowski Goes Concurrent -- A Kleene Theorem for Pomset Languages",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-brzozowski-goes-concurrent-a-kleene-theorem-for-pomset-languages"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": ["University of Innsbruck"],
-      "AffiliationsString": "University of Innsbruck",
-      "Authors": ["lukaszczajka"],
-      "Key": "fscd-2017-confluence-of-an-extension-of-combinatory-logic-by-boolean-constants",
-      "PersonsString": "Lukasz Czajka",
-      "Title": "Confluence of an extension of Combinatory Logic by Boolean constants",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-confluence-of-an-extension-of-combinatory-logic-by-boolean-constants"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "maxkanovich",
-        "stepankuznetsov",
-        "glynmorrill",
-        "andrescedrov"
-      ],
-      "Key": "fscd-2017-a-polynomial-time-algorithm-for-the-lambek-calculus-with-brackets-of-bounded-order",
-      "PersonsString": "Max Kanovich, Stepan Kuznetsov, Glyn Morrill and Andre Scedrov",
-      "Title": "A polynomial-time algorithm for the Lambek calculus with brackets of bounded order",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-a-polynomial-time-algorithm-for-the-lambek-calculus-with-brackets-of-bounded-order"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "Carnegie Mellon University"
-      ],
-      "AffiliationsString": ", Carnegie Mellon University",
-      "Authors": [
-        "benjaminlichtman",
-        "janhoffmann"
-      ],
-      "Key": "fscd-2017-arrays-and-references-in-resource-aware-ml",
-      "PersonsString": "Benjamin Lichtman and Jan Hoffmann",
-      "Title": "Arrays and References in Resource Aware ML",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-arrays-and-references-in-resource-aware-ml"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "fscd-2017-fscd-general-meeting",
-      "PersonsString": "",
-      "Title": "FSCD General Meeting",
-      "Type": "Meeting",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-fscd-general-meeting"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["christinetasson"],
-      "Key": "fscd-2017-quantitative-semantics-for-probabilistic-programming",
-      "PersonsString": "Christine Tasson",
-      "Title": "Quantitative semantics for probabilistic programming",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-quantitative-semantics-for-probabilistic-programming"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["lutzstrassburger"],
-      "Key": "fscd-2017-combinatorial-flows-and-their-normalisation",
-      "PersonsString": "Lutz Strassburger",
-      "Title": "Combinatorial Flows and their Normalisation",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-combinatorial-flows-and-their-normalisation"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "robincockett",
-        "jeansimonlemay"
-      ],
-      "Key": "fscd-2017-there-is-only-one-notion-of-differentiation",
-      "PersonsString": "Robin Cockett and Jean-Simon Lemay",
-      "Title": "There is only one notion of differentiation",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-there-is-only-one-notion-of-differentiation"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "University of Cambridge",
-        ""
-      ],
-      "AffiliationsString": "University of Cambridge, ",
-      "Authors": [
-        "andrewpitts",
-        "ianorton"
-      ],
-      "Key": "fscd-2017-models-of-type-theory-based-on-moore-paths",
-      "PersonsString": "Andrew Pitts and Ian Orton",
-      "Title": "Models of Type Theory Based on Moore Paths",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-models-of-type-theory-based-on-moore-paths"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "tadeuszlitak",
-        "miriampolzer",
-        "ulrichrabenstein"
-      ],
-      "Key": "fscd-2017-negative-translations-and-normal-modality",
-      "PersonsString": "Tadeusz Litak, Miriam Polzer and Ulrich Rabenstein",
-      "Title": "Negative Translations and Normal Modality",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-negative-translations-and-normal-modality"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "University of Bath"
-      ],
-      "AffiliationsString": ", University of Bath",
-      "Authors": [
-        "stefanoguerrini",
-        "marcosolieri"
-      ],
-      "Key": "fscd-2017-is-the-optimal-implementation-inefficient-elementarily-not",
-      "PersonsString": "Stefano Guerrini and Marco Solieri",
-      "Title": "Is the optimal implementation inefficient? Elementarily not",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-is-the-optimal-implementation-inefficient-elementarily-not"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "University of Wroclaw",
-        "",
-        ""
-      ],
-      "AffiliationsString": "University of Wroclaw, ",
-      "Authors": [
-        "malgorzatabiernacka",
-        "witoldcharatonik",
-        "klarazielinska"
-      ],
-      "Key": "fscd-2017-generalized-refocusing-from-hybrid-strategies-to-abstract-machines",
-      "PersonsString": "Malgorzata Biernacka, Witold Charatonik and Klara Zielińska",
-      "Title": "Generalized Refocusing: from Hybrid Strategies to Abstract Machines",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-generalized-refocusing-from-hybrid-strategies-to-abstract-machines"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["paolopistone"],
-      "Key": "fscd-2017-dinaturality-between-syntax-and-semantics",
-      "PersonsString": "Paolo Pistone",
-      "Title": "Dinaturality between syntax and semantics",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-dinaturality-between-syntax-and-semantics"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "Vrije Universiteit Amsterdam",
-        "MPI-INF",
-        "ETH Zurich"
-      ],
-      "AffiliationsString": "Vrije Universiteit Amsterdam, MPI-INF, ETH Zurich",
-      "Authors": [
-        "jasminblanchette",
-        "mathiasfleury",
-        "dmitriytraytel"
-      ],
-      "Key": "fscd-2017-nested-multisets-hereditary-multisets-and-syntactic-ordinals-in-isabelle-hol",
-      "PersonsString": "Jasmin Blanchette, Mathias Fleury and Dmitriy Traytel",
-      "Title": "Nested Multisets, Hereditary Multisets, and Syntactic Ordinals in Isabelle/HOL",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-nested-multisets-hereditary-multisets-and-syntactic-ordinals-in-isabelle-hol"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "jurgengiesl",
-        "albertrubio",
-        "johanneswaldmann",
-        "akihisayamada"
-      ],
-      "Key": "fscd-2017-termination-and-complexity-competition-2017",
-      "PersonsString": "Jürgen Giesl, Albert Rubio, Johannes Waldmann and Akihisa Yamada",
-      "Title": "Termination and Complexity Competition 2017",
-      "Type": "Other",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-termination-and-complexity-competition-2017"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "University of Oxford",
-        "INRIA Saclay and LIX"
-      ],
-      "AffiliationsString": "University of Oxford, INRIA Saclay and LIX",
-      "Authors": [
-        "samstaton",
-        "dalemiller"
-      ],
-      "Key": "fscd-2017-welcome-message",
-      "PersonsString": "Sam Staton and Dale Miller",
-      "Title": "Welcome message",
-      "Type": "Other",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-welcome-message"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "The University of Edinburgh",
-        "University of Edinburgh, UK",
-        "University of Strathclyde",
-        "University of Cambridge"
-      ],
-      "AffiliationsString": "The University of Edinburgh, University of Edinburgh, UK, University of Strathclyde, University of Cambridge",
-      "Authors": [
-        "danielhillerstrom",
-        "samlindley",
-        "bobatkey",
-        "kcsivaramakrishnan"
-      ],
-      "Key": "fscd-2017-continuation-passing-style-for-effect-handlers",
-      "PersonsString": "Daniel Hillerström, Sam Lindley, Bob Atkey and KC Sivaramakrishnan",
-      "Title": "Continuation Passing Style for Effect Handlers",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-continuation-passing-style-for-effect-handlers"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "simoncastellan",
-        "pierreclairambault",
-        "glynnwinskel"
-      ],
-      "Key": "fscd-2017-observably-deterministic-concurrent-strategies-and-intensional-full-abstraction-for-parallel-or",
-      "PersonsString": "Simon Castellan, Pierre Clairambault and Glynn Winskel",
-      "Title": "Observably Deterministic Concurrent Strategies and Intensional Full Abstraction for Parallel-or",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-observably-deterministic-concurrent-strategies-and-intensional-full-abstraction-for-parallel-or"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": ["University of Birmingham, UK"],
-      "AffiliationsString": "University of Birmingham, UK",
-      "Authors": ["noamzeilberger"],
-      "Key": "fscd-2017-a-sequent-calculus-for-semi-associativity",
-      "PersonsString": "Noam Zeilberger",
-      "Title": "A sequent calculus for semi-associativity",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-a-sequent-calculus-for-semi-associativity"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": ["IT University of Copenhagen"],
-      "AffiliationsString": "IT University of Copenhagen",
-      "Authors": ["patrickbahr"],
-      "Key": "fscd-2017-b-hm-reduction-in-infinitary-term-graph-rewriting-systems",
-      "PersonsString": "Patrick Bahr",
-      "Title": "Böhm Reduction in Infinitary Term Graph Rewriting Systems",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-b-hm-reduction-in-infinitary-term-graph-rewriting-systems"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "takahitoaoto",
-        "yoshihitotoyama",
-        "yutakimura"
-      ],
-      "Key": "fscd-2017-improving-rewriting-induction-approach-for-proving-ground-confluence",
-      "PersonsString": "Takahito Aoto, Yoshihito Toyama and Yuta Kimura",
-      "Title": "Improving Rewriting Induction Approach for Proving Ground Confluence",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-improving-rewriting-induction-approach-for-proving-ground-confluence"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "Wesleyan University",
-        "",
-        ""
-      ],
-      "AffiliationsString": "Wesleyan University, ",
-      "Authors": [
-        "danlicata",
-        "michaelshulman",
-        "mitchellriley"
-      ],
-      "Key": "fscd-2017-a-fibrational-framework-for-substructural-and-modal-logics",
-      "PersonsString": "Dan Licata, Michael Shulman and Mitchell Riley",
-      "Title": "A Fibrational Framework for Substructural and Modal Logics",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-a-fibrational-framework-for-substructural-and-modal-logics"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": ["University of Innsbruck"],
-      "AffiliationsString": "University of Innsbruck",
-      "Authors": ["georgmoser"],
-      "Key": "fscd-2017-uniform-resource-analysis-by-rewriting-strenghts-and-weaknesses",
-      "PersonsString": "Georg Moser",
-      "Title": "Uniform Resource Analysis by Rewriting: Strenghts and Weaknesses",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-uniform-resource-analysis-by-rewriting-strenghts-and-weaknesses"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "JAIST",
-        "",
-        "",
-        ""
-      ],
-      "AffiliationsString": "JAIST, ",
-      "Authors": [
-        "naohirokawa",
-        "aartmiddeldorp",
-        "christiansternagel",
-        "sarahwinkler"
-      ],
-      "Key": "fscd-2017-infinite-runs-in-abstract-completion",
-      "PersonsString": "Nao Hirokawa, aart Middeldorp, Christian Sternagel and Sarah Winkler",
-      "Title": "Infinite Runs in Abstract Completion",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-infinite-runs-in-abstract-completion"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "akitoshikawamura",
-        "floriansteinberg"
-      ],
-      "Key": "fscd-2017-polynomial-running-times-for-polynomial-time-oracle-machines",
-      "PersonsString": "Akitoshi Kawamura and Florian Steinberg",
-      "Title": "Polynomial running times for polynomial-time oracle machines",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-polynomial-running-times-for-polynomial-time-oracle-machines"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "colinriba",
-        "pierrepradic"
-      ],
-      "Key": "fscd-2017-a-curry-howard-approach-to-church-s-synthesis",
-      "PersonsString": "Colin Riba and Pierre Pradic",
-      "Title": "A Curry-Howard Approach to Church\u2019s Synthesis",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-a-curry-howard-approach-to-church-s-synthesis"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "",
-        "University of Tokyo, Japan",
-        "University of Tokyo, Japan"
-      ],
-      "AffiliationsString": ", University of Tokyo, Japan",
-      "Authors": [
-        "ryotasuzuki",
-        "koichifujima",
-        "naokikobayashi",
-        "takeshitsukada"
-      ],
-      "Key": "fscd-2017-streett-automata-model-checking-of-higher-order-recursion-schemes",
-      "PersonsString": "Ryota Suzuki, Koichi Fujima, Naoki Kobayashi and Takeshi Tsukada",
-      "Title": "Streett Automata Model Checking of Higher-Order Recursion Schemes",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/fscd-2017-streett-automata-model-checking-of-higher-order-recursion-schemes"
     },
     {
       "Abstract": "Jbuilder is the first tool to provide a seamless workflow for the development of OCaml projects. Straightforward and easy-to-learn, it abstracts away from typical complexities of build and package description systems, at the same time helping to maximise portability. We argue that Jbuilder has the potential to unify the OCaml community and to increase the productivity of developers.",
@@ -3135,6 +2553,588 @@
       "URL": "http://icfp17.sigplan.org/event/cufp-2017-talks-using-functional-programming-to-accelerate-translational-research-at-pfizer"
     },
     {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "tadeuszlitak",
+        "miriampolzer",
+        "ulrichrabenstein"
+      ],
+      "Key": "fscd-2017-negative-translations-and-normal-modality",
+      "PersonsString": "Tadeusz Litak, Miriam Polzer and Ulrich Rabenstein",
+      "Title": "Negative Translations and Normal Modality",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-negative-translations-and-normal-modality"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "University of Bath"
+      ],
+      "AffiliationsString": ", University of Bath",
+      "Authors": [
+        "stefanoguerrini",
+        "marcosolieri"
+      ],
+      "Key": "fscd-2017-is-the-optimal-implementation-inefficient-elementarily-not",
+      "PersonsString": "Stefano Guerrini and Marco Solieri",
+      "Title": "Is the optimal implementation inefficient? Elementarily not",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-is-the-optimal-implementation-inefficient-elementarily-not"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "IRIF, France / University of Paris Diderot, France",
+        ""
+      ],
+      "AffiliationsString": "IRIF, France / University of Paris Diderot, France, ",
+      "Authors": [
+        "deliakesner",
+        "pierrevial"
+      ],
+      "Key": "fscd-2017-types-as-resources-for-classical-natural-deduction",
+      "PersonsString": "Delia Kesner and Pierre Vial",
+      "Title": "Types as Resources for Classical Natural Deduction",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-types-as-resources-for-classical-natural-deduction"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["University at Buffalo, SUNY, USA"],
+      "AffiliationsString": "University at Buffalo, SUNY, USA",
+      "Authors": ["marcogaboardi"],
+      "Key": "fscd-2017-type-systems-for-the-relational-verification-of-higher-order-programs",
+      "PersonsString": "Marco Gaboardi",
+      "Title": "Type systems for the relational verification of higher order programs",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-type-systems-for-the-relational-verification-of-higher-order-programs"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["yohjiakama"],
+      "Key": "fscd-2017-the-confluent-terminating-context-free-substitutive-rewriting-system-for-the-calculus-with-surjective-pairing-and-terminal-type",
+      "PersonsString": "Yohji Akama",
+      "Title": "The confluent terminating context-free substitutive rewriting system for the λ-calculus with surjective pairing and terminal type",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-the-confluent-terminating-context-free-substitutive-rewriting-system-for-the-calculus-with-surjective-pairing-and-terminal-type"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "McGill University",
+        "Saarland University"
+      ],
+      "AffiliationsString": ", McGill University, Saarland University",
+      "Authors": [
+        "jonaskaiser",
+        "brigittepientka",
+        "gertsmolka"
+      ],
+      "Key": "fscd-2017-relating-system-f-and-2-a-case-study-in-coq-abella-and-beluga",
+      "PersonsString": "Jonas Kaiser, Brigitte Pientka and Gert Smolka",
+      "Title": "Relating System F and λ2: A Case Study in Coq, Abella and Beluga",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-relating-system-f-and-2-a-case-study-in-coq-abella-and-beluga"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "Computer Laboratory, University of Cambridge",
+        ""
+      ],
+      "AffiliationsString": "Computer Laboratory, University of Cambridge, ",
+      "Authors": [
+        "marcelofiore",
+        "philipsaville"
+      ],
+      "Key": "fscd-2017-list-objects-with-algebraic-structure",
+      "PersonsString": "Marcelo Fiore and Philip Saville",
+      "Title": "List Objects with Algebraic Structure",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-list-objects-with-algebraic-structure"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "benediktahrens",
+        "peterlefanulumsdaine"
+      ],
+      "Key": "fscd-2017-displayed-categories",
+      "PersonsString": "Benedikt Ahrens and Peter Lefanu Lumsdaine",
+      "Title": "Displayed categories",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-displayed-categories"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "University of Wroclaw",
+        "",
+        ""
+      ],
+      "AffiliationsString": "University of Wroclaw, ",
+      "Authors": [
+        "malgorzatabiernacka",
+        "witoldcharatonik",
+        "klarazielinska"
+      ],
+      "Key": "fscd-2017-generalized-refocusing-from-hybrid-strategies-to-abstract-machines",
+      "PersonsString": "Malgorzata Biernacka, Witold Charatonik and Klara Zielińska",
+      "Title": "Generalized Refocusing: from Hybrid Strategies to Abstract Machines",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-generalized-refocusing-from-hybrid-strategies-to-abstract-machines"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["paolopistone"],
+      "Key": "fscd-2017-dinaturality-between-syntax-and-semantics",
+      "PersonsString": "Paolo Pistone",
+      "Title": "Dinaturality between syntax and semantics",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-dinaturality-between-syntax-and-semantics"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "Technical University Dortmund",
+        "Technical University Dortmund"
+      ],
+      "AffiliationsString": "Technical University Dortmund",
+      "Authors": [
+        "andrejdudenhefner",
+        "jakobrehof"
+      ],
+      "Key": "fscd-2017-the-complexity-of-principal-inhabitation",
+      "PersonsString": "Andrej Dudenhefner and Jakob Rehof",
+      "Title": "The Complexity of Principal Inhabitation",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-the-complexity-of-principal-inhabitation"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "Vrije Universiteit Amsterdam",
+        "MPI-INF",
+        "ETH Zurich"
+      ],
+      "AffiliationsString": "Vrije Universiteit Amsterdam, MPI-INF, ETH Zurich",
+      "Authors": [
+        "jasminblanchette",
+        "mathiasfleury",
+        "dmitriytraytel"
+      ],
+      "Key": "fscd-2017-nested-multisets-hereditary-multisets-and-syntactic-ordinals-in-isabelle-hol",
+      "PersonsString": "Jasmin Blanchette, Mathias Fleury and Dmitriy Traytel",
+      "Title": "Nested Multisets, Hereditary Multisets, and Syntactic Ordinals in Isabelle/HOL",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-nested-multisets-hereditary-multisets-and-syntactic-ordinals-in-isabelle-hol"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "jurgengiesl",
+        "albertrubio",
+        "johanneswaldmann",
+        "akihisayamada"
+      ],
+      "Key": "fscd-2017-termination-and-complexity-competition-2017",
+      "PersonsString": "Jürgen Giesl, Albert Rubio, Johannes Waldmann and Akihisa Yamada",
+      "Title": "Termination and Complexity Competition 2017",
+      "Type": "Other",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-termination-and-complexity-competition-2017"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "University of Buenos Aires, Argentina / IRIF, France / University of Paris Diderot, France",
+        "CONICET, Argentina / Universidad Nacional de Quilmes, Argentina"
+      ],
+      "AffiliationsString": "University of Buenos Aires, Argentina / IRIF, France / University of Paris Diderot, France, CONICET, Argentina / Universidad Nacional de Quilmes, Argentina",
+      "Authors": [
+        "pablobarenbaum",
+        "eduardobonelli"
+      ],
+      "Key": "fscd-2017-optimality-and-the-linear-substitution-calculus",
+      "PersonsString": "Pablo Barenbaum and Eduardo Bonelli",
+      "Title": "Optimality and the Linear Substitution Calculus",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-optimality-and-the-linear-substitution-calculus"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "University of Oxford",
+        "INRIA Saclay and LIX"
+      ],
+      "AffiliationsString": "University of Oxford, INRIA Saclay and LIX",
+      "Authors": [
+        "samstaton",
+        "dalemiller"
+      ],
+      "Key": "fscd-2017-welcome-message",
+      "PersonsString": "Sam Staton and Dale Miller",
+      "Title": "Welcome message",
+      "Type": "Other",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-welcome-message"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "The University of Edinburgh",
+        "University of Edinburgh, UK",
+        "University of Strathclyde",
+        "University of Cambridge"
+      ],
+      "AffiliationsString": "The University of Edinburgh, University of Edinburgh, UK, University of Strathclyde, University of Cambridge",
+      "Authors": [
+        "danielhillerstrom",
+        "samlindley",
+        "bobatkey",
+        "kcsivaramakrishnan"
+      ],
+      "Key": "fscd-2017-continuation-passing-style-for-effect-handlers",
+      "PersonsString": "Daniel Hillerström, Sam Lindley, Bob Atkey and KC Sivaramakrishnan",
+      "Title": "Continuation Passing Style for Effect Handlers",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-continuation-passing-style-for-effect-handlers"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "benedettointrigila",
+        "giuliomanzonetto",
+        "andrewpolonsky"
+      ],
+      "Key": "fscd-2017-refutation-of-sall-s-longstanding-conjecture",
+      "PersonsString": "Benedetto Intrigila, Giulio Manzonetto and Andrew Polonsky",
+      "Title": "Refutation of Sallé's Longstanding Conjecture",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-refutation-of-sall-s-longstanding-conjecture"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["University College London"],
+      "AffiliationsString": "University College London",
+      "Authors": ["alexandrasilva"],
+      "Key": "fscd-2017-brzozowski-goes-concurrent-a-kleene-theorem-for-pomset-languages",
+      "PersonsString": "Alexandra Silva",
+      "Title": "Brzozowski Goes Concurrent -- A Kleene Theorem for Pomset Languages",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-brzozowski-goes-concurrent-a-kleene-theorem-for-pomset-languages"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "simoncastellan",
+        "pierreclairambault",
+        "glynnwinskel"
+      ],
+      "Key": "fscd-2017-observably-deterministic-concurrent-strategies-and-intensional-full-abstraction-for-parallel-or",
+      "PersonsString": "Simon Castellan, Pierre Clairambault and Glynn Winskel",
+      "Title": "Observably Deterministic Concurrent Strategies and Intensional Full Abstraction for Parallel-or",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-observably-deterministic-concurrent-strategies-and-intensional-full-abstraction-for-parallel-or"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["University of Birmingham, UK"],
+      "AffiliationsString": "University of Birmingham, UK",
+      "Authors": ["noamzeilberger"],
+      "Key": "fscd-2017-a-sequent-calculus-for-semi-associativity",
+      "PersonsString": "Noam Zeilberger",
+      "Title": "A sequent calculus for semi-associativity",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-a-sequent-calculus-for-semi-associativity"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["University of Innsbruck"],
+      "AffiliationsString": "University of Innsbruck",
+      "Authors": ["lukaszczajka"],
+      "Key": "fscd-2017-confluence-of-an-extension-of-combinatory-logic-by-boolean-constants",
+      "PersonsString": "Lukasz Czajka",
+      "Title": "Confluence of an extension of Combinatory Logic by Boolean constants",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-confluence-of-an-extension-of-combinatory-logic-by-boolean-constants"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "maxkanovich",
+        "stepankuznetsov",
+        "glynmorrill",
+        "andrescedrov"
+      ],
+      "Key": "fscd-2017-a-polynomial-time-algorithm-for-the-lambek-calculus-with-brackets-of-bounded-order",
+      "PersonsString": "Max Kanovich, Stepan Kuznetsov, Glyn Morrill and Andre Scedrov",
+      "Title": "A polynomial-time algorithm for the Lambek calculus with brackets of bounded order",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-a-polynomial-time-algorithm-for-the-lambek-calculus-with-brackets-of-bounded-order"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["IT University of Copenhagen"],
+      "AffiliationsString": "IT University of Copenhagen",
+      "Authors": ["patrickbahr"],
+      "Key": "fscd-2017-b-hm-reduction-in-infinitary-term-graph-rewriting-systems",
+      "PersonsString": "Patrick Bahr",
+      "Title": "Böhm Reduction in Infinitary Term Graph Rewriting Systems",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-b-hm-reduction-in-infinitary-term-graph-rewriting-systems"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "Carnegie Mellon University"
+      ],
+      "AffiliationsString": ", Carnegie Mellon University",
+      "Authors": [
+        "benjaminlichtman",
+        "janhoffmann"
+      ],
+      "Key": "fscd-2017-arrays-and-references-in-resource-aware-ml",
+      "PersonsString": "Benjamin Lichtman and Jan Hoffmann",
+      "Title": "Arrays and References in Resource Aware ML",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-arrays-and-references-in-resource-aware-ml"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "fscd-2017-fscd-general-meeting",
+      "PersonsString": "",
+      "Title": "FSCD General Meeting",
+      "Type": "Meeting",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-fscd-general-meeting"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "takahitoaoto",
+        "yoshihitotoyama",
+        "yutakimura"
+      ],
+      "Key": "fscd-2017-improving-rewriting-induction-approach-for-proving-ground-confluence",
+      "PersonsString": "Takahito Aoto, Yoshihito Toyama and Yuta Kimura",
+      "Title": "Improving Rewriting Induction Approach for Proving Ground Confluence",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-improving-rewriting-induction-approach-for-proving-ground-confluence"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["christinetasson"],
+      "Key": "fscd-2017-quantitative-semantics-for-probabilistic-programming",
+      "PersonsString": "Christine Tasson",
+      "Title": "Quantitative semantics for probabilistic programming",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-quantitative-semantics-for-probabilistic-programming"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["lutzstrassburger"],
+      "Key": "fscd-2017-combinatorial-flows-and-their-normalisation",
+      "PersonsString": "Lutz Strassburger",
+      "Title": "Combinatorial Flows and their Normalisation",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-combinatorial-flows-and-their-normalisation"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "Wesleyan University",
+        "",
+        ""
+      ],
+      "AffiliationsString": "Wesleyan University, ",
+      "Authors": [
+        "danlicata",
+        "michaelshulman",
+        "mitchellriley"
+      ],
+      "Key": "fscd-2017-a-fibrational-framework-for-substructural-and-modal-logics",
+      "PersonsString": "Dan Licata, Michael Shulman and Mitchell Riley",
+      "Title": "A Fibrational Framework for Substructural and Modal Logics",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-a-fibrational-framework-for-substructural-and-modal-logics"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["University of Innsbruck"],
+      "AffiliationsString": "University of Innsbruck",
+      "Authors": ["georgmoser"],
+      "Key": "fscd-2017-uniform-resource-analysis-by-rewriting-strenghts-and-weaknesses",
+      "PersonsString": "Georg Moser",
+      "Title": "Uniform Resource Analysis by Rewriting: Strenghts and Weaknesses",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-uniform-resource-analysis-by-rewriting-strenghts-and-weaknesses"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "JAIST",
+        "",
+        "",
+        ""
+      ],
+      "AffiliationsString": "JAIST, ",
+      "Authors": [
+        "naohirokawa",
+        "aartmiddeldorp",
+        "christiansternagel",
+        "sarahwinkler"
+      ],
+      "Key": "fscd-2017-infinite-runs-in-abstract-completion",
+      "PersonsString": "Nao Hirokawa, aart Middeldorp, Christian Sternagel and Sarah Winkler",
+      "Title": "Infinite Runs in Abstract Completion",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-infinite-runs-in-abstract-completion"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "akitoshikawamura",
+        "floriansteinberg"
+      ],
+      "Key": "fscd-2017-polynomial-running-times-for-polynomial-time-oracle-machines",
+      "PersonsString": "Akitoshi Kawamura and Florian Steinberg",
+      "Title": "Polynomial running times for polynomial-time oracle machines",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-polynomial-running-times-for-polynomial-time-oracle-machines"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "robincockett",
+        "jeansimonlemay"
+      ],
+      "Key": "fscd-2017-there-is-only-one-notion-of-differentiation",
+      "PersonsString": "Robin Cockett and Jean-Simon Lemay",
+      "Title": "There is only one notion of differentiation",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-there-is-only-one-notion-of-differentiation"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "University of Cambridge",
+        ""
+      ],
+      "AffiliationsString": "University of Cambridge, ",
+      "Authors": [
+        "andrewpitts",
+        "ianorton"
+      ],
+      "Key": "fscd-2017-models-of-type-theory-based-on-moore-paths",
+      "PersonsString": "Andrew Pitts and Ian Orton",
+      "Title": "Models of Type Theory Based on Moore Paths",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-models-of-type-theory-based-on-moore-paths"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "colinriba",
+        "pierrepradic"
+      ],
+      "Key": "fscd-2017-a-curry-howard-approach-to-church-s-synthesis",
+      "PersonsString": "Colin Riba and Pierre Pradic",
+      "Title": "A Curry-Howard Approach to Church\u2019s Synthesis",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-a-curry-howard-approach-to-church-s-synthesis"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "",
+        "University of Tokyo, Japan",
+        "University of Tokyo, Japan"
+      ],
+      "AffiliationsString": ", University of Tokyo, Japan",
+      "Authors": [
+        "ryotasuzuki",
+        "koichifujima",
+        "naokikobayashi",
+        "takeshitsukada"
+      ],
+      "Key": "fscd-2017-streett-automata-model-checking-of-higher-order-recursion-schemes",
+      "PersonsString": "Ryota Suzuki, Koichi Fujima, Naoki Kobayashi and Takeshi Tsukada",
+      "Title": "Streett Automata Model Checking of Higher-Order Recursion Schemes",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/fscd-2017-streett-automata-model-checking-of-higher-order-recursion-schemes"
+    },
+    {
       "Abstract": "Polymorphic type systems such as System F enjoy the parametricity property: polymorphic functions cannot inspect their type argument and will therefore apply the same algorithm to any type they are instantiated on. This idea is formalized mathematically in Reynolds's theory of relational parametricity, which allows the metatheoretical derivation of parametricity theorems about all values of a given type. Although predicative System F embeds into dependent type systems such as Martin-L&amp;quot;of Type Theory (MLTT), parametricity does not carry over as easily. The identity extension lemma, which is crucial if we want to prove theorems involving equality, has only been shown to hold for small types, excluding the universe. \nWe attribute this to the fact that MLTT uses a single type former $\\Pi$ to generalize both the parametric quantifier $\\forall$ and the type former $\\to$ which is non-parametric in the sense that its elements may use their argument as a value. We equip MLTT with parametric quantifiers $\\forall$ and $\\exists$ alongside the existing $\\Pi$ and $\\Sigma$, and provide relation type formers for proving parametricity theorems internally. We show internally the existence of initial algebras and final co-algebras of indexed functors both by Church encoding and, for a large class of functors, by using sized types. \nWe prove soundness of our type system by enhancing existing iterated reflexive graph (cubical set) models of dependently typed parametricity by distinguishing between edges that express relatedness of objects (bridges) and edges that express equality (paths). The parametric functions are those that map bridges to paths. \nWe implement an extension to the Agda proof assistant that type-checks proofs in our type system.",
       "Affiliations": [
         "KU Leuven, Belgium",
@@ -3196,6 +3196,17 @@
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-effect-driven-quickchecking-of-compilers"
     },
     {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "icfp-2017-catering-sunday-lunch",
+      "PersonsString": "",
+      "Title": "Sunday lunch",
+      "Type": "Lunch",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-sunday-lunch"
+    },
+    {
       "Abstract": "We introduce the FUSION algorithm for local refinement type inference, yielding a new SMT-based method for verifying programs with polymorphic data types and higher-order functions. FUSION is concise as the programmer need only write signatures for (externally exported) top-level functions and places with cyclic (recursive) dependencies, after which FUSION can predictably synthesize the most precise refinement types for all intermediate terms (expressible in the decidable refinement logic), thereby checking the program without false alarms. We have implemented FUSION and evaluated it on the benchmarks from the LiquidHaskell suite totalling about 12KLOC. FUSION checks an existing safety benchmark suite using about half as many templates as previously required and nearly 2x faster. In a new set of theorem proving benchmarks FUSION is both 10 - 50x faster and, by synthesizing the most precise types, avoids false alarms to make verification possible.",
       "Affiliations": [
         "University of California at San Diego, USA",
@@ -3211,6 +3222,113 @@
       "Title": "Local Refinement Typing",
       "Type": "Talk",
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-local-refinement-typing"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "icfp-2017-catering-sunday-coffee-break-1",
+      "PersonsString": "",
+      "Title": "Sunday coffee break 1",
+      "Type": "Coffee break",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-sunday-coffee-break-1"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "icfp-2017-catering-saturday-coffee-break-3",
+      "PersonsString": "",
+      "Title": "Saturday coffee break 3",
+      "Type": "Coffee break",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-saturday-coffee-break-3"
+    },
+    {
+      "Abstract": "Dependent type theory is a powerful framework for interactive theorem proving and automated reasoning, allowing us to encode mathematical objects, data type specifications, assertions, proofs, and programs, all in the same language. Here we show that dependent type theory can also serve as its own metaprogramming language, that is, a language in which one can write programs that assist in the construction and manipulation of terms in dependent type theory itself. Specifically, we describe the metaprogramming language currently in use in the Lean theorem prover, which extends Lean's object language with an API for accessing natively implemented procedures and provides ways of reflecting object-level expressions into the metalanguage. We provide evidence to show that our language is performant, and that it provides a convenient and flexible way of writing not only small-scale interactive tactics, but also more substantial kinds of automation.",
+      "Affiliations": [
+        "Vienna University of Technology, Austria",
+        "KIT, Germany",
+        "University of Washington, USA",
+        "Carnegie Mellon University, USA",
+        "Microsoft Research, n.n."
+      ],
+      "AffiliationsString": "Vienna University of Technology, Austria, KIT, Germany, University of Washington, USA, Carnegie Mellon University, USA, Microsoft Research, n.n.",
+      "Authors": [
+        "gabrielebner",
+        "sebastianullrich",
+        "jaredroesch",
+        "jeremyavigad",
+        "leonardodemoura"
+      ],
+      "Key": "icfp-2017-papers-engineering-a-metaprogramming-framework-for-formal-verification",
+      "PersonsString": "Gabriel Ebner, Sebastian Ullrich, Jared Roesch, Jeremy Avigad and Leonardo De Moura",
+      "Title": "A Metaprogramming Framework for Formal Verification",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-engineering-a-metaprogramming-framework-for-formal-verification"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "icfp-2017-catering-thursday-coffee-break-1",
+      "PersonsString": "",
+      "Title": "Thursday coffee break 1",
+      "Type": "Coffee break",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-thursday-coffee-break-1"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "icfp-2017-catering-sunday-coffee-break-4",
+      "PersonsString": "",
+      "Title": "Sunday coffee break 4",
+      "Type": "Coffee break",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-sunday-coffee-break-4"
+    },
+    {
+      "Abstract": "The polymorphic blame calculus integrates static typing, including universal types, with dynamic typing. The primary challenge with this integration is preserving parametricity: even dynamically-typed code should satisfy it once it has been cast to a universal type. Ahmed et al. (2011) employ runtime type generation in the polymorphic blame calculus to preserve parametricity, but a proof that it does so has been elusive. Matthews and Ahmed (2008) gave a proof of parametricity for a closely related system that combines ML and Scheme, but later found a flaw in their proof. In this paper we present an improved version of the polymorphic blame calculus and we prove that it satisfies relational parametricity. The proof relies on a step-indexed Kripke logical relation. The step-indexing is required to make the logical relation well-defined in the case for the dynamic type. The possible worlds include the mapping of generated type names to their types and the mapping of type names to relations. We prove the Fundamental Property of this logical relation and that it is sound with respect to contextual equivalence. To demonstrate the utility of parametricity in the polymorphic blame calculus, we derive two free theorems.",
+      "Affiliations": [
+        "Northeastern University, USA",
+        "Northeastern University, USA",
+        "Indiana University, USA",
+        "University of Edinburgh, UK"
+      ],
+      "AffiliationsString": "Northeastern University, USA, Indiana University, USA, University of Edinburgh, UK",
+      "Authors": [
+        "amalahmed",
+        "dustinjamner",
+        "jeremysiek",
+        "philipwadler"
+      ],
+      "Key": "icfp-2017-papers-theorems-for-free-for-free-parametricity-with-and-without-types",
+      "PersonsString": "Amal Ahmed, Dustin Jamner, Jeremy G. Siek and Philip Wadler",
+      "Title": "Theorems for Free for Free: Parametricity, With and Without Types",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-theorems-for-free-for-free-parametricity-with-and-without-types"
+    },
+    {
+      "Abstract": "This article describes the key innovations used in the massive open online course ``Introduction to Functional Programming using OCaml'' that has run since the fall semester of 2015. A fully in-browser development environment with an integrated grader provides an exceptional level of feedback to the learners. A functional library of grading combinators greatly simplifies the notoriously complex task of writing test suites for the exercises, and provides static type-safety guarantees on the tested user code. Even the error-prone manual process of importing the course content in the learning platform has been replaced by a functional program that describes the course and statically checks its contents. A detailed statistical analysis of the data collected during and after the course assesses the effectiveness of these innovations.",
+      "Affiliations": [
+        "OCamlPro, n.n.",
+        "Inria, France / University of Paris Diderot, France",
+        "OCamlPro, n.n."
+      ],
+      "AffiliationsString": "OCamlPro, n.n., Inria, France / University of Paris Diderot, France",
+      "Authors": [
+        "benjamincanou",
+        "robertodicosmo",
+        "gregoirehenry"
+      ],
+      "Key": "icfp-2017-papers-scaling-up-functional-programming-education-under-the-hood-of-the-ocaml-mooc",
+      "PersonsString": "Benjamin Canou, Roberto Di Cosmo and Grégoire Henry",
+      "Title": "Scaling up Functional Programming Education: Under the Hood of the OCaml MOOC",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-scaling-up-functional-programming-education-under-the-hood-of-the-ocaml-mooc"
     },
     {
       "Abstract": "We compare the expressive power of three programming abstractions for user-defined computational effects: Bauer and Pretnar's effect handlers, Filinski's monadic reflection, and delimited control without answer-type-modification. This comparison allows a precise discussion about the relative expressiveness of each programming abstraction. It also demonstrates the sensitivity of the relative expressiveness of user-defined effects to seemingly orthogonal language features. \nWe present three calculi, one per abstraction, extending Levy's call-by-push-value. For each calculus, we present syntax, operational semantics, a natural type-and-effect system, and, for effect handlers and monadic reflection, a set-theoretic denotational semantics. We establish their basic meta-theoretic properties: safety, termination, and, where applicable, soundness and adequacy. Using Felleisen's notion of a macro translation, we show that these abstractions can macro-express each other, and show which translations preserve typeability. We use the adequate finitary set-theoretic denotational semantics for the monadic calculus to show that effect handlers cannot be macro-expressed while preserving typeability either by monadic reflection or by delimited control. We supplement our development with a mechanised Abella formalisation.",
@@ -3235,6 +3353,17 @@
     },
     {
       "Abstract": "",
+      "Affiliations": ["Portland State University"],
+      "AffiliationsString": "Portland State University",
+      "Authors": ["markjones"],
+      "Key": "icfp-2017-keynote-talks-program-chair-report",
+      "PersonsString": "Mark Jones",
+      "Title": "Program Chair's Report",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-keynote-talks-program-chair-report"
+    },
+    {
+      "Abstract": "",
       "Affiliations": [],
       "AffiliationsString": "",
       "Authors": [],
@@ -3243,6 +3372,17 @@
       "Title": "Friday coffee break 1",
       "Type": "Coffee break",
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-friday-coffee-break-1"
+    },
+    {
+      "Abstract": "It is well-known that the simply typed lambda-calculus is modeled by any cartesian closed category (CCC). This correspondence suggests giving typed functional programs a variety of interpretations, each corresponding to a different category. A convenient way to realize this idea is as a collection of meaning-preserving transformations added to an existing compiler, such as GHC for Haskell. This paper describes such an implementation and demonstrates its use for a variety of interpretations including hardware circuits, automatic differentiation, incremental computation, and interval analysis. Each such interpretation is a category easily defined in Haskell (outside of the compiler). The general technique appears to provide a compelling alternative to deeply embedded domain-specific languages.",
+      "Affiliations": ["Target, USA"],
+      "AffiliationsString": "Target, USA",
+      "Authors": ["conalelliott"],
+      "Key": "icfp-2017-papers-compiling-to-categories",
+      "PersonsString": "Conal Elliott",
+      "Title": "Compiling to Categories",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-compiling-to-categories"
     },
     {
       "Abstract": "We present an approach to support partiality in type-level computation without compromising expressiveness or type safety. Existing frameworks for type-level computation either require totality or implicitly assume it. For example, type families in Haskell provide a powerful, modular means of defining type-level computation. However, their current design implicitly assumes that type families are total, introducing nonsensical types and significantly complicating the metatheory of type families and their extensions. We propose an alternative design, using qualified types to pair type-level computations with predicates that capture their domains. Our approach naturally captures the intuitive partiality of type families, simplifying their metatheory. As evidence, we present the first complete proof of consistency for a language with closed type families.",
@@ -3315,6 +3455,52 @@
       "Title": "Friday coffee break 3",
       "Type": "Coffee break",
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-friday-coffee-break-3"
+    },
+    {
+      "Abstract": "Many verification tools build on automated solvers. These tools reduce problems in a specific application domain (e.g., compiler optimization validation) to queries that can be discharged with a highly optimized solver. But the correctness of the reductions themselves is rarely verified in practice, limiting the confidence that the solver's output establishes the desired domain-level property. \nThis paper presents SpaceSearch, a new library for developing solver-aided tools within a proof assistant. A user builds their solver-aided tool in Coq against the SpaceSearch interface, and the user then verifies that the results provided by the interface are sufficient to establish the tool's desired high-level properties. Once verified, the tool can be extracted to an implementation in a solver-aided language (e.g., Rosette), where SpaceSearch provides an efficient instantiation of the SpaceSearch interface with calls to an underlying SMT solver. This combines the strong correctness guarantees of developing a tool in a proof assistant with the high performance of modern SMT solvers. This paper also introduces new optimizations for such verified solver-aided tools, including parallelization and incrementalization. \nWe evaluate SpaceSearch by building and verifying two solver-aided tools. The first, SaltShaker, checks that RockSalt's x86 semantics for a given instruction agrees with STOKE's x86 semantics. SaltShaker identified 7 bugs in RockSalt and 1 bug in STOKE. After these systems were patched by their developers, SaltShaker verified the semantics' agreement on 15,255 instruction instantiations in under 2h. The second tool, BGProof, is a verified version of an existing Border Gateway Protocol (BGP) router configuration checker. Like the existing checker, BGProof scales to checking industrial configurations spanning over 240 KLOC, identifying 19 configuration inconsistencies with no false positives. However, the correctness of BGProof has been formally proven, and we found 2 bugs in the unverified implementation. These results demonstrate that SpaceSearch is a practical approach to developing efficient, verified solver-aided tools.",
+      "Affiliations": [
+        "University of Washington, USA",
+        "University of Washington, USA",
+        "Stanford University, USA",
+        "University of Washington, USA",
+        "University of Washington, USA",
+        "University of Washington, USA"
+      ],
+      "AffiliationsString": "University of Washington, USA, Stanford University, USA",
+      "Authors": [
+        "konstantinweitz",
+        "stevenlyubomirsky",
+        "stefanheule",
+        "eminatorlak",
+        "michaeldernst",
+        "zacharytatlock"
+      ],
+      "Key": "icfp-2017-papers-spacesearch-a-library-for-building-and-verifying-solver-aided-tools",
+      "PersonsString": "Konstantin Weitz, Steven Lyubomirsky, Stefan Heule, Emina Torlak, Michael D. Ernst and Zachary Tatlock",
+      "Title": "SpaceSearch: A Library for Building and Verifying Solver-Aided Tools",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-spacesearch-a-library-for-building-and-verifying-solver-aided-tools"
+    },
+    {
+      "Abstract": "We propose a core semantics for Dependent Haskell, an extension of Haskell with full-spectrum dependent types. Our semantics consists of two related languages. The first is a Curry-style dependently-typed language with nontermination, irrelevant arguments, and equality abstraction. The second, inspired by the Glasgow Haskell Compiler's core language FC, is its explicitly-typed analogue, suitable for implementation in GHC. All of our results\u2014chiefly, type safety, along with theorems that relate these two languages\u2014have been formalized using the Coq proof assistant. Because our work is backwards compatible with Haskell, our type safety proof holds in the presence of nonterminating computation. However, unlike other full-spectrum dependently-typed languages, such as Coq, Agda or Idris, because of this nontermination, Haskell's term language does not correspond to a consistent logic.",
+      "Affiliations": [
+        "University of Pennsylvania, USA",
+        "University of Pennsylvania, USA",
+        "Ecole Polytechnique, n.n. / University of Campinas, Brazil",
+        "Bryn Mawr College, USA"
+      ],
+      "AffiliationsString": "University of Pennsylvania, USA, Ecole Polytechnique, n.n. / University of Campinas, Brazil, Bryn Mawr College, USA",
+      "Authors": [
+        "stephanieweirich",
+        "antoinevoizard",
+        "pedrohenriqueavezedodeamorim",
+        "richardeisenberg"
+      ],
+      "Key": "icfp-2017-papers-a-specification-for-dependently-typed-haskell",
+      "PersonsString": "Stephanie Weirich, Antoine Voizard, Pedro Henrique Avezedo de Amorim and Richard A. Eisenberg",
+      "Title": "A Specification for Dependent Types in Haskell",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-a-specification-for-dependently-typed-haskell"
     },
     {
       "Abstract": "",
@@ -3461,6 +3647,17 @@
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-social-events-welcome-reception"
     },
     {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "icfp-2017-catering-saturday-lunch",
+      "PersonsString": "",
+      "Title": "Saturday lunch",
+      "Type": "Lunch",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-saturday-lunch"
+    },
+    {
       "Abstract": "Modern service-oriented applications forgo semantically rich protocols and middleware when composing services. Instead, they embrace the loosely-coupled development and deployment of services that communicate via simple network protocols. Even though these applications do expose interfaces that are higher-order in spirit, the simplicity of the network protocols forces them to rely on brittle low-level encodings. To bridge the apparent semantic gap, programmers introduce ad-hoc and error-prone defensive code. Inspired by Design by Contract, we choose a different route to bridge this gap. We introduce Whip, a contract system for modern services. Whip (i) provides programmers with a higher-order contract language tailored to the needs of modern services; and (ii) monitors services at run time to detect services that do not live up to their advertised interfaces. Contract monitoring is local to a service. Services are treated as black boxes, allowing heterogeneous implementation languages without modification to services' code. Thus, Whip does not disturb the loosely coupled nature of modern services.",
       "Affiliations": [
         "Harvard University, USA",
@@ -3499,6 +3696,25 @@
       "Title": "Tutorial T1: Writing Verified Programs in CakeML (part 2)",
       "Type": "Talk",
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-tutorials-tutorial-t1-writing-verified-programs-in-cakeml-continued-"
+    },
+    {
+      "Abstract": "We study an extension of gradual typing\u2014a method to integrate dynamic typing and static typing smoothly in a single language\u2014to parametric polymorphism and its theoretical properties, including conservativity of typing and semantics over both statically and dynamically typed languages, type safety, blame-subtyping theorem, and the gradual guarantee\u2014the so-called refined criteria, advocated by Siek et al. We develop System F_G, which is a gradually typed extension of System F with the dynamic type and a new type consistency relation, and translation to a new polymorphic blame calculus System F_C, which is based on previous polymorphic blame calculi by Ahmed et al. The design of System F_G and System F_C, geared to the criteria, is influenced by the distinction between static and gradual type variables, first observed by Garcia and Cimini. This distinction is also useful to execute statically typed code without incurring additional overhead to manage type names as in the prior calculi. We prove that System F_G satisfies most of the criteria: all but the hardest property of the gradual guarantee on semantics. We show that a key conjecture to prove the gradual guarantee leads to the Jack-of-All-Trades property, conjectured as an important property of the polymorphic blame calculus by Ahmed et al.",
+      "Affiliations": [
+        "Kyoto University, Japan",
+        "IBM Research, Japan",
+        "Kyoto University, Japan"
+      ],
+      "AffiliationsString": "Kyoto University, Japan, IBM Research, Japan",
+      "Authors": [
+        "yuuigarashi",
+        "tarosekiyama",
+        "atsushiigarashi"
+      ],
+      "Key": "icfp-2017-papers-on-polymorphic-gradual-typing",
+      "PersonsString": "Yuu Igarashi, Taro Sekiyama and Atsushi Igarashi",
+      "Title": "On Polymorphic Gradual Typing",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-on-polymorphic-gradual-typing"
     },
     {
       "Abstract": "We present Low*, a language for low-level programming and verification, and its application to high-assurance optimized cryptographic libraries. Low* is a shallow embedding of a small, sequential, well-behaved subset of C in F*, a dependently- typed variant of ML aimed at program verification. Departing from ML, Low* does not involve any garbage collection or implicit heap allocation; instead, it has a structured memory model à la CompCert, and it provides the control required for writing efficient low-level security-critical code. \nBy virtue of typing, any Low* program is memory safe. In addition, the programmer can make full use of the verification power of F* to write high-level specifications and verify the functional correctness of Low* code using a combination of SMT automation and sophisticated manual proofs. At extraction time, specifications and proofs are erased, and the remaining code enjoys a predictable translation to C. We prove that this translation preserves semantics and side-channel resistance. \nWe provide a new compiler back-end from Low* to C and, to evaluate our approach, we implement and verify various cryptographic algorithms, constructions, and tools for a total of about 28,000 lines of code. We show that our Low* code delivers performance competitive with existing (unverified) C cryptographic libraries, suggesting our approach may be applicable to larger-scale low-level software.",
@@ -3540,6 +3756,62 @@
       "Affiliations": [],
       "AffiliationsString": "",
       "Authors": [],
+      "Key": "icfp-2017-catering-friday-coffee-break-2",
+      "PersonsString": "",
+      "Title": "Friday coffee break 2",
+      "Type": "Coffee break",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-friday-coffee-break-2"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "icfp-2017-social-events-industry-reception",
+      "PersonsString": "",
+      "Title": "Industry Reception",
+      "Type": "Social Event",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-social-events-industry-reception"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Northwestern University, USA"],
+      "AffiliationsString": "Northwestern University, USA",
+      "Authors": ["robbyfindler"],
+      "Key": "icfp-2017-keynote-talks-icfp-2018-announcement",
+      "PersonsString": "Robert Bruce Findler",
+      "Title": "ICFP 2018 Announcement",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-keynote-talks-icfp-2018-announcement"
+    },
+    {
+      "Abstract": "Designing and prototyping new features is important in many industrial projects. Functional programming and formal verification tools can prove valuable for that purpose, but lead to challenges when integrating with existing product code or when planning technology transfer. \nThis article reports on our experience using the Coq proof assistant as a prototyping environment for building a query compiler intended for use in IBM's ODM Insights product. We discuss the pros and cons of using Coq for this purpose and describe our methodology for porting the compiler to Java, as required for product integration.",
+      "Affiliations": [
+        "IBM Research",
+        "IBM Research",
+        "IBM Research",
+        "IBM Research",
+        "IBM Research"
+      ],
+      "AffiliationsString": "IBM Research",
+      "Authors": [
+        "joshuaauerbach",
+        "martinhirzel",
+        "louismandel",
+        "avrahamshinnar",
+        "jeromesimeon"
+      ],
+      "Key": "icfp-2017-papers-prototyping-a-query-compiler-using-coq-experience-report-",
+      "PersonsString": "Joshua Auerbach, Martin Hirzel, Louis Mandel, Avraham Shinnar and Jerome Simeon",
+      "Title": "Prototyping a Query Compiler using Coq (Experience Report)",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-prototyping-a-query-compiler-using-coq-experience-report-"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
       "Key": "icfp-2017-catering-tuesday-lunch",
       "PersonsString": "",
       "Title": "Tuesday lunch",
@@ -3562,6 +3834,17 @@
       "Title": "Symbolic Conditioning of Arrays in Probabilistic Programs",
       "Type": "Talk",
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-symbolic-conditioning-of-arrays-in-probabilistic-programs"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["University College London"],
+      "AffiliationsString": "University College London",
+      "Authors": ["ilyasergey"],
+      "Key": "icfp-2017-student-research-competition-student-research-competition-awards",
+      "PersonsString": "Ilya Sergey",
+      "Title": "Student Research Competition Awards",
+      "Type": "Awards",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-student-research-competition-student-research-competition-awards"
     },
     {
       "Abstract": "",
@@ -3660,6 +3943,29 @@
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-functional-pearl-a-unified-approach-to-solving-seven-programming-problems"
     },
     {
+      "Abstract": "It has become fairly standard in the programming-languages research world to verify functional programs in proof assistants using induction, algebraic simplification, and rewriting. In this paper, we introduce Kami, a Coq library that enables similar expressive and modular reasoning for hardware designs expressed in the style of the Bluespec language. We can specify, implement, and verify realistic designs entirely within Coq, ending with automatic extraction into a pipeline that bottoms out in FPGAs. Our methodology, using labeled transition systems, has been evaluated in a case study verifying an infinite family of multicore systems, with cache-coherent shared memory and pipelined cores implementing (the base integer subset of) the RISC-V instruction set.",
+      "Affiliations": [
+        "Massachusetts Institute of Technology, USA",
+        "Massachusetts Institute of Technology, USA",
+        "Massachusetts Institute of Technology, USA",
+        "Massachusetts Institute of Technology, USA",
+        "Massachusetts Institute of Technology, USA"
+      ],
+      "AffiliationsString": "Massachusetts Institute of Technology, USA",
+      "Authors": [
+        "joonwonchoi",
+        "muralidaranvijayaraghavan",
+        "benjaminsherman",
+        "adamchlipala",
+        "arvind"
+      ],
+      "Key": "icfp-2017-papers-kami-a-platform-for-high-level-parametric-hardware-specification-and-its-modular-verification",
+      "PersonsString": "Joonwon Choi, Muralidaran Vijayaraghavan, Benjamin Sherman, Adam Chlipala and Arvind ",
+      "Title": "Kami: A Platform for High-Level Parametric Hardware Specification and Its Modular Verification",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-kami-a-platform-for-high-level-parametric-hardware-specification-and-its-modular-verification"
+    },
+    {
       "Abstract": "",
       "Affiliations": [],
       "AffiliationsString": "",
@@ -3699,6 +4005,36 @@
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-monday-coffee-break-3"
     },
     {
+      "Abstract": "Traversing and transforming abstract syntax trees that involve name binding is notoriously difficult to do in a correct, concise, modular, customizable manner. We address this problem in the setting of OCaml, a functional programming language equipped with powerful object-oriented features. We use visitor classes as partial, composable descriptions of the operations that we wish to perform on abstract syntax trees. We introduce \"visitors\", a simple type-directed facility for generating visitor classes that have no knowledge of binding. Separately, we present \"alphaLib\", a library of small hand-written visitor classes, each of which knows about a specific binding construct, a specific representation of names, and/or a specific operation on abstract syntax trees. By combining these components, a wide range of operations can be defined. Multiple representations of names can be supported, as well as conversions between representations. Binding structure can be described either in a programmatic style, by writing visitor methods, or in a declarative style, via preprogrammed binding combinators.",
+      "Affiliations": ["Inria, France"],
+      "AffiliationsString": "Inria, France",
+      "Authors": ["francoispottier"],
+      "Key": "icfp-2017-papers-visitors-unchained",
+      "PersonsString": "François Pottier",
+      "Title": "Visitors Unchained",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-visitors-unchained"
+    },
+    {
+      "Abstract": "The Racket doctrine tells developers to narrow the gap between the terminology of a problem domain and general programming constructs by creating languages instead of just plain programs. This pearl illustrates this point with the creation of a relatively simple domain-specific language for editing videos. To produce the video proceedings of a conference, for example, video professionals traditionally use \"non-linear\" GUI editors to manually edit each talk, despite the repetitive nature of the process. As it turns out, video editing naturally splits the work into a declarative phase and an imperative rendering phase at the end. Hence it is natural to create a functional-declarative language for the first phase, which reduces a lot of manual labor. This user-facing DSL utilizes a second, internal DSL to implement the second phase, which is an interface to a general, low-level C library. Finally, we inject type checking into our language via another DSL that supports programming in the language of type formalisms. In short, the development of the video editing language cleanly demonstrates how the Racket doctrine naturally leads to the creation of language hierarchies, analogous to the hierarchies of modules found in conventional functional languages.",
+      "Affiliations": [
+        "Northeastern University, USA",
+        "Northeastern University, USA",
+        "Northeastern University, USA"
+      ],
+      "AffiliationsString": "Northeastern University, USA",
+      "Authors": [
+        "leifandersen",
+        "stephenchang",
+        "matthiasfelleisen"
+      ],
+      "Key": "icfp-2017-papers-super-8-the-story-of-making-movies-a-functional-pearl",
+      "PersonsString": "Leif Andersen, Stephen Chang and Matthias Felleisen",
+      "Title": "Super 8 Languages for Making Movies (Functional Pearl)",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-super-8-the-story-of-making-movies-a-functional-pearl"
+    },
+    {
       "Abstract": "Parallel programming, whether imperative or functional, has long focused on arrays as the central data type. Meanwhile, typed functional programming has explored a variety of data types, including lists and various forms of trees. Generic functional programming decomposes these data types into a small set of fundamental building blocks: sum, product, composition, and their associated identities. Definitions over these few fundamental type constructions then automatically assemble into algorithms for an infinite set of data types\u2014some familiar and some new. This paper presents generic functional formulations for two important and well-known classes of parallel algorithms: parallel scan (generalized prefix sum) and Fast Fourier Transform (FFT). Notably, arrays play no role in these formulations. Consequent benefits include a simpler and more compositional style, much use of common algebraic patterns\u2014such as Functor, Applicative, Foldable, and Traversable\u2014and freedom from possibility of run-time indexing errors. The functional generic style also clearly reveals deep commonality among what otherwise appears to be quite different algorithms. Instantiating the generic formulations to \"top-down\" and \"bottom-up\" trees as well as \"bushes\", two well-known algorithms for each of parallel scan and FFT naturally emerge, as well as two possibly new algorithms.",
       "Affiliations": ["Target, USA"],
       "AffiliationsString": "Target, USA",
@@ -3708,6 +4044,17 @@
       "Title": "Generic Functional Parallel Algorithms: Scan and FFT",
       "Type": "Talk",
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-generic-functional-parallel-algorithms-scan-and-fft"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "icfp-2017-catering-tuesday-coffee-break-3",
+      "PersonsString": "",
+      "Title": "Tuesday coffee break 3",
+      "Type": "Coffee break",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-tuesday-coffee-break-3"
     },
     {
       "Abstract": "",
@@ -3754,6 +4101,17 @@
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-friday-lunch"
     },
     {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "icfp-2017-catering-tuesday-coffee-break-1",
+      "PersonsString": "",
+      "Title": "Tuesday coffee break 1",
+      "Type": "Coffee break",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-tuesday-coffee-break-1"
+    },
+    {
       "Abstract": "We propose a type system for functional languages with gradual types and set-theoretic type connectives and prove its soundness. In particular, we show how to lift the definition of the domain and result type of an application from non-gradual types to gradual ones and likewise for the subtyping relation. We also show that deciding subtyping for gradual types can be reduced in linear time to deciding subtyping on non-gradual types and that the same holds true for all subtyping-related decision problems that must be solved for type inference. More generally, this work not only enriches gradual type systems with unions and intersections and with the type precision that arise from their use, but also proposes and advocates a new style of gradual types programming where union and intersection types are used by programmers to instruct the system to perform fewer dynamic checks.",
       "Affiliations": [
         "CNRS, France / University of Paris Diderot, France",
@@ -3780,342 +4138,6 @@
       "Title": "How to Prove Your Calculus Is Decidable: Practical Applications of Second-Order Algebraic Theories and Computation",
       "Type": "Talk",
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-how-to-prove-your-calculus-is-decidable-practical-applications-of-second-order-algebraic-theories-and-computation"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "icfp-2017-catering-sunday-coffee-break-2",
-      "PersonsString": "",
-      "Title": "Sunday coffee break 2",
-      "Type": "Coffee break",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-sunday-coffee-break-2"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "icfp-2017-catering-wednesday-lunch",
-      "PersonsString": "",
-      "Title": "Wednesday lunch",
-      "Type": "Lunch",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-wednesday-lunch"
-    },
-    {
-      "Abstract": "Since its first release in 2007, Clojure has seen considerable adoption in industries as diverse as Fortune 5 retail, international banking and finance, climate science and the latest startups. Clojure has tens of thousands of users and is a top 20 language in the RedMonk 2017 index. This is somewhat unexpected (especially by its author!) given that Clojure is a Lisp dialect emphasizing functional programming. What happened? \nThis talk examines the objectives of Clojure and its initial and ongoing design decisions. Moreover, we can now examine how that\u2019s worked out - which features are valued by its users and how it is employed to build systems. We will briefly touch on Datomic, a functional database system written in Clojure by the same authors that completes the model of programming Clojure espouses. Finally we\u2019ll look at what challenges remain for programmers and how Clojure might grow to address them. \nSpeaker bio \nRich Hickey is the author of Clojure, and the designer of Datomic. Rich has 30 years of professional experience in all facets of software development. Rich has worked on scheduling systems, broadcast automation, audio analysis and fingerprinting, database systems, yield management, exit poll systems, and machine listening, in a variety of languages.",
-      "Affiliations": ["Cognitect"],
-      "AffiliationsString": "Cognitect",
-      "Authors": ["richhickey"],
-      "Key": "icfp-2017-keynote-talks-ten-years-of-clojure-fp-out-of-the-box",
-      "PersonsString": "Rich Hickey",
-      "Title": "Ten Years of Clojure -- FP Out of the Box",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-keynote-talks-ten-years-of-clojure-fp-out-of-the-box"
-    },
-    {
-      "Abstract": "In this functional pearl, we examine the use of definitional interpreters as a basis for abstract interpretation of higher-order programming languages. As it turns out, definitional interpreters, especially those written in monadic style, can provide a nice basis for a wide variety of collecting semantics, abstract interpretations, symbolic executions, and their intermixings. \nBut the real insight of this story is a replaying of an insight from Reynold's landmark paper, \\emph{Definitional Interpreters for Higher-Order Programming Languages}, in which he observes definitional interpreters enable the defined-language to inherit properties of the defining-language. We show the same holds true for definitional \\emph{abstract} interpreters. Remarkably, we observe that abstract definitional interpreters can inherit the so-called ``pushdown control flow'' property, wherein function calls and returns are precisely matched in the abstract semantics, simply by virtue of the function call mechanism of the defining-language. \nThe first approaches to achieve this property for higher-order languages appeared within the last ten years, and have since been the subject of many papers. These approaches start from a state-machine semantics and uniformly involve significant technical engineering to recover the precision of pushdown control flow. In contrast, starting from a definitional interpreter, the pushdown control flow property is inherent in the meta-language and requires no further technical mechanism to achieve.",
-      "Affiliations": [
-        "University of Maryland, USA",
-        "University of Maryland, USA",
-        "University of Maryland, USA",
-        "University of Maryland, USA"
-      ],
-      "AffiliationsString": "University of Maryland, USA",
-      "Authors": [
-        "daviddarais",
-        "nicholaslabich",
-        "phucnguyen",
-        "davidvanhorn"
-      ],
-      "Key": "icfp-2017-papers-definitional-abstract-interpreters-for-higher-order-programming-languages",
-      "PersonsString": "David Darais, Nicholas Labich, Phúc C. Nguyễn and David Van Horn",
-      "Title": "Abstracting Definitional Interpreters",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-definitional-abstract-interpreters-for-higher-order-programming-languages"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "icfp-2017-student-research-competition-student-research-competition-finalist-presentations",
-      "PersonsString": "",
-      "Title": "Student Research Competition: Finalist Presentations",
-      "Type": "Awards",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-student-research-competition-student-research-competition-finalist-presentations"
-    },
-    {
-      "Abstract": "Relational program verification is a variant of program verification where one can reason about two programs and as a special case about two executions of a single program on different inputs. Relational program verification can be used for reasoning about a broad range of properties, including equivalence and refinement, and specialized notions such as continuity, information flow security or relative cost. In a higher-order setting, relational program verification can be achieved using relational refinement type systems, a form of refinement types where assertions have a relational interpretation. Relational refinement type systems excel at relating structurally equivalent terms but provide limited support for relating terms with very different structures. \nWe present a logic, called Relational Higher Order Logic (RHOL), for proving relational properties of a simply typed $\\lambda$-calculus with inductive types and recursive definitions. RHOL retains the type-directed flavour of relational refinement type systems but achieves greater expressivity through rules which simultaneously reason about the two terms as well as rules which only contemplate one of the two terms. We show that RHOL has strong foundations, by proving an equivalence with higher-order logic (HOL), and leverage this equivalence to derive key meta-theoretical properties: subject reduction, admissibility of a transitivity rule and set-theoretical soundness. Moreover, we define sound embeddings for several existing relational type systems such as relational refinement types and type systems for dependency analysis and relative cost, and we verify examples that were out of reach of prior work.",
-      "Affiliations": [
-        "IMDEA Software Institute, Spain",
-        "IMDEA Software Institute, Spain",
-        "University at Buffalo, SUNY, USA",
-        "MPI-SWS, Germany",
-        "École Polytechnique, n.n."
-      ],
-      "AffiliationsString": "IMDEA Software Institute, Spain, University at Buffalo, SUNY, USA, MPI-SWS, Germany, École Polytechnique, n.n.",
-      "Authors": [
-        "alejandroaguirre",
-        "gillesbarthe",
-        "marcogaboardi",
-        "deepakgarg",
-        "pierreyvesstrub"
-      ],
-      "Key": "icfp-2017-papers-a-relational-logic-for-higher-order-programs",
-      "PersonsString": "Alejandro Aguirre, Gilles Barthe, Marco Gaboardi, Deepak Garg and Pierre-Yves Strub",
-      "Title": "A Relational Logic for Higher-Order Programs",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-a-relational-logic-for-higher-order-programs"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "icfp-2017-catering-thursday-lunch",
-      "PersonsString": "",
-      "Title": "Thursday lunch",
-      "Type": "Lunch",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-thursday-lunch"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "icfp-2017-catering-thursday-coffee-break-4",
-      "PersonsString": "",
-      "Title": "Thursday coffee break 4",
-      "Type": "Coffee break",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-thursday-coffee-break-4"
-    },
-    {
-      "Abstract": "Relaxed Radix Balanced Trees (RRB-Trees) is one of the latest members in a family of persistent tree based data-structures that combine wide branching factors with simple and relatively flat structures. Like the battle-tested immutable sequences of Clojure and Scala, they have ffectively constant lookup and updates, good cache utilization, but also logarithmic concatenation and slicing. Our goal is to bring the benefits of persistent data structures to the discipline of systems programming via generic yet efficient immutable vectors supporting transient batch updates. We describe a C++ implementation that can be integrated in the runtime of higher level languages with a C core (Lisps like Guile or Racket, but also Python or Ruby), thus widening the access to these persistent data structures. \nIn this work we propose (1) an Embedding RRB-Tree (ERRB-Tree) data structure that efficiently stores arbitrary unboxed types, (2) a technique for implementing tree operations orthogonal to optimizations for a more compact representation of the tree, (3) a policy-based design to support multiple memory management and reclamation mechanisms (including automatic garbage collection and reference counting), (4) a model of transience based on move-semantics and reference counting, and (5) a definition of transience for confluent meld operations. Combining these techniques a performance comparable to that of mutable arrays can be achieved in many situations, while using the data structure in a functional way.",
-      "Affiliations": ["Independent Consultant, Sinusoidal Engineering"],
-      "AffiliationsString": "Independent Consultant, Sinusoidal Engineering",
-      "Authors": ["juanpedrobolivarpuente"],
-      "Key": "icfp-2017-papers-persistence-for-the-masses-rrb-vectors-in-a-systems-language",
-      "PersonsString": "Juan Pedro Bolívar Puente",
-      "Title": "Persistence for the Masses: RRB-Vectors in a Systems Language",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-persistence-for-the-masses-rrb-vectors-in-a-systems-language"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "icfp-2017-catering-sunday-lunch",
-      "PersonsString": "",
-      "Title": "Sunday lunch",
-      "Type": "Lunch",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-sunday-lunch"
-    },
-    {
-      "Abstract": "Generativity is an increasingly popular and useful concept, referring to a machine\u2019s ability to respond to user input with new constructions not foreseen by the programmer. Yet increasingly, people treat computational systems as unknowable black-box systems, writing off the possibility of forming mental models that allow a collaborative relationship between human insight and fast computation. \nI argue for the efficacy of transparent, compositional semantics for collaborating with virtual agents and deriving insights from system models. Having built systems based on automated reasoning for linear logic and epistemic modal logic, we can formalize notions of belief, intention, and action, in order to create virtual agents that behave in ways that humans can reason about based on intuitions about goal-driven behavior. For example, some of Grice\u2019s maxims of conversation can be seen as derivable consequences of these principles. Ongoing work includes applying these formalisms to the tasks of navigating unknown rule systems in virtual environments, social skills training, and generative storytelling.",
-      "Affiliations": ["North Carolina State University"],
-      "AffiliationsString": "North Carolina State University",
-      "Authors": ["chrismartens"],
-      "Key": "icfp-2017-keynote-talks-compositional-creativity-some-principles-for-talking-to-computers",
-      "PersonsString": "Chris Martens",
-      "Title": "Compositional creativity: some principles for talking to computers",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-keynote-talks-compositional-creativity-some-principles-for-talking-to-computers"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "icfp-2017-catering-sunday-coffee-break-1",
-      "PersonsString": "",
-      "Title": "Sunday coffee break 1",
-      "Type": "Coffee break",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-sunday-coffee-break-1"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "icfp-2017-catering-saturday-coffee-break-3",
-      "PersonsString": "",
-      "Title": "Saturday coffee break 3",
-      "Type": "Coffee break",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-saturday-coffee-break-3"
-    },
-    {
-      "Abstract": "Dependent type theory is a powerful framework for interactive theorem proving and automated reasoning, allowing us to encode mathematical objects, data type specifications, assertions, proofs, and programs, all in the same language. Here we show that dependent type theory can also serve as its own metaprogramming language, that is, a language in which one can write programs that assist in the construction and manipulation of terms in dependent type theory itself. Specifically, we describe the metaprogramming language currently in use in the Lean theorem prover, which extends Lean's object language with an API for accessing natively implemented procedures and provides ways of reflecting object-level expressions into the metalanguage. We provide evidence to show that our language is performant, and that it provides a convenient and flexible way of writing not only small-scale interactive tactics, but also more substantial kinds of automation.",
-      "Affiliations": [
-        "Vienna University of Technology, Austria",
-        "KIT, Germany",
-        "University of Washington, USA",
-        "Carnegie Mellon University, USA",
-        "Microsoft Research, n.n."
-      ],
-      "AffiliationsString": "Vienna University of Technology, Austria, KIT, Germany, University of Washington, USA, Carnegie Mellon University, USA, Microsoft Research, n.n.",
-      "Authors": [
-        "gabrielebner",
-        "sebastianullrich",
-        "jaredroesch",
-        "jeremyavigad",
-        "leonardodemoura"
-      ],
-      "Key": "icfp-2017-papers-engineering-a-metaprogramming-framework-for-formal-verification",
-      "PersonsString": "Gabriel Ebner, Sebastian Ullrich, Jared Roesch, Jeremy Avigad and Leonardo De Moura",
-      "Title": "A Metaprogramming Framework for Formal Verification",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-engineering-a-metaprogramming-framework-for-formal-verification"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "icfp-2017-catering-thursday-coffee-break-1",
-      "PersonsString": "",
-      "Title": "Thursday coffee break 1",
-      "Type": "Coffee break",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-thursday-coffee-break-1"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "icfp-2017-catering-sunday-coffee-break-4",
-      "PersonsString": "",
-      "Title": "Sunday coffee break 4",
-      "Type": "Coffee break",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-sunday-coffee-break-4"
-    },
-    {
-      "Abstract": "This article describes the key innovations used in the massive open online course ``Introduction to Functional Programming using OCaml'' that has run since the fall semester of 2015. A fully in-browser development environment with an integrated grader provides an exceptional level of feedback to the learners. A functional library of grading combinators greatly simplifies the notoriously complex task of writing test suites for the exercises, and provides static type-safety guarantees on the tested user code. Even the error-prone manual process of importing the course content in the learning platform has been replaced by a functional program that describes the course and statically checks its contents. A detailed statistical analysis of the data collected during and after the course assesses the effectiveness of these innovations.",
-      "Affiliations": [
-        "OCamlPro, n.n.",
-        "Inria, France / University of Paris Diderot, France",
-        "OCamlPro, n.n."
-      ],
-      "AffiliationsString": "OCamlPro, n.n., Inria, France / University of Paris Diderot, France",
-      "Authors": [
-        "benjamincanou",
-        "robertodicosmo",
-        "gregoirehenry"
-      ],
-      "Key": "icfp-2017-papers-scaling-up-functional-programming-education-under-the-hood-of-the-ocaml-mooc",
-      "PersonsString": "Benjamin Canou, Roberto Di Cosmo and Grégoire Henry",
-      "Title": "Scaling up Functional Programming Education: Under the Hood of the OCaml MOOC",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-scaling-up-functional-programming-education-under-the-hood-of-the-ocaml-mooc"
-    },
-    {
-      "Abstract": "It is well-known that the simply typed lambda-calculus is modeled by any cartesian closed category (CCC). This correspondence suggests giving typed functional programs a variety of interpretations, each corresponding to a different category. A convenient way to realize this idea is as a collection of meaning-preserving transformations added to an existing compiler, such as GHC for Haskell. This paper describes such an implementation and demonstrates its use for a variety of interpretations including hardware circuits, automatic differentiation, incremental computation, and interval analysis. Each such interpretation is a category easily defined in Haskell (outside of the compiler). The general technique appears to provide a compelling alternative to deeply embedded domain-specific languages.",
-      "Affiliations": ["Target, USA"],
-      "AffiliationsString": "Target, USA",
-      "Authors": ["conalelliott"],
-      "Key": "icfp-2017-papers-compiling-to-categories",
-      "PersonsString": "Conal Elliott",
-      "Title": "Compiling to Categories",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-compiling-to-categories"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "icfp-2017-catering-saturday-lunch",
-      "PersonsString": "",
-      "Title": "Saturday lunch",
-      "Type": "Lunch",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-saturday-lunch"
-    },
-    {
-      "Abstract": "We study an extension of gradual typing\u2014a method to integrate dynamic typing and static typing smoothly in a single language\u2014to parametric polymorphism and its theoretical properties, including conservativity of typing and semantics over both statically and dynamically typed languages, type safety, blame-subtyping theorem, and the gradual guarantee\u2014the so-called refined criteria, advocated by Siek et al. We develop System F_G, which is a gradually typed extension of System F with the dynamic type and a new type consistency relation, and translation to a new polymorphic blame calculus System F_C, which is based on previous polymorphic blame calculi by Ahmed et al. The design of System F_G and System F_C, geared to the criteria, is influenced by the distinction between static and gradual type variables, first observed by Garcia and Cimini. This distinction is also useful to execute statically typed code without incurring additional overhead to manage type names as in the prior calculi. We prove that System F_G satisfies most of the criteria: all but the hardest property of the gradual guarantee on semantics. We show that a key conjecture to prove the gradual guarantee leads to the Jack-of-All-Trades property, conjectured as an important property of the polymorphic blame calculus by Ahmed et al.",
-      "Affiliations": [
-        "Kyoto University, Japan",
-        "IBM Research, Japan",
-        "Kyoto University, Japan"
-      ],
-      "AffiliationsString": "Kyoto University, Japan, IBM Research, Japan",
-      "Authors": [
-        "yuuigarashi",
-        "tarosekiyama",
-        "atsushiigarashi"
-      ],
-      "Key": "icfp-2017-papers-on-polymorphic-gradual-typing",
-      "PersonsString": "Yuu Igarashi, Taro Sekiyama and Atsushi Igarashi",
-      "Title": "On Polymorphic Gradual Typing",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-on-polymorphic-gradual-typing"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "icfp-2017-catering-friday-coffee-break-2",
-      "PersonsString": "",
-      "Title": "Friday coffee break 2",
-      "Type": "Coffee break",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-friday-coffee-break-2"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "icfp-2017-social-events-industry-reception",
-      "PersonsString": "",
-      "Title": "Industry Reception",
-      "Type": "Social Event",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-social-events-industry-reception"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": ["University College London"],
-      "AffiliationsString": "University College London",
-      "Authors": ["ilyasergey"],
-      "Key": "icfp-2017-student-research-competition-student-research-competition-awards",
-      "PersonsString": "Ilya Sergey",
-      "Title": "Student Research Competition Awards",
-      "Type": "Awards",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-student-research-competition-student-research-competition-awards"
-    },
-    {
-      "Abstract": "Traversing and transforming abstract syntax trees that involve name binding is notoriously difficult to do in a correct, concise, modular, customizable manner. We address this problem in the setting of OCaml, a functional programming language equipped with powerful object-oriented features. We use visitor classes as partial, composable descriptions of the operations that we wish to perform on abstract syntax trees. We introduce \"visitors\", a simple type-directed facility for generating visitor classes that have no knowledge of binding. Separately, we present \"alphaLib\", a library of small hand-written visitor classes, each of which knows about a specific binding construct, a specific representation of names, and/or a specific operation on abstract syntax trees. By combining these components, a wide range of operations can be defined. Multiple representations of names can be supported, as well as conversions between representations. Binding structure can be described either in a programmatic style, by writing visitor methods, or in a declarative style, via preprogrammed binding combinators.",
-      "Affiliations": ["Inria, France"],
-      "AffiliationsString": "Inria, France",
-      "Authors": ["francoispottier"],
-      "Key": "icfp-2017-papers-visitors-unchained",
-      "PersonsString": "François Pottier",
-      "Title": "Visitors Unchained",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-visitors-unchained"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "icfp-2017-catering-tuesday-coffee-break-3",
-      "PersonsString": "",
-      "Title": "Tuesday coffee break 3",
-      "Type": "Coffee break",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-tuesday-coffee-break-3"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "icfp-2017-catering-tuesday-coffee-break-1",
-      "PersonsString": "",
-      "Title": "Tuesday coffee break 1",
-      "Type": "Coffee break",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-tuesday-coffee-break-1"
     },
     {
       "Abstract": "Program slicing provides explanations that illustrate how program outputs were produced from inputs. We build on an approach introduced in prior work, where dynamic slicing was defined for pure higher-order functional programs as a Galois connection between lattices of partial inputs and partial outputs. We extend this approach to \\emph{imperative functional programs} that combine higher-order programming with references and exceptions. We present proofs of correctness and optimality of our approach and a proof-of-concept implementation and experimental evaluation.",
@@ -4188,6 +4210,17 @@
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-manifest-sharing-with-session-types"
     },
     {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "icfp-2017-catering-sunday-coffee-break-2",
+      "PersonsString": "",
+      "Title": "Sunday coffee break 2",
+      "Type": "Coffee break",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-sunday-coffee-break-2"
+    },
+    {
       "Abstract": "In the Blackwell Hall of the Weston Library. Two of the galleries will also be open.",
       "Affiliations": [],
       "AffiliationsString": "",
@@ -4220,6 +4253,25 @@
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-foundations-of-strong-call-by-need"
     },
     {
+      "Abstract": "Many languages use syntactic sugar to define parts of their surface language in terms of a smaller core. Thus some properties of the surface language, like its scoping rules, are not immediately evident. Nevertheless, IDEs, refactorers, and other tools that traffic in source code depend on these rules to present information to users and to soundly perform their operations. In this paper, we show how to lift scoping rules defined on a core language to rules on the surface, a process of scope inference. In the process we introduce a new representation of binding structure\u2014scope as a preorder\u2014and present a theoretical advance: proving that a desugaring system preserves α-equivalence even though scoping rules have been provided only for the core language. We have also implemented the system presented in this paper.",
+      "Affiliations": [
+        "Brown University, USA",
+        "Brown University, USA",
+        "Northeastern University, USA"
+      ],
+      "AffiliationsString": "Brown University, USA, Northeastern University, USA",
+      "Authors": [
+        "justinpombrio1",
+        "shriramkrishnamurthi",
+        "mitchellwand"
+      ],
+      "Key": "icfp-2017-papers-inferring-scope-through-syntactic-sugar",
+      "PersonsString": "Justin Pombrio, Shriram Krishnamurthi and Mitchell Wand",
+      "Title": "Inferring Scope through Syntactic Sugar",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-inferring-scope-through-syntactic-sugar"
+    },
+    {
       "Abstract": "",
       "Affiliations": [],
       "AffiliationsString": "",
@@ -4229,6 +4281,17 @@
       "Title": "Saturday coffee break 2",
       "Type": "Coffee break",
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-saturday-coffee-break-2"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "icfp-2017-catering-wednesday-lunch",
+      "PersonsString": "",
+      "Title": "Wednesday lunch",
+      "Type": "Lunch",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-wednesday-lunch"
     },
     {
       "Abstract": "Software-defined radio (SDR) promises to bring the flexibility and rapid iterative workflow of software to radio protocol design. Many factors make achieving this promise challenging, not least of which are the high data rates and timing requirements of real-world radio protocols. The Ziria language and accompanying compiler demonstrated that a high-level language can compete in this demanding space, but extracting reusable lessons from this success is difficult due to Ziria's lack of a formal semantics. Our first contribution is a core language, operational semantics, and type system for Ziria. \nThe insight we gained through developing this operational semantics led to our second contribution, consisting of two program transformations. The first is fusion, which can eliminate intermediate queues in Ziria programs. Fusion subsumes many one-off optimizations performed by the original Ziria compiler. The second transformation is pipeline coalescing, which reduces execution overhead by batching IO. Pipeline coalescing relies critically on fusion and provides a much simpler story for the original Ziria compiler's \"vectorization\" transformation. These developments serve as the basis of our third contribution, a new compiler for Ziria that produces significantly faster code than the original compiler. The new compiler leverages our intermediate language to help eliminate unnecessary memory traffic. \nAs well as providing a firm foundation for the Ziria language, our work on an operational semantics resulted in very real software engineering benefits. These benefits need not be limited to SDR\u2014the core language and accompanying transformations we present are applicable to other domains that require processing streaming data at high speed.",
@@ -4253,6 +4316,59 @@
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-staged-generic-programming"
     },
     {
+      "Abstract": "Session types are a rich type discipline, based on linear types, that lift the sort of safety claims that come with type systems to communications. However, web-based applications and micro services are often written in a mix of languages, with type disciplines in a spectrum between static and dynamic typing. Gradual session types address this mixed setting by providing a framework which grants seamless transition between statically typed handling of sessions and any required degree of dynamic typing. \nWe propose GradualGV as an extension of the functional session type system GV with dynamic types and casts. We demonstrate type and communication safety as well as blame safety, thus extending previous results to functional languages with session-based communication. The interplay of linearity and dynamic types requires a novel approach to specifying the dynamics of the language.",
+      "Affiliations": [
+        "Kyoto University, Japan",
+        "University of Freiburg, Germany",
+        "University of Lisbon, Portugal",
+        "University of Edinburgh, UK"
+      ],
+      "AffiliationsString": "Kyoto University, Japan, University of Freiburg, Germany, University of Lisbon, Portugal, University of Edinburgh, UK",
+      "Authors": [
+        "atsushiigarashi",
+        "peterthiemann",
+        "vascovasconcelos",
+        "philipwadler"
+      ],
+      "Key": "icfp-2017-papers-gradual-session-types",
+      "PersonsString": "Atsushi Igarashi, Peter Thiemann, Vasco Vasconcelos and Philip Wadler",
+      "Title": "Gradual Session Types",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-gradual-session-types"
+    },
+    {
+      "Abstract": "In this functional pearl, we examine the use of definitional interpreters as a basis for abstract interpretation of higher-order programming languages. As it turns out, definitional interpreters, especially those written in monadic style, can provide a nice basis for a wide variety of collecting semantics, abstract interpretations, symbolic executions, and their intermixings. \nBut the real insight of this story is a replaying of an insight from Reynold's landmark paper, \\emph{Definitional Interpreters for Higher-Order Programming Languages}, in which he observes definitional interpreters enable the defined-language to inherit properties of the defining-language. We show the same holds true for definitional \\emph{abstract} interpreters. Remarkably, we observe that abstract definitional interpreters can inherit the so-called ``pushdown control flow'' property, wherein function calls and returns are precisely matched in the abstract semantics, simply by virtue of the function call mechanism of the defining-language. \nThe first approaches to achieve this property for higher-order languages appeared within the last ten years, and have since been the subject of many papers. These approaches start from a state-machine semantics and uniformly involve significant technical engineering to recover the precision of pushdown control flow. In contrast, starting from a definitional interpreter, the pushdown control flow property is inherent in the meta-language and requires no further technical mechanism to achieve.",
+      "Affiliations": [
+        "University of Maryland, USA",
+        "University of Maryland, USA",
+        "University of Maryland, USA",
+        "University of Maryland, USA"
+      ],
+      "AffiliationsString": "University of Maryland, USA",
+      "Authors": [
+        "daviddarais",
+        "nicholaslabich",
+        "phucnguyen",
+        "davidvanhorn"
+      ],
+      "Key": "icfp-2017-papers-definitional-abstract-interpreters-for-higher-order-programming-languages",
+      "PersonsString": "David Darais, Nicholas Labich, Phúc C. Nguyễn and David Van Horn",
+      "Title": "Abstracting Definitional Interpreters",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-definitional-abstract-interpreters-for-higher-order-programming-languages"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "icfp-2017-student-research-competition-student-research-competition-finalist-presentations",
+      "PersonsString": "",
+      "Title": "Student Research Competition: Finalist Presentations",
+      "Type": "Awards",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-student-research-competition-student-research-competition-finalist-presentations"
+    },
+    {
       "Abstract": "We have designed an intermediate language (IL) for the CakeML compiler that supports the verified, efficient compilation of functions and calls. Verified compilation steps include batching of multiple curried arguments, detecting calls to statically known functions, and specialising calls to known functions with no free variables. Finally, we verify the translation to a lower-level IL that only supports closed, first-order functions. \nThese compilation steps resemble those found in other compilers (especially OCaml). Our contribution here is the design of the semantics of the IL, and the demonstration that our verification techniques over this semantics work well in practice at this scale. The entire development was carried out in the HOL4 theorem prover.",
       "Affiliations": [
         "University of Kent, UK",
@@ -4274,6 +4390,29 @@
       "Title": "Verifying Efficient Function Calls in CakeML",
       "Type": "Talk",
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-verifying-efficient-function-calls-in-cakeml"
+    },
+    {
+      "Abstract": "Relational program verification is a variant of program verification where one can reason about two programs and as a special case about two executions of a single program on different inputs. Relational program verification can be used for reasoning about a broad range of properties, including equivalence and refinement, and specialized notions such as continuity, information flow security or relative cost. In a higher-order setting, relational program verification can be achieved using relational refinement type systems, a form of refinement types where assertions have a relational interpretation. Relational refinement type systems excel at relating structurally equivalent terms but provide limited support for relating terms with very different structures. \nWe present a logic, called Relational Higher Order Logic (RHOL), for proving relational properties of a simply typed $\\lambda$-calculus with inductive types and recursive definitions. RHOL retains the type-directed flavour of relational refinement type systems but achieves greater expressivity through rules which simultaneously reason about the two terms as well as rules which only contemplate one of the two terms. We show that RHOL has strong foundations, by proving an equivalence with higher-order logic (HOL), and leverage this equivalence to derive key meta-theoretical properties: subject reduction, admissibility of a transitivity rule and set-theoretical soundness. Moreover, we define sound embeddings for several existing relational type systems such as relational refinement types and type systems for dependency analysis and relative cost, and we verify examples that were out of reach of prior work.",
+      "Affiliations": [
+        "IMDEA Software Institute, Spain",
+        "IMDEA Software Institute, Spain",
+        "University at Buffalo, SUNY, USA",
+        "MPI-SWS, Germany",
+        "École Polytechnique, n.n."
+      ],
+      "AffiliationsString": "IMDEA Software Institute, Spain, University at Buffalo, SUNY, USA, MPI-SWS, Germany, École Polytechnique, n.n.",
+      "Authors": [
+        "alejandroaguirre",
+        "gillesbarthe",
+        "marcogaboardi",
+        "deepakgarg",
+        "pierreyvesstrub"
+      ],
+      "Key": "icfp-2017-papers-a-relational-logic-for-higher-order-programs",
+      "PersonsString": "Alejandro Aguirre, Gilles Barthe, Marco Gaboardi, Deepak Garg and Pierre-Yves Strub",
+      "Title": "A Relational Logic for Higher-Order Programs",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-a-relational-logic-for-higher-order-programs"
     },
     {
       "Abstract": "",
@@ -4301,11 +4440,33 @@
       "Affiliations": [],
       "AffiliationsString": "",
       "Authors": [],
+      "Key": "icfp-2017-catering-thursday-lunch",
+      "PersonsString": "",
+      "Title": "Thursday lunch",
+      "Type": "Lunch",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-thursday-lunch"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
       "Key": "icfp-2017-catering-wednesday-coffee-break-3",
       "PersonsString": "",
       "Title": "Wednesday coffee break 3",
       "Type": "Coffee break",
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-wednesday-coffee-break-3"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "icfp-2017-catering-thursday-coffee-break-4",
+      "PersonsString": "",
+      "Title": "Thursday coffee break 4",
+      "Type": "Coffee break",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-catering-thursday-coffee-break-4"
     },
     {
       "Abstract": "Sized types have been developed to make termination checking more perspicuous, more powerful, and more modular by integrating termination into type checking. In dependently-typed proof assistants where proofs by induction are just recursive functional programs, the termination checker is an integral component of the trusted core, as validity of proofs depend on termination. However, a rigorous integration of full-fledged sized types into dependent type theory is lacking so far. Such an integration is non-trivial, as explicit sizes in proof terms might get in the way of equality checking, making terms appear distinct that should have the same semantics. \nIn this article, we integrate dependent types and sized types with higher-rank size polymorphism, which is essential for generic programming and abstraction. We introduce a size quantifier $\\forall$ which lets us ignore sizes in terms for equality checking, alongside with a second quantifier $\\Pi$ for abstracting over sizes that do affect the semantics of types and terms. Judgmental equality is decided by an adaptation of normalization-by-evaluation for our new type theory, which features \\emph{type shape}-directed reflection and reification. It follows that subtyping and type checking of normal forms are decidable as well, the latter by a bidirectional algorithm.",
@@ -4344,7 +4505,51 @@
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-automating-sized-type-inference-for-complexity-analysis"
     },
     {
-      "Abstract": "Description \nDuring the past five years, the Isabelle/HOL proof assistant has been extended with rich programming capabilities for finite and infinite (lazy) data structures \u2013 using the foundational approach characteristic of HOL provers. While the ICFP/POPL communities have been widely exposed to type-theoretic approaches embodied in Coq or Agda (including by means of tutorials), the HOL alternative also has interesting ideas, especially when it comes to (1) reaching a balance between guaranteed termination/productivity and expressiveness, (2) mixing recursion with corecursion soundly, and (3) obtaining compositional proof methods that match the program definitions. \nThe tutorial will target Isabelle novices. However, a strong background in functional programming will be assumed. The tutorial will focus on advanced functional programming techniques and the associated proof techniques offered by Isabelle/HOL. The basic concepts of the Isar proof language will be covered as well. \nThe tutorial will contain several hands-on exercises. We expect the attendants to bring laptops and have the latest version of Isabelle installed before the start of the tutorial.",
+      "Abstract": "Relaxed Radix Balanced Trees (RRB-Trees) is one of the latest members in a family of persistent tree based data-structures that combine wide branching factors with simple and relatively flat structures. Like the battle-tested immutable sequences of Clojure and Scala, they have ffectively constant lookup and updates, good cache utilization, but also logarithmic concatenation and slicing. Our goal is to bring the benefits of persistent data structures to the discipline of systems programming via generic yet efficient immutable vectors supporting transient batch updates. We describe a C++ implementation that can be integrated in the runtime of higher level languages with a C core (Lisps like Guile or Racket, but also Python or Ruby), thus widening the access to these persistent data structures. \nIn this work we propose (1) an Embedding RRB-Tree (ERRB-Tree) data structure that efficiently stores arbitrary unboxed types, (2) a technique for implementing tree operations orthogonal to optimizations for a more compact representation of the tree, (3) a policy-based design to support multiple memory management and reclamation mechanisms (including automatic garbage collection and reference counting), (4) a model of transience based on move-semantics and reference counting, and (5) a definition of transience for confluent meld operations. Combining these techniques a performance comparable to that of mutable arrays can be achieved in many situations, while using the data structure in a functional way.",
+      "Affiliations": ["Independent Consultant, Sinusoidal Engineering"],
+      "AffiliationsString": "Independent Consultant, Sinusoidal Engineering",
+      "Authors": ["juanpedrobolivarpuente"],
+      "Key": "icfp-2017-papers-persistence-for-the-masses-rrb-vectors-in-a-systems-language",
+      "PersonsString": "Juan Pedro Bolívar Puente",
+      "Title": "Persistence for the Masses: RRB-Vectors in a Systems Language",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-persistence-for-the-masses-rrb-vectors-in-a-systems-language"
+    },
+    {
+      "Abstract": "Generativity is an increasingly popular and useful concept, referring to a machine\u2019s ability to respond to user input with new constructions not foreseen by the programmer. Yet increasingly, people treat computational systems as unknowable black-box systems, writing off the possibility of forming mental models that allow a collaborative relationship between human insight and fast computation. \nI argue for the efficacy of transparent, compositional semantics for collaborating with virtual agents and deriving insights from system models. Having built systems based on automated reasoning for linear logic and epistemic modal logic, we can formalize notions of belief, intention, and action, in order to create virtual agents that behave in ways that humans can reason about based on intuitions about goal-driven behavior. For example, some of Grice\u2019s maxims of conversation can be seen as derivable consequences of these principles. Ongoing work includes applying these formalisms to the tasks of navigating unknown rule systems in virtual environments, social skills training, and generative storytelling.",
+      "Affiliations": ["North Carolina State University"],
+      "AffiliationsString": "North Carolina State University",
+      "Authors": ["chrismartens"],
+      "Key": "icfp-2017-keynote-talks-compositional-creativity-some-principles-for-talking-to-computers",
+      "PersonsString": "Chris Martens",
+      "Title": "Compositional creativity: some principles for talking to computers",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-keynote-talks-compositional-creativity-some-principles-for-talking-to-computers"
+    },
+    {
+      "Abstract": "Since its first release in 2007, Clojure has seen considerable adoption in industries as diverse as Fortune 5 retail, international banking and finance, climate science and the latest startups. Clojure has tens of thousands of users and is a top 20 language in the RedMonk 2017 index. This is somewhat unexpected (especially by its author!) given that Clojure is a Lisp dialect emphasizing functional programming. What happened? \nThis talk examines the objectives of Clojure and its initial and ongoing design decisions. Moreover, we can now examine how that\u2019s worked out - which features are valued by its users and how it is employed to build systems. We will briefly touch on Datomic, a functional database system written in Clojure by the same authors that completes the model of programming Clojure espouses. Finally we\u2019ll look at what challenges remain for programmers and how Clojure might grow to address them. \nSpeaker bio \nRich Hickey is the author of Clojure, and the designer of Datomic. Rich has 30 years of professional experience in all facets of software development. Rich has worked on scheduling systems, broadcast automation, audio analysis and fingerprinting, database systems, yield management, exit poll systems, and machine listening, in a variety of languages.",
+      "Affiliations": ["Cognitect"],
+      "AffiliationsString": "Cognitect",
+      "Authors": ["richhickey"],
+      "Key": "icfp-2017-keynote-talks-ten-years-of-clojure-fp-out-of-the-box",
+      "PersonsString": "Rich Hickey",
+      "Title": "Ten Years of Clojure -- FP Out of the Box",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-keynote-talks-ten-years-of-clojure-fp-out-of-the-box"
+    },
+    {
+      "Abstract": "Somewhat ironically, just as traditional systems software finally comes within reach of detailed mathematical verification, the demand for verification technology is rapidly expanding into domains that pose very different kinds of challenges. How could a face recognition technology be verified, for example, when it is not clear even how to state a correctness property? Or how should we attempt to verify an autonomous system like a self-driving car? This talk will attempt to lay out the problem space, and offer some ideas for how the verification community might start tackling the problem of assuring AI. \nSpeaker bio \nJohn Launchbury is Chief Scientist of Galois, Inc., which he founded in 1999 to address challenges in information assurance through the application of functional programming and formal methods. He has recently returned to Galois after a three-year stint at DARPA, where he served as a Program Manager and then Director of the Information Innovation Office. Prior to founding Galois, John was a full professor in Computer Science and Engineering at the Oregon Graduate Institute (OGI) School of Science and Engineering, which was subsequently incorporated into the Oregon Health and Science University. At OGI, he earned several awards for outstanding teaching and gained international recognition for his work on the analysis and semantics of programming languages, Haskell in particular. John holds a Ph.D. in computing science from the University of Glasgow and won the British Computer Society\u2019s distinguished dissertation prize. In 2010 he was inducted as a Fellow of the Association for Computing Machinery (ACM).",
+      "Affiliations": ["Galois, Inc."],
+      "AffiliationsString": "Galois, Inc.",
+      "Authors": ["johnlaunchbury"],
+      "Key": "icfp-2017-keynote-talks-assuring-ai",
+      "PersonsString": "John Launchbury",
+      "Title": "Assuring AI",
+      "Type": "Talk",
+      "URL": "http://icfp17.sigplan.org/event/icfp-2017-keynote-talks-assuring-ai"
+    },
+    {
+      "Abstract": "Description \nDuring the past five years, the Isabelle/HOL proof assistant has been extended with rich programming capabilities for finite and infinite (lazy) data structures \u2013 using the foundational approach characteristic of HOL provers. While the ICFP/POPL communities have been widely exposed to type-theoretic approaches embodied in Coq or Agda (including by means of tutorials), the HOL alternative also has interesting ideas, especially when it comes to (1) reaching a balance between guaranteed termination/productivity and expressiveness, (2) mixing recursion with corecursion soundly, and (3) obtaining compositional proof methods that match the program definitions. \nThe tutorial will target Isabelle novices. However, a strong background in functional programming will be assumed. The tutorial will focus on advanced functional programming techniques and the associated proof techniques offered by Isabelle/HOL. The basic concepts of the Isar proof language will be covered as well. \nThe tutorial will contain several hands-on exercises. We expect the attendants to bring laptops and have the latest version of Isabelle installed before the start of the tutorial. \nMaterial: \n \n Induction.thy \n Coinduction.thy \n Friends.thy \n",
       "Affiliations": [
         "Vrije Universiteit Amsterdam",
         "",
@@ -4363,200 +4568,6 @@
       "Title": "Tutorial T2: Certified Functional (Co)programming with Isabelle/HOL",
       "Type": "Talk",
       "URL": "http://icfp17.sigplan.org/event/icfp-2017-tutorials-tutorial-certified-functional-co-programming-with-isabelle-hol"
-    },
-    {
-      "Abstract": "Many languages use syntactic sugar to define parts of their surface language in terms of a smaller core. Thus some properties of the surface language, like its scoping rules, are not immediately evident. Nevertheless, IDEs, refactorers, and other tools that traffic in source code depend on these rules to present information to users and to soundly perform their operations. In this paper, we show how to lift scoping rules defined on a core language to rules on the surface, a process of scope inference. In the process we introduce a new representation of binding structure\u2014scope as a preorder\u2014and present a theoretical advance: proving that a desugaring system preserves α-equivalence even though scoping rules have been provided only for the core language. We have also implemented the system presented in this paper.",
-      "Affiliations": [
-        "Brown University, USA",
-        "Brown University, USA",
-        "Northeastern University, USA"
-      ],
-      "AffiliationsString": "Brown University, USA, Northeastern University, USA",
-      "Authors": [
-        "justinpombrio1",
-        "shriramkrishnamurthi",
-        "mitchellwand"
-      ],
-      "Key": "icfp-2017-papers-inferring-scope-through-syntactic-sugar",
-      "PersonsString": "Justin Pombrio, Shriram Krishnamurthi and Mitchell Wand",
-      "Title": "Inferring Scope through Syntactic Sugar",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-inferring-scope-through-syntactic-sugar"
-    },
-    {
-      "Abstract": "Designing and prototyping new features is important in many industrial projects. Functional programming and formal verification tools can prove valuable for that purpose, but lead to challenges when integrating with existing product code or when planning technology transfer. \nThis article reports on our experience using the Coq proof assistant as a prototyping environment for building a query compiler intended for use in IBM's ODM Insights product. We discuss the pros and cons of using Coq for this purpose and describe our methodology for porting the compiler to Java, as required for product integration.",
-      "Affiliations": [
-        "IBM Research",
-        "IBM Research",
-        "IBM Research",
-        "IBM Research",
-        "IBM Research"
-      ],
-      "AffiliationsString": "IBM Research",
-      "Authors": [
-        "joshuaauerbach",
-        "martinhirzel",
-        "louismandel",
-        "avrahamshinnar",
-        "jeromesimeon"
-      ],
-      "Key": "icfp-2017-papers-prototyping-a-query-compiler-using-coq-experience-report-",
-      "PersonsString": "Joshua Auerbach, Martin Hirzel, Louis Mandel, Avraham Shinnar and Jerome Simeon",
-      "Title": "Prototyping a Query Compiler using Coq (Experience Report)",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-prototyping-a-query-compiler-using-coq-experience-report-"
-    },
-    {
-      "Abstract": "The Racket doctrine tells developers to narrow the gap between the terminology of a problem domain and general programming constructs by creating languages instead of just plain programs. This pearl illustrates this point with the creation of a relatively simple domain-specific language for editing videos. To produce the video proceedings of a conference, for example, video professionals traditionally use \"non-linear\" GUI editors to manually edit each talk, despite the repetitive nature of the process. As it turns out, video editing naturally splits the work into a declarative phase and an imperative rendering phase at the end. Hence it is natural to create a functional-declarative language for the first phase, which reduces a lot of manual labor. This user-facing DSL utilizes a second, internal DSL to implement the second phase, which is an interface to a general, low-level C library. Finally, we inject type checking into our language via another DSL that supports programming in the language of type formalisms. In short, the development of the video editing language cleanly demonstrates how the Racket doctrine naturally leads to the creation of language hierarchies, analogous to the hierarchies of modules found in conventional functional languages.",
-      "Affiliations": [
-        "Northeastern University, USA",
-        "Northeastern University, USA",
-        "Northeastern University, USA"
-      ],
-      "AffiliationsString": "Northeastern University, USA",
-      "Authors": [
-        "leifandersen",
-        "stephenchang",
-        "matthiasfelleisen"
-      ],
-      "Key": "icfp-2017-papers-super-8-the-story-of-making-movies-a-functional-pearl",
-      "PersonsString": "Leif Andersen, Stephen Chang and Matthias Felleisen",
-      "Title": "Super 8 Languages for Making Movies (Functional Pearl)",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-super-8-the-story-of-making-movies-a-functional-pearl"
-    },
-    {
-      "Abstract": "Session types are a rich type discipline, based on linear types, that lift the sort of safety claims that come with type systems to communications. However, web-based applications and micro services are often written in a mix of languages, with type disciplines in a spectrum between static and dynamic typing. Gradual session types address this mixed setting by providing a framework which grants seamless transition between statically typed handling of sessions and any required degree of dynamic typing. \nWe propose GradualGV as an extension of the functional session type system GV with dynamic types and casts. We demonstrate type and communication safety as well as blame safety, thus extending previous results to functional languages with session-based communication. The interplay of linearity and dynamic types requires a novel approach to specifying the dynamics of the language.",
-      "Affiliations": [
-        "Kyoto University, Japan",
-        "University of Freiburg, Germany",
-        "University of Lisbon, Portugal",
-        "University of Edinburgh, UK"
-      ],
-      "AffiliationsString": "Kyoto University, Japan, University of Freiburg, Germany, University of Lisbon, Portugal, University of Edinburgh, UK",
-      "Authors": [
-        "atsushiigarashi",
-        "peterthiemann",
-        "vascovasconcelos",
-        "philipwadler"
-      ],
-      "Key": "icfp-2017-papers-gradual-session-types",
-      "PersonsString": "Atsushi Igarashi, Peter Thiemann, Vasco Vasconcelos and Philip Wadler",
-      "Title": "Gradual Session Types",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-gradual-session-types"
-    },
-    {
-      "Abstract": "We propose a core semantics for Dependent Haskell, an extension of Haskell with full-spectrum dependent types. Our semantics consists of two related languages. The first is a Curry-style dependently-typed language with nontermination, irrelevant arguments, and equality abstraction. The second, inspired by the Glasgow Haskell Compiler's core language FC, is its explicitly-typed analogue, suitable for implementation in GHC. All of our results\u2014chiefly, type safety, along with theorems that relate these two languages\u2014have been formalized using the Coq proof assistant. Because our work is backwards compatible with Haskell, our type safety proof holds in the presence of nonterminating computation. However, unlike other full-spectrum dependently-typed languages, such as Coq, Agda or Idris, because of this nontermination, Haskell's term language does not correspond to a consistent logic.",
-      "Affiliations": [
-        "University of Pennsylvania, USA",
-        "University of Pennsylvania, USA",
-        "Ecole Polytechnique, n.n. / University of Campinas, Brazil",
-        "Bryn Mawr College, USA"
-      ],
-      "AffiliationsString": "University of Pennsylvania, USA, Ecole Polytechnique, n.n. / University of Campinas, Brazil, Bryn Mawr College, USA",
-      "Authors": [
-        "stephanieweirich",
-        "antoinevoizard",
-        "pedrohenriqueavezedodeamorim",
-        "richardeisenberg"
-      ],
-      "Key": "icfp-2017-papers-a-specification-for-dependently-typed-haskell",
-      "PersonsString": "Stephanie Weirich, Antoine Voizard, Pedro Henrique Avezedo de Amorim and Richard A. Eisenberg",
-      "Title": "A Specification for Dependent Types in Haskell",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-a-specification-for-dependently-typed-haskell"
-    },
-    {
-      "Abstract": "It has become fairly standard in the programming-languages research world to verify functional programs in proof assistants using induction, algebraic simplification, and rewriting. In this paper, we introduce Kami, a Coq library that enables similar expressive and modular reasoning for hardware designs expressed in the style of the Bluespec language. We can specify, implement, and verify realistic designs entirely within Coq, ending with automatic extraction into a pipeline that bottoms out in FPGAs. Our methodology, using labeled transition systems, has been evaluated in a case study verifying an infinite family of multicore systems, with cache-coherent shared memory and pipelined cores implementing (the base integer subset of) the RISC-V instruction set.",
-      "Affiliations": [
-        "Massachusetts Institute of Technology, USA",
-        "Massachusetts Institute of Technology, USA",
-        "Massachusetts Institute of Technology, USA",
-        "Massachusetts Institute of Technology, USA",
-        "Massachusetts Institute of Technology, USA"
-      ],
-      "AffiliationsString": "Massachusetts Institute of Technology, USA",
-      "Authors": [
-        "joonwonchoi",
-        "muralidaranvijayaraghavan",
-        "benjaminsherman",
-        "adamchlipala",
-        "arvind"
-      ],
-      "Key": "icfp-2017-papers-kami-a-platform-for-high-level-parametric-hardware-specification-and-its-modular-verification",
-      "PersonsString": "Joonwon Choi, Muralidaran Vijayaraghavan, Benjamin Sherman, Adam Chlipala and Arvind ",
-      "Title": "Kami: A Platform for High-Level Parametric Hardware Specification and Its Modular Verification",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-kami-a-platform-for-high-level-parametric-hardware-specification-and-its-modular-verification"
-    },
-    {
-      "Abstract": "Many verification tools build on automated solvers. These tools reduce problems in a specific application domain (e.g., compiler optimization validation) to queries that can be discharged with a highly optimized solver. But the correctness of the reductions themselves is rarely verified in practice, limiting the confidence that the solver's output establishes the desired domain-level property. \nThis paper presents SpaceSearch, a new library for developing solver-aided tools within a proof assistant. A user builds their solver-aided tool in Coq against the SpaceSearch interface, and the user then verifies that the results provided by the interface are sufficient to establish the tool's desired high-level properties. Once verified, the tool can be extracted to an implementation in a solver-aided language (e.g., Rosette), where SpaceSearch provides an efficient instantiation of the SpaceSearch interface with calls to an underlying SMT solver. This combines the strong correctness guarantees of developing a tool in a proof assistant with the high performance of modern SMT solvers. This paper also introduces new optimizations for such verified solver-aided tools, including parallelization and incrementalization. \nWe evaluate SpaceSearch by building and verifying two solver-aided tools. The first, SaltShaker, checks that RockSalt's x86 semantics for a given instruction agrees with STOKE's x86 semantics. SaltShaker identified 7 bugs in RockSalt and 1 bug in STOKE. After these systems were patched by their developers, SaltShaker verified the semantics' agreement on 15,255 instruction instantiations in under 2h. The second tool, BGProof, is a verified version of an existing Border Gateway Protocol (BGP) router configuration checker. Like the existing checker, BGProof scales to checking industrial configurations spanning over 240 KLOC, identifying 19 configuration inconsistencies with no false positives. However, the correctness of BGProof has been formally proven, and we found 2 bugs in the unverified implementation. These results demonstrate that SpaceSearch is a practical approach to developing efficient, verified solver-aided tools.",
-      "Affiliations": [
-        "University of Washington, USA",
-        "University of Washington, USA",
-        "Stanford University, USA",
-        "University of Washington, USA",
-        "University of Washington, USA",
-        "University of Washington, USA"
-      ],
-      "AffiliationsString": "University of Washington, USA, Stanford University, USA",
-      "Authors": [
-        "konstantinweitz",
-        "stevenlyubomirsky",
-        "stefanheule",
-        "eminatorlak",
-        "michaeldernst",
-        "zacharytatlock"
-      ],
-      "Key": "icfp-2017-papers-spacesearch-a-library-for-building-and-verifying-solver-aided-tools",
-      "PersonsString": "Konstantin Weitz, Steven Lyubomirsky, Stefan Heule, Emina Torlak, Michael D. Ernst and Zachary Tatlock",
-      "Title": "SpaceSearch: A Library for Building and Verifying Solver-Aided Tools",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-spacesearch-a-library-for-building-and-verifying-solver-aided-tools"
-    },
-    {
-      "Abstract": "The polymorphic blame calculus integrates static typing, including universal types, with dynamic typing. The primary challenge with this integration is preserving parametricity: even dynamically-typed code should satisfy it once it has been cast to a universal type. Ahmed et al. (2011) employ runtime type generation in the polymorphic blame calculus to preserve parametricity, but a proof that it does so has been elusive. Matthews and Ahmed (2008) gave a proof of parametricity for a closely related system that combines ML and Scheme, but later found a flaw in their proof. In this paper we present an improved version of the polymorphic blame calculus and we prove that it satisfies relational parametricity. The proof relies on a step-indexed Kripke logical relation. The step-indexing is required to make the logical relation well-defined in the case for the dynamic type. The possible worlds include the mapping of generated type names to their types and the mapping of type names to relations. We prove the Fundamental Property of this logical relation and that it is sound with respect to contextual equivalence. To demonstrate the utility of parametricity in the polymorphic blame calculus, we derive two free theorems.",
-      "Affiliations": [
-        "Northeastern University, USA",
-        "Northeastern University, USA",
-        "Indiana University, USA",
-        "University of Edinburgh, UK"
-      ],
-      "AffiliationsString": "Northeastern University, USA, Indiana University, USA, University of Edinburgh, UK",
-      "Authors": [
-        "amalahmed",
-        "dustinjamner",
-        "jeremysiek",
-        "philipwadler"
-      ],
-      "Key": "icfp-2017-papers-theorems-for-free-for-free-parametricity-with-and-without-types",
-      "PersonsString": "Amal Ahmed, Dustin Jamner, Jeremy G. Siek and Philip Wadler",
-      "Title": "Theorems for Free for Free: Parametricity, With and Without Types",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-papers-theorems-for-free-for-free-parametricity-with-and-without-types"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": ["Portland State University"],
-      "AffiliationsString": "Portland State University",
-      "Authors": ["markjones"],
-      "Key": "icfp-2017-keynote-talks-program-chair-report",
-      "PersonsString": "Mark Jones",
-      "Title": "Program Chair's Report",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-keynote-talks-program-chair-report"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": ["Northwestern University, USA"],
-      "AffiliationsString": "Northwestern University, USA",
-      "Authors": ["robbyfindler"],
-      "Key": "icfp-2017-keynote-talks-icfp-2018-announcement",
-      "PersonsString": "Robert Bruce Findler",
-      "Title": "ICFP 2018 Announcement",
-      "Type": "Talk",
-      "URL": "http://icfp17.sigplan.org/event/icfp-2017-keynote-talks-icfp-2018-announcement"
     }
   ],
   "Name": "ICFP 2017",
@@ -6065,6 +6076,11 @@
       "Affiliation": "Klarna",
       "Key": "richardcarlsson",
       "Name": "Richard Carlsson"
+    },
+    {
+      "Affiliation": "Galois, Inc.",
+      "Key": "johnlaunchbury",
+      "Name": "John Launchbury"
     },
     {
       "Affiliation": "Northeastern University, USA",
@@ -8059,7 +8075,7 @@
       "Chairs": ["markjones"],
       "ChairsString": "Mark Jones",
       "Day": "2017-09-05",
-      "Items": ["icfp-2017-keynote-talks-ten-years-of-clojure-fp-out-of-the-box"],
+      "Items": ["icfp-2017-keynote-talks-assuring-ai"],
       "Key": "d3f7323d-e227-4b17-88fe-809bbb5ffcea",
       "Location": "Mathematical Institute | L1",
       "Time": "09:00 - 10:00",
