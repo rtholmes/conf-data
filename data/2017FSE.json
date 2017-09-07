@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1504614648,
+    "DataRevision": 1504766193,
     "Preliminary": "false",
     "Event": "ESEC/FSE 2017",
     "Name": "ESEC/FSE 2017",
@@ -1549,7 +1549,7 @@
             ],
             "Abstract": "This paper proposes TASKPROF, a profiler that identifies parallelism bottlenecks in task parallel programs. It leverages the structure of a task parallel execution to perform fine-grained attribution of work to various parts of the program. TASKPROF’s use of hardware performance counters to perform fine-grained measurements minimizes perturbation. TASKPROF’s profile execution runs in parallel using multi-cores. TASKPROF’s causal profile enables users to estimate improvements in parallelism when a region of code is optimized even when concrete optimizations are not yet known. We have used TASKPROF to isolate parallelism bottlenecks in twenty three applications that use the Intel Threading Building Blocks library. We have designed parallelization techniques in five applications to increase parallelism by an order of magnitude using TASKPROF. Our user study indicates that developers are able to isolate performance bottlenecks with ease using TASKPROF.",
             "Award": "",
-            "Badges": "acm_artifacts_evaluated_functional",
+            "Badges": "acm_artifacts_available acm_artifacts_evaluated_functional",
             "Keywords": "TASKPROF;  Profilers;  Task parallelism;  Intel TBB;  Causal profiles"
         },
         {
@@ -6581,9 +6581,9 @@
             "Time": "14:00 - 15:30",
             "Location": "S4",
             "LocationIndex": "4",
-            "ChairsString": "Gregor Engels",
+            "ChairsString": "Steffen Becker",
             "Chairs": [
-                "Engels-Gregor-"
+                "Becker-Steffen-"
             ],
             "SponsoredBy": "",
             "Workshop": false,
@@ -7263,6 +7263,22 @@
             "URLli": ""
         },
         {
+            "Name": "Steffen Becker",
+            "Affiliation": "",
+            "Key": "Becker-Steffen-",
+            "Id": "762665660d",
+            "Code": "",
+            "Bio": "",
+            "URLhp": "",
+            "URLphoto": "",
+            "URLgs": "",
+            "URLmsa": "",
+            "URLtw": "",
+            "URLgp": "",
+            "URLfb": "",
+            "URLli": ""
+        },
+        {
             "Name": "Nick R. T. P. van Beest",
             "Affiliation": "Data61 at CSIRO, Australia",
             "Key": "Beest-Nick-R.-T.-P.-van-Data61-at-CSIRO--Australia",
@@ -7493,11 +7509,11 @@
             "Id": "359cc52025",
             "Code": "9c4381978b8e69ef029b622e1c4c5f",
             "Bio": "",
-            "URLhp": "",
+            "URLhp": "http://www.cin.ufpe.br/~phmb/",
             "URLphoto": "",
-            "URLgs": "",
-            "URLmsa": "",
-            "URLtw": "",
+            "URLgs": "https://scholar.google.com.br/citations?user=PpRDLgcAAAAJ&hl=en",
+            "URLmsa": "https://academic.microsoft.com/#/profile/PauloBorba",
+            "URLtw": "https://twitter.com/pauloborba",
             "URLgp": "",
             "URLfb": "",
             "URLli": ""
