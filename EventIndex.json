@@ -3,6 +3,17 @@
     
 "Events": [
 {
+    "Id" : "ICSME2017",
+    "Name" : "ICSME 2017",
+    "Version" : 1,
+    "File" : "2017ICSME.json",
+    "StartDate" : "2017-09-17",
+    "EndDate" : "2017-09-24",
+    "Description" : "IEEE International Conference on Software Maintenance and Evolution",
+	"Icon" : "2017ICSME.png",
+	"Image" : "2017ICSME.png"
+},
+{
     "Id" : "FSE2017",
     "Name" : "ESEC/FSE 2017",
     "Version" : 1,
