@@ -14,7 +14,7 @@
     "MultiTrack": "true",
     "UseMiniPage": "true",
     "NewPagePerDay": "false",
-    "NumOfParallelTracks": 1,
+    "NumOfParallelTracks": 2,
     "Organization": {
         "General Chairs": [
                 "Hong Mei"
@@ -79,7 +79,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -99,7 +99,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -120,7 +120,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -143,7 +143,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -163,7 +163,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -189,7 +189,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -209,7 +209,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -228,7 +228,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -248,7 +248,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -270,7 +270,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -291,7 +291,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -313,7 +313,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -334,7 +334,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -355,7 +355,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -377,7 +377,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -399,7 +399,7 @@
             "Affiliations": [],
             "Abstract": "",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -418,7 +418,7 @@
             "Affiliations": ["The University of California, Davis"],
             "Abstract": "The aim of this talk is to highlight that taking less traveled roads in research can lead to powerful insight and impactful results. The first part discusses select, recent instances where new perspectives have led to novel, practical attacks on difficult software engineering challenges: equivalence modulo inputs (EMI) for validating optimizing compilers and mathematical execution (ME) for analyzing floating-point code. The second part summarizes several under-explored directions to which the SE community can (and should) uniquely contribute.",
             "Award": "",
-            "Keywords": "",
+            "Keywords": ""
             
         },
         {
@@ -521,7 +521,7 @@
                 "Mario Linares-Vásquez",
                 "Carlos Bernal-Cárdenas",
                 "Kevin Moran",
-                "Denys Poshyvanyk",
+                "Denys Poshyvanyk"
             ],
             "Affiliations": [],
             "Abstract": "",
@@ -542,7 +542,7 @@
                 "Florian Angerer",
                 "Paul Grünbacher",
                 "Herbert Prähofer",
-                "Lukas Linsbauer",
+                "Lukas Linsbauer"
             ],
             "Affiliations": [],
             "Abstract": "",
@@ -562,7 +562,7 @@
             "Authors": [
                 "Shuai Wang",
                 "Pei Wang",
-                "Dinghao Wu",
+                "Dinghao Wu"
             ],
             "Affiliations": [],
             "Abstract": "",
@@ -603,7 +603,7 @@
             "Authors": [
                 "Oshini Goonetilleke",
                 "David Meibusch",
-                "Ben Barham",
+                "Ben Barham"
             ],
             "Affiliations": [],
             "Abstract": "",
@@ -686,7 +686,7 @@
             "Authors": [
                 "Oscar Chaparro",
                 "Juan Manuel Florez",
-                "Andrian Marcus",
+                "Andrian Marcus"
             ],
             "Affiliations": [],
             "Abstract": "",
@@ -705,7 +705,7 @@
             "AffiliationsString": "",
             "Authors": [
                 "Brock Angus Campbell",
-                "Christoph Treude",
+                "Christoph Treude"
             ],
             "Affiliations": [],
             "Abstract": "",
@@ -755,7 +755,7 @@
             "AffiliationsString": "",
             "Authors": [
                 "Christoph Treude",
-                "Martin Robillard",
+                "Martin Robillard"
             ],
             "Affiliations": [],
             "Abstract": "",
@@ -1080,512 +1080,486 @@
             "Keywords": ""
         },
         {
-        "Title": "Recommending Framework Extension Examples",
-        "Type": "Research",
-        "Key": "f1eacbc5d3e30fce31e4bcb811046aeb97a77b96",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Muhammad Asaduzzaman, Chanchal K. Roy, Kevin Schneider, and Daqing Hou",
-        "AffiliationsString": "",
-        "Authors": [
-            "Muhammad Asaduzzaman",
-            "Chanchal K. Roy",
-            "Kevin Schneider",
-            "Daqing Hou"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": "",
-    },
-    {
-        "Title": "On the Optimal Order of Reading Source Code Changes for Review",
-        "Type": "Research",
-        "Key": "3e041a6c6f62163b1e323d9a8469ebaa1a7bb386",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Tobias Baum, Kurt Schneider, and Alberto Bacchelli",
-        "AffiliationsString": "",
-        "Authors": [
-            "Tobias Baum",
-            "Kurt Schneider",
-            "Alberto Bacchelli",
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "Code Reviewing in the Trenches: Understanding Challenges and Best Practices",
-        "Type": "Journal First",
-        "Key": "7aab2db4d68ba4c3bd4553448e910e839d008f11",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Laura MacLeod, Michaela Greiler, Margaret-Anne Storey, Christian Bird, and Jacek Czerwonka",
-        "AffiliationsString": "",
-        "Authors": [
-            "Laura MacLeod",
-            "Michaela Greiler",
-            "Margaret-Anne Storey",
-            "Christian Bird",
-            "Jacek Czerwonka"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "Confusion Detection in Code Reviews",
-        "Type": "NIER",
-        "Key": "357e65584604dc860986f3411ff8786800a83d9d",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Felipe Ebert, Fernando Castor, Nicole Novielli, and Alexander Serebrenik",
-        "AffiliationsString": "",
-        "Authors": [
-            "Felipe Ebert",
-            "Fernando Castor",
-            "Nicole Novielli",
-            "Alexander Serebrenik",
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "Constraints Based Approach to Interactive Feature Location",
-        "Type": "NIER",
-        "Key": "3b332957d90b1f949003f67c39c487c48273a1ee",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Daiki Fujioka and Naoya Nitta",
-        "AffiliationsString": "",
-        "Authors": [
-            "Daiki Fujioka",
-            "Naoya Nitta",
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "REPERSP: Recommending Personalized Software Projects on GitHub",
-        "Type": "Tool Demo",
-        "Key": "915b74c8f23b691e97ad3449929c299525653711",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Xu Wenyuan, Xiaobing Sun, Jiajun Hu, and Bin Li",
-        "AffiliationsString": "",
-        "Authors": [
-            "Xu Wenyuan",
-            "Xiaobing Sun",
-            "Jiajun Hu",
-            "Bin Li"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    ## Items for 'Build and Release'
-    {
-        "Title": "A Tale of CI Build Failures: an Open Source and a Financial Organization Perspective",
-        "Type": "Research",
-        "Key": "c43a4bb44646b143fba14e4f0b942e81ffabc33d",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Carmine Vassallo, Gerald Schermann, Fiorella Zampetti, Daniele Romano, Philipp Leitner, Andy Zaidman, Massimiliano Di Penta, and Sebastiano Panichella",
-        "AffiliationsString": "",
-        "Authors": [
-            "Carmine Vassallo",
-            "Gerald Schermann",
-            "Fiorella Zampetti",
-            "Daniele Romano",
-            "Philipp Leitner",
-            "Andy Zaidman",
-            "Massimiliano Di Penta",
-            "Sebastiano Panichella"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "There Back Again: Can you Compile that Snapshot?",
-        "Type": "Journal First",
-        "Key": "e7b6bf88a96f32395cffe85c473f1dd9c000cba1",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Michele Tufano, Fabio Palomba, Gabriele Bavota, Massimiliano Di Penta, Rocco Oliveto, Andrea De Lucia, and Denys Poshyvanyk",
-        "AffiliationsString": "",
-        "Authors": [
-            "Michele Tufano",
-            "Fabio Palomba",
-            "Gabriele Bavota",
-            "Massimiliano Di Penta",
-            "Rocco Oliveto",
-            "Andrea De Lucia",
-            "Denys Poshyvanyk",
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "Is It Safe to Uplift This Patch? An Empirical Study on Mozilla Firefox",
-        "Type": "Research",
-        "Key": "788542dd5c4eae52bd5860cc1e0f0b06692fbc17",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Marco Castelluccio, Le An, and Foutse Khomh",
-        "AffiliationsString": "",
-        "Authors": [
-            "Marco Castelluccio",
-            "Le An",
-            "Foutse Khomh"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "Studying the urgent updates of popular games on the Steam platform",
-        "Type": "Journal First",
-        "Key": "b7ef40fe636749688b2cd87fda4a77a902f15c4f",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Dayi Lin, Cor-Paul Bezemer, and Ahmed E. Hassan",
-        "AffiliationsString": "",
-        "Authors": [
-            "Dayi Lin",
-            "Cor-Paul Bezemer",
-            "Ahmed E. Hassan"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "Forecasting the Duration of Incremental Build Jobs",
-        "Type": "NIER",
-        "Key": "f073913c39282d4fca3ac27619d7f853528ea588",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Qi Cao, Ruiyin Wen, and Shane Mcintosh",
-        "AffiliationsString": "",
-        "Authors": [
-            "Qi Cao",
-            "Ruiyin Wen",
-            "Shane Mcintosh"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    ## Items for 'Bugs and Tickets'
-    {
-        "Title": "A Characterization Study of Repeated Bug Fixes",
-        "Type": "Research",
-        "Key": "9fd7998af6ca8ad0450a052bdf8cab63cc0fc2b2",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Ruru Yue, Na Meng, and Qianxiang Wang",
-        "AffiliationsString": "",
-        "Authors": [
-            "Ruru Yue",
-            "Na Meng",
-            "Qianxiang Wang"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "Towards Accurate Duplicate Bug Retrieval using Deep Learning Techniques",
-        "Type": "Research",
-        "Key": "7ed4d6a20a3b41c256dd2487681f3e0d9c2d9a8e",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Jayati Deshmukh, Annervaz K M, Sanjay Podder, Shubhashis Sengupta, and Neville Dubash",
-        "AffiliationsString": "",
-        "Authors": [
-            "Jayati Deshmukh",
-            "Annervaz K M",
-            "Sanjay Podder",
-            "Shubhashis Sengupta",
-            "Neville Dubash"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "Bug Reports for Desktop Software and Mobile Apps in GitHub: What is the Difference?",
-        "Type": "Journal First",
-        "Key": "dd5414ee4755418fb53180281e9545f6a30595bf",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Tao Zhang, Jiachi Chen, Xiapu Luo, and Tao Li",
-        "AffiliationsString": "",
-        "Authors": [
-            "Tao Zhang",
-            "Jiachi Chen",
-            "Xiapu Luo",
-            "Tao Li"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "Reducing User Input Requests to Improve IT Support Ticket Resoluti on Process",
-        "Type": "Journal First",
-        "Key": "efc38c013f6e440623e51121909fb9c47c26c3f1",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Monika Gupta, Allahbaksh Asadullah, Srinivas Padmanabhuni, and Alexander Serebrenik",
-        "AffiliationsString": "",
-        "Authors": [
-            "Monika Gupta",
-            "Allahbaksh Asadullah",
-            "Srinivas Padmanabhuni",
-            "Alexander Serebrenik"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "Mean Average Distance to Resolver: An Evaluation Metric for Ticket Routing in Expert Network",
-        "Type": "Industry",
-        "Key": "72546a0622de41dcb1ca27f5aaca292ce422de6b",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Jianglei Han, and Aixin Sun",
-        "AffiliationsString": "",
-        "Authors": [
-            "Jianglei Han",
-            "Aixin Sun"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "Bug or Not? Bug Report Classification using N-Gram IDF",
-        "Type": "NIER",
-        "Key": "33687bcfd1dd26fbd04d81dad7430f1e0647bd3d",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Pannavat Terdchanakul, Hideaki Hata, Passakorn Phannachitta, and Kenichi Matsumoto",
-        "AffiliationsString": "",
-        "Authors": [
-            "Pannavat Terdchanakul",
-            "Hideaki Hata",
-            "Passakorn Phannachitta",
-            "Kenichi Matsumoto"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    ## Items for 'Android'
-    {
-        "Title": "Evaluating State-of-the-Art Free and Open Source Static Analysis Tools against Buffer Errors in Android Apps",
-        "Type": "Research",
-        "Key": "e96f04cdc79051b21f565760054d82a41b065893",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Bushra Aloraini and Meiyappan Nagappan",
-        "AffiliationsString": "",
-        "Authors": [
-            "Bushra Aloraini",
-            "Meiyappan Nagappan"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "AimDroid: Activity-Insulated Multi-level Automated Testing for Android Applications",
-        "Type": "Research",
-        "Key": "df1eaa7d9f283072b6d78cea62c9aaabb17c3167",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Tianxiao Gu, Chun Cao, Tianchi Liu, Chengnian Sun, Jing Deng, Xiaoxing Ma, and Jian Lü",
-        "AffiliationsString": "",
-        "Authors": [
-            "Tianxiao Gu",
-            "Chun Cao",
-            "Tianchi Liu",
-            "Chengnian Sun",
-            "Jing Deng",
-            "Xiaoxing Ma",
-            "Jian Lü"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "An Empirical Study of Local Database Usage in Android Applications",
-        "Type": "Research",
-        "Key": "24a4a024bc7ba0e2b1f916fe47849a5299ebfc88",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Yingjun Lyu, Jiaping Gui, Mian Wan, and William G.J. Halfond",
-        "AffiliationsString": "",
-        "Authors": [
-            "Yingjun Lyu",
-            "Jiaping Gui",
-            "Mian Wan",
-            "William G.J. Halfond"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "DroidFax: A Toolkit for Systematic Characterization of Android Applications",
-        "Type": "Tool Demo",
-        "Key": "16bd6078cd1b1782be78f487bf03793cc78c594d",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Haipeng Cai and Barbara Ryder",
-        "AffiliationsString": "",
-        "Authors": [
-            "Haipeng Cai",
-            "Barbara Ryder"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "Dissecting Android Inter-Component Communications via Interactive Visual Explorations",
-        "Type": "NIER",
-        "Key": "86cf8c85e3173e483572f080d5e34c4b8a49a44b",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "John Jenkins and Haipeng Cai",
-        "AffiliationsString": "",
-        "Authors": [
-            "John Jenkins",
-            "Haipeng Cai"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
-        "Title": "Mining AndroZoo: A Retrospect",
-        "Type": "Doctoral Symposium",
-        "Key": "d278ab55c22ad280bf87885473e098c6782178de",
-        "URL": "",
-        "URLvideo": "",
-        "URLinfo": "",
-        "DOI": "",
-        "PersonsString": "Li Li",
-        "AffiliationsString": "",
-        "Authors": [
-            "Li Li"
-        ],
-        "Affiliations": [
-        ],
-        "Abstract": "",
-        "Award": "",
-        "Keywords": ""
-    },
-    {
+            "Title": "Recommending Framework Extension Examples",
+            "Type": "Research",
+            "Key": "f1eacbc5d3e30fce31e4bcb811046aeb97a77b96",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Muhammad Asaduzzaman, Chanchal K. Roy, Kevin Schneider, and Daqing Hou",
+            "AffiliationsString": "",
+            "Authors": [
+                "Muhammad Asaduzzaman",
+                "Chanchal K. Roy",
+                "Kevin Schneider",
+                "Daqing Hou"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "On the Optimal Order of Reading Source Code Changes for Review",
+            "Type": "Research",
+            "Key": "3e041a6c6f62163b1e323d9a8469ebaa1a7bb386",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Tobias Baum, Kurt Schneider, and Alberto Bacchelli",
+            "AffiliationsString": "",
+            "Authors": [
+                "Tobias Baum",
+                "Kurt Schneider",
+                "Alberto Bacchelli"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Code Reviewing in the Trenches: Understanding Challenges and Best Practices",
+            "Type": "Journal First",
+            "Key": "7aab2db4d68ba4c3bd4553448e910e839d008f11",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Laura MacLeod, Michaela Greiler, Margaret-Anne Storey, Christian Bird, and Jacek Czerwonka",
+            "AffiliationsString": "",
+            "Authors": [
+                "Laura MacLeod",
+                "Michaela Greiler",
+                "Margaret-Anne Storey",
+                "Christian Bird",
+                "Jacek Czerwonka"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Confusion Detection in Code Reviews",
+            "Type": "NIER",
+            "Key": "357e65584604dc860986f3411ff8786800a83d9d",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Felipe Ebert, Fernando Castor, Nicole Novielli, and Alexander Serebrenik",
+            "AffiliationsString": "",
+            "Authors": [
+                "Felipe Ebert",
+                "Fernando Castor",
+                "Nicole Novielli",
+                "Alexander Serebrenik"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Constraints Based Approach to Interactive Feature Location",
+            "Type": "NIER",
+            "Key": "3b332957d90b1f949003f67c39c487c48273a1ee",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Daiki Fujioka and Naoya Nitta",
+            "AffiliationsString": "",
+            "Authors": [
+                "Daiki Fujioka",
+                "Naoya Nitta"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "REPERSP: Recommending Personalized Software Projects on GitHub",
+            "Type": "Tool Demo",
+            "Key": "915b74c8f23b691e97ad3449929c299525653711",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Xu Wenyuan, Xiaobing Sun, Jiajun Hu, and Bin Li",
+            "AffiliationsString": "",
+            "Authors": [
+                "Xu Wenyuan",
+                "Xiaobing Sun",
+                "Jiajun Hu",
+                "Bin Li"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "A Tale of CI Build Failures: an Open Source and a Financial Organization Perspective",
+            "Type": "Research",
+            "Key": "c43a4bb44646b143fba14e4f0b942e81ffabc33d",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Carmine Vassallo, Gerald Schermann, Fiorella Zampetti, Daniele Romano, Philipp Leitner, Andy Zaidman, Massimiliano Di Penta, and Sebastiano Panichella",
+            "AffiliationsString": "",
+            "Authors": [
+                "Carmine Vassallo",
+                "Gerald Schermann",
+                "Fiorella Zampetti",
+                "Daniele Romano",
+                "Philipp Leitner",
+                "Andy Zaidman",
+                "Massimiliano Di Penta",
+                "Sebastiano Panichella"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "There Back Again: Can you Compile that Snapshot?",
+            "Type": "Journal First",
+            "Key": "e7b6bf88a96f32395cffe85c473f1dd9c000cba1",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Michele Tufano, Fabio Palomba, Gabriele Bavota, Massimiliano Di Penta, Rocco Oliveto, Andrea De Lucia, and Denys Poshyvanyk",
+            "AffiliationsString": "",
+            "Authors": [
+                "Michele Tufano",
+                "Fabio Palomba",
+                "Gabriele Bavota",
+                "Massimiliano Di Penta",
+                "Rocco Oliveto",
+                "Andrea De Lucia",
+                "Denys Poshyvanyk"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Is It Safe to Uplift This Patch? An Empirical Study on Mozilla Firefox",
+            "Type": "Research",
+            "Key": "788542dd5c4eae52bd5860cc1e0f0b06692fbc17",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Marco Castelluccio, Le An, and Foutse Khomh",
+            "AffiliationsString": "",
+            "Authors": [
+                "Marco Castelluccio",
+                "Le An",
+                "Foutse Khomh"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Studying the urgent updates of popular games on the Steam platform",
+            "Type": "Journal First",
+            "Key": "b7ef40fe636749688b2cd87fda4a77a902f15c4f",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Dayi Lin, Cor-Paul Bezemer, and Ahmed E. Hassan",
+            "AffiliationsString": "",
+            "Authors": [
+                "Dayi Lin",
+                "Cor-Paul Bezemer",
+                "Ahmed E. Hassan"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Forecasting the Duration of Incremental Build Jobs",
+            "Type": "NIER",
+            "Key": "f073913c39282d4fca3ac27619d7f853528ea588",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Qi Cao, Ruiyin Wen, and Shane Mcintosh",
+            "AffiliationsString": "",
+            "Authors": [
+                "Qi Cao",
+                "Ruiyin Wen",
+                "Shane Mcintosh"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "A Characterization Study of Repeated Bug Fixes",
+            "Type": "Research",
+            "Key": "9fd7998af6ca8ad0450a052bdf8cab63cc0fc2b2",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Ruru Yue, Na Meng, and Qianxiang Wang",
+            "AffiliationsString": "",
+            "Authors": [
+                "Ruru Yue",
+                "Na Meng",
+                "Qianxiang Wang"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Towards Accurate Duplicate Bug Retrieval using Deep Learning Techniques",
+            "Type": "Research",
+            "Key": "7ed4d6a20a3b41c256dd2487681f3e0d9c2d9a8e",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Jayati Deshmukh, Annervaz K M, Sanjay Podder, Shubhashis Sengupta, and Neville Dubash",
+            "AffiliationsString": "",
+            "Authors": [
+                "Jayati Deshmukh",
+                "Annervaz K M",
+                "Sanjay Podder",
+                "Shubhashis Sengupta",
+                "Neville Dubash"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Bug Reports for Desktop Software and Mobile Apps in GitHub: What is the Difference?",
+            "Type": "Journal First",
+            "Key": "dd5414ee4755418fb53180281e9545f6a30595bf",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Tao Zhang, Jiachi Chen, Xiapu Luo, and Tao Li",
+            "AffiliationsString": "",
+            "Authors": [
+                "Tao Zhang",
+                "Jiachi Chen",
+                "Xiapu Luo",
+                "Tao Li"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Reducing User Input Requests to Improve IT Support Ticket Resoluti on Process",
+            "Type": "Journal First",
+            "Key": "efc38c013f6e440623e51121909fb9c47c26c3f1",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Monika Gupta, Allahbaksh Asadullah, Srinivas Padmanabhuni, and Alexander Serebrenik",
+            "AffiliationsString": "",
+            "Authors": [
+                "Monika Gupta",
+                "Allahbaksh Asadullah",
+                "Srinivas Padmanabhuni",
+                "Alexander Serebrenik"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Mean Average Distance to Resolver: An Evaluation Metric for Ticket Routing in Expert Network",
+            "Type": "Industry",
+            "Key": "72546a0622de41dcb1ca27f5aaca292ce422de6b",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Jianglei Han, and Aixin Sun",
+            "AffiliationsString": "",
+            "Authors": [
+                "Jianglei Han",
+                "Aixin Sun"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Bug or Not? Bug Report Classification using N-Gram IDF",
+            "Type": "NIER",
+            "Key": "33687bcfd1dd26fbd04d81dad7430f1e0647bd3d",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Pannavat Terdchanakul, Hideaki Hata, Passakorn Phannachitta, and Kenichi Matsumoto",
+            "AffiliationsString": "",
+            "Authors": [
+                "Pannavat Terdchanakul",
+                "Hideaki Hata",
+                "Passakorn Phannachitta",
+                "Kenichi Matsumoto"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Evaluating State-of-the-Art Free and Open Source Static Analysis Tools against Buffer Errors in Android Apps",
+            "Type": "Research",
+            "Key": "e96f04cdc79051b21f565760054d82a41b065893",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Bushra Aloraini and Meiyappan Nagappan",
+            "AffiliationsString": "",
+            "Authors": [
+                "Bushra Aloraini",
+                "Meiyappan Nagappan"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "AimDroid: Activity-Insulated Multi-level Automated Testing for Android Applications",
+            "Type": "Research",
+            "Key": "df1eaa7d9f283072b6d78cea62c9aaabb17c3167",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Tianxiao Gu, Chun Cao, Tianchi Liu, Chengnian Sun, Jing Deng, Xiaoxing Ma, and Jian Lü",
+            "AffiliationsString": "",
+            "Authors": [
+                "Tianxiao Gu",
+                "Chun Cao",
+                "Tianchi Liu",
+                "Chengnian Sun",
+                "Jing Deng",
+                "Xiaoxing Ma",
+                "Jian Lü"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "An Empirical Study of Local Database Usage in Android Applications",
+            "Type": "Research",
+            "Key": "24a4a024bc7ba0e2b1f916fe47849a5299ebfc88",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Yingjun Lyu, Jiaping Gui, Mian Wan, and William G.J. Halfond",
+            "AffiliationsString": "",
+            "Authors": [
+                "Yingjun Lyu",
+                "Jiaping Gui",
+                "Mian Wan",
+                "William G.J. Halfond"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "DroidFax: A Toolkit for Systematic Characterization of Android Applications",
+            "Type": "Tool Demo",
+            "Key": "16bd6078cd1b1782be78f487bf03793cc78c594d",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Haipeng Cai and Barbara Ryder",
+            "AffiliationsString": "",
+            "Authors": [
+                "Haipeng Cai",
+                "Barbara Ryder"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Dissecting Android Inter-Component Communications via Interactive Visual Explorations",
+            "Type": "NIER",
+            "Key": "86cf8c85e3173e483572f080d5e34c4b8a49a44b",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "John Jenkins and Haipeng Cai",
+            "AffiliationsString": "",
+            "Authors": [
+                "John Jenkins",
+                "Haipeng Cai"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
+            "Title": "Mining AndroZoo: A Retrospect",
+            "Type": "Doctoral Symposium",
+            "Key": "d278ab55c22ad280bf87885473e098c6782178de",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Li Li",
+            "AffiliationsString": "",
+            "Authors": [
+                "Li Li"
+            ],
+            "Affiliations": [],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
+        {
             "Title": "Supervised vs Unsupervised Models: A Holistic Look at Effort-Aware Just-in-Time Defect Prediction",
             "Type": "Research",
-            "Key": "Session 13 - 01",
+            "Key": "Supervised vs Unsupervised Models: A Holistic Look at Effort-Aware Just-in-Time Defect Prediction",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1606,7 +1580,7 @@
         {
             "Title": "Heterogeneous Defect Prediction through Multiple Kernel Learning and Ensemble Learning",
             "Type": "Research",
-            "Key": "Session 13 - 02",
+            "Key": "Heterogeneous Defect Prediction through Multiple Kernel Learning and Ensemble Learning",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1628,7 +1602,7 @@
         {
             "Title": "The utility challenge of privacy-preserving data-sharing in cross-company defect prediction: An empirical study of the CLIFF&MORPH algorithm",
             "Type": "Research",
-            "Key": "Session 13 - 03",
+            "Key": "The utility challenge of privacy-preserving data-sharing in cross-company defect prediction: An empirical study of the CLIFF&MORPH algorithm",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1639,7 +1613,7 @@
                 "Yi Fan",
                 "Chenxi Lv",
                 "Xu Zhang",
-                "Guoqiang Zhou"
+                "Guoqiang Zhou",
                 "Yuming Zhou"
             ],
             "Affiliations": [
@@ -1651,7 +1625,7 @@
         {
             "Title": "Global vs. local models for cross-project defect prediction: a replication study",
             "Type": "Journal First",
-            "Key": "Session 13 - 04",
+            "Key": "Global vs. local models for cross-project defect prediction: a replication study",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1672,7 +1646,7 @@
         {
             "Title": "Improving Software Maintenance Using Process Mining and Predictive Analytics",
             "Type": "Doctoral Symposium",
-            "Key": "Session 13 - 05",
+            "Key": "Improving Software Maintenance Using Process Mining and Predictive Analytics",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1691,7 +1665,7 @@
         {
             "Title": "Software Design Intelligence: Practice and Technical Requirements from Huawei",
             "Type": "Forum",
-            "Key": "Session 14 - 01",
+            "Key": "Software Design Intelligence: Practice and Technical Requirements from Huawei",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1711,7 +1685,7 @@
         {
             "Title": "Talks from Seed Panelists",
             "Type": "Forum",
-            "Key": "Session 14 - 02",
+            "Key": "Talks from Seed Panelists",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1733,7 +1707,7 @@
         {
             "Title": "Rotating Panel Discussion: open from all the participants",
             "Type": "Forum",
-            "Key": "Session 14 - 03",
+            "Key": "Rotating Panel Discussion: open from all the participants",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1751,7 +1725,7 @@
         {
             "Title": "Deep Green: modelling time-series of software energy consumption",
             "Type": "Research",
-            "Key": "Session 15 - 01",
+            "Key": "Deep Green: modelling time-series of software energy consumption",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1774,7 +1748,7 @@
         {
             "Title": "Behavior Metrics for Prioritizing Investigations of Exceptions",
             "Type": "Industry",
-            "Key": "Session 15 - 02",
+            "Key": "Behavior Metrics for Prioritizing Investigations of Exceptions",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1798,7 +1772,7 @@
         {
             "Title": "Flattening Code For Metrics Measurement and Analysis",
             "Type": "NIER",
-            "Key": "Session 15 - 03",
+            "Key": "Flattening Code For Metrics Measurement and Analysis",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1818,7 +1792,7 @@
         {
             "Title": "Automating Aggregation for Software Quality Modeling",
             "Type": "NIER",
-            "Key": "Session 15 - 04",
+            "Key": "Automating Aggregation for Software Quality Modeling",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1841,7 +1815,7 @@
         {
             "Title": "Predicting and Evaluating Software Model Growth in the Automotive Industry",
             "Type": "Industry",
-            "Key": "Session 15 - 05",
+            "Key": "Predicting and Evaluating Software Model Growth in the Automotive Industry",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1866,7 +1840,7 @@
         {
             "Title": "An Experience Report on Applying Passive Learning in a Large-Scale Payment Company",
             "Type": "Industry",
-            "Key": "Session 15 - 06",
+            "Key": "An Experience Report on Applying Passive Learning in a Large-Scale Payment Company",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1889,7 +1863,7 @@
         {
             "Title": "flexfringe: a passive automaton learning package",
             "Type": "Tool Demo",
-            "Key": "Session 15 - 07",
+            "Key": "flexfringe: a passive automaton learning package",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1909,7 +1883,7 @@
         {
             "Title": "Atlantis: Improving the Analysis and Visualization of Large Assembly Execution Traces",
             "Type": "Tool Demo",
-            "Key": "Session 15 - 08",
+            "Key": "Atlantis: Improving the Analysis and Visualization of Large Assembly Execution Traces",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1932,7 +1906,7 @@
         {
             "Title": "CityVR: Gameful Software Visualization",
             "Type": "Tool Demo",
-            "Key": "Session 15 - 09",
+            "Key": "CityVR: Gameful Software Visualization",
             "URL": "",
             "URLvideo": "",
             "URLinfo": "",
@@ -1951,7 +1925,28 @@
             "Award": "",
             "Keywords": ""
         },
- 
+        {
+            "Title": "CityVR: Gameful Software Visualization",
+            "Type": "Tool Demo",
+            "Key": "CityVR: Gameful Software Visualization",
+            "URL": "",
+            "URLvideo": "",
+            "URLinfo": "",
+            "DOI": "",
+            "PersonsString": "Leonel Merino, Mohammad Ghafari, Craig Anslow, and Oscar Nierstrasz",
+            "AffiliationsString": "",
+            "Authors": [
+                "Leonel Merino",
+                "Mohammad Ghafari",
+                "Craig Anslow",
+                "Oscar Nierstrasz"
+            ],
+            "Affiliations": [
+            ],
+            "Abstract": "",
+            "Award": "",
+            "Keywords": ""
+        },
         {
             "Title": "Coarse Hierarchical Delta Debugging",
             "Type": "Research",
@@ -2105,7 +2100,7 @@
             "Abstract": "",
             "Award": "",
             "Keywords": ""
-        },
+        }
     ],
     "Sessions": [
         {
@@ -2169,7 +2164,7 @@
             "Workshop": false,
             "Comment": "",
             "URL": "",
-            "Abstract": "",
+            "Abstract": ""
         },
         {
             "Id": "zk4",
@@ -2246,7 +2241,7 @@
             "Workshop": false,
             "Comment": "",
             "URL": "",
-            "Abstract": "",
+            "Abstract": ""
             
         },
         {
@@ -2303,7 +2298,7 @@
                 "icsme17session4-2-p",
                 "icsme17session4-3-p",
                 "icsme17session4-4-p",
-                "icsme17session4-5-p",
+                "icsme17session4-5-p"
             ]
         },
         {
@@ -2350,7 +2345,7 @@
                 "icsme17session5-2-p",
                 "icsme17session5-3-p",
                 "icsme17session5-4-p",
-                "icsme17session5-5-p",
+                "icsme17session5-5-p"
             ]
         },
         {
@@ -2379,7 +2374,7 @@
                 "icsme17session6-3-p",
                 "icsme17session6-4-p",
                 "icsme17session6-5-p",
-                "icsme17session6-6-p",
+                "icsme17session6-6-p"
             ]
         },
         {
@@ -2399,7 +2394,7 @@
             "Workshop": false,
             "Comment": "",
             "URL": "",
-            "Abstract": "",
+            "Abstract": ""
         },
         {
             "Id": "xkw6",
@@ -2418,7 +2413,7 @@
             "Workshop": false,
             "Comment": "",
             "URL": "",
-            "Abstract": "",
+            "Abstract": ""
         },
         {
             "Id": "rh1",
@@ -2441,8 +2436,7 @@
             "Comment": "",
             "URL": "",
             "Abstract": ""
-        },
-        {
+        },{
             "Id": "rh2",
             "Title": "Artifacts",
             "ShortTitle": "Artifacts",
@@ -2469,8 +2463,7 @@
                 "icsme20170921-artifacts-4",
                 "icsme20170921-artifacts-5"
             ]
-        },
-        {
+        },{
             "Id": "rh3",
             "Title": "Break",
             "ShortTitle": "Break",
@@ -2489,8 +2482,7 @@
             "Comment": "",
             "URL": "",
             "Abstract": ""
-        },
-        {
+        },{
             "Id": "rh4",
             "Title": "Session 7: Empirical 2",
             "ShortTitle": "Session 7: Empirical 2",
@@ -2518,8 +2510,7 @@
                 "icsme20170921-session7-5",
                 "icsme20170921-session7-6"
             ]
-        },
-        {
+        },{
             "Id": "rh5",
             "Title": "Session 8: Security",
             "ShortTitle": "Session 8: Security",
@@ -2546,8 +2537,7 @@
                 "icsme20170921-session8-4",
                 "icsme20170921-session8-5"
             ]
-        },
-        {
+        },{
             "Id": "rh6",
             "Title": "Lunch",
             "ShortTitle": "Lunch",
@@ -2586,8 +2576,8 @@
             "Workshop": false,
             "Comment": "ICSME17ALL",
             "URL": "",
-            "Abstract": "",
-        }, 
+            "Abstract": ""
+        },
         {
             "Id": "62d5929d013d567fd075e5acf5825c3bc380c93a",
             "Title": "Build and Release",
@@ -2607,7 +2597,7 @@
             "Workshop": false,
             "Comment": "ICSME17ALL",
             "URL": "",
-            "Abstract": ""    
+            "Abstract": ""
         },
         {
             "Id": "6674e817c1bb3628c0304a71f94caa566d7fe488",
@@ -2621,13 +2611,12 @@
             "Location": "Foyer (2/F)",
             "LocationIndex": "",
             "ChairsString": "",
-            "Chairs": [
-            ],
+            "Chairs": [],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICSME17ALL",
             "URL": "",
-            "Abstract": ""    
+            "Abstract": ""
         },
         {
             "Id": "94f59af3adb50f138e5478dfd619a79b45459bfb",
@@ -2648,7 +2637,7 @@
             "Workshop": false,
             "Comment": "ICSME17ALL",
             "URL": "",
-            "Abstract": ""    
+            "Abstract": ""
         },
         {
             "Id": "d9caf7825abddb11821b4ed162eb96395ace2426",
@@ -2669,7 +2658,7 @@
             "Workshop": false,
             "Comment": "ICSME17ALL",
             "URL": "",
-            "Abstract": ""    
+            "Abstract": ""
         },
         {
             "Id": "50731c3581e61966482b5a02e952b08254093038",
@@ -2683,13 +2672,12 @@
             "Location": "Sun Chateau on the Bund (2/F)",
             "LocationIndex": "",
             "ChairsString": "",
-            "Chairs": [
-            ],
+            "Chairs": [],
             "SponsoredBy": "",
             "Workshop": false,
             "Comment": "ICSME17ALL",
             "URL": "",
-            "Abstract": ""    
+            "Abstract": ""
         },
         {
             "Id": "hxj01",
@@ -2712,12 +2700,12 @@
             "URL": "",
             "Abstract": "",
             "Items": [
-                "Session 13 - 01",
-                "Session 13 - 02",
-                "Session 13 - 03",
-                "Session 13 - 04",
-                "Session 13 - 05"
-            ],
+                "Supervised vs Unsupervised Models: A Holistic Look at Effort-Aware Just-in-Time Defect Prediction",
+                "Heterogeneous Defect Prediction through Multiple Kernel Learning and Ensemble Learning",
+                "The utility challenge of privacy-preserving data-sharing in cross-company defect prediction: An empirical study of the CLIFF&MORPH algorithm",
+                "Global vs. local models for cross-project defect prediction: a replication study",
+                "Improving Software Maintenance Using Process Mining and Predictive Analytics"
+            ]
         },
         {
             "Id": "hxj02",
@@ -2740,10 +2728,10 @@
             "URL": "",
             "Abstract": "The forum is supported by Huawei. It will be a goldfish bowl panel format and be focused on the following topics: microservice architecture measurement, recommendation and reuse of architectural/design pattern, architectural smells and refactoring, light-weighted design in iterative development.",
             "Items": [
-                "Session 14 - 01",
-                "Session 14 - 02",
-                "Session 14 - 03"
-            ],
+                "Software Design Intelligence: Practice and Technical Requirements from Huawei",
+                "Talks from Seed Panelists",
+                "Rotating Panel Discussion: open from all the participants"
+            ]
         },
         {
             "Id": "hxj03",
@@ -2765,7 +2753,7 @@
             "URL": "",
             "Abstract": "",
             "Items": [
-            ],
+            ]
         },
         {
             "Id": "hxj04",
@@ -2788,16 +2776,16 @@
             "URL": "",
             "Abstract": "",
             "Items": [
-                "Session 15 - 01",
-                "Session 15 - 02",
-                "Session 15 - 03",
-                "Session 15 - 04",
-                "Session 15 - 05",
-                "Session 15 - 06"
-                "Session 15 - 07",
-                "Session 15 - 08"
-                "Session 15 - 09"
-            ],
+                "Deep Green: modelling time-series of software energy consumption",
+                "Behavior Metrics for Prioritizing Investigations of Exceptions",
+                "Flattening Code For Metrics Measurement and Analysis",
+                "Automating Aggregation for Software Quality Modeling",
+                "Predicting and Evaluating Software Model Growth in the Automotive Industry",
+                "An Experience Report on Applying Passive Learning in a Large-Scale Payment Company",
+                "flexfringe: a passive automaton learning package",
+                "Atlantis: Improving the Analysis and Visualization of Large Assembly Execution Traces",
+                "CityVR: Gameful Software Visualization"
+            ]
         },
         {
             "Id": "hxj05",
@@ -2826,7 +2814,7 @@
                 "Session 16 - 04",
                 "Session 16 - 05",
                 "Session 16 - 06"
-            ],
+            ]
         },
         {
             "Id": "hxj06",
@@ -2848,7 +2836,7 @@
             "URL": "",
             "Abstract": "",
             "Items": [
-            ],
+            ]
         },
         {
             "Id": "hxj07",
@@ -2871,7 +2859,7 @@
             "Abstract": "",
             "Items": [
                 "MIP Talk - 01"
-            ],
+            ]
         },
         {
             "Id": "hxj08",
@@ -2893,7 +2881,7 @@
             "URL": "",
             "Abstract": "",
             "Items": [
-            ],
+            ]
         },
         {
             "Id": "hxj09",
@@ -2915,7 +2903,7 @@
             "URL": "",
             "Abstract": "",
             "Items": [
-            ],
+            ]
         },
         {
             "Id": "hxj10",
@@ -2937,9 +2925,10 @@
             "URL": "",
             "Abstract": "Follow the volunteers to the playground",
             "Items": [
-            ],
-        },
+            ]
+        }
     ],
+    
     "People": [
         {
             "Name": "﻿Abhishek Sharma",
