@@ -3,6 +3,28 @@
     
 "Events": [
 {
+    "Id" : "SANER2018",
+    "Name" : "SANER 2018",
+    "Version" : 1,
+    "File" : "2018SANER.json",
+    "StartDate" : "2018-03-20",
+    "EndDate" : "2018-03-23",
+    "Description" : "2018 IEEE 25th International Conference on Software Analysis, Evolution, and Reengineering",
+    "Icon" : "2018SANER.png",
+    "Image" : "2018SANER.png"
+},
+{
+    "Id" : "HAPTICS2018",
+    "Name" : "2018 HAPTICS",
+    "Version" : 1,
+    "File" : "2018HAPTICS.json",
+    "StartDate" : "2018-03-25",
+    "EndDate" : "2018-03-28",
+    "Description" : "2018 IEEE Haptics Symposium",
+    "Icon" : "2018HAPTICS.png",
+    "Image" : "2018HAPTICS.png"
+},
+{
     "Id" : "ASE2017",
     "Name" : "ASE 2017",
     "Version" : 1,
