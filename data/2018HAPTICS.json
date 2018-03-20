@@ -1,5 +1,5 @@
 {
-    "DataRevision": 1521581921,
+    "DataRevision": 1521582821,
     "Preliminary": "false",
     "Event": "Haptics Symposium 2018",
     "Name": "Haptics Symposium 2018",
@@ -7269,12 +7269,38 @@
     ],
     "Sessions": [
         {
-            "Id": "Po4pi8ga2W",
-            "Title": "General Information 1",
-            "ShortTitle": "General Information 1",
+            "Id": "bitia9ce3V",
+            "Title": "Calls for Papers",
+            "ShortTitle": "Calls for Papers",
             "Type": "Social",
             "ShortType": "Social",
-            "Key": "2018-03-25 07:00 General Information 1",
+            "Key": "2018-03-25 07:00 Calls for Papers",
+            "Day": "2018-03-25",
+            "Time": "07:00 - 07:00",
+            "Location": "",
+            "LocationIndex": "4",
+            "ChairsString": "",
+            "Chairs": [],
+            "ProgLabel": "",
+            "Workshop": false,
+            "Comment": "HAPTICS18",
+            "URL": "",
+            "Abstract": "",
+            "Items": [
+                "hapticscomp18back-fm008-p",
+                "hapticscomp18back-fm008b-p",
+                "hapticscomp18back-fm009-p",
+                "hapticscomp18back-fm0010-p",
+                "hapticscomp18back-fm0012-p"
+            ]
+        },
+        {
+            "Id": "Po4pi8ga2W",
+            "Title": "General Information",
+            "ShortTitle": "General Information",
+            "Type": "Social",
+            "ShortType": "Social",
+            "Key": "2018-03-25 07:00 General Information",
             "Day": "2018-03-25",
             "Time": "07:00 - 07:00",
             "Location": "",
@@ -7297,32 +7323,6 @@
                 "hapticscomp18foreword-fm0011-p",
                 "hapticscomp18foreword-fm0013-p",
                 "hapticscomp18foreword-fm0014-p"
-            ]
-        },
-        {
-            "Id": "bitia9ce3V",
-            "Title": "General Information 2",
-            "ShortTitle": "General Information 2",
-            "Type": "Social",
-            "ShortType": "Social",
-            "Key": "2018-03-25 07:00 General Information 2",
-            "Day": "2018-03-25",
-            "Time": "07:00 - 07:00",
-            "Location": "",
-            "LocationIndex": "4",
-            "ChairsString": "",
-            "Chairs": [],
-            "ProgLabel": "",
-            "Workshop": false,
-            "Comment": "HAPTICS18",
-            "URL": "",
-            "Abstract": "",
-            "Items": [
-                "hapticscomp18back-fm008-p",
-                "hapticscomp18back-fm008b-p",
-                "hapticscomp18back-fm009-p",
-                "hapticscomp18back-fm0010-p",
-                "hapticscomp18back-fm0012-p"
             ]
         },
         {
