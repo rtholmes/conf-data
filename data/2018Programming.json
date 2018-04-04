@@ -1,5 +1,5 @@
 {
-  "DataRevision": -1951280876,
+  "DataRevision": -1853380108,
   "Description": "The International Conference on the Art, Science, and Engineering of Programming is a new conference focused on programming topics including the experience of programming. We\u2019ve named it \u2039Programming\u203a for short. \u2039Programming\u203a 2018 is the second edition of the conference. The first edition took place in Brussels in April 2017 Papers are welcome from any part of the programming research lifecycle, as are papers on programming practice and experience.",
   "Event": "programming-2018",
   "Location": "Nice, France",
@@ -37,6 +37,17 @@
       "Title": "JastAdd",
       "Type": "Talk",
       "URL": "https://2018.programming-conference.org/event/cocodo-2018-dojo-jastadd"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Fernuniversität"],
+      "AffiliationsString": "Fernuniversität",
+      "Authors": ["friedrichsteimann"],
+      "Key": "cocodo-2018-dojo-the-game-of-programmer-vs-ide",
+      "PersonsString": "Friedrich Steimann",
+      "Title": "The Game of Programmer vs. IDE",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/cocodo-2018-dojo-the-game-of-programmer-vs-ide"
     },
     {
       "Abstract": "The FunCons session at CoCoDo 2018 gives participants the opportunity to try compiling programs to so-called \u2018funcons\u2019 (fundamental programming constructs). \nA collection of funcons is essentially a very high level intermediate language. The operational definitions of funcons are reusable components of language specifications, and can be interpreted to run funcon terms. Compilation of a language to funcons supports agile rapid prototyping during its development. A formal definition of the compilation also provides a formal semantics for the language. \nAt this dojo, participants will use the beta-release of the current collection of funcons, and specify compilation of a simple demonstration language (SL) to funcons using the CBS meta-language for component-based semantics developed by the PLanCompS project. Browsing, editing, and running the specifications are supported by editors generated using Spoofax.",
@@ -328,17 +339,6 @@
       "Affiliations": [],
       "AffiliationsString": "",
       "Authors": [],
-      "Key": "refuses-2018-papers-discussion-what-next-for-salon-des-refus-s",
-      "PersonsString": "",
-      "Title": "Discussion - What next for Salon des Refusés",
-      "Type": "Talk",
-      "URL": "https://2018.programming-conference.org/event/refuses-2018-papers-discussion-what-next-for-salon-des-refus-s"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
       "Key": "morevms-2018-day-closing",
       "PersonsString": "",
       "Title": "Day closing",
@@ -357,6 +357,198 @@
       "URL": "https://2018.programming-conference.org/event/morevms-2018-the-inevitable-death-of-vms-a-progress-report"
     },
     {
+      "Abstract": "Discussion: Why do we need research VMs and what are our requirements?",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "morevms-2018-discussion-why-do-we-need-research-vms-and-what-are-our-requirements-",
+      "PersonsString": "",
+      "Title": "Discussion: Why do we need research VMs and what are our requirements?",
+      "Type": "Meeting",
+      "URL": "https://2018.programming-conference.org/event/morevms-2018-discussion-why-do-we-need-research-vms-and-what-are-our-requirements-"
+    },
+    {
+      "Abstract": "Compiled languages like C++ generally don\u2019t have access to Just-in-Time facilities, which limits the range of possible optimizations. This paper introduces an hybrid approach that combines classical ahead of time compilation with user-specified dynamic recompilation of some functions, using runtime information to improve compiled code.",
+      "Affiliations": [
+        "Quarkslab",
+        "Quarkslab"
+      ],
+      "AffiliationsString": "Quarkslab",
+      "Authors": [
+        "juanmanuelmartinezcaamano",
+        "sergeguelton"
+      ],
+      "Key": "morevms-2018-easy-jit-compiler-assisted-library-to-enable-just-in-time-compilation-in-c-codes",
+      "PersonsString": "Juan Manuel Martinez Caamaño and Serge Guelton",
+      "Title": "Easy::Jit: Compiler assisted library to enable Just-In-Time compilation in C++ codes",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/morevms-2018-easy-jit-compiler-assisted-library-to-enable-just-in-time-compilation-in-c-codes"
+    },
+    {
+      "Abstract": "Guile is a language implementation that grew out of the scripting movement in the 90s. Its initial implementation was entirely written in C. To increase the speed and expres- sive power of user programs written in Scheme, about 10 years ago Guile started to move to be a self-hosted compiler. Guile managed to keep the interactive, source-focussed, fast- starting aspects of scripting even while adding a sizeable Scheme compiler by making use of object file formats from the static compilation world: DWARF and ELF.",
+      "Affiliations": ["Igalia, S.L."],
+      "AffiliationsString": "Igalia, S.L.",
+      "Authors": ["andywingo"],
+      "Key": "morevms-2018-self-hosted-scripting-in-guile",
+      "PersonsString": "Andy Wingo",
+      "Title": "Self-hosted scripting in Guile",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/morevms-2018-self-hosted-scripting-in-guile"
+    },
+    {
+      "Abstract": "Task granularity, i.e., the amount of work performed by parallel tasks, is a key performance attribute of parallel applications. On the one hand, fine-grained tasks (i.e., small tasks carrying out few computations) may introduce considerable parallelization overheads. On the other hand, coarse-grained tasks (i.e., large tasks performing substantial computations) may not fully utilize the available CPU cores, resulting in missed parallelization opportunities. We focus on task-parallel applications running in a single Java Virtual Machine on a shared-memory multicore. Despite their performance may considerably depend on the granularity of their tasks, related analyses and optimizations have received little attention in the literature. In this paper, we advocate the need for providing a better understanding of task granularity for such applications. We discuss the importance of improving our knowledge on this topic, and highlight the related challenges. We present new approaches to profile, analyze and optimize task granularity, and discuss the results obtained so far.",
+      "Affiliations": [
+        "University of Lugano, Switzerland",
+        "University of Lugano, Switzerland",
+        "Università della Svizzera italiana",
+        "University of Lugano, Switzerland"
+      ],
+      "AffiliationsString": "University of Lugano, Switzerland, Università della Svizzera italiana",
+      "Authors": [
+        "andrearosa",
+        "eduardorosales",
+        "filipposchiavio",
+        "walterbinder"
+      ],
+      "Key": "morevms-2018-understanding-task-granularity-on-the-jvm-profiling-analysis-and-optimization",
+      "PersonsString": "Andrea Rosà, Eduardo Rosales, Filippo Schiavio and Walter Binder",
+      "Title": "Understanding Task Granularity on the JVM: Profiling, Analysis, and Optimization",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/morevms-2018-understanding-task-granularity-on-the-jvm-profiling-analysis-and-optimization"
+    },
+    {
+      "Abstract": "Selfie is a self-contained 64-bit implementation of (1) a self-compiling compiler written in a tiny subset of C called C* targeting a tiny subset of 64-bit RISC-V called RISC-U, (2) a self-executing RISC-U emulator, and (3) a self-hosting hypervisor that virtualizes the emulated RISC-U machine. Selfie is implemented in a single 8k-line file and can compile, execute, and virtualize itself any number of times in a single invocation of the system given adequate resources. There is also a simple linker, disassembler, debugger, and profiler. Selfie has originally been developed just for educational purposes but has recently become a research platform as well. C* supports only two data types, uint64_t and uint64_t*, and RISC-U features just 14 instructions, in particular for unsigned arithmetic only, which significantly simplifies reasoning about correctness. In this paper, we report on an ongoing effort in designing and implementing a symbolic execution engine for RISC-U within selfie that is supposed to explore non-trivial parts of the system including itself. The idea is to identify the set of ingredients that are necessary to do this such as the data structures for representing traces, path conditions, and symbolic states as well as algorithms for SAT and SMT solving. The key difference to other more advanced projects is that we are interested in reasoning just about selfie, for now, and are able to change selfie if necessary, as reasoning target but also as integrated platform for compilation, (symbolic) execution, and virtualization. Since selfie generates unoptimized code we are also exploring ways to leverage our symbolic execution engine in code optimization.",
+      "Affiliations": [
+        "University of Salzburg",
+        "University of Salzburg",
+        "University of Salzburg",
+        "University of Salzburg",
+        "University of Salzburg",
+        "University of Salzburg",
+        "University of Salzburg",
+        "University of Salzburg",
+        "University of Salzburg"
+      ],
+      "AffiliationsString": "University of Salzburg",
+      "Authors": [
+        "alirezasabyaneh",
+        "simonbauer",
+        "christophkirsch",
+        "philippmayer",
+        "christianmosl",
+        "clementponcelet",
+        "saraseidl",
+        "anasokolova",
+        "manuelwidmoser"
+      ],
+      "Key": "morevms-2018-selfie-towards-minimal-symbolic-execution",
+      "PersonsString": "Alireza S. Abyaneh, Simon Bauer, Christoph Kirsch, Philipp Mayer, Christian Mösl, Clément Poncelet, Sara Seidl, Ana Sokolova and Manuel Widmoser",
+      "Title": "Selfie: Towards Minimal Symbolic Execution",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/morevms-2018-selfie-towards-minimal-symbolic-execution"
+    },
+    {
+      "Abstract": "Dynamic languages rely on native extensions written in languages such as C/C++ or Fortran. To efficiently support the execution of native extensions in the multi-lingual GraalVM, we have implemented Sulong, which executes LLVM IR to support all languages that have a LLVM back end. It supports configurations with respect to memory-allocation and memory-access strategies that have different tradeoffs concerning safety and interoperability with native libraries. Sulong supports the execution of inline assembly for the most commonly used x86 instructions and GCC compiler builtins; it is complete enough to execute a complete libc.",
+      "Affiliations": [
+        "Johannes Kepler University Linz",
+        "Johannes Kepler University Linz",
+        "Johannes Kepler University Linz",
+        "Oracle Labs",
+        "JKU Linz, Austria"
+      ],
+      "AffiliationsString": "Johannes Kepler University Linz, Oracle Labs, JKU Linz, Austria",
+      "Authors": [
+        "manuelrigger",
+        "rolandschatz",
+        "jacobkreindl",
+        "christianhaubl",
+        "hanspetermossenbock"
+      ],
+      "Key": "morevms-2018-sulong-and-thanks-for-all-the-fish",
+      "PersonsString": "Manuel Rigger, Roland Schatz, Jacob Kreindl, Christian Häubl and Hanspeter Mössenböck",
+      "Title": "Sulong, and Thanks for All the Fish",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/morevms-2018-sulong-and-thanks-for-all-the-fish"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "The University of Manchester",
+        "The University of Manchester",
+        "The University of Manchester",
+        "The University of Manchester",
+        "The University of Manchester",
+        "The University of Manchester",
+        "The University of Manchester",
+        "University of Manchester",
+        "The University of Manchester"
+      ],
+      "AffiliationsString": ", The University of Manchester, University of Manchester",
+      "Authors": [
+        "foivosszakkak",
+        "andynisbet",
+        "johnmawer",
+        "timhartley",
+        "nikosfoutris",
+        "orionpapadakis",
+        "andreasandronikakis",
+        "iainapreotesei",
+        "mikellujan1",
+        "christoskotselidis"
+      ],
+      "Key": "morevms-2018-on-the-future-of-research-vms-a-hardware-software-perspective",
+      "PersonsString": "Foivos S. Zakkak, Andy Nisbet, John Mawer, Tim Hartley, Nikos Foutris, Orion Papadakis, Andreas Andronikakis, Iain Apreotesei, Mikel Luján and Christos Kotselidis",
+      "Title": "On the Future of Research VMs: A Hardware/Software Perspective",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/morevms-2018-on-the-future-of-research-vms-a-hardware-software-perspective"
+    },
+    {
+      "Abstract": "Heterogeneous computing emerged as a means to achieve higher performance and energy efficiency. However, this trend has been accompanied by changes in software development norms that do not necessarily favour programmers. A prime example is the two most popular heterogeneous programming languages, CUDA and OpenCL, which expose several low-level features to the API making them difficult to use by non-expert users. \nInstead of using low-level programming languages, developers tend to prefer more high-level, object-oriented languages typically executed on managed runtime environments. Although many programmers might expect that such languages would have already been adapted for execution on heterogeneous hardware, the reality is that their support is either very limited or totally absent. This paper highlights the main reasons and complexities of enabling heterogeneous managed runtime systems and proposes a number of directions to address those challenges.",
+      "Affiliations": [
+        "The University of Manchester",
+        "The University of Manchester",
+        "The University of Manchester",
+        "The University of Manchester",
+        "The University of Manchester"
+      ],
+      "AffiliationsString": "The University of Manchester",
+      "Authors": [
+        "jamesclarkson",
+        "juanfumero",
+        "michalispapadimitriou",
+        "mariaxekalaki",
+        "christoskotselidis"
+      ],
+      "Key": "morevms-2018-towards-practical-heterogeneous-virtual-machines",
+      "PersonsString": "James Clarkson, Juan Fumero, Michalis Papadimitriou, Maria Xekalaki and Christos Kotselidis",
+      "Title": "Towards Practical Heterogeneous Virtual Machines",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/morevms-2018-towards-practical-heterogeneous-virtual-machines"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "morevms-2018-day-opening",
+      "PersonsString": "",
+      "Title": "Day opening",
+      "Type": "Day opening",
+      "URL": "https://2018.programming-conference.org/event/morevms-2018-day-opening"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "refuses-2018-papers-discussion-what-next-for-salon-des-refus-s",
+      "PersonsString": "",
+      "Title": "Discussion - What next for Salon des Refusés",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/refuses-2018-papers-discussion-what-next-for-salon-des-refus-s"
+    },
+    {
       "Abstract": "",
       "Affiliations": ["Ex Situ | Université Paris-Sud"],
       "AffiliationsString": "Ex Situ | Université Paris-Sud",
@@ -366,17 +558,6 @@
       "Title": "Critique (1) - Files as Directories: Some Thoughts on Accessing Structured Data Within Files",
       "Type": "Talk",
       "URL": "https://2018.programming-conference.org/event/refuses-2018-papers-critique-2-files-as-directories-some-thoughts-on-accessing-structured-data-within-files"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["guillaumebouisseau"],
-      "Key": "bx-2018-papers-understanding-profunctor-optics-a-representation-theorem",
-      "PersonsString": "Guillaume Bouisseau",
-      "Title": "Understanding Profunctor Optics: a representation theorem",
-      "Type": "Short-paper",
-      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-understanding-profunctor-optics-a-representation-theorem"
     },
     {
       "Abstract": "",
@@ -418,23 +599,6 @@
       "URL": "https://2018.programming-conference.org/event/refuses-2018-papers-critique-lector-in-codigo-or-the-role-of-the-reader"
     },
     {
-      "Abstract": "Bidirectional transformation systems usually have a more declarative design, but it has long been realised that declarative approaches are hardly enough for practical bidirectional applications. The BX community currently concentrates on the exploration of more forms of well-behavedness laws, but we should not be satisfied with only well-behavedness guarantees. Instead, we should also start aiming to precisely reason about the behaviour of bidirectional programs like what we have been doing for general-purpose languages, and only then can we think about more complex bidirectional applications and the verification of their consistency restoration behaviour. We will talk about the Hoare-style logic recently presented at POPL 2018 for our putback-based bidirectional language BiGUL (for programming state-based asymmetric lenses), and discuss this direction with the community.",
-      "Affiliations": [
-        "National Institute of Informatics, Japan",
-        "National Institute of Informatics"
-      ],
-      "AffiliationsString": "National Institute of Informatics, Japan, National Institute of Informatics",
-      "Authors": [
-        "hsiangshangko",
-        "zhenjianghu"
-      ],
-      "Key": "bx-2018-papers-an-axiomatic-basis-for-bidirectional-programming",
-      "PersonsString": "Hsiang-Shang \u2018Josh\u2019 Ko and Zhenjiang Hu",
-      "Title": "An Axiomatic Basis for Bidirectional Programming",
-      "Type": "Talk",
-      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-an-axiomatic-basis-for-bidirectional-programming"
-    },
-    {
       "Abstract": "",
       "Affiliations": [""],
       "AffiliationsString": "",
@@ -447,98 +611,6 @@
     },
     {
       "Abstract": "",
-      "Affiliations": ["University of Edinburgh"],
-      "AffiliationsString": "University of Edinburgh",
-      "Authors": ["perditastevens"],
-      "Key": "bx-2018-papers-towards-sound-flexible-and-optimal-build-for-megamodels",
-      "PersonsString": "Perdita Stevens",
-      "Title": "Towards sound, flexible and optimal build for megamodels",
-      "Type": "Talk",
-      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-towards-sound-flexible-and-optimal-build-for-megamodels"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "AffiliationsString": "",
-      "Authors": [
-        "patrickstunkel",
-        "haraldkonig",
-        "yngvelamo",
-        "adrianrutle1"
-      ],
-      "Key": "bx-2018-papers-multimodel-correspondence-through-inter-model-constraints",
-      "PersonsString": "Patrick Stünkel, Harald König, Yngve Lamo and Adrian Rutle",
-      "Title": "Multimodel Correspondence through Inter-Model Constraints",
-      "Type": "Full-paper",
-      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-multimodel-correspondence-through-inter-model-constraints"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": ["University of Oxford"],
-      "AffiliationsString": "University of Oxford",
-      "Authors": ["juleshedges"],
-      "Key": "bx-2018-papers-bimorphic-lenses-in-compositional-game-theory",
-      "PersonsString": "Jules Hedges",
-      "Title": "Bimorphic lenses in compositional game theory",
-      "Type": "Talk",
-      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-bimorphic-lenses-in-compositional-game-theory"
-    },
-    {
-      "Abstract": "Discussion: Why do we need research VMs and what are our requirements?",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "morevms-2018-discussion-why-do-we-need-research-vms-and-what-are-our-requirements-",
-      "PersonsString": "",
-      "Title": "Discussion: Why do we need research VMs and what are our requirements?",
-      "Type": "Meeting",
-      "URL": "https://2018.programming-conference.org/event/morevms-2018-discussion-why-do-we-need-research-vms-and-what-are-our-requirements-"
-    },
-    {
-      "Abstract": "Languages for programming state-based asymmetric lenses are usually based on lens combinators, whose style, having a functional programming origin, is alien to most programmers and awkward to use even for experienced functional programmers. We propose a visual syntax mimicking circuit diagrams for the combinator-based language BiGUL, provide a relational interpretation that allows the diagrams to be understood bidirectionally, and sketch how an editor for the visual syntax can help to construct, understand, and debug lens combinator programs in an intuitive and friendly way.",
-      "Affiliations": [
-        "Paderborn University, Germany",
-        "National Institute of Informatics, Japan"
-      ],
-      "AffiliationsString": "Paderborn University, Germany, National Institute of Informatics, Japan",
-      "Authors": [
-        "anthonyanjorin1",
-        "hsiangshangko"
-      ],
-      "Key": "bx-2018-papers-towards-a-visual-editor-for-lens-combinators",
-      "PersonsString": "Anthony Anjorin and Hsiang-Shang \u2018Josh\u2019 Ko",
-      "Title": "Towards a Visual Editor for Lens Combinators",
-      "Type": "Short-paper",
-      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-towards-a-visual-editor-for-lens-combinators"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "Paderborn University, Germany",
-        "University of Paderborn, Germany",
-        "",
-        "TU Wien, Vienna, Austria"
-      ],
-      "AffiliationsString": "Paderborn University, Germany, University of Paderborn, Germany, , TU Wien, Vienna, Austria",
-      "Authors": [
-        "anthonyanjorin1",
-        "enesyigitbas",
-        "hermannkaindl",
-        "romanpopp"
-      ],
-      "Key": "bx-2018-papers-on-the-development-of-consistent-user-interfaces",
-      "PersonsString": "Anthony Anjorin, Enes Yigitbas, Hermann Kaindl and Roman Popp",
-      "Title": "On the Development of Consistent User Interfaces ",
-      "Type": "Short-paper",
-      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-on-the-development-of-consistent-user-interfaces"
-    },
-    {
-      "Abstract": "",
       "Affiliations": [""],
       "AffiliationsString": "",
       "Authors": ["olisharpe"],
@@ -547,87 +619,6 @@
       "Title": "Semprola: A Semiotic Programming Language",
       "Type": "Talk",
       "URL": "https://2018.programming-conference.org/event/refuses-2018-papers-semprola-a-semiotic-programming-language"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "Department of Computer Science, University of Oxford",
-        ""
-      ],
-      "AffiliationsString": "Department of Computer Science, University of Oxford, ",
-      "Authors": [
-        "jeremygibbons",
-        "guillaumebouisseau"
-      ],
-      "Key": "bx-2018-papers-profunctor-optics-and-the-yoneda-lemma",
-      "PersonsString": "Jeremy Gibbons and Guillaume Bouisseau",
-      "Title": "Profunctor Optics and the Yoneda Lemma",
-      "Type": "Talk",
-      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-profunctor-optics-and-the-yoneda-lemma"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "Macquarie University, Australia",
-        ""
-      ],
-      "AffiliationsString": "Macquarie University, Australia, ",
-      "Authors": [
-        "michaeljohnson",
-        "robertrosebrugh"
-      ],
-      "Key": "bx-2018-papers-cospans-and-symmetric-lenses",
-      "PersonsString": "Michael Johnson and Robert Rosebrugh",
-      "Title": "Cospans and Symmetric Lenses",
-      "Type": "Full-paper",
-      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-cospans-and-symmetric-lenses"
-    },
-    {
-      "Abstract": "Compiled languages like C++ generally don\u2019t have access to Just-in-Time facilities, which limits the range of possible optimizations. This paper introduces an hybrid approach that combines classical ahead of time compilation with user-specified dynamic recompilation of some functions, using runtime information to improve compiled code.",
-      "Affiliations": [
-        "Quarkslab",
-        "Quarkslab"
-      ],
-      "AffiliationsString": "Quarkslab",
-      "Authors": [
-        "juanmanuelmartinezcaamano",
-        "sergeguelton"
-      ],
-      "Key": "morevms-2018-easy-jit-compiler-assisted-library-to-enable-just-in-time-compilation-in-c-codes",
-      "PersonsString": "Juan Manuel Martinez Caamaño and Serge Guelton",
-      "Title": "Easy::Jit: Compiler assisted library to enable Just-In-Time compilation in C++ codes",
-      "Type": "Talk",
-      "URL": "https://2018.programming-conference.org/event/morevms-2018-easy-jit-compiler-assisted-library-to-enable-just-in-time-compilation-in-c-codes"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "University of L'Aquila",
-        "",
-        ""
-      ],
-      "AffiliationsString": "University of L'Aquila, ",
-      "Authors": [
-        "rominaeramo",
-        "alfonsopierantonio",
-        "micheletucci"
-      ],
-      "Key": "bx-2018-papers-enhancing-the-jtl-tool-for-bidirectional-transformations",
-      "PersonsString": "Romina Eramo, Alfonso Pierantonio and Michele Tucci",
-      "Title": "Enhancing the JTL Tool for Bidirectional Transformations",
-      "Type": "Full-paper",
-      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-enhancing-the-jtl-tool-for-bidirectional-transformations"
-    },
-    {
-      "Abstract": "Guile is a language implementation that grew out of the scripting movement in the 90s. Its initial implementation was entirely written in C. To increase the speed and expres- sive power of user programs written in Scheme, about 10 years ago Guile started to move to be a self-hosted compiler. Guile managed to keep the interactive, source-focussed, fast- starting aspects of scripting even while adding a sizeable Scheme compiler by making use of object file formats from the static compilation world: DWARF and ELF.",
-      "Affiliations": ["Igalia, S.L."],
-      "AffiliationsString": "Igalia, S.L.",
-      "Authors": ["andywingo"],
-      "Key": "morevms-2018-self-hosted-scripting-in-guile",
-      "PersonsString": "Andy Wingo",
-      "Title": "Self-hosted scripting in Guile",
-      "Type": "Talk",
-      "URL": "https://2018.programming-conference.org/event/morevms-2018-self-hosted-scripting-in-guile"
     },
     {
       "Abstract": "",
@@ -652,27 +643,6 @@
       "URL": "https://2018.programming-conference.org/event/refuses-2018-papers-critique-files-as-directories-some-thoughts-on-accessing-structured-data-within-files"
     },
     {
-      "Abstract": "Task granularity, i.e., the amount of work performed by parallel tasks, is a key performance attribute of parallel applications. On the one hand, fine-grained tasks (i.e., small tasks carrying out few computations) may introduce considerable parallelization overheads. On the other hand, coarse-grained tasks (i.e., large tasks performing substantial computations) may not fully utilize the available CPU cores, resulting in missed parallelization opportunities. We focus on task-parallel applications running in a single Java Virtual Machine on a shared-memory multicore. Despite their performance may considerably depend on the granularity of their tasks, related analyses and optimizations have received little attention in the literature. In this paper, we advocate the need for providing a better understanding of task granularity for such applications. We discuss the importance of improving our knowledge on this topic, and highlight the related challenges. We present new approaches to profile, analyze and optimize task granularity, and discuss the results obtained so far.",
-      "Affiliations": [
-        "University of Lugano, Switzerland",
-        "University of Lugano, Switzerland",
-        "Università della Svizzera italiana",
-        "University of Lugano, Switzerland"
-      ],
-      "AffiliationsString": "University of Lugano, Switzerland, Università della Svizzera italiana",
-      "Authors": [
-        "andrearosa",
-        "eduardorosales",
-        "filipposchiavio",
-        "walterbinder"
-      ],
-      "Key": "morevms-2018-understanding-task-granularity-on-the-jvm-profiling-analysis-and-optimization",
-      "PersonsString": "Andrea Rosà, Eduardo Rosales, Filippo Schiavio and Walter Binder",
-      "Title": "Understanding Task Granularity on the JVM: Profiling, Analysis, and Optimization",
-      "Type": "Talk",
-      "URL": "https://2018.programming-conference.org/event/morevms-2018-understanding-task-granularity-on-the-jvm-profiling-analysis-and-optimization"
-    },
-    {
       "Abstract": "",
       "Affiliations": [""],
       "AffiliationsString": "",
@@ -682,98 +652,6 @@
       "Title": "Lector in Codigo or The Role of the Reader",
       "Type": "Talk",
       "URL": "https://2018.programming-conference.org/event/refuses-2018-papers-lector-in-codigo-or-the-role-of-the-reader"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "Macquarie University, Australia",
-        "University of Edinburgh"
-      ],
-      "AffiliationsString": "Macquarie University, Australia, University of Edinburgh",
-      "Authors": [
-        "michaeljohnson",
-        "perditastevens"
-      ],
-      "Key": "bx-2018-papers-confidentiality-in-the-process-of-model-driven-software-development",
-      "PersonsString": "Michael Johnson and Perdita Stevens",
-      "Title": "Confidentiality in the process of (model-driven) software development",
-      "Type": "Full-paper",
-      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-confidentiality-in-the-process-of-model-driven-software-development"
-    },
-    {
-      "Abstract": "Selfie is a self-contained 64-bit implementation of (1) a self-compiling compiler written in a tiny subset of C called C* targeting a tiny subset of 64-bit RISC-V called RISC-U, (2) a self-executing RISC-U emulator, and (3) a self-hosting hypervisor that virtualizes the emulated RISC-U machine. Selfie is implemented in a single 8k-line file and can compile, execute, and virtualize itself any number of times in a single invocation of the system given adequate resources. There is also a simple linker, disassembler, debugger, and profiler. Selfie has originally been developed just for educational purposes but has recently become a research platform as well. C* supports only two data types, uint64_t and uint64_t*, and RISC-U features just 14 instructions, in particular for unsigned arithmetic only, which significantly simplifies reasoning about correctness. In this paper, we report on an ongoing effort in designing and implementing a symbolic execution engine for RISC-U within selfie that is supposed to explore non-trivial parts of the system including itself. The idea is to identify the set of ingredients that are necessary to do this such as the data structures for representing traces, path conditions, and symbolic states as well as algorithms for SAT and SMT solving. The key difference to other more advanced projects is that we are interested in reasoning just about selfie, for now, and are able to change selfie if necessary, as reasoning target but also as integrated platform for compilation, (symbolic) execution, and virtualization. Since selfie generates unoptimized code we are also exploring ways to leverage our symbolic execution engine in code optimization.",
-      "Affiliations": [
-        "University of Salzburg",
-        "University of Salzburg",
-        "University of Salzburg",
-        "University of Salzburg",
-        "University of Salzburg",
-        "University of Salzburg",
-        "University of Salzburg",
-        "University of Salzburg",
-        "University of Salzburg"
-      ],
-      "AffiliationsString": "University of Salzburg",
-      "Authors": [
-        "alirezasabyaneh",
-        "simonbauer",
-        "christophkirsch",
-        "philippmayer",
-        "christianmosl",
-        "clementponcelet",
-        "saraseidl",
-        "anasokolova",
-        "manuelwidmoser"
-      ],
-      "Key": "morevms-2018-selfie-towards-minimal-symbolic-execution",
-      "PersonsString": "Alireza S. Abyaneh, Simon Bauer, Christoph Kirsch, Philipp Mayer, Christian Mösl, Clément Poncelet, Sara Seidl, Ana Sokolova and Manuel Widmoser",
-      "Title": "Selfie: Towards Minimal Symbolic Execution",
-      "Type": "Talk",
-      "URL": "https://2018.programming-conference.org/event/morevms-2018-selfie-towards-minimal-symbolic-execution"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "",
-        "National Institute of Informatics",
-        "University of Namur"
-      ],
-      "AffiliationsString": ", National Institute of Informatics, University of Namur",
-      "Authors": [
-        "adrienduchene",
-        "huguesmarchal",
-        "zhenjianghu",
-        "pierreyvesschobbens"
-      ],
-      "Key": "bx-2018-papers-lightweight-data-sharing-system-based-on-bidirectional-transformations",
-      "PersonsString": "Adrien Duchêne, Hugues Marchal, Zhenjiang Hu and Pierre Yves Schobbens",
-      "Title": "Lightweight Data Sharing System based on Bidirectional Transformations",
-      "Type": "Full-paper",
-      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-lightweight-data-sharing-system-based-on-bidirectional-transformations"
-    },
-    {
-      "Abstract": "Dynamic languages rely on native extensions written in languages such as C/C++ or Fortran. To efficiently support the execution of native extensions in the multi-lingual GraalVM, we have implemented Sulong, which executes LLVM IR to support all languages that have a LLVM back end. It supports configurations with respect to memory-allocation and memory-access strategies that have different tradeoffs concerning safety and interoperability with native libraries. Sulong supports the execution of inline assembly for the most commonly used x86 instructions and GCC compiler builtins; it is complete enough to execute a complete libc.",
-      "Affiliations": [
-        "Johannes Kepler University Linz",
-        "Johannes Kepler University Linz",
-        "Johannes Kepler University Linz",
-        "Oracle Labs",
-        "JKU Linz, Austria"
-      ],
-      "AffiliationsString": "Johannes Kepler University Linz, Oracle Labs, JKU Linz, Austria",
-      "Authors": [
-        "manuelrigger",
-        "rolandschatz",
-        "jacobkreindl",
-        "christianhaubl",
-        "hanspetermossenbock"
-      ],
-      "Key": "morevms-2018-sulong-and-thanks-for-all-the-fish",
-      "PersonsString": "Manuel Rigger, Roland Schatz, Jacob Kreindl, Christian Häubl and Hanspeter Mössenböck",
-      "Title": "Sulong, and Thanks for All the Fish",
-      "Type": "Talk",
-      "URL": "https://2018.programming-conference.org/event/morevms-2018-sulong-and-thanks-for-all-the-fish"
     },
     {
       "Abstract": "",
@@ -806,73 +684,6 @@
       "Title": "An Anatomy of Interaction: Co-Occurrences and Entanglements",
       "Type": "Talk",
       "URL": "https://2018.programming-conference.org/event/refuses-2018-papers-externalizing-co-occurence-potentializing-and-reifying-interactions"
-    },
-    {
-      "Abstract": "Heterogeneous computing emerged as a means to achieve higher performance and energy efficiency. However, this trend has been accompanied by changes in software development norms that do not necessarily favour programmers. A prime example is the two most popular heterogeneous programming languages, CUDA and OpenCL, which expose several low-level features to the API making them difficult to use by non-expert users. \nInstead of using low-level programming languages, developers tend to prefer more high-level, object-oriented languages typically executed on managed runtime environments. Although many programmers might expect that such languages would have already been adapted for execution on heterogeneous hardware, the reality is that their support is either very limited or totally absent. This paper highlights the main reasons and complexities of enabling heterogeneous managed runtime systems and proposes a number of directions to address those challenges.",
-      "Affiliations": [
-        "The University of Manchester",
-        "The University of Manchester",
-        "The University of Manchester",
-        "The University of Manchester",
-        "The University of Manchester"
-      ],
-      "AffiliationsString": "The University of Manchester",
-      "Authors": [
-        "jamesclarkson",
-        "juanfumero",
-        "michalispapadimitriou",
-        "mariaxekalaki",
-        "christoskotselidis"
-      ],
-      "Key": "morevms-2018-towards-practical-heterogeneous-virtual-machines",
-      "PersonsString": "James Clarkson, Juan Fumero, Michalis Papadimitriou, Maria Xekalaki and Christos Kotselidis",
-      "Title": "Towards Practical Heterogeneous Virtual Machines",
-      "Type": "Talk",
-      "URL": "https://2018.programming-conference.org/event/morevms-2018-towards-practical-heterogeneous-virtual-machines"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "morevms-2018-day-opening",
-      "PersonsString": "",
-      "Title": "Day opening",
-      "Type": "Day opening",
-      "URL": "https://2018.programming-conference.org/event/morevms-2018-day-opening"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "",
-        "The University of Manchester",
-        "The University of Manchester",
-        "The University of Manchester",
-        "The University of Manchester",
-        "The University of Manchester",
-        "The University of Manchester",
-        "The University of Manchester",
-        "University of Manchester",
-        "The University of Manchester"
-      ],
-      "AffiliationsString": ", The University of Manchester, University of Manchester",
-      "Authors": [
-        "foivosszakkak",
-        "andynisbet",
-        "johnmawer",
-        "timhartley",
-        "nikosfoutris",
-        "orionpapadakis",
-        "andreasandronikakis",
-        "iainapreotesei",
-        "mikellujan1",
-        "christoskotselidis"
-      ],
-      "Key": "morevms-2018-on-the-future-of-research-vms-a-hardware-software-perspective",
-      "PersonsString": "Foivos S. Zakkak, Andy Nisbet, John Mawer, Tim Hartley, Nikos Foutris, Orion Papadakis, Andreas Andronikakis, Iain Apreotesei, Mikel Luján and Christos Kotselidis",
-      "Title": "On the Future of Research VMs: A Hardware/Software Perspective",
-      "Type": "Talk",
-      "URL": "https://2018.programming-conference.org/event/morevms-2018-on-the-future-of-research-vms-a-hardware-software-perspective"
     },
     {
       "Abstract": "While an integral part of all programming languages, the design of collection libraries is rarely studied. This work brie y reviews the collection libraries of 14 languages to identify possible design dimensions. Some languages have surprisingly few but versatile collections, while others have large libraries with many specialized collections. Based on the identified design dimensions, we argue that a small collection library with only a sequence, a map, and a set type are a suitable choice to facilitate exploratory programming. Such a design minimizes the number of decisions programmers have to make when dealing with collections, and it improves discoverability of collection operations. We further discuss techniques that make their implementation practical from a performance perspective. Based on these arguments, we conclude that languages which aim to support exploratory programming should strive for small and versatile collection libraries.",
@@ -1089,14 +900,225 @@
     },
     {
       "Abstract": "",
+      "Affiliations": ["University of Oxford"],
+      "AffiliationsString": "University of Oxford",
+      "Authors": ["juleshedges"],
+      "Key": "bx-2018-papers-bimorphic-lenses-in-compositional-game-theory",
+      "PersonsString": "Jules Hedges",
+      "Title": "Bimorphic lenses in compositional game theory",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-bimorphic-lenses-in-compositional-game-theory"
+    },
+    {
+      "Abstract": "Languages for programming state-based asymmetric lenses are usually based on lens combinators, whose style, having a functional programming origin, is alien to most programmers and awkward to use even for experienced functional programmers. We propose a visual syntax mimicking circuit diagrams for the combinator-based language BiGUL, provide a relational interpretation that allows the diagrams to be understood bidirectionally, and sketch how an editor for the visual syntax can help to construct, understand, and debug lens combinator programs in an intuitive and friendly way.",
+      "Affiliations": [
+        "Paderborn University, Germany",
+        "National Institute of Informatics, Japan"
+      ],
+      "AffiliationsString": "Paderborn University, Germany, National Institute of Informatics, Japan",
+      "Authors": [
+        "anthonyanjorin1",
+        "hsiangshangko"
+      ],
+      "Key": "bx-2018-papers-towards-a-visual-editor-for-lens-combinators",
+      "PersonsString": "Anthony Anjorin and Hsiang-Shang \u2018Josh\u2019 Ko",
+      "Title": "Towards a Visual Editor for Lens Combinators",
+      "Type": "Short-paper",
+      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-towards-a-visual-editor-for-lens-combinators"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "University of L'Aquila",
+        "",
+        ""
+      ],
+      "AffiliationsString": "University of L'Aquila, ",
+      "Authors": [
+        "rominaeramo",
+        "alfonsopierantonio",
+        "micheletucci"
+      ],
+      "Key": "bx-2018-papers-enhancing-the-jtl-tool-for-bidirectional-transformations",
+      "PersonsString": "Romina Eramo, Alfonso Pierantonio and Michele Tucci",
+      "Title": "Enhancing the JTL Tool for Bidirectional Transformations",
+      "Type": "Full-paper",
+      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-enhancing-the-jtl-tool-for-bidirectional-transformations"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "Macquarie University, Australia",
+        ""
+      ],
+      "AffiliationsString": "Macquarie University, Australia, ",
+      "Authors": [
+        "michaeljohnson",
+        "robertrosebrugh"
+      ],
+      "Key": "bx-2018-papers-cospans-and-symmetric-lenses",
+      "PersonsString": "Michael Johnson and Robert Rosebrugh",
+      "Title": "Cospans and Symmetric Lenses",
+      "Type": "Full-paper",
+      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-cospans-and-symmetric-lenses"
+    },
+    {
+      "Abstract": "",
       "Affiliations": [],
       "AffiliationsString": "",
       "Authors": [],
-      "Key": "programming-2018-src-src-second-round-oral-presentation",
+      "Key": "bx-2018-papers-opening",
       "PersonsString": "",
-      "Title": "SRC Second Round: Oral Presentation",
+      "Title": "Opening",
+      "Type": "Day opening",
+      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-opening"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "Paderborn University, Germany",
+        "University of Paderborn, Germany",
+        "",
+        "TU Wien, Vienna, Austria"
+      ],
+      "AffiliationsString": "Paderborn University, Germany, University of Paderborn, Germany, , TU Wien, Vienna, Austria",
+      "Authors": [
+        "anthonyanjorin1",
+        "enesyigitbas",
+        "hermannkaindl",
+        "romanpopp"
+      ],
+      "Key": "bx-2018-papers-on-the-development-of-consistent-user-interfaces",
+      "PersonsString": "Anthony Anjorin, Enes Yigitbas, Hermann Kaindl and Roman Popp",
+      "Title": "On the Development of Consistent User Interfaces ",
+      "Type": "Short-paper",
+      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-on-the-development-of-consistent-user-interfaces"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["guillaumebouisseau"],
+      "Key": "bx-2018-papers-understanding-profunctor-optics-a-representation-theorem",
+      "PersonsString": "Guillaume Bouisseau",
+      "Title": "Understanding Profunctor Optics: a representation theorem",
+      "Type": "Short-paper",
+      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-understanding-profunctor-optics-a-representation-theorem"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "",
+        "National Institute of Informatics",
+        "University of Namur"
+      ],
+      "AffiliationsString": ", National Institute of Informatics, University of Namur",
+      "Authors": [
+        "adrienduchene",
+        "huguesmarchal",
+        "zhenjianghu",
+        "pierreyvesschobbens"
+      ],
+      "Key": "bx-2018-papers-lightweight-data-sharing-system-based-on-bidirectional-transformations",
+      "PersonsString": "Adrien Duchêne, Hugues Marchal, Zhenjiang Hu and Pierre Yves Schobbens",
+      "Title": "Lightweight Data Sharing System based on Bidirectional Transformations",
+      "Type": "Full-paper",
+      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-lightweight-data-sharing-system-based-on-bidirectional-transformations"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "AffiliationsString": "",
+      "Authors": [
+        "patrickstunkel",
+        "haraldkonig",
+        "yngvelamo",
+        "adrianrutle1"
+      ],
+      "Key": "bx-2018-papers-multimodel-correspondence-through-inter-model-constraints",
+      "PersonsString": "Patrick Stünkel, Harald König, Yngve Lamo and Adrian Rutle",
+      "Title": "Multimodel Correspondence through Inter-Model Constraints",
+      "Type": "Full-paper",
+      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-multimodel-correspondence-through-inter-model-constraints"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "bx-2018-papers-closing",
+      "PersonsString": "",
+      "Title": "Closing",
+      "Type": "Day closing",
+      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-closing"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["University of Edinburgh"],
+      "AffiliationsString": "University of Edinburgh",
+      "Authors": ["perditastevens"],
+      "Key": "bx-2018-papers-towards-sound-flexible-and-optimal-build-for-megamodels",
+      "PersonsString": "Perdita Stevens",
+      "Title": "Towards sound, flexible and optimal build for megamodels",
       "Type": "Talk",
-      "URL": "https://2018.programming-conference.org/event/programming-2018-src-src-second-round-oral-presentation"
+      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-towards-sound-flexible-and-optimal-build-for-megamodels"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "Department of Computer Science, University of Oxford",
+        ""
+      ],
+      "AffiliationsString": "Department of Computer Science, University of Oxford, ",
+      "Authors": [
+        "jeremygibbons",
+        "guillaumebouisseau"
+      ],
+      "Key": "bx-2018-papers-profunctor-optics-and-the-yoneda-lemma",
+      "PersonsString": "Jeremy Gibbons and Guillaume Bouisseau",
+      "Title": "Profunctor Optics and the Yoneda Lemma",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-profunctor-optics-and-the-yoneda-lemma"
+    },
+    {
+      "Abstract": "Bidirectional transformation systems usually have a more declarative design, but it has long been realised that declarative approaches are hardly enough for practical bidirectional applications. The BX community currently concentrates on the exploration of more forms of well-behavedness laws, but we should not be satisfied with only well-behavedness guarantees. Instead, we should also start aiming to precisely reason about the behaviour of bidirectional programs like what we have been doing for general-purpose languages, and only then can we think about more complex bidirectional applications and the verification of their consistency restoration behaviour. We will talk about the Hoare-style logic recently presented at POPL 2018 for our putback-based bidirectional language BiGUL (for programming state-based asymmetric lenses), and discuss this direction with the community.",
+      "Affiliations": [
+        "National Institute of Informatics, Japan",
+        "National Institute of Informatics"
+      ],
+      "AffiliationsString": "National Institute of Informatics, Japan, National Institute of Informatics",
+      "Authors": [
+        "hsiangshangko",
+        "zhenjianghu"
+      ],
+      "Key": "bx-2018-papers-an-axiomatic-basis-for-bidirectional-programming",
+      "PersonsString": "Hsiang-Shang \u2018Josh\u2019 Ko and Zhenjiang Hu",
+      "Title": "An Axiomatic Basis for Bidirectional Programming",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-an-axiomatic-basis-for-bidirectional-programming"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "Macquarie University, Australia",
+        "University of Edinburgh"
+      ],
+      "AffiliationsString": "Macquarie University, Australia, University of Edinburgh",
+      "Authors": [
+        "michaeljohnson",
+        "perditastevens"
+      ],
+      "Key": "bx-2018-papers-confidentiality-in-the-process-of-model-driven-software-development",
+      "PersonsString": "Michael Johnson and Perdita Stevens",
+      "Title": "Confidentiality in the process of (model-driven) software development",
+      "Type": "Full-paper",
+      "URL": "https://2018.programming-conference.org/event/bx-2018-papers-confidentiality-in-the-process-of-model-driven-software-development"
     },
     {
       "Abstract": "Scientific progress increasingly depends on data management, particularly to clean and curate data so that it can be systematically analyzed and reused. A wealth of techniques for managing and curating data (and its provenance) have been proposed, largely in the database community. In particular, a number of influential papers have proposed collecting provenance information explaining where a piece of data was copied from, or what other records were used to derive it. Most of these techniques, however, exist only as research prototypes and are not available in mainstream database systems. This means scientists must either implement such techniques themselves or (all too often) go without. \nThis is essentially a code reuse problem: provenance techniques currently cannot be implemented reusably, only as ad hoc, usually unmaintained extensions to standard databases. An alternative, relatively unexplored approach is to support such techniques at a higher abstraction level, using metaprogramming or reflection techniques. Can advanced programming techniques make it easier to transfer provenance research results into practice? \nWe build on a recent approach called language-integrated provenance, which extends language-integrated query techniques with source-to-source query translations that record provenance. In previous work, a proof of concept was developed in a research programming language called Links, which supports sophisticated Web and database programming. In this paper, we show how to adapt this approach to work in Haskell building on top of the Database-Supported Haskell (DSH) library. \nEven though it seemed clear in principle that Haskell\u2019s rich programming features ought to be sufficient, implementing language-integrated provenance in Haskell required overcoming a number of technical challenges due to interactions between these capabilities. Our implementation serves as a proof of concept showing how this combination of metaprogramming features can, for the first time, make data provenance facilities available to programmers as a library in a widely-used, general-purpose language. \nIn our work we were successful in implementing forms of provenance known as where-provenance and lineage. We have tested our implementation using a simple database and query set and established that the resulting queries are constructed and executed correctly on the database. Our implementation is publicly available on GitHub. \nOur work makes provenance tracking available to users of DSH at little cost. Although Haskell is not widely used for scientific database development, our work also suggests how other languages or libraries might be extended to support provenance. Our work also highlights how combining Haskell\u2019s advanced type programming features can lead to unexpected complications, which may motivate further research.",
@@ -1175,6 +1197,25 @@
       "Title": "PIE: A Domain-Specific Language for Interactive Software Development Pipelines",
       "Type": "Talk",
       "URL": "https://2018.programming-conference.org/event/programming-2018-papers-pie-a-domain-specific-language-for-interactive-software-development-pipelines"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "University of Bergen, Norway",
+        "University of Bergen",
+        "University of Bergen, Norway"
+      ],
+      "AffiliationsString": "University of Bergen, Norway, University of Bergen",
+      "Authors": [
+        "knutandersstokke",
+        "anyahelenebagge",
+        "hakonheggerneslerring"
+      ],
+      "Key": "programming-2018-posters-automating-testing-of-programming-assignments",
+      "PersonsString": "Knut Anders Stokke, Anya Helene Bagge and Håkon Heggernes Lerring",
+      "Title": "Automating Testing of Programming Assignments",
+      "Type": "Poster",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-posters-automating-testing-of-programming-assignments"
     },
     {
       "Abstract": "Break",
@@ -1300,6 +1341,17 @@
       "URL": "https://2018.programming-conference.org/event/programming-2018-papers-what-we-talk-about-when-we-talk-about-monads"
     },
     {
+      "Abstract": "",
+      "Affiliations": ["Technische Universität Darmstadt"],
+      "AffiliationsString": "Technische Universität Darmstadt",
+      "Authors": ["ragnarmogk"],
+      "Key": "programming-2018-posters-fault-tolerant-reactive-programming",
+      "PersonsString": "Ragnar Mogk",
+      "Title": "Fault-tolerant Reactive Programming",
+      "Type": "Poster",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-posters-fault-tolerant-reactive-programming"
+    },
+    {
       "Abstract": "The relation between Science (what we can explain) and Art (what we can\u2019t) has long been acknowledged and while every science contains an artistic part, every art form also needs a bit of science. Among all scientific disciplines, programming holds a special place for two reasons. First, the artistic part is not only undeniable but also essential. Second, and much like in a purely artistic discipline, the act of programming is driven partly by the notion of aesthetics: the pleasure we have in creating beautiful things. \nEventhough the importance of aesthetics in the act of programming is now unquestioned, not much has been written on the subject. The field called \u201cpsychology of programming\u201d focuses on the cognitive aspects of the activity, with the goal of improving the productivity of the programmers. Very few programmers have written about their thought process while programming either, and even fewer on their concern for aesthetics, and the impact it has on their activity. \nI can see three reasons for this. First, it may be frightening to do so. Reflecting on our aesthetic sensitivities involves thinking about our own emotions, and not everyone is ready or willing to perform that kind of introspection. Second, this introspection needs to be very deep, as our aesthetic sensitivities are extremely personal. Third, this introspection also needs to be very broad, as our aesthetic sensitivities affect every part of our lives. \nThe purpose of this essay is to shed some new light on the art of programming by answering questions such as what makes us like or dislike such or such language or paradigm, or why do we shape our programs the way we do, all of this from the angle of aesthetics. Starting from the assumption that aesthetics is an inherently transversal concern, it should be possible for every programmer to find the same aesthetic driving force in every creative activity they undertake, not just programming, and in doing so, get deeper insight on why and how they do things the way they do. \nOn the other hand, because our aesthetic sensitivities are so personal, all we can really do is relate our own experiences and share it with others, in the hope that it will inspire them to do the same. It is certainly an important purpose of this essay. My personal life has been revolving around three major creative activities, of equal importance: programming in Lisp, playing Jazz music and practicing Aikido. But why so many of them, why so different ones, and why these specifically? \nBy introspecting my personal aesthetic sensitivities, I eventually realized that my tastes in the scientific, artistic and physical domains are all motivated by the same driving forces, hence unifying Lisp, Jazz and Aikido as three expressions of a single essence, not so different after all. In doing so, I gained considerable insight on my own psychology of programming, perhaps common to most lispers, perhaps also common to other programming communities. But that is for the reader to decide\u2026",
       "Affiliations": ["EPITA / LRDE"],
       "AffiliationsString": "EPITA / LRDE",
@@ -1404,6 +1456,46 @@
       "URL": "https://2018.programming-conference.org/event/programming-2018-papers-search-based-tier-assignment-for-optimising-offline-availability-in-multi-tier-web-applications"
     },
     {
+      "Abstract": "",
+      "Affiliations": [
+        "University of Bergen, Norway",
+        "University of Bergen"
+      ],
+      "AffiliationsString": "University of Bergen, Norway, University of Bergen",
+      "Authors": [
+        "annamariaeilertsen1",
+        "anyahelenebagge"
+      ],
+      "Key": "programming-2018-posters-software-programs-software-behaviour-as-an-emergent-property",
+      "PersonsString": "Anna Maria Eilertsen and Anya Helene Bagge",
+      "Title": "Software != Programs - Software Behaviour as an Emergent Property",
+      "Type": "Poster",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-posters-software-programs-software-behaviour-as-an-emergent-property"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [
+        "Université Côte d\u2019Azur, CNRS, INRIA",
+        "Université Côte d\u2019Azur, CNRS, INRIA",
+        "Aalto University",
+        "University of York, UK",
+        ""
+      ],
+      "AffiliationsString": "Université Côte d\u2019Azur, CNRS, INRIA, Aalto University, University of York, UK, ",
+      "Authors": [
+        "michelbuffa",
+        "jeromelebrun",
+        "jarikleimola",
+        "oliverlarkin",
+        "stephaneletz"
+      ],
+      "Key": "programming-2018-posters-programming-virtual-musical-instruments-and-audio-effects-in-the-web-browser",
+      "PersonsString": "Michel Buffa, Jérôme Lebrun, Jari Kleimola, Oliver Larkin and Stéphane Letz",
+      "Title": "Programming virtual musical instruments and audio effects in the Web browser",
+      "Type": "Poster",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-posters-programming-virtual-musical-instruments-and-audio-effects-in-the-web-browser"
+    },
+    {
       "Abstract": "Programming languages and platforms improve over time, sometimes resulting in new language features that offer many benefits. However, despite these benefits, developers may not always be willing to adopt them in their projects for various reasons. In this paper, we describe an empirical study where we assess the adoption of a particular new language feature. Studying how developers use (or do not use) new language features is important in programming language research and engineering because it gives designers insight into the usability of the language to create meaning programs in that language. This knowledge, in turn, can drive future innovations in the area. Here, we explore Java 8 default methods, which allow interfaces to contain (instance) method implementations. \nDefault methods can ease interface evolution, make certain ubiquitous design patterns redundant, and improve both modularity and maintainability. A focus of this work is to discover, through a scientific approach and a novel technique, situations where developers found these constructs useful and where they did not, and the reasons for each. Although several studies center around assessing new language features, to the best of our knowledge, this kind of construct has not been previously considered. \nDespite their benefits, we found that developers did not adopt default methods in all situations. Our study consisted of submitting pull requests introducing the language feature to 19 real-world, open source Java projects without altering original program semantics. This novel assessment technique is proactive in that the adoption was driven by an automatic refactoring approach rather than waiting for developers to discover and integrate the feature themselves. In this way, we set forth best practices and patterns of using the language feature effectively earlier rather than later and are able to possibly guide (near) future language evolution. We foresee this technique to be useful in assessing other new language features, design patterns, and other programming idioms.",
       "Affiliations": [
         "City University of New York (CUNY) Hunter College",
@@ -1452,117 +1544,6 @@
     },
     {
       "Abstract": "",
-      "Affiliations": [],
-      "AffiliationsString": "",
-      "Authors": [],
-      "Key": "programming-2018-organizational-registration",
-      "PersonsString": "",
-      "Title": "Registration",
-      "Type": "Registration",
-      "URL": "https://2018.programming-conference.org/event/programming-2018-organizational-registration"
-    },
-    {
-      "Abstract": "Context: Software development tools that interact with running programs such as debuggers, profilers, and dynamic analysis frameworks are presumed to demand difficult tradeoffs among implementation complexity (cost), functionality, usability, and performance. Among the many consequences, tools are often delivered late (if ever), have limited functionality, require non-standard configurations, and impose serious performance costs on running programs. \nInquiry: Can flexible tool support become a practical, first class, intrinsic requirement for a modern highperformance programming language implementation framework? \nApproach: We extended the Truffle Language Implementation Framework, which together with the GraalVM execution environment makes possible very high performance language implementations. Truffle\u2019s new Instrumentation Framework is language-agnostic and designed to derive high performance from the same technologies as do language implementations. Truffle Instrumentation includes: (1) low overhead capture of execution events by dynamically adding \u201cwrapper\u201d nodes to executing ASTs; (2) extensions to the Language Implementation Framework that allow per-language specialization, primarily for visual display of values and names, among others; and (3) versatile APIs and support services for implementing many kinds of tools without VM modification. \nKnowledge: It is now possible for a client in a production environment to insert (dynamically, with thread safety) an instrumentation probe that captures and reports abstractly specified execution events. A probe in fully optimized code imposes very low overhead until actually used to access (or modify) execution state. Event capture has enabled construction of numerous GraalVM services and tools that work for all implemented languages, either singly or in combination. Instrumentation has also proved valuable for implementing some traditionally tricky language features, as well as some GraalVM services such as placing bounds on resources consumed by running programs. \nGrounding: Tools for debugging (via multiple clients), profiling, statement counting, dynamic analysis, and others are now part of GraalVM or are in active development. Third parties have also used Truffle Instrumentation for innovative tool implementations. \nImportance: Experience with Truffle Instrumentation validates the notion that addressing developer tools support as a forethought can change expectations about the availability of practical, efficient tools for highperformance languages. Tool development becomes a natural part of language implementation, requiring little additional effort and offering the advantage of early and continuous availability.",
-      "Affiliations": [
-        "Oracle Labs",
-        "Oracle Labs",
-        "eBay",
-        "Oracle Labs, Switzerland",
-        "Oracle Labs"
-      ],
-      "AffiliationsString": "Oracle Labs, eBay, Oracle Labs, Switzerland",
-      "Authors": [
-        "michaelvandevanter",
-        "chrisseaton",
-        "michaelhaupt",
-        "christianhumer",
-        "thomaswuerthinger"
-      ],
-      "Key": "programming-2018-papers-fast-flexible-polyglot-instrumentation-support-for-debuggers-and-other-tools",
-      "PersonsString": "Michael Van De Vanter, Chris Seaton, Michael Haupt, Christian Humer and Thomas Wuerthinger",
-      "Title": "Fast, Flexible, Polyglot Instrumentation Support for Debuggers and other Tools",
-      "Type": "Talk",
-      "URL": "https://2018.programming-conference.org/event/programming-2018-papers-fast-flexible-polyglot-instrumentation-support-for-debuggers-and-other-tools"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": ["Technische Universität Darmstadt"],
-      "AffiliationsString": "Technische Universität Darmstadt",
-      "Authors": ["ragnarmogk"],
-      "Key": "programming-2018-posters-fault-tolerant-reactive-programming",
-      "PersonsString": "Ragnar Mogk",
-      "Title": "Fault-tolerant Reactive Programming",
-      "Type": "Poster",
-      "URL": "https://2018.programming-conference.org/event/programming-2018-posters-fault-tolerant-reactive-programming"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "University of Bergen, Norway",
-        "University of Bergen",
-        "University of Bergen, Norway"
-      ],
-      "AffiliationsString": "University of Bergen, Norway, University of Bergen",
-      "Authors": [
-        "knutandersstokke",
-        "anyahelenebagge",
-        "hakonheggerneslerring"
-      ],
-      "Key": "programming-2018-posters-automating-testing-of-programming-assignments",
-      "PersonsString": "Knut Anders Stokke, Anya Helene Bagge and Håkon Heggernes Lerring",
-      "Title": "Automating Testing of Programming Assignments",
-      "Type": "Poster",
-      "URL": "https://2018.programming-conference.org/event/programming-2018-posters-automating-testing-of-programming-assignments"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [""],
-      "AffiliationsString": "",
-      "Authors": ["pascalweisenburger"],
-      "Key": "programming-2018-posters-distributed-reactive-applications-with-scalaloci",
-      "PersonsString": "Pascal Weisenburger",
-      "Title": "Distributed Reactive Applications with ScalaLoci",
-      "Type": "Poster",
-      "URL": "https://2018.programming-conference.org/event/programming-2018-posters-distributed-reactive-applications-with-scalaloci"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "University of Bergen",
-        "University of Bergen",
-        "University of Bergen"
-      ],
-      "AffiliationsString": "University of Bergen",
-      "Authors": [
-        "ragnhildaalvik",
-        "anyahelenebagge",
-        "jaakkojarvi"
-      ],
-      "Key": "programming-2018-posters-visast-generic-ast-visualizer-for-software-language-education",
-      "PersonsString": "Ragnhild Aalvik, Anya Helene Bagge and Jaakko Järvi",
-      "Title": "VisAST: Generic AST Visualizer for Software Language Education",
-      "Type": "Poster",
-      "URL": "https://2018.programming-conference.org/event/programming-2018-posters-visast-generic-ast-visualizer-for-software-language-education"
-    },
-    {
-      "Abstract": "",
-      "Affiliations": [
-        "University of Bergen, Norway",
-        "University of Bergen"
-      ],
-      "AffiliationsString": "University of Bergen, Norway, University of Bergen",
-      "Authors": [
-        "annamariaeilertsen1",
-        "anyahelenebagge"
-      ],
-      "Key": "programming-2018-posters-software-programs-software-behaviour-as-an-emergent-property",
-      "PersonsString": "Anna Maria Eilertsen and Anya Helene Bagge",
-      "Title": "Software != Programs - Software Behaviour as an Emergent Property",
-      "Type": "Poster",
-      "URL": "https://2018.programming-conference.org/event/programming-2018-posters-software-programs-software-behaviour-as-an-emergent-property"
-    },
-    {
-      "Abstract": "",
       "Affiliations": [
         "University of Genova",
         "DIBRIS, University of Genova, Italy",
@@ -1592,26 +1573,221 @@
     },
     {
       "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "programming-2018-organizational-registration",
+      "PersonsString": "",
+      "Title": "Registration",
+      "Type": "Registration",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-organizational-registration"
+    },
+    {
+      "Abstract": "",
       "Affiliations": [
-        "Université Côte d\u2019Azur, CNRS, INRIA",
-        "Université Côte d\u2019Azur, CNRS, INRIA",
-        "Aalto University",
-        "University of York, UK",
-        ""
+        "University of Bergen",
+        "University of Bergen",
+        "University of Bergen"
       ],
-      "AffiliationsString": "Université Côte d\u2019Azur, CNRS, INRIA, Aalto University, University of York, UK, ",
+      "AffiliationsString": "University of Bergen",
       "Authors": [
-        "michelbuffa",
-        "jeromelebrun",
-        "jarikleimola",
-        "oliverlarkin",
-        "stephaneletz"
+        "ragnhildaalvik",
+        "anyahelenebagge",
+        "jaakkojarvi"
       ],
-      "Key": "programming-2018-posters-programming-virtual-musical-instruments-and-audio-effects-in-the-web-browser",
-      "PersonsString": "Michel Buffa, Jérôme Lebrun, Jari Kleimola, Oliver Larkin and Stéphane Letz",
-      "Title": "Programming virtual musical instruments and audio effects in the Web browser",
+      "Key": "programming-2018-posters-visast-generic-ast-visualizer-for-software-language-education",
+      "PersonsString": "Ragnhild Aalvik, Anya Helene Bagge and Jaakko Järvi",
+      "Title": "VisAST: Generic AST Visualizer for Software Language Education",
       "Type": "Poster",
-      "URL": "https://2018.programming-conference.org/event/programming-2018-posters-programming-virtual-musical-instruments-and-audio-effects-in-the-web-browser"
+      "URL": "https://2018.programming-conference.org/event/programming-2018-posters-visast-generic-ast-visualizer-for-software-language-education"
+    },
+    {
+      "Abstract": "Context: Software development tools that interact with running programs such as debuggers, profilers, and dynamic analysis frameworks are presumed to demand difficult tradeoffs among implementation complexity (cost), functionality, usability, and performance. Among the many consequences, tools are often delivered late (if ever), have limited functionality, require non-standard configurations, and impose serious performance costs on running programs. \nInquiry: Can flexible tool support become a practical, first class, intrinsic requirement for a modern highperformance programming language implementation framework? \nApproach: We extended the Truffle Language Implementation Framework, which together with the GraalVM execution environment makes possible very high performance language implementations. Truffle\u2019s new Instrumentation Framework is language-agnostic and designed to derive high performance from the same technologies as do language implementations. Truffle Instrumentation includes: (1) low overhead capture of execution events by dynamically adding \u201cwrapper\u201d nodes to executing ASTs; (2) extensions to the Language Implementation Framework that allow per-language specialization, primarily for visual display of values and names, among others; and (3) versatile APIs and support services for implementing many kinds of tools without VM modification. \nKnowledge: It is now possible for a client in a production environment to insert (dynamically, with thread safety) an instrumentation probe that captures and reports abstractly specified execution events. A probe in fully optimized code imposes very low overhead until actually used to access (or modify) execution state. Event capture has enabled construction of numerous GraalVM services and tools that work for all implemented languages, either singly or in combination. Instrumentation has also proved valuable for implementing some traditionally tricky language features, as well as some GraalVM services such as placing bounds on resources consumed by running programs. \nGrounding: Tools for debugging (via multiple clients), profiling, statement counting, dynamic analysis, and others are now part of GraalVM or are in active development. Third parties have also used Truffle Instrumentation for innovative tool implementations. \nImportance: Experience with Truffle Instrumentation validates the notion that addressing developer tools support as a forethought can change expectations about the availability of practical, efficient tools for highperformance languages. Tool development becomes a natural part of language implementation, requiring little additional effort and offering the advantage of early and continuous availability.",
+      "Affiliations": [
+        "Oracle Labs",
+        "Oracle Labs",
+        "eBay",
+        "Oracle Labs, Switzerland",
+        "Oracle Labs"
+      ],
+      "AffiliationsString": "Oracle Labs, eBay, Oracle Labs, Switzerland",
+      "Authors": [
+        "michaelvandevanter",
+        "chrisseaton",
+        "michaelhaupt",
+        "christianhumer",
+        "thomaswuerthinger"
+      ],
+      "Key": "programming-2018-papers-fast-flexible-polyglot-instrumentation-support-for-debuggers-and-other-tools",
+      "PersonsString": "Michael Van De Vanter, Chris Seaton, Michael Haupt, Christian Humer and Thomas Wuerthinger",
+      "Title": "Fast, Flexible, Polyglot Instrumentation Support for Debuggers and other Tools",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-papers-fast-flexible-polyglot-instrumentation-support-for-debuggers-and-other-tools"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["pascalweisenburger"],
+      "Key": "programming-2018-posters-distributed-reactive-applications-with-scalaloci",
+      "PersonsString": "Pascal Weisenburger",
+      "Title": "Distributed Reactive Applications with ScalaLoci",
+      "Type": "Poster",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-posters-distributed-reactive-applications-with-scalaloci"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Harvard University"],
+      "AffiliationsString": "Harvard University",
+      "Authors": ["ezrazigmond"],
+      "Key": "programming-2018-src-fine-grained-dynamic-access-control-for-database-backed-applications",
+      "PersonsString": "Ezra Zigmond",
+      "Title": "Fine-grained, Dynamic Access Control for Database-backed Applications",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-src-fine-grained-dynamic-access-control-for-database-backed-applications"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [],
+      "AffiliationsString": "",
+      "Authors": [],
+      "Key": "programming-2018-src-src-second-round-oral-presentation",
+      "PersonsString": "",
+      "Title": "SRC Second Round: Oral Presentation",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-src-src-second-round-oral-presentation"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Johannes Kepler University Linz"],
+      "AffiliationsString": "Johannes Kepler University Linz",
+      "Authors": ["manuelrigger"],
+      "Key": "programming-2018-src-sandboxed-execution-of-c-and-other-unsafe-languages-on-the-java-virtual-machine",
+      "PersonsString": "Manuel Rigger",
+      "Title": "Sandboxed Execution of C and Other Unsafe Languages on the Java Virtual Machine",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-src-sandboxed-execution-of-c-and-other-unsafe-languages-on-the-java-virtual-machine"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["University of Texas at Dallas"],
+      "AffiliationsString": "University of Texas at Dallas",
+      "Authors": ["vasujindal"],
+      "Key": "programming-2018-src-towards-an-intelligent-fault-prediction-code-editor-to-improve-software-quality-using-deep-learning",
+      "PersonsString": "Vasu Jindal",
+      "Title": "Towards an Intelligent Fault Prediction Code Editor to Improve Software Quality using Deep Learning",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-src-towards-an-intelligent-fault-prediction-code-editor-to-improve-software-quality-using-deep-learning"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Lund University"],
+      "AffiliationsString": "Lund University",
+      "Authors": ["jesperoqvist"],
+      "Key": "programming-2018-src-the-extensible-compiler-architecture-of-extendj",
+      "PersonsString": "Jesper Oqvist",
+      "Title": "The Extensible Compiler Architecture of ExtendJ",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-src-the-extensible-compiler-architecture-of-extendj"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Hasso Plattner Institute"],
+      "AffiliationsString": "Hasso Plattner Institute",
+      "Authors": ["patrickrein"],
+      "Key": "programming-2018-src-a-soup-of-objects-convenience-interfaces-for-accessing-domain-objects-in-a-global-object-graph",
+      "PersonsString": "Patrick Rein",
+      "Title": "A Soup of Objects: Convenience Interfaces for Accessing Domain Objects in a Global Object Graph",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-src-a-soup-of-objects-convenience-interfaces-for-accessing-domain-objects-in-a-global-object-graph"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Innopolis University"],
+      "AffiliationsString": "Innopolis University",
+      "Authors": ["alisagazizullina"],
+      "Key": "programming-2018-src-fully-homomorphic-encryption-scheme-for-secure-computation",
+      "PersonsString": "Alisa Gazizullina",
+      "Title": "Fully Homomorphic Encryption Scheme for Secure Computation",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-src-fully-homomorphic-encryption-scheme-for-secure-computation"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Imperial College London, UK"],
+      "AffiliationsString": "Imperial College London, UK",
+      "Authors": ["danielslocombe"],
+      "Key": "programming-2018-src-soundness-and-completeness-for-object-garbage-collection-in-the-pony-language",
+      "PersonsString": "Daniel Slocombe",
+      "Title": "Soundness and Completeness for Object Garbage Collection in the Pony Language",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-src-soundness-and-completeness-for-object-garbage-collection-in-the-pony-language"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Hasso Plattner Institute"],
+      "AffiliationsString": "Hasso Plattner Institute",
+      "Authors": ["tonimattis"],
+      "Key": "programming-2018-src-mining-concepts-from-code-using-community-detection",
+      "PersonsString": "Toni Mattis",
+      "Title": "Mining Concepts from Code using Community Detection",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-src-mining-concepts-from-code-using-community-detection"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Lund University, Sweden"],
+      "AffiliationsString": "Lund University, Sweden",
+      "Authors": ["alfredakesson"],
+      "Key": "programming-2018-src-dsl-for-end-user-service-composition",
+      "PersonsString": "Alfred Åkesson",
+      "Title": "DSL for End-user Service Composition",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-src-dsl-for-end-user-service-composition"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["MINES ParisTech, France"],
+      "AffiliationsString": "MINES ParisTech, France",
+      "Authors": ["adillasusungi"],
+      "Key": "programming-2018-src-on-the-semantics-of-loop-transformation-languages",
+      "PersonsString": "Adilla Susungi",
+      "Title": "On the Semantics of Loop Transformation Languages",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-src-on-the-semantics-of-loop-transformation-languages"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": [""],
+      "AffiliationsString": "",
+      "Authors": ["joncorbett"],
+      "Key": "programming-2018-src-indigenizing-computer-programming-for-cultural-maintenance",
+      "PersonsString": "Jon Corbett",
+      "Title": "Indigenizing Computer Programming for Cultural Maintenance",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-src-indigenizing-computer-programming-for-cultural-maintenance"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Vrije Universiteit Brussel"],
+      "AffiliationsString": "Vrije Universiteit Brussel",
+      "Authors": ["matteomarra"],
+      "Key": "programming-2018-src-debugging-support-for-big-data-processing-applications",
+      "PersonsString": "Matteo Marra",
+      "Title": "Debugging Support for Big Data Processing Applications",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-src-debugging-support-for-big-data-processing-applications"
+    },
+    {
+      "Abstract": "",
+      "Affiliations": ["Imperial College London"],
+      "AffiliationsString": "Imperial College London",
+      "Authors": ["franklinschrans"],
+      "Key": "programming-2018-src-writing-safe-smart-contracts-in-flint",
+      "PersonsString": "Franklin Schrans",
+      "Title": "Writing Safe Smart Contracts in Flint",
+      "Type": "Talk",
+      "URL": "https://2018.programming-conference.org/event/programming-2018-src-writing-safe-smart-contracts-in-flint"
     }
   ],
   "Name": "\u2039Programming\u203a 2018",
@@ -1897,6 +2073,11 @@
       "Name": "Yngve Lamo"
     },
     {
+      "Affiliation": "Innopolis University",
+      "Key": "alisagazizullina",
+      "Name": "Alisa Gazizullina"
+    },
+    {
       "Affiliation": "Universidad de Málaga, Spain",
       "Bio": "Prof. Lidia Fuentes received her MSc degree in Computer Science from the University of Málaga (Spain) in 1992 and her PhD in Computer Science in 1998 from the same University. She is Full Professor at the Department of Lenguajes y Ciencias de la Computación of the University of Málaga and she is the head of the CAOSD research group.",
       "Key": "lidiafuentes",
@@ -2026,6 +2207,13 @@
       "Name": "Roman Popp"
     },
     {
+      "Affiliation": "Imperial College London",
+      "Key": "franklinschrans",
+      "Name": "Franklin Schrans",
+      "URL": "https://www.doc.ic.ac.uk/~fs2014/",
+      "URLphoto": "https://2018.programming-conference.org/getProfileImage/franklinschrans/0f872c2d-d4ee-4b66-80ec-ac3c5ac78c4c/small.jpg"
+    },
+    {
       "Affiliation": "University of Utah",
       "Bio": "Matthew Flatt is a professor in the School of Computing at the University of Utah, where he works on extensible programming languages, runtime systems, and applications of functional programming. He is one of the developers of the Racket programming language. He received his PhD from Rice University in 1999.",
       "Key": "matthewflatt",
@@ -2067,6 +2255,11 @@
       "Name": "Patrick Rein",
       "URL": "https://www.patrickrein.de",
       "URLphoto": "https://2018.programming-conference.org/getProfileImage/patrickrein/0538cdc6-52aa-408d-9042-80e24d2f8260/small.jpg"
+    },
+    {
+      "Affiliation": "Imperial College London, UK",
+      "Key": "danielslocombe",
+      "Name": "Daniel Slocombe"
     },
     {
       "Affiliation": "Purdue University",
@@ -2148,6 +2341,11 @@
       "Name": "Ana Milanova",
       "URL": "http://www.cs.rpi.edu/~milanova/",
       "URLphoto": "https://2018.programming-conference.org/getProfileImage/anamilanova/4fa9038c-d0e6-44ca-b1b7-2420329714f4/small.jpg"
+    },
+    {
+      "Affiliation": "University of Texas at Dallas",
+      "Key": "vasujindal",
+      "Name": "Vasu Jindal"
     },
     {
       "Affiliation": "DIBRIS, University of Genova, Italy",
@@ -2322,6 +2520,11 @@
       "Name": "Ragnar Mogk"
     },
     {
+      "Affiliation": "",
+      "Key": "joncorbett",
+      "Name": "Jon Corbett"
+    },
+    {
       "Affiliation": "National Institute of Informatics",
       "Key": "zhenjianghu",
       "Name": "Zhenjiang Hu",
@@ -2398,6 +2601,11 @@
       "Name": "Alcino Cunha",
       "URL": "http://www.di.uminho.pt/~alcino",
       "URLphoto": "https://2018.programming-conference.org/getProfileImage/alcinocunha/53c9c18a-bf80-409e-9f2c-52e8100e324b/small.jpg"
+    },
+    {
+      "Affiliation": "MINES ParisTech, France",
+      "Key": "adillasusungi",
+      "Name": "Adilla Susungi"
     },
     {
       "Affiliation": "",
@@ -2678,6 +2886,11 @@
       "URLphoto": "https://2018.programming-conference.org/getProfileImage/waltercazzola/72dfcd0d-15b4-4f37-a74c-e77fc20730cb/small.jpg"
     },
     {
+      "Affiliation": "Vrije Universiteit Brussel",
+      "Key": "matteomarra",
+      "Name": "Matteo Marra"
+    },
+    {
       "Affiliation": "Technion\u2014Israel Institute of Technology",
       "Bio": "I am an Associate Professor in the Department of Computer Science at Technion - Israel Institute of Technology, Israel. \nResearch Interests: Software engineering, in particular: aspects related to the object-oriented paradigm, programming languages and parsing.",
       "Key": "yossigil",
@@ -2830,6 +3043,11 @@
       "Key": "stephenkell",
       "Name": "Stephen Kell",
       "URL": "http://www.cl.cam.ac.uk/~srk31/"
+    },
+    {
+      "Affiliation": "Harvard University",
+      "Key": "ezrazigmond",
+      "Name": "Ezra Zigmond"
     },
     {
       "Affiliation": "PyPy.org, Switzerland",
@@ -3811,35 +4029,6 @@
       "Type": "Accepted Talks"
     },
     {
-      "Abstract": "The ACM Student Research Competition (SRC), sponsored by Microsoft Research, offers a unique forum for ACM student members at the undergraduate and graduate levels to present their original research at &lt;Programming&gt; before a panel of judges and conference attendees. The competition gives students an opportunity to discuss their research with experts in their field, to get feedback, and to help sharpen their communication and networking skills. Finally, the SRC not only provides visibility to up-and-coming young researchers, but also exposes them to the field of computer science research and its community.",
-      "Day": "2018-04-12",
-      "Items": ["programming-2018-src-src-second-round-oral-presentation"],
-      "Key": "4c61fb0c-7fc6-4ae8-82dc-40d6f64771aa",
-      "Location": "Boscolo B4 Plaza, Nice | Baie des Anges A + B",
-      "Time": "12:00 - 13:45",
-      "Title": "Student Research Competition: SRC Oral Presentation",
-      "Type": "Accepted Students"
-    },
-    {
-      "Abstract": "The ACM Student Research Competition (SRC), sponsored by Microsoft Research, offers a unique forum for ACM student members at the undergraduate and graduate levels to present their original research at &lt;Programming&gt; before a panel of judges and conference attendees. The competition gives students an opportunity to discuss their research with experts in their field, to get feedback, and to help sharpen their communication and networking skills. Finally, the SRC not only provides visibility to up-and-coming young researchers, but also exposes them to the field of computer science research and its community.",
-      "Day": "2018-04-11",
-      "Items": ["programming-2018-src-src-second-round-oral-presentation"],
-      "Key": "edeab05f-b24f-4331-b066-1d7e45461018",
-      "Location": "Boscolo B4 Plaza, Nice | Baie des Anges A + B",
-      "Time": "12:00 - 13:45",
-      "Title": "Student Research Competition: SRC Oral Presentation",
-      "Type": "Accepted Students"
-    },
-    {
-      "Abstract": "The ACM Student Research Competition (SRC), sponsored by Microsoft Research, offers a unique forum for ACM student members at the undergraduate and graduate levels to present their original research at &lt;Programming&gt; before a panel of judges and conference attendees. The competition gives students an opportunity to discuss their research with experts in their field, to get feedback, and to help sharpen their communication and networking skills. Finally, the SRC not only provides visibility to up-and-coming young researchers, but also exposes them to the field of computer science research and its community.",
-      "Day": "2018-04-10",
-      "Key": "74155732-5576-463d-bf77-44fbe471159f",
-      "Location": "Boscolo B4 Plaza, Nice | Baie des Anges B",
-      "Time": "12:30 - 14:30",
-      "Title": "Student Research Competition: SRC Poster Presentation",
-      "Type": "Accepted Students"
-    },
-    {
       "Abstract": " \n \n   \n   \n    \n   Welcome to the 4th Edition of the Programming Experience Workshop \n   \n \n \nNote: If you intend to participate in the PX/18 workshop, please note that the workshop will follow the Writers\u2019 Workshop format. For that, please download and read all submissions in advance. \nAbstract \nImagine a software development task: some sort of requirements and specification including performance goals and perhaps a platform and programming language. A group of developers head into a vast workroom. In that room they design and code\u2014and sometimes they discover they need to explore the domain and the nature of potential solutions. \nThe Programming Experience (PX) Workshop is about what happens in that room when one or a couple of programmers sit down in front of computers and produce code. Do they create text that is transformed into running behavior (the old way), or do they operate on behavior directly (\u201cliveness\u201d); are they exploring the live domain to understand the true nature of the requirements; are they like authors creating new worlds; does visualization matter; is the experience immediate, immersive, vivid and continuous; do fluency, literacy, and learning matter; do they build tools, meta-tools; are they creating languages to express new concepts quickly and easily; and curiously, is joy relevant to the experience? \nHere is a list of topic areas to get you thinking: \n \n creating programs \n liveness \n domain-specific languages \n psychology of programming \n user studies \n visual, auditory, tactile, and other non-textual languages \n text and more than text \n program understanding \n error tolerance \n non-standard tools \n experience of programming \n exploratory programming \n \nThe experience of programming and how to improve and evolve it are the focus of this workshop, and in this edition we would like to focus on exploratory programming. \nPrevious editions \nPX/17.2 at SPLASH 2017, October 22, 2017, Vancouver, British Columbia, Canada \nPX/17 at &lt;Programming&gt; 2017, April 4, 2017, Brussels, Belgium \nPX/16 at ECOOP 2016, July 18, 2016, Rome, Italy \nFlyer \nhttp://programming-experience.org/px18/media/PX18CfP.pdf \nhttp://programming-experience.org/px18/ \n \nWe welcome the organizers of LIVE-18 to our program committee to help us build a lively, programming experience community.",
       "Day": "2018-04-10",
       "Items": [
@@ -3932,53 +4121,6 @@
       "Type": "Posters"
     },
     {
-      "Abstract": "CoCoDo is not a workshop, it is a coding dojo. Instead of preparing a paper and giving a short presentation, participants will enjoy the entire day of programming. The topic of CoCoDo is compiler construction: the oldest branch of computer science, which has been accumulating useful techniques since 1950s. Compiler construction comprises, but is not limited to, lexical analysis, syntactic analysis, preprocessing, context handling, code generation, code optimisation, virtual machines, interpreters, smell detection, clone management, portability, migration, refactoring, domain-specific language design, linking and loading, assembling and disassembling, generics and reflection, numerous paradigms and so much more. \nIt is a one-day co-located event for &lt;P&gt;, which will be mostly about participants programming solutions to small puzzle-like compiler construction problems. We will invite high profile speakers to introduce participants to chosen topics, get them into the flow and keep them there by guiding their advances, and let everyone enjoy very complex techniques in a relatively painless and utterly enjoyable manner. \nCoCoDo was successfully ran at &lt;P&gt;\u201917 with top compiler experts like Elizabeth Scott, Adrian Johnstone, Robby Findler, Ralf Lämmel, Anya Helene Bagge and others. \nMore details at https://cocodo.github.io/",
-      "Day": "2018-04-09",
-      "Items": ["cocodo-2018-dojo-how-to-double-embed-the-general-purpose-language-of-your-embedded-dsl-for-expressivity-performance-and-profit"],
-      "Key": "4dfe27d4-994b-4dcc-83d1-5e3ef1b94a67",
-      "Location": "Boscolo B4 Plaza, Nice | Matisse",
-      "Time": "16:30 - 18:00",
-      "Title": "CoCoDo 2018 - : CoCoDo afternoon",
-      "Type": "Dojo"
-    },
-    {
-      "Abstract": "Bidirectional transformations (bx) are a mechanism for maintaining the consistency of at least two related sources of information. Such sources can be relational databases, software models and code, or any other document following standard or ad-hoc formats. Bx are an emerging topic in a wide range of research areas, with prominent presence at top conferences in several different fields (namely databases, programming languages, software engineering, and graph transformation), but with results in one field often getting limited exposure in the others. Bx 2018 is a dedicated venue for bx in all relevant fields, and is part of a workshop series that was created in order to promote cross-disciplinary research and awareness in the area. As such, since its beginning in 2012, the workshop has rotated between venues in different fields. \nImportant Dates \n \n Paper submission: Jan. 19th, 2018 (AoE) \n Author notification: Feb. 17th, 2018 \n Camera ready: TBA (around Mar 1st, 2018) \n Workshop: Apr. 10th, 2018 \n \nPlease refer to the CFP page for details. \nPrevious Bx Workshops \n \n Bx 2017 collocated with ETAPS\u201917 \n Bx 2016 collocated with ETAPS\u201916 \n Bx 2015 collocated with STAF\u201915 \n Bx 2014 collocated with IDBT/ICDT\u201914 \n Bx 2013 collocated with ETAPS\u201913 \n Bx 2012 collocated with ETAPS\u201912 \n",
-      "Day": "2018-04-10",
-      "Items": [
-        "bx-2018-papers-cospans-and-symmetric-lenses",
-        "bx-2018-papers-understanding-profunctor-optics-a-representation-theorem",
-        "bx-2018-papers-bimorphic-lenses-in-compositional-game-theory"
-      ],
-      "Key": "9394fe89-8f4f-4b8a-b6fb-86a63c8cdea8",
-      "Location": "Boscolo B4 Plaza, Nice | Baie des Anges B",
-      "Time": "11:00 - 12:30",
-      "Title": "Bx 2018 - : Mathematical Foundations",
-      "Type": "Accepted Papers & Talks"
-    },
-    {
-      "Abstract": "CoCoDo is not a workshop, it is a coding dojo. Instead of preparing a paper and giving a short presentation, participants will enjoy the entire day of programming. The topic of CoCoDo is compiler construction: the oldest branch of computer science, which has been accumulating useful techniques since 1950s. Compiler construction comprises, but is not limited to, lexical analysis, syntactic analysis, preprocessing, context handling, code generation, code optimisation, virtual machines, interpreters, smell detection, clone management, portability, migration, refactoring, domain-specific language design, linking and loading, assembling and disassembling, generics and reflection, numerous paradigms and so much more. \nIt is a one-day co-located event for &lt;P&gt;, which will be mostly about participants programming solutions to small puzzle-like compiler construction problems. We will invite high profile speakers to introduce participants to chosen topics, get them into the flow and keep them there by guiding their advances, and let everyone enjoy very complex techniques in a relatively painless and utterly enjoyable manner. \nCoCoDo was successfully ran at &lt;P&gt;\u201917 with top compiler experts like Elizabeth Scott, Adrian Johnstone, Robby Findler, Ralf Lämmel, Anya Helene Bagge and others. \nMore details at https://cocodo.github.io/",
-      "Day": "2018-04-09",
-      "Items": [
-        "cocodo-2018-dojo-cocodo-opening-and-introductions",
-        "cocodo-2018-dojo-funcons"
-      ],
-      "Key": "695b64ca-c1b1-4998-b57c-a5adb362a826",
-      "Location": "Boscolo B4 Plaza, Nice | Matisse",
-      "Time": "08:45 - 10:30",
-      "Title": "CoCoDo 2018 - : CoCoDo morning",
-      "Type": "Dojo"
-    },
-    {
-      "Abstract": "CoCoDo is not a workshop, it is a coding dojo. Instead of preparing a paper and giving a short presentation, participants will enjoy the entire day of programming. The topic of CoCoDo is compiler construction: the oldest branch of computer science, which has been accumulating useful techniques since 1950s. Compiler construction comprises, but is not limited to, lexical analysis, syntactic analysis, preprocessing, context handling, code generation, code optimisation, virtual machines, interpreters, smell detection, clone management, portability, migration, refactoring, domain-specific language design, linking and loading, assembling and disassembling, generics and reflection, numerous paradigms and so much more. \nIt is a one-day co-located event for &lt;P&gt;, which will be mostly about participants programming solutions to small puzzle-like compiler construction problems. We will invite high profile speakers to introduce participants to chosen topics, get them into the flow and keep them there by guiding their advances, and let everyone enjoy very complex techniques in a relatively painless and utterly enjoyable manner. \nCoCoDo was successfully ran at &lt;P&gt;\u201917 with top compiler experts like Elizabeth Scott, Adrian Johnstone, Robby Findler, Ralf Lämmel, Anya Helene Bagge and others. \nMore details at https://cocodo.github.io/",
-      "Day": "2018-04-09",
-      "Items": ["cocodo-2018-dojo-jastadd"],
-      "Key": "61fe67f2-3fac-4db4-b64c-1382eb1ebdf0",
-      "Location": "Boscolo B4 Plaza, Nice | Matisse",
-      "Time": "11:00 - 12:30",
-      "Title": "CoCoDo 2018 - : CoCoDo pre-lunch",
-      "Type": "Dojo"
-    },
-    {
       "Abstract": " \n \n   \n   \n    \n   Welcome to the 4th Edition of the Programming Experience Workshop \n   \n \n \nNote: If you intend to participate in the PX/18 workshop, please note that the workshop will follow the Writers\u2019 Workshop format. For that, please download and read all submissions in advance. \nAbstract \nImagine a software development task: some sort of requirements and specification including performance goals and perhaps a platform and programming language. A group of developers head into a vast workroom. In that room they design and code\u2014and sometimes they discover they need to explore the domain and the nature of potential solutions. \nThe Programming Experience (PX) Workshop is about what happens in that room when one or a couple of programmers sit down in front of computers and produce code. Do they create text that is transformed into running behavior (the old way), or do they operate on behavior directly (\u201cliveness\u201d); are they exploring the live domain to understand the true nature of the requirements; are they like authors creating new worlds; does visualization matter; is the experience immediate, immersive, vivid and continuous; do fluency, literacy, and learning matter; do they build tools, meta-tools; are they creating languages to express new concepts quickly and easily; and curiously, is joy relevant to the experience? \nHere is a list of topic areas to get you thinking: \n \n creating programs \n liveness \n domain-specific languages \n psychology of programming \n user studies \n visual, auditory, tactile, and other non-textual languages \n text and more than text \n program understanding \n error tolerance \n non-standard tools \n experience of programming \n exploratory programming \n \nThe experience of programming and how to improve and evolve it are the focus of this workshop, and in this edition we would like to focus on exploratory programming. \nPrevious editions \nPX/17.2 at SPLASH 2017, October 22, 2017, Vancouver, British Columbia, Canada \nPX/17 at &lt;Programming&gt; 2017, April 4, 2017, Brussels, Belgium \nPX/16 at ECOOP 2016, July 18, 2016, Rome, Italy \nFlyer \nhttp://programming-experience.org/px18/media/PX18CfP.pdf \nhttp://programming-experience.org/px18/ \n \nWe welcome the organizers of LIVE-18 to our program committee to help us build a lively, programming experience community.",
       "Day": "2018-04-10",
       "Items": [
@@ -4011,44 +4153,6 @@
       "Type": "Posters"
     },
     {
-      "Abstract": "Bidirectional transformations (bx) are a mechanism for maintaining the consistency of at least two related sources of information. Such sources can be relational databases, software models and code, or any other document following standard or ad-hoc formats. Bx are an emerging topic in a wide range of research areas, with prominent presence at top conferences in several different fields (namely databases, programming languages, software engineering, and graph transformation), but with results in one field often getting limited exposure in the others. Bx 2018 is a dedicated venue for bx in all relevant fields, and is part of a workshop series that was created in order to promote cross-disciplinary research and awareness in the area. As such, since its beginning in 2012, the workshop has rotated between venues in different fields. \nImportant Dates \n \n Paper submission: Jan. 19th, 2018 (AoE) \n Author notification: Feb. 17th, 2018 \n Camera ready: TBA (around Mar 1st, 2018) \n Workshop: Apr. 10th, 2018 \n \nPlease refer to the CFP page for details. \nPrevious Bx Workshops \n \n Bx 2017 collocated with ETAPS\u201917 \n Bx 2016 collocated with ETAPS\u201916 \n Bx 2015 collocated with STAF\u201915 \n Bx 2014 collocated with IDBT/ICDT\u201914 \n Bx 2013 collocated with ETAPS\u201913 \n Bx 2012 collocated with ETAPS\u201912 \n",
-      "Day": "2018-04-10",
-      "Items": [
-        "bx-2018-papers-confidentiality-in-the-process-of-model-driven-software-development",
-        "bx-2018-papers-multimodel-correspondence-through-inter-model-constraints",
-        "bx-2018-papers-on-the-development-of-consistent-user-interfaces"
-      ],
-      "Key": "77cc0ca9-997f-4af7-b8b5-203f70936f3c",
-      "Location": "Boscolo B4 Plaza, Nice | Baie des Anges B",
-      "Time": "09:00 - 10:30",
-      "Title": "Bx 2018 - : Model Transformation",
-      "Type": "Accepted Papers & Talks"
-    },
-    {
-      "Abstract": "CoCoDo is not a workshop, it is a coding dojo. Instead of preparing a paper and giving a short presentation, participants will enjoy the entire day of programming. The topic of CoCoDo is compiler construction: the oldest branch of computer science, which has been accumulating useful techniques since 1950s. Compiler construction comprises, but is not limited to, lexical analysis, syntactic analysis, preprocessing, context handling, code generation, code optimisation, virtual machines, interpreters, smell detection, clone management, portability, migration, refactoring, domain-specific language design, linking and loading, assembling and disassembling, generics and reflection, numerous paradigms and so much more. \nIt is a one-day co-located event for &lt;P&gt;, which will be mostly about participants programming solutions to small puzzle-like compiler construction problems. We will invite high profile speakers to introduce participants to chosen topics, get them into the flow and keep them there by guiding their advances, and let everyone enjoy very complex techniques in a relatively painless and utterly enjoyable manner. \nCoCoDo was successfully ran at &lt;P&gt;\u201917 with top compiler experts like Elizabeth Scott, Adrian Johnstone, Robby Findler, Ralf Lämmel, Anya Helene Bagge and others. \nMore details at https://cocodo.github.io/",
-      "Day": "2018-04-09",
-      "Items": ["cocodo-2018-dojo-rascal"],
-      "Key": "f795eb03-378b-4e3d-a0a4-90e6b41ada31",
-      "Location": "Boscolo B4 Plaza, Nice | Matisse",
-      "Time": "14:30 - 16:00",
-      "Title": "CoCoDo 2018 - : CoCoDo post-lunch",
-      "Type": "Dojo"
-    },
-    {
-      "Abstract": "Bidirectional transformations (bx) are a mechanism for maintaining the consistency of at least two related sources of information. Such sources can be relational databases, software models and code, or any other document following standard or ad-hoc formats. Bx are an emerging topic in a wide range of research areas, with prominent presence at top conferences in several different fields (namely databases, programming languages, software engineering, and graph transformation), but with results in one field often getting limited exposure in the others. Bx 2018 is a dedicated venue for bx in all relevant fields, and is part of a workshop series that was created in order to promote cross-disciplinary research and awareness in the area. As such, since its beginning in 2012, the workshop has rotated between venues in different fields. \nImportant Dates \n \n Paper submission: Jan. 19th, 2018 (AoE) \n Author notification: Feb. 17th, 2018 \n Camera ready: TBA (around Mar 1st, 2018) \n Workshop: Apr. 10th, 2018 \n \nPlease refer to the CFP page for details. \nPrevious Bx Workshops \n \n Bx 2017 collocated with ETAPS\u201917 \n Bx 2016 collocated with ETAPS\u201916 \n Bx 2015 collocated with STAF\u201915 \n Bx 2014 collocated with IDBT/ICDT\u201914 \n Bx 2013 collocated with ETAPS\u201913 \n Bx 2012 collocated with ETAPS\u201912 \n",
-      "Day": "2018-04-10",
-      "Items": [
-        "bx-2018-papers-an-axiomatic-basis-for-bidirectional-programming",
-        "bx-2018-papers-profunctor-optics-and-the-yoneda-lemma",
-        "bx-2018-papers-towards-sound-flexible-and-optimal-build-for-megamodels"
-      ],
-      "Key": "28fc091b-9993-4e73-b938-d8dd25f6a744",
-      "Location": "Boscolo B4 Plaza, Nice | Baie des Anges B",
-      "Time": "16:30 - 18:00",
-      "Title": "Bx 2018 - : Programming and Applications",
-      "Type": "Accepted Papers & Talks"
-    },
-    {
       "Abstract": "Dialectics for new computer science \nSalon des Refusés (\u201cexhibition of rejects\u201d) was an 1863 exhibition of artworks rejected from the official Paris Salon. The jury of Paris Salon required near-photographic realism and classified works according to a strict genre hierarchy. Paintings by many, later famous, modernists such as Édouard Manet were rejected and appeared in what became known as the Salon des Refusés. This workshop aims to be the programming language research equivalent of Salon des Refusés. We provide venue for exploring new ideas and new ways of doing computer science. \nFormat and important dates \nWe welcome short papers (up to 3000 words) and long papers (up to 9000 words) as well as screencasts or interactive essays. We intend to publish accepted paper on the web, but any format is welcome for the submission. We intend to consider publishing post-proceedings using the ACM SIGPLAN format (acmart format with the sigconf option), so you can use this template for your submission too. \n \n Deadline for submissions: February 1, 2018 Extended to February 8, 2018 \n Notification of authors: February 17, 2018 Extended to February 24, 2018 \n Workshop at \u2039Programming\u203a 2017: April 9-12, 2018 \n Submission page is here \n \nThe program committee for the workshop will be announced soon, so please check back for more information! We will also soon share papers and critiques from the previous edition of the workshop, which should provide useful background (in no way exhaustive) for what format works well.",
       "Day": "2018-04-09",
       "Items": [
@@ -4062,20 +4166,6 @@
       "Time": "09:00 - 10:30",
       "Title": "Salon des Refusés 2018 - : Salon des Refusés 1",
       "Type": "Accepted Papers"
-    },
-    {
-      "Abstract": "Bidirectional transformations (bx) are a mechanism for maintaining the consistency of at least two related sources of information. Such sources can be relational databases, software models and code, or any other document following standard or ad-hoc formats. Bx are an emerging topic in a wide range of research areas, with prominent presence at top conferences in several different fields (namely databases, programming languages, software engineering, and graph transformation), but with results in one field often getting limited exposure in the others. Bx 2018 is a dedicated venue for bx in all relevant fields, and is part of a workshop series that was created in order to promote cross-disciplinary research and awareness in the area. As such, since its beginning in 2012, the workshop has rotated between venues in different fields. \nImportant Dates \n \n Paper submission: Jan. 19th, 2018 (AoE) \n Author notification: Feb. 17th, 2018 \n Camera ready: TBA (around Mar 1st, 2018) \n Workshop: Apr. 10th, 2018 \n \nPlease refer to the CFP page for details. \nPrevious Bx Workshops \n \n Bx 2017 collocated with ETAPS\u201917 \n Bx 2016 collocated with ETAPS\u201916 \n Bx 2015 collocated with STAF\u201915 \n Bx 2014 collocated with IDBT/ICDT\u201914 \n Bx 2013 collocated with ETAPS\u201913 \n Bx 2012 collocated with ETAPS\u201912 \n",
-      "Day": "2018-04-10",
-      "Items": [
-        "bx-2018-papers-towards-a-visual-editor-for-lens-combinators",
-        "bx-2018-papers-enhancing-the-jtl-tool-for-bidirectional-transformations",
-        "bx-2018-papers-lightweight-data-sharing-system-based-on-bidirectional-transformations"
-      ],
-      "Key": "81fc2abe-a3e3-476d-9697-c29b1ddc6d71",
-      "Location": "Boscolo B4 Plaza, Nice | Baie des Anges B",
-      "Time": "14:30 - 16:00",
-      "Title": "Bx 2018 - : Tools and Systems",
-      "Type": "Accepted Papers & Talks"
     },
     {
       "Abstract": "",
@@ -4122,6 +4212,52 @@
       "Time": "16:30 - 18:00",
       "Title": "Salon des Refusés 2018 - : Salon des Refusés 4",
       "Type": "Accepted Papers"
+    },
+    {
+      "Abstract": "CoCoDo is not a workshop, it is a coding dojo. Instead of preparing a paper and giving a short presentation, participants will enjoy the entire day of programming. The topic of CoCoDo is compiler construction: the oldest branch of computer science, which has been accumulating useful techniques since 1950s. Compiler construction comprises, but is not limited to, lexical analysis, syntactic analysis, preprocessing, context handling, code generation, code optimisation, virtual machines, interpreters, smell detection, clone management, portability, migration, refactoring, domain-specific language design, linking and loading, assembling and disassembling, generics and reflection, numerous paradigms and so much more. \nIt is a one-day co-located event for &lt;P&gt;, which will be mostly about participants programming solutions to small puzzle-like compiler construction problems. We will invite high profile speakers to introduce participants to chosen topics, get them into the flow and keep them there by guiding their advances, and let everyone enjoy very complex techniques in a relatively painless and utterly enjoyable manner. \nCoCoDo was successfully ran at &lt;P&gt;\u201917 with top compiler experts like Elizabeth Scott, Adrian Johnstone, Robby Findler, Ralf Lämmel, Anya Helene Bagge and others. \nMore details at https://cocodo.github.io/",
+      "Day": "2018-04-09",
+      "Items": ["cocodo-2018-dojo-jastadd"],
+      "Key": "61fe67f2-3fac-4db4-b64c-1382eb1ebdf0",
+      "Location": "Boscolo B4 Plaza, Nice | Matisse",
+      "Time": "11:00 - 12:30",
+      "Title": "CoCoDo 2018 - : CoCoDo pre-lunch",
+      "Type": "Dojo"
+    },
+    {
+      "Abstract": "CoCoDo is not a workshop, it is a coding dojo. Instead of preparing a paper and giving a short presentation, participants will enjoy the entire day of programming. The topic of CoCoDo is compiler construction: the oldest branch of computer science, which has been accumulating useful techniques since 1950s. Compiler construction comprises, but is not limited to, lexical analysis, syntactic analysis, preprocessing, context handling, code generation, code optimisation, virtual machines, interpreters, smell detection, clone management, portability, migration, refactoring, domain-specific language design, linking and loading, assembling and disassembling, generics and reflection, numerous paradigms and so much more. \nIt is a one-day co-located event for &lt;P&gt;, which will be mostly about participants programming solutions to small puzzle-like compiler construction problems. We will invite high profile speakers to introduce participants to chosen topics, get them into the flow and keep them there by guiding their advances, and let everyone enjoy very complex techniques in a relatively painless and utterly enjoyable manner. \nCoCoDo was successfully ran at &lt;P&gt;\u201917 with top compiler experts like Elizabeth Scott, Adrian Johnstone, Robby Findler, Ralf Lämmel, Anya Helene Bagge and others. \nMore details at https://cocodo.github.io/",
+      "Day": "2018-04-09",
+      "Items": ["cocodo-2018-dojo-rascal"],
+      "Key": "f795eb03-378b-4e3d-a0a4-90e6b41ada31",
+      "Location": "Boscolo B4 Plaza, Nice | Matisse",
+      "Time": "14:30 - 16:00",
+      "Title": "CoCoDo 2018 - : CoCoDo post-lunch",
+      "Type": "Dojo"
+    },
+    {
+      "Abstract": "CoCoDo is not a workshop, it is a coding dojo. Instead of preparing a paper and giving a short presentation, participants will enjoy the entire day of programming. The topic of CoCoDo is compiler construction: the oldest branch of computer science, which has been accumulating useful techniques since 1950s. Compiler construction comprises, but is not limited to, lexical analysis, syntactic analysis, preprocessing, context handling, code generation, code optimisation, virtual machines, interpreters, smell detection, clone management, portability, migration, refactoring, domain-specific language design, linking and loading, assembling and disassembling, generics and reflection, numerous paradigms and so much more. \nIt is a one-day co-located event for &lt;P&gt;, which will be mostly about participants programming solutions to small puzzle-like compiler construction problems. We will invite high profile speakers to introduce participants to chosen topics, get them into the flow and keep them there by guiding their advances, and let everyone enjoy very complex techniques in a relatively painless and utterly enjoyable manner. \nCoCoDo was successfully ran at &lt;P&gt;\u201917 with top compiler experts like Elizabeth Scott, Adrian Johnstone, Robby Findler, Ralf Lämmel, Anya Helene Bagge and others. \nMore details at https://cocodo.github.io/",
+      "Day": "2018-04-09",
+      "Items": [
+        "cocodo-2018-dojo-how-to-double-embed-the-general-purpose-language-of-your-embedded-dsl-for-expressivity-performance-and-profit",
+        "cocodo-2018-dojo-the-game-of-programmer-vs-ide"
+      ],
+      "Key": "4dfe27d4-994b-4dcc-83d1-5e3ef1b94a67",
+      "Location": "Boscolo B4 Plaza, Nice | Matisse",
+      "Time": "16:30 - 18:00",
+      "Title": "CoCoDo 2018 - : CoCoDo afternoon",
+      "Type": "Dojo"
+    },
+    {
+      "Abstract": "CoCoDo is not a workshop, it is a coding dojo. Instead of preparing a paper and giving a short presentation, participants will enjoy the entire day of programming. The topic of CoCoDo is compiler construction: the oldest branch of computer science, which has been accumulating useful techniques since 1950s. Compiler construction comprises, but is not limited to, lexical analysis, syntactic analysis, preprocessing, context handling, code generation, code optimisation, virtual machines, interpreters, smell detection, clone management, portability, migration, refactoring, domain-specific language design, linking and loading, assembling and disassembling, generics and reflection, numerous paradigms and so much more. \nIt is a one-day co-located event for &lt;P&gt;, which will be mostly about participants programming solutions to small puzzle-like compiler construction problems. We will invite high profile speakers to introduce participants to chosen topics, get them into the flow and keep them there by guiding their advances, and let everyone enjoy very complex techniques in a relatively painless and utterly enjoyable manner. \nCoCoDo was successfully ran at &lt;P&gt;\u201917 with top compiler experts like Elizabeth Scott, Adrian Johnstone, Robby Findler, Ralf Lämmel, Anya Helene Bagge and others. \nMore details at https://cocodo.github.io/",
+      "Day": "2018-04-09",
+      "Items": [
+        "cocodo-2018-dojo-cocodo-opening-and-introductions",
+        "cocodo-2018-dojo-funcons"
+      ],
+      "Key": "695b64ca-c1b1-4998-b57c-a5adb362a826",
+      "Location": "Boscolo B4 Plaza, Nice | Matisse",
+      "Time": "08:45 - 10:30",
+      "Title": "CoCoDo 2018 - : CoCoDo morning",
+      "Type": "Dojo"
     },
     {
       "Abstract": "The Research Papers track features presentations from authors of papers accepted at the upcoming The Art, Science, and Engineering of Programming journal. Interested authors should submit their papers to that journal, and choose this year\u2019s Program Chair (Guido Salvaneschi) as the handling editor for their papers. \nIn order to present at \u2039Programming\u203a 2018, papers must be submitted to the first, second or third 2018 issue of that journal (timeline).",
@@ -4207,6 +4343,52 @@
       "Type": "Presentations"
     },
     {
+      "Abstract": "The ACM Student Research Competition (SRC), sponsored by Microsoft Research, offers a unique forum for ACM student members at the undergraduate and graduate levels to present their original research at &lt;Programming&gt; before a panel of judges and conference attendees. The competition gives students an opportunity to discuss their research with experts in their field, to get feedback, and to help sharpen their communication and networking skills. Finally, the SRC not only provides visibility to up-and-coming young researchers, but also exposes them to the field of computer science research and its community.",
+      "Day": "2018-04-12",
+      "Items": ["programming-2018-src-src-second-round-oral-presentation"],
+      "Key": "4c61fb0c-7fc6-4ae8-82dc-40d6f64771aa",
+      "Location": "Boscolo B4 Plaza, Nice | Baie des Anges A + B",
+      "Time": "12:00 - 13:45",
+      "Title": "Student Research Competition: SRC Oral Presentation",
+      "Type": "Accepted Students"
+    },
+    {
+      "Abstract": "The ACM Student Research Competition (SRC), sponsored by Microsoft Research, offers a unique forum for ACM student members at the undergraduate and graduate levels to present their original research at &lt;Programming&gt; before a panel of judges and conference attendees. The competition gives students an opportunity to discuss their research with experts in their field, to get feedback, and to help sharpen their communication and networking skills. Finally, the SRC not only provides visibility to up-and-coming young researchers, but also exposes them to the field of computer science research and its community.",
+      "Day": "2018-04-11",
+      "Items": ["programming-2018-src-src-second-round-oral-presentation"],
+      "Key": "edeab05f-b24f-4331-b066-1d7e45461018",
+      "Location": "Boscolo B4 Plaza, Nice | Baie des Anges A + B",
+      "Time": "12:00 - 13:45",
+      "Title": "Student Research Competition: SRC Oral Presentation",
+      "Type": "Accepted Students"
+    },
+    {
+      "Abstract": "The ACM Student Research Competition (SRC), sponsored by Microsoft Research, offers a unique forum for ACM student members at the undergraduate and graduate levels to present their original research at &lt;Programming&gt; before a panel of judges and conference attendees. The competition gives students an opportunity to discuss their research with experts in their field, to get feedback, and to help sharpen their communication and networking skills. Finally, the SRC not only provides visibility to up-and-coming young researchers, but also exposes them to the field of computer science research and its community.",
+      "Chairs": ["philipphaller"],
+      "ChairsString": "Philipp Haller",
+      "Day": "2018-04-10",
+      "Items": [
+        "programming-2018-src-a-soup-of-objects-convenience-interfaces-for-accessing-domain-objects-in-a-global-object-graph",
+        "programming-2018-src-dsl-for-end-user-service-composition",
+        "programming-2018-src-debugging-support-for-big-data-processing-applications",
+        "programming-2018-src-fine-grained-dynamic-access-control-for-database-backed-applications",
+        "programming-2018-src-fully-homomorphic-encryption-scheme-for-secure-computation",
+        "programming-2018-src-indigenizing-computer-programming-for-cultural-maintenance",
+        "programming-2018-src-mining-concepts-from-code-using-community-detection",
+        "programming-2018-src-on-the-semantics-of-loop-transformation-languages",
+        "programming-2018-src-sandboxed-execution-of-c-and-other-unsafe-languages-on-the-java-virtual-machine",
+        "programming-2018-src-soundness-and-completeness-for-object-garbage-collection-in-the-pony-language",
+        "programming-2018-src-the-extensible-compiler-architecture-of-extendj",
+        "programming-2018-src-towards-an-intelligent-fault-prediction-code-editor-to-improve-software-quality-using-deep-learning",
+        "programming-2018-src-writing-safe-smart-contracts-in-flint"
+      ],
+      "Key": "74155732-5576-463d-bf77-44fbe471159f",
+      "Location": "Boscolo B4 Plaza, Nice | Baie des Anges B",
+      "Time": "12:30 - 14:30",
+      "Title": "Student Research Competition: SRC Poster Presentation",
+      "Type": "Accepted Students"
+    },
+    {
       "Abstract": "Organizational",
       "Day": "2018-04-11",
       "Items": ["programming-2018-organizational-conference-opening"],
@@ -4277,6 +4459,64 @@
       "Type": "Meetings"
     },
     {
+      "Abstract": "Bidirectional transformations (bx) are a mechanism for maintaining the consistency of at least two related sources of information. Such sources can be relational databases, software models and code, or any other document following standard or ad-hoc formats. Bx are an emerging topic in a wide range of research areas, with prominent presence at top conferences in several different fields (namely databases, programming languages, software engineering, and graph transformation), but with results in one field often getting limited exposure in the others. Bx 2018 is a dedicated venue for bx in all relevant fields, and is part of a workshop series that was created in order to promote cross-disciplinary research and awareness in the area. As such, since its beginning in 2012, the workshop has rotated between venues in different fields. \nImportant Dates \n \n Paper submission: Jan. 19th, 2018 (AoE) \n Author notification: Feb. 17th, 2018 \n Camera ready: TBA (around Mar 1st, 2018) \n Workshop: Apr. 10th, 2018 \n \nPlease refer to the CFP page for details. \nPrevious Bx Workshops \n \n Bx 2017 collocated with ETAPS\u201917 \n Bx 2016 collocated with ETAPS\u201916 \n Bx 2015 collocated with STAF\u201915 \n Bx 2014 collocated with IDBT/ICDT\u201914 \n Bx 2013 collocated with ETAPS\u201913 \n Bx 2012 collocated with ETAPS\u201912 \n",
+      "Day": "2018-04-10",
+      "Items": [
+        "bx-2018-papers-an-axiomatic-basis-for-bidirectional-programming",
+        "bx-2018-papers-profunctor-optics-and-the-yoneda-lemma",
+        "bx-2018-papers-towards-sound-flexible-and-optimal-build-for-megamodels",
+        "bx-2018-papers-closing"
+      ],
+      "Key": "28fc091b-9993-4e73-b938-d8dd25f6a744",
+      "Location": "Boscolo B4 Plaza, Nice | Baie des Anges B",
+      "Time": "16:30 - 18:10",
+      "Title": "Bx 2018 - : Programming and Applications",
+      "Type": "Accepted Papers & Talks"
+    },
+    {
+      "Abstract": "Bidirectional transformations (bx) are a mechanism for maintaining the consistency of at least two related sources of information. Such sources can be relational databases, software models and code, or any other document following standard or ad-hoc formats. Bx are an emerging topic in a wide range of research areas, with prominent presence at top conferences in several different fields (namely databases, programming languages, software engineering, and graph transformation), but with results in one field often getting limited exposure in the others. Bx 2018 is a dedicated venue for bx in all relevant fields, and is part of a workshop series that was created in order to promote cross-disciplinary research and awareness in the area. As such, since its beginning in 2012, the workshop has rotated between venues in different fields. \nImportant Dates \n \n Paper submission: Jan. 19th, 2018 (AoE) \n Author notification: Feb. 17th, 2018 \n Camera ready: TBA (around Mar 1st, 2018) \n Workshop: Apr. 10th, 2018 \n \nPlease refer to the CFP page for details. \nPrevious Bx Workshops \n \n Bx 2017 collocated with ETAPS\u201917 \n Bx 2016 collocated with ETAPS\u201916 \n Bx 2015 collocated with STAF\u201915 \n Bx 2014 collocated with IDBT/ICDT\u201914 \n Bx 2013 collocated with ETAPS\u201913 \n Bx 2012 collocated with ETAPS\u201912 \n",
+      "Day": "2018-04-10",
+      "Items": [
+        "bx-2018-papers-cospans-and-symmetric-lenses",
+        "bx-2018-papers-understanding-profunctor-optics-a-representation-theorem",
+        "bx-2018-papers-bimorphic-lenses-in-compositional-game-theory"
+      ],
+      "Key": "9394fe89-8f4f-4b8a-b6fb-86a63c8cdea8",
+      "Location": "Boscolo B4 Plaza, Nice | Baie des Anges B",
+      "Time": "11:00 - 12:30",
+      "Title": "Bx 2018 - : Mathematical Foundations",
+      "Type": "Accepted Papers & Talks"
+    },
+    {
+      "Abstract": "Bidirectional transformations (bx) are a mechanism for maintaining the consistency of at least two related sources of information. Such sources can be relational databases, software models and code, or any other document following standard or ad-hoc formats. Bx are an emerging topic in a wide range of research areas, with prominent presence at top conferences in several different fields (namely databases, programming languages, software engineering, and graph transformation), but with results in one field often getting limited exposure in the others. Bx 2018 is a dedicated venue for bx in all relevant fields, and is part of a workshop series that was created in order to promote cross-disciplinary research and awareness in the area. As such, since its beginning in 2012, the workshop has rotated between venues in different fields. \nImportant Dates \n \n Paper submission: Jan. 19th, 2018 (AoE) \n Author notification: Feb. 17th, 2018 \n Camera ready: TBA (around Mar 1st, 2018) \n Workshop: Apr. 10th, 2018 \n \nPlease refer to the CFP page for details. \nPrevious Bx Workshops \n \n Bx 2017 collocated with ETAPS\u201917 \n Bx 2016 collocated with ETAPS\u201916 \n Bx 2015 collocated with STAF\u201915 \n Bx 2014 collocated with IDBT/ICDT\u201914 \n Bx 2013 collocated with ETAPS\u201913 \n Bx 2012 collocated with ETAPS\u201912 \n",
+      "Day": "2018-04-10",
+      "Items": [
+        "bx-2018-papers-opening",
+        "bx-2018-papers-confidentiality-in-the-process-of-model-driven-software-development",
+        "bx-2018-papers-multimodel-correspondence-through-inter-model-constraints",
+        "bx-2018-papers-on-the-development-of-consistent-user-interfaces"
+      ],
+      "Key": "77cc0ca9-997f-4af7-b8b5-203f70936f3c",
+      "Location": "Boscolo B4 Plaza, Nice | Baie des Anges B",
+      "Time": "08:50 - 10:30",
+      "Title": "Bx 2018 - : Model Transformation",
+      "Type": "Accepted Papers & Talks"
+    },
+    {
+      "Abstract": "Bidirectional transformations (bx) are a mechanism for maintaining the consistency of at least two related sources of information. Such sources can be relational databases, software models and code, or any other document following standard or ad-hoc formats. Bx are an emerging topic in a wide range of research areas, with prominent presence at top conferences in several different fields (namely databases, programming languages, software engineering, and graph transformation), but with results in one field often getting limited exposure in the others. Bx 2018 is a dedicated venue for bx in all relevant fields, and is part of a workshop series that was created in order to promote cross-disciplinary research and awareness in the area. As such, since its beginning in 2012, the workshop has rotated between venues in different fields. \nImportant Dates \n \n Paper submission: Jan. 19th, 2018 (AoE) \n Author notification: Feb. 17th, 2018 \n Camera ready: TBA (around Mar 1st, 2018) \n Workshop: Apr. 10th, 2018 \n \nPlease refer to the CFP page for details. \nPrevious Bx Workshops \n \n Bx 2017 collocated with ETAPS\u201917 \n Bx 2016 collocated with ETAPS\u201916 \n Bx 2015 collocated with STAF\u201915 \n Bx 2014 collocated with IDBT/ICDT\u201914 \n Bx 2013 collocated with ETAPS\u201913 \n Bx 2012 collocated with ETAPS\u201912 \n",
+      "Day": "2018-04-10",
+      "Items": [
+        "bx-2018-papers-towards-a-visual-editor-for-lens-combinators",
+        "bx-2018-papers-enhancing-the-jtl-tool-for-bidirectional-transformations",
+        "bx-2018-papers-lightweight-data-sharing-system-based-on-bidirectional-transformations"
+      ],
+      "Key": "81fc2abe-a3e3-476d-9697-c29b1ddc6d71",
+      "Location": "Boscolo B4 Plaza, Nice | Baie des Anges B",
+      "Time": "14:30 - 16:00",
+      "Title": "Bx 2018 - : Tools and Systems",
+      "Type": "Accepted Papers & Talks"
+    },
+    {
       "Abstract": "Lunch, Coffee-breaks",
       "Day": "2018-04-11",
       "Items": ["programming-2018-catering-break"],
@@ -4284,7 +4524,7 @@
       "Location": "Boscolo B4 Plaza, Nice | Lobby",
       "Time": "10:00 - 10:30",
       "Title": "Catering: Coffee Break",
-      "Type": "Accepted Papers"
+      "Type": "Catering"
     },
     {
       "Abstract": "Lunch, Coffee-breaks",
@@ -4294,7 +4534,7 @@
       "Location": "Boscolo B4 Plaza, Nice | Lobby",
       "Time": "16:00 - 16:30",
       "Title": "Catering: Coffee Break",
-      "Type": "Accepted Papers"
+      "Type": "Catering"
     },
     {
       "Abstract": "Lunch, Coffee-breaks",
@@ -4304,7 +4544,7 @@
       "Location": "Boscolo B4 Plaza, Nice | Lobby",
       "Time": "10:30 - 11:00",
       "Title": "Catering: Coffee Break",
-      "Type": "Accepted Papers"
+      "Type": "Catering"
     },
     {
       "Abstract": "Lunch, Coffee-breaks",
@@ -4314,7 +4554,7 @@
       "Location": "Boscolo B4 Plaza, Nice | Lobby",
       "Time": "10:00 - 10:30",
       "Title": "Catering: Coffee Break",
-      "Type": "Accepted Papers"
+      "Type": "Catering"
     },
     {
       "Abstract": "Lunch, Coffee-breaks",
@@ -4324,7 +4564,7 @@
       "Location": "Boscolo B4 Plaza, Nice | Lobby",
       "Time": "10:30 - 11:00",
       "Title": "Catering: Coffee Break",
-      "Type": "Accepted Papers"
+      "Type": "Catering"
     },
     {
       "Abstract": "Lunch, Coffee-breaks",
@@ -4334,7 +4574,7 @@
       "Location": "Boscolo B4 Plaza, Nice | Restaurant (Rooftop)",
       "Time": "12:00 - 13:45",
       "Title": "Catering: Lunch",
-      "Type": "Accepted Papers"
+      "Type": "Catering"
     },
     {
       "Abstract": "Lunch, Coffee-breaks",
@@ -4344,7 +4584,7 @@
       "Location": "Boscolo B4 Plaza, Nice | Lobby",
       "Time": "15:00 - 15:30",
       "Title": "Catering: Coffee Break",
-      "Type": "Accepted Papers"
+      "Type": "Catering"
     },
     {
       "Abstract": "Lunch, Coffee-breaks",
@@ -4354,7 +4594,7 @@
       "Location": "Boscolo B4 Plaza, Nice | Restaurant (Rooftop)",
       "Time": "12:00 - 13:45",
       "Title": "Catering: Lunch",
-      "Type": "Accepted Papers"
+      "Type": "Catering"
     },
     {
       "Abstract": "Lunch, Coffee-breaks",
@@ -4364,7 +4604,7 @@
       "Location": "Boscolo B4 Plaza, Nice | Lobby",
       "Time": "15:00 - 15:30",
       "Title": "Catering: Coffee Break",
-      "Type": "Accepted Papers"
+      "Type": "Catering"
     },
     {
       "Abstract": "Lunch, Coffee-breaks",
@@ -4374,7 +4614,7 @@
       "Location": "Boscolo B4 Plaza, Nice | Restaurant (Rooftop)",
       "Time": "12:30 - 14:30",
       "Title": "Catering: Lunch",
-      "Type": "Accepted Papers"
+      "Type": "Catering"
     },
     {
       "Abstract": "Lunch, Coffee-breaks",
@@ -4384,7 +4624,7 @@
       "Location": "Boscolo B4 Plaza, Nice | Lobby",
       "Time": "16:00 - 16:30",
       "Title": "Catering: Coffee Break",
-      "Type": "Accepted Papers"
+      "Type": "Catering"
     },
     {
       "Abstract": "Lunch, Coffee-breaks",
@@ -4394,7 +4634,7 @@
       "Location": "Boscolo B4 Plaza, Nice | Restaurant (Rooftop)",
       "Time": "12:30 - 14:30",
       "Title": "Catering: Lunch",
-      "Type": "Accepted Papers"
+      "Type": "Catering"
     }
   ],
   "Sponsors": "Oracle, ACM, SIGPLAN, SIGSOFT, INRIA, Université Côte d\u2019Azur, AOSA",
